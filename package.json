@@ -1,0 +1,12 @@
+{
+  "name": "wb",
+  "version": "0.0.0",
+  "description": "wb",
+  "main": "app.js",
+  "author": {
+    "name": "guillaume"
+  },
+  "dependencies": {
+    "request": "^2.74.0"
+  }
+}
