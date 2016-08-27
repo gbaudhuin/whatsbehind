@@ -57,12 +57,18 @@ var parse = function (patterns) {
 };
 
 url = 'http://www.peoleo.fr';
+url = "https://developer.mozilla.org";
 request(url, function (error, response, html) {
     // remove html comments
     html = html.replace(/<!--.*?-->/mg, "");
 
-    // First we'll check to make sure no errors occurred when making the request
-
+    var headers = [];
+    for (var h in response.headers) {
+        if (response.headers.hasOwnProperty(h)) {
+            headers[h.toLowerCase()] = response.headers[h];
+        }
+    }
+    
     if (!error) {
         var fs = require('fs');
    
@@ -99,6 +105,34 @@ request(url, function (error, response, html) {
                                     }
                                 }
                             });
+                            break;
+                        case 'meta':
+                            regexMeta = /<meta[^>]+>/ig;
+
+                            while (match = regexMeta.exec(html)) {
+                                for (meta in list.apps[app][type]) {
+                                    if (new RegExp('name=["\']' + meta + '["\']', 'i').test(match)) {
+                                        content = match.toString().match(/content=("|')([^"']+)("|')/i);
+
+                                        parse(list.apps[app].meta[meta]).forEach(function (pattern) {
+                                            if (content && content.length === 4 && pattern.regex.test(content[2])) {
+                                                console.log(app + " detected");
+                                            }
+                                        });
+                                    }
+                                }
+                            }
+                            break;
+                        case 'headers':
+                            for (header in list.apps[app].headers) {
+                                parse(list.apps[app][type][header]).forEach(function (pattern) {
+                                    
+                                    if (typeof headers[header.toLowerCase()] === 'string' && pattern.regex.test(headers[header.toLowerCase()])) {
+                                        console.log(app + " detected");
+                                    }
+
+                                });
+                            }
 
                             break;
                     }
