@@ -32,22 +32,28 @@
   <ItemGroup>
     <Compile Include="app.js" />
     <Compile Include="helper.js" />
+    <Content Include="phantom_scripts\js_env.js" />
+    <Content Include="phantom_scripts\screenshot.js" />
     <Compile Include="version.js" />
     <Content Include="package.json" />
-    <Content Include="README.md" />
     <Content Include="wappalyzer\apps.json">
       <Publish>True</Publish>
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="phantom_scripts\" />
     <Folder Include="typings\" />
     <Folder Include="typings\globals\" />
     <Folder Include="typings\globals\node\" />
+    <Folder Include="typings\globals\phantomjs\" />
+    <Folder Include="typings\globals\phantom\" />
     <Folder Include="typings\globals\request\" />
     <Folder Include="wappalyzer\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="typings\globals\node\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\phantomjs\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\phantom\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\request\index.d.ts" />
     <TypeScriptCompile Include="typings\index.d.ts" />
   </ItemGroup>
