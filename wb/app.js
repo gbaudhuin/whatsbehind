@@ -56,106 +56,19 @@ var parse = function (patterns) {
     return parsed;
 };
 
-
-var path = require('path');
-var childProcess = require('child_process');
-var phantomjs = require('phantomjs');
-var binPath = phantomjs.path;
-
 url = 'http://www.peoleo.fr';
-url = "https://developer.mozilla.org";
+//url = "https://developer.mozilla.org";
 //url = "http://drupalfr.org/";
-var childArgs = [
-    path.join(__dirname, 'phantom_scripts/js_env.js'),
-    url
-];
 
-childProcess.execFile(binPath, childArgs, function (err, stdout, stderr) {
-    var js_env = stdout.split("\n");
+var wappalyzer_wrapper = require("./wappalyzer_wrapper");
+var uri = require('url');
 
-    request(url, function (error, response, html) {
-        // remove html comments
-        html = html.replace(/<!--.*?-->/mg, "");
+var options = {
+    url: url,
+    hostname: uri.parse(url).hostname,
+    debug: false
+}
 
-        var headers = [];
-        for (var h in response.headers) {
-            if (response.headers.hasOwnProperty(h)) {
-                headers[h.toLowerCase()] = response.headers[h];
-            }
-        }
-    
-        if (!error) {
-            var fs = require('fs');
-   
-            fs.readFile('./wappalyzer/apps.json', 'utf8', function (err, data) {
-                if (err) helper.die("Error reading apps db.");
-                var list = JSON.parse(data);
-                for (app in list.apps) {
-                    for (type in list.apps[app]) {
-                        switch (type) {
-                            case 'html':
-                                parse(list.apps[app][type]).forEach(function (pattern) {
-                                    if (pattern.regex.test(html)) {
-                                        console.log(app + " detected in html");
-                                    }
-                                });
-                                break;
-                            case 'script':
-                                regexScript = new RegExp('<script[^>]+src=("|\')([^"\']+)', 'ig');
-
-                                parse(list.apps[app][type]).forEach(function (pattern) {
-                                    while (match = regexScript.exec(html)) {
-                                        if (pattern.regex.test(match[2])) {
-                                            console.log(app + ' detected in <script src="');
-                                        }
-                                    }
-                                });
-                                break;
-                            case 'meta':
-                                regexMeta = /<meta[^>]+>/ig;
-
-                                while (match = regexMeta.exec(html)) {
-                                    for (meta in list.apps[app][type]) {
-                                        if (new RegExp('name=["\']' + meta + '["\']', 'i').test(match)) {
-                                            content = match.toString().match(/content=("|')([^"']+)("|')/i);
-
-                                            parse(list.apps[app].meta[meta]).forEach(function (pattern) {
-                                                if (content && content.length === 4 && pattern.regex.test(content[2])) {
-                                                    console.log(app + " detected in meta");
-                                                }
-                                            });
-                                        }
-                                    }
-                                }
-                                break;
-                            case 'headers':
-                                for (header in list.apps[app].headers) {
-                                    parse(list.apps[app][type][header]).forEach(function (pattern) {
-                                    
-                                        if (typeof headers[header.toLowerCase()] === 'string' && pattern.regex.test(headers[header.toLowerCase()])) {
-                                            console.log(app + " detected in http headers");
-                                        }
-
-                                    });
-                                }
-
-                                break;
-                            case 'env':
-                                parse(list.apps[app][type]).forEach(function (pattern) {
-                                    for (i in js_env) {
-                                        var jsenv = js_env[i].trim();
-                                        if (pattern.regex.test(jsenv)) {
-                                            console.log(app + " detected in js env");
-                                        }
-                                    }
-                                });
-
-                                break;
-                        }
-                    }
-                }
-                var t = 0;
-            });
-        }
-    })
+wappalyzer_wrapper.detectFromUrl(options, function (err, apps, appInfo) {
+    console.log(err, apps, appInfo);
 })

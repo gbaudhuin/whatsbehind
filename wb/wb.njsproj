@@ -32,6 +32,9 @@
   <ItemGroup>
     <Compile Include="app.js" />
     <Compile Include="helper.js" />
+    <Compile Include="wappalyzer\wappalyzer.js" />
+    <Compile Include="wappalyzer\wappalyzer_ex.js" />
+    <Compile Include="wappalyzer_wrapper.js" />
     <Content Include="phantom_scripts\js_env.js" />
     <Content Include="phantom_scripts\screenshot.js" />
     <Compile Include="version.js" />
