@@ -2,7 +2,7 @@
 var Version = require('../version');
 
 describe('Class Version', function () {
-    it('should compare versions correctly', function () {
+    it('comparison functions', function () {
         var v1 = new Version("1.0");
         var v2 = new Version("2.0");
         var comp = Version.version_compare(v1, v2);

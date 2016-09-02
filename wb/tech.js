@@ -1,5 +1,6 @@
 ﻿var fs = require("fs"),
     path = require("path"),
+    request = require("request"),
     crypto = require("crypto"),
     Version = require("./version"),
     Helper = require("./helper");
@@ -111,6 +112,25 @@ Tech.prototype = {
         }
         return false;
     },
+
+    /**
+    * Converts all CRLF to LF
+    */
+    crlf2lf: function (data) {
+        var converted = new Uint8Array(data.length);
+        var j = 0;
+        for (var i = 0; i < data.length; i++) {
+            if (data[i] == 13 && i < data.length - 1 && data[i + 1] == 10) { // 13 = ascii code of lf, 10 = ascii code of cr
+                i++;
+            }
+
+            converted[j] = data[i];
+            j++;
+
+        }
+        var converted_trim = converted.slice(0, j);
+        return converted_trim;
+    }
 };
 
 // export the class
