@@ -1,18 +1,5 @@
 ﻿var Version = require('./version.js');
 var helper = require('./helper.js');
-var v1 = new Version('1.6.5.1rc');
-var v2 = new Version('1.6.5.1');
-var comp = Version.version_compare(v1, v2);
-if (comp === 0) {
-    console.log("both versions are null or equal");
-}
-else if (comp > 0) {
-    console.log("v1 > v2");
-} else console.log("v1 < v2");
-
-if (v1.isReleaseVersion())
-    console.log("release ! ");
-
 
 var request = require('request');
 
@@ -69,6 +56,10 @@ var options = {
     debug: false
 }
 
+var Tech = require("./tech");
+var tech = new Tech("wordpress");
+var a = tech.getAllVersions();
+var b = tech.getDiffFiles(new Version("2.0"));
 wappalyzer_wrapper.detectFromUrl(options, function (err, apps, appInfo) {
     console.log(err, apps, appInfo);
 })

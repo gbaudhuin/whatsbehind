@@ -32,6 +32,15 @@
   <ItemGroup>
     <Compile Include="app.js" />
     <Compile Include="helper.js" />
+    <Compile Include="tech.js" />
+    <Compile Include="ut\ut_tech.js">
+      <SubType>Code</SubType>
+      <TestFramework>Mocha</TestFramework>
+    </Compile>
+    <Compile Include="ut\ut_version.js">
+      <SubType>Code</SubType>
+      <TestFramework>Mocha</TestFramework>
+    </Compile>
     <Compile Include="wappalyzer\wappalyzer.js" />
     <Compile Include="wappalyzer\wappalyzer_ex.js" />
     <Compile Include="wappalyzer_wrapper.js" />
@@ -44,9 +53,11 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="ut\" />
     <Folder Include="phantom_scripts\" />
     <Folder Include="typings\" />
     <Folder Include="typings\globals\" />
+    <Folder Include="typings\globals\mocha\" />
     <Folder Include="typings\globals\node\" />
     <Folder Include="typings\globals\phantomjs\" />
     <Folder Include="typings\globals\phantom\" />
@@ -54,6 +65,7 @@
     <Folder Include="wappalyzer\" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="typings\globals\mocha\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\node\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\phantomjs\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\phantom\index.d.ts" />

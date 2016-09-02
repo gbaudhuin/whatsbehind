@@ -16,8 +16,8 @@ Version.version_compare = function (_prev, _cur) {
     if (_prev.value == _cur.value) return 0;
 
     // filter _prev
-    var prev = _prev.value.replace(/[_+-]/, ".");
-    prev = prev.replace(/[a-zA-Z]+/, function (match) { return "." + match + "."; });
+    var prev = _prev.value.replace(/[_+-]/g, ".");
+    prev = prev.replace(/[a-zA-Z]+/g, function (match) { return "." + match + "."; });
 
     prev = prev.replace(".alpha.", ".a.").toLowerCase();
     prev = prev.replace(".beta.", ".b.");
@@ -28,15 +28,15 @@ Version.version_compare = function (_prev, _cur) {
     }
 
     // filter _cur
-    var cur = _cur.value.replace(/[_+-]/, ".");
-    cur = cur.replace(/[a-zA-Z]+/, function (match) { return "." + match + "."; });
+    var cur = _cur.value.replace(/[_+-]/g, ".");
+    cur = cur.replace(/[a-zA-Z]+/g, function (match) { return "." + match + "."; });
 
     cur = cur.replace(".alpha.", ".a.").toLowerCase();
     cur = cur.replace(".beta.", ".b.");
     cur = cur.replace(".pl.", ".p.");
 
     if (/[^a-z0-9\.\#]+/.test(cur)) {
-        helper.die("Invalid version format \"" + _prev.value + "\". Version should only contain alphanumeric characters, '.', '#', '+', '_' and '-'.");
+        helper.die("Invalid version format \"" + _cur.value + "\". Version should only contain alphanumeric characters, '.', '#', '+', '_' and '-'.");
     }
 
     var a = ["dev", "a", "b", "rc", "#", "p"];
@@ -81,11 +81,19 @@ Version.version_compare = function (_prev, _cur) {
     return 0;
 }
 
+/**
+* Check if current version is strictly greater than another one.
+*/
+Version.prototype.GT = function (other) {
+    if (Version.version_compare(this, other) > 0) return true;
+    return false;
+}
+
 Version.prototype.isReleaseVersion = function () {
     if (!this.value) return false;
 
-    var sanitized = this.value.replace(/[_+-]/, ".");
-    sanitized = sanitized.replace(/[a-zA-Z]+/, function (match) { return "." + match + "."; });
+    var sanitized = this.value.replace(/[_+-]/g, ".");
+    sanitized = sanitized.replace(/[a-zA-Z]+/g, function (match) { return "." + match + "."; });
 
     sanitized = sanitized.replace(".alpha.", ".a.").toLowerCase();
     sanitized = sanitized.replace(".beta.", ".b.");
