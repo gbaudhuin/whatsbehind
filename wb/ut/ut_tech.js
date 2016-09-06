@@ -5,7 +5,27 @@ var Tech = require('../tech');
 var Version = require('../version');
 
 describe('Class Tech', function () {
+    it('getNumberOfCommits', function () {
+        var tech = new Tech("wordpress");
+        var commitsCount = tech.getNumberOfCommits();
+        var count = 0;
+        for (var k in commitsCount) if (commitsCount.hasOwnProperty(k)) count++;
+
+        assert.ok(count > 1900); // at time of writing, we're at least at 1900
+
+        commitsCount = tech.getNumberOfCommits(50);
+        count = 0;
+        for (var k in commitsCount) if (commitsCount.hasOwnProperty(k)) count++;
+
+        assert.ok(count == 50);
+    })
+
+    it('getPossibleVersions', function () {
+        var tech = new Tech("wordpress");
+    })
+
     it('isVersion', function (done) {
+        this.timeout(10000);// change Mocha default 2000ms timeout
         var tech = new Tech("wordpress");
 
         request({ url: "http://www.peoleo.fr", timeout: 5000 }, function (err, response, body) {
@@ -15,8 +35,12 @@ describe('Class Tech', function () {
                     tech.findRoots(response.request.uri.href, // response.request.uri contains the response uri, potentially redirected
                                     body);
                     tech.isVersion(new Version("3.8.1"), function (err, proofs) {
+                        console.log("auihiuhuihuihuihuihuih");
                         if (err) done(err);
-                        else done();
+                        else {
+                            assert.ok(proofs.length > 0);
+                            done();
+                        }
                     });
                 } else {
                     done(new Error("Http status code is not 2xx."));

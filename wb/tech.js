@@ -32,6 +32,67 @@ Tech.rootLookUps = {
 };
 
 Tech.prototype = {
+    getNumberOfCommits(max) {
+        max = typeof max !== 'undefined' ? max : 999999999;
+        var commitsCount = new Object();
+
+        var v = this.versions.length;
+        var highestCount = 0;
+        while(v--){
+            var diffs = this.getDiffFiles(this.versions[v]);
+            var i = diffs.length;
+            while (i--) {
+                var diff = diffs[i];
+                if (diff.status == "D") continue;
+                var ext = path.extname(diff.path);
+                var ext_lower = ext.toLowerCase();
+                if (!(Tech.nonInterpretableTextExtensions.indexOf(ext_lower) !== -1 || Tech.nonInterpretableOtherExtensions.indexOf(ext_lower) !== -1)) continue;
+                if (commitsCount.hasOwnProperty(diff.path)) {
+                    commitsCount[diff.path]++;
+                    if (commitsCount[diff.path] > highestCount) {
+                        highestCount = commitsCount[diff.path];
+                    }
+                }
+                else commitsCount[diff.path] = 1;
+            }
+        }
+
+        // sort in descending order
+        var commitsCountSortedPaths = [];
+        var l = commitsCount.length;
+        var currentCount = highestCount + 1;
+        var n = 0;
+        while (currentCount-- && n < max) {
+            for (var localPath in commitsCount) {
+                if (commitsCount.hasOwnProperty(localPath)) {
+                    var c = commitsCount[localPath];
+                    if (commitsCount[localPath] == currentCount) {
+                        commitsCountSortedPaths.push(localPath);
+                        n++;
+                        if (n >= max) break;
+                    }
+                }
+            }
+        }
+
+        var g = commitsCountSortedPaths.length;
+
+        return commitsCountSortedPaths;
+    },
+
+    /**
+    * Returns a list of possible detected versions. In some cases, multiple versions cannot be distinguished (most often RC versions and release version, etc.
+    * E.G. because only a few files differ and these files are interpreted code files which look the same from client side), getPossibleVersions() list them all.
+    */
+    getPossibleVersions: function () {
+        var commitsCount = this.getNumberOfCommits();
+        for (var localPath in commitsCount) {
+            if (commitsCount.hasOwnProperty(localPath)) {
+                var count = commitsCount[localPath];
+            }
+        }
+    },
+
     /**
 	* Check if website is in a specific version.
     * Algorithm only relies on files responding HTTP 2xx. As a rule of thumb, non responding files are not reliable because they don't make it possible to
@@ -210,30 +271,31 @@ Tech.prototype = {
 
     /**
     * Returns an array of files that changed in a version.
-    * Array elements are  {status, path, md5} objcts.
+    * Array elements are  {status, path, md5} objects.
     * status is M for a modified file, D for deleted file, A for added file.
     * path is file name
     * md5 is hash of file in this version (empty for D files)
     */
     getDiffFiles: function (version) {
-        if (version.value in this.diffs) { // is version data in cache ?
+        if (this.diffs.hasOwnProperty(version.value)) {// is version data in cache ?
             return this.diffs[version.value];
         }
         var ret = [];
         try {
             var data = fs.readFileSync(__dirname + "/ocassets/" + this.techname + "/versions/" + version.value + ".diff", 'utf8');
             var lines = data.split('\n');
+            
             for (var l in lines) {
-                var line = lines[l];
-                var parts = line.split('\t');
-                if (parts.length == 3) {
-                    var diffline = { "status": parts[0].trim(), "path": parts[1].trim(), "md5": parts[2].trim() };
-                } else if (parts.length == 2) {
-                    var diffline = { "status": parts[0].trim(), "path": parts[1].trim(), "md5": "" };
-                } else {
-                    console.log(parts.length);
+                if (lines.hasOwnProperty(l)) {
+                    var line = lines[l];
+                    var parts = line.split('\t');
+                    if (parts.length == 3) {
+                        var diffline = { "status": parts[0].trim(), "path": parts[1].trim(), "md5": parts[2].trim() };
+                    } else if (parts.length == 2) {
+                        var diffline = { "status": parts[0].trim(), "path": parts[1].trim(), "md5": "" };
+                    }
+                    ret.push(diffline);
                 }
-                ret.push(diffline);
             }
 
             // shuffle to avoid starting test loops in the same directory
@@ -241,12 +303,12 @@ Tech.prototype = {
             var s = [];
             var s2 = [];
             var k = 0;
-            for (var i in ret) {
-                if (ret.hasOwnProperty(i)) {
-                    var ss = crypto.createHash('md5').update(ret[i].path).digest("hex");
-                    s[ss] = ret[i];
-                    s2[k++] = ss;
-                }
+            var i = ret.length;
+            while (i--) {
+                var r = ret[i];
+                var ss = crypto.createHash('md5').update(r.path).digest("hex");
+                s[ss] = r;
+                s2[k++] = ss;
             }
             s2.sort();
             var ret2 = [];
