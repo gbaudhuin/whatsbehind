@@ -4,7 +4,36 @@ var fs = require('fs');
 var Tech = require('../tech');
 var Version = require('../version');
 
-describe('Class Tech', function() {
+describe('Class Tech', function () {
+    it('isVersion', function (done) {
+        var tech = new Tech("wordpress");
+
+        request({ url: "http://www.peoleo.fr", timeout: 5000 }, function (err, response, body) {
+            if (err) done(err);
+            else {
+                if (response.statusCode / 100 == 2) {
+                    tech.findRoots(response.request.uri.href, // response.request.uri contains the response uri, potentially redirected
+                                    body);
+                    tech.isVersion(new Version("3.8.1"), function (err, proofs) {
+                        if (err) done(err);
+                        else done();
+                    });
+                } else {
+                    done(new Error("Http status code is not 2xx."));
+                }
+            }
+        });
+    })
+
+    it('findRoots', function() {
+        var tech = new Tech("wordpress");
+        var html = fs.readFileSync(__dirname + "/data/observer_com.html", "utf8"); // observer.com (09/2016) is a good example of WordPress website with multiple roots
+        var r = tech.findRoots("http://observer.com/", html);
+        assert.ok(tech.appRoots.indexOf("http://observer.com") !== -1);
+        assert.ok(tech.appRoots.indexOf("http://s0.wp.com") !== -1);
+        assert.ok(tech.appRoots.indexOf("https://s1.wp.com") !== -1);
+    })
+
     it('getAllVersions', function() {
         var tech = new Tech("wordpress");
         var versions = tech.getAllVersions();
@@ -25,12 +54,20 @@ describe('Class Tech', function() {
         assert.ok(found, "This should succeed");
     })
 
+    it('isExactFileInOlderVersions', function () {
+        var tech = new Tech("wordpress");
+        var existed_before = tech.isExactFileInOlderVersions("readme.html", new Version("2.0"));
+        assert.ok(existed_before === false);
+    })
+
     it('isCommitedInOlderVersions', function () {
         var tech = new Tech("wordpress");
         var existed_before_2 = tech.isCommitedInOlderVersions("wp-includes/js/tinymce/themes/advanced/images/numlist.gif", new Version("2.0"));
         var existed_before_2_1 = tech.isCommitedInOlderVersions("wp-includes/js/tinymce/themes/advanced/images/numlist.gif", new Version("2.1"));
+        var existed_before_2_1_withslash = tech.isCommitedInOlderVersions("/wp-includes/js/tinymce/themes/advanced/images/numlist.gif", new Version("2.1"));
         assert.ok(existed_before_2 === false);
         assert.ok(existed_before_2_1 === true);
+        assert.ok(existed_before_2_1_withslash === true);
     })
 
     it('crlf2lf', function () {
@@ -54,25 +91,5 @@ describe('Class Tech', function() {
             }
         }
         assert.ok(same); 
-        /*
-        fs.appendFile(__dirname + "/data/test_lf.html", new Buffer(converted_trim), function (err) {
-            if (err) {
-                console.log(err);
-            } else {
-                console.log("The file was saved!");
-            }
-        });
-
-        try {
-            request({ url: "http://www.sitepoint.com", encoding: null }, function (error, response, body) {
-                var b = body.toString('utf8');
-                var ff = 999;
-            //    tech.crlf2lf("gg");
-               if (error) done(error);
-               else done();
-            });
-        } catch (e) {
-            var ff = 9;
-        }*/
     })
 })
