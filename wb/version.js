@@ -89,6 +89,30 @@ Version.prototype.GT = function (other) {
     return false;
 }
 
+/**
+* Check if current version is greater or equal to another one.
+*/
+Version.prototype.GTOE = function (other) {
+    if (Version.version_compare(this, other) >= 0) return true;
+    return false;
+}
+
+/**
+* Check if current version is strictly lesser than another one.
+*/
+Version.prototype.LT = function (other) {
+    if (Version.version_compare(this, other) < 0) return true;
+    return false;
+}
+
+/**
+* Check if current version is lesser or equal to another one.
+*/
+Version.prototype.LTOE = function (other) {
+    if (Version.version_compare(this, other) <= 0) return true;
+    return false;
+}
+
 Version.prototype.isReleaseVersion = function () {
     if (!this.value) return false;
 

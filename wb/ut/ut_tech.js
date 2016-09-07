@@ -5,40 +5,75 @@ var Tech = require('../tech');
 var Version = require('../version');
 
 describe('Class Tech', function () {
-    it('getNumberOfCommits', function () {
+    it('getHighestCommits', function () {
         var tech = new Tech("wordpress");
-        var commitsCount = tech.getNumberOfCommits();
-        var count = 0;
-        for (var k in commitsCount) if (commitsCount.hasOwnProperty(k)) count++;
+        var hc = tech.getHighestCommits();
+        assert.ok(hc.length > 1900); // at time of writing, we're at least at 1900
 
-        assert.ok(count > 1900); // at time of writing, we're at least at 1900
-
-        commitsCount = tech.getNumberOfCommits(50);
-        count = 0;
-        for (var k in commitsCount) if (commitsCount.hasOwnProperty(k)) count++;
-
-        assert.ok(count == 50);
+        hc = tech.getHighestCommits(50);
+        assert.ok(hc.length == 50);
     })
 
-    it('getPossibleVersions', function () {
+    it('getPossibleVersions', function (done) {
+        this.timeout(3600 * 1000);// change Mocha default 2000ms timeout
         var tech = new Tech("wordpress");
+       // var uri = "https://www.wordfence.com/";
+        //var uri = "http://www.starwars.com";
+        var uri = "http://www.peoleo.com";
+        request({ url: uri, timeout: 5000, rejectUnauthorized: false, requestCert: true, agent: false}, function (err, response, body) {
+            if (err) done(err);
+            else {
+                if (response.statusCode / 100 == 2) {
+                    tech.findRoots(response.request.uri.href, // response.request.uri contains the response uri, potentially redirected
+                        body);
+                    tech.getPossibleVersions(function (err, result) {
+                        if (err) done(err);
+                        else {
+                            assert.ok(result.status == "success");
+                            done();
+                        }
+                    });
+                } else {
+                    done(new Error("Http status code is not 2xx."));
+                }
+            }
+        });
     })
 
     it('isVersion', function (done) {
         this.timeout(10000);// change Mocha default 2000ms timeout
         var tech = new Tech("wordpress");
 
-        request({ url: "http://www.peoleo.fr", timeout: 5000 }, function (err, response, body) {
+        request({ url: "https://wordpress.org/", timeout: 5000, rejectUnauthorized: false, requestCert: true, agent: false }, function (err, response, body) {
             if (err) done(err);
             else {
                 if (response.statusCode / 100 == 2) {
                     tech.findRoots(response.request.uri.href, // response.request.uri contains the response uri, potentially redirected
                                     body);
-                    tech.isVersion(new Version("3.8.1"), function (err, proofs) {
-                        console.log("auihiuhuihuihuihuihuih");
+                    tech.isVersion(new Version("4.6"), function (err, result, proofs) {
                         if (err) done(err);
                         else {
-                            assert.ok(proofs.length > 0);
+                            assert.ok(result=="maybe");
+                            done();
+                        }
+                    });
+                } else {
+                    done(new Error("Http status code is not 2xx."));
+                }
+            }
+        });
+
+        tech = new Tech("wordpress");
+        request({ url: "http://www.peoleo.fr", timeout: 5000, rejectUnauthorized: false, requestCert: true, agent: false }, function (err, response, body) {
+            if (err) done(err);
+            else {
+                if (response.statusCode / 100 == 2) {
+                    tech.findRoots(response.request.uri.href, // response.request.uri contains the response uri, potentially redirected
+                        body);
+                    tech.isVersion(new Version("3.8.1"), function (err, result, proofs) {
+                        if (err) done(err);
+                        else {
+                            assert.ok(result == "success" && proofs.length > 0);
                             done();
                         }
                     });
@@ -80,7 +115,9 @@ describe('Class Tech', function () {
 
     it('isExactFileInOlderVersions', function () {
         var tech = new Tech("wordpress");
-        var existed_before = tech.isExactFileInOlderVersions("readme.html", new Version("2.0"));
+        var existed_before = tech.isExactFileInOlderVersions("wp-admin/about.php", new Version("4.6"));
+        assert.ok(existed_before === false);
+        existed_before = tech.isExactFileInOlderVersions("readme.html", new Version("2.0"));
         assert.ok(existed_before === false);
     })
 

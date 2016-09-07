@@ -13,7 +13,7 @@ var Tech = function (techname) {
     this.techname = techname;
     this.diffs = []; // diff files cache
     this.versions = this.getAllVersions();
-    this.versions_desc = this.versions.reverse();
+    this.versions_desc = this.versions.slice().reverse();
     this.rootLookup = Tech.rootLookUps[techname];
     this.appRoots = [];
 };
@@ -32,8 +32,256 @@ Tech.rootLookUps = {
 };
 
 Tech.prototype = {
-    getNumberOfCommits(max) {
-        max = typeof max !== 'undefined' ? max : 999999999;
+    /**
+    * Returns a list of possible detected versions. In some cases, multiple versions cannot be distinguished (most often RC versions and release version, etc.
+    * E.G. because only a few files differ and these files are interpreted code files which look the same from client side), getPossibleVersions() list them all.
+    */
+    getPossibleVersions: function (cb) {
+        var highestCommits = this.getHighestCommits();
+
+        var queue = [];
+        
+        var l = highestCommits.length;
+        for (var i = 0; i < l; i++)
+        {
+            var localPath = highestCommits[i];
+            var ext = path.extname(localPath);
+            var ext_lower = ext.toLowerCase();
+
+            queue.push({ "path": localPath, "ext": ext, "ext_lower": ext_lower });
+        }
+
+        var iter = queue[Symbol.iterator](); // ES6 iterator
+
+        // 1st pass function : try to detect most discriminent files to quickly reduce the number of possible versions to check.
+        // most discriminent files are the most commited ones
+        var cb_pass1_called = false;
+        var n = 0;
+        var nMatch = 0;
+        var maxVersion = null;
+        var minVersion = null;
+        var possibleVersions = [];
+        var proofs = [];
+        var cur_root = 0;
+        var o = null;
+        function pass1(_this, cb1) {
+            n++;
+            if (cur_root === 0) {
+                o = iter.next();
+
+                // stop condition : no more entries in queue
+                if (!o.value || o.done === true) {
+                    if (!cb_pass1_called) {
+                        cb_pass1_called = true; cb1(_this);
+                    }
+                    return;
+                }
+
+                o = o.value;
+            } 
+
+            o.root = _this.appRoots[cur_root];
+
+            // stop condition : enough tries.
+            if (n > 50 || nMatch > 3) {
+                if (!cb_pass1_called) {
+                    cb_pass1_called = true; cb1(_this);
+                }
+                return;
+            }
+
+            // stop condition : minVersion == maxVersion
+            if (minVersion !== null && maxVersion !== null && minVersion.value == maxVersion.value) {
+                if (!cb_pass1_called) {
+                    cb_pass1_called = true; cb1(_this);
+                }
+                return;
+            }
+
+            var _maxVersion = null;
+            var _minVersion = null;
+
+            var u = url.resolve(o.root, o.path);
+            request({ url: u, timeout: 5000, encoding: null, rejectUnauthorized: false, requestCert: true, agent: false }, function d(err, response, body) { // encoding=null to get binary content instead of text
+                if (!err
+                    && response.statusCode / 100 == 2
+                    && body != null && body != undefined
+                    && body.length > 0
+                ) {
+                    nMatch++;
+                    if (Tech.nonInterpretableTextExtensions.indexOf(o.ext_lower) !== -1)
+                        body = _this.crlf2lf(body); // normalize text files eof
+                    var md5Web = crypto.createHash('md5').update(body).digest("hex");
+
+                    var p = _this.versions.length;
+                    while (p--) {
+                        var version = _this.versions[p];
+                        var diffs = _this.getDiffFiles(version);
+                        var md5 = null;
+                        for (var d in diffs) {
+                            if (diffs.hasOwnProperty(d)) {
+                                var diff = diffs[d];
+                                if (diff.path == o.path) {
+                                    md5 = diff.md5;
+                                    break;
+                                }
+                            }
+                        }
+                        if (md5Web === md5) {
+                            if (_minVersion === null) {
+                                _minVersion = version;
+                                _maxVersion = version;
+                            }
+                            else {
+                                if (_minVersion.GT(version)) _minVersion = version;
+                                if (version.GT(_maxVersion)) _maxVersion = version;
+                            }
+                        }
+                    }
+
+                    if (_maxVersion != null) {
+                        // extend maxVersion up to the newest version (excluded) which holds a commit for the file
+                        var stopExtend = false;
+                        var p = _this.versions_desc.length;
+                        while (p--) {
+                            var version = _this.versions_desc[p];
+                            if (version.GT(_maxVersion)) {
+                                var diffs = _this.getDiffFiles(version);
+                                var md5 = null;
+                                for (var d in diffs) {
+                                    if (diffs.hasOwnProperty(d)) {
+                                        var diff = diffs[d];
+                                        if (diff.path == o.path) stopExtend = true;
+                                        if (stopExtend === true) break;
+                                    }
+                                }
+
+                                if (stopExtend === true) break;
+                                else _maxVersion = version;
+                            }
+                        }
+                    }
+
+                    if (_minVersion !== null) {
+                        if (minVersion === null) {
+                            minVersion = _minVersion;
+                            maxVersion = _maxVersion;
+                        }
+                        else {
+                            if (_minVersion.GT(minVersion)) {
+                                minVersion = _minVersion;
+                            }
+                            if (maxVersion.GT(_maxVersion)) {
+                                maxVersion = _maxVersion;
+                            }
+                        }
+
+                        // add proof
+                        var p = proofs.length;
+                        var alreadythere = false;
+                        while (p-- && alreadythere === false) {
+                            if (o.path == proofs[p].path) alreadythere = true;
+                        }
+                        if (!alreadythere) {
+                            // add diff as a proof
+                            var diffs = _this.getDiffFiles(_minVersion);
+                            var i = diffs.length;
+                            while (i--) {
+                                var diff = diffs[i];
+                                diff.root = o.root;
+                                if (diff.path == o.path) {
+                                    proofs.push(diff);
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                    cur_root = 0;
+                    pass1(_this, cb1, cur_root);// next with 1st root
+                } else {
+                    cur_root++;
+                    if (cur_root >= _this.appRoots.length) cur_root = 0;
+                    pass1(_this, cb1, cur_root);// same with another root
+                }
+            });
+        }
+        var cb_called = false;
+        var iter_versions = this.versions_desc[Symbol.iterator](); // ES6 iterator
+        var found_version = false;
+        function pass2(_this) {
+            // stop condition : minVersion == maxVersion
+            if (minVersion !== null && maxVersion !== null && minVersion.value == maxVersion.value) {
+                if (!cb_called) {
+                    cb_called = true; cb(null, { "status":"success", "versions": [minVersion.value], "proofs": proofs });
+                }
+                return;
+            }
+
+            // stop condition : version was found
+            if (found_version === true) {
+                if (!cb_called) {
+                    cb_called = true; cb(null, { "status": "success", "versions": possibleVersions, "proofs": proofs });
+                }
+                return;
+            }
+
+            o = iter_versions.next();
+
+            // stop condition : no more versions to test = failure
+            if (!o.value || o.done === true) {
+                if (!cb_called) {
+                    cb_called = true; cb(null, { "status": "fail", "versions": possibleVersions, "proofs": proofs });
+                }
+                return;
+            }
+
+            var version = o.value;
+
+            if (version.GTOE(minVersion) && version.LTOE(maxVersion)) {
+                var isRelease = true;//_this.is
+                if (isRelease) {
+                    _this.isVersion(version, function (err, result, _proofs) {
+                        if (result == "maybe") {
+                            if (possibleVersions.indexOf(version.value) === -1) possibleVersions.push(version.value);
+                        } else if (result == "success") {
+                            possibleVersions.push(version.value);
+                            var _p = _proofs.length;
+                            while (_p--) {
+                                var _proof = _proofs[_p];
+                                var p = proofs.length;
+                                var alreadythere = false;
+                                while (p-- && alreadythere === false) {
+                                    if (_proof.path == proofs[p].path) alreadythere = true;
+                                }
+                                if (!alreadythere) proofs.push(_proof);
+                            }
+                            found_version = true;
+                        } else {
+                            // any version that was still possible is not anymore
+                            possibleVersions.length = 0; // clear array
+                            proofs.length = 0;
+                        }
+
+                        pass2(_this);
+                        return;
+                    });
+                }
+            } else {
+                pass2(_this);
+            }            
+        }
+        
+        pass1(this, pass2);// chain pass1 and path2
+
+    },
+
+    /**
+     * Returns a list of all files that ever existe in the history of versions of the app.
+     * Files are sorted in descending order according to the number of commits they had in the history of versions of the application.
+     * @param limit Nth higher number of commits
+     */
+    getHighestCommits(limit) {
+        limit = typeof limit !== 'undefined' ? limit : 999999999;
         var commitsCount = new Object();
 
         var v = this.versions.length;
@@ -62,14 +310,14 @@ Tech.prototype = {
         var l = commitsCount.length;
         var currentCount = highestCount + 1;
         var n = 0;
-        while (currentCount-- && n < max) {
+        while (currentCount-- && n < limit) {
             for (var localPath in commitsCount) {
                 if (commitsCount.hasOwnProperty(localPath)) {
                     var c = commitsCount[localPath];
                     if (commitsCount[localPath] == currentCount) {
                         commitsCountSortedPaths.push(localPath);
                         n++;
-                        if (n >= max) break;
+                        if (n >= limit) break;
                     }
                 }
             }
@@ -78,19 +326,6 @@ Tech.prototype = {
         var g = commitsCountSortedPaths.length;
 
         return commitsCountSortedPaths;
-    },
-
-    /**
-    * Returns a list of possible detected versions. In some cases, multiple versions cannot be distinguished (most often RC versions and release version, etc.
-    * E.G. because only a few files differ and these files are interpreted code files which look the same from client side), getPossibleVersions() list them all.
-    */
-    getPossibleVersions: function () {
-        var commitsCount = this.getNumberOfCommits();
-        for (var localPath in commitsCount) {
-            if (commitsCount.hasOwnProperty(localPath)) {
-                var count = commitsCount[localPath];
-            }
-        }
     },
 
     /**
@@ -115,11 +350,14 @@ Tech.prototype = {
                 queue.push(o);
             }
         }
+
+        var iter = queue[Symbol.iterator](); // ES6 iterator
+
         function f(_this) {
             // stop condition : too many tests already done (= too much time, lots of requests)
             if (proofs.length <= 0 && nb_checked > 10) { 
                 if (!cb_called) {
-                    cb_called = true; cb(null, proofs);
+                    cb_called = true; cb(null, "fail", proofs);
                 }
                 return;
             }
@@ -127,20 +365,29 @@ Tech.prototype = {
             // stop condition : we have enough proofs
             if (proofs.length >= max_proofs) {
                 if (!cb_called) {
-                    cb_called = true; cb(null, proofs);
+                    cb_called = true; cb(null, "success", proofs);
                 }
                 return;
             }
 
-            var diff = queue.pop();
+            var o = iter.next();
 
-            // stop condition : no more diff
-            if (!diff) {
+            // stop condition : no more entries
+            if (!o.value || o.done === true) {
                 if (!cb_called) {
-                    cb_called = true; cb(null, proofs);
+                    cb_called = true;
+                    if (nb_checked == 0) {
+                        cb(null, "maybe", proofs);
+                    } else if (proofs.length > 0) {
+                        cb(null, "success", proofs);
+                    } else {
+                        cb(null, "fail", proofs);
+                    }
                 }
                 return;
             }
+
+            var diff = o.value;
 
             var ext = path.extname(diff.path);
             var ext_lower = ext.toLowerCase();
@@ -159,7 +406,7 @@ Tech.prototype = {
                 nb_checked++;
 
                 var u = url.resolve(diff.root, diff.path);
-                request({ url: u, timeout: 5000 }, function d(err, response, body) {
+                request({ url: u, timeout: 10000 }, function d(err, response, body) {
                     if (!err && response.statusCode / 100 == 2) {
                         // test for soft 404 false positive case
                         var u404 = diff.path.substr(0, diff.path.length - ext.length);
@@ -176,7 +423,7 @@ Tech.prototype = {
                         f(_this);// next
                     }
                 });
-            } else if (diff.status == "M" && (Tech.nonInterpretableTextExtensions.indexOf(ext_lower !== -1) || Tech.nonInterpretableOtherExtensions.indexOf(ext_lower !== -1))) {
+            } else if (diff.status == "M" && (Tech.nonInterpretableTextExtensions.indexOf(ext_lower) !== -1 || Tech.nonInterpretableOtherExtensions.indexOf(ext_lower) !== -1)) {
                 if (_this.isExactFileInOlderVersions(diff.path, version)) {// some files may change back an forth between versions
                     f(_this);// next
                     return;
@@ -329,9 +576,11 @@ Tech.prototype = {
         var diffs = this.getDiffFiles(version);
         var md5 = null;
         for (var d in diffs) {
-            if (diffs[d].path === localPath) {
-                md5 = diffs[d].md5;
-                break;
+            if (diffs.hasOwnProperty(d)) {
+                if (diffs[d].path === localPath) {
+                    md5 = diffs[d].md5;
+                    break;
+                }
             }
         }
 
