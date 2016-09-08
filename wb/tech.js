@@ -72,7 +72,7 @@ Tech.prototype = {
                 // stop condition : no more entries in queue
                 if (!o.value || o.done === true) {
                     if (!cb_pass1_called) {
-                        cb_pass1_called = true; cb1(_this);
+                        cb_pass1_called = true; cb1(_this, false);
                     }
                     return;
                 }
@@ -85,7 +85,7 @@ Tech.prototype = {
             // stop condition : enough tries.
             if (n > 50 || nMatch > 3) {
                 if (!cb_pass1_called) {
-                    cb_pass1_called = true; cb1(_this);
+                    cb_pass1_called = true; cb1(_this, false);
                 }
                 return;
             }
@@ -93,7 +93,7 @@ Tech.prototype = {
             // stop condition : minVersion == maxVersion
             if (minVersion !== null && maxVersion !== null && minVersion.value == maxVersion.value) {
                 if (!cb_pass1_called) {
-                    cb_pass1_called = true; cb1(_this);
+                    cb_pass1_called = true; cb1(_this, false);
                 }
                 return;
             }
@@ -147,7 +147,6 @@ Tech.prototype = {
                             var version = _this.versions_desc[p];
                             if (version.GT(_maxVersion)) {
                                 var diffs = _this.getDiffFiles(version);
-                                var md5 = null;
                                 for (var d in diffs) {
                                     if (diffs.hasOwnProperty(d)) {
                                         var diff = diffs[d];
@@ -208,7 +207,7 @@ Tech.prototype = {
         var cb_called = false;
         var iter_versions = this.versions_desc[Symbol.iterator](); // ES6 iterator
         var found_version = false;
-        function pass2(_this) {
+        function pass2(_this, check_non_release_versions) {
             // stop condition : minVersion == maxVersion
             if (minVersion !== null && maxVersion !== null && minVersion.value == maxVersion.value) {
                 if (!cb_called) {
@@ -220,7 +219,8 @@ Tech.prototype = {
             // stop condition : version was found
             if (found_version === true) {
                 if (!cb_called) {
-                    cb_called = true; cb(null, { "status": "success", "versions": possibleVersions, "proofs": proofs });
+                    cb_called = true;
+                    _this.checkMissedVersions(possibleVersions, proofs, cb);
                 }
                 return;
             }
@@ -229,8 +229,13 @@ Tech.prototype = {
 
             // stop condition : no more versions to test = failure
             if (!o.value || o.done === true) {
-                if (!cb_called) {
-                    cb_called = true; cb(null, { "status": "fail", "versions": possibleVersions, "proofs": proofs });
+                if (check_non_release_versions === false) {
+                    iter_versions = _this.versions_desc[Symbol.iterator](); // we need a new iterator to loop again from beginning
+                    pass2(_this, true);
+                } else {
+                    if (!cb_called) {
+                        cb_called = true; cb(null, { "status": "fail", "versions": [], "proofs": [] });
+                    }
                 }
                 return;
             }
@@ -238,9 +243,9 @@ Tech.prototype = {
             var version = o.value;
 
             if (version.GTOE(minVersion) && version.LTOE(maxVersion)) {
-                var isRelease = true;//_this.is
-                if (isRelease) {
-                    _this.isVersion(version, function (err, result, _proofs) {
+                var isRelease = version.isReleaseVersion();
+                if ((!check_non_release_versions && isRelease) || (check_non_release_versions && !isRelease)) {
+                    _this.isVersionOrNewer(version, function (err, result, _proofs) {
                         if (result == "maybe") {
                             if (possibleVersions.indexOf(version.value) === -1) possibleVersions.push(version.value);
                         } else if (result == "success") {
@@ -262,17 +267,58 @@ Tech.prototype = {
                             proofs.length = 0;
                         }
 
-                        pass2(_this);
-                        return;
+                        pass2(_this, check_non_release_versions);
                     });
+                } else {
+                    pass2(_this, check_non_release_versions);
                 }
             } else {
-                pass2(_this);
+                pass2(_this, check_non_release_versions);
             }            
         }
         
-        pass1(this, pass2);// chain pass1 and path2
+        pass1(this, pass2);// chain pass1 and pass2
+    },
 
+    /**
+     * Helper function for getPossibleVersions : in the process of 2nd pass (releae versions) followed by 3rd pass (non release versions), there exists a little possibility some versions are missed. Look for them.
+     * @param possibleVersions
+     * @param proofs
+     * @param cb
+     */
+    checkMissedVersions(possibleVersions, proofs, cb) {
+        var l = this.versions.length;
+        var _done = false;
+        function f(_this, i) {
+            // stop condition : all versions were checked or we're done
+            if (i < 0 || _done === true) {
+                cb(null, { "status": "success", "versions": possibleVersions, "proofs": proofs });
+                return;
+            }
+
+            var v = _this.versions[i];
+            if (possibleVersions.indexOf(v.value) !== -1) {
+                f(_this, i - 1);
+            }
+
+            var j = i - 1;
+            if (j >= 0) {
+                var v2 = _this.versions[j];
+                if (possibleVersions.indexOf(v2.value) === -1) {
+                    _this.isVersionOrNewer(v2, function (err, result, _proofs) {
+                        if (result == "maybe") {
+                            possibleVersions.push(v2.value);
+                        } else {
+                            _done = true;// match an older erroneous version
+                        }
+                        f(_this, i - 1);
+                    });
+                    return;
+                }
+            }
+            f(_this, i - 1);
+        }
+        f(this, l - 1);
     },
 
     /**
@@ -333,17 +379,23 @@ Tech.prototype = {
     * Algorithm only relies on files responding HTTP 2xx. As a rule of thumb, non responding files are not reliable because they don't make it possible to
     * distinguish between a file that is really not there on the server and a file that is there but is protected by the server and responds an HTTP error status.
     * Function findRoots must be called before.
+    * This function does not ensure we're in a specific version. It is optimized to be used in a descending loop.
+    * @param cb should be 'function (err, result, _proofs)'.
+    * result is 'fail' if version was not identified
+    * result is 'succss' if version was identified
+    * result is 'maybe' if we can't tell because no files could be tested : "M" code files only, "D" files only, etc. E.G : WordPress 4.6
 	*/
-    isVersion: function (version, cb) {
+    isVersionOrNewer: function (version, cb) {
         var diffs = this.getDiffFiles(version);
         var proofs = [];
-        var proofs_txt = [];
+        var path_skip = []; // list of path that were already requested or should be skipped
         var nb_checked = 0;
         var cb_called = false;
         var max_proofs = 5;
         var queue = [];
+        var site_uses_soft404 = null; // true if we detected the site uses soft 404 pages
         for (var i in diffs) {
-            // clone diffs[i] in a new oject
+            // clone diffs[i] in a new object
             var o = { "path": diffs[i].path, "md5": diffs[i].md5, "status": diffs[i].status };
             for (var j in this.appRoots) {
                 o.root = this.appRoots[j];
@@ -392,13 +444,17 @@ Tech.prototype = {
             var ext = path.extname(diff.path);
             var ext_lower = ext.toLowerCase();
             var proof_string = diff.status + " " + diff.path;
-            if (proofs_txt.indexOf(proof_string) !== -1) { // if path was already found on a another root, don't look for it anymore
+            if (path_skip.indexOf(proof_string) !== -1) { // if path was already found on a another root, don't look for it anymore
                 f(_this);// next
                 return;
             }
 
+            // "A" files and "M" files are checked differently.
+            // "A" files are checked for their presence. Works with all types of files, including interpreted files such as php or asp with by nature are never returned by web servers.
+            // "M" files are checked for their presence and checksum. Interpreted or code files can't be used here.
             if (diff.status == "A") {
                 if (_this.isCommitedInOlderVersions(diff.path, version)) {
+                    path_skip.push(proof_string);
                     f(_this);// next
                     return;
                 }
@@ -408,23 +464,32 @@ Tech.prototype = {
                 var u = url.resolve(diff.root, diff.path);
                 request({ url: u, timeout: 10000 }, function d(err, response, body) {
                     if (!err && response.statusCode / 100 == 2) {
-                        // test for soft 404 false positive case
-                        var u404 = diff.path.substr(0, diff.path.length - ext.length);
-                        u404 = url.resolve(diff.root, u404 + "d894tgd1" + ext); // random non existant url
+                        if (site_uses_soft404 === null) {
+                            // test for soft 404 false positive case
+                            var u404 = diff.path.substr(0, diff.path.length - ext.length);
+                            u404 = url.resolve(diff.root, u404 + "d894tgd1" + ext); // random non existing url
 
-                        request({ url: u404, timeout: 5000 }, function d(err2, response2, body2) {
-                            if (!err2 && response2.statusCode / 100 !== 2) {
-                                proofs.push(diff);
-                                proofs_txt.push(proof_string);
-                            }
-                            f(_this);// next
-                        });
-                    } else {
-                        f(_this);// next
+                            request({ url: u404, timeout: 5000, rejectUnauthorized: false, requestCert: true, agent: false }, function d(err2, response2, body2) {
+                                if (!err2 && response2.statusCode / 100 != 2) {
+                                    proofs.push(diff);
+                                    path_skip.push(proof_string);
+                                    if (response2.statusCode == 404) site_uses_soft404 = false;
+                                } else if (!err2 && response2.statusCode / 100 == 2) {
+                                    site_uses_soft404 = true;
+                                }
+                                f(_this);// next
+                            });
+                            return;
+                        } else if (site_uses_soft404 === false) { // we're sure we're not on a soft 404. The file is there
+                            proofs.push(diff);
+                            path_skip.push(proof_string);
+                        }
                     }
+                    f(_this);// next
                 });
             } else if (diff.status == "M" && (Tech.nonInterpretableTextExtensions.indexOf(ext_lower) !== -1 || Tech.nonInterpretableOtherExtensions.indexOf(ext_lower) !== -1)) {
                 if (_this.isExactFileInOlderVersions(diff.path, version)) {// some files may change back an forth between versions
+                    path_skip.push(proof_string);
                     f(_this);// next
                     return;
                 }
@@ -432,20 +497,41 @@ Tech.prototype = {
                 nb_checked++;
 
                 var u = url.resolve(diff.root, diff.path);
-                request({ url: u, timeout: 5000, encoding:null }, function d(err, response, body) { // encoding=null to get binary content instead of text
+                request({ url: u, timeout: 5000, encoding: null, rejectUnauthorized: false, requestCert: true, agent: false }, function d(err, response, body) { // encoding=null to get binary content instead of text
                     if (!err
                         && response.statusCode / 100 == 2
                         && body != null && body != undefined
                         && body.length > 0
                     ) {
+                        // no need to test for soft 404 as we do for A files : for M files, we compare page md5 with diff.md5
+
                         if (Tech.nonInterpretableTextExtensions.indexOf(ext_lower) !== -1)
                             body = _this.crlf2lf(body); // normalize text files eof
                         var md5 = crypto.createHash('md5').update(body).digest("hex");
                         if (diff.md5 === md5) {
                             proofs.push(diff);
-                            proofs_txt.push(proof_string);
+                            path_skip.push(proof_string);  // file found. don't look for it anymore in other roots.
+                        } else {
+                            if (site_uses_soft404 === null) {
+                                // test for soft 404
+                                var u404 = diff.path.substr(0, diff.path.length - ext.length);
+                                u404 = url.resolve(diff.root, u404 + "d894tgd1" + ext); // random non existing url
+
+                                request({ url: u404, timeout: 5000, rejectUnauthorized: false, requestCert: true, agent: false }, function d(err2, response2, body2) {
+                                    if (!err2 && response2.statusCode / 100 === 4) {
+                                        site_uses_soft404 = false;
+                                    } else {
+                                        site_uses_soft404 = true;
+                                    }
+                                    f(_this);// next
+                                });
+                                return;
+                            } else if (site_uses_soft404 === false) {
+                                // we're not on an error page : the file exists on the site but is not in the version we're looking for. don't look for it anymore in other roots.
+                                path_skip.push(proof_string); 
+                            }
                         }
-                    } 
+                    }
 
                     f(_this);// next
                 });

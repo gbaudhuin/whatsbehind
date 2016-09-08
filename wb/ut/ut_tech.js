@@ -19,7 +19,8 @@ describe('Class Tech', function () {
         var tech = new Tech("wordpress");
        // var uri = "https://www.wordfence.com/";
         //var uri = "http://www.starwars.com";
-        var uri = "http://www.peoleo.com";
+      //  var uri = "http://www.peoleo.com";
+        var uri = "https://wordpress.org";
         request({ url: uri, timeout: 5000, rejectUnauthorized: false, requestCert: true, agent: false}, function (err, response, body) {
             if (err) done(err);
             else {
@@ -40,7 +41,30 @@ describe('Class Tech', function () {
         });
     })
 
-    it('isVersion', function (done) {
+    it('checkMissedVersions', function (done) {
+        this.timeout(3600 * 1000);// change Mocha default 2000ms timeout
+        var tech = new Tech("wordpress");
+        request({ url: "https://wordpress.org/", timeout: 5000, rejectUnauthorized: false, requestCert: true, agent: false }, function (err, response, body) {
+            if (err) done(err);
+            else {
+                if (response.statusCode / 100 == 2) {
+                    tech.findRoots(response.request.uri.href, // response.request.uri contains the response uri, potentially redirected
+                        body);
+                    tech.checkMissedVersions([new Version("4.6")], [], function (err, result) {
+                        if (err) done(err);
+                        else {
+                            assert.ok(result.status == "success");
+                            done();
+                        }
+                    });
+                } else {
+                    done(new Error("Http status code is not 2xx."));
+                }
+            }
+        });
+    })
+
+    it('isVersionOrNewer', function (done) {
         this.timeout(10000);// change Mocha default 2000ms timeout
         var tech = new Tech("wordpress");
 
@@ -50,30 +74,10 @@ describe('Class Tech', function () {
                 if (response.statusCode / 100 == 2) {
                     tech.findRoots(response.request.uri.href, // response.request.uri contains the response uri, potentially redirected
                                     body);
-                    tech.isVersion(new Version("4.6"), function (err, result, proofs) {
+                    tech.isVersionOrNewer(new Version("4.6"), function (err, result, proofs) {
                         if (err) done(err);
                         else {
                             assert.ok(result=="maybe");
-                            done();
-                        }
-                    });
-                } else {
-                    done(new Error("Http status code is not 2xx."));
-                }
-            }
-        });
-
-        tech = new Tech("wordpress");
-        request({ url: "http://www.peoleo.fr", timeout: 5000, rejectUnauthorized: false, requestCert: true, agent: false }, function (err, response, body) {
-            if (err) done(err);
-            else {
-                if (response.statusCode / 100 == 2) {
-                    tech.findRoots(response.request.uri.href, // response.request.uri contains the response uri, potentially redirected
-                        body);
-                    tech.isVersion(new Version("3.8.1"), function (err, result, proofs) {
-                        if (err) done(err);
-                        else {
-                            assert.ok(result == "success" && proofs.length > 0);
                             done();
                         }
                     });
