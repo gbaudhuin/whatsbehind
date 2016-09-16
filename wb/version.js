@@ -113,6 +113,14 @@ Version.prototype.LTOE = function (other) {
     return false;
 }
 
+/**
+* Check if current version is equal to another one.
+*/
+Version.prototype.EQ = function (other) {
+    if (Version.version_compare(this, other) === 0) return true;
+    return false;
+}
+
 Version.prototype.isReleaseVersion = function () {
     if (!this.value) return false;
 

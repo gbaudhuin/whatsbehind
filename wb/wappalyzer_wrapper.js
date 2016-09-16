@@ -6,6 +6,7 @@
 var request = require('request');
 var fs = require('fs');
 var path = require('path');
+var mongo = require('mongodb').MongoClient;
 
 exports.detectFromUrl = function (options, cb) {
 
@@ -27,7 +28,7 @@ exports.detectFromUrl = function (options, cb) {
 };
 
 function getHTMLFromUrl(url, cb) {
-    request(url, function (error, response, body) {
+    request({url:url, timeout: 5000, rejectUnauthorized: false, requestCert: true, agent: false}, function (error, response, body) {
         if (!error && response.statusCode == 200) {
             var childProcess = require('child_process');
             var phantomjs = require('phantomjs');
@@ -46,7 +47,7 @@ function getHTMLFromUrl(url, cb) {
 
                 var data = {
                     html: body,
-                    url: url,
+                    url: response.request.uri.href, // response.request.uri contains the response uri, potentially redirected
                     headers: response,
                     env: js_env
                 };
@@ -72,7 +73,7 @@ function runWappalyzer(options, data, cb) {
     var wappalyzer = require('./wappalyzer/wappalyzer_ex').wappalyzer;
     getAppsJson(function (err, apps) {
         var w = wappalyzer;
-        
+
         w.driver = {
             log: function (args) {
                 if (debug) {
@@ -96,10 +97,17 @@ function runWappalyzer(options, data, cb) {
                     }
                 }
                 cb(null, detectedApps, w.detected[url]);
-            }
+            },
+            storeInDb: function (data) {
+                mongo.connect("mongodb://127.0.0.1:27117/whatsbehind", function (error, db) {
+                    if (error) return;
+
+                    db.collection("scans").insert(data, null);
+                });
+            },
         };
         w.init();
         w.detected = [];
-        w.analyze(options.hostname, options.url, data);
+        w.analyze(options.hostname, data.url, data);
     });
 }

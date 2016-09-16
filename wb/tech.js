@@ -23,20 +23,25 @@ Tech.nonInterpretableOtherExtensions = [".png", ".jpg", ".gif", ".ico"]; // un-i
 
 var rgxRootUrl = '(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})';
 Tech.rootLookUps = {
-    "wordpress": [
+    "WordPress": [
         new RegExp("(href|src)\\s*=\\s*[\\\"\\']((" + rgxRootUrl + ")?[\\/\\w \\.-]*?)\/wp-content\/(themes|plugins)/", "g"),
         new RegExp("(href|src)\\s*=\\s*[\\\"\\']((" + rgxRootUrl + ")?[\\/\\w \\.-]*?)/wp-includes/", "g"),
         new RegExp("(href|src)\\s*=\\s*[\\\"\\']((" + rgxRootUrl + ")?[\\/\\w \\.-]*?)/wp-admin/", "g")],
-    "drupal": [
+    "Drupal": [
         new RegExp("(href|src)\\s*=\\s*[\\\"\\']((" + rgxRootUrl + ")?[\\/\\w \\.-]*?)/sites/(all|default)/", "g")]
 };
+
+/**
+ * Array of techs managed par tech. Names match the ones in appalayzer/apps.json if they exist (case sensitive).
+ */
+Tech.allTechs = ["WordPress", "Drupal"];
 
 Tech.prototype = {
     /**
     * Returns a list of possible detected versions. In some cases, multiple versions cannot be distinguished (most often RC versions and release version, etc.
-    * E.G. because only a few files differ and these files are interpreted code files which look the same from client side), getPossibleVersions() list them all.
+    * E.G. because only a few files differ and these files are interpreted code files which look the same from client side), deepScan() list them all.
     */
-    getPossibleVersions: function (cb) {
+    deepScan: function (cb) {
         var highestCommits = this.getHighestCommits();
 
         var queue = [];
@@ -101,10 +106,13 @@ Tech.prototype = {
             var _maxVersion = null;
             var _minVersion = null;
 
-            var u = url.resolve(o.root, o.path);
+            var u = o.root + "/" + o.path;
+            if (o.path == "wp-admin/js/common.js") {
+                var ggg = 9;
+            }
             request({ url: u, timeout: 5000, encoding: null, rejectUnauthorized: false, requestCert: true, agent: false }, function d(err, response, body) { // encoding=null to get binary content instead of text
                 if (!err
-                    && response.statusCode / 100 == 2
+                    && (response.statusCode == 200 || response.statusCode == 206)
                     && body != null && body != undefined
                     && body.length > 0
                 ) {
@@ -220,7 +228,8 @@ Tech.prototype = {
             if (found_version === true) {
                 if (!cb_called) {
                     cb_called = true;
-                    _this.checkMissedVersions(possibleVersions, proofs, cb);
+                    //_this.checkMissedVersions(possibleVersions, proofs, cb);
+                    cb_called = true; cb(null, { "status": "success", "versions": possibleVersions, "proofs": proofs });
                 }
                 return;
             }
@@ -229,14 +238,14 @@ Tech.prototype = {
 
             // stop condition : no more versions to test = failure
             if (!o.value || o.done === true) {
-                if (check_non_release_versions === false) {
-                    iter_versions = _this.versions_desc[Symbol.iterator](); // we need a new iterator to loop again from beginning
-                    pass2(_this, true);
-                } else {
+               // if (check_non_release_versions === false) {
+                //    iter_versions = _this.versions_desc[Symbol.iterator](); // we need a new iterator to loop again from beginning
+               //     pass2(_this, true);
+               // } else {
                     if (!cb_called) {
                         cb_called = true; cb(null, { "status": "fail", "versions": [], "proofs": [] });
                     }
-                }
+               // }
                 return;
             }
 
@@ -244,7 +253,7 @@ Tech.prototype = {
 
             if (version.GTOE(minVersion) && version.LTOE(maxVersion)) {
                 var isRelease = version.isReleaseVersion();
-                if ((!check_non_release_versions && isRelease) || (check_non_release_versions && !isRelease)) {
+                //if ((!check_non_release_versions && isRelease) || (check_non_release_versions && !isRelease)) {
                     _this.isVersionOrNewer(version, function (err, result, _proofs) {
                         if (result == "maybe") {
                             if (possibleVersions.indexOf(version.value) === -1) possibleVersions.push(version.value);
@@ -269,9 +278,9 @@ Tech.prototype = {
 
                         pass2(_this, check_non_release_versions);
                     });
-                } else {
-                    pass2(_this, check_non_release_versions);
-                }
+                //} else {
+                //    pass2(_this, check_non_release_versions);
+                //}
             } else {
                 pass2(_this, check_non_release_versions);
             }            
@@ -281,7 +290,7 @@ Tech.prototype = {
     },
 
     /**
-     * Helper function for getPossibleVersions : in the process of 2nd pass (releae versions) followed by 3rd pass (non release versions), there exists a little possibility some versions are missed. Look for them.
+     * Helper function for deepScan : in the process of 2nd pass (releae versions) followed by 3rd pass (non release versions), there exists a little possibility some versions are missed. Look for them.
      * @param possibleVersions
      * @param proofs
      * @param cb
@@ -391,7 +400,7 @@ Tech.prototype = {
         var path_skip = []; // list of path that were already requested or should be skipped
         var nb_checked = 0;
         var cb_called = false;
-        var max_proofs = 5;
+        var max_proofs = 1;
         var queue = [];
         var site_uses_soft404 = null; // true if we detected the site uses soft 404 pages
         for (var i in diffs) {
@@ -402,12 +411,16 @@ Tech.prototype = {
                 queue.push(o);
             }
         }
-
+        /*
+        if (version.value == "4.5.3") {
+            var r = 9;
+        }
+        */
         var iter = queue[Symbol.iterator](); // ES6 iterator
 
         function f(_this) {
             // stop condition : too many tests already done (= too much time, lots of requests)
-            if (proofs.length <= 0 && nb_checked > 10) { 
+            if (proofs.length <= 0 && nb_checked > 50) { 
                 if (!cb_called) {
                     cb_called = true; cb(null, "fail", proofs);
                 }
@@ -450,7 +463,7 @@ Tech.prototype = {
             }
 
             // "A" files and "M" files are checked differently.
-            // "A" files are checked for their presence. Works with all types of files, including interpreted files such as php or asp with by nature are never returned by web servers.
+            // "A" files are checked for their presence. Works with all types of files, including interpreted files such as php or asp witch are never returned by web servers.
             // "M" files are checked for their presence and checksum. Interpreted or code files can't be used here.
             if (diff.status == "A") {
                 if (_this.isCommitedInOlderVersions(diff.path, version)) {
@@ -461,20 +474,20 @@ Tech.prototype = {
 
                 nb_checked++;
 
-                var u = url.resolve(diff.root, diff.path);
+                var u = diff.root + "/" + diff.path;
                 request({ url: u, timeout: 10000 }, function d(err, response, body) {
-                    if (!err && response.statusCode / 100 == 2) {
+                    if (!err && (response.statusCode == 200 || response.statusCode == 206)) {
                         if (site_uses_soft404 === null) {
                             // test for soft 404 false positive case
                             var u404 = diff.path.substr(0, diff.path.length - ext.length);
-                            u404 = url.resolve(diff.root, u404 + "d894tgd1" + ext); // random non existing url
+                            u404 = diff.root + "/" + u404 + "d894tgd1" + ext; // random non existing url
 
                             request({ url: u404, timeout: 5000, rejectUnauthorized: false, requestCert: true, agent: false }, function d(err2, response2, body2) {
-                                if (!err2 && response2.statusCode / 100 != 2) {
+                                if (!err2 && response2.statusCode == 404) {
                                     proofs.push(diff);
                                     path_skip.push(proof_string);
-                                    if (response2.statusCode == 404) site_uses_soft404 = false;
-                                } else if (!err2 && response2.statusCode / 100 == 2) {
+                                    site_uses_soft404 = false;
+                                } else if (!err2 && (response2.statusCode == 200 || response2.statusCode == 206)) {
                                     site_uses_soft404 = true;
                                 }
                                 f(_this);// next
@@ -496,10 +509,10 @@ Tech.prototype = {
 
                 nb_checked++;
 
-                var u = url.resolve(diff.root, diff.path);
+                var u = diff.root + "/" + diff.path;
                 request({ url: u, timeout: 5000, encoding: null, rejectUnauthorized: false, requestCert: true, agent: false }, function d(err, response, body) { // encoding=null to get binary content instead of text
                     if (!err
-                        && response.statusCode / 100 == 2
+                        && (response.statusCode == 200 || response.statusCode == 206)
                         && body != null && body != undefined
                         && body.length > 0
                     ) {
@@ -515,10 +528,10 @@ Tech.prototype = {
                             if (site_uses_soft404 === null) {
                                 // test for soft 404
                                 var u404 = diff.path.substr(0, diff.path.length - ext.length);
-                                u404 = url.resolve(diff.root, u404 + "d894tgd1" + ext); // random non existing url
+                                u404 = diff.root + "/" + u404 + "d894tgd1" + ext; // random non existing url
 
                                 request({ url: u404, timeout: 5000, rejectUnauthorized: false, requestCert: true, agent: false }, function d(err2, response2, body2) {
-                                    if (!err2 && response2.statusCode / 100 === 4) {
+                                    if (!err2 && response2.statusCode == 404) {
                                         site_uses_soft404 = false;
                                     } else {
                                         site_uses_soft404 = true;

@@ -8,6 +8,10 @@
  * License: GPLv3 http://www.gnu.org/licenses/gpl-3.0.txt
  */
 
+var Tech = require('../tech');
+var Version = require('../version');
+var Async = require('async');
+
 var wappalyzer = (function () {
     //'use strict';
 
@@ -22,6 +26,7 @@ var wappalyzer = (function () {
         this.excludes = [];
         this.version = '';
         this.versions = [];
+        this.cats = [];
     };
 
     Application.prototype = {
@@ -68,37 +73,68 @@ var wappalyzer = (function () {
         setDetected: function (pattern, type, value, key) {
             this.detected = true;
 
-            // Set confidence level
-            this.confidence[type + ' ' + (key ? key + ' ' : '') + pattern.regex] = pattern.confidence ? pattern.confidence : 100;
+            if (type == "file") { // detected by Tech
+                for (v in value) {
+                    var fileinfo = value[v];
+                    var uri = value.root + "/" + value.url;
+                    this.confidence[type + ' ' + uri] = value.status;
+                }
 
-            // Detect version number
-            if (pattern.version) {
-                var
-                    version = pattern.version,
-                    matches = pattern.regex.exec(value);
+                // get most probable version among pattern.version. When type == "file", pattern.version is an array
+                var maxVersion = null;
+                var l = pattern.version.length;
+                while (l--) { // take max release version, unless no release version detected.
+                    if (!maxVersion) maxVersion = pattern.version[l];
+                    else {
+                        var v = pattern.version[l];
+                        var v1 = new Version(maxVersion);
+                        var v2 = new Version(v);
+                        if (v1.isReleaseVersion() === true) {
+                            if (v2.isReleaseVersion() === true) {
+                                if (v2.GT(v1)) maxVersion = v;
+                            }
+                        } else {
+                            if (v2.isReleaseVersion() === true) {
+                                maxVersion = v;
+                            } else {
+                                if (v2.GT(v1)) maxVersion = v;
+                            }
+                        }
+                    }
+                }
 
-                if (matches) {
-                    matches.forEach(function (match, i) {
-                        // Parse ternary operator
-                        var ternary = new RegExp('\\\\' + i + '\\?([^:]+):(.*)$').exec(version);
+                this.version = maxVersion;
+                this.versions = pattern.version; // unlike for other types, these are _possible_ versions. only one is really there.
+            } else {
+                this.confidence[type + ' ' + (key ? key + ' ' : '') + pattern.regex] = pattern.confidence ? pattern.confidence : 100;
+                if (pattern.version) {// Detect version number
+                    var
+                        version = pattern.version,
+                        matches = pattern.regex.exec(value);
 
-                        if (ternary && ternary.length === 3) {
-                            w.log({ match: match, i: i, ternary: ternary });
+                    if (matches) {
+                        matches.forEach(function (match, i) {
+                            // Parse ternary operator
+                            var ternary = new RegExp('\\\\' + i + '\\?([^:]+):(.*)$').exec(version);
 
-                            version = version.replace(ternary[0], match ? ternary[1] : ternary[2]);
+                            if (ternary && ternary.length === 3) {
+                                w.log({ match: match, i: i, ternary: ternary });
 
-                            w.log({ version: version });
+                                version = version.replace(ternary[0], match ? ternary[1] : ternary[2]);
+
+                                w.log({ version: version });
+                            }
+
+                            // Replace back references
+                            version = version.replace(new RegExp('\\\\' + i, 'g'), match ? match : '');
+                        });
+
+                        if (version && this.versions.indexOf(version) < 0) {
+                            this.versions.push(version);
                         }
 
-                        // Replace back references
-                        version = version.replace(new RegExp('\\\\' + i, 'g'), match ? match : '');
-                    });
-
-                    if (version && this.versions.indexOf(version) < 0) {
-                        this.versions.push(version);
+                        this.getVersion();
                     }
-
-                    this.getVersion();
                 }
             }
         }
@@ -249,7 +285,8 @@ var wappalyzer = (function () {
                 apps = {},
                 excludes = [],
                 checkImplies = true;
-
+            var scanDate = new Date();
+           // driver('storeInDb', { url: url, progress: "start", scanDate: scanDate, lastUpdate: scanDate, detected: null });
             w.log('w.analyze');
 
             // Remove hash from URL
@@ -268,13 +305,14 @@ var wappalyzer = (function () {
             for (app in w.apps) {
                 // Exit loop after one second to prevent CPU hogging
                 // Remaining patterns will not be evaluated
-                if (profiler.timedOut) {
+                /*if (profiler.timedOut) {
                     w.log('Timeout, exiting loop');
 
                     break;
                 }
-
+                */
                 apps[app] = w.detected[url] && w.detected[url][app] ? w.detected[url][app] : new Application(app);
+                apps[app].cats = w.apps[app].cats;
 
                 for (type in w.apps[app]) {
                     switch (type) {
@@ -386,139 +424,215 @@ var wappalyzer = (function () {
             w.log('[ profiler ] Tested ' + profiler.regexCount + ' regular expressions in ' + ((new Date().getTime() - profiler.startTime) / 1000) + 's');
             w.log('[ profiler ] Slowest pattern took ' + (profiler.slowest.duration / 1000) + 's: ' + profiler.slowest.app + ' | ' + profiler.slowest.type + ' | ' + profiler.slowest.regex);
 
-            for (app in apps) {
-                if (!apps[app].detected) {
-                    delete apps[app];
-                }
-            }
-
-            // Exclude app in detected apps only
-            for (app in apps) {
-                if (w.apps[app].excludes) {
-                    if (typeof w.apps[app].excludes === 'string') {
-                        w.apps[app].excludes = [w.apps[app].excludes];
-                    }
-
-                    w.apps[app].excludes.forEach(function (excluded) {
-                        excludes.push(excluded);
-                    });
-                }
-            }
-
-            // Remove excluded applications
-            for (app in apps) {
-                if (excludes.indexOf(app) !== -1) {
-                    delete apps[app];
-                }
-            }
-
-            // Implied applications
-            // Run several passes as implied apps may imply other apps
-            while (checkImplies) {
-                checkImplies = false;
-
+            function f() {
                 for (app in apps) {
-                    confidence = apps[app].confidence;
+                    if (!apps[app].detected) {
+                        delete apps[app];
+                    }
+                }
 
-                    if (w.apps[app] && w.apps[app].implies) {
-                        // Cast strings to an array
-                        if (typeof w.apps[app].implies === 'string') {
-                            w.apps[app].implies = [w.apps[app].implies];
+                // Exclude app in detected apps only
+                for (app in apps) {
+                    if (w.apps[app].excludes) {
+                        if (typeof w.apps[app].excludes === 'string') {
+                            w.apps[app].excludes = [w.apps[app].excludes];
                         }
 
-                        w.apps[app].implies.forEach(function (implied) {
-                            implied = parse(implied)[0];
-
-                            if (!w.apps[implied.string]) {
-                                w.log('Implied application ' + implied.string + ' does not exist', 'warn');
-
-                                return;
-                            }
-
-                            if (!apps.hasOwnProperty(implied.string)) {
-                                apps[implied.string] = w.detected[url] && w.detected[url][implied.string] ? w.detected[url][implied.string] : new Application(implied.string, true);
-
-                                checkImplies = true;
-                            }
-
-                            // Apply app confidence to implied app
-                            for (id in confidence) {
-                                apps[implied.string].confidence[id + ' implied by ' + app] = confidence[id] * (implied.confidence ? implied.confidence / 100 : 1);
-                            }
+                        w.apps[app].excludes.forEach(function (excluded) {
+                            excludes.push(excluded);
                         });
                     }
                 }
-            }
 
-            w.log(Object.keys(apps).length + ' apps detected: ' + Object.keys(apps).join(', ') + ' on ' + url);
-
-            // Keep history of detected apps
-            for (app in apps) {
-                confidence = apps[app].confidence;
-                version = apps[app].version;
-
-                // Per URL
-                w.detected[url][app] = apps[app];
-
-                for (id in confidence) {
-                    w.detected[url][app].confidence[id] = confidence[id];
+                // Remove excluded applications
+                for (app in apps) {
+                    if (excludes.indexOf(app) !== -1) {
+                        delete apps[app];
+                    }
                 }
 
-                if (w.detected[url][app].getConfidence() >= 100) {
-                    // Per hostname
-                    if (/(www.)?((.+?)\.(([a-z]{2,3}\.)?[a-z]{2,6}))$/.test(hostname) && !/((local|dev(elopment)?|stag(e|ing)?|test(ing)?|demo(shop)?|admin|google|cache)\.|\/admin|\.local)/.test(url)) {
-                        if (!w.ping.hostnames.hasOwnProperty(hostname)) {
-                            w.ping.hostnames[hostname] = { applications: {}, meta: {} };
+                // Implied applications
+                // Run several passes as implied apps may imply other apps
+                while (checkImplies) {
+                    checkImplies = false;
+
+                    for (app in apps) {
+                        confidence = apps[app].confidence;
+
+                        if (w.apps[app] && w.apps[app].implies) {
+                            // Cast strings to an array
+                            if (typeof w.apps[app].implies === 'string') {
+                                w.apps[app].implies = [w.apps[app].implies];
+                            }
+
+                            w.apps[app].implies.forEach(function (implied) {
+                                implied = parse(implied)[0];
+
+                                if (!w.apps[implied.string]) {
+                                    w.log('Implied application ' + implied.string + ' does not exist', 'warn');
+
+                                    return;
+                                }
+
+                                if (!apps.hasOwnProperty(implied.string)) {
+                                    apps[implied.string] = w.detected[url] && w.detected[url][implied.string] ? w.detected[url][implied.string] : new Application(implied.string, true);
+
+                                    checkImplies = true;
+                                }
+
+                                // Apply app confidence to implied app
+                                for (id in confidence) {
+                                    apps[implied.string].confidence[id + ' implied by ' + app] = confidence[id] * (implied.confidence ? implied.confidence / 100 : 1);
+                                }
+
+                                // set categories
+                                apps[implied.string].cats = w.apps[implied.string].cats;
+                            });
+                        }
+                    }
+                }
+
+                w.log(Object.keys(apps).length + ' apps detected: ' + Object.keys(apps).join(', ') + ' on ' + url);
+
+                // Keep history of detected apps
+                for (app in apps) {
+                    confidence = apps[app].confidence;
+                    version = apps[app].version;
+
+                    // Per URL
+                    w.detected[url][app] = apps[app];
+
+                    for (id in confidence) {
+                        w.detected[url][app].confidence[id] = confidence[id];
+                    }
+                    /*
+                    if (w.detected[url][app].getConfidence() >= 100) {
+                        // Per hostname
+                        if (/(www.)?((.+?)\.(([a-z]{2,3}\.)?[a-z]{2,6}))$/.test(hostname) && !/((local|dev(elopment)?|stag(e|ing)?|test(ing)?|demo(shop)?|admin|google|cache)\.|\/admin|\.local)/.test(url)) {
+                            if (!w.ping.hostnames.hasOwnProperty(hostname)) {
+                                w.ping.hostnames[hostname] = { applications: {}, meta: {} };
+                            }
+
+                            if (!w.ping.hostnames[hostname].applications.hasOwnProperty(app)) {
+                                w.ping.hostnames[hostname].applications[app] = { hits: 0 };
+                            }
+
+                            w.ping.hostnames[hostname].applications[app].hits++;
+
+                            if (version) {
+                                w.ping.hostnames[hostname].applications[app].version = version;
+                            }
+                        } else {
+                            w.log('Ignoring hostname "' + hostname + '"');
+                        }
+                    }*/
+                }
+                /*
+                // Additional information
+                if (w.ping.hostnames.hasOwnProperty(hostname)) {
+                    if (typeof data.html === 'string' && data.html) {
+                        match = data.html.match(/<html[^>]*[: ]lang="([a-z]{2}((-|_)[A-Z]{2})?)"/i);
+
+                        if (match && match.length) {
+                            w.ping.hostnames[hostname].meta['language'] = match[1];
                         }
 
-                        if (!w.ping.hostnames[hostname].applications.hasOwnProperty(app)) {
-                            w.ping.hostnames[hostname].applications[app] = { hits: 0 };
+                        regexMeta = /<meta[^>]+>/ig;
+
+                        while (match = regexMeta.exec(data.html)) {
+                            if (!match.length) {
+                                continue;
+                            }
+
+                            match = match[0].match(/name="(author|copyright|country|description|keywords)"[^>]*content="([^"]+)"/i);
+
+                            if (match && match.length === 3) {
+                                w.ping.hostnames[hostname].meta[match[1]] = match[2];
+                            }
                         }
+                    }
+                }
 
-                        w.ping.hostnames[hostname].applications[app].hits++;
+                if (Object.keys(w.ping.hostnames).length >= 20 || w.adCache.length >= 40) {
+                    driver('ping');
+                }*/
+                var data = [];
+                for (app in w.detected[url]) {
+                    var a = w.detected[url][app];
+                    var confidences = [];
+                    for (c in a.confidence) {
+                        if (a.confidence.hasOwnProperty(c)) {
+                            if (a.confidence[c] == 100) {
+                                var parts = c.split(' ');
 
-                        if (version) {
-                            w.ping.hostnames[hostname].applications[app].version = version;
+                                if (parts.length > 1) {
+                                    var t = parts.shift();
+                                    var val = parts.join(' ');
+                                }
+                                confidences.push({ type: t, value: val });
+                            }
+                        }
+                    }
+                    var o = { name: app, cats: a.cats, versions: a.versions, confidences: confidences};
+
+                    data.push(o);
+                }
+                driver('storeInDb', { url: url, progress: "inprogress", scanDate: scanDate, lastUpdate: new Date(), detected: data });//w.detected[url] });
+
+                // use Tech to find some missing versions and plugins
+                Async.eachSeries(apps, function iteratee(app, callback) {
+                    if (!app.version) {
+                        if (Tech.allTechs.indexOf(app.app) !== -1) {
+                            var tech = new Tech(app.app);
+                            tech.findRoots(url, data.html);
+                            tech.deepScan(function (err, result) {
+                                if (result.status === "success") {
+                                    app.setDetected({ "version": result.versions, "regex": ".*" }, "file", result.proofs);
+                                }
+                                callback(err, result.status === "fail");
+                            });
+                        } else { // nothing we can do
+                            callback(null);
                         }
                     } else {
-                        w.log('Ignoring hostname "' + hostname + '"');
+                        callback(null);
                     }
+                }, function done(err) {
+                    apps = null;
+                    data = null;
+
+                    driver('displayApps');
+                   // driver('storeInDb', { url: url, progress: "complete", scanDate: scanDate, lastUpdate: new Date(), detected: w.detected[url] });
+                });
+            }
+
+            var baseCMSorFrameworkDetected = false; // if no baseCMS nor web framework are detected at this point, we'll have to look for them with a deep scan with Tech
+            for (app in apps) {
+                if (baseCMSorFrameworkDetected == false && apps[app].detected && (
+                    apps[app].cats.indexOf(1) !== -1 ||   // 1 : CMS
+                    apps[app].cats.indexOf(18) !== -1)) { // 18: web framework
+                    baseCMSorFrameworkDetected = true;
+                    break;
                 }
             }
 
-            // Additional information
-            if (w.ping.hostnames.hasOwnProperty(hostname)) {
-                if (typeof data.html === 'string' && data.html) {
-                    match = data.html.match(/<html[^>]*[: ]lang="([a-z]{2}((-|_)[A-Z]{2})?)"/i);
-
-                    if (match && match.length) {
-                        w.ping.hostnames[hostname].meta['language'] = match[1];
-                    }
-
-                    regexMeta = /<meta[^>]+>/ig;
-
-                    while (match = regexMeta.exec(data.html)) {
-                        if (!match.length) {
-                            continue;
+            if (baseCMSorFrameworkDetected === false) {
+                Async.everySeries(Tech.allTechs, function iteratee(app, callback) {
+                    var tech = new Tech(app);
+                    tech.findRoots(url, data.html);
+                    tech.deepScan(function (err, result) {
+                        var t = app;
+                        if (result.status === "success") {
+                            apps[app].setDetected({ "version": result.versions, "regex": ".*" }, "file", result.proofs);
                         }
-
-                        match = match[0].match(/name="(author|copyright|country|description|keywords)"[^>]*content="([^"]+)"/i);
-
-                        if (match && match.length === 3) {
-                            w.ping.hostnames[hostname].meta[match[1]] = match[2];
-                        }
-                    }
-                }
+                        callback(err, result.status === "fail");
+                    });
+                }, function done(err, result) {
+                    f();
+                });
+            } else {
+                f();
             }
-
-            if (Object.keys(w.ping.hostnames).length >= 20 || w.adCache.length >= 40) {
-                driver('ping');
-            }
-
-            apps = null;
-            data = null;
-
-            driver('displayApps');
         }
     };
 

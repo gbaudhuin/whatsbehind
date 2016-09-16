@@ -43,9 +43,11 @@ var parse = function (patterns) {
     return parsed;
 };
 
-url = 'http://www.peoleo.fr';
+//url = 'http://www.peoleo.fr';
 //url = "https://developer.mozilla.org";
 //url = "http://drupalfr.org/";
+url = "http://www.starwars.com/"; //hidden WordPress site
+//url = "http://wordpress.org/";
 
 var wappalyzer_wrapper = require("./wappalyzer_wrapper");
 var uri = require('url');
@@ -57,7 +59,7 @@ var options = {
 }
 
 var Tech = require("./tech");
-var tech = new Tech("wordpress");
+var tech = new Tech("WordPress");
 var a = tech.getAllVersions();
 var b = tech.getDiffFiles(new Version("2.0"));
 wappalyzer_wrapper.detectFromUrl(options, function (err, apps, appInfo) {

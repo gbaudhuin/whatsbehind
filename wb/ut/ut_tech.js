@@ -6,7 +6,7 @@ var Version = require('../version');
 
 describe('Class Tech', function () {
     it('getHighestCommits', function () {
-        var tech = new Tech("wordpress");
+        var tech = new Tech("WordPress");
         var hc = tech.getHighestCommits();
         assert.ok(hc.length > 1900); // at time of writing, we're at least at 1900
 
@@ -14,23 +14,30 @@ describe('Class Tech', function () {
         assert.ok(hc.length == 50);
     })
 
-    it('getPossibleVersions', function (done) {
+    it('deepScan', function (done) {
         this.timeout(3600 * 1000);// change Mocha default 2000ms timeout
-        var tech = new Tech("wordpress");
-       // var uri = "https://www.wordfence.com/";
-        //var uri = "http://www.starwars.com";
-      //  var uri = "http://www.peoleo.com";
-        var uri = "https://wordpress.org";
-        request({ url: uri, timeout: 5000, rejectUnauthorized: false, requestCert: true, agent: false}, function (err, response, body) {
+        var tech = new Tech("WordPress");
+        //var data = { uri: "https://www.wordfence.com/", version: "4.6" };
+        //var data = { uri: "http://www.starwars.com", version: "4.5.3" };
+        var data = { uri: "http://www.peoleo.com", version: "3.8.1" };
+        //var data = { uri: "https://wordpress.org", version: "4.6" };
+        //var data = { uri: "http://observer.com", version: "4.6" };
+        //var data = { uri: "http://www.bbcamerica.com/", version: "4.5.1" };
+        request({ url: data.uri, timeout: 5000, rejectUnauthorized: false, requestCert: true, agent: false}, function (err, response, body) {
             if (err) done(err);
             else {
-                if (response.statusCode / 100 == 2) {
+                if (response.statusCode == 200 || response.statusCode == 206) {
                     tech.findRoots(response.request.uri.href, // response.request.uri contains the response uri, potentially redirected
                         body);
-                    tech.getPossibleVersions(function (err, result) {
+                    tech.deepScan(function (err, result) {
                         if (err) done(err);
                         else {
-                            assert.ok(result.status == "success");
+                            var found = false;
+                            var i = result.versions.length;
+                            while (i-- && found === false) {
+                                if (result.versions[i] === data.version) found = true;
+                            }
+                            assert.ok(found === true);
                             done();
                         }
                     });
@@ -43,11 +50,11 @@ describe('Class Tech', function () {
 
     it('checkMissedVersions', function (done) {
         this.timeout(3600 * 1000);// change Mocha default 2000ms timeout
-        var tech = new Tech("wordpress");
+        var tech = new Tech("WordPress");
         request({ url: "https://wordpress.org/", timeout: 5000, rejectUnauthorized: false, requestCert: true, agent: false }, function (err, response, body) {
             if (err) done(err);
             else {
-                if (response.statusCode / 100 == 2) {
+                if (response.statusCode == 200 || response.statusCode == 206) {
                     tech.findRoots(response.request.uri.href, // response.request.uri contains the response uri, potentially redirected
                         body);
                     tech.checkMissedVersions([new Version("4.6")], [], function (err, result) {
@@ -66,12 +73,12 @@ describe('Class Tech', function () {
 
     it('isVersionOrNewer', function (done) {
         this.timeout(10000);// change Mocha default 2000ms timeout
-        var tech = new Tech("wordpress");
+        var tech = new Tech("WordPress");
 
         request({ url: "https://wordpress.org/", timeout: 5000, rejectUnauthorized: false, requestCert: true, agent: false }, function (err, response, body) {
             if (err) done(err);
             else {
-                if (response.statusCode / 100 == 2) {
+                if (response.statusCode == 200 || response.statusCode == 206) {
                     tech.findRoots(response.request.uri.href, // response.request.uri contains the response uri, potentially redirected
                                     body);
                     tech.isVersionOrNewer(new Version("4.6"), function (err, result, proofs) {
@@ -89,7 +96,7 @@ describe('Class Tech', function () {
     })
 
     it('findRoots', function() {
-        var tech = new Tech("wordpress");
+        var tech = new Tech("WordPress");
         var html = fs.readFileSync(__dirname + "/data/observer_com.html", "utf8"); // observer.com (09/2016) is a good example of WordPress website with multiple roots
         var r = tech.findRoots("http://observer.com/", html);
         assert.ok(tech.appRoots.indexOf("http://observer.com") !== -1);
@@ -98,14 +105,14 @@ describe('Class Tech', function () {
     })
 
     it('getAllVersions', function() {
-        var tech = new Tech("wordpress");
+        var tech = new Tech("WordPress");
         var versions = tech.getAllVersions();
         assert.ok(versions.indexOf("3.9"), "This should succeed");
         assert.ok(versions.indexOf("4.6-beta4"), "This should succeed");
     })
 
     it('getDiffFiles', function () {
-        var tech = new Tech("wordpress");
+        var tech = new Tech("WordPress");
         var b = tech.getDiffFiles(new Version("2.0"));
         
         var found = false;
@@ -118,7 +125,7 @@ describe('Class Tech', function () {
     })
 
     it('isExactFileInOlderVersions', function () {
-        var tech = new Tech("wordpress");
+        var tech = new Tech("WordPress");
         var existed_before = tech.isExactFileInOlderVersions("wp-admin/about.php", new Version("4.6"));
         assert.ok(existed_before === false);
         existed_before = tech.isExactFileInOlderVersions("readme.html", new Version("2.0"));
@@ -126,7 +133,7 @@ describe('Class Tech', function () {
     })
 
     it('isCommitedInOlderVersions', function () {
-        var tech = new Tech("wordpress");
+        var tech = new Tech("WordPress");
         var existed_before_2 = tech.isCommitedInOlderVersions("wp-includes/js/tinymce/themes/advanced/images/numlist.gif", new Version("2.0"));
         var existed_before_2_1 = tech.isCommitedInOlderVersions("wp-includes/js/tinymce/themes/advanced/images/numlist.gif", new Version("2.1"));
         var existed_before_2_1_withslash = tech.isCommitedInOlderVersions("/wp-includes/js/tinymce/themes/advanced/images/numlist.gif", new Version("2.1"));
@@ -136,7 +143,7 @@ describe('Class Tech', function () {
     })
 
     it('crlf2lf', function () {
-        var tech = new Tech("wordpress");
+        var tech = new Tech("WordPress");
         var a = __dirname + "/data/github_crlf.html";
         var data_crlf = fs.readFileSync(__dirname + "/data/github_crlf.html");
         var data_lf = fs.readFileSync(__dirname + "/data/github_lf.html");

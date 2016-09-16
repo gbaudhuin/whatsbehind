@@ -53,6 +53,8 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="typings\globals\async\" />
+    <Folder Include="typings\globals\mongodb\" />
     <Folder Include="ut\" />
     <Folder Include="phantom_scripts\" />
     <Folder Include="typings\" />
@@ -65,7 +67,9 @@
     <Folder Include="wappalyzer\" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="typings\globals\async\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\mocha\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\mongodb\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\node\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\phantomjs\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\phantom\index.d.ts" />
