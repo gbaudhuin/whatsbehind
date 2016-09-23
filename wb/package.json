@@ -1,16 +1,20 @@
 {
-  "name": "wb",
-  "version": "0.0.0",
-  "description": "wb",
-  "main": "app.js",
+  "name": "whatsbehind",
+  "version": "0.1.9",
+  "license": "GPL-3.0",
+  "description": "A module to check technologies used by websites",
+  "main": "index.js",
   "author": {
-    "name": "guillaume"
+    "name": "Guillaume BAUDHUIN"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gbaudhuin/whatsbehind"
   },
   "dependencies": {
     "async": "^2.0.1",
-    "mocha": "^3.0.2",
-    "mongodb": "^2.2.10",
-    "phantomjs": "^2.1.7",
-    "request": "^2.74.0"
+    "mocha": "^3.0.1",
+    "phantomjs-prebuilt": "^2.1.12",
+    "request": "^2.75.0"
   }
 }

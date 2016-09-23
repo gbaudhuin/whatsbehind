@@ -611,7 +611,7 @@ Tech.prototype = {
             diffFiles.sort(Version.version_compare);
             return diffFiles;
         } catch (e) {
-            Helper.die("Unkown tech name \"" + this.techname + "\".");
+            Helper.die("Unknown tech name \"" + this.techname + "\".");
         }
     },
 
@@ -664,7 +664,7 @@ Tech.prototype = {
             this.diffs[version] = ret2; // add to cache
             return ret2;
         } catch (e) {
-            Helper.die("Unkown version \"" + version.value + "\" for tech \"" + this.techname + "\" : could not find \"" + version.value + ".diff\" file.");
+            Helper.die("Unknown version \"" + version.value + "\" for tech \"" + this.techname + "\" : could not find \"" + version.value + ".diff\" file.");
         }
     },
 

@@ -6,7 +6,6 @@
 var request = require('request');
 var fs = require('fs');
 var path = require('path');
-var mongo = require('mongodb').MongoClient;
 
 exports.detectFromUrl = function (options, cb) {
 
@@ -20,8 +19,8 @@ exports.detectFromUrl = function (options, cb) {
         if (err || data === null) {
             cb(err, null);
         } else {
-            runWappalyzer(options, data, function (err, detected, appInfo) {
-                cb(null, detected, appInfo);
+            runWappalyzer(options, data, function (err, data_out) {
+                cb(null, data_out);
             });
         }
     });
@@ -31,7 +30,7 @@ function getHTMLFromUrl(url, cb) {
     request({url:url, timeout: 5000, rejectUnauthorized: false, requestCert: true, agent: false}, function (error, response, body) {
         if (!error && response.statusCode == 200) {
             var childProcess = require('child_process');
-            var phantomjs = require('phantomjs');
+            var phantomjs = require('phantomjs-prebuilt');
             var binPath = phantomjs.path;
 
             var childArgs = [
@@ -48,7 +47,7 @@ function getHTMLFromUrl(url, cb) {
                 var data = {
                     html: body,
                     url: response.request.uri.href, // response.request.uri contains the response uri, potentially redirected
-                    headers: response,
+                    headers: response.headers,
                     env: js_env
                 };
                 cb(null, data);
@@ -85,25 +84,8 @@ function runWappalyzer(options, data, cb) {
                 w.categories = apps.categories;
                 w.apps = apps.apps;
             },
-            displayApps: function () {
-                var app, url = Object.keys(w.detected)[0];
-                var detectedApps = [];
-
-                for (app in w.detected[url]) {
-                    detectedApps.push(app);
-
-                    if (debug) {
-                        console.log(app);
-                    }
-                }
-                cb(null, detectedApps, w.detected[url]);
-            },
-            storeInDb: function (data) {
-                mongo.connect("mongodb://127.0.0.1:27117/whatsbehind", function (error, db) {
-                    if (error) return;
-
-                    db.collection("scans").insert(data, null);
-                });
+            displayApps: function (data) {
+                cb(null, data);
             },
         };
         w.init();
