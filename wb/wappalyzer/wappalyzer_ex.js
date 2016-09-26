@@ -28,7 +28,8 @@ var wappalyzer = (function () {
         this.versions = [];
         this.cats = [];
         this.icon = '';
-        this.website = '';
+        this.website = '',
+        this.tech = null ;// Internal. Set if app was detected by Tech.deepScan.
     };
 
     Application.prototype = {
@@ -237,7 +238,8 @@ var wappalyzer = (function () {
         ping: { hostnames: {} },
         adCache: [],
         detected: {},
-        scanDate:new Date(),
+        scanDate: new Date(),
+        progress: 0,
 
         config: {
             websiteURL: 'https://wappalyzer.com/',
@@ -300,6 +302,46 @@ var wappalyzer = (function () {
                 data.push(o);
             }
             return { url: url.replace(/\/+$/g, ''), status:status, progress: progress, scanDate: w.scanDate, lastUpdate: new Date(), detected: data };
+        },
+
+        lookForPlugins: function (url, cb) {
+            var plugins_progress_all = 0.7; // plugins account for 70% of scan time
+            var techs_with_plugins = [];
+            var techs_with_plugins_progress = {};
+            for (var app in w.detected[url]) {
+                if (w.detected[url][app].tech) {
+                    techs_with_plugins.push(app);
+                }
+            }
+
+            if (techs_with_plugins.length > 0) {
+                Async.eachSeries(techs_with_plugins, function progressCB(app_name, callback) {
+                    var app = w.detected[url][app_name];
+                    if (app.tech) {
+                        app.tech.findPlugins(function (detected_plugins, plugin_progress) {
+                            techs_with_plugins_progress[app_name] = plugin_progress;
+                            var progress_allplugins = 0;
+                            for (var p in techs_with_plugins_progress) {
+                                if (techs_with_plugins_progress.hasOwnProperty(p)) {
+                                    progress_allplugins += techs_with_plugins_progress[p];
+                                }
+                            }
+                            app.plugins = detected_plugins;
+                            var progress_global = 30 + progress_allplugins * plugins_progress_all / techs_with_plugins.length;
+                            driver('displayApps', w.report(url, "inprogress", progress_global));
+                        }, function doneCB(detected_plugins) {
+                            app.plugins = detected_plugins;
+                            callback(null);
+                        });
+                    } else callback(null);
+                }, function done(err) {
+                    w.progress = 100;
+                    driver('displayApps', w.report(url, "complete", w.progress));
+                });
+            } else {
+                w.progress = 100;
+                driver('displayApps', w.report(url, "complete", w.progress));
+            }
         },
 
 		/**
@@ -560,36 +602,36 @@ var wappalyzer = (function () {
                     apps[app].website = w.apps[app].website;
                 }
 
-                driver('displayApps', w.report(url, "inprogress", 10));
+                driver('displayApps', w.report(url, "inprogress", w.progress = 10));
 
-                // use Tech to find some missing versions and plugins
+                // use Tech to find or verify versions
                 Async.eachSeries(apps, function iteratee(app, callback) {
-                    if (!app.version) {
-                        if (Tech.allTechs.indexOf(app.app) !== -1) {
-                            var tech = new Tech(app.app);
-                            tech.findRoots(url, data.html);
-                            tech.deepScan(function (err, result) {
-                                if (result.status === "success") {
-                                    app.setDetected({ "version": result.versions, "regex": ".*" }, "file", result.proofs);
-                                }
-                                callback(err, result.status === "fail");
-                            });
-                        } else { // nothing we can do
-                            callback(null);
-                        }
-                    } else {
+                    if (!apps[app.app].tech && // no need to deepScan if already done
+                        Tech.allTechs.indexOf(app.app) !== -1) {
+                        var tech = new Tech(app.app);
+                        tech.findRoots(url, data.html);
+                        tech.deepScan(function (err, result) {
+                            if (result.status === "success") {
+                                app.setDetected({ "version": result.versions, "regex": ".*" }, "file", result.proofs);
+                                apps[app.app].tech = tech;
+                            }
+                            callback(err, result.status === "fail");
+                        });
+                    } else { // nothing we can do
                         callback(null);
                     }
                 }, function done(err) {
                     apps = null;
                     data = null;
+                    
+                    driver('displayApps', w.report(url, "inprogress", w.progress = 30));
 
-                    driver('displayApps', w.report(url, "complete", 100));
+                    w.lookForPlugins(url, function () { });
                 });
             }
 
             // if no baseCMS nor web framework are detected at this point, look for them with a deep scan with Tech
-            var baseCMSorFrameworkDetected = false; 
+            var baseCMSorFrameworkDetected = false;
             for (app in apps) {
                 if (baseCMSorFrameworkDetected == false && apps[app].detected && (
                     apps[app].cats.indexOf(1) !== -1 ||   // 1 : CMS
@@ -607,6 +649,7 @@ var wappalyzer = (function () {
                         var t = app;
                         if (result.status === "success") {
                             apps[app].setDetected({ "version": result.versions, "regex": ".*" }, "file", result.proofs);
+                            apps[app].tech = tech;
                         }
                         callback(err, result.status === "fail");
                     });
