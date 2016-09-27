@@ -1,0 +1,29 @@
+{
+  "WordPress": {
+    "rootLookup": [
+      "(href|src)\\s*=\\s*[\\\"\\'](((https?:\\/\\/)?([\\da-z\\.-]+)\\.([a-z\\.]{2,6}))?[\\/\\w \\.-]*?)\/wp-content\/(themes|plugins)/",
+      "(href|src)\\s*=\\s*[\\\"\\'](((https?:\\/\\/)?([\\da-z\\.-]+)\\.([a-z\\.]{2,6}))?[\\/\\w \\.-]*?)/wp-includes/",
+      "(href|src)\\s*=\\s*[\\\"\\'](((https?:\\/\\/)?([\\da-z\\.-]+)\\.([a-z\\.]{2,6}))?[\\/\\w \\.-]*?)/wp-admin/"
+    ],
+    "pluginLookup": [
+      "(href|src)\\s*=\\s*[\\\"\\'](((https?:\\/\\/)?([\\da-z\\.-]+)\\.([a-z\\.]{2,6}))?[\\/\\w \\.-]*?\/wp-content\/(themes|plugins)/)"
+    ],
+    "pluginDefaultPath": "wp-content/plugins",
+    "pluginStopOnFirstPositivePath": true
+  },
+  "Drupal": {
+    "rootLookup": [
+      "(href|src)\\s*=\\s*[\\\"\\'](((https?:\\/\\/)?([\\da-z\\.-]+)\\.([a-z\\.]{2,6}))?[\\/\\w \\.-]*?)/sites/(all|default)/"
+    ],
+    "pluginLookup": [
+      "sites/all/modules/contrib/[^/]+",
+      "sites\\/all\\/modules\\/contrib\\/[^/]+",
+      "sites/all/modules/drupal\\.org/[^/]+",
+      "sites\\/all\\/modules\\/drupal\\.org\\/[^/]+",
+      "sites/all/modules/[^/]+",
+      "sites\\/all\\/modules\\/[^/]+"
+    ],
+    "pluginDefaultPath": "sites/all/modules",
+    "pluginStopOnFirstPositivePath": false
+  }
+}

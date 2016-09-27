@@ -7,6 +7,9 @@
     Version = require("./version"),
     Helper = require("./helper");
 
+var techs_json = fs.readFileSync(path.resolve(__dirname, 'techs.json'), 'utf8'); // tech names in techs.json must match tech names in wappalyzer/apps.json
+var techs = JSON.parse(techs_json);
+
 /**
  * Tech class
  */
@@ -18,41 +21,30 @@ var Tech = function (techname) {
     this.diffs = []; // diff files cache
     this.versions = this.getAllVersions();
     this.versions_desc = this.versions.slice().reverse();
-    this.rootLookup = Tech.rootLookUps[techname];
-    this.pluginsLookup = Tech.pluginPathLookUps[techname];
+
+    this.args = techs[techname];
+    this.args.rootLookup = this.args.rootLookup.map(function (value) {
+        return new RegExp(value, "g");
+    });
+    this.args.pluginLookup = this.args.pluginLookup.map(function (value) {
+        return new RegExp(value, "g");
+    });
+    
     this.appRoots = [];
-    this.pluginRoots = [];
+    this.pluginPaths = [];
 };
 
 Tech.nonInterpretableTextExtensions = [".html", ".js", ".css", ".xml", ".me", ".txt"]; // un-interpreted plain text file extensions. other extensions such as scripts would return uncomparable content.
 Tech.nonInterpretableOtherExtensions = [".png", ".jpg", ".gif", ".ico"]; // un-interpreted non text extensions.
 
-var rgxRootUrl = '(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})';
-Tech.rootLookUps = {
-    "WordPress": [
-        new RegExp("(href|src)\\s*=\\s*[\\\"\\']((" + rgxRootUrl + ")?[\\/\\w \\.-]*?)\/wp-content\/(themes|plugins)/", "g"),
-        new RegExp("(href|src)\\s*=\\s*[\\\"\\']((" + rgxRootUrl + ")?[\\/\\w \\.-]*?)/wp-includes/", "g"),
-        new RegExp("(href|src)\\s*=\\s*[\\\"\\']((" + rgxRootUrl + ")?[\\/\\w \\.-]*?)/wp-admin/", "g")],
-    "Drupal": [
-        new RegExp("(href|src)\\s*=\\s*[\\\"\\']((" + rgxRootUrl + ")?[\\/\\w \\.-]*?)/sites/(all|default)/", "g")]
-};
-
-Tech.pluginPathLookUps = {
-    "WordPress": [
-        new RegExp("(href|src)\\s*=\\s*[\\\"\\']((" + rgxRootUrl + ")?[\\/\\w \\.-]*?\/wp-content\/(themes|plugins)/)", "g")],
-    "Drupal": [
-        new RegExp('sites/all/modules/contrib/[^/]+', "g"),
-        new RegExp('sites\\/all\\/modules\\/contrib\\/[^/]+', "g"),
-        new RegExp('sites/all/modules/drupal\.org/[^/]+', "g"),
-        new RegExp('sites\\/all\\/modules\\/drupal\.org\\/[^/]+', "g"),
-        new RegExp('sites/all/modules/[^/]+', "g"),
-        new RegExp('sites\\/all\\/modules\\/[^/]+', "g")]
-};
-
 /**
  * Array of techs managed par tech. Names match the ones in appalayzer/apps.json if they exist (case sensitive).
  */
-Tech.allTechs = ["WordPress", "Drupal"];
+Tech.allTechs = [];
+for (var t in techs) {
+    if (techs.hasOwnProperty(t)) Tech.allTechs.push(t);
+}
+
 
 Tech.prototype = {
     /**
@@ -590,8 +582,8 @@ Tech.prototype = {
         if (this.appRoots.indexOf(defaultRoot) === -1) this.appRoots.push(defaultRoot);
 
         // find other root urls in html
-        for (var i in this.rootLookup) {
-            var rootLookup = this.rootLookup[i];
+        for (var i in this.args.rootLookup) {
+            var rootLookup = this.args.rootLookup[i];
             var match = rootLookup.exec(html);
             while (match !== null) {
                 var uri = match[2];
@@ -607,9 +599,9 @@ Tech.prototype = {
         }
 
         // find plugins
-        for (var i in this.pluginsLookup) {
-            var pluginsLookup = this.pluginsLookup[i];
-            var match = pluginsLookup.exec(html);
+        for (var i in this.args.pluginLookup) {
+            var pluginLookup = this.args.pluginLookup[i];
+            var match = pluginLookup.exec(html);
             while (match !== null) {
                 var uri = match[2];
 
@@ -617,15 +609,20 @@ Tech.prototype = {
 
                 var uri2 = Helper.trimChar(url.resolve(baseUrl, uri), '/');
 
-                if (this.techname == "WordPress") uri2 = uri2.replace("/themes", "/plugins");
+                if (this.techname == "WordPress" && uri2.indexOf("/themes") !== -1) { // WP specific : /wp-content/plugins is very probabky a sibbling of /wp-content/themes
+                    uri2 = uri2.replace("/themes", "/plugins");
+                }
 
-                if (this.pluginRoots.indexOf(uri2) === -1) this.pluginRoots.push(uri2);
+                if (this.pluginPaths.indexOf(uri2) == -1) {
+                    this.pluginPaths.push(uri2);
+                }
 
-                match = pluginsLookup.exec(html);
+                match = pluginLookup.exec(html);
             }
 
-            if (this.techname == "WordPress" && this.pluginRoots.length < 1) {
-                this.pluginRoots.push(baseUrl + "wp-content/plugins");
+            // always check default path
+            if (this.pluginPaths.indexOf(baseUrl + this.args.pluginDefaultPath) === -1) {
+                this.pluginPaths.push(baseUrl + this.args.pluginDefaultPath);
             }
         }
     },
@@ -787,7 +784,7 @@ Tech.prototype = {
      */
     findPlugins: function (progressCB, doneCB) {
         try {
-            if (this.pluginRoots.length < 1) {
+            if (this.pluginPaths.length < 1) {
                 console.log("Could not find WordPress plugins path. Plugins lookup aborted.");
                 return;
             }
@@ -816,57 +813,83 @@ Tech.prototype = {
                 pluginsTxt[slug] = prettyText;
             }
 
-            var pluginsPath = this.pluginRoots[0];
-
-            var l = plugins.length;
+            var l = plugins.length * this.pluginPaths.length;
             var detected_plugins = [];
             var detected_plugins_version = {};
             var detected_plugins_data = [];
             var n = 0;
             var regex = RegExp("Stable tag: ([a-zA-Z0-9_\.\#\-]+)");
             var startTime = new Date().getTime();
-            Async.eachLimit(plugins, 6, function (plugin_slug, callback) {
-                request({ url: pluginsPath + "/" + plugin_slug + "/readme.txt", timeout: 5000, rejectUnauthorized: false, requestCert: true, agent: false }, function d(err, response, body) {
-                    n++;
-                    try {
-                        if (!err && response.statusCode == 200) {
-                            var match = regex.exec(body);
-                            if (match && match.length > 1) {
-                                console.log(n + " " + plugin_slug + " : YES");
-                                var version = match[1];
-                                detected_plugins.push[plugin_slug];
-                                detected_plugins_version[plugin_slug] = version;
 
-                                var app_data = {};
-                                if (fs.existsSync(dir + plugin_slug + ".json")) {
-                                    var json_content = fs.readFileSync(dir + plugin_slug + ".json", "utf8");
-                                    var obj = JSON.parse(json_content);
-                                    var app_name = Object.keys(obj)[0];
-                                    app_data = obj[app_name];
+            function fn(pluginsPath, cb) {
+                Async.eachLimit(plugins, 6, function (plugin_slug, callback) { // test all known plugins
+                    if (detected_plugins.indexOf(plugin_slug) === -1) {
+                        request({ url: pluginsPath + "/" + plugin_slug + "/readme.txt", timeout: 5000, rejectUnauthorized: false, requestCert: true, agent: false }, function d(err, response, body) {
+                            n++;
+                            try {
+                                if (!err && response.statusCode == 200) {
+                                    var match = regex.exec(body);
+                                    if (match && match.length > 1) {
+                                        var version = match[1];
+                                        detected_plugins.push(plugin_slug);
+                                        detected_plugins_version[plugin_slug] = version;
+
+                                        var app_data = {};
+                                        if (fs.existsSync(dir + plugin_slug + ".json")) {
+                                            var json_content = fs.readFileSync(dir + plugin_slug + ".json", "utf8");
+                                            var obj = JSON.parse(json_content);
+                                            var app_name = Object.keys(obj)[0];
+                                            app_data = obj[app_name];
+                                        }
+                                        app_data.version = detected_plugins_version[plugin_slug];
+                                        app_data.name = pluginsTxt[plugin_slug];
+                                        app_data.slug = plugin_slug;
+                                        detected_plugins_data.push(app_data);
+                                    }
                                 }
-                                app_data.version = detected_plugins_version[plugin_slug];
-                                app_data.name = pluginsTxt[plugin_slug];
-                                app_data.slug = plugin_slug;
-                                detected_plugins_data.push(app_data);
-                            }
-                        }
 
-                        var t = new Date().getTime();
-                        var dt = t - startTime;
-                        if (t - startTime > 500) { // notify progress every 500 ms
-                            var progress = 100 * n / l;
-                            progressCB(detected_plugins_data, progress);
-                            console.log(progress);
-                            startTime = t;
-                        }
-                        
-                        callback(null);// next
-                    } catch (e) {
+                                var t = new Date().getTime();
+                                var dt = t - startTime;
+                                if (t - startTime > 500) { // notify progress every 500 ms
+                                    var progress = 100 * n / l;
+                                    progressCB(detected_plugins_data, progress);
+                                    console.log(progress);
+                                    startTime = t;
+                                }
+
+                                callback(null);// next
+                            } catch (e) {
+                                console.log(e);
+                                callback(null);// do nothing, go next
+                            }
+                        });
+                    } else {
+                        n++;
                     }
+                }, function done(err) {
+                    cb();
                 });
-            }, function done(err) {
-                doneCB(detected_plugins_data);
-            });
+            }
+
+            if (this.args.pluginStopOnFirstPositivePath) {
+                Async.someSeries(this.pluginPaths, function (pluginsPath, callback) { // test each path until one works
+                    fn(pluginsPath, function () {
+                        if (detected_plugins_data.length > 0) callback(null, true); // this path was the good one
+                        else callback(null, false);
+                    });
+                }, function done(err) {
+                    doneCB(detected_plugins_data);
+                });
+            } else {
+                Async.eachSeries(this.pluginPaths, function (pluginsPath, callback) { // test all paths
+                    fn(pluginsPath, function () {
+                        callback(null);
+                    });
+                }, function done(err) {
+                    doneCB(detected_plugins_data);
+                });
+            }
+
         } catch (e) {
             Helper.die("Unknown error while looking for \"" + this.techname + "\" plugins.");
         }

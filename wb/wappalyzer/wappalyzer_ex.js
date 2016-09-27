@@ -297,7 +297,62 @@ var wappalyzer = (function () {
                         }
                     }
                 }
-                var o = { name: app, cats: a.cats, versions: a.versions, confidences: confidences, icon:a.icon, website:a.website };
+                
+                var o = { name: app, cats: a.cats, versions: a.versions, confidences: confidences, icon: a.icon, website: a.website };
+
+                if (a.plugins) {
+                    var plugins = [];
+                    for (var p in a.plugins) {
+                        var pIn = a.plugins[p];
+                        var pOut = {};
+                        pOut.slug = pIn.slug;
+                        pOut.name = pIn.name;
+                        if (!pOut.name) pOut.name = pOut.slug;
+                        pOut.version = pIn.version;
+                        pOut.latest_version = pIn.latest_version;
+                        pOut.status = "unknown";
+                        try {
+                            var version = new Version(pIn.version);
+                            if (pIn.latest_version) {
+                                var latest_version = new Version(pIn.latest_version);
+                                if (latest_version.GT(version)) {
+                                    pOut.status = "outdated";
+                                } else if (latest_version.EQ(version)) {
+                                    pOut.status = "uptodate";
+                                }
+                            }
+                        } catch (e) {
+                            console.log("Error while creating new Version(\"" + pIn.version + "\") or new Version(\"" + pIn.latest_version + "\") for plugin " + app + "/" + pIn.name + ". See " + pIn.slug + ".json");
+                            continue;
+                        }
+
+                        if (pIn.vulnerabilities) {
+                            var vulns = [];
+                            for (var v in pIn.vulnerabilities) {
+                                try {
+                                    var vuln = pIn.vulnerabilities[v];
+                                    var vuln_fixed_in = new Version(vuln.fixed_in);
+                                    if (vuln_fixed_in.GT(version)) {
+                                        pOut.status = "vulnerable";
+                                        vulns.push(vuln);
+                                    }
+                                } catch (e) {
+                                    console.log("Error while creating new Version(\"" + vuln.fixed_in + "\") for vulnerability of plugin " + app + "/" + pIn.name + ". See " + pIn.slug + ".json");
+                                    continue;
+                                }
+                            }
+                            if (vulns.length > 0) {
+                                pOut.vulnerabilities = vulns;
+                            }
+                        }
+
+                        plugins.push(pOut);
+                    }
+
+                    if (plugins.length > 0) {
+                        o.plugins = plugins;
+                    }
+                }
 
                 data.push(o);
             }

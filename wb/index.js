@@ -14,12 +14,12 @@
     wappalyzer_wrapper.detectFromUrl(options, callback);
 }
 
-
+/*
 //url = 'http://whatsbehind.io';
-//url = 'http://www.peoleo.fr';
+url = 'http://www.peoleo.fr';
 //url = "https://developer.mozilla.org";
 //url = "http://drupalfr.org/";
-url = "http://www.starwars.com/"; //hidden WordPress site
+//url = "http://www.starwars.com/"; //hidden WordPress site
 //url = "http://wordpress.org/";
 
 exports.scan(url, function (err, apps) {
@@ -27,3 +27,4 @@ exports.scan(url, function (err, apps) {
         console.log(err, apps);
     }
 });
+*/

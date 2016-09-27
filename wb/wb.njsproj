@@ -48,6 +48,7 @@
     <Content Include="phantom_scripts\screenshot.js" />
     <Compile Include="version.js" />
     <Content Include="package.json" />
+    <Content Include="techs.json" />
     <Content Include="wappalyzer\apps.json">
       <Publish>True</Publish>
     </Content>
