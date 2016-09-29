@@ -6,28 +6,22 @@
 var request = require('request');
 var fs = require('fs');
 var path = require('path');
+var Tech = require('./tech.js');
 
 exports.detectFromUrl = function (options, cb) {
-
     var url = options.url;
 
     if (options.debug) {
         console.log('Fetching the page');
     }
 
-    getHTMLFromUrl(url, function (err, data) {
-        if (err || data === null) {
-            cb(err, null);
-        } else {
-            runWappalyzer(options, data, function (err, data_out) {
-                cb(null, data_out);
-            });
-        }
+    runWappalyzer(options, url, function (err, data_out) {
+        cb(null, data_out);
     });
 };
 
 function getHTMLFromUrl(url, cb) {
-    request({url:url, timeout: 5000, rejectUnauthorized: false, requestCert: true, agent: false}, function (error, response, body) {
+    request(Tech.getReqOptions(url, {}), function (error, response, body) {
         if (!error && response.statusCode == 200) {
             var childProcess = require('child_process');
             var phantomjs = require('phantomjs-prebuilt');
@@ -66,7 +60,7 @@ function getAppsJson(cb) {
     });
 }
 
-function runWappalyzer(options, data, cb) {
+function runWappalyzer(options, url, cb) {
     var debug = options.debug || false;
 
     var wappalyzer = require('./wappalyzer/wappalyzer_ex').wappalyzer;
@@ -85,11 +79,21 @@ function runWappalyzer(options, data, cb) {
                 w.apps = apps.apps;
             },
             displayApps: function (data) {
+                if (data.progress) data.progress = parseFloat(Math.round(data.progress * 10) / 10).toFixed(1);
+                else data.progress = 0;
                 cb(null, data);
             },
         };
         w.init();
+        w.driver.displayApps(w.report(url, "fetch", 0));
         w.detected = [];
-        w.analyze(options.hostname, data.url, data);
+        getHTMLFromUrl(url, function (err, data) {
+            if (err || data === null) {
+                cb(err, null);
+            } else {
+                w.driver.displayApps(w.report(url, "analyze", 0));
+                w.analyze(options.hostname, data.url, data);
+            }
+        });
     });
 }

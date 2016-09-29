@@ -239,7 +239,14 @@ var wappalyzer = (function () {
         adCache: [],
         detected: {},
         scanDate: new Date(),
-        progress: 0,
+        progressSteps: {
+            init: { start: 0, end: 1, text: 'Starting up...' },
+            fetch: { start: 1, end: 5, text: 'Fetching page content' },
+            analyze: { start: 5, end: 10, text: 'Analyzing page content' },
+            deepscan: { start: 10, end: 30, text: 'Analyzing website files checksums' },
+            plugins: { start: 30, end: 100, text: 'Looking for CMS plugins' },
+            complete: { start: 100, end: 100, text: 'Scan complete' }
+        },
 
         config: {
             websiteURL: 'https://wappalyzer.com/',
@@ -279,7 +286,9 @@ var wappalyzer = (function () {
             driver('init');
         },
 
-        report: function (url, status, progress) {
+        report: function (url, step, in_step_progress) {
+            var progress_step = this.progressSteps[step];
+            var progress = progress_step.start + (((progress_step.end - progress_step.start) * in_step_progress) / 100);
             var data = [];
             for (app in w.detected[url]) {
                 var a = w.detected[url][app];
@@ -356,11 +365,10 @@ var wappalyzer = (function () {
 
                 data.push(o);
             }
-            return { url: url.replace(/\/+$/g, ''), status:status, progress: progress, scanDate: w.scanDate, lastUpdate: new Date(), detected: data };
+            return { url: url.replace(/\/+$/g, ''), status: step, progress: progress, progressDescription: progress_step.text, scanDate: w.scanDate, lastUpdate: new Date(), detected: data };
         },
 
         lookForPlugins: function (url, cb) {
-            var plugins_progress_all = 0.7; // plugins account for 70% of scan time
             var techs_with_plugins = [];
             var techs_with_plugins_progress = {};
             for (var app in w.detected[url]) {
@@ -382,20 +390,18 @@ var wappalyzer = (function () {
                                 }
                             }
                             app.plugins = detected_plugins;
-                            var progress_global = 30 + progress_allplugins * plugins_progress_all / techs_with_plugins.length;
-                            driver('displayApps', w.report(url, "inprogress", progress_global));
+                            var progress_plugins = (progress_allplugins) / techs_with_plugins.length;
+                            driver('displayApps', w.report(url, "plugins", progress_plugins));
                         }, function doneCB(detected_plugins) {
                             app.plugins = detected_plugins;
                             callback(null);
                         });
                     } else callback(null);
                 }, function done(err) {
-                    w.progress = 100;
-                    driver('displayApps', w.report(url, "complete", w.progress));
+                    cb();
                 });
             } else {
-                w.progress = 100;
-                driver('displayApps', w.report(url, "complete", w.progress));
+                cb();
             }
         },
 
@@ -410,7 +416,6 @@ var wappalyzer = (function () {
                 excludes = [],
                 checkImplies = true;
             
-            driver('displayApps', w.report(url, "inprogress", 0));
             w.log('w.analyze');
 
             // Remove hash from URL
@@ -629,59 +634,46 @@ var wappalyzer = (function () {
                     for (id in confidence) {
                         w.detected[url][app].confidence[id] = confidence[id];
                     }
-                    /*
-                    if (w.detected[url][app].getConfidence() >= 100) {
-                        // Per hostname
-                        if (/(www.)?((.+?)\.(([a-z]{2,3}\.)?[a-z]{2,6}))$/.test(hostname) && !/((local|dev(elopment)?|stag(e|ing)?|test(ing)?|demo(shop)?|admin|google|cache)\.|\/admin|\.local)/.test(url)) {
-                            if (!w.ping.hostnames.hasOwnProperty(hostname)) {
-                                w.ping.hostnames[hostname] = { applications: {}, meta: {} };
-                            }
-
-                            if (!w.ping.hostnames[hostname].applications.hasOwnProperty(app)) {
-                                w.ping.hostnames[hostname].applications[app] = { hits: 0 };
-                            }
-
-                            w.ping.hostnames[hostname].applications[app].hits++;
-
-                            if (version) {
-                                w.ping.hostnames[hostname].applications[app].version = version;
-                            }
-                        } else {
-                            w.log('Ignoring hostname "' + hostname + '"');
-                        }
-                    }*/
                 }
 
+                var techApps = [];
                 for (app in apps) {
                     apps[app].icon = w.apps[app].icon;
                     apps[app].website = w.apps[app].website;
+                    if (!apps[app].tech && // no need to deepScan if already done
+                        Tech.allTechs.indexOf(app) !== -1) {
+                        techApps.push(apps[app]);
+                    }
                 }
 
-                driver('displayApps', w.report(url, "inprogress", w.progress = 10));
-
                 // use Tech to find or verify versions
-                Async.eachSeries(apps, function iteratee(app, callback) {
-                    if (!apps[app.app].tech && // no need to deepScan if already done
-                        Tech.allTechs.indexOf(app.app) !== -1) {
-                        var tech = new Tech(app.app);
-                        tech.findRoots(url, data.html);
-                        tech.deepScan(function (err, result) {
-                            if (result.status === "success") {
-                                app.setDetected({ "version": result.versions, "regex": ".*" }, "file", result.proofs);
-                                apps[app.app].tech = tech;
-                            }
-                            callback(err, result.status === "fail");
-                        });
-                    } else { // nothing we can do
-                        callback(null);
-                    }
+                var partial_progress_step_size = 100 / techApps.length;
+                var partial_progress_stepped = 0;
+                driver('displayApps', w.report(url, "deepscan", 0));
+                Async.eachSeries(techApps, function iteratee(app, callback) {
+                    var tech = new Tech(app.app);
+                    tech.findRoots(url, data.html);
+                    tech.deepScan(function (err, result) {
+                        if (result.status === "success") {
+                            app.setDetected({ "version": result.versions, "regex": ".*" }, "file", result.proofs);
+                            apps[app.app].tech = tech;
+                        }
+                        partial_progress_stepped += partial_progress_step_size;
+                        driver('displayApps', w.report(url, "deepscan", partial_progress_stepped));
+                        callback(err, result.status === "fail");
+                    }, function progressCB(progress) {
+                        var p = partial_progress_stepped + ((partial_progress_step_size * progress) / 100);
+                        driver('displayApps', w.report(url, "deepscan", p));
+                    });
                 }, function done(err) {
                     apps = null;
                     data = null;
-                    
-                    driver('displayApps', w.report(url, "inprogress", w.progress = 30));
 
-                    w.lookForPlugins(url, function () { });
+                    driver('displayApps', w.report(url, "deepscan", 100));
+
+                    w.lookForPlugins(url, function () {
+                        driver('displayApps', w.report(url, "complete", 100));
+                    });
                 });
             }
 
@@ -695,8 +687,11 @@ var wappalyzer = (function () {
                     break;
                 }
             }
-
+            driver('displayApps', w.report(url, "analyze", 100));
             if (baseCMSorFrameworkDetected === false) {
+                driver('displayApps', w.report(url, "deepscan", 0));
+                var partial_progress_step_size = 100 / Tech.allTechs.length;
+                var partial_progress_stepped = 0;
                 Async.everySeries(Tech.allTechs, function iteratee(app, callback) {
                     var tech = new Tech(app);
                     tech.findRoots(url, data.html);
@@ -706,7 +701,12 @@ var wappalyzer = (function () {
                             apps[app].setDetected({ "version": result.versions, "regex": ".*" }, "file", result.proofs);
                             apps[app].tech = tech;
                         }
+                        partial_progress_stepped += partial_progress_step_size;
+                        driver('displayApps', w.report(url, "deepscan", partial_progress_stepped));
                         callback(err, result.status === "fail");
+                    }, function progressCB(progress) {
+                        var p = partial_progress_stepped + (partial_progress_step_size * progress / 100);
+                        driver('displayApps', w.report(url, "deepscan", p));
                     });
                 }, function done(err, result) {
                     f();

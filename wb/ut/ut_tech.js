@@ -23,7 +23,7 @@ describe('Class Tech', function () {
         //var data = { uri: "https://wordpress.org", version: "4.6" };
         //var data = { uri: "http://observer.com", version: "4.6" };
         //var data = { uri: "http://www.bbcamerica.com/", version: "4.5.1" };
-        request({ url: data.uri, timeout: 5000, rejectUnauthorized: false, requestCert: true, agent: false}, function (err, response, body) {
+        request(tech.getReqOptions(data.uri), function (err, response, body) {
             if (err) done(err);
             else {
                 if (response.statusCode == 200 || response.statusCode == 206) {
@@ -51,7 +51,7 @@ describe('Class Tech', function () {
     it('checkMissedVersions', function (done) {
         this.timeout(3600 * 1000);// change Mocha default 2000ms timeout
         var tech = new Tech("WordPress");
-        request({ url: "https://wordpress.org/", timeout: 5000, rejectUnauthorized: false, requestCert: true, agent: false }, function (err, response, body) {
+        request(Tech.getReqOptions("https://wordpress.org/"), function (err, response, body) {
             if (err) done(err);
             else {
                 if (response.statusCode == 200 || response.statusCode == 206) {
@@ -75,7 +75,7 @@ describe('Class Tech', function () {
         this.timeout(10000);// change Mocha default 2000ms timeout
         var tech = new Tech("WordPress");
 
-        request({ url: "https://wordpress.org/", timeout: 5000, rejectUnauthorized: false, requestCert: true, agent: false }, function (err, response, body) {
+        request(Tech.getReqOptions("https://wordpress.org/"), function (err, response, body) {
             if (err) done(err);
             else {
                 if (response.statusCode == 200 || response.statusCode == 206) {

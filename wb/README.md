@@ -1,5 +1,5 @@
 # WhatsBehind
-A module to scan technologies used by websites.
+A node.js 6.6.0+ module to scan technologies used by websites.
 
 Forked from Wappalyzer.
 
@@ -14,6 +14,29 @@ Building and Installing
 
 ```shell
 npm install whatsbehind
+```
+
+Usage
+-----
+
+```javascript
+var wb = require('whatsbehind');
+var url = "http://www.starwars.com/";// A WordPress site wappalyzer cannot detect
+wb.scan(url, function (err, data) {
+    // this function is called multiple times until data.status is "complete"
+
+    if (err) {
+        console.log("Error : Scan of \"" + url + "\" failed : " + err.name + ":" + err.message + ".");
+        return;
+    }
+
+    if (data.status == "complete") {
+        console.log("Scan completed successfully");
+        console.log(data.detected);
+    } else {
+        console.log("Progress : " + data.progress + "% (" + data.progressDescription + ")");
+    }
+});
 ```
 
 Author

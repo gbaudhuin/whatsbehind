@@ -1,4 +1,4 @@
-﻿var fs = require("fs"),
+var fs = require("fs"),
     path = require("path"),
     request = require("request"),
     crypto = require("crypto"),
@@ -45,13 +45,54 @@ for (var t in techs) {
     if (techs.hasOwnProperty(t)) Tech.allTechs.push(t);
 }
 
+Tech.getReqOptions = function (url, options) {
+    var ret = {
+        url: url,
+        timeout: 5000,
+        rejectUnauthorized: false,
+        requestCert: true,
+        agent: false,
+        headers: {
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+            'Connection': 'keep-alive',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+        }
+    };
+    if (options) {
+        for (var opt in options) {
+            if (options.hasOwnProperty(opt)) {
+                ret[opt] = options[opt];
+            }
+        }
+    }
+    return ret;
+}
+
+/**
+* Converts all CRLF to LF
+*/
+Tech.crlf2lf = function (data) {
+    var converted = new Uint8Array(data.length);
+    var j = 0;
+    for (var i = 0; i < data.length; i++) {
+        if (data[i] == 13 && i < data.length - 1 && data[i + 1] == 10) { // 13 = ascii code of lf, 10 = ascii code of cr
+            i++;
+        }
+
+        converted[j] = data[i];
+        j++;
+
+    }
+    var converted_trim = converted.slice(0, j);
+    return converted_trim;
+}
 
 Tech.prototype = {
     /**
     * Returns a list of possible detected versions. In some cases, multiple versions cannot be distinguished (most often RC versions and release version, etc.
     * E.G. because only a few files differ and these files are interpreted code files which look the same from client side), deepScan() list them all.
     */
-    deepScan: function (cb) {
+    deepScan: function (cb, cb_progress) {
         var highestCommits = this.getHighestCommits();
 
         var queue = [];
@@ -79,6 +120,7 @@ Tech.prototype = {
         var proofs = [];
         var cur_root = 0;
         var o = null;
+        var progress = 0;
         function pass1(_this, cb1) {
             n++;
             if (cur_root === 0) {
@@ -117,10 +159,7 @@ Tech.prototype = {
             var _minVersion = null;
 
             var u = o.root + "/" + o.path;
-            if (o.path == "wp-admin/js/common.js") {
-                var ggg = 9;
-            }
-            request({ url: u, timeout: 5000, encoding: null, rejectUnauthorized: false, requestCert: true, agent: false }, function d(err, response, body) { // encoding=null to get binary content instead of text
+            request(Tech.getReqOptions(u, { encoding: null }), function d(err, response, body) { // encoding=null to get binary content instead of text
                 if (!err
                     && (response.statusCode == 200 || response.statusCode == 206)
                     && body != null && body != undefined
@@ -128,7 +167,7 @@ Tech.prototype = {
                 ) {
                     nMatch++;
                     if (Tech.nonInterpretableTextExtensions.indexOf(o.ext_lower) !== -1)
-                        body = _this.crlf2lf(body); // normalize text files eof
+                        body = Tech.crlf2lf(body); // normalize text files eof
                     var md5Web = crypto.createHash('md5').update(body).digest("hex");
 
                     var p = _this.versions.length;
@@ -296,7 +335,11 @@ Tech.prototype = {
             }            
         }
         
-        pass1(this, pass2);// chain pass1 and pass2
+        pass1(this, function (_this, check_non_release_versions) {
+            progress = 50;
+            cb_progress(progress);
+            pass2(_this, check_non_release_versions);
+        });// chain pass1 and pass2
     },
 
     /**
@@ -485,14 +528,14 @@ Tech.prototype = {
                 nb_checked++;
 
                 var u = diff.root + "/" + diff.path;
-                request({ url: u, timeout: 10000 }, function d(err, response, body) {
+                request(Tech.getReqOptions(u), function d(err, response, body) {
                     if (!err && (response.statusCode == 200 || response.statusCode == 206)) {
                         if (site_uses_soft404 === null) {
                             // test for soft 404 false positive case
                             var u404 = diff.path.substr(0, diff.path.length - ext.length);
                             u404 = diff.root + "/" + u404 + "d894tgd1" + ext; // random non existing url
 
-                            request({ url: u404, timeout: 5000, rejectUnauthorized: false, requestCert: true, agent: false }, function d(err2, response2, body2) {
+                            request(Tech.getReqOptions(u404), function d(err2, response2, body2) {
                                 if (!err2 && response2.statusCode == 404) {
                                     proofs.push(diff);
                                     path_skip.push(proof_string);
@@ -520,7 +563,7 @@ Tech.prototype = {
                 nb_checked++;
 
                 var u = diff.root + "/" + diff.path;
-                request({ url: u, timeout: 5000, encoding: null, rejectUnauthorized: false, requestCert: true, agent: false }, function d(err, response, body) { // encoding=null to get binary content instead of text
+                request(Tech.getReqOptions(u, { encoding: null }), function d(err, response, body) { // encoding=null to get binary content instead of text
                     if (!err
                         && (response.statusCode == 200 || response.statusCode == 206)
                         && body != null && body != undefined
@@ -529,7 +572,7 @@ Tech.prototype = {
                         // no need to test for soft 404 as we do for A files : for M files, we compare page md5 with diff.md5
 
                         if (Tech.nonInterpretableTextExtensions.indexOf(ext_lower) !== -1)
-                            body = _this.crlf2lf(body); // normalize text files eof
+                            body = Tech.crlf2lf(body); // normalize text files eof
                         var md5 = crypto.createHash('md5').update(body).digest("hex");
                         if (diff.md5 === md5) {
                             proofs.push(diff);
@@ -540,7 +583,7 @@ Tech.prototype = {
                                 var u404 = diff.path.substr(0, diff.path.length - ext.length);
                                 u404 = diff.root + "/" + u404 + "d894tgd1" + ext; // random non existing url
 
-                                request({ url: u404, timeout: 5000, rejectUnauthorized: false, requestCert: true, agent: false }, function d(err2, response2, body2) {
+                                request(Tech.getReqOptions(u404), function d(err2, response2, body2) {
                                     if (!err2 && response2.statusCode == 404) {
                                         site_uses_soft404 = false;
                                     } else {
@@ -761,25 +804,6 @@ Tech.prototype = {
     },
 
     /**
-    * Converts all CRLF to LF
-    */
-    crlf2lf: function (data) {
-        var converted = new Uint8Array(data.length);
-        var j = 0;
-        for (var i = 0; i < data.length; i++) {
-            if (data[i] == 13 && i < data.length - 1 && data[i + 1] == 10) { // 13 = ascii code of lf, 10 = ascii code of cr
-                i++;
-            }
-
-            converted[j] = data[i];
-            j++;
-
-        }
-        var converted_trim = converted.slice(0, j);
-        return converted_trim;
-    },
-
-    /**
      * Find plugins of CMS
      */
     findPlugins: function (progressCB, doneCB) {
@@ -824,10 +848,11 @@ Tech.prototype = {
             function fn(pluginsPath, cb) {
                 Async.eachLimit(plugins, 6, function (plugin_slug, callback) { // test all known plugins
                     if (detected_plugins.indexOf(plugin_slug) === -1) {
-                        request({ url: pluginsPath + "/" + plugin_slug + "/readme.txt", timeout: 5000, rejectUnauthorized: false, requestCert: true, agent: false }, function d(err, response, body) {
+                        request(Tech.getReqOptions(pluginsPath + "/" + plugin_slug + "/readme.txt", { encoding: null }), function d(err, response, body) {
                             n++;
                             try {
                                 if (!err && response.statusCode == 200) {
+                                    body = Tech.crlf2lf(body); // normalize text files eof
                                     var match = regex.exec(body);
                                     if (match && match.length > 1) {
                                         var version = match[1];
@@ -853,7 +878,6 @@ Tech.prototype = {
                                 if (t - startTime > 500) { // notify progress every 500 ms
                                     var progress = 100 * n / l;
                                     progressCB(detected_plugins_data, progress);
-                                    console.log(progress);
                                     startTime = t;
                                 }
 
