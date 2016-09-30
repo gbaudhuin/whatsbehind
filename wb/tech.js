@@ -121,11 +121,12 @@ Tech.prototype = {
         var cur_root = 0;
         var o = null;
         var progress = 0;
+        const max_tries_pass1 = 50;
         function pass1(_this, cb1) {
             n++;
             if (cur_root === 0) {
                 o = iter.next();
-
+                cb_progress(50 * (n / max_tries_pass1));
                 // stop condition : no more entries in queue
                 if (!o.value || o.done === true) {
                     if (!cb_pass1_called) {
@@ -140,7 +141,7 @@ Tech.prototype = {
             o.root = _this.appRoots[cur_root];
 
             // stop condition : enough tries.
-            if (n > 50 || nMatch > 3) {
+            if (n > max_tries_pass1 || nMatch > 3) {
                 if (!cb_pass1_called) {
                     cb_pass1_called = true; cb1(_this, false);
                 }
@@ -162,7 +163,7 @@ Tech.prototype = {
             request(Tech.getReqOptions(u, { encoding: null }), function d(err, response, body) { // encoding=null to get binary content instead of text
                 if (!err
                     && (response.statusCode == 200 || response.statusCode == 206)
-                    && body != null && body != undefined
+                    && body
                     && body.length > 0
                 ) {
                     nMatch++;
@@ -262,13 +263,14 @@ Tech.prototype = {
             });
         }
         var cb_called = false;
+        var versions_subset = [];
         var iter_versions = this.versions_desc[Symbol.iterator](); // ES6 iterator
         var found_version = false;
         function pass2(_this, check_non_release_versions) {
             // stop condition : minVersion == maxVersion
             if (minVersion !== null && maxVersion !== null && minVersion.value == maxVersion.value) {
                 if (!cb_called) {
-                    cb_called = true; cb(null, { "status":"success", "versions": [minVersion.value], "proofs": proofs });
+                    cb_called = true; cb(null, { "status": "success", "versions": [minVersion.value], "proofs": proofs });
                 }
                 return;
             }
@@ -284,59 +286,62 @@ Tech.prototype = {
             }
 
             o = iter_versions.next();
+            cb_progress(50 + 50 * (n / versions_subset.length));
+            n++;
 
             // stop condition : no more versions to test = failure
             if (!o.value || o.done === true) {
-               // if (check_non_release_versions === false) {
+                // if (check_non_release_versions === false) {
                 //    iter_versions = _this.versions_desc[Symbol.iterator](); // we need a new iterator to loop again from beginning
-               //     pass2(_this, true);
-               // } else {
-                    if (!cb_called) {
-                        cb_called = true; cb(null, { "status": "fail", "versions": [], "proofs": [] });
-                    }
-               // }
+                //     pass2(_this, true);
+                // } else {
+                if (!cb_called) {
+                    cb_called = true; cb(null, { "status": "fail", "versions": [], "proofs": [] });
+                }
+                // }
                 return;
             }
 
             var version = o.value;
 
-            if (version.GTOE(minVersion) && version.LTOE(maxVersion)) {
-                var isRelease = version.isReleaseVersion();
-                //if ((!check_non_release_versions && isRelease) || (check_non_release_versions && !isRelease)) {
-                    _this.isVersionOrNewer(version, function (err, result, _proofs) {
-                        if (result == "maybe") {
-                            if (possibleVersions.indexOf(version.value) === -1) possibleVersions.push(version.value);
-                        } else if (result == "success") {
-                            possibleVersions.push(version.value);
-                            var _p = _proofs.length;
-                            while (_p--) {
-                                var _proof = _proofs[_p];
-                                var p = proofs.length;
-                                var alreadythere = false;
-                                while (p-- && alreadythere === false) {
-                                    if (_proof.path == proofs[p].path) alreadythere = true;
-                                }
-                                if (!alreadythere) proofs.push(_proof);
-                            }
-                            found_version = true;
-                        } else {
-                            // any version that was still possible is not anymore
-                            possibleVersions.length = 0; // clear array
-                            proofs.length = 0;
+            var isRelease = version.isReleaseVersion();
+            _this.isVersionOrNewer(version, function (err, result, _proofs) {
+                if (result == "maybe") {
+                    if (possibleVersions.indexOf(version.value) === -1) possibleVersions.push(version.value);
+                } else if (result == "success") {
+                    possibleVersions.push(version.value);
+                    var _p = _proofs.length;
+                    while (_p--) {
+                        var _proof = _proofs[_p];
+                        var p = proofs.length;
+                        var alreadythere = false;
+                        while (p-- && alreadythere === false) {
+                            if (_proof.path == proofs[p].path) alreadythere = true;
                         }
+                        if (!alreadythere) proofs.push(_proof);
+                    }
+                    found_version = true;
+                } else {
+                    // any version that was still possible is not anymore
+                    possibleVersions.length = 0; // clear array
+                    proofs.length = 0;
+                }
 
-                        pass2(_this, check_non_release_versions);
-                    });
-                //} else {
-                //    pass2(_this, check_non_release_versions);
-                //}
-            } else {
                 pass2(_this, check_non_release_versions);
-            }            
+            });
         }
         
         pass1(this, function (_this, check_non_release_versions) {
+            for (var i = 0; i < _this.versions_desc.length; i++) {
+                var v = _this.versions_desc[i];
+                if (v.GTOE(minVersion) && v.LTOE(maxVersion)) {
+                    versions_subset.push(v);
+                }
+            }
+            iter_versions = versions_subset[Symbol.iterator](); // ES6 iterator
+            n = 0;
             progress = 50;
+            
             cb_progress(progress);
             pass2(_this, check_non_release_versions);
         });// chain pass1 and pass2

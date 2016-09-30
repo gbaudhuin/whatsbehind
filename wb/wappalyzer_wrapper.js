@@ -6,9 +6,11 @@
 var request = require('request');
 var fs = require('fs');
 var path = require('path');
+var crypto = require('crypto');
 var Tech = require('./tech.js');
 
-exports.detectFromUrl = function (options, cb) {
+
+exports.detectFromUrl = function (options, cb, generateScreenshot) {
     var url = options.url;
 
     if (options.debug) {
@@ -20,17 +22,24 @@ exports.detectFromUrl = function (options, cb) {
     });
 };
 
-function getHTMLFromUrl(url, cb) {
+function getHTMLFromUrl(url, cb, generateScreenshot) {
     request(Tech.getReqOptions(url, {}), function (error, response, body) {
         if (!error && response.statusCode == 200) {
             var childProcess = require('child_process');
             var phantomjs = require('phantomjs-prebuilt');
             var binPath = phantomjs.path;
 
+            var hash = crypto.createHash("md5");
+            hash.update(url);
+            var outfilename = hash.digest("hex") + ".jpg";
+
             var childArgs = [
                 path.join(__dirname, 'phantom_scripts/js_env.js'),
-                url
-            ];
+                url];
+            
+            if (generateScreenshot === true) {
+                childArgs.push(path.join(__dirname, outfilename));
+            }
 
             childProcess.execFile(binPath, childArgs, function (err, stdout, stderr) {
                 var js_env = stdout.split("\n");
@@ -60,7 +69,7 @@ function getAppsJson(cb) {
     });
 }
 
-function runWappalyzer(options, url, cb) {
+function runWappalyzer(options, url, cb, generateScreenshot) {
     var debug = options.debug || false;
 
     var wappalyzer = require('./wappalyzer/wappalyzer_ex').wappalyzer;
@@ -94,6 +103,6 @@ function runWappalyzer(options, url, cb) {
                 w.driver.displayApps(w.report(url, "analyze", 0));
                 w.analyze(options.hostname, data.url, data);
             }
-        });
+        }, options.generateScreenshot);
     });
 }

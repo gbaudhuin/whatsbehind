@@ -12,10 +12,22 @@ page.onConsoleMessage = function(msg) {
   console.log(msg);
 };
 
-page.open(args[1], function(status) {
-  var vars = page.evaluateJavaScript('function(){for(var b in window) {if(window.hasOwnProperty(b)) console.log(b);}}');
-  console.log(vars);
+var viewport_size =
+    {
+        width: 1200,
+        height: 1920
+    };
 
-  phantom.exit();
-  
+page.open(args[1], function (status) {
+    var vars = page.evaluateJavaScript('function(){for(var b in window) {if(window.hasOwnProperty(b)) console.log(b);}}');
+    console.log(vars);
+
+    if (args[2]) { // if outpt filename, generate a thumbnail
+        page.viewportSize = viewport_size;
+        page.clipRect = viewport_size;
+        output = args[2];
+        page.render(output);
+    }
+
+    phantom.exit();
 });

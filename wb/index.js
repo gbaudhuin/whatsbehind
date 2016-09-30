@@ -1,4 +1,10 @@
-﻿exports.scan = function (uri, callback) {
+﻿exports.scan = function (params, callback) {
+    var uri = params.url;
+    var generateScreenshot = params.generateScreenshot;
+    if (typeof params == 'string' || params instanceof String) {
+        uri = params;
+    }
+
     var wappalyzer_wrapper = require("./wappalyzer_wrapper");
     var url = require('url');
 
@@ -8,22 +14,21 @@
         debug: false
     }
 
-    var Tech = require("./tech");
-    var tech = new Tech("WordPress");
+    if (generateScreenshot) options.generateScreenshot = generateScreenshot;
 
     wappalyzer_wrapper.detectFromUrl(options, callback);
 }
 
-
+/*
 //url = 'http://whatsbehind.io';
 //url = "https://developer.mozilla.org";
 //url = "http://drupal.org/";
 url = "http://www.starwars.com/"; //hidden WordPress site
 //url = "http://wordpress.org/";
 //url = "https://www.yahoo.com/";
-//url = "http://www.peoleo.fr";
-exports.scan(url, function (err, apps) {
+exports.scan({ url: url, generateScreenshot: true }, function (err, apps) {
     if (apps.status == "complete") {
         console.log(err, apps);
     }
 });
+*/
