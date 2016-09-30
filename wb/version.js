@@ -14,6 +14,8 @@ Version.version_compare = function (_prev, _cur) {
     if (!_cur) return 1;
 
     if (_prev.value == _cur.value) return 0;
+    if (_prev.value.toLowerCase() == "trunk") return 1;
+    if (_cur.value.toLowerCase() == "trunk") return -1;
 
     // filter _prev
     var prev = _prev.value.replace(/[_+-]/g, ".");

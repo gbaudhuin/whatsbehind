@@ -27,4 +27,10 @@ describe('Class Version', function () {
         assert.ok(v2.isReleaseVersion());
         assert.ok(!v1.isReleaseVersion());
     })
+
+    it('trunk version', function () {
+        var v1 = new Version("1.0");
+        var v2 = new Version("trunk");
+        assert.ok(v2.GTOE(v1));
+    })
 })

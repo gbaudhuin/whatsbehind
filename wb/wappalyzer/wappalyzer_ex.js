@@ -623,7 +623,8 @@ var wappalyzer = (function () {
 
                 w.log(Object.keys(apps).length + ' apps detected: ' + Object.keys(apps).join(', ') + ' on ' + url);
 
-                // Keep history of detected apps
+                // Generate definitive list of apps
+                w.detected[url] = {};
                 for (app in apps) {
                     confidence = apps[app].confidence;
                     version = apps[app].version;
@@ -687,6 +688,21 @@ var wappalyzer = (function () {
                     break;
                 }
             }
+
+            // Generate a partial list of detected apps to display to user before deepScan
+            for (app in apps) {
+                if (!apps[app].detected) continue;
+                confidence = apps[app].confidence;
+                version = apps[app].version;
+                w.detected[url][app] = apps[app];
+                w.detected[url][app].icon = w.apps[app].icon;
+                w.detected[url][app].website = w.apps[app].website;
+                for (id in confidence) {
+                    w.detected[url][app].confidence[id] = confidence[id];
+                }
+            }
+            var aaa = w.detected[url].length;
+
             driver('displayApps', w.report(url, "analyze", 100));
             if (baseCMSorFrameworkDetected === false) {
                 driver('displayApps', w.report(url, "deepscan", 0));

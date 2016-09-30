@@ -121,7 +121,7 @@ Tech.prototype = {
         var cur_root = 0;
         var o = null;
         var progress = 0;
-        const max_tries_pass1 = 50;
+        const max_tries_pass1 = 30;
         function pass1(_this, cb1) {
             n++;
             if (cur_root === 0) {
@@ -267,10 +267,14 @@ Tech.prototype = {
         var iter_versions = this.versions_desc[Symbol.iterator](); // ES6 iterator
         var found_version = false;
         function pass2(_this, check_non_release_versions) {
-            // stop condition : minVersion == maxVersion
-            if (minVersion !== null && maxVersion !== null && minVersion.value == maxVersion.value) {
+            // stop condition : !minVersion and !maxVersion (pass1 failed) or minVersion == maxVersion
+            if ((!minVersion && !maxVersion) || minVersion.value == maxVersion.value) {
                 if (!cb_called) {
-                    cb_called = true; cb(null, { "status": "success", "versions": [minVersion.value], "proofs": proofs });
+                    cb_called = true;
+                    if (minVersion)
+                        cb(null, { "status": "success", "versions": [minVersion.value], "proofs": proofs });
+                    else 
+                        cb(null, { "status": "fail", "versions": [], "proofs": proofs });
                 }
                 return;
             }

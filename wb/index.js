@@ -26,7 +26,10 @@
 url = "http://www.starwars.com/"; //hidden WordPress site
 //url = "http://wordpress.org/";
 //url = "https://www.yahoo.com/";
+//url = "https://branded7.com";
+
 exports.scan({ url: url, generateScreenshot: true }, function (err, apps) {
+    console.log(apps.progress);
     if (apps.status == "complete") {
         console.log(err, apps);
     }
