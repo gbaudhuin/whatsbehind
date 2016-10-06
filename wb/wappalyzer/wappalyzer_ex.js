@@ -650,7 +650,6 @@ var wappalyzer = (function () {
                 // use Tech to find or verify versions
                 var partial_progress_step_size = 100 / techApps.length;
                 var partial_progress_stepped = 0;
-                driver('displayApps', w.report(url, "deepscan", 0));
                 Async.eachSeries(techApps, function iteratee(app, callback) {
                     var tech = new Tech(app.app);
                     tech.findRoots(url, data.html);

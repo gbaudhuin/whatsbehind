@@ -1,6 +1,6 @@
 {
   "name": "whatsbehind",
-  "version": "0.2.6",
+  "version": "0.2.9",
   "license": "GPL-3.0",
   "description": "A module to check technologies used by websites",
   "main": "index.js",
@@ -14,7 +14,7 @@
   "dependencies": {
     "async": "^2.0.1",
     "mocha": "^3.0.1",
-    "phantomjs-prebuilt": "^2.1.12",
+    "phantomjs-prebuilt": "^2.1.13",
     "request": "^2.75.0"
   }
 }
