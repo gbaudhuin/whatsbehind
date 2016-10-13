@@ -9,8 +9,7 @@ var path = require('path');
 var crypto = require('crypto');
 var Tech = require('./tech.js');
 
-
-exports.detectFromUrl = function (options, cb, generateScreenshot) {
+exports.detectFromUrl = function (options, cb) {
     var url = options.url;
 
     if (options.debug) {
@@ -22,39 +21,15 @@ exports.detectFromUrl = function (options, cb, generateScreenshot) {
     });
 };
 
-function getHTMLFromUrl(url, cb, generateScreenshot) {
+function getHTMLFromUrl(url, cb) {
     request(Tech.getReqOptions(url, {}), function (error, response, body) {
         if (!error && response.statusCode == 200) {
-            var childProcess = require('child_process');
-            var phantomjs = require('phantomjs-prebuilt');
-            var binPath = phantomjs.path;
-
-            var hash = crypto.createHash("md5");
-            hash.update(url);
-            var outfilename = hash.digest("hex") + ".jpg";
-
-            var childArgs = [
-                path.join(__dirname, 'phantom_scripts/js_env.js'),
-                url];
-            
-            if (generateScreenshot === true) {
-                childArgs.push(path.join(__dirname, outfilename));
-            }
-
-            childProcess.execFile(binPath, childArgs, function (err, stdout, stderr) {
-                var js_env = stdout.split("\n");
-                for (var i in js_env) {
-                    js_env[i] = js_env[i].trim(); // remove eols
-                }
-
                 var data = {
                     html: body,
                     url: response.request.uri.href, // response.request.uri contains the response uri, potentially redirected
                     headers: response.headers,
-                    env: js_env
                 };
                 cb(null, data);
-            });
         } else {
             cb(error, null);
         }
@@ -69,7 +44,7 @@ function getAppsJson(cb) {
     });
 }
 
-function runWappalyzer(options, url, cb, generateScreenshot) {
+function runWappalyzer(options, url, cb) {
     var debug = options.debug || false;
 
     var wappalyzer = require('./wappalyzer/wappalyzer_ex').wappalyzer;
@@ -103,6 +78,6 @@ function runWappalyzer(options, url, cb, generateScreenshot) {
                 w.driver.displayApps(w.report(url, "analyze", 0));
                 w.analyze(options.hostname, data.url, data);
             }
-        }, options.generateScreenshot);
+        });
     });
 }

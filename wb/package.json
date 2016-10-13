@@ -1,6 +1,6 @@
 {
   "name": "whatsbehind",
-  "version": "0.2.9",
+  "version": "0.2.12",
   "license": "GPL-3.0",
   "description": "A module to check technologies used by websites",
   "main": "index.js",

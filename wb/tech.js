@@ -81,7 +81,6 @@ Tech.crlf2lf = function (data) {
 
         converted[j] = data[i];
         j++;
-
     }
     var converted_trim = converted.slice(0, j);
     return converted_trim;
@@ -857,11 +856,14 @@ Tech.prototype = {
             function fn(pluginsPath, cb) {
                 Async.eachLimit(plugins, 6, function (plugin_slug, callback) { // test all known plugins
                     if (detected_plugins.indexOf(plugin_slug) === -1) {
-                        request(Tech.getReqOptions(pluginsPath + "/" + plugin_slug + "/readme.txt", { encoding: null }), function d(err, response, body) {
+                        var url_plugin_headerfile = pluginsPath + "/" + plugin_slug + "/readme.txt";
+                        request(Tech.getReqOptions(url_plugin_headerfile, { encoding: null }), function d(err, response, body_bytearray) {
                             n++;
                             try {
                                 if (!err && response.statusCode == 200) {
-                                    body = Tech.crlf2lf(body); // normalize text files eof
+                                    body_bytearray = Tech.crlf2lf(body_bytearray); // normalize text files eof
+                                    var body_buf = Buffer.from(body_bytearray);
+                                    var body = body_buf.toString('utf8');
                                     var match = regex.exec(body);
                                     if (match && match.length > 1) {
                                         var version = match[1];

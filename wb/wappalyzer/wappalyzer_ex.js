@@ -240,12 +240,12 @@ var wappalyzer = (function () {
         detected: {},
         scanDate: new Date(),
         progressSteps: {
-            init: { start: 0, end: 1, text: 'Starting up...' },
-            fetch: { start: 1, end: 5, text: 'Fetching page content' },
-            analyze: { start: 5, end: 10, text: 'Analyzing page content' },
-            deepscan: { start: 10, end: 30, text: 'Analyzing website files checksums' },
-            plugins: { start: 30, end: 100, text: 'Looking for CMS plugins' },
-            complete: { start: 100, end: 100, text: 'Scan complete' }
+            init: { start: 0, end: 1, defaultDescription: 'Starting up...' },
+            fetch: { start: 1, end: 5, defaultDescription: 'Fetching page content' },
+            analyze: { start: 5, end: 10, defaultDescription: 'Analyzing page content' },
+            deepscan: { start: 10, end: 30, defaultDescription: 'Analyzing website files checksums' },
+            plugins: { start: 30, end: 100, defaultDescription: 'Looking for CMS plugins' },
+            complete: { start: 100, end: 100, defaultDescription: 'Scan complete' }
         },
 
         config: {
@@ -286,8 +286,10 @@ var wappalyzer = (function () {
             driver('init');
         },
 
-        report: function (url, step, in_step_progress) {
+        report: function (url, step, in_step_progress, description_override) {
             var progress_step = this.progressSteps[step];
+            var desc = progress_step.defaultDescription;
+            if (description_override) desc = description_override;
             var progress = progress_step.start + (((progress_step.end - progress_step.start) * in_step_progress) / 100);
             var data = [];
             for (app in w.detected[url]) {
@@ -365,7 +367,7 @@ var wappalyzer = (function () {
 
                 data.push(o);
             }
-            return { url: url.replace(/\/+$/g, ''), status: step, progress: progress, progressDescription: progress_step.text, scanDate: w.scanDate, lastUpdate: new Date(), detected: data };
+            return { url: url.replace(/\/+$/g, ''), status: step, progress: progress, progressDescription: desc, scanDate: w.scanDate, lastUpdate: new Date(), detected: data };
         },
 
         lookForPlugins: function (url, cb) {
@@ -415,7 +417,7 @@ var wappalyzer = (function () {
                 apps = {},
                 excludes = [],
                 checkImplies = true;
-            
+
             w.log('w.analyze');
 
             // Remove hash from URL
@@ -442,116 +444,8 @@ var wappalyzer = (function () {
                 */
                 apps[app] = w.detected[url] && w.detected[url][app] ? w.detected[url][app] : new Application(app);
                 apps[app].cats = w.apps[app].cats;
-
-                for (type in w.apps[app]) {
-                    switch (type) {
-                        case 'url':
-                            parse(w.apps[app][type]).forEach(function (pattern) {
-                                if (pattern.regex.test(url)) {
-                                    apps[app].setDetected(pattern, type, url);
-                                }
-
-                                profiler.checkPoint(app, type, pattern.regex);
-                            });
-
-                            break;
-                        case 'html':
-                            if (typeof data[type] !== 'string' || !data.html) {
-                                break;
-                            }
-
-                            parse(w.apps[app][type]).forEach(function (pattern) {
-                                if (pattern.regex.test(data[type])) {
-                                    apps[app].setDetected(pattern, type, data[type]);
-                                }
-
-                                profiler.checkPoint(app, type, pattern.regex);
-                            });
-
-                            break;
-                        case 'script':
-                            if (typeof data.html !== 'string' || !data.html) {
-                                break;
-                            }
-
-                            regexScript = new RegExp('<script[^>]+src=("|\')([^"\']+)', 'ig');
-
-                            parse(w.apps[app][type]).forEach(function (pattern) {
-                                while (match = regexScript.exec(data.html)) {
-                                    if (pattern.regex.test(match[2])) {
-                                        apps[app].setDetected(pattern, type, match[2]);
-                                    }
-                                }
-
-                                profiler.checkPoint(app, type, pattern.regex);
-                            });
-
-                            break;
-                        case 'meta':
-                            if (typeof data.html !== 'string' || !data.html) {
-                                break;
-                            }
-
-                            regexMeta = /<meta[^>]+>/ig;
-
-                            while (match = regexMeta.exec(data.html)) {
-                                for (meta in w.apps[app][type]) {
-                                    profiler.checkPoint(app, type, regexMeta);
-
-                                    if (new RegExp('name=["\']' + meta + '["\']', 'i').test(match)) {
-                                        content = match.toString().match(/content=("|')([^"']+)("|')/i);
-
-                                        parse(w.apps[app].meta[meta]).forEach(function (pattern) {
-                                            if (content && content.length === 4 && pattern.regex.test(content[2])) {
-                                                apps[app].setDetected(pattern, type, content[2], meta);
-                                            }
-
-                                            profiler.checkPoint(app, type, pattern.regex);
-                                        });
-                                    }
-                                }
-                            }
-
-                            break;
-                        case 'headers':
-                            if (typeof data[type] !== 'object' || !data[type]) {
-                                break;
-                            }
-
-                            for (header in w.apps[app].headers) {
-                                parse(w.apps[app][type][header]).forEach(function (pattern) {
-                                    if (typeof data[type][header.toLowerCase()] === 'string' && pattern.regex.test(data[type][header.toLowerCase()])) {
-                                        apps[app].setDetected(pattern, type, data[type][header.toLowerCase()], header);
-                                    }
-
-                                    profiler.checkPoint(app, type, pattern.regex);
-                                });
-                            }
-
-                            break;
-                        case 'env':
-                            if (typeof data[type] !== 'object' || !data[type]) {
-                                break;
-                            }
-
-                            parse(w.apps[app][type]).forEach(function (pattern) {
-                                for (i in data[type]) {
-
-                                    if (pattern.regex.test(data[type][i])) {
-                                        apps[app].setDetected(pattern, type, data[type][i]);
-                                    }
-                                }
-
-                                profiler.checkPoint(app, type, pattern.regex);
-                            });
-
-                            break;
-                    }
-                }
             }
 
-            w.log('[ profiler ] Tested ' + profiler.regexCount + ' regular expressions in ' + ((new Date().getTime() - profiler.startTime) / 1000) + 's');
-            w.log('[ profiler ] Slowest pattern took ' + (profiler.slowest.duration / 1000) + 's: ' + profiler.slowest.app + ' | ' + profiler.slowest.type + ' | ' + profiler.slowest.regex);
 
             function f() {
                 for (app in apps) {
@@ -659,17 +553,17 @@ var wappalyzer = (function () {
                             apps[app.app].tech = tech;
                         }
                         partial_progress_stepped += partial_progress_step_size;
-                        driver('displayApps', w.report(url, "deepscan", partial_progress_stepped));
+                        driver('displayApps', w.report(url, "deepscan", partial_progress_stepped, "Looking for " + app.app + " version."));
                         callback(err, result.status === "fail");
                     }, function progressCB(progress) {
                         var p = partial_progress_stepped + ((partial_progress_step_size * progress) / 100);
-                        driver('displayApps', w.report(url, "deepscan", p));
+                        driver('displayApps', w.report(url, "deepscan", p, "Looking for " + app.app + " version."));
                     });
                 }, function done(err) {
                     apps = null;
                     data = null;
 
-                    driver('displayApps', w.report(url, "deepscan", 100));
+                    //   driver('displayApps', w.report(url, "deepscan", 100));
 
                     w.lookForPlugins(url, function () {
                         driver('displayApps', w.report(url, "complete", 100));
@@ -677,58 +571,211 @@ var wappalyzer = (function () {
                 });
             }
 
-            // if no baseCMS nor web framework are detected at this point, look for them with a deep scan with Tech
-            var baseCMSorFrameworkDetected = false;
-            for (app in apps) {
-                if (baseCMSorFrameworkDetected == false && apps[app].detected && (
-                    apps[app].cats.indexOf(1) !== -1 ||   // 1 : CMS
-                    apps[app].cats.indexOf(18) !== -1)) { // 18: web framework
-                    baseCMSorFrameworkDetected = true;
-                    break;
-                }
-            }
+            // run lookup in 2 parallel ways : 
+            // - one for "env" which needs to use phantomjs to load the page and all its js assets to finally inject a script to get js global vars
+            // - one for other means, which are much faster. Hence, giving us the possibility to feed user with partial results quickly.
+            var js_env = [];
+            var analyze_progress = 0;
+            Async.parallel([function (cb_parallel) {
+                var childProcess = require('child_process');
+                var phantomjs = require('phantomjs-prebuilt');
+                var path = require('path');
+                var binPath = phantomjs.path;
 
-            // Generate a partial list of detected apps to display to user before deepScan
-            for (app in apps) {
-                if (!apps[app].detected) continue;
-                confidence = apps[app].confidence;
-                version = apps[app].version;
-                w.detected[url][app] = apps[app];
-                w.detected[url][app].icon = w.apps[app].icon;
-                w.detected[url][app].website = w.apps[app].website;
-                for (id in confidence) {
-                    w.detected[url][app].confidence[id] = confidence[id];
-                }
-            }
-            var aaa = w.detected[url].length;
-
-            driver('displayApps', w.report(url, "analyze", 100));
-            if (baseCMSorFrameworkDetected === false) {
-                driver('displayApps', w.report(url, "deepscan", 0));
-                var partial_progress_step_size = 100 / Tech.allTechs.length;
-                var partial_progress_stepped = 0;
-                Async.everySeries(Tech.allTechs, function iteratee(app, callback) {
-                    var tech = new Tech(app);
-                    tech.findRoots(url, data.html);
-                    tech.deepScan(function (err, result) {
-                        var t = app;
-                        if (result.status === "success") {
-                            apps[app].setDetected({ "version": result.versions, "regex": ".*" }, "file", result.proofs);
-                            apps[app].tech = tech;
+                var childArgs = [
+                    path.join(__dirname, '../phantom_scripts/js_env.js'),
+                    url];
+                childProcess.execFile(binPath, childArgs, function (err, stdout, stderr) {
+                    var js_env_dirty = stdout.split("\n");
+                    for (var i in js_env_dirty) {
+                        var tmp_str = js_env_dirty[i].trim(); // remove eols
+                        if (tmp_str.length > 0) {
+                            js_env[i] = tmp_str;
                         }
-                        partial_progress_stepped += partial_progress_step_size;
-                        driver('displayApps', w.report(url, "deepscan", partial_progress_stepped));
-                        callback(err, result.status === "fail");
-                    }, function progressCB(progress) {
-                        var p = partial_progress_stepped + (partial_progress_step_size * progress / 100);
-                        driver('displayApps', w.report(url, "deepscan", p));
-                    });
-                }, function done(err, result) {
-                    f();
+                    }
+                    cb_parallel(null);
                 });
-            } else {
-                f();
+            }, function (cb_parallel) {
+                for (app in w.apps) {
+                    for (type in w.apps[app]) {
+                        switch (type) {
+                            case 'url':
+                                parse(w.apps[app][type]).forEach(function (pattern) {
+                                    if (pattern.regex.test(url)) {
+                                        apps[app].setDetected(pattern, type, url);
+                                    }
+
+                                    profiler.checkPoint(app, type, pattern.regex);
+                                });
+
+                                break;
+                            case 'html':
+                                if (typeof data[type] !== 'string' || !data.html) {
+                                    break;
+                                }
+
+                                parse(w.apps[app][type]).forEach(function (pattern) {
+                                    if (pattern.regex.test(data[type])) {
+                                        apps[app].setDetected(pattern, type, data[type]);
+                                    }
+
+                                    profiler.checkPoint(app, type, pattern.regex);
+                                });
+
+                                break;
+                            case 'script':
+                                if (typeof data.html !== 'string' || !data.html) {
+                                    break;
+                                }
+
+                                regexScript = new RegExp('<script[^>]+src=("|\')([^"\']+)', 'ig');
+
+                                parse(w.apps[app][type]).forEach(function (pattern) {
+                                    while (match = regexScript.exec(data.html)) {
+                                        if (pattern.regex.test(match[2])) {
+                                            apps[app].setDetected(pattern, type, match[2]);
+                                        }
+                                    }
+
+                                    profiler.checkPoint(app, type, pattern.regex);
+                                });
+
+                                break;
+                            case 'meta':
+                                if (typeof data.html !== 'string' || !data.html) {
+                                    break;
+                                }
+
+                                regexMeta = /<meta[^>]+>/ig;
+
+                                while (match = regexMeta.exec(data.html)) {
+                                    for (meta in w.apps[app][type]) {
+                                        profiler.checkPoint(app, type, regexMeta);
+
+                                        if (new RegExp('name=["\']' + meta + '["\']', 'i').test(match)) {
+                                            content = match.toString().match(/content=("|')([^"']+)("|')/i);
+
+                                            parse(w.apps[app].meta[meta]).forEach(function (pattern) {
+                                                if (content && content.length === 4 && pattern.regex.test(content[2])) {
+                                                    apps[app].setDetected(pattern, type, content[2], meta);
+                                                }
+
+                                                profiler.checkPoint(app, type, pattern.regex);
+                                            });
+                                        }
+                                    }
+                                }
+
+                                break;
+                            case 'headers':
+                                if (typeof data[type] !== 'object' || !data[type]) {
+                                    break;
+                                }
+
+                                for (header in w.apps[app].headers) {
+                                    parse(w.apps[app][type][header]).forEach(function (pattern) {
+                                        if (typeof data[type][header.toLowerCase()] === 'string' && pattern.regex.test(data[type][header.toLowerCase()])) {
+                                            apps[app].setDetected(pattern, type, data[type][header.toLowerCase()], header);
+                                        }
+
+                                        profiler.checkPoint(app, type, pattern.regex);
+                                    });
+                                }
+
+                                break;
+                        }
+                    }
+                }
+
+                // Generate a partial list of detected apps to display to user before deepScan
+                for (app in apps) {
+                    if (!apps[app].detected) continue;
+                    confidence = apps[app].confidence;
+                    version = apps[app].version;
+                    w.detected[url][app] = apps[app];
+                    w.detected[url][app].icon = w.apps[app].icon;
+                    w.detected[url][app].website = w.apps[app].website;
+                    for (id in confidence) {
+                        w.detected[url][app].confidence[id] = confidence[id];
+                    }
+                }
+
+                analyze_progress += 50;
+                driver('displayApps', w.report(url, "analyze", analyze_progress));
+                cb_parallel(null);
             }
+            ], function (err, results) {
+                if (js_env.length > 0) {
+                    var type = "env";
+                    for (app in w.apps) {
+                        if (w.apps[app][type]) {
+                            parse(w.apps[app][type]).forEach(function (pattern) {
+                                for (i in js_env) {
+                                    if (pattern.regex.test(js_env[i])) {
+                                        apps[app].setDetected(pattern, type, js_env[i]);
+                                    }
+                                }
+
+                                profiler.checkPoint(app, type, pattern.regex);
+                            });
+                        }
+                    }
+                } else {
+                    console.log("No js env found.");
+                }
+
+                // if no baseCMS nor web framework are detected at this point, look for them with a deep scan with Tech
+                var baseCMSorFrameworkDetected = false;
+                for (app in apps) {
+                    if (baseCMSorFrameworkDetected == false && apps[app].detected && (
+                        apps[app].cats.indexOf(1) !== -1 ||   // 1 : CMS
+                        apps[app].cats.indexOf(18) !== -1)) { // 18: web framework
+                        baseCMSorFrameworkDetected = true;
+                        break;
+                    }
+                }
+
+                // Generate a partial list of detected apps to display to user before deepScan
+                for (app in apps) {
+                    if (!apps[app].detected) continue;
+                    confidence = apps[app].confidence;
+                    version = apps[app].version;
+                    w.detected[url][app] = apps[app];
+                    w.detected[url][app].icon = w.apps[app].icon;
+                    w.detected[url][app].website = w.apps[app].website;
+                    for (id in confidence) {
+                        w.detected[url][app].confidence[id] = confidence[id];
+                    }
+                }
+
+                driver('displayApps', w.report(url, "analyze", 100));
+                if (baseCMSorFrameworkDetected === false) {
+                    driver('displayApps', w.report(url, "deepscan", 0));
+                    var partial_progress_step_size = 100 / Tech.allTechs.length;
+                    var partial_progress_stepped = 0;
+                    Async.everySeries(Tech.allTechs, function iteratee(app, callback) {
+                        var tech = new Tech(app);
+                        tech.findRoots(url, data.html);
+                        tech.deepScan(function (err, result) {
+                            var t = app;
+                            if (result.status === "success") {
+                                apps[app].setDetected({ "version": result.versions, "regex": ".*" }, "file", result.proofs);
+                                apps[app].tech = tech;
+                            }
+                            partial_progress_stepped += partial_progress_step_size;
+                            driver('displayApps', w.report(url, "deepscan", partial_progress_stepped));
+                            callback(err, result.status === "fail");
+                        }, function progressCB(progress) {
+                            var p = partial_progress_stepped + (partial_progress_step_size * progress / 100);
+                            driver('displayApps', w.report(url, "deepscan", p));
+                        });
+                    }, function done(err, result) {
+                        f();
+                    });
+                } else {
+                    f();
+                }
+            });
         }
     };
 
