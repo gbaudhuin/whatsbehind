@@ -125,7 +125,6 @@ Tech.prototype = {
             n++;
             if (cur_root === 0) {
                 o = iter.next();
-                cb_progress(50 * (n / max_tries_pass1));
                 // stop condition : no more entries in queue
                 if (!o.value || o.done === true) {
                     if (!cb_pass1_called) {
@@ -154,6 +153,8 @@ Tech.prototype = {
                 }
                 return;
             }
+
+            cb_progress(50 * (n / max_tries_pass1));
 
             var _maxVersion = null;
             var _minVersion = null;
@@ -224,11 +225,20 @@ Tech.prototype = {
                             maxVersion = _maxVersion;
                         }
                         else {
-                            if (_minVersion.GT(minVersion)) {
-                                minVersion = _minVersion;
-                            }
-                            if (maxVersion.GT(_maxVersion)) {
-                                maxVersion = _maxVersion;
+                            if (minVersion.GT(_maxVersion)) { // special unexplained non coherent case : widden up versions range to avoid further inconsistencies
+                                if (_minVersion.LT(minVersion)) {
+                                    minVersion = _minVersion;
+                                }
+                                if (_maxVersion.GT(maxVersion)) {
+                                    maxVersion = _maxVersion;
+                                }
+                            } else { // narrow down versions range
+                                if (_minVersion.GT(minVersion)) {
+                                    minVersion = _minVersion;
+                                }
+                                if (maxVersion.GT(_maxVersion)) {
+                                    maxVersion = _maxVersion;
+                                }
                             }
                         }
 

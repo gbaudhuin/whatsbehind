@@ -28,9 +28,8 @@ url = "http://wordpress.org/";
 //url = 'https://www.google.fr/';
 //url = 'http://9gag.com/';
 url = 'http://travelportland.com';
-
 exports.scan({ url: url, generateScreenshot: true }, function (err, apps) {
-    console.log(apps.progress + " : " + apps.detected.length);
+    console.log(apps.status + " " + apps.progress + " : " + apps.detected.length);
     if (apps.status == "complete") {
         console.log(err, apps);
     }
