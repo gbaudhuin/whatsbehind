@@ -16,12 +16,9 @@
       "(href|src)\\s*=\\s*[\\\"\\'](((https?:\\/\\/)?([\\da-z\\.-]+)\\.([a-z\\.]{2,6}))?[\\/\\w \\.-]*?)/sites/(all|default)/"
     ],
     "pluginLookup": [
-      "sites/all/modules/contrib/[^/]+",
-      "sites\\/all\\/modules\\/contrib\\/[^/]+",
-      "sites/all/modules/drupal\\.org/[^/]+",
-      "sites\\/all\\/modules\\/drupal\\.org\\/[^/]+",
-      "sites/all/modules/[^/]+",
-      "sites\\/all\\/modules\\/[^/]+"
+      "(href|src)\\s*=\\s*[\\\"\\'](((https?:\\/\\/)?([\\da-z\\.-]+)\\.([a-z\\.]{2,6}))?[\\/\\w \\.-]*?\/sites/all/modules/contrib/)[^/]+",
+      "(href|src)\\s*=\\s*[\\\"\\'](((https?:\\/\\/)?([\\da-z\\.-]+)\\.([a-z\\.]{2,6}))?[\\/\\w \\.-]*?\/sites/all/modules/drupal\\.org/)[^/]+",
+      "(href|src)\\s*=\\s*[\\\"\\'](((https?:\\/\\/)?([\\da-z\\.-]+)\\.([a-z\\.]{2,6}))?[\\/\\w \\.-]*?\/sites/all/modules/)[^/]+"
     ],
     "pluginDefaultPath": "sites/all/modules",
     "pluginStopOnFirstPositivePath": false

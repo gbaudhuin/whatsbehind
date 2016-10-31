@@ -383,7 +383,7 @@ var wappalyzer = (function () {
                 Async.eachSeries(techs_with_plugins, function progressCB(app_name, callback) {
                     var app = w.detected[url][app_name];
                     if (app.tech) {
-                        app.tech.findPlugins(function (detected_plugins, plugin_progress) {
+                        app.tech.findPlugins(app.version, function (detected_plugins, plugin_progress) {
                             techs_with_plugins_progress[app_name] = plugin_progress;
                             var progress_allplugins = 0;
                             for (var p in techs_with_plugins_progress) {

@@ -16,22 +16,26 @@
     wappalyzer_wrapper.detectFromUrl(options, callback);
 }
 
-/*
+var fs = require('fs'),
+    request = require('request');
+//request('http://google.com/doodle.png').pipe(fs.createWriteStream('doodle.png'))
+request.get('http://google.com/img.png').pipe(fs.createWriteStream('img.png'))
+
 //url = 'http://whatsbehind.io';
 //url = "https://developer.mozilla.org";
 //url = "http://drupal.org/";
 //url = "http://www.starwars.com/"; //hidden WordPress site
-url = "http://wordpress.org/";
+//url = "http://wordpress.org/";
 //url = "https://www.yahoo.com/";
 //url = "https://branded7.com";
 //url = "http://www.captaincreative.com.au";
 //url = 'https://www.google.fr/';
 //url = 'http://9gag.com/';
-url = 'http://travelportland.com';
+//url = 'http://travelportland.com';
+url = "http://www.spindrift-racing.com/"; // drupal
 exports.scan({ url: url, generateScreenshot: true }, function (err, apps) {
     console.log(apps.status + " " + apps.progress + " : " + apps.detected.length);
     if (apps.status == "complete") {
         console.log(err, apps);
     }
 });
-*/
