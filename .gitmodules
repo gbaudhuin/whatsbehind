@@ -1,0 +1,3 @@
+[submodule "wb/data"]
+	path = wb/data
+	url = git@gitlab.com:baudhuin/ocassets.git
