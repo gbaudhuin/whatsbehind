@@ -670,12 +670,13 @@ Tech.prototype = {
             var match = pluginLookup.exec(html);
             while (match !== null) {
                 var uri = match[2];
-
+                if (uri === undefined) uri = a.protocol + '//' + a.host + '/' + match[1];
+                uri = uri.replace(/\\\//g, "/");
                 if (uri.substring(0, 2) == '//') uri = a.protocol + uri; // some urls start with '//'. we need to add the protocol.
 
                 var uri2 = Helper.trimChar(url.resolve(baseUrl, uri), '/');
 
-                if (this.techname == "WordPress" && uri2.indexOf("/themes") !== -1) { // WP specific : /wp-content/plugins is very probabky a sibbling of /wp-content/themes
+                if (this.techname == "WordPress" && uri2.indexOf("/themes") !== -1) { // WP specific : /wp-content/plugins is very probably a sibbling of /wp-content/themes
                     uri2 = uri2.replace("/themes", "/plugins");
                 }
 
@@ -687,10 +688,7 @@ Tech.prototype = {
             }
         }
 
-        // always check default path
-        if (this.pluginPaths.indexOf(baseUrl + this.args.pluginDefaultPath) === -1) {
-            this.pluginPaths.push(baseUrl + this.args.pluginDefaultPath);
-        }
+        // plugins default path is set in findPlugins (we need to know CMSyy version)
     },
 
     setOneRoot: function (rootUrl) {
@@ -851,16 +849,30 @@ Tech.prototype = {
      * Find plugins of CMS
      */
     findPlugins: function (techVersion, progressCB, doneCB) {
+        // check default path
+        if (this.pluginPaths.length == 0) {
+            if (this.techname == "Drupal" && techVersion.substring(0, 1) === "8") {
+                this.pluginPaths.push(this.appRoots[0] + '/modules');
+            } else {
+                this.pluginPaths.push(this.appRoots[0] + this.args.pluginDefaultPath);
+            }
+        }
+
         try {
             if (this.pluginPaths.length < 1) {
-                console.log("Could not find WordPress plugins path. Plugins lookup aborted.");
+                console.log("Could not find " + this.techname + " plugins path. Plugins lookup aborted.");
                 return;
             }
             var techname = this.techname;
             var dir = __dirname + "/data/" + this.techname + "/plugins/";
+            var cvs_filename = "pluginslist.csv";
+            if (techname == "Drupal") {
+                var coreVersion = techVersion.substring(0, 1);
+                cvs_filename = "pluginslist_" + coreVersion + ".csv";
+            }
 
             // read CSV file
-            var csv_content = fs.readFileSync(dir + "pluginslist.csv", "utf8");
+            var csv_content = fs.readFileSync(dir + cvs_filename, "utf8");
             var lines = csv_content.split(/\r\n|\n/);
 
             var plugins = [];
@@ -872,7 +884,7 @@ Tech.prototype = {
                 var a = line.length;
                 if (line.length == 0) continue;// empty line
                 if (els.length != 2) {
-                    console.log("Bad syntax at line " + (i + 1) + " in " + dir + "pluginslist.csv : \"" + line + "\". Line was skipped.");
+                    console.log("Bad syntax at line " + (i + 1) + " in " + dir + cvs_filename + " : \"" + line + "\". Line was skipped.");
                     continue;
                 }
                 var slug = els[0];
@@ -941,6 +953,25 @@ Tech.prototype = {
                             });
                         } else if (techname == "Drupal") {
                             url_plugin_testfile = pluginsPath + "/" + plugin_slug + "/" + plugin_slug + ".info";
+                            if (coreVersion === "8") {
+                                url_plugin_testfile = pluginsPath + "/" + plugin_slug + "/" + plugin_slug + ".info.yml";
+                            }
+                            /*var tech_tmp = new Tech(techname, true, plugin_slug, coreVersion);
+                            var allVersions = tech_tmp.getAllVersions();
+                            var done = false;
+                            for (var v in allVersions) {
+                                var vers = allVersions[v];
+                                var a = tech_tmp.getDiffFiles(vers);
+                                for (var f in a) {
+                                    var ff = a[f];
+                                    var p = ff.path;
+                                    if (p.endsWith(".js") || p.endsWith(".css")) {
+                                        url_plugin_testfile = pluginsPath + "/" + plugin_slug + "/" + p;
+                                        done = true;
+                                    }
+                                }
+                                if (done === true) break;
+                            }*/
 
                             request(Tech.getReqOptions(url_plugin_testfile, { encoding: null }), function d(err, response, body_bytearray) {
                                 n++;
@@ -1033,7 +1064,7 @@ Tech.prototype = {
             }
 
         } catch (e) {
-            Helper.die("Unknown error while looking for \"" + this.techname + "\" plugins.");
+            Helper.die("Unknown error while looking for \"" + this.techname + "\" plugins. Error was : " + e.message);
         }
 
 
