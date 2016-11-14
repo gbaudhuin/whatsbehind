@@ -8,8 +8,7 @@
     "pluginLookup": [
       "(href|src)\\s*=\\s*[\\\"\\'](((https?:\\/\\/)?([\\da-z\\.-]+)\\.([a-z\\.]{2,6}))?[\\/\\w \\.-]*?\/wp-content\/(themes|plugins)/)"
     ],
-    "pluginDefaultPath": "wp-content/plugins",
-    "pluginStopOnFirstPositivePath": true
+    "pluginDefaultPath": "/wp-content/plugins"
   },
   "Drupal": {
     "rootLookup": [
@@ -19,7 +18,6 @@
       "(sites/all/modules/)[^/]+",
       "(sites\\\\/all\\\\/modules\\\\/)[^/]+"
     ],
-    "pluginDefaultPath": "sites/all/modules",
-    "pluginStopOnFirstPositivePath": false
+    "pluginDefaultPath": "/sites/all/modules"
   }
 }

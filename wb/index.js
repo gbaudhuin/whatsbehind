@@ -19,8 +19,8 @@
 var fs = require('fs'),
     request = require('request');
 //request('http://google.com/doodle.png').pipe(fs.createWriteStream('doodle.png'))
-request.get('http://google.com/img.png').pipe(fs.createWriteStream('img.png'))
-
+//request.get('http://google.com/img.png').pipe(fs.createWriteStream('img.png'))
+/*
 //url = 'http://whatsbehind.io';
 //url = "https://developer.mozilla.org";
 //url = "http://drupal.org/";
@@ -32,17 +32,16 @@ request.get('http://google.com/img.png').pipe(fs.createWriteStream('img.png'))
 //url = 'https://www.google.fr/';
 //url = 'http://9gag.com/';
 //url = 'http://travelportland.com';
-//url = "http://www.spindrift-racing.com/"; // drupal
+//url = "http://www.spindrift-racing.com/"; // drupal 7
 //url = "https://www.redhat.com";
-/*url = "http://www.careinternational.org.uk/";
-url = "https://www.savant.com/";
-url = "http://www.avioconsulting.com/";// drupal 8. cannot find plugins
-url = "http://www.5net.hu/";// drupal 8
-url = "https://druid.fi/";// drupal 8. cannot find plugins
+//url = "http://www.careinternational.org.uk/";
+//url = "https://www.savant.com/";
+//url = "http://www.avioconsulting.com/";// drupal 8
+//url = "http://www.5net.hu/";// drupal 8
+url = "https://druid.fi/";// drupal 8
 exports.scan({ url: url, generateScreenshot: true }, function (err, apps) {
     console.log(apps.status + " " + apps.progress + " : " + apps.detected.length);
     if (apps.status == "complete") {
         console.log(err, apps);
     }
-});
-*/
+});*/

@@ -781,7 +781,8 @@ Tech.prototype = {
             return ret2;
         } catch (e) {
             if (this.scanPlugin === true) {
-                Helper.die("Unknown version '" + version.value + "' for " + this.techname + " plugin '" + this.plugin_slug + "' : could not find '" + version.value + ".diff' file.");
+                return [];// empty array
+             //   Helper.die("Unknown version '" + version.value + "' for " + this.techname + " plugin '" + this.plugin_slug + "' : could not find '" + version.value + ".diff' file.");
             } else {
                 Helper.die("Unknown version '" + version.value + "' for tech '" + this.techname + "' : could not find '" + version.value + ".diff' file.");
             }
@@ -853,6 +854,8 @@ Tech.prototype = {
         if (this.pluginPaths.length == 0) {
             if (this.techname == "Drupal" && techVersion.substring(0, 1) === "8") {
                 this.pluginPaths.push(this.appRoots[0] + '/modules');
+                this.pluginPaths.push(this.appRoots[0] + '/modules/contrib');
+                this.pluginPaths.push(this.appRoots[0] + this.args.pluginDefaultPath);
             } else {
                 this.pluginPaths.push(this.appRoots[0] + this.args.pluginDefaultPath);
             }
@@ -901,8 +904,9 @@ Tech.prototype = {
             var regexWPplugin = RegExp("Stable tag: ([a-zA-Z0-9_\.\#\-]+)");
             var startTime = new Date().getTime();
 
-            function fn(pluginsPath, cb) {
-                Async.eachLimit(plugins, 6, function (plugin_slug, callback) { // test all known plugins
+            //function fn(pluginsPath, cb) {
+              //  Async.eachLimit(plugins, 6, function (plugin_slug, callback) { // test all known plugins
+            function fn2(pluginsPath, plugin_slug, callback) {
                     if (detected_plugins.indexOf(plugin_slug) === -1) {
                         var url_plugin_testfile = "";
 
@@ -929,6 +933,7 @@ Tech.prototype = {
                                                     app_data = JSON.parse(json_content);
                                                     app_data.version = detected_plugins_version[plugin_slug];
 
+                                                    console.log(n + "-" + detected_plugins_data.length + " : " + plugin_slug + " " + app_data.version + " (last version : " + app_data.latest_version + ")");
                                                     detected_plugins_data.push(app_data);
                                                 } else {
                                                     console.log("Error : could not find '" + plugin_slug + ".json' file. Plugin '" + plugin_slug + "' will not be looked for.");
@@ -956,7 +961,7 @@ Tech.prototype = {
                             if (coreVersion === "8") {
                                 url_plugin_testfile = pluginsPath + "/" + plugin_slug + "/" + plugin_slug + ".info.yml";
                             }
-                            /*var tech_tmp = new Tech(techname, true, plugin_slug, coreVersion);
+                           /* var tech_tmp = new Tech(techname, true, plugin_slug, coreVersion);
                             var allVersions = tech_tmp.getAllVersions();
                             var done = false;
                             for (var v in allVersions) {
@@ -968,11 +973,13 @@ Tech.prototype = {
                                     if (p.endsWith(".js") || p.endsWith(".css")) {
                                         url_plugin_testfile = pluginsPath + "/" + plugin_slug + "/" + p;
                                         done = true;
+                                       // console.log(n + " : " + p);
+                                        break;
                                     }
                                 }
                                 if (done === true) break;
                             }*/
-
+                         //   console.log(n + " : " + url_plugin_testfile);
                             request(Tech.getReqOptions(url_plugin_testfile, { encoding: null }), function d(err, response, body_bytearray) {
                                 n++;
                                 try {
@@ -994,7 +1001,6 @@ Tech.prototype = {
                                                     if (result.status === "success") {
                                                         var versions = result.versions;
                                                         var proofs = result.proofs;
-
                                                         app_data.version = versions[0];
                                                         detected_plugins_data.push(app_data);
                                                         console.log(n + "-" + detected_plugins_data.length + " : " + plugin_slug + " " + app_data.version + " (last version : " + app_data.latest_version + ")");
@@ -1007,9 +1013,7 @@ Tech.prototype = {
                                                         progressCB(detected_plugins_data, progress);
                                                         startTime = t;
                                                     }
-
                                                     callback(null);// next
-
                                                 }, function progressCB(progress) {
                                                     // do nothing
                                                 });
@@ -1039,30 +1043,24 @@ Tech.prototype = {
                     } else {
                         n++;
                     }
-                }, function done(err) {
-                    cb();
-                });
             }
 
-            if (this.args.pluginStopOnFirstPositivePath) {
-                Async.someSeries(this.pluginPaths, function (pluginsPath, callback) { // test each path until one works
-                    fn(pluginsPath, function () {
-                        if (detected_plugins_data.length > 0) callback(null, true); // this path was the good one
-                        else callback(null, false);
+            var _this = this;
+            Async.eachSeries(plugins, function (plugin_slug, cb1) { // test all known plugins
+                Async.someSeries(_this.pluginPaths, function (pluginsPath, cb2) { // test each path until one works
+                    fn2(pluginsPath, plugin_slug, function () {
+                        if (detected_plugins_data.length > 0) {
+                            _this.pluginPaths = [pluginsPath]; // we found modules path. Keep this one only.
+                            cb2(null, true); // this path was the good one
+                        }
+                        else cb2(null, false);
                     });
                 }, function done(err) {
-                    doneCB(detected_plugins_data);
+                    cb1(null);
                 });
-            } else {
-                Async.eachSeries(this.pluginPaths, function (pluginsPath, callback) { // test all paths
-                    fn(pluginsPath, function () {
-                        callback(null);
-                    });
-                }, function done(err) {
-                    doneCB(detected_plugins_data);
-                });
-            }
-
+            }, function done(err) {
+                doneCB(detected_plugins_data);
+            });
         } catch (e) {
             Helper.die("Unknown error while looking for \"" + this.techname + "\" plugins. Error was : " + e.message);
         }

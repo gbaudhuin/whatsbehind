@@ -14,8 +14,8 @@ Version.version_compare = function (_prev, _cur) {
     if (!_cur) return 1;
 
     if (_prev.value == _cur.value) return 0;
-    if (_prev.value.toLowerCase() == "trunk") return 1;
-    if (_cur.value.toLowerCase() == "trunk") return -1;
+    if (_prev.value.toLowerCase() == "trunk") return 1;// special case "trunk" is a probably a nightly build and is the newest version
+    if (_cur.value.toLowerCase() == "trunk") return -1;// special case "trunk" is a probably a nightly build and is the newest version
 
     // filter _prev
     var prev = _prev.value.replace(/[_+-]/g, ".");
@@ -24,6 +24,7 @@ Version.version_compare = function (_prev, _cur) {
     prev = prev.replace(".alpha.", ".a.").toLowerCase();
     prev = prev.replace(".beta.", ".b.");
     prev = prev.replace(".pl.", ".p.");
+    prev = prev.replace(".x.", "x"); // no dots. x is considered a digit
 
     if (/[^a-z0-9\.\#]+/.test(prev)) {
         helper.die("Invalid version format \"" + _prev.value + "\". Version should only contain alphanumeric characters, '.', '#', '+', '_' and '-'.");
@@ -36,12 +37,13 @@ Version.version_compare = function (_prev, _cur) {
     cur = cur.replace(".alpha.", ".a.").toLowerCase();
     cur = cur.replace(".beta.", ".b.");
     cur = cur.replace(".pl.", ".p.");
+    cur = cur.replace(".x.", "x"); // no dots. x is considered a digit
 
     if (/[^a-z0-9\.\#]+/.test(cur)) {
         helper.die("Invalid version format \"" + _cur.value + "\". Version should only contain alphanumeric characters, '.', '#', '+', '_' and '-'.");
     }
 
-    var a = ["dev", "a", "b", "rc", "#", "p"];
+    var a = ["a", "b", "rc", "#", "p", "dev"];
 
     var parts1 = prev.split('.');
     var parts2 = cur.split('.');
@@ -62,8 +64,14 @@ Version.version_compare = function (_prev, _cur) {
             if (p1int < p2int) return -1;
             if (p1int > p2int) return 1;
         }
-        else if (p1_numeric && !p2_numeric) return 1;
-        else if (!p1_numeric && p2_numeric) return -1;
+        else if (p1_numeric && !p2_numeric) {
+            if (p2 === "x") return -1; // special case. e.g: 1.2.x is a probably a nightly build and is newer than 1.2.3
+            else return 1;
+        }
+        else if (!p1_numeric && p2_numeric) {
+            if (p1 === "x") return 1; // special case. e.g: 1.2.x is a probably a nightly build and is newer than 1.2.3
+            else return -1;
+        }
         else {
             var pos1 = -1;
             var pos2 = -1;
