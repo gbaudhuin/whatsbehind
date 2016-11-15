@@ -1,5 +1,5 @@
-# WhatsBehind
-A node.js 6.6.0+ module to scan technologies used by websites.
+# WhatsBehind [![Build Status](https://travis-ci.org/gbaudhuin/whatsbehind.svg?branch=master)](https://travis-ci.org/gbaudhuin/whatsbehind)
+A node.js 6.6.0+ app/module to scan technologies used by websites.
 
 Forked from Wappalyzer.
 
