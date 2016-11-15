@@ -668,9 +668,9 @@ Tech.prototype = {
         try {
             var files;
             if (this.scanPlugin === true) {
-                files = fs.readdirSync(__dirname + "/data/" + this.techname + "/plugins/" + this.plugin_slug + "_" + this.coreVersion + ".x");
+                files = fs.readdirSync(__dirname + "/data/" + this.techname.toLowerCase() + "/plugins/" + this.plugin_slug + "_" + this.coreVersion + ".x");
             } else {
-                files = fs.readdirSync(__dirname + "/data/" + this.techname + "/versions");
+                files = fs.readdirSync(__dirname + "/data/" + this.techname.toLowerCase() + "/versions");
             }
             var diffFiles = [];
             var j = 0;
@@ -704,9 +704,9 @@ Tech.prototype = {
         try {
             var data;
             if (this.scanPlugin === true) {
-                data = fs.readFileSync(__dirname + "/data/" + this.techname + "/plugins/" + this.plugin_slug + "_" + this.coreVersion + ".x/" + version.value + ".diff", 'utf8');
+                data = fs.readFileSync(__dirname + "/data/" + this.techname.toLowerCase() + "/plugins/" + this.plugin_slug + "_" + this.coreVersion + ".x/" + version.value + ".diff", 'utf8');
             } else {
-                data = fs.readFileSync(__dirname + "/data/" + this.techname + "/versions/" + version.value + ".diff", 'utf8');
+                data = fs.readFileSync(__dirname + "/data/" + this.techname.toLowerCase() + "/versions/" + version.value + ".diff", 'utf8');
             }
             
             var lines = data.split('\n');
@@ -832,11 +832,11 @@ Tech.prototype = {
 
         try {
             if (this.pluginPaths.length < 1) {
-                console.log("Could not find " + this.techname + " plugins path. Plugins lookup aborted.");
+                console.log("Could not find " + this.techname.toLowerCase() + " plugins path. Plugins lookup aborted.");
                 return;
             }
             var techname = this.techname;
-            var dir = __dirname + "/data/" + this.techname + "/plugins/";
+            var dir = __dirname + "/data/" + this.techname.toLowerCase() + "/plugins/";
             var cvs_filename = "pluginslist.csv";
             if (techname == "Drupal") {
                 var coreVersion = techVersion.substring(0, 1);
