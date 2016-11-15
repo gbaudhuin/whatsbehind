@@ -12,7 +12,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b2fe8534-3444-4c27-b32d-1f44cdf81cce</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>index.js</StartupFile>
+    <StartupFile>app.js</StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
     <SearchPath>
     </SearchPath>
@@ -30,7 +30,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="index.js" />
+    <Compile Include="app.js" />
     <Compile Include="helper.js" />
     <Compile Include="tech.js" />
     <Compile Include="ut\ut_tech.js">
@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="typings\globals\async\" />
+    <Folder Include="typings\globals\commander\" />
     <Folder Include="typings\globals\mongodb\" />
     <Folder Include="ut\" />
     <Folder Include="phantom_scripts\" />
@@ -69,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="typings\globals\async\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\commander\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\mocha\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\mongodb\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\node\index.d.ts" />

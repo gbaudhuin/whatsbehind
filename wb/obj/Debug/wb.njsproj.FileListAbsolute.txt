@@ -1,2 +1,0 @@
-C:\Users\guillaume\Documents\Visual Studio 2015\Projects\whatsbehind\wb\obj\Debug\wb.njsprojResolveAssemblyReference.cache
-C:\Users\guillaume\Documents\Visual Studio 2015\Projects\whatsbehind\wb\bin\Microsoft.NodejsTools.WebRole.dll

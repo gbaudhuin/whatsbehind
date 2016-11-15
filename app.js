@@ -20,7 +20,7 @@ var fs = require('fs'),
     request = require('request');
 //request('http://google.com/doodle.png').pipe(fs.createWriteStream('doodle.png'))
 //request.get('http://google.com/img.png').pipe(fs.createWriteStream('img.png'))
-/*
+
 //url = 'http://whatsbehind.io';
 //url = "https://developer.mozilla.org";
 //url = "http://drupal.org/";
@@ -44,4 +44,4 @@ exports.scan({ url: url, generateScreenshot: true }, function (err, apps) {
     if (apps.status == "complete") {
         console.log(err, apps);
     }
-});*/
+});

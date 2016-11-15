@@ -961,25 +961,7 @@ Tech.prototype = {
                             if (coreVersion === "8") {
                                 url_plugin_testfile = pluginsPath + "/" + plugin_slug + "/" + plugin_slug + ".info.yml";
                             }
-                           /* var tech_tmp = new Tech(techname, true, plugin_slug, coreVersion);
-                            var allVersions = tech_tmp.getAllVersions();
-                            var done = false;
-                            for (var v in allVersions) {
-                                var vers = allVersions[v];
-                                var a = tech_tmp.getDiffFiles(vers);
-                                for (var f in a) {
-                                    var ff = a[f];
-                                    var p = ff.path;
-                                    if (p.endsWith(".js") || p.endsWith(".css")) {
-                                        url_plugin_testfile = pluginsPath + "/" + plugin_slug + "/" + p;
-                                        done = true;
-                                       // console.log(n + " : " + p);
-                                        break;
-                                    }
-                                }
-                                if (done === true) break;
-                            }*/
-                         //   console.log(n + " : " + url_plugin_testfile);
+                           
                             request(Tech.getReqOptions(url_plugin_testfile, { encoding: null }), function d(err, response, body_bytearray) {
                                 n++;
                                 try {

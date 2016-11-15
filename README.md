@@ -1,11 +1,43 @@
 # WhatsBehind
-A module to scan technologies used by websites.
+A node.js 6.6.0+ module to scan technologies used by websites.
 
 Forked from Wappalyzer.
-WhatsBehind scans entire websites and finds technologies that Wappalyzer is unable to detect in single pages.
-WhatsBehind purpose is to find precise CMS versions (release, RC, beta, etc.), plugins and themes.
-WhatsBehind knows what files were modified, added and deleted in each version of common CMSs. A smart algorithm priorize lookup order to quickly identify these files in websites, with the smallest possible number of queries.
 
+WhatsBehind scans entire websites and finds technologies that Wappalyzer is unable to detect in single pages.
+
+WhatsBehind purpose is to find all possible and sometimes hard-to-detect technologies along with their precise versions (release, RC, beta, etc.), their plugins, and their themes (for CMSs).
+
+WhatsBehind knows what files were modified, added and deleted in each version of technologies. A smart algorithm prioritize lookup order to quickly identify these files in websites, with the smallest possible number of queries.
+
+Building and Installing
+-----------------------
+
+```shell
+npm install whatsbehind
+```
+
+Usage
+-----
+
+```javascript
+var wb = require('whatsbehind');
+var url = "http://www.starwars.com/";// A WordPress site wappalyzer cannot detect
+wb.scan(url, function (err, data) {
+    // this function is called multiple times until data.status is "complete"
+
+    if (err) {
+        console.log("Error : Scan of \"" + url + "\" failed : " + err.name + ":" + err.message + ".");
+        return;
+    }
+
+    if (data.status == "complete") {
+        console.log("Scan completed successfully");
+        console.log(data.detected);
+    } else {
+        console.log("Progress : " + data.progress + "% (" + data.progressDescription + ")");
+    }
+});
+```
 
 Author
 ------
@@ -15,4 +47,4 @@ Author
 License
 -------
 
-*Licensed under the [GPL](https://www.gnu.org/licenses/gpl-3.0.txt).*
+*Licensed under the [GPL3](https://www.gnu.org/licenses/gpl-3.0.txt).*

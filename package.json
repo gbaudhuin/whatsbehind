@@ -1,9 +1,9 @@
 {
   "name": "whatsbehind",
-  "version": "0.3",
+  "version": "1.0.0",
   "license": "GPL-3.0",
   "description": "A module to check technologies used by websites",
-  "main": "index.js",
+  "main": "app.js",
   "author": {
     "name": "Guillaume BAUDHUIN"
   },
@@ -11,10 +11,20 @@
     "type": "git",
     "url": "https://github.com/gbaudhuin/whatsbehind"
   },
+  "bin": {
+    "wb": "./app"
+  },
+  "scripts": {
+    "start": "node ./app",
+    "lint": "jshint --config jshintconfig.json .",
+    "mocha": "mocha ./ut/*.js"
+  },
   "dependencies": {
-    "async": "^2.0.1",
+    "async": "^2.1.2",
+    "commander": "^2.9.0",
+    "jshint": "^2.9.4",
     "mocha": "^3.0.1",
     "phantomjs-prebuilt": "^2.1.13",
-    "request": "^2.75.0"
+    "request": "^2.78.0"
   }
 }
