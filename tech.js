@@ -1,3 +1,5 @@
+"use strict";
+
 var fs = require("fs"),
     path = require("path"),
     request = require("request"),
@@ -71,7 +73,7 @@ Tech.getReqOptions = function (url, options) {
         }
     }
     return ret;
-}
+};
 
 /**
 * Converts all CRLF to LF
@@ -89,7 +91,7 @@ Tech.crlf2lf = function (data) {
     }
     var converted_trim = converted.slice(0, j);
     return converted_trim;
-}
+};
 
 Tech.prototype = {
     /**
@@ -166,10 +168,10 @@ Tech.prototype = {
 
             var u = o.root + "/" + o.path;
             request(Tech.getReqOptions(u, { encoding: null }), function d(err, response, body) { // encoding=null to get binary content instead of text
-                if (!err
-                    && (response.statusCode == 200 || response.statusCode == 206)
-                    && body
-                    && body.length > 0
+                if (!err &&
+                    (response.statusCode == 200 || response.statusCode == 206) &&
+                    body &&
+                    body.length > 0
                 ) {
                     nMatch++;
                     if (Tech.nonInterpretableTextExtensions.indexOf(o.ext_lower) !== -1)
@@ -177,13 +179,14 @@ Tech.prototype = {
                     var md5Web = crypto.createHash('md5').update(body).digest("hex");
 
                     var p = _this.versions.length;
+                    var version, diffs, diff, d;
                     while (p--) {
-                        var version = _this.versions[p];
-                        var diffs = _this.getDiffFiles(version);
+                        version = _this.versions[p];
+                        diffs = _this.getDiffFiles(version);
                         var md5 = null;
-                        for (var d in diffs) {
+                        for (d in diffs) {
                             if (diffs.hasOwnProperty(d)) {
-                                var diff = diffs[d];
+                                diff = diffs[d];
                                 if (diff.path == o.path) {
                                     md5 = diff.md5;
                                     break;
@@ -202,17 +205,17 @@ Tech.prototype = {
                         }
                     }
 
-                    if (_maxVersion != null) {
+                    if (_maxVersion !== null) {
                         // extend maxVersion up to the newest version (excluded) which holds a commit for the file
                         var stopExtend = false;
-                        var p = _this.versions_desc.length;
-                        while (p--) {
-                            var version = _this.versions_desc[p];
+                        var p2 = _this.versions_desc.length;
+                        while (p2--) {
+                            version = _this.versions_desc[p2];
                             if (version.GT(_maxVersion)) {
-                                var diffs = _this.getDiffFiles(version);
-                                for (var d in diffs) {
+                                diffs = _this.getDiffFiles(version);
+                                for (d in diffs) {
                                     if (diffs.hasOwnProperty(d)) {
-                                        var diff = diffs[d];
+                                        diff = diffs[d];
                                         if (diff.path == o.path) stopExtend = true;
                                         if (stopExtend === true) break;
                                     }
@@ -248,17 +251,17 @@ Tech.prototype = {
                         }
 
                         // add proof
-                        var p = proofs.length;
+                        p = proofs.length;
                         var alreadythere = false;
                         while (p-- && alreadythere === false) {
                             if (o.path == proofs[p].path) alreadythere = true;
                         }
                         if (!alreadythere) {
                             // add diff as a proof
-                            var diffs = _this.getDiffFiles(_minVersion);
+                            diffs = _this.getDiffFiles(_minVersion);
                             var i = diffs.length;
                             while (i--) {
-                                var diff = diffs[i];
+                                diff = diffs[i];
                                 diff.root = o.root;
                                 if (diff.path == o.path) {
                                     proofs.push(diff);
@@ -321,8 +324,6 @@ Tech.prototype = {
             }
 
             var version = o.value;
-
-            var isRelease = version.isReleaseVersion();
             _this.isVersionOrNewer(version, function (err, result, _proofs) {
                 if (result == "maybe") {
                     if (possibleVersions.indexOf(version.value) === -1) possibleVersions.push(version.value);
@@ -413,7 +414,7 @@ Tech.prototype = {
      */
     getHighestCommits(limit) {
         limit = typeof limit !== 'undefined' ? limit : 999999999;
-        var commitsCount = new Object();
+        var commitsCount = {};
 
         var v = this.versions.length;
         var highestCount = 0;
@@ -438,13 +439,11 @@ Tech.prototype = {
 
         // sort in descending order
         var commitsCountSortedPaths = [];
-        var l = commitsCount.length;
         var currentCount = highestCount + 1;
         var n = 0;
         while (currentCount-- && n < limit) {
             for (var localPath in commitsCount) {
                 if (commitsCount.hasOwnProperty(localPath)) {
-                    var c = commitsCount[localPath];
                     if (commitsCount[localPath] == currentCount) {
                         commitsCountSortedPaths.push(localPath);
                         n++;
@@ -453,8 +452,6 @@ Tech.prototype = {
                 }
             }
         }
-
-        var g = commitsCountSortedPaths.length;
 
         return commitsCountSortedPaths;
     },
@@ -483,8 +480,10 @@ Tech.prototype = {
             // clone diffs[i] in a new object
             var o = { "path": diffs[i].path, "md5": diffs[i].md5, "status": diffs[i].status };
             for (var j in this.appRoots) {
-                o.root = this.appRoots[j];
-                queue.push(o);
+                if (this.appRoots.hasOwnProperty(j)) {
+                    o.root = this.appRoots[j];
+                    queue.push(o);
+                }
             }
         }
         /*

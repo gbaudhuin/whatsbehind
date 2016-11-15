@@ -1,7 +1,6 @@
 ﻿/** source code derived from file index.js from npm-wappalyzer module
 */
-
-'use strict';
+"use strict";
 
 var request = require('request');
 var fs = require('fs');

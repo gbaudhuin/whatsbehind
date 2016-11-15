@@ -1,4 +1,6 @@
-﻿var assert = require('assert');
+﻿"use strict";
+
+var assert = require('assert');
 var Version = require('../version');
 
 describe('Class Version', function () {

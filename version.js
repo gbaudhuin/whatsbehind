@@ -1,4 +1,5 @@
-﻿var helper = require('./helper.js');
+﻿"use strict";
+var helper = require('./helper.js');
 
 function Version(value) {
     this.value = value;

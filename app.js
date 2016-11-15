@@ -1,4 +1,6 @@
-﻿exports.scan = function (params, callback) {
+﻿"use strict";
+
+exports.scan = function (params, callback) {
     var uri = params.url;
     if (typeof params == 'string' || params instanceof String) {
         uri = params;
@@ -11,11 +13,11 @@
         url: uri,
         hostname: url.parse(uri).hostname,
         debug: false
-    }
+    };
 
     wappalyzer_wrapper.detectFromUrl(options, callback);
-}
-
+};
+/*
 var fs = require('fs'),
     request = require('request');
 //request('http://google.com/doodle.png').pipe(fs.createWriteStream('doodle.png'))
@@ -44,4 +46,4 @@ exports.scan({ url: url, generateScreenshot: true }, function (err, apps) {
     if (apps.status == "complete") {
         console.log(err, apps);
     }
-});
+});*/

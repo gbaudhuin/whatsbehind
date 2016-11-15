@@ -7,6 +7,7 @@
  *
  * License: GPLv3 http://www.gnu.org/licenses/gpl-3.0.txt
  */
+"use strict";
 
 var Tech = require('../tech');
 var Version = require('../version');

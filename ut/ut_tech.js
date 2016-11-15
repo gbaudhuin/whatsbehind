@@ -1,4 +1,6 @@
-﻿var assert = require('assert');
+﻿"use strict";
+
+var assert = require('assert');
 var request = require('request');
 var fs = require('fs');
 var Tech = require('../tech');
