@@ -477,12 +477,14 @@ Tech.prototype = {
         var queue = [];
         var site_uses_soft404 = null; // true if we detected the site uses soft 404 pages
         for (var i in diffs) {
-            // clone diffs[i] in a new object
-            var o = { "path": diffs[i].path, "md5": diffs[i].md5, "status": diffs[i].status };
-            for (var j in this.appRoots) {
-                if (this.appRoots.hasOwnProperty(j)) {
-                    o.root = this.appRoots[j];
-                    queue.push(o);
+            if (diffs.hasOwnProperty(i)) {
+                // clone diffs[i] in a new object
+                var o = { "path": diffs[i].path, "md5": diffs[i].md5, "status": diffs[i].status };
+                for (var j in this.appRoots) {
+                    if (this.appRoots.hasOwnProperty(j)) {
+                        o.root = this.appRoots[j];
+                        queue.push(o);
+                    }
                 }
             }
         }
@@ -516,7 +518,7 @@ Tech.prototype = {
             if (!o.value || o.done === true) {
                 if (!cb_called) {
                     cb_called = true;
-                    if (nb_checked == 0) {
+                    if (nb_checked === 0) {
                         cb(null, "maybe", proofs);
                     } else if (proofs.length > 0) {
                         cb(null, "success", proofs);
