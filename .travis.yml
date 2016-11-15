@@ -1,6 +1,9 @@
 language: node_js
 node_js:
   - "node"
+before_script:
+  - echo -e "Host gitlab.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+  - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 script:
   - npm run lint
   - npm run mocha
