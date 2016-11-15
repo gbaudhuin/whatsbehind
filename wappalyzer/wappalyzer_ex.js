@@ -8,13 +8,13 @@
  * License: GPLv3 http://www.gnu.org/licenses/gpl-3.0.txt
  */
 "use strict";
+/*jshint loopfunc: true */ // tell jshint it is ok to declare function in loops. We don't want to correct and diverge too much from wappalyzer.js.
 
 var Tech = require('../tech');
 var Version = require('../version');
 var Async = require('async');
 
 var wappalyzer = (function () {
-    //'use strict';
 
 	/**
 	 * Application class
@@ -29,151 +29,15 @@ var wappalyzer = (function () {
         this.versions = [];
         this.cats = [];
         this.icon = '';
-        this.website = '',
+        this.website = '';
         this.tech = null ;// Internal. Set if app was detected by Tech.deepScan.
     };
 
-    Application.prototype = {
-		/**
-		 * Calculate confidence total
-		 */
-        getConfidence: function () {
-            var total = 0, id;
-
-            for (id in this.confidence) {
-                total += this.confidence[id];
-            }
-
-            return this.confidenceTotal = Math.min(total, 100);
-        },
-
-		/**
-		 * Resolve version number (find the longest version number that contains all shorter detected version numbers)
-		 */
-        getVersion: function () {
-            var i, resolved;
-
-            if (!this.versions.length) {
-                return;
-            }
-
-            this.versions.sort(function (a, b) {
-                return a.length - b.length;
-            });
-
-            resolved = this.versions[0];
-
-            for (i = 1; i < this.versions.length; i++) {
-                if (this.versions[i].indexOf(resolved) === -1) {
-                    break;
-                }
-
-                resolved = this.versions[i];
-            }
-
-            return this.version = resolved;
-        },
-
-        setDetected: function (pattern, type, value, key) {
-            this.detected = true;
-
-            if (type == "file") { // detected by Tech
-                for (v in value) {
-                    var uri = value.root + "/" + value.url;
-                    this.confidence[type + ' ' + uri] = value.status;
-                }
-
-                // get most probable version among pattern.version. When type == "file", pattern.version is an array
-                var maxVersion = null;
-                var l = pattern.version.length;
-                while (l--) { // take max release version, unless no release version detected.
-                    if (!maxVersion) maxVersion = pattern.version[l];
-                    else {
-                        var v = pattern.version[l];
-                        var v1 = new Version(maxVersion);
-                        var v2 = new Version(v);
-                        if (v1.isReleaseVersion() === true) {
-                            if (v2.isReleaseVersion() === true) {
-                                if (v2.GT(v1)) maxVersion = v;
-                            }
-                        } else {
-                            if (v2.isReleaseVersion() === true) {
-                                maxVersion = v;
-                            } else {
-                                if (v2.GT(v1)) maxVersion = v;
-                            }
-                        }
-                    }
-                }
-
-                this.version = maxVersion;
-                this.versions = pattern.version; // unlike other types, these are _possible_ versions. only one is really there.
-            } else {
-                this.confidence[type + ' ' + (key ? key + ' ' : '') + pattern.regex] = pattern.confidence ? pattern.confidence : 100;
-                if (pattern.version) {// Detect version number
-                    var
-                        version = pattern.version,
-                        matches = pattern.regex.exec(value);
-
-                    if (matches) {
-                        matches.forEach(function (match, i) {
-                            // Parse ternary operator
-                            var ternary = new RegExp('\\\\' + i + '\\?([^:]+):(.*)$').exec(version);
-
-                            if (ternary && ternary.length === 3) {
-                                w.log({ match: match, i: i, ternary: ternary });
-
-                                version = version.replace(ternary[0], match ? ternary[1] : ternary[2]);
-
-                                w.log({ version: version });
-                            }
-
-                            // Replace back references
-                            version = version.replace(new RegExp('\\\\' + i, 'g'), match ? match : '');
-                        });
-
-                        if (version && this.versions.indexOf(version) < 0) {
-                            this.versions.push(version);
-                        }
-
-                        this.getVersion();
-                    }
-                }
-            }
-        }
-    };
-
-    var Profiler = function () {
-        this.regexCount = 0;
-        this.startTime = new Date().getTime();
-        this.lastTime = new Date().getTime();
-        this.slowest = { duration: null, app: '', type: '', pattern: '' };
-        this.timedOut = false;
-    };
-
-    Profiler.prototype = {
-        checkPoint: function (app, type, regex) {
-            var duration = new Date().getTime() - this.lastTime;
-
-            if (!this.slowest.duration || duration > this.slowest.duration) {
-                this.slowest.duration = duration;
-                this.slowest.app = app;
-                this.slowest.type = type;
-                this.slowest.regex = regex;
-            }
-
-            this.regexCount++;
-
-            this.lastTime = new Date().getTime();
-
-            this.timedOut = this.lastTime - this.startTime > 1000;
-        }
-    };
-
-	/**
+    /**
 	 * Call driver functions
 	 */
     var driver = function (func, args) {
+        /* jshint ignore:start */ // keep wappalyzer functions unchanged
         if (typeof w.driver[func] !== 'function') {
             w.log('not implemented: w.driver.' + func, 'warn');
 
@@ -185,12 +49,14 @@ var wappalyzer = (function () {
         }
 
         return w.driver[func](args);
+        /* jshint ignore:end */
     };
 
-	/**
+    /**
 	 * Parse apps.json patterns
 	 */
     var parse = function (patterns) {
+        /* jshint ignore:start */ // keep wappalyzer functions unchanged
         var
             attrs,
             parsed = [];
@@ -228,9 +94,10 @@ var wappalyzer = (function () {
         });
 
         return parsed;
+        /* jshint ignore:end */
     };
 
-	/**
+    /**
 	 * Main script
 	 */
     var w = {
@@ -293,10 +160,11 @@ var wappalyzer = (function () {
             if (description_override) desc = description_override;
             var progress = progress_step.start + (((progress_step.end - progress_step.start) * in_step_progress) / 100);
             var data = [];
-            for (app in w.detected[url]) {
+            for (var app in w.detected[url]) if (w.detected[url].hasOwnProperty(app)) {
+                if (!w.detected[url].hasOwnProperty(app)) continue;
                 var a = w.detected[url][app];
                 var confidences = [];
-                for (c in a.confidence) {
+                for (var c in a.confidence) {
                     if (a.confidence.hasOwnProperty(c)) {
                         if (a.confidence[c] == 100) {
                             var parts = c.split(' ');
@@ -304,17 +172,19 @@ var wappalyzer = (function () {
                             if (parts.length > 1) {
                                 var t = parts.shift();
                                 var val = parts.join(' ');
+
+                                confidences.push({ type: t, value: val });
                             }
-                            confidences.push({ type: t, value: val });
                         }
                     }
                 }
-                
+
                 var o = { name: app, cats: a.cats, versions: a.versions, confidences: confidences, icon: a.icon, website: a.website };
 
                 if (a.plugins) {
                     var plugins = [];
-                    for (var p in a.plugins) {
+                    for (var p in a.plugins) if(a.plugins.hasOwnProperty(p)){
+                        var version;
                         var pIn = a.plugins[p];
                         var pOut = {};
                         pOut.slug = pIn.slug;
@@ -324,7 +194,7 @@ var wappalyzer = (function () {
                         pOut.latest_version = pIn.latest_version;
                         pOut.status = "unknown";
                         try {
-                            var version = new Version(pIn.version);
+                            version = new Version(pIn.version);
                             if (pIn.latest_version) {
                                 var latest_version = new Version(pIn.latest_version);
                                 if (latest_version.GT(version)) {
@@ -340,9 +210,10 @@ var wappalyzer = (function () {
 
                         if (pIn.vulnerabilities) {
                             var vulns = [];
-                            for (var v in pIn.vulnerabilities) {
+                            for (var v in pIn.vulnerabilities) if (pIn.vulnerabilities.hasOwnProperty(v)) {
+                                var vuln;
                                 try {
-                                    var vuln = pIn.vulnerabilities[v];
+                                    vuln = pIn.vulnerabilities[v];
                                     var vuln_fixed_in = new Version(vuln.fixed_in);
                                     if (vuln_fixed_in.GT(version)) {
                                         pOut.status = "vulnerable";
@@ -413,8 +284,7 @@ var wappalyzer = (function () {
 		 */
         analyze: function (hostname, url, data) {
             var
-                i, j, app, confidence, type, regexMeta, regexScript, match, content, meta, header, version, id,
-                profiler = new Profiler(),
+                i, app, confidence, type, regexMeta, regexScript, match, content, meta, header, version, id,
                 apps = {},
                 excludes = [],
                 checkImplies = true;
@@ -434,22 +304,16 @@ var wappalyzer = (function () {
                 w.detected[url] = {};
             }
 
-            for (app in w.apps) {
+            for (app in w.apps) if (w.apps.hasOwnProperty(app)) {
                 // Exit loop after one second to prevent CPU hogging
                 // Remaining patterns will not be evaluated
-                /*if (profiler.timedOut) {
-                    w.log('Timeout, exiting loop');
-
-                    break;
-                }
-                */
                 apps[app] = w.detected[url] && w.detected[url][app] ? w.detected[url][app] : new Application(app);
                 apps[app].cats = w.apps[app].cats;
             }
 
 
             function f() {
-                for (app in apps) {
+                for (app in apps) if (apps.hasOwnProperty(app)) {
                     if (!apps[app].detected) {
                         delete apps[app];
                     }
@@ -461,7 +325,7 @@ var wappalyzer = (function () {
                         if (typeof w.apps[app].excludes === 'string') {
                             w.apps[app].excludes = [w.apps[app].excludes];
                         }
-
+                        
                         w.apps[app].excludes.forEach(function (excluded) {
                             excludes.push(excluded);
                         });
@@ -480,7 +344,7 @@ var wappalyzer = (function () {
                 while (checkImplies) {
                     checkImplies = false;
 
-                    for (app in apps) {
+                    for (app in apps) if (apps.hasOwnProperty(app)) {
                         confidence = apps[app].confidence;
 
                         if (w.apps[app] && w.apps[app].implies) {
@@ -505,7 +369,7 @@ var wappalyzer = (function () {
                                 }
 
                                 // Apply app confidence to implied app
-                                for (id in confidence) {
+                                for (id in confidence) if (confidence.hasOwnProperty(id)) {
                                     apps[implied.string].confidence[id + ' implied by ' + app] = confidence[id] * (implied.confidence ? implied.confidence / 100 : 1);
                                 }
 
@@ -520,20 +384,20 @@ var wappalyzer = (function () {
 
                 // Generate definitive list of apps
                 w.detected[url] = {};
-                for (app in apps) {
+                for (app in apps) if (apps.hasOwnProperty(app)) {
                     confidence = apps[app].confidence;
                     version = apps[app].version;
 
                     // Per URL
                     w.detected[url][app] = apps[app];
 
-                    for (id in confidence) {
+                    for (id in confidence) if (confidence.hasOwnProperty(id)) {
                         w.detected[url][app].confidence[id] = confidence[id];
                     }
                 }
 
                 var techApps = [];
-                for (app in apps) {
+                for (app in apps) if (apps.hasOwnProperty(app)){
                     apps[app].icon = w.apps[app].icon;
                     apps[app].website = w.apps[app].website;
                     if (!apps[app].tech && // no need to deepScan if already done
@@ -588,7 +452,7 @@ var wappalyzer = (function () {
                     url];
                 childProcess.execFile(binPath, childArgs, function (err, stdout, stderr) {
                     var js_env_dirty = stdout.split("\n");
-                    for (var i in js_env_dirty) {
+                    for (var i in js_env_dirty) if (js_env_dirty.hasOwnProperty(i)){
                         var tmp_str = js_env_dirty[i].trim(); // remove eols
                         if (tmp_str.length > 0) {
                             js_env[i] = tmp_str;
@@ -597,16 +461,14 @@ var wappalyzer = (function () {
                     cb_parallel(null);
                 });
             }, function (cb_parallel) {
-                for (app in w.apps) {
-                    for (type in w.apps[app]) {
+                for (app in w.apps) if (w.apps.hasOwnProperty(app)) {
+                    for (type in w.apps[app]) if (w.apps[app].hasOwnProperty(type)) {
                         switch (type) {
                             case 'url':
                                 parse(w.apps[app][type]).forEach(function (pattern) {
                                     if (pattern.regex.test(url)) {
                                         apps[app].setDetected(pattern, type, url);
                                     }
-
-                                    profiler.checkPoint(app, type, pattern.regex);
                                 });
 
                                 break;
@@ -619,8 +481,6 @@ var wappalyzer = (function () {
                                     if (pattern.regex.test(data[type])) {
                                         apps[app].setDetected(pattern, type, data[type]);
                                     }
-
-                                    profiler.checkPoint(app, type, pattern.regex);
                                 });
 
                                 break;
@@ -632,13 +492,13 @@ var wappalyzer = (function () {
                                 regexScript = new RegExp('<script[^>]+src=("|\')([^"\']+)', 'ig');
 
                                 parse(w.apps[app][type]).forEach(function (pattern) {
-                                    while (match = regexScript.exec(data.html)) {
+                                    match = regexScript.exec(data.html);
+                                    while (match) {
                                         if (pattern.regex.test(match[2])) {
                                             apps[app].setDetected(pattern, type, match[2]);
                                         }
+                                        match = regexScript.exec(data.html);
                                     }
-
-                                    profiler.checkPoint(app, type, pattern.regex);
                                 });
 
                                 break;
@@ -648,11 +508,9 @@ var wappalyzer = (function () {
                                 }
 
                                 regexMeta = /<meta[^>]+>/ig;
-
-                                while (match = regexMeta.exec(data.html)) {
-                                    for (meta in w.apps[app][type]) {
-                                        profiler.checkPoint(app, type, regexMeta);
-
+                                match = regexMeta.exec(data.html);
+                                while (match) {
+                                    for (meta in w.apps[app][type]) if (w.apps[app][type].hasOwnProperty(meta)) {
                                         if (new RegExp('name=["\']' + meta + '["\']', 'i').test(match)) {
                                             content = match.toString().match(/content=("|')([^"']+)("|')/i);
 
@@ -660,11 +518,10 @@ var wappalyzer = (function () {
                                                 if (content && content.length === 4 && pattern.regex.test(content[2])) {
                                                     apps[app].setDetected(pattern, type, content[2], meta);
                                                 }
-
-                                                profiler.checkPoint(app, type, pattern.regex);
                                             });
                                         }
                                     }
+                                    match = regexMeta.exec(data.html);
                                 }
 
                                 break;
@@ -673,13 +530,11 @@ var wappalyzer = (function () {
                                     break;
                                 }
 
-                                for (header in w.apps[app].headers) {
+                                for (header in w.apps[app].headers) if (w.apps[app].headers.hasOwnProperty(header)) {
                                     parse(w.apps[app][type][header]).forEach(function (pattern) {
                                         if (typeof data[type][header.toLowerCase()] === 'string' && pattern.regex.test(data[type][header.toLowerCase()])) {
                                             apps[app].setDetected(pattern, type, data[type][header.toLowerCase()], header);
                                         }
-
-                                        profiler.checkPoint(app, type, pattern.regex);
                                     });
                                 }
 
@@ -696,7 +551,7 @@ var wappalyzer = (function () {
                     w.detected[url][app] = apps[app];
                     w.detected[url][app].icon = w.apps[app].icon;
                     w.detected[url][app].website = w.apps[app].website;
-                    for (id in confidence) {
+                    for (id in confidence) if (confidence.hasOwnProperty(id)) {
                         w.detected[url][app].confidence[id] = confidence[id];
                     }
                 }
@@ -716,8 +571,6 @@ var wappalyzer = (function () {
                                         apps[app].setDetected(pattern, type, js_env[i]);
                                     }
                                 }
-
-                                profiler.checkPoint(app, type, pattern.regex);
                             });
                         }
                     }
@@ -728,7 +581,7 @@ var wappalyzer = (function () {
                 // if no baseCMS nor web framework are detected at this point, look for them with a deep scan with Tech
                 var baseCMSorFrameworkDetected = false;
                 for (app in apps) {
-                    if (baseCMSorFrameworkDetected == false && apps[app].detected && (
+                    if (baseCMSorFrameworkDetected === false && apps[app].detected && (
                         apps[app].cats.indexOf(1) !== -1 ||   // 1 : CMS
                         apps[app].cats.indexOf(18) !== -1)) { // 18: web framework
                         baseCMSorFrameworkDetected = true;
@@ -744,7 +597,7 @@ var wappalyzer = (function () {
                     w.detected[url][app] = apps[app];
                     w.detected[url][app].icon = w.apps[app].icon;
                     w.detected[url][app].website = w.apps[app].website;
-                    for (id in confidence) {
+                    for (id in confidence) if(confidence.hasOwnProperty(id)){
                         w.detected[url][app].confidence[id] = confidence[id];
                     }
                 }
@@ -758,7 +611,6 @@ var wappalyzer = (function () {
                         var tech = new Tech(app);
                         tech.findRoots(url, data.html);
                         tech.deepScan(function (err, result) {
-                            var t = app;
                             if (result.status === "success") {
                                 apps[app].setDetected({ "version": result.versions, "regex": ".*" }, "file", result.proofs);
                                 apps[app].tech = tech;
@@ -780,6 +632,122 @@ var wappalyzer = (function () {
         }
     };
 
+    Application.prototype = {
+		/**
+		 * Calculate confidence total
+		 */
+        getConfidence: function () {
+            var total = 0, id;
+
+            for (id in this.confidence) {
+                if (this.confidence.hasOwnProperty(id)) {
+                    total += this.confidence[id];
+                }
+            }
+
+            this.confidenceTotal = Math.min(total, 100);
+            return this.confidenceTotal;
+        },
+
+		/**
+		 * Resolve version number (find the longest version number that contains all shorter detected version numbers)
+		 */
+        getVersion: function () {
+            var i, resolved;
+
+            if (!this.versions.length) {
+                return;
+            }
+
+            this.versions.sort(function (a, b) {
+                return a.length - b.length;
+            });
+
+            resolved = this.versions[0];
+
+            for (i = 1; i < this.versions.length; i++) {
+                if (this.versions[i].indexOf(resolved) === -1) {
+                    break;
+                }
+
+                resolved = this.versions[i];
+            }
+            this.version = resolved;
+            return this.version;
+        },
+
+        setDetected: function (pattern, type, value, key) {
+            this.detected = true;
+
+            if (type == "file") { // detected by Tech
+                var v;
+                for (v in value) {
+                    if (value.hasOwnProperty(v)) {
+                        var uri = value.root + "/" + value.url;
+                        this.confidence[type + ' ' + uri] = value.status;
+                    }
+                }
+
+                // get most probable version among pattern.version. When type == "file", pattern.version is an array
+                var maxVersion = null;
+                var l = pattern.version.length;
+                while (l--) { // take max release version, unless no release version detected.
+                    if (!maxVersion) maxVersion = pattern.version[l];
+                    else {
+                        v = pattern.version[l];
+                        var v1 = new Version(maxVersion);
+                        var v2 = new Version(v);
+                        if (v1.isReleaseVersion() === true) {
+                            if (v2.isReleaseVersion() === true) {
+                                if (v2.GT(v1)) maxVersion = v;
+                            }
+                        } else {
+                            if (v2.isReleaseVersion() === true) {
+                                maxVersion = v;
+                            } else {
+                                if (v2.GT(v1)) maxVersion = v;
+                            }
+                        }
+                    }
+                }
+
+                this.version = maxVersion;
+                this.versions = pattern.version; // unlike other types, these are _possible_ versions. only one is really there.
+            } else {
+                this.confidence[type + ' ' + (key ? key + ' ' : '') + pattern.regex] = pattern.confidence ? pattern.confidence : 100;
+                if (pattern.version) {// Detect version number
+                    var
+                        version = pattern.version,
+                        matches = pattern.regex.exec(value);
+
+                    if (matches) {
+                        matches.forEach(function (match, i) {
+                            // Parse ternary operator
+                            var ternary = new RegExp('\\\\' + i + '\\?([^:]+):(.*)$').exec(version);
+
+                            if (ternary && ternary.length === 3) {
+                                w.log({ match: match, i: i, ternary: ternary });
+
+                                version = version.replace(ternary[0], match ? ternary[1] : ternary[2]);
+
+                                w.log({ version: version });
+                            }
+
+                            // Replace back references
+                            version = version.replace(new RegExp('\\\\' + i, 'g'), match ? match : '');
+                        });
+
+                        if (version && this.versions.indexOf(version) < 0) {
+                            this.versions.push(version);
+                        }
+
+                        this.getVersion();
+                    }
+                }
+            }
+        }
+    };
+	
     return w;
 })();
 

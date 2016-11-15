@@ -5,7 +5,6 @@
 var request = require('request');
 var fs = require('fs');
 var path = require('path');
-var crypto = require('crypto');
 var Tech = require('./tech.js');
 
 exports.detectFromUrl = function (options, cb) {

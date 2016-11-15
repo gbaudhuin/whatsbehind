@@ -12,7 +12,7 @@ describe('Class Version', function () {
 
         v1 = new Version('1.6.5.1rc');
         v2 = new Version('1.6.5.1');
-        v3 = new Version('1.6.5.1');
+        var v3 = new Version('1.6.5.1');
         comp = Version.version_compare(v1, v2);
         assert.ok(comp < 0);
         assert.ok(v2.GT(v1));
@@ -28,7 +28,7 @@ describe('Class Version', function () {
 
         assert.ok(v2.isReleaseVersion());
         assert.ok(!v1.isReleaseVersion());
-    })
+    });
 
     it('trunk version', function () {
         var v1 = new Version("1.0");
@@ -38,5 +38,5 @@ describe('Class Version', function () {
         v1 = new Version("1.1.x");
         v2 = new Version("1.1.3");
         assert.ok(v1.GTOE(v2));
-    })
-})
+    });
+});

@@ -18,11 +18,7 @@ exports.scan = function (params, callback) {
     wappalyzer_wrapper.detectFromUrl(options, callback);
 };
 /*
-var fs = require('fs'),
-    request = require('request');
-//request('http://google.com/doodle.png').pipe(fs.createWriteStream('doodle.png'))
-//request.get('http://google.com/img.png').pipe(fs.createWriteStream('img.png'))
-
+var url;
 //url = 'http://whatsbehind.io';
 //url = "https://developer.mozilla.org";
 //url = "http://drupal.org/";

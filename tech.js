@@ -300,8 +300,7 @@ Tech.prototype = {
             if (found_version === true) {
                 if (!cb_called) {
                     cb_called = true;
-                    //_this.checkMissedVersions(possibleVersions, proofs, cb);
-                    cb_called = true; cb(null, { "status": "success", "versions": possibleVersions, "proofs": proofs });
+                    cb(null, { "status": "success", "versions": possibleVersions, "proofs": proofs });
                 }
                 return;
             }
@@ -364,47 +363,6 @@ Tech.prototype = {
             cb_progress(progress);
             pass2(_this, check_non_release_versions);
         });// chain pass1 and pass2
-    },
-
-    /**
-     * Helper function for deepScan : in the process of 2nd pass (releae versions) followed by 3rd pass (non release versions), there exists a little possibility some versions are missed. Look for them.
-     * @param possibleVersions
-     * @param proofs
-     * @param cb
-     */
-    checkMissedVersions(possibleVersions, proofs, cb) {
-        var l = this.versions.length;
-        var _done = false;
-        function f(_this, i) {
-            // stop condition : all versions were checked or we're done
-            if (i < 0 || _done === true) {
-                cb(null, { "status": "success", "versions": possibleVersions, "proofs": proofs });
-                return;
-            }
-
-            var v = _this.versions[i];
-            if (possibleVersions.indexOf(v.value) !== -1) {
-                f(_this, i - 1);
-            }
-
-            var j = i - 1;
-            if (j >= 0) {
-                var v2 = _this.versions[j];
-                if (possibleVersions.indexOf(v2.value) === -1) {
-                    _this.isVersionOrNewer(v2, function (err, result, _proofs) {
-                        if (result == "maybe") {
-                            possibleVersions.push(v2.value);
-                        } else {
-                            _done = true;// match an older erroneous version
-                        }
-                        f(_this, i - 1);
-                    });
-                    return;
-                }
-            }
-            f(_this, i - 1);
-        }
-        f(this, l - 1);
     },
 
     /**
@@ -538,7 +496,7 @@ Tech.prototype = {
                 f(_this);// next
                 return;
             }
-
+            var u;
             // "A" files and "M" files are checked differently.
             // "A" files are checked for their presence. Works with all types of files, including interpreted files such as php or asp witch are never returned by web servers.
             // "M" files are checked for their presence and checksum. Interpreted or code files can't be used here.
@@ -551,7 +509,7 @@ Tech.prototype = {
 
                 nb_checked++;
 
-                var u = diff.root + "/" + diff.path;
+                u = diff.root + "/" + diff.path;
                 request(Tech.getReqOptions(u), function d(err, response, body) {
                     if (!err && (response.statusCode == 200 || response.statusCode == 206)) {
                         if (site_uses_soft404 === null) {
@@ -586,12 +544,12 @@ Tech.prototype = {
 
                 nb_checked++;
 
-                var u = diff.root + "/" + diff.path;
+                u = diff.root + "/" + diff.path;
                 request(Tech.getReqOptions(u, { encoding: null }), function d(err, response, body) { // encoding=null to get binary content instead of text
-                    if (!err
-                        && (response.statusCode == 200 || response.statusCode == 206)
-                        && body != null && body != undefined
-                        && body.length > 0
+                    if (!err &&
+                        (response.statusCode == 200 || response.statusCode == 206) &&
+                        body !== null && body !== undefined &&
+                        body.length > 0
                     ) {
                         // no need to test for soft 404 as we do for A files : for M files, we compare page md5 with diff.md5
 
@@ -648,44 +606,49 @@ Tech.prototype = {
         defaultRoot = a.protocol + "//" + a.host;
         if (this.appRoots.indexOf(defaultRoot) === -1) this.appRoots.push(defaultRoot);
 
+        var match, uri, uri2;
         // find other root urls in html
         for (var i in this.args.rootLookup) {
-            var rootLookup = this.args.rootLookup[i];
-            var match = rootLookup.exec(html);
-            while (match !== null) {
-                var uri = match[2];
-
-                if (uri.substring(0, 2) == '//') uri = a.protocol + uri; // some urls start with '//'. we need to add the protocol.
-
-                var uri2 = Helper.trimChar(url.resolve(baseUrl, uri), '/');
-
-                if (this.appRoots.indexOf(uri2) === -1) this.appRoots.push(uri2);
-
+            if (this.args.rootLookup.hasOwnProperty(i)) {
+                var rootLookup = this.args.rootLookup[i];
                 match = rootLookup.exec(html);
+                while (match !== null) {
+                    uri = match[2];
+
+                    if (uri.substring(0, 2) == '//') uri = a.protocol + uri; // some urls start with '//'. we need to add the protocol.
+
+                    uri2 = Helper.trimChar(url.resolve(baseUrl, uri), '/');
+
+                    if (this.appRoots.indexOf(uri2) === -1) this.appRoots.push(uri2);
+
+                    match = rootLookup.exec(html);
+                }
             }
         }
 
         // find plugins
-        for (var i in this.args.pluginLookup) {
-            var pluginLookup = this.args.pluginLookup[i];
-            var match = pluginLookup.exec(html);
-            while (match !== null) {
-                var uri = match[2];
-                if (uri === undefined) uri = a.protocol + '//' + a.host + '/' + match[1];
-                uri = uri.replace(/\\\//g, "/");
-                if (uri.substring(0, 2) == '//') uri = a.protocol + uri; // some urls start with '//'. we need to add the protocol.
-
-                var uri2 = Helper.trimChar(url.resolve(baseUrl, uri), '/');
-
-                if (this.techname == "WordPress" && uri2.indexOf("/themes") !== -1) { // WP specific : /wp-content/plugins is very probably a sibbling of /wp-content/themes
-                    uri2 = uri2.replace("/themes", "/plugins");
-                }
-
-                if (this.pluginPaths.indexOf(uri2) == -1) {
-                    this.pluginPaths.push(uri2);
-                }
-
+        for (var j in this.args.pluginLookup) {
+            if (this.args.pluginLookup.hasOwnProperty(j)) {
+                var pluginLookup = this.args.pluginLookup[j];
                 match = pluginLookup.exec(html);
+                while (match !== null) {
+                    uri = match[2];
+                    if (uri === undefined) uri = a.protocol + '//' + a.host + '/' + match[1];
+                    uri = uri.replace(/\\\//g, "/");
+                    if (uri.substring(0, 2) == '//') uri = a.protocol + uri; // some urls start with '//'. we need to add the protocol.
+
+                    uri2 = Helper.trimChar(url.resolve(baseUrl, uri), '/');
+
+                    if (this.techname == "WordPress" && uri2.indexOf("/themes") !== -1) { // WP specific : /wp-content/plugins is very probably a sibbling of /wp-content/themes
+                        uri2 = uri2.replace("/themes", "/plugins");
+                    }
+
+                    if (this.pluginPaths.indexOf(uri2) == -1) {
+                        this.pluginPaths.push(uri2);
+                    }
+
+                    match = pluginLookup.exec(html);
+                }
             }
         }
 
@@ -711,7 +674,7 @@ Tech.prototype = {
             }
             var diffFiles = [];
             var j = 0;
-            for (i in files) {
+            for (var i in files) {
                 if (path.extname(files[i]) === ".diff") {
                     var v = path.basename(files[i]);
                     var ver = new Version(v.substr(0, v.length - 5));
@@ -752,10 +715,11 @@ Tech.prototype = {
                 if (lines.hasOwnProperty(l)) {
                     var line = lines[l];
                     var parts = line.split('\t');
+                    var diffline;
                     if (parts.length == 3) {
-                        var diffline = { "status": parts[0].trim(), "path": parts[1].trim(), "md5": parts[2].trim() };
+                        diffline = { "status": parts[0].trim(), "path": parts[1].trim(), "md5": parts[2].trim() };
                     } else if (parts.length == 2) {
-                        var diffline = { "status": parts[0].trim(), "path": parts[1].trim(), "md5": "" };
+                        diffline = { "status": parts[0].trim(), "path": parts[1].trim(), "md5": "" };
                     }
                     ret.push(diffline);
                 }
@@ -796,7 +760,8 @@ Tech.prototype = {
     isExactFileInOlderVersions: function (localPath, version) {
         var diffs = this.getDiffFiles(version);
         var md5 = null;
-        for (var d in diffs) {
+        var d;
+        for (d in diffs) {
             if (diffs.hasOwnProperty(d)) {
                 if (diffs[d].path === localPath) {
                     md5 = diffs[d].md5;
@@ -809,14 +774,17 @@ Tech.prototype = {
 
         for(var v in this.versions)
         {
-            var otherVersion = this.versions[v];
-            if (version.GT(otherVersion)) {
-                var diffOlder = this.getDiffFiles(otherVersion);
-                for(var d in diffOlder)
-                {
-                    var older = diffOlder[d];
-                    if (older.path === localPath && older.md5 === md5) {
-                        return true;
+            if (this.versions.hasOwnProperty(v)) {
+                var otherVersion = this.versions[v];
+                if (version.GT(otherVersion)) {
+                    var diffOlder = this.getDiffFiles(otherVersion);
+                    for (d in diffOlder) {
+                        if (diffOlder.hasOwnProperty(d)) {
+                            var older = diffOlder[d];
+                            if (older.path === localPath && older.md5 === md5) {
+                                return true;
+                            }
+                        }
                     }
                 }
             }
@@ -852,7 +820,7 @@ Tech.prototype = {
      */
     findPlugins: function (techVersion, progressCB, doneCB) {
         // check default path
-        if (this.pluginPaths.length == 0) {
+        if (this.pluginPaths.length === 0) {
             if (this.techname == "Drupal" && techVersion.substring(0, 1) === "8") {
                 this.pluginPaths.push(this.appRoots[0] + '/modules');
                 this.pluginPaths.push(this.appRoots[0] + '/modules/contrib');
@@ -885,8 +853,7 @@ Tech.prototype = {
             for (var i = 0; i < l; i++) {
                 var line = lines[i];
                 var els = line.split('\t');
-                var a = line.length;
-                if (line.length == 0) continue;// empty line
+                if (line.length === 0) continue;// empty line
                 if (els.length != 2) {
                     console.log("Bad syntax at line " + (i + 1) + " in " + dir + cvs_filename + " : \"" + line + "\". Line was skipped.");
                     continue;
@@ -897,7 +864,7 @@ Tech.prototype = {
                 pluginsTxt[slug] = prettyText;
             }
 
-            var l = plugins.length * this.pluginPaths.length;
+            l = plugins.length * this.pluginPaths.length;
             var detected_plugins = [];
             var detected_plugins_version = {};
             var detected_plugins_data = [];
@@ -905,46 +872,104 @@ Tech.prototype = {
             var regexWPplugin = RegExp("Stable tag: ([a-zA-Z0-9_\.\#\-]+)");
             var startTime = new Date().getTime();
 
-            //function fn(pluginsPath, cb) {
-              //  Async.eachLimit(plugins, 6, function (plugin_slug, callback) { // test all known plugins
-            function fn2(pluginsPath, plugin_slug, callback) {
-                    if (detected_plugins.indexOf(plugin_slug) === -1) {
-                        var url_plugin_testfile = "";
+            var fn = function (pluginsPath, plugin_slug, callback) {
+                if (detected_plugins.indexOf(plugin_slug) === -1) {
+                    var url_plugin_testfile = "";
 
-                        if (techname == "WordPress") {
-                            url_plugin_testfile = pluginsPath + "/" + plugin_slug + "/readme.txt";
-                            request(Tech.getReqOptions(url_plugin_testfile, { encoding: null }), function d(err, response, body_bytearray) {
-                                n++;
-                                try {
-                                    if (!err) {
-                                        if (response.statusCode === 200) {
-                                            body_bytearray = Tech.crlf2lf(body_bytearray); // normalize text files eof
-                                            var body_buf = Buffer.from(body_bytearray);
-                                            var body = body_buf.toString('utf8');
-                                            var match = regexWPplugin.exec(body);
-                                            if (match && match.length > 1) {
-                                                var version = match[1];
-                                                detected_plugins.push(plugin_slug);
-                                                detected_plugins_version[plugin_slug] = version;
+                    if (techname == "WordPress") {
+                        url_plugin_testfile = pluginsPath + "/" + plugin_slug + "/readme.txt";
+                        request(Tech.getReqOptions(url_plugin_testfile, { encoding: null }), function d(err, response, body_bytearray) {
+                            n++;
+                            try {
+                                if (!err) {
+                                    if (response.statusCode === 200) {
+                                        body_bytearray = Tech.crlf2lf(body_bytearray); // normalize text files eof
+                                        var body_buf = Buffer.from(body_bytearray);
+                                        var body = body_buf.toString('utf8');
+                                        var match = regexWPplugin.exec(body);
+                                        if (match && match.length > 1) {
+                                            var version = match[1];
+                                            detected_plugins.push(plugin_slug);
+                                            detected_plugins_version[plugin_slug] = version;
 
-                                                var app_data = {};
-                                                var jsonFilePath = dir + plugin_slug + ".json";
-                                                if (fs.existsSync(jsonFilePath)) { // file must exist
-                                                    var json_content = fs.readFileSync(jsonFilePath, "utf8");
-                                                    app_data = JSON.parse(json_content);
-                                                    app_data.version = detected_plugins_version[plugin_slug];
+                                            var app_data = {};
+                                            var jsonFilePath = dir + plugin_slug + ".json";
+                                            if (fs.existsSync(jsonFilePath)) { // file must exist
+                                                var json_content = fs.readFileSync(jsonFilePath, "utf8");
+                                                app_data = JSON.parse(json_content);
+                                                app_data.version = detected_plugins_version[plugin_slug];
 
-                                                    console.log(n + "-" + detected_plugins_data.length + " : " + plugin_slug + " " + app_data.version + " (last version : " + app_data.latest_version + ")");
-                                                    detected_plugins_data.push(app_data);
-                                                } else {
-                                                    console.log("Error : could not find '" + plugin_slug + ".json' file. Plugin '" + plugin_slug + "' will not be looked for.");
-                                                }
+                                                console.log(n + "-" + detected_plugins_data.length + " : " + plugin_slug + " " + app_data.version + " (last version : " + app_data.latest_version + ")");
+                                                detected_plugins_data.push(app_data);
+                                            } else {
+                                                console.log("Error : could not find '" + plugin_slug + ".json' file. Plugin '" + plugin_slug + "' will not be looked for.");
                                             }
                                         }
                                     }
+                                }
 
+                                var t = new Date().getTime();
+                                if (t - startTime > 500) { // notify progress every 500 ms
+                                    var progress = 100 * n / l;
+                                    progressCB(detected_plugins_data, progress);
+                                    startTime = t;
+                                }
+
+                                callback(null);// next
+                            } catch (e) {
+                                console.log(e);
+                                callback(null);// do nothing, go next
+                            }
+                        });
+                    } else if (techname == "Drupal") {
+                        url_plugin_testfile = pluginsPath + "/" + plugin_slug + "/" + plugin_slug + ".info";
+                        if (coreVersion === "8") {
+                            url_plugin_testfile = pluginsPath + "/" + plugin_slug + "/" + plugin_slug + ".info.yml";
+                        }
+
+                        request(Tech.getReqOptions(url_plugin_testfile, { encoding: null }), function d(err, response, body_bytearray) {
+                            n++;
+                            try {
+                                var deepScanLaunched = false;
+                                if (!err) {
+                                    if (response.statusCode === 200 || response.statusCode === 403) {
+                                        var app_data = {};
+                                        var coreVersion = techVersion.substring(0, 1);
+                                        var jsonFilePath = dir + plugin_slug + "_" + coreVersion + ".x/" + plugin_slug + ".json";
+                                        if (fs.existsSync(jsonFilePath)) {
+                                            var json_content = fs.readFileSync(jsonFilePath, "utf8");
+                                            app_data = JSON.parse(json_content);
+
+                                            // look for plugin version
+                                            var tech = new Tech(techname, true, plugin_slug, coreVersion);
+                                            tech.setOneRoot(pluginsPath + "/" + plugin_slug);
+                                            deepScanLaunched = true;
+                                            tech.deepScan(function (err, result) {
+                                                if (result.status === "success") {
+                                                    var versions = result.versions;
+                                                    app_data.version = versions[0];
+                                                    detected_plugins_data.push(app_data);
+                                                    console.log(n + "-" + detected_plugins_data.length + " : " + plugin_slug + " " + app_data.version + " (last version : " + app_data.latest_version + ")");
+                                                }
+
+                                                var t = new Date().getTime();
+                                                if (t - startTime > 500) { // notify progress every 500 ms
+                                                    var progress = 100 * n / l;
+                                                    progressCB(detected_plugins_data, progress);
+                                                    startTime = t;
+                                                }
+                                                callback(null);// next
+                                            }, function progressCB(progress) {
+                                                // do nothing
+                                            });
+                                        }
+                                        else {
+                                            console.log("Error : could not find '" + plugin_slug + ".json' file. Plugin '" + plugin_slug + "' will not be looked for.");
+                                        }
+                                    }
+                                }
+                                if (deepScanLaunched === false) {
                                     var t = new Date().getTime();
-                                    var dt = t - startTime;
                                     if (t - startTime > 500) { // notify progress every 500 ms
                                         var progress = 100 * n / l;
                                         progressCB(detected_plugins_data, progress);
@@ -952,86 +977,22 @@ Tech.prototype = {
                                     }
 
                                     callback(null);// next
-                                } catch (e) {
-                                    console.log(e);
-                                    callback(null);// do nothing, go next
                                 }
-                            });
-                        } else if (techname == "Drupal") {
-                            url_plugin_testfile = pluginsPath + "/" + plugin_slug + "/" + plugin_slug + ".info";
-                            if (coreVersion === "8") {
-                                url_plugin_testfile = pluginsPath + "/" + plugin_slug + "/" + plugin_slug + ".info.yml";
+                            } catch (e) {
+                                console.log(e);
+                                callback(null);// do nothing, go next
                             }
-                           
-                            request(Tech.getReqOptions(url_plugin_testfile, { encoding: null }), function d(err, response, body_bytearray) {
-                                n++;
-                                try {
-                                    var deepScanLaunched = false;
-                                    if (!err) {
-                                        if (response.statusCode === 200 || response.statusCode === 403) {
-                                            var app_data = {};
-                                            var coreVersion = techVersion.substring(0, 1);
-                                            var jsonFilePath = dir + plugin_slug + "_" + coreVersion + ".x/" + plugin_slug + ".json";
-                                            if (fs.existsSync(jsonFilePath)) {
-                                                var json_content = fs.readFileSync(jsonFilePath, "utf8");
-                                                app_data = JSON.parse(json_content);
-
-                                                // look for plugin version
-                                                var tech = new Tech(techname, true, plugin_slug, coreVersion);
-                                                tech.setOneRoot(pluginsPath + "/" + plugin_slug);
-                                                deepScanLaunched = true;
-                                                tech.deepScan(function (err, result) {
-                                                    if (result.status === "success") {
-                                                        var versions = result.versions;
-                                                        var proofs = result.proofs;
-                                                        app_data.version = versions[0];
-                                                        detected_plugins_data.push(app_data);
-                                                        console.log(n + "-" + detected_plugins_data.length + " : " + plugin_slug + " " + app_data.version + " (last version : " + app_data.latest_version + ")");
-                                                    }
-
-                                                    var t = new Date().getTime();
-                                                    var dt = t - startTime;
-                                                    if (t - startTime > 500) { // notify progress every 500 ms
-                                                        var progress = 100 * n / l;
-                                                        progressCB(detected_plugins_data, progress);
-                                                        startTime = t;
-                                                    }
-                                                    callback(null);// next
-                                                }, function progressCB(progress) {
-                                                    // do nothing
-                                                });
-                                            }
-                                            else {
-                                                console.log("Error : could not find '" + plugin_slug + ".json' file. Plugin '" + plugin_slug + "' will not be looked for.");
-                                            }
-                                        }
-                                    }
-                                    if (deepScanLaunched === false) {
-                                        var t = new Date().getTime();
-                                        var dt = t - startTime;
-                                        if (t - startTime > 500) { // notify progress every 500 ms
-                                            var progress = 100 * n / l;
-                                            progressCB(detected_plugins_data, progress);
-                                            startTime = t;
-                                        }
-
-                                        callback(null);// next
-                                    }
-                                } catch (e) {
-                                    console.log(e);
-                                    callback(null);// do nothing, go next
-                                }
-                            });
-                        }
-                    } else {
-                        n++;
+                        });
                     }
-            }
+                } else {
+                    n++;
+                }
+            };
 
             var _this = this;
             Async.eachSeries(plugins, function (plugin_slug, cb1) { // test all known plugins
                 Async.someSeries(_this.pluginPaths, function (pluginsPath, cb2) { // test each path until one works
-                    fn2(pluginsPath, plugin_slug, function () {
+                    fn(pluginsPath, plugin_slug, function () {
                         if (detected_plugins_data.length > 0) {
                             _this.pluginPaths = [pluginsPath]; // we found modules path. Keep this one only.
                             cb2(null, true); // this path was the good one

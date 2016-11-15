@@ -8,3 +8,4 @@ obj/
 public/
 typings/
 phantom_scripts/
+wappalyzer/wappalyzer.js

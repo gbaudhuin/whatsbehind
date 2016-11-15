@@ -1,4 +1,4 @@
-# WhatsBehind [![NPM version](https://img.shields.io/npm/v/gulp.svg)](https://www.npmjs.com/package/whatsbehind) [![Build Status](https://travis-ci.org/gbaudhuin/whatsbehind.svg?branch=master)](https://travis-ci.org/gbaudhuin/whatsbehind)
+# WhatsBehind [![NPM version](https://img.shields.io/npm/v/whatsbehind.svg)](https://www.npmjs.com/package/whatsbehind) [![Build Status](https://travis-ci.org/gbaudhuin/whatsbehind.svg?branch=master)](https://travis-ci.org/gbaudhuin/whatsbehind)
 A node.js 6.6.0+ app/module to scan technologies used by websites.
 
 Forked from Wappalyzer.

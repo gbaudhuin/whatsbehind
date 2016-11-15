@@ -7,7 +7,7 @@ function Version(value) {
 
 Version.prototype.toString = function () {
     return this.value;
-}
+};
 
 Version.version_compare = function (_prev, _cur) {
     if (!_prev && !_cur) return 0;
@@ -84,13 +84,13 @@ Version.version_compare = function (_prev, _cur) {
             else if (pos1 > pos2) return 1;
             else {
                 var c = p1.localeCompare(p2);
-                if (c != 0) return c;
+                if (c !== 0) return c;
             }
         }
     }
 
     return 0;
-}
+};
 
 /**
 * Check if current version is strictly greater than another one.
@@ -98,7 +98,7 @@ Version.version_compare = function (_prev, _cur) {
 Version.prototype.GT = function (other) {
     if (Version.version_compare(this, other) > 0) return true;
     return false;
-}
+};
 
 /**
 * Check if current version is greater or equal to another one.
@@ -106,7 +106,7 @@ Version.prototype.GT = function (other) {
 Version.prototype.GTOE = function (other) {
     if (Version.version_compare(this, other) >= 0) return true;
     return false;
-}
+};
 
 /**
 * Check if current version is strictly lesser than another one.
@@ -114,7 +114,7 @@ Version.prototype.GTOE = function (other) {
 Version.prototype.LT = function (other) {
     if (Version.version_compare(this, other) < 0) return true;
     return false;
-}
+};
 
 /**
 * Check if current version is lesser or equal to another one.
@@ -122,7 +122,7 @@ Version.prototype.LT = function (other) {
 Version.prototype.LTOE = function (other) {
     if (Version.version_compare(this, other) <= 0) return true;
     return false;
-}
+};
 
 /**
 * Check if current version is equal to another one.
@@ -130,7 +130,7 @@ Version.prototype.LTOE = function (other) {
 Version.prototype.EQ = function (other) {
     if (Version.version_compare(this, other) === 0) return true;
     return false;
-}
+};
 
 Version.prototype.isReleaseVersion = function () {
     if (!this.value) return false;
@@ -143,7 +143,7 @@ Version.prototype.isReleaseVersion = function () {
     sanitized = sanitized.replace(".pl.", ".p.");
 
     if (/[^a-z0-9\.\#]+/.test(sanitized)) {
-        helper.die("Invalid version format \"" + _prev.value + "\". Version should only contain alphanumeric characters, '.', '#', '+', '_' and '-'.");
+        helper.die("Invalid version format \"" + this.value + "\". Version should only contain alphanumeric characters, '.', '#', '+', '_' and '-'.");
     }
 
     var a = ["dev", "a", "b", "rc", "#", "p"];
@@ -152,7 +152,7 @@ Version.prototype.isReleaseVersion = function () {
     }
 
     return true;
-}
+};
 
 // export the class
 module.exports = Version;
