@@ -3,7 +3,7 @@
 var gulp = require('gulp');
 var jshint = require('gulp-jshint');
 var mocha = require('gulp-mocha');
-//var cover = require('gulp-coverage');
+var cover = require('gulp-coverage');
 //var coveralls = require('gulp-coveralls');
 
 gulp.task('lint', function () {
