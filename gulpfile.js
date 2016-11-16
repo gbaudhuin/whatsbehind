@@ -33,6 +33,4 @@ gulp.task('test2', function () {
         .pipe(gulp.dest('reports'));
 });
 */
-gulp.task('default', function () {
-
-});
+gulp.task('default', ['lint']);
