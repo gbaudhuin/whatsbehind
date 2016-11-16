@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="gulpfile.js" />
     <Compile Include="helper.js" />
     <Compile Include="tech.js" />
     <Compile Include="ut\ut_tech.js">
@@ -56,6 +57,11 @@
   <ItemGroup>
     <Folder Include="typings\globals\async\" />
     <Folder Include="typings\globals\commander\" />
+    <Folder Include="typings\globals\gulp-cached\" />
+    <Folder Include="typings\globals\gulp-concat\" />
+    <Folder Include="typings\globals\gulp-mocha\" />
+    <Folder Include="typings\globals\gulp-remember\" />
+    <Folder Include="typings\globals\gulp\" />
     <Folder Include="typings\globals\mongodb\" />
     <Folder Include="ut\" />
     <Folder Include="phantom_scripts\" />
@@ -71,6 +77,11 @@
   <ItemGroup>
     <TypeScriptCompile Include="typings\globals\async\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\commander\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\gulp-cached\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\gulp-concat\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\gulp-mocha\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\gulp-remember\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\gulp\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\mocha\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\mongodb\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\node\index.d.ts" />

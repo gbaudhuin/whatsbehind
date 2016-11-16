@@ -1,6 +1,6 @@
 {
   "name": "whatsbehind",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "GPL-3.0",
   "description": "A module to check technologies used by websites",
   "main": "app.js",
@@ -22,9 +22,19 @@
   "dependencies": {
     "async": "^2.1.2",
     "commander": "^2.9.0",
-    "jshint": "^2.9.4",
-    "mocha": "^3.0.1",
     "phantomjs-prebuilt": "^2.1.13",
     "request": "^2.78.0"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.15",
+    "gulp": "^3.9.1",
+    "gulp-coverage": "^0.3.38",
+    "gulp-coveralls": "^0.1.4",
+    "gulp-jshint": "^2.0.4",
+    "gulp-mocha": "^3.0.1",
+    "jscover": "^1.0.0",
+    "jshint": "^2.9.4",
+    "mocha": "^3.0.1",
+    "mocha-lcov-reporter": "^1.2.0"
   }
 }

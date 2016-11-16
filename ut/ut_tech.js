@@ -8,6 +8,7 @@ var Version = require('../version');
 
 describe('Class Tech', function () {
     it('getHighestCommits', function () {
+        this.timeout(5000);// change Mocha default 2000ms timeout
         var tech = new Tech("WordPress");
         var hc = tech.getHighestCommits();
         assert.ok(hc.length > 1900); // at time of writing, we're at least at 1900
