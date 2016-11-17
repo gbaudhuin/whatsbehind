@@ -1,6 +1,6 @@
 {
   "name": "whatsbehind",
-  "version": "1.0.2",
+  "version": "1.1.5",
   "license": "GPL-3.0",
   "description": "A module to check technologies used by websites",
   "main": "app.js",
@@ -12,10 +12,10 @@
     "url": "https://github.com/gbaudhuin/whatsbehind"
   },
   "bin": {
-    "wb": "./app"
+    "wb": "./app.js"
   },
   "scripts": {
-    "start": "node ./app",
+    "start": "node ./app.js",
     "lint": "jshint --config jshintconfig.json .",
     "mocha": "mocha ./ut/*.js"
   },

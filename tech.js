@@ -127,7 +127,7 @@ Tech.prototype = {
         var cur_root = 0;
         var o = null;
         var progress = 0;
-        const max_tries_pass1 = 30;
+        const max_tries_pass1 = 130;
         function pass1(_this, cb1) {
             n++;
             if (cur_root === 0) {
@@ -436,9 +436,9 @@ Tech.prototype = {
         var site_uses_soft404 = null; // true if we detected the site uses soft 404 pages
         for (var i in diffs) {
             if (diffs.hasOwnProperty(i)) {
-                // clone diffs[i] in a new object
-                var o = { "path": diffs[i].path, "md5": diffs[i].md5, "status": diffs[i].status };
                 for (var j in this.appRoots) {
+                    // clone diffs[i] in a new object
+                    var o = { "path": diffs[i].path, "md5": diffs[i].md5, "status": diffs[i].status };
                     if (this.appRoots.hasOwnProperty(j)) {
                         o.root = this.appRoots[j];
                         queue.push(o);
@@ -511,9 +511,10 @@ Tech.prototype = {
 
                 u = diff.root + "/" + diff.path;
                 request(Tech.getReqOptions(u), function d(err, response, body) {
-                    if (!err && (response.statusCode == 200 || response.statusCode == 206)) {
-                        if (site_uses_soft404 === null) {
-                            // test for soft 404 false positive case
+                    if (!err && (response.statusCode == 200 || response.statusCode == 206 || response.statusCode == 403)) {
+                        if (site_uses_soft404 === null || response.statusCode == 403) {
+                            // test for soft 404 false positive case and 403
+                            // a 403 ressource tells us it is probably there but not accessible. As for soft 404, we need to check if a random file with the same ext in the same dir gives a 404. 
                             var u404 = diff.path.substr(0, diff.path.length - ext.length);
                             u404 = diff.root + "/" + u404 + "d894tgd1" + ext; // random non existing url
 
@@ -521,9 +522,9 @@ Tech.prototype = {
                                 if (!err2 && response2.statusCode == 404) {
                                     proofs.push(diff);
                                     path_skip.push(proof_string);
-                                    site_uses_soft404 = false;
-                                } else if (!err2 && (response2.statusCode == 200 || response2.statusCode == 206)) {
-                                    site_uses_soft404 = true;
+                                    if (response.statusCode !== 403) site_uses_soft404 = false;
+                                } else if (!err2 && (response2.statusCode == 200 || response2.statusCode == 206 || response.statusCode == 403)) {
+                                    if (response.statusCode !== 403) site_uses_soft404 = true;
                                 }
                                 f(_this);// next
                             });
