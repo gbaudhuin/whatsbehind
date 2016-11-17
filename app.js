@@ -17,7 +17,7 @@ exports.scan = function (params, callback) {
 
     wappalyzer_wrapper.detectFromUrl(options, callback);
 };
-
+/*
 var url;
 //url = 'http://whatsbehind.io';
 //url = "https://developer.mozilla.org";
@@ -37,10 +37,17 @@ var url;
 //url = "http://www.avioconsulting.com/";// drupal 8
 //url = "http://www.5net.hu/";// drupal 8
 url = "https://druid.fi/";// drupal 8
-url = "https://www.cvp.ch/de";
-exports.scan({ url: url, generateScreenshot: true }, function (err, apps) {
+url = "https://www.cvp.ch";
+var last_status = "";
+
+exports.scan(url, function (err, apps) {
     console.log(apps.status + " " + apps.progress + " : " + apps.detected.length);
-    if (apps.status == "complete") {
-        console.log(err, apps);
+    if (last_status !== apps.status) {
+        last_status = apps.status;
+        if (apps.status == "complete") {
+            // console.log(apps);
+        }
     }
 });
+
+*/

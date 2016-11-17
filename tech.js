@@ -437,20 +437,18 @@ Tech.prototype = {
         for (var i in diffs) {
             if (diffs.hasOwnProperty(i)) {
                 for (var j in this.appRoots) {
-                    // clone diffs[i] in a new object
-                    var o = { "path": diffs[i].path, "md5": diffs[i].md5, "status": diffs[i].status };
                     if (this.appRoots.hasOwnProperty(j)) {
-                        o.root = this.appRoots[j];
-                        queue.push(o);
+                        // clone diffs[i] in a new object
+                        var o = { "path": diffs[i].path, "md5": diffs[i].md5, "status": diffs[i].status };
+                        if (this.appRoots.hasOwnProperty(j)) {
+                            o.root = this.appRoots[j];
+                            queue.push(o);
+                        }
                     }
                 }
             }
         }
-        /*
-        if (version.value == "4.5.3") {
-            var r = 9;
-        }
-        */
+
         var iter = queue[Symbol.iterator](); // ES6 iterator
 
         function f(_this) {
@@ -995,7 +993,10 @@ Tech.prototype = {
                 Async.someSeries(_this.pluginPaths, function (pluginsPath, cb2) { // test each path until one works
                     fn(pluginsPath, plugin_slug, function () {
                         if (detected_plugins_data.length > 0) {
-                            _this.pluginPaths = [pluginsPath]; // we found modules path. Keep this one only.
+                            if (_this.pluginPaths.length > 1) {
+                                l = plugins.length + _this.pluginPaths.length * Math.floor(n / _this.pluginPaths.length);
+                                _this.pluginPaths = [pluginsPath]; // we found modules path. Keep this one only.
+                            }
                             cb2(null, true); // this path was the good one
                         }
                         else cb2(null, false);
@@ -1009,8 +1010,6 @@ Tech.prototype = {
         } catch (e) {
             Helper.die("Unknown error while looking for \"" + this.techname + "\" plugins. Error was : " + e.message);
         }
-
-
     }
 };
 
