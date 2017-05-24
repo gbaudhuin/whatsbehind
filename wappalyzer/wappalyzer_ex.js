@@ -16,6 +16,20 @@ var Async = require('async');
 
 var wappalyzer = (function () {
 
+    var frontendFrameWorks = ["Angular Material",
+        "Catberry.js",
+        "Kendo UI",
+        "Materialize CSS",
+        "Milligram",
+        "Penguin",
+        "Pure CSS",
+        "Semantic-ui",
+        "Shadow",
+        "Twitter Bootstrap",
+        "UIKit",
+        "Visual WebGUI",
+        "ZURB Foundation"];
+
 	/**
 	 * Application class
 	 */
@@ -588,12 +602,24 @@ var wappalyzer = (function () {
 
                 // if no baseCMS nor web framework are detected at this point, look for them with a deep scan with Tech
                 var baseCMSorFrameworkDetected = false;
+                
                 for (app in apps) {
                     if (baseCMSorFrameworkDetected === false && apps[app].detected && (
                         apps[app].cats.indexOf(1) !== -1 ||   // 1 : CMS
                         apps[app].cats.indexOf(18) !== -1)) { // 18: web framework
-                        baseCMSorFrameworkDetected = true;
-                        break;
+
+                        var isFrontEnd = false;
+                        // filter out front end frameworks
+                        for (var fe in frontendFrameWorks) {
+                            if (app === frontendFrameWorks[fe]) {
+                                isFrontEnd = true;
+                                break;
+                            }
+                        }
+                        if (!isFrontEnd) {
+                            baseCMSorFrameworkDetected = true;
+                            break;
+                        }
                     }
                 }
 

@@ -38,16 +38,16 @@ var url;
 //url = "http://www.5net.hu/";// drupal 8
 url = "https://druid.fi/";// drupal 8
 url = "https://www.cvp.ch";
+url = "http://eu.battle.net/fr/";
+url = "https://gitlab.com/";
 var last_status = "";
 
 exports.scan(url, function (err, apps) {
     console.log(apps.status + " " + apps.progress + " : " + apps.detected.length);
     if (last_status !== apps.status) {
         last_status = apps.status;
-        if (apps.status == "complete") {
-            // console.log(apps);
-        }
+       // if (apps.status == "complete") {
+             console.log(apps);
+       // }
     }
-});
-
-*/
+});*/
