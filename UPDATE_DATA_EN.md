@@ -19,7 +19,7 @@
 
  - Go to folder containing Wordpress / Drupal data
  - Copy this folder
- - delete whatsbehind_data/(Wordpress / Drupal) folder
+ - Delete whatsbehind_data/(Wordpress / Drupal) folder
  - Paste the folder previously copied
  - Commit & Push 
 
