@@ -1,13 +1,13 @@
 # Mise a jour des données.
 
-## Lancer la procédure de mise a jour depuis le projet X.
+## Lancer la procédure de mise a jour depuis le projet opencheck.
 
 
 ----------
 
  
 
- - Lancer le projet X dans Visual Studio
+ - Lancer le projet opencheck dans Visual Studio
  - Lancer la compilation
  - Choisir le type de donnée a mettre a jour (Wordpress / Drupal)
  

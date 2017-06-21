@@ -1,13 +1,13 @@
 # Update data.
 
-## Launch update procedure from X project.
+## Launch update procedure from opencheck project.
 
 
 ----------
 
  
 
- - Launch X project in Visual Studio
+ - Launch opencheck project in Visual Studio
  - Compile it
  - Choose data type to update (Wordpress / Drupal)
  
