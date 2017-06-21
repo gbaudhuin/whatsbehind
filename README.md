@@ -43,8 +43,8 @@ wb.scan(url, function (err, data) {
 Update CMS Data
 ---------------
 
-[Procédure en francais](https://github.com/gbaudhuin/whatsbehind/UPDATE_DATA_FR.md)
-[English how-to](https://github.com/gbaudhuin/whatsbehind/UPDATE_DATA_EN.md)
+- [Procédure en francais](https://github.com/gbaudhuin/whatsbehind/UPDATE_DATA_FR.md)
+- [English how-to](https://github.com/gbaudhuin/whatsbehind/UPDATE_DATA_EN.md)
 
 Author
 ------
