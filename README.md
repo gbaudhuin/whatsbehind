@@ -1,6 +1,7 @@
 # WhatsBehind
-[![NPM version](https://img.shields.io/npm/v/whatsbehind.svg)](https://www.npmjs.com/package/whatsbehind) [![Build Status](https://travis-ci.org/gbaudhuin/whatsbehind.svg?branch=master)](https://travis-ci.org/gbaudhuin/whatsbehind)
-A node.js 6.6.0+ app/module to scan technologies used by websites.
+[![NPM version](https://img.shields.io/npm/v/whatsbehind.svg)](https://www.npmjs.com/package/whatsbehind) [![Build Status](https://gitlab.com/baudhuin/whatsbehind_worker/badges/master/build.svg)](https://gitlab.com/baudhuin/whatsbehind_worker) [![Code Coverage](https://gitlab.com/baudhuin/whatsbehind_worker/badges/master/coverage.svg)](https://gitlab.com/baudhuin/whatsbehind_worker)
+
+A node.js module to scan technologies used by websites.
 
 Forked from Wappalyzer.
 
@@ -51,7 +52,3 @@ Author
 
 [Guillaume Baudhuin](https://github.com/gbaudhuin)
 
-License
--------
-
-*Licensed under the [GPL3](https://www.gnu.org/licenses/gpl-3.0.txt).*
