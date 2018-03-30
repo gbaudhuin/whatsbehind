@@ -2221,8 +2221,8 @@ regex-not@^1.0.0, regex-not@^1.0.2:
     safe-regex "^1.1.0"
 
 regexpp@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-1.0.1.tgz#d857c3a741dce075c2848dcb019a0a975b190d43"
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-1.1.0.tgz#0e3516dd0b7904f413d2d4193dce4618c3a689ab"
 
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
@@ -2803,8 +2803,8 @@ verror@1.10.0:
     extsprintf "^1.2.0"
 
 wappalyzer@^5.4.12:
-  version "5.4.12"
-  resolved "https://registry.yarnpkg.com/wappalyzer/-/wappalyzer-5.4.12.tgz#524934a1175b353d4deda13de0ffea267c677298"
+  version "5.4.13"
+  resolved "https://registry.yarnpkg.com/wappalyzer/-/wappalyzer-5.4.13.tgz#7781a5dfbffc6460c5e2bf31c561c1000ea3e53a"
   dependencies:
     request "^2.83.0"
     zombie "^5.0.7"
