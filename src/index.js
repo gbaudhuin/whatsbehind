@@ -101,7 +101,6 @@ let scan = async (url, homepageBody) => {
   let apps = await wappalyzer.analyze()
 
   // DEEPSCAN
-  let tech = new Tech()
   let techApps = []
   let hasCMS = false // est-ce qu'un CMS a été détecté ?
   for (let app of apps.applications) {
@@ -140,7 +139,8 @@ let scan = async (url, homepageBody) => {
   }
 
   if (!homepageBody) {
-    homepageBody = await request(url)
+    let reqOptions = Tech.getReqOptions(url)
+    homepageBody = await request(reqOptions)
   }
 
   var progressStep = progressSteps['deepscan']

@@ -1,5 +1,6 @@
 "use strict";
-var helper = require('./helper.js');
+const helper = require('./helper.js')
+const php_version_compare = require('php_version_compare')
 
 function Version(value) {
     this.value = value;
@@ -18,6 +19,7 @@ Version.version_compare = function (_prev, _cur) {
     if (_prev.value.toLowerCase() == "trunk") return 1;// special case "trunk" is a probably a nightly build and is the newest version
     if (_cur.value.toLowerCase() == "trunk") return -1;// special case "trunk" is a probably a nightly build and is the newest version
 
+    /*
     // filter _prev
     var prev = _prev.value.replace(/[_+-]/g, ".");
     prev = prev.replace(/[a-zA-Z]+/g, function (match) { return "." + match + "."; });
@@ -89,7 +91,10 @@ Version.version_compare = function (_prev, _cur) {
         }
     }
 
-    return 0;
+    return 0;*/
+
+    let ret = php_version_compare(_prev.value, _cur.value)
+    return ret
 };
 
 /**

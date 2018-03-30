@@ -996,8 +996,8 @@ Tech.prototype = {
                 }
             };
 
-            Async.eachLimit(plugins, 20, function (plugin_slug, cb1) { // test all known plugins
-            //Async.eachSeries(plugins, function (plugin_slug, cb1) { // test all known plugins
+            //Async.eachLimit(plugins, 20, function (plugin_slug, cb1) { // test all known plugins
+            Async.eachSeries(plugins, function (plugin_slug, cb1) { // test all known plugins
                 Async.someSeries(_this.pluginPaths, function (pluginsPath, cb2) { // test each path until one works
                     fn(pluginsPath, plugin_slug, function () {
                         if (detected_plugins_data.length > 0) {

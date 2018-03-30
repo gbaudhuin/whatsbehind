@@ -21,6 +21,7 @@
   "dependencies": {
     "async": "^2.6.0",
     "istanbul": "^0.4.5",
+    "php_version_compare": "^1.0.3",
     "request-promise": "^4.2.2",
     "wappalyzer": "^5.4.13"
   },

@@ -7,7 +7,8 @@ describe('scan', function () {
   this.timeout(300000)
 
   it.only('une phrases à la con', async function () {
-    //let url = 'http://wordpress3-8.whatsbehind.io/'
+    let url = 'http://wordpress3-8.whatsbehind.io/'
+    //let url = 'https://www.isatech.fr/'
     //let url = 'http://wordpress4-9-4.whatsbehind.io/'
     //let url = 'https://wptavern.com/'
     //let url = 'https://stackoverflow.com/'
@@ -16,7 +17,10 @@ describe('scan', function () {
     //let url = 'http://www.spindrift-racing.com/' // drupal 7
     //let url = 'http://www.starwars.com/' // wordpress caché
     //let url = 'https://druid.fi/'
-    let url = 'https://www.auchan.fr/' 
+    //let url = 'https://www.auchan.fr/' 
+    // let url = 'https://www.alibaba.com'
+    // url = 'https://www.nike.com'
+    // url = 'https://www.sony.com'
     
     let result = await scanner.scan(url)
   })

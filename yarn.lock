@@ -2105,6 +2105,10 @@ performance-now@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
 
+php_version_compare@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/php_version_compare/-/php_version_compare-1.0.3.tgz#463437734e6cf2c701ffc1c21a7abeae84bb5d5a"
+
 pify@^2.0.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
@@ -2802,7 +2806,7 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-wappalyzer@^5.4.12:
+wappalyzer@^5.4.13:
   version "5.4.13"
   resolved "https://registry.yarnpkg.com/wappalyzer/-/wappalyzer-5.4.13.tgz#7781a5dfbffc6460c5e2bf31c561c1000ea3e53a"
   dependencies:
