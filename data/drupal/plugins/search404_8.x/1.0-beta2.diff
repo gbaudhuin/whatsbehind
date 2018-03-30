@@ -1,0 +1,8 @@
+M	README.txt	48249fdba3c5928e6b23631e2e73463a
+M	config/install/search404.settings.yml	13a03ff82a60540a564cf072f9e1e509
+M	config/schema/search404.schema.yml	6fd8d807ea046b4d04680f7694e31b73
+M	search404.info.yml	8312879f1066922c9a1fab614850d3ca
+M	search404.install	c1233b90a6610b7d4f44a995c1d40e11
+M	search404.links.menu.yml	4a7507073347e2875bedc3d0b1c224fc
+M	src/Controller/Search404Controller.php	66e8b9b092b4254451a5209415635f54
+M	src/Form/Search404Settings.php	c936bbfc3c7f53c106eac754ef74e8c5

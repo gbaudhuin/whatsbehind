@@ -1,0 +1,9 @@
+M	README.txt	aa5bd8a5f78fc6ca00d9d3cbd36b0b61
+D	commerce_addressbook.admin.inc	
+A	commerce_addressbook.api.php	d5ab41752d6f8cb00b1da1241bfeec98
+M	commerce_addressbook.info	86bae83bbc4bf870ded2864386447dfb
+M	commerce_addressbook.install	7dd3b1042375f3300a5cbee71458ae71
+M	commerce_addressbook.module	8d1e42848ddc22d53a0e6c82c484f055
+A	includes/commerce_addressbook.user.inc	acaed55f3d661f288bbce5461d6dffbb
+A	includes/views/commerce_addressbook.views.inc	1ca68a71118bfea93277cb90566fa471
+A	includes/views/commerce_addressbook.views_default.inc	ef4651df28677f869d1277f8b78af11f

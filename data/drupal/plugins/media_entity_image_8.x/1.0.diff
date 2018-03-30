@@ -1,0 +1,3 @@
+M	media_entity_image.info.yml	c483b06d7378e6f687cff6ce69fd691f
+M	src/Plugin/EntityBrowser/Widget/Upload.php	2b4346297de7366356ea49ad4fd715ab
+M	src/Plugin/MediaEntity/Type/Image.php	f749005da0fe5d60b7126d906ba4e9ae

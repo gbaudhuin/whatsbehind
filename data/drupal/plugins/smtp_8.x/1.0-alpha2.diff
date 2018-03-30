@@ -1,0 +1,5 @@
+M	smtp.info.yml	cd49c004632e0307ed9ecb804270431f
+M	src/Form/SMTPConfigForm.php	b4ee7ee3b6a56e93827fc68fd2f74496
+M	src/PHPMailer/PHPMailer.php	db56c9e1dfcaf8ce08cf97526ed9cba7
+M	src/PHPMailer/SMTP.php	8032d3902d72753ad0dcc8602ce9c1f9
+M	src/Plugin/Mail/SMTPMailSystem.php	2ae4631f63716a9839f86356a6f3b628

@@ -1,0 +1,57 @@
+M	config/optional/linkit.linkit_profile.default.yml	ac3da9e2fcbbba9e7c555884377ba958
+M	config/schema/linkit.schema.yml	a18eab5f70216d86fc0b5f65d3500f0f
+M	js/autocomplete.js	193715289775f06ee7302ab46e36a6c0
+M	linkit.info.yml	4034261bbfd08e649978d7e73e760305
+M	linkit.install	0573431dda5fb1e36152aaf07f44d9c6
+M	linkit.module	1f43574029517cca0ca23ea301b2e2f3
+M	linkit.services.yml	f55ab47f3cc26e63e643ad186519918d
+A	src/Annotation/Substitution.php	398d5d0c022889ad9bc4af728c94e6fc
+M	src/Controller/AutocompleteController.php	e3e9ba8a78df2c0e95dd59507324d499
+M	src/Form/Matcher/OverviewForm.php	c9338c36da76c0a1c6f5bee67647365e
+M	src/MatcherTokensTrait.php	699a990429e4ade9459b7efc8b2ea041
+M	src/Plugin/CKEditorPlugin/LinkitDrupalLink.php	7e8686f8696eec30e12eb2d6cb4f0672
+M	src/Plugin/Filter/LinkitFilter.php	8159d666698bd64331ff2809a6010735
+M	src/Plugin/Linkit/Matcher/EntityMatcher.php	ccfbc848053e6c54b852ea5d413e1619
+M	src/Plugin/Linkit/Matcher/FileMatcher.php	05af1f949f692e35a18a7b23069fe36b
+M	src/Plugin/Linkit/Matcher/NodeMatcher.php	58d4a2228904b64dceda5e7b2bbbe5d7
+M	src/Plugin/Linkit/Matcher/TermMatcher.php	9a4c215f82faa5eb6a081f0978318683
+M	src/Plugin/Linkit/Matcher/UserMatcher.php	1b24d9578e49967e399adaba21d0c8d2
+A	src/Plugin/Linkit/Substitution/Canonical.php	95ba107dabf11f5540db6fe8559d508a
+A	src/Plugin/Linkit/Substitution/File.php	696f5c9c9613369ee933f1ed2a3fa271
+A	src/SubstitutionInterface.php	86b660d10bd8e7f457426427d0cf1d62
+A	src/SubstitutionManager.php	2a9ab0885eeed923354d1189f6252dd7
+A	src/SubstitutionManagerInterface.php	74a50315971722155d6e8289809be12f
+M	src/Suggestion/DescriptionSuggestion.php	779d2c02765d1857be611a94674fd15e
+A	src/Suggestion/EntitySuggestion.php	f40bf759711ca500d467d6515b072797
+M	src/Suggestion/SimpleSuggestion.php	a35dad3e39249f9a6667c0f4d8fad1ec
+M	src/SuggestionManager.php	d8826b8ea639dbc3c5e7f112accc62e4
+M	src/Tests/Update/LinkitUpdateTest.php	b21120a15a483dccc83358f2d7a93c71
+A	tests/fixtures/update/drupal-8.linkit-enabled.standard.php.gz	71505a4f0c1b4115989c7652af4d9d2a
+A	tests/fixtures/update/editor.editor.format_1.yml	d443e48bc5928b5bc31d5c1288506ccf
+A	tests/fixtures/update/editor.editor.format_2.yml	6c69570c5dbabff4226e9d1aff6560d6
+A	tests/fixtures/update/editor.editor.format_3.yml	3b2598a34423da2f5e258cf64db52b21
+A	tests/fixtures/update/filter.format.format_1.yml	6c974a4980bdc0fad9ae1e96c0878395
+A	tests/fixtures/update/filter.format.format_2.yml	258eb41bd3ce51901e72f38894dba683
+A	tests/fixtures/update/filter.format.format_3.yml	47c36b2130b05d5ca9d92868739ca238
+D	tests/fixtures/update/linkit-4-to-5/drupal-8.linkit-enabled.standard.php.gz	
+D	tests/fixtures/update/linkit-4-to-5/editor.editor.format_1.yml	
+D	tests/fixtures/update/linkit-4-to-5/editor.editor.format_2.yml	
+D	tests/fixtures/update/linkit-4-to-5/editor.editor.format_3.yml	
+D	tests/fixtures/update/linkit-4-to-5/filter.format.format_1.yml	
+D	tests/fixtures/update/linkit-4-to-5/filter.format.format_2.yml	
+D	tests/fixtures/update/linkit-4-to-5/filter.format.format_3.yml	
+D	tests/fixtures/update/linkit-4-to-5/linkit-4-to-5.php	
+D	tests/fixtures/update/linkit-4-to-5/linkit.linkit_profile.test_profile.yml	
+A	tests/fixtures/update/linkit-additions.php	4b2a8dd99ce800c61e29269ef6f47e47
+A	tests/fixtures/update/linkit.linkit_profile.test_profile.yml	489a91ad91a474917f948c1de677698a
+M	tests/linkit_test/linkit_test.info.yml	c1cdedff63101156299987d476ca9244
+M	tests/src/FunctionalJavascript/LinkitDialogTest.php	a0db8993030846e99e75c43b6e7d84f6
+M	tests/src/Kernel/EntityMatcherDeriverTest.php	dd7d4a7c7365187dd7f3152eb99caa56
+M	tests/src/Kernel/LinkitAutocompleteTest.php	68435fc372df30cf0ca9e838f96de233
+M	tests/src/Kernel/LinkitEditorLinkDialogTest.php	c56ddc49ce251cdaa03b83c630be45aa
+D	tests/src/Kernel/Matchers/AssertResultUriTrait.php	
+M	tests/src/Kernel/Matchers/FileMatcherTest.php	a6a475586398874b19d290bbbeadeeb9
+M	tests/src/Kernel/Matchers/NodeMatcherTest.php	aaf4431aea989eda9da8eedb97270cfc
+M	tests/src/Kernel/Matchers/TermMatcherTest.php	704c0633465fc9d8305fcb826f1712df
+M	tests/src/Kernel/Matchers/UserMatcherTest.php	1d390df5a6dab15b2e841668ab40bbff
+A	tests/src/Kernel/SubstitutionPluginTest.php	6b83e4401df695d20ac57bc71a7f9191

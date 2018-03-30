@@ -1,0 +1,3 @@
+M	acquia_purge.info.yml	0241d6b43c5869e79c582f5ab5959412
+M	src/Plugin/Purge/DiagnosticCheck/AcquiaPurgeCheck.php	c98d0169ffe9376929051574862abb5a
+M	src/Plugin/Purge/DiagnosticCheck/BetaProgramCheck.php	cd7d357f8db6a87c7aae55a59ed74a33

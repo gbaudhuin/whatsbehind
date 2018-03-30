@@ -1,0 +1,11 @@
+M	CHANGELOG.txt	168eb5e9bdb2c43d62fe5de2ec25eafa
+M	includes/bootstrap.inc	2f4758b0ef4d62e9a365df58652940eb
+M	includes/common.inc	0aa56dfdbe9c6b0ed62d8e509ae0629f
+M	includes/file.inc	e4a59b4bef59ce7bace7ce0d341e8752
+M	includes/form.inc	72aa5e8d8b78b559191e46b0bb955e46
+M	install.php	a51c02b8e14acaab38e863613847ba9c
+M	modules/openid/openid.inc	13f046cc23bc3a56f6ea7e5cd2ff2272
+M	modules/system/system.install	6363610e4dc3085e2331c4152fe02d08
+M	modules/system/system.module	21a9dcaed669e2ddedfd7c9deee08796
+M	modules/user/user.module	6ac00457ff73f46dbcf0dc8c3b4d4f09
+M	update.php	e3b7f74edd012de4a9378821ec4dc5e9

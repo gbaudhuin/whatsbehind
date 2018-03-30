@@ -1,0 +1,8 @@
+M	i18n_panels/i18n_panels.info	27d550537343570e15aec295d31ec6e4
+M	panels.info.yml	bd82577ecbb793d7d0a713f1b609c602
+M	panels_ipe/panels_ipe.info	cc6b9da589c52ba8f71aad7cd6ec5593
+M	panels_mini/panels_mini.info	54639578560708220e4a2c7accb0abca
+M	panels_node/panels_node.info	7264244882bc974374d8888250485e92
+M	src/Plugin/DisplayVariant/PanelsDisplayVariant.php	4fb0337c0288f61ac54be1c06d9aadd8
+A	src/Tests/PanelsTest.php	129b24b6a440f3fce4dd4e3d75372d6e
+A	tests/modules/panels_test/panels_test.info.yml	c5ad5f737793af6934bdcb516eda0110

@@ -1,0 +1,7 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	d13616f042080a0a5fac6be5022f6b5a
+A	block_class.info.yml	c1a8308f2643502464587a07e5223a40
+A	block_class.module	80e03255cb4d65d305b9d7ae7f1e97e1
+A	block_class.permissions.yml	5be593af145107c64f50989469d5402b
+A	config/schema/block_class.schema.yml	cc76b9abbfac6bcd0f0c7e48760e6e5a
+A	src/Tests/BlockClassTest.php	acd45e2a338a02751d4c9b534026c696

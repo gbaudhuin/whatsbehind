@@ -1,0 +1,12 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	geocoder.admin.inc	7db128b4617abbc7349ca3a227d58e50
+A	geocoder.admin.js	7f2f66ae2ffa7bc92130cb281be77051
+A	geocoder.info	c44f6d2fcf6a70f959d45a97b39a0f4d
+A	geocoder.module	6c8ffeed5e44545d0b4c2f13ab2d4230
+A	plugins/geocoder_handler/exif.inc	a5cf5a65d0851cd75596b1de43d7065b
+A	plugins/geocoder_handler/google.inc	8a68db602b9185f90e6c17454de48b53
+A	plugins/geocoder_handler/gpx.inc	88138c7b3260fe64436bcbe264e75e27
+A	plugins/geocoder_handler/json.inc	f24398b65b939a17d32a5314019efe75
+A	plugins/geocoder_handler/kml.inc	585654e47ad0deafd4ee9b2a6cf66529
+A	plugins/geocoder_handler/wkt.inc	c66f37074a682d2a2861e85b6bb8a0ed
+A	plugins/geocoder_handler/yahoo.inc	6412534f0447672dcac626d94c220ba9

@@ -1,0 +1,8 @@
+A	CHANGELOG.txt	b6e9ee16d30340fb8d7e8fef6eb747b0
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.html	6e39fd1544f5d096a92d537a5f9e88d3
+A	README.txt	b9bd0286d7316968660cb97f65e26dc5
+A	config/schema/slick_paragraphs.schema.yml	0b71e0a2d78fbe390fa19889534d6634
+A	slick_paragraphs.info.yml	68beb0548efa469aa0c402226bc4b32b
+A	slick_paragraphs.module	dc8689bae9191a692481480649e78209
+A	src/Plugin/Field/FieldFormatter/SlickParagraphsFormatter.php	795915d8107ef2b66d992ee95522e7bc

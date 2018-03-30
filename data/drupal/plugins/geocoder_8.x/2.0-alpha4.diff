@@ -1,0 +1,104 @@
+M	README.md	f77bb8e9ee2bacf9152e336e265f1739
+D	config/install/geocoder.config.yml	
+A	config/install/geocoder.settings.yml	2505d806083a94453d40716483f208de
+A	config/schema/geocoder.schema.yml	49f71f65f350b5ac02b031da28cbb600
+M	geocoder.info.yml	099f7944923926b05d9eefe764f92ecd
+D	geocoder.install	
+A	geocoder.links.menu.yml	6ddd03280c147f212a98f852cf51914b
+A	geocoder.routing.yml	39a2de4a494fdd5e77aae48caa7faa3b
+M	geocoder.services.yml	6648d8dbabca9158cd3113fbe95860b6
+M	modules/geocoder_address/geocoder_address.info.yml	bebde5447f810d1c2ebffcbd66d03211
+D	modules/geocoder_address/geocoder_address.services.yml	
+D	modules/geocoder_address/src/Geocoder/Dumper/AddressText.php	
+M	modules/geocoder_address/src/Plugin/Field/FieldFormatter/AddressGeocodeFormatter.php	2601861b5adfca0f0a65db3305b32dd9
+D	modules/geocoder_address/src/Plugin/Field/FieldWidget/AddressGeocodeWidget.php	
+D	modules/geocoder_address/src/Plugin/Geocoder/DataPrepare/Address.php	
+M	modules/geocoder_address/src/Plugin/Geocoder/Dumper/AddressText.php	5bcc1e3040a21b1973b6ec793c8a12e4
+A	modules/geocoder_address/src/Plugin/Geocoder/Preprocessor/Address.php	0b4210ef7b948750498f140500cf3dbd
+A	modules/geocoder_field/config/schema/geocoder_field.schema.yml	dada9e23790e3eba116a339af1d0e301
+M	modules/geocoder_field/geocoder_field.info.yml	62bc2a77c0a4a4b41c6c4869d810e709
+M	modules/geocoder_field/geocoder_field.module	f74671db8cd619c47dbcfd06b6927d6f
+A	modules/geocoder_field/geocoder_field.services.yml	a46466b3a190d245561a43dd01b77426
+A	modules/geocoder_field/src/Annotation/GeocoderField.php	f242d239277f1587895633271e09a8d2
+A	modules/geocoder_field/src/Annotation/GeocoderPreprocessor.php	dd64c30e1db638b8b50fc3e3a042f671
+A	modules/geocoder_field/src/GeocoderFieldPluginInterface.php	134125ace39bf527af020e37afb32f29
+A	modules/geocoder_field/src/GeocoderFieldPluginManager.php	42341d5a3340f8bf86763d51089502d0
+D	modules/geocoder_field/src/Plugin/Field/FieldWidget/GeocodeFromWidget.php	
+D	modules/geocoder_field/src/Plugin/Field/FieldWidget/ReverseGeocodeFromWidget.php	
+M	modules/geocoder_field/src/Plugin/Field/GeocodeFormatterBase.php	8cea89f1f41e4914db0b901076736573
+D	modules/geocoder_field/src/Plugin/Field/GeocodeFromWidgetBase.php	
+D	modules/geocoder_field/src/Plugin/Field/GeocodeWidgetBase.php	
+D	modules/geocoder_field/src/Plugin/Field/ReverseGeocodeFromWidgetBase.php	
+D	modules/geocoder_field/src/Plugin/Geocoder/DataPrepare/File.php	
+D	modules/geocoder_field/src/Plugin/Geocoder/DataPrepare/Text.php	
+A	modules/geocoder_field/src/Plugin/Geocoder/Field/DefaultField.php	ba96e80811decf0f69e877e20944376d
+A	modules/geocoder_field/src/Plugin/Geocoder/Preprocessor/File.php	bad8dfd4cd35ef2a9ef599524e48bd41
+A	modules/geocoder_field/src/Plugin/Geocoder/Preprocessor/Text.php	766b63b403a46b93b07c3a55736b4866
+A	modules/geocoder_field/src/PreprocessorBase.php	aacfc5c151e9592ddd550e0052f35313
+A	modules/geocoder_field/src/PreprocessorInterface.php	1e2be926e00da21690752a8df50280c7
+A	modules/geocoder_field/src/PreprocessorPluginManager.php	b41c18a28195ec3d0621d84f63ab8344
+M	modules/geocoder_geofield/geocoder_geofield.info.yml	c94d8afeb509f0fdfd561194af7aa63b
+D	modules/geocoder_geofield/geocoder_geofield.module	
+D	modules/geocoder_geofield/geocoder_geofield.services.yml	
+M	modules/geocoder_geofield/src/Geocoder/Dumper/Geohash.php	ed1d0d271729a4038d210c8a6cb50402
+M	modules/geocoder_geofield/src/Geocoder/Dumper/Geometry.php	98f27daf9de3e1da85ff08e4ce2c9044
+M	modules/geocoder_geofield/src/Plugin/Field/FieldFormatter/ReverseGeocodeGeofieldFormatter.php	f89187302307bb1aa5c572e2aa83f429
+D	modules/geocoder_geofield/src/Plugin/Field/FieldWidget/GeofieldFromWidget.php	
+D	modules/geocoder_geofield/src/Plugin/Field/FieldWidget/ReverseGeofieldFromWidget.php	
+M	modules/geocoder_geofield/src/Plugin/Geocoder/Dumper/Geohash.php	5bc6de05dfc922b51d4eb654dc974fae
+M	modules/geocoder_geofield/src/Plugin/Geocoder/Dumper/Geometry.php	1db9a31e3a3c9a1f086000bf06aeb656
+A	modules/geocoder_geofield/src/Plugin/Geocoder/Field/GeofieldField.php	95af2f641410a72e362c3df97eb4a079
+A	modules/geocoder_geofield/src/Plugin/Geocoder/Preprocessor/Geofield.php	b11c6200790c6ec01032418e182d5073
+A	modules/geocoder_geofield/tests/modules/geocoder_geofield_test/geocoder_geofield_test.info.yml	2471982a8f186fb6496a2a2d30669ab4
+A	modules/geocoder_geofield/tests/modules/geocoder_geofield_test/src/Plugin/Geocoder/Provider/TestProvider.php	76ff4e59ae738246163a1aa00106808b
+A	modules/geocoder_geofield/tests/src/Kernel/GeocoderGeofieldIntegrationTest.php	451834e48d58a17f11dc654ab0452625
+A	phpunit.xml.dist	738268b6fee967000d2a330d0c3861a7
+A	src/Annotation/GeocoderDumper.php	4fc5966828bafbb3422569eadab29896
+D	src/Annotation/GeocoderPlugin.php	
+A	src/Annotation/GeocoderPluginBase.php	8e57957c761423cb30400660911be583
+A	src/Annotation/GeocoderProvider.php	4c57e6c75f767e1d76de0afed25cb17a
+A	src/DumperBase.php	1472fff0b4f3180f2f1ab1f4df84e381
+A	src/DumperInterface.php	4083cf8bcc093950ed615f8416987706
+A	src/DumperPluginManager.php	0897bde279cbd9f3a423c70d47f98298
+A	src/Form/SettingsForm.php	c4d65f3f90643e1949950d99bca37499
+M	src/Geocoder.php	751fa182ff01664cd1f3eb98dded056e
+M	src/Geocoder/Provider/File.php	7a6b198af601f0c8668e942c3975a3c3
+A	src/GeocoderInterface.php	06fe05153230ec349a90da120b1e0817
+A	src/GeocoderPluginManagerBase.php	46383adc8d776659308f92f7891d4150
+D	src/Plugin/Geocoder/DataPrepareInterface.php	
+M	src/Plugin/Geocoder/Dumper/GeoJson.php	31cfd4b4a8fab8bd2ed1ea6625129077
+D	src/Plugin/Geocoder/Dumper/Geometry.php	
+M	src/Plugin/Geocoder/Dumper/Gpx.php	85adb646568f30b856b5851be73b9dc8
+M	src/Plugin/Geocoder/Dumper/Kml.php	f7ce3bc9dca5966069946aa642fb7dad
+M	src/Plugin/Geocoder/Dumper/Wkb.php	1521d76c4d50eb8f05b8804314eef436
+M	src/Plugin/Geocoder/Dumper/Wkt.php	b52a49165884ae41914645e1331b54a6
+D	src/Plugin/Geocoder/DumperBase.php	
+D	src/Plugin/Geocoder/DumperInterface.php	
+M	src/Plugin/Geocoder/Provider/ArcGISOnline.php	2cc44d266eb8a3b061962439a6433978
+M	src/Plugin/Geocoder/Provider/BingMaps.php	f281363a2c24c03ad3b5a2e5710949c1
+M	src/Plugin/Geocoder/Provider/File.php	39726596e6aaa8bb6ac150c61501bfc6
+M	src/Plugin/Geocoder/Provider/FreeGeoIp.php	c4ecc297d1d96544a2ba787995bfd751
+M	src/Plugin/Geocoder/Provider/GeoPlugin.php	fb8915b379f61e09667d20bfff12e64d
+M	src/Plugin/Geocoder/Provider/Geoip.php	149d61f7169ab93d189259b5f29ce38a
+M	src/Plugin/Geocoder/Provider/Geonames.php	b7d95dc12b99f07707a39aee1bc0980b
+M	src/Plugin/Geocoder/Provider/GoogleMaps.php	d75e57818a72c70cc593d997f97e6398
+M	src/Plugin/Geocoder/Provider/HostIp.php	392ef913c4ebcf4f5e6ac3cd5b70f0fe
+M	src/Plugin/Geocoder/Provider/IpInfoDb.php	fd3efd060c5815dc237bf59b64b7abe3
+M	src/Plugin/Geocoder/Provider/MapQuest.php	4627f6d6085f9d55a115c9f392245837
+M	src/Plugin/Geocoder/Provider/MaxMind.php	33685ba931effe7977c4c4612abd1890
+M	src/Plugin/Geocoder/Provider/Nominatim.php	81d9ef65499caf02aca2d59ad52bced3
+M	src/Plugin/Geocoder/Provider/OpenCage.php	00d47a541085174eca40f2ba6ce429f0
+M	src/Plugin/Geocoder/Provider/OpenStreetMap.php	780223d3d317951a47b938a7530e4835
+M	src/Plugin/Geocoder/Provider/Random.php	f1bf1cca43cb1640e73a3b1a85d3068c
+M	src/Plugin/Geocoder/Provider/TomTom.php	ebdab82c755a262ec4c91d174c5fa4ba
+M	src/Plugin/Geocoder/Provider/Yandex.php	5850357bcb4bda36e4dd37ca542b47e6
+D	src/Plugin/Geocoder/ProviderBase.php	
+D	src/Plugin/Geocoder/ProviderInterface.php	
+D	src/Plugin/GeocoderPluginBase.php	
+D	src/Plugin/GeocoderPluginInterface.php	
+D	src/Plugin/GeocoderPluginManager.php	
+A	src/ProviderBase.php	56c122a1b981928d2f6912ae0183e786
+A	src/ProviderInterface.php	368ff4a6c56278606d6199e067cffcde
+A	src/ProviderPluginManager.php	3838b8b2a01ed75bd77a60dd418c9e61
+A	src/ProviderUsingHandlerBase.php	ab8d88d17be61eabf9206c216a3f7b64
+A	src/ProviderUsingHandlerWithAdapterBase.php	9b69b7609ff050b7aad5cbd299567712

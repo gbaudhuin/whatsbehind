@@ -1,0 +1,9 @@
+M	acquia_connector.info.yml	ec46f487355f6c4f7e3dd59873141662
+M	acquia_connector.install	d7fa0e09586dacae43430c48e54681cb
+M	acquia_connector.module	faf894f0caf0fe5801aa610b76d95a9a
+M	acquia_search/acquia_search.info.yml	2b7557b0c461811eda3782411dbef2c7
+M	acquia_search/tests/modules/acquia_search_test/acquia_search_test.info.yml	4811a3cf8b005b9462b892660e535fce
+M	src/Controller/SpiController.php	fd04785b08f28455b9cdc0428424bbc2
+M	src/Form/CredentialForm.php	5196a7b25912da79f07d6793864bd0c4
+M	src/Tests/AcquiaConnectorModuleTest.php	549facc286a91e97a27a16b38d7e3268
+M	tests/modules/acquia_connector_test.info.yml	b3134a4730be2659013759145db81be4

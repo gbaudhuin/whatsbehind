@@ -1,0 +1,4 @@
+M	config/schema/views_data_export.views.schema.yml	dc74dcc98101542b845ba223abed1be3
+M	src/Plugin/views/display/DataExport.php	58e61f3c6edeff4ae101044086fe6eee
+M	tests/modules/views_data_export_test/views_data_export_test.info.yml	1bd6121c77e0d1544b2f1c9928ded589
+M	views_data_export.info.yml	6e9433e1564c82f2557ca78737eb51da

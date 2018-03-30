@@ -1,0 +1,22 @@
+A	addressfield.api.php	a0a8062a656ae5b2bb9cd097827ee41e
+A	addressfield.css	f2a39eec599d72e878d987d7fca39dd8
+A	addressfield.feeds.inc	5a5ee4ba84a5ceeb09c4449dc6b07d99
+M	addressfield.info	48ca9e0354df4d4fb6a65a1b716295c4
+A	addressfield.install	28cabd6f415548ebd8e66ceb5e04b63e
+M	addressfield.module	0741b03d1f3e6ed2d8722f5c07429c10
+D	includes/addressfield_form.inc	
+D	includes/addressfield_form_br.inc	
+D	includes/addressfield_form_default.inc	
+D	includes/addressfield_form_gb.inc	
+D	includes/addressfield_form_it.inc	
+D	includes/addressfield_form_us.inc	
+A	plugins/format/address.inc	2390c17bf8f20fb30eab17d8917e5696
+A	plugins/format/name-full.inc	e320955dfaf4ad06698ceb6ed56de7be
+A	plugins/format/name-oneline.inc	9db030b6791d876be1ee1c1cb2b13f26
+A	plugins/format/organisation.inc	ef8e36790132bb28a0c0473a9333327f
+D	theme/addressfield-formatter--BR.tpl.php	
+D	theme/addressfield-formatter--GB.tpl.php	
+D	theme/addressfield-formatter--US.tpl.php	
+D	theme/addressfield-formatter.tpl.php	
+A	views/addressfield.views.inc	899409430c0182335695c05fd2bd8ede
+A	views/addressfield_views_handler_filter_country.inc	39e49eb748966b727787d93a905204a2

@@ -1,0 +1,10 @@
+M	README.txt	52c5404dbfb3fdb0cc1d71290f444548
+M	colorbox.admin.inc	6c43a856a6ec32f8021b7b5df8c8687f
+M	colorbox.info	229b3517fafced525edd3f7a27eeeb53
+M	colorbox.module	9456e609cba954f2ec157c7c2f5b423e
+M	drush/colorbox.drush.inc	cf81f77e7d630e9990dfdeae41830b32
+D	js/colorbox_image_module.js	
+M	styles/default/colorbox_style.css	9680ffb23802f41ef55125934828dbbb
+M	styles/plain/colorbox_style.css	79b01864facaed8ae4ca0bc4085c8284
+M	styles/plain/colorbox_style.js	0ef0cf67938cc82c0b748a40022cb850
+M	styles/stockholmsyndrome/colorbox_style.css	a9736f7cb714b05fe6d229926335c1f7

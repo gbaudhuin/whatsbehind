@@ -1,0 +1,13 @@
+M	CHANGELOG.txt	d9d8b2d0e55ec5e3871de95feafe8dbc
+M	shortcode.info	ec66eb0e92b4fc937997966927604cb0
+M	shortcode.module	575463a3650fa4a55da4ebc159d8d5f1
+M	shortcode_basic_tags/shortcode_basic_tags.info	3cc601f5a1853165e30d125edf9b38c5
+M	shortcode_basic_tags/shortcode_basic_tags.module	e8ab078944d8976a2632de46cbbdbc1d
+M	shortcode_embed_content/shortcode_embed_content.info	285c83e0e923cc32d101454cc6c44071
+M	shortcode_video/shortcode_video.info	3cec637c1dbf3e721f4d9be3d74a1bf7
+D	shortcode_wysiwyg/plugins/shortcode_wysiwyg.inc	
+D	shortcode_wysiwyg/plugins/shortcode_wysiwyg/images/insert.png	
+D	shortcode_wysiwyg/plugins/shortcode_wysiwyg/shortcode_wysiwyg.css	
+D	shortcode_wysiwyg/plugins/shortcode_wysiwyg/shortcode_wysiwyg.js	
+D	shortcode_wysiwyg/shortcode_wysiwyg.info	
+D	shortcode_wysiwyg/shortcode_wysiwyg.module	

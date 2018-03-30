@@ -1,0 +1,9 @@
+M	auth/services_oauth/services_oauth.info	4988794f2f40b3d2ca080d1f4391b7ab
+M	docs/services.services.api.php	4a3ba08e560574d3a3ebec427739c3f2
+M	includes/services.runtime.inc	de2b533ba85e6b65dda5efeebc460227
+M	servers/rest_server/rest_server.info	14b1f4cf6796795cd696e91f60e58903
+M	servers/xmlrpc_server/xmlrpc_server.info	3d2cb1854beb35e909fc941b655cd7b8
+M	services.info	f1852d0623d61d39d837ec352fc13553
+M	services.make	73cc0ef5066e5e5cf94b84135dd5f719
+M	services.module	b18da2ddf3c8c1a59f5ec1075e4ed064
+M	tests/services_test_resource/services_test_resource.info	b0d27741fc450484a8004411016258c6

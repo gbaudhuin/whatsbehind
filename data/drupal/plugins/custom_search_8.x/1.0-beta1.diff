@@ -1,0 +1,4 @@
+M	custom_search.info.yml	932c632b6898678fe8ba080a2203f35c
+M	custom_search.pages.inc	5e6a7c0c5166c538b934b9f68a4b695c
+M	src/Form/CustomSearchBlockForm.php	c67da7bdf1875e0961346a3abe5b8f2e
+M	src/Plugin/Block/CustomSearchBlock.php	3bd70d2083a33d11cf59921f8d6c432c

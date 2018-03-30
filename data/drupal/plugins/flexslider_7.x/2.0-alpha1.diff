@@ -1,0 +1,51 @@
+M	README.txt	35c469ae67a9bbfa202b0dd43c38e6b0
+M	assets/css/flexslider_img.css	b97d2015396ab72a96cd7793a3cda2db
+A	assets/images/flexslider-sample-1.JPG	41a683972de449468b4a42f2c306797f
+A	assets/images/flexslider-sample-2.JPG	c0290d338267b069db7de8c3c6de31e2
+A	assets/images/flexslider-sample-3.JPG	e9a86e54097a87953da493e803b62b56
+A	assets/images/flexslider-sample-4.JPG	caf5f76670930ae31e038dde4ddbeaab
+M	assets/js/flexslider.load.js	cf6bed14cdb0661f86dc341f28a10ff3
+A	flexslider-logo.png	413c183265ffb31bad3c25c3b6864aa9
+M	flexslider.admin.inc	29ecf322c68e975133579b1b4d4c4927
+M	flexslider.api.php	3b0084b2021ef81a4cfb1059160cf9fd
+M	flexslider.flexslider_default_preset.inc	9893b7247db334cfe4d1fd4a1c6df63b
+M	flexslider.info	108a11501cbdf2347fd245c99393c69e
+M	flexslider.install	12e195b6b05a1040b591a4d1665529ff
+D	flexslider.make	
+A	flexslider.make.example	4c82a80b59cfd6a4d5aa4b6ff2462212
+M	flexslider.module	2e737c9a69a355ba6adb2b8481c2e494
+M	flexslider.test	659d53957303892f00172710db8018e2
+A	flexslider_example/README.txt	fdc1d74dd5b8abb550bc6b863cb8f2ac
+A	flexslider_example/flexslider_example.context.inc	d28aec0b8e9884bb8f29b7b560a877f6
+A	flexslider_example/flexslider_example.features.field.inc	73094bc129569974c9a7ed84287d3cc3
+A	flexslider_example/flexslider_example.features.inc	56ba5af6b6f677faf3a56fd3a10c32fb
+A	flexslider_example/flexslider_example.features.menu_custom.inc	cb2bf4bd16cbb1c489a545e7b79e5a41
+A	flexslider_example/flexslider_example.flexslider_default_preset.inc	8be0abc7dc69bc3e5ac45cefc042eb1e
+A	flexslider_example/flexslider_example.info	34c06d77a5a695353538d3d1807216ec
+A	flexslider_example/flexslider_example.install	91aebeaa45da96e20325632e8e141cc8
+A	flexslider_example/flexslider_example.module	611b9d2719eb8972aac85fa2a330ceae
+A	flexslider_example/flexslider_example.strongarm.inc	32651494d52334a4ff9a726ae25da4b9
+A	flexslider_example/flexslider_example.views_default.inc	f9a9a6c02e9f5a6c02ea7ce5d232f074
+M	flexslider_fields/README.txt	44d820ebeca2ba8c119499ca449b2187
+M	flexslider_fields/flexslider_fields.info	a3104843d4479e6196b58fde46939888
+M	flexslider_fields/flexslider_fields.module	9faf94f4f87a0051b92f91855d692018
+M	flexslider_views/README.txt	89b3ae03d3075953f1007b0e5358cf2d
+M	flexslider_views/flexslider_views.info	55f72824fa98b087b3d47f87bf91d702
+M	flexslider_views/flexslider_views.module	186451842332b7cdba82d64d397158a9
+M	flexslider_views/flexslider_views.views.inc	9952b470ec8f732ade8ebfa2652fa3f5
+M	flexslider_views/flexslider_views_plugin_style_flexslider.inc	ddcdffebef0941d9b2d7e85a82aef74d
+M	flexslider_views/theme/flexslider_views.theme.inc	e8191ff0d047a4e00b157cdb25cd5e5e
+D	flexslider_views_slideshow/README.txt	
+D	flexslider_views_slideshow/flexslider_views_slideshow.info	
+D	flexslider_views_slideshow/flexslider_views_slideshow.module	
+D	flexslider_views_slideshow/flexslider_views_slideshow.views_slideshow.inc	
+D	flexslider_views_slideshow/js/flexslider_views_slideshow.js	
+D	flexslider_views_slideshow/theme/flexslider-views-slideshow-main-frame-row-item.tpl.php	
+D	flexslider_views_slideshow/theme/flexslider-views-slideshow-main-frame-row.tpl.php	
+D	flexslider_views_slideshow/theme/flexslider-views-slideshow-main-frame.tpl.php	
+D	flexslider_views_slideshow/theme/flexslider-views-slideshow.tpl.php	
+D	flexslider_views_slideshow/theme/flexslider_views_slideshow.theme.inc	
+A	plugins/export_ui/flexslider_ctools_export_ui.inc	dab8a04ae9ab669c596004e9b8fada0b
+D	theme/flexslider-container.tpl.php	
+M	theme/flexslider.theme.inc	30fd97a33372de451fa1e64ae34b084e
+A	theme/flexslider.tpl.php	eeb2976c597614a04b0233cc9dbb7bbf

@@ -1,0 +1,17 @@
+M	README.txt	0b178014b8cd5ad9ac3d668b9c2d7fa5
+D	actions/fields.action.inc	
+D	actions/rules.action.inc	
+M	actions/script.action.inc	7714e1630a9588e84f1e3e5e1f1390eb
+M	actions_permissions.info	c422c8eb90e13e1b5c0107545aba062f
+M	actions_permissions.module	417debaf4aa28d2d79d971f114e69548
+D	js/fields.action.js	
+A	plugins/operation_types/action.class.php	7975c6b506de20a85fe95c10cca5038b
+A	plugins/operation_types/action.inc	6e2813ed0ce8a0bc8ac88713e1382af0
+A	plugins/operation_types/base.class.php	2bf630cffe03ef6e0d204f385096ee8f
+A	plugins/operation_types/rules_component.class.php	6b03dc639e31ea5c0ce09b9df91b8262
+A	plugins/operation_types/rules_component.inc	751921c225feead517261cc80811b41c
+M	views/views_bulk_operations.views_default.inc	cad7c6d8b088b756cb919307f97cac7e
+M	views/views_bulk_operations_handler_field_operations.inc	d0b6c26fac40eccc62493567957ac755
+M	views_bulk_operations.info	dc87cdf9a5cb6e8f3be8ef2a0b2a2d89
+M	views_bulk_operations.module	7bb77500ae1fda273d317e6178384b31
+A	views_bulk_operations.rules.inc	7b23532b07170f2b940ead529a2c8f38

@@ -1,0 +1,17 @@
+A	README.txt	b26d7767f501a49269e5388b47e83410
+M	ds_bootstrap_layouts.info	ada074b169bdbf238d000cffaf3803dd
+M	ds_bootstrap_layouts.module	5c2f5e38d268dd43be3c7b01ca5408a6
+A	layouts/threecol/bootstrap_2_8_2/bootstrap-2-8-2.tpl.php	0bd77442120fb43cc59e27ce906aa3bc
+A	layouts/threecol/bootstrap_2_8_2/bootstrap_2_8_2.png	bb9791e7cc9440a9352ebdcf60862e40
+A	layouts/threecol/bootstrap_3_6_3/bootstrap-3-6-3.tpl.php	3497e813e4fe9f9eb1388eff3157c218
+A	layouts/threecol/bootstrap_3_6_3/bootstrap_3_6_3.png	433e5577361dec631b2404dfb654a1e6
+A	layouts/threecol/bootstrap_5_5_2/bootstrap-5-5-2.tpl.php	5dd44d152df650b1e0b07a218b9d9d86
+A	layouts/threecol/bootstrap_5_5_2/bootstrap_5_5_2.png	e4ac4d70f57635a760ac9cfa040f92b6
+A	layouts/twocol/bootstrap_3_9/bootstrap-3-9.tpl.php	2efff27fe8cf9513c70cb60221b72ab5
+A	layouts/twocol/bootstrap_3_9/bootstrap_3_9.png	4e84edf428deff58d7919bbbc9537d89
+A	layouts/twocol/bootstrap_4_8/bootstrap-4-8.tpl.php	e1b877009a59236c57f5310b16114a1f
+A	layouts/twocol/bootstrap_4_8/bootstrap_4_8.png	8a901058f61777f2c6913b3880c3c738
+A	layouts/twocol/bootstrap_8_4/bootstrap-8-4.tpl.php	38b71ba9c511d5887296c6a3a5cc1b6d
+A	layouts/twocol/bootstrap_8_4/bootstrap_8_4.png	0173d8a4c583a1ace51ebdc5edb94eff
+A	layouts/twocol/bootstrap_9_3/bootstrap-9-3.tpl.php	3b3b611e1bd7a7809f4a81058c30f85f
+A	layouts/twocol/bootstrap_9_3/bootstrap_9_3.png	f0ef93da11317e855a2c473f707cf855

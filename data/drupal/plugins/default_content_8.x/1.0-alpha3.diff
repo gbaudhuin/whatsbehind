@@ -1,0 +1,22 @@
+M	.travis.yml	d198c707fd45092a4d28508c4183f775
+D	LICENSE	
+M	default_content.info.yml	9c50ed5cab7ee6566b1b324decd332e5
+M	default_content.services.yml	b42642ad47a0d08fa1600e8bf366a32a
+M	drush/default_content.drush.inc	f8ee99bf4bbbfe5fc1b2c998d5ea9321
+M	src/DefaultContentManager.php	a80af23cf7b5e954e66022202fd842e8
+M	src/DefaultContentManagerInterface.php	85f5a9a4e1b42f6ea26c1231f2ae4b5e
+M	src/DefaultContentScanner.php	0bd374f567b3f92d0b254fb23cbc3bc1
+A	src/DefaultContentServiceProvider.php	a247875e4f2d1fefa46248f018f52b09
+A	src/Event/DefaultContentEvents.php	025318f7a3df3d6a9836255a759da662
+A	src/Event/ExportEvent.php	e0ab21445762b38e8942594c8e1c226d
+A	src/Event/ImportEvent.php	2b486f50e79096821df6f2e19f68c512
+D	src/LinkManager/RelationLinkManager.php	
+D	src/LinkManager/TypeLinkManager.php	
+A	src/Normalizer/TermEntityNormalizer.php	1e8227a52d9a86d0e82e02bd35ffc3e5
+D	src/Tests/DefaultContentManagerIntegrationTest.php	
+D	src/Tests/DefaultContentTest.php	
+A	tests/modules/default_content_export_test/default_content_export_test.info.yml	1d1813611d280f0c19bdbbeef1303057
+M	tests/modules/default_content_test/content/node/imported.json	7045c7afd15eca1fa9409e0959af1cf4
+M	tests/modules/default_content_test/default_content_test.info.yml	ce466cbd0246f60c4ad7861ffba3103e
+A	tests/src/Functional/DefaultContentTest.php	7308e7c667530a347b3a75fd699eaf10
+A	tests/src/Kernel/DefaultContentManagerIntegrationTest.php	ece0c7cff46a0beeecda3d4e78a1c858

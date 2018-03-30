@@ -1,0 +1,4 @@
+M	contrib/current_search/current_search.info	37108e8da295e5a8e1fa0bce0427d13e
+M	facetapi.info	6a6de4d941c62ce80967f19ca2ae65f1
+M	plugins/facetapi/adapter.inc	27768c9a801bc9a0d5898f983fe700b5
+M	tests/facetapi_test.info	514f7695481ca4594cb5c0b2c729dbf7

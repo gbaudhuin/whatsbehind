@@ -1,0 +1,8 @@
+M	backup_migrate.info	d1f25e318b4aabf5efb87180e33589b8
+M	backup_migrate.install	370dbda5bd3c9dc45e4da04cb8eda617
+M	backup_migrate.module	912f5d2dd46fd15180ec09412681d903
+D	includes/S3.php	
+M	includes/crud.inc	d63b6a8d0303d0b3376d634c0cb887c0
+M	includes/destinations.file.inc	d3ae6923f5e7e982b3e75b9e22b8fa14
+M	includes/destinations.s3.inc	4eb59657e907d63c2807860fb111bb60
+M	includes/files.inc	f5fc87134b8b11c5c5b78a6e7daa4eec

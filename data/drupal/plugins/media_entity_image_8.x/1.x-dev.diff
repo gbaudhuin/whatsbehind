@@ -1,0 +1,11 @@
+M	DEVELOPING.md	3baec1ea8fd4e3ba8e1cb3a1f9200af4
+M	README.md	779c3e5bbdb6254a5695745c4af24c44
+M	composer.json	9dbbcfe984bbfbb3333c1aeb40619fa4
+M	config/schema/media_entity_image.schema.yml	637d42ad15179a63374ad8f120b42e2f
+M	media_entity_image.info.yml	a5637fdc400f35c3376f8d7f598b8c12
+M	media_entity_image.install	4b704225abc299edb31aa6e610e40e67
+M	media_entity_image.module	2027150be2ee05e7f3dc5debfde4bfee
+M	src/Plugin/EntityBrowser/Widget/Upload.php	05f4ef00c2132817dfa9bf38d5a97f6e
+M	src/Plugin/MediaEntity/Type/Image.php	24907173af52df05910588e98139b12e
+M	tests/modules/media_entity_image_test/config/install/entity_browser.browser.test_entity_browser_for_images.yml	893f0007653270159ecde03b717078df
+M	tests/modules/media_entity_image_test/media_entity_image_test.info.yml	5adfae1c48db8bdefe55d7a7fb808367

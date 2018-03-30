@@ -1,0 +1,10 @@
+M	README.txt	ffd159cc0b74b0d4b3b61c8f18f2d6a9
+D	images/profile_default.jpg	
+A	images/profile_default.png	7f7895e5f3c319e6e8ab3be8da6a3109
+M	views/workbench_current_user.view.inc	e17e3b7c2302ce55962a880afa26f1b6
+M	views/workbench_edited.view.inc	25fa0f780b6d7575fce346ce76c77859
+M	views/workbench_recent_content.view.inc	ec77a8933289e394a66a14e952720a81
+M	workbench.info	abc6e3c74c56bee7bee48cdfeb0f22ec
+M	workbench.module	fea3f3e4ba3b1e7e96efc246b5861557
+M	workbench.pages.inc	8ff0247ea75ba2b25708deaea3355df3
+M	workbench.theme.inc	b8ee70d503b6322c8dd8a26a2f3dc27f

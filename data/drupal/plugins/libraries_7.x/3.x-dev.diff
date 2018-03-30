@@ -1,0 +1,20 @@
+M	CHANGELOG.txt	8564f0685eb1d3ab79bbfa2d0ce42d9a
+M	README.txt	77c238e12c732c0643f46bb3bf7b5d32
+D	css/libraries.admin.css	
+D	libraries.admin.inc	
+M	libraries.api.php	bf221904259f5f26bf4f14237908ac2c
+M	libraries.drush.inc	5dd14de1ba3156bb31f87752401e8ebf
+M	libraries.info	0d8a979a2997dbaff4c73c9e614118ec
+M	libraries.install	bbcfe590bc88528e2eb2f45022d752dd
+M	libraries.module	2caa848e5ee7929add35102580beba1c
+D	libraries.theme.inc	
+D	tests/LibrariesAdminWebTest.test	
+D	tests/LibrariesLoadWebTest.test	
+D	tests/LibrariesUnitTest.test	
+D	tests/LibrariesWebTestBase.test	
+A	tests/libraries.test	1bc460f587ed41b02b48f2d1867b5c49
+M	tests/libraries/example_info_file.libraries.info	7da90756343d04813b8b000f67712f4e
+M	tests/modules/libraries_test_module/libraries_test_module.info	a8010ee07383dd190a7b287d30b946e4
+M	tests/modules/libraries_test_module/libraries_test_module.module	3f268cb8d8f0b4741467c8607d60fea5
+D	tests/modules/libraries_test_module/libraries_test_module_post_load.inc	
+M	tests/themes/libraries_test_theme/libraries_test_theme.info	d2af9b6c2fcb6ef3641cd5b541f8f82d

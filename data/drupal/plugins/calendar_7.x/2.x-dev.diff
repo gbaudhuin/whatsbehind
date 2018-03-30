@@ -1,0 +1,14 @@
+M	CHANGELOG.txt	cae911a31eb5d3fdd9d37015788401f4
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	calendar.info	2d0c2d8be8cf7106094480d87a1f0a4d
+M	calendar.module	78352c5ad4a0f7fef1cfd2a93435c86c
+M	calendar_ical/calendar_ical.info	9877b374853f305b5d0e9546f10db8f5
+M	calendar_ical/calendar_ical.views.inc	aa9554a0ce5ed24863b302b43beade16
+M	calendar_ical/calendar_plugin_style_ical.inc	dd28e8d4dd82e677699236aea48c83f4
+M	calendar_multiday/calendar_multiday.info	1f3af1821f4e8c7353917ab82afbdc46
+M	calendar_multiday/includes/calendar.inc	525229fecb1aac1617689ce617415bec
+M	calendar_multiday/theme/theme.inc	97a4c323dd7671d4b886cf04ba8342f2
+M	includes/calendar.views.inc	2758759b722933d2be46dc4142106a7c
+M	includes/calendar_plugin_style.inc	3010b3bddbec3abd732bb09ae4c74453
+M	includes/calendar_view_plugin_style.inc	090a895312883f7ed8cb97155e56a8b5
+M	theme/theme.inc	91c2644009faeefb0dc00e251806c675

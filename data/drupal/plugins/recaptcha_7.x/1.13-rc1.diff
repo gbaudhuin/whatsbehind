@@ -1,0 +1,12 @@
+M	recaptcha.info	b290022c0f7b54f687667903ce092016
+M	recaptcha.install	90d2c9beb6a611f0cbaddca4dc4c2119
+M	recaptcha.js	1f0d31dceb25e35f61613a8b917b7892
+M	recaptcha.module	713231a943f2fef9d9b4c0af3f18b857
+D	recaptcha_mailhide.info	
+D	recaptcha_mailhide.module	
+A	recaptcha_mailhide/recaptcha_mailhide.info	7779db555fe61674e494d36476ae2cce
+A	recaptcha_mailhide/recaptcha_mailhide.install	3e7cbd087bf5446a88c0753f9ac9d6e4
+A	recaptcha_mailhide/recaptcha_mailhide.module	9ff981b9f2ae7ac1b7535e48148d6e08
+M	tests/recaptcha_base.test	cee74c4a8b5fe642743c326c4d74f3c4
+M	tests/recaptcha_server_status.test	ca549384bcd31e964b5da20687982804
+M	tests/recaptcha_ui.test	b5ae30f36bc718c35a55597678694792

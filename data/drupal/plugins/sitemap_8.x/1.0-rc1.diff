@@ -1,0 +1,13 @@
+M	config/install/sitemap.settings.yml	45ef58c18fdc3c74b62e780d83ba0891
+M	config/schema/sitemap.schema.yml	16cd224beaafd428b1e68c98861d47b5
+A	sitemap.config_translation.yml	1fec29c0d42cb391f5b5196907502e43
+M	sitemap.info.yml	faff09f19337179ee79f7381613dca1b
+M	sitemap.module	ff31179f7e4ee62f15ada3a2490578ac
+M	sitemap.theme.inc	22e37d74541fd47c81dd2bda2c38ecb3
+M	src/Form/SitemapSettingsForm.php	8636bf60dd9b3452009386dd134c65fe
+M	src/SitemapHelper.php	6d9d254aad74c42e522ec03c43081008
+M	src/Tests/SitemapBookTest.php	ce4326febf1cbea5c9739da043ebe2bc
+M	src/Tests/SitemapContentTest.php	ecdbf7d7ed7164cde5273d148369ffec
+M	src/Tests/SitemapCssTest.php	5d2abad0a15aff298f1b4084c64b8a5f
+M	src/Tests/SitemapRssTest.php	cd2be665de05f8f64f37bc46c62ed4ce
+M	src/Tests/SitemapTestBase.php	e95d872c85a7dee4b8448b7cf648da7b

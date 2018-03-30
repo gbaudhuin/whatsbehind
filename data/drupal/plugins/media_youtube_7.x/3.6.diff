@@ -1,0 +1,6 @@
+M	includes/MediaInternetYouTubeHandler.inc	d8141971751c8625b721543f929a4a76
+M	includes/media_youtube.formatters.inc	3756451a42e6208ac0e2c85ed600d739
+M	media_youtube.info	a5e8149176e4c1f7367b8df85c1ae610
+M	tests/media_youtube_test.info	f3d5e9f133efc0adedc2ee5043703936
+M	themes/media-youtube-video.tpl.php	978928ac35e997beadbd8b10697c0e8a
+M	themes/media_youtube.theme.inc	32791714085961d2a4b1937526ea7836

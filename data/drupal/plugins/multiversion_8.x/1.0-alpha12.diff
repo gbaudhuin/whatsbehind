@@ -1,0 +1,17 @@
+M	.travis.yml	47f8e1b43f659a59c15f637f76a1cbdb
+M	.travis/drupal-8.1.x.make.yml	1c4b85f1e5bc1fb2cd720d0dc09c580e
+M	.travis/drupal-8.2.x.make.yml	a4abea488296ad32527e677755fe881c
+A	.travis/drupal-8.3.x.make.yml	a0f94b83492dc0095ffbcf40ba0ccd04
+M	README.md	ce89ce3f8a7503591f3f4d1058cfa0bc
+M	multiversion.info.yml	d07afad9e46aa40b1c5a944c58004867
+M	multiversion.install	aad89f068746de591e93914359e728f0
+M	src/Entity/Storage/Sql/CommentStorageSchema.php	e05aabbbd3e14d2895f06433187a3512
+M	src/Entity/Storage/Sql/ContentEntityStorageSchema.php	eb303b3829d5eb857a90fd4a29b19581
+M	src/Entity/Storage/Sql/FileStorageSchema.php	e99980c0768c0307a225982d5812c8f2
+M	src/Entity/Storage/Sql/NodeStorageSchema.php	51bf9ef9090042f10a14a6adfa221c56
+M	src/Entity/Storage/Sql/TermStorageSchema.php	bf2a278235cd907735628e0c77980f59
+M	src/MultiversionManager.php	4348eb8902b53aa5163734a3c8cc7632
+M	src/Tests/ComplexLcaResolverTest.php	7dae7ad03a90fb22690ddc8fbd532042
+M	src/Tests/GraphCreationTest.php	85576891afd2238d78b4b1210ca9623a
+M	tests/modules/multiversion_test_views/multiversion_test_views.info.yml	a15feee8b72b2dbebf95d21b2ed99b25
+M	tests/src/Functional/ViewsUiTest.php	f3a94051d5b8ffb242160e4ddebbd491

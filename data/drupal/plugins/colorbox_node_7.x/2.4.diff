@@ -1,0 +1,5 @@
+M	colorbox_node.info	bd7e1d2721c4d013a8a94f16027c5fd1
+M	colorbox_node.module	d67b9fbd17e6632cec94335679ddf8c1
+M	views/colorbox_node.views.inc	e8f28af8b41260ad9e1153b28dd93ea6
+M	views/colorbox_node_handler_field_colorbox_node.inc	a228a20ef631beda9d947864bfc60e47
+A	views/colorbox_node_handler_field_colorbox_node_link.inc	d43ac0b478ded518e77aa55f6162aa50

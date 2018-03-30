@@ -1,0 +1,10 @@
+M	tests/external_node_update.test	b05601a3d1d8d897915dfc0cb441a966
+M	tests/workbench_moderation.files.test	6537023da4f793848d8062dcde5c962e
+D	tests/workbench_moderation.perms.test	
+M	tests/workbench_moderation.test	1b27c0927c4ed62c9d8e6612fa70fbbf
+M	tests/workbench_moderation_test.info	677c6cd0f8fea1747c537cc64c9e746a
+M	tests/workbench_moderation_test.module	1d1206f6697b0a5f5dbd0a346af1fc18
+M	workbench_moderation.admin.inc	2e9c1e2291139e44c1d39d991108d206
+M	workbench_moderation.info	5cb3d0280a15c8ff8dcb7e68d11ed042
+M	workbench_moderation.module	920069321ca2337ba00d79f7eef76a3b
+M	workbench_moderation.node.inc	17a705729b89ea2edc4fb3a7da73b4b2

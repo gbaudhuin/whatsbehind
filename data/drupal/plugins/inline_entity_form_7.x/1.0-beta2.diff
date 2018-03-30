@@ -1,0 +1,10 @@
+A	README	f0e82cc72bc9b2b350434419aab349c0
+A	includes/commerce_line_item.inline_entity_form.inc	930e90977aa805a54d8ff0ee2fa559ab
+D	includes/commerce_line_item.type.inc	
+A	includes/commerce_product.inline_entity_form.inc	e436ba5f93430ba86147bcf350157620
+D	includes/commerce_product.type.inc	
+A	includes/entity.inline_entity_form.inc	c4a08198beb8254e4e50cc8e7fddccb5
+M	inline_entity_form.api.php	d9899a7e0a3b679e791d81779d12ce1a
+M	inline_entity_form.info	7fc57709a5a3caeb4a3d3c6a353e3a6e
+A	inline_entity_form.js	b5608684811bfcafecb84d77328e1a81
+M	inline_entity_form.module	ddf7548a959f6b165387d4e4ddba93ae

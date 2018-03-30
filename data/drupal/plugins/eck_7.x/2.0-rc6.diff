@@ -1,0 +1,16 @@
+A	.travis.yml	0e97d72c8aa86a09d3e1e3595fe210ac
+D	composer.json	
+M	eck.entity.inc	b98d322034e23cc213a14758697cb6bc
+M	eck.entity_type.inc	f047adfc49dc46dcc9e956f9d374b172
+M	eck.info	b2aa60e5674b273d997af8868b9f8858
+M	eck.module	1c89abb77827a2396974c72a1b6b5e9e
+M	examples/eck_example.info	00d08ac4ea95e65e5e1d5b50298517a0
+M	modules/eck_entitycache/eck_entitycache.info	c8b35cedea0907e75155fab2f6edd709
+M	modules/eck_services/eck_services.info	7d678eeba4e22d907a8bfa0dfd28814f
+A	plugins/property_behavior/uuid.inc	3de366e35e526d89846af3b17bf240e4
+A	tests/behat/behat.yml.dist	3eece8e81cb4a77450d2d9044b54640a
+A	tests/behat/composer.json	382bef34194a0fa5d193cf37d1953e48
+M	tests/behat/features/CRUD.feature	8461d40be995b93e1035ebf3b194f7b2
+M	tests/behat/features/Permissions.feature	de672b2bde256baffa6caed90fc8fbf1
+M	tests/behat/features/Properties.feature	7d32e97332e9001132edff482aa0ef17
+M	tests/behat/features/bootstrap/FeatureContext.php	9adaa07a2c4e6592f63f8184034df28d

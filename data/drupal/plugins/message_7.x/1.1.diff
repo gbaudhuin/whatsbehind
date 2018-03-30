@@ -1,0 +1,17 @@
+D	.cvsignore	
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	README.txt	33be026e4cc44ee71d0245987700566c
+M	includes/message.views.inc	7ca052a1cf92849ce097b900daa7eea3
+A	includes/message.views_default.inc	bd1d6042356f2c947220eaf0ea4c5087
+M	includes/views/message_handler_field_message_render.inc	8010195b4987e5af5fc81221f67db547
+M	message.admin.inc	f90a1809d9c016c5e1692546ae594082
+M	message.api.php	7b01ac22bd28dda9ec46d176f7647f32
+M	message.info	2172dc385d06277b434ef7e62d6b034e
+M	message.info.inc	deae109778e9b163bbd06fce6001e1b5
+M	message.install	f8d833578cd91f6d5ce0a23518095ca9
+M	message.module	1f6dd24a9904b9d985ebf067e1d542b8
+M	message.test	b1f36ef8ded3f9844a96f3abecefe077
+A	message_example/message_example.features.field.inc	931612f221d1d7a911bcec36b5bfec15
+A	message_example/message_example.features.inc	1094c09c9eebab9a4ba3394d4b06a225
+A	message_example/message_example.info	970c02d39b8dbd161d6bf62f5d6c3aa8
+A	message_example/message_example.module	0fab0d5f4bafd865a2f53ba22771b1f1

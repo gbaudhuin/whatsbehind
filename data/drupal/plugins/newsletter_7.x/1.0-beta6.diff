@@ -1,0 +1,10 @@
+M	includes/newsletter.admin.inc	869f483894ff6d4731ca541ca4f6a29f
+M	includes/newsletter.basic.inc	8097b3b84f478e1aef9f07c7e5cab220
+M	includes/newsletter.functions.inc	b42c14ae1ed6ac63597bc7db2fa707be
+M	includes/newsletter.mail.inc	f1405d3fe7f4bc304afb35413794165b
+M	includes/newsletter.subscriber.controller.inc	175264743ca28c30d33c43c03b2e9096
+M	includes/newsletter.user.inc	8c1af52847e66005d3647c22335c4ffc
+M	newsletter.info	1ac815ee7324f6ee398a3de30144566b
+M	newsletter.install	ae10c5cdb73713785e53bac31e340e10
+M	newsletter.module	8575c37ebeac694374fb1aedb5e78cce
+M	newsletter.test	8a7380e0fd9e4dabd093c6528ba2cb63

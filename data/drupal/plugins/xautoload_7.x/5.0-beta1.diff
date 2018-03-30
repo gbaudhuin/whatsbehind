@@ -1,0 +1,186 @@
+A	README.md	de4490b544da2cd9a33bb929762fc578
+M	legacy/lib/FinderPlugin/CheckIncludePath.php	93a131f5fc5ea42b655090315dfbf4ce
+M	legacy/lib/FinderPlugin/Interface.php	15031595d292f52f7d616dfba2590d94
+M	legacy/lib/InjectedAPI/hookXautoload.php	99193e51b834fb77ac39c4a08c1dc672
+D	lib/Adapter/ClassFinderAdapter.php	
+D	lib/Adapter/ClassFinderAdapterInterface.php	
+D	lib/Adapter/DrupalExtensionAdapter.php	
+D	lib/Adapter/LocalDirectoryAdapter.php	
+D	lib/CacheManager/CacheManager.php	
+D	lib/CacheManager/CacheManagerObserverInterface.php	
+D	lib/ClassFinder/ClassFinder.php	
+D	lib/ClassFinder/ClassFinderInterface.php	
+D	lib/ClassFinder/CommonRegistrationInterface.php	
+D	lib/ClassFinder/ExtendedClassFinderInterface.php	
+D	lib/ClassFinder/GenericPrefixMap.php	
+D	lib/ClassFinder/InjectedApi/AbstractInjectedApi.php	
+D	lib/ClassFinder/InjectedApi/CollectFilesInjectedApi.php	
+D	lib/ClassFinder/InjectedApi/FindFileInjectedApi.php	
+D	lib/ClassFinder/InjectedApi/InjectedApiInterface.php	
+D	lib/ClassFinder/InjectedApi/LoadClassGetFileInjectedApi.php	
+D	lib/ClassFinder/InjectedApi/LoadClassInjectedAPI.php	
+D	lib/ClassFinder/Plugin/DrupalExtensionNamespaceFinderPlugin.php	
+D	lib/ClassFinder/Plugin/DrupalExtensionUnderscoreFinderPlugin.php	
+D	lib/ClassFinder/Plugin/FinderPluginInterface.php	
+D	lib/ClassFinder/Plugin/Psr4FinderPlugin.php	
+D	lib/ClassFinder/ProxyClassFinder.php	
+D	lib/ClassLoader/AbstractCachedClassLoader.php	
+D	lib/ClassLoader/AbstractClassLoader.php	
+D	lib/ClassLoader/AbstractClassLoaderDecorator.php	
+D	lib/ClassLoader/ApcClassLoader.php	
+D	lib/ClassLoader/CacheNotSupportedException.php	
+D	lib/ClassLoader/ClassLoaderInterface.php	
+D	lib/ClassLoader/WinCacheClassLoader.php	
+D	lib/ClassLoader/XCacheClassLoader.php	
+D	lib/DIC/ServiceContainer.php	
+D	lib/DIC/ServiceContainerInterface.php	
+D	lib/DIC/ServiceFactory.php	
+D	lib/DirectoryBehavior/DefaultDirectoryBehavior.php	
+D	lib/DirectoryBehavior/DirectoryBehaviorInterface.php	
+D	lib/DirectoryBehavior/Psr0DirectoryBehavior.php	
+D	lib/Discovery/CachedClassMapGenerator.php	
+D	lib/Discovery/ClassMapGenerator.php	
+D	lib/Discovery/ClassMapGeneratorInterface.php	
+D	lib/Discovery/ComposerDir.php	
+D	lib/Discovery/ComposerJson.php	
+D	lib/Discovery/ComposerJsonTargetDir.php	
+D	lib/Discovery/FileInspector.php	
+D	lib/Discovery/WildcardFileFinder.php	
+M	lib/Drupal/xautoload/Tests/EnvironmentSnapshotMaker.php	f38765a8fd192abb0a773a7acc5962ca
+M	lib/Drupal/xautoload/Tests/XAutoloadUnitTestCase.php	b499e714a2cc35dcc5786b5a48d1c7e9
+M	lib/Drupal/xautoload/Tests/XAutoloadWebTestCase.php	4dfb75ba2a33e3c2d4a133e9ee00cbc0
+D	lib/DrupalSystem/DrupalSystem.php	
+D	lib/DrupalSystem/DrupalSystemInterface.php	
+D	lib/DrupalSystem/MockDrupalSystem.php	
+D	lib/FinderOperation/FinderOperationInterface.php	
+D	lib/FinderOperation/HookXautoloadOperation.php	
+D	lib/FinderOperation/LoaderSetFinderOperation.php	
+D	lib/FinderOperation/RegisterActiveExtensionsOperation.php	
+D	lib/FinderOperation/RegisterExtensionsByInfoOperation.php	
+D	lib/FinderOperation/RegisterExtensionsByNameOperation.php	
+D	lib/Main.php	
+D	lib/Util.php	
+M	phpunit.xml.dist	0bce7d13674c52a3e48388fe3ba58307
+A	src/Adapter/ClassFinderAdapter.php	948af43f671ec87364cf14770930c794
+A	src/Adapter/ClassFinderAdapterInterface.php	9c69b4bbcb7361085c987fb0391c209b
+A	src/Adapter/DrupalExtensionAdapter.php	b78d9824e5b3e7576d9e47e5b80f1cef
+A	src/Adapter/LocalDirectoryAdapter.php	5e6169fbfb94c3e505d1907bc000062c
+A	src/CacheManager/CacheManager.php	9dbc70133beff4c130b5a5c5a7d85f44
+A	src/CacheManager/CacheManagerObserverInterface.php	7a061724f9967dc745723637d1b6ee16
+A	src/CacheMissObserver/CacheMissLoaderSetFinder.php	b287f3db028e7ac26106010384116ec5
+A	src/CacheMissObserver/CacheMissObserverInterface.php	dd8a6d8b8a96a4752226d08e6127570f
+A	src/ClassFinder/ClassFinder.php	0df29db5aa9e74d8ddad92b06f90a71a
+A	src/ClassFinder/ClassFinderInterface.php	820660a86946cafe19454338e90d97ef
+A	src/ClassFinder/CommonRegistrationInterface.php	ce8b311f53cb10d488a1d20b5d105062
+A	src/ClassFinder/ExtendedClassFinderInterface.php	f9bd7f512ae88093d18475176657943a
+A	src/ClassFinder/GenericPrefixMap.php	2aaace6a7945eb306a46aabafb9a26e9
+A	src/ClassFinder/InjectedApi/AbstractInjectedApi.php	fe8b8be02cc7fa3ca460ed1846a67825
+A	src/ClassFinder/InjectedApi/CollectFilesInjectedApi.php	13c30a1d7898c3d0c911756b39c47922
+A	src/ClassFinder/InjectedApi/FindFileInjectedApi.php	8bd9fa7d988ec23f9e7c4889fcdba23c
+A	src/ClassFinder/InjectedApi/InjectedApiInterface.php	0e3d35c5c87cd2b82b81e25c92184d95
+A	src/ClassFinder/InjectedApi/LoadClassGetFileInjectedApi.php	60207c61267cf23b67a82a1a2f2dc821
+A	src/ClassFinder/InjectedApi/LoadClassInjectedAPI.php	b0469ac00f9350ad3619f1b2549e7c21
+A	src/ClassFinder/Plugin/DrupalExtensionNamespaceFinderPlugin.php	6ed0c90267a9166476bc0c48a32dee7b
+A	src/ClassFinder/Plugin/DrupalExtensionUnderscoreFinderPlugin.php	423adcfda7705ef9353a4c4da90f21f0
+A	src/ClassFinder/Plugin/FinderPluginInterface.php	dcec904fbc7a03ccd718217055b9c030
+A	src/ClassFinder/Plugin/Psr4FinderPlugin.php	bcb5d45ef49be550f9631d39b6f74454
+A	src/ClassFinder/ProxyClassFinder.php	b420bbb26c4dbe8bae7c8a759edf3b3a
+A	src/ClassLoader/AbstractCachedClassLoader.php	71eb80527f855fd39db5a81a24f04076
+A	src/ClassLoader/AbstractClassLoader.php	4a582bd04f2646d52c01e20532a6ff35
+A	src/ClassLoader/AbstractClassLoaderDecorator.php	87d886310527483a37ab58d7b7fcf8e7
+A	src/ClassLoader/ApcClassLoader.php	e828ca01ebc6bea47cac07c331bf6470
+A	src/ClassLoader/CacheNotSupportedException.php	06866e5bea8ebdcdfe869a07de95b4c9
+A	src/ClassLoader/ClassLoaderInterface.php	f0e18bd751c339d5337f5c8402bf102b
+A	src/ClassLoader/WinCacheClassLoader.php	3a7dc823e67de4c648839d99c5a92914
+A	src/ClassLoader/XCacheClassLoader.php	7eeaef4612b9d81e3f122d0a6a8ac18e
+A	src/DIC/ServiceContainer.php	37d8fbd3ec8ea4dfa8b45a79c139e49d
+A	src/DIC/ServiceContainerInterface.php	1254f1fb3f30b43708d3b2e7e7f151ff
+A	src/DIC/ServiceFactory.php	50ac8aea05a709b781a090d498a21fd7
+A	src/DirectoryBehavior/DefaultDirectoryBehavior.php	d1e2e8840a274433406f5517927520ea
+A	src/DirectoryBehavior/DirectoryBehaviorInterface.php	d1c8b469028283a1151f1eb6fdde2195
+A	src/DirectoryBehavior/Psr0DirectoryBehavior.php	e090b4bdae9e6e036414a3887711b55e
+A	src/Discovery/CachedClassMapGenerator.php	b361bee796995f52feaaa8f5f2677324
+A	src/Discovery/ClassMapGenerator.php	99f7f97e182a8faaa20ab5c791ef24ad
+A	src/Discovery/ClassMapGeneratorInterface.php	3e147057ed847372884b0feb87246fb2
+A	src/Discovery/ComposerDir.php	4677a6b208805aa12b9254e3240d5efe
+A	src/Discovery/ComposerJson.php	46c648d5574fa7afa0f29dedd2267c6c
+A	src/Discovery/ComposerJsonTargetDir.php	c591c9249d8706359e38d5efba02a795
+A	src/Discovery/FileInspector.php	22e34f41cd70738a17a6e65929325532
+A	src/Discovery/WildcardFileFinder.php	af9a90b63855ca6180a307f660ef1de1
+A	src/DrupalSystem/DrupalSystem.php	02ae9a30c751bea4574816b0d0a12db0
+A	src/DrupalSystem/DrupalSystemInterface.php	f529bc58c220359edc213b154fec095d
+A	src/Main.php	f7db2cfc91f2cbd43a867eb265d6b463
+A	src/Phases/DrupalPhaseControl.php	f4c3d559e50cb3154a3d620c3b625aa1
+A	src/Phases/ExtensionNamespaces.php	c6c268917522ea8c4721d5f9699969e3
+A	src/Phases/HookXautoload.php	150d3af3fca5cfb98eec84244ce2a7a3
+A	src/Phases/HookXautoloadEarly.php	9b7db258d6a72c2fedc8a64eddfe9525
+A	src/Phases/LibrariesIntegration.php	4d08be6a025d820e77e284fb2bb79c97
+A	src/Phases/PhaseObserverInterface.php	1c0f0552a0bb7fbd9f48703d4e427371
+A	src/Util.php	a2276ecc2a44e40ccb349c7223373bea
+M	tests/bootstrap.php	41bc10b5b77c29b7a1d93a340e7f1197
+D	tests/lib/BasicIntegrityTest.php	
+D	tests/lib/ClassFinderAdapterTest.php	
+D	tests/lib/ClassLoaderTest.php	
+D	tests/lib/DiscoveryTest.php	
+D	tests/lib/DrupalBootTest.php	
+D	tests/lib/Filesystem/StreamWrapper.php	
+D	tests/lib/Filesystem/VirtualFilesystem.php	
+D	tests/lib/FinderOperation/BootPhase.php	
+D	tests/lib/FinderOperation/MainPhase.php	
+M	tests/scripts/drupal-apc.php	214ce3aa9f3eefadb52177125635c76b
+A	tests/src/BasicIntegrityTest.php	71e44609d959b1d258b9503c0754748c
+A	tests/src/ClassFinderAdapterTest.php	d6039160bc8ec8ffa01ab3ecea5e9764
+A	tests/src/ClassLoaderTest.php	310d26b9d5d70858d0d8126f03a9406c
+A	tests/src/DiscoveryTest.php	89817bb6b0ac7321865a8381158427a3
+A	tests/src/DrupalBootTest/AbstractDrupalBootTest.php	caae961a0fa584055006dda99e0484f0
+A	tests/src/DrupalBootTest/DrupalBootHookTest.php	571da9bd071e21616f393719ff4dd883
+A	tests/src/DrupalBootTest/DrupalBootTest.php	cfd63821b8be631d3c5c94bceda345ba
+A	tests/src/Example/AbstractExampleModules.php	822523fdee7167ad8a1a1186abe910eb
+A	tests/src/Example/ExampleModules.php	46a8a55b5d48d352192d38fea99d15ba
+A	tests/src/Example/HookTestExampleModules.php	f19c6680d0c2cf34ac576dd40e1ab9e3
+A	tests/src/Filesystem/StreamWrapper.php	43e9b7c659008972635c077fd0e5c2ff
+A	tests/src/Filesystem/VirtualFilesystem.php	15ac641d9d6475c90abd7f38f5a0a4c9
+A	tests/src/Mock/MockDrupalSystem.php	b4e5a794378718215aadb2805cb394aa
+A	tests/src/Util/CallLog.php	3eb8f540c7882c528c0ba47badda6a91
+A	tests/src/Util/HackyLog.php	aba17efe0b946d8dfc5189fe4fdced96
+A	tests/src/Util/StaticCallLog.php	1b7882a3a624493858c9419d535df071
+A	tests/src/VirtualDrupal/Cache.php	1989d3eb3783ed5e07bd70d314ce748e
+A	tests/src/VirtualDrupal/DrupalBootstrap.php	722a2acc6a974f71a3d091b7c9fefad1
+A	tests/src/VirtualDrupal/DrupalEnvironment.php	db85f03f8e5c7e81698f43723c9a8dd3
+A	tests/src/VirtualDrupal/DrupalGetFilename.php	95fc20646090491453ec0558a1742d05
+A	tests/src/VirtualDrupal/DrupalLoad.php	19bd7f207266a083eea79a381746f98c
+A	tests/src/VirtualDrupal/DrupalStatic.php	a0e479457781dd901d56058c111d1974
+A	tests/src/VirtualDrupal/ExampleModulesInterface.php	6c7e75a36a73606455490b22e4ad75b1
+A	tests/src/VirtualDrupal/HookSystem.php	b979f8868769a14f228d92a6b400bdb8
+A	tests/src/VirtualDrupal/LibrariesInfo.php	e2757f73e6e40644e6daf5bccbbaeabb
+A	tests/src/VirtualDrupal/ModuleBuildDependencies.php	0cb3aba34e5897ac852439a316ab09fc
+A	tests/src/VirtualDrupal/ModuleEnable.php	68ec53c6ba300f1f2439d4450b36458f
+A	tests/src/VirtualDrupal/ModuleImplements.php	510c7c3fa34c30c64e427dfb34ac069f
+A	tests/src/VirtualDrupal/ModuleList.php	288e01ad6df272ddc174dceedeae8d2c
+A	tests/src/VirtualDrupal/PureFunctions.php	edecfccfdc60d6a2b1eed72708fac95b
+A	tests/src/VirtualDrupal/SystemBuildModuleData.php	48bb94040176ea388230084987efce62
+A	tests/src/VirtualDrupal/SystemList.php	6996abe40efa3447ae5977b5e7af8cd2
+A	tests/src/VirtualDrupal/SystemListLoader.php	145e84b1896e266822282224f6a2cf53
+A	tests/src/VirtualDrupal/SystemListReset.php	9726048dfff97df2d033e94f8a5c1e87
+A	tests/src/VirtualDrupal/SystemRebuildModuleData.php	8e1620d97725d059c6ca75df05241681
+A	tests/src/VirtualDrupal/SystemTable.php	72978103534c7b471435d960857e05cc
+A	tests/src/VirtualDrupal/SystemUpdateBootstrapStatus.php	3c5b0c58e4d6562cb4b20f2aea97b148
+M	tests/test_1/xautoload_test_1.info	8867f9434bdb233b9fe5821ceaefd186
+M	tests/test_2/xautoload_test_2.info	7e7f80c1c192866c6f7df4d13bf5988f
+M	tests/test_3/xautoload_test_3.info	d3500140d690640a4ff9463c356bbaab
+M	tests/test_3/xautoload_test_3.module	36c1332cd2a660c8a0b1b80975aebd4f
+A	tests/test_4/testlib/src/TestClass.php	c1a2e16030315df53368d98acca32bda
+A	tests/test_4/xautoload_test_4.info	ea3f5c7cace19f8044f68f3c970ad1e9
+A	tests/test_4/xautoload_test_4.install	4017c09ed7335c9bf4d8941ccfcb126e
+A	tests/test_4/xautoload_test_4.module	4ece21d359f8a767358e062441bf0b0c
+A	tests/test_5/src/FooNamespace/Foo_Class.php	88271fc653a30dc73834022a7a052a67
+A	tests/test_5/xautoload_test_5.info	ab4ebed6181e8a237cb4c12513d3b898
+A	tests/test_5/xautoload_test_5.install	7f615f7da519311ba5f864590bc8a105
+A	tests/test_5/xautoload_test_5.module	a80d683c10a214a9746056dab15de901
+M	xautoload.api.php	e924632c3c7c97aa5c624cca58ee9f82
+M	xautoload.early.lib.inc	ec1897b1ffb77b25134d1e8235e16a84
+M	xautoload.info	4b7bc4c2b2c3391290b67c4147361857
+M	xautoload.install	a9838cafb5badb71aa2e4254be99f975
+M	xautoload.module	b3f639557b786646a9ef6e81df22179e
+M	xautoload.system.inc	10e156433c0ee8e6f0723b0be504c5f2
+M	xautoload.ui.inc	f5157bb09475647284a1ddbcf262e366

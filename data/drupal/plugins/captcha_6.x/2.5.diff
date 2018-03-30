@@ -1,0 +1,35 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	README.txt	103dafbce28dff3d75dccb54c702c385
+M	captcha.admin.inc	3266ba06f3140d600f16a5ab60ffe0bb
+M	captcha.inc	543eeb0e0a7a42eef5bbc1796bd1c4c4
+M	captcha.info	6d9bf092a6a9de10450ab2bec37cbb64
+M	captcha.install	ba798536e15560a9b7327427b2c7c7ad
+M	captcha.js	56e0cccf9cdb386df95748548573953a
+M	captcha.module	49df2bdb83fc63edd7c3cf55a9aa9506
+M	captcha.test	f24ef0fc90f78e90db469a8f651b3ff3
+M	captcha_api.txt	08f66bdc8ad19da752d4493a727c016c
+M	image_captcha/fonts/README.txt	8fc0dcff65f0befce5cf801af9d77c2c
+M	image_captcha/fonts/Tesox/tesox_readme.txt	ad7b39c2cbf217ef4a438e5e667b2028
+M	image_captcha/fonts/Tuffy/README.txt	2c1037b05c12f954cb9b1d30f1455a52
+M	image_captcha/image_captcha-rtl.css	e4f9b686ec06b363907ac90fc30a5efd
+M	image_captcha/image_captcha.admin.inc	8337d668039921016199913b156999aa
+M	image_captcha/image_captcha.css	49c4e3e745df20d5a0fff496bd45aa40
+M	image_captcha/image_captcha.info	0d5b553859abd8c0404b078f22973e04
+M	image_captcha/image_captcha.install	ab1bfbe11a2a7abbc9c5cf5908b061e4
+M	image_captcha/image_captcha.js	003f8cc0b9b6684229ed3b83f8830447
+M	image_captcha/image_captcha.module	58b56df31a5c5c42496df72303b74000
+M	image_captcha/image_captcha.user.inc	4ae128f078c42340891bb9c905dfc838
+D	translations/da.po	
+D	translations/de.po	
+D	translations/es.po	
+D	translations/fi.po	
+D	translations/fr.po	
+D	translations/he.po	
+D	translations/hu.po	
+D	translations/id.po	
+D	translations/it.po	
+D	translations/lt.po	
+D	translations/nl.po	
+D	translations/pl.po	
+D	translations/uk-ua.po	
+D	translations/uk.po	

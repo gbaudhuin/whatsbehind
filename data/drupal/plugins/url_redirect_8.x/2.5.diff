@@ -1,0 +1,3 @@
+M	src/Controller/UrlRedirectListBuilder.php	ae246c661847f39297dd506204540ed1
+M	src/EventSubscriber/RedirectSubscriber.php	d63793e03bb66d6153628838cfb85116
+M	url_redirect.info.yml	3fff1d7bb56003cec6a58d795a6c3695

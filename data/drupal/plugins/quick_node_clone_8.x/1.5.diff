@@ -1,0 +1,8 @@
+A	config/install/quick_node_clone.settings.yml	bf83a69602c7d507a3df8cab13cda676
+M	quick_node_clone.info.yml	93970ce6ff2e80d8565408b0978c655d
+A	quick_node_clone.links.menu.yml	b7e331f329fefb6bbc0c486414d74849
+A	quick_node_clone.permissions.yml	2112a4e0d53af936b4f3799184947306
+M	quick_node_clone.routing.yml	cdc3a336aa06b0930328845d234a6422
+M	src/Controller/QuickNodeCloneNodeController.php	750ab0ec6c36b938dc26f41185ee893a
+M	src/Entity/QuickNodeCloneEntityFormBuilder.php	c611965a6f6afa53f29975de5ebb2b82
+A	src/Form/QuickNodeCloneSettingForm.php	831dd2e9ffd4413fd1f0fbb4b6c5e605

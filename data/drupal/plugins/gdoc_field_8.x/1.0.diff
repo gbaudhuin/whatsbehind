@@ -1,0 +1,8 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	faf9fb13c30810909c0f9757cf661a2c
+A	css/gdoc_field.css	19b4fce8b5d3b98cffcdbb6ceeb41864
+A	gdoc_field.info.yml	f200dd9fb0ae2ef154ed76c9a1e17f5a
+A	gdoc_field.libraries.yml	b70a41560f1909c7902b167f7c813c67
+A	gdoc_field.module	167859c2d249888cb8d6a2da13ba022b
+A	src/Plugin/Field/FieldFormatter/GdocFieldFormatter.php	589c28f93da8195f0df58fd2961869d3
+A	templates/gdoc-field.html.twig	94b1022b250486c15f9dc97f726fa9af

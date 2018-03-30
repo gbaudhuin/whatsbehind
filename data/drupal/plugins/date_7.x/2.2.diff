@@ -1,0 +1,26 @@
+M	CHANGELOG.txt	bdb6d99552308a97719f0f691ecdada4
+M	date.info	0706a242165d3fae13f8381347d5761d
+M	date.module	89dd7e7700a4a78d02a18cce98b16175
+M	date_all_day/date_all_day.info	8a94cc72755f3198c24c22c1a6a51c3a
+M	date_api/date_api.info	a1615d9646247f7e8f4e501fb1ac086d
+M	date_api/date_api.install	d6ff87f09c12158fb37dd54d5d0fff48
+M	date_api/date_api.module	0c932d997274f358ef20e5d4b75d7312
+D	date_api/theme/date-valarm.tpl.php	
+D	date_api/theme/date-vcalendar.tpl.php	
+D	date_api/theme/date-vevent.tpl.php	
+M	date_api/theme/theme.inc	2dff87bac2a51d851064858614676031
+M	date_context/date_context.info	0ed877d157cc03b163024495cbcf1cdb
+M	date_context/date_context.module	861d52c1ae4d6ed19b15c3a4be45e974
+A	date_context/plugins/date_context_date_condition.inc	b40fa89e2ec777e4b9b4b745eb1406d1
+M	date_migrate/date_migrate.info	f259ec5dc0cf6e2cac936f15380ac557
+M	date_migrate/date_migrate_example/date_migrate_example.info	15ec5904c9fcd7e2152746146027c4bc
+M	date_popup/date_popup.info	45ca564b77afbad8452ae4a48c459cb3
+M	date_repeat/date_repeat.info	32706bc0f14738471558517f339d1a48
+M	date_repeat_field/date_repeat_field.info	8c407d2dd2dd1c8686742fec8917d7b9
+M	date_repeat_field/date_repeat_field.module	d5e536267a41fed5caad1e9d7521a9af
+M	date_tools/date_tools.info	b0115a4c46bc3b45febb80d1d8361ada
+M	date_tools/date_tools.module	e31596c3c1f3ec488fe782b147ed334f
+M	date_views/date_views.info	91fc4959d84b9ac66bd303f88614c6d4
+M	date_views/date_views.module	cbe4e1d41f98da8b70dbe6cec045acdc
+M	date_views/includes/date_views.views.inc	2ff1f4df72a4a880c9e647d58a8ad4a3
+M	date_views/includes/date_views_fields.inc	d6014e165e903e501989fa564a20c3eb

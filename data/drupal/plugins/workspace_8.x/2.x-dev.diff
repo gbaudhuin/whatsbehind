@@ -1,0 +1,138 @@
+D	.codeclimate.yml	
+D	.phpmd.xml	
+D	.travis.yml	
+D	.travis/drupal-8.4.x.make.yml	
+D	.travis/drupal-8.5.x.make.yml	
+D	.travis/nginx.conf	
+D	.travis/php-fpm.conf	
+D	.travis/php.ini	
+D	README.md	
+D	composer.json	
+A	config/install/core.entity_form_display.workspace.workspace.deploy.yml	908b4ffba5fe938ecaff2783231715cd
+A	config/install/core.entity_form_mode.workspace.deploy.yml	7f18993b65bb74fc0f98e2ac30a006b6
+D	css/workspace.admin.css	
+D	css/workspace.switcher.css	
+M	css/workspace.toolbar.css	e8913f79420c4fd2056ea943cd75e734
+D	icons/bebebe/changes.svg	
+D	icons/bebebe/update.svg	
+D	icons/bebebe/workspace.svg	
+D	icons/ffffff/changes.svg	
+D	icons/ffffff/update.svg	
+M	icons/ffffff/workspace.svg	43688518436478f8efaf4231821e943c
+D	src/Access/WorkspaceViewCheck.php	
+A	src/Annotation/RepositoryHandler.php	1cc9eccd1adb5ef3d3cc426fa4d43aba
+D	src/Controller/ChangesListController.php	
+D	src/Controller/Component/ConflictListBuilder.php	
+D	src/Controller/RevisionController.php	
+D	src/Controller/RevisionsController.php	
+D	src/Controller/WorkspaceController.php	
+D	src/Element/Rev.php	
+D	src/Entity/Form/WorkspaceDeleteForm.php	
+D	src/Entity/Form/WorkspaceForm.php	
+D	src/Entity/Form/WorkspaceTypeDeleteForm.php	
+D	src/Entity/Form/WorkspaceTypeForm.php	
+D	src/Entity/Replication.php	
+A	src/Entity/Workspace.php	2dcdd37cef864d0a000d715787c6bb7d
+A	src/Entity/WorkspaceAssociation.php	f0a95391d0db96838ec7ab470ba4f641
+D	src/Entity/WorkspacePointer.php	
+D	src/Entity/WorkspacePointerViewsData.php	
+M	src/EntityAccess.php	fd8ea07b1bda80d034c6336430b6e519
+M	src/EntityOperations.php	78326efb12773165672e97de6f0dc2ff
+A	src/EntityQuery/PgsqlQueryFactory.php	94ca97f9d3ed5f358028d2b84ac2c034
+A	src/EntityQuery/Query.php	611ab5d7b2d295c339a2f3cb0949387c
+A	src/EntityQuery/QueryAggregate.php	89ece636d5ac4301af0147e9e213ef86
+A	src/EntityQuery/QueryFactory.php	ddcd7821acf98ba1b6cea23b7e5bb16d
+A	src/EntityQuery/QueryTrait.php	97a8d6a5ef800e5f040882305897777e
+A	src/EntityQuery/Tables.php	4c8f9acd93fd41049c0ebcc57a878f64
+M	src/EntityTypeInfo.php	3a7803f3cbe1e146580af0c2312d7fe2
+D	src/EventSubscriber/WorkbenchModerationSubscriber.php	
+D	src/Form/UpdateForm.php	
+M	src/Form/WorkspaceActivateForm.php	571d58c74a5d3cbd1ae9df36b3fa312c
+D	src/Form/WorkspaceActivateFormBase.php	
+A	src/Form/WorkspaceDeleteForm.php	c36dcc3410e2cb18fcb918c468e25384
+A	src/Form/WorkspaceDeployForm.php	d196e768a6f44014912add9744d1d397
+A	src/Form/WorkspaceForm.php	f7de4c694818b8bff64e0e2fdeaf9047
+M	src/Form/WorkspaceSwitcherForm.php	75db8e04cbe674d61636a6dc497320a5
+D	src/InternalReplicator.php	
+A	src/Negotiator/DefaultWorkspaceNegotiator.php	8fa14806f406f498a2d4f487552a5772
+A	src/Negotiator/SessionWorkspaceNegotiator.php	d47aa26ff0e75bdd2ff8eaf81c980697
+A	src/Negotiator/WorkspaceNegotiatorInterface.php	8e316f431ba981ea2374073f8242d021
+D	src/ParamConverter/EntityRevisionConverter.php	
+D	src/Plugin/Block/WorkspaceBlock.php	
+A	src/Plugin/Block/WorkspaceSwitcherBlock.php	237235fbc6e0fc56a3a7e942babe277f
+D	src/Plugin/Derivative/RevisionsContextual.php	
+D	src/Plugin/Derivative/RevisionsLocalTask.php	
+D	src/Plugin/EntityReferenceSelection/WorkspacePointerSelection.php	
+D	src/Plugin/Field/FieldWidget/OptionsFiltersWidget.php	
+D	src/Plugin/QueueWorker/DeletedWorkspaceQueue.php	
+A	src/Plugin/RepositoryHandler/LiveRepositoryHandler.php	589df93fbf3f042415b86074ced5d1fa
+A	src/Plugin/RepositoryHandler/NullRepositoryHandler.php	0ba4b5e20054af10f9542043497008aa
+D	src/Plugin/RulesAction/ReplicateContent.php	
+A	src/Plugin/Validation/Constraint/DeletedWorkspaceConstraint.php	2ab0772a221509255957448556c470ec
+A	src/Plugin/Validation/Constraint/DeletedWorkspaceConstraintValidator.php	d55f2eb17ca29ed89330743c14b49aa0
+A	src/Plugin/Validation/Constraint/EntityWorkspaceConflictConstraint.php	c0a7f56195d9fa988fb16b93631166c7
+A	src/Plugin/Validation/Constraint/EntityWorkspaceConflictConstraintValidator.php	ea93c1f8245e92b018503f663cb69dff
+D	src/ReplicatorInterface.php	
+D	src/ReplicatorManager.php	
+A	src/RepositoryHandlerBase.php	d0596bd76c0c667af707ec6925342576
+A	src/RepositoryHandlerInterface.php	4a55917922b3e990847b81c87cfc76bf
+A	src/RepositoryHandlerManager.php	2bb044194a49d11e68ab8c5d186cc0e8
+A	src/RepositoryHandlerManagerInterface.php	60b05d9ad5f445ce3eead8b3b5b5fd1b
+D	src/Routing/RouteSubscriber.php	
+D	src/Toolbar.php	
+A	src/ViewsQueryAlter.php	845fa8bb5c90cc5b42ea3442bba5540a
+A	src/WorkspaceAccessControlHandler.php	eb67887d0ae28acf2fc8fa7fcdda66fc
+A	src/WorkspaceAccessException.php	c87ce96aafa45fbd1cf97ba5a819b618
+A	src/WorkspaceAssociationStorage.php	82d3e7bb660b31892402f16e8414f19a
+A	src/WorkspaceAssociationStorageInterface.php	09d8103c2ae0c20698061892c66b8d3a
+A	src/WorkspaceCacheContext.php	c83df8ccb80fa2134e103faa6b02f6aa
+A	src/WorkspaceConflictException.php	111865a8180e5a8639ac5f39d014512c
+A	src/WorkspaceInterface.php	8cffa70299a71503fc2589a2f3292b57
+M	src/WorkspaceListBuilder.php	4862fbbffc28b342feb8ee3fd24c8340
+A	src/WorkspaceManager.php	6423e2aefc5a7956a0d0e375a67af96b
+A	src/WorkspaceManagerInterface.php	3df2550dfb1b0e87966c850721bd5b1c
+D	src/WorkspacePointerInterface.php	
+A	src/WorkspaceServiceProvider.php	3d4736769f92888b9030f220d849feec
+D	src/WorkspaceTypeListBuilder.php	
+D	templates/workspace-add-list.html.twig	
+D	templates/workspace-rev.html.twig	
+A	tests/src/Functional/EntityResource/WorkspaceJsonAnonTest.php	95e90448fbc9ce70bc0f807de612ba7e
+A	tests/src/Functional/EntityResource/WorkspaceJsonBasicAuthTest.php	b594cbdd9f8b3437060fdde785afe80f
+A	tests/src/Functional/EntityResource/WorkspaceJsonCookieTest.php	3fab88af926863610ff841a67e533a10
+A	tests/src/Functional/EntityResource/WorkspaceResourceTestBase.php	1005f65939797cb2acc9dab5b5a34390
+A	tests/src/Functional/EntityResource/WorkspaceXmlAnonTest.php	10d2f712b4c6fa42b776d66e3c73e8d1
+A	tests/src/Functional/EntityResource/WorkspaceXmlBasicAuthTest.php	478ba69bd9ac317c15b256848324b435
+A	tests/src/Functional/EntityResource/WorkspaceXmlCookieTest.php	3a0084b3d32768a082280c7bb9e6582d
+D	tests/src/Functional/EntityTypeAlterTest.php	
+D	tests/src/Functional/ReplicationSettingsTest.php	
+D	tests/src/Functional/ReplicatorTest.php	
+M	tests/src/Functional/WorkspaceBypassTest.php	f86d9f1de9a53c0b80489e6cf85c32c8
+A	tests/src/Functional/WorkspaceCacheContextTest.php	f8851b0dbaae0dcd7910f6ffe6993e42
+A	tests/src/Functional/WorkspaceConcurrentEditingTest.php	6f247227c53d2e60c6ad8da34c884f96
+D	tests/src/Functional/WorkspaceConflictReportingTest.php	
+D	tests/src/Functional/WorkspaceIndividualPermissionsTest.php	
+M	tests/src/Functional/WorkspacePermissionsTest.php	3cba9b6945553ea1ed2d5e9d24e79019
+M	tests/src/Functional/WorkspaceSwitcherTest.php	6bb23b194eed55ec154448345712092c
+M	tests/src/Functional/WorkspaceTest.php	04a0bb9235cdd27cb0030f890e5e80d3
+M	tests/src/Functional/WorkspaceTestUtilities.php	80c55409508c73fb262f777a86bbd43a
+A	tests/src/Functional/WorkspaceUninstallTest.php	18c189d1c4ee1807351196409486a0d2
+M	tests/src/Functional/WorkspaceViewTest.php	ae6a6005fa0b01091b122a9dd8658180
+A	tests/src/Kernel/WorkspaceAccessTest.php	e5fa352c09d46e098db7f618e3384f62
+A	tests/src/Kernel/WorkspaceCRUDTest.php	91a72435f8f7128dd54d154847d7680f
+D	tests/src/Kernel/WorkspaceDeletionTest.php	
+A	tests/src/Kernel/WorkspaceIntegrationTest.php	a307ebcfdf9794e9140ab647faf93920
+A	tests/src/Kernel/WorkspaceInternalResourceTest.php	fcbea5b4955fe6f5fc41fe7b95aa1b04
+D	tests/src/Kernel/WorkspacePointerTest.php	
+D	workspace.drush.inc	
+M	workspace.info.yml	c3cfcc5b410fce4d9c9fd1709ae4b13f
+M	workspace.install	aab6f42d1dd1e15f06b4f5213df35b4b
+M	workspace.libraries.yml	343268ebb26ae120051578eec4184a21
+A	workspace.link_relation_types.yml	f66a9a3628daa21aa09f0f3df7e15ae7
+M	workspace.links.action.yml	22ec04b3dc7235384a92061773093766
+D	workspace.links.contextual.yml	
+M	workspace.links.menu.yml	e3aed7d597ec4bdf43e8667ea879783f
+D	workspace.links.task.yml	
+M	workspace.module	c896862d1b6416b80b1a457ee29a39be
+M	workspace.permissions.yml	b37560888cbb8b66220ee388f38af1bc
+M	workspace.routing.yml	a84eab0a82fc2345c6835019ba6c1b24
+M	workspace.services.yml	5305eea2cc77ab74466fbb5ca7762429

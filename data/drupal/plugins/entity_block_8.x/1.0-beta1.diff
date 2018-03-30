@@ -1,0 +1,3 @@
+M	entity_block.info.yml	742271ce3724a665b578f42dccdfd1b9
+M	src/Plugin/Block/EntityBlock.php	47d2d88da8b9db77aca81594dbf6f478
+M	src/Plugin/Derivative/EntityBlock.php	c174d02e40dfa5580f0dadcbd1bdd9c0

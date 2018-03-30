@@ -1,0 +1,7 @@
+M	CHANGELOG.md	4945b8ea8c4d396bbacfd33509a50796
+M	README.md	9dabfa32410c64e2d251408c28d09815
+M	src/Plugin/Field/FieldFormatter/ViewsReferenceFieldFormatter.php	3ca3535d244d3b0450de388dcaa394d3
+M	src/Plugin/Field/FieldWidget/ViewsReferenceTrait.php	0b721b432d0d325a90947e0733851476
+M	viewsreference.info.yml	64e664653768c63d776610174afdbe59
+M	viewsreference.install	371ca974ba13cbbc00d70d2f8d858e6d
+M	viewsreference.module	1f79ccae029813ddfa003c5e5a641c04

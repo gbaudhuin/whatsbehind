@@ -1,0 +1,3 @@
+M	src/Plugin/Field/FieldType/VideoItem.php	389e2de4665b3bf76467a571f1f37db5
+M	src/Plugin/Field/FieldWidget/VideoEmbedWidget.php	6951d1fc196b26ac69215b86ca70df3f
+M	video.info.yml	8e354a74fda838766bc776573d85adfe

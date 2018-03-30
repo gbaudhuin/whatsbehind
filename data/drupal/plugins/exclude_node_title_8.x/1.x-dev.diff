@@ -1,0 +1,10 @@
+M	config/install/exclude_node_title.settings.yml	b88d6faf711a289c388a0020b023d451
+M	exclude_node_title.info.yml	44649fa098aee12f34395066988b5ea6
+M	exclude_node_title.install	98f98f4942f0819c2b0e8d7f8dcd5f42
+M	exclude_node_title.module	825eb6aa9a3c72277201a78b0e543e7e
+M	exclude_node_title.routing.yml	665b3430856077bbd11a2d049bfde5df
+M	src/ExcludeNodeTitleManager.php	0427d7f2b2133536dded32f59baecc4c
+M	src/ExcludeNodeTitleManagerInterface.php	a9fde22debaf429fd2ace86add13ca88
+A	src/Form/AdminSettingsForm.php	2626c8aaaed30bde55b9689da4ea1b2b
+D	src/Form/ExcludeNodeTitleAdminSettingsForm.php	
+M	src/Plugin/DsField/Node/NodeTitle.php	b48d97f44cd1145b504567a91dc5711a

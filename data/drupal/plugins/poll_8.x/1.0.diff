@@ -1,0 +1,10 @@
+A	js/poll.admin.js	c1a10134c3dfb73900c11859fda10736
+M	poll.info.yml	ac9e73b5ae0747f06547627315c7c292
+M	poll.libraries.yml	fd77da7d64729a15628500926adb3639
+M	poll.services.yml	094d9dc77bfb34bff6685a66a49cba4f
+M	src/Form/PollForm.php	6890988da31b641d7894eea7c0b47047
+M	src/Plugin/views/field/PollTotalVotes.php	6a277a4c1633d0717e8e2e5f7f19f4af
+M	src/PollVoteStorage.php	88103c2fe907fdc009fdc9581ee90e3b
+M	src/PollVoteStorageInterface.php	30885966e6ee505f42e8e24a6e2cc571
+M	src/Tests/PollVoteTest.php	34a586c5e1511b91976f4fab8f8785e2
+A	tests/src/FunctionalJavascript/PollVoteJavascriptTest.php	eda7ff30731618b0f709857a909cf3ed

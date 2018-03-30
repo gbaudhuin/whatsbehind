@@ -1,0 +1,30 @@
+M	readme.html	8592124f91d6da8273fc42b419f384b0
+M	wp-admin/about.php	5863f4e68b87af955a3c6a15a68ca6e0
+M	wp-admin/includes/file.php	aaf31744d17c235f7835b359cb5768d1
+M	wp-admin/includes/update-core.php	89bb7c2af227e6554315c3ee61ddff63
+M	wp-admin/includes/upgrade.php	f0e28fe081e8a3a12087a695d3cb7a68
+M	wp-admin/js/editor-expand.js	001eee141532f8fc1fac023dbb945a92
+M	wp-admin/js/editor-expand.min.js	78a1af5d700f31280bfc20621bce8e50
+M	wp-content/plugins/akismet/readme.txt	5ebc15a3e0b0453a666aa75a825e7d3f
+D	wp-content/themes/twentyfifteen/genericons/example.html	
+M	wp-content/themes/twentyfifteen/style.css	5aafae989a080d99502594adb50c3983
+D	wp-content/themes/twentyfourteen/genericons/example.html	
+D	wp-content/themes/twentythirteen/genericons/example.html	
+M	wp-includes/comment.php	dc49984492c7853cbc7d46aa3e554aae
+M	wp-includes/compat.php	dab2403b685fb97975065da248bbf4f9
+M	wp-includes/formatting.php	c0b5775359d60b4ed8daa22aee8dd697
+M	wp-includes/js/tinymce/plugins/wordpress/plugin.js	ed367f421e178c90f4c3bbd81479d79d
+M	wp-includes/js/tinymce/plugins/wordpress/plugin.min.js	26da4266c11d1a0eea6ebf1360b815d4
+M	wp-includes/js/tinymce/tiny_mce_popup.js	d84233dd293717f0a07b558b2fe38f56
+M	wp-includes/js/tinymce/tinymce.min.js	df2f5a1e56af39b9ec1b4e2e7bf6d08b
+M	wp-includes/js/tinymce/wp-tinymce.js.gz	937d1ec0bf894d9686332fc3f71e6d22
+M	wp-includes/js/wp-emoji-loader.js	d4a819f73ff1a4574a969c9e46d6f117
+M	wp-includes/js/wp-emoji-loader.min.js	26ce699f92d7bd2d7dee5ff0827b296c
+M	wp-includes/js/wp-emoji-release.min.js	c2e58e292752044c979a4efe494e1299
+M	wp-includes/js/wp-emoji.js	a1ee27ad90d9bd862c162080115b1890
+M	wp-includes/js/wp-emoji.min.js	3a083b99f4d138b72547e42f77027320
+M	wp-includes/pluggable.php	1d4ec059aa43e6c76546b1e54833fdfd
+M	wp-includes/post.php	7a2fbff334c1a12b5a636c63a069765b
+M	wp-includes/taxonomy.php	8ff69b032f99c10cdcd99080fc394a31
+M	wp-includes/version.php	2db0f9b1bb40f8b7f2eb9153e1abe905
+M	wp-includes/wp-db.php	ccc3c9fc31afd42091eace715ccb6ad5

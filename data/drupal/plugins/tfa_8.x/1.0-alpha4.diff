@@ -1,0 +1,25 @@
+M	config/install/tfa.settings.yml	62985e9f081f99fc8da63ed55e5a8750
+M	config/schema/tfa.schema.yml	fb158ff950d2be991f95b271a1464a81
+M	services_tfa/services_tfa.info.yml	effbd6d93b8f9b277d3db9a57a15d468
+M	src/Controller/TfaLoginController.php	7fd1362425a3213535561f7c22df5c45
+M	src/Form/BasicDisable.php	77544a44b51216f30163837a66ec7f8e
+M	src/Form/BasicOverview.php	873e41151eaffcbc1b98d0ab2c91c39f
+M	src/Form/BasicSetup.php	45ae8ace47768f0e5f2b471cb6363cd2
+M	src/Form/EntryForm.php	c2e7528a9d9bb8cca61f5b48ed3a4c50
+D	src/Form/ResetSettingsForm.php	
+M	src/Form/SettingsForm.php	d0a7d1e7fb7672407f0588afad0b3754
+M	src/Form/TfaLoginForm.php	eed1a2d3bb1b771bf1a204afe9e649a6
+M	src/Plugin/TfaValidation/TfaRecoveryCode.php	3d943520278ce2f27588d57542e79fbb
+M	src/Plugin/TfaValidationInterface.php	de66e36bb65bbecafd597dfefcb1647c
+M	src/Tests/TfaConfigTest.php	cc5c8e4294de6157950aea7346658586
+A	src/TfaContext.php	32bf3a2403938998b468929f315b3155
+A	src/TfaContextInterface.php	a79f348d8443cce2e176b024063a5117
+M	src/TfaDataTrait.php	d3d54fc3732fe082b5ffb655a15d7b3c
+A	src/TfaLoginTrait.php	e461b1cc1273c9f67870ff29c3a8d940
+M	tests/modules/tfa_test_plugins/src/Plugin/TfaValidation/TfaTestValidationPlugin.php	b53d2609efbf10b1d7c33a566e7c8f24
+M	tests/modules/tfa_test_plugins/tfa_test_plugins.info.yml	ed90919c7202b159edf91e3b695b7ec9
+A	tests/src/Functional/TfaTestBase.php	a2443dba996905fd456491e01bd7ca1d
+M	tfa.info.yml	6a4e5417f4544036d5c11591afede6b0
+M	tfa.install	955075df7964b60ade3800bc0e4724f9
+M	tfa.permissions.yml	08d3bb9036417c41723e691d48b7e07b
+M	tfa.routing.yml	237f3177b2326b2838b9317c74e9f213

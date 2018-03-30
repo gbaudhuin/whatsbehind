@@ -1,0 +1,3 @@
+M	entityqueue_form_widget.info.yml	826bb216ec2d9d3e0e421de605f8d62b
+M	entityqueue_form_widget.module	935c24a94b494d55ecbb1da86776b6b9
+M	src/Controller/EntityQueueFormWidgetController.php	485fd185dbbc86bb7ef49703554280bd

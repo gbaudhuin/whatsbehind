@@ -1,0 +1,163 @@
+M	README.txt	aa3ea61953b2913a93aa4c00e85f0a69
+M	composer.json	13706a83166bc5626490240e07536c46
+M	config/install/system.menu.devel.yml	ceced0ffb83ca48889374ec3ba97cd54
+M	devel.info.yml	839fdb39beeba8afa3cdbba0d1b9ee41
+M	devel.install	4661297f02a4644bfaa5c0fc78635349
+M	devel.module	da78699f93430007f4308a1d16a95665
+M	devel.routing.yml	d2e46c10977e9cc3fff2a0ad01db6a46
+M	devel_generate/README.txt	ca7db8c491c47d0e24ee80ac687b9785
+M	devel_generate/devel_generate.info.yml	59bdd442d1098caa4cdd52c6baebe2f1
+M	devel_generate/drush/DevelGenerateUnishTest.php	a5198dcbcda69873a15d8fb64fca9653
+M	devel_generate/src/Annotation/DevelGenerate.php	a932634495cfa3e40a67db381b626b53
+M	devel_generate/src/DevelGenerateBase.php	8c1c9a29fdcadd30b3343ecea93dfd96
+M	devel_generate/src/DevelGenerateBaseInterface.php	cba532c78006d8f8b72fb9447523d7d0
+M	devel_generate/src/DevelGenerateException.php	2129ea061658fcc79b14b107362c0bd7
+M	devel_generate/src/DevelGeneratePermissions.php	0890d6ed44c5c970c450b5222075be05
+M	devel_generate/src/DevelGeneratePluginManager.php	91694d21c3e5837a05d654312a2f6609
+M	devel_generate/src/Form/DevelGenerateForm.php	30b3a62a128006beb442118e7acdf58d
+M	devel_generate/src/Plugin/DevelGenerate/ContentDevelGenerate.php	4e164be28b328180fbb8d3d668a409f2
+M	devel_generate/src/Plugin/DevelGenerate/MenuDevelGenerate.php	b70c403d33dfe92e2716f772edfa1069
+M	devel_generate/src/Plugin/DevelGenerate/TermDevelGenerate.php	2e4f1045e9c5a22f4a276bbe452279f2
+M	devel_generate/src/Plugin/DevelGenerate/UserDevelGenerate.php	c9c4ed19d8928bf7e11be19fedb888b0
+M	devel_generate/src/Plugin/DevelGenerate/VocabularyDevelGenerate.php	91ea0a1e331795bbf40fd9a0ea8bbc41
+M	devel_generate/src/Routing/DevelGenerateRoutes.php	ff09746c9bbdb145165cf1a5de1a7903
+M	devel_generate/src/Tests/DevelGenerateTest.php	153befcee68104625b3af1f5acd7ae5f
+M	devel_generate/tests/modules/devel_generate_example/devel_generate_example.info.yml	c06d4f2f65e2ef527d5c071520b424e8
+M	devel_generate/tests/modules/devel_generate_example/src/Plugin/DevelGenerate/ExampleDevelGenerate.php	f960cd1f063daa68d689a3de083bfd7b
+D	devel_node_access/README.txt	
+D	devel_node_access/config/install/devel_node_access.settings.yml	
+D	devel_node_access/config/schema/devel_node_access.schema.yml	
+D	devel_node_access/css/devel_node_access.module.css	
+D	devel_node_access/devel_node_access.api.php	
+D	devel_node_access/devel_node_access.info.yml	
+D	devel_node_access/devel_node_access.install	
+D	devel_node_access/devel_node_access.js	
+D	devel_node_access/devel_node_access.libraries.yml	
+D	devel_node_access/devel_node_access.module	
+D	devel_node_access/devel_node_access.permissions.yml	
+D	devel_node_access/src/Form/DnaForm.php	
+D	devel_node_access/src/Plugin/Block/DnaBlock.php	
+M	drush/develDrushTest.php	253389d9c89525bbbdefcac1414410e6
+M	drush/phpstorm.drush.inc	cefdcd48353f20977434c8ebd28d157a
+M	kint/kint.info.yml	1feb78977034d88d720011ae384f46db
+M	kint/src/Plugin/Devel/Dumper/Kint.php	bca2b5fa68e3e3f41a95541e9b0b619e
+M	kint/src/Twig/KintExtension.php	019145e0353fe772fe8ef067988017eb
+M	src/Annotation/DevelDumper.php	2a30f68715f817daf6dd7907ac3aab71
+M	src/Controller/DevelController.php	6dc1930b62ac2606f8e129fb298d638c
+A	src/Controller/EntityDebugController.php	b1a3a981ced56abc49a0ca93e5795275
+M	src/Controller/SwitchUserController.php	c4519a78930e6f2a105ff8b1271e077b
+M	src/DevelDumperBase.php	786759dc9d7b5f70bcf2a6e937407784
+M	src/DevelDumperInterface.php	c6b7069b2ea80712b18c314afd959172
+M	src/DevelDumperManager.php	362e44203de241463fcf4f3b9f7e1f24
+M	src/DevelDumperManagerInterface.php	714c1ae4cdc9765b274b176a07673b7a
+M	src/DevelDumperPluginManager.php	11081101afa05df98dea102a5ec1ee9f
+M	src/DevelDumperPluginManagerInterface.php	ac1631e72c7e355722e8fdc67acd53fe
+M	src/EventSubscriber/DevelEventSubscriber.php	e587d5bb1547e69cc34c2ec251dbe5b9
+M	src/Form/ConfigEditor.php	961a13b828ada41818d6f219900e80be
+M	src/Form/ConfigsList.php	99fd0a7a176d4089527d4b1e020a71eb
+D	src/Form/DevelRebuildMenus.php	
+M	src/Form/DevelReinstall.php	a6942a6bf7c0d423ba3e576448d7d1b4
+M	src/Form/ExecutePHP.php	14148fd35f2c2d60eb1691867924c2cd
+A	src/Form/RouterRebuildConfirmForm.php	a099b77f0807dc62f245eae6ddfcc641
+M	src/Form/SettingsForm.php	41900c9bb12a2524219fdebdb2c7586e
+M	src/Form/SwitchUserForm.php	a9edf43f4c6f85dd2bea248c9e95cc4a
+M	src/Form/SystemStateEdit.php	58600a7139956b801ae2e16df578bf35
+M	src/Plugin/Block/DevelExecutePHP.php	884e152994d3184fdb4102373c1dd988
+M	src/Plugin/Block/SwitchUserBlock.php	ef256f9ac917458767fb9b0e74cdaab5
+M	src/Plugin/Derivative/DevelLocalTask.php	c11e3788bf0e8c87b553371d89750e68
+M	src/Plugin/Devel/Dumper/ChromePhp.php	861975de06920aec12b21a900595b21d
+M	src/Plugin/Devel/Dumper/DoctrineDebug.php	b5926ca73d29d564b992a22e5da07d76
+M	src/Plugin/Devel/Dumper/DrupalVariable.php	b8bd279ca45928670cb5ec147c97e7c6
+M	src/Plugin/Devel/Dumper/FirePhp.php	51a6815a853117ccc47ede124c7d0a6b
+A	src/Plugin/Devel/Dumper/VarDumper.php	26f26cd6a1601f6953f0bc53ad0f4b9f
+M	src/Plugin/Mail/DevelMailLog.php	2458d69425802826ce6e4e584eda0173
+M	src/Plugin/Menu/DestinationMenuLink.php	b9a62c13273801a922f07fa9f9c1cfd4
+M	src/Plugin/Menu/MenuItemMenuLink.php	16047e730353b5738a51db466710585b
+M	src/Routing/RouteSubscriber.php	936f3d084925a23983bea9cb866dc32b
+M	src/Tests/DevelControllerTest.php	108323af0b0dd1f96594d610e06ff77f
+M	src/Tests/DevelDumperTest.php	1d88fb0618cb3e14902e6370bf95be48
+A	src/Tests/DevelErrorHandlerTest.php	9dcc30107d6efa859fea28f194e20499
+M	src/Tests/DevelMailTest.php	3a4e4de08e390ef51130cf68fb8d2ff4
+M	src/Tests/DevelMenuLinksTest.php	b88d4f0c657c2ad2f1b148c136deaff6
+D	src/Tests/DevelRebuildMenusTest.php	
+M	src/Tests/DevelReinstallTest.php	1aed51bbfd452998798c7cb392dc7c34
+M	src/Tests/DevelStateEditorTest.php	77603c48f64d258ea4d83b45a1f68021
+M	src/Tests/DevelSwitchUserTest.php	72300012a73688b1ee2a6f6f597829eb
+M	src/Twig/Extension/Debug.php	a29b9dcb6a8e804c041682043a184e20
+M	tests/modules/devel_dumper_test/devel_dumper_test.info.yml	694f24e6f305f03f190222f775d32d53
+M	tests/modules/devel_dumper_test/src/Plugin/Devel/Dumper/AvailableTestDumper.php	9d3096a4916f92415bacc2cf6bfa0105
+M	tests/modules/devel_dumper_test/src/Plugin/Devel/Dumper/NotAvailableTestDumper.php	077ecd4bfb5516836a265a1171bd8f72
+M	tests/modules/devel_entity_test/devel_entity_test.info.yml	19aa5b97c3b11446650b187d130cc6a3
+M	tests/modules/devel_entity_test/devel_entity_test.module	8f3472601c4763c70f5698244963610e
+M	tests/modules/devel_entity_test/src/Entity/DevelEntityTestCanonical.php	a418764c098392603c51bf630479d75b
+M	tests/modules/devel_entity_test/src/Entity/DevelEntityTestEdit.php	da8c9a25b802852414562df67cee5222
+M	tests/modules/devel_entity_test/src/Entity/DevelEntityTestNoLinks.php	11fcdc42638061182acb58bdaaac4012
+M	tests/modules/devel_entity_test/src/Plugin/Derivative/DevelEntityTestLocalTasks.php	ee3238a086edd7a11da5e9c0512d11c8
+M	tests/modules/devel_test/devel_test.info.yml	460fed1c4e69723d1f047d421471c527
+A	tests/modules/devel_test/devel_test.services.yml	a978d942c035f5760ce2db633827daa4
+M	tests/modules/devel_test/src/Controller/DevelTestController.php	23cd5af845eadfab679305775f4af46b
+A	tests/modules/devel_test/src/Routing/TestRouteSubscriber.php	21017d8862ff594b9a38fc8eec6ca1c7
+A	tests/src/Functional/DevelRouterRebuildTest.php	c45006b67b77f7b0b7003c9081898fe4
+A	tests/src/Kernel/DevelEnforcedDependenciesTest.php	93e347dfe24187fdfeff31abe5d3780c
+M	tests/src/Kernel/DevelTwigExtensionTest.php	444e92c9bc70273461e2b52aef0cd1d9
+M	webprofiler/README.md	21dd0908c0901e4f24834dc9352f80d2
+M	webprofiler/composer.json	25da43ec3c45ef0a791fe1c3a1e51179
+M	webprofiler/js/app/helpers.js	7fcceb0d170ad4ec3ef6db1e012959f8
+M	webprofiler/js/timeline.js	72db16ed29e443dec875d79e258beb40
+M	webprofiler/src/Asset/CssCollectionRendererWrapper.php	c20562ea0b7db68c171c38f0ad08678c
+M	webprofiler/src/Asset/JsCollectionRendererWrapper.php	81d773ea4922774070a765705d080e7c
+M	webprofiler/src/Cache/CacheBackendWrapper.php	699e1e767d268660e28bc80b2e050225
+M	webprofiler/src/Cache/CacheFactoryWrapper.php	0356c4c84ee4965cfa295b58fd3605d1
+M	webprofiler/src/Command/BenchmarkCommand.php	cb0f61ae303d8d2a16ce282ea51c0ec1
+M	webprofiler/src/Command/BenchmarkData.php	4087a89f6434e1d8838c0ff6c1342ef3
+M	webprofiler/src/Command/ExportCommand.php	9993c069fe07860c5df7616c057618b9
+M	webprofiler/src/Command/ListCommand.php	29be5878401037177b6ce913262f1833
+M	webprofiler/src/Compiler/DecoratorPass.php	5a5dc51488f6a8aa24242519144b49f8
+M	webprofiler/src/Compiler/EventPass.php	9010c1b5995333769ba2ce4f2d5b1928
+M	webprofiler/src/Compiler/ServicePass.php	8b4496268bec47d57499876c1a21ecda
+M	webprofiler/src/Compiler/StoragePass.php	cd413279d035886bdbdc6e00b2bf6741
+M	webprofiler/src/Config/ConfigFactoryWrapper.php	1c6ddbd33708a9abc0e87cfb314741fd
+M	webprofiler/src/Controller/DatabaseController.php	8ec6c0cb27971c3e7bcd8fa34ae2d54a
+M	webprofiler/src/DataCollector/AssetsDataCollector.php	c4574afb2922a74d91645d59df271038
+M	webprofiler/src/DataCollector/BlocksDataCollector.php	8902faffca5a9a36811aedbe8c20ad15
+M	webprofiler/src/DataCollector/CacheDataCollector.php	900ae1713e18ab7e56d3811c8349b6e3
+M	webprofiler/src/DataCollector/ConfigDataCollector.php	3db94d2c660855259fe376d0e8c1bd3d
+M	webprofiler/src/DataCollector/DevelDataCollector.php	9556cb1d388875e81f52fd380b588cd3
+M	webprofiler/src/DataCollector/DrupalDataCollector.php	bbd5dbd763d97866688592cab4f529b6
+M	webprofiler/src/DataCollector/EventsDataCollector.php	1eb716e523b4a9566fc3cc5f84bdfade
+M	webprofiler/src/DataCollector/ExtensionDataCollector.php	b29bf32b5f5532f0eb0418ffdd06edbd
+M	webprofiler/src/DataCollector/HttpDataCollector.php	133184c182b46d34344f1d8544116984
+M	webprofiler/src/DataCollector/PerformanceTimingDataCollector.php	4d22591f1ce313300f5981befb153562
+M	webprofiler/src/DataCollector/RequestDataCollector.php	a0763df4d6510e0df8ecc25491ba904d
+M	webprofiler/src/DataCollector/RoutingDataCollector.php	d35052f201c630491e4d2830fff831b1
+M	webprofiler/src/DataCollector/ServicesDataCollector.php	1bb2ac23c1e7b8adf9a0a179c3302b3f
+M	webprofiler/src/DataCollector/StateDataCollector.php	f5fa693cea680cad1af903ad3c26ad67
+M	webprofiler/src/DataCollector/ThemeDataCollector.php	0c74a56850275a837ca80f1e90dc1294
+M	webprofiler/src/DataCollector/TimeDataCollector.php	f474d69df2e9614d5f46b32695ee1bcb
+M	webprofiler/src/DataCollector/ViewsDataCollector.php	6b41718c9b669c557ddb83fb22c45929
+M	webprofiler/src/Decorator.php	8eda247de1b4d8478cfed3d3ccdab59c
+M	webprofiler/src/DependencyInjection/TraceableContainer.php	f539b1c9fed274f979e87a171b500179
+M	webprofiler/src/DrupalDataCollectorInterface.php	8ececfd9d856751482899e577c80ccc2
+M	webprofiler/src/Entity/Decorators/Config/ConfigEntityStorageDecorator.php	928903b41e4d8197c68188450b1409d8
+M	webprofiler/src/Entity/Decorators/Config/RoleStorageDecorator.php	f597e8dc1f6d3ad55339720f9ef4600b
+M	webprofiler/src/Entity/Decorators/Config/ShortcutSetStorageDecorator.php	787f07fd5a0d49180534c555cd1ba11f
+M	webprofiler/src/Entity/Decorators/Config/VocabularyStorageDecorator.php	72fa8dfc35ec61e32ca10f90a1f4652a
+M	webprofiler/src/Entity/EntityDecorator.php	c303f9a7918644646f752c271d2b2b7f
+M	webprofiler/src/Entity/EntityManagerWrapper.php	dfcc0a1a0e71f86729495ba820dd82fa
+M	webprofiler/src/Entity/EntityViewBuilderDecorator.php	f98087f5d7424dba462113a8c8909cac
+M	webprofiler/src/Form/ConfigForm.php	55044695f6386adbc8c617859975d4ae
+M	webprofiler/src/Form/ProfilesFilterForm.php	090dac56041fb695dbdf38b7c531214f
+M	webprofiler/src/Helper/IdeLinkGenerator.php	159272ae1d0f50e14ac15f6857f9648f
+M	webprofiler/src/Helper/IdeLinkGeneratorInterface.php	8faa68e3c4baf3ec1f291541ca0b59d8
+M	webprofiler/src/Profiler/DatabaseProfilerStorage.php	6d28ec1a52ff7cde050a6f5defb96c73
+M	webprofiler/src/StackMiddleware/WebprofilerMiddleware.php	f721e98679d8d6ccdb0e2d90c3a5b484
+M	webprofiler/src/State/StateWrapper.php	0c4376454d7780fcd67019ad2c38cf45
+M	webprofiler/src/Stopwatch.php	cbe05d5adf100a494c7b85ba72e8cabc
+M	webprofiler/src/Theme/ThemeNegotiatorWrapper.php	42fde459987856b788e09fb9a478463e
+M	webprofiler/src/WebprofilerServiceProvider.php	f19af72d3470c69daf7690ea37ee72a4
+M	webprofiler/templates/Collector/devel.html.twig	96cfe1152766d70a9813712e184bcdad
+M	webprofiler/templates/Profiler/webprofiler_toolbar.css.twig	258bd48dfc396cf94449c9f3c5906b39
+M	webprofiler/webprofiler.info.yml	5266ccc23134e87bee6119858ad38487
+M	webprofiler/webprofiler.install	ae29b605784d76c0aa65801bc568a6b9
+M	webprofiler/webprofiler.libraries.yml	1c625bce44ee55a5e898e199a5d08ddf
+M	webprofiler/webprofiler.make.yml	e2a5af5866f8f5d382edfcec6bfedce4

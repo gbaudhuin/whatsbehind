@@ -1,0 +1,27 @@
+M	README.txt	0f99f51e12c9e0b2004f4c21635c1093
+M	config/install/simple_sitemap.settings.yml	74abad7e424f99c682eb499e0a3f2f95
+M	simple_sitemap.info.yml	8ff89e1fbd44dddada6bdac4815bc77b
+M	simple_sitemap.install	9407321245be4215cb7c47fc97900b85
+M	simple_sitemap.links.task.yml	425a57c30ced55df8b44e66e6da74d6a
+M	simple_sitemap.module	4466b747ad32b0556648f2aefc8ecc8e
+M	simple_sitemap.permissions.yml	a116353eaa59939c5e6db0e205cfd1fc
+M	simple_sitemap.routing.yml	d990615d32cb441f16253160a80a6942
+M	simple_sitemap.services.yml	2783e38e283db5fa34c75dbab9efe84a
+D	src/Annotation/LinkGenerator.php	
+M	src/Batch.php	351d122120bf42a86d65d0496e2813af
+M	src/Controller/SimplesitemapController.php	80d0282693c02894c345ba63a8cf74f0
+M	src/Form.php	773000146fe1a5f892b963f2f4094ce6
+M	src/Form/SimplesitemapCustomLinksForm.php	c5b3cc7ee0d3b15ff5396ed66cbad013
+A	src/Form/SimplesitemapEntitiesForm.php	7b7407ab69e7bb8053ed4a8496e8c7fc
+M	src/Form/SimplesitemapSettingsForm.php	1e7c619c1f10a912da5f2e5a5f5e21d4
+D	src/LinkGeneratorBase.php	
+D	src/LinkGeneratorInterface.php	
+D	src/Plugin/simple_sitemap/LinkGenerator/CommerceProductType.php	
+D	src/Plugin/simple_sitemap/LinkGenerator/Menu.php	
+D	src/Plugin/simple_sitemap/LinkGenerator/NodeType.php	
+D	src/Plugin/simple_sitemap/LinkGenerator/TaxonomyVocabulary.php	
+D	src/Plugin/simple_sitemap/LinkGenerator/User.php	
+M	src/Simplesitemap.php	509cb55c81026c76d71b3f6f24e2933c
+D	src/SimplesitemapManager.php	
+M	src/SitemapGenerator.php	1378ce3244e15213f73f2f50866f486f
+M	src/Tests/SimplesitemapTest.php	bf5602707b7c20924a7ea940ff04cff7

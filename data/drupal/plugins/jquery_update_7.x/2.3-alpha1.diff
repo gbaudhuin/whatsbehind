@@ -1,0 +1,16 @@
+D	CHANGELOG.txt	
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	jquery_update.info	2cd90c1b0e357b828a56e1ff80e5dcda
+M	jquery_update.install	01668832c8bfc4c12eb1efba890a2323
+M	jquery_update.module	dd3060e86165685797953fa797d29a4c
+A	replace/jquery/1.5/jquery.js	f2402f0e7b549caae013bc3c05b3a161
+A	replace/jquery/1.5/jquery.min.js	b04a3bccd23ddeb7982143707a63ccf9
+A	replace/jquery/1.7/jquery.js	273e017fd0bef143258516bdee173a1e
+A	replace/jquery/1.7/jquery.min.js	ddb84c1587287b2df08966081ef063bf
+A	replace/jquery/1.8/jquery.js	3a316818411b5a80ef878dc5c8483950
+A	replace/jquery/1.8/jquery.min.js	0b6ecf17e30037994d3ffee51b525914
+D	replace/jquery/jquery.js	
+D	replace/jquery/jquery.min.js	
+A	replace/misc/1.7/states.js	b757499ddd650a6c06b1b0e6524e7930
+M	replace/misc/jquery.form.js	cdd03b50c207f7e61c19a91d5ef6f82f
+A	replace/misc/jquery.form.min.js	0a905fe7d716cdc55361f9672c2bbfcb

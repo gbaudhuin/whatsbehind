@@ -1,0 +1,7 @@
+M	includes/MediaInternetYouTubeHandler.inc	b1662309396b77e71b589ab028a9b060
+A	includes/MediaYouTubeBrowser.inc	faf1ca11f2ae3a2c99677c8a995be1fc
+M	includes/media_youtube.variables.inc	4b8604d2c83872ffae9cb9ad7bd676d2
+A	js/media-youtube.browser.js	72090938d46a704da1c9b115421a7f04
+M	media_youtube.info	ccca9dfa0f936b36f43519cd594bf622
+M	media_youtube.install	ab9ec8249fa56354282797288a70e51f
+M	media_youtube.module	dcd453035bd6c0376bfa3428a28d3b11

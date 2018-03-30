@@ -1,0 +1,17 @@
+A	.travis.yml	1d9cebf0c382418300a502fc341d7680
+A	DEVELOPING.md	def389f420930785d8ba301a3ece9740
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	cc84e471ad8b83bba4363ec78a304d98
+A	composer.json	e349ae3f2adfd96cab4b5499b0430c0c
+A	config/install/media_entity_twitter.settings.yml	55cdf6db9c4e5aa7f7ab3588b4236a71
+A	config/schema/media_entity_twitter.schema.yml	f2d5d768746fcce3f8ea202b3b5b0b3d
+A	images/icons/twitter.png	f938df3a3ab3c1bfb5f3c625d54068fe
+A	media_entity_twitter.info.yml	6161ae4ac779c5a4c08d82dcc900dd9f
+A	media_entity_twitter.install	77ce9a5248225ff2032a9ec484418de1
+A	media_entity_twitter.module	ce407ff5715c837d02b1aba7975bf512
+A	src/Plugin/MediaEntity/Type/Twitter.php	64c5a964cb853feb2d69169859a4b536
+A	src/Plugin/Validation/Constraint/TweetEmbedCodeConstraint.php	5c4880bcdb8dd4df195a578ff02dfb94
+A	src/Plugin/Validation/Constraint/TweetEmbedCodeConstraintValidator.php	1c80c0e4b8d48d969e74cad344b55b51
+A	src/Plugin/Validation/Constraint/TweetVisibleConstraint.php	287cab35b1a2488b4f9d89fe0bcc4d1a
+A	src/Plugin/Validation/Constraint/TweetVisibleConstraintValidator.php	83e8311ffceba06fd6d16532d16f2d4b
+A	tests/src/Unit/ConstraintsTest.php	f4600f55f9abb185c06fb22a69a2f289

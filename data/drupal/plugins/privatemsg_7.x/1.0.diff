@@ -1,0 +1,38 @@
+M	pm_block_user/pm_block_user.info	7a2169313aaa2216bda5033364721fc1
+M	pm_block_user/pm_block_user.test	ddc28c47138c59d28ffddd8cf705a8cb
+D	pm_block_user/translations/README	
+D	pm_block_user/translations/pm_block_user.pot	
+D	pm_email_notify/pm_email_notify.admin.inc	
+M	pm_email_notify/pm_email_notify.info	baed43329f8a2e18c922d9aad1742062
+M	pm_email_notify/pm_email_notify.install	d9702037e22b266a968b7d1156ee513f
+M	pm_email_notify/pm_email_notify.module	89438b65be8ca4b422f0cbc998e60326
+D	pm_email_notify/translations/README	
+D	pm_email_notify/translations/pm_email_notify.pot	
+D	privatemsg-admin.js	
+M	privatemsg.admin.inc	d22f272c257289d1ef5d56b51ce46000
+M	privatemsg.author-pane.inc	9a9658c83d312456976dadca411c07ba
+M	privatemsg.info	d25695f479b82846e3e4ff9a76d606b0
+M	privatemsg.install	a8d38db94dd6e75bedaa1d09773f1d67
+M	privatemsg.module	daa5ed3cabf238b031ffa77eda9f92f8
+M	privatemsg.pages.inc	3e8f0a2e4001fc19f9ef51399a88b681
+M	privatemsg.test	d4202c20f4e27c9e3067a11139eb2e51
+M	privatemsg.theme.inc	b0c132c86b51e34be53ab743a1aef1ca
+M	privatemsg_filter/privatemsg_filter.admin.inc	f98d5798ff27d01be5ad2fd4c0c66485
+M	privatemsg_filter/privatemsg_filter.info	e4a81c776b98a9a59b83cb19c96c4214
+M	privatemsg_filter/privatemsg_filter.module	96050363eb38bfe4dc755c47a3f8247d
+D	privatemsg_filter/translations/README	
+D	privatemsg_filter/translations/privatemsg_filter.pot	
+A	privatemsg_limits/privatemsg_limits.admin.inc	0513a2570d85071e9c9b67154922d315
+A	privatemsg_limits/privatemsg_limits.info	5aed1bc94dd605eeff0a32e36879e978
+A	privatemsg_limits/privatemsg_limits.module	03bb24c60242d7d7bcea6371cd0f703a
+A	privatemsg_limits/privatemsg_limits.test	4d66d8ad3cc1ada175944a6378148369
+M	privatemsg_realname/privatemsg_realname.info	193eee3e4295a76d1f3460a8c1f7d986
+M	privatemsg_realname/privatemsg_realname.module	0255b7162d7358f863aa38a7ef13736c
+D	privatemsg_realname/translations/privatemsg_realname.pot	
+M	privatemsg_roles/privatemsg_roles.info	343fa03993f5825bd9f6883ef9fe678e
+M	privatemsg_rules/privatemsg_rules.info	a3ba1b58efa11e9166e23e8fccb84473
+D	tests/privatemsgapi.test	
+D	translations/de.po	
+D	translations/hu.po	
+D	translations/it.po	
+D	translations/privatemsg.pot	

@@ -1,0 +1,26 @@
+M	contrib/location_addanother/location_addanother.info	f8e153e644e2c51627764228b6c09911
+M	contrib/location_autofill/la.info	28d1d59d5c0b47a1676f31f893748b48
+M	contrib/location_cck/location_cck.info	5e3495b7b114b059eab9104e30f10252
+M	contrib/location_cck/location_cck.module	b4f78badb15db31c1c013357b9c03600
+M	contrib/location_email/location_email.info	6b8eaf6a216c9dce81da55e53a02be33
+M	contrib/location_entity/location_entity.info	2d7a29c25d6dc6bada7e469741cfb93c
+M	contrib/location_entity/location_entity.module	3b129926fae15fd5467ab7479324566b
+M	contrib/location_fax/location_fax.info	66dec540d83bf5857c173308f2aecaf4
+M	contrib/location_generate/location_generate.info	ccae6f4a15256d8cce8c534ab1e9e7fa
+M	contrib/location_phone/location_phone.info	24297c55a52aabba3aad73d3799934af
+M	contrib/location_search/location_search.info	cb54d9dea2a3f3e11b09e44782a7735b
+M	contrib/location_taxonomy/location_taxonomy.info	9c9810bcff144961900c313f8b743d5a
+A	contrib/location_www/location_www.info	974766770cdc2197518acaabbfc94e76
+A	contrib/location_www/location_www.install	ce4cc477ef5a5210b0362f6af2f0152c
+A	contrib/location_www/location_www.module	9665c63e188d0a16b21ce0677f7af63e
+A	contrib/location_www/location_www.views.inc	9560283cc06e2763775c9b1419a9eaa6
+M	location.info	bca716b153bd52d6d341aa3cce35b29e
+M	location.migrate.inc	d91c63ed98a1d82a0fd51eb57d829e64
+M	location.module	1ec17569fdb60e06857387f60d69a72f
+M	location.views.inc	0363bb64ff975d82aa36809b193e0149
+M	location_node.info	cadfaece523c3fc1aa96f1ac28921a24
+M	location_user.info	92ab2a60291865f158dc563ca8029976
+D	location_www.info	
+D	location_www.install	
+D	location_www.module	
+D	location_www.views.inc	

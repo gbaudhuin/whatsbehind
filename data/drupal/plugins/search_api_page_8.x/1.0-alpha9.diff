@@ -1,0 +1,5 @@
+M	search_api_page.info.yml	b223e4835d110f2c209c461834fc99a7
+M	search_api_page.module	c9e9fa00dfed2e5b112ba0e5f61bb06d
+M	src/Controller/SearchApiPageController.php	d5ac44221903373b34b0d87cf851260a
+M	src/Plugin/facets/facet_source/SearchApiPage.php	9b21d898a1f3ed90d31d1ce21a39aa5d
+M	src/Routing/SearchApiPageRoutes.php	647b4255687aeb94df1f252d986aa82f

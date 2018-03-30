@@ -1,0 +1,10 @@
+M	drafty.info	6af82d7eff7d9de9eb18d880143404de
+D	drafty.test	
+M	modules/drafty_1992010/drafty_1992010.info	2f0ba652b631b31298fab2c4fe8afbf1
+M	modules/drafty_1992010/drafty_1992010.test	79a751f651283982bfa6241192b8b845
+M	modules/drafty_enforce/drafty_enforce.info	d2af5938235acf0ba4a028554ffecd2a
+M	modules/drafty_enforce/drafty_enforce.test	eec2660729a2576f8660062136313812
+A	tests/drafty.entity_translation.test	05842b97d910c4c8aa0c365e4a53fd53
+A	tests/drafty.field_collection.test	864cf020376333e37061d913fe0e0e16
+A	tests/drafty.test	1803d391e92c21857d783f725be2b167
+A	tests/drafty.title.test	da50ffca66b12694cb586ecfd2dfdae1

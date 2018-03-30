@@ -1,0 +1,8 @@
+M	composer.json	f96959ca3a48484da40846d6a73d343f
+M	panels.info.yml	7a7bc0610bc7d78b69637a8e13f85d86
+M	panels_ipe/panels_ipe.info.yml	d2a53b7b465aae1da26cd6dfda28e707
+M	panels_ipe/src/Controller/PanelsIPEPageController.php	d4f8a73b24bb1630c3b2d221aab552df
+M	panels_ipe/tests/modules/panels_ipe_page_manager_test_config/panels_ipe_page_manager_test_config.info.yml	b909fde8acf8e16af0eb660d3d488172
+M	src/Form/LayoutChangeRegions.php	c2552b620d86eed66f97be320494a9a9
+M	src/Form/LayoutPluginSelector.php	64dc4171bbc9a73f38eb7feed73ee96a
+M	tests/modules/panels_test/panels_test.info.yml	e0747b6ef874f5d17841d84437fda890

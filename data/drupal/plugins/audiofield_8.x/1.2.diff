@@ -1,0 +1,27 @@
+M	README.md	75bcd692f96cae69af333fa0167f09fe
+M	audiofield.info.yml	dbc06c8c7f2dd9e45803b17488d17078
+M	audiofield.install	6dee530b9118178f56aa7ee7bb1687f9
+M	audiofield.libraries.yml	37e19ea7bafb85a0db140446f96d10c9
+M	audiofield.services.yml	85e86341cd49d9e7053b1f388fc4f57c
+A	css/audiofield.projekktor.css	d66a3e98d087b5ed5162857465fa79b2
+A	css/audiofield.wavesurfer.css	00345313ab7224dcdfaa2183def5a47a
+M	js/audiojs.builder.js	53bc3c55070fdccd582936fad6f99adf
+M	js/jplayer.builder.js	52afa7f4b4e673291c9586dc4adafe0e
+M	js/mediaelement.builder.js	6cc826d746d5495b6f8597a5e9e1aec3
+A	js/projekktor.builder.js	f30a3ee417f70d05f8a67ecd86c2c1e6
+M	js/soundmanager.builder.js	77ea60f468fe79ec7ac788c9bce84982
+A	js/wavesurfer.builder.js	882f0823e2de5cc5cc57d2876534d717
+M	js/wordpress.builder.js	3c1e170d08e983ae3d2e938d856b4fc3
+M	src/Annotation/AudioPlayer.php	d47dafbbc972149e63d82418680092aa
+M	src/AudioFieldPlayerManager.php	de2d4a19543ffff5ef0e5e59bdb64fa1
+A	src/AudioFieldPluginBase.php	24def21c89a0e5ba6beb9184d92d7c43
+D	src/AudioFieldPluginInterface.php	
+M	src/Plugin/AudioPlayer/AudioJsAudioPlayer.php	7b4cde252b20dcdbacc34597a00afd68
+M	src/Plugin/AudioPlayer/DefaultMp3Player.php	e540408fe564eca99f24e2ab0cefe264
+M	src/Plugin/AudioPlayer/JPlayerAudioPlayer.php	080f77f1cee856e15a1334336ad4d671
+M	src/Plugin/AudioPlayer/MediaElementAudioPlayer.php	26ea1f928e6249987c5967459a6f2269
+A	src/Plugin/AudioPlayer/ProjekktorAudioPlayer.php	ea92a73d9dcaf059b18c8c82e3e3af0c
+M	src/Plugin/AudioPlayer/SoundManagerAudioPlayer.php	e255108990341d2490a9ddcbec0820cd
+A	src/Plugin/AudioPlayer/WavesurferAudioPlayer.php	e563cb34c0906e827eb52bc3a8b31db3
+M	src/Plugin/AudioPlayer/WordPressAudioPlayer.php	c83e14d85ecc148f7c8c719842289101
+M	src/Plugin/Field/FieldFormatter/AudioFieldFieldFormatter.php	957cc99b3b06fa49b3a9bd7a01ae56ff

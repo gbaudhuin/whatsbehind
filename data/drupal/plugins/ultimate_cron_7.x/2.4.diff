@@ -1,0 +1,8 @@
+M	plugins/ctools/export_ui/ultimate_cron_job_ctools_export_ui.class.php	171fbc26a8dc075357b5a3ac2c60ca43
+M	plugins/ultimate_cron/launcher/background_process_legacy.class.php	10beacacceb06aa68ffa8e839b0a289c
+M	plugins/ultimate_cron/launcher/serial.class.php	be608829ce136324b5b7ac8058482e41
+M	plugins/ultimate_cron/logger/database.class.php	de165c64e2e4b982b45315a2cb4be186
+M	plugins/ultimate_cron/settings/queue.class.php	f820cc9c654f1b757f20d4184148f1e3
+M	ultimate_cron.info	4f9d85496c1207eb622531cd92607df9
+M	ultimate_cron.lock.inc	30d887ab95b9e2b28b1021c3b884e2d6
+M	ultimate_cron.plugin.inc	286c038b26129b442da0dae7c825aa7f

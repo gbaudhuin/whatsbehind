@@ -1,0 +1,5 @@
+M	date_popup.info.yml	90cdff9724f3d997213e0dab7b23ccae
+M	date_popup.views.inc	72097ef6a2d44ccb26f95625e208b01c
+M	src/DatePopup.php	ec61c91ef55ce67bedbc18fa48ef3ce0
+A	src/DatePopupTrait.php	cff5e81fd5075a98b0034ea87733c1ac
+A	src/DatetimePopup.php	49f50a26035d8571f2b2075de588543c

@@ -1,0 +1,7 @@
+M	core/CHANGELOG.txt	82276d21871c21460aa079a89c89e4f7
+M	core/lib/Drupal.php	d736e0e2a623cfd6c4d724965767d637
+M	core/lib/Drupal/Component/Utility/UrlHelper.php	6a339570bc64ecdeb5aa2905295c4167
+M	core/modules/file/src/Element/ManagedFile.php	0ada71bb0136cb571787d7806b4e1285
+M	core/modules/file/src/Tests/FileFieldWidgetTest.php	165661cc691538cb59d41d7e59a3d570
+M	core/modules/user/src/Form/UserLoginForm.php	e112ae74de962d74811cacd8a256b01c
+M	core/tests/Drupal/Tests/Component/Utility/UrlHelperTest.php	81697c118e4255ca79eb59c58130d2a1

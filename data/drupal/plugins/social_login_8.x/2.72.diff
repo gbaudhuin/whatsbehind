@@ -1,0 +1,7 @@
+M	css/social_login.admin.css	97ce02b5a697c1170af34eede436e64c
+D	img/social_login.providers.png	
+A	img/sprite_35_35.png	971a580c0d47415eae36f7457a2c3f6c
+M	social_login.info.yml	9e4ae7aa0e4af72704707efa63a61f7a
+M	social_login.module	67e407eb0b968ab276dd98f8884b3c87
+M	src/Controller/SocialLoginCore.php	97f5bbb260ec3e87532de3b85f1730bb
+M	src/Form/SocialLoginBlockForm.php	91d8a863b20fdfb19aff81b4dfaed0bc

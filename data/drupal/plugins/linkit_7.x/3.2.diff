@@ -1,0 +1,17 @@
+A	editors/ckeditor/icons/hidpi/linkit.png	39bd0e52bb7ecd537010ba27673d55eb
+A	editors/ckeditor/icons/linkit.png	e4313f1d418c7edc73bd606ddf9467bd
+D	editors/ckeditor/linkit.png	
+M	editors/ckeditor/plugin.js	2dff0dfb573599ea4238e45864c1a44a
+M	editors/tinymce/editor_plugin.js	67a4dd5c973361c87e3cbc8725234c1e
+M	js/linkit.dashboard.js	74107cc91b46cbb9868f5ce3bb757a78
+M	js/linkit.field.js	a7d704ff04625a2d8939233d2fa0d4d0
+M	js/linkit.js	d6092d322c137c3e6393f021317d235b
+M	linkit.field.inc	5bb0015a71fd7525c0ad25fddd828111
+M	linkit.info	a5c6b88e6b887551fbab901b6dc158da
+M	linkit.module	c5646722765b16841290890069bc6305
+M	plugins/export_ui/linkit_profiles.inc	53047f9976efdf4271c030331e14ce9c
+M	plugins/linkit_attribute/target.inc	e54cff41e0f4b5957e3673a4213a5bea
+M	plugins/linkit_search/taxonomy_term.class.php	2d737e57efb462bfd824f614f2687414
+M	test/linkit_search_plugin_node.test	9730c702f31e545d137462664919ecd9
+M	test/linkit_search_plugin_taxonomy_term.test	c93e393e81bb1e9f9082d3d7e8a254f0
+M	test/linkit_search_plugin_user.test	a89c9d0c50dcf6d69096ea6b59d93a6a

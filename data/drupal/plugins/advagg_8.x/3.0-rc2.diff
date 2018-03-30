@@ -1,0 +1,89 @@
+A	.csslintrc	ffc1bc198aa1581218a9d36ba0c638e8
+A	.eslintignore	8025b250b011dd98fa74ccf54b9ee728
+M	README.md	f6e5206ec5c07ffa3cbda21593e2b8a5
+M	advagg.info.yml	9afbbe8dd1f0cdebc5c2fa4be6564eed
+M	advagg_cdn/advagg_cdn.info.yml	59d6aa50f9e426a1e01354271e801cc6
+M	advagg_cdn/advagg_cdn.install	594d888286d326d78b2edb3d5e9b0678
+D	advagg_cdn/src/Tests/CdnPagesTest.php	
+A	advagg_cdn/tests/src/Functional/CdnTest.php	8a161da96d8727ac5ddf150789f18195
+M	advagg_css_minify/advagg_css_minify.info.yml	8d25df860b195f23db3f7a8d3915e918
+M	advagg_css_minify/src/Asset/CssMinifier.php	30b5d8b449607e29ca1bcb74a965b8dd
+D	advagg_css_minify/src/Tests/CssMinifyPagesTest.php	
+A	advagg_css_minify/tests/src/Functional/CssMinifyPagesTest.php	26dfcc6b9c1de01c5efcd2c5ed913f14
+A	advagg_css_minify/tests/src/Kernel/Asset/CssMinifierUnitTest.php	cb592abd26c6a2882383712102abf19b
+A	advagg_css_minify/tests/src/Kernel/Asset/css_test_files/charset.css.optimized.css	103abe5d45a9b1d6dfe585cefd7c865b
+A	advagg_css_minify/tests/src/Kernel/Asset/css_test_files/charset_newline.css	8ec8594d67ea6a2df24f26520ffdebd9
+A	advagg_css_minify/tests/src/Kernel/Asset/css_test_files/charset_sameline.css	601fe876d25d43f9b03b29d3ead959e6
+A	advagg_css_minify/tests/src/Kernel/Asset/css_test_files/comment_hacks.css	f677f68041b2fea2f10a461d420000e0
+A	advagg_css_minify/tests/src/Kernel/Asset/css_test_files/comment_hacks.css.optimized.css	ebbd7c59d4fc6b150e9a645116bfcc4c
+A	advagg_css_minify/tests/src/Kernel/Asset/css_test_files/css_input_with_bom.css	3a237263dd9ee68c002290924b43825a
+A	advagg_css_minify/tests/src/Kernel/Asset/css_test_files/css_input_with_bom_and_charset.css	6a27210f0db94893e1e6b3184addb72d
+A	advagg_css_minify/tests/src/Kernel/Asset/css_test_files/css_input_with_charset.css	6fdef9a60502815c495e8e6442f26c62
+A	advagg_css_minify/tests/src/Kernel/Asset/css_test_files/css_input_with_utf16_bom.css	4f5fcca2740199f411cc9a6462fbc5fd
+A	advagg_css_minify/tests/src/Kernel/Asset/css_test_files/css_input_without_import.css	e803825fd4ce0cfc23f7d23b354a0d69
+A	advagg_css_minify/tests/src/Kernel/Asset/css_test_files/css_input_without_import.css.optimized.css	0d56e3dea2fc1be0cf8f2b9be9fb69ae
+A	advagg_css_minify/tests/src/Kernel/Asset/css_test_files/quotes.css	5bada96bb06536ce0fa3da42c1e8c1bb
+A	advagg_css_minify/tests/src/Kernel/Asset/css_test_files/quotes.css.optimized.css	e3dd4f36fb39258e6548769fa24790bd
+M	advagg_ext_minify/advagg_ext_minify.info.yml	1b0dbd7183f79ad458f1230280ce3863
+D	advagg_ext_minify/src/Tests/ExtMinifyPagesTest.php	
+A	advagg_ext_minify/tests/src/Functional/ExtMinifyPagesTest.php	401748957084fcc58f5aa9ece379227e
+M	advagg_js_minify/advagg_js_minify.info.yml	fc81c07a8810fd16dc4850e0eb695393
+M	advagg_js_minify/src/Asset/JsMinifier.php	e4e091613e58ac60359a270fa4663986
+D	advagg_js_minify/src/Tests/JsMinifyPagesTest.php	
+A	advagg_js_minify/tests/src/Functional/JsMinifyPagesTest.php	299a2a668d36f19ada602623babee3fe
+A	advagg_js_minify/tests/src/Kernel/Asset/JsMinifierUnitTest.php	76da479a18a34fefa3fc8418f5ab0c2b
+A	advagg_js_minify/tests/src/Kernel/Asset/js_test_files/ToolbarVisualView.js	0df6a99ac8c58dc72c6d133e8c58466f
+A	advagg_js_minify/tests/src/Kernel/Asset/js_test_files/ToolbarVisualView.js.jshrink.js	473c32ca3bcae733943133ff0118fa19
+A	advagg_js_minify/tests/src/Kernel/Asset/js_test_files/ToolbarVisualView.js.jsmin.js	473c32ca3bcae733943133ff0118fa19
+A	advagg_js_minify/tests/src/Kernel/Asset/js_test_files/ToolbarVisualView.js.jsminplus.js	d2d65ed0da34a292245b727e364cb843
+A	advagg_js_minify/tests/src/Kernel/Asset/js_test_files/ToolbarVisualView.js.jsqueeze.js	e1b607a9ddc713900c294fe34565d3fa
+A	advagg_js_minify/tests/src/Kernel/Asset/js_test_files/ajax.js	1c2056cd67437ba0af64151fa90f23b0
+A	advagg_js_minify/tests/src/Kernel/Asset/js_test_files/ajax.js.jshrink.js	39d1957d3e43d41581d2e983f378ae60
+A	advagg_js_minify/tests/src/Kernel/Asset/js_test_files/ajax.js.jsmin.js	39d1957d3e43d41581d2e983f378ae60
+A	advagg_js_minify/tests/src/Kernel/Asset/js_test_files/ajax.js.jsminplus.js	1c2056cd67437ba0af64151fa90f23b0
+A	advagg_js_minify/tests/src/Kernel/Asset/js_test_files/ajax.js.jsqueeze.js	9db5d0cadd9adf8ddbf737c049b241df
+A	advagg_js_minify/tests/src/Kernel/Asset/js_test_files/drupal.js	0e18a6096f1a222fab718c153266444a
+A	advagg_js_minify/tests/src/Kernel/Asset/js_test_files/drupal.js.jshrink.js	c996db18e3102a98f9a95edd070c59eb
+A	advagg_js_minify/tests/src/Kernel/Asset/js_test_files/drupal.js.jsmin.js	c996db18e3102a98f9a95edd070c59eb
+A	advagg_js_minify/tests/src/Kernel/Asset/js_test_files/drupal.js.jsminplus.js	b5ab9e91de2ac5da62bb59fe763f6d4f
+A	advagg_js_minify/tests/src/Kernel/Asset/js_test_files/drupal.js.jsqueeze.js	972a59d9bda3bf5c176d293b4e5ade98
+A	advagg_js_minify/tests/src/Kernel/Asset/js_test_files/jquery.once.js	dc6aee4e575c4de49c99c1c780f6f155
+A	advagg_js_minify/tests/src/Kernel/Asset/js_test_files/jquery.once.js.with-important.js	17f473602c345eff7060c290b128f226
+A	advagg_js_minify/tests/src/Kernel/Asset/js_test_files/jquery.once.js.without-important.js	e12b61763f7e90cbf3c098612b445316
+A	advagg_js_minify/tests/src/Kernel/Asset/js_test_files/source_mapping_url.min.js	28f8d02bd5b13a48f29f496fe5459ff5
+A	advagg_js_minify/tests/src/Kernel/Asset/js_test_files/source_mapping_url.min.js.optimized.js	086f303278336112aaeb9a48fdd14182
+A	advagg_js_minify/tests/src/Kernel/Asset/js_test_files/source_mapping_url_old.min.js	5edd7d77acdb8095298fdae71a7e4f5c
+A	advagg_js_minify/tests/src/Kernel/Asset/js_test_files/source_mapping_url_old.min.js.optimized.js	086f303278336112aaeb9a48fdd14182
+A	advagg_js_minify/tests/src/Kernel/Asset/js_test_files/source_url.min.js	0afdb61bede40b3a2b795e563647bb4e
+A	advagg_js_minify/tests/src/Kernel/Asset/js_test_files/source_url.min.js.optimized.js	086f303278336112aaeb9a48fdd14182
+A	advagg_js_minify/tests/src/Kernel/Asset/js_test_files/source_url_old.min.js	63bd90cf82da0a869ad46cf3fe0c5d68
+A	advagg_js_minify/tests/src/Kernel/Asset/js_test_files/source_url_old.min.js.optimized.js	086f303278336112aaeb9a48fdd14182
+M	advagg_mod/advagg_mod.info.yml	e05ec24b43866f791af8f56d16762f5a
+D	advagg_mod/src/Tests/ModifierPagesTest.php	
+A	advagg_mod/tests/src/Functional/ModifierPagesTest.php	aa762b1135160d709e0555d92d744b69
+A	advagg_old_ie_compatibility/advagg_old_ie_compatibility.info.yml	09fb658c2e50c1ccb3c5ce277319b2dc
+A	advagg_old_ie_compatibility/advagg_old_ie_compatibility.install	5da96bbd78ce97a18fd8662692eb2ab5
+A	advagg_old_ie_compatibility/advagg_old_ie_compatibility.links.menu.yml	de9fb7917a684dc0c46a4cb51936147e
+A	advagg_old_ie_compatibility/advagg_old_ie_compatibility.links.task.yml	ed447f70e95cd96c3230c8dac31c574c
+A	advagg_old_ie_compatibility/advagg_old_ie_compatibility.routing.yml	182d2dc25e7d772ef7c799697a6d5ea3
+A	advagg_old_ie_compatibility/advagg_old_ie_compatibility.services.yml	f137b77476733acd37a8ba3d8d67c3fe
+A	advagg_old_ie_compatibility/config/install/advagg_old_ie_compatibility.settings.yml	b98a07db7112f03e0b9d861e19ea0310
+A	advagg_old_ie_compatibility/config/schema/advagg_old_ie_compatibility.schema.yml	7278e712aef86056f940578a822b1591
+A	advagg_old_ie_compatibility/migration_templates/d7_advagg_old_ie_compatibility_settings.yml	900561b4e41fbaded8b24815f7ba162c
+A	advagg_old_ie_compatibility/src/Asset/AdvaggCssCollectionGrouper.php	1639751d6d70c02a186556c69661790b
+A	advagg_old_ie_compatibility/src/EventSubscriber/CssSubscriber.php	79ee520e21e98ffdf9c251495fd8ca09
+A	advagg_old_ie_compatibility/src/Form/SettingsForm.php	f737466d3158e56c84a64f36cd2dae1d
+M	advagg_validator/advagg_validator.info.yml	d549dfbb09b8476718ee86afa20c1937
+D	advagg_validator/src/Tests/ValidatorPagesTest.php	
+A	advagg_validator/tests/src/Functional/ValidatorPagesTest.php	cedcf8f77c7845d519c82228f51cd668
+M	src/Asset/AssetOptimizationEvent.php	9688caf539ba66b278844fee4c135f86
+M	src/Asset/CssOptimizer.php	1b9869c51b8c90a2fb59f0ef74f98d96
+M	src/Asset/JsOptimizer.php	3f6f8a566546cd78fa809249f55862f7
+D	src/Tests/AdminPagesTest.php	
+D	src/Tests/AdvaggPathManipulationTest.php	
+D	src/Tests/AdvaggTestBase.php	
+M	tests/modules/advagg_test/advagg_test.info.yml	0257e9dd6aca383c1eb60c2b916d381b
+M	tests/modules/advagg_test/advagg_test.module	b218ed22b498930952931155f281c8a9
+A	tests/src/Functional/AdminPagesTest.php	882d5824c41b1f23724914099546d781
+A	tests/src/Functional/AdvaggFunctionalTestBase.php	cdaf1d3e13ce575485cf1a23670775db
+A	tests/src/Functional/AdvaggPathManipulationTest.php	1e9a231cb11af02d1ec98f2e3c84dfae

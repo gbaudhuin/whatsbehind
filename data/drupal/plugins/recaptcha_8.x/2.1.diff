@@ -1,0 +1,6 @@
+M	composer.json	eab5c24219babda15b468572ae528137
+M	recaptcha.info.yml	36ed9fcae09968de1ca77fdf6f1dee47
+M	recaptcha.links.menu.yml	022c1953fd8ac75c1ccaa2de032aedd8
+M	src/Form/ReCaptchaAdminSettingsForm.php	25c02d0a56e7ce9b20829e825bfda0b1
+M	src/ReCaptcha/RequestMethod/Drupal8Post.php	39dfd0903912dd3c6f593643bba5a086
+M	src/Tests/ReCaptchaBasicTest.php	a5c4d7b64cc27e1afa69ab5202f33ba7

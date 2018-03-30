@@ -1,0 +1,16 @@
+M	CHANGELOG.txt	4ff53a3f3edad3901eeb4547638adc97
+M	calendar.info	04e7769a68d64bed3abd95a24873e2c3
+M	calendar.module	90af566ca3ae0f2f59a859fba05fde3a
+M	calendar_ical/calendar-row-ical-node.tpl.php	ee8d532491ae2d28529f425602ff6d5f
+M	calendar_ical/calendar-style-ical.tpl.php	e98caacc72726a9def101bb5b01a9df4
+M	calendar_ical/calendar_ical.info	1677fc154fc418929a4da501f7b75e59
+M	calendar_ical/calendar_ical.module	651d38eeb47c2ae0dfe12a385f2d9b9f
+M	calendar_ical/calendar_plugin_row_ical_node.inc	8eee8fad52b5871a35c1bfc52ade7b62
+M	calendar_ical/theme.inc	60f29858901c066d61ec272de967515d
+M	css/calendar_multiday.css	b7904ded20d015456b1f5c8febd3b1d4
+M	includes/calendar.views.inc	02e96c32c85bf35c591cae3c3e1b37e7
+M	includes/calendar.views_default.inc	6726f725c17d625158db6ed7eac286d6
+M	includes/calendar.views_template.inc	d7238f6985a9fd8c5d5b15f350d349bf
+M	includes/calendar_plugin_row.inc	09143544d7c3310df54c9928def45a72
+M	includes/calendar_plugin_row_node.inc	90e0c6b09b04d07da1a121a0a77434df
+M	theme/theme.inc	494dc263e9638f502df5b09d7a38484d

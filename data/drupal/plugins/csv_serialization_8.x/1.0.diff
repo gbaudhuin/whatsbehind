@@ -1,0 +1,4 @@
+M	csv_serialization.info.yml	5aeba5e4f95db3dabdc82f137cc02be6
+M	src/Encoder/CsvEncoder.php	05a987610e8174f30e9c38ace0ad3c03
+M	src/EventSubscriber/CsvSubscriber.php	57fa9a8dd386c55473f275eacdc1202e
+M	tests/src/Unit/CsvEncoderTest.php	6fcd02f8629f3286189719d5e5c9de09

@@ -1,0 +1,6 @@
+M	simple_oauth.info.yml	833500cda3891de480ef343f27dff044
+M	simple_oauth_extras/simple_oauth_extras.info.yml	66d5e9128d20650f9ce7d3513529c518
+M	simple_oauth_extras/tests/simple_oauth_extras_test/simple_oauth_extras_test.info.yml	e3e27f089057c5017782a01b9ef342fa
+M	src/Entity/Form/Oauth2TokenSettingsForm.php	f7244c075acb7c3e0be7bc360c672eb0
+M	src/Plugin/Oauth2GrantManager.php	a14aede06006524d25cc53a96ac15272
+M	src/Server/ResourceServer.php	19eea4306c9f0d596c678c662a093078

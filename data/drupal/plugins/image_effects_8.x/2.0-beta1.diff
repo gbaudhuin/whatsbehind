@@ -1,0 +1,48 @@
+D	DEVELOPING.md	
+M	README.md	37b66bf438b9d57b7df52d315a5697b7
+A	composer.json	5f39de6f11385ffbc92abc50cba75e33
+M	config/schema/image_effects.schema.yml	2d07e596549224144c04ba4730911429
+M	image_effects.info.yml	a8ab71f633e883003b702d72261c2c20
+M	image_effects.install	86d0aa49290fee1dfc3bcca1e6f2f8d1
+M	image_effects.module	6d19d3523ddc524946b077c220c760ea
+D	image_effects.post_update.php	
+M	src/Plugin/ImageEffect/AutoOrientImageEffect.php	1ea05b4430e1454cc3926c0eae8bf7e2
+D	src/Plugin/ImageEffectsAspectSwitcherImageEffect.php	
+M	src/Plugin/ImageToolkit/Operation/FontOperationTrait.php	e28e401c32dc748d2a60887f2b718e3f
+M	src/Plugin/ImageToolkit/Operation/gd/AutoOrient.php	8d2d16bb13a16415ad9eea1d095886ec
+M	src/Plugin/image_effects/FontSelector/Basic.php	fed31e2687df20be28c9c1cb4c5c975c
+M	src/Plugin/image_effects/FontSelector/Dropdown.php	1b613cbdd9629388bfef696c156d8ceb
+D	src/Tests/Update/TextOverlayUpdateTest.php	
+A	src/Tests/Update/Update8201Test.php	c2bd7c6e3bcb73162b9b7672b76c4f1b
+D	src/Tests/Update/WatermarkUpdateTest.php	
+D	templates/image-effects-aspect-switcher.html.twig	
+A	tests/fixtures/update/d834_ie810.php.gz	d956205b3965eac4e9288e775552ad02
+D	tests/fixtures/update/d_820_ie_810a2.php.gz	
+D	tests/fixtures/update/image.style.test_watermark_no_scale.yml	
+D	tests/fixtures/update/image.style.test_watermark_scale.yml	
+D	tests/fixtures/update/test_watermark.php	
+M	tests/modules/image_effects_module_test/image_effects_module_test.info.yml	cbd5f615956b3ec62b29ce8d8530d3f6
+D	tests/src/Functional/Effect/AspectSwitcherTest.php	
+M	tests/src/Functional/Effect/AutoOrientTest.php	7f8a3da83356defb8487cce4a678af1a
+M	tests/src/Functional/Effect/BackgroundTest.php	7c5c36cb05beb3d2bf0b2057d1db71a7
+M	tests/src/Functional/Effect/BrightnessTest.php	f022031f4b900c0c93811017e50d38f9
+M	tests/src/Functional/Effect/ColorShiftTest.php	da8320f9536672d68e26d7d8c6814079
+M	tests/src/Functional/Effect/ContrastTest.php	d095d54377537e09648965eb6a9bef48
+M	tests/src/Functional/Effect/ConvolutionSharpenTest.php	d165ae2b320fb5495e675ee8758b1b39
+M	tests/src/Functional/Effect/ConvolutionTest.php	3f9d93c931a4d9602893a66390ea3759
+M	tests/src/Functional/Effect/GaussianBlurTest.php	4c469a45c08c76b2dbc1f7c839be06e3
+M	tests/src/Functional/Effect/ImagemagickArgumentsTest.php	baeedff73b205f81f566170b88d5a96a
+M	tests/src/Functional/Effect/InterlaceTest.php	e4d42a67d868e571f6bd2676642efd10
+M	tests/src/Functional/Effect/InvertTest.php	6f8f718788e14682826f112faf07b585
+M	tests/src/Functional/Effect/MaskTest.php	e4279f930695bfc01b2cbd6ebd0d7a94
+M	tests/src/Functional/Effect/MirrorTest.php	5c094749193d1de4fe5f676e60322599
+M	tests/src/Functional/Effect/OpacityTest.php	be4099c8718e82a526d1b9bb436942be
+M	tests/src/Functional/Effect/ResizePercentageTest.php	07656a3400067394814830b960015ff2
+M	tests/src/Functional/Effect/SetCanvasTest.php	c2400a8d8581e925ffcf3a0bc6a87148
+M	tests/src/Functional/Effect/SetTransparentColorTest.php	67eca9ee1d4cc81a2f69a5afb3c6845c
+M	tests/src/Functional/Effect/StripMetadataTest.php	07e3063d5bf876535eb35ada51ed06d1
+M	tests/src/Functional/Effect/TextOverlayTest.php	4c4e05f719277e2facd8e1d35ffbb5b2
+M	tests/src/Functional/Effect/WatermarkTest.php	dbace280c7dc70b15da251e0fb511fa9
+M	tests/src/Functional/ImageEffectsTestBase.php	14935d8d8681f0dae62e4a83e92c87bd
+M	tests/src/Functional/SelectorPluginTest.php	fa0a9d3562e25bc1eab6ec5a541b66c8
+M	tests/src/Functional/SettingsFormTest.php	fa0a338116c1b0dda906ccae069c63ab

@@ -1,0 +1,14 @@
+M	.travis.yml	7d5e8a678e7ff9d6e262c4de88fcfdbb
+A	UPGRADE_TO_SEARCH_API_SOLR_8.x-2.x.md	6f1ebb8751647dab111d3ee513a3f1cd
+M	composer.json	089068c066d490117ba850815bed2ae9
+M	search_api_solr_multilingual.info.yml	4e70efdf14514abf78ed56c19d3e2d94
+M	search_api_solr_multilingual.routing.yml	6366f83512278a996e657195c8f768e7
+M	src/Controller/SolrFieldTypeController.php	ac319bc35492f897d0f5dc96f6fed7dc
+M	src/Controller/SolrFieldTypeListBuilder.php	634a1f0c7c54acd02a19fd36a8081a3c
+M	src/Entity/SolrFieldType.php	062d0978bfbaa9b35150a367bf72aa33
+M	src/Plugin/search_api/backend/AbstractSearchApiSolrMultilingualBackend.php	6ed7937907e23d41437455d94a1c9a61
+M	src/SolrFieldTypeInterface.php	c3c9bd05b6239fc8bdd0519c38f1165d
+M	tests/modules/search_api_solr_multilingual_test/search_api_solr_multilingual_test.info.yml	8718647a79b67f490422f68831b24f8d
+M	tests/solr-conf/6.x/schema.xml	71bd58130965d3b5edf1c1b71fb353e5
+M	tests/solr-conf/6.x/schema_extra_fields.xml	4bda957fc00c79ab21d64e12cec229cf
+M	tests/solr-conf/6.x/solrcore.properties	2a2fa8df355670ee85ecee3733d7347e

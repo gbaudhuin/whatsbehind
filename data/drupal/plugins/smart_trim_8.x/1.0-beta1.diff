@@ -1,0 +1,6 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	af097e14035a14f5d8377474fe2984f8
+A	smart_trim.info.yml	32264665d7b927c672ba91e53604d571
+A	smart_trim.module	cd877d84a266758343605f5c256e630b
+A	src/Plugin/Field/FieldFormatter/SmartTrimFormatter.php	e51f38648bf5a1e2c28d44d9207b8f57
+A	src/Truncate/TruncateHTML.php	2b85c757ac5ef87081b8f6d9e04f74c0

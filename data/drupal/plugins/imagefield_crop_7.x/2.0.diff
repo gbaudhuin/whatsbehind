@@ -1,0 +1,17 @@
+A	.gitignore	a79c760a728eacfd0a5891b89c627b79
+D	Jcrop/MIT-LICENSE.txt	
+M	Jcrop/css/jquery.Jcrop.css	3888e9f93e218814c97a146069d104f1
+D	Jcrop/css/jquery.Jcrop.min.css	
+M	Jcrop/js/jquery.Jcrop.js	30e91b1fb4f71e3ce53a1f60eb464c4d
+M	Jcrop/js/jquery.Jcrop.min.js	9c25b2fccdfbbca702ed6b97d933d64a
+M	Jcrop/js/jquery.color.js	8738618224090e7a179a6248cb00d1bb
+M	Jcrop/js/jquery.min.js	10092eee563dec2dca82b77d2cf5a1ae
+D	imagefield-zenfix.css	
+A	imagefield_crop.api.php	ab570b873a05b7b581a7b750330fb91e
+M	imagefield_crop.info	223aa272b934b437d62315e5ca0544be
+M	imagefield_crop.install	106554bef50b9554e1a304fa27b211a7
+M	imagefield_crop.js	3cece71ac8606f3843d6b7dbee93e103
+M	imagefield_crop.module	ba76efec281c252f4afb40d2624f5d8d
+D	imagefield_crop.theme.inc	
+A	po/he.po	b1fb21fc69b17a0b624f4641dd8465df
+A	po/imagefield_crop-module.pot	eea03f08ca4ff980abe97f7c646b9a28

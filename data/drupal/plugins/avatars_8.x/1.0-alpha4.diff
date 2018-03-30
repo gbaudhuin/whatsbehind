@@ -1,0 +1,17 @@
+M	avatars.info.yml	bf8f451da16876b7cbf80ab698ffaa02
+M	avatars.module	ebbe4475dda150321baea33bd5d29de8
+M	avatars.permissions.yml	b2f58109ad4217bc9d92ca2f6dddaf1b
+M	avatars_adorable/avatars_adorable.info.yml	f3677fc2e336cb52299e31c342796e7b
+M	avatars_adorable/src/Plugin/AvatarGenerator/Adorable.php	02cb696bb2ca39c0b2793f6bfc0ed479
+M	avatars_gravatar/avatars_gravatar.info.yml	0981deb81264b55ceb1fea40cc294d66
+M	avatars_gravatar/src/Gravatar.php	448c2f1a4e97a71a77929232087ac937
+M	avatars_gravatar/src/Plugin/AvatarGenerator/Gravatar.php	6a1607efff41dbc4cee4e221c9914bbd
+M	avatars_gravatar/src/Plugin/AvatarGenerator/Identicon.php	223f3d9aaecd410dd11ebc105b607dc0
+M	avatars_gravatar/src/Plugin/AvatarGenerator/Monsterid.php	0fbbfd5b89c69a2f1a452475df0e35be
+M	avatars_gravatar/src/Plugin/AvatarGenerator/Retro.php	ee8e402df071526ba98da70795f08e3e
+M	avatars_gravatar/src/Plugin/AvatarGenerator/Wavatar.php	050d7aeba4e0ac82aa10167edea7a75b
+M	avatars_robohash/avatars_robohash.info.yml	9c71159e808073a23a2f0e914dabd319
+M	avatars_robohash/src/Plugin/AvatarGenerator/Robohash.php	871a361eb194cff118366d0476a83feb
+M	avatars_robohash/src/Plugin/AvatarGenerator/RobohashHeads.php	07610f9dd092bbafd648b9b445b3d145
+M	avatars_robohash/src/Plugin/AvatarGenerator/RobohashMonsters.php	cbf29f9be2cd0d212f9d9745796f5ef4
+M	src/Plugin/AvatarGenerator/AvatarGeneratorBase.php	0487491a3bbb0e53cd3e32e241b846ae

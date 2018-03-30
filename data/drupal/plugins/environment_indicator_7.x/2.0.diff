@@ -1,0 +1,13 @@
+M	README.txt	58d4e4d1c26082a9100b0cdeaaa6af25
+A	color.js	25eecf3ea8197add0df06a6010b5e36b
+M	environment_indicator.admin.inc	d9bbe533ebae4d7aa3f55ab18ef10cd6
+D	environment_indicator.admin.js	
+M	environment_indicator.css	fef3c71e83a3a213927a923a1954e600
+M	environment_indicator.info	2bedeee39adc8c0ff74865f9c2370696
+M	environment_indicator.install	a4b7c2acb3f9da5412cdbeecf1e866ba
+M	environment_indicator.js	e003ad881938753707b74bc89c67b454
+D	environment_indicator.min.js	
+M	environment_indicator.module	d913391450fdd205c2bae4eb067961b1
+A	environment_indicator.theme.inc	d0de8fc4f69523bb3922f794d0b231a1
+A	plugins/ctools_export_ui_environment_indicator.class.php	c39d02212950b2e14484f68c04ad4b8b
+A	plugins/export_ui/environment_indicator_ctools_export_ui.inc	27f4daee6ac895fc59ba36412ce088fd

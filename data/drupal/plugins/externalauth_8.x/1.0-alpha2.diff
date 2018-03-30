@@ -1,0 +1,5 @@
+M	externalauth.info.yml	d6305ac3ae9d371998c91f53150a59b6
+M	src/Authmap.php	c7ae63b5a72a6ececb7a598ae8af77b2
+M	src/ExternalAuth.php	7e2e605aff768a04be8f0c6a25b75dee
+M	src/ExternalAuthInterface.php	32b2630224cbeefb5bb0e7c15ff52e53
+M	tests/src/Unit/ExternalAuthTest.php	6a06dfbc5ffeaa669bc93558d6ea344a

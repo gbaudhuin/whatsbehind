@@ -1,0 +1,6 @@
+M	README.md	87aafc98ad65399c5f001ed389b10a3b
+M	js/tablesaw-init.js	2161383bc3d9f81a817a506987e499dd
+M	responsive_tables_filter.info.yml	c5fbb2d694308b29836c20771af3636e
+M	responsive_tables_filter.module	ad57c2fbd5d4d4eaaa1002e772faad7b
+M	src/Plugin/Filter/FilterResponsiveTablesFilter.php	aef0a6aa9c7a75333619dbaec3d65418
+A	tests/src/Unit/FilterProcessTest.php	2097c4b9d082e9c93c8b8833b5ee2214

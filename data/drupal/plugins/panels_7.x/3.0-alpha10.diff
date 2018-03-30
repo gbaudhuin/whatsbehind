@@ -1,0 +1,78 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	README.txt	c4045cc0795f0d55cf9b4177260fd05e
+M	css/panels_dnd.css	2ddde14fb3e353ef460eea5fa4155d6a
+D	help/plugin-layout.html	
+M	help/plugins-layout.html	c17ff19104e445e961802614a5afb233
+A	i18n_panels/README.txt	a3e71124c57bbf7c5bcaeb0c593e35f1
+A	i18n_panels/i18n_panels.i18n.inc	143e3b508bc24aac7efa9bc2173104fb
+A	i18n_panels/i18n_panels.info	426566706d61d1c16d2029a965a059c0
+A	i18n_panels/i18n_panels.install	7d2a45a9347a2cff300810e6223270df
+A	i18n_panels/i18n_panels.module	4f46112dac0ae338b360ada850bbfd6d
+A	includes/add-content.inc	c0a12fa2de1a4b194900e7a891c0de3b
+M	includes/callbacks.inc	9287b820c0df2982a368712107b07e35
+M	includes/common.inc	40582e585996e09daad9e46b85c3babb
+M	includes/display-edit.inc	d8ef0d652dbc638249761035bc7a84ff
+M	includes/display-layout.inc	b0241a398a1ecf395128302451a89156
+M	includes/page-wizard.inc	d10b48d322a8c5ea343af0b4f639fddd
+M	includes/panels.pipelines.inc	26b3498cf36f54f855d650bc2a3ae30d
+M	includes/plugins.inc	f272c26d81e323f95dbad90628a2bf1e
+M	js/display_editor.js	3f518c45496099d24a79cfa8badf1c0d
+M	js/panels-base.js	000a70a34e9b3984352888e3a6f11f46
+D	js/panels.js	
+A	panels.api.php	cb56df2fb11d4f2301f1bbb440d411d6
+D	panels.info	
+A	panels.info.yml	ae2879802a2a0a6bdbbf98af38ee18e7
+D	panels.install	
+A	panels.layouts.yml	870f554f3c471d9d11935cf8afade395
+A	panels.libraries.yml	1079faaedc59fa11adea8ecc4fea35e9
+M	panels.module	135faa2f79ccbf60e5b925c5cf4d34f6
+A	panels.permissions.yml	8ea92b0ea5a1ba46f1df059b9e66a82f
+A	panels_ipe/css/panels_ipe-rtl.css	8d7b966ca22fd37f3614874740588163
+M	panels_ipe/css/panels_ipe.css	4f51130df635a70687072923e63d6148
+A	panels_ipe/images/icon-add.png	23d74c8ef2fe645b5fab0c2e5d2c157b
+A	panels_ipe/images/icon-change-layout.png	256f079cddbfc16b9fd3bf179f234ce9
+A	panels_ipe/images/icon-close.png	9795288689603a19261ac4fb2b42ad00
+A	panels_ipe/images/icon-configure.png	814af798e9f19430ddaeafed48c348b3
+A	panels_ipe/images/icon-delete.png	4e30c909a2288b40e6a4d966fbb1a3d9
+A	panels_ipe/images/icon-draggable.png	b4717a14ddb866a13cdadf2849202877
+A	panels_ipe/images/icon-save.png	2dbb0158dc196babfba11aa375df0abb
+A	panels_ipe/images/icon-settings.png	d5b4ba1ce19978473251efa0adfa0586
+A	panels_ipe/images/icon-style.png	5e526ee422e4a9f409b3cd752fe31fc8
+A	panels_ipe/images/loading-small.gif	d6b1775ec597beed08e8594c564ffa39
+M	panels_ipe/includes/panels_ipe.pipelines.inc	dcc4dac770ea87bfa2db2c7188a65dfc
+M	panels_ipe/js/panels_ipe.js	c7ad028af54f05feb1afba1a75a8a43f
+M	panels_ipe/panels_ipe.info	a4972381e4aaab3b448d96d23e189104
+M	panels_ipe/panels_ipe.module	c8aa8dea4752a23eb4bededd3e23d2c2
+M	panels_ipe/plugins/display_renderers/panels_renderer_ipe.class.php	ca2021ac0c3e6d648a9f9500a4a9a7ae
+M	panels_mini/panels_mini.info	b5cf7ef290b09446aed72fc1ca859c47
+M	panels_mini/panels_mini.module	960195e4a7de5a6f0194d6521b61eb8a
+M	panels_mini/plugins/content_types/panels_mini.inc	d45abe04a25a956a1e8e441d18173f9e
+M	panels_mini/plugins/export_ui/panels_mini_ui.class.php	0ffdf3ddfec22cf9d71d434d21097cf9
+M	panels_node/panels_node.info	8891e0843bdd23e0a006f417c6f015c2
+M	panels_node/panels_node.install	dfac0b79fb7c9e5a783cb70b3a214902
+M	panels_node/panels_node.module	34c89102fd5cd588190eca3c94f4c9d4
+M	plugins/cache/simple.inc	b374b3154241109b06a8ac237717b44a
+M	plugins/display_renderers/panels_renderer_editor.class.php	714dab6351d8c97e1067c7ee32b2e3db
+M	plugins/display_renderers/panels_renderer_simple.class.php	6150583241502afafbeb6a490a338ccc
+M	plugins/display_renderers/panels_renderer_standard.class.php	988d2cc1f1f3618a302b643eb7ab6b56
+M	plugins/export_ui/panels_layouts_ui.class.php	29fb6e98a17829714f2691688b866ccb
+M	plugins/layouts/flexible/flexible-admin.js	ac60ae54ccb92acb8b0fe28ba4519bba
+M	plugins/layouts/flexible/flexible.inc	5bcb8fd2916a63aa4960bb35a778fa59
+M	plugins/layouts/onecol/onecol.css	abf48f540a5bcd1bbd9f486446f9a01a
+A	plugins/layouts/onecol/panels-onecol.html.twig	7a1660c904a75b91ce2b9c6dd6a6e04b
+D	plugins/layouts/onecol/panels-onecol.tpl.php	
+M	plugins/layouts/threecol_33_34_33_stacked/threecol_33_34_33_stacked.inc	d24580a3d6e5469d192b1d2f5129a086
+D	plugins/layouts/twocol/panels-twocol.tpl.php	
+D	plugins/page_wizards/node_override.inc	
+M	plugins/styles/block.inc	3c6bd4b8a3e3cc5f2e196a129bbfdcca
+M	plugins/styles/corners/rounded_corners.inc	350cd0dc889c7761bb3caf42d87591fe
+M	plugins/styles/naked.inc	3b84ef4134694daeaa34dca1adbb246c
+M	plugins/styles/stylizer.inc	23278eb20bcf5425d029f025a06b8bfa
+M	plugins/task_handlers/panel_context.inc	00b77c96a795381792151abb54b73abd
+M	plugins/views/panels.views.inc	2798bdc7948ffdbf613b72dd93cda5bf
+M	plugins/views/panels_views_plugin_row_fields.inc	70ac7b645404fe1585ad24c42f513e59
+A	src/Plugin/DisplayVariant/PanelsDisplayVariant.php	a303fb43cb69f67dfbe1f453a2f5550e
+A	templates/panels-add-content-link.tpl.php	120bf6607f1795b7853396de744f9b65
+A	templates/panels-add-content-modal.tpl.php	33845731a6dd3428d346fbf3e964ddec
+M	templates/panels-dashboard.tpl.php	f9901874a1d24bde538eb1ed51ce9eeb
+M	templates/panels-pane.tpl.php	613a4159ee5de926ced6d3b5b32a6329

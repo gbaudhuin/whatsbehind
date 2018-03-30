@@ -1,0 +1,13 @@
+A	.travis.yml	53f165ceccae20240c7d67e84196db2a
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	ba2ea593fdfd7e5d4c9ecf0407616fe6
+A	composer.json	7d231dacc125bdf710785702dda2ae94
+A	config/install/cors.settings.yml	3468c43342f0f60bf3e270ce140bed17
+A	config/schema/cors.schema.yml	e06bdd4d1bb1f532a18907df0b515386
+A	cors.info.yml	f18bd16902440848f5c80ae6df6db54e
+A	cors.links.menu.yml	27ec079ea02159c7e10cdbefe1960ee9
+A	cors.routing.yml	dcd047eb2266d860744aa51102c70f5b
+A	cors.services.yml	1bb2c492862c3968d8103a7d1b11c38b
+A	src/EventSubscriber/CorsResponseEventSubscriber.php	b472523887e42b8c3dc2f90c52b8c9f0
+A	src/Form/CorsAdminForm.php	94025ba02488a333685c82543c0f429a
+A	tests/src/Unit/EventSubscriber/CorsResponseEventSubscriberTest.php	74cbae893247a99d15a51759f78badb7

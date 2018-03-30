@@ -1,0 +1,9 @@
+M	replication.info.yml	adabc08c88b504055745a605fcc2f5be
+M	replication.services.yml	dac1595559b54f942cdf29a91bf2273c
+M	src/BulkDocs/BulkDocs.php	a0d058d4b7f56307270cc4fa3e927e01
+M	src/BulkDocsFactory.php	826470a76e35e3b1746c01e179131c51
+M	src/Changes/Changes.php	42394f7dfa1468ab7cc8b716ab46e708
+M	src/Changes/ChangesInterface.php	e812ca950cdba8cc9d0d8505bc0fb9d1
+M	src/Normalizer/ContentEntityNormalizer.php	923080867087c4f43a0db3ba4a69df81
+M	src/Normalizer/LinkItemNormalizer.php	717199d9f5eedfda1b98acb43b592c2b
+M	src/ProcessFileAttachment.php	6cd9c516dacea989e76adeba2a100cd6

@@ -1,0 +1,16 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	migrate_upgrade.drush.inc	58316745341df2f9aeef2fabc590e4f4
+A	migrate_upgrade.info.yml	85ea2bf1a1268e2a63538e374f5b6634
+A	migrate_upgrade.install	bd44d739a5b7c3a05da4d1050f0fd80d
+A	migrate_upgrade.module	b100a095fc47e05f0021f80e1b9e704b
+A	migrate_upgrade.routing.yml	b8c7f73e0800b7405eaaf2b79ff5a12f
+A	src/Controller/MigrateController.php	9401d31c8bc250509d7b3b6f167eede2
+A	src/DrushLogMigrateMessage.php	f0e9773700157aae2c34cb182fb18d6e
+A	src/Form/MigrateUpgradeForm.php	feacf7f606c0c9b9d16b835275d43d63
+A	src/MigrateMessageCapture.php	ad60b216f6eb2c7c9f6028e815300a3c
+A	src/MigrateUpgradeDrushRunner.php	0cc0d4e6ecff1dedbb326a13b301549c
+A	src/MigrateUpgradeRunBatch.php	2fca9f47ce4dff0d77fd25dc5d3f7d51
+A	src/MigrationCreationTrait.php	831e48167a2821d9d5b79a07ab6a0f5c
+A	src/Tests/MigrateUpgradeTestBase.php	672019f46f86f5ec76cd79190433c06a
+A	src/Tests/d6/MigrateUpgrade6Test.php	5525b7b7bd8214764ebc159421fa26d1
+A	src/Tests/d7/MigrateUpgrade7Test.php	e6bb250d90539d4caaffe3d66f6cd9d4

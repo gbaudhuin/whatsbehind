@@ -1,0 +1,7 @@
+A	README	d41d8cd98f00b204e9800998ecf8427e
+M	colorbox_node.info	80cc5d894098b5e3c826f0bee5a168dd
+M	colorbox_node.install	31e13e53639d8d74296165d4c32b4751
+M	colorbox_node.js	0cad94cf45bd5bb0200fc8e0e645545c
+M	colorbox_node.module	4711ae15f659c95c6c945a70994a7803
+A	views/colorbox_node.views.inc	32b327ca11d777ae622117ccd0f02e01
+A	views/colorbox_node_handler_field_colorbox_node.inc	d0476fe117caf6ae42f01624e1fdf461

@@ -1,0 +1,14 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	ace_editor.info.yml	78bf60d3ea631eea9b54485c85ce1912
+A	ace_editor.install	cd97564332faba62cc22cf326e0a00c9
+A	ace_editor.libraries.yml	8a20808a8c863957e47bd670077e0f02
+A	ace_editor.module	4ac6986c9297c2274ca35e85816032db
+A	ace_editor.permission.yml	42719879df47b86d4c873010df8e8366
+A	config/install/ace_editor.settings.yml	cf822b53deb2f45e4c1f2faf5c872280
+A	js/editor.js	eb1816505b71daeb1b3bc1d5572d21c7
+A	js/filter.js	e6b5835d05b0eca1a37ef1cc5a10a9f9
+A	js/formatter.js	09e9960a26f53118434c9936172b55af
+A	src/Plugin/Editor/AceEditor.php	6d03f03cb63f294fe20c4133eec67371
+A	src/Plugin/Field/FieldFormatter/AceFormatter.php	b239e62b60a91ac3f99ad17a57250e34
+A	src/Plugin/Filter/AceFilter.php	d1d4ae12644fcd0b300d925ab8c5bad6
+A	styles/editor.css	5a5ea31382172304e8009baf285c5f16

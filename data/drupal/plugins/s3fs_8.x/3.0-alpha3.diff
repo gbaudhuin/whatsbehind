@@ -1,0 +1,13 @@
+M	s3fs.api.php	abc7f3b26fb7b30871c7d39c3556e92e
+M	s3fs.drush.inc	e8e438c361fba1119c2c27cfcdc50bb0
+M	s3fs.info.yml	141d0713171e42f53140c5d83c1c4218
+M	s3fs.routing.yml	1f02917b20178d7ac87a2bad37efd2eb
+M	src/Controller/S3fsImageStyleDownloadController.php	6140f32f5eb0f6a63ec0529462d62263
+M	src/Form/ActionsForm.php	20172e1068b401e4dbdf3c87b1795894
+M	src/Form/SettingsForm.php	e97a0824ab469e7e9620f7c4a61b391d
+A	src/Routing/S3fsImageStyleRoutes.php	27a8a4a2ac1e51c2b43c841b98f7c9e7
+M	src/S3fsService.php	a5fb0a8aba838af92b1fb2c88c87b03d
+M	src/S3fsServiceInterface.php	29b89ae604d478f9cac92da2ea8dd481
+M	src/StreamWrapper/PrivateS3fsStream.php	357d7d2c7377cafaf6d22b7d9136510d
+M	src/StreamWrapper/PublicS3fsStream.php	b548517859ec1c326916143f13da29f1
+M	src/StreamWrapper/S3fsStream.php	0e0de7343b03cdb64e44a30f0a3849b5

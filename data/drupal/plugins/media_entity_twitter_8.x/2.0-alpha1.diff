@@ -1,0 +1,14 @@
+M	config/schema/media_entity_twitter.schema.yml	377acd7e967050cb25cb5eb4cb28f015
+M	media_entity_twitter.info.yml	20bee8b5e296689e9227192245c19d8d
+M	media_entity_twitter.install	593116091eafb4e6d2afe026cc5e65b1
+M	src/Exception/TwitterApiException.php	ee728f0935fc4e1268f66006bf76a167
+M	src/Plugin/Field/FieldFormatter/TwitterEmbedFormatter.php	ac10118f4feb46189b6d2d1cb2c85bca
+D	src/Plugin/MediaEntity/Type/Twitter.php	
+M	src/Plugin/Validation/Constraint/TweetEmbedCodeConstraintValidator.php	122670b70da66e71105e8a7b2bc8f926
+M	src/Plugin/Validation/Constraint/TweetVisibleConstraintValidator.php	d613df459fac000e161e1f238960a207
+A	src/Plugin/media/Source/Twitter.php	fda91fd44c4c2d39c9891a0917a40925
+D	src/Tests/TweetEmbedFormatterTest.php	
+M	src/TweetFetcher.php	ce0d3c0fc59a5f749e5fad17c1b811ce
+M	src/TweetFetcherInterface.php	9631dda491c02c980dbc1aeaf6892dec
+A	tests/src/Functional/TweetEmbedFormatterTest.php	6715b61d8615242d2908b4fd22313f98
+M	tests/src/Kernel/ThumbnailTest.php	f4c95876081a8f9407a2316dcd296b3b

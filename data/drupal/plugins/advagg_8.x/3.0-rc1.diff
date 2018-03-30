@@ -1,0 +1,13 @@
+M	advagg.info.yml	f76b75a6513e1796f39d0de8dfe1a394
+M	advagg.install	508ee946d683e65ccc6488db5384b88c
+M	advagg_cdn/advagg_cdn.info.yml	79d4f0cfdc2d1d7e98760a2fe153d0a7
+M	advagg_css_minify/advagg_css_minify.info.yml	98670bd8850de25151f464f0398019f0
+M	advagg_ext_minify/advagg_ext_minify.info.yml	079a03d5f834066034ce62b99446eb30
+M	advagg_js_minify/advagg_js_minify.info.yml	29ab8bcb630fd1e6e05a0b36e2dc2d47
+M	advagg_js_minify/src/Asset/JsMinifier.php	d594c7b7baa022b6cffc9571db5911d7
+M	advagg_mod/advagg_mod.info.yml	94b1f6f7f4c5b510a2e8e5f3654ecbb7
+M	advagg_mod/src/Asset/RemoveConsoleLog.php	6584f2045248806ed598e83a757fdc77
+M	advagg_mod/src/Asset/TranslateCss.php	e59f429a6ae28fcbf9a1fe551e219d41
+M	advagg_validator/advagg_validator.info.yml	822906008728c92a5949044e7e002718
+M	src/Asset/AssetOptimizer.php	8c18f324bd354d11693f7f9ae088cecf
+M	tests/modules/advagg_test/advagg_test.info.yml	219ce5281ecb1f445b521e11123e0cd4

@@ -1,0 +1,221 @@
+M	.travis.yml	f37c6f7d4ba5bc8d1b32f70576a7ef2f
+M	README.md	2188101cb52a3d5e21bd879e93bf3d26
+A	config/install/rules.settings.yml	dd9d27b6a3d95d222f7e129abd4ec1aa
+A	config/schema/rules.schema.yml	a2e7592f14347e5451670376773c3338
+A	d7-tests/rules.test	0af41fdd5d091c4711616820f6659771
+A	modules/rules_ui/rules_ui.info.yml	963f64f07c1cedee3a900f527ff1bf34
+A	modules/rules_ui/rules_ui.links.action.yml	40dd8d0cf0321dc730b008e0904c5f8f
+A	modules/rules_ui/rules_ui.links.menu.yml	49bb6550d01a099eec12b9806b57e742
+A	modules/rules_ui/rules_ui.links.task.yml	dfea5b7d52cd878ed6deb5c93cb1cb25
+A	modules/rules_ui/rules_ui.routing.yml	9daebd7f9d8c72e3f7aafffb1ac5431b
+A	modules/rules_ui/src/Controller/RulesUiController.php	4dcb63af1336deb2af9f1d4d5ca7c327
+M	rules.info.yml	3732b858df40a648aefc570b80b9db6e
+A	rules.permissions.yml	9194292ff497d9a2d01df66f27693011
+A	rules.routing.yml	61df5224be41748ed289410f295e08d0
+M	rules.services.yml	436d78696cb032a740c8d572f107dfcb
+A	src/Context/ContextAwarePluginInterface.php	a1a5e82bc6b17114693924f6f48b991f
+A	src/Context/ContextConfig.php	48608ad62bdb5c6f1b93ad025c734da4
+A	src/Context/ContextHandlerTrait.php	e0f12f2cf01d9f604e82c7c30ba0357a
+A	src/Context/ContextProviderInterface.php	8af399cb9a6014022a323571ecdf57ae
+A	src/Context/ContextProviderTrait.php	f9a436469c8fcb810d535f65dfb4d220
+A	src/Context/DataProcessorInterface.php	d8ca0679f5b0e6cf9b7c04ee61b0a9b4
+A	src/Context/DataProcessorManager.php	0200d659c6f72b9cfd6c2e6ae06f2e73
+D	src/Context/ProvidedContextPluginInterface.php	
+D	src/Context/RulesContextTrait.php	
+A	src/Core/RulesActionBase.php	e86c0471a605de43d052d16ba447feb3
+A	src/Core/RulesActionInterface.php	6bba5282cfd559f03c59374705318497
+A	src/Core/RulesConditionBase.php	459eb473d862f9e01fb405203068e0f2
+A	src/Core/RulesConditionInterface.php	75f6b94ddd117a450e5e93406908825f
+A	src/Engine/ActionExpressionContainerInterface.php	dbf24065bdccaed3cdb597683610a01f
+A	src/Engine/ActionExpressionInterface.php	fd10aca9ab95057c3656924be9b6547c
+A	src/Engine/ConditionExpressionContainer.php	70d3e763886f1eefc2e1c7d714804c82
+A	src/Engine/ConditionExpressionContainerInterface.php	debce06976de5522a61a75cd52265818
+A	src/Engine/ConditionExpressionInterface.php	a676180a7f45d9e2d0d2e23526e483f8
+A	src/Engine/ExpressionContainerInterface.php	fbcc32889e5ff70daafb8eb33dd68791
+A	src/Engine/ExpressionInterface.php	21476e52dd7daffedde12b6b4010134e
+A	src/Engine/ExpressionPluginManager.php	7b54c1157e1327d96c5691bfc39efd48
+A	src/Engine/ExpressionPluginManagerInterface.php	851af4bd9dbf44d6a5f1ae60a5beb5c2
+D	src/Engine/RulesActionBase.php	
+D	src/Engine/RulesActionContainerInterface.php	
+D	src/Engine/RulesActionInterface.php	
+D	src/Engine/RulesConditionBase.php	
+D	src/Engine/RulesConditionContainer.php	
+D	src/Engine/RulesConditionContainerInterface.php	
+D	src/Engine/RulesConditionInterface.php	
+D	src/Engine/RulesDataProcessorInterface.php	
+D	src/Engine/RulesEvaluationException.php	
+D	src/Engine/RulesException.php	
+D	src/Engine/RulesExpressionActionInterface.php	
+D	src/Engine/RulesExpressionBase.php	
+D	src/Engine/RulesExpressionConditionInterface.php	
+D	src/Engine/RulesExpressionInterface.php	
+A	src/Engine/RulesExpressionTrait.php	f67c2168299df5b035ea1bd85c77cad1
+D	src/Engine/RulesLog.php	
+M	src/Engine/RulesState.php	207146e7f2b9e825ec9c23b9b87185f3
+A	src/Engine/RulesStateInterface.php	c00f5eeb1f7ebe9e8a11db46678b6f9c
+A	src/Entity/Controller/RulesComponentListBuilder.php	bfbf9de4392093b1d16cdf4ea8859293
+A	src/Entity/RulesComponent.php	2de21e198555b1106e9e37aeebe6d74c
+A	src/Entity/RulesComponentAddForm.php	0e071133c2b167ed2d3c7cb1f42eac0f
+A	src/Entity/RulesComponentDeleteForm.php	e152b7de8e8ac7ddad2db3a7231445cf
+A	src/Entity/RulesComponentEditForm.php	c31ce0928aae23b5bfb20c87ddef5ccd
+A	src/Entity/RulesComponentFormBase.php	86a700476126e002709ba6460d951cc8
+A	src/Exception/InvalidExpressionException.php	6e68f7c1ca9e2a8c48cd5fdd6b0de12b
+A	src/Exception/RulesEvaluationException.php	9f36310aac721f3ad647d1567f31bcac
+A	src/Exception/RulesException.php	a3ca74fbe6691275d7358001b0b728ad
+A	src/Logger/RulesLoggerChannel.php	e631ba42030cc8b29646f57c1cea379f
+A	src/Plugin/Action/BanIP.php	ead764b53d7a85fd7493ac2c1dbca149
+D	src/Plugin/Action/CreateNodePathAlias.php	
+D	src/Plugin/Action/CreatePathAlias.php	
+A	src/Plugin/Action/DataCalculateValue.php	29c1c25fe993e124a5d40adb8b0d32c9
+A	src/Plugin/Action/DataConvert.php	08d5d03bde652bb8362046459571512e
+A	src/Plugin/Action/DataListItemAdd.php	47da66fee91009b5613de391dd10c5e1
+A	src/Plugin/Action/DataListItemRemove.php	62f5b6e694ea1948422ee6484c3bcfd8
+D	src/Plugin/Action/DeleteEntity.php	
+D	src/Plugin/Action/DrupalMessage.php	
+A	src/Plugin/Action/EntityCreate.php	9980d3e3706bb9536b897f4ed7bd7630
+A	src/Plugin/Action/EntityCreateDeriver.php	a2001f388faf8499daf49bea6959f938
+A	src/Plugin/Action/EntityDelete.php	75990712229f783cba8cbc85a7e004a2
+A	src/Plugin/Action/EntityFetchByField.php	e0e07030ebdaad5d11a5dce6d0a70f7e
+A	src/Plugin/Action/EntityFetchById.php	81069ec195358ba9800b50f3aeaf5e37
+A	src/Plugin/Action/EntityPathAliasCreate.php	94f6bcda98075c4901010e613a356fe7
+A	src/Plugin/Action/EntityPathAliasCreateDeriver.php	f3b7cacc72bdeabe25d7b829d77eb98a
+A	src/Plugin/Action/EntitySave.php	ccd550f144b4b6647c083b196926f4d0
+A	src/Plugin/Action/PathAliasCreate.php	09253da5e0da4a95e5a66d868f78675c
+A	src/Plugin/Action/PathAliasDeleteByAlias.php	03af8d075e744801b68cd7fe92c9fb1f
+A	src/Plugin/Action/PathAliasDeleteByPath.php	4abeb177876b0b6b3e787274c7228aeb
+D	src/Plugin/Action/SaveEntity.php	
+A	src/Plugin/Action/SendAccountEmail.php	07798f70df96c7a5ebf176e3ad0090ff
+A	src/Plugin/Action/SystemMessage.php	416d73bf527ad513be01bafa14b6f509
+A	src/Plugin/Action/SystemSendEmail.php	70096b9a731583c98b2b78e880be9967
+A	src/Plugin/Action/UserBlock.php	9d1f70af09f4f994b08ef56a75612365
+A	src/Plugin/Action/UserRoleAdd.php	bd057dd1a0efd978e37493687ef6edde
+A	src/Plugin/Action/UserUnblock.php	b36a35a8d4dcd15e7eea3f9f2f613b0c
+A	src/Plugin/Action/VariableAdd.php	13a01f36d0d9834b22a2740585b09b5d
+M	src/Plugin/Condition/DataComparison.php	ebe58ec9f143d1a895df7622bb4b92ac
+M	src/Plugin/Condition/DataIsEmpty.php	6daf7cc943a99c44a5be235ae9029a3a
+A	src/Plugin/Condition/DataListContains.php	42ca4e204a0a6a6941abba2cb4c89079
+A	src/Plugin/Condition/DataListCountIs.php	98ac27ca83940664d473a1113570a34f
+M	src/Plugin/Condition/EntityHasField.php	55e22f19982087215ac763b41160cbd8
+A	src/Plugin/Condition/EntityIsNew.php	26df01312fa5d3ba575169f8fb8d9f3f
+M	src/Plugin/Condition/EntityIsOfBundle.php	9d18ec80acf091bcd07f620281762d49
+M	src/Plugin/Condition/EntityIsOfType.php	00f89a458389a60fb6bbf46b08e5c6f8
+D	src/Plugin/Condition/ListContains.php	
+D	src/Plugin/Condition/ListCountIs.php	
+M	src/Plugin/Condition/NodeIsOfType.php	e09b1eace2acb6ca66f763f0cd7159f0
+M	src/Plugin/Condition/NodeIsPromoted.php	ccd35d54acbe3c08dfa04798a284c422
+M	src/Plugin/Condition/NodeIsPublished.php	e00a41e6d05a96ccdfc80bf193976d5a
+M	src/Plugin/Condition/NodeIsSticky.php	a5a093ccb59a311f7da3719e9b1f9988
+M	src/Plugin/Condition/PathAliasExists.php	49eec373945a082ce0b20615febae1a6
+M	src/Plugin/Condition/PathHasAlias.php	aa716d26fa3c85b8d78e1da4af5572e7
+M	src/Plugin/Condition/UserHasEntityFieldAccess.php	7a82d5c66d9c64d9e6b9cf9122f172cb
+M	src/Plugin/Condition/UserHasRole.php	1578108574f97ec5c8dcfbd13da4cb13
+M	src/Plugin/Condition/UserIsBlocked.php	66fea0a57fb735089d04408492c66515
+M	src/Plugin/RulesDataProcessor/NumericOffset.php	2eacdc14177df084845e035325d70e89
+D	src/Plugin/RulesDataProcessorManager.php	
+M	src/Plugin/RulesExpression/ActionSet.php	0afbeb09f1414a6a844f51e784033d56
+M	src/Plugin/RulesExpression/Rule.php	f6c0205deddadf9c8025eba36b3bc0c7
+M	src/Plugin/RulesExpression/RuleInterface.php	010c52f73f22a6a5c291c9311a91977b
+M	src/Plugin/RulesExpression/RulesAction.php	39df4c32f2ce762c75ccedbb80a3308c
+M	src/Plugin/RulesExpression/RulesAnd.php	7ab7128ffb0bdacf9630fabe2380a914
+M	src/Plugin/RulesExpression/RulesCondition.php	e9dff4f5bd8d7d393a5dd20503109ae9
+M	src/Plugin/RulesExpression/RulesOr.php	a9c3a1cfe2e7e2b641afd6cbdeab7885
+D	src/Plugin/RulesExpressionPluginManager.php	
+D	src/RulesExpressionTrait.php	
+A	src/Stub/RulesReactionStub.php	065bfaef8007539df44245fca8dcc0d8
+A	src/Tests/ConfigEntityTest.php	eea92d8284660396b625f039f62011a7
+M	src/Tests/DataProcessorTest.php	f7e7a04094fc9698ab992c133bd73a3d
+M	src/Tests/NodeIntegrationTest.php	6f8c0ada24af0daccbdb99a69bcf6928
+M	src/Tests/RulesDrupalTestBase.php	f7a448fe1e5bb7e8c80d00644a02104f
+M	src/Tests/RulesEngineTest.php	28af2bb0877ab948249fe9f3d5dcf8cd
+M	tests/modules/rules_test/rules_test.info.yml	f676dee4d7b4ac1b2f04ad3084a92d11
+D	tests/modules/rules_test/src/Plugin/Action/TestAction.php	
+A	tests/modules/rules_test/src/Plugin/Action/TestLogAction.php	dd4a735f90d8d51df358e694bf6aa5f2
+M	tests/modules/rules_test/src/Plugin/Action/TestNodeAction.php	6fe6b2f94f97c1c3f684d2f80a83829b
+M	tests/modules/rules_test/src/Plugin/Action/TestStringAction.php	124b3e2e699d16eff46da589fdd97a2d
+M	tests/modules/rules_test/src/Plugin/Condition/TestConditionFalse.php	3db55cf7589e53e0a5536ad90449e60d
+M	tests/modules/rules_test/src/Plugin/Condition/TestConditionProvider.php	c36d83c3c7d64b36c360e1a3ed803eb0
+M	tests/modules/rules_test/src/Plugin/Condition/TestConditionTrue.php	bf001aed02cc9cdcf89acc04031aa3d5
+M	tests/modules/rules_test/src/Plugin/Condition/TestTextCondition.php	9480621d31359cf001f7148cb625aa38
+D	tests/src/Action/CreateNodePathAliasTest.php	
+D	tests/src/Action/CreatePathAliasTest.php	
+D	tests/src/Action/DeleteEntityTest.php	
+D	tests/src/Action/DrupalMessageTest.php	
+D	tests/src/Action/SaveEntityTest.php	
+D	tests/src/ActionSetTest.php	
+D	tests/src/AutoSaveTest.php	
+D	tests/src/Condition/DataComparisonTest.php	
+D	tests/src/Condition/DataIsEmptyTest.php	
+D	tests/src/Condition/EntityHasFieldTest.php	
+D	tests/src/Condition/EntityIsOfBundleTest.php	
+D	tests/src/Condition/EntityIsOfTypeTest.php	
+D	tests/src/Condition/ListContainsTest.php	
+D	tests/src/Condition/ListCountIsTest.php	
+D	tests/src/Condition/NodeIsOfTypeTest.php	
+D	tests/src/Condition/NodeIsPromotedTest.php	
+D	tests/src/Condition/NodeIsPublishedTest.php	
+D	tests/src/Condition/NodeIsStickyTest.php	
+D	tests/src/Condition/PathAliasExistsTest.php	
+D	tests/src/Condition/PathHasAliasTest.php	
+D	tests/src/Condition/UserHasEntityFieldAccessTest.php	
+D	tests/src/Condition/UserHasRoleTest.php	
+D	tests/src/Condition/UserIsBlockedTest.php	
+A	tests/src/Integration/Action/BanIPTest.php	f23f08c5ed8b64e0f3760fdd540fd230
+A	tests/src/Integration/Action/DataCalculateValueTest.php	4110bc680f6383e7e84bf99012bb5e6d
+A	tests/src/Integration/Action/DataConvertTest.php	f5b3dca438eb3944024d9e1f23b61970
+A	tests/src/Integration/Action/DataListItemAddTest.php	c8d0007077ddcdfed6ebe4a864cd2720
+A	tests/src/Integration/Action/DataListItemRemoveTest.php	a494f0863cf40b5c0cfc1c1e59663964
+A	tests/src/Integration/Action/EntityCreateTest.php	bc64d8bcdce9b62b5ceddb4b3bfd6d2f
+A	tests/src/Integration/Action/EntityDeleteTest.php	4b319eeb4006b237fa14f70db483a218
+A	tests/src/Integration/Action/EntityFetchByFieldTest.php	bc3b27b6f7ffcfed6896516050667803
+A	tests/src/Integration/Action/EntityFetchByIdTest.php	9a25668df31015c754a581f788223d04
+A	tests/src/Integration/Action/EntityPathAliasCreateTest.php	1d35fd8634a286f7667d8534895be86e
+A	tests/src/Integration/Action/EntitySaveTest.php	4ec97d36e3e6df02bdde0f82d79bff16
+A	tests/src/Integration/Action/PathAliasCreateTest.php	bae454b9e6b5fac70b081cfae323a04d
+A	tests/src/Integration/Action/PathAliasDeleteByAliasTest.php	bdeda14e4ff5f2042c5a68850dd6fd12
+A	tests/src/Integration/Action/PathAliasDeleteByPathTest.php	2ea70db7cb26d6cd1cc65e992c26cbc1
+A	tests/src/Integration/Action/SendAccountEmailTest.php	2bf2e90d31b1d2e95a25a61615e6b661
+A	tests/src/Integration/Action/SystemMessageTest.php	c7e5267890f6530fa05cd292abb9bc4d
+A	tests/src/Integration/Action/SystemSendEmailTest.php	47b5af01dec64c9052e876267444b43e
+A	tests/src/Integration/Action/UserBlockTest.php	74b6fb99e1686510a3088ffc49983940
+A	tests/src/Integration/Action/UserRoleAddTest.php	f758bd8c2f3bf58485dc59cd327e114b
+A	tests/src/Integration/Action/UserUnblockTest.php	cad0c928bd878740f96b19d22a5bf956
+A	tests/src/Integration/Action/VariableAddTest.php	04e7bdbb14c04e9860523c3a071aae7b
+A	tests/src/Integration/Condition/DataComparisonTest.php	d7874ca9c6591aa4bafbbb89b0249f97
+A	tests/src/Integration/Condition/DataIsEmptyTest.php	2e17be82849a9613cc2be192e2ee3149
+A	tests/src/Integration/Condition/EntityHasFieldTest.php	dd6e21e483c9f4efe5125c6d8c6a4a79
+A	tests/src/Integration/Condition/EntityIsNewTest.php	71d7f5962864c2a4d2c346ea3c1527ec
+A	tests/src/Integration/Condition/EntityIsOfBundleTest.php	0ef0c99e31f4cd5cf4a5fb53bdca4334
+A	tests/src/Integration/Condition/EntityIsOfTypeTest.php	c03eacdcba05adfcba017075d81c8209
+A	tests/src/Integration/Condition/ListContainsTest.php	4d17bdbebf5639bfc814b3c0d01239c9
+A	tests/src/Integration/Condition/ListCountIsTest.php	70cb3ac39102b7f19de167c3eb9ca0d6
+A	tests/src/Integration/Condition/NodeIsOfTypeTest.php	045cdc6db9b74e24c9be522fda32d628
+A	tests/src/Integration/Condition/NodeIsPromotedTest.php	32c5a55cbcfb8dca9c3c71052cc5d5dd
+A	tests/src/Integration/Condition/NodeIsPublishedTest.php	542bda4f1e24235311469d5b167c119c
+A	tests/src/Integration/Condition/NodeIsStickyTest.php	39a82175c151379504de2b7e95eb9d7f
+A	tests/src/Integration/Condition/PathAliasExistsTest.php	89d93a5d3d89417b385527de056f5e0c
+A	tests/src/Integration/Condition/PathHasAliasTest.php	a9fcb54987310325171787b02dfffb04
+A	tests/src/Integration/Condition/UserHasEntityFieldAccessTest.php	917fab18c35eafbd2209814d753d0c45
+A	tests/src/Integration/Condition/UserHasRoleTest.php	3081481af68e0fad84b3cc9e93724ff4
+A	tests/src/Integration/Condition/UserIsBlockedTest.php	203ab3e84bbc20c1455ed05f9586c3cb
+A	tests/src/Integration/Engine/AutoSaveTest.php	2756785222a485f14da97d90e59baf03
+A	tests/src/Integration/RulesEntityIntegrationTestBase.php	9825194580703e3dc014a698fb26c1ad
+A	tests/src/Integration/RulesIntegrationTestBase.php	b7e1165280fdc38b2dc5ea950365091c
+A	tests/src/Integration/RulesUserIntegrationTestTrait.php	90695936c0be164136f2e06311b923fb
+D	tests/src/RuleTest.php	
+D	tests/src/RulesAndTest.php	
+D	tests/src/RulesConditionContainerTest.php	
+D	tests/src/RulesConditionTest.php	
+D	tests/src/RulesContextTraitTest.php	
+D	tests/src/RulesExpressionTraitTest.php	
+D	tests/src/RulesIntegrationTestBase.php	
+D	tests/src/RulesOrTest.php	
+D	tests/src/RulesUnitTestBase.php	
+A	tests/src/Unit/ActionSetTest.php	4f391dd93f1b0edb034244db115a082b
+A	tests/src/Unit/ContextHandlerTraitTest.php	89db927692f0955174caf526a477d341
+A	tests/src/Unit/RuleTest.php	1d4258c2f1eb9b57e3ed2c0cf0f01a86
+A	tests/src/Unit/RulesAndTest.php	6c529d19480cd446b7c00376e97f4701
+A	tests/src/Unit/RulesConditionContainerTest.php	b7de9c53301bdb20d252b49df4c994e7
+A	tests/src/Unit/RulesConditionTest.php	9f08481774b2012cbf22a3681152781a
+A	tests/src/Unit/RulesLoggerChannelTest.php	d552425ff6d066f3f0db3b5f6144f8f6
+A	tests/src/Unit/RulesOrTest.php	5852c63e75ed6d9fe99a504b20f27f8b
+A	tests/src/Unit/RulesUnitTestBase.php	d181b4a883099cfcfcd402bd5d2c67fc

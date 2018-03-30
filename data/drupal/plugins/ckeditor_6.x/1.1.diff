@@ -1,0 +1,17 @@
+M	CHANGELOG.txt	a2ac62370d7c4027033b3a5b9337f28e
+M	README.txt	e9a4e125969cefba9ce97c7983c8c6a0
+M	ckeditor.config.js	e741b85a6e911406b30d269adaf2fb68
+M	ckeditor.css	acb894d1f76b1fb4d321b8467a23679f
+M	ckeditor.info	e872b1ef4211e0aab99a9caa9506529d
+M	ckeditor.install	33d90992d8049c7645b234891da4102c
+M	ckeditor.module	01c37ee06704996473b4a23f5eeb004b
+M	includes/ckeditor.admin.inc	11cdef0747fe47a3e67c318e53fc8ecc
+M	includes/ckeditor.drush.inc	ca982fec68fab722504effb612ac5a44
+M	includes/ckeditor.user.inc	f009596893ac0ca8a7686f09fef8acf1
+M	includes/ckeditor.utils.js	85586077fb0b2525dfb87df05862688f
+A	plugins/imce/images/icon.gif	9a1ee572998c7d9b63d15a8d8f601df8
+A	plugins/imce/plugin.js	27388f607881c77b4500d4aa4f05785d
+M	translations/ckeditor.pot	b0cd19e9d75c979b710d57fbb437688b
+A	translations/de.po	b5dd310b9787fe3ab038dd581bd62a52
+A	translations/es.po	956115bc1b494c0d2742e0dd4eecfcfc
+A	translations/fr.po	a872b5314bd626aabdefe49313a3241d

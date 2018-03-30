@@ -1,0 +1,11 @@
+M	engines/schema_mysql.inc	b680bbcf32013883c9a7d15d4a59e3a9
+A	schema.drush.inc	3520b34a6b21fc49ab1e18dc000e36cf
+M	schema.info	e47f706420f0ca4e4ed817a126524a02
+M	schema.install	38aab2be1aa6f53582f54490f77fcad1
+M	schema.module	5e2bc688f1743aa32c6e4940d6bc598b
+A	translations/Kopie von schema.de.po	a45eadd7675490272302ad1a458e0208
+A	translations/de.mo	1b392db85c829d2821b30d9af1270fdd
+A	translations/de.po	97ca62551861bb89b6dbea3883d54259
+A	translations/schema.de.mo	407509b20ea86bce335b00b3cdc0ffe9
+A	translations/schema.mo	0b3a40cbb1dbaacce7a86858193ca8df
+A	translations/schema.pot	8d926b620a2757c90a7c4d2fd78f3133

@@ -1,0 +1,8 @@
+M	panelizer.info	0357536f288ea4e9863d974e56d3f949
+M	panelizer.install	358439055307ffa37831df562aac9387
+M	panelizer.module	694dbc0bc819fc27f6ba032269133d94
+M	plugins/entity/PanelizerEntityDefault.class.php	bcf6d84757c686a7376153d9eecc7a9c
+M	plugins/entity/PanelizerEntityNode.class.php	e85a140be1c0548ee49081c6c91f5f8e
+M	plugins/entity/PanelizerEntityTaxonomyTerm.class.php	a896b4fd250f406f1e777d9d7024f65b
+M	plugins/entity/PanelizerEntityUser.class.php	256a4c43a8a5d5410ac8416b63fc869e
+M	plugins/task_handlers/panelizer_node.inc	82688a337d015a92377a611b1944452b

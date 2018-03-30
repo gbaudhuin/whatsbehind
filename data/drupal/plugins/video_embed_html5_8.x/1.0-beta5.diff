@@ -1,0 +1,6 @@
+M	README.md	e56692d00e8044c2a1433fd6386f5dc3
+A	css/video-embed-html5-thumbnails.css	d48c28e14d9b9546a906ea4f7dd2aa1b
+A	js/video-embed-html5-thumbnails.js	6bcda767409547be63d17d0802ac5d03
+M	src/Plugin/video_embed_field/Provider/Html5.php	6c86a9b4feb4c77c92510de15000078a
+M	video_embed_html5.info.yml	70703a62a6533cd00108e94522d6ea0a
+A	video_embed_html5.libraries.yml	274ed535356a7f3e205f15d0faaace0d

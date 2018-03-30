@@ -1,0 +1,5 @@
+M	commerce_coupon.info	1a3d929ce935f9c57d63b02e279c161f
+M	includes/views/handlers/commerce_coupon_handler_field_coupon_order_remove.inc	05f335175d5a1e922921052ca39ddfa7
+M	modules/date/commerce_coupon_date.info	0acb1cb626dee7e1a826b9f7c20a0da9
+M	modules/usage/commerce_coupon_usage.info	03f4f0c1f0a81276d2830aac7030da14
+M	modules/user/commerce_coupon_user.info	1ad5472737d1d8507cb881aa11b5eef3

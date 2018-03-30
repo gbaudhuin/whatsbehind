@@ -1,0 +1,10 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	config/install/editor.editor.basic_html.yml	1e26b128d1c7710ca6b94dade8dfaa18
+A	config/install/editor.editor.full_html.yml	553bab297f30f246135c6b0a16130800
+A	config/install/filter.format.basic_html.yml	bcf5251f4c33822985fddea9f972f958
+A	config/install/filter.format.full_html.yml	11d9190f1e63daef0fec673b23471b02
+A	config/install/filter.format.plain_text.yml	207a7613714953a5394c12fea5159bc5
+A	config/install/filter.format.restricted_html.yml	a9312f3277be0dcbe4036d61f16952f6
+A	config/install/linkit.linkit_profile.linkit_all_nodes.yml	6d1fe11fbda7fb7ed3c674a394422caf
+A	varbase_editor.features.yml	b617495c8e2e4e8b2a5738b6be94b2ef
+A	varbase_editor.info.yml	363dd34c63238c5644c997657effef02

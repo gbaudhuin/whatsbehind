@@ -1,0 +1,44 @@
+M	CHANGELOG.txt	855147cb109fa190659a108eb16e3a20
+M	help/api.html	2fdbc7c8a0a21db110b9eb4d444b9166
+D	help/pane.html	
+M	help/panels.help.ini	412886c512303e944432bab7e04771a8
+D	help/plugin-layout.html	
+D	help/plugin-style.html	
+A	help/plugins-layout.html	a9a1515873288ab3a580dad8efd9aac3
+A	help/plugins-style.html	d41d8cd98f00b204e9800998ecf8427e
+M	includes/callbacks.inc	2b4d6321fd12b477bc3658df4508af29
+M	includes/common.inc	eff55c2e9411c837843cb9610920d45c
+A	includes/page-wizard.inc	010209ad58bec61f01f27b37ecccf29e
+M	js/display_editor.js	4e3c0ee41207f36dcea8e107e2aacb3e
+M	panels.info	bd0733ec8fea0493fc6428be2c115670
+M	panels.install	be76bbbe506de09e4f1e0016afcbc5ed
+M	panels.module	be506cbf981d84bd8c86ce4e0db095b8
+M	panels_ipe/css/panels_ipe.css	5e903defd9c6c98e810a9f39aa4c9147
+M	panels_ipe/js/panels_ipe.js	34a2e43973c6b931e60e2e6e94f37ea9
+M	panels_ipe/panels_ipe.info	df0cf2745f1d3bd7d8524d2089c3ac9e
+M	panels_ipe/panels_ipe.module	c02abf528c339311615708267da5f463
+M	panels_ipe/plugins/display_renderers/panels_renderer_ipe.class.php	29b1e1936987f276b504d6b3cd0251f2
+M	panels_mini/panels_mini.info	4e646640b108bab9761a36f6ffa5e622
+M	panels_mini/panels_mini.install	c29181951a222e5c1f57aca8429d5c00
+M	panels_mini/panels_mini.module	4fc09f355533c0bca65920b6616504c5
+M	panels_mini/plugins/content_types/panels_mini.inc	6e8028f09307d5f36f4ed9f827d9c5ea
+M	panels_mini/plugins/export_ui/panels_mini.inc	549be76936ad2fc125c39612ffbf5df3
+M	panels_mini/plugins/export_ui/panels_mini_ui.class.php	42d5431ad7059b7b2a9b30f61b72800a
+M	panels_node/panels_node.info	e4d065eaee0c27638c07c47dc1c044cf
+M	panels_node/panels_node.module	6c4ee9941661340565322b1fb1a70a64
+M	plugins/cache/simple.inc	64eff8296a9164b9434e1be9ad6a4c29
+M	plugins/display_renderers/panels_renderer_editor.class.php	62a9e88758d1ea69e3c25e3b353b91f9
+M	plugins/display_renderers/panels_renderer_legacy.class.php	ce4087553cd562efe333c3eb434ce49c
+A	plugins/display_renderers/panels_renderer_simple.class.php	00def344f1aa49e75bc84743d0fcde6d
+M	plugins/display_renderers/panels_renderer_standard.class.php	9d42929e7c47bb076534cfeb22bf3e3c
+A	plugins/display_renderers/simple.inc	7a976e8c56900fe8e8e32baffc907c51
+M	plugins/layouts/flexible/flexible.inc	78015a574bb14dc480603802fe2d8712
+A	plugins/page_wizards/landing_page.inc	18b092619320a423a36bb018f37e343c
+A	plugins/page_wizards/node_override.inc	b84cb0f812495c01f2d8e77f495a7252
+M	plugins/style_bases/pane/pane_rounded_shadow/pane-rounded-shadow.css	c5b4aa077ac56a292e71cb803b1d112c
+M	plugins/style_bases/region/region_rounded_shadow/region-rounded-shadow.css	b8b0342aef48e868a5f821177339bbb6
+M	plugins/styles/stylizer.inc	536cee3d82c77a18ff0ea9e2f9a54479
+M	plugins/task_handlers/panel_context.inc	f0d2aeeb986e6cbc4fb85db7b897cb23
+A	plugins/views/panels.views.inc	0ab23efbbf3c8e4f6b41c8ef85141bb3
+A	plugins/views/panels_views_plugin_row_fields.inc	cb4df741b58d136cf44e994168517d07
+M	templates/panels-dashboard.tpl.php	b3328c7bf0a9990c06e88aad13b48394

@@ -1,0 +1,8 @@
+A	plugins/export_ui/video_embed_field_export_ui.inc	99244a8144743b1b25433ec98c5c5c2b
+A	video_embed_field.admin.inc	4a8a8eab4d528591387eddc3b21594f2
+M	video_embed_field.api.php	1adff916dad23db8ea0e302209a13abd
+A	video_embed_field.field.inc	a2797307f1c5fdd8afb291da0158f717
+A	video_embed_field.handlers.inc	984002f350ba09e955d7a51f7d0a1511
+M	video_embed_field.info	0fa326c73269b4838f7ecb026deb0b77
+M	video_embed_field.install	5b2784f8b52b6a829da19106b9c9a2b0
+M	video_embed_field.module	da192aef091c553b6b1dba6f8f41de0d

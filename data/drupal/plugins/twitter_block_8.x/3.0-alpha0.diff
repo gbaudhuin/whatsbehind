@@ -1,0 +1,4 @@
+M	config/schema/twitter_block.schema.yml	7b240c5059c2765148f6723ae08b52fe
+M	src/Plugin/Block/TwitterBlock.php	2d5bf6afa760d67d2793987d8d0c98ce
+M	src/Tests/TwitterBlockTest.php	b5898689654dbad0173ac372e8361ab2
+M	twitter_block.info.yml	75d9ed0198954dcfad211f0e11d04713

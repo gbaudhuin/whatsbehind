@@ -1,0 +1,5 @@
+M	config/install/search_api_attachments.admin_config.yml	714ad4ceaac454714e49368fa5ead958
+M	config/schema/search_api_attachments.schema.yml	43957771a45e25a323dd5e118e928f6e
+M	search_api_attachments.info.yml	33ac00edb4753ca0f8b8e28801d26a6b
+M	src/Plugin/search_api/processor/FilesExtrator.php	37a8152ad90f4753ffac0f81aea369aa
+M	src/Plugin/search_api_attachments/SolrExtractor.php	4be3b7fe8ff48f375008c8a84a25ebbf

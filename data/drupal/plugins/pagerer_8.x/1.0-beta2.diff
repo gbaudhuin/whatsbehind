@@ -1,0 +1,14 @@
+M	pagerer.info.yml	4b0f113ec9bca9aaad9da74a27befb1a
+M	pagerer.module	ec303283dc55ddd9d7322c349f2cc679
+M	pagerer_example/pagerer_example.info.yml	ef1f038bb828ac93546ca674fe785bb8
+M	src/Form/PagererConfigForm.php	3f5f5b1d626b2e9482e698d237c9b457
+M	src/Form/PagererPresetDeleteForm.php	48ca74ab81924b2ae9dfd3101f896c38
+M	src/Form/PagererPresetEditForm.php	35fcee4d14e2759420c140d6f8b1f17e
+M	src/Form/PagererPresetPaneEditForm.php	585f7a9dc1d7be67cbca91bfe0bd2d8b
+M	src/Pagerer.php	dc5701a58831252c87be4835d94d31dd
+M	src/PagererInterface.php	963f52d40bb4e9fb27ff061cb24fec10
+M	src/Plugin/pagerer/Multipane.php	c194f04f323f90c8b8928cce61f2584d
+M	src/Plugin/pagerer/PagererStyleBase.php	12d0c9c80ee5728063443b32407a2495
+M	src/Plugin/pagerer/Scrollpane.php	c468f4130425ffb367476d075f9097cd
+M	src/Plugin/views/pager/Pagerer.php	f5c242168921eb713278b025bf9c0784
+A	src/Tests/CorePagerReplaceCommentInterfaceTest.php	9297e656b9c1cdfac4fc87c08f7d215d

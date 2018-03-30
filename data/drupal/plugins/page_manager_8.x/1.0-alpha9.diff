@@ -1,0 +1,16 @@
+M	page_manager.info.yml	2f14ef13626a67adf26c54981eb8da07
+M	src/Form/DisplayVariantFormBase.php	6996e2d6fd53efec6c6b83a4446aea74
+M	src/Form/DisplayVariantFormInterface.php	83503c29fd863f16c89d5d3d5abf78bd
+M	src/Form/PageFormBase.php	26592eb1f6ccd6ff1b6f9e18781314c5
+M	src/PageExecutable.php	0c63c4172d4832a8f42912266b4fe5f7
+M	src/PageExecutableInterface.php	d76ed109c34261ff0f381f73234fca57
+M	src/Plugin/ConditionVariantInterface.php	1dafbdd6700c2f8349ee591b9c0bb7e9
+M	src/Plugin/ConditionVariantTrait.php	7e28fae085ac7cefb29c2c75b6abd99c
+M	src/Plugin/ContextAwareVariantTrait.php	d56764d646bfdbe3c045046f5b166122
+M	src/Plugin/DisplayVariant/BlockDisplayVariant.php	a1f724959f0fd85b0c9c13c622493cfb
+M	src/Plugin/PageAwareVariantInterface.php	501b44fec96521f58cfb5375aa52411d
+M	src/Routing/PageManagerRoutes.php	d3a66943ea79c35568c3a1f386aa026d
+M	src/Tests/PageConfigSchemaTest.php	0c61b29c729b332a1bb96c3b7c0e8962
+M	src/Tests/PageNodeSelectionTest.php	ce2dc17a11561cc3c4ff20c7cab750f2
+M	tests/modules/page_manager_test/page_manager_test.info.yml	2663fdbb035dc9e842688000eb0ed682
+M	tests/src/Unit/BlockDisplayVariantTest.php	77cb75c4b2a9cfed121f74257ba03405

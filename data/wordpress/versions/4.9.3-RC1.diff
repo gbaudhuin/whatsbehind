@@ -1,0 +1,14 @@
+M	wp-admin/js/customize-controls.js	bf3aac7d4a9dce03ec9dd7e993fac22d
+M	wp-admin/js/customize-controls.min.js	0f62d3fad1802882f09617ec1c093f35
+M	wp-includes/class-wp-customize-manager.php	bdba601b9efaaf376f72823e39392303
+M	wp-includes/class-wp-customize-nav-menus.php	9d03b20e4fb708acf1060d2b706a74a1
+M	wp-includes/general-template.php	924d515ac1869c5a8523fc387d8c4cf7
+M	wp-includes/js/customize-selective-refresh.js	527d1e0957b88a45d872f4a318e8ec13
+M	wp-includes/js/customize-selective-refresh.min.js	aefff2962b2f3da789019ca890e97f83
+M	wp-includes/js/media-views.js	608a9976d28d43953839ba010fe84e60
+M	wp-includes/js/media-views.min.js	45c3a5624225a7c168e9e697c546ef56
+M	wp-includes/js/mediaelement/wp-playlist.js	b135057e7d04c299ca1e9b7d6055f4ed
+M	wp-includes/js/mediaelement/wp-playlist.min.js	5fb749f8adce337f9f303136821bdf5f
+M	wp-includes/media-template.php	1f0b0e3d03f1bbfced12992bef5127ea
+M	wp-includes/version.php	471ff63039a318afa078d3c31f4beff7
+M	wp-includes/widgets/class-wp-widget-text.php	89b44ed0a8562d2626140d41cbac1fd8

@@ -1,0 +1,14 @@
+M	acquia_connector.info.yml	1380e16856616e6d007c5333a81c4055
+M	acquia_search/acquia_search.info.yml	a0f8c4aa8f0d64c3b1c194668b8ad792
+M	acquia_search/acquia_search.install	ab54338061e3ad58f63d5a4fe5604d5b
+M	acquia_search/acquia_search.module	d4c5693b235e7d5d7cac1ec7dc0a6f6c
+A	acquia_search/src/AcquiaSearchV3ApiClient.php	ccdb49b17aaef6159a806a8ecb74275e
+M	acquia_search/src/EventSubscriber/SearchSubscriber.php	3e6795604751c4cfc3aae5f877308131
+M	acquia_search/src/Plugin/SolrConnector/SearchApiSolrAcquiaConnector.php	d3f43f6cab988ad75ba75df4d7da490d
+M	acquia_search/src/PreferredSearchCoreService.php	af26cfc6c0cf2a168458a2614e0511e9
+M	acquia_search/tests/modules/acquia_search_test/acquia_search_test.info.yml	0107b0b64a455e019d57a9c294739ab2
+M	acquia_search/tests/src/Kernel/AcquiaSearchOverrideTest.php	39d636fa4ece2b0b30790cb2f5b6b98b
+A	acquia_search/tests/src/Unit/AcquiaSearchV3ApiClientTest.php	057df3e52d0f89aac5e21fe4c13e1fa8
+M	config/schema/acquia_connector.schema.yml	20ecf6fd0d94ddbd19cc312826143256
+M	src/Form/SetupForm.php	de4a947a2f66c671d67bd8558606a36d
+M	tests/modules/acquia_connector_test.info.yml	c1625568a453a1a46d96f406324a9a42

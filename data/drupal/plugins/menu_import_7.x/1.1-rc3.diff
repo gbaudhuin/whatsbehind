@@ -1,0 +1,14 @@
+M	README.txt	b485edb3550ccc52b26da60f6895d625
+M	includes/admin.inc	6c2a087c766d80650d68df3effb537b0
+M	includes/import.inc	e571f3516d019ebd8f3377b3744805d3
+M	menu_import.info	17123421888a9ffea80cb929d68c6e70
+M	menu_import.module	18c8d5ed0f25d38e21874d26f369f5c5
+M	menu_import.test	439b9159ed93382ae972724cced50b31
+D	menu_samples/aliases.txt	
+D	menu_samples/complex.txt	
+D	menu_samples/simple.txt	
+D	menu_samples/urls.txt	
+A	tests/aliases.txt	7d55ebc0cbf65fffa33fbca4a6c69f35
+A	tests/complex.txt	f0742b6bc4513192bc60c14da9df0e88
+A	tests/simple.txt	1e45bfbc7696fe261862da298c687bc2
+A	tests/urls.txt	7d696fd4a85689f2e46756402965fa3e

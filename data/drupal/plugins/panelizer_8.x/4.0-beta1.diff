@@ -1,0 +1,17 @@
+M	CHANGELOG.txt	c6fae789a7d0c3b8c4616f582bfa92bb
+M	README.txt	138bc72b43069a3199fdab04148a1d72
+M	composer.json	71b72d66e533fbd4e3a413f7240ab7ba
+M	js/panels_ipe/views/SaveTabView.js	85b2c9f9a6e6c8d5b2d952f79192f472
+M	panelizer.info.yml	8e371c5bef94dac7b3e12a1a0df4f6e0
+M	panelizer.module	4bb4ea3398fdfd77f2ac6955c90ed251
+M	panelizer_quickedit/panelizer_quickedit.info.yml	f4483bff169ae6b5f80e3f8e345bddd9
+M	src/Form/PanelizerWizardGeneralForm.php	444864eafd81e6d97e15898c7dcad4de
+M	src/Plugin/PanelizerEntity/PanelizerUser.php	c48a75084171ceef3a5c58c3b0fa156f
+M	src/Plugin/PanelizerEntityBase.php	176aa95bd2d6747b906e91fc7beee128
+M	src/Tests/PanelizerAddDefaultLinkTest.php	395355a2861932478591f0d368e5b050
+M	src/Tests/PanelizerDefaultsTest.php	006c41d2201fbf4cf19db19ad8399821
+M	src/Tests/PanelizerIpeTest.php	5a1adbc260c810b8cefe2005aa7c8304
+M	src/Tests/PanelizerNodeFunctionalTest.php	9830cded472dc48d366f4608c1be2775
+M	src/Tests/PanelizerTermFunctionalTest.php	eb560356fa42a71582b92385095d1357
+M	src/Tests/PanelizerUserFunctionalTest.php	1a84143ccc8a0f91fadf8c563417fef0
+M	tests/modules/panelizer_test/panelizer_test.info.yml	17e8f66503746fd027acc684f10c033a

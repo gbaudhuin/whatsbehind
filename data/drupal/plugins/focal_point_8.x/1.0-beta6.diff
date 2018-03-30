@@ -1,0 +1,7 @@
+M	config/schema/focal_point.schema.yml	6b78f9645a796e8cd0c6e75cc2c5d063
+M	focal_point.info.yml	059c8edaad80237cc0104b6cdcbf7113
+M	focal_point.install	4b7c4ce7e9c443bb81fffb78f8e74ae9
+M	focal_point.module	8a807db9f66980f7403297ed98205162
+M	src/Controller/FocalPointPreviewController.php	507a49259dece2861431318ce19eb91b
+M	src/Plugin/ImageEffect/FocalPointCropImageEffect.php	42e8a7a9a9e0e175bb5d7752fd846e04
+M	tests/src/Unit/FieldWidgets/FocalPointFieldWidgetTest.php	46d35bb0e69b360374bb186cf7e8b199

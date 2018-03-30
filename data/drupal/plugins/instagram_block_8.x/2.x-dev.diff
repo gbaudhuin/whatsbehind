@@ -1,0 +1,5 @@
+M	README.txt	74492a9a6f7111a0d263acbbd1972b40
+M	instagram_block.info.yml	439f25639b405eeb96bb4c03759fb9ad
+M	src/Plugin/Block/InstagramBlockBlock.php	25f5b7a126edef02fbabe2489c9bdd44
+M	src/Tests/InstagramBlockConfigFormTest.php	ccd607a3fb5d76e603679f7d8b35cd7b
+M	src/Tests/InstagramBlockPlaceBlockTest.php	78e624a4aaf77bf286ecc824278e3d65

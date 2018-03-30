@@ -1,0 +1,6 @@
+M	CHANGELOG.txt	7eed09682e2f7d8c4cf9ca233a28a928
+A	plugins/content_types/search_api_page_search_box.inc	3d3581d1b0ef1c9781b5157b3de7dec7
+M	search_api_page.admin.inc	8ce86d6e95dd32d2b47fcdb3cefd2752
+M	search_api_page.info	0694840bc324167d3a34e1f8f7664009
+M	search_api_page.module	09a7bfc1c9cebef65f24eef46fcc61b3
+M	search_api_page.pages.inc	936b5d400b73e346becb3ba95263900f

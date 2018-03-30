@@ -1,0 +1,71 @@
+M	README.md	548cc20db712b2785396165362101b1f
+M	composer.json	e4c13193fa9beb2810b9135b885c921d
+M	modules/openapi_redoc/README.md	f3e64fa9e082882fe84331452ac63ed6
+M	modules/openapi_redoc/openapi_redoc.info.yml	07eda96a9b74a00e0544eb2d0b5b0148
+M	modules/openapi_redoc/openapi_redoc.links.menu.yml	fdce293864c99937ce48c0f9730077db
+M	modules/openapi_redoc/openapi_redoc.module	6f075d31e11c919db3a2fb2146ed1903
+M	modules/openapi_redoc/openapi_redoc.routing.yml	f02d8c7433a4924bec7488746c1dbbf1
+M	modules/openapi_redoc/src/Controller/DocController.php	8cb65dfeba24e70e229e9e584d85d277
+M	modules/openapi_redoc/src/Routing/Routes.php	dc5a7442bb9f59440ff77b3f7219f8c1
+M	modules/openapi_swagger_ui/README.md	d20fd3242b2eb307f8bc4d23b2773d7c
+M	modules/openapi_swagger_ui/css/swagger-ui.css	1f96186e7a652b9b661488e137fa269c
+M	modules/openapi_swagger_ui/openapi_swagger_ui.info.yml	a80bfb5df132362d417f4b47dc3ab805
+M	modules/openapi_swagger_ui/openapi_swagger_ui.module	03c0b0c942cc143cb94544e5ad841854
+M	modules/openapi_swagger_ui/openapi_swagger_ui.routing.yml	112e8f59ee23cd78f53afe5561329218
+M	modules/openapi_swagger_ui/src/Controller/SwaggerUIControllerBase.php	9173394926559c43a1b7b524fc2f9ed3
+M	modules/openapi_swagger_ui/src/Controller/SwaggerUIJsonApiController.php	43adc5ae49db8fdcbf973709cbd8f2e7
+M	modules/openapi_swagger_ui/src/Controller/SwaggerUIRestController.php	24aeb4cf86a835a76e26ef17b44659b6
+M	modules/openapi_swagger_ui/src/Routing/Routes.php	224fbdbf0933c0bc147ec74b7e499057
+M	openapi.info.yml	0b0d5d23f2d149d94b3885eb33f00154
+M	openapi.module	3d8604ff2555ceafdf857c233785db48
+M	openapi.routing.yml	db7874f24e89b4858b0523d74aa52c36
+A	openapi.services.yml	67361f09d85da4437dcdab1bba2146dd
+A	src/Annotation/OpenApiGenerator.php	a05cd53741bfd74e24d7bf9279791083
+A	src/Controller/ApiSpecificationController.php	a23399d6520eaf478b64c1afd81d817d
+D	src/Controller/ApiSpecificationControllerBase.php	
+D	src/Controller/JsonApiSpecificationController.php	
+M	src/Controller/OpenApiDownloadController.php	fdefc3056e2730560de31ede05e9688f
+D	src/Controller/RestSpecificationController.php	
+D	src/OpenApiGenerator/OpenApiGeneratorBase.php	
+D	src/OpenApiGenerator/OpenApiGeneratorInterface.php	
+D	src/OpenApiGenerator/OpenApiJsonapiGenerator.php	
+D	src/OpenApiGenerator/OpenApiRestGenerator.php	
+D	src/OpenApiGenerator/RestInspectionTrait.php	
+D	src/OpenapiServiceProvider.php	
+A	src/ParamConverter/OpenApiParamConverter.php	5717cf3588feb1b544c36d09a9c489ba
+A	src/Plugin/openapi/OpenApiGenerator/JsonApiGenerator.php	ecf2b63f19daa2769f92d74933458202
+A	src/Plugin/openapi/OpenApiGenerator/RestGenerator.php	455f3dda9741fec226b6268e09d16f42
+A	src/Plugin/openapi/OpenApiGeneratorBase.php	8ae9dd4189b54077d6cb97d82ce4419f
+A	src/Plugin/openapi/OpenApiGeneratorInterface.php	5c7063fb998c2fb359d0519bd7deae38
+A	src/Plugin/openapi/OpenApiGeneratorManager.php	bdfb2cb7376cb30cab175b96cf1b7ae0
+A	src/RestInspectionTrait.php	74e43553cb195faecc2125788bc5fcc4
+D	src/Routing/Routes.php	
+M	tests/expectations/jsonapi.json	1c93595f579acb6e34920aff1d08eb9d
+D	tests/expectations/jsonapi.node.camelids.json	
+D	tests/expectations/jsonapi.node.json	
+A	tests/expectations/jsonapi.openapi_test_entity.camelids.json	14d030dc81a3d642f4d0c83b0ab79934
+A	tests/expectations/jsonapi.openapi_test_entity.json	b6cd1a717eb0ffbab55873dc64bccb45
+A	tests/expectations/jsonapi.openapi_test_entity.openapi_test_entity_test.json	2ae19eca2d1adbe4f689cac0f32130dd
+A	tests/expectations/jsonapi.openapi_test_entity_type.json	9b6e86b589e15bf2d8656a9c22e76e31
+M	tests/expectations/jsonapi.taxonomy_term.camelids.json	5c88fb8ca39d60ed2fbfc3936bdc7708
+M	tests/expectations/jsonapi.taxonomy_term.json	6ff8a8a3eb7fe18267f6e4020011cfc9
+A	tests/expectations/jsonapi.taxonomy_term.taxonomy_term_test.json	9dbd6f03d38b756bf7af5621ec26414d
+M	tests/expectations/jsonapi.user.json	7f2f8e42a3bd48bef98de536277ee2fe
+M	tests/expectations/rest.json	9d94aa0d3e02d656c706a23a03c2779a
+D	tests/expectations/rest.node.camelids.json	
+D	tests/expectations/rest.node.json	
+A	tests/expectations/rest.openapi_test_entity.camelids.json	f2abc081fb7dd22eabf8ec15651d9154
+A	tests/expectations/rest.openapi_test_entity.json	1db5270fe23458fe61c62effe1cf48ba
+A	tests/expectations/rest.openapi_test_entity.openapi_test_entity_test.json	5d918a8812bb07adb672f16b4ac0b1b4
+A	tests/expectations/rest.openapi_test_entity_type.json	2f27be5455b20920623ef504fd26e3e0
+M	tests/expectations/rest.taxonomy_term.camelids.json	51ec12e7824a404492481bd402556cfd
+M	tests/expectations/rest.taxonomy_term.json	47cb1c8cd6eaa3baafa747557538f300
+A	tests/expectations/rest.taxonomy_term.taxonomy_term_test.json	a5f7f70063914cdc6057ae5f1ae280ca
+M	tests/expectations/rest.user.json	292067b762677d47781489e43865949a
+A	tests/modules/openapi_test/config/schema/openapi_test_entity_type.schema.yml	5cf59ea0a0c8e2e4b5678c1d69ec2503
+A	tests/modules/openapi_test/openapi_test.info.yml	0fceed9f1f7534241c4b7faa45909e7c
+A	tests/modules/openapi_test/src/Entity/OpenApiTestEntity.php	c55dc03a49f2e3d815eaa6bd078d3ea8
+A	tests/modules/openapi_test/src/Entity/OpenApiTestEntityInterface.php	68017c9b563d185e61dc8c4a75e5dba4
+A	tests/modules/openapi_test/src/Entity/OpenApiTestEntityType.php	88e6bdc9e8fab8437d6fb62abbfa26d2
+A	tests/modules/openapi_test/src/Entity/OpenApiTestEntityTypeInterface.php	d62b91eb01b39f794cb1aa55eb5879f5
+M	tests/src/Functional/RequestTest.php	c578636354c055cac0cdd5b64efe69e8

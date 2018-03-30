@@ -1,0 +1,10 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	README.txt	a07de3d5df0ac83fbd7a1517eeafcadd
+M	field_slideshow.css	5bd60c5c904fa98e9bdb3f02e8143e0e
+M	field_slideshow.info	9dd5e95d2234b1fd0d88f00d1270e11a
+A	field_slideshow.install	4c5dfe9274e840cbefa415580f64feea
+A	field_slideshow.js	ffdf145869da13a80d5c2da81b24705c
+M	field_slideshow.module	2087e0e82261bc2dd23ce8e9628fc7bd
+D	js/field_slideshow.js	
+D	js/jcarousellite_1.0.1.min.js	
+D	js/jquery.cycle.all.min.js	

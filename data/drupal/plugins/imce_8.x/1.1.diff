@@ -1,0 +1,4 @@
+M	imce.info.yml	0e990b333c139d97d34446f7980b135d
+A	js/plugins/ckeditor/icons/imceimage.png	0e7aaf4bddfd126ce2a7deb60bf751ba
+A	js/plugins/ckeditor/icons/imcelink.png	55e1c9e1ef77217278000858846c9fc3
+M	src/Plugin/CKEditorPlugin/Imce.php	67dcfd5cf1860caefb039ab4491de3fe

@@ -1,0 +1,8 @@
+M	README.txt	712791cdd521676799ba8010580ef522
+M	css/social_login.admin.css	3019802e9da6b38c76a071e97b45c31a
+M	img/social_login.providers.png	0c5e07f882a5eb45ad4efd5ad5fbb0be
+M	social_login.info.yml	cd23fc4593b9cd16db592fa848390ab1
+M	social_login.libraries.yml	650fdc285f8e874d07104df313bf6fed
+M	social_login.module	a702ab60b6cb791655258ff0617058e2
+M	src/Form/SocialLoginBlockForm.php	bc4810d4e44c70a3df743af27be92889
+M	src/Plugin/Block/SocialLoginBlock.php	0bf856b2b3ffc6c909c9362c83abd293

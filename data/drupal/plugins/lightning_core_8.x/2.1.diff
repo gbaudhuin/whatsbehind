@@ -1,0 +1,16 @@
+M	.travis.yml	f2b21af2e86586393de49e673645f20f
+M	CHANGELOG.md	2270c4f64c5e3d162ffc71b6d795db47
+M	lightning_core.info.yml	79a4fdcc35ecdc4470dc45f04ddef630
+M	modules/lightning_contact_form/lightning_contact_form.info.yml	f956b448d03e5ba40c728ea3a3272bec
+M	modules/lightning_page/lightning_page.info.yml	f9dd3c54636f60ec0d48d4d7482c4c59
+M	modules/lightning_roles/lightning_roles.info.yml	4aec1fccda72c35e95ebe4d7cd3c1db3
+M	modules/lightning_search/lightning_search.info.yml	069c3352f1f5d67adb755ebabff4e002
+M	modules/lightning_test/lightning_test.info.yml	ce479642b300f424450986e232250330
+M	tests/contexts/AwaitTrait.inc	ce1bd8a374b23650bbc66bf9d6af847d
+M	tests/contexts/CkEditorContext.behat.inc	abc38af0a5d9c6fe9f9064b18abc3694
+M	tests/contexts/DebugContext.behat.inc	11ddbd6ce6a41c11a5b2a776de2165bf
+M	tests/contexts/ElementContext.behat.inc	04c266b8f2dea4de1367b7fd197912f9
+M	tests/contexts/EntityContext.behat.inc	31b7f06ae042afa27ee7e5f83d67590a
+M	tests/contexts/TestModuleContext.behat.inc	a495832cd5ef5e355a78a5f1e19229ea
+M	tests/contexts/ViewsContext.behat.inc	817404fd24a78db420c1c4252aa84d42
+A	tests/fixtures/2.1.0.sql.gz	951844d5c6ad3e42a6477cd8980d16d4

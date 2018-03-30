@@ -1,0 +1,7 @@
+M	CHANGELOG.txt	d202b704fd111b032d6acb0c1e102c6d
+M	README.txt	6a8365a94e365691d008e54bbe95ecd2
+M	mimemail.info.yml	a0bebb46932527776aaa0839e55834a5
+M	mimemail.module	2f1695e522527a5d578e8ce59c8b2ef4
+M	src/Form/AdminForm.php	6370614c6e9bb608520863fe689e4e51
+M	src/Plugin/Mail/MimeMail.php	aef42d2c80cb713d195ca1c0968687f6
+M	src/Utility/MimeMailFormatHelper.php	d744ba4f3f336c840aea28e601ec54d9

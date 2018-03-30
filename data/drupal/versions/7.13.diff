@@ -1,0 +1,12 @@
+M	CHANGELOG.txt	ca11b070227bcf518e64884a83b7f78e
+M	includes/bootstrap.inc	770b918045a46e38f0f52284a9e57c94
+M	includes/file.inc	85de03333793befb964871b8d982b21c
+M	modules/filter/filter.module	32784b22b24ce0ff3f06fa4a98e3bded
+M	modules/forum/forum.install	b8bdace6bb09b6a0e9e7cae6cba501f1
+M	modules/forum/forum.module	3dd0d8e347524f609e46b1fb5ef682d8
+M	modules/forum/forum.test	bceedd46fdb387120bdb564663e7f2b5
+M	modules/image/image.module	efda4246d9ac2ec45903b768687095eb
+M	modules/image/image.test	b65d5f94b94d2171df98467a854a0372
+M	modules/node/node.admin.inc	f58f3d64340c1104212dfb20198c13bc
+M	modules/user/user.module	cbfd2b31f349a5c20c3370b4ef80eea2
+M	modules/user/user.test	16f1412fbdd90aae3df39ed82fd2f312

@@ -1,0 +1,8 @@
+M	chosen.info.yml	dac18f92f7799509045febe6f0725df5
+M	chosen.module	1d5366993e6151b68f7803435a9e317e
+M	modules/chosen_field/chosen_field.info.yml	06e1fc3ecc06798e350f84c75f2771ab
+M	modules/chosen_field/src/Plugin/Field/FieldWidget/ChosenFieldWidget.php	3f158d44ccdf8e256af2b3fbb2c4508a
+M	modules/chosen_field/src/Tests/ChosenFieldWidgetsTest.php	26964b73d63b02c2e181b430cac65ffd
+M	modules/chosen_lib/chosen_lib.info.yml	130c0804d839892dd11673997955153e
+M	tests/modules/chosen_test/chosen_test.info.yml	19848a2a55884d768b206aff422232bc
+A	tests/src/Functional/MultivalueTest.php	6f7938af59bc7ff21dd2788991782dee

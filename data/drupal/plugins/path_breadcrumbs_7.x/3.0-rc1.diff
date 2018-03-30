@@ -1,0 +1,7 @@
+M	CHANGELOG.txt	8a489677906084377b76e9ff79ff2bb8
+M	path_breadcrumbs.info	96888ffb250947b2f7d96e8eaf72809d
+M	path_breadcrumbs.info.inc	dacb8ab1ab64658e7950144c362fcb9b
+M	path_breadcrumbs.module	d37bf5f4c7131f6a176c414e93b25260
+M	path_breadcrumbs_i18n/path_breadcrumbs_i18n.info	e6e6720c06dd366f0743fb8e610e4854
+M	path_breadcrumbs_ui/path_breadcrumbs_ui.info	37f4a6f869faab46be52b36a70224bba
+A	plugins/contexts/path_breadcrumbs_user.inc	e61363e8713af267ed6cf77b0d23a84b

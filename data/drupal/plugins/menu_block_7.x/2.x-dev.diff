@@ -1,0 +1,11 @@
+A	css/display-options-background.png	b899431ee3d9bfe444940b23f5f70e6f
+A	css/menu-block.admin.css	2ddbfcf2490ed40465431afe1af30189
+A	js/menu-block.js	8ff1282c3897a192f5e8cbc1123e54b9
+D	menu-block-background-display-options.png	
+D	menu-block.admin.css	
+D	menu-block.js	
+M	menu_block.admin.inc	c4f555a03de30e54d9b9a40a28548bc2
+M	menu_block.info	6217b560740b93884cb337e3fe34a3be
+M	menu_block.module	ce239b549520d6f752fcfacc16a8192d
+M	menu_block_export.info	c148e52c8d84761d233b2c2143ec00cf
+M	plugins/content_types/menu_tree/menu_tree.inc	a5358a1cb8ace56a7c20aef5b8394557

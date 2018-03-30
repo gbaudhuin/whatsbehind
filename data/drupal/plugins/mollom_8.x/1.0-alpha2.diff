@@ -1,0 +1,17 @@
+M	README.txt	279b21b2be2a53de9288fd9c34e15730
+A	assets/mollom-captcha-player.swf	d57109218d36896f2d45699b507304e0
+M	js/mollom.js	329666fa3b82afc1d22b98c47d88bab3
+D	mollom-captcha-player.swf	
+M	mollom.info.yml	e9fe1c4bc8c0ab23a600034d14590e40
+M	mollom.module	b8aef87e66ceec4c45d52d6b8cd549e1
+M	mollom.services.yml	976c0bfd03ef061322f31629494a5f2d
+M	src/API/DrupalTestClient.php	35fa02535074d294fe281281d5cab5ff
+M	src/API/DrupalTestLocalClient.php	20d7c2e0042d604c9681bc95d352e9b0
+M	src/Controller/AjaxController.php	a01887cdf57dd34120d5d322582e3272
+M	templates/mollom-captcha-audio.html.twig	674165c8af215e232f323f0aa7d0e176
+M	templates/mollom-captcha-image.html.twig	f39d2058434f5edc5959baddf38754fd
+M	tests/modules/mollom_test/mollom_test.info.yml	de955f6a0fdd29d8048331ff5278d7f7
+M	tests/modules/mollom_test_server/mollom_test_server.info.yml	982c9734b7ba5bc7907555f753ab9a5a
+M	tests/modules/mollom_test_server/mollom_test_server.routing.yml	43a59fbe6e604661aa41fd38d66cff80
+M	tests/modules/mollom_test_server/src/OAuthRequestParser.php	d890569ec55566019367f475e6b9c264
+M	tests/modules/mollom_test_server/src/ServerController.php	2b71b2e2eff58f9a5ff6be2dc2d49f43

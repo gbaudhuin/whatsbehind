@@ -1,0 +1,156 @@
+M	config/schema/facets.facet.schema.yml	bd8720510c9c211db85035518e75c667
+M	config/schema/facets.processor.schema.yml	5555abacdcc7e2f057fca050662b7c6e
+D	core_search_facets/core_search_facets.api.php	
+D	core_search_facets/core_search_facets.info.yml	
+D	core_search_facets/core_search_facets.module	
+D	core_search_facets/src/FacetsQuery.php	
+D	core_search_facets/src/Plugin/CoreSearchFacetSourceInterface.php	
+D	core_search_facets/src/Plugin/Search/NodeSearchFacets.php	
+D	core_search_facets/src/Plugin/facets/facet_source/CoreNodeSearchFacetSource.php	
+D	core_search_facets/src/Plugin/facets/facet_source/CoreNodeSearchFacetSourceDeriver.php	
+D	core_search_facets/src/Plugin/facets/query_type/CoreNodeSearchDate.php	
+D	core_search_facets/src/Plugin/facets/query_type/CoreNodeSearchString.php	
+D	core_search_facets/src/Tests/HooksTest.php	
+D	core_search_facets/src/Tests/IntegrationTest.php	
+D	core_search_facets/src/Tests/WebTestBase.php	
+D	core_search_facets/tests/core_search_facets_test_hooks/core_search_facets_test_hooks.info.yml	
+D	core_search_facets/tests/core_search_facets_test_hooks/core_search_facets_test_hooks.module	
+M	css/facets.admin.css	6b123bc497caf53fe9be5802eb5dd5be
+A	css/hierarchical.css	ffd6931489f727ddb8960b9261e87fc6
+M	facets.info.yml	0bba25efcd5ff9bf3cc1b87cef69211d
+M	facets.libraries.yml	7a37ea304c9816fd1aac4473a8e197e7
+M	facets.module	e4dfc7b913513696fd6e6b037e885887
+M	facets.services.yml	b934a1bbc57b4e6af22d40e1e8075b58
+M	js/checkbox-widget.js	e51a518d9145dace6c8f1bfd495f8969
+M	js/dropdown-widget.js	08e8a28d54b4b558897b691e963ab2f2
+A	modules/core_search_facets/core_search_facets.api.php	409b742818ab15bf294d80710f71ffe8
+A	modules/core_search_facets/core_search_facets.info.yml	d906bd548c620cfd874a80b77337d0d4
+A	modules/core_search_facets/core_search_facets.module	125adb64052a203f1c34925142abe04e
+A	modules/core_search_facets/src/FacetsQuery.php	97c6d68ca03ac85776e6f174afbd412b
+A	modules/core_search_facets/src/Plugin/CoreSearchFacetSourceInterface.php	9f237d9640162177b30068c58876c8d7
+A	modules/core_search_facets/src/Plugin/Search/NodeSearchFacets.php	0a412997bc361173d524f3b6b9001c41
+A	modules/core_search_facets/src/Plugin/facets/facet_source/CoreNodeSearchFacetSource.php	b453c6141e63bb33c54d2ba3410d88c2
+A	modules/core_search_facets/src/Plugin/facets/facet_source/CoreNodeSearchFacetSourceDeriver.php	081454c9d03e073de32d963ab7bbcbcf
+A	modules/core_search_facets/src/Plugin/facets/query_type/CoreNodeSearchDate.php	573e35001363554b6a1cb0b9656883e8
+A	modules/core_search_facets/src/Plugin/facets/query_type/CoreNodeSearchString.php	f8c22eca4a1e77bf57f4bfd37fdf6e60
+A	modules/core_search_facets/tests/core_search_facets_test_hooks/core_search_facets_test_hooks.info.yml	94e86f287dba0d8936f9ec284f565353
+A	modules/core_search_facets/tests/core_search_facets_test_hooks/core_search_facets_test_hooks.module	037b8934fc7bbedb954868c6f76c9b40
+A	modules/core_search_facets/tests/src/Functional/FacetsHooksTestBase.php	6a7f417d5a5942c466d3b2f21f439f0d
+A	modules/core_search_facets/tests/src/Functional/HooksTest.php	384b08f3ca165bf97374a6c25dcd2741
+A	modules/core_search_facets/tests/src/Functional/IntegrationTest.php	b90203ccbaf536b413849f6f4a82aa46
+A	modules/facets_summary/config/schema/facets_summary.facets_summary.schema.yml	1d66819b113b080ab57eb6ddcb24b975
+A	modules/facets_summary/config/schema/facets_summary.processor.schema.yml	73afd8aac3dc5fdd60ef9d5c77307cdd
+A	modules/facets_summary/facets_summary.info.yml	5df47ec30f5d5836ee84536a37c35ef8
+A	modules/facets_summary/facets_summary.links.action.yml	a34a180ed3cc4ac5f2374d7926790b81
+A	modules/facets_summary/facets_summary.links.contextual.yml	4dd80251b82f61806e7391cd0e071632
+A	modules/facets_summary/facets_summary.links.task.yml	a8d3dd279136a23291d9a9adf91389db
+A	modules/facets_summary/facets_summary.module	d8004473cf32214f91020547c4563e85
+A	modules/facets_summary/facets_summary.routing.yml	7580dc93d4bd75757eae5bd7bba83af9
+A	modules/facets_summary/facets_summary.services.yml	6be5b011b5c76f38819a915267ae1f66
+A	modules/facets_summary/src/Annotation/SummaryProcessor.php	bb68dde805fac5115a715de335fdded8
+A	modules/facets_summary/src/Entity/FacetsSummary.php	5d294eb5987de70f81e1411c032f49f7
+A	modules/facets_summary/src/FacetsSummaryBlockInterface.php	4780398bb9d2fe663b6e820dda0f210d
+A	modules/facets_summary/src/FacetsSummaryInterface.php	7d40c26e78257d15783632c8351ee0bc
+A	modules/facets_summary/src/FacetsSummaryManager/DefaultFacetsSummaryManager.php	b8e283296faf06ed309da69cf9addf46
+A	modules/facets_summary/src/Form/FacetsSummaryDeleteConfirmForm.php	44e4b17fbbdcc6f18f74dc8e705985a8
+A	modules/facets_summary/src/Form/FacetsSummaryForm.php	0ca42baad83c9dc31494c4872ad3a64f
+A	modules/facets_summary/src/Form/FacetsSummarySettingsForm.php	c940648e19de826832b4de4e48225258
+A	modules/facets_summary/src/Plugin/Block/FacetsSummaryBlock.php	b63c45092913faac490836670dd6b2bb
+A	modules/facets_summary/src/Plugin/Block/FacetsSummaryBlockDeriver.php	8f5572bb0202396390977e99112abddf
+A	modules/facets_summary/src/Plugin/facets_summary/processor/HideWhenNotRenderedProcessor.php	298b6049bda4d32ffc1d425b041049fc
+A	modules/facets_summary/src/Plugin/facets_summary/processor/ShowCountProcessor.php	4eb1566291c03d5c3cbf0067967d96e0
+A	modules/facets_summary/src/Plugin/facets_summary/processor/ShowSummaryProcessor.php	036eb2c502ccc7cc9b66cddc506cf7c0
+A	modules/facets_summary/src/Plugin/facets_summary/processor/ShowTextWhenEmptyProcessor.php	0438988d83ad9c125ae8bfebb862666b
+A	modules/facets_summary/src/Processor/BuildProcessorInterface.php	4cdf04ec7f314833a47f88f55d8382ff
+A	modules/facets_summary/src/Processor/ProcessorInterface.php	83faf31c9c32f507dce5f232524263c8
+A	modules/facets_summary/src/Processor/ProcessorPluginBase.php	fedca1ac3bbe9cd809c6d28f6fccdd9f
+A	modules/facets_summary/src/Processor/ProcessorPluginManager.php	20595a87e6daaa48fd6a6f76986b356b
+A	modules/facets_summary/templates/facets-summary-count.html.twig	987237ca1c3ff35a92cf83a3cc264b01
+A	modules/facets_summary/templates/facets-summary-empty.html.twig	935eed22aba34acc6179ae5b31f59507
+A	modules/facets_summary/templates/facets-summary-facet.html.twig	cf89c722c9f272bae366531a017e9a05
+A	modules/facets_summary/templates/facets-summary.html.twig	d6125af90b4ae803112539261e085e30
+A	modules/facets_summary/tests/src/Functional/IntegrationTest.php	c51b7a0628d733706e1e2ec16e2d728e
+A	modules/rest_facets/rest_facets.info.yml	bcd405efcfe5da14ec4e57627cb75c4a
+A	modules/rest_facets/src/Plugin/views/style/FacetsSerializer.php	8c020a257ced63a2a3663e83f7938c1e
+A	modules/rest_facets/tests/rest_view/config/install/views.view.search_api_test_views_fulltext.yml	772f41841c7e49019fb7ec7924d23aec
+A	modules/rest_facets/tests/rest_view/rest_view.info.yml	eb85f15e5a3f89a23e3f85798008c45c
+A	modules/rest_facets/tests/src/Functional/RestIntegrationTest.php	82b807776ad3db811bebed41e6c0ce3d
+D	rest_facets/rest_facets.info.yml	
+D	rest_facets/src/Plugin/views/style/FacetsSerializer.php	
+D	rest_facets/src/Tests/RestIntegrationTest.php	
+D	rest_facets/tests/rest_view/config/install/views.view.search_api_test_views_fulltext.yml	
+D	rest_facets/tests/rest_view/rest_view.info.yml	
+M	src/Annotation/FacetsFacetSource.php	076f84e5d92863f7d6bd33cba7503d6a
+A	src/Annotation/FacetsHierarchy.php	d1ef43e8a55133a2eb5a07ee8959bc1c
+M	src/Annotation/FacetsProcessor.php	5b92cdeef83c1eec77dd605b549788b8
+M	src/Annotation/FacetsQueryType.php	58ac9d0019eb60809cc8c495feee7e8d
+M	src/Annotation/FacetsUrlProcessor.php	41ac32c5c18d13d06264f39131ef22dc
+M	src/Annotation/FacetsWidget.php	bdaf83982fc399d3650ca94fe31d2e6e
+M	src/Entity/Facet.php	c6c220065ee0691e230e0c62d18f3754
+M	src/FacetInterface.php	b26500bb91f8f89febf6657e50b8fe0c
+M	src/FacetListBuilder.php	cb7b1352dc3b124ce088ac5116ec3063
+M	src/FacetManager/DefaultFacetManager.php	17e3829998e19150784c5cab03084b40
+M	src/FacetSource/FacetSourcePluginBase.php	41ff79ce8a32af3caa0d1f9f13d19897
+M	src/FacetSource/FacetSourcePluginInterface.php	8d689690136cfd810d0011b22e419db2
+M	src/Form/FacetForm.php	4006d001c48ace775eff9646b50ccdae
+M	src/Form/FacetSettingsForm.php	6e3e74a94f6601c44e75bfdd5b4197ee
+M	src/Form/FacetSourceEditForm.php	22eb85cb458e09034c9ce728d9550bb8
+D	src/Form/SubFormState.php	
+A	src/Hierarchy/HierarchyInterface.php	703aed0d67f333be37286d5cc5016d72
+A	src/Hierarchy/HierarchyPluginBase.php	5457dcc79913517764ea54e55571fce0
+A	src/Hierarchy/HierarchyPluginManager.php	5cb7070184a1ef5dd2ec6b465f7e4d89
+M	src/Plugin/Block/FacetBlock.php	15c59863bd7e7196f0cad5e1f53ecff7
+M	src/Plugin/Block/FacetBlockDeriver.php	a7b6673bc77d90b296414255e0d01e91
+M	src/Plugin/Condition/OtherFacet.php	b4645501a9c11ca12f6f37d022827b79
+M	src/Plugin/facets/facet_source/SearchApiBaseFacetSource.php	dc3a71e076d76d6d2d9f98e09dd3cb2a
+M	src/Plugin/facets/facet_source/SearchApiViews.php	ed6f9ee7c9b85c5ec9a16c03c8851f22
+A	src/Plugin/facets/hierarchy/Taxonomy.php	136e83ae20d6b3bc18b84cc0ef7abe0e
+M	src/Plugin/facets/processor/DisplayValueWidgetOrderProcessor.php	e5230bb7f44dd8107c0eb21ac6aee9b5
+M	src/Plugin/facets/processor/TranslateEntityProcessor.php	65894a4d703dd4ff2182fb502c4ec57b
+A	src/Plugin/facets/query_type/SearchApiDate.php	3fa66c1212714f855997347b49142677
+A	src/Plugin/facets/query_type/SearchApiGranular.php	eddd2d8323c0dce8e5a2245236112a81
+M	src/Plugin/facets/query_type/SearchApiString.php	3e46a06a68124fcebcfa7bc451dff9a3
+M	src/Plugin/facets/url_processor/QueryString.php	1cfed024bfc5d1b09599c84ec1aea125
+A	src/Plugin/facets/widget/DateArrayWidget.php	60c2e799ebe3afd7965d1e46ce03409a
+A	src/Plugin/facets/widget/DateBasicWidget.php	f24d34759d6106c97258941ba7603ba4
+M	src/Plugin/facets/widget/LinksWidget.php	d188800444aa4cfc7b58867d7d3c2149
+A	src/Plugin/facets/widget/NumericGranularWidget.php	5f4fe62686bd00d9b2ed1f4efae60841
+M	src/Processor/BuildProcessorInterface.php	b9852f7250a9550fae9ef53b70e54b96
+M	src/Processor/ProcessorPluginBase.php	c2ca17e49a3adc4915a7c39ab192b88f
+M	src/QueryType/QueryTypePluginBase.php	faad0488f8acb07b2365cd2917a0c669
+A	src/QueryType/QueryTypeRangeBase.php	78808a566de405e1b89a5ece10c9c9c9
+M	src/Result/Result.php	ccb85c230b70b98ced7d5955faca311e
+M	src/Result/ResultInterface.php	7c2bcacb02ec778aced86bc2573d55bb
+D	src/Tests/BlockTestTrait.php	
+D	src/Tests/ExampleContentTrait.php	
+D	src/Tests/FacetSourceTest.php	
+D	src/Tests/IntegrationTest.php	
+D	src/Tests/LanguageIntegrationTest.php	
+D	src/Tests/ProcessorIntegrationTest.php	
+D	src/Tests/TestHelperTrait.php	
+D	src/Tests/UrlIntegrationTest.php	
+D	src/Tests/WebTestBase.php	
+D	src/Tests/WidgetIntegrationTest.php	
+M	src/UrlProcessor/UrlProcessorPluginBase.php	055012ba32fec74eb08c0e7603c66723
+M	src/Widget/WidgetPluginBase.php	16bbe1e35aff040b3344e67c554f6a99
+M	src/Widget/WidgetPluginInterface.php	0942958a31e42b51bc11d5a1085fea12
+M	tests/facets_query_processor/facets_query_processor.info.yml	e3ffaa3f6ed184762d7bb66d09e89f65
+M	tests/facets_search_api_dependency/facets_search_api_dependency.info.yml	fa74b1e613f3ff76cce30924d6b69ceb
+A	tests/src/Functional/BlockTestTrait.php	2bb27fe6b0b91d0d6330ac7735c5560b
+A	tests/src/Functional/ExampleContentTrait.php	d7cd504973ad987553350afcacb37c79
+A	tests/src/Functional/FacetSourceTest.php	3c8ded674fc16ee2caf4c45d23183f12
+A	tests/src/Functional/FacetsTestBase.php	53e9381f0fec07ee0d4d54df7230773d
+A	tests/src/Functional/HierarchicalFacetIntegrationTest.php	5504a1de25151fdc114865caa3a6bf44
+A	tests/src/Functional/IntegrationTest.php	ec525d57edd91825cf89294af9f02d61
+A	tests/src/Functional/LanguageIntegrationTest.php	910f807671349c615735a55e9fa1d7fb
+A	tests/src/Functional/ProcessorIntegrationTest.php	86d7a05e6b0953131c6ebac4c85d4795
+A	tests/src/Functional/TestHelperTrait.php	57619f52f1da420be9af8b8f5b80c866
+A	tests/src/Functional/UrlIntegrationTest.php	a8e307ba7e474d29df3c990a65347da5
+A	tests/src/Functional/WidgetIntegrationTest.php	3e2accd79f594b65dd62721c495cd7bc
+M	tests/src/FunctionalJavascript/WidgetJSTest.php	be571151aa558376e198ebdcab537963
+A	tests/src/Kernel/Entity/FacetFacetSourceTest.php	a43a2f91374b39ebbb5bf865d409783b
+A	tests/src/Kernel/Entity/FacetSourceTest.php	0c302421d2c45867a7c5dc56b984232a
+A	tests/src/Kernel/Entity/FacetTest.php	e07089618fa7f0d975096cf72896d8d5
+A	tests/src/Kernel/Plugin/query_type/SearchApiDateTest.php	800eec9398562041d19ef629d928545c
+A	tests/src/Unit/Plugin/query_type/SearchApiGranularTest.php	c85d5c7b46205d88912de6172ee2b1f2
+M	tests/src/Unit/Plugin/widget/LinksWidgetTest.php	cc420ef122bf857a49f1c8edc25a40cf

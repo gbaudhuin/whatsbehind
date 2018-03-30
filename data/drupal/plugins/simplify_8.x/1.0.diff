@@ -1,0 +1,16 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	config/install/simplify.global.yml	415cbd143ddde57dbcee1e6a224bd1af
+A	config/schema/simplify.schema.yml	fcbba8429c9ba876759f37f43dc73311
+A	simplify.api.php	1e306593f88ef2fbf0466e7e7f725af6
+A	simplify.info.yml	68c265fb7441dc7a9b2e8546398a793c
+A	simplify.links.menu.yml	49067cb80e4d404db4767dc10a583df0
+A	simplify.module	e05aa934b2e302ead3ceefa7b45d191a
+A	simplify.permissions.yml	716009578ae5408f9ede62db2175fedb
+A	simplify.routing.yml	a6040b22c6ffe52ce35a0c84ca71c677
+A	src/Form/SimplifyAdminForm.php	62e11a8d40d65459b9aff826e8d07f70
+A	src/Tests/GlobalSettingsTest.php	a208593876b414b1788c63b5dc882c03
+A	src/Tests/PerBlockTypeSettingsTest.php	c62bac33f2f3d29a78fe3c7b7273fead
+A	src/Tests/PerCommentTypeSettingsTest.php	a8e07529e73e4f55d9815f10a5223b45
+A	src/Tests/PerContentTypeSettingsTest.php	eca06d1b23d0e721208821ad736dfbb5
+A	src/Tests/PerVocabularySettingsTest.php	0c864c323de6501e09c9f2ca05b36ae8
+A	src/Tests/UserSettingsTest.php	893b7f4f32f0a3051b2497b5e678b95d

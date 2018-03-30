@@ -1,0 +1,9 @@
+M	simple_oauth.info.yml	f57bf35fa904d8a37b1b3938a8d858e6
+M	simple_oauth_3p/simple_oauth_3p.info.yml	2a87029e03db7e35c96621d0c45ccf06
+M	simple_oauth_3p/tests/simple_oauth_3p_test/simple_oauth_3p_test.info.yml	7e470a7f5a29e54eb7a1d7b93a88f480
+M	src/Authentication/TokenAuthUser.php	a1131e2886de5d40f86ca08b2d7faa8b
+M	src/Controller/Oauth2Token.php	7be754984c37d9da9adc885499a5791f
+M	tests/src/Functional/ClientCredentialsFunctionalTest.php	e120042cb30a364b37293e9e8d2f0280
+M	tests/src/Functional/PasswordFunctionalTest.php	406435ed760727d593fa6b0db46c7744
+M	tests/src/Functional/RefreshFunctionalTest.php	bd1ac23cde3ed23807acd2d7da0c5921
+M	tests/src/Functional/TokenBearerFunctionalTestBase.php	93fac1e963afa69d3f9db18fcc465089

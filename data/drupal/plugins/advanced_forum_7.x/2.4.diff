@@ -1,0 +1,15 @@
+M	CHANGELOG.txt	0d5f771d68a991f0dd6f82292a8f2340
+M	advanced_forum.info	ccb9205ff27c7dcd79325c32b261d0b7
+M	advanced_forum.module	27e2f8129826c39008a04c5fb50eaf8b
+M	includes/core-overrides.inc	16423d25c0a84fb477020a877ec17b5e
+M	includes/style.inc	43d7af6f11b321d2a3b97bf918b06b64
+D	includes/views/advanced_forum_group_topic_list.view	
+A	includes/views/advanced_forum_search.view	23ddc9dbaba97060076de21371a56fd9
+M	styles/blue_lagoon/blue_lagoon.info	07aee07cf8708de44ce7ebf50cd5761e
+M	styles/blue_lagoon_stacked/blue_lagoon_stacked.info	6570a825c4f9bcd45a4fc2cc15a163c1
+M	styles/cloudless_day/cloudless_day.info	ea3c178754656a64e9343eccbf0ef3cc
+M	styles/cloudless_day_stacked/cloudless_day_stacked.info	4eb87422de70a1cc10de80cddf36a7e4
+M	styles/naked/naked.info	879f3e5f2406af1579a0d4908476653e
+M	styles/naked_stacked/naked_stacked.info	f3a856316b5cdc391b97ebd253ff8085
+M	styles/silver_bells/silver_bells.info	7f8e308152d42b751e96bc94a72437b1
+M	styles/silver_bells_stacked/silver_bells_stacked.info	c9c8ce085ba365120049cd664eb223e1

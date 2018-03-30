@@ -1,0 +1,13 @@
+M	README.txt	5ed1b47ae9c9beac4962236ba3f61258
+M	clone.info	8e8c299dd5d2651d23bf1babd883e2a4
+M	clone.install	531a6aece02c4fa47d836ae183f6b5cd
+M	clone.module	d8cbe15c7f8d51b82e1b22f9e85ceb08
+M	clone.pages.inc	d3b0be84a4ee869e34f48d431167c435
+D	po/de.po	
+D	po/fr.po	
+D	po/node-clone.pot	
+A	translations/de.po	239e65c4b9ff186629fcf3dd73fd3d7b
+A	translations/fr.po	5e25100e4e9fbce02a6486fdcc153987
+A	translations/node_clone.pot	6ab549d637c8fdaab53cd34ebc64a335
+A	views/clone.views.inc	5ca057d21494d12cb835bdd94d206ef6
+A	views/views_handler_field_node_link_clone.inc	63817ee5cbf0f25c40cdfd6091f29943

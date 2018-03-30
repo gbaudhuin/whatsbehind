@@ -1,0 +1,7 @@
+A	config/install/empty_page.settings.yml	2763226406f3d9f634263ab14aa7fc5d
+M	empty_page.info.yml	8b32ce9af4a5f8dd6a10ef027a9a9e3e
+M	empty_page.install	baffb4c3f1d6339865fc1c7fe6afb334
+M	src/Controller/EmptyPageController.php	3bd1de314ac88d973d61d610fb55ed4a
+M	src/Form/CallbackDeleteForm.php	b464e335f024aff9f166884e401503f4
+M	src/Form/CallbackForm.php	7f1a72ed69c2832cf96ea15c9419d5a4
+M	src/Routing/EmptyPages.php	1a4992228f854b1dcdbddc8661cf4b24

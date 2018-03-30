@@ -1,0 +1,6 @@
+M	google_analytics.info.yml	720e0a3b1547e788fb2a78e6776c56f0
+M	migration_templates/d6_google_analytics_settings.yml	30eafaf92baffdd2c50be6cf61b94cca
+M	migration_templates/d7_google_analytics_settings.yml	158ad11647c1f5807aa024bc66103b47
+M	src/Form/GoogleAnalyticsAdminSettingsForm.php	75f8139a54150ee9673730f4e13f7f50
+M	src/Tests/GoogleAnalyticsJavaScriptTest.js	c46616e452260acdadcb646a1eb71b1e
+M	tests/modules/google_analytics_test/google_analytics_test.info.yml	33a34a30c9e89ca4286c9e4385bcbac4

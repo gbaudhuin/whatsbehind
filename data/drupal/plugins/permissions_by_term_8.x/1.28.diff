@@ -1,0 +1,19 @@
+M	.gitignore	def7d20ed825f07ce861fe18bf68ebe4
+A	composer.json	35ad3c049a4b2e210c06da98d82f63f4
+A	config/install/permissions_by_term.settings.single_term_permission.yml	48df566caed3aee18bb5af645c2d8c05
+A	config/schema/permissions_by_term.schema.yml	fafecddca6fdf95f64ed794cd36e526a
+M	permissions_by_term.info.yml	5406dd0a56f0ef12fe8e8335575ead3a
+A	permissions_by_term.links.menu.yml	aa12bf589822a73abafd23b8f8439511
+M	permissions_by_term.permissions.yml	dd224e27c9648bb2fa4590212d9510d5
+M	permissions_by_term.routing.yml	dc9063adf4c0c355fe0d41a89d430a70
+M	permissions_by_term.services.yml	37083a721ea6b3502592e94aae7d2f2d
+D	phpunit.xml	
+M	src/Controller/PermissionsByTermController.php	10e8d28abef1ba46ed0787f54c4d8002
+A	src/Entity/Config/Settings.php	18d12f2e8d90f026a5c3a55626eefee7
+A	src/Form/SettingsForm.php	07779cb9b158110b643a2211602b2ade
+M	src/Service/AccessCheck.php	5984e140fa022f21b9143f74c2c6eccb
+M	src/Service/AccessStorage.php	295f2e22b6bee467efd6f9a274920d65
+M	src/Service/Term.php	75d2cbaafda6631844e827cb6e7563f5
+A	tests/phpunit.xml.dist	218a3e35c2b6d6841610be4ff98b5024
+A	tests/src/Kernel/AccessCheckTest.php	91d1d6c9d6435301c40eb90ed6199c60
+M	tests/src/Unit/README.md	08c536f394ee6781674578e0f57b51a8

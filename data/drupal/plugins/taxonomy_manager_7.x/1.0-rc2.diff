@@ -1,0 +1,13 @@
+M	css/taxonomy_manager.css	477f353b60e7c5a3aa384d74fcd5a4c6
+A	images/deselect-all-children-bw.png	661bf9940a65f958929bc54c3b24da79
+A	images/deselect-all-children.png	20558e2e8d687c5a001fff3353c3de23
+D	images/unselect-all-children-bw.png	
+D	images/unselect-all-children.png	
+D	js/csv_export.js	
+M	js/hideForm.js	4d5bbe86e715c7f6db1acfd0be22b078
+M	js/tree.js	a48a6487ece9403041c93c3ff11e013f
+M	js/updateWeight.js	cc55d30c32dd526c311c2aaff8240938
+M	taxonomy_manager.admin.inc	eb5bc5dd570da550aa289f5e90a2c484
+M	taxonomy_manager.info	fc7e6dc6556a337050357f005e885d6f
+M	taxonomy_manager.install	3ea82403e475ab287b8894b50423b210
+M	taxonomy_manager.module	941da11ace37234d14cc20be6b36419c

@@ -1,0 +1,7 @@
+M	README.txt	30be83e54a912012ee7984f547a47166
+M	database.inc	5765fb20d60db34e26efcfeb23e2379d
+M	dmemcache.inc	b7046e192834fd1fdce2a27116b1493b
+M	memcache.info	9ce7f2e81af29c322b997f5cbda18a8f
+M	memcache_admin/memcache_admin.info	811e7f5d8bcc489809b08554d0019e8a
+M	memcache_admin/memcache_admin.module	be3c96750b2ecabb820e522b6c662665
+M	tests/memcache_test.info	f24ee791219122be16c0f0ba5bf3e536

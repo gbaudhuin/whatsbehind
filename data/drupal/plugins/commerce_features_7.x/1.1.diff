@@ -1,0 +1,10 @@
+M	commerce_coupon_type.features.inc	643d74209e1c670d7cdbd2dd3ac1d0b3
+M	commerce_customer.features.inc	7941f49c97d00bd6ca399ca5e0046105
+M	commerce_features.info	dfc104516c472422d5a3ed8647a75236
+M	commerce_features.module	082385b755c3b3bccecce93960869fc4
+A	commerce_flat_rate_services.features.inc	ff33b0e3944cc2fac63cd462d0110827
+M	commerce_line_item_type.features.inc	96bb40dc973eba180341ca315cecd8c4
+M	commerce_order_type.features.inc	edda7043c210edea3abce3692cd31272
+M	commerce_product_type.features.inc	7d2ca8af475919f4137a73f1a7b50bcb
+M	commerce_tax_rate.features.inc	915ada8d0fe1e42f731d899852fd0746
+M	commerce_tax_type.features.inc	687ef0520ceda64db5a0b077ba4dc46e

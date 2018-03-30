@@ -1,0 +1,5 @@
+M	commerce_search_api.facetapi_defaults.inc	a2efc99674d5aff9bbf4c9ebb551ef70
+M	commerce_search_api.info	e83eb2c03f1e139dc4231855bed4f657
+M	commerce_search_api.module	6d1fc65da66f70aa4aafeb3f9ecf07e1
+M	includes/commerce_search_api.admin.inc	3aec3e8ce28838d23fac1819391f6fa3
+A	includes/commerce_search_api.callbacks.inc	0517f3bae0b800861a47b5a31bab56de

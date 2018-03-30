@@ -1,0 +1,8 @@
+M	README.md	77e197ea28007070e4c31c31bc14c886
+M	amp.info.yml	14378c37db4e5df8f52ff4c18c2ad2f6
+M	amp.libraries.yml	0e5296d24cbdcb7868713adb0836065f
+M	amp.module	4bbdb3e1dbd11093bfab12e1fd535b10
+M	src/Controller/ampPage.php	bec50b5a0f7325c4c05771c7312e1ea2
+M	src/Element/AmpProcessedText.php	7ae9e4714ab0403a3e9292f66a7ea69f
+M	src/Form/AmpSettingsForm.php	453f7b975d58e19a09881d5daf3ca2d4
+M	templates/amp-pixel.html.twig	b581fa9beba0a94390680106b4e2727d

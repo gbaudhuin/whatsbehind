@@ -1,0 +1,45 @@
+A	images/question_808080_64.png	2dd0aa4c9554cd134a50d0e26c463d30
+M	includes/QuizResultAnswerController.class.inc	a8b4231e1a50b639eeb3ff8a18806a94
+M	includes/QuizResultController.class.inc	ab4dbdd4e3af09794718fefb4804c09d
+M	includes/views/defaults/quiz_results.view.inc	b0b6c2338115bdc192900f1b84bcc707
+A	includes/views/defaults/quiz_unevaluated_results.view.inc	dc51ebfaf0a21356989b2250eeae59de
+D	modules/ajax_quiz/ajax_quiz.admin.inc	
+M	modules/ajax_quiz/ajax_quiz.info	4e432d86e1520c2d5972f97013f989dd
+M	modules/ajax_quiz/ajax_quiz.module	29a49fd40f96f3a1ccf25148a8b69c42
+M	modules/quiz_stats/quiz_stats.info	f279c33bbe6b60763a0ec12a08eb30a3
+M	plugins/content_types/quiztake_pane.inc	485cc55ec1bf0157b18f4b62711451b0
+D	question_types/long_answer/long_answer.admin.inc	
+M	question_types/long_answer/long_answer.classes.inc	281233544921f7f0d14fa5bf67caa590
+M	question_types/long_answer/long_answer.info	3394094976604cdf325ec16cfce5033d
+M	question_types/long_answer/long_answer.install	6c6b99aa5b0ddd0c1d3b21af0f342ce5
+M	question_types/long_answer/long_answer.module	00bbb3ea5e5809d0dd2818be6edb7088
+M	question_types/long_answer/long_answer.test	3497e40b165e7f00956a84182397a2e2
+M	question_types/long_answer/theme/long_answer.theme.inc	73e2bc76d8737c9777287aec9ff02369
+M	question_types/matching/matching.info	45ea95b1830e8dcd9efa500a8b45fe1f
+M	question_types/multichoice/multichoice.info	3c8ae9017016acd6453b1fe917215885
+M	question_types/multichoice/theme/multichoice.theme.inc	490af32b90b01aa99bc2549d11e04bc3
+M	question_types/quiz_directions/quiz_directions.info	8b4eabcbcc82c114c4bdaa2b7d0037bb
+M	question_types/quiz_page/quiz_page.info	3606d60cf513d9eaec4168e09815e631
+M	question_types/quiz_page/quiz_page.install	6f63b626a3f89406346ce0432cf8d970
+M	question_types/quiz_question/quiz_question.core.inc	abc0975fbefd600fa159f0331fba2faa
+M	question_types/quiz_question/quiz_question.info	39c0a49474476b2458646039fe4cad19
+M	question_types/quiz_question/quiz_question.module	1162bdbba0b90bc202f779462dd5ba93
+M	question_types/scale/scale.info	0f3cac45a912da671870e038362f464d
+D	question_types/short_answer/short_answer.admin.inc	
+M	question_types/short_answer/short_answer.classes.inc	1a17f2438141eb4149bda91bb9913b90
+M	question_types/short_answer/short_answer.info	b294f04209315df6e076c967d9db1757
+M	question_types/short_answer/short_answer.module	db2256500ca680fad620c4cbb857c721
+M	question_types/short_answer/theme/short_answer.theme.inc	7e82cc241aceafe93727cc1858412cfe
+M	question_types/truefalse/truefalse.info	188ccad98e19f4ba575526a780ad2a25
+M	quiz.admin.inc	fc01ac8f318ca11f5dcf895723abb4e5
+M	quiz.api.php	ddc7aaa19cb9e3e15f55ea5cb92ff6f5
+M	quiz.css	dd07bf656a0be931ba3f122d5f4931b9
+M	quiz.info	dd434ca2060da6efe1444a453624c457
+M	quiz.install	29c788064a118a93a5a52c47c025a3e3
+M	quiz.module	d1530dcc2b0dcb00b46471a3cb28f66d
+M	quiz.pages.inc	997eff88e2efad23230740f7b75fde1b
+A	quiz.theme.inc	a774176c640b521f8493fdedc603a005
+A	tests/QuizAccessTestCase.test	356d370dcc587ea014eccf4c4c36083e
+M	tests/QuizResultTestCase.test	2b8293bcca46bf09b83643c953a3d8f6
+M	tests/QuizTestCase.test	5ac82bd14e9bf3a5d9c6e51134452994
+M	tests/quiz_test/quiz_test.info	e9a50960a539e6c3015286152045eaf1

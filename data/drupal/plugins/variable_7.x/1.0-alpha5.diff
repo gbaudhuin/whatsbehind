@@ -1,0 +1,12 @@
+M	includes/forum.variable.inc	8d9e80a4410fd2aa944b111b360f66fb
+M	includes/node.variable.inc	ffaf03706296e506e77d66281d0bf4e6
+M	includes/user.variable.inc	a6eb8424c743656503f0126d3450031f
+M	variable.form.inc	45be27cb9bb97327af5a3230c7142959
+M	variable.inc	163c57c35b961c9842b96411b6dc33ae
+M	variable.info	b70179ef1f5e58b835c2abe06f0c2870
+M	variable.module	f052496089340eeb83ca21d6247aa3c6
+M	variable.variable.inc	d67ad70bf8bc9d2a2e605c64386c57d6
+M	variable_admin/variable_admin.info	0d7ba4662fc109bc920d2ee755bfdd26
+M	variable_realm/variable_realm.info	fe4e4504161f0d4922334ec1401b8cdc
+M	variable_store/variable_store.info	f66edf0db4afe2bade23e7bdcbeb94f6
+M	variable_store/variable_store.install	9d0eb8dc79d2ec9fa9145e9b1b6ca8b5

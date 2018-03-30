@@ -1,0 +1,6 @@
+M	entity_reference_revisions.info.yml	e142b509fd45d6e039ef7f372d421a74
+M	src/Plugin/Field/FieldType/EntityReferenceRevisionsItem.php	f233773f6c26e0a20aa967b01f0c8f3d
+M	src/Plugin/migrate/destination/EntityReferenceRevisions.php	71240d34e0e6c331996000974d2de0a2
+M	tests/modules/entity_composite_relationship_test/entity_composite_relationship_test.info.yml	b354502e9c81924df8525684f3fdb32f
+M	tests/src/Kernel/EntityReferenceRevisionsCompositeTest.php	8c61d6eb0b24b56a084b5b1703488326
+M	tests/src/Kernel/Plugin/migrate/destination/EntityReferenceRevisionsDestinationTest.php	da05486d57c4ae4b47cf158be20ce579

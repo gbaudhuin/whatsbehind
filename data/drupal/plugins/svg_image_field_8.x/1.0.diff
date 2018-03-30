@@ -1,0 +1,8 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	cdc372a0e38c107bcc8151c1e8804eda
+A	src/Plugin/Field/FieldFormatter/SvgImageFieldFormatter.php	b354536880657708cc5678a87b200cb3
+A	src/Plugin/Field/FieldType/SvgImageFieldItem.php	695521e071945b498c964ae2692a166c
+A	src/Plugin/Field/FieldWidget/SvgImageFieldWidget.php	a66f86c59cb170a95225d16be2a80cc2
+A	svg_image_field.info.yml	4178e575b2c415ed753b66a36495910e
+A	svg_image_field.module	9b98944c3a0603c3ffd53fc921b71534
+A	templates/svg-image-field-formatter.html.twig	5689238858a1cc4423f63da543fa2323

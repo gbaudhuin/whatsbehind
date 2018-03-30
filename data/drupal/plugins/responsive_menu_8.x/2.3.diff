@@ -1,0 +1,18 @@
+M	README.md	17e9674a05b63d62a28eeac268faa926
+M	config/install/responsive_menu.settings.yml	1bb7e17036eefc82e92b6529ed3ae9ce
+M	config/schema/responsive_menu.schema.yml	2b3a15ad67ab96758df36699d2dd33d6
+M	css/responsive_menu.css	5aaa62643ea4ea8370b80bb2c13dbc2e
+M	js/responsive_menu.config.js	6e626c7ad9052ba0ea71cf665af9503c
+M	responsive_menu.info.yml	280bfed97b6e87f7f2c2b057853bc4e2
+A	responsive_menu.install	33f406b88fc63190fe646e078c3b6f46
+A	responsive_menu.make	989a2624d67a5248fdb7f67b334ed376
+M	responsive_menu.module	23c664b94eb7067fd2f0231d6cf4805b
+M	src/Form/SettingsForm.php	e2586cb58d8e7a071f3fc831ee97763e
+M	src/Plugin/Block/HorizontalMenu.php	b0ae49c6c01169ecc8becd21004d4e5f
+A	templates/responsive-menu-block-toggle.html.twig	e47ddc472dea5760a952533b6fd8d984
+A	templates/responsive-menu-block-wrapper.html.twig	7eebdc70c2a06f70978b1eead04d6d3a
+A	templates/responsive-menu-horizontal.html.twig	8e000b20c707c058beac474eeb9bef81
+D	theme/block-responsivemenumobileicon.html.twig	
+D	theme/responsive-menu-block-toggle.html.twig	
+D	theme/responsive-menu-block-wrapper.html.twig	
+D	theme/responsive-menu-horizontal.html.twig	

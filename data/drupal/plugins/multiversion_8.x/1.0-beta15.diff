@@ -1,0 +1,6 @@
+M	multiversion.info.yml	4741cb29afd96552b86ac8856e83f4ca
+A	src/Access/NodeRevisionAccessCheck.php	7a6db42ff893b3abe77276ac3ea831e3
+M	src/Entity/Storage/ContentEntityStorageTrait.php	a7c7a9a16db1d3c3118cb16ae01e4098
+M	src/MultiversionServiceProvider.php	a06b224491f821e04aaa27c364e153d8
+M	tests/modules/multiversion_test_paragraphs/multiversion_test_paragraphs.info.yml	ec7162bfcd31365ed696c964e101794f
+M	tests/modules/multiversion_test_views/multiversion_test_views.info.yml	84ec6e3f4c0218082cbedbbac950c68d

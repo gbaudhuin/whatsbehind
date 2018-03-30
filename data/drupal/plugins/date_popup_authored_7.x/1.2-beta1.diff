@@ -1,0 +1,8 @@
+M	CHANGELOG.txt	bb8b5069549d0fd223082423de1d94ab
+A	README.markdown	a9c78c650f9c462260a1479d0da454b3
+D	README.txt	
+M	date_popup_authored.info	a297086edebb741d3664f5be898b58c8
+A	date_popup_authored.install	849996e1e93a3c17ff36a3904100d6ed
+M	date_popup_authored.module	32a0b628d5c507e9f7f6e86d78b8a3c1
+D	date_popup_authored.test	
+A	tests/date_popup_authored_format.test	c5e5a2f021f05c340bda30efc4a68f5e

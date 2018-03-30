@@ -1,0 +1,14 @@
+M	readme.html	30215f440132ce7414c4c48d1f520767
+M	wp-admin/about.php	68df8bfdba0f4a89fff46ea73cb7c0ba
+M	wp-admin/includes/update-core.php	55bd55aa305424a488f052354f010814
+M	wp-admin/includes/upgrade.php	4926a858122e309b6e9d17800e5311aa
+M	wp-content/plugins/akismet/readme.txt	5ebc15a3e0b0453a666aa75a825e7d3f
+D	wp-content/themes/twentyfifteen/genericons/example.html	
+D	wp-content/themes/twentyfourteen/genericons/example.html	
+D	wp-content/themes/twentythirteen/genericons/example.html	
+M	wp-includes/compat.php	149966cc0b9a0c21b019d56b05a18a55
+M	wp-includes/js/tinymce/plugins/wordpress/plugin.js	65ba47e11a2641fd8126987586543f6c
+M	wp-includes/js/tinymce/plugins/wordpress/plugin.min.js	890c56f7df87f0b1ecd96e2068f60dd0
+M	wp-includes/js/tinymce/wp-tinymce.js.gz	f3e951b15db00c5e82cb46f6d941104f
+M	wp-includes/version.php	ef2379e8d082ade592853659e1c1bed2
+M	wp-includes/wp-db.php	419517c81d81fffa2338957cf99f7d2c

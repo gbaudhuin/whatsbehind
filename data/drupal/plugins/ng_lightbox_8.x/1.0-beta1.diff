@@ -1,0 +1,17 @@
+A	.gitignore	a71628fa4b584919f0660072e4ea0933
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	5d9b7d69c59a4eb54191769f1ad6a349
+A	config/install/ng_lightbox.settings.yml	4011f52e430dec84ce71c496a834c322
+A	config/schema/ng_lightbox.schema.yml	9ea397922edd434f95ce7d2e21ce03c9
+A	ng_lightbox.info.yml	acd214e939a06e1158a96946c7c5352c
+A	ng_lightbox.libraries.yml	1b5520cf448c548e6ad293c2c1482a34
+A	ng_lightbox.links.menu.yml	3756035119d4957865d0f0877cf0fc2e
+A	ng_lightbox.module	a5688180c30e170e36a6afc140679d8b
+A	ng_lightbox.permissions.yml	c7f43ff6c071fa58446f3f75a75456a1
+A	ng_lightbox.routing.yml	1b53398fe7fe9146f706334b407b47ef
+A	ng_lightbox.services.yml	7709c2f24ba3bc43c63957d2ed70ea76
+A	src/Form/NgLightboxSettingsForm.php	0831bafbb231b4b15eaa11f5d2dfd7de
+A	src/NgLightbox.php	b277ae9aac2c1e840bbbbf1fc61ae1cd
+A	src/NgLightboxPass.php	438cf92304334f673e2cb5c533185db9
+A	src/NgLightboxServiceProvider.php	2de468011786290ce650679ee287ae0a
+A	src/Tests/NgLightboxTest.php	7d698dd851c9600af0e912d5a16ee4bc

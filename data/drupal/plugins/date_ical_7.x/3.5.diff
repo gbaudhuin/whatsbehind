@@ -1,0 +1,4 @@
+M	date_ical.info	0c936dbb7b7bf233b12f3319939de133
+M	date_ical.module	1eb32baf93757a6b2d44fe46438e723d
+M	libraries/ParserVcalendar.inc	e485b4a57bbea47f8a689d5140b45735
+M	tests/multiple_rrule_exceptions.ics	fdf4afe80f34775fa52f122a355c2583

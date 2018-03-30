@@ -1,0 +1,12 @@
+M	includes/CHANGELOG.md	e074641f126114f25f5a1abcb1990b92
+A	includes/composer.json	798458631a12244bc01ec3b822e80559
+M	includes/mollom.class.inc	49223ea9bc45f2f055f39c74883080bf
+M	mollom.admin.inc	688cd501a055b28439468acb89d10d7d
+M	mollom.drupal.inc	bc82672ae860e8830936fb4452308993
+M	mollom.info	4d294e48a6340a1356ca7af6e312a3b5
+M	mollom.install	6f6380463e2503866575b18eb3918812
+M	mollom.js	cb20d7dcfedabeaa65f57b3f0d186895
+M	mollom.module	2ea90494362e68cf3844d4f8ed0a48b5
+M	tests/mollom.test	63d4a02700000d213773a920c9c1ecca
+M	tests/mollom_test.info	67fa23f7aa5d33a5d48a282466f79d8d
+M	tests/mollom_test_server.info	4d5f4e4a58b0423e26b48893bb6b3d50

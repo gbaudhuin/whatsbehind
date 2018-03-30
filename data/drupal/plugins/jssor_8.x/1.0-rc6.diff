@@ -1,0 +1,13 @@
+M	css/jssor-skin.css	228e3d914517565f16c9a91c093e9d5d
+M	css/jssor-skin.css.map	11a280018b51ed6112cf6cb6a1ef6c06
+M	javascript/jssor_view.js	ca0d60177d759d1a9bda39a0693755a1
+M	js/jssor_view.js	fb7c36d9ce0c3ed7866708291f30c392
+M	jssor.info.yml	ca23b08ba47b1ddb50216fe13352fd3b
+M	jssor.module	3e78da49c418cbb11fde5742e2b718bc
+M	jssor.theme.inc	d4bf295100967ed97d571ff15e177b8e
+M	jssor_example/jssor_example.info.yml	8f6693c11ecb9811cf4d79ccd4dc0266
+M	sass/jssor-skin.scss	82dab23158f819f4b29f30b2a12dac7c
+M	src/Plugin/Field/FieldFormatter/JssorFieldFormatter.php	cb5124ab12e968d1845052deb4d6e126
+M	src/Plugin/views/row/Jssor.php	3131b2f36dd72c9b3c998c7ef6ae4995
+A	templates/image-jssor-formatter.html.twig	77b920a794ba0b5e94d6a8722ff56e50
+A	templates/images-jssor-formatter.html.twig	9af094b4b1ab6beb61d4f5be72b4a4de

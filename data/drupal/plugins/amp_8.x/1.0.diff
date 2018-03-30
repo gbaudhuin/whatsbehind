@@ -1,0 +1,13 @@
+M	README.md	16b6ba439e8cfcb8bca4d866b694586b
+M	amp.info.yml	afa695b49b23308c6685707e9078a5bc
+M	amp.module	9ba74995a71f07b0a0fb0dfd7910501d
+M	amp.services.yml	45f0a7aab280d5cc2245799cb2e9a064
+M	composer.json	79a0478207eb821a6e077fdea657650e
+A	modules/amp_adsense/amp_adsense.info.yml	539805919cf245e0348b124e2321d1ed
+A	modules/amp_adsense/amp_adsense.module	7f6dabc1d977d6677a159801d5c47dab
+D	src/Cache/AmpUrlAmpCacheContext.php	
+D	src/Cache/AmpUrlWarnfixCacheContext.php	
+M	src/Element/AmpAnalytics.php	09db39ae9db288b2eb954bb0feabef94
+M	src/Element/AmpIframe.php	14eb33729345ec7336fb5763898a8e35
+M	src/Element/AmpProcessedText.php	8609391aeb2d9f12730661eb218647d3
+M	src/Form/AmpMetadataForm.php	19940d871d6d979ffda7d4f0be2aea46

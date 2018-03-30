@@ -1,0 +1,10 @@
+M	custom_search.info.yml	ebec416922f8c8926508897b09442bc3
+M	custom_search.install	137748d571c466ff68588e899432ddae
+M	custom_search.module	ac9eae19f4fedca3001e5b2b88497faa
+M	custom_search.pages.inc	78bbbcf7f05cd12dfa0681de1a5691f5
+M	src/Form/CustomSearchBlockForm.php	6d15b613e5f82c52d95750c1629e30fd
+M	src/Plugin/Block/CustomSearchBlock.php	432f6104611470fdf7aa94b9bea159fe
+A	templates/custom-search-result.html.twig	03b4aba7f963e5ae326fe03416b062b5
+A	templates/custom-search-results.html.twig	d9a72b38f0f04853b462cac59238b0e5
+D	templates/custom_search-result.html.twig	
+D	templates/custom_search-results.html.twig	

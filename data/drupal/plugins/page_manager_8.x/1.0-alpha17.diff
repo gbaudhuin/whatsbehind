@@ -1,0 +1,55 @@
+M	page_manager.info.yml	282896f666fdfc2c113d72e73be8b2c4
+M	page_manager.links.action.yml	29370081a692e0622f6ebf0ee68af69e
+M	page_manager.links.menu.yml	7e82416385de1f51c1a2fb466811740c
+M	page_manager.routing.yml	d9f32d0fc58d23ae1b5a2c50f24820c2
+M	page_manager.services.yml	03c163538ac6082ed4c78ff41f948226
+M	src/Context/EntityLazyLoadContext.php	900538cbde8b4a4ff7a22b00f65cd7cf
+M	src/Controller/PageManagerController.php	b34bbc07e007ebf66fb1894e4fcc7606
+M	src/Entity/Page.php	85ac9dea43fa620f114e14f7bb163b51
+M	src/Entity/PageAccess.php	3c2988d457a47176e07491b3ae7fcedc
+M	src/Entity/PageListBuilder.php	ea1641beb2a790e0fc927b76ad35859b
+M	src/Entity/PageViewBuilder.php	ad036dc51cce9ea21be584a3fc39106c
+M	src/EventSubscriber/CurrentUserContext.php	7ed4f98d90f4d40df781acb64035be06
+A	src/EventSubscriber/RouteNameResponseSubscriber.php	717f66448220fc6ee7694eaae41cbf16
+M	src/EventSubscriber/RouteParamContext.php	2ea6dec9b432facd253ae52138156b47
+M	src/Form/DisplayVariantAddBlockForm.php	664143025b7a0e7272356fcadadaaa6a
+M	src/Form/DisplayVariantConfigureBlockFormBase.php	7413fe26c969564ac520d0b118f8a5c3
+M	src/Form/DisplayVariantDeleteBlockForm.php	9c3ea4225c7a6a0eb94818e22cd3855e
+M	src/Form/DisplayVariantEditForm.php	fcfb9e39b0fd87b2d5c6692cc7972298
+M	src/Form/DisplayVariantFormBase.php	cdaa41dc628cc7af6df77b416951d9d7
+M	src/Form/PageDeleteForm.php	09d93942217910aacf4db31f345826a5
+M	src/Form/PageEditForm.php	e82526826bc57572e77e53fef3ac3ab7
+M	src/Form/SelectionConditionDeleteForm.php	ca3523a03653a0fc71d3b50a0ccb615c
+M	src/Form/SelectionConditionFormBase.php	dd107aefb5f86ed355eb9747384b5307
+M	src/Form/StaticContextAddForm.php	b0456c3748a480b620f9fed0708c592f
+M	src/Form/StaticContextFormBase.php	8787b4efd0c031177430e40ce8c4ae9c
+M	src/PageExecutable.php	1fe8102636845d1450fe37be3a0ab781
+D	src/Plugin/Block/EntityView.php	
+D	src/Plugin/BlockPluginCollection.php	
+D	src/Plugin/BlockVariantInterface.php	
+D	src/Plugin/BlockVariantTrait.php	
+D	src/Plugin/ConditionVariantInterface.php	
+D	src/Plugin/ConditionVariantTrait.php	
+D	src/Plugin/ContextAwareVariantInterface.php	
+D	src/Plugin/ContextAwareVariantTrait.php	
+D	src/Plugin/Deriver/EntityViewDeriver.php	
+D	src/Plugin/DisplayVariant/BlockDisplayVariant.php	
+A	src/Plugin/DisplayVariant/PageBlockDisplayVariant.php	52627d5e1d3e0c184f0561bcfcb9ac19
+D	src/Plugin/PageAwareVariantInterface.php	
+M	src/Routing/PageManagerRoutes.php	e77179135ddcf3895630426b296141ba
+M	src/Tests/PageConfigSchemaTest.php	ec52b3639c9bca434ebac05f25aa2516
+M	src/Tests/PageManagerAdminTest.php	a5107018cc3a58b0b052a84c7a7e9914
+M	src/Tests/PageManagerTranslationIntegrationTest.php	b87bf40dd31bf26791e8e90d635a717a
+M	src/Tests/PageNodeSelectionTest.php	1f40b8905fab8f6fe15b37673dc77d48
+M	src/Tests/PagePlaceholderTest.php	178f58bc59f55142d71bd78c6b1f33b6
+M	src/Tests/StaticContextTest.php	e4de7340bd80079b41688f41501cf1c6
+M	tests/modules/page_manager_test/page_manager_test.info.yml	f53579e35558349ce5faa7a648f0d692
+M	tests/modules/page_manager_test/page_manager_test.routing.yml	1fb69bd78979fc29766f93dad19a1cb0
+D	tests/src/Unit/BlockDisplayVariantTest.php	
+D	tests/src/Unit/BlockPluginCollectionTest.php	
+D	tests/src/Unit/BlockVariantTraitTest.php	
+M	tests/src/Unit/PageAccessTest.php	912c53d544a37a2ff637a70a5852bdaf
+A	tests/src/Unit/PageBlockDisplayVariantTest.php	647b95c2f262231ee2537a22bcb42057
+M	tests/src/Unit/PageExecutableTest.php	21904af27cd15db361d9dcf401090c14
+M	tests/src/Unit/PageManagerRoutesTest.php	1e34a9e9865f5e4a5d2699329da200e0
+A	tests/src/Unit/RouteNameResponseSubscriberTest.php	17367b29e2ffb712179c52acca024b04

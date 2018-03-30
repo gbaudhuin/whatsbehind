@@ -1,0 +1,12 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	b3193b55ef89b43c3f73198a75ff54ba
+A	Tests/Controller/LibraresUiControllerTest.php	f93d725391bb8e9db19c3b97199e7bbd
+A	composer.json	dff471dbc6e1b1bba7e6134938570cbe
+A	libraries_ui.info.yml	d111eddefa67734df0c1e678adea7fa4
+A	libraries_ui.links.menu.yml	443cbc027c45bde3338f63483edb572a
+A	libraries_ui.module	25aee7b6863d9d51dd0fd0ae20ac6407
+A	libraries_ui.routing.yml	510c3978cf38ea17975b4a99ec9b97ca
+A	libraries_ui.services.yml	34343a35e3eaaf010de9520247869349
+A	src/Controller/LibraresUiController.php	5e9398ec360848ce6c3f388151de1c27
+A	src/LibrariesUiService.php	1acfb92476a58f0a42b15992c17013a7
+A	templates/libraries-ui.html.twig	53a1bee60ec8f2967ef9412dcf9a9bb4

@@ -1,0 +1,148 @@
+M	wp-admin/about.php	3ad358d662427932155fa7a399b84dae
+M	wp-admin/credits.php	9a84de5dc1084e8cc7f0692086154bb2
+M	wp-admin/css/wp-admin-rtl.css	01cdaa40c5e6b03518b159adae2b0673
+M	wp-admin/css/wp-admin-rtl.min.css	738cb6605cfba84eb49b8e5fe88e897f
+M	wp-admin/css/wp-admin.css	25dd20710bf1eec392a00fc892b63fde
+M	wp-admin/css/wp-admin.min.css	1afa2caa89a284f06309af1aef0820c0
+M	wp-admin/edit-form-advanced.php	3e46c920fca026cd98591f4d0ed5f481
+M	wp-admin/freedoms.php	9ecaea02fd49fc52390433c876bb99ba
+D	wp-admin/images/screenshots/about-color-picker.png	
+D	wp-admin/images/screenshots/about-media.png	
+D	wp-admin/images/screenshots/about-retina.png	
+D	wp-admin/images/screenshots/about-twenty-twelve.png	
+M	wp-admin/includes/ajax-actions.php	8931aebf054f68b632fff209c0eb7b82
+M	wp-admin/includes/class-wp-importer.php	5878cf64c11ac294104f6e1a7c223a48
+M	wp-admin/includes/file.php	1db3cc8578943cc6c397b0e315724f56
+M	wp-admin/includes/meta-boxes.php	3b385dbf4de92fb22a4bfde2b3b4e76d
+M	wp-admin/includes/ms.php	520de67f81e6463654ad0f218d966afc
+M	wp-admin/includes/nav-menu.php	a354fee0874af4c25afe4ce076aad640
+M	wp-admin/includes/post.php	a32f4f93a4af8d98b5415d7e5e4cfc4e
+M	wp-admin/includes/revision.php	6c909c252d698003c93d1d7af97970db
+M	wp-admin/includes/template.php	7c46a9c6aadc8938db0bb082edc626ed
+M	wp-admin/includes/update-core.php	98f75cffba82addb1a98582dd07d8e79
+D	wp-admin/js/revisions-js.php	
+M	wp-admin/js/revisions.js	a005233637f6f2564e710a0e4a5b0e1f
+M	wp-admin/js/revisions.min.js	53d6b76b1495528760964cb5414167df
+M	wp-admin/load-scripts.php	5d28692c60cdcce6c2492fd94fdcb1eb
+M	wp-admin/load-styles.php	b161a1a3b8b0bbea88906221b48a18f6
+M	wp-admin/revision.php	17e3c1ef264e9b73f9001ccf8a320eef
+D	wp-content/plugins/akismet/.htaccess	
+M	wp-content/plugins/akismet/admin.php	6ea136449430a16f0d4675b6af5aa7d8
+M	wp-content/plugins/akismet/akismet.php	0c4cd671096b4def83c149ba61a1472e
+M	wp-content/plugins/akismet/readme.txt	865f97cdc576e009b79dfd91a1f0781e
+D	wp-content/themes/twentyeleven/404.php	
+D	wp-content/themes/twentyeleven/archive.php	
+D	wp-content/themes/twentyeleven/author.php	
+D	wp-content/themes/twentyeleven/category.php	
+D	wp-content/themes/twentyeleven/colors/dark.css	
+D	wp-content/themes/twentyeleven/comments.php	
+D	wp-content/themes/twentyeleven/content-aside.php	
+D	wp-content/themes/twentyeleven/content-featured.php	
+D	wp-content/themes/twentyeleven/content-gallery.php	
+D	wp-content/themes/twentyeleven/content-image.php	
+D	wp-content/themes/twentyeleven/content-intro.php	
+D	wp-content/themes/twentyeleven/content-link.php	
+D	wp-content/themes/twentyeleven/content-page.php	
+D	wp-content/themes/twentyeleven/content-quote.php	
+D	wp-content/themes/twentyeleven/content-single.php	
+D	wp-content/themes/twentyeleven/content-status.php	
+D	wp-content/themes/twentyeleven/content.php	
+D	wp-content/themes/twentyeleven/editor-style-rtl.css	
+D	wp-content/themes/twentyeleven/editor-style.css	
+D	wp-content/themes/twentyeleven/footer.php	
+D	wp-content/themes/twentyeleven/functions.php	
+D	wp-content/themes/twentyeleven/header.php	
+D	wp-content/themes/twentyeleven/image.php	
+D	wp-content/themes/twentyeleven/images/comment-arrow-bypostauthor-dark-rtl.png	
+D	wp-content/themes/twentyeleven/images/comment-arrow-bypostauthor-dark.png	
+D	wp-content/themes/twentyeleven/images/comment-arrow-bypostauthor-rtl.png	
+D	wp-content/themes/twentyeleven/images/comment-arrow-bypostauthor.png	
+D	wp-content/themes/twentyeleven/images/comment-arrow-dark-rtl.png	
+D	wp-content/themes/twentyeleven/images/comment-arrow-dark.png	
+D	wp-content/themes/twentyeleven/images/comment-arrow-rtl.png	
+D	wp-content/themes/twentyeleven/images/comment-arrow.png	
+D	wp-content/themes/twentyeleven/images/comment-bubble-dark-rtl.png	
+D	wp-content/themes/twentyeleven/images/comment-bubble-dark.png	
+D	wp-content/themes/twentyeleven/images/comment-bubble-rtl.png	
+D	wp-content/themes/twentyeleven/images/comment-bubble.png	
+D	wp-content/themes/twentyeleven/images/headers/chessboard-thumbnail.jpg	
+D	wp-content/themes/twentyeleven/images/headers/chessboard.jpg	
+D	wp-content/themes/twentyeleven/images/headers/hanoi-thumbnail.jpg	
+D	wp-content/themes/twentyeleven/images/headers/hanoi.jpg	
+D	wp-content/themes/twentyeleven/images/headers/lanterns-thumbnail.jpg	
+D	wp-content/themes/twentyeleven/images/headers/lanterns.jpg	
+D	wp-content/themes/twentyeleven/images/headers/pine-cone-thumbnail.jpg	
+D	wp-content/themes/twentyeleven/images/headers/pine-cone.jpg	
+D	wp-content/themes/twentyeleven/images/headers/shore-thumbnail.jpg	
+D	wp-content/themes/twentyeleven/images/headers/shore.jpg	
+D	wp-content/themes/twentyeleven/images/headers/trolley-thumbnail.jpg	
+D	wp-content/themes/twentyeleven/images/headers/trolley.jpg	
+D	wp-content/themes/twentyeleven/images/headers/wheel-thumbnail.jpg	
+D	wp-content/themes/twentyeleven/images/headers/wheel.jpg	
+D	wp-content/themes/twentyeleven/images/headers/willow-thumbnail.jpg	
+D	wp-content/themes/twentyeleven/images/headers/willow.jpg	
+D	wp-content/themes/twentyeleven/images/search.png	
+D	wp-content/themes/twentyeleven/images/wordpress.png	
+D	wp-content/themes/twentyeleven/inc/images/content-sidebar.png	
+D	wp-content/themes/twentyeleven/inc/images/content.png	
+D	wp-content/themes/twentyeleven/inc/images/dark.png	
+D	wp-content/themes/twentyeleven/inc/images/light.png	
+D	wp-content/themes/twentyeleven/inc/images/sidebar-content.png	
+D	wp-content/themes/twentyeleven/inc/theme-customizer.js	
+D	wp-content/themes/twentyeleven/inc/theme-options.css	
+D	wp-content/themes/twentyeleven/inc/theme-options.js	
+D	wp-content/themes/twentyeleven/inc/theme-options.php	
+D	wp-content/themes/twentyeleven/inc/widgets.php	
+D	wp-content/themes/twentyeleven/index.php	
+D	wp-content/themes/twentyeleven/js/html5.js	
+D	wp-content/themes/twentyeleven/js/showcase.js	
+D	wp-content/themes/twentyeleven/languages/twentyeleven.pot	
+D	wp-content/themes/twentyeleven/license.txt	
+D	wp-content/themes/twentyeleven/page.php	
+D	wp-content/themes/twentyeleven/readme.txt	
+D	wp-content/themes/twentyeleven/rtl.css	
+D	wp-content/themes/twentyeleven/screenshot.png	
+D	wp-content/themes/twentyeleven/search.php	
+D	wp-content/themes/twentyeleven/searchform.php	
+D	wp-content/themes/twentyeleven/showcase.php	
+D	wp-content/themes/twentyeleven/sidebar-footer.php	
+D	wp-content/themes/twentyeleven/sidebar-page.php	
+D	wp-content/themes/twentyeleven/sidebar.php	
+D	wp-content/themes/twentyeleven/single.php	
+D	wp-content/themes/twentyeleven/style.css	
+D	wp-content/themes/twentyeleven/tag.php	
+M	wp-content/themes/twentythirteen/functions.php	345c53c2ba14da894d8216d7c3f76843
+M	wp-content/themes/twentythirteen/languages/twentythirteen.pot	583fd9cdc8ee4f5632a89c943a5a9dd2
+M	wp-content/themes/twentythirteen/style.css	87ce5ad8de7f9f2b495863a9e120cad4
+M	wp-content/themes/twentytwelve/languages/twentytwelve.pot	e725469f1f05d18781e026350b90142c
+M	wp-content/themes/twentytwelve/style.css	adc00b497626b1fc83e39daf22e1c6eb
+M	wp-includes/bookmark.php	749db17ac9029fe81b2e9652fb75d75d
+M	wp-includes/class-feed.php	3a81f30dc47f14b1b9c22d40833731b5
+M	wp-includes/class-http.php	6380474afc89806c5202fed9e47db29e
+M	wp-includes/class-oembed.php	4b2003fc2b3d14e6f98eff1b89bccb71
+M	wp-includes/class-wp-xmlrpc-server.php	2add1ba6a7e758541d913042297cd120
+M	wp-includes/comment.php	b73c9f2412cad7a3dd25a2d7ddbca074
+M	wp-includes/default-filters.php	d812b13593c22006c6cec0639d95b119
+M	wp-includes/functions.php	fc71fb7aef4ec5ddadd40d8229e9148d
+M	wp-includes/http.php	dfc5c8781b9e109125f0dca520de0a46
+M	wp-includes/js/autosave.js	2c5edd9df2864f480f946256022c9f44
+M	wp-includes/js/autosave.min.js	7f88619a2907adba7943d1f3ff47b63b
+M	wp-includes/js/heartbeat.js	47c31105470a92578457104c096c0f91
+M	wp-includes/js/heartbeat.min.js	291eec7c9016045eab556f6cd9e988fd
+M	wp-includes/js/media-models.js	6eb56989a9553ce89b1cd706bfa17084
+M	wp-includes/js/media-models.min.js	f0b1936032cc0dc2dab420241d891412
+M	wp-includes/js/mediaelement/flashmediaelement.swf	03dc1336e5697e4ceda3a7f4b99b71c7
+M	wp-includes/js/mediaelement/mediaelement-and-player.min.js	9075ef6303cc251092a0d6bfdd3a2093
+M	wp-includes/js/mediaelement/mediaelementplayer.min.css	a7f7bdc09331cf77b0f7b820eb59f75b
+M	wp-includes/js/mediaelement/wp-mediaelement.css	b84abcd93646dedd34ab5c0fe7ffd284
+M	wp-includes/js/mediaelement/wp-mediaelement.js	4e654df64f6c6971d29676c04eb5481a
+M	wp-includes/js/swfupload/swfupload.swf	bd5a25f23589652ca472d41fe1484f0c
+M	wp-includes/link-template.php	64a3ddd0be9dff88368abf511599888c
+M	wp-includes/locale.php	58dc2e217d7dcfacffce028e33672076
+M	wp-includes/media.php	a80c415347321458b3efbb5fc9cf5246
+M	wp-includes/ms-default-filters.php	97ab3e0ada097b95c1242941fb7f6fe4
+M	wp-includes/post-formats.php	de6b1c6829e6ffd172b40c5ea536fecc
+M	wp-includes/rss.php	305d183b0596de1b2df4619235f0ac8e
+M	wp-includes/script-loader.php	e486dfc53002c6d72cb5782447de5434
+M	wp-includes/version.php	930301f50ca31c4f2ff53218290e7ffe
+M	wp-includes/wp-db.php	911858d895aca6d918f68ef0c02ec68b

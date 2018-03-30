@@ -1,0 +1,17 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	modules/blog.page_title.inc	26550c9a948de8b8d6191d58e15770b0
+M	modules/comment.page_title.inc	e9e343b2c2e9a175a6873d3c3bebb9a4
+M	modules/forum.page_title.inc	dbc7a1c9bef21c467d974cbabc2b6b31
+M	modules/node.page_title.inc	168f42a6d2dcbd1adb523968441de6cb
+M	modules/page_title.page_title.inc	7265bc8f8060a60fd9adc95dc77afcda
+M	modules/taxonomy.page_title.inc	4a9b843f63e4bdd5e0cfc25dc9c9b111
+A	modules/uc_catalog.page_title.inc	d16365108042f19cd8532be799972e19
+M	modules/user.page_title.inc	edb1fc9d443341004c5b8c0af7cbcfd1
+M	modules/views.page_title.inc	7de12288cf426276feae35f875d97da0
+M	page_title-admin-settings-form.tpl.php	738d5496ff7c1c7b17266ae0fcb4c6eb
+M	page_title.admin.inc	42e9aa8886e0589149dc4c9932e962db
+M	page_title.info	2cf8e0daa2c00cea9e5738c94ed66aa3
+M	page_title.install	6b01466ced4c718701dfd21f391c61e7
+M	page_title.module	a38ac07282a1af9d28750035f99d47fd
+M	page_title.views.inc	acef25e7cb39d84b84c9240a02f7c510
+M	views_handler_field_node_page_title.inc	408e406577b8b15d0f12c1e60965192d

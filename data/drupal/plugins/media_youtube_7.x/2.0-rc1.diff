@@ -1,0 +1,22 @@
+M	CHANGELOG.txt	879544e082fa7e11c36884f0a49f975d
+D	MediaYouTubeStreamWrapper.inc	
+M	README.txt	79636dddb04dbc14b837d615ad42e0d0
+D	css/media_youtube.css	
+D	css/media_youtube.wysiwyg.css	
+D	images/stream-youtube.png	
+M	includes/MediaInternetYouTubeHandler.inc	39c10c1df10f53e348f65619c133e106
+M	includes/MediaYouTubeBrowser.inc	8c7362a0cb33ff4c74423f578d14c4bf
+M	includes/MediaYouTubeStreamWrapper.inc	67d878fb04bfd6036c5128c1cf8be37b
+D	includes/MediaYouTubeStyles.inc	
+M	includes/media_youtube.formatters.inc	216869afa2700f230d667a47785e5c47
+D	includes/media_youtube.styles.inc	
+M	includes/media_youtube.variables.inc	9e0b04c6f2e79d0aa4b5a5dd7e104b40
+A	includes/themes/media-youtube-video.legacy-example.tpl.php	03239ce748c589c8507860cc08cd335e
+M	includes/themes/media-youtube-video.tpl.php	e0b219ab6f2f4e55b253f07a07259a05
+M	includes/themes/media_youtube.theme.inc	c3ba623e7f6eeaee70ec437042f5b89d
+D	js/flash_detect_min.js	
+M	js/media-youtube.browser.js	fa91566defc2bbe6ccce33ce66b9b91f
+D	js/media_youtube.js	
+M	media_youtube.info	ee29c03b99242639437deda3cc291779
+M	media_youtube.install	424e6a8bc155e1b651ab0a6531372008
+M	media_youtube.module	1984bdbededde9483638a6a9ccee72fa

@@ -1,0 +1,18 @@
+M	drush/key.drush.inc	46727e71f3857ac423380ac8eb16a5f6
+A	drush/key_delete.drush.inc	afe52ebc5909be8b48bac3be89125763
+D	drush/key_delete.inc	
+A	drush/key_list.drush.inc	93200a17f4cc643da56eb448bb0c326a
+D	drush/key_list.inc	
+A	drush/key_provider_list.drush.inc	e1ebb849ea89fd10758238d01d1aa160
+D	drush/key_provider_list.inc	
+A	drush/key_save.drush.inc	8fd168ccfe6a34c164a3a2c243908439
+D	drush/key_save.inc	
+A	drush/key_type_list.drush.inc	5b07fd7b60bdfa22504b5b10123b7142
+D	drush/key_type_list.inc	
+A	drush/key_value_get.drush.inc	1460b999d1734d6f0b756ffc417942bc
+D	drush/key_value_get.inc	
+M	key.info.yml	b8a18e788e9958215a21647dc540cd49
+M	key.services.yml	2aa9b97224e8be7c4a2741b833b0e055
+M	src/Annotation/KeyType.php	5d866a634468f607673e78b8020ff807
+M	src/KeyConfigOverrides.php	e2349d910386a72cb067aef6daafb9cb
+M	src/Plugin/KeyType/AuthenticationMultivalueKeyType.php	9ccf5902ac4115f7195703ab2aedf43d

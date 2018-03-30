@@ -1,0 +1,12 @@
+M	geofield.feeds.inc	c4190a36befcf9386f6734c0dc416207
+M	geofield.formatters.inc	1863240e15f9460e8e36b541b1bda42c
+M	geofield.info	e2cf23fe3e7ad4575076501837e665b0
+M	geofield.install	9914b456ecd0595c28c61e95a668a82e
+M	geofield.make	1bad6dd966fd49d41fe65a2af325eb3b
+M	geofield.module	378f7e63fe94439e316a5191be67e9dd
+A	geofield.openlayers.inc	82508397bf269e7db55521e3704723f4
+A	geofield.test	b79d4fbbe76566d9ed7ebcbeaebf5063
+M	geofield.widgets.inc	b6e756feb2feed92cc7097ff6aa3e0a8
+M	includes/behaviors/css/openlayers_behavior_geofield.css	59080e796636ce93ce1d5ebd9b9e5f38
+M	includes/behaviors/js/openlayers_behavior_geofield.js	9df0a75b6809bcef930b548354f8b7e9
+M	includes/behaviors/openlayers_behavior_geofield.inc	787244217e50af6a2102530352f21361

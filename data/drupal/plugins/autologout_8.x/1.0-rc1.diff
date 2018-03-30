@@ -1,0 +1,21 @@
+M	autologout.api.php	02f0925802bd9272540d7345a0ea8036
+M	autologout.info.yml	be03203006283d037bc4b380ca4c510d
+M	autologout.libraries.yml	0ba3a2b486652a1e443bb845f6a3d429
+M	autologout.module	6d722292c59351c60052fe02ce5f6e23
+M	autologout.routing.yml	237f9f87cfd9fc7b024091988d2605f3
+M	autologout.services.yml	eb792827cd97ed01eeeaf5b489b25a25
+M	composer.json	56d1a6901322de7912216ff6a52bdabd
+M	config/install/autologout.settings.yml	7cdecb67a2e524c260c1c43c840e74d0
+A	config/schema/autologout.schema.yml	a2fed2cda1550be9152c49e101738864
+M	js/autologout.js	f690b09f5c57fc8d008a79c7fc803363
+A	src/AutologoutManager.php	9659a7706a224e1c7720af7e3a593c1c
+A	src/AutologoutManagerInterface.php	31f6df6439ce82fe94945ad0533f6e76
+M	src/Controller/AutologoutController.php	e69fdc44bb0b0c42a43c1f94026a1db8
+M	src/EventSubscriber/AutologoutSubscriber.php	4426bd29bd732f90bc808c523689aabe
+M	src/Form/AutologoutBlockForm.php	8f932d5bb6e0b27fa2eba3a40b82af21
+M	src/Form/AutologoutSettingsForm.php	cfcebb0a3ddf32f0aa81c1d70bea8a34
+M	src/Plugin/Block/AutologoutWarningBlock.php	9e1aec7cf12dd5bd45fff1cbac1b66d6
+A	src/Tests/AutologoutAjaxTest.php	c3b32f4d32e11b76901ed52cb8ad3657
+A	src/Tests/AutologoutSessionCleanupOnLoginTest.php	7d6e15d072e9b026e7bd546e202b2081
+A	src/Tests/AutologoutTest.php	53d9ca5414e4e644819d10412a0146ec
+D	tests/autologout.test	

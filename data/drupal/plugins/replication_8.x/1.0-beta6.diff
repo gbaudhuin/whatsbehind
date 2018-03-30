@@ -1,0 +1,6 @@
+M	replication.info.yml	4ca157fb50f1f1d02d68972370c91014
+M	replication.services.yml	6da0cdf995faeb5bac261603f7749221
+M	src/Normalizer/LinkItemNormalizer.php	6db7d3244a75986612d12cd87a8ce6a0
+A	src/Normalizer/RedirectSourceItemNormalizer.php	49ad46b78cdf257fefa736ae6407b0a5
+M	tests/modules/replication_alter_test/replication_alter_test.info.yml	6c7cbd24c05687bef78b6f8ca1ed7ca1
+M	tests/src/Kernel/Normalizer/LinkItemNormalizerTest.php	0eca84cbadb8eddff040f44ae57d4e3e

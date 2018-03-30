@@ -1,0 +1,16 @@
+M	README.txt	fe4db05243608779d994388753235347
+M	composer.json	16746e4a909a5f97cd2850177ff05e08
+D	config_ignore.drush.inc	
+M	config_ignore.info.yml	2a6449f384557c759b516e384ed9f0cc
+A	config_ignore.install	dd03ad69bb0cd6815275dd1cb9cf1d65
+M	config_ignore.module	9384030b9316212ca6b3529e83952b6f
+D	src/ConfigImporterIgnore.php	
+M	src/Form/Settings.php	0c4d5f1dc2d22d98bf0ea72b27334426
+A	src/Plugin/ConfigFilter/IgnoreFilter.php	934e14188bb4f35f1225175072c6c979
+D	src/Tests/ConfigIgnoreHookTest.php	
+D	src/Tests/ConfigIgnoreSettingsTest.php	
+D	src/Tests/ConfigIgnoreTest.php	
+M	tests/config_ignore_hook_test/config_ignore_hook_test.info.yml	ca536c6bba0e0347cc68a1f9c560ab3d
+A	tests/src/Functional/ConfigIgnoreBrowserTestBase.php	7745088013d443528052594833b1c5c9
+A	tests/src/Functional/ConfigIgnoreHookTest.php	ad030b729a73ea4633178bfd33399d2b
+M	tests/src/Functional/ConfigIgnoreTest.php	8f2ede22896435444ce275bcca16f3b9

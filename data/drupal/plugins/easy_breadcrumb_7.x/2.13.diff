@@ -1,0 +1,8 @@
+A	easy_breadcrumb.api.php	350844b7eeb86f5fbf865a42800e0d49
+M	easy_breadcrumb.info	ed49f0aacfa745f7a773d4d48a8b25d3
+M	easy_breadcrumb.install	9ff1c458a970142a4b1b2a43d430e257
+M	easy_breadcrumb.module	e88d37aeec9bae631b985b2f29cbf2bd
+M	includes/EasyBreadcrumbConstants.inc	0db15734610e11250fdba5b9332c05da
+M	includes/easy_breadcrumb.admin.inc	3c5f4fc2f80a916fed663fa3775892a7
+D	includes/easy_breadcrumb.blocks.inc	
+A	tpl/easy-breadcrumb.tpl.php	63dbc433d382f3cdecae3502f3674b1d

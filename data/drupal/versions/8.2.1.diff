@@ -1,0 +1,9 @@
+M	core/lib/Drupal.php	69c48f5b346228f9d8487e986da00cb5
+M	core/modules/block/block.post_update.php	920582565baeffc6a10965966ac08792
+M	core/modules/block/src/BlockForm.php	ba25e91e5589f8499b82d2a8e447850b
+A	core/modules/block/src/Tests/Update/BlockConditionMissingSchemaUpdateTest.php	520fe53fe8b7605ddd62bb8bf9346593
+A	core/modules/block/tests/fixtures/update/block.block.missing_schema.yml	e3de92db477643fa8ec01275adcd96dd
+A	core/modules/block/tests/fixtures/update/drupal-8.block-test-enabled-missing-schema.php	1207088b3b2ff3aa3c651cf670e74b0a
+A	core/modules/block/tests/modules/block_test/src/Plugin/Condition/MissingSchema.php	afcc3ec484c89a24a4c396f705ce8afe
+M	core/modules/content_moderation/src/Plugin/Field/ModerationStateFieldItemList.php	defd83e3affb582743d3c32a14513b95
+M	core/modules/content_moderation/src/Tests/ModerationStateNodeTest.php	3f661fc7d6364c5b3f6c4984d387320b

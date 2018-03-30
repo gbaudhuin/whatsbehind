@@ -1,0 +1,7 @@
+M	plugins/ultimate_cron/scheduler/crontab.class.php	3f4c52acf5e691117299c4c15b2b99ea
+M	plugins/ultimate_cron/settings/poorman.class.php	5c02c2c864d2d15235ae6a03bc78bb85
+M	plugins/ultimate_cron/settings/queue.class.php	2659ab5e03acac2cf138f6f7078a3b03
+M	ultimate_cron.info	bd335d4aeaccd33994313b24057c3276
+M	ultimate_cron.module	28983046c5a2ab44c52b514b35436844
+M	ultimate_cron.plugin.inc	42336457f26a0bcae96d74f1fdb5abf4
+M	ultimate_cron.poorman.inc	586371001d9724cb8a7ba661aa4e43fb

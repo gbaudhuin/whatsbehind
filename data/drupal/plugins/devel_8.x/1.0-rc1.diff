@@ -1,0 +1,74 @@
+M	composer.json	b045a7a9fc131fdf62851ca0bbcec6e2
+A	config/install/devel.toolbar.settings.yml	5c190abb4c997634a9e807d5c05fffa5
+M	config/schema/devel.schema.yml	f7d335cd32a1a01e2586520bc5f5ab71
+A	css/devel.toolbar.css	2698bd5c0580ee92146938f0ae599bef
+M	devel.info.yml	80ad4a8f348740b440e17ab8110ad671
+M	devel.install	81971315069356839e4b53157d44453a
+M	devel.libraries.yml	583e448b0b1fb0420df5438a4d1528df
+M	devel.links.menu.yml	8c1ddefe50f81113e4c69aa410b5c833
+M	devel.links.task.yml	8aaf84d2dfccb138bc7f6d28fcda4ab2
+M	devel.module	b31f914348d34ded8c0645c444460dc5
+M	devel.routing.yml	7715d3f6edd81ef9c50a94b94276f39c
+D	devel.rules.inc	
+M	devel.services.yml	b08aaac71e38c4e65820d2753b361979
+M	devel_generate/devel_generate.info.yml	2483ed131b1e979f91745b39cc7f25fe
+M	devel_generate/tests/modules/devel_generate_example/devel_generate_example.info.yml	6a141d58491d875c2776087eace1e8b6
+A	icons/bebebe/cog.svg	14cd3adb784138c4ebc47d5345f6ae13
+A	icons/ffffff/cog.svg	6c8fae26af07544f9d17443b346d2e4e
+M	kint/kint.info.yml	819007a87c54ff5e9fbf5397e60bcd25
+M	kint/src/Plugin/Devel/Dumper/Kint.php	567e60567b5b1fb6d679f62ee9147433
+A	src/Controller/ContainerInfoController.php	2abe4d311fe0c363d3262a0387255a4a
+M	src/Controller/DevelController.php	07d79c63abade07657be5d31e2cf70d1
+A	src/Controller/EventInfoController.php	c6982bfd725133a6eaf7baf5f022e72d
+A	src/Controller/RouteInfoController.php	dc78598fcf926609c8c6de453818889a
+M	src/DevelDumperBase.php	4302196f10637b5666594f7bbcbe23f2
+A	src/EntityTypeInfo.php	70e468551b5136c8d28b964715df9f3a
+D	src/EventSubscriber/DevelEventSubscriber.php	
+A	src/EventSubscriber/ErrorHandlerSubscriber.php	e9dc6d8cf36b18b25b7d306eb5920614
+A	src/EventSubscriber/ThemeInfoRebuildSubscriber.php	3781bcf0b82d5f8be3a6200ca6cb64cf
+M	src/Form/SettingsForm.php	c0ada9eb8520099669ab817be9bb7ef9
+M	src/Form/SystemStateEdit.php	f79061172152b09c57b4531971f00671
+A	src/Form/ToolbarSettingsForm.php	808120c06b99f9c34c9ab175dfc60e04
+M	src/Plugin/Devel/Dumper/DoctrineDebug.php	d90a3f2373a3cab0af2700ac555dde76
+M	src/Plugin/Devel/Dumper/DrupalVariable.php	09065de49617f59cb683226a0c504273
+M	src/Plugin/Devel/Dumper/VarDumper.php	e13da08b45e97c3da5d4a96062bd7b99
+M	src/Plugin/Mail/DevelMailLog.php	dde37db4c828ef74d3d920737e01ea1a
+M	src/Plugin/Menu/MenuItemMenuLink.php	3464a06f381b04b5dc284d4c993c1685
+A	src/Plugin/Menu/RouteDetailMenuLink.php	3f3ee04a7fdae7e6bdadaa876f8d2b7f
+D	src/Tests/DevelErrorHandlerTest.php	
+D	src/Tests/DevelMailTest.php	
+M	src/Tests/DevelMenuLinksTest.php	8b8d45417b5fe2151b3cea75008cbac0
+D	src/Tests/DevelStateEditorTest.php	
+A	src/ToolbarHandler.php	f8721a41ab4535f926751896cb9b1f48
+M	tests/modules/devel_dumper_test/devel_dumper_test.info.yml	88adee4baeee264241349ec9d8bca3df
+M	tests/modules/devel_entity_test/devel_entity_test.info.yml	dc393709f459e15d599d7adc27f8f233
+M	tests/modules/devel_test/devel_test.info.yml	7389ca82b89cd135898d5426483bb978
+A	tests/modules/devel_test/devel_test.module	744843840c8ed8e691f8d8d201563239
+A	tests/src/Functional/DevelContainerInfoTest.php	7bf4d0a89f5937679d0002057c5e9442
+A	tests/src/Functional/DevelErrorHandlerTest.php	353f73ce3f563ba275427d9cef48e276
+A	tests/src/Functional/DevelEventInfoTest.php	2fa283ab574650f8ff2b58cc2a2640d0
+A	tests/src/Functional/DevelRequirementsTest.php	118ab7c140397d107846f52d06e3525b
+A	tests/src/Functional/DevelRouteInfoTest.php	040addb70a2bd096b9616230a19b45ac
+A	tests/src/Functional/DevelStateEditorTest.php	4b68efd61be0495c2bb44fa06bb74d74
+A	tests/src/Functional/DevelToolbarTest.php	e4e2efea4c5525cc0132c38fd0931039
+A	tests/src/Functional/DevelWebAssertHelper.php	28f8e4a79dd0b9d91f4771d765bde033
+A	tests/src/Kernel/DevelMailLogTest.php	11f9d9414718810cc333efbcb539af38
+A	tests/src/Kernel/DevelQueryDebugTest.php	7f0383084fb9f5d34789f61df5fd5401
+D	webprofiler/config/translations/console.en.yml	
+D	webprofiler/config/translations/console.es.yml	
+A	webprofiler/console.services.yml	af771ae7081dd835443fc7b4c1743065
+A	webprofiler/console/translations/en/webprofiler.benchmark.yml	3e8ea5fe5b180be99d8f09d770fcbbac
+A	webprofiler/console/translations/en/webprofiler.export.yml	35cbc1da8a6c928b62e52c67e17d546a
+A	webprofiler/console/translations/en/webprofiler.list.yml	1d34f6c9ec9571587397030a5fff5198
+A	webprofiler/console/translations/es/webprofiler.benchmark.yml	b850d3575412e926b627b308bf54631a
+A	webprofiler/console/translations/es/webprofiler.export.yml	7ac723b020b8e99c2d136be001212c75
+A	webprofiler/console/translations/es/webprofiler.list.yml	a4930e18c1fd6caa9923a0099bb6d81d
+M	webprofiler/src/Cache/CacheBackendWrapper.php	b05df3dacb16b43a367f752e666ebf25
+M	webprofiler/src/Command/BenchmarkCommand.php	25a2e2a71f09a78e81b7b7fb957dacbb
+M	webprofiler/src/Command/ExportCommand.php	12276d2149cbb1bb6c9a6c63da6ea272
+M	webprofiler/src/Command/ListCommand.php	c472dbda0c70d8473934a4a745046d93
+M	webprofiler/src/DataCollector/HttpDataCollector.php	31c7462542be9f60419dab17a60a85f5
+M	webprofiler/src/Routing/TokenConverter.php	892e88e6aa1e3da22cc2896d7f4bfa09
+M	webprofiler/src/State/StateWrapper.php	7a4b2367a7b2a698253c16db13fe07de
+M	webprofiler/webprofiler.info.yml	595d0878c90aceec4daf1fb8ac3528fb
+M	webprofiler/webprofiler.services.yml	5bb7bf3e2e5330ab0599861b2f5230fa

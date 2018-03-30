@@ -1,0 +1,11 @@
+A	README.txt	11bc9761801168769b0c343a32a8744d
+M	ShareThisForm.css	d88292d9065b34aa402f8c612e1ddcd3
+M	ShareThisForm.js	94c8ca6b179d426c70a83718ddaf1c07
+M	plugins/content_types/sharethis/sharethis.inc	be32027b5c10bce8b533cc0d7378c6e7
+M	sharethis.admin.inc	411a4d8dc7e8415c2b188a3abc17388f
+M	sharethis.info	6e9815c9e637ad9cbddc9d33c78b00d7
+M	sharethis.install	940259e271f5e75845fdf5a03753d8c6
+M	sharethis.module	922908dbc14f49afb6b06a6ab8616f55
+M	stlib_picker.css	382d3c2b2896bdb56cfe7ad8b19d1763
+M	stlib_picker.js	134b5ae373976e732166c38043eba5e0
+M	views/sharethis_handler_field_link.inc	1053d1c2dc92ef5310a5d61fbe11ec4c

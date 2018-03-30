@@ -1,0 +1,11 @@
+M	config/install/eu_cookie_compliance.settings.yml	967f9a2895a63e7838b3855394024c84
+M	config/schema/eu_cookie_compliance.schema.yml	85f5839236dd3bd99e29a61ad1dea5e1
+M	css/eu_cookie_compliance.bare.css	f198cdb8466baa1a77121cefab5756f8
+M	css/eu_cookie_compliance.css	fc808dd3a3bbc32ad2983e743c4cf964
+M	eu_cookie_compliance.info.yml	0e7fe612d3629e47db4cef43d8d6c50d
+M	eu_cookie_compliance.install	b470e808a9b2f55055fe4dab092f0e49
+M	eu_cookie_compliance.module	eb0deb670789cdc5a9f7609b9dba15e4
+M	js/eu_cookie_compliance.js	c1c6244f199be1831c9f9e3c8a7dd9b0
+M	src/Form/EuCookieComplianceConfigForm.php	4799711d3a971383eee7254d13fcd2b1
+M	templates/eu_cookie_compliance_popup_agreed.html.twig	31b6965948dedfcaf073b4fc5ba16a1f
+M	templates/eu_cookie_compliance_popup_info.html.twig	046b884740f23f19f7b5a130b27e88e3

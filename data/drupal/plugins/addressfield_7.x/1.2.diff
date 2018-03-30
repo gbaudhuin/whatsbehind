@@ -1,0 +1,15 @@
+M	addresses.txt	289006882069feca0896c21801aab893
+M	addressfield.address_formats.inc	0a391fd78e544f16500a7e45c1a9af62
+M	addressfield.administrative_areas.inc	2e3f129017d6fa9287cc29146837e40d
+M	addressfield.devel_generate.inc	0b0de5938fc164c1b183b0da5aa3ea7a
+M	addressfield.feeds.inc	0909edd1330deada6f642b8dfedba633
+M	addressfield.info	d515300a781121c67bb6f25f2cf516e0
+M	addressfield.migrate.inc	82fbc2e98383814deb76fd5bec5b29f3
+M	addressfield.module	e36b4f3a3412948d0ee655195a71a623
+M	example/addressfield_example.info	c0c0ea5908669774c58939b2d77efd8f
+M	example/plugins/format/address-ch-example.inc	8ddadb150aa07fd4df158ff47b2269e7
+M	plugins/format/address-optional.inc	456f8131cf8cb134fb7c08687254934f
+M	plugins/format/address.inc	509e46bdef53c499d119da9185f792d7
+M	plugins/format/organisation.inc	ef2e550a08a01056fb16057ba38f96fb
+M	views/addressfield.views.inc	adaef15fa494def9795ce04f65aa0cd4
+A	views/addressfield_views_handler_field_administrative_area.inc	ae9f2cd887b25799a35e6fccdd56428e

@@ -1,0 +1,4 @@
+M	lib/MissingDirPlugin/DrupalExtensionPrefix.php	0497c4a8e133b3ad94f262b273ad865e
+M	tests/test_1/xautoload_test_1.info	1efc520bb7db127beaeedff2d057a98a
+M	tests/test_2/xautoload_test_2.info	3787cbb6bef069efefde26fbd51bc6b4
+M	xautoload.info	cf650fcfe0ba921586349ec1a478947a

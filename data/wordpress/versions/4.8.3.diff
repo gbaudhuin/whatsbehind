@@ -1,0 +1,12 @@
+M	wp-admin/about.php	ccc1205050ac5eea7f68424dc5de390e
+M	wp-content/plugins/akismet/_inc/akismet.js	26ad5bb05da0cbdc3ce91cc418f34e11
+M	wp-content/plugins/akismet/akismet.php	6a1d303572b85eb3b4828ca758e991a9
+M	wp-content/plugins/akismet/class.akismet-admin.php	e9bc1c534edda81812db2890775f9c4a
+A	wp-content/plugins/akismet/class.akismet-rest-api.php	09f3201db30fc8f83c00d6d41175d443
+M	wp-content/plugins/akismet/class.akismet.php	3a28ade81a2cbfd1f7814f82c71004d2
+M	wp-content/plugins/akismet/readme.txt	d1de027b31fe542758bd9259ffa527e9
+M	wp-content/plugins/akismet/views/config.php	e8bb7fa065ab1c6d33770284e9ce6729
+M	wp-includes/formatting.php	3533dda626a935f4f63be4e4ce6b521a
+M	wp-includes/post.php	179c8682130d051fd5fbb79bb76cf2b2
+M	wp-includes/version.php	3ecdfb30a4b4d4509dab2a86b414cbc9
+M	wp-includes/wp-db.php	0dd10fa05738367cfa1805628db272aa

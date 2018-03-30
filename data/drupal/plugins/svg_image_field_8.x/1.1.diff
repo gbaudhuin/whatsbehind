@@ -1,0 +1,14 @@
+A	.gitignore	75ff9ba24f5f8007af337f2d5a581bba
+M	README.md	1ec435c0d3a22fb1bee462403c7435c6
+M	src/Plugin/Field/FieldFormatter/SvgImageFieldFormatter.php	3a88a33e75580a287eb27854005c168c
+M	src/Plugin/Field/FieldType/SvgImageFieldItem.php	18d7a1b6b1db5e8b00a3c56d0e2ab8c8
+M	src/Plugin/Field/FieldWidget/SvgImageFieldWidget.php	f38eadbe5914d632550f4ac3704f4bff
+M	svg_image_field.info.yml	5c479092d456ea91f272d57b6ffd5b2e
+M	svg_image_field.module	5808f51692093f990008cb502218f999
+A	svg_image_field.views.inc	1fdf1386fe0069c2597c5ee97628ad9f
+M	templates/svg-image-field-formatter.html.twig	4cd27db6cf54956793a4aa9ea15976b9
+A	tests/src/Unit/FileValidationTest.php	c72a48948a31adb7de3ae9f26a6d5e2b
+A	tests/src/Unit/test_data/invalid_svg1.svg	d561ac409400e2696e73d26101fa5b16
+A	tests/src/Unit/test_data/invalid_svg2.svg	51207fbf43b8b3c829d1c8b447671d77
+A	tests/src/Unit/test_data/invalid_svg3.svg	c3a87ae969d8e457281afb168c91afe5
+A	tests/src/Unit/test_data/valid_svg1.svg	4b7ceffad4f240b7c891d277be001e1e

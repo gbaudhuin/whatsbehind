@@ -1,0 +1,7 @@
+M	README.txt	94b980f278b2bb729d0a44a19f8c53e2
+A	composer.json	fdcbc94fc1c8cf00a1fdd5acf2200d9e
+M	memcache.info.yml	5982da005f675a91609c797ce3c8e331
+M	src/DrupalMemcacheBase.php	1240bce973ed1484f9370e222fc76910
+M	src/DrupalMemcached.php	f62a715c0ee50e57e7e494dd32174561
+M	src/Tests/MemcacheLockFunctionalTest.php	d0b74374601e8221c6e7044fc30b43ab
+M	tests/modules/memcache_test/memcache_test.info.yml	c5c5782418c76733fe0158773bdf8f94

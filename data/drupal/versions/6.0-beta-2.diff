@@ -1,0 +1,161 @@
+M	.htaccess	b40f76fc5c52b1f96523a893877b2714
+M	CHANGELOG.txt	54bcf138b2f9c9062d08c1007862618f
+M	INSTALL.txt	8fa6e377a7d60310eeb362a21b8be565
+M	MAINTAINERS.txt	ff6d8c2e4b23f70e25c132a2fc9c1e1b
+M	includes/actions.inc	e9f374e9607f9c1e34f28c2b0c16a3ef
+M	includes/batch.inc	7c607a931c3eecfe9ffa076b6c0e78a5
+M	includes/bootstrap.inc	a2b769e52b7cbb568cdce0b89cf2bd33
+M	includes/common.inc	c59dff8f8f22fc64fc7bff21c2d5a838
+M	includes/database.inc	331027a0e12d428e9517d0666f9c9369
+M	includes/database.mysql-common.inc	9df5151411a613936ee7af36ced91d2c
+M	includes/database.mysql.inc	8b415d861b8d15787439a0da8364e534
+M	includes/database.mysqli.inc	3daf5096d50290abe59da5eb513f611a
+M	includes/database.pgsql.inc	243044c57a4d62da185536bbf975231f
+M	includes/file.inc	d0167d25e691825a42ef0b9ae76dfcf8
+M	includes/form.inc	75d363242d751ab76b5c14756a104dbe
+M	includes/language.inc	a9da545b0e4082d539b20e23bb2014bb
+M	includes/locale.inc	d9361df017d704b5ed7354b020d3c667
+M	includes/menu.inc	6be0ec1f60bb65944ccf480b538bb1e8
+M	includes/path.inc	4cf37ec31759fb235a1769412c4967ca
+M	includes/theme.inc	76852e58b60c393423af41c4fb43e6eb
+M	install.php	cabea3216fed2ac579faa2d5045d3983
+M	misc/ahah.js	9740140ca749f04a313bd8cd09e2fe4e
+M	misc/drupal.js	84030e78413f0d26e7ee057d9bac1103
+M	misc/favicon.ico	e6a9dc66179d8c9f34288b16a02f987e
+A	misc/jquery.form.js	2b15de9063925015e9fe74a5f15f183d
+M	misc/jquery.js	8a0e8dc3dba8a2cd13aef073bb289da1
+M	misc/maintenance.tpl.php	14eedaa0464649421c456adf755a525a
+M	misc/tableheader.js	8baa34eb1e413b5eb870ed83de7a55ae
+M	modules/aggregator/aggregator.install	329c57c5ff11f4eb2aebb4d97d61cf0c
+M	modules/aggregator/aggregator.module	0e1304599de35f3104f33b22eeef1aaa
+M	modules/aggregator/aggregator.pages.inc	6a041d86ab8666f20a6d3ad2a2391762
+D	modules/aggregator/aggregator.schema	
+A	modules/block/block-admin-display-form.tpl.php	53e1ecf325b8c9c22b36bcc24cf881b5
+D	modules/block/block-admin-display.tpl.php	
+M	modules/block/block-rtl.css	667ad97982776ca71847d897bae44562
+M	modules/block/block.admin.inc	1fb5cfe00edc69a5aa4e420aa6fdbe65
+M	modules/block/block.css	731043f26a5a47fb0c085b5635eaa270
+A	modules/block/block.install	5d8603a45463e1e201f9372f0a48c860
+M	modules/block/block.module	8a37b2bc28c5d5441a3dae3b06a99e55
+D	modules/block/block.schema	
+M	modules/blog/blog.module	fc9b0875087fbd1df1bc3ae7c3afce5a
+M	modules/book/book.admin.inc	f7af6759ebafafbdb56975a79c0b9cea
+M	modules/book/book.css	7b41d31f5ebea9db93bfabac65824a28
+M	modules/book/book.install	08b63a6b8ebd92d9817f26c348858b12
+M	modules/book/book.module	f3deaee8901d2269250a375fcc281fe8
+M	modules/book/book.pages.inc	57a41a57ecedcbf1c41b6aa2b910995e
+D	modules/book/book.schema	
+M	modules/color/color.module	1a8d48423ac0af126e203171b68876e9
+M	modules/comment/comment.install	9460535c08eb0b2742dca58918fcdd66
+M	modules/comment/comment.module	ce6a095472b348a802cb1957ec9fe02c
+D	modules/comment/comment.schema	
+M	modules/contact/contact.install	cb50071b90ee499adc78450ecc461bb5
+M	modules/contact/contact.pages.inc	94d7c3130b2a7b144958e1461946491f
+D	modules/contact/contact.schema	
+M	modules/dblog/dblog.install	f050dee9aa8091e52fe31403a58903e1
+M	modules/dblog/dblog.module	a12485089c77264b3e55fcf51f54b758
+D	modules/dblog/dblog.schema	
+D	modules/drupal/drupal.admin.inc	
+D	modules/drupal/drupal.info	
+D	modules/drupal/drupal.install	
+D	modules/drupal/drupal.module	
+D	modules/drupal/drupal.pages.inc	
+D	modules/drupal/drupal.schema	
+M	modules/filter/filter.admin.inc	2f47e04113890b07d5c9bd0aa88e859d
+A	modules/filter/filter.install	0ddcee56bfe36ea3e04dee31d724ae43
+M	modules/filter/filter.module	e123524210783a56d6094b2658669013
+D	modules/filter/filter.schema	
+M	modules/forum/forum.install	91402ca2fd30a4667b3877aac5d0598f
+M	modules/forum/forum.module	f79983d59386bb7dd0c640e5b282a48b
+D	modules/forum/forum.schema	
+M	modules/help/help.admin.inc	ea3844095a267975f49e3200771cfe61
+M	modules/locale/locale.install	aba347673874d091437285d449aebdf4
+M	modules/locale/locale.module	ff9f81cca60a2465b2674e5d970836bb
+D	modules/locale/locale.schema	
+M	modules/menu/menu.admin.inc	890fb86f77e5339e44c2a5648b5d6ee3
+M	modules/menu/menu.install	7632fe77f3a4b2efedbde8d2ddaa56a8
+M	modules/menu/menu.module	dd940a2b6a3743a1f542948583427b04
+D	modules/menu/menu.schema	
+M	modules/node/content_types.inc	2a38b771c9d91628204f1ed6a15f9b7a
+M	modules/node/node.admin.inc	ec98f29075b6834c85c36f6b01c61e32
+A	modules/node/node.install	1dc44a9c0ca34e87f9b91d9b1002d267
+M	modules/node/node.module	c4357b2cface1c805f76a59dd476e936
+M	modules/node/node.pages.inc	fa89078580022544a856f832225d3862
+D	modules/node/node.schema	
+M	modules/openid/openid.inc	690b6fd830b374815a03cd955fe93cfc
+M	modules/openid/openid.install	7207bddff2f491226a48820576a62206
+M	modules/openid/openid.js	8be2dc0423edf1d1be4849b569a48988
+M	modules/openid/openid.module	72ff24da166e9ca10e34e7e1edaa6a89
+D	modules/openid/openid.schema	
+M	modules/openid/xrds.inc	63dbb2b9bde42e61bd2f60a3ab1d4055
+M	modules/poll/poll.css	eccb202b77c2a3b4e4e882052d5ffd42
+M	modules/poll/poll.install	e501f1de6ca5daa8fe1b22aea49ee3ed
+M	modules/poll/poll.module	fcecde63631da09227f88d6fa572d600
+D	modules/poll/poll.schema	
+M	modules/profile/profile.install	4feb089fd23baa570b63f8c5b9e63a6a
+M	modules/profile/profile.module	2978ba81207db0966263452542c9349e
+D	modules/profile/profile.schema	
+M	modules/search/search.admin.inc	d85f425d512c1597ce0def35cf4094e0
+M	modules/search/search.install	0d8aa9e7e3c57f3f26ad69cb3c7c7700
+M	modules/search/search.module	e929b7f8953dd98bef22b0c130726787
+D	modules/search/search.schema	
+M	modules/statistics/statistics.install	9c287c69ca3bd551ef2b6c59c7befb2e
+D	modules/statistics/statistics.schema	
+M	modules/syslog/syslog.module	19ce7ea576f03a8d9d1c1f7ff8a34dff
+M	modules/system/page.tpl.php	c31449560090e41d1cfd580fe16da3d5
+A	modules/system/system-menus-rtl.css	a3f08ee092ed3b03cbe881a434aa632b
+A	modules/system/system-menus.css	94466e014e89c68c8f67bb23f0159c91
+M	modules/system/system-rtl.css	e11c7ecf9d3fdba359bfe742ff081207
+M	modules/system/system.admin.inc	b41c06bb6c5710963135c3ea9aa46976
+M	modules/system/system.css	8ff7b4f0c28b48ada28b5026090193e3
+M	modules/system/system.install	25bc86425a09154a3ce720a0c2084474
+M	modules/system/system.module	9b7a7498f33a981875538e26428f3d13
+D	modules/system/system.schema	
+M	modules/taxonomy/taxonomy.admin.inc	d54eeb3fe78ed9bced806803279f0a34
+A	modules/taxonomy/taxonomy.install	49dd318881f21d346bfa06f7dcf83a64
+M	modules/taxonomy/taxonomy.module	1c10152b229aac538733d2a6fd188903
+M	modules/taxonomy/taxonomy.pages.inc	50445e9c12b9fb98c799d48894308f39
+D	modules/taxonomy/taxonomy.schema	
+M	modules/tracker/tracker.pages.inc	ada4a455157845ddf1f0f2aeadc64b83
+M	modules/translation/translation.module	9cb26793213b93a61ee47e328949f0cf
+A	modules/translation/translation.pages.inc	afde7e0fe02eb8e23dbe695d73d88b63
+M	modules/trigger/trigger.install	8c2abdf1a0e8ee44aa5f224ac78f4399
+M	modules/trigger/trigger.module	e4d4377e2f6800425ed23dc15c5e5ea7
+D	modules/trigger/trigger.schema	
+M	modules/update/update.fetch.inc	605716daeca20c640baa3a3720ce69bc
+M	modules/update/update.install	3ecc27efcb4eb7bf46e56a4fa226ca5e
+M	modules/update/update.report.inc	f5cab60f669d0e4f69f8b2ea23b4fa18
+D	modules/update/update.schema	
+M	modules/upload/upload.admin.inc	227de0751f9d5c83e7db903e80987127
+M	modules/upload/upload.install	0b679fd2891879a6fa8a69698ba1cf43
+M	modules/upload/upload.module	682c13780810fbfb511a0a61178ac556
+D	modules/upload/upload.schema	
+M	modules/user/user.admin.inc	94b20b8073678c9dc5e81dc1af37172b
+A	modules/user/user.install	c865a2de1044b938acbb7867af3cf518
+M	modules/user/user.module	c8b98b838e0f37db34c2353075b95022
+D	modules/user/user.schema	
+M	themes/chameleon/chameleon.theme	fd006a27add033552fb0e3393a9e90a5
+M	themes/engines/phptemplate/phptemplate.engine	03df575d6d8aa9aedf0c8494fbef19fd
+M	themes/garland/color/color.inc	230fd91bd6ddeab3d1851ca32eced0bf
+M	themes/garland/images/menu-collapsed-rtl.gif	28c9b22461d198a3e0dd1980712a8679
+M	themes/garland/minnelli/color/color.inc	fec77bee7b61f4c6ee5af43edc92fd34
+A	themes/garland/minnelli/style-rtl.css	6bc9f006f7eb1caf7ebbafc3b3ca8c2a
+M	themes/garland/node.tpl.php	a0d043e033fed198369cc0300efa2672
+M	themes/garland/page.tpl.php	cc144ccfe0649b77e8a9e200b1c1e66a
+M	themes/garland/style-rtl.css	e9736ac9e3c859f63553725c886453af
+M	themes/garland/style.css	6cb22cc0b8a63760bf6aa3f562368ede
+M	themes/garland/template.php	622a440ae8b10188250cf3d105c4ced2
+A	themes/pushbutton/arrow-next-hover-rtl.png	074a3bd59a7ea3ec81cb6b39e33858a4
+A	themes/pushbutton/arrow-next-rtl.png	e02f7bbc27d2fcbbb477b77934847c8e
+A	themes/pushbutton/arrow-next-visited-rtl.png	70974eb2194942792d1a7bae7b576e1d
+A	themes/pushbutton/arrow-prev-hover-rtl.png	725852ffeadfc0a05c1074cc8e3c09c4
+A	themes/pushbutton/arrow-prev-rtl.png	6b460a751c6b0aacf6e1c4954fedf1b0
+A	themes/pushbutton/arrow-prev-visited-rtl.png	c8f0470d605fd51223060399d68e7adc
+A	themes/pushbutton/forum-container-rtl.jpg	dbc0592d2038b0519c45218692b20276
+A	themes/pushbutton/icon-comment-rtl.png	70ab67a83df071173a7889019c66bbec
+M	themes/pushbutton/logo-active-rtl.jpg	3ecf06abd3a15813f4d2acde2fe6ba7c
+M	themes/pushbutton/logo-background-rtl.jpg	e3cc6fb7f7a0e5a46532ee7525c9a2c6
+M	themes/pushbutton/logo-hover-rtl.jpg	0013dda4ed76c689b26232f2ebe45f42
+M	themes/pushbutton/tabs-off-rtl.png	7b3aa0c9c0270548d978d1c553131f53
+M	themes/pushbutton/tabs-on-rtl.png	af7e66a2a26f345a37e1455c9eab1306
+M	update.php	ed6a701a1a1560813d27391b060ae57a

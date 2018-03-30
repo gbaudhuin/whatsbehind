@@ -1,0 +1,9 @@
+M	tests/votingapi.test	487d5fa72ddbad2f70dd1da1ca26bb92
+M	views/votingapi.views.inc	52e2a942730a2f016c2119456584466c
+M	views/votingapi.views_default.inc	e5228e5edb767462b87ced2f40578919
+M	views/votingapi_views_handler_field_value.inc	9a3aec29401d17b1ef846301af096a4e
+M	views/votingapi_views_handler_relationship.inc	e2780dc1f0640ff23504ca623552970d
+M	votingapi.admin.inc	11e308c20c51a7f9d83bb0e0074ca054
+M	votingapi.info	7fe38d92d00afc6856d85efc8f1e4a1b
+M	votingapi.install	da5b6d9de7ae2b3e140f5cc996e3f56d
+M	votingapi.module	2aebc37883a67cbdcab7e913d9e4a6dd

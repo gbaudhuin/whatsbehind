@@ -1,0 +1,11 @@
+A	composer.json	5af1cb281ca7593081db60ff9f1cb2d5
+M	config/schema/config_devel.schema.yml	efa3e5c79561c1e2ba3d6d1bd32f34d1
+M	config_devel.info.yml	358ca595846f770e3fe51acf11f1f29d
+M	drush/config_devel.drush.inc	8395174699b29d8eb1b918972aa7ae87
+M	src/EventSubscriber/ConfigDevelAutoImportSubscriber.php	4a5d753d81806d2f7f20e9ab4a59aa4f
+M	src/EventSubscriber/ConfigDevelSubscriberBase.php	d450475dc39eb1ec2ccf95cf5a8f5289
+M	src/Form/ConfigDevelSettingsForm.php	90e97d22133dc78f6edb18b200828dc1
+M	src/Tests/ConfigDevelSubscriberRawTest.php	89c35a3a810565c13d364355f8e09f83
+M	src/Tests/ConfigDevelSubscriberTestBase.php	d2b33dddb42a4188ae4e5e9f38b58a5d
+M	tests/src/ConfigDevelAutoExportSubscriberTest.php	4e2b191136999f0c3754fdcebc8b21f2
+M	tests/src/ConfigDevelTestBase.php	42518a341aeae044bfb6cee1d04de21e

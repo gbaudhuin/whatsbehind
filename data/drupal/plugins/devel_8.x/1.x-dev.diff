@@ -1,0 +1,20 @@
+M	composer.json	4b6e4b6fc37d95a14134fb124347fccc
+M	devel.info.yml	e9283a092ace05fe2c394f78e351b102
+A	devel_generate/composer.json	fa3bc25eb6642dc367a1a82e4bc55c5b
+M	devel_generate/devel_generate.info.yml	888aa0deb32509b1e675d22c037694b4
+M	devel_generate/devel_generate.module	ba4eb24a8cc6f6b49c527725b980952f
+M	devel_generate/tests/modules/devel_generate_example/devel_generate_example.info.yml	54b02568fb71aca34f578c03bced183d
+D	devel_generate/tests/modules/devel_generate_example/devel_generate_example.module	
+M	devel_generate/tests/modules/devel_generate_example/src/Plugin/DevelGenerate/ExampleDevelGenerate.php	862f237a1a6a85c6cec9394aa5b11ff5
+D	drush/develDrushTest.php	
+M	kint/kint.info.yml	cc5142d301a1a0e089aed8419d0b65d9
+D	run-tests-drush.sh	
+M	src/DevelDumperManager.php	4aad9b458100c84308ab4c8c41fcee43
+M	src/EventSubscriber/ThemeInfoRebuildSubscriber.php	bf64d56f4bdf21c99a57da6bdeb79d03
+M	tests/modules/devel_dumper_test/devel_dumper_test.info.yml	f34f0ef6252fa4e52fde7b79be47b710
+M	tests/modules/devel_entity_test/devel_entity_test.info.yml	1f92ee25efd3246a1340dbc64f001c50
+M	tests/modules/devel_test/devel_test.info.yml	d46f5615caa341847a94c9b0dc6528d1
+M	tests/src/Kernel/DevelTwigExtensionTest.php	640fcdc96a365f6b934de12a6800633d
+A	tests/src/Unish/DevelDrushTest.php	4837a21e611b0b45189a2820f314d3b7
+A	tests/src/Unish/README.md	21d414597bc4fe10917d8317d21bbc06
+M	webprofiler/webprofiler.info.yml	7e4214f6d92f4b2b2f18ade6bed905e0

@@ -1,0 +1,36 @@
+M	README.txt	5fa963a979b341d38cdaf59be75c0bb9
+A	css/MAKE YOUR THEME.css_	7974ff4b4af7a4e7f2c07544940277d3
+A	css/classic.css	d5ecff9a63498a8c2d0b0def51a36dfc
+A	css/full paper brown.css	001a61952b573b9090360d714bb453a5
+D	css/help.png	
+A	css/images/help.png	48552cd3deea99972233fa537040df43
+A	css/images/throbber.gif	ae6ffc909fc0deb781b3775e4cf517e7
+A	css/images/ui-bg_fine-grain_10_eceadf_60x60.png	e7fdb2faea2f5928d17adac5045b46ed
+A	css/images/ui-bg_fine-grain_65_654b24_60x60.png	75fdf01e0105dc30796eb1f27092e496
+A	css/images/ui-bg_glass_100_fdf5ce_1x400.png	d26e8f463195a7b86f86b7d550cfc114
+A	css/images/ui-bg_glass_55_1c1c1c_1x400.png	dde7c52a8ebec4d3ceab784caf7e03c3
+A	css/images/ui-bg_glass_75_79c9ec_1x400.png	b521abdf70d712490ca40f4acbb25e50
+A	css/images/ui-bg_highlight-hard_100_f9f9f9_1x100.png	b485312b4e4d8367b4c897a8efe7c5a3
+A	css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png	384c3f17709ba0f809b023b6e7b10b84
+A	css/images/ui-bg_inset-hard_100_fcfdfd_1x100.png	2b6a88b05b94c56fb478fe70dad68cdc
+D	css/jquery.autocomplete.css	
+A	css/nice black.css	eaf514921063cd6b5c41f28326ce0651
+A	css/nice blue.css	2a5cfebbdad82e0f35a8e6051871dc83
+A	css/nice green.css	c02dbf1757fe101c776b0dbbaee3eac9
+A	css/nice orange.css	696ed532d9da24d2c35ba31044e2f0ab
+D	css/throbber.gif	
+M	js/jquery.autocomplete.js	b178002255bac937ec8ed7727ed9ccb0
+M	search_autocomplete.admin.inc	585e66e6a051e251f1b6ff44ddb84eb7
+M	search_autocomplete.form.add.inc	59b1077d7f669edf0821b62d74eec28c
+M	search_autocomplete.form.configure.inc	b01ffaf49413cd2efdb2d825a61fe178
+M	search_autocomplete.form.treelist.inc	61d59f76141a83d0f5468f56ee371249
+M	search_autocomplete.info	9b00524629819449d6f82b7504f93c77
+M	search_autocomplete.install	b0b813c336fd56e504bd364a392c3a6e
+M	search_autocomplete.module	7af626be328a56ca1956240a83107163
+D	search_autocomplete.suggestion.configure.inc	
+D	search_autocomplete.suggestion.delete.inc	
+A	search_autocomplete.view_autocomplete.inc	74a387c91bb6e6bd961ded12e67e8910
+A	views/plugins/views_plugin_style_autocomplete.inc	0b9371fc8e51a342d7f8a66cf7f78d90
+A	views/search_autocomplete.views.inc	8ad6e487a1cd537bdc62ea92ac34f648
+A	views/theme/views-search-autocomplete-style.tpl.php	eb41411227969149ded509178bb8b188
+A	views/theme/views_search_autocomplete_style.theme.inc	61d262e8ada71cb0aaee546a40359b76

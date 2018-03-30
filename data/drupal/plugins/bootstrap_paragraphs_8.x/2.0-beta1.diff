@@ -1,0 +1,33 @@
+M	bootstrap_paragraphs.info.yml	b6789b1fdfd86bb11a6343b9fb71e895
+D	config/install/core.entity_form_display.paragraph.bp_contact.default.yml	
+D	config/install/core.entity_view_display.paragraph.bp_contact.default.yml	
+D	config/install/field.field.paragraph.bp_contact.bp_background.yml	
+D	config/install/field.field.paragraph.bp_contact.bp_contact.yml	
+D	config/install/field.field.paragraph.bp_contact.bp_width.yml	
+D	config/install/field.storage.paragraph.bp_contact.yml	
+D	config/install/paragraphs.paragraphs_type.bp_contact.yml	
+A	modules/bp_contact/LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	modules/bp_contact/README.md	54acbf8564f8f358936d9a0c7a07b704
+A	modules/bp_contact/bp_contact.info.yml	c886df087716cdc6c9b957a83432ae30
+A	modules/bp_contact/config/install/core.entity_form_display.paragraph.bp_contact.default.yml	d71d2969d9249922df45cc89fced7553
+A	modules/bp_contact/config/install/core.entity_view_display.paragraph.bp_contact.default.yml	425ed203d48427132f1c92263fdcd274
+A	modules/bp_contact/config/install/field.field.paragraph.bp_contact.bp_background.yml	658ca5a4ad7535386138169a3183b74b
+A	modules/bp_contact/config/install/field.field.paragraph.bp_contact.bp_contact.yml	9f7628babc6a29153248ec52069f6722
+A	modules/bp_contact/config/install/field.field.paragraph.bp_contact.bp_width.yml	a9d1a54601aa0da4d804c3c6dadde566
+A	modules/bp_contact/config/install/field.storage.paragraph.bp_contact.yml	23d1096c895e5a920ffd617bbc8c4fe3
+A	modules/bp_contact/config/install/paragraphs.paragraphs_type.bp_contact.yml	b60a91ff2654488ddd3a776947d28262
+A	modules/bp_webform/LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	modules/bp_webform/README.md	0d3a4fd21ea2584a87b8c57231e0d538
+A	modules/bp_webform/bp_webform.info.yml	47b281dfaaaeb3e12c1810b025b3e10f
+A	modules/bp_webform/config/install/core.entity_form_display.paragraph.bp_webform.default.yml	6461e55ccfae3fdf64dba52136b46794
+A	modules/bp_webform/config/install/core.entity_view_display.paragraph.bp_webform.default.yml	1289f359a2249db82df901a4ba975e4e
+A	modules/bp_webform/config/install/field.field.paragraph.bp_webform.bp_background.yml	70e1accccdb84f4e838448d405e5acca
+A	modules/bp_webform/config/install/field.field.paragraph.bp_webform.bp_webform.yml	dd8edb64f51a375ddb8d51a62d9fd3ea
+A	modules/bp_webform/config/install/field.field.paragraph.bp_webform.bp_width.yml	49dd543171cd2fa192a3eddef0525101
+A	modules/bp_webform/config/install/field.storage.paragraph.bp_webform.yml	b8bca3c02d5176b8c1f4bcc99b4247cd
+A	modules/bp_webform/config/install/paragraphs.paragraphs_type.bp_webform.yml	a4381a2bfb52dc241aac91aeac07bc91
+M	templates/field--entity-reference-revisions.html.twig	0fa36a6d8e034ec65d89e8bdc429b96e
+M	templates/field--paragraph--bp-column-content-2.html.twig	88585e392518687f7d9a1491799ab83b
+M	templates/field--paragraph--bp-column-content-3.html.twig	8ceb111d8ebf6fbf2af5dee690f79e09
+M	templates/field--paragraph--bp-column-content.html.twig	ff97b31b9a11c7f03c3414966a94eb3c
+M	templates/field--paragraph--bp-image--bp-image-field.html.twig	306887b680d27bc7b76525735ea30494

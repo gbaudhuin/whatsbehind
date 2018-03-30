@@ -1,0 +1,13 @@
+M	tests/userpoints_api.test	0db450ee92fab039ad58f722855788eb
+M	translations/de.po	a90753ef8e74e42e83d7b49ba5d782e6
+M	translations/general.pot	19062a9601cc5e0be23bd53726f081d2
+A	translations/nl.po	f7f706069ecb8724569175cf176e5ae6
+M	userpoints.info	ede1cd35f07fe97529fbf0c76182b9be
+M	userpoints.install	466b86bea6001cbc909f676a1aad2bde
+M	userpoints.module	0d060d6c8d736c81d20273535bd29d77
+M	userpoints.views.inc	6dd3b86a95f8ba871062dae32327953c
+M	userpoints_rules.info	63c895d6a7cc2d1ce39396f9046cfc6d
+M	userpoints_rules.module	0386001260b3d69a79c38f4c2d9e1991
+M	userpoints_rules.rules.inc	243bb6f282779aef8f8572d78dbf2d3c
+M	userpoints_service.info	a1d5dcce1917ea2aace2e818e62a8cba
+M	userpoints_service.module	5d6f33ca6f775f213267de25dbc8f240

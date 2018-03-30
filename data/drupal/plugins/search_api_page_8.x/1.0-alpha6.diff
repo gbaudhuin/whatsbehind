@@ -1,0 +1,7 @@
+M	search_api_page.info.yml	131efd15330d2515202fffbce48489b9
+M	src/Entity/SearchApiPage.php	622d5c05e601f54736d063547d346393
+D	src/Plugin/facetapi/facet_source/SearchApiPage.php	
+D	src/Plugin/facetapi/facet_source/SearchApiPageDeriver.php	
+A	src/Plugin/facets/facet_source/SearchApiPage.php	b7ccad08d8d09d327147ae9c857a779e
+A	src/Plugin/facets/facet_source/SearchApiPageDeriver.php	2ba6841e9646c364c2271cffbb9bbb22
+M	src/Routing/SearchApiPageRoutes.php	b1e64172bc43e6f4ebfe095de2d19549

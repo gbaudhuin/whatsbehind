@@ -1,0 +1,7 @@
+M	CHANGELOG.txt	9866c047291fd7b3eefa1cf831b23d34
+M	README.txt	eaa71356930d813303a7a7f3d39669f6
+M	config/install/image.style.slick_media.yml	26a0ab2f65840ab28a46036b96742ac1
+M	slick_media.info.yml	56fda1ba9f904c00c082784959cee116
+M	slick_media.module	bae631e95d50aa534e394039f1be0849
+M	src/Plugin/Field/FieldFormatter/SlickMediaFormatter.php	c1d9de0cc64c6ce4f3ff984ef69c501d
+D	templates/slick-media.html.twig	

@@ -1,0 +1,22 @@
+A	modules/blog.page_title.inc	570967d4646c0ec8a85363b84ec4affb
+M	modules/comment.page_title.inc	4edccf49623c4d66e0f489a209579a14
+M	modules/forum.page_title.inc	219b2dd48c9a9dcf02f3991c096239db
+M	modules/node.page_title.inc	4adc73ce883b663b263c5119917518e9
+M	modules/page_title.page_title.inc	67633ad9d170f6d93cffedcc278d474c
+M	modules/taxonomy.page_title.inc	93553acba82e8f2dbacdb961921a3362
+M	modules/user.page_title.inc	a93aea7bc7e7b121fa5739d52855c386
+M	modules/views.page_title.inc	824d300183d75c8fe58f2519c72e1bb5
+A	page_title-admin-settings-form.tpl.php	05e0d6069a62d1cad3d54fd5df031444
+M	page_title.admin.inc	20ca252aa330b9a713de5361a4d3eefc
+M	page_title.info	c73e69ad9168c784bd67aa0a4eb78517
+M	page_title.install	410d66e3060aa16260df82b84a6ff78a
+M	page_title.js	9d0494cfbb3051888f2c0f6b68ac3f6b
+M	page_title.module	895ab0d3e9b9c2a714caf442eb72ab33
+M	page_title.test	e0e3464258b527609a0bbec905e3edf3
+M	page_title.tokens.inc	5b27b0b47470531ebfd17f36022b9139
+A	page_title.views.inc	98214b6a3e1bcac9436bd5b19130e9bf
+A	page_title.views_default.inc	2f03b41e3b4007eb8ac3c29edf81fc89
+D	translations/page_title.pot	
+D	translations/ru.po	
+A	views/plugins/page_title_plugin_display_page_with_page_title.inc	ed24642f63fbf6bc22899676e4126db0
+A	views_handler_field_node_page_title.inc	9650fde3a04fece10157a6727cd706fe

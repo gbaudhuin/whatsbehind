@@ -1,0 +1,5 @@
+M	config/install/sitemap.settings.yml	b48fc1e72acaf27806db492c29764aaf
+M	config/schema/sitemap.schema.yml	44cad5b4a933121f00a668b90d185eb8
+M	sitemap.config_translation.yml	7db624e09f6bdc51c44d5b1ed094551b
+M	sitemap.info.yml	7321ae671664e604f92ceefa1c8acc2f
+A	src/Plugin/Block/SitemapBlock.php	e7c63ea6e115cdd75f4157d6c0228cfa

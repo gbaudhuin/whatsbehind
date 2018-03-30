@@ -1,0 +1,9 @@
+M	config/schema/social_auth_google.schema.yml	061b9d4cc37f4eb657c80f3a367ff503
+M	social_auth_google.info.yml	a4ea11381a878b232a8803ac84a941ae
+M	src/Controller/GoogleAuthController.php	f48fc2792d6416003921527f3908e0f8
+M	src/Form/GoogleAuthSettingsForm.php	a85eab03955f951551af72d542e51a2d
+M	src/GoogleAuthManager.php	e1f89a8c3a3018a67f2f17e9bc4c2e7d
+M	src/Plugin/Network/GoogleAuth.php	487f93dbfab6ef1569bb55b19f7fca67
+M	src/Settings/GoogleAuthSettings.php	0ca14fd7c5af1a76fff49a679aa89c18
+M	src/Settings/GoogleAuthSettingsInterface.php	d3cf3cc37d07503e30b7a59fc47a4d04
+M	tests/src/Unit/GoogleAuthManagerTest.php	8293712bac29ad5b80d2d2abae6f4afe

@@ -1,0 +1,10 @@
+A	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+A	README.txt	31f43dea62d2202363afab061444fef2
+A	user_badges.info	ba5e495b11f74783753cca69f319266d
+A	user_badges.install	ff258a709ebeb7fcf510cb848a5aa02c
+A	user_badges.module	7d1246b64aa19f36092a59a9400112c3
+A	user_badges.views.inc	2e9b25bc8be2af7083cc1ae6fa2c81a2
+A	user_badges_products.info	a579c416fef580717e5545aae45f2ba2
+A	user_badges_products.install	e818c0efd2a531f4b50f3eaaabd869f2
+A	user_badges_products.module	472fc4c8f242bd141b1ace7e24fc1647
+A	views_handler_field_user_badges_user_uid.inc	89815badaf94e483fc80b61a4d6e342a

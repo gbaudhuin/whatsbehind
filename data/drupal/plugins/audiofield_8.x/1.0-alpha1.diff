@@ -1,0 +1,9 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	93280efc883f9b27c6bf680be534682c
+A	audiofield.info.yml	f76913429db207a04afa1c0e6bc608c2
+A	audiofield.services.yml	4b3f5c401a2c37a00cb2649a80723d76
+A	src/Annotation/AudioPlayer.php	507f6cb87bf31f4ea8252f2ab1dc26b8
+A	src/AudioFieldPlayerManager.php	3e87f72fd5f2bef24151a9fd565d95e1
+A	src/AudioFieldPluginInterface.php	1740fb413265cda0b51a3b6bd05ff688
+A	src/Plugin/AudioPlayer/DefaultMp3Player.php	0f6cd2cce53c60d8d3d7b9aae8c55baf
+A	src/Plugin/Field/FieldFormatter/AudioFieldFieldFormatter.php	5ad7184dfa5c298b4b54f3d67fc61ba3

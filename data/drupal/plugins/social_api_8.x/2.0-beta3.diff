@@ -1,0 +1,6 @@
+D	README.md	
+A	README.txt	2d2fd1bcaff760afb075041a0f7356ab
+M	composer.json	35c500d4e81a4608b597b782f2661651
+M	social_api.info.yml	6e7fe90c53af5330923d623acea9d6fd
+D	src/SocialApiSettingsFormBase.php	
+A	src/SocialApiSettingsFormBaseTest.php	8dda59dad3c6cac6855163050fd014ba

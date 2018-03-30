@@ -1,0 +1,5 @@
+M	.travis.yml	029d6a2776dc8735a2a3ec0c4187697a
+D	.travis/drupal-8.3.x.make.yml	
+A	.travis/drupal-8.5.x.make.yml	f58440ebc84340c61ceb1025699afebd
+M	.travis/nginx.conf	c95a00cded2acaee18d9b1b68ef89d3b
+M	workspace.info.yml	c7d1073ee3f7597ed87a9470ec02c26d

@@ -1,0 +1,9 @@
+M	README.md	527b0125a000c93d464f3519a1efd468
+M	addtocalendar.info.yml	33cd764578e4a12464d2c0e39578b383
+M	addtocalendar.module	84e8df629bedeaf106e20462d7870ee9
+A	addtocalendar.services.yml	cdc49c8204489ae78c94291fbbfbfe1c
+M	includes/addtocalendar.form.inc	4b046c80fc8100163c5e7718f79e563e
+A	src/AddToCalendarApiWidget.php	d5e904db70772f5b9b36e71f5d06e72a
+A	src/Plugin/Field/FieldFormatter/AddToCalendar.php	bd161f10fa73e6e7270249936238fe33
+A	src/Plugin/Field/FieldType/AddToCalendarField.php	929ce47f1d06612d406c45bb9c861791
+A	src/Plugin/Field/FieldWidget/AddToCalendarWidgetType.php	06a9b1de0c400b80bd27c09ad7378505

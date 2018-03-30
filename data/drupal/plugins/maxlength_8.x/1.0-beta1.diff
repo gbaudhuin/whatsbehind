@@ -1,0 +1,14 @@
+A	CREDITS.txt	07bf23d25fbe6afabd0cd696d5e04e1e
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	fb9dd61f52bd9bd8d220511d98e72900
+A	config/schema/maxlength.schema.yml	cf0eb4cf179b98a2c2f9990bb9a92ee3
+A	js/maxlength.js	83afcea604e01ca40a38b9d203c0e2cb
+A	maxlength.info.yml	68ede0d3e2b56ae786e26c100d66d582
+A	maxlength.install	98942cc2ba11426438bc0fb3fe129e30
+A	maxlength.libraries.yml	68c85a0eb81bd18d288057fdb512c1e9
+A	maxlength.module	c24dec50586244fdece18e30072d40ad
+A	maxlength.permissions.yml	0d9335a9b5a76dd898c29bb82b732e3a
+A	maxlength.services.yml	6facaef3d1cf068fa87d1c642d227ab0
+A	maxlength.test	9a1578935cfd8e2acf12a695f47e25e0
+A	src/WidgetSettings.php	c9fd40715b748d03113dd3fa49b6a08f
+A	src/WidgetSettingsInterface.php	48defd9ea5ed8785b70faf5345d783e5

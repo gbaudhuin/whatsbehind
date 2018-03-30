@@ -1,0 +1,19 @@
+M	README.txt	2cc071eb382b5575a3f23b20aa229ae6
+M	recaptcha-php/README.md	f70c12631756ca3092f9199063a73648
+M	recaptcha-php/examples/example-captcha.php	8215ed00f955fb4df289f2e7a309a3f8
+M	recaptcha-php/phpunit.xml.dist	8ff610d38686d3ef90db498c59d5e569
+M	recaptcha-php/src/ReCaptcha/ReCaptcha.php	812c523a80378bf288ea80267e15ec8d
+A	recaptcha-php/src/ReCaptcha/RequestMethod/Curl.php	9c2d4dcccd856cf78728eff4c726f1b8
+A	recaptcha-php/src/ReCaptcha/RequestMethod/CurlPost.php	8733caf76b9179eccbeb744a109c7e8f
+M	recaptcha-php/src/ReCaptcha/RequestMethod/Socket.php	59bea501575eddcab64f2c02c73f28e3
+M	recaptcha-php/src/ReCaptcha/RequestMethod/SocketPost.php	cd004eac22810c16a508eeec7aa4427c
+M	recaptcha-php/src/ReCaptcha/RequestParameters.php	60f8dd8323eb5a2e877747a070f2d2b2
+A	recaptcha-php/src/autoload.php	9a9e161b0deb63815ec1967fee8ae041
+A	recaptcha-php/tests/ReCaptcha/RequestMethod/CurlPostTest.php	ce234e41d8075e76506cf9c6ec4056c4
+M	recaptcha.admin.inc	bb568b1f04be0f0df095d7fbe13a8a0e
+M	recaptcha.info	e2ad321d759e97e6e9969d9ac672b00d
+M	recaptcha.install	4f32a6453b0d06968e6a7cdbe8a0472a
+M	recaptcha.module	2018f584f98677894df98b2679f0f297
+M	recaptcha.test	0cf98d5a9d9e81cd1d2a07333a75feb3
+D	src/ReCaptcha/RequestMethod/Drupal7.php	
+A	src/ReCaptcha/RequestMethod/Drupal7Post.php	df46e6ea3e024bf1efad39aec0952416

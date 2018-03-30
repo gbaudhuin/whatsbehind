@@ -1,0 +1,21 @@
+M	config/install/message.settings.yml	f6862d1b89bb62aa92136dc5a8343fc9
+M	config/schema/message.schema.yml	82a274576d1b0d5c0030f74456179856
+M	message.info.yml	0eecdccfea2cd30e9850b9b9ab40f3c6
+M	message.module	1ce5fea2ddab002add5d4bcf2da173d6
+M	modules/message_example/message_example.info.yml	220b547d3e299e59841097c2ec07c643
+M	src/Entity/Message.php	01f1e6eb9a9052875af3bb416e467930
+M	src/MessagePurgeBase.php	56ddd8c00a714064533073c9813a81e7
+M	src/MessagePurgeInterface.php	a91bcf3c417c0bcc528837b665295470
+M	src/MessagePurgeOrchestrator.php	fd9eed8077dcd31403bc0b683887d6f5
+M	src/Plugin/MessagePurge/Days.php	d73dae6656d6c5923c622ab1fe91d89d
+M	src/Plugin/MessagePurge/Quota.php	146f2f76a86003b5d6480a4be625470d
+A	src/Plugin/QueueWorker/MessageCheckAndDeleteWorker.php	07fbc2ac78b227916f74222a1e5ee95c
+A	src/Plugin/QueueWorker/MessageDeletionWorker.php	26d4750ea9ba2d014e4e0d5fea1cfabe
+M	tests/src/Functional/MessageCron.php	3c11d11c5d2e2d363c4deb0b2024c5dd
+M	tests/src/Functional/MessageEntityDelete.php	20c88747ee519560fedec87a3f7ab87b
+A	tests/src/Functional/MessageTemplateUiTest.php	ba31f8118756740c77d25160c58f0102
+D	tests/src/Functional/MessageUiTest.php	
+M	tests/src/Kernel/MessageTemplateCreateTrait.php	d47f2e3c504d2302d512a8b6ee4835bb
+M	tests/src/Kernel/Plugin/MessagePurge/DaysTest.php	82482ab7db9f8aae9b53076542f1f8e7
+M	tests/src/Kernel/Plugin/MessagePurge/QuotaTest.php	37c7818df1f0bd92b61b3e289606a125
+A	tests/src/Kernel/Plugin/QueueWorker/MessageCheckAndDeleteWorkerTest.php	6a7e05e208fa725dc3297ea9b80f4406

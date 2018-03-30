@@ -1,0 +1,41 @@
+M	config/install/content_lock.settings.yml	d66302b7e1a088fc6df4f9f9460d4be9
+M	config/optional/views.view.locked_content.yml	b166a4010d0d127341e5547f839c8d0c
+M	config/schema/content_lock.schema.yml	ab864f997e206431d77bdcd0547cc527
+M	config/schema/content_lock.views.schema.yml	1643965779b541ce2247d5cea213988b
+M	content_lock.info.yml	cff8d1519e0ae5695994dd1d62f68adb
+M	content_lock.install	02ed715a8829c5b8754d9bcb0904df8e
+A	content_lock.libraries.yml	108a43217e214fae79e0fa1e886009cc
+M	content_lock.links.menu.yml	a7686766f7ed051aeb3a07a60c5c2ab5
+A	content_lock.links.task.yml	d73e779bd1bacf9365f25111ea6051b5
+M	content_lock.module	bf167e8835dd1e4963c8a31f80a66123
+M	content_lock.routing.yml	49c8dec6786703b3ec50fac15a21e7c4
+M	content_lock.services.yml	d037a3ddadf2068cfa3a348a56fb7dc8
+A	js/content_lock_form.js	ffd27e6723bfc2a1ac1a643efcc3f94f
+A	js/content_lock_settings.js	4be27c0f9be08ea7e53283d2989b18db
+M	modules/content_lock_timeout/content_lock_timeout.info.yml	e5294cd002001460bb7c0bfcd95609f3
+D	modules/content_lock_timeout/content_lock_timeout.links.menu.yml	
+A	modules/content_lock_timeout/content_lock_timeout.links.task.yml	5c0874f9d590d67ef73c71ce83521919
+M	modules/content_lock_timeout/content_lock_timeout.module	b858d59af04159b869965fc2943f0798
+M	modules/content_lock_timeout/content_lock_timeout.routing.yml	997a267576e8b3194b3ece3097d3f69c
+M	modules/content_lock_timeout/src/Form/SettingsForm.php	f50c8f6daf8e1921fc8da62e24ba5914
+A	modules/content_lock_timeout/tests/modules/content_lock_timeout_test/content_lock_timeout_test.info.yml	2608c3e11d9ff46ff7dd4bb8903761ec
+A	modules/content_lock_timeout/tests/modules/content_lock_timeout_test/src/TimeChanger.php	162e4fbdae89dd1e1c3b99075969f048
+A	modules/content_lock_timeout/tests/src/Functional/ContentLockTimeoutTest.php	ed9e882365b8ca613a99160e43d20511
+A	src/Ajax/LockFormCommand.php	63d9dcda509e1922325c7c3d6a78df1d
+M	src/ContentLock/ContentLock.php	fa3d7885bd28d71df446ae3b18f412eb
+A	src/Controller/ContentLockController.php	7c2b4d92366a0f38ea4ad56e747a9dc8
+A	src/EventSubscriber/SettingsSaveEventSubscriber.php	d36398ac3c0bff4b3a84b0b268f5e099
+M	src/Form/ContentLockSettingsForm.php	6c019a4cedae26f4fa83fb8056847b34
+M	src/Form/EntityBreakLockForm.php	eadaf1576decaaa86bae0868ee727df7
+A	src/Plugin/Action/BreakLock.php	7fff1bbff8ec64c6a2862cbc492fc94f
+A	src/Plugin/Action/BreakLockDeriver.php	2f9fd08ea4b2c2a5be027b1b567adb2e
+M	src/Plugin/Views/Field/ContentLockBreak.php	454ed77d19254a1b2dc8f82deb65d3f2
+D	src/Plugin/Views/Field/ContentLockField.php	
+M	src/Plugin/Views/Filter/ContentLockFilter.php	cbf3a9bf12bef6b57b2d8e5248d96aca
+D	src/Routing/BreakLockRoutes.php	
+A	src/Routing/ContentLockRoutes.php	d23ae4df139c0c0d73b035bd6af33f89
+D	src/Tests/ContentLockTestBase.php	
+A	templates/content-lock-settings-entities.html.twig	831f3903a84a7d51e8b5e2872648c0fb
+A	tests/src/Functional/ContentLockBlockTest.php	baefc5a438e1a5892423edd426b052a8
+A	tests/src/Functional/ContentLockNodeTest.php	e156f44a84f2d34b75c9a1090c1ff202
+A	tests/src/Functional/ContentLockTermTest.php	099cd56f98b2158f3ce0ab3ee629c444

@@ -1,0 +1,9 @@
+M	config/install/pagerer.style.adaptive.yml	6bf0be69a60888fc4d7c616e12b67ea2
+M	config/install/pagerer.style.basic.yml	5f4a79d7390becc83b6261b26c12ea17
+M	config/install/pagerer.style.mini.yml	e86020e55b909d5cb744acb1eb28616c
+M	config/install/pagerer.style.progressive.yml	db741e15158b3728d03bbf4647f2a0a5
+M	config/install/pagerer.style.scrollpane.yml	209140ed0ce82c3a01e766b2915c904a
+M	config/install/pagerer.style.slider.yml	b2e3452f051f112161c3493c4f2ba3f9
+M	config/install/pagerer.style.standard.yml	e73acdbbdb4acbdea177b7821db341c8
+M	pagerer.info.yml	b97228e7c33761c89381cfe68936ae3f
+M	pagerer_example/pagerer_example.info.yml	fb9bb1350dd1ea6ab7b341e565bfdd73

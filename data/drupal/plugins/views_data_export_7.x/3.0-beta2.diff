@@ -1,0 +1,12 @@
+M	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+M	plugins/views_data_export_plugin_display_export.inc	02111d76b96ca9578ad8ec2046c2e868
+M	plugins/views_data_export_plugin_style_export.inc	258d017781b5afded315f33800e28704
+M	plugins/views_data_export_plugin_style_export_csv.inc	a774528d36d54adabb9cb180f461a0e4
+M	plugins/views_data_export_plugin_style_export_xml.inc	9aab7cbb31c38fe8c32bb24af7f79cf7
+M	theme/views-data-export-txt-body.tpl.php	8023da369059d672ca51b21bf18cfa77
+M	theme/views-data-export-xml-body.tpl.php	5090dc7fc1c7de8dba37bbf1f42f7812
+M	theme/views-data-export-xml-header.tpl.php	78a5e482a10d0168d9fb15daba52afe9
+M	theme/views_data_export.theme.inc	c489da75d3094b5ef3556d1f2457bfdb
+M	views_data_export.info	7cec913c1282233cb96d6abfb3f2fbbd
+M	views_data_export.module	e3888160167a526550f8d13baa722b96
+M	views_data_export.views.inc	1aa4a78ece79cf73218a2e52df53f060

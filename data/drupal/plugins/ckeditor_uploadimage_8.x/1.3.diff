@@ -1,0 +1,4 @@
+M	ckeditor_uploadimage.info.yml	d60bdc5e32a9463d7b101e4481d5eccb
+M	js/plugins/drupaluploadimage/plugin.js	51a2212ddbc75a3c41f5681fa7f8cc0c
+M	src/Plugin/CKEditorPlugin/DrupalUploadImage.php	c2facfe6fd646a0b018058b7ede506f9
+A	src/Plugin/CKEditorPlugin/DrupalUploadImageImce.php	8dd893645634c0ef10d18af902102175

@@ -1,0 +1,14 @@
+M	README.txt	77a7f7744340a98bcf2e0b4d00e42ba9
+M	README_SERVER.txt	9c243af72ca1243e7d15169012b8223e
+M	cas.admin.inc	a76758c776b294815b48b744bc6d617c
+M	cas.api.php	aa0726b776038b86567bda0bcee6cb55
+M	cas.batch.inc	6ec6d20cc8d82b1fcbeb2defb516b91e
+M	cas.info	9022246bd95bd9ad17e1d5343b3f35a4
+M	cas.install	59473716d44fc5b4ee199eb30b6a3e1e
+M	cas.module	5fdbeaa64410a22830b1fee2aa84488b
+M	cas.test	18cf02048153d9e79b4e97bb813ef82a
+M	cas_server.admin.inc	f946579058ba074d886bc657f6e99c74
+M	cas_server.info	278c3c2f899e02935cdd8138fbea7fc3
+M	cas_server.install	9cdd6ede0e97fe709144bd985f36b02b
+M	cas_server.module	495e1bf504b660ae243a0179d4d63057
+M	tests/cas_test.info	a9f08442e65a64768176f3464406847f

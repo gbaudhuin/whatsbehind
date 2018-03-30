@@ -1,0 +1,9 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	css/plugins/drupalimagestyle/ckeditor.drupalimagestyle.css	2b4619f0c74ecf10c9798799b8b0ba79
+A	inline_responsive_image.info.yml	c10edc6da31d88301d97d159f5e9562c
+A	inline_responsive_image.libraries.yml	5d29788b1d73a3d1e6289abe9adcbc2d
+A	inline_responsive_image.module	538eb12dda24b2179fa4f77a6f5dd909
+A	js/plugins/drupalimagestyle/plugin.js	b0b7e19255ee3893ecc1e1385d554584
+A	src/Plugin/CKEditorPlugin/DrupalImageStyle.php	a739cacd9d358e26e6b3be9e7be01c2f
+A	src/Plugin/Filter/InlineResponsiveImage.php	e2fa177ec0cfd6a32b8c5909c46f478a
+A	templates/inline-responsive-image.html.twig	74d06022c94efba86acc1d3f3c98ade3

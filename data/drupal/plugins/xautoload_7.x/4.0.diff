@@ -1,0 +1,7 @@
+M	lib/DIC/ServiceContainerInterface.php	7017bb7a9479df768378801941a9b50e
+M	lib/Main.php	a080b5a0124b09ec65ab13ac6c775289
+M	tests/lib/DiscoveryTest.php	bbe1078757aa383c892da79cec1ecd09
+M	tests/test_1/xautoload_test_1.info	3fd523e430a18c2bd15fec1920287249
+M	tests/test_2/xautoload_test_2.info	624709549a417c32ec964681a67b55e3
+M	tests/test_3/xautoload_test_3.info	d29bc9b54bfe5a1c2ec0506fa23d3ce9
+M	xautoload.info	3718dd776f5dc777f7a4eaaf26fc8a7a

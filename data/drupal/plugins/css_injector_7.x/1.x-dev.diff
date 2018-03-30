@@ -1,0 +1,14 @@
+D	ace/ace.js	
+D	ace/mode-css.js	
+D	ace/mode-javascript.js	
+D	ace/snippets/css.js	
+D	ace/snippets/html.js	
+D	ace/snippets/javascript.js	
+D	ace/snippets/scss.js	
+D	ace/theme-chrome.js	
+D	ace/theme-twilight.js	
+D	ace/worker-css.js	
+D	ace/worker-javascript.js	
+M	css_injector.admin.inc	744a8a70ceed62ec23056d99c70f21c5
+M	css_injector.info	312d4031b227015bdc8ec927e35d99c1
+M	css_injector.module	9e2fa73f99d91ed14900e9d944a1fe1c

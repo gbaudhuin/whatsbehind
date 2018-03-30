@@ -1,0 +1,100 @@
+M	config/install/views.view.tmgmt_job_overview.yml	f5699b73dbf6b25d753d3091472ac7c7
+M	config/install/views.view.tmgmt_translation_all_job_items.yml	5787f7ae7746b7a34a26b1d745112e0f
+M	css/tmgmt.admin.css	905ae3ad204713c16d15118fddc9ee7c
+M	modules/demo/tmgmt_demo.info.yml	855f9edc5ab5438c202bb71c56171aa2
+M	sources/content/src/ContentEntitySourcePluginUi.php	9a75f5d9690f01120a1e51164540bb3b
+M	sources/content/src/Controller/ContentTranslationPreviewController.php	2867f16907301c13819984566600aad6
+M	sources/content/src/Plugin/tmgmt/Source/ContentEntitySource.php	24e12ec19fda41656a0618e777d8887c
+M	sources/content/src/Tests/ContentEntitySourceNoCanonicalLinkTest.php	006275f73f91d0f66a9db9285f962ddf
+A	sources/content/src/Tests/ContentEntitySourceTranslatableEntityTest.php	6d411926a250c062ab536804c9122fe9
+M	sources/content/src/Tests/ContentEntitySourceUiTest.php	daf1086f4cc5146170cfea006fad0238
+D	sources/content/src/Tests/ContentEntitySourceUnitTest.php	
+D	sources/content/src/Tests/ContentEntitySuggestionsTest.php	
+A	sources/content/tests/modules/tmgmt_composite_test/src/Entity/EntityTestComposite.php	3ca16ad12f2b20eb2fc15feee0c23f55
+A	sources/content/tests/modules/tmgmt_composite_test/tmgmt_composite_test.info.yml	7b91fb250293b6d3838cea0e9267d7ac
+A	sources/content/tests/src/Kernel/ContentEntitySourceUnitTest.php	499342925a56b0eca2a2c804586d5490
+A	sources/content/tests/src/Kernel/ContentEntitySuggestionsTest.php	ec3a1489381effd2a2ce146f2be828bd
+M	sources/content/tmgmt_content.info.yml	54a53d7009e753a79f64ed211ccde640
+M	sources/content/tmgmt_content.module	8f932c1cab64b068485dc6ff8442e529
+M	sources/locale/src/LocaleSourcePluginUi.php	b28bccdbbdd3034d5650fa52c91327c2
+D	sources/locale/src/Tests/LocaleSourceTest.php	
+A	sources/locale/tests/src/Kernel/LocaleSourceTest.php	2753515c5d1e92ec64265da877a6e42e
+M	sources/locale/tmgmt_locale.info.yml	459e6ef96da56b24de8d586503146619
+M	sources/tmgmt_config/src/ConfigSourcePluginUi.php	47d6f561ae1b541a39c0d5a901f3dacd
+M	sources/tmgmt_config/src/Tests/ConfigSourceListTest.php	2ff0759e90f930908e293e3f9bd9e45f
+M	sources/tmgmt_config/src/Tests/ConfigSourceUiTest.php	127d55997bf47e4a554f57daba6b12ee
+D	sources/tmgmt_config/src/Tests/ConfigSourceUnitTest.php	
+A	sources/tmgmt_config/tests/src/Kernel/ConfigSourceUnitTest.php	d83d239e229f46c071f3ae4f54827ecc
+M	sources/tmgmt_config/tmgmt_config.info.yml	2e253371a1658a0cea8f426bd89e5ad1
+M	src/ContinuousManager.php	ccfe37426b7173b05a619e8097be0f42
+M	src/Entity/Controller/JobAccessControlHandler.php	4aa7361856cdb295f41abff62beb66ea
+M	src/Entity/Controller/JobItemAccessControlHandler.php	bf194182cc0548909563664caee1619b
+M	src/Entity/Controller/TranslatorAccessControlHandler.php	80c774318cf2259c283529bae9e29dde
+M	src/Entity/Job.php	66b0c2d08e79701c84162803155309ae
+M	src/Entity/JobItem.php	37ac93e16692c0b452b454ba60449156
+M	src/Entity/ListBuilder/JobItemListBuilder.php	dbf136e3ce76b5fbeba3792d3d8c1289
+M	src/Entity/ListBuilder/JobListBuilder.php	b0d7bc0b12354e7b2398017942719076
+M	src/Entity/Translator.php	64f1670003082b52221d495bc8d6e7a2
+M	src/Form/ContinuousJobForm.php	024087750fdc9be9c32b09ab7537c313
+M	src/Form/JobAbortForm.php	80e2b489f4aa944c062b9a0fe316ea04
+M	src/Form/JobForm.php	826df4f67c2666704b1d36596ba9fd92
+A	src/Form/JobItemAbortForm.php	b130e1df7eca3bf0927e3478041d837c
+M	src/Form/JobItemForm.php	64ef58b4443b6bb481b24240eb9107c4
+M	src/Form/SourceOverviewForm.php	8f968174ad7c9b9c780e3254fabba11e
+D	src/Form/TranslatorDeleteForm.php	
+M	src/Form/TranslatorForm.php	19209845b2b0d85c5a3344549443797a
+M	src/JobInterface.php	190c40d87a687e28213c5e0763fd994b
+M	src/JobItemInterface.php	2db660bc23bf0343a32294dbec19c1c2
+A	src/LanguageMatcher.php	1a3a4afeff7e099767b9c4649fe02cf5
+M	src/Plugin/views/field/JobItemState.php	572f407a6056fb4748d91e690f0f0196
+M	src/Plugin/views/field/JobState.php	8685f3673a8aa2bb10ce0c4c186a7102
+M	src/Plugin/views/field/Progress.php	1bd3b03d646999fec6d75c26a21f1a94
+M	src/SourcePluginUiBase.php	ad13ac96132cd937d2d1ead90b40649f
+D	src/Tests/CrudTest.php	
+D	src/Tests/HelperTest.php	
+D	src/Tests/PluginsTest.php	
+M	src/Tests/TMGMTCartTest.php	636be5e6df6800247e514a14e00488ca
+D	src/Tests/TMGMTKernelTestBase.php	
+M	src/Tests/TMGMTTestBase.php	f8f4b59f091404528fe2a77a3c6fee72
+A	src/Tests/TMGMTUiContinuousTest.php	4835f675f74226916ac5760a0a20682d
+M	src/Tests/TMGMTUiReviewTest.php	8a0483af2cf3103368d9bffd5ddfe65c
+M	src/Tests/TMGMTUiTest.php	6d7abcc18c569bdd73c73e700e9d6a82
+M	src/Tests/TranslatorTest.php	d447c78e0f15a3b179ef7309dd070fb0
+M	src/TranslatorInterface.php	4aee5548593762158a1e2ce269a556a4
+M	src/TranslatorPluginUiBase.php	b38653b818290f8c6c8e66c7e52fc68b
+A	templates/tmgmt-data-items-form.html.twig	c45346c1753ff6deddd2a7e1d0fcae55
+A	tests/src/Kernel/CrudTest.php	58b8eb51f0227f06ab1226e46294fe0c
+A	tests/src/Kernel/HelperTest.php	d7cb7f768ccc44ca27a4625516922d88
+A	tests/src/Kernel/PluginsTest.php	4fffca9f7c94d771159d56754dc7cca1
+A	tests/src/Kernel/TMGMTKernelTestBase.php	d8cab1883c7fd60cc894e6ca53cdca61
+M	tmgmt.info.yml	2a5a67319cd07dc3ebac60c2dcbe7a58
+M	tmgmt.links.menu.yml	6f6ff19c91f05a1fa9e6ce2f3897de99
+M	tmgmt.links.task.yml	766ee6b2bc6e18a6a0a38b1dbedbb10a
+M	tmgmt.module	4de927b6f46ad893fe9c3074efa99c3f
+M	tmgmt.permissions.yml	1b0a71e882de248e190e0c0ca193d5cd
+M	tmgmt.routing.yml	e547be43efbfceb6de6ed59858f0b0e7
+M	tmgmt.services.yml	21e8172d8d053f33a8b498beb93ba172
+D	tmgmt.theme.inc	
+M	tmgmt_test/src/TestTranslatorUi.php	860c0ff91aa212bf2869e1b52161e367
+M	tmgmt_test/tmgmt_test.info.yml	390129fc04b1bbe3aa380d32952b3548
+M	translators/tmgmt_file/tmgmt_file.info.yml	ff384c15cc5ae73ee85566c7c31cbfd6
+M	translators/tmgmt_local/config/install/tmgmt_local.settings.yml	8d7378c170bbe49f4e51382ac3b73fc1
+M	translators/tmgmt_local/config/schema/tmgmt_local.schema.yml	19a953ea40815f866c454315cf74997d
+M	translators/tmgmt_local/skills/tmgmt_language_combination.info.yml	b522ed88c5711ed9c88290fabb19eb79
+M	translators/tmgmt_local/src/Entity/Controller/LocalTaskAccessControlHandler.php	9d89005cfbadbf4d02902e0f61fcd586
+M	translators/tmgmt_local/src/Entity/Controller/LocalTaskItemAccessController.php	236d02768cad94ce53062b787f0c3ed6
+M	translators/tmgmt_local/src/Entity/LocalTask.php	0e9b77874f2b9150764fb8cb0ff76c0f
+M	translators/tmgmt_local/src/Entity/LocalTaskItem.php	0e4185b2d1889149caf1a0f2007b030d
+M	translators/tmgmt_local/src/Form/AssignMultiple.php	5146a74ffdc6e710dd59ae956059dc37
+M	translators/tmgmt_local/src/Form/LocalTaskAssignForm.php	10d26ce3b7014a9f160596833ba3a9f6
+M	translators/tmgmt_local/src/Form/LocalTaskForm.php	15c0a5869f41f334f9b27862769b1a95
+M	translators/tmgmt_local/src/Form/LocalTaskItemForm.php	1eee1c28c16f4d1e217ca8e4fdeb1ee3
+M	translators/tmgmt_local/src/Form/LocalTaskUnassignForm.php	6750f3558597d3f82feedea4b5153990
+M	translators/tmgmt_local/src/LocalTaskItemInterface.php	e7551cb16a3021d4c079526aaeb050d4
+M	translators/tmgmt_local/src/LocalTranslatorUi.php	a829da35cd1bf0f2b4dd98cfc618f8f1
+M	translators/tmgmt_local/src/Plugin/tmgmt/Translator/LocalTranslator.php	09b2d2ecfe50f287cf43e991770a0b30
+A	translators/tmgmt_local/src/Tests/LocalTranslatorPreviewTest.php	24c37c01abd089b30281c60c5423c208
+M	translators/tmgmt_local/src/Tests/LocalTranslatorTest.php	7216eda90b0aca494c28e3082fa69bc4
+A	translators/tmgmt_local/src/Tests/LocalTranslatorTestBase.php	98a5cc3a810993e41c466f6a5a5b6bd8
+M	translators/tmgmt_local/tmgmt_local.info.yml	a2e4c3d9febfa5da88dad6a9c8c22026
+M	translators/tmgmt_local/tmgmt_local.module	b8eae326ae895b7dcaeb548c5cb0717f

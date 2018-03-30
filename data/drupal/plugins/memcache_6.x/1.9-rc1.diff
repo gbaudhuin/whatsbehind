@@ -1,0 +1,20 @@
+A	.gitignore	0a006d5bd561bfed06f3bc97087ef223
+M	INSTALLATION.txt	5f4beff3c8897f00450b1d78dead265a
+M	README.txt	5de654846c3d83cdc493330f58a99aaf
+M	dmemcache.inc	e0f304728eed8cd3d5bb0933fd8317a8
+M	memcache-lock.inc	84088518ce4f139c01f08ccc1bf9a531
+M	memcache-session.inc	d0b15c666a7d6ee3e35c26932e391264
+M	memcache.db.inc	f3f3a6c05ec6f9b62776ba432057c4d5
+M	memcache.inc	f6378668ecbb87639151708f43e05142
+M	memcache.info	2d05031e6f3bd640ffa0883d7e1a0106
+A	memcache.install	6648d1f781729ea6516016c1a5619cdc
+A	memcache.module	95bab4cc1a97cef0c53a1d62589a31e7
+M	memcache_admin/memcache.js	6237258a2a83839d18a1df68c6acea7c
+M	memcache_admin/memcache_admin.info	cb5c4f87d63402759173d340c874d3cb
+M	memcache_admin/memcache_admin.install	25c30264c2e6774d6de910721b01530b
+M	memcache_admin/memcache_admin.module	6368a8a69406698f2f762942333e5366
+A	tests/memcache-lock.test	74a22d2c24813a46650f930f6bf093e4
+A	tests/memcache.test	96e720e490d4f7b274317a71148da66a
+A	tests/memcache_test.info	680d445388b53253646a8966e7b777b4
+A	tests/memcache_test.module	8b77692305860ace927ed58d338a7c43
+D	translations/hu.po	

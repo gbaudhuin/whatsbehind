@@ -1,0 +1,10 @@
+M	README.txt	5a2c1bddbc6ef86e3b168a839e946ae8
+A	field_collection.diff.inc	4e4b154e6a5154dd1cf19ceda3f27f15
+M	field_collection.entity.inc	cde221cc0404b8b7a6b3ac18c3e83aca
+M	field_collection.info	207c5a2f57ee0cd748ea096a043da150
+M	field_collection.install	203ffb69a2f4e84e515a4a49f8f2ebf1
+M	field_collection.module	57f4cce0f0699c1d91123f8889a0055d
+M	field_collection.pages.inc	ea93f2646eb3c870a460ffa0705e0253
+M	field_collection.test	070cfd57e412f9ca7227110804f319a4
+M	field_collection.theme.css	f002dccdd118b954d6cc3821929a3afb
+A	includes/translation.handler.field_collection_item.inc	f665b25bb571b1b2f5038ceabd252105

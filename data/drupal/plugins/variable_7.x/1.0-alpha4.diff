@@ -1,0 +1,10 @@
+M	variable.info	4594dea8e53d7b9b2056bd11bea318c9
+M	variable_admin/variable_admin.info	493471ea790853be5203a393795c1780
+A	variable_realm/README.txt	fe1d1a7101ea61a32c9e2fef729f939c
+M	variable_realm/variable_realm.info	a070d5dec6db7d1eed1edf7badae856d
+M	variable_realm/variable_realm.install	68bf185d0640c54e2b8d3d0fa3f6ecc2
+M	variable_realm/variable_realm.module	3cfacfb1083a0593b944ff725a3bdaea
+A	variable_store/README.txt	f82e07b85d59b06d5d66403ca10a1721
+A	variable_store/variable_store.info	5ed7cc63b3b3313c8918d6220c752725
+A	variable_store/variable_store.install	c11f220d579d5650fb7f8af86a88946c
+A	variable_store/variable_store.module	82245742bb2d571ae89d51b7edbe92cf

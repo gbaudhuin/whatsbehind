@@ -1,0 +1,16 @@
+M	readme.html	0538342b887f11ed4a306d3e7c7d6ea7
+M	wp-admin/includes/file.php	b1f99805b1e10092917e6409db041254
+M	wp-admin/includes/plugin.php	052ac0ad45c36932fdc2c2bf84e9c45f
+M	wp-admin/includes/update-core.php	71fa85453cd5969d4ff3bf5d5615c4c7
+M	wp-admin/plugins.php	463161d6524f9a3a21093e0c2dca3257
+A	wp-content/plugins/akismet/admin.php	59089b833c024f10d42b072a58620b04
+M	wp-content/plugins/akismet/akismet.php	ed8a71750f9b976fe9e119c9882c1c6d
+A	wp-content/plugins/akismet/legacy.php	06611ad35cb2c9509cae7312c76c2cb0
+M	wp-content/plugins/akismet/readme.txt	deca28f4cb606a9218f4d70b2a12532a
+M	wp-includes/canonical.php	43a706e3f425c2fcf2d10b59ad52f459
+M	wp-includes/capabilities.php	4fe3520a5d0364e4467d8267f6764dc5
+M	wp-includes/comment.php	c57fc5b9601dc2a5ad149482bfc51f4c
+M	wp-includes/functions.php	9bf6be16656df5268f8f5cb79836d83f
+M	wp-includes/load.php	77d58fd88f29b8dda5136f2ac617d1ce
+M	wp-includes/ms-files.php	ef6cac66fc17ba78c7b465b5bfd66fb0
+M	wp-includes/version.php	0705024ca66d9df3f5a672ca62f74fc4

@@ -1,0 +1,13 @@
+M	README.md	3efdf892acca1afbb321e25666f66034
+M	js/node-form.prototype.js	7638eed8d437ae227322fb3ad281eed0
+M	modules/permissions_by_entity/permissions_by_entity.info.yml	2ff534d9b544802704c0adc841d3c74d
+M	permissions_by_term.info.yml	67d8b2b16b0e5333e0e98141f93d6b86
+D	tests/bash.sh	
+D	tests/fixtures/db.sqlite	
+M	tests/src/Behat/Context/PermissionsByTermContext.php	6bc2137dea2bb4763e5d877aa842bdd5
+M	tests/src/Behat/Features/access.feature	98289fb9a6449d3057d9c8f35eb79e73
+M	tests/src/Behat/Features/entityMetaInfo.feature	3b38d786b7a1ac454536336cd6003077
+D	tests/src/Behat/README.md	
+D	tests/src/Behat/behat.yml	
+A	tests/src/Behat/behat.yml.dist	ea2163b19926bce007285b636a49a8f6
+A	tests/src/Behat/fixtures/db.sqlite	df3dda096141098c2686f5ae5c1618c6

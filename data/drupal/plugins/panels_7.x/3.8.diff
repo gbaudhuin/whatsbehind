@@ -1,0 +1,17 @@
+M	i18n_panels/i18n_panels.info	bc36c48cfc74a4845319aec4c457a6ee
+M	includes/common.inc	bd57eb898bfb8b43bbe4969a5e4f468e
+M	includes/display-edit.inc	94f5ba648a5d90ec44e4d2c5281d35fa
+M	panels.info	5ee419f52d12c32f7c4348a12bf6cef2
+M	panels.install	bd4c8bc4d4cb87e9459ce9361781f21f
+M	panels.module	1aeab0bbd9037b8a02c611448febb9c5
+M	panels_ipe/panels_ipe.info	a0afd1a1bc8b0537f61f0f0445315f8a
+M	panels_ipe/panels_ipe.module	5e0683c8034d7049760f4c212a6cec18
+M	panels_mini/panels_mini.info	173a008d36b853a60e3312a7bc2cf06f
+M	panels_node/panels_node.info	930718a7736b1083eb08b7f8ab871554
+M	plugins/display_renderers/panels_renderer_editor.class.php	99be9b8f47738b5f2509d1feb359f873
+M	plugins/styles/stylizer.inc	b18138437491da6a8ca405fccc1ba5ad
+M	plugins/task_handlers/panel_context.inc	ff7c359734c3aa4824eac51ca6055ef2
+A	tests/PanelsEntityViewWebTestCase.test	508135038b92ae77c3df4d445a92ac0a
+A	tests/PanelsNodeViewWebTestCase.test	c0e4547314fab8d8845e5a23de24aea4
+A	tests/PanelsTermViewWebTestCase.test	f6ab120c38c25f56492861b4e6276bd0
+A	tests/PanelsUserViewWebTestCase.test	4d2a78f989ef1410e6cf8dac4a77ebd6

@@ -1,0 +1,13 @@
+M	README.md	87872b8e7300d18c1e3aaa4c18980e7e
+D	composer.json	
+M	config/schema/media_entity_instagram.schema.yml	165416d4894960793a36b9f43df900f0
+M	media_entity_instagram.info.yml	bb21d19bb57891be3ce7df64d1d57a05
+A	media_entity_instagram.libraries.yml	c29810a59a27bec17ef5c9f6da487db6
+M	media_entity_instagram.module	b200a8652608958cc15f7cb40baeb921
+A	media_entity_instagram.services.yml	6975b84de43b52721abb63a763926714
+A	src/InstagramEmbedFetcher.php	bae72e1a6d040d08edf03ff1c521574c
+A	src/InstagramEmbedFetcherInterface.php	3e051e6e8ab6afb42e9ca450eebf152b
+M	src/Plugin/Field/FieldFormatter/InstagramEmbedFormatter.php	3800901280599d8c597b2872981a9cc7
+M	src/Plugin/MediaEntity/Type/Instagram.php	69a22ea111572dcda06c012173c9f281
+M	src/Tests/InstagramEmbedFormatterTest.php	7668f2ee40896cbac1d49d03d34203b4
+A	templates/media-entity-instagram-post.html.twig	3067e2a6182d4379b4d207ba43d3032c

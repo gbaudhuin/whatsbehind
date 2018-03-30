@@ -1,0 +1,14 @@
+M	css/responsive-preview.module.css	dae5a62ca7d93a96b966da2d9cb09e3c
+M	css/responsive-preview.theme.css	af98299db39a4b5df4a9c5f25a5c61b5
+M	js/responsive-preview.js	e5c06f1fc55f1f3cd518cf158470e5d5
+M	responsive_preview.info.yml	1a795d04f3beb5cec5ffaa00ee16873c
+M	responsive_preview.module	b6c51437b1eafa72a698f7bf5fa4f9e8
+M	responsive_preview.services.yml	853c6f0b517ebf7f88e78afd7fba8daa
+M	src/DeviceInterface.php	e643be6e69b11d0f5c65c546ecd7f22d
+M	src/Plugin/Block/ResponsivePreviewBlock.php	ab3de9fa7956870baf9ae41da304084a
+A	src/ResponsivePreview.php	ff8eb366b9e764305c845932b93f9a08
+A	src/ResponsivePreviewInterface.php	28636c1aa41b0fd45977710536166ac7
+M	tests/src/Functional/ResponsivePreviewAdminTest.php	9c681b9fd52cbd98743452c897beaa45
+M	tests/src/Functional/ResponsivePreviewBlockTest.php	9b67c0b6671c477908a30a0e91de111d
+M	tests/src/Functional/ResponsivePreviewTestBase.php	f86a068f69603b6d0ea86016cd4fbb92
+M	tests/src/Functional/ResponsivePreviewToolbarTest.php	710f3ec18c966210bf143b6c7ac72043

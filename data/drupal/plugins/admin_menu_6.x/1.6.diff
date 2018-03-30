@@ -1,0 +1,11 @@
+M	CHANGELOG.txt	056ed0549b5d4a1a52c7cb9c19d841e6
+M	admin_menu.inc	0890b31513231fb328ea544cf29d0122
+M	admin_menu.info	0421dd8505f84ea64ac7d5205331da7b
+M	admin_menu.js	3609d671e803eb7275ae142c3d2ed0a6
+M	tests/admin_menu.test	d564a6752d2cb0ac21f942984413f6ed
+A	translations/cs.po	17c22755287602c8e6a4445fd1772ebe
+M	translations/hu.po	f0ad7b5f1a953168c90fd3e4a4c021e6
+A	translations/ms.po	37a33c4bd28ec51ac27f0b7ae082d5fa
+A	translations/uk-ua.po	49a102dafbcf7af6fb7018093e6bda21
+A	translations/uk.po	49a102dafbcf7af6fb7018093e6bda21
+A	translations/zh-hans.po	5172ed6edef55640c939a82b3eb39c3a

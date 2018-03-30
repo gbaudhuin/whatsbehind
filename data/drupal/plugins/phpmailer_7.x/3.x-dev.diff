@@ -1,0 +1,8 @@
+M	includes/phpmailer.class.inc	6592dafe6a3bfb23c5a307c39a016a75
+M	includes/phpmailer.drupal.inc	1d0b6b2c4715ab2896544ec703d95a61
+M	includes/phpmailer.mimemail.inc	1fe42e7d12cd867088a2f7a9c816b66c
+M	phpmailer.admin.inc	c439c1c656565648cc2d5ee254754152
+M	phpmailer.info	ee846b3975c17d31ba1a600401239f22
+M	phpmailer.install	e8a59b7685c8a9b6ef002f8675a56d99
+M	phpmailer.module	75aec4e776a8f322bdf5128fde44c1c0
+M	tests/phpmailer.test	50ad24382e421144c90776d7345f95ef

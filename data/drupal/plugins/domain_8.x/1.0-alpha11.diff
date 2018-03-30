@@ -1,0 +1,132 @@
+M	.travis.yml	04d184941287adb72ec0cc6598a8931a
+M	CHANGELOG.md	9e645dd186b399522779b7c2ea243751
+M	README.md	fb2a4e7c0e62b99af6af6cc9f3edd84e
+M	domain/config/schema/domain.schema.yml	c24351d3ca866d179386727047b53f8d
+M	domain/domain.drush.inc	698337e42d2aac6ba795839af3199025
+M	domain/domain.info.yml	cbc11616dbb9890fd9e4d2c290fa140c
+M	domain/domain.module	1e733ce60fc25df9f0b878a6567ad1ad
+M	domain/domain.permissions.yml	8157d4655142c50e9008457203902a33
+M	domain/src/Access/DomainRouteCheck.php	3c7e125392db84b5254444d600a28a5f
+M	domain/src/DomainCreator.php	48adced113e741946424128bf37ad708
+M	domain/src/DomainElementManager.php	7db84b8d802f131beeb42b5a96d3647a
+M	domain/src/DomainForm.php	7abfe874db1d92731ae97fe4224bb933
+M	domain/src/DomainInterface.php	0d763e817867c8c28a7caf80fdc81ce8
+M	domain/src/DomainStorage.php	1c526d539789a251222883e3cc9812cf
+M	domain/src/DomainStorageInterface.php	7cf4dde6bf5a507ad0829459d76db0ac
+M	domain/src/DomainValidator.php	2e5140d5949f58f325f692b4ef615e92
+M	domain/src/Entity/Domain.php	fa70134b912e1510e22280f389ab2f55
+M	domain/src/Form/DomainSettingsForm.php	8485e4ee62f879a8b335ec32154d067d
+A	domain/src/Plugin/Block/DomainNavBlock.php	112e7c0991f87cebbc76a514cbdfd0ff
+M	domain/src/Plugin/Block/DomainSwitcherBlock.php	fd20dd27f7922b8b1e19cb169baf6660
+M	domain/src/Plugin/views/access/Domain.php	10c5f630ae57f5be4233d85822b51925
+D	domain/src/Tests/Condition/DomainConditionTest.php	
+D	domain/src/Tests/DomainCSSTest.php	
+D	domain/src/Tests/DomainCreateTest.php	
+D	domain/src/Tests/DomainEntityReferenceTest.php	
+D	domain/src/Tests/DomainFormsTest.php	
+D	domain/src/Tests/DomainGetResponseTest.php	
+D	domain/src/Tests/DomainHooksTest.php	
+D	domain/src/Tests/DomainInactiveTest.php	
+D	domain/src/Tests/DomainNegotiatorTest.php	
+M	domain/src/Tests/DomainTestBase.php	8b7553fcd1b0858829e07fc2c66ab9a0
+D	domain/src/Tests/DomainTokenTest.php	
+D	domain/src/Tests/DomainValidatorTest.php	
+D	domain/src/Tests/DomainViewsAccessTest.php	
+A	domain/templates/domain-nav-block.html.twig	f2d3b5767587309cb4055247fb733eb8
+M	domain/tests/modules/domain_test/domain_test.info.yml	12733ba610189c55f99abc9c58dfe8a6
+A	domain/tests/src/Functional/Condition/DomainConditionTest.php	543f0e19960685d35c0e7fa5533ede76
+A	domain/tests/src/Functional/DomainCSSTest.php	97e552e8ed1d9ebeef2f86829473cc87
+A	domain/tests/src/Functional/DomainCheckResponseTest.php	45de363c3446b7d88e212da2d755c0b9
+A	domain/tests/src/Functional/DomainCreateTest.php	7577d0d0c2ae7f2f3306f22d58ace8e5
+A	domain/tests/src/Functional/DomainEntityReferenceTest.php	64e0a7f864255d892b3a54e0b623eb64
+A	domain/tests/src/Functional/DomainFormsTest.php	c47a2ba5578c02706ffab4f2528892bd
+A	domain/tests/src/Functional/DomainGetResponseTest.php	7220348f2400a3b9c47705113a21064d
+A	domain/tests/src/Functional/DomainInactiveTest.php	46edac32752c48f72fa0943e877b4b40
+A	domain/tests/src/Functional/DomainNavBlockTest.php	85bbf0832b29e306d650720e118f60ae
+A	domain/tests/src/Functional/DomainNegotiatorTest.php	248f1c9b2d7d69057f41ad23b4ddd135
+M	domain/tests/src/Functional/DomainTestBase.php	960f74bbd11c132fa1f79c3dd6de2646
+A	domain/tests/src/Functional/DomainTokenTest.php	caaceec12dfefbd1fb13ecb7c0e259ec
+A	domain/tests/src/Functional/DomainValidatorTest.php	51bd81c8013302e88569cf67aa3d8f53
+A	domain/tests/src/Functional/DomainViewsAccessTest.php	f342e5ddc97d2d95c52d21793eb0494a
+M	domain/tests/src/Kernel/DomainHookTest.php	37873e043d5c89640ad2cc7a83875cea
+A	domain/tests/src/Kernel/DomainVariableSchemeTest.php	cd154ba16cd6875c3400673b569f2ff5
+A	domain/tests/src/Traits/DomainTestTrait.php	caec43c2ddcce997fdabcaa287ebd68c
+M	domain_access/domain_access.info.yml	8e9de4879421271889a476856e58495f
+M	domain_access/domain_access.services.yml	59882ebd6257de8e4ca7a09bfbc6473b
+A	domain_access/src/Access/DomainAccessViewsAccess.php	aaccda45b614ff4ac8019e0d8f60ed0d
+M	domain_access/src/DomainAccessManager.php	4e0c5d771d54f949a66e167debdd7a58
+M	domain_access/src/DomainAccessManagerInterface.php	4136e058fdb0e10b403c5b886b50436a
+M	domain_access/src/Plugin/Action/DomainAccessAll.php	e2a68a216496a8d42757940ce26364d5
+M	domain_access/src/Plugin/Action/DomainAccessEditAll.php	ada07f010855cd6708f5dbec5c790c87
+M	domain_access/src/Plugin/Action/DomainAccessEditNone.php	25cfef3abbe68801d2b590dfed658ea2
+M	domain_access/src/Plugin/Action/DomainAccessNone.php	f8149220552d1ae9c0fa34242a88a449
+A	domain_access/src/Plugin/views/access/DomainAccessContent.php	d3fe55954d0fdc66678319163b8da667
+A	domain_access/src/Plugin/views/access/DomainAccessEditor.php	1f6eb69b46409d91dcda871209f0750c
+D	domain_access/src/Tests/DomainAccessAllAffiliatesTest.php	
+D	domain_access/src/Tests/DomainAccessDefaultValueTest.php	
+D	domain_access/src/Tests/DomainAccessEntityFieldTest.php	
+D	domain_access/src/Tests/DomainAccessEntityReferenceTest.php	
+D	domain_access/src/Tests/DomainAccessFieldTest.php	
+D	domain_access/src/Tests/DomainAccessGrantsTest.php	
+D	domain_access/src/Tests/DomainAccessPermissionsTest.php	
+D	domain_access/src/Tests/DomainAccessRecordsTest.php	
+M	domain_access/tests/modules/domain_access_test/domain_access_test.info.yml	9301132c76f69fd8cfababbcd8f205ad
+A	domain_access/tests/src/Functional/DomainAccessAllAffiliatesTest.php	ed99d0b654c28b17cbf167ed69053745
+A	domain_access/tests/src/Functional/DomainAccessDefaultValueTest.php	bafe4dfe125c07a7cb31b0952a4e0d3e
+A	domain_access/tests/src/Functional/DomainAccessEntityFieldTest.php	8b72823d82770f5f497908aaaa339d03
+A	domain_access/tests/src/Functional/DomainAccessEntityReferenceTest.php	82ac3e1a2ee9715a10a9d02824370dd0
+A	domain_access/tests/src/Functional/DomainAccessFieldTest.php	62db5ce33b32121df6f1c3c0ed07c0af
+A	domain_access/tests/src/Functional/DomainAccessGrantsTest.php	171b2cd4cc4cf94c59434306b028d831
+M	domain_access/tests/src/Functional/DomainAccessLanguageSaveTest.php	47837fcd039835d8f96aef69d3e11062
+A	domain_access/tests/src/Functional/DomainAccessPermissionsTest.php	134278a846eb8598f73f28177b7e946d
+A	domain_access/tests/src/Functional/DomainAccessRecordsTest.php	c7f6b0b3af43d3badbf78ded485122d9
+M	domain_access/tests/src/Functional/DomainAccessSaveTest.php	429d0aa0297bc3e7999fbc253ff6a63e
+M	domain_alias/domain_alias.info.yml	f753ad15df630407e083fc1b72c1c911
+D	domain_alias/src/Tests/DomainAliasNegotiatorTest.php	
+D	domain_alias/src/Tests/DomainAliasSortTest.php	
+M	domain_alias/src/Tests/DomainAliasTestBase.php	fdc4a60a90bd4b2e7d7f80e95722db2c
+D	domain_alias/src/Tests/DomainAliasValidatorTest.php	
+M	domain_alias/tests/src/Functional/DomainAliasActionsTest.php	24c743e21d5d81985e13e18447091e02
+M	domain_alias/tests/src/Functional/DomainAliasEnvironmentTest.php	d6b6f1f08fe5cc57ff46bb3a0976557f
+M	domain_alias/tests/src/Functional/DomainAliasListBuilderTest.php	21f42162d1ce0c8c5d6d29b308929551
+M	domain_alias/tests/src/Functional/DomainAliasListHostnameTest.php	8397e6ab3cb6ad163b06894aaa9ea69a
+A	domain_alias/tests/src/Functional/DomainAliasNegotiatorTest.php	338005caf0afa2b650898ff2d7583b21
+A	domain_alias/tests/src/Functional/DomainAliasSortTest.php	148309f6b98f060a00c9c0512f4a3b14
+A	domain_alias/tests/src/Functional/DomainAliasTestBase.php	45eb65241401ce5cf45f1597638508ed
+D	domain_alias/tests/src/Functional/DomainAliasTestTrait.php	
+A	domain_alias/tests/src/Functional/DomainAliasValidatorTest.php	c9360d43d2fe956dc28e862648b47a2a
+M	domain_alias/tests/src/Functional/DomainAliasWildcardTest.php	2fb4dc482f5b4ae0b25df0edcd7c1046
+M	domain_alias/tests/src/Kernel/DomainAliasDomainDeleteTest.php	58d29a7504a696ae22010764b3ec7f77
+A	domain_alias/tests/src/Traits/DomainAliasTestTrait.php	6c7a5b4aadba311fed98dc63ebbde9ac
+M	domain_alpha/domain_alpha.info.yml	f9f7327482ae2b38d8aaf8a4d4771b5a
+M	domain_config/domain_config.info.yml	932ea01ea851637e95ae756755d88cc7
+D	domain_config/src/Tests/DomainConfigHomepageTest.php	
+D	domain_config/src/Tests/DomainConfigOverriderTest.php	
+M	domain_config/src/Tests/DomainConfigTestBase.php	7d6eefa93c0c854cbc58bb1552260eae
+M	domain_config/tests/modules/domain_config_middleware_test/domain_config_middleware_test.info.yml	cd871e91fd2e3ca6211959396d6e4164
+M	domain_config/tests/modules/domain_config_test/config/install/domain.config.three_example_com.en.system.site.yml	39139ac52a5240f6bab5f431ed166c71
+M	domain_config/tests/modules/domain_config_test/domain_config_test.info.yml	03c1f2f3a074e450ffc32a718fac7c82
+M	domain_config/tests/src/Functional/DomainConfigAlterHookTest.php	c4903d37bbf00e5ca4bebbc8a5871f15
+A	domain_config/tests/src/Functional/DomainConfigHomepageTest.php	2e7daaa5843af2ef8d9755fe60434d56
+A	domain_config/tests/src/Functional/DomainConfigOverriderTest.php	aa349de026ddc20e41006d9410e37ea8
+A	domain_config/tests/src/Functional/DomainConfigTestBase.php	62eef9f0c682259efce370b45516295f
+M	domain_content/config/optional/views.view.domain_content.yml	fed2a28dca430c80794879eab81dca6d
+M	domain_content/config/optional/views.view.domain_content_editors.yml	465cbdb43dec3342325c80fd05a46d10
+M	domain_content/domain_content.info.yml	2e2f0e93834a7b2dab3e8bd3a463ba13
+A	domain_content/domain_content.install	8d0b10f12566eacd9492fa4c9c7641ae
+M	domain_content/domain_content.module	16bcf1b901f44c286c703057f4b8d343
+M	domain_content/src/Controller/DomainContentController.php	752432614928106f3cba6cc92e52f4bf
+A	domain_content/src/Plugin/views/access/DomainContentAccess.php	4eb138fdd5181f28382d80cf14233204
+A	domain_content/src/Plugin/views/access/DomainEditorAccess.php	a2b3b61fb52b5f745722022327e70cd8
+A	domain_content/tests/src/Functional/DomainContentActionsTest.php	d8825b75c6f63b3ce3c2d708baa3fc97
+A	domain_content/tests/src/Functional/DomainContentCountTest.php	4ca1227b52e1301add5211306dd23cb6
+A	domain_content/tests/src/Functional/DomainContentPermissionsTest.php	5a9e52f4fb6ece9dd98a719a4df3d6f6
+A	domain_content/tests/src/Functional/DomainContentTestBase.php	d2827d3f273b8f008b0a70f7cfd14f52
+M	domain_source/domain_source.info.yml	f7fb1edeafee4e45a801b416ef3fa325
+M	domain_source/domain_source.module	fde1a9186d5b5ad5add61d1d6d9c6367
+A	domain_source/src/Plugin/views/field/DomainSource.php	e48d13efab4ff89f39a42cbff40c8916
+A	domain_source/src/Plugin/views/filter/DomainSource.php	b2ea419646b6cc6a91f17825067d4f74
+D	domain_source/src/Tests/DomainSourceEntityReferenceTest.php	
+M	domain_source/tests/src/Functional/DomainSourceElementTest.php	59050aa69c5c63b11d7caecc429fab82
+A	domain_source/tests/src/Functional/DomainSourceEntityReferenceTest.php	f95234a5fd137192e9620a83b2f3a646
+M	domain_source/tests/src/Functional/DomainSourceLanguageTest.php	6007ea66aeb7611fc362515afa5221fc

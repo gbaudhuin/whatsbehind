@@ -1,0 +1,15 @@
+M	README.md	6d366d460fb4306d6494db699738b302
+M	assets/js/flexslider.load.js	e71028c625e2f2a62482884839f3e1d6
+M	config/install/image.style.flexslider_full.yml	0ebc7f1df28d57731fd524c73b4e03e3
+M	flexslider.info.yml	890cab49e46a6f6d489fbf4b15958d5b
+M	flexslider.links.menu.yml	2cbe38eed9b3a0cf3d57d4756a0b03b5
+M	flexslider.module	43518505461bbd0c824eda24c0f3da42
+M	flexslider.permissions.yml	d720e4f725b542d3e3430b015c77b0ee
+M	flexslider.routing.yml	5f09d0fbf8a6eba2ff7d8654e1b34655
+M	flexslider_example/config/install/field.field.node.flexslider_example.field_flexslider_example_image.yml	b66d566b5b4bd309da292154c06110b8
+M	flexslider_example/flexslider_example.info.yml	0a43a893f6452f9663f2287ba0f2ab81
+M	flexslider_fields/flexslider_fields.info.yml	8eceb6201c83a45ba0950d7e35c8cc5f
+M	flexslider_fields/src/Plugin/Field/FieldFormatter/FlexsliderFormatterTrait.php	4b52421c431a9d24296130e89fef9652
+M	flexslider_views/flexslider_views.info.yml	eed79856264cfedcfa7a3c77a97f694d
+M	flexslider_views/templates/flexslider_views.theme.inc	b72dd7803af63348c95630c9161aad7f
+M	templates/flexslider.theme.inc	8ee35d4cc614491b5ffd026626d75de4

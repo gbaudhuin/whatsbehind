@@ -1,0 +1,6 @@
+M	config/schema/geolocation.schema.yml	c62a13cfdf86e68df0c5816382cbe20c
+M	geolocation.info.yml	acf6762e943c066c5f6194ef2a6b813a
+M	js/geolocation.js	f3ffc9a912ec27cb3753a80dd9899d04
+M	src/Plugin/Field/FieldFormatter/GeolocationGoogleMapFormatter.php	7bedabfb7550036116fa85ec57d1bf2f
+M	src/Plugin/Field/FieldWidget/GeolocationGooglegeocoderWidget.php	909771bea062d7f8704e7be1fc4909e5
+M	tests/modules/geolocation_test_views/geolocation_test_views.info.yml	dfe44395f4f5053935af56e033377822

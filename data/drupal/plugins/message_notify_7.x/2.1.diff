@@ -1,0 +1,4 @@
+M	message_notify.info	13a6decdb5a01ad69ee8b9e4611d3e56
+M	message_notify_example/message_notify_example.info	5ab36fe594b300046cf46dfb2946f8c5
+M	plugins/notifier/email/MessageNotifierEmail.class.php	a11bb47cee46c3bee08fa4626de763ad
+M	tests/message_notify_test.info	a483059a14c5fafd1aa1ca8cac7a36e8

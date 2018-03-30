@@ -1,0 +1,8 @@
+M	README.txt	aeed38a8ac1526fbb0d84f5d3e358ca6
+M	composer.json	d70c94ce6d31754e834de62e48d3295c
+A	drush/shariff.drush.inc	fdde6d3fe7138a0ddbf75b648ac50d8a
+A	js/shariff.js	071d54bd1c4bb5c07406509937fe27a8
+M	shariff.info.yml	d4093e1f24920d0f920a2f50e8c5cd90
+M	shariff.install	e4a2365bfcd434978afe17f8c27d5d8e
+M	shariff.libraries.yml	e4c4f7d398cda2495d3c2ceb55dcbbc2
+M	shariff.module	2bb0991cd6093fc6d15c6d883a753868

@@ -1,0 +1,22 @@
+M	README.md	901a6cb1453ca016c55eb61bea1a6c92
+M	clientside_validation.info.yml	2ed803589113a60bc1441ac9705964f9
+M	clientside_validation.module	9641c25a2633a671f07032b3097b0974
+M	clientside_validation_jquery/clientside_validation_jquery.info.yml	bd73eaee1f728ac6c2aa220b346e3a72
+A	clientside_validation_jquery/clientside_validation_jquery.install	1b92579b4974cb69a57799f04baf5da1
+M	clientside_validation_jquery/clientside_validation_jquery.libraries.yml	7b1624f4596bcf60f3f01e0cc265f9ea
+M	clientside_validation_jquery/clientside_validation_jquery.module	c02560e2ca1bbd039e67f9a4321a7b0d
+D	clientside_validation_jquery/src/Plugin/CvValidator/Form.php	
+A	composer.json	7ab78cc9608d41a7a69bddd81c4f481f
+M	src/Annotation/CvValidator.php	c6e3c54ec3b3ce05f9364425e6806ebc
+M	src/CvValidatorBase.php	a3a9770a72076a7bddaa1225286afb2b
+M	src/CvValidatorInterface.php	61d1dc05318354f946b899080f7d7eab
+M	src/Plugin/CvValidator/Email.php	5142aa23a8b46962f8f2b62b8b91a529
+M	src/Plugin/CvValidator/Max.php	9396e1ed42cce88a67b03274290f2c55
+M	src/Plugin/CvValidator/MaxLength.php	a22e0bcfc8770a0056a766b477b13180
+M	src/Plugin/CvValidator/Min.php	8050bf30e0e2864f67d82b9da70ad177
+M	src/Plugin/CvValidator/Required.php	06f63ab23e864bb4b062605f0b3bdb35
+M	src/Plugin/CvValidator/Step.php	0d750e195208a2ab4db514ade031d171
+M	src/Plugin/CvValidator/Url.php	d0c496f2915c29e2ec4378fbf9bf5404
+A	src/Plugin/CvValidator/UrlInternalExternal.php	88c9faeff6cc95b127baab36c4e7349f
+M	src/ValidatorManager.php	224e6d6aaa9febe399aa0e8d98e65c60
+M	src/ValidatorManagerInterface.php	84b86807aa6edd4f235a8665700f3ab5

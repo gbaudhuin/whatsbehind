@@ -1,0 +1,14 @@
+M	better-autocomplete/better-autocomplete.css	fd60f88539e7700426ed5f8785d5c41b
+M	better-autocomplete/jquery.better-autocomplete.js	9fee6af25b757a92a5c677f0a63ae5af
+M	css/linkit.css	ea2312bcb78acd917282fb9a1d390ad6
+M	editors/ckeditor/plugin.js	a4818d0760315df90493177fdf5b7981
+M	js/linkit.dashboard.js	f30f3df386996f9d6d2e3fc8254e4754
+M	js/linkit.field.js	388e37cce444cdc75a192866cdeb0891
+M	js/linkit.js	4d8f2cf60323bfdfb6fb899264e62311
+M	linkit.api.php	33374bbec4e237ab749a362fc7ab42da
+M	linkit.field.inc	fd80fff3b02c1732568d7090f7dd14c7
+M	linkit.info	d642e26fda5c83ece3764817a7f72302
+M	linkit.install	fdd6ec82143166e259f12ae99ea2ef5c
+M	linkit.module	a5ac0068c4238575973678750913025e
+M	plugins/linkit_insert/html_link/html_link.js	b7d0ed19c0620f1e9ee57dc0ac1447ac
+M	plugins/linkit_search/entity.class.php	3cad998868e60f8f9d1b18cd43752a66

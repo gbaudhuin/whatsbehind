@@ -1,0 +1,14 @@
+M	contrib/current_search/current_search.current_search.inc	976bf8679b533f50dd8280034484c3be
+M	contrib/current_search/current_search.info	545f015451dbb90631da165ddde43941
+M	contrib/current_search/plugins/current_search/item_text.inc	f336ef71034720528c677a3414e02647
+M	facetapi.api.php	87ac8f580d4928e2e5278bba3f056b2c
+M	facetapi.callbacks.inc	785cc03b000cfae0d2cda47ee3d2e445
+M	facetapi.date.inc	6810b409f5827be6870feebedcedb2b8
+M	facetapi.info	cbd5f46a23ef12e26d1cbc3194a97f75
+M	facetapi.module	1a3bd4e29e40a7f19b5d0a7023bd7bea
+M	facetapi.tokens.inc	ea796564ce62ccc188bff4b31c5b319b
+M	plugins/facetapi/adapter.inc	67d3631e8b994d752e7817cd7b92ea78
+M	plugins/facetapi/dependency_role.inc	68d3d8d60d204365d2a3dea784b42961
+M	plugins/facetapi/url_processor.inc	27c85eec7465b4a4cd30df7bf919c06b
+M	plugins/facetapi/widget.inc	19b1f448ae1b6ad64dff8a8b2caf8e3d
+M	tests/facetapi_test.info	48dcac70772a570c47e976553676d1ad

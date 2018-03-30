@@ -1,0 +1,9 @@
+M	README.txt	a4be36c4ea64ae3f8f2d162cff2b1c20
+M	ckeditor_accordion.info.yml	d70b4b18d382b19d543d73c92aa40127
+A	ckeditor_accordion.links.menu.yml	8540c4e8e53c8c36a4a15dc3d031f2e0
+M	ckeditor_accordion.module	ab49ae473d201ce9566564493d22392b
+A	ckeditor_accordion.permissions.yml	61e6f5dcadf32077a7ab453e84c9cdd3
+A	ckeditor_accordion.routing.yml	62bba34ab21947586a5ebb6a62a15c97
+M	css/ckeditor-accordion.css	3fa6cc281ebe5f4ef3ca8dea6a6e18f6
+M	js/ckeditor-accordion.js	c16b9ed4c9d81d380ce9a1f7d46fc569
+A	src/Form/CkeditorAccordionSettingsForm.php	217ce4ee35f9528ae134ae8857451c51

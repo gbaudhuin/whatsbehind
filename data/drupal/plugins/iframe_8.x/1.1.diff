@@ -1,0 +1,9 @@
+M	iframe.info.yml	3cd4a93e211820f613f897e01f43c6a9
+M	iframe.module	76cde2331a54cfeb9a0638b8046a9f01
+M	src/Plugin/Field/FieldFormatter/IframeAsurlFormatter.php	e7081a430bf9173109d4f6734e91d1d2
+M	src/Plugin/Field/FieldFormatter/IframeAsurlwithuriFormatter.php	b5b1911acc3c5b4d5333764f1eb62be9
+M	src/Plugin/Field/FieldFormatter/IframeDefaultFormatter.php	be64670401782734f1e112b2328668db
+M	src/Plugin/Field/FieldFormatter/IframeOnlyFormatter.php	51aff3d98b1bd65ffbd831ad592ebd56
+M	src/Plugin/Field/FieldWidget/IframeUrlWidget.php	d7d309ca86caf44591a8358932198aab
+M	src/Plugin/Field/FieldWidget/IframeUrlheightWidget.php	228ad67f39fb94f441a01fce1150d605
+M	src/Plugin/Field/FieldWidget/IframeUrlwidthheightWidget.php	0aa213d4e53d5e169b0f8e04e1a8cc5f

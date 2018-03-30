@@ -1,0 +1,14 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	82784f6e431b81d30fba430a57ba24f5
+A	config/install/datalayer.settings.yml	040c2e4bd6623b97e1c5744f9fdc0279
+A	config/schema/datalayer.schema.yml	3f92872d797e962da78448c0dda98a27
+A	datalayer.api.php	9b6f615043cc41be6410cd5ea0977a7d
+A	datalayer.info.yml	d6bd5261868a4e2bdb45a504f9176263
+A	datalayer.libraries.yml	a2e5a851b232dd709a7fb5b1e0648d2d
+A	datalayer.links.menu.yml	0878f34f4f5593e5c96f05ef7b1a32d1
+A	datalayer.module	fd0f6518d58b3fd494d493683dd5c9ac
+A	datalayer.routing.yml	654c0d6c76a36f74e80272e8d9aee24c
+A	js/datalayer.js	561b1a0299cee0765a0ee93a740ad8ea
+A	src/Form/DatalayerSettingsForm.php	0aab83d92f4d44c06e84b7ed5b7618da
+A	src/Tests/DataLayerUnitTests.php	248cb680a46fdf358aff5a00069f5eda
+A	src/Tests/DataLayerWebTests.php	470301708331514e6000ac07f5487f9b

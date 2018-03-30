@@ -1,0 +1,9 @@
+M	fontawesome.info.yml	6541519038cea885987e1020092f4eed
+M	fontawesome.install	6e51005e6df8c7464d0979713703cb4c
+M	fontawesome.module	4543fd6c1712eef97fda51d648cc9c5f
+M	src/Form/EditorIconDialog.php	670220e1d0399c08af40337beade27a5
+M	src/Form/SettingsForm.php	b17d1d2bdeee61e19d469a6361952693
+M	src/Plugin/Field/FieldFormatter/FontAwesomeIconFormatter.php	97cde22404d4aa612227ac666e3e7e1c
+M	src/Plugin/Field/FieldWidget/FontAwesomeIconWidget.php	f15ecf820228048e6ea6f8966efce70e
+M	templates/fontawesomeicon.html.twig	4984d593c578aa2011c009fa6e5f424e
+M	templates/fontawesomeicons.html.twig	41b2b8c4cc99388e160897ff94ddb735

@@ -1,0 +1,16 @@
+A	config/schema/shs.schema.yml	5fbd22a4a5803a7ad07afb9eee1eed78
+A	config/schema/shs.views.schema.yml	d779639edc4b28a44d3605f8b8a08ad8
+M	js/views/ContainerView.js	dbcd1fb3c1a0cfba42b0eb3d6f18c4df
+M	js/views/WidgetView.js	ba2904015d8204e605522008c08b3cfc
+A	modules/shs_chosen/config/schema/shs_chosen.schema.yml	9f0748ca56409ac5f97bb0f317473ea0
+A	modules/shs_chosen/config/schema/shs_chosen.views.schema.yml	8d8367594c2e5a0059b831c92f9cb849
+M	modules/shs_chosen/shs_chosen.info.yml	9cbdfb256131238d14e13c17cbeafbfe
+M	modules/shs_chosen/src/Plugin/views/filter/ShsChosenTaxonomyIndexTid.php	4e4030b90ba24530c050f6779a27dae0
+M	shs.info.yml	cf57c7c818c3db233be65e286412f78a
+M	shs.module	0def2f6e38223eec1e793e0341017deb
+A	shs.services.yml	30a2327ed4cf2c6b4402a31784def6ce
+M	src/Controller/ShsController.php	a58d97f226841b57774b6519706055f7
+M	src/Plugin/Field/FieldWidget/OptionsShsWidget.php	a3e084c40c3e732b1fefbbc0715ad1e5
+M	src/Plugin/views/filter/ShsTaxonomyIndexTid.php	098eebeef1af7935cd80dea0876f9ab2
+A	src/WidgetDefaults.php	26abb50c053d24510e5e44ec276bc89b
+A	src/WidgetDefaultsInterface.php	5132d5b41186e3dafa6a541abf3894c9

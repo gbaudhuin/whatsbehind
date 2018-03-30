@@ -1,0 +1,11 @@
+M	blockgroup.info.yml	49f785dbcac4554214e620ee1a4b3484
+M	blockgroup.module	3db90343f74e33874e79be461ba57d3f
+M	src/BlockGroupContentInterface.php	7862c799e8bdefea4faed05f84608360
+M	src/BlockGroupContentListBuilder.php	24fe0e23a0d3ae01c94e0bbc48306e30
+M	src/Entity/BlockGroupContent.php	4c29b8963a18f3a20ae5522c2517a236
+M	src/Form/BlockGroupContentDeleteForm.php	cd87247fa491ed49a5eb062ee5223116
+M	src/Form/BlockGroupContentForm.php	bcb862b1481b663d1fc338a420fa401b
+M	src/Plugin/Block/BlockGroup.php	9f12056cba1ef70bf3d8e132dbce5c5c
+M	src/Plugin/Block/BlockgroupBlock.php	7321687e9b59a2154ed0bd8f833daf36
+M	src/Plugin/Derivative/BlockGroups.php	20434943301c1e934f0b30738ad657df
+M	src/Tests/BlockGroupTest.php	8c1b492bc2fd15e85bda769e6a90ea29

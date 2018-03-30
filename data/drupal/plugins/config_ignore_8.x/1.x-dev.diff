@@ -1,0 +1,3 @@
+M	config_ignore.drush.inc	8134e32a13cb39cf8b917719b08a5619
+M	config_ignore.info.yml	cc30db1c258de55ba4b7bafcd0bcc131
+M	tests/config_ignore_hook_test/config_ignore_hook_test.info.yml	803bd1633b1b4e238fa32bfef1069e00

@@ -1,0 +1,33 @@
+M	.travis.yml	c904d4454d823e4833adc45536f8cb15
+M	.travis/drupal-8.0.x.make.yml	b23bd8df90ea1cf36321b2a1dfa42865
+M	.travis/drupal-8.1.x.make.yml	4811d856013cfdc9b401279dbc67b794
+M	.travis/nginx.conf	d91e783266e45692bc130d48e5d245f7
+M	css/deploy.toolbar.css	3dbd8f42e3597e9c23cbdb4d0de40c0c
+M	deploy.info.yml	1ad1df3510a0138bb3c89e12786cc31f
+D	deploy.install	
+A	deploy.links.action.yml	8fe56f0f83248ed13fc57ff324e6ce89
+M	deploy.links.menu.yml	4e853bc0a429faa291399976cadd1a3c
+M	deploy.links.task.yml	617a0d691e57a21f288afc85305df523
+M	deploy.module	d4a666c65182fd0e0d3d224a49eda676
+A	deploy.permissions.yml	ce16dbd10f53d47e5af4d13aec30cb9d
+M	deploy.routing.yml	6d83922f2f68c523ec60ad10ebb4aa58
+D	deploy.services.yml	
+A	icons/bebebe/deploy.svg	4228f1261330161aa2254c427e2151ab
+A	icons/deploy.svg	ddad1cfc1aeac92a806a9eaadc34db60
+A	icons/deploy_blue.svg	6d3722b8a7969a04a9096a174fe662a8
+D	src/Deploy.php	
+D	src/DeployInterface.php	
+A	src/Entity/Form/ReplicationDeleteForm.php	fadb16335c9d250da9b86d2eb7f3cbf3
+A	src/Entity/Form/ReplicationForm.php	771da84173f1eb8c96335b2c5b2f5263
+A	src/Entity/ReplicationViewBuilder.php	6b654b7d87fb2f9478bbe06bb2a94abf
+A	src/Entity/ReplicationViewsData.php	b6448dbfe5792f010196323e31592592
+D	src/Form/PushForm.php	
+A	src/Form/ReplicationActionForm.php	22ecb9db298e0e86df88ce19b807a1c5
+A	src/ReplicationAccessControlHandler.php	557b13ea65ea3b74e80fa5ac1d56022f
+A	src/ReplicationListBuilder.php	f996a6805ad5bd04dd651d1cecaf019e
+D	src/Tests/DeployTest.php	
+A	src/Tests/ReplicationEntityTest.php	aced4335b8840b3e6d8df7d9062b4f14
+D	tests/modules/deploy_test/deploy_test.info.yml	
+D	tests/modules/deploy_test/deploy_test.install	
+D	tests/modules/deploy_test/deploy_test.module	
+D	tests/src/Unit/DeployUnitTest.php	

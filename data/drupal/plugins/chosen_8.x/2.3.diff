@@ -1,0 +1,8 @@
+M	README.txt	d56fe7cab1e78e97668d85fbc4837ba1
+M	chosen.info.yml	c06a045c64615afdc9290c45921cd41f
+M	chosen.module	a5f59ad2f936df23dea3444897bcb294
+M	js/chosen.js	f1d7e3d7357c4ab690499d8741e8395a
+M	modules/chosen_field/chosen_field.info.yml	47676ea37a61dcb2b2182c95cbc3e6c4
+M	modules/chosen_lib/chosen_lib.info.yml	faa2a2960bb4d873bd2ba75acc0361a3
+M	src/Form/ChosenConfigForm.php	d3243dad4e3aa36cbc3c3a6c65409238
+M	tests/modules/chosen_test/chosen_test.info.yml	263705f5e73e2f2e44f4cbf00c851998

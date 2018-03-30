@@ -1,0 +1,7 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	ee8e05125ce748c1ed89a54188d47409
+A	composer.json	7bd0be7241b4ba4a04239c14cecf2aa6
+A	eva.info.yml	202683852b2ce90f665aff3bea69c0fa
+A	eva.module	f527afcd806aa9e0e428881f6951550d
+A	src/Plugin/views/display/Eva.php	b89e04727277c0e78cbc006dffdb8ac8
+A	templates/eva-display-entity-view.html.twig	75bc5fdc993616dd86a34623d97736e2

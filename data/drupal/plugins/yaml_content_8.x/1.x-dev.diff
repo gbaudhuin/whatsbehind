@@ -1,0 +1,9 @@
+M	content/demo.content.yml	50fd7c743fa36c13592738d5e167d44d
+M	src/ContentLoader/ContentLoader.php	c2b2467cbf47f64d37a39344db687c85
+M	src/ContentLoader/ContentLoaderInterface.php	e803d2d9563bec29b4cb0430ce5593df
+A	src/Service/LoadHelper.php	abe08315796e084edea05dab1690d716
+A	tests/content/basic_node.content.yml	7dc723f289163cfc71905cf0ca34fb1c
+A	tests/src/Functional/NodeImportTest.php	4ca1c0b42029f19931de94b2c8fb0c14
+M	yaml_content.drush.inc	a266db6077aba4b46e3e1e9a5e7aefbc
+M	yaml_content.info.yml	e121c9c4d3919c74c8ea6e5d6c3f9713
+M	yaml_content.services.yml	5a608da684567fa5eab9d31aca991ede

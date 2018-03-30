@@ -1,0 +1,6 @@
+A	modules/varnish_image_purge/src/Form/VarnishImagePurgeConfiguration.php	0796703fe792f34771715cea8ccf445d
+M	modules/varnish_image_purge/varnish_image_purge.info.yml	14e4a8fa966c70019f5dd74ce2965ed1
+A	modules/varnish_image_purge/varnish_image_purge.links.menu.yml	1be45428b42bef3790738623f0b6aa8c
+A	modules/varnish_image_purge/varnish_image_purge.routing.yml	e5656b974cae528bc145d21c15a08c8a
+M	modules/varnish_purge_tags/varnish_purge_tags.info.yml	35ab3ef7aabf0432b7f4c6c9af2311f2
+M	varnish_purger.info.yml	97cafe5153e36b7288b8a7fe36c1117d

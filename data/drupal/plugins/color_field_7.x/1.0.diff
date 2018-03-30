@@ -1,0 +1,9 @@
+M	README.txt	51b5fb33bd30df52010edda2bc1fb25c
+M	color_field.css	4afef02131e3be845def621f2159b70c
+A	color_field.drush.inc	d8ff6f1bdef9a1daa3a60a884e220b3a
+M	color_field.info	f6fd3866ca74b27325df8133d0b228f9
+M	color_field.install	4a6de78c8135ed5f6e5e7c102a121001
+M	color_field.js	968d858186f1aa22423fb95a01be0150
+M	color_field.module	a9d7b467e64cb34e2d52012a73110d42
+M	color_field.test	d41d8cd98f00b204e9800998ecf8427e
+A	color_field_jquery_simple_color/color_field_jquery_simple_color.jquery.js	c7b88933c5f99c4883e3a55f3694aba1

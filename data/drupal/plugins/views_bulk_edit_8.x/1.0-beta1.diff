@@ -1,0 +1,13 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	config/install/system.action.node_bulk_edit.yml	26b25d87276b8f43a3cbe4d6ac309199
+A	config/install/views_bulk_edit.settings.yml	809adb08c376d95ba84869dded708810
+A	config/schema/views_bulk_edit.schema.yml	e1ecd85f2393b06a1214783569ab8ad4
+A	css/edit-form.css	dc9036841bcaccc783598ec3795e152c
+A	src/Form/BulkEditForm.php	5538bc4a06da0fee8d426bf941a8ad04
+A	src/Plugin/Action/BulkEdit.php	6def948b707b2df05162726a054aecc7
+A	src/Plugin/Derivative/BulkEditDeriver.php	ed526c505d04b0048c3b388d4c604ec7
+A	tests/src/Functional/ViewsBulkEditTest.php	43781ff51b0397ed3f5599453672a433
+A	views_bulk_edit.info.yml	d735af163ab56ef4b30fd6a3ffd75222
+A	views_bulk_edit.libraries.yml	196d70688f8e7f1b9ff54e67eaaa3336
+A	views_bulk_edit.permissions.yml	8c68c5853cf5b294369b29c8c3a21ca0
+A	views_bulk_edit.routing.yml	e12f5af805411f41fde5d15934502618

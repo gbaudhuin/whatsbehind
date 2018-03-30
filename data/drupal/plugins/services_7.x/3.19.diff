@@ -1,0 +1,8 @@
+M	auth/services_oauth/services_oauth.info	f4413b20289d2e8edbde0d618bed0a70
+M	resources/user_resource.inc	9d515661f426bf4746a642898a9252da
+M	servers/rest_server/rest_server.info	43e59f1c244656d1f22905400b41799f
+M	servers/rest_server/rest_server.module	404d221a89b4fea626cd0af20e270744
+M	servers/xmlrpc_server/xmlrpc_server.info	084b99b3f4511b0d2d10094df77aa325
+M	services.info	148144e231fc7c20d0300581c4489108
+M	services.make	ab8fc201df64c822c916cd92e7f6a9a2
+M	tests/services_test_resource/services_test_resource.info	a7bc2a86275149f2e2ed2680e393f09e

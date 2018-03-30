@@ -1,0 +1,7 @@
+M	autologout.admin.inc	b04675152ba14188ed5a591658409fa8
+A	autologout.api.php	f0b4df2959c0a70ddace1a37e2be5fd9
+M	autologout.info	53d82c463e554c515f4d3f3538f39860
+M	autologout.install	8b09f661e5a50092cefccf06b8c9981b
+M	autologout.js	8eb65a264c104adfd52ae0e26e2c8b39
+M	autologout.module	e6c0aa19eb9e4c7e7e63163167d20eb4
+A	tests/autologout.test	9c414aa289908a3baff1c99231bbf49e

@@ -1,0 +1,12 @@
+M	README.md	0a3a9c072c18ca2d1657368a981c7c79
+M	config/install/responsive_menu.settings.yml	71c0e5923e353cea2daa86942abe8d08
+M	config/schema/responsive_menu.schema.yml	145073d6b01a72a2364ae61f8d656979
+M	css/responsive_menu.css	ad506e9eb773dfb1607069a31d8397d9
+M	js/responsive_menu.config.js	de4dbffee02799685c7f88501fe48f12
+M	responsive_menu.info.yml	6f55c62f051f59de7660a06a645ecd17
+M	responsive_menu.install	ac9272af5ba90decaca7e9df92563377
+M	responsive_menu.libraries.yml	1bd54d0a0f865744fcc0e1f6f77f6d46
+M	responsive_menu.module	ceb62b5bb064b5fc37ccb33487500893
+M	src/Form/SettingsForm.php	9ab9024106eb79a36bcc873c93f075a6
+M	src/Plugin/Block/HorizontalMenu.php	cc381342dd5e7a27731b54de7ee5241d
+A	templates/responsive-menu-page-wrapper.html.twig	489689fbc9885e474c9167f8504c5385

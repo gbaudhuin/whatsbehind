@@ -1,0 +1,4 @@
+M	conditional_fields.api.inc	b962327a569d45e26d8006803fcf6a43
+M	conditional_fields.info.yml	49fe2afe4c3e4e394a8c6a1293a51ad5
+M	src/Plugin/conditional_fields/handler/OptionsButtons.php	5507338863426c46a8269939446208a9
+M	src/Plugin/conditional_fields/handler/Select.php	efae14d8650115bf265f065af3d4090d

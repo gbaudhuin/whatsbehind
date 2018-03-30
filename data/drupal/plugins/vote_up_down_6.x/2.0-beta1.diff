@@ -1,0 +1,65 @@
+A	.cvsignore	d0b8423045a0917e4bd5eaef9b71f235
+M	CHANGELOG.txt	074196b547a8e96a5c85a361b5e07e9b
+D	INSTALL.txt	
+M	README.txt	2da2055ef22f32d6d5c46f3ff9b6e280
+A	WIDGETAPI.txt	ad2f80037b89907baf9a142ba2572a95
+D	ajax_vote_up_down.js	
+D	alternative/node-example.tpl.php	
+D	documentation/voting_actions_examples/Demote_from_front_page.png	
+D	documentation/voting_actions_examples/Promote_to_front_page.png	
+D	documentation/voting_actions_examples/To_moderation_queue.png	
+D	images/a_down_act.png	
+D	images/a_down_inact.png	
+D	images/a_up_act.png	
+D	images/a_up_inact.png	
+D	images/plus_act.png	
+D	images/plus_inact.png	
+D	node-storylink.tpl.php	
+D	screenshot.png	
+D	template.php	
+D	tests/vote_up_down.test	
+D	theme/vote_up_down_points.tpl.php	
+D	theme/vote_up_down_points_alt.tpl.php	
+D	theme/vote_up_down_widget.tpl.php	
+D	theme/vote_up_down_widget_alt.tpl.php	
+D	views/views_handler_field_vote_up_down_widget.inc	
+D	views/vote_up_down.views.inc	
+D	vote_up_down.css	
+D	vote_up_down.info	
+D	vote_up_down.install	
+D	vote_up_down.module	
+D	vote_up_down_actions.inc	
+A	vud.info	ae163177f3b2edbddf19fc5d11c74853
+A	vud.install	b3ce8c9806cc1082de45ecd579cd7add
+A	vud.module	0c38f0f2dbac7580c3a271e2b2d79f28
+A	vud.test	5d19738f6b272c0aec75359ddd856f05
+A	vud.theme.inc	a2a092e9fc26f1105af526e1ec99da6e
+A	vud_comment/vud_comment.css	3b16224f36a599be87a99dfd93debe97
+A	vud_comment/vud_comment.info	48b3eb108620e9c0bc244489987c2318
+A	vud_comment/vud_comment.install	497a94afab78c2405685de7cca4d571d
+A	vud_comment/vud_comment.module	5b94df8e084640a68825ff7e336c86ba
+A	vud_comment/vud_comment.test	3ec94ab4d7f483ea9cc9797919a46197
+A	vud_node/vud_node.info	4e3c33cb9038e234a609670a357537ee
+A	vud_node/vud_node.install	853cfdc9e9e8c0995ab8316d7d6c19a9
+A	vud_node/vud_node.module	4405421a2d83264b7944251af95049ac
+A	vud_node/vud_node.test	0e6ecb0180cef40149e2b1169f5ac018
+A	vud_term/vud_term.info	a1588252aa49a7a388ed314932191956
+A	vud_term/vud_term.install	2ceb16b7a2856f395a3e5ee4622fb876
+A	vud_term/vud_term.module	7c44481e717425521dcabaacaec0125d
+A	vud_term/vud_term.test	78dcca8ba07af5d9a00e848d48f6e475
+A	widgets/alternate/alternate.css	f99d50ab3d83d729d44d53cc437f4e54
+A	widgets/alternate/alternate.inc	9f0ec017a8d79489f4cb123fff5b551c
+A	widgets/alternate/plus_act.png	92af07c7f9096242fc2ee975bccf1dcb
+A	widgets/alternate/plus_inact.png	96a93e505c9af6bfdc951bde2b7a5873
+A	widgets/alternate/widget.tpl.php	d9cf9a8c8e1fb1bed620ff5c6f8c5c47
+A	widgets/plain/a_down_act.png	9515af024c6e0d276f13adec9417958a
+A	widgets/plain/a_down_inact.png	721aaed5b37e2341854f8f60c9dfade9
+A	widgets/plain/a_up_act.png	ac0aa1e2bc538ff35eac78616898cdb4
+A	widgets/plain/a_up_inact.png	ab261e369004c709c98575ec32249e6b
+A	widgets/plain/plain.css	a59e84e30ab6f3f68935b26cdcc049fd
+A	widgets/plain/plain.inc	4de7f28cbc7113b33d41eff1c8dfe696
+A	widgets/plain/votes.tpl.php	b82c9cd7cc3578c6bedf1c0563588dcc
+A	widgets/plain/widget.tpl.php	58b68bbdcb42e74e94125d7c305a3650
+A	widgets/updown/updown.css	871876862ae7fccb1623033e0db5b63c
+A	widgets/updown/updown.inc	7872acb0b66dfa8eb1bc69826d33346f
+A	widgets/updown/widget.tpl.php	682116a74f90dca72d0e35873294a0c1

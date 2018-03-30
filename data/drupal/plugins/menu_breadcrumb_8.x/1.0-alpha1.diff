@@ -1,0 +1,10 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	a718e3b5aa47844f7e1a0a6b142841ad
+A	config/install/menu_breadcrumb.settings.yml	615e939e0ffc43ef50678251021ee218
+A	menu_breadcrumb.info.yml	55a7a8913b81f02779e921f6a82cc66c
+A	menu_breadcrumb.links.menu.yml	7e94b463b9a0e78d0667fa2a79c146aa
+A	menu_breadcrumb.module	65c25875716b01b008df7615bd2f773a
+A	menu_breadcrumb.routing.yml	176bc61fa2863448febabf60aa8108a4
+A	menu_breadcrumb.services.yml	5f2dd5c2902bd6a6155993661404ff20
+A	src/Form/SettingsForm.php	c3f71cbdbc12c1a0b7759eef361a2d1b
+A	src/MenuBasedBreadcrumbBuilder.php	de5342c25fc4e483bb62efd545e55c52

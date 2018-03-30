@@ -1,0 +1,44 @@
+D	CHANGELOG.txt	
+D	css/images/ui-bg_flat_0_aaaaaa_40x100.png	
+D	css/images/ui-bg_flat_75_ffffff_40x100.png	
+D	css/images/ui-bg_glass_55_fbf9ee_1x400.png	
+D	css/images/ui-bg_glass_65_ffffff_1x400.png	
+D	css/images/ui-bg_glass_75_dadada_1x400.png	
+D	css/images/ui-bg_glass_75_e6e6e6_1x400.png	
+D	css/images/ui-bg_glass_95_fef1ec_1x400.png	
+D	css/images/ui-bg_highlight-soft_75_cccccc_1x100.png	
+D	css/images/ui-icons_222222_256x240.png	
+D	css/images/ui-icons_2e83ff_256x240.png	
+D	css/images/ui-icons_454545_256x240.png	
+D	css/images/ui-icons_888888_256x240.png	
+D	css/images/ui-icons_cd0a0a_256x240.png	
+D	css/schemaorg.jquery.ui.theme.css	
+M	example/schemaorg_event/schemaorg_event.info	16254ec4fe58006d56e89bbe0ff0c38b
+A	example/schemaorg_event/schemaorg_event.install	d23185c073f7fa6b5058d485e07cf875
+M	example/schemaorg_person/schemaorg_person.info	93d1ce490b492f8c3012680eed05a1e0
+A	example/schemaorg_person/schemaorg_person.install	3f878e44515def2b2c4e7f7fe6653556
+M	example/schemaorg_recipe/schemaorg_recipe.info	e5610fb91b191bc725ad028757fce681
+D	js/schemaorg.js	
+D	js/schemaorg.terms.json	
+M	schemaorg.info	c11c6de0958db4fbfdeb0cb82780cef6
+A	schemaorg.install	9e9c34d35b2a5d3f7ba0d33a87939ef9
+M	schemaorg.module	3efbf1f4a7b8f9bf66f85cce096f04aa
+M	schemaorg.test	f7c6e85a80a1ab3ebe6c62915cfeba1b
+A	schemaorg_ui/css/images/ui-bg_flat_0_aaaaaa_40x100.png	2a44fbdb7360c60122bcf6dcef0387d8
+A	schemaorg_ui/css/images/ui-bg_flat_75_ffffff_40x100.png	8692e6efddf882acbff144c38ea7dfdf
+A	schemaorg_ui/css/images/ui-bg_glass_55_fbf9ee_1x400.png	f8f4558e0b92ff2cd6136781533902ec
+A	schemaorg_ui/css/images/ui-bg_glass_65_ffffff_1x400.png	e5a8f32e28fd5c27bf0fed33c8a8b9b5
+A	schemaorg_ui/css/images/ui-bg_glass_75_dadada_1x400.png	c12c6510dad3ebfa64c8a30e959a2469
+A	schemaorg_ui/css/images/ui-bg_glass_75_e6e6e6_1x400.png	f4254356c2a8c9a383205ef2c4de22c4
+A	schemaorg_ui/css/images/ui-bg_glass_95_fef1ec_1x400.png	5a3be2d8fff8324d59aec3df7b0a0c83
+A	schemaorg_ui/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png	72c593d16e998952cd8d798fee33c6f3
+A	schemaorg_ui/css/images/ui-icons_222222_256x240.png	9129e086dc488d8bcaf808510bc646ba
+A	schemaorg_ui/css/images/ui-icons_2e83ff_256x240.png	25162bf857a8eb83ea932a58436e1049
+A	schemaorg_ui/css/images/ui-icons_454545_256x240.png	771099482bdc1571ece41073b1752596
+A	schemaorg_ui/css/images/ui-icons_888888_256x240.png	faf6f5dc44e713178784c1fb053990aa
+A	schemaorg_ui/css/images/ui-icons_cd0a0a_256x240.png	5d8808d43cefca6f6781a5316d176632
+A	schemaorg_ui/css/schemaorg_ui.jquery.ui.theme.css	ec6b20d406bcd762caed9bcf9ba38d48
+A	schemaorg_ui/js/schemaorg_ui.js	74356d4e0f781e66ac7701901eaf33ba
+A	schemaorg_ui/js/schemaorg_ui.terms.json	4855db8293fe33537b1643ed42207ea7
+A	schemaorg_ui/schemaorg_ui.info	1d18d804c459e1fea9ba36590b432184
+A	schemaorg_ui/schemaorg_ui.module	c68db8bd71dd385686a1ea8e394e0a31

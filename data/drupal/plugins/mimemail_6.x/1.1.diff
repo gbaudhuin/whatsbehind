@@ -1,0 +1,13 @@
+M	CHANGELOG.txt	7ac9eff287c8ab81ed3213ce31812053
+M	README.txt	de096fd74f4e6c38103c590015cb5d36
+M	includes/mimemail.admin.inc	a74619c3356d75f7a3555aff499b202f
+M	includes/mimemail.rules_forms.inc	341c4d5af9299376bc29d6d9fdcd8e88
+M	mimemail.inc	f5513b6697d42ca16005d970f52d0ce3
+M	mimemail.info	566d74f0a3e1e59970763e282d432776
+M	mimemail.install	66d0954e602aade7f6e62e84f03c5bcf
+M	mimemail.module	19fce6261165c5d4e4e635a2eb0a4bb3
+M	modules/mimemail_action/mimemail_action.info	aa826829f17b813ca97c5c9004de636f
+M	modules/mimemail_action/mimemail_action.module	ec3602a72a78dda7fe1a14a523504e80
+M	modules/mimemail_compress/mimemail_compress.inc	9fd193cff7fcd4f57bab88b8b90cf590
+M	modules/mimemail_compress/mimemail_compress.info	3ba72734d1d820d68adbf494c1003e2d
+M	theme/mimemail.theme.inc	08824670dc27bfa156b44ed3d5c9c9e0

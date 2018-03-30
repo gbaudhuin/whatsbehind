@@ -1,0 +1,22 @@
+M	charts.info.yml	6a4dadc8ece7d90db6aa6f5794756828
+M	charts.module	57a5251d15b6d896439b7d7a8615075a
+M	includes/charts.pages.inc	a72fd6670d29340d644352268508f63c
+M	modules/charts_api_example/charts_api_example.info.yml	ac71b865be181c690719e0dd177f2ee8
+M	modules/charts_api_example/charts_api_example.module	d2ec4e1f7867b947167b488d4049cad9
+M	modules/charts_api_example/src/Controller/ChartsApiExample.php	8c20fa52cc55a7e27e61f07d82e10bfc
+M	modules/charts_blocks/charts_blocks.info.yml	f138df61602c552ccd0e434295b035d1
+M	modules/charts_blocks/charts_blocks.module	9fdc36f8c412cb9174830b5ceb4aa6d5
+M	modules/charts_blocks/src/Plugin/Block/ChartsBlock.php	103b9d04d08d747cc4dcc2b5ea4dc5b2
+M	modules/charts_c3/charts_c3.info.yml	541360d0b4e89da0c6bca03db2d98748
+M	modules/charts_google/charts_google.info.yml	0e4c947f628d811246352af9e592892c
+M	modules/charts_highcharts/README.txt	4eb30fd396b05b711b2a099cb0cf98cf
+M	modules/charts_highcharts/charts_highcharts.info.yml	ce5d451cf5c20c1d4a668095e9f66ccd
+M	modules/charts_highcharts/charts_highcharts.libraries.yml	a4667a01174ba25057cdeca2adb4ce39
+M	modules/charts_highcharts/src/Plugin/chart/Highcharts.php	7fae16c25396efe3cb3b0a3f649404a4
+M	modules/charts_highcharts/src/Settings/Highcharts/Chart.php	af12dcf33820e6b67aad75a0fbed3aaf
+M	modules/charts_highcharts/src/Settings/Highcharts/ChartLegend.php	cc3afe3759498fa3fc5ba4d2321d3897
+M	modules/charts_highcharts/src/Settings/Highcharts/ChartTitle.php	4265727b83158ac7ceba814e3be30e87
+A	modules/charts_highcharts/src/Settings/Highcharts/ThreeDimensionalOptions.php	fa66213516976f27388ff455954a776a
+D	src/Charts/ModuleSelector.php	
+M	src/Plugin/views/display/ChartsPluginDisplayChart.php	5d447947f2fce43322fc54ab1ff5f309
+M	src/Plugin/views/style/ChartsPluginStyleChart.php	6c63ffda54ffcca2308eef0ef2b2f76b

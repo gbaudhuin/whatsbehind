@@ -1,0 +1,8 @@
+M	composer.json	d2b3c9cfb832f09512a4640779aaa74d
+M	src/TwigExtension.php	a84a1e6de535736314d39cc5cbd40479
+M	tests/src/Functional/TwigTweakTest.php	33a9ed06560513643330aa7bca7c8be2
+D	tests/twig_tweak_test/config/install/block.block.powered_by_drupal.yml	
+M	tests/twig_tweak_test/templates/twig-tweak-test.html.twig	9df06a70d8509005534bc280ac172aee
+M	tests/twig_tweak_test/twig_tweak_test.info.yml	30d51c262ce0101a31d01d601752f149
+M	twig_tweak.info.yml	f59613c4b48fa5fc57af6d944295e062
+M	twig_tweak.services.yml	626bfbc3d2f679d079fb41e78e75a298

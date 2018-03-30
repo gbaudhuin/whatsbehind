@@ -1,0 +1,8 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	css/block.css	408b1b612aa51eacedb052eb2137c6da
+A	instagram_block.info.yml	f17b98e09ac806babd3541dcf55c6281
+A	instagram_block.module	f670e0ffd5f647c9000061c3a16828a8
+A	instagram_block.routing.yml	116b0630d80d58ad4518438da4f8e660
+A	lib/Drupal/instagram_block/Form/InstagramBlockForm.php	93b8e9b1869d35ff83eda20de15183ba
+A	lib/Drupal/instagram_block/Plugin/Block/InstagramBlockBlock.php	a3213d0d6fb75ea9d01803243d887346
+A	templates/instagram-block-image.html.twig	55ffee8b66c75391f33db465a0f81667

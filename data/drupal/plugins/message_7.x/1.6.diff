@@ -1,0 +1,14 @@
+M	includes/message.admin.inc	43cef17b6cf5117eb1a6a255cb9f0979
+M	includes/message.message_type.inc	9c1dfe2c9c745b93efd7df24f6c62d87
+A	includes/views/handlers/message_handler_filter_message_type_category.inc	56d21441e02ac19675c69a86a354a579
+M	includes/views/message.views.inc	e4ca713346f8cfd407500f18fd531f76
+M	message.api.php	71b517c1a529d972e905bc7eb2836d84
+M	message.info	112d1077dfbeb376d1f9b06df72354cc
+M	message.info.inc	b07df149a671c6ddb2e05c6cd1cf7d4a
+M	message.install	4b3f62c752f96977806d79562651bd3c
+M	message.module	f38cf272e2ec2514073f8427ad812c59
+M	message.test	f0555b73b1ea937f913474e764e3e11f
+M	message_example/message_example.info	1f1b4f6be69d1b12ec2ae4944a9621ec
+M	message_example/message_example.module	ff4d9b29d19a5c17f36e60997074b140
+M	message_example/message_example.views_default.inc	34ad5c486c21afd6ab60dce650930919
+M	message_og_example/message_og_example.info	1d6aac00478b28f943b90cf2ce80c685

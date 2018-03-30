@@ -1,0 +1,4 @@
+M	login_security.info.yml	bddf78a840c063ad8e7c9a138a686975
+M	login_security.module	51852a27c4577138e54ec51b0e874969
+M	src/Form/LoginSecurityAdminSettings.php	5fe397a0048c8616ae92c5a2d2356b82
+M	src/Tests/LoginSecurityUserBlockingTest.php	48589cde1419210e161b07d0d57a123c

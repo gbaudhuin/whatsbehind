@@ -1,0 +1,11 @@
+A	.travis.yml	7e4835d44626a6b2b95acc313cad8ba5
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	composer.json	44c4f184a25977e42bddaef7e907b6ac
+A	ga_login.info.yml	274eead7af3ac8292e71b5a53e286c28
+A	ga_login.settings.yml	d41d8cd98f00b204e9800998ecf8427e
+A	readme.md	235144871e13219f8d1669f95ef355e0
+A	src/Plugin/TfaSetup/GALoginHotpSetup.php	562f9b6ae7bec0bba9cc5550c7a91c2f
+A	src/Plugin/TfaSetup/GALoginRecoveryCodeSetup.php	369fedc9f36ffc134872b1fa844236b0
+A	src/Plugin/TfaSetup/GALoginTotpSetup.php	949f6ef19e762622f6b601bdd60bc9e1
+A	src/Tests/GALoginHotpSetupTest.php	fd590d0ec314d684fd038587f3ee07a6
+A	src/Tests/GALoginTotpSetupTest.php	a9f4cbb92dd9fc9cbc7e782c21bba178

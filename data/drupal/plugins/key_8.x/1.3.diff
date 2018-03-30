@@ -1,0 +1,6 @@
+M	config/schema/key.schema.yml	296be28d361c5f3065c1c7ff0fea7ab7
+M	key.info.yml	88afc5c8cd8e84e0c5f8a0f3054ec7a0
+M	key.services.yml	e7f978350d549b1277959ba5811ab3b9
+M	readme.md	04dfcc90b087aae12c5fee77ac8b98d2
+M	src/KeyRepository.php	be2dc2051ca1fb0fc8b652ca1bf56c7d
+M	src/KeyRepositoryInterface.php	3381d04cdda41cc1e09799059f29d666

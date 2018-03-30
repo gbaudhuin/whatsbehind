@@ -1,0 +1,5 @@
+M	config_pages.info.yml	d46197ed0fa33d2c6b26c44899362920
+M	src/ConfigPagesForm.php	02e34294738ef7d3c59d1c964b92e946
+M	src/ConfigPagesListBuilder.php	2a74ccb422c925c61df2af9315607fd4
+M	src/ConfigPagesTypeForm.php	ae2c83034c83c82d22aa5534f9a8c550
+M	src/Plugin/Block/ConfigPagesBlock.php	d4ad311187a111adf0d062d69f4edf23

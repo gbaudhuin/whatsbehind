@@ -1,0 +1,7 @@
+M	memcache.inc	485c3451950b9d8fc8c1b1af054d5a11
+M	memcache.info	06dbeb40393b78d5b9b9dc0442b6836d
+M	memcache_admin/memcache_admin.info	6b00899fe8902f065f2fcc916f64bb25
+M	memcache_admin/memcache_admin.module	013647d68cd8c2167972e09884ea6358
+A	memcache_admin/memcache_admin.module.orig	092ec98fb14e3953e7ff20a26058bf9f
+M	tests/memcache.test	49b06652ea928ffdab11cf650396b0b1
+M	tests/memcache_test.info	bd154491710cb8167e94fe60355e3dd5

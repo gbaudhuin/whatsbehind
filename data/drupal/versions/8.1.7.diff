@@ -1,0 +1,8 @@
+M	.htaccess	17c04044e323a3e95843a670728b2e3e
+M	composer.lock	fe90ca77a8c55ed1be1b08023fb06be4
+M	core/CHANGELOG.txt	d52c950f0413b64c05b8fe7f0058804d
+M	core/composer.json	1ae807cd2488a07e6a1deafb0f93d643
+M	core/lib/Drupal.php	961cec3a5ee374939fdd44850f4c3b64
+M	core/lib/Drupal/Core/Http/ClientFactory.php	c313a4cfeed58f367aace38cfd5c09ec
+M	sites/default/default.settings.php	0e6014c82f3923c71d47a361740b7688
+M	web.config	add509971d567b54cc1d4b5788f59306

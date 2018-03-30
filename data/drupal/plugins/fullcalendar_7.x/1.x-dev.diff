@@ -1,0 +1,14 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	fullcalendar.admin.inc	c058d282fa8ece71729d52adf5b71dfd
+M	fullcalendar.custom.css	518d6c4bf08c4372cd8ce27e1d9954eb
+M	fullcalendar.drush.inc	966a180b871e780c6bff4bee0bda2702
+M	fullcalendar.info	2c3a41d7e35fea5cf88fd4b921ef900d
+M	fullcalendar.install	1cdfa264906a82b0a2ab00bf732f8aa4
+M	fullcalendar.module	3b1070508b5df8d0ef2e2ab199d9168f
+M	fullcalendar.views.inc	2f9e924acb2f1b9f5ef8b4d743515587
+M	fullcalendar.views_default.inc	780a0e4cea4a870d1e5bd3599ebe3109
+M	fullcalendar_plugin_display_page.inc	b42e3ba0c58c579fa055a0078a0a4503
+M	views-view-fullcalendar.tpl.php	6eb404aa1f37441cf2f77ba00103253f
+M	views-view-node-fullcalendar.tpl.php	300fc0afc0f7c1060b44fc7aa42ee0f0
+M	views_plugin_node_fullcalendar.inc	dccd25aab4a93865e0018058a5c76ac5
+M	views_plugin_style_fullcalendar.inc	fe68b3fae00e0e853508275c0cfef292

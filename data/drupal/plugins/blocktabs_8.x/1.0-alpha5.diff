@@ -1,0 +1,9 @@
+A	README.md	222e3c8560860c6f92f923643e2ef10a
+M	blocktabs.info.yml	d36862d6226489ba2f58b7eebcf29471
+A	blocktabs.permissions.yml	1d9e2996a697ac40d0650e6cd71184c3
+M	config/schema/blocktabs.schema.yml	7a0fd6b13f1e3189a248ec183d2e0a23
+M	src/Form/BlocktabsEditForm.php	2769a4c6f030071f46cc57dbb00368ce
+M	src/Form/TabFormBase.php	28a8a666a394e6cddc13c06eaf16184a
+M	src/Plugin/Tab/BlockContentTab.php	2b85f7ab75bc8701ebc138b77ed65606
+M	src/Plugin/Tab/BlockTab.php	88de2da6a4862ef7ed342016554620a9
+M	src/Plugin/Tab/ViewsTab.php	8a30f857d90d13251d417141ce257b0a

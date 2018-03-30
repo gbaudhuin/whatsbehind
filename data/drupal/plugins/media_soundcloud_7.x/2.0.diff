@@ -1,0 +1,24 @@
+D	MediaSoundCloudStreamWrapper.inc	
+M	README.txt	4c1d9ee8176bdc7f0e0fa47a930013e5
+D	css/media_soundcloud.css	
+D	css/media_soundcloud.wysiwyg.css	
+D	images/soundcloud_button.png	
+D	images/stream-soundcloud.png	
+D	images/thumb_image.jpg	
+M	includes/MediaInternetSoundCloudHandler.inc	56b6cd11e4fa02dcba35b7b0d883789e
+M	includes/MediaSoundCloudStreamWrapper.inc	1e520a8cdbe358d420ebb751cbfe8b4d
+D	includes/MediaSoundCloudStyles.inc	
+M	includes/media_soundcloud.formatters.inc	94754c392b0d35104fccd44da5f7bd49
+D	includes/media_soundcloud.styles.inc	
+D	includes/media_soundcloud.variables.inc	
+D	includes/themes/media-soundcloud-audio.tpl.php	
+D	includes/themes/media_soundcloud.theme.inc	
+D	js/flash_detect_min.js	
+D	js/media_soundcloud.fromurl.js	
+D	js/media_soundcloud.js	
+A	media_soundcloud.file_default_displays.inc	86727591fe2446c0fe1fadd71526587a
+M	media_soundcloud.info	27c7a434b82d9785636304039c97ce60
+M	media_soundcloud.install	459d09f7ae7223167ab802153b249ccc
+M	media_soundcloud.module	91879e3f023837b04abb3c1d301875e0
+A	themes/media-soundcloud-audio.tpl.php	6470f933c87c9454c1b3426344c33d01
+A	themes/media_soundcloud.theme.inc	165bed3f0735b2a11d4d4ed19e1a0b1b

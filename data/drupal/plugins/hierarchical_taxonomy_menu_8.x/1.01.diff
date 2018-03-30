@@ -1,0 +1,4 @@
+M	README.md	54733a8a435606d6a3ce7396d9427392
+A	composer.json	ae3211e5bf010dd790e6accfba346658
+M	hierarchical_taxonomy_menu.info.yml	13bbf13cbe4319af68c47be248cdef49
+M	src/Plugin/Block/HierarchicalTaxonomyMenuBlock.php	097439d6e96d258c9633f8f81918eacf

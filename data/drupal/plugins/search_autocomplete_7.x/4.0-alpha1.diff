@@ -1,0 +1,24 @@
+M	README.txt	15ee803b585e909d263fb6c0453d1e33
+M	css/MAKE YOUR THEME.css_	a6fae3275d6378c3bc8c08cad70d7d95
+M	css/classic.css	2006235da0439af8e05dd94b4eb2b4e0
+A	css/facebook like.css	8a7a57f6b3954cdf5dcd86abe441ba99
+M	css/full paper brown.css	4438e92415fef5155af4bfe15f15fdef
+M	css/nice black.css	1bb960d1e4669957838f0c6d48730314
+M	css/nice blue.css	3e65d1a0648a8299c0daca6568b8b33b
+M	css/nice green.css	5c0592abb21441d912e67eaa92e5b24a
+M	css/nice orange.css	8bb04da280504f1e695607d88250b371
+M	js/jquery.autocomplete.js	7e95871e1139469de7c266ccb5ec40cc
+M	search_autocomplete.admin.inc	f465ae9acd90ebe7cc836fe2c2c185d3
+M	search_autocomplete.form.add.inc	ae586180b47d8ece24cc916015642a70
+M	search_autocomplete.form.configure.inc	b768833b238269a6a74452f20c71809b
+M	search_autocomplete.form.delete.inc	99df44e18555a36c838b7cca4342e036
+M	search_autocomplete.form.treelist.inc	a9c9dd634c5280cc9710b9aa37b46760
+M	search_autocomplete.info	07c575fbc441a07dfbc3c03c69af2695
+M	search_autocomplete.install	552a4eda38b4821ba2b21bd89a58aee1
+M	search_autocomplete.module	022ab1bb8f49600662c2cb7bed6f32a9
+M	search_autocomplete.view_autocomplete.inc	5e72978df9be0c1767ee789f462473a1
+A	views/plugins/search_autocomplete.views_plugin_style.inc	e4ac894a75223d6e31af459903d48c0d
+D	views/plugins/views_plugin_style_autocomplete.inc	
+M	views/search_autocomplete.views.inc	2bc82cb93361868f09cb419547f0936d
+M	views/theme/views-search-autocomplete-style.tpl.php	1960629707173881fc231d2cf0f653d3
+M	views/theme/views_search_autocomplete_style.theme.inc	1389cdeff666174c3198315bde1a9caf

@@ -1,0 +1,9 @@
+M	publishcontent.admin.inc	eaac10bb7be0f9dd09ba594cdfb3f0f1
+A	publishcontent.api.php	c47188d4bd2e3093b022a34437d6383d
+M	publishcontent.info	8fae2dded7f3e27eed04eb45f13aa900
+M	publishcontent.install	4d8d07d8db6c4deaddd24f4a04fd8142
+M	publishcontent.module	e1b75232a0877b95b5fe9b1930e6694b
+M	publishcontent_views_handler_field_node_link.inc	d30fc9955b8766ea7f2c9f7b70feb96f
+M	tests/publishcontent.test	1710e86de08b3a671382a6b4d6a85526
+A	tests/publishcontent_test.info	cfcc07adc96d6029965575533f7ecd37
+A	tests/publishcontent_test.module	64b206921fed8361982ec54404ec74ed

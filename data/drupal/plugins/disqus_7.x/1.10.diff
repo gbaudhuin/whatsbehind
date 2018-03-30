@@ -1,0 +1,11 @@
+D	.cvsignore	
+A	CHANGELOG.txt	6dd00f82ed275267c9f5b6dedec97c18
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	9a55636a3ef4420e1b79a46439cdcdd4
+M	disqus.admin.inc	6ab8a5bba07305660c8f06dbffde3d5e
+A	disqus.api.php	ff045217f9a5d03aae8cfbb27a4a02b3
+M	disqus.info	24fadda6a5019a4687b097e9bce60705
+M	disqus.install	7fc213a441983d112cf1edec14910266
+M	disqus.js	118284df0a309822378880b9d35c1769
+M	disqus.module	8072829cc65b258bb8982f6943755529
+M	disqus.views.inc	c73d87db2fb80410d65f9ee49124ccce

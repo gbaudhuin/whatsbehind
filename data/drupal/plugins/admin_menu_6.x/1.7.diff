@@ -1,0 +1,27 @@
+M	CHANGELOG.txt	0ea769664733306e4adfb7425f3ca437
+M	README.txt	7a689ffa7c7f315132fc15ac16bbb49e
+M	admin_menu-rtl.css	024bb4c2e437f6e8c0866956e16afe3e
+M	admin_menu.css	48013f7afe5f67cab01116b0fb91a746
+A	admin_menu.drush.inc	f47470fa8f26036fc04fe68db7e13be2
+M	admin_menu.inc	4d23f4485ac307c156c1dea12e987873
+M	admin_menu.info	c523d42851de3750a2999d98b847284f
+M	admin_menu.install	71b097a641124ea79d8209a5683ece7d
+M	admin_menu.js	b37c6e66b810c81abaeecb06e49a6b49
+M	admin_menu.module	707732727ce1598df1c82a0fc71c83cc
+M	tests/admin_menu.test	2c2787f751381dcfca961b1323f6b2da
+D	translations/admin_menu.pot	
+D	translations/cs.po	
+D	translations/da.po	
+D	translations/de.po	
+D	translations/es.po	
+D	translations/fr.po	
+D	translations/hu.po	
+D	translations/ja.po	
+D	translations/ms.po	
+D	translations/nl.po	
+D	translations/pt-br.po	
+D	translations/ru.po	
+D	translations/sv.po	
+D	translations/uk-ua.po	
+D	translations/uk.po	
+D	translations/zh-hans.po	

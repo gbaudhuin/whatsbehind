@@ -1,0 +1,8 @@
+M	entity_clone.info.yml	3d67b3673adcfdda1fc264db27458676
+M	src/EntityClone/Config/ConfigEntityCloneBase.php	852fc5235b08863a0f29f5244dfd88ba
+M	src/EntityClone/Config/ConfigEntityCloneFormBase.php	41947679f18e3711b6fa2885014e4a5f
+M	src/EntityClone/Content/ContentEntityCloneBase.php	e4225e7943242e225ba65aa4a04f83fc
+A	src/Event/EntityCloneEvent.php	3a6a61d858447454b5791d649fe1ec54
+A	src/Event/EntityCloneEvents.php	598544a2b13c51af8687e1f924f59c06
+M	src/Form/EntityCloneForm.php	4eab49ad3b1452522d6242edfa29560a
+M	src/Plugin/Derivative/DynamicLocalTasks.php	080469a8007fed5b388afb89cb18150f

@@ -1,0 +1,8 @@
+M	CHANGELOG.txt	fe26a6b2e5fed24858eeb34d6fefaf95
+M	panelizer.info	4c7eed62cd145fc3b755de6a8dae83d4
+M	panelizer.install	13b0d2ccf844d47bd479327bf97d365b
+M	panelizer.module	92e5c9456f3985f77c7cbd6b6b0b8293
+M	plugins/entity/PanelizerEntityDefault.class.php	afd468edb5172dafc7c225af11c10a89
+A	plugins/panels_storage/panelizer_default.inc	eea09838d5dd0baaf4e83b1235fec28a
+A	plugins/panels_storage/panelizer_entity.inc	1625b6f85f995a2d574f06532d92735a
+A	tests/panelizer.with_panels_ipe.test	a34a5403eb46c51786e46b85c738c043

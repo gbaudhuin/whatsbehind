@@ -1,0 +1,24 @@
+M	CHANGELOG.txt	0649d7526aa783226d7a1f6b6f4399f3
+M	README.txt	3af30f21a0655633e3284320dd24b323
+M	config/install/slick.optionset.default.yml	51725093d4da93227b43cfaa8af2163e
+M	config/install/slick.settings.yml	4f2e4c90cc91d1e4db30644cfad3a98f
+M	css/theme/slick.theme.css	7325a2899692686a269578872ba44454
+M	js/slick.colorbox.js	3bee5168bbc8d99e0ed40479c1991e89
+M	js/slick.colorbox.min.js	60bfb2b97175cc603e852d56a2f2ed72
+M	js/slick.load.js	d630e21ba8b51a1433ad8605f34b0efd
+M	js/slick.load.min.js	a46acc5d8503479312bacdc9022b4014
+M	slick.api.php	fa5112733c68ce3883fd7b239e89fdd0
+M	slick.info.yml	e0ccb6ca5788e0b09a219f1bd3542356
+M	slick.module	169bfe13d61466361728478f5c1c56a4
+M	slick_ui/slick_ui.info.yml	851a1ccc3f1ec6fd0ccc1c49d8b856b9
+M	slick_ui/src/Form/SlickSettingsForm.php	d4786d57b38e5beb453693b26f14c753
+M	src/Entity/Slick.php	3494478eea433c1d492a654fd151a82b
+M	src/Form/SlickAdmin.php	132d4b7239dcf88267a85831db659e53
+D	src/Plugin/Field/FieldFormatter/SlickConstructorTrait.php	
+M	src/Plugin/Field/FieldFormatter/SlickEntityReferenceFormatterBase.php	9b57eea6f17c5b9293f6a8f16ea2a28b
+M	src/Plugin/Field/FieldFormatter/SlickImageFormatter.php	0956335ce6c759173aed8eeaaeb8dfe6
+M	src/SlickDefault.php	049d4c8057d48dcfa3ffa22f39a49096
+M	src/SlickFormatter.php	e6e3ea83145946e9d0df2ac7ea0e2fbe
+M	src/SlickManager.php	49f6f31a486a78510380436f8dfa92fd
+M	templates/slick-image.html.twig	d3449268fb88ecaccdf07c6e984aedd4
+M	templates/slick.theme.inc	0a0bee3232a87d6614bdcfab4661e2cd

@@ -1,0 +1,11 @@
+M	README.txt	fa868a9709e8ef1cf3cef0a7fff7b391
+M	src/Controller/TaxonomyViewsIntegratorTermPageController.php	38e12362976fe31489c47c3e57c90a91
+M	src/EventSubscriber/RouteSubscriber.php	3b276d450966ac2429eb54b63d690cdb
+M	src/Form/TaxonomyViewsIntegratorSettingsForm.php	fe8f40b3c7c78e4daee22f733b4ec0f3
+M	src/Service/TaxonomyViewsIntegratorManager.php	ea2619a932df65540dc24dbb476cb38d
+M	src/TaxonomyViewsIntegratorPermissions.php	764f955bd983e83f72587b2ea3570f34
+A	tests/modules/tvi_test/config/install/views.view.tvi_page.yml	7e6a4e57153964c3bf4ec4cf01f05003
+A	tests/modules/tvi_test/tvi_test.info.yml	fa13e46b5c2cb565971b9d5a2e1bc291
+A	tests/src/Functional/TaxonomyViewsIntegratorTest.php	7cf46d5d9d83c1854356a46f6c28179c
+A	tests/src/Functional/TaxonomyViewsIntegratorTestBase.php	c7cae543dcf0c49617c35d921c3736a4
+M	tvi.info.yml	26457fcaccbd818b61ac4846a3985c92

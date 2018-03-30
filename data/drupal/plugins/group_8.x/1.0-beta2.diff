@@ -1,0 +1,6 @@
+M	group.info.yml	799c009c6945828f8e50684865cb8029
+M	group.install	672279a589e07cfcfaf190b5f3151fae
+M	group.links.task.yml	841f3bfc0d0c13c8efde94fb0c8f476b
+M	modules/gnode/gnode.info.yml	94868844d89b51380e3524bddce45749
+M	modules/grolesync/grolesync.info.yml	f0a6cf9d872f4a59fb33a7ffb0f835c0
+M	src/Entity/GroupType.php	b334c0abd6dfce340a120ca8bf3ea8d2

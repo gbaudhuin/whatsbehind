@@ -1,0 +1,4 @@
+M	ckwordcount.info.yml	8ea75d706fae7e9126919b90addab461
+A	ckwordcount.install	17fd5415fadc4f0eb7e3d31e7f73f1e1
+M	composer.json	85e165ac5e391e769983f7da2a3b4d28
+M	src/Plugin/CKEditorPlugin/Wordcount.php	76359ba360795f8f4bebbc3d8b5e98fe

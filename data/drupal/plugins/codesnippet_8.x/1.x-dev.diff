@@ -1,0 +1,4 @@
+M	codesnippet.info.yml	49d20d51b7b61518f297f446fdae8e19
+M	codesnippet.module	2d534561182804c23b54fe88c3eea03b
+D	config/install/codesnippet.settings.yml	
+M	src/Plugin/CKEditorPlugin/CodeSnippet.php	8d604bf58db7ba4fd4c3cb6bb516c460

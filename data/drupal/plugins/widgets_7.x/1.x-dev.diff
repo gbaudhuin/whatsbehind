@@ -1,0 +1,11 @@
+M	modules/widgets_service_links/widgets_service_links.info	faa3eb9af6d2d8044729e8ff548428fa
+M	modules/widgets_service_links/widgets_service_links.module	b2932abe154fd7e03eb9dc02b564a363
+A	plugins/export_ui/widgets_ctools_export_ui.inc	51b31df96c8921cdaa300a2a93db6776
+M	widgets.admin.inc	49b756a9332e102ee19d0a36fa92f3af
+M	widgets.api.php	bbffafe6c0ee99c0baf8c89945119f90
+M	widgets.elements.inc	aa00422bd3869ccc4e9512afe3f28129
+A	widgets.features.inc	07b8b5b69b9baaf024437e6d6d7f6222
+M	widgets.info	8c9a475f2a3f578e6b001278f2148c9f
+M	widgets.install	acdf2213d15b85a2665fd84888bb3aad
+M	widgets.module	628d30331853777b182ad327dcf43110
+M	widgets.tokens.inc	368bed85ccc42bd49abc30ed840cc938

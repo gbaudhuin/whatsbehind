@@ -1,0 +1,13 @@
+A	config/schema/views_autocomplete_filters.views.schema.yml	13ba759444599934cf207a97c25f1760
+M	js/views-autocomplete-filters-dependent.js	2c230b45187c695274c4cfd0bc5f6e5e
+A	js/views-autocomplete-filters.js	2a425fb91981b1f16e1871934323452e
+M	src/Controller/ViewsAutocompleteFiltersController.php	465e5c1992083d5ac45ec018f5a9cdba
+M	src/Plugin/views/filter/ViewsAutocompleteFiltersCombine.php	2397276562b8242692365257794012d0
+A	src/Plugin/views/filter/ViewsAutocompleteFiltersInterface.php	20cfc4f1495c7a596dbf03daf8156e7b
+A	src/Plugin/views/filter/ViewsAutocompleteFiltersSearchApiFulltext.php	5437f58ecaf4c598c197d7f15241793d
+A	src/Plugin/views/filter/ViewsAutocompleteFiltersSearchApiText.php	811eb56b108a29bdeb6908e2881ab00c
+M	src/Plugin/views/filter/ViewsAutocompleteFiltersString.php	112d30dc84b756b709c80b8f392d0df4
+A	src/Plugin/views/filter/ViewsAutocompleteFiltersTrait.php	d2bea07314f503ac791976544f81c5c7
+M	views_autocomplete_filters.info.yml	30b6a714a781d319b0c886d5fbd41d0f
+M	views_autocomplete_filters.libraries.yml	521af4ad41352107a34f4a2a0037f1dd
+M	views_autocomplete_filters.views.inc	d3fad3e99403a117f85bd77d6e532d67

@@ -1,0 +1,21 @@
+M	index.php	68caadbeae7036204e4e8b392a710dac
+M	readme.html	c91375254e9f56e45939ffcc28424c72
+D	wp-admin/edit-showposts.php	
+M	wp-admin/import-blogger.php	25850585d98177927910c31a1cc83f7c
+M	wp-admin/import-mt.php	dd7b171b84e97b79555b72698569e99c
+M	wp-admin/install-config.php	4aef5bcae203c75807008c810c65d5ad
+M	wp-admin/install.php	bf28eb07d13669af5860af3ce2f5ab38
+M	wp-admin/options-permalink.php	b9c79a164c73578427ede6b60b7a4488
+M	wp-admin/post.php	60cae354f66d73315a0c0431fc62ad0e
+M	wp-admin/upgrade-functions.php	96bbc140b947cf9dd4216789a93cd342
+M	wp-admin/users.php	8c7644849a1d0677fbf0eea66fa4305d
+M	wp-atom.php	f0c8947b3281e414ace50449994dced3
+M	wp-blog-header.php	c1a384120c48147be415f4a43f656220
+M	wp-comments.php	8fbde33eb9347328bac490201fa5f386
+A	wp-images/links/Thumbs.db	c7aba2c49bbb10b312042ffdf586c765
+M	wp-images/wp-favicon.png	b8e308c594171cb691807867733648a6
+M	wp-includes/functions.php	560020f36ebd6630f88bb35313eda134
+M	wp-includes/links.php	bdb4594ca679e22d0576a89f8af9f941
+M	wp-includes/template-functions.php	569ce7d73bc42ad2004057681eec5cef
+M	wp-includes/vars.php	5df2e935d660fe907533c645b1feedab
+M	xmlrpc.php	37f9c8b20ba006a07b72dd8996cf6246

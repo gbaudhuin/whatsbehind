@@ -1,0 +1,15 @@
+M	includes/js/owlcarousel.settings.js	78e72ede1ca2135812d1d524cf8739ff
+A	modules/colorbox/README.txt	e009bd9544935540e2f74a1862c9e4c9
+A	modules/colorbox/owlcarousel_colorbox.info	1a365689db2d96f2941749b5e7dc24d9
+A	modules/colorbox/owlcarousel_colorbox.module	f335ebd342efb805710e963a512f47ef
+A	modules/colorbox/owlcarousel_colorbox.variable.inc	6f4b95b13221e29d25d1e4e9481c33c1
+M	modules/fields/owlcarousel_fields.info	88e014795ddfbfd7ab0fd8b9e763eed1
+M	modules/fields/owlcarousel_fields.module	5a4d7ee80fb6fca9ab72b7a4b875c50f
+M	modules/ui/owlcarousel_ui.admin.inc	9cb85e3ec6d43311ad890088803a8358
+M	modules/ui/owlcarousel_ui.info	b6660bd3e2784a8c191bb609c15e0ecb
+M	modules/views/owlcarousel_views.info	ffe04c95dd086717f765002b48daed72
+M	modules/views/theme/owlcarousel_views.theme.inc	562c977951f369d049eb26a119c5f9d0
+M	owlcarousel.api.php	d7c807c29c59e8e810e2e0eb95e60c99
+M	owlcarousel.info	a00f005b8d0c9f30d366c98e415cba3c
+M	owlcarousel.module	42bb6218a8e2bbc97d0d04fc8d27466d
+M	theme/owlcarousel.theme.inc	ed381400d0364f515c0e29accefe7392

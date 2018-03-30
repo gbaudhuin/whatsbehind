@@ -1,0 +1,14 @@
+M	CHANGELOG.txt	7c088c8a411a329ea984d4aca9fc690b
+M	README.txt	8899b0be24894498d0d938ae3d00e050
+M	ckeditor.css	da29a09fa96301c79b5fb7b715c397a3
+M	ckeditor.info	61f1580300cd876be61d28ca7565d286
+A	images/delete.png	68461ca5187cd2c6af08786467085f2b
+A	images/tick.png	c9b528b9541e127967eda62f79118ef0
+M	includes/ckeditor.admin.inc	52f5aa999c83aa364c75162fae6b8ddb
+M	includes/ckeditor.admin.js	3013ce7a7485dfd70cc741fdaaec58b7
+M	includes/ckeditor.drush.inc	8567ae61b8f8e3a8351927bfc52dff4c
+M	includes/ckeditor.features.inc	d9b9f9a1a7d3a7b99de3a380ae7c0d11
+M	includes/ckeditor.lib.inc	d543520304196e856b8a8ef2d45ac144
+M	includes/ckeditor.page.inc	a34c491b3b6cee73ee122d984dfd3667
+M	includes/ckeditor.utils.js	cd7c64c91b85e2ec18eee23a8ceaedf2
+M	includes/jqueryUI/sort.js	da732ca6a3fa5417481262f91955cf5b

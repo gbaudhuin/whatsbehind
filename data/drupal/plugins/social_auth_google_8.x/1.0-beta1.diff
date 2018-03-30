@@ -1,0 +1,17 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	e695c65570a23b375577fa1cbf6b7fca
+A	composer.json	b3734510e1fa06737b3a101c660775dc
+A	config/schema/social_auth_google.schema.yml	ab501cf5c08793b447639028fa7e65dc
+A	img/google_logo.svg	5aa09ce52b03f90793c927417e4f57c7
+A	social_auth_google.info.yml	e4e75a674a7f16c13e0db3a1f672f841
+A	social_auth_google.install	bd88061ae5eb2fce4cbb0b6d6fc35b84
+A	social_auth_google.links.task.yml	593d4d911779e8af7a57f04a795bd41d
+A	social_auth_google.routing.yml	ebcd9bae716e2b6137e6b2b922da2ae2
+A	social_auth_google.services.yml	1302b60d283a2a57169865a00f010874
+A	src/Controller/GoogleAuthController.php	3b0232bec78e3fb68fa45c40482f5286
+A	src/Form/GoogleAuthSettingsForm.php	df8812aa67cf4813b08fb7d54369b8f3
+A	src/GoogleAuthManager.php	78eed497bf445546d024872cb6aed667
+A	src/Plugin/Network/GoogleAuth.php	cc13e76a54536d85858dca120c03ec32
+A	src/Settings/GoogleAuthSettings.php	58099e3ed476fdf899f147d4bf0311f5
+A	src/Settings/GoogleAuthSettingsInterface.php	2b5f2afb2640fae02300a211b43766d7
+A	tests/src/Unit/GoogleAuthManagerTest.php	966f8c7738bf1b4f7af86178f9793b46

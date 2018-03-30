@@ -1,0 +1,11 @@
+M	README.txt	d15de7c8d8e5863d907cb0a1411ecae3
+M	sitemap.info.yml	d513aa858f574b54c1f2383b7a6a712d
+M	sitemap.links.menu.yml	9ed239d49e03dfaea9f04c021662259b
+M	sitemap.module	2e9dd0eadfbc5e2ad9f69475f084a515
+M	sitemap.theme.inc	2668074c41bff9b2435d176e88cc18ea
+M	src/SitemapHelper.php	7496ce5d0b2927234a8d07e0debe491f
+M	src/Tests/SitemapBookTest.php	1a4171eaafbc1b7dc942b74b4cf72182
+M	src/Tests/SitemapContentTest.php	1b48efebf67a59417765f09a26d4ea3d
+M	src/Tests/SitemapMenuTest.php	91086201f28489f48a21d4b90dff1a2c
+M	src/Tests/SitemapRssTest.php	494f6c31a88ab6efdcf608c3bd75514d
+M	src/Tests/SitemapTaxonomyTest.php	757876ea6606e47d4d39a6b880de76c3

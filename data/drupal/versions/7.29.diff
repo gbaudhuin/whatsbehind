@@ -1,0 +1,8 @@
+M	CHANGELOG.txt	a73760e71235a045989fce8ed0525b80
+M	includes/bootstrap.inc	f4f53601335d74417084316a96187594
+M	includes/file.inc	1603392837c11e55c869b721c4737449
+M	includes/form.inc	027774d23416f7abcd6ab0e93b8a7658
+M	misc/ajax.js	30d9e08baa11f3836eca00425b550f82
+M	modules/file/file.module	cca00e7ac4ba16f427ead5a921927527
+M	modules/file/tests/file.test	dc181595ecd7622e4f1853da36a6a191
+M	modules/simpletest/tests/bootstrap.test	69ab7343b111323e5aa7d2fef7d3f76d

@@ -1,0 +1,4 @@
+D	CHANGELOG.txt	
+M	contrib/field_group_migrate/field_group_migrate.info.yml	afbf7dd5b3658759c52237c0a8d8f217
+M	field_group.info.yml	60eca6ed620e14e665f91f9416a6bd9f
+M	tests/modules/field_group_test/field_group_test.info.yml	f4ff9477a87b233aa005371f0b86efec

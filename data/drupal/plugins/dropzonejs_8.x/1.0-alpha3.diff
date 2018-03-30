@@ -1,0 +1,15 @@
+A	css/dropzone.widget.css	083a95e777fd5194261c9a1e722a533d
+M	dropzonejs.info.yml	bca482934550190d54de352e35d54bfd
+M	dropzonejs.libraries.yml	cbdca880a16ab92a975d6ed9150deb74
+A	icons/remove-hover.svg	cf39f048c76567244dcb5089a55f398d
+A	icons/remove.svg	92cfaff132e4dd67c47076d1994b89ee
+M	js/dropzone.integration.js	ba5db5e6d05e227217d3cccf7eb6a77d
+A	modules/eb_widget/config/schema/dropzonejs_eb_widget.schema.yml	e4efe3f03384f1f4e68d58cd8afffde9
+M	modules/eb_widget/dropzonejs_eb_widget.info.yml	779c63bd455f17942eccc87bd01587fe
+M	modules/eb_widget/dropzonejs_eb_widget.libraries.yml	4053d023e83c222d5c07b62d43203087
+M	modules/eb_widget/js/dropzonejs_eb_widget.common.js	2954c9f27fd1b113ec1f9ea663c3711b
+A	modules/eb_widget/js/dropzonejs_eb_widget.ief_edit.js	d4af8664de5ba762acb952b547aebcea
+M	modules/eb_widget/src/Plugin/EntityBrowser/Widget/DropzoneJsEbWidget.php	0dc7448de2279bf29a7c6be7db753335
+A	modules/eb_widget/src/Plugin/EntityBrowser/Widget/InlineEntityFormMediaWidget.php	4c9c21b8c2df5546d01a8fec9d0a4cb5
+M	src/Element/DropzoneJs.php	b683710ac3381f84896849267eec37a2
+M	tests/modules/dropzonejs_test/dropzonejs_test.info.yml	d112560da29e6a59cfc0eb04b1554517

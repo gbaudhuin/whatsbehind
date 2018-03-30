@@ -1,0 +1,11 @@
+M	README.md	269755e20065572f0a44a3637eaf20cb
+M	config/schema/media_entity_twitter.schema.yml	9d2887e31e675b0df60eede637c95eca
+M	media_entity_twitter.info.yml	544a9f5b1531fcdb360a27b4b0c26127
+M	media_entity_twitter.module	4d0e33270cb574986f86167b0c7cecc0
+A	media_entity_twitter.services.yml	1fe901de50d7f87def4187d1cb76b016
+A	src/Exception/TwitterApiException.php	0b4514a664148cd15429aa96e221aeb9
+M	src/Plugin/MediaEntity/Type/Twitter.php	7a07cf1c4f6022b5b6259bb9e6ee9a41
+A	src/TweetFetcher.php	7a64829eab904bac67ee639f266b3975
+A	src/TweetFetcherInterface.php	29bf2cbf38afd96778c18f45acc38513
+A	templates/media-entity-twitter-tweet-thumbnail.html.twig	46e81e585cd212617f71f78cacec1450
+A	tests/src/Kernel/ThumbnailTest.php	4bdf99bf0e6d750c92059e1a0fb45839

@@ -1,0 +1,10 @@
+A	config/install/persistent_login.settings.yml	f834b2cf22bfb0172aaff05092b5a72c
+M	persistent_login.info.yml	4ba3a7c1b8601ff270e9cb7001222eb7
+M	persistent_login.install	da6373754282dc11ca2b40bb430ec86f
+A	persistent_login.links.menu.yml	ec857b103a04e42645d7abed2425ee60
+M	persistent_login.module	a376a2ef90309e8c85a5b7b165312281
+A	persistent_login.routing.yml	5a34046de3d0d0bcefcc89378f45cfed
+M	persistent_login.services.yml	9c332e0653b66a28afd882910b87d18b
+M	src/EventSubscriber/TokenManager.php	6c5cdd9c40fe414be636e852b2a0604b
+A	src/Form/PersistentLoginSettingsForm.php	ba1ce71fe93a3d668c27886f6a871e8f
+M	src/PersistentToken.php	da8f189223b26608ea33adfef8b1c89a

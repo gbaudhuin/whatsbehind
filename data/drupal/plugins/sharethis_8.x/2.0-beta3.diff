@@ -1,0 +1,7 @@
+M	js/stlib_picker.js	64ed4363f2a9fb3fbe8288d6cebd0db7
+M	sharethis.info.yml	37ab087197ebb716f1f030e5f62212f3
+M	sharethis.libraries.yml	e29ddb844a6dd3d67569f0d2d93db79d
+M	sharethis.module	ae2976e70b802f00a6b636f7a15c78f5
+M	src/Plugin/Views/field/SharethisNode.php	3465e1e5db1a91f6a67eaadc8d65fb29
+M	src/Tests/SharethisConfigFormTest.php	d0be5c8b3261a3abeeee5744019802b3
+M	tests/modules/sharethis_test_views/sharethis_test_views.info.yml	7fa451e3c29dad4306aa6113725461a0

@@ -1,0 +1,7 @@
+M	admin_toolbar.info.yml	41e5af1af15b9bea655e049f5a9660f3
+M	admin_toolbar.module	a9e49e3768f36b96fbeb425338574523
+M	admin_toolbar_tools/admin_toolbar_tools.info.yml	bae0ffd41155d502700c5debcb6dfadd
+M	admin_toolbar_tools/admin_toolbar_tools.module	7cefdf9b5d2af81328136fc1207aa0a1
+M	admin_toolbar_tools/src/Tests/AdminToolbarToolsAlterTest.php	5d712c91f5f0b3bb8c872b6c4144d65c
+M	css/admin.toolbar.css	b045f7a55c22dd18219bf391ead5e36e
+D	images/chevron-right.svg	

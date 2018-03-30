@@ -1,0 +1,9 @@
+A	composer.json	6f0199f02fd41e9affcc4952229f86bc
+M	modules/views_slideshow_cycle/src/Plugin/ViewsSlideshowType/Cycle.php	2305fc57fba654e950ccf89bfebb106e
+A	modules/views_slideshow_cycle/views_slideshow_cycle.drush.inc	33dc7510962a1541130117e1e0b3f554
+M	modules/views_slideshow_cycle/views_slideshow_cycle.info.yml	04e4d1401e3b6440433152be707bff65
+M	modules/views_slideshow_cycle/views_slideshow_cycle.module	7566b12f867c443ff71a5650917b803c
+M	modules/views_slideshow_cycle/views_slideshow_cycle.theme.inc	81b32fc74092931406f9b571aab0957e
+M	src/Plugin/views/style/Slideshow.php	9efa0a186f93edae47daf612f77b2e55
+M	views_slideshow.info.yml	45ae06824580833648fcec1eef1fb61f
+M	views_slideshow.theme.inc	270fb30a446dcc56dbdbb84a75817548

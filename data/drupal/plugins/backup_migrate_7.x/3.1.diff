@@ -1,0 +1,13 @@
+M	README.txt	93ef39e2c794d9163e8fa41496d92d79
+M	backup_migrate.info	ad32ad74f376d850a587df92e6762ac4
+M	backup_migrate.install	98736dd085971b4a438af4d6db71c675
+M	backup_migrate.js	be29d4cd1b89aabb75e9582b35656c44
+M	backup_migrate.module	9c2887f0945a535a1862792a33162c1f
+M	includes/backup_migrate.drush.inc	31ef623686817d43575fc194bf289573
+M	includes/destinations.file.inc	80004599b37e12c80e3f79819a49497b
+M	includes/destinations.inc	0d8f8b7e23d4d0b00ba6108201810325
+M	includes/destinations.nodesquirrel.inc	2d73e6241efca664a75970ff054a2592
+M	includes/filters.utils.inc	4106607190d8c0f8c127938ca1bc8591
+M	includes/schedules.inc	3a059598f15ebe14b0cf83dd8feaaf26
+M	includes/sources.archivesource.inc	b962dec991a84a6caca0a501c4968b37
+M	includes/sources.filesource.inc	56d6c12b15227b5ec9530cecdb768800

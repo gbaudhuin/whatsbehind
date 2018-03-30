@@ -1,0 +1,13 @@
+D	.cvsignore	
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	WIDGETAPI.txt	83216086751816509b199d6bc0594b78
+M	vud.info	9c2fa11688e10262e3b6cc57f9356871
+M	vud.install	1f342853b07035ae8b6cb46f63511f1d
+M	vud.module	c67dcec22a2c8e276ea8725d5a031510
+M	vud.theme.inc	a02d89afdf4071c6eeeb88684eeaa4a1
+M	vud_comment/views/vud_comment_handler_field_widget.inc	61845b5fe5ec4a7d57a83fa0d91ee85e
+M	vud_comment/vud_comment.info	ef2561affbeb28ceab96bcc54724d479
+M	vud_node/views/vud_node_handler_field_widget.inc	ddbec74c4a93750d9a5734bdf86b85ae
+M	vud_node/vud_node.info	27b1e1c482dbc8bb1aa644d5f723032c
+M	vud_term/views/vud_term_handler_field_widget.inc	7a6520da3ccd52c501190e73d6171aab
+M	vud_term/vud_term.info	a496712df9c411b1a373aad87cc840b3

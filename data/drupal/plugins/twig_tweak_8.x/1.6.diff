@@ -1,0 +1,14 @@
+M	README.txt	37e968bfed40c8f2e6818366df2cc3ed
+A	composer.json	5ce400c1289c6978a40f412dddef9318
+M	src/TwigExtension.php	f7a87b2271c2abdf39eeb31642a679f5
+M	tests/src/Functional/TwigTweakTest.php	a65f5e6a814db6c56d74d070ba2de5fb
+A	tests/twig_tweak_test/config/install/block.block.classy_page_title.yml	2697df0f199768aa9091e1c0f69591a5
+A	tests/twig_tweak_test/config/install/block.block.classy_powered_by_drupal.yml	f6b6b5d8a273523f10cdbe3c1e5955a7
+A	tests/twig_tweak_test/config/install/block.block.classy_status_messages.yml	d3008006cf61466115bc54aa9bf4b6d0
+M	tests/twig_tweak_test/templates/twig-tweak-test.html.twig	c458e16a1ad1e3c2d9d7f7245f9e75d6
+M	tests/twig_tweak_test/twig_tweak_test.info.yml	952209c07bc1b5b882d8e3ecf80c3829
+A	tests/twig_tweak_test/twig_tweak_test.links.menu.yml	6e6be42cb51195db4da9d1c3eab65573
+M	tests/twig_tweak_test/twig_tweak_test.module	7d09b6af00a885cb5fa45e21b9e8bff8
+M	twig_tweak.info.yml	078f472c0993855607b86cd018f1e2c7
+D	twig_tweak.links.menu.yml	
+M	twig_tweak.services.yml	830d5f6f1d6321f5f58abd69e5c9c15c

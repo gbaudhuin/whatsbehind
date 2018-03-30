@@ -1,0 +1,6 @@
+M	modules/permissions_by_entity/permissions_by_entity.info.yml	dbd3c95eb5fbd2255560c95d9845692d
+M	permissions_by_term.info.yml	6e9e66d4f8fdbe2d24e2116c8b783e76
+M	permissions_by_term.module	b5b1f1a5c6b7f30f15ee6f239b89763c
+M	src/Service/AccessStorage.php	0be5aed5bfbcb78f48b2e0164fc32b52
+M	tests/src/Kernel/AccessCheckTest.php	3c02d200969619b9e3335a1bb150a2d6
+M	tests/src/Kernel/PBTKernelTestBase.php	693ad567254c0505abcba6464747ba3c

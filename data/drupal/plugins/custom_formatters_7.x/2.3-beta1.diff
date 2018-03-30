@@ -1,0 +1,35 @@
+M	CHANGELOG.txt	0b5678d9198c91c1def32122a67da592
+A	README.md	61e81ae3f7e40e90deed3723759d049a
+D	README.txt	
+M	custom_formatters.api.php	b15892d74834a062dc84f876f38da205
+M	custom_formatters.info	c8aaf0de74453740c4aa784aa9bb9b49
+M	custom_formatters.install	591073f98404dc106c360876115dae57
+D	custom_formatters.make	
+M	custom_formatters.module	a52c3d87feb23af0fbb97f5e23535304
+A	engines/formatter_preset.export.tpl.php	8c05449a61572bd598a75e910bddf4cf
+A	engines/formatter_preset.inc	8526d79eeb999ce073e67ba07970d1b2
+M	engines/php.inc	700bf7a6327abc47c05431de0f122df1
+M	engines/token.inc	a493516f286d14079bf7ae0f8a540d5b
+M	includes/coder_review.inc	475dd2660aae2051c1b7e7d382e322c4
+M	includes/contextual.inc	a30ddea34c1ea654738118af6c792dc6
+M	includes/ctools.inc	9caacb4f003a765f27520ef418c88875
+M	includes/custom_formatters.admin.inc	9714d9705c1c01861dc4f4a47fa16f02
+M	includes/custom_formatters.inc	36eddd8850f6d9c5519f02e95d6efb9b
+M	includes/devel_generate.inc	97edf56e0798d335090b619ac4d8b0e4
+A	includes/ds.inc	dfdf0d5d4ddfbb9a206a46ee274f0f02
+M	includes/entity_token.inc	f6f44c0ef0b5e18ca830c125f3fb21c4
+M	includes/features.inc	31de4d2f9f80a89767839e45a40c680b
+M	includes/field.inc	41facc00da593f741b250e0ffb22b94f
+M	includes/form_builder.inc	f959326b18a73623a07266ab03b726fd
+M	includes/help.inc	471ef1889747c46e009fbebf23d10403
+M	includes/image.inc	484043e423a58f499ab84a1e2f4637d1
+M	includes/insert.inc	7bfb1fd2f24e746fdb54115d6c97087d
+M	includes/libraries.inc	0c02d22fe09fd816448d1db737cfddfd
+M	includes/node.inc	da02dd4740c59e07f3014cb0ddec19c0
+M	includes/system.inc	92f78cd64fb2d397350143fe6cf75ed7
+M	includes/taxonomy.inc	9fc59f9140fc063a69a824cd9099145b
+M	includes/token.inc	1a68ae04b1f7ade1420660f897aa6f94
+M	includes/user.inc	e35278993f6282260b6fc2ac79d9ce66
+M	plugins/export_ui/custom_formatters.inc	9901c05a14e82c6d9e8a2807d84a9a39
+M	plugins/export_ui/custom_formatters_ui.class.php	8f6253844b28a4312ae1ff09e05087c2
+M	scripts/custom_formatters.admin.js	4a36a3f82f104b76f2333eae0192dc4e

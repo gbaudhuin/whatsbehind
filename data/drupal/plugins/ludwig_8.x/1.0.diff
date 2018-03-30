@@ -1,0 +1,6 @@
+M	README.md	975bd559e82cc5b66633f00019e224ad
+M	ludwig.info.yml	b7918f649a114cee7aafc0ef1d466a28
+A	ludwig.module	15b7f37870572115ec012180fd563b10
+M	ludwig.services.yml	68498e68e3615e45d1e8cd8089a205cd
+M	src/PackageDownloader.php	7a8a195b4c4cc549e08eff6343e8839d
+M	src/PackageManager.php	30d277f684ebdb14a0b6dd3a42d09629

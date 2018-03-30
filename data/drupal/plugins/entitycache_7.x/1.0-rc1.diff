@@ -1,0 +1,8 @@
+M	entitycache.api.php	842b258b9bcc6a5ff59dd33f1d41f912
+A	entitycache.comment.inc	2394b6b7227d9b90f0fa6941689f60b3
+M	entitycache.info	35e853e843b8f4947712a3717b0b3d21
+M	entitycache.install	a209f764f5e9961d0f066d81302b0bc2
+M	entitycache.module	bc4ba3fa8e322817a9fccd397d6a510c
+A	entitycache.taxonomy.inc	167ef39ba16e10435aaaf7e9e8e171a2
+M	entitycache.test	5bc13cd7b4f9fc250e8349b1fc4c18bf
+M	entitytests.php	3f1ac82cf6c5a7103a9b25316f6c8e6c

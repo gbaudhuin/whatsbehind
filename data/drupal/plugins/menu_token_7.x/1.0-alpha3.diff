@@ -1,0 +1,19 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	includes/menu_token.admin.inc	bae45168a4fb88ac75c76bc8c07eb93f
+A	includes/menu_token.inc	62f78244344975b54f9bfb7fccc020fb
+D	menu_token.admin.inc	
+M	menu_token.css	457477582788a48376bde63d575036fe
+D	menu_token.inc	
+M	menu_token.info	28ea37a4155d75499b8d14f31d53b81b
+M	menu_token.install	35d0e07a209b00997276e3044a482399
+M	menu_token.module	1d4436fd14dccfe16a08b87ded805c4d
+M	menu_token.test	db243993f87285a907e86973d1b5c8be
+A	plugins/menu_token_node_context.inc	94f199ef0e84f5e031bc5ada5b3168df
+A	plugins/menu_token_node_random.inc	6f7d8082832a4d183ce045f115b88433
+A	plugins/menu_token_node_user_defined.inc	a3217ccb441cc7e094d1933c258d0f24
+A	plugins/menu_token_term_context.inc	2b836beccbfd3a4cb6f210ae2851447d
+A	plugins/menu_token_term_random.inc	16b9138be56a6217a945820fe689993a
+A	plugins/menu_token_term_user_defined.inc	9866e630647f612cf6f66fa067298b42
+A	plugins/menu_token_user_context.inc	c32b6ff6795802ecca40589d6489f2fe
+A	plugins/menu_token_user_random.inc	eaa20d42c85f300ef50ad61e70536214
+A	plugins/menu_token_user_user_defined.inc	b139d504405500d50861c5e17c9beabf

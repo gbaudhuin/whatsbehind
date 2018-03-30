@@ -1,0 +1,7 @@
+M	admin_toolbar.info.yml	c0558faf797b7bcd89a66cd72ac4e378
+M	admin_toolbar_tools/admin_toolbar_tools.info.yml	6f6d5ec130c19568c995d5d152002fed
+M	admin_toolbar_tools/admin_toolbar_tools.module	6da546ec2e5272c574d8822bd12a0726
+A	admin_toolbar_tools/src/Tests/AdminToolbarToolsAlterTest.php	2ed1abfc22ab8325fb554768d4865424
+A	composer.json	bbfe47cbb5d4fcffbe1e491c7d2388b5
+M	css/admin.toolbar.css	b045f7a55c22dd18219bf391ead5e36e
+A	src/Tests/AdminToolbarAlterTest.php	922cc7a0f8ef3d868a1b015230b74c69

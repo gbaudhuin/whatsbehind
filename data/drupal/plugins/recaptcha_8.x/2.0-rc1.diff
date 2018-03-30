@@ -1,0 +1,50 @@
+M	README.txt	c47bd085e5600c0fdca82ea8bb629483
+A	config/install/recaptcha.settings.yml	0c22a2566aa022a7391fd55149122f3f
+D	config/recaptcha.settings.yml	
+A	config/schema/recaptcha.schema.yml	96a5b8bacebf374e69e44fe0591040eb
+D	lib/Drupal/recaptcha/Form/RecaptchaSettingsForm.php	
+A	migration_templates/d6_recaptcha_settings.yml	d884c509d33b72872dd181f95806e115
+A	migration_templates/d7_recaptcha_settings.yml	0362df0c1093aeebaad9ff6ceb16326c
+D	recaptcha-php-1.11/LICENSE	
+D	recaptcha-php-1.11/README	
+D	recaptcha-php-1.11/example-captcha.php	
+D	recaptcha-php-1.11/example-mailhide.php	
+D	recaptcha-php-1.11/recaptchalib.php	
+A	recaptcha-php/.gitignore	91b6277aab98e9bcb4e43edd10c51e1e
+A	recaptcha-php/.travis.yml	d2b25f11db6c20508b646d017d664db5
+A	recaptcha-php/CONTRIBUTING.md	6ee06583bc4f746254d12241ca16e720
+A	recaptcha-php/LICENSE	85d051225ef63cb5e5bba300961adf8e
+A	recaptcha-php/README.md	f70c12631756ca3092f9199063a73648
+A	recaptcha-php/composer.json	f111ddbc39e150afe03e9ac32667c4b0
+A	recaptcha-php/examples/example-captcha.php	8215ed00f955fb4df289f2e7a309a3f8
+A	recaptcha-php/phpunit.xml.dist	8ff610d38686d3ef90db498c59d5e569
+A	recaptcha-php/src/ReCaptcha/ReCaptcha.php	812c523a80378bf288ea80267e15ec8d
+A	recaptcha-php/src/ReCaptcha/RequestMethod.php	c54c9a8feba7dda1c84059a1b8bbc4b1
+A	recaptcha-php/src/ReCaptcha/RequestMethod/Curl.php	9c2d4dcccd856cf78728eff4c726f1b8
+A	recaptcha-php/src/ReCaptcha/RequestMethod/CurlPost.php	8733caf76b9179eccbeb744a109c7e8f
+A	recaptcha-php/src/ReCaptcha/RequestMethod/Post.php	6823914c4f0dd64b48441c578c78a022
+A	recaptcha-php/src/ReCaptcha/RequestMethod/Socket.php	59bea501575eddcab64f2c02c73f28e3
+A	recaptcha-php/src/ReCaptcha/RequestMethod/SocketPost.php	cd004eac22810c16a508eeec7aa4427c
+A	recaptcha-php/src/ReCaptcha/RequestParameters.php	60f8dd8323eb5a2e877747a070f2d2b2
+A	recaptcha-php/src/ReCaptcha/Response.php	a79b779bce211a6b270c6137148de195
+A	recaptcha-php/src/autoload.php	9a9e161b0deb63815ec1967fee8ae041
+A	recaptcha-php/tests/ReCaptcha/ReCaptchaTest.php	a6f6376481cd5a8ea8107bd8a1ef054a
+A	recaptcha-php/tests/ReCaptcha/RequestMethod/CurlPostTest.php	ce234e41d8075e76506cf9c6ec4056c4
+A	recaptcha-php/tests/ReCaptcha/RequestMethod/PostTest.php	833ea740eb86a6a3c9b82165cc06c657
+A	recaptcha-php/tests/ReCaptcha/RequestMethod/SocketPostTest.php	2a7d6ea30cb892ef8b3a5346ede96816
+A	recaptcha-php/tests/ReCaptcha/RequestParametersTest.php	45a7a0fc2f0396eec6921fc34f896127
+A	recaptcha-php/tests/ReCaptcha/ResponseTest.php	d7fc70a69c8b58fdd06eb9d3e7995441
+M	recaptcha.info.yml	4261971cd60336ca91225d9691c7533f
+D	recaptcha.js	
+A	recaptcha.links.menu.yml	e3323316ddcc74b9863f3bc568c0b8b6
+A	recaptcha.links.task.yml	07f9c7bf87a0563b15dbebd3c843148a
+M	recaptcha.module	5105bd2701159b29f3f6b1738ad0028a
+A	recaptcha.permissions.yml	2e38cff97435e9be59c2adf96cf2d18b
+M	recaptcha.routing.yml	dee745ece75396ab14437b228bd6144d
+D	recaptcha_mailhide/recaptcha_mailhide.info.yml	
+D	recaptcha_mailhide/recaptcha_mailhide.module	
+A	src/Form/ReCaptchaAdminSettingsForm.php	75c10216f279f4aca0a64cd4a51db570
+A	src/ReCaptcha/RequestMethod/Drupal8Post.php	7501672c0d4a616471d7913afa4f3ac3
+A	src/Tests/ReCaptchaBasicTest.php	5da15307616c49b75c24a4bd3e465ddb
+D	templates/recaptcha-custom-widget.html.twig	
+A	templates/recaptcha-widget-noscript.html.twig	90fe3148cab2120cfe24406b4340b6f6

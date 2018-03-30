@@ -1,0 +1,3 @@
+M	config/schema/media_entity_image.schema.yml	3af1b9ea41f6d425e4609fe38d6f4507
+M	media_entity_image.info.yml	c5beb1cb0e9a462fd9c6fcd7b9642bc8
+M	src/Plugin/MediaEntity/Type/Image.php	27329985625575e166ab8afe838d6d7f

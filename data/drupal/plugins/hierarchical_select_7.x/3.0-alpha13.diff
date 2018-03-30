@@ -1,0 +1,14 @@
+M	API.txt	9cd49406913c681a803daa4fdc7db697
+M	hierarchical_select.info	bfddca156ea0620d2db62db5f562e8ce
+M	hierarchical_select.module	7240ae3fc070dc0ab9c62e826ddba4e8
+M	includes/common.inc	71f5cf2afd5000921fda4bd4e907b1f1
+M	modules/hs_flatlist.info	9d3d2f6b3a76ad3410a6927c011a21d1
+M	modules/hs_menu.info	993cee59ed60894153b29b11ba62874b
+M	modules/hs_smallhierarchy.info	0322d78ec1cd5e69f32fb4a4116353d5
+M	modules/hs_taxonomy.info	1a300cc35e8e2687a27bf615565c14a0
+M	modules/hs_taxonomy.install	f6a5f05f6198f775023031b6c2a53aee
+M	modules/hs_taxonomy.module	7957c322b356155ae65cda06752b5a91
+M	modules/hs_taxonomy_views.info	0e7d1948e5f89fb6f0104f692f7b01ce
+A	modules/hser/README.txt	b994171aac20c157407d2b08854c8b88
+A	modules/hser/hser.info	e984ea2b47e16b91f2e45593a8d9ab4b
+A	modules/hser/hser.module	9f9af83894be6f9cea3c333cfe9d9038

@@ -1,0 +1,3 @@
+A	src/Plugin/search_api/display/ViewsDataDisplay.php	5352d2ca80b56bebb6d4607c5baf9c7c
+M	tests/modules/views_data_export_test/views_data_export_test.info.yml	9c77b5ff126c497d3e9b7dfa4d65c954
+M	views_data_export.info.yml	b40479b95a828755d311c07aab533aad

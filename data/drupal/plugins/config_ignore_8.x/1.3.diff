@@ -1,0 +1,10 @@
+A	config_ignore.api.php	81e96f38accaf5927dea376f1b2a9cfd
+A	config_ignore.drush.inc	54794052d6a6b607656cb1db93a49e9b
+M	config_ignore.info.yml	60b619ed51def96b9258855df8b4e613
+M	config_ignore.module	4333f1c154286d43844e822ec0f9f194
+M	src/ConfigImporterIgnore.php	82c2b725d2c0b259f069f8aaa9be0c11
+A	src/Tests/ConfigIgnoreHookTest.php	3b761ecc37897b57fd70270289e61d48
+M	src/Tests/ConfigIgnoreTest.php	03730d1a7271e562ddbf2d926c069107
+A	tests/config_ignore_hook_test/config_ignore_hook_test.info.yml	15d91e56df8c3cb527660c2d9f2a0208
+A	tests/config_ignore_hook_test/config_ignore_hook_test.module	2b349a50e57ad67e4384ea850dafeed9
+A	tests/src/Functional/ConfigIgnoreTest.php	96f6be1da3b8e5ce0b908153c77a4a10

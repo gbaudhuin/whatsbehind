@@ -1,0 +1,4 @@
+M	migration_templates/d6_robotstxt_settings.yml	85f2dc541f89a57dd4b95f40f20e3b14
+M	migration_templates/d7_robotstxt_settings.yml	1c37c8a2aaa2d14ee7e6339b4dd71af9
+M	robotstxt.info.yml	037c3fa7f62919a66204dd7452539ccd
+M	tests/modules/robotstxt_test/robotstxt_test.info.yml	a70a085410bad68d45a3b3415a18d9f6

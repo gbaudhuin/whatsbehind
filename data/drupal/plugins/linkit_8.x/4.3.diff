@@ -1,0 +1,5 @@
+M	linkit.info.yml	320cce1785bb1bd50759049eca6aed56
+M	src/Plugin/Linkit/Matcher/EntityMatcher.php	7fa39587faf1fefe72bbd4fe517c141c
+M	src/Plugin/Linkit/Matcher/FileMatcher.php	b5c69f866f738d225701fa874a6e22fb
+M	src/Tests/Matchers/UserMatcherTest.php	329e3790765703a785b58d55b652779e
+M	tests/linkit_test/linkit_test.info.yml	dbdaaa155ba3da50893bb9cd33ae1246

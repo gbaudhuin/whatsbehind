@@ -1,0 +1,12 @@
+M	group.info.yml	ca7282dfdd11e098a7ea321efa2ac886
+M	modules/gnode/gnode.info.yml	2c97672327f7204e715b9ed4955bb096
+A	modules/gnode/gnode.links.task.yml	6249c5425acc195e8220a33f98596b71
+M	modules/gnode/gnode.module	00a7496be42975fdc52e4c1cfc582b84
+M	modules/gnode/src/Controller/GroupNodeController.php	c605e782dde7065694073b104926c4e1
+M	modules/gnode/src/Plugin/GroupContentEnabler/GroupNode.php	303f3f5d77cdf0019e773240b80e9b47
+M	src/Entity/Form/GroupTypeForm.php	30e125bea512bbc49a087818074f2ea2
+M	src/Entity/GroupType.php	95a677a9090c9916b4931dc8ce2d7dca
+M	src/Entity/GroupTypeInterface.php	88eba0f57a7b54462305173064df3c46
+M	src/Plugin/Block/GroupOperationsBlock.php	6e96f00427b74de4a70d8f0e74475051
+M	src/Plugin/GroupContentEnablerBase.php	1b76eb48e3853dda76f9596efaf6c5d5
+M	templates/group-add-list.html.twig	e1aacf1ca8f68bd354f73009379aa180

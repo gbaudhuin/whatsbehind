@@ -1,0 +1,5 @@
+A	config/install/block.block.views_block__media_hero_slider_block.yml	24bca58dd8ab021a9dcc798e74a6cb8a
+A	config/install/views.view.media_hero_slider.yml	14dbff2e7d3197be4b7e96f510af07df
+M	css/varbase_hero_slider_media.style.css	6c0060ecb5e5edc5af292c6716297bff
+M	less/varbase_hero_slider_media.style.less	1d439fbb4adcbd61a881d29726d883fb
+M	varbase_heroslider_media.info.yml	05d1076f46067fc7c933c9848aa3cf19

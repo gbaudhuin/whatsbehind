@@ -1,0 +1,4 @@
+A	composer.json	6cff3a782c1f734879b412c8e5e4130f
+M	smtp.info.yml	f820282bfd3e5b9f0ac574f2ecc84b3f
+M	src/Form/SMTPConfigForm.php	365bde40c6cd622fa216af0b33644627
+M	src/Plugin/Mail/SMTPMailSystem.php	20db3658b10e3d20deff58ab7401e062

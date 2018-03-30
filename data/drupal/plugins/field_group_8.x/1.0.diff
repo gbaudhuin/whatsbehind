@@ -1,0 +1,20 @@
+M	contrib/field_group_migrate/field_group_migrate.info.yml	afb3b594242c87307bf0cc991ded4eb5
+M	contrib/field_group_migrate/tests/src/Kernel/Migrate/d7/MigrateFieldGroupTest.php	b583478643bbb6a39bd59ad3762d05c1
+M	contrib/field_group_migrate/tests/src/Unit/Migrate/d7/FieldGroupTest.php	e105096ca1e95512f2179d6e82500cb6
+M	field_group.info.yml	bc3789e4595eae0b3d25b8f44f75d1e1
+M	field_group.module	510895645087ca51b3bdd7fd8d2f55e3
+M	formatters/html_element/html-element.js	cec4bf6669a86cea3fc9c594ef769d6c
+M	includes/helpers.inc	1e5fa1ad6951fa16f5cbc21b9a93760b
+M	src/Element/HtmlElement.php	e5bb25e2981fe54c003adb7c05fc5fce
+M	src/Plugin/field_group/FieldGroupFormatter/Fieldset.php	ec3290894d0622f93b818f998d75a6e5
+M	src/Plugin/field_group/FieldGroupFormatter/HtmlElement.php	ca66e9452540591992c881dbfb817956
+D	src/Tests/EntityDisplayTest.php	
+D	src/Tests/FieldGroupTestTrait.php	
+D	src/Tests/FieldGroupWithoutFieldUiTest.php	
+D	src/Tests/ManageDisplayTest.php	
+M	tests/modules/field_group_test/field_group_test.info.yml	fcd2d86c00cfdef8f5e12c4f69e2595e
+A	tests/src/Functional/EntityDisplayTest.php	5e6fb6fc399fe487690b0fcdf595f5eb
+A	tests/src/Functional/FieldGroupTestTrait.php	fc4aa9f025b6e50aa35a7483f43ff781
+A	tests/src/Functional/FieldGroupWithoutFieldUiTest.php	3884492f0769990669fdad37e521eea9
+A	tests/src/Functional/ManageDisplayTest.php	8fedace1a25f6fba336961360ec81400
+M	tests/src/FunctionalJavascript/FieldGroupUiTest.php	ee4663e03a8c505f5ad23e1869118663

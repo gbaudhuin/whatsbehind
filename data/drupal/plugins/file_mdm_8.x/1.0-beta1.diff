@@ -1,0 +1,10 @@
+M	file_mdm.info.yml	1021951f33bdcdf387b54d287b797332
+M	file_mdm.module	12b82664dc4fabb7dfd2f53db1f31a23
+M	file_mdm.services.yml	416e85c0b6d17967f95a9e3b6ac443cd
+M	src/FileMetadata.php	93081b03b7b67cda26cb4be75aea3244
+M	src/FileMetadataInterface.php	53e33fc656eec297905b6d70e2bee1f3
+M	src/FileMetadataManager.php	6de29313a1d857e14e111f8b99a64a77
+M	src/FileMetadataManagerInterface.php	1cd0a82e250385d95c63f7d49691da4d
+M	src/Form/SettingsForm.php	9d0236ee99bdb9d9b5c666b23e536e05
+M	src/Plugin/FileMetadata/FileMetadataPluginBase.php	2134338c38e5009969f20d114821970e
+M	src/Plugin/FileMetadataPluginInterface.php	faf62b069b602381d96446c5732b9cb0

@@ -1,0 +1,28 @@
+M	inline_entity_form.info.yml	3271ee23a3b8246227da55f8c531dd1e
+M	inline_entity_form.module	bdbe43170a5aab1a319761f4c4d6d465
+M	src/Element/InlineEntityForm.php	d3aa7b1cf4599b98fd115911b39cc7d8
+M	src/ElementSubmit.php	94c7e3c4dbd46b85645c08bf6eec1364
+M	src/Form/EntityInlineForm.php	8a9850420f85e95bf5b56137d0bd46f6
+M	src/Form/NodeInlineForm.php	710cebbbedfa31bfe24b1d39de58c461
+M	src/InlineFormInterface.php	6102562e76d307f30e917ad87be095d5
+M	src/Plugin/Field/FieldWidget/InlineEntityFormBase.php	651e3f0886a063e9f96b9b179b7c3617
+M	src/Plugin/Field/FieldWidget/InlineEntityFormComplex.php	7482a9d943fc716c59010739afb81aa7
+M	src/Plugin/Field/FieldWidget/InlineEntityFormSimple.php	fe87e376ddc9951e6485b54a71612990
+A	src/Tests/ComplexSimpleWidgetTest.php	52c0174d02ef0cc86b072ec1a93233e1
+A	src/Tests/ComplexWidgetWebTest.php	8d49875623b40490c874f3445f2b29e2
+A	src/Tests/ElementWebTest.php	3ebd928e60193957f800623556663f1d
+D	src/Tests/InlineEntityFormComplexWebTest.php	
+D	src/Tests/InlineEntityFormElementWebTest.php	
+D	src/Tests/InlineEntityFormSimpleWebTest.php	
+M	src/Tests/InlineEntityFormTestBase.php	01a4b74a844e1e61dc4dc58def62773b
+A	src/Tests/SimpleWidgetWebTest.php	03e0bcc5086c4e908f18d8dfae0c9fbf
+M	src/WidgetSubmit.php	6682de5e4636004b7e2eec8af0ee40eb
+A	tests/modules/inline_entity_form_test/config/install/core.entity_form_display.node.ief_complex_simple.default.yml	0533ebe6fa5ea92896f919a510beada3
+A	tests/modules/inline_entity_form_test/config/install/core.entity_view_display.node.ief_complex_simple.default.yml	184b54cfc678413e0dd6799b6e273435
+A	tests/modules/inline_entity_form_test/config/install/core.entity_view_display.node.ief_complex_simple.teaser.yml	a18c690e37e2f154d0f9c275436c1cab
+A	tests/modules/inline_entity_form_test/config/install/field.field.node.ief_complex_simple.ief_complex_outer.yml	6a47721cfceca3a6fbf442a731ce88c9
+A	tests/modules/inline_entity_form_test/config/install/field.storage.node.ief_complex_outer.yml	97915dc3da6199e54747f528155cd892
+A	tests/modules/inline_entity_form_test/config/install/node.type.ief_complex_simple.yml	696413639813c963299a853f6c5cbc69
+M	tests/modules/inline_entity_form_test/inline_entity_form_test.info.yml	199048d6dfe243f6cbf0c175fd70f38b
+M	tests/modules/inline_entity_form_test/src/IefEditTest.php	9c8a23e8bef4eef1dd33597c9e34dc86
+M	tests/modules/inline_entity_form_test/src/IefTest.php	c986306cdc1530fd121a84d52d95173b

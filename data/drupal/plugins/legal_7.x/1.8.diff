@@ -1,0 +1,12 @@
+D	.DS_Store	
+M	README.txt	288d8d9dae79f6a2728d4edfb720e7d0
+M	legal.admin.inc	3a2196e0abb1be95766bc49918ce512d
+A	legal.api.php	a9b0b57c57aec740d4510ac54a7749bb
+M	legal.info	e4cc645e524f10a630074239fc1699f2
+M	legal.install	fefde0c14b0c7b8725c048e01e93bb8c
+M	legal.module	55c0d9b57950d1b28eef9a98cc11808a
+M	legal.pages.inc	3cc82bdc26b298260bd25934ecf89396
+A	legal.rules.inc	f22967c77303948eafef0e33141c1bdd
+M	legal.test	b311ae0f6128c98bfcef1a0fc28387aa
+D	views/.DS_Store	
+M	views/legal.views.inc	b2d16b9121b2347debfba68b12088eda

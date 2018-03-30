@@ -1,0 +1,4 @@
+M	menu_block.info.yml	84688c9a84039ee478c77a1c5e4f5334
+A	menu_block.services.yml	42db9769b59e1cda23f0bacad60e57ed
+A	src/EventSubscriber/MenuBlockKernelViewSubscriber.php	aa522adeda01d8e444518ade15f3cae9
+M	src/Plugin/Derivative/MenuBlock.php	9153081ba27a8fdf6763e6f0189357b9

@@ -1,0 +1,105 @@
+M	.travis.yml	efb8e800819da2f92f22562616bd046b
+D	.travis/drupal-8.3.x.make.yml	
+M	.travis/drupal-8.4.x.make.yml	82de1742c3b8b7ebdfbce02408bc4e26
+M	README.md	371939f5df96b362c986b38bf89d033c
+M	config/install/relaxed.settings.yml	d70b220973cc10d428d0b02e47b1944e
+D	config/optional/rest.resource.relaxed.all_dbs.yml	
+D	config/optional/rest.resource.relaxed.all_docs.yml	
+D	config/optional/rest.resource.relaxed.attachment.yml	
+D	config/optional/rest.resource.relaxed.bulk_docs.yml	
+D	config/optional/rest.resource.relaxed.changes.yml	
+D	config/optional/rest.resource.relaxed.db.yml	
+D	config/optional/rest.resource.relaxed.doc.yml	
+D	config/optional/rest.resource.relaxed.ensure_full_commit.yml	
+D	config/optional/rest.resource.relaxed.local.doc.yml	
+D	config/optional/rest.resource.relaxed.replicate.yml	
+D	config/optional/rest.resource.relaxed.revs_diff.yml	
+D	config/optional/rest.resource.relaxed.root.yml	
+D	config/optional/rest.resource.relaxed.session.yml	
+M	config/schema/relaxed.schema.yml	78bf0a3d3581b3b65fda2ec848601a6a
+M	relaxed.info.yml	b2c239a45873161fe2c45c424566b8f7
+M	relaxed.install	042bd35a64584901e0485bd7e6564776
+M	relaxed.module	618d5d5e84704e16aa71c56b659a3611
+M	relaxed.services.yml	f2ae76a13629bb24cbfd8224cf3a4a0b
+A	src/Annotation/ApiResource.php	6587da5b063556720b9ca256c341c5e1
+A	src/Annotation/FormatNegotiator.php	ace5830747f704a0fea3d7d6e60c5ca3
+M	src/Controller/ResourceController.php	22334457c8b6eaef5662688aae563b28
+M	src/CouchdbReplicator.php	61cf9961fd328991c27d8e151409ff56
+M	src/Entity/Remote.php	578f7c4384b898ef7ca6d0f703358a74
+D	src/Entity/RestResourceConfig.php	
+D	src/Event/RelaxedEvents.php	
+D	src/Event/RelaxedReplicationFinishedEvent.php	
+D	src/EventSubscriber/ResourceResponseSubscriber.php	
+M	src/Form/RemoteForm.php	95f46377c3991f452b053c452ca205f8
+M	src/Form/SettingsForm.php	210ef5bf459672e64d0b4e316fa2a3eb
+A	src/Http/ApiResourceResponse.php	dbfc50e7f63b66b94e299f060c433383
+M	src/HttpMultipart/HttpFoundation/MultipartResponse.php	23c0381a3fff74ea0fc9add2385c3921
+M	src/ParamConverter/DbConverter.php	e9ac5508b25619c1a7010fc981573ecf
+M	src/ParamConverter/DocIdConverter.php	71b33458bf9e808b7f6d8e701f06b8fb
+A	src/Plugin/ApiResource/AllDbsApiResource.php	8d9fa5758d8f08804fc6b0870e3bdb7b
+A	src/Plugin/ApiResource/AllDocsApiResource.php	c5215af90d84fe5837b4952252cf1043
+A	src/Plugin/ApiResource/ApiResourceBase.php	1bd600e70a0ef70d155a096b89a73d0a
+A	src/Plugin/ApiResource/AttachmentApiResource.php	fc4375307b2cd208f69b474ef5fa4817
+A	src/Plugin/ApiResource/BulkDocsApiResource.php	aa55551760ee2b667acb6d0fe61ea2d9
+A	src/Plugin/ApiResource/ChangesApiResource.php	43dd6eea8b45a409e1f0391a31370b62
+A	src/Plugin/ApiResource/DbApiResource.php	0e2d2730cba9e9e265c1ac702e9e6ea4
+A	src/Plugin/ApiResource/DocApiResource.php	82a1c9962e21a0f27e909e6bdc8d3e12
+A	src/Plugin/ApiResource/EnsureFullCommitApiResource.php	b7d4410ebf05b4130558a92de84540df
+A	src/Plugin/ApiResource/LocalDocResource.php	b4b75177516597ae913f8efec367e501
+A	src/Plugin/ApiResource/ReplicateApiResource.php	8fd4d052572ccb50140cbd868e764633
+A	src/Plugin/ApiResource/RevsDiffApiResource.php	b99a077ae97cde8621da89eae42787d0
+A	src/Plugin/ApiResource/RootApiResource.php	0e420e94089732e82200a229baa570fd
+A	src/Plugin/ApiResource/SessionApiResource.php	77d4de938b7b593fb8db0b17801765e9
+A	src/Plugin/ApiResourceInterface.php	2d15915b7f1227604ab182ef231cf248
+A	src/Plugin/ApiResourceManager.php	64d34e65ae636c27ac3e949924835251
+A	src/Plugin/ApiResourceManagerInterface.php	d685cf9cb3fa7a94d60edbd2ffaf784f
+A	src/Plugin/ApiResourceRouteGenerator.php	f8bc4a28db221ab1e94cc8414a6fbf79
+A	src/Plugin/ApiResourceRouteGeneratorInterface.php	69fd2402f4c5392e1390dac4e46e8893
+A	src/Plugin/FormatNegotiator/JsonNegotiator.php	5e000058a99fde15aaed6eefe5fe652a
+A	src/Plugin/FormatNegotiator/NegotiatorBase.php	353a53e1d9b6c73ad91150b34c3dfbf2
+A	src/Plugin/FormatNegotiator/StreamNegotiator.php	4fe8ba969a4987ddc79f6b61c2176fef
+A	src/Plugin/FormatNegotiatorInterface.php	879586fecf69efc98b8045a936fddb05
+A	src/Plugin/FormatNegotiatorManager.php	5782b1a8efd0b6931060ec4e5f772e33
+A	src/Plugin/FormatNegotiatorManagerInterface.php	a7dbcc804bb253f6aafc1b0b923d95a5
+D	src/Plugin/rest/resource/AllDbsResource.php	
+D	src/Plugin/rest/resource/AllDocsResource.php	
+D	src/Plugin/rest/resource/AttachmentResource.php	
+D	src/Plugin/rest/resource/BulkDocsResource.php	
+D	src/Plugin/rest/resource/ChangesResource.php	
+D	src/Plugin/rest/resource/DbResource.php	
+D	src/Plugin/rest/resource/DocResource.php	
+D	src/Plugin/rest/resource/EnsureFullCommitResource.php	
+D	src/Plugin/rest/resource/LocalDocResource.php	
+D	src/Plugin/rest/resource/RelaxedResourceInterface.php	
+D	src/Plugin/rest/resource/ReplicateResource.php	
+D	src/Plugin/rest/resource/ResourceBase.php	
+D	src/Plugin/rest/resource/RevsDiffResource.php	
+D	src/Plugin/rest/resource/RootResource.php	
+D	src/Plugin/rest/resource/SessionResource.php	
+A	src/Routing/ApiResourceRoutes.php	b656352b644d5c0a849ed04fae23fc93
+D	src/SensitiveDataTransformer.php	
+M	src/Tests/AllDbsResourceTest.php	28465f60a7b4f03bb088fcee066e738b
+M	src/Tests/AllDocsResourceTest.php	c16cf055d1ae32cd89ea085eaf9e5e4f
+M	src/Tests/AttachmentResourceTest.php	bc5b22af9ffc6737691260566b9c0bec
+M	src/Tests/BulkDocsResourceTest.php	662344b79a3a5f665f203212675d10c9
+M	src/Tests/ChangesResourceTest.php	0c09415a044b04d7f08a14e7abd9ef8c
+M	src/Tests/DbResourceTest.php	b15ff2a5df63e15505b194e6a880b72e
+M	src/Tests/DocResourceTest.php	6240f5d4062c6150e304924a705a1624
+M	src/Tests/EnsureFullCommitResourceTest.php	31a2252275532e559f69f2744e47ef12
+M	src/Tests/Entity/EntityAccessTest.php	ccb0c81ab23eb02be82465eac541619a
+M	src/Tests/LocalDocResourceTest.php	9436da59a213af7842c8472e0e647451
+M	src/Tests/RemoteConfigurationTest.php	82f723b292b9cf6c1a1fa6d5479c2ab6
+M	src/Tests/ResourceTestBase.php	7f680db1848c5e8341a32dbbd63a7748
+M	src/Tests/RevsDiffResourceTest.php	969f3c7b25ad1cbaaff8c90ad10c696f
+M	src/Tests/RootResourceTest.php	dc3a00f92415699894c30a81d75e9c63
+M	src/Tests/SessionResourceTest.php	8237475f5c7a221a060de516a18cc9e4
+M	src/Tests/StubTest.php	940d7c44b9f34eda7fd454b6f9d8a760
+M	tests/bin/replication.sh	dfe381903a4d75b6cecc9e57afea4d07
+M	tests/bin/run-couchdb.sh	0601faaafe5f6f16ecf0484669ab12ef
+M	tests/modules/relaxed_test/relaxed_test.info.yml	a3ebb4e9390bd46be6f1b64ea81f74f9
+M	tests/phpunit.travis.xml	2b56748deba44fe06a114214f91dbdaa
+D	tests/src/Functional/RelaxedEncryptTest.php	
+M	tests/src/Integration/PhpReplicatorTest.php	75aff3c61e80241e7f0a415853939d05
+M	tests/src/Integration/ReplicationTestBase.php	3a3975acb6715d6ecd7ef393b10165ec
+A	tests/src/Unit/FormatNegotiatorManagerTest.php	086e065ca27e6caadc189af538db3ef7
+M	tests/src/Unit/RemoteTest.php	e5aec2fb834719a67bcb3015a0d063c1

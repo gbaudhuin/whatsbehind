@@ -1,0 +1,31 @@
+M	README.md	79c67c4e6eb0e1d47290f23ad053c4c1
+M	composer_manager.api.php	5c207fbc2687e4f29ef3ea9c2c477d65
+M	composer_manager.drush.inc	cfee97f77027c2ffd7e370e1579143ed
+D	config/composer_manager.settings.yml	
+A	config/install/composer_manager.settings.yml	26d16a309c5a9567e6c5b9a5fcf82367
+D	lib/Drupal/composer_manager/AutoloaderSubscriber.php	
+D	lib/Drupal/composer_manager/ComposerFile.php	
+D	lib/Drupal/composer_manager/ComposerFileInterface.php	
+D	lib/Drupal/composer_manager/ComposerJsonMerger.php	
+D	lib/Drupal/composer_manager/ComposerManager.php	
+D	lib/Drupal/composer_manager/ComposerManagerInterface.php	
+D	lib/Drupal/composer_manager/ComposerPackages.php	
+D	lib/Drupal/composer_manager/ComposerPackagesInterface.php	
+D	lib/Drupal/composer_manager/Controller/Packages.php	
+D	lib/Drupal/composer_manager/Filesystem.php	
+D	lib/Drupal/composer_manager/FilesystemInterface.php	
+D	lib/Drupal/composer_manager/Form/RebuildForm.php	
+D	lib/Drupal/composer_manager/Form/SettingsForm.php	
+A	src/AutoloaderSubscriber.php	6f352debfcf3a359ffb4a993f3d676c1
+A	src/ComposerFile.php	d711f32cc47adf51b1975e77275114c1
+A	src/ComposerFileInterface.php	ab860f2d69c92fd5bda0c313be3de3c0
+A	src/ComposerJsonMerger.php	bcda2c6bbfe0db3aae74c65764e4e092
+A	src/ComposerManager.php	b833dbc54a019cdacad9301a0f035045
+A	src/ComposerManagerInterface.php	4803071d50e141e43356a6fbc9ca22f0
+A	src/ComposerPackages.php	856361b822319db860b2005564a4cc26
+A	src/ComposerPackagesInterface.php	bfc6df1aa8503f7dfe239f54c9b7e38a
+A	src/Controller/Packages.php	17e1f01d64b0cb259a310ed331687b6a
+A	src/Filesystem.php	162c8b16b71c5ce0dea2254bc6cabfe7
+A	src/FilesystemInterface.php	afe4c650a98cb5ad365d609428ef070e
+A	src/Form/RebuildForm.php	089b542159eba07cc1e33dbfb757d439
+A	src/Form/SettingsForm.php	477987372abde8da81f966ddc903b580

@@ -1,0 +1,4 @@
+M	features.info.yml	9bfa6521434d6c9823070aa2d40597d6
+M	modules/features_ui/features_ui.info.yml	c08bcbfd6c9c53b33a37f66c500f912d
+M	src/FeaturesManager.php	65e6c48442365c9d8ecc9b87de66fbf7
+M	tests/modules/test_feature/test_feature.info.yml	767aced368707363e0954a8dffbd864d

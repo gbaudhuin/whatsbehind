@@ -1,0 +1,6 @@
+M	.travis.yml	98f113ccd75c53eb88575bceef0c8370
+M	src/WorkbenchAccessManager.php	1917790798d83f8ed62023bc1f32a49d
+M	src/WorkbenchAccessManagerInterface.php	fec639f388345a44b9df1fb0b20200da
+A	tests/src/Functional/NodeFormTest.php	dc965030df409d1fdea87b2b2d5c3ed4
+A	tests/src/Functional/WorkbenchAccessTestTrait.php	630d6cc50e6cd71603e3b3749e6cf292
+M	workbench_access.info.yml	e277e8a0af7baa87964b86015f88f5a4

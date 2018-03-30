@@ -1,0 +1,8 @@
+M	CHANGELOG.txt	c984c71df025a073d3a238b26a02bec5
+M	INSTALL.txt	3c7b07d05f4270c158c0bbbccb78af90
+M	README.txt	911a8a03c628279a49a3c7fc021b4b1c
+M	includes/service.inc	b6ab053a8741d8b2e481e35a659a87a0
+M	search_api_solr.api.php	203f1d12120ba31966dd2476aa751f0c
+M	search_api_solr.info	8c5778c69d3722ef8e24a143a799f322
+M	search_api_solr.module	c5f2b2c34c556e55b714a39fb77d3782
+M	solr-conf/4.x/stopwords.txt	d1e4617aedb57410383d606606a436e4

@@ -1,0 +1,11 @@
+M	CHANGELOG.txt	a4daf97c5dbbdc420820431689957f85
+M	README.txt	bd1a0c1cf89a3cbddf24d5df65a8c88a
+M	date_ical.api.php	c09af1844b14fb52f6460aa72a7f10e4
+M	date_ical.info	c45187ded7f45cfcbe6c75b67618227f
+M	date_ical.install	be2f3e4d8efafe6e213ca943627b5b1f
+M	date_ical.module	1fa6406918130b9d7f024f5834ec7558
+M	includes/DateIcalFeedsParser.inc	c36e1674f55ef548e769f9ddf8b386a9
+M	includes/DateIcalIcalcreatorParser.inc	0ab797af93b71b469a2298bb06df47ed
+M	includes/date_ical.views.inc	13a5ea5d0f8c381e5af8771abc2548dd
+M	includes/date_ical_plugin_row_ical_entity.inc	94e529b6485b4b47bce7f3ee7a1cd697
+M	includes/date_ical_plugin_style_ical_feed.inc	784e521cde53a94f0c4dd9e038ea58c5

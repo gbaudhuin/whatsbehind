@@ -1,0 +1,8 @@
+M	admin/crumbs.debug.inc	a526dfd237d36e24ad403f16747c3638
+M	crumbs.info	19fedf4450e8f48eca5c933bafe6b7c2
+M	example/crumbs_example.info	7d07da8341387f9856df305eb1aa4829
+M	labs/crumbs_labs.info	f2fbf495a21345ce4c63d605321fa1dc
+M	lib/Admin/DebugTable.php	395cbffcf8349919e1fec6f4a813a730
+M	lib/Container/AbstractLazyData.php	df416b34022126ee7604c856d346f79c
+M	lib/CurrentPageInfo.php	d1138218adc17d418a5a4d5c6925d0c8
+M	plugins/crumbs.views.inc	1ad03b115673b6a62d983e674ef36594

@@ -1,0 +1,10 @@
+M	README.txt	e1c5a90d34c029b3fa288a993b03ea21
+M	css/workbench_moderation.css	f31f2560e9f46af8a0640477927624d1
+A	tests/workbench_moderation.files.test	39a537d7e2615304a47ebd457c452f8b
+A	tests/workbench_moderation.test	168244f8b0974187c7b6e4a7b5e718c1
+M	views/workbench_moderation.view.inc	a105bbd905bad5bad8f6bc92322a770d
+M	workbench_moderation.admin.inc	39581d31d3b33873615b32e58a8d72f4
+M	workbench_moderation.info	97190682b3b5127cf36ce6b017a74177
+M	workbench_moderation.install	a35b296ea7ef6d76854e7ff6a6e43989
+M	workbench_moderation.module	776f5f4df54a7f95b8a3052f6ea3e8a4
+M	workbench_moderation.node.inc	1d0d0d5603f52e3d6c1cfbc95e492495

@@ -1,0 +1,4 @@
+A	composer.json	db5b6998debcfa903c1caeca1fe70de0
+M	recaptcha.info.yml	6186f1a63b1e6c839466de339071028b
+M	src/Form/ReCaptchaAdminSettingsForm.php	44986f6097b2725b46b24606e43bdd19
+M	src/Tests/ReCaptchaBasicTest.php	7bb097f8a67962f95d2970a3e0b59514

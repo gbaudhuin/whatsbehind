@@ -1,0 +1,16 @@
+M	README.txt	7f78ee48f324ea94c4b090321e574eef
+M	editors/ckeditor/plugin.js	2322f9c1d4a380099a08f99576e5ba20
+M	editors/tinymce/linkitDialog.js	2c574a5b6586a3b1378ac70707d93c32
+M	js/linkit.dialog.js	ecb2b8c6166834f5e956e8b026f811dc
+M	js/linkit.js	79fa7df5d2381332b9086ebda760664a
+M	js/linkitFieldDialog.js	c5e5097f6b47061f4163dfd26ae70948
+M	linkit.field.inc	41a54372f8e7b221ee9f6d8ed1cfd1d8
+M	linkit.info	5f48bf5f041a0cb57a71d0025cd7e736
+M	linkit.install	aeb18bb6e8d1ec0123444aaf032642a9
+M	linkit.module	4c9b3c8d76c633776b144f9a9df90aa2
+M	linkit.theme.inc	3c69660584fa23c201d4498d88019642
+M	plugins/export_ui/linkit_profiles.inc	12290d0a690b6ea196a3a6a22d3ced04
+M	plugins/linkit_plugins/linkit-plugin-entity.class.php	8493c053458319b4d186fd4bad1232b4
+M	plugins/linkit_plugins/linkit-plugin-file.class.php	a12d19a0c15671bf17c8ba36a2ea713f
+M	plugins/linkit_plugins/linkit-plugin-node.class.php	70d1b2471185efaa7c06d84f33d58834
+M	plugins/plugin.class.php	7116586854ef5cc320577f3ff1ccaaea

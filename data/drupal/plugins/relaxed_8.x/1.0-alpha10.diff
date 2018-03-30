@@ -1,0 +1,21 @@
+M	.travis.yml	552c9c4fffdaa580e837b7903547d9f0
+M	.travis/drupal.make.yml	fa677d8a48b46e5e89d2cd2333552ee5
+M	relaxed.info.yml	45f56fc970056d9a783cf9a096218fe5
+M	src/Controller/ResourceController.php	bfb5a86eba825e62243356ff00e54db1
+M	src/CouchdbReplicator.php	3bcaeedcf11fd188c178550554848692
+M	src/HttpMultipart/ResourceMultipartResponse.php	76e2997cb642e45d8708626aa909f593
+M	src/Normalizer/ReplicateNormalizer.php	f84197493f95c5806283ab5709f3630b
+M	src/Replicate/Replicate.php	9d520e2bc66b37a2afc101e49055e774
+M	src/Replicate/ReplicateInterface.php	456c03e2b16aa4ecc666d8d63bd2c2e8
+D	tests/bin/couchdb-to-drupal.sh	
+D	tests/bin/drupal-to-couchdb.sh	
+D	tests/bin/drupal-to-drupal.sh	
+D	tests/bin/php-replicator.sh	
+D	tests/bin/replicate-endpoint.sh	
+A	tests/bin/replication.sh	21bfac1b3e7d9e3cb000f807c4641ad7
+M	tests/modules/relaxed_test/relaxed_test.info.yml	831e59fc58e3e00b6d6279bf0b1afb30
+A	tests/phpunit.travis.xml	3265760d85eab7cab68c875004c75ea8
+A	tests/src/Integration/CouchDBReplicatorTest.php	f77300fd5509f58da9b24c7b32eeddf1
+A	tests/src/Integration/PhpReplicatorTest.php	75355d1bce5f24316f585233624abe98
+A	tests/src/Integration/ReplicateEndpointTest.php	fa74a23ad48616691fb16f19f3b2dc4e
+A	tests/src/Integration/ReplicationTestBase.php	2ed4d0396a7f5755559f9a945cbe95ff

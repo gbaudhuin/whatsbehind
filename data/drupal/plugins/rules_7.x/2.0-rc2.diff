@@ -1,0 +1,15 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	includes/rules.core.inc	42bcc1a419095ce7d2a9c78a89916023
+M	includes/rules.plugins.inc	00aeb9e00722fa47d782fb63910f5fee
+M	modules/data.eval.inc	907c73984486eb5f7a56b71194a1cc07
+M	modules/data.rules.inc	1a642954ad7d083b97b82004c7f73aa3
+M	modules/system.eval.inc	ef4723c72ff4c266517e210d6714f71a
+M	rules.info	e820fe6886ff35816e27a3e58e0d85f4
+M	rules.module	96c7fc847b415d41a19ab09a3ba17ed9
+M	rules_admin/rules_admin.info	6f6cc50cb5c667e2efe52ff613e27280
+M	rules_scheduler/rules_scheduler.info	05b28c84e1e510297c558546e0f5f666
+M	tests/rules.test	684cbbc6bbfd61611efee7fe480d3666
+M	tests/rules_test.info	d5ec05d7b2f15fe8a9094780ce6bc24f
+M	tests/rules_test.rules.inc	4e81b27d0fc6f15e82b9496df1127496
+M	ui/ui.core.inc	b769f1b9f7eaba6b0f15e0237ce9a5a8
+M	ui/ui.forms.inc	f478b0c70e010bbefd92e7136a1f96da

@@ -1,0 +1,9 @@
+M	acquia_agent/acquia_agent.info	12365cc8e0d36f2ea48d6e58b87dd512
+M	acquia_agent/acquia_agent.migrate.inc	4ffb53f2118899af18036477e931aa8a
+M	acquia_agent/acquia_agent.module	db1fdda4cf64f21f57707b7009cffcb2
+M	acquia_agent/acquia_agent.pages.inc	ad7c955a1579d51e216348117e8c155f
+M	acquia_agent/tests/acquia_agent.test	b92866465d48664734e0b983df193bc3
+M	acquia_agent/tests/acquia_connector_test.info	05944c01803f809d88d6a2da928371ce
+M	acquia_agent/tests/acquia_connector_test.module	640efd3ab27d498e81558387338c25a8
+M	acquia_search/acquia_search.info	438f9e0f7f12c2351f6829370803e2d5
+M	acquia_spi/acquia_spi.info	25e5959e136e9fc7406ce6214b83655f

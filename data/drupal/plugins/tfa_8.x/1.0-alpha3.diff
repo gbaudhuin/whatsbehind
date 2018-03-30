@@ -1,0 +1,21 @@
+M	README.md	9399d6d1abb4157faecd0d3487046c79
+M	config/install/tfa.settings.yml	3732cec3e76707342e3567f18e40d701
+M	config/schema/tfa.schema.yml	a6075f21570bb8b235ee7fb9ec10f39f
+M	services_tfa/services_tfa.info.yml	07d0e0545a72ddf00ed1946cbcb8f752
+M	src/Form/BasicDisable.php	1a1803715265e38c48a16a3e71e205af
+M	src/Form/BasicSetup.php	53ce056b36de29dc55da1e42ec305cfa
+M	src/Form/SettingsForm.php	2179d8dfe0b4a9a197bdaf54bbe9a3d6
+M	src/Form/TfaLoginForm.php	30593b69116fdc567a5209811b7c3667
+D	src/Plugin/TfaValidation/TfaHotp.php	
+D	src/Plugin/TfaValidation/TfaTotp.php	
+D	src/Tests/TFATestBase.php	
+M	src/Tests/TfaConfigTest.php	76aeea351c53f5d0bf0e0663f44c9c3a
+D	src/Tests/TfaValidationTest.php	
+A	tests/modules/tfa_test_plugins/config/schema/tfa_test_plugins.schema.yml	0a3315fc5efcccea0d2e5f8b76dd4a7d
+A	tests/modules/tfa_test_plugins/src/Plugin/TfaSetup/TfaTestValidationPluginSetupPlugin.php	142b6583e9f43f1f83edfce466cbb64c
+A	tests/modules/tfa_test_plugins/src/Plugin/TfaValidation/TfaTestValidationPlugin.php	71d0fdf458c17107a8aff970f870ceae
+A	tests/modules/tfa_test_plugins/tfa_test_plugins.info.yml	49fa7a7f18a9b5b7fa8fb27bcae73ef2
+M	tfa.info.yml	6ea81cba1ee8584e07351a3c9dc6737d
+M	tfa.install	ad71c1ffce5e4191048324483ffe76ba
+M	tfa.module	6b4f50387e5a6121f11ba1b437edac14
+M	tfa.routing.yml	b5d5f9b48ee4b8c28cc5622f589c12d3

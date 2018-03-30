@@ -1,0 +1,20 @@
+A	includes/message.admin.inc	894664e937b65896ef6a29ef08d1d013
+A	includes/message.exception.inc	2e4d8d4d3ac2356943437d6a6532ddd4
+A	includes/message.message.inc	a95b45e70354b66e1c85dac24fc92f9f
+A	includes/message.message_type.inc	4c99c8e98c9c3fdba43913ed9557ea51
+A	includes/message.message_type_category.inc	c53af9c200d3e61308acb8560e957e06
+D	includes/message.views.inc	
+D	includes/message.views_default.inc	
+A	includes/views/handlers/message_handler_field_message_render.inc	6932f1f16259bf064109599477c04c7e
+A	includes/views/handlers/message_handler_filter_message_type.inc	1484002c0d65948c83add7afb9bf9309
+A	includes/views/message.views.inc	39d74c5c73139b687f7450901e0f561a
+A	includes/views/message.views_default.inc	bd1d6042356f2c947220eaf0ea4c5087
+D	includes/views/message_handler_field_message_render.inc	
+D	includes/views/message_handler_filter_message_type.inc	
+D	message.admin.inc	
+M	message.info	cf13e630cc9c8638cfb3283ba0a0af69
+M	message.install	18fc277480d810797fd2f672ae378879
+M	message.module	6f1b2a65512e8c547767cca3b3edbe30
+M	message.test	fa2337ad1969eef335e1d63429c15e29
+M	message_example/message_example.info	5f1e4456cf3039f36a63af3d1e4fe7e5
+M	message_og_example/message_og_example.info	ae9996552abc6d414c6176258e117426

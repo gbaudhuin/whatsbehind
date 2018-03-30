@@ -1,0 +1,12 @@
+A	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+A	README.txt	8645f097f2d407462f5f25c91d19fc24
+A	TODO.txt	932b0be6d66cd7bd5459723ff3d67261
+A	includes/book.node_convert.inc	1014c80c734dd8768268ecd9599fd08c
+A	includes/forum.node_convert.inc	7a74c0439a596df3e250bde6a7383b67
+A	includes/panels_node.node_convert.inc	f99853924bf8d472a308ec70e33c2acd
+A	includes/uc_product.node_convert.inc	3b554ffb724461e801f8b04e1ceb7b92
+A	node_convert.info	549c25e8f99eb061393819a2c8c85e9d
+A	node_convert.install	503ac16f0bdc1f686bcf8659f0a5fcda
+A	node_convert.module	94a5230ccdb2a0fd9b275f137cbdf0b2
+A	node_convert.rules.inc	e6f2a55f1cc3ec8d17333f35fa2d3c80
+A	node_convert.test	636e752679773e49d0ce2b3832e7ab5f

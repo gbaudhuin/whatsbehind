@@ -1,0 +1,26 @@
+A	composer.json	46c528470567fbb68451a80ab067a3be
+M	config/install/simple_sitemap.settings.yml	87de6da080b7679da3576935a6f4e345
+M	config/schema/simple_sitemap.schema.yml	8f7b92b7018f31a81e928eec0e3286c9
+M	js/simple_sitemap.form.js	ebb32ef5c898b10e3a355b95711e2014
+A	js/simple_sitemap.sitemapEntities.js	44e4d478739926d9304ccd42d409d5e8
+A	simple_sitemap.api.php	7ceb56e71500b01c027f53f62a1a44bf
+M	simple_sitemap.drush.inc	eef162683e8a0cb21c528be62993dac3
+M	simple_sitemap.info.yml	84f1ee614e08ac9502bd8dc3ac3bb9f4
+M	simple_sitemap.install	fcad329586e3c21bdcf58a4bd80f6509
+M	simple_sitemap.libraries.yml	4f72cefbdb1c2a5fe4bdda1dba2a7457
+M	simple_sitemap.module	6e91de156807be65d666088193eab013
+M	simple_sitemap.routing.yml	552688ddeeaa9ca5a6fd378b267b4903
+M	simple_sitemap.services.yml	95e0494777d589201ab3fb9381067ef3
+M	src/Batch.php	76dda40f4c9f5dda68328a5615a9082a
+M	src/Controller/SimplesitemapController.php	43f6dae1d912943e8b47d0161f5abee7
+D	src/CustomLinkGenerator.php	
+M	src/Form.php	5049f8670855f6d29901e1b933614d51
+M	src/Form/SimplesitemapCustomLinksForm.php	2a5f100b5819cacc841f3805cc05ea3d
+M	src/Form/SimplesitemapEntitiesForm.php	6460ac1f1d6077d61426a9d7523e1be3
+A	src/Form/SimplesitemapFormBase.php	55642eddff6d931306567a455d9b05c7
+M	src/Form/SimplesitemapSettingsForm.php	2ddbd7f40fbe2cd5a0cd89e5abefcb65
+M	src/Simplesitemap.php	b78e5d951e17872d5e3d13fde14562d7
+M	src/SitemapGenerator.php	5044ce585a74a83c9f38bde6788bffab
+M	src/Tests/SimplesitemapTest.php	ffc643a7140df55e7d1b1c88181263a0
+A	tests/src/Unit/SimplesitemapTest.php	3dd2483f615367ebfe6d65bf72943c09
+A	tests/src/Unit/SimplesitemapTestBase.php	ecd96c6eb0ba80852a46b0031af6ae90

@@ -1,0 +1,14 @@
+M	date.info	6a989d709ba2c316f0543ac62ea9237d
+M	date_all_day/date_all_day.info	001fdbddde637d7cec5318692b119cff
+M	date_api/date_api.info	099e21b4905e67a69cb3a4eaec4defe1
+M	date_context/date_context.info	2698bf67c2cfe7c30e0e52fc212ca5e7
+M	date_migrate/date_migrate.info	830dce7616aac10b49ac27164dd39c01
+M	date_migrate/date_migrate_example/date_migrate_example.info	e9bad9487c593cbdda768236af0ad11f
+M	date_popup/date_popup.info	2fe8da361a75fcd6507e3c75216d3503
+M	date_repeat/date_repeat.info	ee5c2903faabfeedc58acd31acd874b7
+M	date_repeat_field/date_repeat_field.info	39720ca919bdc7d00f5e41a2935c37c4
+M	date_tools/date_tools.info	8ef2709e5667ae7c43ec376f5812d1bf
+M	date_views/date_views.info	a44c0740ff1fde1060173a77c29af5b1
+M	date_views/date_views.module	6806871123aab931fa5ba2b2fc351812
+M	date_views/includes/date_views_filter_handler_simple.inc	b754ee53984a3d7e4a52691bee4012b2
+M	tests/date_field.test	9301dde569233a15752345681a39bbe9

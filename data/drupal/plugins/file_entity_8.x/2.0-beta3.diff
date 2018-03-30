@@ -1,0 +1,8 @@
+M	.travis-before-script.sh	aed1adf10c3527ec2a739b0519dfcb45
+M	.travis.yml	bd18803798edcb61a14e22d34fc811b8
+M	config/install/file_entity.settings.yml	7b6e97cc7b2bc68714818326bd5004fa
+M	file_entity.info.yml	6b913545a4ba18c9faff75bfddb19dfb
+M	file_entity.module	65add827a7abb3cee4bd5d3ca769ff55
+M	src/Entity/FileEntity.php	bad15afba54ea2076d0b5ec9486d24f1
+M	src/Form/FileSettingsForm.php	938acea29edba85eae809487f124f820
+M	src/Tests/FileEntityCacheTagsTest.php	d2a32e7102c7f9b06a15b80ac4e6b9c2

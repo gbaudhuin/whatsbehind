@@ -1,0 +1,4 @@
+M	multiversion.info.yml	a7d6cbff184f5b99dcd04693e0cdd32b
+M	src/Entity/Storage/ContentEntityStorageTrait.php	107368c322c2c48d9ff79f50e1f9e65f
+M	tests/modules/multiversion_test_paragraphs/multiversion_test_paragraphs.info.yml	5e8d47399c393e2d391468a7965b492d
+M	tests/modules/multiversion_test_views/multiversion_test_views.info.yml	47a22afe49955cc8a4bdf00b2cbe38ee

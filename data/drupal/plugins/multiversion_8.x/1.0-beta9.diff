@@ -1,0 +1,16 @@
+M	.travis.yml	17097aafde4c79a32b971004ca1087a6
+M	multiversion.info.yml	b649d5a8a6ce544a0ef6cc8248d7f05c
+M	multiversion.install	bcf575b5204fcea64b9951b4cebc9323
+M	multiversion.module	53c79f2e76dd803c3d576b9c458e8b62
+M	multiversion.services.yml	085ef4176b9a2b262d347aeb7d9c4882
+M	src/Entity/Workspace.php	44881267784c6399948d350e7dfc5222
+M	src/Entity/WorkspaceInterface.php	29a24611f9331bfa3555d207b435f901
+D	src/Normalizer/EntityReferenceItemNormalizer.php	
+A	src/Normalizer/WorkspaceReferenceItemNormalizer.php	1f09c06d944052f4cd8a9380338f909b
+A	src/Plugin/Validation/Constraint/UnpublishWorkspaceConstraint.php	cae6ae3f963f28a170020ef0b05d9cb0
+A	src/Plugin/Validation/Constraint/UnpublishWorkspaceConstraintValidator.php	4fc29c677c04b36e5806264002349977
+M	src/Workspace/WorkspaceManager.php	463ce15b8abfa69b4da8278b6544858c
+M	tests/modules/multiversion_test_paragraphs/multiversion_test_paragraphs.info.yml	1657710a5ebb22fb7093625cf5db7420
+M	tests/modules/multiversion_test_views/multiversion_test_views.info.yml	9019c58d32bce6d958b3fbdde117f65d
+A	tests/src/Kernel/WorkspaceTest.php	7430ed5ffffd96d2458ec442f34c2648
+M	tests/src/Unit/WorkspaceManagerTest.php	2aab819bccc7545f9a24495725e68d56

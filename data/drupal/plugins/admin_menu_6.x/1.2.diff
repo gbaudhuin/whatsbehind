@@ -1,0 +1,17 @@
+M	CHANGELOG.txt	573aa72f6b5ab5badbef036a82cbc551
+M	README.txt	8265de66f49781b69aab9f5794b22e27
+A	admin_menu-rtl.css	4e5cebc1fc45f406f2b6c5d70cf9c4f6
+M	admin_menu.css	374b1f78360c0333287425eaf8dc0cc2
+M	admin_menu.inc	5b98597f87af4aa2288fea1f76e04a47
+M	admin_menu.info	9c78bc16f50926043299a12e3a9a54cf
+M	admin_menu.install	5397b2fec18fffb393b926d955c9a55e
+M	admin_menu.js	d20786156d2ec4d65b5f38a3121edd3c
+M	admin_menu.module	f835f5d32748246119820ad6d1b90341
+A	images/arrow-rtl.png	38e41a315fec0d8b2c047562c5db825f
+A	images/bkg_tab.png	a056ada951d11587830fa1ac18b2bf10
+M	translations/admin_menu.pot	4c826b6304b71a242f9c956740ed95bc
+M	translations/de.po	175ce1fd5883c776046aa62387c49f64
+A	translations/es.po	cccfd8e2aa42e03afd1c3ba3e30b9ade
+M	translations/hu.po	69149e46a18ae67300332229b6696723
+A	translations/nl.po	7481123661b74300ffd9cf976ff9e8b1
+A	translations/sv.po	5982dcf453a05501799d63dcb199cfba

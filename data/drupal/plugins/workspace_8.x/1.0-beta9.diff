@@ -1,0 +1,7 @@
+M	src/EntityOperations.php	051628e3de3d0db0fe0bb47c820d603d
+M	src/EntityTypeInfo.php	d066200c233a9d6d74381fcbbe056355
+A	src/Plugin/EntityReferenceSelection/WorkspacePointerSelection.php	e3ec6499d480fcae1134f639e3140ca0
+D	src/Plugin/Field/FieldWidget/OptionsUpstreamButtonsWidget.php	
+M	workspace.info.yml	8e9a403b9730d74330d3975b9432b9fd
+M	workspace.install	91396dc502e7a25c5ac7cba7bd507a68
+M	workspace.module	e65d8fac5f9d2735e8b6c2e82b01a5aa

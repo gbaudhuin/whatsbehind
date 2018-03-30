@@ -1,0 +1,10 @@
+M	quicktabs.info.yml	b2a38e64f795beae648ac0032535e863
+M	quicktabs.module	5864d2e1d3b2a3f610282c9730d467bf
+A	quicktabs.theme.inc	ef1ad6bde9898b32d1100ce2b5be481e
+M	src/Form/QuickTabsInstanceDuplicateForm.php	de0863c4f112f2f54e4a8c0c1ae78ad5
+M	src/Plugin/TabType/BlockContent.php	900202bd71a78cf3d801008b7ba9c0cf
+M	src/Plugin/TabType/NodeContent.php	2fea38d95eecdd703bafc1b787eed6de
+M	src/Plugin/TabType/ViewContent.php	4d064a236cc6a08200b0fd4f3f9506ad
+A	src/Plugin/views/style/Quicktabs.php	7cde6d1908e5cf670a42a18ebfad731a
+M	src/QuickTabsInstanceListBuilder.php	a290b1192c49ff134d3e08f4f089b461
+A	templates/quicktabs-view-quicktabs.html.twig	ab603ad03475ba76c32a3a8947306b19

@@ -1,0 +1,17 @@
+M	includes/migrate/plugins/destinations/og_membership.inc	a5793c47d4fda4d271d5e4546d139e65
+M	og.info	1d68d9a31d233a04b92bce64738800a7
+M	og.module	b12ae3144d27c9ade5787c3f0435b6e7
+M	og.test	8b81ec378b89ede91cbaffd53c4af65d
+M	og_access/og_access.info	86f86cf8ed4b5b2ada16be441d342281
+M	og_context/includes/views/handlers/og_context_plugin_access_og_perm.inc	f9917dd1f773a49d55848f1626fe46e3
+M	og_context/og_context.api.php	6ae30411e73db0eda12f18dc18d052d5
+M	og_context/og_context.info	3b5f52e6c31fb21a466afc4a6121a4de
+M	og_context/og_context.module	2fe21e30cdfab1be4d078c17e5d1a968
+M	og_example/og_example.info	7446071eb1fa34c15e8ffd5d424f738d
+M	og_field_access/og_field_access.info	28fcb360116e6635b594a356ba29434c
+M	og_register/og_register.info	fd04b1a11142dc4cd3f950fc674cb48f
+M	og_ui/og_ui.admin.inc	87fd969b2b9773d6261547c601016976
+M	og_ui/og_ui.info	380cc58c5b5cc07e1200b613f2f0bd52
+M	og_ui/og_ui.module	32d6b05ad11dc161458e82a917428bd5
+M	plugins/entityreference/selection/OgSelectionHandler.class.php	82508c431a7825b4466a2962af805375
+M	tests/og_test.info	43e623e8c1b354a994990856a6273b1e

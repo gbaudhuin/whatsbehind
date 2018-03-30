@@ -1,0 +1,8 @@
+M	features.info.yml	b438b1e261fd040dc3e9cd3a4e8a5ee2
+M	modules/features_ui/features_ui.info.yml	180177d81acc17d656bff5a57a7249c9
+M	src/FeaturesManager.php	955c4ed6b42881c199a4f6d058de3f75
+M	src/FeaturesManagerInterface.php	af0807375a800b63ebbf00c0ff64d16a
+M	src/Plugin/FeaturesGeneration/FeaturesGenerationArchive.php	50a2ab52a856a03c45478f79c6734ccc
+M	src/Plugin/FeaturesGeneration/FeaturesGenerationWrite.php	02bef8f876b3c9d0145c76f4111e3838
+M	tests/modules/test_feature/test_feature.info.yml	33a274248ca1ba9e39fccd415dc6a041
+M	tests/src/Unit/FeaturesManagerTest.php	80508a455a4984309a1dede67c5640dd

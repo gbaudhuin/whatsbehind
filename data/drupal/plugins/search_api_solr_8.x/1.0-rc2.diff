@@ -1,0 +1,15 @@
+M	.travis.yml	2b4d991a23c28de5efa8e2bc3c1748ea
+M	search_api_solr.info.yml	cd144538cf005c0afff6afa272f5c635
+M	search_api_solr.install	b5dc994b6bbf2f29c2c60a19a60e8e93
+M	search_api_solr.module	8d532eafb2715b898114220e05ca1343
+M	search_api_solr_defaults/search_api_solr_defaults.info.yml	34290e533842e6dc8a39122bdcab9fa5
+M	src/Plugin/search_api/backend/SearchApiSolrBackend.php	2aba02b536ffa04254bc7f711b1c99f8
+A	src/Plugin/search_api/data_type/NgramTextDataType.php	4c80d7f958d3b99296d085bed6f00ca5
+A	src/Plugin/search_api/data_type/PhoneticTextDataType.php	ae5f03bfe516383dad46c4d136c9ec97
+A	src/Plugin/search_api/data_type/StorageStringDataType.php	56cf7f801bb77e8638a04401ca4fe61b
+A	src/Plugin/search_api/data_type/UnstemmedTextDataType.php	a9f24313c1de9dcfd17a54ff8528c563
+A	src/Plugin/search_api/data_type/WhiteSpaceTokensTextDataType.php	ceb4200428c9677b1eade3a41f70a4fa
+M	src/Utility/Utility.php	6cea88d14cbb54709a1ecc863b423533
+M	tests/modules/search_api_solr_test/search_api_solr_test.info.yml	28366e96793fae57599d05e2e8a45e40
+M	tests/modules/search_api_solr_test_facets/search_api_solr_test_facets.info.yml	6ee4a82d90b5d634a0db4424ee0afde7
+A	tests/src/Kernel/SearchApiSolrLocationTest.php	01eb33ee5a9d364f8e2ad15787b944db

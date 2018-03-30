@@ -1,0 +1,19 @@
+M	wp-admin/about.php	d860f6bc77b42dd436502d76b3ababec
+M	wp-admin/includes/class-wp-screen.php	69af18306232fe4f032490d13f0bdaf3
+M	wp-admin/update-core.php	d74641e309fad17dd4f23689087e70eb
+M	wp-admin/widgets.php	4e5ce0ae9dd9a3edf508d0b159196bcc
+D	wp-content/themes/twentysixteen/.gitattributes	
+D	wp-content/themes/twentysixteen/.jscsrc	
+D	wp-content/themes/twentysixteen/.jshintignore	
+D	wp-content/themes/twentysixteen/.travis.yml	
+D	wp-content/themes/twentysixteen/CONTRIBUTING.md	
+D	wp-content/themes/twentysixteen/CONTRIBUTORS.md	
+D	wp-content/themes/twentysixteen/codesniffer.ruleset.xml	
+M	wp-includes/class-phpmailer.php	3eff9ed4b6cadf990b4f238ed91c5ade
+M	wp-includes/class-smtp.php	12c62b22075a3c4b74ebc8ab3a98d295
+M	wp-includes/class-wp-theme.php	12012427862b65d94185050ce9d1c6ea
+M	wp-includes/functions.php	b78445800d28f49d715c5e34b57b1055
+M	wp-includes/ms-functions.php	b46f2e627ed10ebacda5beb93d7848f6
+M	wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php	05388955522e536cd475bddc2ac2d7fe
+M	wp-includes/version.php	27be14d7b0babd1cd8cb7f970fb15403
+M	wp-mail.php	8d6c9e4dab7697a044a22a96cd787068

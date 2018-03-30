@@ -1,0 +1,9 @@
+M	README.txt	6d0e70d27508e91b6f5c4374418eb96b
+M	includes/mimemail.admin.inc	850d96ae4f8d90490045387491b64f51
+M	mimemail.inc	847159bfac7693da9f16add2a16963f0
+M	mimemail.info	b98df3a188d0e03c9a92669b6b3cfcda
+M	mimemail.module	8591be5bac44f9c90d6ce9ae364abbbe
+M	modules/mimemail_compress/mimemail_compress.inc	8f124a5bd3c442bb4ee9648909ec1eab
+M	modules/mimemail_compress/mimemail_compress.info	0e63f433729c8896bbaec0894c37b346
+M	theme/mimemail-message.tpl.php	c8b1d3e0849709c2143c276807d2bbdc
+M	theme/mimemail.theme.inc	0cb5db25be771df02cba4bdd4746315b

@@ -1,0 +1,12 @@
+M	README.txt	53f95a1c21b3f6938d0d6af0b1b8805d
+D	composer.json	
+M	eu_cookie_compliance.info.yml	6076cc9a0d15c4cdcc40dbc0ed4730b6
+M	eu_cookie_compliance.module	6e890910ed234824fe1cf1527de47162
+M	eu_cookie_compliance.permissions.yml	49c34f2c11d900ca67f595e554ab69c0
+M	eu_cookie_compliance.routing.yml	70663393567157bf07f082d26a091ff9
+D	src/Form/EuCookieComplianceAdminForm.php	
+A	src/Form/EuCookieComplianceConfigForm.php	3fb77b91a3671e9a915fcdbbbfb606db
+A	src/Tests/EuCookieComplianceConfigFormTest.php	bc603f31618292b7ee4b8b2bf2042c3a
+D	src/Tests/EuCookieComplianceTest.php	
+D	src/Tests/EuCookieComplianceTestBasic.php	
+M	tests/modules/eu_cookie_compliance_test.info.yml	fa07970f7cb390cfd06e99a3f8e3a0bf

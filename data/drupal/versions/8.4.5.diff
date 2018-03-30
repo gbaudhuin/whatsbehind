@@ -1,0 +1,14 @@
+M	core/CHANGELOG.txt	31a918eff924b061c46e797cd1767353
+M	core/lib/Drupal.php	c5ef03efb16f2d9fcd7a495da42dad16
+M	core/misc/drupal.es6.js	1e53f35f39847a1cbf35377cc189bc32
+M	core/misc/drupal.js	767df16aa36ccaa000a195ff5680a9c2
+M	core/modules/comment/src/Controller/CommentController.php	e992e032318e8b813680a18ac486a710
+A	core/modules/comment/tests/src/Functional/CommentAccessTest.php	f848dfc6de4c9bc142039c65244ecb07
+M	core/modules/comment/tests/src/Functional/CommentNonNodeTest.php	5993939e1110b2f96b37ed570c271fb5
+M	core/modules/comment/tests/src/Functional/CommentTokenReplaceTest.php	a0c432741bee51335445e36787e768bd
+M	core/modules/node/node.install	f5e9405b92cde28931c8e19580f3fc02
+M	core/modules/node/src/NodeGrantDatabaseStorage.php	5ac9ac67de2792fea43ea80e91990ff4
+A	core/modules/node/tests/src/Functional/NodeAccessLanguageFallbackTest.php	e815344566e1b93d6008c5431fe8fce2
+M	core/modules/settings_tray/src/Form/SystemBrandingOffCanvasForm.php	dc72e87a43cab071f0f1b8d9f38e14d7
+M	core/modules/settings_tray/src/Form/SystemMenuOffCanvasForm.php	96b5b4ec1d1102d7dd8e929424dfc57f
+M	core/modules/settings_tray/tests/src/FunctionalJavascript/SettingsTrayBlockFormTest.php	63185212ee888a911e9568271745449b

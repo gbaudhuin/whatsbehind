@@ -1,0 +1,14 @@
+M	README.txt	ab9b19ef940cdf2961f4a537f9d7e8ec
+D	composer.json	
+M	jquery_colorpicker.info.yml	2038fb74c637bcf3a500cdfcb0056ae1
+M	jquery_colorpicker.install	cf51fefdc743ec221394191c6461fc4c
+M	jquery_colorpicker.libraries.yml	e2dc5e45c5c31f7d96e76ccc51ddee2a
+M	jquery_colorpicker.module	376132a496b33493d5826e175f8e37ae
+M	src/Element/JQueryColorpicker.php	cdd6112576698b29b6b30952ada6db45
+M	src/Plugin/Field/FieldFormatter/JQueryColorpickerColorDisplayFormatter.php	d3ac34a8f0b29014807620b7dab52b85
+M	src/Plugin/Field/FieldFormatter/JQueryColorpickerRawHexDisplayFormatter.php	ebea0530d137012b53561b18a9e97656
+M	src/Plugin/Field/FieldFormatter/JQueryColorpickerTextDisplayFormatter.php	48a2e66512a8bcc81def3d395ca0a66b
+M	src/Plugin/Field/FieldType/JQueryColorpickerItem.php	c59a06c7ba23043c75b97e359482b508
+M	src/Plugin/Field/FieldWidget/JQueryColorpickerDefaultWidget.php	c1195ca629742521f8471b496484fd41
+M	src/Service/JQueryColorpickerService.php	b6cf6026c2f9bf384d440838ad43fc68
+M	src/Service/JQueryColorpickerServiceInterface.php	ed27e0472517ac59c741ecaf085dc4c1

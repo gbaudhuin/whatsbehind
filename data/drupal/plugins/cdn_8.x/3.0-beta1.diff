@@ -1,0 +1,33 @@
+M	README.txt	0a88bd01c1f7515a775b07940ebc63a2
+D	cdn.admin.inc	
+D	cdn.basic.farfuture.inc	
+D	cdn.constants.inc	
+M	cdn.info.yml	473b682122855fcbd8de7174d9fe877a
+M	cdn.module	1e810ae942908aeca6e3ab5e943643f5
+A	cdn.routing.yml	a21d71940c2c9e5eed09d92062d036e4
+M	cdn.services.yml	d5f69249d0427a8ab09f8cf5d629c5d2
+M	cdn_ui/cdn_ui.info.yml	ed86a2e0e0c1fbc34de1d903642dd363
+M	cdn_ui/cdn_ui.links.menu.yml	163af4c43d4c207d711d70f4d1689615
+M	cdn_ui/cdn_ui.permissions.yml	6080f27365c1cd963a79aea0376aa745
+M	cdn_ui/config/optional/tour.tour.cdn-ui.yml	b535b94d47889cafea741de22d7d0265
+M	cdn_ui/js/summaries.js	e80a30ceeb8f7a8af4d3a818801436d4
+M	cdn_ui/src/Form/CdnSettingsForm.php	99243889efb63b592ab3ce0514bb454e
+D	composer.json	
+M	config/install/cdn.settings.yml	57d0970d82d2dec885a4801057751a1e
+M	config/schema/cdn.data_types.schema.yml	8fedd82bdaad78b09808a9a1c7e54478
+M	config/schema/cdn.schema.yml	aa352b11bf1835a1f6f647033f9220da
+D	help/admin-details-mode-pull-far-future.html	
+D	help/admin-details-mode-pull-ufi.html	
+A	src/CdnFarfutureController.php	43c6f387c99415ffb197a79a3769a0cc
+M	src/CdnServiceProvider.php	89911aeff2427e2d56646414856264df
+M	src/CdnSettings.php	5bfc4228dd047f6b3cbb8f685336451e
+M	src/EventSubscriber/ConfigSubscriber.php	e96e05dd682b3e0096d2a19749c30a8d
+M	src/File/FileUrlGenerator.php	40f2f79efed87def944c551964add8c7
+A	src/PathProcessor/CdnFarfuturePathProcessor.php	c3b3b9cbc74e0a257e763a9783b811ed
+M	src/StackMiddleware/DuplicateContentPreventionMiddleware.php	9547d3c20a41a52d79d3c1675ebc059a
+A	src/Tests/CdnIntegrationTest.php	06d1f989e0e6ee098e14515f498e1aea
+D	tests/cdn.test	
+A	tests/src/Kernel/EditorFileReferenceFilterTest.php	a4e9e6457b5a02863bb36dee2d937b95
+M	tests/src/Unit/CdnSettingsTest.php	a4227ae07fa200756f775421360258e4
+M	tests/src/Unit/File/FileUrlGeneratorTest.php	fbf8f7c7719041c3b735b3861eaa6075
+M	tests/src/Unit/StackMiddleware/DuplicateContentPreventionMiddlewareTest.php	6ee6c7b45831bbffd275ff2dfc1013fd

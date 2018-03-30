@@ -1,0 +1,8 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	a7085e1a458b565b6f6290e791b0e128
+A	editableviews.info	e66c4b1f65b73df027be61b7fec0478b
+A	editableviews.module	41378a6d98ad782b86fba36977fe80e9
+A	editableviews.views.inc	508743d144d510eb95560c92bdc00d11
+A	editableviews_plugin_style_row_edit_table.inc	8d3fb6f8a154a2fdb20bf1da0f408bb0
+A	handlers/editableviews_handler_field_field_edit.inc	9d8db402fd4d068d95ea4d35fad43e78
+A	handlers/editableviews_handler_field_node_title_edit.inc	ca82cb90ee0928684c96ea30919853fd

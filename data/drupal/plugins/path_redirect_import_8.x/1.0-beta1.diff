@@ -1,0 +1,13 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	path_redirect_import.drush.inc	b9772f8d71f3b9a2557d37788b14e268
+A	path_redirect_import.info.yml	8a57200d485a27a5dd498e52025535b4
+A	path_redirect_import.links.menu.yml	3b6fb70555980e396d932b93ef1e8c54
+A	path_redirect_import.links.task.yml	4d98cc632acafb5d7554a6debf10530c
+A	path_redirect_import.module	d427fdc715eaa7484778b77295b53981
+A	path_redirect_import.routing.yml	cedb577cb5f58b1da7cfb69a785f272b
+A	path_redirect_import.services.yml	f228d80224e83ff4b84293428dcc5b0f
+A	redirect-example-file.csv	f53a9dab0973ffd39171dbc09f59dd97
+A	src/Form/RedirectImportForm.php	30491e425673593ddae417975762541a
+A	src/ImporterService.php	dc3bf55725462530dc218ac55cd28387
+A	src/Tests/Functional/RedirectImportTest.php	678ebad00343e0f39fdb24bee0b9d74e
+A	src/Tests/files/test-redirects.csv	65da134fc945246a5c1f444ea16cf0a0

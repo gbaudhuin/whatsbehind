@@ -1,0 +1,14 @@
+M	README.txt	401fdc75846b1c400c68e542f0c3af09
+D	aBig.gif	
+D	aSmall.gif	
+D	a_reset.gif	
+A	css/text_resize.css	08b3e1d5534a9b967d1590a9d295f9a9
+A	images/aBig.gif	381261d54396717af9b71fc8bcc69343
+A	images/aSmall.gif	6104ee4ee796007e5aead471644c87df
+A	images/a_reset.gif	db672d5eda9b89b220225402ecb9a4e8
+A	js/text_resize.js	b75654a2041df87d74900e094700e0ea
+D	text_resize.css	
+M	text_resize.info.yml	d4a8ac348109548c8d471ebeb28fcfc4
+D	text_resize.js	
+M	text_resize.libraries.yml	67977919a281e3fddfbedf101c021a03
+M	text_resize.module	74de53ba5ef2f5d79690cb105ab6ba2a

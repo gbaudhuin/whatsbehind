@@ -1,0 +1,17 @@
+M	CHANGELOG.txt	1626f53faa13239c0f0d82e76b4fb549
+M	database/updates.inc	cdaf9a1dc70005f4511a8fd17127f35a
+M	includes/bootstrap.inc	a896547e82a9b7e6f235d1bab4ea1c24
+M	includes/common.inc	7be311b3778cfd652cf2f3af995b777b
+M	includes/database.mysql.inc	9349389ef7cc1317742b4bebd52908c6
+M	includes/database.pgsql.inc	4e87557dad483abffbbcbbeb93ec2259
+M	includes/file.inc	f89275771cd1c521b5df6b11d1079150
+M	includes/menu.inc	3aee687b22f5396ee55d7aa2523321a5
+M	includes/session.inc	72eaa0d54040ed0f5aa4c5efebc3389e
+M	includes/xmlrpc.inc	739e4c535324bac789761750ed13258f
+M	modules/aggregator.module	6508c06394d57a8b3c3a6b3d2cb4ff4b
+M	modules/blogapi.module	078b9159dec9a56f0f3956a3a7832bb9
+M	modules/filter.module	d7c34bd7303c68c53e0c7943f8f369ca
+M	modules/search.module	a13fea7ca1d8945f0dfa62a618bcd6b7
+M	modules/statistics.module	2a66f85a7fc949a3b3bab4b9e2dfcc5c
+M	modules/system.module	7913fca3861864168d462ee4b05a3bf1
+M	modules/upload.module	35e3ab76883fade8126dde736f1c1827

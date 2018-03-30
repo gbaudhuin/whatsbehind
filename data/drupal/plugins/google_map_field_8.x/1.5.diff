@@ -1,0 +1,6 @@
+A	README.md	a6157a680a479d3a434eec3b6df72973
+A	composer.json	2ad8e68f538f49a3689aeba2fc2e90af
+M	google_map_field.info.yml	80181442c8d0dbde39bebecb2ac58586
+M	js/google-map-field-renderer.js	8684195e06bccc1b385af22c8d140f0f
+M	js/google-map-field-widget-renderer-setter.js	8e7d51005dfe079ea9f61159845de63e
+M	src/Plugin/Field/FieldWidget/GoogleMapFieldDefaultWidget.php	993f46b863166356dfa977f8426420fe

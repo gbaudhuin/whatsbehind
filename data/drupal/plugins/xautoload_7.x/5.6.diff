@@ -1,0 +1,7 @@
+M	src/Libraries/LibrariesFinderPlugin.php	3b100acf94922462b85a8490b364c8c9
+M	tests/test_1/xautoload_test_1.info	4fb9f555f7cfec62c9de48920a463bfd
+M	tests/test_2/xautoload_test_2.info	30cb017911edc3df79de018248ab168b
+M	tests/test_3/xautoload_test_3.info	dfb91daf5062504d4b0fee55c3c8f8af
+M	tests/test_4/xautoload_test_4.info	240451a4e73f52b19e6351f824eb5af1
+M	tests/test_5/xautoload_test_5.info	72b58f7cb9642be12087b75a187402c4
+M	xautoload.info	479db20bc38df0b960ae6e07e294c418

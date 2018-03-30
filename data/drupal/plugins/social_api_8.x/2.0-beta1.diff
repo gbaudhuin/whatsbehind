@@ -1,0 +1,13 @@
+M	README.md	401657c9c18f9b44eee66c7b38bafdb4
+M	composer.json	4f315a7e6117f6d7797598b88c1faa87
+M	social_api.info.yml	ec573edce10fc007bbb9f6df6e2fe29d
+M	social_api.services.yml	c4d73d8c52b5d003950ff146ca431f87
+M	src/Annotation/Network.php	0a0c9f8fb622cc9a1f16939de8001cc5
+A	src/AuthManager/OAuth2Manager.php	ec349a7fe410a36f33519b13a8676c7d
+A	src/AuthManager/OAuth2ManagerInterface.php	8212185b07f5675cf3bc79907ce16223
+M	src/Controller/SocialApiController.php	2c1ec335006eeb51a73cd6ac28a34ca1
+M	src/Plugin/NetworkBase.php	3873d608ca61b05f73d890bfba711690
+M	src/Settings/SettingsBase.php	a6fb874421022c113360d608a24f648f
+M	src/Settings/SettingsInterface.php	d3fd27e15d4884a0d3f21a896e469767
+A	src/SocialApiDataHandler.php	b13ee9d5a9c624a0372f7d55b57f43d1
+A	src/SocialApiSettingsFormBase.php	b70a03018e2d159e700a08bd7338cdff

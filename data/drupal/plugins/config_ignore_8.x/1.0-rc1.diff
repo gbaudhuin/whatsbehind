@@ -1,0 +1,12 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	7662e892c7ed374f8e3155abd0c21530
+A	composer.json	588f973232729766e225eacbd31ca6cd
+A	config/install/config_ignore.settings.yml	025edc7dfda03bd7c2a6fe729302ac28
+A	config/schema/config_ignore.schema.yml	1d75ebc6e33ecfb49a8f3abdb071573b
+A	config_ignore.info.yml	75b948c2c87a39309ce54553896ca458
+A	config_ignore.links.menu.yml	a58852966667b396f6138881cb3708cd
+A	config_ignore.links.task.yml	e766a40e587c7d485696e94afb641e3a
+A	config_ignore.module	fa7a51bf63de209e7f94745d76289b03
+A	config_ignore.routing.yml	eddb43fc95659bf4895725220e539a10
+A	src/ConfigImporterIgnore.php	a7c2b3094db203d9e8cd50f4651abaad
+A	src/Form/Settings.php	a97c28cf0e12bea1a636013bba16d0d9

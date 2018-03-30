@@ -1,0 +1,12 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	ckeditor_entity_link.info.yml	4355a8f5908752f01275bbfa23b921ad
+A	ckeditor_entity_link.links.menu.yml	c3d7421b60c106353becda2b75696c35
+A	ckeditor_entity_link.module	3b75f05088cb4430edb5a8100279687e
+A	ckeditor_entity_link.permissions.yml	af4a88030af3aed2f5d59d7e6bc2ae37
+A	ckeditor_entity_link.routing.yml	a7f01f127760c15350e47c260ee6db72
+A	config/install/ckeditor_entity_link.settings.yml	c4351af683cedf8515e6685e6c7818d9
+A	js/plugins/entitylink/link.png	f07b0247940231e967f3f4df02fdedd9
+A	js/plugins/entitylink/plugin.js	20fa5cbac092c3743959c3372120f5e4
+A	src/Form/CKEditorEntityLinkConfigForm.php	c7f84a9c08c2f466e05994b44087a25e
+A	src/Form/CKEditorEntityLinkDialog.php	137cf2f5e512d09b103eb9e7e3224903
+A	src/Plugin/CKEditorPlugin/EntityLink.php	dd41b0b9987886fae7bf020f29ebacd4

@@ -1,0 +1,11 @@
+M	README.txt	8fd0ed569fc8c0f1b6fc727c4692f0b1
+M	checklistapi.admin.inc	1639b9e3bdefd67355848ae1f4002ab8
+M	checklistapi.info	b38417675e89d1f9b6447263068e589b
+A	checklistapi.install	a4e7ab0c8fbfe6e620cbafc6d664d233
+M	checklistapi.js	34307c7584ae4942828044869026f9ef
+M	checklistapi.module	0008c8dccf863bb69297bff9e5739e9a
+M	checklistapi.pages.inc	4857640967072380fe7d7b7f08fd2db7
+M	checklistapi_example/checklistapi_example.info	11d720aad7912cf5afe8db2beed1270c
+M	lib/Drupal/checklistapi/ChecklistapiChecklist.php	7f7f956e93f0488a64f6f8117bfaf07b
+M	tests/checklistapi.test	15b2550019306f14449090db3e3ae079
+M	tests/modules/checklistapi_test/checklistapi_test.info	a428a343f70a0a75fafc79c9dffaf3e4

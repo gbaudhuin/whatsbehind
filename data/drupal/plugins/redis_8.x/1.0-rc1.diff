@@ -1,0 +1,33 @@
+M	.travis-before-script.sh	dfabd2d306897f086cd782662b3b8e67
+M	.travis.yml	05e8016e28ebdaa090a26ced49fc9fb7
+M	README.PhpRedis.txt	fe239ec3614e8412f085c9f24e1aa4ae
+M	README.Predis.txt	d7bb476496499f79949f017957564741
+M	README.md	688e6951a579803256296d753cbb2a8e
+M	composer.json	74a03094f5ba0b0a6e8a0dccac34d238
+M	redis.info.yml	fe2936ae224b3f366ba503f45a94fada
+M	redis.install	efefe7f9b7347c0db0f61085eb3da1e4
+M	redis.module	ff4ec8b322d2ef4816883123dc9baafe
+M	src/Cache/CacheBase.php	ffa5d0bdfdfdf5633717aff831db222b
+M	src/Cache/PhpRedis.php	ce68db131f2ca6d913f448f886216fa5
+M	src/Cache/Predis.php	fe7793158ce29f4185cebfe3cae0830e
+M	src/Cache/RedisCacheTagsChecksum.php	0f588e6c70f1addf9978a3535372259f
+M	src/Client/PhpRedis.php	39657ff5f2e41200fe6dd9ee634bd6e8
+M	src/Client/Predis.php	dd7ebd32159b0ab2e56a3129fb6186e8
+M	src/ClientFactory.php	38e7efe498c012be1ba0c3f27fa7ef0c
+A	src/Flood/Predis.php	6b9d75ac17af208154767cebe748c9fe
+M	src/Lock/PhpRedis.php	bb55de841e401f99cd83562c1de8a1c7
+M	src/Lock/Predis.php	4d4f3799d871af5a7c1da3ad324b5c0a
+M	src/Queue/Predis.php	23122dfcce2c8d4495f0d847745c55cd
+M	src/Queue/QueueBase.php	4ba9c60c19ecc14a6619d9849c3800b3
+M	src/Queue/ReliablePredis.php	7cd1af8bc505e66bfa1b7295987b5b8c
+D	src/Tests/Cache/PhpRedisUnitTest.php	
+D	src/Tests/RedisLockFunctionalTest.php	
+D	src/Tests/WebTest.php	
+A	tests/src/Functional/Lock/RedisLockFunctionalTest.php	c782799b88f4294c3f20ef5346ff2098
+A	tests/src/Functional/WebTest.php	f37f8fd78e8b7a5b40eb347469b42fa7
+D	tests/src/Kernel/PhpRedisFloodTest.php	
+D	tests/src/Kernel/QueueTest.php	
+A	tests/src/Kernel/RedisCacheTest.php	594e71da736bd215697aa264a2810782
+A	tests/src/Kernel/RedisFloodTest.php	a0a6afe4ccca861255b3875877812575
+A	tests/src/Kernel/RedisQueueTest.php	4623826c9470d9b5ca375cc5ca30db45
+A	tests/src/Traits/RedisTestInterfaceTrait.php	1998bfd3f851ed4db372fd29313044d5

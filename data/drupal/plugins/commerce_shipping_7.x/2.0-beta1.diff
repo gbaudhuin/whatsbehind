@@ -1,0 +1,17 @@
+A	commerce_shipping.api.php	b37e1768784e1d6a66720292fe871ff8
+M	commerce_shipping.info	e25801336e3fc45167cea849fb961264
+M	commerce_shipping.install	3b1e6f4b3a4377bcb05efe2c1ceebfd5
+M	commerce_shipping.module	f5bb78b7a8ef2acbe8db6e1955e31d07
+M	commerce_shipping.rules.inc	298ead446fbdf5ba66bcf8f89554af73
+M	commerce_shipping.rules_defaults.inc	fb6f9a2dbc6254c76fe910643845de5d
+M	commerce_shipping_ui.info	2b266445d6263b366d68ce1f6a6fa50e
+M	commerce_shipping_ui.module	0bd56e96245b7a442a49b77efe2420a1
+M	includes/commerce_shipping.checkout_pane.inc	fc6149823ad0e6adc1bf29b0d979573f
+M	includes/commerce_shipping_ui.admin.inc	cb1d44ed6d531f8e47e31647bbee5a85
+M	modules/commerce_shipping_example.info	560b9d098e1405eef16c0aac7499c338
+M	modules/commerce_shipping_example.module	ad45868ecd7e2ce3a7f5073471be5698
+D	modules/plugins/quotes/example_plugin/CommerceShippingExample.class.php	
+D	modules/plugins/quotes/example_plugin/example_plugin.inc	
+D	plugins/quotes/quote_base/CommerceShippingQuote.class.php	
+D	plugins/quotes/quote_base/quote_base.inc	
+A	theme/commerce_shipping.admin.css	eb12b9c8e5c81cfa7399cb481b1cefe1

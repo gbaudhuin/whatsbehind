@@ -1,0 +1,38 @@
+D	README.md	
+A	README.txt	7fccd8a6d1cd0d8eba1b4d62fc36d660
+M	composer.json	de5b9a084e525ca175d125d0e2aa8a96
+D	composer_manager.api.php	
+M	composer_manager.drush.inc	623357ff656a4ea9428ddd65da3fdaa3
+M	composer_manager.info.yml	eecf9747c2928caaf83531f5f39bdd79
+M	composer_manager.install	a0fb3c483d7032121a40a41ce2063a67
+M	composer_manager.links.menu.yml	c45285d1f344f91af25b455d4c022088
+M	composer_manager.links.task.yml	d5f68f15570469bc276555ae38a27478
+M	composer_manager.module	1efba3ad706109ebfd1f95d5f219a5b1
+M	composer_manager.routing.yml	c43da83dc80a464845fb65250a16a203
+M	composer_manager.services.yml	de17d24c12b68787f269769e8d5f35c7
+D	config/install/composer_manager.settings.yml	
+D	config/schema/composer_manager.schema.yml	
+A	scripts/init.sh	fb9d3fa2a3438f9378fb249211c18dfb
+D	src/AutoloaderSubscriber.php	
+A	src/Composer/Command.php	e9457de08b73f03ee66e01945c8c4af2
+D	src/ComposerFile.php	
+D	src/ComposerFileInterface.php	
+D	src/ComposerJsonMerger.php	
+D	src/ComposerManager.php	
+D	src/ComposerManagerInterface.php	
+D	src/ComposerPackages.php	
+D	src/ComposerPackagesInterface.php	
+M	src/Controller/PackageController.php	0f0ba2f0c91f046e9f77ab3182bab102
+A	src/ExtensionDiscovery.php	3c4f76356bc1376327588bb644a429b9
+D	src/Filesystem.php	
+D	src/FilesystemInterface.php	
+D	src/Form/RebuildForm.php	
+D	src/Form/SettingsForm.php	
+A	src/JsonFile.php	789fd0a6cfd6147ef6f09843fab39546
+A	src/PackageManager.php	2471d2794277ce86718df99ec9d8f4eb
+A	src/PackageManagerInterface.php	08aa49eec4b432dedfb3060d7d99970c
+A	src/RootPackageBuilder.php	9b29b599433015e4e8d9a42166b71430
+A	src/RootPackageBuilderInterface.php	836f66980f91e1bf78a39a7608b22d45
+A	tests/src/Unit/ExtensionDiscoveryTest.php	67cfef3915bf5fac318bf0d1d1547659
+A	tests/src/Unit/PackageManagerTest.php	c7c3f819d724b4e97ad5e86f89cc0c42
+A	tests/src/Unit/RootPackageBuilderTest.php	e7f1e9eb8b34a94d380790000f20d42a

@@ -1,0 +1,48 @@
+M	CHANGELOG.txt	962647d055ab971d7297ee0a8a32a00b
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	README.txt	7a689ffa7c7f315132fc15ac16bbb49e
+A	admin_devel/admin_devel.info	2f54785abc181a4a2ffe0f9fb7666edd
+A	admin_devel/admin_devel.js	1aeb8ad281ed07898f6e0b80764adff4
+A	admin_devel/admin_devel.module	9a407bde309d328088e839afd0834c6e
+M	admin_menu-rtl.css	db1103d1dc490eb021e21be5f31373e0
+M	admin_menu.api.php	dcea6b302ceaf6badbcb986479e1ec12
+M	admin_menu.color.css	bb086bcfff2428c3c7704100116c474a
+M	admin_menu.css	53c57c5e139b9c3475402b737b034f8e
+M	admin_menu.inc	2bc56e5583dbfd3a388fd63c7ec7baf9
+M	admin_menu.info	8013d6d17b8b88a2c0e08fb661aa3a7a
+M	admin_menu.install	bc7d2f30aafdf4543def95af349fd59b
+M	admin_menu.js	e5d8fea4cff7ab5c51b609a41e59dd9c
+M	admin_menu.module	282bf04b95018b2d841d47d0de66e5b5
+M	admin_menu.uid1.css	f7103fb48aa87dfe32683b5bc60c8908
+M	admin_menu_toolbar/admin_menu_toolbar.css	fb040ee94f0a4cb2e8877770008691fa
+M	admin_menu_toolbar/admin_menu_toolbar.info	827aa67d2bb24191d350eee5c667164b
+M	admin_menu_toolbar/admin_menu_toolbar.install	5b6f33216c336d526217352872e2edb6
+M	admin_menu_toolbar/admin_menu_toolbar.js	0df0859cdbc6d82f0899b9b09e696973
+M	admin_menu_toolbar/admin_menu_toolbar.module	9397cf1635d20a1ffa53e3d51774729a
+D	admin_views/admin_views.css	
+D	admin_views/admin_views.info	
+D	admin_views/admin_views.install	
+D	admin_views/admin_views.module	
+D	admin_views/admin_views.views.inc	
+D	admin_views/admin_views.views_default.inc	
+D	admin_views/plugins/views_plugin_display_system.inc	
+D	admin_views/views_default/admin_content_comment.inc	
+D	admin_views/views_default/admin_content_node.inc	
+D	admin_views/views_default/admin_content_taxonomy.inc	
+D	admin_views/views_default/admin_user_user.inc	
+M	tests/admin_menu.test	94c866f28f911e711cb0ef19e2547ad3
+D	translations/admin_menu.pot	
+D	translations/da.po	
+D	translations/de.po	
+D	translations/es.po	
+D	translations/fr.po	
+D	translations/hu.po	
+D	translations/ja.po	
+D	translations/ms.po	
+D	translations/nl.po	
+D	translations/pt-br.po	
+D	translations/ru.po	
+D	translations/sv.po	
+D	translations/uk-ua.po	
+D	translations/uk.po	
+D	translations/zh-hans.po	

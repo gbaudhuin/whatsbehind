@@ -1,0 +1,7 @@
+A	composer.json	523dcf24fb7bbc00c0858e1c504772a6
+A	config/schema/smart_trim.schema.yml	df279fa36addc9158f8c361d36fc2d79
+M	smart_trim.info.yml	f05e9fcf94e486e50ea5da2a57ef055c
+M	smart_trim.module	d36721b8aa9b9303600726778eb9cb82
+M	src/Plugin/Field/FieldFormatter/SmartTrimFormatter.php	8fe670f4727910cf3ef89c1d923ed68b
+M	src/Truncate/TruncateHTML.php	703bec70ecf49ccfaf2740e320bcc68f
+M	tests/src/Unit/TruncateHTMLTest.php	7debd03c70a78706cd0cfdc34e45523c

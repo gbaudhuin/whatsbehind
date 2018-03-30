@@ -1,0 +1,14 @@
+M	README.txt	7d371ff3e097f82d8bc3f22ecb4904af
+M	css/taxonomy_manager.css	76fde2b3833d92fdf78597a307792a87
+M	js/hideForm.js	bcf87b082a0717a46956c2c47971f6f2
+M	js/termData.js	d65a324aafba48701df1af44a1ea193e
+M	js/tree.js	ae62ef7beb56294914bb46a02e62d12b
+M	js/updateWeight.js	48e29bf9ca92aafb0a33473dd56d7aee
+M	taxonomy_manager.admin.inc	0263b4c53d7d5f2c912741f2d80f0571
+M	taxonomy_manager.info	c6dde39309bc3bda03723a516a0a1dff
+M	taxonomy_manager.install	ebb4c94a95b851322daf74f728c4616a
+M	taxonomy_manager.module	be227d7fc5222e82e0d34fa14dcf5aef
+D	translations/de.po	
+D	translations/fr.po	
+D	translations/ja.po	
+D	translations/taxonomy_manager.pot	

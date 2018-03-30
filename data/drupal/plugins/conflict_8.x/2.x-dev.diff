@@ -1,0 +1,28 @@
+M	composer.json	286edce6f8ea367633fc83ccfd5ba707
+A	conflict.api.php	e03c42ee383b30b45360cfa7fe2730ce
+M	conflict.info.yml	82295a6ff7a0321d5c63747b398be5df
+A	conflict.libraries.yml	eedee4c8733b41d1cab733464229c861
+A	conflict.module	b1af6b60f7cc0de7135c90a6ca4c9dc3
+M	conflict.services.yml	279f256070f0d19d01985e12437e6426
+A	css/conflict_resolution.css	afa4b798c5041527306aa5630fd35729
+A	js/conflict_resolution.js	e451f43016f6fc8ca50ed6df1e9a0595
+D	src/ConflictAncestorResolverInterface.php	
+D	src/ConflictManager.php	
+D	src/ConflictManagerInterface.php	
+D	src/ConflictResolverInterface.php	
+A	src/Entity/ConflictUIResolverHandlerInterface.php	f42a90812e1edcad5382fc91b9206872
+A	src/Entity/ContentEntityConflictHandler.php	61293af221b3bfa191225443255a336c
+A	src/Entity/EntityConflictHandlerInterface.php	0e3b9d3c46d8aadb1e21d08895850e59
+A	src/Entity/EntityConflictUIResolverHandlerBase.php	0fb7798a14c331fe47baeb83bc3604a4
+A	src/Field/FieldComparator/Annotation/FieldComparator.php	827c0c24b324cb6f0dd5df696dae3667
+A	src/Field/FieldComparator/FieldComparatorManager.php	2248e12219512f5ec9965b3db8e67de9
+A	src/Field/FieldComparator/FieldComparatorManagerInterface.php	abd97a80c9f111aa9ba4019a1bf0188b
+A	src/Field/FieldComparator/FieldComparatorPluginInterface.php	dfeeebfb05de060f16495f6ae788a322
+A	src/Form/ConflictResolutionFormBuilder.php	ae2f23fd312621709ba62619305681af
+A	src/Form/EntityConflictFormHandlerInterface.php	fe5acdc72a1fe4efa25228b34b115232
+D	src/LcaManager.php	
+A	src/Plugin/Conflict/FieldComparator/FieldComparatorPluginDefault.php	0a28460fba689b67b69f7b4f3ce7a252
+D	src/SimpleLcaResolver.php	
+D	src/SimpleMergeResolver.php	
+D	tests/src/Kernel/KernelLcaTest.php	
+D	tests/src/Kernel/SimpleMergeTest.php	

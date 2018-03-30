@@ -1,0 +1,14 @@
+M	CHANGELOG.txt	663f2e16139375307d62ac4a0d1641cd
+M	includes/bootstrap.inc	da4f297491b19e7e57185fcebfb06acf
+M	includes/common.inc	5963ee78bdb225d12e4422b3a89c6af4
+M	includes/path.inc	d502259bc6f970553d08918f4fcbd3e0
+M	includes/xmlrpcs.inc	f906616b5de7019cc607372e0d8dea71
+M	modules/file/file.module	726b70c1be67397c3c34f019d9d019a4
+M	modules/file/tests/file.test	95551cb5f542a6166520e2d358283b4d
+M	modules/simpletest/tests/common.test	93b775f58155b57eb515fd06a40bd432
+M	modules/simpletest/tests/common_test.module	332095d3049c6293fd7afeafefa5c019
+M	modules/simpletest/tests/xmlrpc.test	fde67b0edbff7fe37efa4772002ed1ac
+M	modules/system/system.admin.inc	ecb6db7cb5222af61f0cd535c53ebc50
+M	modules/system/system.js	b76ec89bcf685056910a033eaa1adbdf
+M	modules/system/system.test	74cf8d420f5aa2d639b60719731e14cd
+M	modules/user/user.module	53fdca6afb94ad9ce1e1c72813dfa241

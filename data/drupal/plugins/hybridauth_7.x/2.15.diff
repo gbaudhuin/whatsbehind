@@ -1,0 +1,36 @@
+M	README.txt	ca0f7424814bae346099f448b831fa9f
+M	hybridauth.admin.inc	15e52705a166946391f3256d46adb1d8
+M	hybridauth.info	5c94b14845967023c67c87868f8e5cf0
+M	hybridauth.install	d30f0cd9ebed379a4f6274bc3d758c66
+A	hybridauth.make	912095588978937ec542980a12dc3992
+M	hybridauth.module	f9d5d26664e74fca0b17ae705ca50357
+M	hybridauth.pages.inc	ba7472e51b1d4ca2ac05d6b8e04a8718
+M	hybridauth.theme.inc	34d70b19d836222242b5d12ca93f9508
+M	hybridauth.variable.inc	8c69386100d87945d95f4d7ba0821b29
+M	hybridauth_bonus/hybridauth_bonus.info	a8d2ad0e9fa15433a01dd681dc4ff9d6
+M	hybridauth_ulogin/hybridauth_ulogin.info	403a30a8f351470dcccf72c7887457fe
+M	plugins/icon_pack/hybridauth_16/hybridauth_16.css	144f92003604cd6872d3e345cab97883
+A	plugins/icon_pack/hybridauth_16/icons/drupaloauth2.png	f43bcfd41d6bb60be3fdab546df1b374
+A	plugins/icon_pack/hybridauth_16/icons/xing.png	16feeed962ab71e79d7555d0da36f616
+M	plugins/icon_pack/hybridauth_24/hybridauth_24.css	eeeed9ba8596e20b5aad249c35acd427
+A	plugins/icon_pack/hybridauth_24/icons/drupaloauth2.png	4f4e03b0c039d12fdaf9a2664f969741
+A	plugins/icon_pack/hybridauth_24/icons/xing.png	60fab5b7b2d9c4294180877edb06f538
+M	plugins/icon_pack/hybridauth_32/hybridauth_32.css	ca7b12813ff695c4e76f71a21e6b04e4
+A	plugins/icon_pack/hybridauth_32/icons/drupaloauth2.png	597f2bcbdf361cf28c157287bc78eb00
+A	plugins/icon_pack/hybridauth_32/icons/wargaming.png	e865ca217b0969a672fc47f3a083c278
+A	plugins/icon_pack/hybridauth_32/icons/xing.png	104904de7c61ff08a896d4df734029c6
+M	plugins/icon_pack/hybridauth_48/hybridauth_48.css	299476346cc7851260e7434f72144917
+A	plugins/icon_pack/hybridauth_48/icons/drupaloauth2.png	16f72cfa7a89f0e3a763d580593394a3
+A	plugins/icon_pack/hybridauth_48/icons/xing.png	b5f59f04a3d328186addcb91cfd2cf9a
+M	plugins/icon_pack/zocial/zocial.inc	8e3d51dbb0f530135849558b8ebe4958
+A	plugins/provider/DigitalOcean/DigitalOcean.inc	71508738194990dcf5e3e5a6b7acc7e5
+M	plugins/provider/DrupalOAuth2/DrupalOAuth2.inc	2d4103e41a8febe4f4246e17095b7522
+D	plugins/provider/DrupalOAuth2/drupaloauth2.css	
+D	plugins/provider/DrupalOAuth2/icons/drupaloauth2_16.png	
+D	plugins/provider/DrupalOAuth2/icons/drupaloauth2_24.png	
+D	plugins/provider/DrupalOAuth2/icons/drupaloauth2_32.png	
+D	plugins/provider/DrupalOAuth2/icons/drupaloauth2_48.png	
+M	plugins/provider/LinkedIn/LinkedIn.inc	6cd2410f934b656f5c114e41b13e5575
+D	plugins/provider/WarGaming/WarGaming.inc	
+D	plugins/provider/WarGaming/icons/wargaming.png	
+D	plugins/provider/WarGaming/wargaming.css	

@@ -1,0 +1,13 @@
+M	access_unpublished.info.yml	b61ca7024c58cf0ce723421709443d79
+M	access_unpublished.module	db9783bdd7721434c91616e4e20cebb3
+A	access_unpublished.services.yml	fd20a215e36a015e90f9aed0be923822
+A	access_unpublished.tokens.inc	d97de467e5f56ce21e5e2c4dae496b7e
+A	src/Access/LatestRevisionCheck.php	c845dc91f21348c5e9cfd839ae5d187a
+A	src/AccessTokenManager.php	6752e047ce94edff71451d7e536a0d53
+M	src/AccessUnpublishedPermissions.php	1ea22260988aaba595dd9387025580a3
+A	src/AccessUnpublishedServiceProvider.php	c5451f4516ed70771eb559237b6b9a93
+M	src/Form/AccessUnpublishedForm.php	e60899c1681ac9ea0f03e02d2d703e31
+A	tests/src/Functional/AccessTest.php	35a00325ae852bae1b4d68d41504b5bc
+A	tests/src/Functional/ContentModerationAccessTest.php	c84d2cff50416822646d0f32d60e6416
+D	tests/src/FunctionalJavascript/AccessTest.php	
+A	tests/src/Kernel/TokenTest.php	e92fc011fca015bd18b14d2683974ff1

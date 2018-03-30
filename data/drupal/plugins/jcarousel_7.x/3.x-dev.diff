@@ -1,0 +1,12 @@
+M	README.txt	bae68c2a376b03f37365ea9a301297cf
+A	css/jcarousel.css	2f885e44cd791ade447016b16cb7f81c
+D	includes/jcarousel-view.tpl.php	
+M	includes/jcarousel.views.inc	424c58daf6dc320548f1207967b1bca7
+M	includes/jcarousel_style_plugin.inc	092cb67addd26b727a8457afcc5b05ff
+A	includes/views-view-jcarousel.tpl.php	dea99bdc5b2afa2c1583261556663394
+M	jcarousel.info	c8004a31e52a3fb7ce7a190c8a01666f
+M	jcarousel.module	fbbc8c5c6d55f5dfd00960909bf15c59
+M	js/jcarousel.js	71137f2dc04fe2983609a2b350f6f51b
+D	js/jquery.jcarousel.js	
+D	js/jquery.jcarousel.min.js	
+M	skins/default/jcarousel-default.css	48b85ca4409510a45980980fbd06f3ae

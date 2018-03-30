@@ -1,0 +1,28 @@
+M	config/install/sitemap.settings.yml	08c4840d81abcf614df283e9e90d1001
+M	config/schema/sitemap.schema.yml	993906aff33759e24b852457e414df2d
+M	css/sitemap.theme.css	f4f67594b12e23635586c3f73bd9a0aa
+A	js/sitemap.admin.js	2672fccadfdd13aa98a697221c6269b3
+D	sitemap.admin.js	
+M	sitemap.config_translation.yml	1fec29c0d42cb391f5b5196907502e43
+M	sitemap.info.yml	bee41059c9113e0960de61eb9bd7ae03
+M	sitemap.libraries.yml	34d5c1fff83319fa355215c0d02e54b0
+M	sitemap.module	eb9833d55f0d5ad23d1c46c457dc1d8b
+M	sitemap.routing.yml	f01b72d0ce6254482d03b0f5cd7ec162
+M	sitemap.services.yml	2440408197be28dc8ccdbeb9eb753094
+M	sitemap.theme.inc	d12ec7ed767ff1a525f8907f38000753
+A	src/Annotation/Sitemap.php	d975e76726e17659c204c04c9b129a72
+M	src/Controller/SitemapController.php	e8d4702bf837f2e7280e63a93fdc37d6
+M	src/Form/SitemapSettingsForm.php	6a10f7630feaa08f83284b36bddc64be
+D	src/Plugin/Block/SitemapBlock.php	
+A	src/Plugin/Derivative/SitemapMenus.php	2d72dabf811425edcb51f539e98c290e
+A	src/Plugin/Sitemap/SitemapFrontpage.php	8471d88cbe2f9e7025b9d086d10c35f6
+A	src/Plugin/Sitemap/SitemapMenus.php	3e2a4dcba9b2b202d4aecc8dbb521c2f
+A	src/SitemapBase.php	10b46fcbc9b6449301c0cdac41acd36b
+A	src/SitemapInterface.php	b15bbf7741a53debee1ae82dd08f94a3
+A	src/SitemapManager.php	43c1fccca009607c87065677d450a776
+M	src/Tests/SitemapContentTest.php	8d514316d37092f26f8519c6862a3606
+M	src/Tests/SitemapCssTest.php	8937b8ed35951288690128aa247aa1b1
+A	src/Tests/SitemapTest.php	792ee5228689eb915c2009f2ba2878b8
+A	src/Tests/SitemapTestBase.php	420387016033ff9122fc6a6ce9f51432
+A	templates/sitemap-item.html.twig	e4b49e6e0ba7cffddc33aa8fc27e6187
+M	templates/sitemap.html.twig	e33954774d91e164765927226b6ebfd6

@@ -1,0 +1,19 @@
+D	.DS_Store	
+M	CHANGELOG.txt	8fbd34e044e8025acce671f6cec1856c
+M	includes/base.inc	51e2fbdf816b720ee194c3616fcff30d
+M	includes/field_mapping.inc	d9722c0e34326b28f1e1953b05212ef6
+M	includes/migration.inc	5f43e16345e38cd8e8a26debef33dd83
+M	migrate.info	44a1ffa10593684aa0b7a7207803b289
+M	migrate.install	65e6fd284efabba859d447e20d1cf7ec
+M	migrate_example/beer.inc	6ae868a200136e4387631edbdb762983
+M	migrate_example/migrate_example.info	8e364a05616b7e2c30654c5b34733a5e
+M	migrate_example/migrate_example_oracle/migrate_example_oracle.info	5690f0054dc556bf1b6368fdee7e43d2
+M	migrate_example/wine.inc	03dff234cf980d94cdb71562527efe95
+M	migrate_example_baseball/migrate_example_baseball.info	2a9f4389cc7b0a62472db16c6a2158a3
+M	migrate_ui/migrate_ui.info	fa80c42c0439a2047b97717185ab397d
+M	migrate_ui/migrate_ui.module	88b9a83e10a42a53679f42f71eb6df47
+M	migrate_ui/migrate_ui.pages.inc	fca8c887558ebf6274dfb185d1bf1aca
+M	migrate_ui/migrate_ui.wizard.inc	1f04ab1b7373f645cc3ad736302fbac8
+M	plugins/destinations/fields.inc	20d3c293cf5aef803c79df1dcc7c2011
+M	plugins/destinations/file.inc	8bd5e35e19e6c9787aa261752135ba15
+M	plugins/sources/xml.inc	552fc9ef03f3ddd26840f828526a5371

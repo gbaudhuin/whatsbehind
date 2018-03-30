@@ -1,0 +1,8 @@
+A	images/add-rtl.png	92149f44cd6628b837ea3eb85ada390b
+A	images/remove-rtl.png	45dd473e2395bdf20e620318dbd56a3d
+A	multiselect-rtl.css	4ba3cbd623106aff628723f3cf402aab
+A	multiselect.admin.inc	22a279e71b259b815c02fba0740bbe1f
+M	multiselect.info	1a1d7dac62c6c824f4ddf26e91225486
+M	multiselect.js	64b9c45d85f77cb034f8e9720040b36a
+M	multiselect.module	90653ec0a1eb3aabfb3073b22294a3fd
+M	multiselect_fapi_example/multiselect_fapi_example.info	f3d3ce6fc82dc9935a52d57d30488456

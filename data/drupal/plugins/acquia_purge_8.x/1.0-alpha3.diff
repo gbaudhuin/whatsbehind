@@ -1,0 +1,6 @@
+M	PROJECTPAGE.md	adf755c424ce31baca6e48e0a529c98e
+M	README.md	adf755c424ce31baca6e48e0a529c98e
+M	acquia_purge.info.yml	f033ad87f31b8a705e22cbd30008aa45
+M	src/Plugin/Purge/DiagnosticCheck/AlphaProgramCheck.php	371866a6e7bed3c0b598e339e2d7b3ab
+M	src/Plugin/Purge/Purger/AcquiaCloudPurger.php	5e199363af546edde86e6c9f4f3c0357
+M	src/Plugin/Purge/TagsHeader/AcquiaPurgeTagsHeader.php	85c61fa0760a95e685b62b53de4b6708

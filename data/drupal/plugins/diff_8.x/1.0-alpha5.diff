@@ -1,0 +1,69 @@
+A	README.txt	2cb54ee3d43fc07dce3240c2d8c6b78f
+A	composer.json	f5a53656cc7d2392132904b4909d36eb
+M	config/install/diff.settings.yml	0e26fe7c39a7044bad3c09ddaf9e854b
+M	config/schema/diff.schema.yml	b7f02cd52f15eae4e435dd42d1826ae5
+A	css/diff.colors.css	e056f9b384f5533babf7c4bf9ceb28e3
+D	css/diff.default.css	
+A	css/diff.double-column.css	50fb55ab4ac9c8bb6a39c9e4bf7408f8
+M	css/diff.general.css	b52f6c917ef2924fe396da50add3e261
+D	css/diff.github.css	
+A	css/diff.single-column.css	b5c526faa847d1d994863e8d38d7e18f
+A	css/diff_html.css	cb1a9a875abefc14e5a6db805e1379be
+M	diff.api.php	982e1271eda7c1d4725af3d307b96baa
+M	diff.info.yml	22e4e94f9a316ad1d6a0b7e717cbb61f
+M	diff.install	9e28594690ecb446eb02830d3769e5e5
+M	diff.libraries.yml	7e56273ed4f4c6a58331f21aa3c2f812
+M	diff.module	0e0937149a013b7042a858491b4aeb9b
+M	diff.routing.yml	53e25d982f99ff22971157f9fb09288c
+M	diff.services.yml	1dad086ffa0bbe37b6ee4c3c3677178c
+A	src/Annotation/DiffLayoutBuilder.php	93d2ccb4eb51b1cabe32599163094d1e
+M	src/Annotation/FieldDiffBuilder.php	e5a34e0a298906c311a4c4c2ab04977e
+D	src/Controller/GenericRevisionController.php	
+M	src/Controller/NodeRevisionController.php	0e14bae40d357d0906edf320744d77d8
+A	src/Controller/PluginRevisionController.php	3e190420d030607dffedd6d762d7fa00
+D	src/DiffBreadcrumbBuilder.php	
+M	src/DiffBuilderManager.php	6c31a7f1f90463799fe4435e4116ee6a
+A	src/DiffEntityComparison.php	93de1f244a1fd2dff1fb6542a646e1eb
+M	src/DiffEntityParser.php	228daccdbc90d9c278f2a44bbf608801
+A	src/DiffLayoutBase.php	3ee4fdd3b01b6cab1767d1db2eaa4b3b
+A	src/DiffLayoutInterface.php	6caed7a8cbd597aa20eaeeda1685e14d
+A	src/DiffLayoutManager.php	1cc26cd67ec3542d90c9574e09c34d98
+D	src/EntityComparisonBase.php	
+M	src/FieldDiffBuilderBase.php	2d600ceabeb90e73d0a3839a24e38eb8
+M	src/FieldDiffBuilderInterface.php	e42a1fa1ab392fd4bef377a80a199a2e
+M	src/Form/FieldsSettingsForm.php	7f401bc5422d000990c893546d299661
+M	src/Form/GeneralSettingsForm.php	48762b5d74970d35a8c0e5729ee2540f
+M	src/Form/RevisionOverviewForm.php	702dfc030e80693b6038f7d2c7b1a097
+D	src/Plugin/Diff/CommentFieldBuilder.php	
+D	src/Plugin/Diff/CoreFieldBuilder.php	
+D	src/Plugin/Diff/EntityReferenceFieldBuilder.php	
+D	src/Plugin/Diff/FileFieldBuilder.php	
+D	src/Plugin/Diff/ImageFieldBuilder.php	
+D	src/Plugin/Diff/LinkFieldBuilder.php	
+D	src/Plugin/Diff/ListFieldBuilder.php	
+D	src/Plugin/Diff/TextFieldBuilder.php	
+D	src/Plugin/Diff/TextWithSummaryFieldBuilder.php	
+A	src/Plugin/diff/Field/CommentFieldBuilder.php	94314353b376f3d1c16aebd58a948fd7
+A	src/Plugin/diff/Field/CoreFieldBuilder.php	315286bc434c97dc0e5b1794e70dc5b1
+A	src/Plugin/diff/Field/EntityReferenceFieldBuilder.php	144212c0d99cad7bd957341dcc3df766
+A	src/Plugin/diff/Field/FileFieldBuilder.php	0f4905f81c9096ce3cfd75a7bff4ddb6
+A	src/Plugin/diff/Field/ImageFieldBuilder.php	445e4eb4d0e0b696c6b46b94412461a1
+A	src/Plugin/diff/Field/LinkFieldBuilder.php	c6443da3a02994a21118d29c63525191
+A	src/Plugin/diff/Field/ListFieldBuilder.php	146786ecfe0394fff02d66dc830c6b86
+A	src/Plugin/diff/Field/TextFieldBuilder.php	26b50b5ff91787587ffff1732efe6b3b
+A	src/Plugin/diff/Field/TextWithSummaryFieldBuilder.php	db926ee1ec17cb7383d71b62f2d1d0d1
+A	src/Plugin/diff/Layout/ClassicDiffLayout.php	ec4db1a59abebb0981c8c12346a8325c
+A	src/Plugin/diff/Layout/HTMLDiffLayout.php	22151b5fa5dc0a8e17fd17995ce4d3e9
+A	src/Plugin/diff/Layout/SingleColumnDiffLayout.php	a725c5777f03d7497641998bc61ce25f
+M	src/Plugin/views/field/DiffFrom.php	d177bd9e18e6a853921f8a2cfdb5ca2d
+M	src/Routing/DiffRouteProvider.php	8962616e4fcc3f6250f53d804f6d4fdd
+M	src/Tests/AdminFormsTest.php	2af214b6a67cc5092e5ebace860a588f
+M	src/Tests/DiffLocaleTest.php	5fab32fd165ac4b023177dac51f9f1b8
+M	src/Tests/DiffPluginTest.php	42733e01060eb08090b942818a28321b
+M	src/Tests/DiffRevisionTest.php	2c12fcfdaaf6e65d125882499f6446aa
+M	src/Tests/DiffViewsTest.php	6ba107abde19d5450ed471b39703fa73
+M	tests/modules/diff_test/config/install/views.view.test_diff_view.yml	820a13730b3e2f938a11df46db4a17e2
+M	tests/modules/diff_test/diff_test.info.yml	4c88671c5f4f23d55165d615a28934ff
+M	tests/modules/diff_test/diff_test.module	9985d188565b5208c2065ddebbd0b706
+A	tests/modules/diff_test/src/Plugin/diff/Field/TestHeavierTextPlugin.php	687cd048df117d3a6e9d93bb6cfa6b34
+A	tests/modules/diff_test/src/Plugin/diff/Field/TestLighterTextPlugin.php	813760663ec7acf8b528c974eb8fb4d1

@@ -1,0 +1,4 @@
+M	src/Routing/RouteSubscriber.php	eb3bbe40cd83f88957c1c18c5197fdad
+A	src/TermAccessFixTermControlHandler.php	3aaf73c98b3f700fae0572ff9256121d
+M	taxonomy_access_fix.info.yml	e06127341a66b4acd423bba3913b29a1
+M	taxonomy_access_fix.module	96d7be4ad48a3c14cec0e65b02d3f11c

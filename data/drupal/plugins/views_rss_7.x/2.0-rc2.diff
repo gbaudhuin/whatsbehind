@@ -1,0 +1,8 @@
+M	modules/views_rss_core/views_rss_core.inc	b20b2200beacc40bf60992bf23579bfd
+M	modules/views_rss_core/views_rss_core.info	fc3a5795a8b81094eda36ed4caea5e57
+M	modules/views_rss_core/views_rss_core.module	244153e22b489f26efac456595fd114f
+M	modules/views_rss_dc/views_rss_dc.info	2dd5621f8b04aea423ad3680c5f5a3b9
+M	modules/views_rss_dc/views_rss_dc.module	1174635a17bcb6cd50d6612dd7ab80a2
+M	views/views_rss_plugin_style_fields.inc	5d4bfafa3b4cea9b89aefb25bc8267cf
+M	views_rss.info	8dd4883a6da626e187f6af619078a7aa
+M	views_rss.module	fbcab00496826b16dbe12ab3164880b5

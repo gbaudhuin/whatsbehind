@@ -1,0 +1,5 @@
+M	smart_trim.info.yml	e0d84944d81ace527986cb06ea9a3d0d
+M	smart_trim.module	8259a0a5b06b77382d6d01c14f9aaf68
+M	src/Plugin/Field/FieldFormatter/SmartTrimFormatter.php	e203f9143edb3b4c31d22cd3488e6fd7
+M	src/Truncate/TruncateHTML.php	8b6c851084bd255e0ddd0e0e45a9e43f
+A	tests/src/Unit/TruncateHTMLTest.php	e3a1fe3373b1744e5a978a54c6cd263c

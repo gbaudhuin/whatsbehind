@@ -1,0 +1,4 @@
+M	config_provider.info.yml	b2228dc6bf70f271efb8470ddbc277ab
+M	config_provider.install	cd7a49d47fdf9eb00295cd06fb175b32
+M	config_provider.services.yml	2b7bd7f38c6f35380b24a7e070c33fcb
+M	src/Plugin/ConfigCollector.php	6a87b19fdd7312798d3097289e71f6af

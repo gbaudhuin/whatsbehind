@@ -1,0 +1,8 @@
+M	social_login.info.yml	b47f1d3158d2c388ab62231d60f43c38
+M	social_login.module	1152b91ed66bf8bf11d43e7a14f4d88a
+M	social_login.routing.yml	ec56eaad4c2451ef3938e2214ec746e6
+M	src/Controller/SocialLoginCore.php	13b734b6e9fb2daf5bdedc656438dcca
+A	src/Form/SocialLoginBlockForm.php	84f146651ba9db8ed2740fa3dfafd842
+A	src/Plugin/Block/SocialLoginBlock.php	65775531824607da61db870882f1e126
+D	templates/block-provider-container.html.twig	
+D	upgrade-info.html	

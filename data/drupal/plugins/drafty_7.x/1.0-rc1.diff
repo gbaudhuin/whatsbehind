@@ -1,0 +1,27 @@
+A	CHANGELOG.txt	7aa7aa1816f3b66ca79fea3b46085d1f
+D	README.md	
+A	README.txt	b83dd59ebaf2123cb7eb7f4cdfa0d336
+M	drafty.api.php	5820fc2d481cafb87114da02528018bd
+M	drafty.info	33993938f2a3d2580dac4fd33cf29c8f
+A	drafty.install	e66fe8c6b82e9a478c6a287334dc05ac
+M	drafty.module	93101e8f042a0612b1fef7ff0dbcc849
+A	includes/drafty.admin.inc	774c6d9dbe0c24319e45f63f804cd54e
+A	modules/drafty_1992010/Drafty1992010Test.test	9c228a3688b2fdd3701cd7b5c7236898
+M	modules/drafty_1992010/drafty_1992010.info	b49460ed8675bd392ee49889269ea3ee
+M	modules/drafty_1992010/drafty_1992010.module	b98299df19f9bf694316806478d0452f
+D	modules/drafty_1992010/drafty_1992010.test	
+A	modules/drafty_enforce/DraftyEnforceTestCase.test	1b8f1ab51fdd6d87babf0949c31d9400
+D	modules/drafty_enforce/drafty_enforce.api.php	
+M	modules/drafty_enforce/drafty_enforce.info	5235c05f80034a95c919452a76bc6a0e
+M	modules/drafty_enforce/drafty_enforce.module	c75250a7bb9376563e058b418c3775ce
+D	modules/drafty_enforce/drafty_enforce.test	
+A	tests/DraftyEntityTranslationTest.test	5b5b6f9a9bf2b1487d919034aebeb6d5
+A	tests/DraftyFieldCollectionTest.test	48537737f9163265841ec3cb97ccfc13
+A	tests/DraftyTestCase.test	605a3b09c6c1f092685e3179d8de39f5
+A	tests/DraftyTitleTestCase.test	980bb3406bc78e93f347168acd0eb7ca
+A	tests/DraftyWebTestCase.test	201e431606e1d98649ccd21612c7ad59
+A	tests/DraftyWorkbenchModerationTests.test	7022c821c7e134f87960d3c8779f0039
+D	tests/drafty.entity_translation.test	
+D	tests/drafty.field_collection.test	
+D	tests/drafty.test	
+D	tests/drafty.title.test	

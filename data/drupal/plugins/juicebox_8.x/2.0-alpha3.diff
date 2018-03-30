@@ -1,0 +1,16 @@
+A	css/admin_styles.css	09d28a7fc543145cd7b4d67d969e57fb
+D	images/mimetypes/application-octet-stream.png	
+D	images/mimetypes/audio-mpeg.png	
+D	images/mimetypes/audio-x-generic.png	
+A	images/mimetypes/audio.png	20c5cc061bb452e01c59407eacb7268b
+D	images/mimetypes/file-unknown.png	
+A	images/mimetypes/general.png	55aa2c4ed250ef2e6c101b591f48dd72
+D	images/mimetypes/image-x-generic.png	
+A	images/mimetypes/image.png	161fb4d28544c764d368aaaeb8dc87a0
+A	images/mimetypes/text.png	55aa2c4ed250ef2e6c101b591f48dd72
+D	images/mimetypes/video-x-generic.png	
+A	images/mimetypes/video.png	10ba293ec1702621ccbf8b8eb7382b8f
+M	juicebox.info.yml	ecb21df1d028453fe0df4da4554932b0
+M	src/JuiceboxGalleryDrupal.php	90cee9a921d2872ccf6483bc7548f2f4
+M	src/Plugin/Field/FieldFormatter/JuiceboxFormatter.php	3dd57954f7a827ef9d88d6c4ab3161e8
+M	src/Tests/JuiceboxFileCase.php	09cdf0f6c27cc9606dffa845963b88d8

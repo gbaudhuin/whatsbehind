@@ -1,0 +1,6 @@
+M	date_ical.info	2fe68f4740d1667e8e1be2d0292c1582
+M	date_ical.module	2e362b36cac06236b3b880e1f92dc9be
+M	includes/date_ical_plugin_row_ical_entity.inc	bfd9d1e16ef61af5f9f9bfbc69a699d4
+M	includes/date_ical_plugin_style_ical_feed.inc	263e0d5e8e9b1eebebcf9864f92715bd
+M	libraries/ParserVcalendar.inc	dbe3ebcfccf89c7c763f2290f4c54449
+M	libraries/windowsZones.json	bc8bfa2491143841d512b7b7270c890f

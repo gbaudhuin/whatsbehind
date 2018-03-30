@@ -1,0 +1,10 @@
+M	page_manager.info.yml	326670be7ff492811417b98110cdc00d
+M	src/Controller/PageManagerController.php	43be2aa18a1aefc80a535dce585657d2
+M	src/Entity/Page.php	72dd2fc3400221611489cf0efa1855a5
+M	src/Entity/PageListBuilder.php	5d6ae830fc7ccffd3b17b387b838a6b9
+M	src/Form/DisplayVariantEditForm.php	106ca9a2002a0c134c71e30f72e85b42
+M	src/Form/PageEditForm.php	6be59882e6a1fd7d2931cc8e35c365fc
+M	src/Form/PageFormBase.php	8f94ef1e36c6d4fd09dc623d362d32ed
+M	src/Plugin/DisplayVariant/BlockDisplayVariant.php	ae5939cf46ed8fbfb59f3a09656122c3
+M	src/Tests/PageManagerAdminTest.php	d4312aaa8fb4f60a1961aa8672b9fec1
+M	tests/modules/page_manager_test/page_manager_test.info.yml	0f1f7f3dd508d054d9db513ad2b882d0

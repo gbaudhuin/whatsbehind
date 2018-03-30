@@ -1,0 +1,4 @@
+M	jquery_colorpicker.info.yml	a73aab67b969f7e6a02cc41ac14d40db
+M	src/Element/JQueryColorpicker.php	7dc78f5f541bdc26c73751b99f5a19cd
+M	src/Plugin/Field/FieldType/JQueryColorpickerItem.php	55bccd7ccd2f47923889ba9e6aa04a2c
+M	templates/jquery-colorpicker.html.twig	62b2bf947fc5a6cdcf051fd5da354987

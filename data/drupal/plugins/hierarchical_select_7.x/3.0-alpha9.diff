@@ -1,0 +1,14 @@
+M	README.txt	450084c7b97ab391aea9f26c839ddf9a
+M	hierarchical_select.features.inc	68cf949b7196909bbe9035d12ba56047
+M	hierarchical_select.info	345cfaa280cbb9d678425bad6fa44a1d
+M	hierarchical_select.js	702c3a8882f191589eca6828d7cd724e
+M	hierarchical_select.module	c42229f39c9b6b356a922f8219191bb5
+M	includes/common.inc	4cb0e9ab2f98698f59387e98acff827d
+M	modules/hs_flatlist.info	99a3ddb185c063971abab0aaf5621420
+M	modules/hs_menu.info	75e4dfca1accdcbcab24c59e12492c18
+M	modules/hs_smallhierarchy.info	a96dc363779dd694a2c306c6b08eb1ee
+M	modules/hs_taxonomy.info	da77f793a56bc7ec09f5331dad2c26b6
+M	modules/hs_taxonomy.install	709b8d81b7316419513d10581518da8b
+M	modules/hs_taxonomy.module	3a6b7931a431626a60a1da7465c8f1ac
+M	modules/hs_taxonomy_views.info	cb78633bb45f940973249e666969ea96
+M	modules/hs_taxonomy_views_handler_filter_term_node_tid.inc	a81d3dd740277c9f9bca0ddfa75ba51b

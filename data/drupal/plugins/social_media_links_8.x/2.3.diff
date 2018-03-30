@@ -1,0 +1,11 @@
+M	social_media_links.info.yml	169a5abcad3cfd66a4cbdb31add4dc17
+M	social_media_links.module	e8c94459f74b8fe5bfaf82785c0989fd
+M	src/IconsetBase.php	0f00c7b896ad3304c77271b6025f0a1d
+M	src/IconsetFinderService.php	1ad22a35be4651c0b5751dcdfafaa9b0
+M	src/Plugin/Block/SocialMediaLinksBlock.php	8625e89398e309f58b4096301bce6402
+M	src/Plugin/SocialMediaLinks/Iconset/ElegantThemes.php	4403b13f4fbbc0b39c0f47329287f65d
+M	src/Plugin/SocialMediaLinks/Iconset/FontAwesome.php	cd3180d6d0bfe8397043f4ec8e2ba62f
+M	src/Plugin/SocialMediaLinks/Iconset/Nouveller.php	87d610469df5b4f568ae53d16e5e91d9
+M	src/Plugin/SocialMediaLinks/Iconset/Webtoolkit.php	2ba7b26b5ed9ae5dbae2386921f97934
+M	src/SocialMediaLinksIconsetManager.php	e69e1bcc9a47a1977c17cce5ab47e857
+M	src/SocialMediaLinksPlatformManager.php	c948895cfbc1c016aac7949970069e81

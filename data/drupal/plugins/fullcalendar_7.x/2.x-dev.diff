@@ -1,0 +1,10 @@
+M	fullcalendar.info	a1047c7b13af0dc3b14a86983932cf60
+A	fullcalendar.make	f7b1c3007afc6763b89bb045110b4888
+M	fullcalendar_colors/fullcalendar_colors.info	fa88ff23af601510172364893a5f216b
+M	fullcalendar_legend/fullcalendar_legend.info	f3bf6c2a9852005bb50f01900cda6735
+A	fullcalendar_options/README.txt	6d8410bcbbef89825fa51e20e3404005
+M	fullcalendar_options/fullcalendar_options.info	e8cf6c8fd59ea87ecb975ab71d74e267
+M	includes/views/fullcalendar.views.inc	a33b916faf7fa8f627fa386574e59882
+M	js/fullcalendar.ajax.js	b4f85c5037a2c9ef1174874983ac8cb6
+M	js/fullcalendar.library.js	c0c4e0de779d95547f859959d5c63ecb
+M	theme/theme.inc	6e86ef53ef81e650e25d96e531b846c7

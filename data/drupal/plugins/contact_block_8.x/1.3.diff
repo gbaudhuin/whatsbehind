@@ -1,0 +1,4 @@
+A	config/schema/config_block.schema.yml	11299d454bc9e26d3faaaedc005f4396
+M	contact_block.info.yml	a1d3eac7a2dabd24eed145d6927e25d8
+A	contact_block.links.contextual.yml	a78a25f777b517700c1dc5e2f7de4ac1
+M	src/Plugin/Block/ContactBlock.php	cebe9406b5322ca67fb1761de751f2bc

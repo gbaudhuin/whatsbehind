@@ -1,0 +1,288 @@
+M	payment/uc_2checkout/config/schema/uc_2checkout.schema.yml	5cc89ef863f1f7923881d8afacb63926
+A	payment/uc_2checkout/css/uc_2checkout.css	24007ee432f16e2cde1c5e03ed8b5829
+D	payment/uc_2checkout/src/Form/TwoCheckoutForm.php	
+M	payment/uc_2checkout/src/Plugin/Ubercart/PaymentMethod/TwoCheckout.php	b83d4580f1c8209580c3f59a2cbcc66b
+M	payment/uc_2checkout/uc_2checkout.info.yml	289a7b341a3f358397aeabb02a9f2089
+M	payment/uc_2checkout/uc_2checkout.libraries.yml	a21899f307345afbd88a9ddbc69022e4
+M	payment/uc_authorizenet/uc_authorizenet.info.yml	91d5c32d1cb7c17b3559ebff7d88db68
+M	payment/uc_authorizenet/uc_authorizenet.module	5909bb0046f046e5ff0908fe7c3ebd2a
+A	payment/uc_credit/config/schema/uc_credit.schema.yml	253a32e49885ad3ace7456870d3c75ec
+A	payment/uc_credit/css/uc_credit.css	5de4f7b104f0390fae4ab6a1a1554f4e
+M	payment/uc_credit/js/uc_credit.admin.js	802568513d517c3dc1f53a35951a3ea4
+M	payment/uc_credit/src/Controller/CreditController.php	563f6bee60700bccfe06489f304c386d
+M	payment/uc_credit/src/CreditCardPaymentMethodBase.php	fd1edcfa02b1c629657c3be246ca0e02
+M	payment/uc_credit/src/Form/CreditCardTerminalForm.php	7faad28ada4dbff702217411a49fde3a
+M	payment/uc_credit/src/Form/CreditSettingsForm.php	88284c9de5e89e97343dd35becae38d9
+A	payment/uc_credit/src/Plugin/Ubercart/PaymentMethod/TestGateway.php	decb7b2ab2bd8a674adeb554f374a895
+M	payment/uc_credit/src/Tests/CreditCardTest.php	e3df656722d1825e9cbaf2deddb40dd2
+D	payment/uc_credit/tests/src/Plugin/Ubercart/PaymentMethod/TestGateway.php	
+D	payment/uc_credit/tests/test_gateway.info.yml	
+D	payment/uc_credit/tests/test_gateway.module	
+M	payment/uc_credit/uc_credit.info.yml	05e0e85e974b530be7f6d3e9c2909520
+M	payment/uc_credit/uc_credit.libraries.yml	aecf06eae3d8ed89793bc9b866c59691
+M	payment/uc_credit/uc_credit.module	70003a927bc494ef9a13eef45a9ec96c
+M	payment/uc_credit/uc_credit.theme.inc	fd92cf9b47abc636cfa0545d98679cc8
+M	payment/uc_cybersource/uc_cybersource.info.yml	e2410f86373e3417b6ccff2b361f4f74
+M	payment/uc_cybersource/uc_cybersource.module	15911468906adc7f6a1ed019ebed6fcc
+M	payment/uc_payment/config/install/uc_payment.method.free_order.yml	b2d1ff4b11088b091aa2474cf2e235d8
+A	payment/uc_payment/config/schema/uc_payment.schema.yml	c146954c4bb4edb8d86ff06a123d6699
+M	payment/uc_payment/css/uc_payment.css	054a3acf6be46b50a80d2d04bcdf5188
+M	payment/uc_payment/src/Entity/PaymentMethod.php	7f23d49bab5616568dd922f0ae44d69e
+A	payment/uc_payment/src/Form/OffsitePaymentMethodForm.php	ef513a01305653623df820d5ebddeb15
+M	payment/uc_payment/src/Form/OrderPaymentsForm.php	9723ba664629699a75a6a4f862cc090a
+A	payment/uc_payment/src/OffsitePaymentMethodPluginInterface.php	44526d53663ecb3517ef77036c23a3d2
+M	payment/uc_payment/src/PaymentMethodInterface.php	c13098869567ae66f40957890688ad2c
+M	payment/uc_payment/src/PaymentMethodPluginBase.php	e6802ffaf63597766024b062ee5a36a9
+M	payment/uc_payment/src/PaymentMethodPluginInterface.php	05907dced61b678d82401e8196800546
+M	payment/uc_payment/src/Plugin/Ubercart/CheckoutPane/PaymentMethodPane.php	b1d80c398176d2f67950c836ae9a4c37
+A	payment/uc_payment/src/Plugin/Ubercart/OrderPane/Payment.php	d106e3e13ad1884b7ba45c49c9b1cad5
+M	payment/uc_payment/uc_payment.info.yml	9c60b77880aae32f91e6ccb715ebe45e
+M	payment/uc_payment/uc_payment.module	cef3358a670b2587092a9210204fab70
+D	payment/uc_payment/uc_payment_order_pane.inc	
+M	payment/uc_payment_pack/config/schema/uc_payment_pack.schema.yml	a4293256d62443d3cc3f7e8e1cc2cb5f
+A	payment/uc_payment_pack/css/cod.css	8332341de58e5ab9cf2ed31cf78284de
+M	payment/uc_payment_pack/src/Form/ReceiveCheckForm.php	fcfd39bd6e777006985a74d90b0a714f
+M	payment/uc_payment_pack/src/Plugin/Ubercart/PaymentMethod/CashOnDelivery.php	fcda64a97eea44b316a3fb7358e64068
+M	payment/uc_payment_pack/src/Plugin/Ubercart/PaymentMethod/Check.php	6cfd725c70cee8b68a9aa55604364853
+M	payment/uc_payment_pack/src/Tests/CashOnDeliveryTest.php	961173530429393472c76f6b85582004
+M	payment/uc_payment_pack/src/Tests/CheckTest.php	6c83a590c65bf1208587f5baff5434af
+M	payment/uc_payment_pack/src/Tests/OtherTest.php	789b4fa2f3a6a365040a10579c94511b
+M	payment/uc_payment_pack/src/Tests/PaymentPackTestBase.php	369524b9747b489403318b55811f2f35
+M	payment/uc_payment_pack/uc_payment_pack.info.yml	4876b15ec9acbe4f66789dbee41dc93d
+M	payment/uc_payment_pack/uc_payment_pack.install	d3b8d722ceb0d5cf6e3105af43ff4581
+A	payment/uc_payment_pack/uc_payment_pack.libraries.yml	1aac5b0a4314e4238ceb0ff13b49edd3
+M	payment/uc_paypal/config/install/uc_order.status.paypal_pending.yml	567d613b7326097e2d3c4ce92a3ec07d
+M	payment/uc_paypal/config/schema/uc_paypal.schema.yml	4ada2786f92074183c963b24c06c18ce
+M	payment/uc_paypal/src/Controller/EcController.php	a459439b86dc90a6f593f384636f4829
+M	payment/uc_paypal/src/Controller/PayPalController.php	246082059ef3fcb854798c4fac29c10e
+M	payment/uc_paypal/src/Controller/WppController.php	4f1882ec2bf2f06674a57041de3ec2af
+M	payment/uc_paypal/src/Controller/WpsController.php	4fd88a7e127f48a1562c8898d6c0e85f
+M	payment/uc_paypal/src/Form/EcCartButtonForm.php	279c756f686c758996422772f258b4ad
+M	payment/uc_paypal/src/Form/WppSettingsForm.php	52bb6bb282815e3e2961cad7d884baea
+D	payment/uc_paypal/src/Form/WpsForm.php	
+M	payment/uc_paypal/src/Plugin/Ubercart/PaymentMethod/PayPalExpressCheckout.php	6d8759302d6c0fbfbba68acd9de66b7b
+M	payment/uc_paypal/src/Plugin/Ubercart/PaymentMethod/PayPalPaymentMethodPluginBase.php	5eed51ac3e0507143285d19e7c226273
+M	payment/uc_paypal/src/Plugin/Ubercart/PaymentMethod/PayPalWebsitePaymentsStandard.php	bfb42fcf2c484a34de6bf07cda6e5f37
+M	payment/uc_paypal/uc_paypal.info.yml	947e487c5c065507c54c7c648ae530aa
+M	payment/uc_paypal/uc_paypal.module	76a20952e0a638b5597b30bccdc4c73f
+M	payment/uc_paypal/uc_paypal.routing.yml	f318405fb305435dc5f1f7ee9de87220
+A	shipping/uc_fulfillment/config/install/uc_fulfillment.method.manual.yml	4998cc877829d66d00ddff08b71f2f81
+A	shipping/uc_fulfillment/config/schema/uc_fulfillment.schema.yml	87d37813344961873cbf40ec09066754
+A	shipping/uc_fulfillment/js/uc_fulfillment.js	d15bc73399776c09b2c2684dc1b001a9
+A	shipping/uc_fulfillment/src/Annotation/UbercartFulfillmentMethod.php	7c34c4d605766313b7c73097fb229098
+A	shipping/uc_fulfillment/src/Controller/FulfillmentController.php	02f239d77595851434d43933502a1064
+A	shipping/uc_fulfillment/src/Controller/FulfillmentMethodController.php	a95f2ff8ce3adc041d923147d6b85d2b
+A	shipping/uc_fulfillment/src/Controller/PackageController.php	f8e9ddd2dc47c3feb018bee750ba5b34
+A	shipping/uc_fulfillment/src/Controller/ShipmentController.php	fb4c528f6b311ede7f8d4cd7b89dc879
+A	shipping/uc_fulfillment/src/Entity/FulfillmentMethod.php	f1f1e19c7f8714b71df501a47a4bf55f
+A	shipping/uc_fulfillment/src/Form/AddressForm.php	79a985f2aac0ccbfa493c56a30953315
+A	shipping/uc_fulfillment/src/Form/FulfillmentMethodDeleteForm.php	db709555f974018e1267326be752f5ca
+A	shipping/uc_fulfillment/src/Form/FulfillmentMethodForm.php	0ebb73737cc623c5384acf8de0d311b5
+A	shipping/uc_fulfillment/src/Form/NewPackageForm.php	47aea35e72b16c9dae9b4a1e0c43a157
+A	shipping/uc_fulfillment/src/Form/NewShipmentForm.php	454c72596b49ddcadbe89efd7b64a275
+A	shipping/uc_fulfillment/src/Form/PackageCancelForm.php	6e0d75dfdd4adf9906371201c7f1062d
+A	shipping/uc_fulfillment/src/Form/PackageDeleteForm.php	301421fb1dfbaf0e1d43074204d0fbaa
+A	shipping/uc_fulfillment/src/Form/PackageEditForm.php	b6f9c044c18b7686f7fa5fdec6156dcf
+A	shipping/uc_fulfillment/src/Form/ShipmentDeleteForm.php	9db4f1ed8fecac09614ecdc9bf420ec1
+A	shipping/uc_fulfillment/src/Form/ShipmentEditForm.php	a3a66a57384c7b5cdf9aca916aa471ab
+A	shipping/uc_fulfillment/src/FulfillmentMethodInterface.php	f5c3430c2c45b8a1eb8128c89aea0edc
+A	shipping/uc_fulfillment/src/FulfillmentMethodListBuilder.php	669c2d9dc71c93a86ab5d7878e9733d7
+A	shipping/uc_fulfillment/src/FulfillmentMethodPluginBase.php	62d95252f355ac030aec9029fdb15fba
+A	shipping/uc_fulfillment/src/FulfillmentMethodPluginInterface.php	9a6180fd1509da9999f92a78a2ea6876
+A	shipping/uc_fulfillment/src/Package.php	f8db094c03232aae0e1315b795bc5c98
+A	shipping/uc_fulfillment/src/ParamConverter/PackageConverter.php	f1e0f2b2f38028b8797f58e432ee9399
+A	shipping/uc_fulfillment/src/ParamConverter/ShipmentConverter.php	9d6d7a30f80c8f62bbf135b0fba3543e
+A	shipping/uc_fulfillment/src/Plugin/FulfillmentMethodPluginManager.php	a2fcff1ffc1b536a4ef596823a1af624
+A	shipping/uc_fulfillment/src/Plugin/Ubercart/FulfillmentMethod/Manual.php	2ae2009634d83cc8b7356e491f8b1ce1
+A	shipping/uc_fulfillment/src/Plugin/Ubercart/OrderPane/Tracking.php	533bb22413fe12a2159060130d40d243
+A	shipping/uc_fulfillment/src/Plugin/views/field/PackageWeight.php	6a70925db3c657e0a07cddb2e6e3f47c
+A	shipping/uc_fulfillment/src/Plugin/views/field/ShipmentId.php	6407ea1ef1b5476c50bee642a19cd71f
+A	shipping/uc_fulfillment/src/Shipment.php	dea38ea1a55620838ce7d02b3adf1c4b
+A	shipping/uc_fulfillment/src/Tests/FulfillmentTest.php	5d18802ab1ae305c32718c95315b4bae
+A	shipping/uc_fulfillment/src/Tests/PackageTest.php	92ac3f54345d005df23cb6f951a1a6a5
+A	shipping/uc_fulfillment/src/Tests/ShipmentTest.php	e892b2a4ff628476a9accfdfce4a9a0d
+A	shipping/uc_fulfillment/templates/uc-packing-slip-page.tpl.php	d15bb389c9b5223345beb59f1ce97d07
+A	shipping/uc_fulfillment/templates/uc-packing-slip.tpl.php	4775a5909feadcdbf500aabb78c47294
+A	shipping/uc_fulfillment/uc_fulfillment.api.php	52d57938482c2808ba1210f1c0cbe7dd
+A	shipping/uc_fulfillment/uc_fulfillment.info.yml	5e2b8665cec21e6a7d4bc0c4b2251615
+A	shipping/uc_fulfillment/uc_fulfillment.install	40c8e47e47152e60064dfd40b2763caa
+A	shipping/uc_fulfillment/uc_fulfillment.libraries.yml	2bcc5db66471a5e0f076e13aed88e06c
+A	shipping/uc_fulfillment/uc_fulfillment.links.action.yml	ec13eeb4f1c4b23f3b240d6e81179bf5
+A	shipping/uc_fulfillment/uc_fulfillment.links.menu.yml	1316d56e4b2ab9a2da1b91adc6d15a18
+A	shipping/uc_fulfillment/uc_fulfillment.links.task.yml	b3facd018bc49c4ee7e65627fc6b7bde
+A	shipping/uc_fulfillment/uc_fulfillment.module	5f11c810c3fc585ff7ef415af840a297
+A	shipping/uc_fulfillment/uc_fulfillment.permissions.yml	49b26ba7caac13b983a662b9282cb7ee
+A	shipping/uc_fulfillment/uc_fulfillment.routing.yml	46723b6e95c1821194ff56f068edd4cb
+A	shipping/uc_fulfillment/uc_fulfillment.rules.inc	69ab01b0b258c13aeed774ccd4a69389
+A	shipping/uc_fulfillment/uc_fulfillment.services.yml	bd6ef4583cd0c37761be2853ecdbcd0a
+A	shipping/uc_fulfillment/uc_fulfillment.tokens.inc	479f016740720a2d5f9ac0b87774dd5e
+A	shipping/uc_fulfillment/uc_fulfillment.views.inc	6343c9ec4d4365839461028698580af0
+M	shipping/uc_quote/config/schema/uc_quote.schema.yml	3bcbc7df1da08475427055d06cc2ff26
+A	shipping/uc_quote/src/Plugin/Ubercart/OrderPane/Quotes.php	9598a41a7f0f22b26d1faa4b7c9763cf
+M	shipping/uc_quote/src/ShippingQuoteMethodListBuilder.php	19d9ccb164689a11e6a784a02fb128ef
+M	shipping/uc_quote/uc_quote.info.yml	931070af390681dc248baf315b457467
+M	shipping/uc_quote/uc_quote.links.menu.yml	585ce4bef69457f8be5dbd79733cc5c2
+M	shipping/uc_quote/uc_quote.module	a04e8132fa8577841f82f801d3e5e521
+D	shipping/uc_shipping/js/uc_shipping.js	
+D	shipping/uc_shipping/src/Plugin/views/field/PackageWeight.php	
+D	shipping/uc_shipping/src/Plugin/views/field/ShipmentId.php	
+D	shipping/uc_shipping/templates/uc-packing-slip-page.tpl.php	
+D	shipping/uc_shipping/templates/uc-packing-slip.tpl.php	
+D	shipping/uc_shipping/uc_shipping.admin.inc	
+D	shipping/uc_shipping/uc_shipping.api.php	
+D	shipping/uc_shipping/uc_shipping.info.yml	
+D	shipping/uc_shipping/uc_shipping.install	
+D	shipping/uc_shipping/uc_shipping.libraries.yml	
+D	shipping/uc_shipping/uc_shipping.module	
+D	shipping/uc_shipping/uc_shipping.permissions.yml	
+D	shipping/uc_shipping/uc_shipping.rules.inc	
+D	shipping/uc_shipping/uc_shipping.tokens.inc	
+D	shipping/uc_shipping/uc_shipping.views.inc	
+M	shipping/uc_ups/js/uc_ups.admin.js	cea23b7b46064acc88e664033641c6be
+M	shipping/uc_ups/uc_ups.info.yml	08723882a8375b71c38c4f6430cec1ba
+M	shipping/uc_usps/js/uc_usps.admin.js	5136e6887ad9d45dcd1d91b0b73ad287
+M	shipping/uc_usps/uc_usps.info.yml	03df3e19fca8107042dee5bfe9f40edf
+M	shipping/uc_usps/uc_usps.module	eb4ebaeba48b16dc74cf55db117597e0
+M	uc_ajax_admin/uc_ajax_admin.info.yml	8e144cef938cc092ac76d50c7b9c9073
+M	uc_ajax_admin/uc_ajax_admin.module	cd62849c93b46c1418e0a8e441757220
+M	uc_attribute/src/Controller/AttributeController.php	9625933ed374c1ac69fc67c45b12cc2d
+M	uc_attribute/uc_attribute.info.yml	d310e504e357e846c9750095bbf14958
+D	uc_cart/config/install/system.action.uc_cart_add_product_action.yml	
+A	uc_cart/config/optional/system.action.uc_cart_add_product_action.yml	a2a61ad03bbcbc4f7a3bf2a872f08d86
+M	uc_cart/css/uc_cart_block.css	0d66aea8068a43f9e867c4c52884d402
+M	uc_cart/js/uc_cart.admin.js	ef4199bdc52d1275a4918040a1226565
+M	uc_cart/js/uc_cart.js	4a0680e9365967e0192f5b33a029acb0
+M	uc_cart/js/uc_cart_block.js	bf9f6b8f0bafd9f7686fa41fb1b47024
+M	uc_cart/src/CartManager.php	82e42e005ec3064b90480fadda2948bf
+M	uc_cart/src/Controller/CheckoutController.php	5628acc457d1b4cbff61c7a3eb52e7d2
+M	uc_cart/src/Form/CheckoutForm.php	09259bc42136cb7c02ad15f8c9560f93
+M	uc_cart/src/Form/CheckoutReviewForm.php	708c97643077da62293489de627f341a
+M	uc_cart/src/Plugin/Block/CartBlock.php	4ab4689c1236e1ebe275e994e370a10e
+M	uc_cart/src/Plugin/CheckoutPaneManager.php	a3033f0ba15f3c22f819baf2c5b45ee1
+M	uc_cart/src/Plugin/Ubercart/CheckoutPane/AddressPaneBase.php	edb2c4b79d9d64a65fe00c3cf6570d53
+M	uc_cart/src/Plugin/Ubercart/CheckoutPane/CustomerInfoPane.php	ed84d4642b0befa06fa20d2c36e5cf62
+M	uc_cart/src/Plugin/Ubercart/CheckoutPane/OrderCommentsPane.php	dee28a1721dffe22ea251f6a95112857
+M	uc_cart/src/Tests/CartCheckoutTest.php	df708cbbf459aa81edb0fbe024dd5518
+M	uc_cart/tests/uc_cart_entity_test.info.yml	460e8b1264b8be971717834de8664e0f
+M	uc_cart/uc_cart.info.yml	9fb2a99ce81cca05d76c6c990021a031
+M	uc_cart/uc_cart.libraries.yml	aa6a36680a8eb97b8630956ae6bb2d6e
+M	uc_cart_links/config/install/views.view.uc_cart_links.yml	b3da6b60320bd2b5024cd362a5b15e3e
+M	uc_cart_links/src/Form/CartLinksForm.php	f0c83d2d6eef8534069365266d3bf3af
+M	uc_cart_links/uc_cart_links.info.yml	4a01a883642c7024720f1c1f2f800a41
+M	uc_catalog/config/install/views.view.uc_catalog.yml	da490aebbd4621969882c8bd4d2a39d4
+M	uc_catalog/config/install/views.view.uc_catalog_terms.yml	46648c71d2d3fe7d3d1bcaebf591844b
+M	uc_catalog/uc_catalog.info.yml	33abd48b995871f3ff43653c76251779
+M	uc_catalog/uc_catalog.module	5a175b3e39234f6987ef719f3de29dbe
+M	uc_country/src/Plugin/views/field/Zone.php	3de1dea43cd0ffa53d0a376ca83d6264
+M	uc_country/uc_country.info.yml	e82cbbf594c42ede9bf1d06f82d12b05
+A	uc_file/src/Controller/DownloadController.php	54dadcf41b16cd859c5c192e8f1787cf
+A	uc_file/src/Controller/FileAutocompleteController.php	d8f16ce83574704d2cfda36ed018004c
+A	uc_file/src/Controller/FileController.php	40e716a97aee93e9b313a4e43745835b
+M	uc_file/src/Form/ActionForm.php	41b939bc0c5e496825a8bfe87ae07f93
+D	uc_file/src/Form/AdministerFiles.php	
+A	uc_file/src/Form/FeatureSettingsForm.php	780cba0f3fe6fdc046442469f6e18c77
+A	uc_file/src/Form/FileActionForm.php	b939c3de88ccae7b583823bf2c53f0a1
+A	uc_file/src/Form/FileDeleteForm.php	45968391aa3ca6fbddb04da91c438336
+A	uc_file/src/Form/FileFeatureForm.php	8eeac59791e859c79774a23470f7a6fb
+A	uc_file/src/Form/FileUploadForm.php	01ae119106ae087174130e31fa3da9c5
+M	uc_file/src/Form/ShowForm.php	7dd62040305c41d5fbeab035f7211c1b
+A	uc_file/src/Form/UserForm.php	89f07b03a47f33e392ea558023dc8f10
+A	uc_file/src/Tests/FileCheckoutTest.php	285da2fd29c8c603ec77ccb562f28249
+A	uc_file/src/Tests/FileTest.php	5e290ec8b7c631439c4c02e373bd5530
+A	uc_file/src/Tests/FileTestBase.php	cdf64f225e5b72b1778e72e94c7eb91c
+D	uc_file/uc_file.admin.inc	
+M	uc_file/uc_file.info.yml	fd10618def1f1511f87957e72d664559
+M	uc_file/uc_file.module	150fa34655de88dae7ae6d7039cb3030
+D	uc_file/uc_file.pages.inc	
+M	uc_file/uc_file.routing.yml	4825ff99ad25dae44de0a77c32cbd190
+M	uc_file/uc_file.tokens.inc	db9f669124513e148c6b1a80f7acea39
+M	uc_googleanalytics/uc_googleanalytics.info.yml	b5174eb06ee3a876e4d7cb7d0f4107a5
+M	uc_order/config/install/views.view.uc_customers.yml	f48bf58af2c81c38a2a71517a2f771ad
+M	uc_order/config/install/views.view.uc_order_history.yml	9b35d2b43e43642403b2cdd4a820f847
+M	uc_order/config/install/views.view.uc_orders.yml	504943e99a325baa456bade00951333e
+A	uc_order/config/optional/system.action.uc_order_delete_action.yml	5811ca876dfc87f465670a86ab7c92a1
+A	uc_order/config/optional/system.action.uc_order_print_action.yml	37838473b049c8748e011216e3b9dabe
+M	uc_order/config/schema/uc_order.schema.yml	c38c0ffd6625a63e45b92920022b97f9
+M	uc_order/css/uc_order.css	0a927f4f92098d33292d31a70f4e3322
+M	uc_order/js/uc_order.js	4f379bc5d76361cfb8d4e0da668ba3c6
+A	uc_order/src/Annotation/UbercartOrderPane.php	3c0d9cb3831494af6aa4425a245e23ad
+A	uc_order/src/Controller/OrderAdminController.php	ffbc703c2c32ea61789ab677612a5285
+M	uc_order/src/Controller/OrderController.php	184aacfac0e93816acd12336450cac87
+A	uc_order/src/EditableOrderPanePluginBase.php	2a9fec96de7a3d86932668593c9dfb8f
+A	uc_order/src/EditableOrderPanePluginInterface.php	f0cf4809ae2342749bc4a3e59eb1be8a
+M	uc_order/src/Entity/Order.php	501391ddcebda3c40a0a5b31d318257c
+A	uc_order/src/Form/AddLineItemForm.php	8f8c7dcbdf2399128336c6c9c198aaf3
+A	uc_order/src/Form/AddressBookForm.php	3d193084755af6898214dc451d3f4621
+A	uc_order/src/Form/MailInvoiceForm.php	07f5181dacfdc01884f76ca4d3151813
+M	uc_order/src/Form/OrderCreateForm.php	e1dbafb0dfee53c05e5c2e8e535e5d4d
+M	uc_order/src/Form/OrderDeleteForm.php	123d382432a4a3aa3249eabbd55b69cf
+D	uc_order/src/Form/OrderMailInvoiceForm.php	
+A	uc_order/src/Form/SelectCustomerForm.php	c1b50bc0eb5a1d3597ef9cacae90f9c1
+M	uc_order/src/OrderForm.php	c644e6e197c6acae0469125c130790c2
+A	uc_order/src/OrderPanePluginBase.php	e5ad003c3498a7f25f22d1fbb97a65b8
+A	uc_order/src/OrderPanePluginInterface.php	53e77ad82cf1ad6a1b6126f157541053
+M	uc_order/src/OrderViewBuilder.php	06af56f561c5641b4c762979c78f2cfa
+M	uc_order/src/OrderViewsData.php	939dcd92b1714a2f45117f0b9e69d9ae
+M	uc_order/src/Plugin/Action/DeleteOrderAction.php	b14330bb4f9587e22c1799f10d4b20bf
+M	uc_order/src/Plugin/Action/PrintInvoiceAction.php	4ad648a4edcf20d2a9c278e7d3579c80
+M	uc_order/src/Plugin/Action/SetOrderStatusAction.php	f9ca69dbbe5cc51a70bc1555edc07570
+A	uc_order/src/Plugin/OrderPaneManager.php	bcd4ff7aebeeb1e68311c0343979aa26
+A	uc_order/src/Plugin/Ubercart/OrderPane/AddressPaneBase.php	008a295287c5b48818349c3544e4b5a1
+A	uc_order/src/Plugin/Ubercart/OrderPane/AdminComments.php	24d6ff744d64011ab24fb9922b65bdb4
+A	uc_order/src/Plugin/Ubercart/OrderPane/BillTo.php	8ed6974b7d0f5dbb50a1ae7a2b9b43fb
+A	uc_order/src/Plugin/Ubercart/OrderPane/CustomerInfo.php	aadc825ef71da3622a6c0f2b92a631c0
+A	uc_order/src/Plugin/Ubercart/OrderPane/LineItems.php	c0a7d9ecd162d84d45bc7d22c84b84d1
+A	uc_order/src/Plugin/Ubercart/OrderPane/OrderComments.php	f80a1b7b47544766915ba35e5a0645a0
+A	uc_order/src/Plugin/Ubercart/OrderPane/PrintButton.php	65841024c125c2def1422bea0f779d26
+A	uc_order/src/Plugin/Ubercart/OrderPane/Products.php	8ce13b1d9745f4cf563e0e9bc13a0e0e
+A	uc_order/src/Plugin/Ubercart/OrderPane/ShipTo.php	5d523a259dd905e18c9773713b54ad80
+A	uc_order/src/Plugin/Ubercart/OrderPane/UpdateOrder.php	db11cc38a7b24589db80350617b2b44c
+M	uc_order/src/Tests/OrderTest.php	d070340fc14995958e2ffc0f2a3f1966
+D	uc_order/uc_order.admin.inc	
+M	uc_order/uc_order.api.php	01ad17b183b465144150c01a22c003ae
+M	uc_order/uc_order.info.yml	e881763dcb8328bea54f3dce71a485c9
+M	uc_order/uc_order.module	7ba27c7f001dfec1a3bc1e44ace1368f
+D	uc_order/uc_order.order_pane.inc	
+M	uc_order/uc_order.routing.yml	7994753a607c424ec16a2981954d0cb0
+A	uc_order/uc_order.services.yml	84208fccbc5cea8b17bc347062828371
+M	uc_product/config/install/views.view.uc_products.yml	5885eb471c600ce1f4039e7a8a9d805d
+M	uc_product/css/uc_product.css	6a3ae912decaa0f6fb5984cd8e76b7e0
+M	uc_product/js/uc_product.js	95c71dfc92aabbecbaa6c09bd240d5ed
+M	uc_product/src/Controller/ProductController.php	3cd94c10c2149cadb129277cd0c201a7
+M	uc_product/src/Controller/ProductFeaturesController.php	b4a1fb22ad1123bd1c70ed0c02616fd6
+M	uc_product/src/Form/ProductFeatureAddForm.php	b329287d987992e891e109dc6e5832c2
+M	uc_product/src/Form/ProductSettingsForm.php	46f587235c607db1aee576c5a497039a
+M	uc_product/uc_product.info.yml	3f69cf652652fdfb36b8fa431a3cf715
+M	uc_product/uc_product.libraries.yml	c67fc4eaa6525b027144d1138dda3ff6
+M	uc_product_kit/css/uc_product_kit.css	c82b9d1721b972039170336494b9f838
+M	uc_product_kit/uc_product_kit.info.yml	ca565175aaf3cf882ba20ab61c9d4c4a
+M	uc_report/src/Controller/Reports.php	a3d4bde29d7a456e6b657e33f2a53a94
+M	uc_report/uc_report.info.yml	91002464f6b56a874f9b76a561cdf205
+M	uc_report/uc_report.module	ce956af0114c0f29d136f59ced6f84a2
+A	uc_role/src/Form/FeatureSettingsForm.php	f770ac848b16f0d57d95fe6c14b1b7b8
+M	uc_role/src/Form/RoleDeleteForm.php	514bae631a44e1647eaf15cbabc5c27f
+M	uc_role/src/Form/RoleFeatureForm.php	32444b4562438b638a037c9e57300c23
+D	uc_role/src/Form/RoleSettingsForm.php	
+M	uc_role/src/Tests/RoleCheckoutTest.php	c3b17251c14c4d0cf9f1d52720534004
+M	uc_role/src/Tests/RoleTest.php	4bb9f36d7ecdde9f651a3ac967f617d0
+M	uc_role/uc_role.info.yml	fd89746ce988f1fa0f6f786016aba822
+M	uc_role/uc_role.links.menu.yml	09d5dad0358fc010037885780705c5f1
+M	uc_role/uc_role.module	75ece2cf6b739ae052f1d35b0a777fff
+M	uc_role/uc_role.routing.yml	eb2c9cab94e25edb30e7d1e77f6ab973
+M	uc_stock/uc_stock.info.yml	af54eece31c47fd5c2c8f0956ff17c9e
+M	uc_store/css/uc_store.css	dcdb98c927de7babfccb44f9f9bd1440
+M	uc_store/src/Address.php	a8de2d5b455db6489b8dac4cd82a08c3
+A	uc_store/src/AddressInterface.php	6ff5302ddc612671a0d977eafd830fb2
+A	uc_store/src/AddressTrait.php	5b98aef529cdd267af5b1aecc2e1dabf
+M	uc_store/src/Element/UcAddress.php	8f7aa99b473791c99cf7ee0e03a5e277
+M	uc_store/src/Tests/AddressTest.php	111004b5bd8c71f020125fb42ccc4bd6
+M	uc_store/src/Tests/UbercartTestBase.php	9f3339cdccf867ce9ab1b347c6c36a1f
+M	uc_store/uc_store.info.yml	7edb7534d259b33579fed26d5b1cb164
+M	uc_store/uc_store.module	75448df5260da9c5fa724638b64a6f24
+M	uc_store/uc_store.tokens.inc	4cf4e423e29b1694c7f4ad54de5aa9e1
+M	uc_tax/src/Tests/StoredTaxTest.php	d09017fc07c27c5419f2f70c970222a6
+M	uc_tax/uc_tax.info.yml	3e7fa972366256dbfc3ae558563a4f1c
+M	uc_tax_report/src/Controller/SalesTaxReport.php	7b7c4ae4e114cebd59636d4a1e483471
+M	uc_tax_report/src/Form/ParametersForm.php	89897554b45a466abf593ac55043e532
+M	uc_tax_report/uc_tax_report.info.yml	ac87d8fe50d2f0d96e6e289bfb3d3ea9
+M	uc_tax_report/uc_tax_report.routing.yml	1e78e9356edc89fcb5e5d49878e6b372

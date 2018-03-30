@@ -1,0 +1,8 @@
+M	key.info.yml	83c3a572cfecc52cf07972e9a165d936
+M	readme.md	f99bac254eb4307420615940d600cc9f
+M	src/Entity/Key.php	2aefb95cfc6c8f5f56e6b9f266a39630
+M	src/Form/KeyAddForm.php	9f96b8900ddb01c92541e425b668b7c5
+M	src/Form/KeyDeleteForm.php	381d5a2a652df31942fe0413090305ed
+M	src/Form/KeyEditForm.php	05fcab0b572e06b8d4053578fc7acdc7
+M	src/Form/KeyFormBase.php	56d6ca0c5cd3065d31c9144150d76dd2
+M	src/Plugin/KeyInputInterface.php	aac6a53e2214abdfd6161a3222106d3d

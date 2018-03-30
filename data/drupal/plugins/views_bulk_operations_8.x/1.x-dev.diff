@@ -1,0 +1,4 @@
+M	modules/actions_permissions/actions_permissions.info.yml	5dd986c9c7d8fc336a184aaba2110437
+M	modules/views_bulk_operations_example/views_bulk_operations_example.info.yml	a6672587a35ad4e2cc6f4119500e8c97
+M	tests/views_bulk_operations_test/views_bulk_operations_test.info.yml	6ac5a069918b71fad8dfdb0195c3d3eb
+M	views_bulk_operations.info.yml	9d09d43f7ffe5574fa4946678e27a520

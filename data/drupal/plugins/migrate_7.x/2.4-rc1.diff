@@ -1,0 +1,55 @@
+M	CHANGELOG.txt	22aa8498f739c3c56e86e506276f8662
+M	includes/base.inc	c2696e98d2ea9267e220038edcd0e6c8
+M	includes/handler.inc	aa85e6a91217a956c8e4f131e8e1cac6
+M	includes/map.inc	969d6dd145c05806e51e47e3537ed8cd
+M	includes/migration.inc	d024559c921300629a2f55d73be96459
+M	includes/source.inc	4ea6c680857665be8bc1b593feeec016
+M	migrate.drush.inc	9922f1ed8024e4947ff7b7bf94f96e39
+M	migrate.info	054d267b2a929d7b0f7771b0d318161f
+M	migrate.install	a2843208fd61a194b2f48427695cad66
+M	migrate.mail.inc	cc14ae9da2808a621f016c481ac291eb
+M	migrate.module	8f2b39fa9b63857ec71b54d149e746d9
+M	migrate_example/beer.inc	fa2b92669245bbbf86cd0daf0a66386e
+M	migrate_example/beer.install.inc	02bbedf8401333260ed48baa167e76b5
+M	migrate_example/migrate_example.info	094c247f44f479e6d970db867fa94a63
+M	migrate_example/migrate_example_oracle/migrate_example_oracle.info	cfcd1eeb5664edc77949353f8af926db
+M	migrate_example/migrate_example_oracle/migrate_example_oracle.install	3d753ea26b3981d866039d29144547ad
+M	migrate_example/wine.inc	dc793d89a9184ac0820ffcce1e2c496a
+M	migrate_example_baseball/README.txt	81f89ffcff05128882a601e471003ff7
+D	migrate_example_baseball/data/GL2000.TXT	
+D	migrate_example_baseball/data/GL2001.TXT	
+D	migrate_example_baseball/data/GL2002.TXT	
+D	migrate_example_baseball/data/GL2003.TXT	
+D	migrate_example_baseball/data/GL2004.TXT	
+D	migrate_example_baseball/data/GL2005.TXT	
+D	migrate_example_baseball/data/GL2006.TXT	
+D	migrate_example_baseball/data/GL2007.TXT	
+D	migrate_example_baseball/data/GL2008.TXT	
+D	migrate_example_baseball/data/GL2009.TXT	
+M	migrate_example_baseball/migrate_example_baseball.info	db7095ff8af8433956990ba1fe0b4468
+M	migrate_example_baseball/migrate_example_baseball.install	76e84951b5e15c73c125b88d792828df
+M	migrate_example_baseball/migrate_example_baseball.migrate.inc	b81b577c4403dbe4d9c9c5adf5941523
+M	migrate_ui/migrate_ui.info	840b7dfa88ae11457aa6b518ed2a085f
+D	migrate_ui/migrate_ui.install	
+M	migrate_ui/migrate_ui.pages.inc	0a3eb33fe92d2c12ac8060f7578979b1
+M	plugins/destinations/comment.inc	d0ab50a25530db9b37cb5d680398a595
+M	plugins/destinations/fields.inc	e970fe6fbb8c508a913fd64a39e926cb
+M	plugins/destinations/node.inc	5126741c6c4028be68689cc9b6c265fa
+M	plugins/destinations/statistics.inc	21f53d88919c5a42292572db69c91efd
+M	plugins/destinations/table.inc	5ad7aae9c668a21b771198d9e57fd314
+M	plugins/destinations/term.inc	3527cf1cf89e0a0f82fe8d83bbc2251e
+M	plugins/destinations/user.inc	97d21ddf29532979b6b63ebc1bcd767a
+M	plugins/sources/csv.inc	625133b5fc58fdccb76f1d3593122f2a
+M	plugins/sources/files.inc	b90ad2b789e8fab404671305bb0ac501
+M	plugins/sources/sql.inc	f3484b0e067025d47d8108c5738200e2
+M	plugins/sources/sqlmap.inc	33a9c955c149fe9098053e8dc5d98183
+M	plugins/sources/xml.inc	46b73b134fd3a69a8e1197f5e88d152b
+M	tests/import/options.test	3a74ad8a753c4c29c869775438698761
+M	tests/plugins/destinations/comment.test	bf3ad06d40e7d3c36679a9c8ae7ae48a
+M	tests/plugins/destinations/node.test	7d82d9812bf8013abe2d1681a32bd56a
+M	tests/plugins/destinations/table.test	0f701b47dd03a9d7e443e625ea2e98d3
+M	tests/plugins/destinations/term.test	07f0cd41e9f17a0a4096406a7f28b39b
+M	tests/plugins/destinations/user.test	8ac62e7f03bffd9a96b7838ad61a7acd
+M	tests/plugins/sources/oracle.test	3708a7ecdde8de1eeafbe43aacb9b5cb
+M	tests/plugins/sources/xml.test	db83d7ad0e8ac9941b66e62de41de3c2
+M	uri_map_redirect.php	8a159da9c0500f90c56ca0530eb5f5ef

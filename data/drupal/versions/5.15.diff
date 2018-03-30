@@ -1,0 +1,12 @@
+M	CHANGELOG.txt	6b091a303c324978ad2ce90aaec6c6d1
+M	LICENSE.txt	bdd1e316e2590122d02ae55c6759d65b
+M	includes/bootstrap.inc	d545ebc9f2fd880fce04e5f1f6b99010
+M	includes/common.inc	56efcce7c9caa92da5bd4337aef14819
+M	includes/form.inc	22f942cdd9289e53cc31cb456aec0cf9
+M	modules/block/block.module	69385768a59de9195be14c111ff55c7b
+M	modules/color/color.module	c3f62a442692c350a2a988e82566efb4
+M	modules/filter/filter.module	8f29f8015b5b91c919443217089be35b
+M	modules/node/node.module	bfe7c1c7e8da355fc5ae885b18b6f6bd
+M	modules/path/path.module	d9206d0cf280b15e850daa8d1b4ce088
+M	modules/profile/profile.module	3d310c2eb15630deff5f2d61466074c9
+M	modules/system/system.module	3d7dea5918919398f351d59d9feb2c04

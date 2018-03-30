@@ -1,0 +1,9 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	872dd6bdef1ab18c21e3aa977b70054e
+A	composer.json	5d40f68135f93a99acfecde114507348
+A	config/install/menu_link_attributes.config.yml	b091435d9a282adbc8116eb529fc9c5b
+A	menu_link_attributes.info.yml	cd872c100c1211d3518b62e10fd047cf
+A	menu_link_attributes.links.task.yml	b4cb32291882afe0e378a95fd509c88b
+A	menu_link_attributes.module	4367b47cd938382f6ac99ebe5cf1dcc2
+A	menu_link_attributes.routing.yml	b5231ede2d23279903f4d92131dfa07c
+A	src/Form/ConfigForm.php	daa37d106960cd1c813cc30ca3ac1571

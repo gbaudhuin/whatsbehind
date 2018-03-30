@@ -1,0 +1,9 @@
+M	src/Controller/ChangesListController.php	e3569e01411382f1bab264cce91521e0
+M	src/EntityOperations.php	d11aada91b73ad50d3aaa5e0b59b2000
+D	src/Field/FieldWidget/OptionsUpstreamButtonsWidget.php	
+M	src/Toolbar.php	63d86efc756d3bc851f128caa70475ad
+M	src/WorkspaceListBuilder.php	e8bcf316c97d0ca253c37d756ef9c941
+M	tests/src/Functional/WorkspaceSwitcherTest.php	3d8459cf966eabb2c78c6a4c51720e15
+M	tests/src/Functional/WorkspaceTest.php	8a3db7d83d42f510ed41dc31ef4f7fc7
+M	workspace.info.yml	feb076bc93a73f2ed06ad5d7d27ea387
+M	workspace.module	1cc464e64b35db02b3bf1e7272947c68

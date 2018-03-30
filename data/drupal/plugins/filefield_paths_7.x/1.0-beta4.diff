@@ -1,0 +1,10 @@
+M	CHANGELOG.txt	58089ab6f2ae0319ba1d1a80415e7e33
+A	filefield_paths.drush.inc	cb6d4548fcb1cc54297281f5e72d0e0f
+M	filefield_paths.info	c8b96240c0c1713bbe3d1cd9e135c597
+M	filefield_paths.install	d887a76ecc4e269ce8ff53f61ea7d3c6
+M	filefield_paths.module	68980c69712dbacbae46e189ddaabe41
+M	modules/features.inc	48c9178dbdb42e974013f474a14736d1
+M	modules/file.inc	3ff3bf43016fff2c0fddcb6c03b7c166
+D	modules/filefield_paths.drush.inc	
+M	modules/filefield_paths.inc	ed2d048efb6c209eb4c4a797fafb1095
+M	modules/token.inc	ab01378e3a4ca9bfff45aed644e20f9e

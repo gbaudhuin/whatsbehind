@@ -1,0 +1,137 @@
+M	.gitignore	c16767e98adb52833779b713aad13ae5
+M	INSTALL.md	3edaeabe05f553bd03d921d97ab565f8
+M	README.developers.md	969d90802a2928dd3204862bd8308452
+M	README.md	ad41303b4639d85e7beeb1317872734e
+M	composer.json	8216bd0dd8c7473b0d60316099edf6fc
+A	docs/hogwarts/drupal_configuration/authorization.authorization_profile.ldap_roles.yml	fcfc2c3c944a47c704a32971d7391dd5
+A	docs/hogwarts/drupal_configuration/ldap_authentication.settings.yml	698ac9b1abc8e4399f727cad987339f3
+A	docs/hogwarts/drupal_configuration/ldap_servers.server.hogwarts.yml	6f7ff6e0c0639b6e5911625ea070a9e3
+A	docs/hogwarts/drupal_configuration/ldap_user.settings.yml	e53864e8e4b5ad90dfca9dba8b4800c3
+M	ldap_authentication/config/install/ldap_authentication.settings.yml	4077d70cb6958191763cfd50901e21ff
+M	ldap_authentication/config/schema/ldap_authentication.schema.yml	0859030276ef709da53c76bd960907bd
+M	ldap_authentication/ldap_authentication.api.php	04f1b6bafb02745d307f689fdc9c7fd3
+A	ldap_authentication/ldap_authentication.config_translation.yml	5278804c418ea68c0e5933553a7d11eb
+M	ldap_authentication/ldap_authentication.info.yml	4f3c2c2b5ee4a7cf80689c6ab4fd3ed2
+M	ldap_authentication/ldap_authentication.install	79450b14d4b3158ec7a4db7445e887e0
+M	ldap_authentication/ldap_authentication.links.task.yml	5b65ac87b42ceed042ed3b6045b2e181
+M	ldap_authentication/ldap_authentication.module	c5d8275312fc1149e86eec2c5064598b
+M	ldap_authentication/ldap_authentication.routing.yml	a1cb5c8673d85b96434513cae254dcbd
+M	ldap_authentication/ldap_authentication.services.yml	4caa1e9f89fd8571305ac55828dacf19
+A	ldap_authentication/src/Access/UserHelpTabAccess.php	54836472c02fcb6b144992eae1174ad6
+M	ldap_authentication/src/Controller/LdapHelpRedirect.php	6682730b1b025ce807a549ba9dffe3f8
+M	ldap_authentication/src/Controller/LoginValidator.php	ce137541e0c9853d5335a53fd875debc
+M	ldap_authentication/src/Form/LdapAuthenticationAdminForm.php	bd90c60c193e1be53848284cb30142da
+M	ldap_authentication/src/Form/LdapAuthenticationProfileUpdateForm.php	3eb71abcf7e4a05ad1a2321a15379274
+M	ldap_authentication/src/Helper/LdapAuthenticationConfiguration.php	a32f305d2fb0860d14eef4844e22ef28
+M	ldap_authentication/src/Plugin/Derivative/DynamicUserHelpLink.php	dda353947bac548ca35bceb557681193
+M	ldap_authentication/src/Routing/EmailTemplateService.php	534f013e359280171cfa7cdaaaf45249
+M	ldap_authentication/src/Routing/RouteSubscriber.php	f965effd9abf75382a2e343082a11d99
+M	ldap_authentication/tests/src/Unit/LoginTests.php	3dded9e00804730f9f33ecd73e3ecd2b
+M	ldap_authorization/ldap_authorization.info.yml	df0e0601dca23635ff4d573c2ce88c11
+M	ldap_authorization/ldap_authorization.module	fa4876ebe274e7b428b865604ef8a672
+M	ldap_authorization/src/Plugin/authorization/Provider/LDAPAuthorizationProvider.php	e653adc0c6bcfac3fb50a654eba4a800
+D	ldap_feeds/ldap_feeds.info.yml	
+D	ldap_feeds/ldap_feeds.module	
+D	ldap_feeds/unported/FeedsDrupalUserLdapEntryFetcher.inc	
+D	ldap_feeds/unported/FeedsLdapEntryParser.inc	
+D	ldap_feeds/unported/FeedsLdapQueryFetcher.inc	
+D	ldap_feeds/unported/README.txt	
+D	ldap_feeds/unported/TODO.txt	
+D	ldap_feeds/unported/ldap_feeds.unported.module	
+M	ldap_help/ldap_help.info.yml	2ccb61f58504866c628539c02dc7abe3
+A	ldap_help/ldap_help.links.task.yml	ae64b760346bf3d40037fd9a4d639f1e
+M	ldap_help/ldap_help.module	22bc6a90cd3023c9474f5b5d4430e51c
+M	ldap_help/ldap_help.routing.yml	35d00a37d30eba6546bebbe970be7b64
+M	ldap_help/src/Form/DebuggingReviewForm.php	c364ee6d6f62626589b4314b670b4e26
+A	ldap_help/src/Form/LdapDebugSettings.php	d9a0fa423475d8f5f3d461b0ccdb74c8
+M	ldap_query/ldap_query.info.yml	61a91a8cdd2d6f7339be3a7f118b3fcb
+M	ldap_query/ldap_query.links.menu.yml	a457dafbde06fd84ea4b55a6136e17d5
+M	ldap_query/ldap_query.module	20e8fb59bf448cd3cb0981c30bba25f5
+A	ldap_query/ldap_query.views.inc	3111f501b9a6ac5db5e5ece8307f4b3f
+M	ldap_query/src/Controller/QueryController.php	71a6d6f53fc7ddda6894f491c19e9ff2
+M	ldap_query/src/Entity/QueryEntity.php	d87028d668da07ca4fcd98e122611741
+M	ldap_query/src/Form/QueryEntityForm.php	6c74cecefafa1e6f2eedd18359cba126
+M	ldap_query/src/Form/QueryTestForm.php	3b97631f5e43d7ba6c1a62f3bd840e44
+A	ldap_query/src/Plugin/views/VariableAttributeCustomization.php	72c5be181a530093c4a0c2363c68846e
+A	ldap_query/src/Plugin/views/argument/LdapAttribute.php	2c623dc709263fb5de7f707dcc960889
+A	ldap_query/src/Plugin/views/argument/LdapVariableAttribute.php	3a58cbe231b0a16608b1507eba7e139a
+A	ldap_query/src/Plugin/views/field/LdapAttribute.php	c34c4d5703a131fd80bff8109783ed9e
+A	ldap_query/src/Plugin/views/field/LdapVariableAttribute.php	2042bb0631f6cfbbc3c3610cffaa3898
+A	ldap_query/src/Plugin/views/field/LdapVariableImageAttribute.php	abb680bd5b01b2c74f2ba4b8c38e2447
+A	ldap_query/src/Plugin/views/filter/LdapAttribute.php	372539b5d1b8c27f38dea7e951ef9291
+A	ldap_query/src/Plugin/views/filter/LdapVariableAttribute.php	d7f8a13990a6ab83fe33114e9cecedb0
+A	ldap_query/src/Plugin/views/query/LdapQuery.php	9f0d37e2517d3b65dd72665209cf4d61
+A	ldap_query/src/Plugin/views/sort/LdapAttribute.php	1157791d2876e6f376b397841c89ced9
+A	ldap_query/src/Plugin/views/sort/LdapVariableAttribute.php	89b0dcc31839cf51c733a9bb8885f252
+M	ldap_query/src/QueryEntityListBuilder.php	6a4c4b9a61b2238f508163b8b3f5068a
+D	ldap_servers/config/install/ldap_servers.settings.yml	
+D	ldap_servers/config/schema/ldap_servers.schema.yml	
+M	ldap_servers/ldap_servers.api.php	1577cc14dcbc4df3072fa86cbd04d8d6
+M	ldap_servers/ldap_servers.info.yml	8126e887ab5d0a538b3ef0c5386e3238
+M	ldap_servers/ldap_servers.install	2d69baccddf1e12b5f4be84fb3f4e831
+M	ldap_servers/ldap_servers.links.menu.yml	b8ec2763e7692af1312ec99f99c7beaf
+M	ldap_servers/ldap_servers.links.task.yml	2ea9eaafc648359eced38e4f0f9da001
+M	ldap_servers/ldap_servers.module	96d93e631e2485f78d3c0f332a77e894
+M	ldap_servers/ldap_servers.routing.yml	438846b7b52bc32e00da603b23f80465
+M	ldap_servers/ldap_servers.services.yml	ceda70777f765a2d0eb6085756a12ed7
+M	ldap_servers/src/Entity/Server.php	b9c7d9bc45638e866cc4cd1836170c76
+D	ldap_servers/src/Form/LdapServersSettings.php	
+M	ldap_servers/src/Form/ServerEnableDisableForm.php	9688d58288ab48aded9b630ff43650ea
+M	ldap_servers/src/Form/ServerForm.php	42ed574164373c38e50660982a6b4198
+M	ldap_servers/src/Form/ServerTestForm.php	0cd8cd65e66d34c671ecfbe194aca993
+M	ldap_servers/src/Helper/ConversionHelper.php	0ceeebcee1b56d471ca608cab6278705
+M	ldap_servers/src/Helper/MassageAttributes.php	7277fb3d87185abb157b3fb56b940654
+D	ldap_servers/src/LdapProtocol.php	
+A	ldap_servers/src/LdapProtocolInterface.php	ff7cae78f8248deccd4502810841e648
+M	ldap_servers/src/LdapServersRebindHandler.php	9d0979a3e82a0ad60553a1670c1e1363
+M	ldap_servers/src/OrphanProcessor.php	115026fc70b5dc6ade50856d3d52e08a
+M	ldap_servers/src/Processor/TokenProcessor.php	3a5bb177489458cef963e199aa784dbd
+M	ldap_servers/src/ServerFactory.php	db424db7ed5ce14bdb5368214fe42b83
+M	ldap_servers/src/ServerListBuilder.php	c33a0fe8b4a0a0538cd08763a8e8bd6e
+M	ldap_servers/src/Tests/ServerAPITests.php	7afcad08928d6e9e020fcc454b146f53
+M	ldap_servers/tests/src/Unit/ServerTests.php	b9fb6640b0ba4fe1912b9b4f897226c3
+M	ldap_servers/tests/src/Unit/TokenTests.php	bc66ca884c12d84437da152f594855c9
+D	ldap_user/README.developers.txt	
+D	ldap_user/README.txt	
+D	ldap_user/TODO.txt	
+M	ldap_user/config/install/ldap_user.settings.yml	86792e5cf2ab3e3f6cb940680296ff4f
+M	ldap_user/config/schema/ldap_user.schema.yml	00f5f3d83fbe32bb20451545aecf5a8c
+M	ldap_user/ldap_user.api.php	28abbdcf5a7cfddd0c1baad757186ab8
+M	ldap_user/ldap_user.info.yml	105c087a4cbea5d5da4668787957444c
+M	ldap_user/ldap_user.install	acc4b289f00c8a328943799e8596a7c9
+M	ldap_user/ldap_user.links.task.yml	e4126078d598a536987840236f9eb5d3
+M	ldap_user/ldap_user.module	bad4c745a1cf876d6698b76013bc46f4
+M	ldap_user/src/EventSubscriber/InitSubscriber.php	ccfe2dc1f24fb30b8a550c862c3d4d27
+M	ldap_user/src/Exception/LdapBadParamsException.php	618590d74c350a1a7d3c71709e98193c
+M	ldap_user/src/Form/LdapUserAdminForm.php	ddc4a6586b6a4b9363364d57c7419770
+M	ldap_user/src/Form/LdapUserTestForm.php	1b18b4362e60d268f1007f8d66ac7527
+M	ldap_user/src/Helper/ExternalAuthenticationHelper.php	1dc0e4828cde2e3e0023f282d13c0e85
+M	ldap_user/src/Helper/LdapConfiguration.php	eee3d3d248704b73949c695e8950c127
+M	ldap_user/src/Helper/SemaphoreStorage.php	e2872e4472d20a61fb9d954dbc3638b7
+M	ldap_user/src/Helper/SyncMappingHelper.php	d554ce2555791789d643bb4502dcf89a
+A	ldap_user/src/LdapUserAttributesInterface.php	d1db261da7c0241d83e58c2ccd72371c
+M	ldap_user/src/Processor/DrupalUserProcessor.php	6b3beda34b3bbf923c98d6ada8cedff9
+A	ldap_user/src/Processor/GroupUserUpdateProcessor.php	318f3f785e03edab31321bf575e7bb3f
+M	ldap_user/src/Processor/LdapUserProcessor.php	b0044159ad6b6086866ac66e45682e8e
+D	ldap_user/tests/src/Browser/LdapAccountSelfCreationTests.php	
+D	ldap_user/tests/src/Browser/UserCreationFormTests.php	
+M	ldap_user/tests/src/Kernel/IntegrationTests.php	ec5fe6f7271872dee37cb15573c5fd8e
+M	ldap_user/tests/src/Unit/DrupalUserProcessorTests.php	95a6c344bb22ef976dfcf6ffd758713b
+M	ldap_user/tests/src/Unit/ExternalAuthenticationHelperTests.php	a35dde1097512bcd5ca1ecfb2062890e
+M	ldap_user/tests/src/Unit/SemaphoreStorageTests.php	bc8d5f744dc149bb153137148c67d530
+M	ldap_user/tests/src/Unit/SyncMappingHelperTests.php	78e49b38c8cc2614d40e7e33ab607489
+D	ldap_views/LICENSE.txt	
+D	ldap_views/handlers/ldap_views_handler_argument.inc	
+D	ldap_views/handlers/ldap_views_handler_argument_attribute.inc	
+D	ldap_views/handlers/ldap_views_handler_field.inc	
+D	ldap_views/handlers/ldap_views_handler_field_attribute.inc	
+D	ldap_views/handlers/ldap_views_handler_filter.inc	
+D	ldap_views/handlers/ldap_views_handler_filter_attribute.inc	
+D	ldap_views/handlers/ldap_views_handler_sort.inc	
+D	ldap_views/handlers/ldap_views_handler_sort_attribute.inc	
+D	ldap_views/ldap_views.info.yml	
+D	ldap_views/ldap_views.install	
+D	ldap_views/ldap_views.module	
+D	ldap_views/ldap_views.views_default.inc	
+D	ldap_views/plugins/ldap_views_plugin_query_ldap.inc	
+D	ldap_views/src/Plugin/views/query/LdapQuery.php	

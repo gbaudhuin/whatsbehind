@@ -1,0 +1,8 @@
+M	README.txt	1b0762a6dfea3900a06a846e1812958e
+M	login_security.admin.inc	23ea75902d2a43306f4632325fe52311
+M	login_security.info	5f389372d837e9957f27efd86d4f9c84
+M	login_security.install	bf2b5f7e0e7a403ab8b62d8651d10952
+D	login_security.menu.inc	
+M	login_security.module	b21ae4ec52c218e6431efa7233c85e25
+M	login_security.test	766a8238f0e39e8e3f5765de3a2f8acd
+D	translations/login_security.pot	

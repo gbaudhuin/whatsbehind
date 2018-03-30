@@ -1,0 +1,11 @@
+M	README.txt	5ed08e169c9f0c222bfd1e6086598f5c
+A	UPDATE.txt	7e19880a8b589653bd6802194183ae42
+M	chosen.admin.inc	874c2650be6f828881286c1be0b3fc1c
+M	chosen.info	1e8f5104d6a82eec8498512cae22b77d
+M	chosen.install	e42586324b6149f6825a5bf09a330430
+M	chosen.js	ca7a375479a681ec9f8c09669a9add6c
+D	chosen.make	
+A	chosen.make.example	8beccce37475c67fd494411e60360e9e
+M	chosen.module	3839a803efa250b0452d8b864a4078d1
+M	css/chosen-drupal.css	33d49d5118624fd0544aa77b3d70adc9
+A	drush/chosen.drush.inc	cf8de85b4925f488494fded7db05b24e

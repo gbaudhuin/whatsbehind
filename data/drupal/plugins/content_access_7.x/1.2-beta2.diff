@@ -1,0 +1,9 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	content_access.admin.inc	597218855761d0d8c56ac6da319c1349
+D	content_access.api.php	
+M	content_access.info	559729f5d91291a745c71436e1457cc1
+M	content_access.install	4c642dc7e9d2b6ac935777a75686e784
+M	content_access.module	dfb4c7449b7b3ceba3dabf7427b3bf27
+M	content_access_rules/content_access_rules.info	492ab72ce9189eda23693f5308ccb351
+M	content_access_rules/content_access_rules.module	617c80e6d3b1a14029693e46a82be7ef
+M	content_access_rules/content_access_rules.rules.inc	1afeb6863a649c64856a56868537889d

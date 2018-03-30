@@ -1,0 +1,9 @@
+M	CHANGELOG.txt	1e92889dd158e043964ac07e2b4ab3d7
+M	admin_toolbar.info.yml	0cca62abb5bdaf186b09f8670f18b644
+M	admin_toolbar.libraries.yml	160619e93cb10728c8cbfafed8c8ddab
+M	admin_toolbar.module	76e6e49d33dc09fbd0cbc13ac276cb44
+M	admin_toolbar_links_access_filter/admin_toolbar_links_access_filter.info.yml	801f5fdfde7ca1305e142edc5236137c
+M	admin_toolbar_tools/admin_toolbar_tools.info.yml	f9416d1998d8ac1607fa190b5d00aa38
+M	admin_toolbar_tools/admin_toolbar_tools.module	c1f21133fa5de79a4d70a95bbb93d8ff
+M	css/admin.toolbar.css	5249bd801e11df6779756077b7a617da
+M	js/admin_toolbar.js	c30418e8d605b038264ddad245ec14d9

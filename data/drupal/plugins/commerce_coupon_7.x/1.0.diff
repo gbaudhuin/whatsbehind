@@ -1,0 +1,10 @@
+M	commerce_coupon.info	fc5bb11fa879a8ed802717fa265d2f97
+M	commerce_coupon.module	5b01f249aa69efb59e3087e063ba39e6
+M	commerce_coupon.rules_defaults.inc	cdc3ab6459404d1d62143a47ccec56d3
+M	commerce_coupon_ui.info	f1cc0dc28c5a293a2224d77722eb80ab
+M	includes/commerce_coupon.checkout_pane.inc	acbcb4adfa9275c6aae8fd883c7b12fb
+M	includes/views/commerce_coupon.views.inc	14a76c9f6ee0d41f28a301b877e1e8e2
+A	includes/views/handlers/commerce_coupon_handler_area_cart_form.inc	5494cc9840a6f524c7221ceac9f95c0f
+A	plugins/selection/EntityReference_SelectionHandler_Generic_commerce_coupon.class.php	56f8fe810a3c1382555182e75bebf672
+D	plugins/selection/base.inc	
+A	plugins/selection/coupon.inc	1a0455b78cabd95c58aa21512e2af4e2

@@ -1,0 +1,16 @@
+M	group.info.yml	c5127f66343ded6a9dca89d5e5166693
+M	group.install	cb80b475c90d6634c9c70243cef06662
+M	modules/gnode/gnode.info.yml	6d9b1e6d887f36fc29632f10934b8eb7
+M	modules/gnode/gnode.install	8e1a47385f01e3288c0953a51a1dac52
+M	modules/grolesync/grolesync.info.yml	279e506e20bae2125631166364a6876f
+M	src/Entity/GroupType.php	0891bab393f791ab696db36b1a8aa785
+A	tests/modules/group_test_config/config/install/group.content_type.default-group_membership.yml	b129336d9d0240a59680d49f549fe3c5
+A	tests/modules/group_test_config/config/install/group.role.default-member.yml	6423745c206617d80083cdf25468c9e2
+A	tests/modules/group_test_config/config/install/group.role.default-outsider.yml	27128d1156dc049fd11200c54d160e5a
+M	tests/modules/group_test_config/group_test_config.info.yml	95a6a5e8f2ab97aaffcd80b2cdb7f2c9
+A	tests/modules/group_test_config/sync/group.type.import.yml	6c3aa51aa66a0422e807af232bb01bb7
+M	tests/modules/group_test_views/group_test_views.info.yml	f8bb0822ab6a6adcc44ae85f7dd474f7
+M	tests/src/Kernel/GroupTokenReplaceTest.php	9eff520b09722b582bc8f06bb4da0d4f
+A	tests/src/Kernel/GroupTypeCreateTest.php	2610e55267007c13480262feb1767368
+A	tests/src/Kernel/GroupTypeImportTest.php	149ca9f6bb5a36bd3492b43155bc8f92
+A	tests/src/Kernel/GroupTypeInstallTest.php	e9b791a1381b26b3df11952d9b5cabc3

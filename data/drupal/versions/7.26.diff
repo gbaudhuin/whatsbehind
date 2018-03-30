@@ -1,0 +1,9 @@
+M	CHANGELOG.txt	da1fdf2e2e07c5492c76759b592da669
+M	includes/bootstrap.inc	1e98359a4fe748048689483302070822
+M	includes/form.inc	a626b732098ad4dcae6f9024b72310de
+M	modules/openid/openid.install	7c4023ea7814b2b7f035ca5fdf0b0e1e
+M	modules/openid/openid.module	b2313c695bd364c5e81813f624e03cd1
+M	modules/simpletest/tests/form.test	8e4888257296d50769c642cfd3ad81dd
+M	modules/simpletest/tests/form_test.module	dc484787a842f76698de0ba529edabc8
+M	modules/simpletest/tests/upgrade/upgrade.taxonomy.test	8fa11ca215cf30e3c1311d68fbec1c35
+M	modules/taxonomy/taxonomy.install	b45db9308a9c3ac2c2a2fa3e484ef3d4

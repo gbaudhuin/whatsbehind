@@ -1,0 +1,12 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	90a6415402c44372e4ecf3ab14b58f2a
+A	config/install/default_content_extra.settings.yml	b4bc7c456a99065c6a061e7a03a38e60
+A	config/schema/default_content_extra.schema.yml	e3db7c5d2afe73d522f242b9b2dc87bb
+A	default_content_extra.info.yml	4cb5f68a5b9eb40b56a3cbb7e6bb9c4d
+A	default_content_extra.links.menu.yml	8cbf4602ae014aae130a34ffbb08cc84
+A	default_content_extra.routing.yml	e24b7597b7ef156cb2130e58ec92d47f
+A	default_content_extra.services.yml	20bb776753bc74dff08dc0520fd6d701
+A	drush/default_content_extra.drush.inc	38ed12d47d5859aed44fcd83d3552ca9
+A	src/Form/DefaultContentExtraSettingsForm.php	0aaf701ec05ecf94a6dd82370afdc91e
+A	src/Normalizer/NodeEntityNormalizer.php	462291d691bba401e3c37746426281fe
+A	src/Normalizer/TermEntityNormalizer.php	25f113c15f2ad07e130fc98219287088

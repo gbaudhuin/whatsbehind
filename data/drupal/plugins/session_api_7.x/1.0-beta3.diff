@@ -1,0 +1,11 @@
+M	CHANGELOG.txt	ecaa838a2d828b5a4ed6b2841b8cbd55
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	session_api.admin.inc	26747640004c07d70c4b447ab97f9fbe
+M	session_api.info	ab589e926290942838be5962ce40f876
+M	session_api.install	2b33f451558428669cd01a7fcfa46a68
+M	session_api.module	38d14a898e4a271987f217b9239a5538
+M	session_api.test	75083356ca50e5748a3abd1ccc569860
+M	tests/session_api_test.info	a73db86671e6a351eb330f71a7dcba69
+M	tests/session_api_test.module	b1fd98db83d74f1159aa63d0e46e2a6d
+D	translations/de.po	
+D	translations/session_api.pot	

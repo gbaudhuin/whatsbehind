@@ -1,0 +1,20 @@
+M	vud.info	d9d5965b06901dc00fc2dc8264cf7ded
+M	vud.module	bb1bfa1428de6e4f07583eb113d139d1
+M	vud.theme.inc	f45e8b033061ae0f404827faccdda997
+M	vud_comment/vud_comment.info	0bbc350e25f29573771fd45613189863
+M	vud_node/vud_node.info	00b0593110301ec0e14632ede04b834f
+M	vud_node/vud_node.module	d9fc568bea755c6eda4a0ef766283dc3
+M	vud_term/vud_term.info	a54f2521dc83853dea3af53e97bf26d8
+M	widgets/alternate/alternate.css	528544300d48cc69ebf2bcb786d45bbf
+A	widgets/alternate/plus.png	0f9abba7eea25cc3e4c6aaae4fb3fed8
+D	widgets/alternate/plus_act.png	
+D	widgets/alternate/plus_inact.png	
+D	widgets/plain/a_down_act.png	
+D	widgets/plain/a_down_inact.png	
+D	widgets/plain/a_up_act.png	
+D	widgets/plain/a_up_inact.png	
+A	widgets/plain/arrows.png	44eac6223d6d6d9d0756519b598e9444
+M	widgets/plain/plain.css	4301531544cfb8c9cfe682153b3a3e12
+M	widgets/upanddown/widget.tpl.php	47bcf1a02d3b5ffdcfbedad9242d2b82
+M	widgets/updown/updown.css	60fa9eca582f76536c64b25f627b2c3c
+M	widgets/updown/widget.tpl.php	34e5c6d829a18c4f4c60a8496e6b733a

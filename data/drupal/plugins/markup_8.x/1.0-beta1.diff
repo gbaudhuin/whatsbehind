@@ -1,0 +1,7 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	markup.info.yml	fe347762a0eb1a4f2731989228fe4a4d
+A	markup.install	47463c756687f16c0aebfb1cbe70b8f0
+A	markup.module	09f9b205d155feee07dbae7b1b2f14d0
+A	src/Plugin/Field/FieldFormatter/MarkupFormatter.php	9c3403487787128f963102165cf3997f
+A	src/Plugin/Field/FieldType/MarkupItem.php	f08255845df336ae053e61541f42d726
+A	src/Plugin/Field/FieldWidget/MarkupWidget.php	830175b91406a2c629955687c4c8dabd

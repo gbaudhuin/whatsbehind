@@ -1,0 +1,11 @@
+M	config/schema/url_redirect.schema.yml	77a0b7f4e171938a07b2be5d96d1e070
+M	src/Entity/UrlRedirect.php	413dddc8e10cd78e9237a0290901462f
+A	src/EventSubscriber/RedirectSettingsCacheTag.php	4759c52d31cf887c484f82f9c3e168fd
+A	src/EventSubscriber/RedirectSubscriber.php	23c89be46500dbb2a1024774738dec7a
+M	src/Form/UrlRedirectForm.php	b0659daf0503994f5b4f27e28131a75f
+A	tests/src/Functional/UrlRedirectNegateTest.php	f807396db2b7022de409bb154f635a8b
+M	url_redirect.info.yml	2c2f323dbeda2677e7d5a09a861c7097
+A	url_redirect.install	38d9b417f2eabe478ff630b8cbcafe6d
+M	url_redirect.links.menu.yml	489d96fff16c1f3239888394bf1aaa34
+D	url_redirect.module	
+A	url_redirect.services.yml	a4a179c05bc14b296ea1e1a1e037cd60

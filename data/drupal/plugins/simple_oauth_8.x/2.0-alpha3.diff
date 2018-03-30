@@ -1,0 +1,73 @@
+M	simple_oauth.info.yml	a968320f13d15dd23b7e1578161e8be7
+M	simple_oauth.module	bdf3ac936af10d7d41f4a189a9f7aef6
+M	simple_oauth.routing.yml	a133e719ffea6dbb58dca2d78027d22f
+M	simple_oauth.services.yml	a70f2cc173f4fca079cf35ab2cffae29
+D	simple_oauth_3p/config/install/simple_oauth_3p.settings.yml	
+D	simple_oauth_3p/config/schema/simple_oauth_3p.schema.yml	
+D	simple_oauth_3p/simple_oauth_3p.info.yml	
+D	simple_oauth_3p/simple_oauth_3p.module	
+D	simple_oauth_3p/simple_oauth_3p.permissions.yml	
+D	simple_oauth_3p/simple_oauth_3p.routing.yml	
+D	simple_oauth_3p/simple_oauth_3p.services.yml	
+D	simple_oauth_3p/src/Controller/Oauth2AuthorizeForm.php	
+D	simple_oauth_3p/src/Entities/AuthCodeEntity.php	
+D	simple_oauth_3p/src/Plugin/Oauth2Grant/AuthorizationCode.php	
+D	simple_oauth_3p/src/Plugin/Oauth2Grant/Code.php	
+D	simple_oauth_3p/src/Plugin/Oauth2Grant/Implicit.php	
+D	simple_oauth_3p/src/Repositories/AuthCodeRepository.php	
+D	simple_oauth_3p/tests/simple_oauth_3p_test/simple_oauth_3p_test.info.yml	
+D	simple_oauth_3p/tests/simple_oauth_3p_test/simple_oauth_3p_test.routing.yml	
+D	simple_oauth_3p/tests/simple_oauth_3p_test/src/Controller/RedirectDebug.php	
+D	simple_oauth_3p/tests/src/Functional/AuthCodeFunctionalTest.php	
+D	simple_oauth_3p/tests/src/Functional/ImplicitFunctionalTest.php	
+D	simple_oauth_3p/tests/src/phpunit.xml	
+A	simple_oauth_extras/config/install/simple_oauth_extras.settings.yml	28769106f0fa729a5dbd5587bf57a353
+A	simple_oauth_extras/config/schema/simple_oauth_extras.schema.yml	40cc25c88d5817dade464cc9a8c6605e
+A	simple_oauth_extras/simple_oauth_extras.info.yml	c58a2437192f37f120405e765db952ed
+A	simple_oauth_extras/simple_oauth_extras.module	17b10b3629c7b11f70b984c2fd4b6ca9
+A	simple_oauth_extras/simple_oauth_extras.permissions.yml	51f1ebbc7fd705a21d94e669747eb27e
+A	simple_oauth_extras/simple_oauth_extras.routing.yml	78a17d91eca3eafcbcec2925705b3daa
+A	simple_oauth_extras/simple_oauth_extras.services.yml	19af94428fe01b23a75319ee2a4ffdcc
+A	simple_oauth_extras/src/Controller/DebugController.php	80f6fc59ecffcc057e560872984675ba
+A	simple_oauth_extras/src/Controller/Oauth2AuthorizeForm.php	b6db507e11a557c7080865247934a357
+A	simple_oauth_extras/src/Entities/AuthCodeEntity.php	a2987c27d8cb326d3f4912bd10be6cc1
+A	simple_oauth_extras/src/Plugin/Oauth2Grant/AuthorizationCode.php	f3f958d391bbae2356025c9cf4767840
+A	simple_oauth_extras/src/Plugin/Oauth2Grant/ClientCredentials.php	7357891171c378501c21e3d3301278d5
+A	simple_oauth_extras/src/Plugin/Oauth2Grant/Code.php	99904d4ed5d9c14b55619d200a60cd30
+A	simple_oauth_extras/src/Plugin/Oauth2Grant/Implicit.php	342e970bf72ddc0388784034a848e651
+A	simple_oauth_extras/src/Plugin/Oauth2Grant/RefreshToken.php	d74feb89ea4a5f23e34db354a120743e
+A	simple_oauth_extras/src/Repositories/AuthCodeRepository.php	04b60cac4da95335b758631bc45d4966
+A	simple_oauth_extras/templates/oauth2-client.html.twig	17b30a97c141d866f85472584f58214b
+A	simple_oauth_extras/tests/simple_oauth_extras_test/simple_oauth_extras_test.info.yml	ad87c85e797e58d1a4a03d0b1fecf4d3
+A	simple_oauth_extras/tests/simple_oauth_extras_test/simple_oauth_extras_test.routing.yml	8dd1517a3db125fbd65ae81879a23638
+A	simple_oauth_extras/tests/simple_oauth_extras_test/src/Controller/RedirectDebug.php	5060fefee4a2b137be9de3cd808e0e50
+A	simple_oauth_extras/tests/src/Functional/AuthCodeFunctionalTest.php	d1cced94f2d973233eb6144b187be6eb
+A	simple_oauth_extras/tests/src/Functional/ClientCredentialsFunctionalTest.php	7721af8c37a166d760acd7d6e315c25f
+A	simple_oauth_extras/tests/src/Functional/ImplicitFunctionalTest.php	1d98ddbdd1b044d9dc1ff1f7c35a2f32
+A	simple_oauth_extras/tests/src/Functional/RefreshFunctionalTest.php	ae2cd48a3d80f711b4ec57acf08b4839
+A	simple_oauth_extras/tests/src/phpunit.xml	b0bc172bfb829a7b7f43c06f0313327a
+M	src/Authentication/Provider/SimpleOauthAuthenticationProvider.php	6b42c9838a54f7923f197dd807a77957
+M	src/Authentication/Provider/SimpleOauthAuthenticationProviderInterface.php	ef450e665bfb5da8baaeb2b94357e68f
+M	src/Authentication/TokenAuthUser.php	7202057f844279d7ce8e5ca45ad779ca
+M	src/Controller/Oauth2Token.php	48d5e543edcebaa46e80cce379b9d91a
+M	src/Entities/ClientEntity.php	877c6ed7ff26a1e4bc6bdee83beffe5d
+M	src/Entities/ClientEntityInterface.php	41a77e7f02a4ecc03b4dca8d6325b209
+M	src/Entity/Form/Oauth2TokenSettingsForm.php	62643bae8e0cbda11d047bbdb74d00dc
+M	src/Entity/Oauth2Client.php	74946b2a45af377207ef6286fe96012c
+M	src/Entity/Oauth2ClientInterface.php	493b044b1a810ed4743434c57e1d30f1
+M	src/Entity/Oauth2TokenInterface.php	7f4f69fe2aade698f928ae8324347cf8
+M	src/Entity/Oauth2TokenTypeInterface.php	5d9c4589842285918b15d84f39d4ce41
+A	src/ExpiredCollector.php	51d0fdd6ee3d62e727bdb2f59381e8a9
+M	src/Oauth2ClientListBuilder.php	c7050e7b38eaf0348a6b4fff393a1bbb
+M	src/PageCache/DisallowSimpleOauthRequests.php	5e40309de22825f41d82dddb81ba8ebf
+D	src/Plugin/Oauth2Grant/ClientCredentials.php	
+M	src/Plugin/Oauth2Grant/Password.php	90e7bf5b3990aeac4c5f75d24d38c1e8
+D	src/Plugin/Oauth2Grant/RefreshToken.php	
+M	src/Repositories/ClientRepository.php	f715b9b678ceebb9aaadbb55ad5f9f14
+D	templates/oauth2-client.html.twig	
+D	tests/src/Functional/ClientCredentialsFunctionalTest.php	
+M	tests/src/Functional/PasswordFunctionalTest.php	b815f9af53bc9bdf1826cb095fd918c8
+D	tests/src/Functional/RefreshFunctionalTest.php	
+M	tests/src/Functional/TokenBearerFunctionalTestBase.php	5d8866724db2235b0112e251bc3e1b10
+M	tests/src/Unit/Authentication/Provider/SimpleOauthAuthenticationTest.php	dca65bbfbb0bc266d6460aec58b6a798
+A	tests/src/Unit/EntityCollectorTest.php	2b314b526d1e6937fd862dc49aa7c9ef

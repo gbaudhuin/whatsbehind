@@ -1,0 +1,4 @@
+M	tests/modules/workbench_moderation_test_views/workbench_moderation_test_views.info.yml	3b957ea89626183856086756c61b1dc8
+M	tests/src/Kernel/WorkbenchModerationSchemaTest.php	55d64e5982eeb27ec8131c14af3f80c2
+M	workbench_moderation.info.yml	d625d0d653b1bf00a49c7d310f18da1d
+M	workbench_moderation.services.yml	3ce6a8c34cac616a9a7db6d41354405e

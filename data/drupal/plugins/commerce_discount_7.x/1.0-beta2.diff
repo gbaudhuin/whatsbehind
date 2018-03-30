@@ -1,0 +1,7 @@
+M	commerce_discount.info	6d643eb9b7fb2ccb20e183d0831a62a8
+M	commerce_discount.module	c829fe1f2bc42aa02597ba5ca96bf983
+M	commerce_discount.rules.inc	687d30ef676667304df37cad89a9d032
+M	commerce_discount.rules_defaults.inc	8b751df5991afa97b51f39c62b8caf1e
+M	tests/commerce_discount_base.test	98b142fcce82ab1b42cfc41806c12ce6
+M	tests/commerce_discount_shipping.test	e123ec790d22e6cc3c615add58f2b688
+M	tests/commerce_discount_shipping_test/commerce_discount_shipping_test.info	13ade868b1199b7785bcd2f4eb946ce8

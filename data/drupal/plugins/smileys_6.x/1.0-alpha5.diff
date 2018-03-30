@@ -1,0 +1,22 @@
+M	CHANGELOG.txt	eb8264fd910819e626f99c1da78d1348
+M	INSTALL.txt	baf2f316197050d31547d7d6f0ec9c4f
+M	README.txt	be4deb5e34aa9e8d0f319443d543609c
+D	misc/smileys-deselected.png	
+D	misc/smileys-middle.png	
+D	misc/smileys-selected.png	
+M	plist.inc	2dc2ca6f91f7e70b673883ca6c2750fd
+A	scripts/admin/images/delete.gif	b65519d299600e5c95d3e82c5142e260
+A	scripts/admin/images/loading.gif	4b8aa7b805a8df897de08b2f232e70e7
+A	scripts/admin/images/nub.png	bfd6130772702485fdd6cb429b64d0f2
+A	scripts/admin/images/reorder.gif	538765e3bf3c8b845ce670ad78d4f444
+A	scripts/admin/images/save.png	63e3e5f5ee48bb7e0cc890046bb79eda
+D	scripts/admin/images/smileys-middle1.png	
+M	scripts/admin/smileys-admin.css	939153598d807139bb6f6eb7ef60174e
+M	scripts/admin/smileys-admin.js	c9178e77d36fe91406417e72eaaa50c8
+M	scripts/smileys.css	aa7f3b22e18bea46db8bbaf8bf20bf88
+M	scripts/smileys.js	5bea7bd1239dbb4025c5de17e905bb5d
+M	smileys.info	a5d74c8f603fb9c9abd350fbdbdbc48a
+M	smileys.install	083d7913ee9b9e229bba62309fee1153
+M	smileys.module	f52e16b932d9c5c25ee9f0412f9e4c11
+M	smileys_import.info	f09e879cfe6b5bdc4b0f3f4868eb5d95
+M	smileys_import.module	792cb8483d078d4360689e6b179773e7

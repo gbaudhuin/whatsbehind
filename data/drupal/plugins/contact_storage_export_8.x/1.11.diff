@@ -1,0 +1,14 @@
+A	.gitignore	0c0ef7b9a3271d2fbfa0aca4d0bb61eb
+D	config/install/contact_storage_export.ContactStorageDownload.yml	
+M	contact_storage_export.info.yml	68af9b543bfe28a01ddd2f3769a7647f
+A	contact_storage_export.install	47883ecb969ef59082b804ef170905b8
+M	contact_storage_export.module	577ac99af7c64e1a4ae27462ac04113b
+A	contact_storage_export.services.yml	0f5cbe14fa30719044ed4ea9d14ccab4
+M	src/ContactStorageExport.php	e4298b4f0d2273e7daa163229062a8a0
+M	src/ContactStorageExportBatches.php	627728de643e20d2debe4f1762103fc9
+A	src/ContactStorageExportService.php	d79bd9740fbe29427d93148031788896
+M	src/ContactStorageExportTempstore.php	bfab67515e7ac101d33bbab049be6911
+D	src/ContactStorageExportValues.php	
+M	src/Form/ContactStorageDownloadForm.php	245c0aff0ef2362cdfd3a2370de8f92f
+M	src/Form/ContactStorageExportForm.php	b9c85077b324673723a403281e925388
+A	tests/src/Kernel/ContactStorageExportServiceKernelTest.php	f506bb0705fde0b622dcd0b18cc4f7cd

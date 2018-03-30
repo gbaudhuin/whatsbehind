@@ -1,0 +1,22 @@
+M	CHANGELOG.txt	f713e68d204db724ad6b6891ef2976db
+M	date/date.info	37dbd2d476bea9e626a762cff6cfb344
+M	date/date.module	a74a884235e72e8fce32f081b569ec4d
+M	date/date.theme	992ecf3d01e7194d3ce3fa5900f232b0
+M	date/date_elements.inc	9e8767f8936e2d4eab20f0df0c37591d
+M	date/date_repeat.inc	de156fbc00728d38e21f1b86702a779b
+M	date_api.info	3580dc286fe68d446960c778c6efb2f7
+M	date_api.module	70ed9cf476055e5c42b914f0a64d5ffe
+M	date_api_elements.inc	2a6e03d122168832119321938d8c04fb
+M	date_api_ical.inc	d4740db783d69f511956fe8eaee2cbb6
+M	date_api_sql.inc	7a3c6d4b68a9cc8a0ba34e82e1ea823a
+M	date_copy/date_copy.info	c5adc58c19df82e591b7e31df018e4f0
+M	date_php4/date_php4.info	afed83f3c5afe86d2b4400645ed059f1
+M	date_popup/date_popup.info	b458630381b29d7f88037063f265a6b1
+M	date_repeat/date_repeat.info	d436fbc2fb9331e4d6d691ee40e15492
+M	date_repeat/date_repeat.module	560fbef438b25ea3c78a933f425467b9
+M	date_repeat/date_repeat_calc.inc	12e15534988d7a9c52795bb25e783b01
+M	date_repeat/date_repeat_form.inc	d1f7e4891b1267395b2a1ba6710f78e8
+M	date_timezone/date_timezone.info	7cfc97f305e12b2d5a50af504354ffd3
+M	date_timezone/date_timezone.module	3bfaf49e6e6a5b0070b87eca51df825b
+D	tests/date_test.test	
+D	tests/date_timezone.test	

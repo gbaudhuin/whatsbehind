@@ -1,0 +1,15 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	89b7ebc714ddab09c9b174a6f4a7566e
+A	config/install/paragraphs_previewer.settings.yml	0bed4c9fcf0a63e1a5b0e556bce3ea97
+A	css/dialog.css	ccaff3a9e817b0163211c1839562598b
+A	css/preview_page.css	8cbce14b414a4f98cf08b77343598c89
+A	js/dialog.js	072e4be292d910149983908ef11edffb
+A	paragraphs_previewer.info.yml	a6fea2f7760aeed651e173377dfaadc6
+A	paragraphs_previewer.libraries.yml	e7fb5bba4b3b82087ff865bae7bca02f
+A	paragraphs_previewer.module	fd40d0800f92db64a09be438b779ee6a
+A	paragraphs_previewer.permissions.yml	59750e589ce2b0eaa85f5b7d7b684272
+A	paragraphs_previewer.routing.yml	0281fa4664184086e0179a774813c4b7
+A	paragraphs_previewer.theme.inc	32fb33db2d91a6c70ff398ea5f28ec4a
+A	src/Controller/ParagraphsPreviewController.php	eeb5557303422f009213e72d3708ec42
+A	src/Plugin/Field/FieldWidget/InlineParagraphsPreviewerWidget.php	03f2a022e7f9abd3025e77ecd976d32b
+A	templates/paragraphs-previewer-modal-content.html.twig	c1c64188ad8d9acdfa23e2fd4f6c5eea

@@ -1,0 +1,21 @@
+M	config/schema/media_entity_slideshow.schema.yml	95297ae6b0d4e8eed18943f17c965028
+M	media_entity_slideshow.info.yml	b58f48bbb6c726dffcea347c4b35b19a
+M	media_entity_slideshow.install	133fa6091c8b2df56dece9d15130e4b5
+D	media_entity_slideshow.module	
+D	src/Plugin/MediaEntity/Type/Slideshow.php	
+A	src/Plugin/media/Source/Slideshow.php	2a86bf89ca8a8a6eede5f590495d8425
+M	src/Tests/MediaEntitySlideshowTest.php	7d6e482658bcfbfbd88687d22b3dca4d
+M	tests/modules/media_entity_slideshow_test/config/install/core.entity_form_display.media.image_bundle.default.yml	517ca41a0d4ae1acdcf53b3beb4e753f
+M	tests/modules/media_entity_slideshow_test/config/install/core.entity_form_display.media.slideshow_bundle.default.yml	3d965f9675242435295e9e1ac05dcbb0
+M	tests/modules/media_entity_slideshow_test/config/install/core.entity_view_display.media.image_bundle.default.yml	19f8ad784e308abd1cd0e500d757d853
+M	tests/modules/media_entity_slideshow_test/config/install/core.entity_view_display.media.slideshow_bundle.default.yml	b7275571dc4e28a33b05cd1d2c577f9b
+M	tests/modules/media_entity_slideshow_test/config/install/field.field.media.image_bundle.field_imagefield.yml	204e5e8849f4159c19a47936d67dd56e
+M	tests/modules/media_entity_slideshow_test/config/install/field.field.media.slideshow_bundle.field_slides.yml	fbb6bce71dfccc38c98bfaecc8d4bba5
+M	tests/modules/media_entity_slideshow_test/config/install/field.storage.media.field_imagefield.yml	5f1b7492420d2dc9ee6f0bad34fddc07
+M	tests/modules/media_entity_slideshow_test/config/install/field.storage.media.field_slides.yml	98885fa8bb3f228603436cdcadf73564
+A	tests/modules/media_entity_slideshow_test/config/install/media.type.image_bundle.yml	d1a624d06c1a8718502c59941d38e212
+A	tests/modules/media_entity_slideshow_test/config/install/media.type.slideshow_bundle.yml	675195f04d497b28181059d6f4a28d8c
+D	tests/modules/media_entity_slideshow_test/config/install/media_entity.bundle.image_bundle.yml	
+D	tests/modules/media_entity_slideshow_test/config/install/media_entity.bundle.slideshow_bundle.yml	
+M	tests/modules/media_entity_slideshow_test/media_entity_slideshow_test.info.yml	d9b00584f3e14412a0c0b6062aa94f58
+M	tests/src/Unit/ConstraintsTest.php	3eddfc098cdef8529b1320e78a041dd7

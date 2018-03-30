@@ -1,0 +1,8 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	1d62c3e6c45c6a5c398213a7dcf2340f
+A	composer.json	57acee2c2a81d6d10e0c26d237ec3eed
+A	module_blacklist.info.yml	efe95dc8ae2afdf583f5f7e316755ed3
+A	module_blacklist.module	cc375a183744ae81cba46a6d2e002384
+A	module_blacklist.services.yml	78d497161602b4a2979f0f4c41f37b77
+A	src/Exception/ModuleInstallationBlocked.php	6b6bd58139f14f4f11c0c98db8d2fe0e
+A	src/ModuleBlacklistModuleInstaller.php	df6d1611a21bfdaedba4ad780ef2812d

@@ -1,0 +1,14 @@
+M	context.core.inc	0b2f2beaa2990effe32da3f804b605ff
+M	context.info	449a493a897ce4a461bb814706ea1f66
+M	context_layouts/context_layouts.info	6d1c1e8d57474dc4c62aaf94053778af
+M	context_ui/README.txt	a119d164ac9397ee4f79cc541e0511a4
+M	context_ui/context_ui.info	be40edc71011d15edc82d1f83040b7e2
+M	context_ui/context_ui.js	e734ac6ce8ecf66f21723383c1162eca
+M	context_ui/context_ui.module	46ba3345b02117eba9668075f953035f
+M	context_ui/context_ui_dialog.css	f155c983e55cbeda1751bd473dbf1bf5
+M	plugins/context_condition_menu.inc	ed17ae3ffb5c626731889ff97893a55f
+M	plugins/context_reaction_block.css	c63e9dedd74cc8fd2de86c391ef14b7b
+M	plugins/context_reaction_block.inc	b1d36ea56da3b3e6d7bd20495355183a
+M	tests/context.conditions.test	0fda3b64d9b3a2d423e872081430b5df
+M	tests/context.reactions.test	3b644ea1ba495f02e7a656e4fb70c7d8
+M	theme/context_reaction_block.theme.inc	dd0de34ab15f2308582c1cb76a98ff08

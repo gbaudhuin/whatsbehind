@@ -1,0 +1,12 @@
+M	legacy/lib/FinderPlugin/Interface.php	6231fe046657219a157c12b6c1f2bf20
+M	lib/Adapter/DrupalExtensionAdapter.php	5117fa00feb9aa19d5a5d416327846bb
+M	lib/ClassFinder/ClassFinder.php	d23b0d2adc8472b9e0b1b3bc8c6de9df
+M	lib/ClassFinder/GenericPrefixMap.php	2aaace6a7945eb306a46aabafb9a26e9
+M	lib/ClassFinder/Plugin/DrupalExtensionNamespaceFinderPlugin.php	e4ad8d807daa899d79139f849433fc3c
+M	lib/ClassFinder/Plugin/FinderPluginInterface.php	dcec904fbc7a03ccd718217055b9c030
+M	lib/ClassFinder/Plugin/Psr4FinderPlugin.php	bcb5d45ef49be550f9631d39b6f74454
+M	lib/Util.php	e61ad1b63aa8de6b811219f9849f8842
+M	tests/test_1/xautoload_test_1.info	e5a1c3930b34278a4f77abe1d5bebf3f
+M	tests/test_2/xautoload_test_2.info	dada88c4e540334a4c311f2b83172dae
+M	tests/test_3/xautoload_test_3.info	ec9bda64aced9b00b62db1efa120907a
+M	xautoload.info	9360f92fcaaccfa00e676140331d9790

@@ -1,0 +1,14 @@
+M	README.txt	21530fed3f18b5da129eea2789de8c1a
+D	default/css/README.txt	
+D	default/default.pattern	
+D	default/logo.png	
+D	default/preprocess/README.txt	
+D	default/process/README.txt	
+D	default/screenshot.png	
+D	default/template.php	
+D	default/templates/README.txt	
+D	includes/omega_tools.admin.inc	
+D	includes/omega_tools.drush.inc	
+D	includes/omega_tools.wizard.inc	
+M	omega_tools.info	23b09cad96e44a4a448bff1c6adfcf88
+M	omega_tools.module	568ed5f300b223799f7bf04d83268ac6

@@ -1,0 +1,6 @@
+M	config/install/tvi.settings.yml	2824abdb11924542896f4f46e0badd74
+D	includes/tvi.admin.inc	
+D	includes/tvi.query.inc	
+M	src/Form/TaxonomyViewsIntegratorSettingsForm.php	41fd792a592fe11bae77f44f9b02b0d3
+M	tvi.info.yml	bc7456375c8422b3349d617f49d4317f
+M	tvi.module	5ea202f1d41beb41e1766425b2b92b2d

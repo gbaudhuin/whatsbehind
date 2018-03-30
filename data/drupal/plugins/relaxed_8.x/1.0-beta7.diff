@@ -1,0 +1,7 @@
+M	README.md	5cdf27a8b378c9d2d5460bb65dcbca14
+M	relaxed.info.yml	cea241267f6c4c8f4d555d0531157dab
+M	src/CouchdbReplicator.php	aa7ef0d28f501007d567e8fb55f99add
+A	src/Event/RelaxedEvents.php	69c22fe1b45a30563d91ede146929509
+A	src/Event/RelaxedReplicationFinishedEvent.php	a0ba244de0f5cc55d09193f70d55b395
+M	tests/bin/run-couchdb.sh	ffb33c7941f47caa03507cd57379fc01
+M	tests/modules/relaxed_test/relaxed_test.info.yml	eebbeb25e45b57bd2840c14c3870495e

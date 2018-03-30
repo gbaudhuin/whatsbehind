@@ -1,0 +1,8 @@
+M	README.txt	3f33a006fca2e6dd8f9f60d85c094159
+M	migrate_extras.info	1e0767816c06e4055f04b5ff4002d08c
+M	migrate_extras_examples/migrate_extras_pathauto/migrate_extras_pathauto.info	f36b746301b79fe373c80795daea0c21
+M	migrate_extras_examples/migrate_extras_profile2/migrate_extras_profile2.info	86f88dc2d8fc1e177824a63def6d7b17
+A	name.inc	d69d1520dfd88b7370c62762c8f13017
+M	profile2.inc	e592472d84caee74a9afc8853d5880fa
+D	tests/date.test	
+M	votingapi.inc	ff6f68b8dcededef95fa7fadfc0ad3e6

@@ -1,0 +1,13 @@
+M	ctools/plugins/export_ui/picture_mapping.inc	bafb31f190407c9b2258f12d5fcbe5bd
+M	flexslider_picture/flexslider_picture.info	6297e43d58ec1b190d67913647579012
+M	flexslider_picture/flexslider_picture.install	df7049df1ea3eaa76a13a9bd7be17630
+M	flexslider_picture/theme/flexslider_picture.theme.inc	523a036fedcfdfc8ef348ff5411b83f6
+A	lazysizes/lazysizes.js	ceaad28cb52ebcbb535ff5e5fd970030
+A	lazysizes/lazysizes.min.js	618e8f7a7e92512c59bc0e261f2fde64
+A	lazysizes/plugins/aspectratio/ls.aspectratio.css	07c1f09e76454589f6ae056aa09f59df
+A	lazysizes/plugins/aspectratio/ls.aspectratio.js	d52f3dbd35bb80bcd1b46137dd9c588d
+A	lazysizes/plugins/aspectratio/ls.aspectratio.min.js	e434d752d36e87115acc09daf41d71c8
+M	picture.admin.inc	a1243143a7edcdad581df8a3a7913ee6
+M	picture.file_entity_1.inc	5256d534a4ed99cd4626abe9641e10dd
+M	picture.info	949fda32b0dc37de6cbfdd461b798467
+M	picture.module	18a14fe59bb2327db36752cb50c3aef1

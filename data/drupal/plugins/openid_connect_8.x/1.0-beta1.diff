@@ -1,0 +1,14 @@
+M	openid_connect.info.yml	5cfdbcf3476b0e7f27a04608c9a3aaff
+M	src/Authmap.php	6a30da8ee86889aa434b88d0dbf5f325
+M	src/Claims.php	5264455660ee586d4c722053d73677c7
+M	src/Controller/RedirectController.php	dae3ba33561e22122ff8c173e5eee540
+M	src/Form/AccountsForm.php	1ac1da15ad98ed6c54db8ee7720bd5da
+M	src/Form/LoginForm.php	778f9e8f2a2f35d6530fe712e62e4257
+M	src/Form/SettingsForm.php	2705af414b75f0159d4e3d26f2531cb2
+M	src/Plugin/Block/LoginBlock.php	4d026e4046942e491c80eecb7ba8a5b3
+A	src/Plugin/OpenIDConnectClient/Generic.php	069a9fe723df202e0fece4d9be068ec9
+A	src/Plugin/OpenIDConnectClient/Google.php	1d17ef91d909848e6416a4664397059c
+D	src/Plugin/OpenIDConnectClient/OpenIDConnectClientGeneric.php	
+D	src/Plugin/OpenIDConnectClient/OpenIDConnectClientGoogle.php	
+M	src/Plugin/OpenIDConnectClientBase.php	482a4a8ce78ec6dfe8e97a07d98b1376
+M	src/Plugin/OpenIDConnectClientManager.php	1d3dc1aa1629bc98200403f727107b63

@@ -1,0 +1,10 @@
+M	README.txt	eb511ffeb3b506d1928d8122d2774ac8
+M	config/schema/config_ignore.schema.yml	108dcdb816787e274ed529ac040c2600
+M	config_ignore.info.yml	7df7f0ac865cb51060421d80f1f331b6
+M	config_ignore.module	9c69caba47f4360f166b5c5fadf3d8a7
+M	src/Form/Settings.php	d0a8fff69e4817e41ba4888f443f61b0
+M	src/Plugin/ConfigFilter/IgnoreFilter.php	e6332585061cccb65c52675b987f481e
+M	tests/config_ignore_hook_test/config_ignore_hook_test.info.yml	6c2566795184eab7794b27f0d5482577
+M	tests/src/Functional/ConfigIgnoreBrowserTestBase.php	56927c27479874e16ad4a88dec50d14c
+M	tests/src/Functional/ConfigIgnoreHookTest.php	168aabc56e797b248213bd677630d0f5
+M	tests/src/Functional/ConfigIgnoreTest.php	2028849da28585d08637d69dde6ef37c

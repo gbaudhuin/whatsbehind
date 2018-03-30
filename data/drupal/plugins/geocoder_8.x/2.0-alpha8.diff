@@ -1,0 +1,8 @@
+M	README.md	57cec4cc20f1132cd978adf4f1469a09
+A	drupal_org_documentation/description.html	e9373e55468fadd1d200dc373469f987
+A	drupal_org_documentation/summary.html	6f52c0bae8778769d94f66f503446ae8
+M	geocoder.info.yml	c0616830dc2a682c1fab7dafa2f56e27
+M	modules/geocoder_address/geocoder_address.info.yml	7b4a45f668a3a0d8542bb07dbcb8426b
+M	modules/geocoder_field/geocoder_field.info.yml	1c269316985f700df344ffd84fd06534
+M	modules/geocoder_geofield/geocoder_geofield.info.yml	508ebc139b7caf25db7f8f99d8112721
+M	modules/geocoder_geofield/tests/modules/geocoder_geofield_test/geocoder_geofield_test.info.yml	dc50dfb6b022fb0bbd8ad89a3a3bdc21

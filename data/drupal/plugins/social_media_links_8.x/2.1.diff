@@ -1,0 +1,10 @@
+M	social_media_links.info.yml	6e429ee4242fb2d33d5a325918f432fc
+M	social_media_links.module	10c2ef95594ea359f3bfb95bb9b62c19
+M	src/PlatformBase.php	544b0d7efa1499b01beb42e809f0f0f7
+M	src/PlatformInterface.php	84179b67a0776a5f95b56f43fbe7c867
+M	src/Plugin/Block/SocialMediaLinksBlock.php	f53aea3a181b00c3f48ebfdf2d033c07
+M	src/Plugin/SocialMediaLinks/Iconset/FontAwesome.php	4bd9fa6c4d7c8cb49603dcce6d908206
+M	src/Plugin/SocialMediaLinks/Platform/Contact.php	3017731964ff550b65ddf9f9d71c72e6
+M	src/Plugin/SocialMediaLinks/Platform/Email.php	d61bd26ce2a5c7ccbb9860c7be3b2b62
+M	src/Plugin/SocialMediaLinks/Platform/Tumblr.php	73ef236455d7d93d0343254f19a4510e
+M	src/SocialMediaLinksPlatformManager.php	64fd09b1c131c1e0740b8df091c92f36

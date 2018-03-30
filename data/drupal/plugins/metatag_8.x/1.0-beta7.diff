@@ -1,0 +1,6 @@
+M	CHANGELOG.txt	75906c25ef90f1e423a8f7865dc60386
+M	metatag.info.yml	b05d291cd3a1684b51e9a6f02f872ca1
+M	metatag_open_graph/metatag_open_graph.info.yml	414dac76152ea47cb7a631825bb1bf0d
+M	metatag_open_graph/src/Plugin/metatag/Tag/OgUpdatedTime.php	985194adec4da90c118f33d5926958db
+M	metatag_twitter_cards/metatag_twitter_cards.info.yml	c1b06cb91ba2f029a6ac616f6e2cf876
+M	tests/modules/metatag_test/metatag_test.info.yml	1e70e600334f2abd538c2d81fef83810

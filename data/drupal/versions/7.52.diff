@@ -1,0 +1,8 @@
+M	CHANGELOG.txt	73b76e937430b4ae3ce4a6c720f2ed8c
+M	includes/bootstrap.inc	8a7f5292253a312582519a8f0e781db8
+M	includes/database/select.inc	e19121f0d2c21c346e45415fe145b2b2
+M	modules/simpletest/tests/taxonomy_test.module	1c5c9752e10a5aa508063dc8b50e2b05
+M	modules/system/system.module	a0697842688ce4749928a686c16c7383
+M	modules/taxonomy/taxonomy.module	df03835d22ab00f6ac08552da32b1b40
+M	modules/taxonomy/taxonomy.pages.inc	ed66bde8be7f3a694b09853fd34b2c00
+M	modules/taxonomy/taxonomy.test	d85ce6d6865110010816f0206649b94f

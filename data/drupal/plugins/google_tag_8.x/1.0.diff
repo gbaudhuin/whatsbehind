@@ -1,0 +1,16 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	22e0898cc20d473948af07e256da458e
+A	composer.json	63309d617a59730e12314a81f26f1378
+A	config/install/google_tag.settings.yml	e13f0f9c6115df7f656f5fc2dd6b61f2
+A	config/schema/google_tag.schema.yml	049e8befea4a551b1d3f695d5fa2cce7
+A	google_tag.api.php	7d52f229c879a28abe5911f9bd329b4f
+A	google_tag.info.yml	9e0b8d160db2c2a72be30a5ea555f5d4
+A	google_tag.install	3809fe17e3b2376fd895e3fc4b9ecf77
+A	google_tag.libraries.yml	2bfd83eeefed4c92ddc86ddd3d9c9f76
+A	google_tag.links.menu.yml	2fcd8a5a3f46a21d2f1a5807849f6929
+A	google_tag.module	951d954dc384ea4b3186a5b3d685e34e
+A	google_tag.permissions.yml	0b7237d486a2150682dfcdae1ba9439a
+A	google_tag.routing.yml	ee6aa492c83bdc04d3c31961f88d995e
+A	includes/snippet.inc	32d15efb14b45da0f3bd2237309dce4a
+A	js/google_tag.admin.js	ef3d62d1eb50e3f3906a01e29e7b7f8a
+A	src/Form/GoogleTagSettingsForm.php	9ee8fa9430d3ef9e9d67ccc6740e6be3

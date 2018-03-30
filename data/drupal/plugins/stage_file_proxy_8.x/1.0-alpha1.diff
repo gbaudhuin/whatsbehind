@@ -1,0 +1,14 @@
+A	INSTALL.txt	6bc66f947f6bcdd9860d95802780b9b2
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	composer.json	4f8c4baee154c93ca1bfc13be4b2e65c
+A	config/install/stage_file_proxy.settings.yml	c23247b1450fa4463971ad92be901e1c
+A	config/stage_file_proxy.schema.yml	2e58c5bfeaed772bf9219eac4a415c2e
+A	src/EventSubscriber/ProxySubscriber.php	de9729519e23280f68af3fcee9ed713c
+A	src/FetchManager.php	9425e8c1d42a8a5903e0d4d3a7857dd9
+A	src/FetchManagerInterface.php	acd26f736e8ec925cc8b4281160692c8
+A	src/Form/SettingsForm.php	54ca413580fc171dcc725483d88ef194
+A	stage_file_proxy.info.yml	7ed964bf9b909fd8efa4b49afcdb1075
+A	stage_file_proxy.links.menu.yml	7d0331be4b7cc1ce615539bfa6dade2c
+A	stage_file_proxy.permissions.yml	190f3dd9328be0b6a2c0d03afe112f50
+A	stage_file_proxy.routing.yml	520d72fc0a2f4218692fda5a4f6c684e
+A	stage_file_proxy.services.yml	bed7ef16d2a1d9bd49b93c4e3a3fac4a

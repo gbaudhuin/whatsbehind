@@ -1,0 +1,4 @@
+M	modules/permissions_by_entity/permissions_by_entity.info.yml	4b5ebb1c9de9eb8a623235db47ee7e48
+M	permissions_by_term.info.yml	d1d68438feea06b10566ef3461ba82ad
+M	permissions_by_term.module	9d0366e648c6fb70546c45c4fb0ee177
+M	src/Service/AccessStorage.php	f41bac793ebf2d9aa5f334ac04b51562

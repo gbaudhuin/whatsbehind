@@ -1,0 +1,7 @@
+M	simple_fb_connect.info.yml	536833fac3cdbf591665c7a558fb5cdf
+M	src/Controller/SimpleFBConnectController.php	3cc198663a6be3162c25a5dfbdd47d2e
+M	src/SimpleFbConnectFbFactory.php	63a6361a5b1e950550b8c528817906ac
+M	src/SimpleFbConnectFbManager.php	3d3127dd7f145dfed8d38415987be730
+M	src/SimpleFbConnectUserManager.php	4b992bd8fc7ce4923e849a4095d4ab63
+M	tests/src/Unit/SimpleFbConnectUserManagerTest.php	7aa5b541520cb7f9f472696145e85c6e
+M	tests/src/Unit/TestSimpleFbConnectUserManager.php	1db951a3d2f2988b05f310795106463b

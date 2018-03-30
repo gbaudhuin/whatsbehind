@@ -1,0 +1,3 @@
+M	entity_reference_display.info.yml	d6503092c30bb02bf19711b66399a610
+M	src/Plugin/Field/FieldFormatter/EntityReferenceDisplayFormatter.php	87b6a3fc4dd5308813dbbbe0226948f9
+M	src/Plugin/Field/FieldType/EntityReferenceDisplayItem.php	08b6e5f288c59bd801654dcd07be0edb

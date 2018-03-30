@@ -1,0 +1,17 @@
+M	wp-admin/about.php	c5818d667f97f40f67ec1bb1bed71f3a
+M	wp-admin/includes/class-wp-posts-list-table.php	5e5fe4b5fa51fd291aed933504451d63
+M	wp-admin/includes/class-wp-press-this.php	206d71854660581dad7c74d5c3409a9c
+M	wp-includes/class-wp-comment.php	2c67c5d546d7c43b9c1b6042679a8cb2
+M	wp-includes/class-wp-post.php	27737677e6c4f7b6e3bfc13264ed353f
+M	wp-includes/class-wp-query.php	c6fdacc253ba3c6aeec26c780af71ad8
+M	wp-includes/class-wp-term.php	5ba70badd0127c14dfcdeed67396ad58
+M	wp-includes/rest-api.php	faf207b2cbb40057c2b68d85b9b6f65c
+M	wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php	b4ebf121d502f40f2bf39dc6682930c9
+M	wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php	7d48bc4a38f3cf29197747e7177b9a25
+M	wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php	01c72b885d4628f5288cd064f8419a42
+M	wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php	b09b0694412400b5d50890b1c9935b4c
+M	wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php	51aafa197ad695de2c4eceb7491677af
+M	wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php	f109b15ea7dab111e098d503a76b4d30
+M	wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php	9d8f9274be596fdef0038cc5265c1876
+M	wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php	fbd03fc6811db1a5ebb66db48dd6f673
+M	wp-includes/version.php	7de81a6d25dedb6d53d1d970368a4318

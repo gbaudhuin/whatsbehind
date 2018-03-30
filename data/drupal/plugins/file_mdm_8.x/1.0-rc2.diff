@@ -1,0 +1,12 @@
+M	composer.json	6a2f5a407f4d285b8c4ee2fb7ebe2192
+M	file_mdm.info.yml	d2eacc42481dcb51644310e8014046fa
+M	file_mdm_exif/file_mdm_exif.info.yml	3be128cc49803b9a3f5b9df4f84e76c2
+M	file_mdm_exif/src/ExifTagMapper.php	3853851b4759148b7395b1b348b8390e
+M	file_mdm_exif/src/Plugin/FileMetadata/Exif.php	139ca1bf64928828f3c99df8d7014b1f
+M	file_mdm_exif/src/Tests/FileMetadataExifTest.php	35740f37746327eece90b77a4e6f5d32
+M	file_mdm_font/file_mdm_font.info.yml	d21960fe68fb18dbae1e419913e21ec1
+M	file_mdm_font/tests/src/Kernel/FileMetadataFontTest.php	b92d8ff3c7863a191be693ea16068e6c
+M	src/Element/FileMetadataCaching.php	a736b4b5d14a33fe09e2fcfe04fcd8e6
+M	src/FileMetadataInterface.php	ec7ddf76ad65e8f3868cb7ce54ac90f0
+M	src/Plugin/Annotation/FileMetadata.php	17251a489084104a1f35b4def6de0e8e
+M	src/Plugin/FileMetadataPluginInterface.php	f836c4571c25035e708d0cd951af59b9

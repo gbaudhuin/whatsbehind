@@ -1,0 +1,11 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	01b852108e761a41b214416af80d7b9a
+A	help/theming-views-accordion.html	364fd68702a72e389743a8eff959376b
+A	help/using-views-accordion.html	1023c21eeed2b2f03231f78b63b7f9ec
+A	help/views-accordion-style.html	bcd872dce6b5d2314c3a4b12d92059cd
+A	help/views_accordion.help.ini	a52955c19a546b39a14fa0d8b7c4eed7
+A	src/Plugin/views/style/ViewsAccordion.php	9bd635607ceb6a0a46dc943c8c9cb50d
+A	views-accordion.js	57e2c2dd8779ace9632ef87b036a0244
+A	views_accordion.info.yml	358f29205def46d52687697bf8c65b77
+A	views_accordion.libraries.yml	2f48846f3de6226519d098e97e6131a3
+A	views_accordion.module	54b14665a34fa7e36a6f18a6d23865b8

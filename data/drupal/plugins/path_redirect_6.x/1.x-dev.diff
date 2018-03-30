@@ -1,0 +1,11 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	README.txt	0ca60cbea230ea0d8520a57c6016aeff
+M	generate/path_redirect_generate.drush.inc	8eddd05a7d2468b310d478dfca0bd66b
+M	generate/path_redirect_generate.info	4fc9f7ee68e0d020a39831f2959cb2dc
+M	generate/path_redirect_generate.module	262afd31d59e07643282fdfeb94c6d62
+M	path_redirect.admin.inc	cc6da25c49d5807e2f3ab62c9beb6d22
+M	path_redirect.info	8f4e914ef142abd2a78016ebe035bcd8
+M	path_redirect.install	f9cf07defd0b3b74d0212a0d654abf72
+M	path_redirect.js	2ad98d2e323b8db1dcdee91f329a01b7
+M	path_redirect.module	fe8ec257a5faf50db7ce73973cff40c6
+M	path_redirect.test	36437046f3fc66dab31b1e4950a542c7

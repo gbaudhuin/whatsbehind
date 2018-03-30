@@ -1,0 +1,6 @@
+M	ds_bootstrap_layouts.info	b0ed0c76a62a95fa5c29f3012391d736
+M	ds_bootstrap_layouts.module	7db9b6df4afe6449edc9043ac74423d8
+A	layouts/twocol/bootstrap_11_1/bootstrap-11-1.tpl.php	a26afdc684a070b138808a1ecebc9206
+A	layouts/twocol/bootstrap_11_1/bootstrap_11_1.png	0c62c716b17ddb4f584827f643b7478e
+A	layouts/twocol/bootstrap_1_11/bootstrap-1-11.tpl.php	873df66efe99916cc4ca30db028d6828
+A	layouts/twocol/bootstrap_1_11/bootstrap_1_11.png	57b1af4657af141225c356513254f419

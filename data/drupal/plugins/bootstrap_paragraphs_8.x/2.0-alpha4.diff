@@ -1,0 +1,11 @@
+M	bootstrap_paragraphs.info.yml	bedf75891ee4c941c77a7be373821006
+M	css/bootstrap-paragraphs.css	11a582f3d1b25ebb0a7235e26854dcb0
+M	less/bootstrap-paragraphs.less	70b610e7b5a9c6f4ad3803b30f31669b
+M	templates/paragraph--bp-accordion.html.twig	e8cf0ad2c501c2d840e70ad6637723ae
+M	templates/paragraph--bp-carousel.html.twig	e19a2d1869c905d795ef727095861ec6
+M	templates/paragraph--bp-columns-three-uneven.html.twig	73a957fb224635bef92e294e417b089a
+M	templates/paragraph--bp-columns-two-uneven.html.twig	5468910d5a41c30adfee0822c900a737
+M	templates/paragraph--bp-image.html.twig	e3dabb321cce1f1be19bc66cd7a64c3e
+M	templates/paragraph--bp-modal.html.twig	eff84c011be812dcd61838cb82a1fa01
+M	templates/paragraph--bp-tabs.html.twig	f1cf9e6bf36b6b6e4852bda55fa4d4bb
+M	templates/paragraph--default.html.twig	a1e1bdf72012b62401f246c5650381e6

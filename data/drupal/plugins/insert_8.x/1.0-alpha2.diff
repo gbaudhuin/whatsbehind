@@ -1,0 +1,12 @@
+M	insert.info.yml	5d24c1d015c183ae3c7bf2911be61f72
+M	js/EditorInterface.js	6981e1b61060fcf868201176d71a6b5f
+M	js/FileInserter.js	adba3a89d1dcc0590f8cb29689ca82f5
+M	js/FocusManager.js	e42c21e98c5106d1e787c1fd71ab7df1
+M	js/ImageInserter.js	70d65a8021fb49f420810a67ae0ad335
+M	js/editors/CKEditor.js	2dd7da60842968169d051e4cd2bae215
+M	js/insert.js	4183f4658272e04f0f8e28e28804bf64
+M	src/Utility/InsertFileWidgetUtility.php	d8a40e3f85824456fc0d6ca71a4f17ce
+M	src/Utility/InsertImageWidgetUtility.php	e2f3cb047b8eb7c7da12eae0de5a481c
+M	tests/js/FocusManager.js	92e1df8f442628532eb1969fe975dd32
+M	tests/src/FunctionalJavaScript/InsertImageTestBase.php	51e230886d6bf732a7d1e3c408fb0525
+M	tests/src/FunctionalJavaScript/InsertImageWidgetTest.php	a9673d086077be8d797189d77699aa38

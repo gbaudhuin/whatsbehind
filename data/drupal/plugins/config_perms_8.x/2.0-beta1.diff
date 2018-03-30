@@ -1,0 +1,6 @@
+M	config_perms.info.yml	dddf40d01aa393749f53bb8a576fd4ab
+A	config_perms.install	b42098dede2c9c126e3820a46812be22
+M	config_perms.module	2cd45ae6f910a1511ff05e2bfa2b81c8
+M	src/Form/ConfigPermListForm.php	b2dd1d4a64c38132cae08374409841c6
+M	src/Routing/RouteSubscriber.php	34db3be72cd69ac22ccb240c3ac2481b
+M	tests/src/Functional/ConfigPermsTest.php	d733e1f94ba2a3bde7787488d69b0889

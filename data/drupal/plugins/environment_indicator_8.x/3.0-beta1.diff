@@ -1,0 +1,40 @@
+A	README.md	b2f3cfa249569f8fca260c3faaa5f683
+D	README.txt	
+D	color.js	
+D	config/environment_indicator.environment.environment_indicator_default.yml	
+D	config/environment_indicator.options.yml	
+D	config/environment_indicator.settings.yml	
+A	config/install/environment_indicator.settings.yml	209b935e7db580c5fe30cefd3c6e4d5e
+A	config/schema/environment_indicator.schema.yml	7bc1609b81c98265f5f6def17f8a3925
+A	css/environment_indicator.css	b7f533e7b4f2c83e9be8496ce0c0eefb
+D	environment_indicator.css	
+M	environment_indicator.info.yml	cbca465e9a8af111276e3002222294ad
+D	environment_indicator.install	
+D	environment_indicator.js	
+M	environment_indicator.libraries.yml	6b8fdd5798b81f343debcaf0ab27b59b
+A	environment_indicator.links.action.yml	de4d5729f34177407d2fe8612a346f44
+A	environment_indicator.links.menu.yml	b90070f81d5442cfc8895bc8a7659936
+A	environment_indicator.links.task.yml	c336e26a5b20aab8a65ccf0d9d80e70a
+D	environment_indicator.local_actions.yml	
+M	environment_indicator.module	460f922b45a752b391ff9cd6c67cb70d
+A	environment_indicator.permissions.yml	68da32af5b9824305329d2c9d1c917c9
+M	environment_indicator.routing.yml	a9309fdfd432a02dfd097d426a77aa7b
+D	environment_indicator.theme.inc	
+A	js/color.js	25eecf3ea8197add0df06a6010b5e36b
+A	js/environment_indicator.js	467b8eabbd68a80bb04e2071797e1e7e
+A	js/tinycon.min.js	a27d865375db3d8bb964ada3d4fff0db
+D	lib/Drupal/environment_indicator/Entity/EnvironmentIndicator.php	
+D	lib/Drupal/environment_indicator/EnvironmentIndicatorAccessController.php	
+D	lib/Drupal/environment_indicator/EnvironmentIndicatorFormController.php	
+D	lib/Drupal/environment_indicator/EnvironmentIndicatorListController.php	
+D	lib/Drupal/environment_indicator/Form/EnvironmentIndicatorDeleteForm.php	
+D	lib/Drupal/environment_indicator/Form/EnvironmentIndicatorSettingsForm.php	
+A	src/Element/EnvironmentIndicator.php	15adfd0993b25e5f2226eff527ab90ea
+A	src/Entity/EnvironmentIndicator.php	a4c1840ee49e94a7fbd264108496e0ea
+A	src/EnvironmentIndicatorAccessControlHandler.php	704eb5a52bd7ee8e099861142df58d73
+A	src/EnvironmentIndicatorForm.php	32339bd9bcf03562ca072c2ba7bda56a
+A	src/EnvironmentIndicatorListBuilder.php	4d02053becbab4bd8e5ebe6a04a4dde1
+A	src/EnvironmentIndicatorPermissions.php	68d5a336b37a665be06566602c82d373
+A	src/Form/EnvironmentIndicatorDeleteForm.php	55f09043a02517d70e90d802f5790482
+A	src/Form/EnvironmentIndicatorSettingsForm.php	2c7eedc0ca2e0fada6defbf46b50a120
+A	templates/environment-indicator.html.twig	29fb4eb3dbaf7c32277e4f4551cde701

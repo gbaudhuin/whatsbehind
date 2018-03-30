@@ -1,0 +1,10 @@
+M	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+M	includes/views-ticker-view.tpl.php	bc37698f7e0ba5eb1e8ff2c1455fafaa
+M	includes/views_ticker.views.inc	9d466e48270349f25f7dc380bd1cf27f
+M	includes/views_ticker_style_plugin.inc	d58cdcf7dc9cfac16201c0a108ad29ae
+A	js/jquery.liscroller.js	b6a433baf7c04d7c179ba797f1c6f67d
+D	js/jscroller2-1.5.js	
+M	js/views.ticker.bbc.js	577483642c99bc8858ec65d828fd8ca7
+D	js/views.ticker.scroller.js	
+M	views.ticker.scroller.css	5922b4563eac46ebc36d6888d4908ece
+M	views_ticker.info	d50711c3b8fc341645ca5f382866ae6f

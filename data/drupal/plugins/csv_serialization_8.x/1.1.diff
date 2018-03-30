@@ -1,0 +1,6 @@
+A	.gitignore	c99f5d2c0e8846b77372cdd60ed3b2c3
+M	composer.json	06ca306e48b660fb741b0e1d4113dc19
+A	composer.lock	25d5ac212b87f139a66256a4525fa45f
+M	csv_serialization.info.yml	176bfa4b3d9448e0128147542631e84c
+A	ludwig.json	4a5dd23739d20de27c3fbcd8049a7e67
+M	src/Encoder/CsvEncoder.php	e3fd5e058895f30bf2e5f25a4fa6e5e1

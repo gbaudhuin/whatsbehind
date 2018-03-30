@@ -1,0 +1,16 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	e92a090a58b1b97504c40e1bc16d50c3
+A	config/recaptcha.settings.yml	af2d6bec809d990d49171ddd288cff7a
+A	lib/Drupal/recaptcha/Form/RecaptchaSettingsForm.php	61f9d4646a63129a0c0b6b847e066b5a
+A	recaptcha-php-1.11/LICENSE	8c863d134de86e9f4623b04127051732
+A	recaptcha-php-1.11/README	d6cc7bf9298e02f88ee8872859a324f8
+A	recaptcha-php-1.11/example-captcha.php	8f1a30496285160ed3b978a42871e83c
+A	recaptcha-php-1.11/example-mailhide.php	3c0df991598dc7874e36fa55371f4309
+A	recaptcha-php-1.11/recaptchalib.php	b206569ed973563107c29902ca7ab35b
+A	recaptcha.info.yml	5069dbf37125c4eaeba3c7dc81814783
+A	recaptcha.js	d43d85ffc7384b2acce7d66d161be10c
+A	recaptcha.module	edb01650b78f2475bfb18a84d6ac2d0d
+A	recaptcha.routing.yml	8bb78ac26a24e0d3f11cf19bc867c473
+A	recaptcha_mailhide/recaptcha_mailhide.info.yml	f20c134a67fa907fecb271be78f81831
+A	recaptcha_mailhide/recaptcha_mailhide.module	789efefe5107ee314a45ffa7b8a70240
+A	templates/recaptcha-custom-widget.html.twig	d20f3671e2aefcf63b4ea548aa169851

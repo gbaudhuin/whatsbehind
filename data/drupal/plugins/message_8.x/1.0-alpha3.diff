@@ -1,0 +1,64 @@
+A	.gitignore	618fb738fcd2ea6ef0a0b1e87d628ecc
+M	.travis.yml	1deae279e97015425caa94c466c7bc9f
+M	composer.json	03146d0290e2036d3c3c867a099d91b7
+M	message.api.php	a16d9ead04346f4c219b4d30484d0c16
+M	message.info.yml	82cdd8d1df471b1e671df6540025652b
+M	message.module	770c63b171a790c0024e313e153aad8b
+M	message.tokens.inc	c51f09e31b583a085c7cd8a3469f6a87
+M	modules/message_example/message_example.info.yml	dedd334f8632ae8612750815caadb0da
+M	modules/message_example/message_example.module	9bab3a20cf55f8b5f5b5af5ccd508b2e
+A	phpcs-ruleset.xml.dist	940628b8e18ed326e417a1bd25624ca8
+A	phpcs.xml	11b3c162cdb54c23173590beb9532509
+A	scripts/travis-ci/run-test.sh	983c6402edff281a4ffd3dd8d56d986b
+M	src/Annotation/MessagePurge.php	2ca16f7487545dff6bf8594d95da1b1e
+M	src/Entity/Message.php	e9e729134a66697bc781f3fffb233db1
+M	src/Entity/MessageTemplate.php	b6e77da1190a79fe9e1ad67786a18e2b
+M	src/Form/DeleteMultiple.php	93f467e697e7b83879a37103ffb6e8fd
+M	src/Form/MessageSettingsForm.php	b9726d924cc6d5d6f831c36e3b807e6a
+M	src/Form/MessageTemplateConfigTranslationAddForm.php	f18602ab334b92290f3620ad0fde0da7
+M	src/Form/MessageTemplateConfigTranslationBaseForm.php	a9893b271b2b827c4baa6458ff910ef3
+M	src/Form/MessageTemplateConfigTranslationDeleteForm.php	551968cbb4fcdb7fd4aa37163f95df41
+M	src/Form/MessageTemplateConfigTranslationEditForm.php	b35751abe2f0952c9626dca7adc2a042
+M	src/Form/MessageTemplateDeleteConfirm.php	ea45159a6538d759975e827803a7ae3e
+M	src/Form/MessageTemplateForm.php	064df8c94f099b2b65306b120243bd2b
+M	src/FormElement/MessageTemplateMultipleTextField.php	12ff177f54eccc61003d96f07a32c9d4
+M	src/MessageConfigEntityMapper.php	da21902e5ac2cff8d8e2ccec8dc0eab4
+M	src/MessageException.php	2876d23bcc7af82869a93d4f93c165ae
+M	src/MessageInterface.php	74ebfac97a2b65739c57d19e8128d4cd
+M	src/MessageListBuilder.php	e6e5559f2452824f7bc2502f1735036f
+M	src/MessagePurgeBase.php	5bba166eb5ed52a11b8170d2f4089a89
+M	src/MessagePurgeOrchestrator.php	dc64604e9c0e7c7406145632014ff675
+M	src/MessageTemplateInterface.php	a6def668471e83a83f7217759f13af5d
+M	src/MessageTemplateListBuilder.php	c7713bb8ba670066b8b7c6a8889c7e8d
+M	src/MessageViewBuilder.php	9b323e9dbac417725801c02c5bf2aa5a
+M	src/MessageViewsData.php	b9366081caa90c54a75a70c5b370f044
+M	src/Plugin/Action/DeleteMessage.php	e28d053e9fd0a04b4905ad915f7410cd
+M	src/Plugin/MessagePurge/Days.php	b75a9740675b2dd06f54a7c66da22a23
+M	src/Plugin/views/field/GetText.php	786b3ca0cd364f311ae19d5da354ce33
+M	src/Plugin/views/wizard/Message.php	af489fa4f034e5fffa9e6803bbfe7fd0
+D	src/Tests/MessageCreateTest.php	
+D	src/Tests/MessageCron.php	
+D	src/Tests/MessageEntityDelete.php	
+D	src/Tests/MessageTemplateCreateTrait.php	
+D	src/Tests/MessageTemplateCrudTest.php	
+D	src/Tests/MessageTemplateListTest.php	
+D	src/Tests/MessageTemplateSuggestionsTest.php	
+D	src/Tests/MessageTestBase.php	
+D	src/Tests/MessageTextHandlerTest.php	
+D	src/Tests/MessageUiTest.php	
+A	tests/src/Functional/MessageCreateTest.php	cb38b67d23f573dbf4422fee0139837d
+A	tests/src/Functional/MessageCron.php	5c0a53f645f4ca63b96f0289cc38ffab
+A	tests/src/Functional/MessageEntityDelete.php	3318a2273cc1eb37a9603b0cc6f3e435
+A	tests/src/Functional/MessageTemplateCrudTest.php	5a868ad8664b8dc25de13e8e7fbabb15
+A	tests/src/Functional/MessageTemplateListTest.php	5f8a0092205431b09a1b7fb3a34efa05
+A	tests/src/Functional/MessageTemplateSuggestionsTest.php	6406a73238ccda17e89e7a6ef0189d0d
+A	tests/src/Functional/MessageTestBase.php	cae9e7abb2f94af79443fccc7cf37dc9
+A	tests/src/Functional/MessageTextHandlerTest.php	2700496a624df7e88c7157413a879313
+A	tests/src/Functional/MessageUiTest.php	3596ca91f19534943bf7146a48e36ba9
+A	tests/src/Kernel/MessageTemplateCreateTrait.php	d2059da27c64010f162ae2aa5ff56df9
+M	tests/src/Kernel/MessageTest.php	946818cbef421ed4b1ba39c61e1579a8
+A	tests/src/Kernel/MessageThemeTest.php	8a3d3d844c1d871e3ce65440f8a48aa5
+M	tests/src/Kernel/MessageTokenTest.php	2710bcabab8ecd5592bda5cce42366e9
+M	tests/src/Kernel/Plugin/MessagePurge/DaysTest.php	af34ecf84dfc3f7c87dc4604398504d8
+M	tests/src/Kernel/Plugin/MessagePurge/QuotaTest.php	e8164c3229f74131b37dbc26bdcef02b
+M	tests/src/Unit/Entity/MessageTemplateTest.php	ac12d01eddaa7abe19e14defe510267c

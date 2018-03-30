@@ -1,0 +1,21 @@
+M	README.md	f79485e5a8117c387687ae21e5f64a36
+M	css/navbar.icons-rtl.css	a95e6a49da919d7ffdb6dccf25018efc
+M	css/navbar.icons.css	4f252bf148e1b1c01d8e2b25d014fd8e
+M	css/navbar.menu-rtl.css	060336fdf54d51fa20e5c803973c3b23
+M	css/navbar.menu.css	add1f33e323c891c07ef675de74f01ac
+M	css/navbar.module-rtl.css	1af0e358f91ff245714b9674a0820d2b
+M	css/navbar.module.css	9d11ae2a217f2a3d2f865354d2d6559c
+M	css/navbar.theme-rtl.css	8c9395961a56245e5c63dc5c29b7a683
+M	css/navbar.theme.css	2405408f46163815666c197281290f92
+A	icons/000000/dashboard.png	0b2b908d33928a9e87b6b0dc2d33f14d
+A	icons/787878/dashboard.png	0b7efdc897ce5f7f8ffc9881660ac20c
+D	js/jquery.on-off-shim.js	
+A	js/jquery/ducktape.events.js	24a8feab66b615246c575b1fa4704756
+M	js/navbar-overlay.js	847c17b6913c66b769e72b9c6e62d28c
+A	js/navbar-tableheader.js	faa14d957a4ced022b4e9422a59d681f
+M	js/navbar.js	71440d370346b83f713fcf6c838e8426
+M	js/navbar.menu.js	d7567968b49ed9fc0a48df0630d428de
+A	navbar.api.php	235be980f5775beb04e2e53e7c172099
+M	navbar.info	883095d83655c72ea593f332784e3436
+M	navbar.install	2653f609c16ea2c04b816c1aa21252eb
+M	navbar.module	d80f3a611e41d7cfe30f9f508f7ee8b8

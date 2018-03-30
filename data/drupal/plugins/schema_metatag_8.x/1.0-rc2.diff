@@ -1,0 +1,7 @@
+M	schema_article/schema_article.info.yml	9f3241623f0b3dad6ad792b4e970a218
+M	schema_article_example/schema_article_example.info.yml	005e6428e082d7b7c45fb85dcfadacfb
+M	schema_metatag.info.yml	8e8ed3a14d0788fb3cd723235a715aa4
+M	schema_organization/schema_organization.info.yml	9de0e0ab06ff6534b22511b9194a6d59
+M	schema_web_page/schema_web_page.info.yml	4a9926f434ab9070202644ab4655d7a6
+M	schema_web_site/schema_web_site.info.yml	ac164dbbd83a72f0b0dbd3e5e3164951
+M	src/SchemaMetatagManagerInterface.php	f39952db2978d7f0ffe45303d29637d2

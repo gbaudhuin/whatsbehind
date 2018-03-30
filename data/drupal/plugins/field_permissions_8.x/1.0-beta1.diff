@@ -1,0 +1,14 @@
+D	LICENSE	
+A	README.md	d5dcceadb1bab8b1a54704e7772e26b2
+D	README.txt	
+A	composer.json	8ea787b5d41d58752d9ba1e947a7690e
+D	field_permissions.info	
+M	field_permissions.info.yml	a7325b41f981d671fb5a8a02b4b62ac2
+M	field_permissions.module	32c30d94ae60ad6df2276779639af9ee
+M	src/FieldPermissionsService.php	13d63c9155e2ebbaf7ac37414772fe9c
+M	src/FieldPermissionsServiceInterface.php	2a2fddb43b6f5f6fd57f49ad4f320d49
+M	src/Plugin/FieldPermissionType/CustomAccess.php	38a21ff42b8ca50052adfcc8c6f3914e
+M	tests/modules/field_permissions_test/field_permissions_test.info.yml	4a1782baa722d43cae5a9ca64f930507
+M	tests/src/Functional/FieldPermissionsTestBase.php	8af6e89c99f76ffdaf7f06d9cfe6b97a
+A	tests/src/Unit/FieldPermissionsServiceTest.php	d62048a8325cab16ff02ecd7fd90572d
+A	tests/src/Unit/Plugin/FieldPermissionType/CustomAccessTest.php	c79a7763ec8a2a0dad3f46a37b09f399

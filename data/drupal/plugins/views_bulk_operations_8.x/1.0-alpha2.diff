@@ -1,0 +1,4 @@
+M	modules/views_bulk_operations_example/views_bulk_operations_example.info.yml	d750363a43d851af7ca34be27712d443
+M	src/Form/ConfigureAction.php	b4ff99a1f7f77b86b3e45e09172de7cf
+M	src/Service/ViewsBulkOperationsViewData.php	ba08616c8e01e58a1df25e521d64cea3
+M	views_bulk_operations.info.yml	d8c3a3900ad1de9864af82fe38a56600

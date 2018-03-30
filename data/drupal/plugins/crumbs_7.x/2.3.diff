@@ -1,0 +1,7 @@
+M	admin/crumbs.admin.inc	b4ebe74bf82723e83137f55344425db4
+M	admin/crumbs.entity_parent.inc	160b64c2d75f79b32287f3220bc07da2
+M	crumbs.info	64f4c2b7a2bb5c8d884d56f6ab8a55db
+M	example/crumbs_example.info	0581b5a5c4135f3937e8609ac2ee1586
+M	labs/crumbs_labs.info	7a721ab494465bedaebb4e839b991cad
+M	lib/CurrentPageInfo.php	ae53f25afb728e2476b17636ecda57a9
+M	plugins/crumbs.menu.inc	8ea10877f8b7fe1fe2ee50cb000af95e

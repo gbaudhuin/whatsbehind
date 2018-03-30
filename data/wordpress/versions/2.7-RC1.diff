@@ -1,0 +1,237 @@
+M	wp-admin/admin-ajax.php	b20e11a5672cea5a2a630671d82bcf35
+M	wp-admin/admin-footer.php	880e0cbe0c3b022eb65feff5feef0d22
+M	wp-admin/admin-header.php	3eed99cef477f7b07d22d164c46bd9c9
+M	wp-admin/admin.php	2878ace7a00ea7c76ec297cfb8ef8bb9
+M	wp-admin/categories.php	8a13479341f9b04ba659ad9ad2d3d12e
+M	wp-admin/comment.php	dd90dcb768fb6ed3443f916f8c750f13
+M	wp-admin/css/colors-classic-rtl.css	f32a72df2e3d7dfc9dc4cf65025bfc6d
+M	wp-admin/css/colors-classic.css	9d18ae2fdaeea7d793e3fcf68958051a
+M	wp-admin/css/colors-fresh-rtl.css	ea88f1ad12a8d284e823c3a07f5b1fbf
+M	wp-admin/css/colors-fresh.css	0bfbee5dec4e2e4b70777e31d5d42abb
+M	wp-admin/css/dashboard-rtl.css	ff07bcb40a5440015014fbc0b6fc0bdb
+M	wp-admin/css/dashboard.css	5557e2833d89cbaf5f371236c1630c4e
+M	wp-admin/css/global-rtl.css	748774d1f939c128ce9e466de56fd140
+M	wp-admin/css/global.css	c688f2fb2cdca671a23cd0e8e6a92025
+M	wp-admin/css/ie-rtl.css	87211b7de3962f4c3d1f4c8e05da491b
+M	wp-admin/css/ie.css	22a9d7938857229b6152622a4b8ec130
+M	wp-admin/css/install.css	0380e33272aa60d16b2e7d405e7288a8
+M	wp-admin/css/login.css	27a64401a3200b4df27feac7ac42a058
+M	wp-admin/css/media-rtl.css	f65f3af6d351ed8538ba3a5bcf47bbe8
+M	wp-admin/css/media.css	e2a4a29351905abaac57ebfb1c578362
+D	wp-admin/css/press-this-ie-rtl.css	
+D	wp-admin/css/press-this-ie.css	
+M	wp-admin/css/press-this.css	a8161c403c0612df9a4eccd0a3772cca
+M	wp-admin/css/theme-editor.css	1a7408da79a9bae4ef8e741f295f9f21
+M	wp-admin/css/widgets-rtl.css	9721e462cc482baecc8627b740118f4a
+M	wp-admin/css/widgets.css	0d6834ae4edcd6445a8426f7f6ec6c4e
+M	wp-admin/custom-header.php	e22f96cf89faa848ceacf178ba8cf4ba
+M	wp-admin/edit-attachment-rows.php	750ddfd0932eda7b96f4f970efe38762
+M	wp-admin/edit-category-form.php	c4832fd8a0d26655283b19d7742175cc
+M	wp-admin/edit-comments.php	394219f777b49c85e17d94d7b3a8e776
+M	wp-admin/edit-form-advanced.php	caa8d6b6b98bf3bb21e52de19f75c1d3
+M	wp-admin/edit-form-comment.php	59327b07f8212b1fcd059e3bb6de1ab8
+D	wp-admin/edit-form.php	
+M	wp-admin/edit-link-categories.php	1dbee4329424d91a38f37d24940676c6
+M	wp-admin/edit-link-category-form.php	bf77cdcf8dd0180716c8c0daefe461c7
+M	wp-admin/edit-link-form.php	07cb4b7fbd6ae79f2a74dbffc5e3148e
+D	wp-admin/edit-page-drafts.php	
+M	wp-admin/edit-page-form.php	53137c6e6271ea36fc13f61625446512
+M	wp-admin/edit-pages.php	ed2bdae8f43f8d07f74cb329777e8dce
+D	wp-admin/edit-post-drafts.php	
+M	wp-admin/edit-post-rows.php	df6647eeedf2f885c4059925feab1bfc
+M	wp-admin/edit-tag-form.php	3e0aef030026fa75546e3e57c904506b
+M	wp-admin/edit-tags.php	0f44e9eb3b48230b7af78547b6068fab
+M	wp-admin/edit.php	429a4f182a639c386da46460904288cc
+M	wp-admin/export.php	b16ca540d6408e59ce4607609de7e6ac
+M	wp-admin/gears-manifest.php	78a79c5befd4b80e1967cf739104eadb
+A	wp-admin/images/blue-grad.png	43a14f5250893e36377b90d5f6200913
+M	wp-admin/images/browse-happy.gif	3bad5ccecc83f7e368c79bc7f961e337
+A	wp-admin/images/button-grad-active.png	cadd565a465b3eb73ed386c210145fe2
+M	wp-admin/images/button-grad.png	16609cb9ee7897725e7692c17e9c29e4
+D	wp-admin/images/comment-stalk-classic.gif	
+D	wp-admin/images/comment-stalk-fresh.gif	
+D	wp-admin/images/comment-stalk-rtl.gif	
+D	wp-admin/images/del.png	
+D	wp-admin/images/exc.gif	
+D	wp-admin/images/gear.png	
+M	wp-admin/images/generic.png	ec85cdf6efc2a983e50f7d86a976c467
+A	wp-admin/images/icons32-vs.png	74426dbce10c55709c4877554d455c4e
+A	wp-admin/images/icons32.png	23c825ff877459a4339cf7a7b2258141
+A	wp-admin/images/list-vs.png	ec02ff84b2b1c29de59f33ab96c8ce1a
+D	wp-admin/images/list.gif	
+A	wp-admin/images/list.png	ec02ff84b2b1c29de59f33ab96c8ce1a
+M	wp-admin/images/loading-publish.gif	27c1513ac7487e7d4e09fd57d85dd15c
+M	wp-admin/images/logo-login.gif	c62e03cf2e9417e6019657b3f5379802
+D	wp-admin/images/media-button-gallery.gif	
+D	wp-admin/images/media-buttons.gif	
+M	wp-admin/images/menu-bits-rtl.gif	e432360b7566ff59bd6c7b4df564b713
+M	wp-admin/images/menu-bits.gif	f8e09b1fc524fd96735945077d401793
+A	wp-admin/images/menu-dark-rtl.gif	b6f525c71c056ecedfd837daf18c3c4a
+A	wp-admin/images/menu-dark.gif	a5af317b01fd87c8eceedef87ae0c26f
+A	wp-admin/images/menu-vs.png	8bef8c397f737a91ff8c4a2edbc16b36
+M	wp-admin/images/menu.png	ad06d32830f4c8512a38546250e4f9b2
+D	wp-admin/images/postbox-bg.gif	
+D	wp-admin/images/tail.gif	
+A	wp-admin/images/white-grad-active.png	6b6d2eab57230f1d2afd4b6d9380fd1c
+M	wp-admin/images/white-grad.png	3090f8947eac64830900abf4562ca8e1
+M	wp-admin/images/wp-logo.gif	797be4dafa9e042735e030df67ec0f26
+M	wp-admin/import.php	0263fc137eab2d352091a16aba365c23
+M	wp-admin/import/blogger.php	1d91bbec37143fb88ba2eb4c8106af1d
+M	wp-admin/import/blogware.php	0d507398a7c89a62ba21aa7ee22f7cc9
+M	wp-admin/import/btt.php	296e8c3854076928cb572fa9ec5643ce
+M	wp-admin/import/dotclear.php	33ed38a774354d71e7ef123789abf922
+M	wp-admin/import/greymatter.php	c2474f2cf0e32adc33718c3b1ca0989f
+M	wp-admin/import/jkw.php	888acdc4cc6e2ac8598d5c63170d8028
+M	wp-admin/import/livejournal.php	a8939066fc132fb5265e25595ea85497
+M	wp-admin/import/mt.php	550d0e3632b6aed525e7dcf5160d25e8
+A	wp-admin/import/opml.php	4eb811833a3643e87b204c7d7fa18c13
+M	wp-admin/import/rss.php	7bf073103b6a310c1e12cc6b3c09a8c3
+M	wp-admin/import/stp.php	81ea14a8115ebd7deb00a13b0d9b9e9d
+M	wp-admin/import/textpattern.php	ca9a42fe40eaf82ac3105bddcf9071ea
+M	wp-admin/import/utw.php	95bd7f0e23bd2c7f5d670aab35616c10
+M	wp-admin/import/wordpress.php	c63d91553d4d09a3bba880a5cdc5d2db
+M	wp-admin/import/wp-cat2tag.php	ff5c535b6649cad57f8458ee8767a817
+M	wp-admin/includes/class-wp-filesystem-ftpext.php	4c8d8bd97edec7b29512a08ad13318f2
+M	wp-admin/includes/class-wp-filesystem-ssh2.php	bdeea2fd9c11831139602516a275531b
+M	wp-admin/includes/dashboard.php	971a3657578f160b684c92ea73ee7009
+M	wp-admin/includes/export.php	145f75047821789d997a4ffa70320e7b
+M	wp-admin/includes/file.php	b1348e79684529eff565dfbde39bc32d
+M	wp-admin/includes/image.php	37891c081ae32e653450acb3e3998541
+M	wp-admin/includes/media.php	4c896041bfd614b98d2dc75749f146fa
+M	wp-admin/includes/plugin-install.php	c47dcacb7b1a383b943249d91e8f529f
+M	wp-admin/includes/plugin.php	99bfd20596911ebd541de2ffd65e38ae
+M	wp-admin/includes/post.php	7cde442a7dfe5d34801a5534231f1a95
+M	wp-admin/includes/schema.php	6a1ea056784209e455f3b5c343bbe63d
+M	wp-admin/includes/template.php	856bbdaf69e188132a76036df9aebbed
+M	wp-admin/includes/update-core.php	a3167427616850b5bdfc4eeb6dc84c45
+M	wp-admin/includes/widgets.php	7f2bbf61d503bb8f368479b3a6c8da12
+M	wp-admin/index.php	99a89c36196ff3e89d6b3ef54fa852ab
+M	wp-admin/js/categories.js	dd98635c97ef6286d2e642695e4d904c
+M	wp-admin/js/common.js	ee203e19af2ce51881065d777eeeb812
+M	wp-admin/js/edit-comments.js	50e4ddd67512b1c4b647f824c3906b8b
+M	wp-admin/js/gallery.js	ee56b3e15c6013a01692799350229b75
+M	wp-admin/js/inline-edit-post.js	995f0492cbfa0aaecab5b8496b5e3153
+M	wp-admin/js/inline-edit-tax.js	9387e5eaf4b4166c4ad35cba2ba617dc
+M	wp-admin/js/media-upload.js	7cbf5fe71bd15999b72f34671dfc4f6c
+M	wp-admin/js/page.js	5f4e644bb3e0efe9b40e562cd9662bbd
+M	wp-admin/js/post.js	953f69374de28548dfdc05e4c224c0ca
+M	wp-admin/js/postbox.js	0d24f79a93c9e69beb880682675fa925
+M	wp-admin/js/tags.js	7e0f2194505d5542a2b80b0f0f08887c
+M	wp-admin/js/users.js	0c2b99ed1de562e31325078f398d3189
+M	wp-admin/js/widgets.js	10cabe6e1dae0d377340a3b0f0702730
+M	wp-admin/js/wp-gears.js	c2929e81bb375a9875d102a4d85c85f4
+M	wp-admin/link-category.php	699855b991c70d1af8545bbea7cf4a9f
+D	wp-admin/link-import.php	
+M	wp-admin/link-manager.php	0a4c63555c634097460cbcbb84b1ffed
+M	wp-admin/link.php	bfe9e765719cc2693ec86ddb15ce35ce
+M	wp-admin/media-upload.php	9e0192e66d47cfe84bdb961ff8ae1ea6
+M	wp-admin/media.php	7d03705429f356df253b44a9556df685
+M	wp-admin/menu-header.php	9f61df6df193d2e1b5e7b8a83b9f3623
+M	wp-admin/menu.php	c37eb048143c7ad72eb32ebe30a97373
+M	wp-admin/options-discussion.php	0cb3358cc57c9fda260cd1d297d6abc9
+M	wp-admin/options-general.php	bd8c51fc244102bee217a500c6f2fb0c
+M	wp-admin/options-media.php	0fb537597d73808deaf8165dd0399fd6
+M	wp-admin/options-misc.php	23c409dba74f936f68877948c414baf3
+M	wp-admin/options-permalink.php	6ea0ca4abd35b27c3166fa2b985dc5c9
+M	wp-admin/options-privacy.php	33fd97d3003fca0fafeeeeab802e4668
+M	wp-admin/options-reading.php	3df5238f28eef940705e9e2640e6197f
+M	wp-admin/options-writing.php	a1b84a9582775bb1a0b91b90e6cc4432
+M	wp-admin/options.php	adce79b692f827f1f780e9129d246d0d
+M	wp-admin/page.php	cae0a355df21e8aecb05903582836fc9
+M	wp-admin/plugin-editor.php	ce51e94d09877a5f8036b3bf74f42762
+M	wp-admin/plugin-install.php	92035bde118bb485cae8c2d86b5c8cfc
+M	wp-admin/plugins.php	0124e17a8508144d64ae23d17266246d
+M	wp-admin/post.php	895db58a6e7f652d929096116d90d01f
+M	wp-admin/press-this.php	f4e6f8865856b0533c8642f47d71d876
+M	wp-admin/rtl.css	1a642ae4c9ed9203ecabcca0cfba721a
+M	wp-admin/theme-editor.php	3f675533bfdb70cb6f50be3425dfcc19
+M	wp-admin/themes.php	96e9f70e1fc795975d30e3a816aeec11
+A	wp-admin/tools.php	f9fe6c5bb2c1dd396453f9bd6428a45d
+D	wp-admin/turbo.php	
+M	wp-admin/update-core.php	65d8da263ee0df672949ce3ed9a03c9c
+M	wp-admin/update.php	523f3e22413efd029dc476a7d1fb9b66
+M	wp-admin/upload.php	a4d93fb1812e10d26be4d1aba8b9919f
+M	wp-admin/user-edit.php	cf06d6bd4cf6268a7be8d64b5746ee7f
+M	wp-admin/user-new.php	e67678a94224a45a996ca4eda90be896
+M	wp-admin/users.php	88fd482e44512d12ae46230ce237d6f8
+M	wp-admin/widgets.php	8cd79fc9e5c6ed71cc2e697d89eeab21
+M	wp-admin/wp-admin.css	b29fd0ea6b59a7ed1b13982e6a18f922
+M	wp-app.php	b3fbbb4ce51b77d006712ae202d982da
+M	wp-comments-post.php	4e1c0abb7ef7d86f4b2e8c016f1748a8
+M	wp-content/plugins/akismet/akismet.php	191ff29205c7dd6abb6d47d706d40c54
+M	wp-content/themes/classic/comments-popup.php	a3bcc5175e38fbcce49d63a6e60c6931
+M	wp-content/themes/classic/comments.php	f758c039815dd2c13fee562a666df5b4
+M	wp-includes/cache.php	3efb3c7097649e24436699281e9506bc
+M	wp-includes/canonical.php	cb91bd815c005b68934d25150821bcd9
+M	wp-includes/category-template.php	7e380d29bdf49c1e29a1855f38b6446f
+M	wp-includes/class.wp-scripts.php	e6c94b98561963925e9238532a802690
+M	wp-includes/classes.php	65290b7eeea28094a475e9c9916a1ef2
+M	wp-includes/comment-template.php	f791c533003551fd3fbc8e95d944054d
+M	wp-includes/comment.php	e5fbc5e68572ce50f49853c8e32220a9
+M	wp-includes/feed-atom-comments.php	075fa68c39b686d0818a86c58444fc76
+M	wp-includes/feed-rss2-comments.php	2d7c34586019e92098c888b6137c4867
+M	wp-includes/feed.php	1de3a8393df971eff289e73cfec9dca9
+M	wp-includes/functions.php	422871c32c73e3c4799e534763695605
+M	wp-includes/general-template.php	a4b03c1b0253a7eae9d71557c094023e
+M	wp-includes/http.php	840a5f3bea71590513dd0c6b62e4ced9
+D	wp-includes/images/audio.png	
+D	wp-includes/images/css.png	
+D	wp-includes/images/default.png	
+D	wp-includes/images/doc.png	
+D	wp-includes/images/exe.png	
+D	wp-includes/images/html.png	
+D	wp-includes/images/js.png	
+D	wp-includes/images/pdf.png	
+D	wp-includes/images/swf.png	
+D	wp-includes/images/tar.png	
+D	wp-includes/images/text.png	
+D	wp-includes/images/video.png	
+D	wp-includes/images/zip.png	
+M	wp-includes/js/jquery/jquery.table-hotkeys.js	1f2b7451ea26d4fdf7539197df8438ed
+M	wp-includes/js/swfupload/handlers.js	a16a9cb39d37486aeacd3b2e1701f6aa
+M	wp-includes/js/thickbox/thickbox.css	9c2bd2be0893adbe02a0f864526734c2
+M	wp-includes/js/tinymce/langs/wp-langs-en.js	6f3b5dc08823e70c717422e13b3ce1c9
+M	wp-includes/js/tinymce/langs/wp-langs.php	27cdcc95f6abd6292adc4c79f955688f
+M	wp-includes/js/tinymce/plugins/fullscreen/fullscreen.htm	9f801bc7c58adb76341114ff20caa43a
+M	wp-includes/js/tinymce/plugins/inlinepopups/editor_plugin.js	a7b58f0ddb0e55f591c00f06e21ada67
+M	wp-includes/js/tinymce/plugins/inlinepopups/template.htm	7d0fa8e3669dbb890fbdba95d21d432a
+M	wp-includes/js/tinymce/plugins/media/media.htm	2e2426d4850c4c7040424234f0b24396
+M	wp-includes/js/tinymce/plugins/paste/blank.htm	e176e3f6f068f68640de4406478ea37b
+M	wp-includes/js/tinymce/plugins/paste/pastetext.htm	a1b57674240bc9e8f76de47bf4b6f92a
+M	wp-includes/js/tinymce/plugins/paste/pasteword.htm	7c601ec4eeee22f414ae093120b62bd0
+M	wp-includes/js/tinymce/plugins/safari/editor_plugin.js	9d7a37a26a6773ae236ed7a75f4617da
+M	wp-includes/js/tinymce/plugins/wpeditimage/css/editimage.css	316db36315e941a43831b726bc7cc7ad
+M	wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js	19af2018dbb26944de552ba2df25a95c
+A	wp-includes/js/tinymce/plugins/wpgallery/editor_plugin.js	83f9ced5d86c5bf4fa55e3ea7f530bf0
+A	wp-includes/js/tinymce/plugins/wpgallery/img/delete.png	748b2a72b7e2aeec7e32f3f1846b5ff9
+A	wp-includes/js/tinymce/plugins/wpgallery/img/edit.png	9554f2aa129d2d01e247a73669bb832d
+A	wp-includes/js/tinymce/plugins/wpgallery/img/gallery.png	2613f104cdf13a8a5399e3e414a7f064
+A	wp-includes/js/tinymce/plugins/wpgallery/img/t.gif	12bf9e19374920de3146a64775f46a5e
+M	wp-includes/js/tinymce/themes/advanced/about.htm	6d3c5cbc4021ae8df64a1fe3e7040b11
+M	wp-includes/js/tinymce/themes/advanced/anchor.htm	e44a7c747828cc6698fc07842f1f2d1b
+M	wp-includes/js/tinymce/themes/advanced/charmap.htm	e514a461b0948068811c317af82305f0
+M	wp-includes/js/tinymce/themes/advanced/color_picker.htm	20d0972f30e29d1518a657e90074020a
+M	wp-includes/js/tinymce/themes/advanced/image.htm	0d385db27642478443914ec2178e195c
+M	wp-includes/js/tinymce/themes/advanced/link.htm	9a7dca501ff7b62ada027341cd7a397b
+M	wp-includes/js/tinymce/themes/advanced/skins/o2k7/ui_black.css	dd03578fd4e33798de6d86c4564e4c66
+M	wp-includes/js/tinymce/themes/advanced/skins/o2k7/ui_silver.css	623a420867f1da38168b5ab0eac1afcc
+M	wp-includes/js/tinymce/themes/advanced/source_editor.htm	7dca75fdff97de1cc2702c1782952605
+M	wp-includes/js/tinymce/tiny_mce.js	e6bbc53a727f3af003af272fd229b0b2
+M	wp-includes/js/tinymce/wordpress.css	7097362cbcf848901a3b2b4403727b74
+M	wp-includes/js/tinymce/wp-mce-help.php	97dc22fcf6535c48eb34c92deb3f122b
+M	wp-includes/l10n.php	b1069213f15143f4189ded907363690e
+M	wp-includes/link-template.php	463d4ea94d121674ba0396ecb105aad1
+M	wp-includes/media.php	49efeb605ef5476be1e02c5a416260d5
+M	wp-includes/pluggable.php	a679b2f43bcba89b983fcc98870f3e19
+M	wp-includes/post-template.php	55a1163dcf33fd2702fca83826b4f3fb
+M	wp-includes/post.php	5ae666df2c21d30e556fd9ee114c3087
+M	wp-includes/query.php	7850167d2054ce96f480ff49113b26f5
+M	wp-includes/script-loader.php	5a7b51593328525e07e615c416ad372b
+M	wp-includes/taxonomy.php	f77c848a87078bd8051e006c7563390a
+M	wp-includes/update.php	c7e9918e4d99c3c9d46286def5413091
+M	wp-includes/user.php	1b8501062468d11e0095b5766f5f7a18
+M	wp-includes/version.php	04574d549b3872321db09d54d76d93ef
+M	wp-includes/widgets.php	c602b93c4c2ba2cc2fe1833da487eff0
+M	wp-includes/wp-db.php	8f36d562f05263624fc9b76150cbdbcf
+M	wp-login.php	f80e4cbb1fc43b1ac76efbe59668b1b6
+M	xmlrpc.php	02a881178ec5966253c4973a0b74d684

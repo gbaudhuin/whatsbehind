@@ -1,0 +1,11 @@
+M	acquia_agent/acquia_agent.info	b4609d8987a8a88ec0d47b965fc97ebf
+M	acquia_agent/acquia_agent.module	0fe7fa84cd3f59c200076b4b69cbf578
+M	acquia_agent/acquia_agent.pages.inc	17944751459421f68092f9c4650991e9
+M	acquia_agent/css/acquia_agent.css	b5d2bac76387db19e5fb4050426d5489
+M	acquia_agent/tests/acquia_connector_test.info	f6c18a96b436c6b3c739e95a0ecafa33
+M	acquia_search/Acquia_Search_Service.php	c52ec691934b7e227da9a2bd6821b962
+M	acquia_search/acquia_search.info	525c2496624f8b1bd12c73104eb3c641
+M	acquia_search/acquia_search.module	4723986f43f87aa7ba5e778743994b79
+M	acquia_spi/acquia_spi.info	ed230a8d9329225d51018f7c1f6b4a84
+M	acquia_spi/acquia_spi.module	4bf39a030c2266a99d075bd5fa8f49b1
+M	acquia_spi/security_review.inc	18c298d96adef901b1a8f07bb1667752

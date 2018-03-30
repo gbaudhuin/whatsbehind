@@ -1,0 +1,12 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	css/geolocation-googlegeocoder-widget.css	cd038cc566597f8133abcb2fe60ff735
+A	geolocation.info.yml	4d556abcf573c21fdae0b6f454c3bfc8
+A	geolocation.module	024a4fc3c85cac5bc682e6c0fcdc19ae
+A	js/geolocation-googlegeocoder-widget.js	51cbe2a46924850fb853fcf698cdf195
+A	src/Plugin/Field/FieldFormatter/GeolocationLatlngFormatter.php	be8553cd3db9b305702f807d9a9e526a
+A	src/Plugin/Field/FieldType/GeolocationItem.php	7b28d5eac681bc3a477355b2a4c6c924
+A	src/Plugin/Field/FieldWidget/GeolocationGooglegeocoderWidget.php	0d74f41d4902847207cc3733769c82d4
+A	src/Plugin/Field/FieldWidget/GeolocationLatlngWidget.php	720c14de7d842cb8d8dc66c11f72033f
+A	src/Tests/GeolocationFieldTest.php	20eef3b19d120384c45d4dcf71add1f6
+A	src/Tests/GeolocationItemTest.php	51ac879d85fd5386cc1883ed69eb9a82
+A	templates/geolocation-latlng-formatter.html.twig	a7c2dd05d0789c5bf44a53b2b022f622

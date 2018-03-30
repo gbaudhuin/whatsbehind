@@ -1,0 +1,9 @@
+M	README.txt	6080e6f9b3f00bc8b492e91c42f7a2c5
+D	easy_install.info.yml	
+D	easy_install.links.task.yml	
+D	easy_install.module	
+D	easy_install.routing.yml	
+A	easy_uninstall.info.yml	006050072f0fc2bde58726a82ab0a551
+A	easy_uninstall.module	f3e5be25507cdbf038d98210302aaa9d
+D	src/Form/PurgeConfigurationsConfirmForm.php	
+D	src/Form/PurgeConfigurationsForm.php	

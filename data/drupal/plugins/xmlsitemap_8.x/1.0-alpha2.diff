@@ -1,0 +1,10 @@
+M	xmlsitemap.info.yml	6f65608b42e53312229807e7b9cb8ed1
+M	xmlsitemap.install	5094d363c124294f355470ca31908ac6
+M	xmlsitemap.links.task.yml	def341b6e8902702073e10f820d8817a
+M	xmlsitemap.module	30d2fbf064613aeae11a5cda7307fbeb
+M	xmlsitemap.routing.yml	19f882aa0b5dc1c30f7e831df1f45068
+M	xmlsitemap_custom/xmlsitemap_custom.info.yml	44022ef2246baaacaed0338a3c62edca
+M	xmlsitemap_engines/tests/modules/xmlsitemap_engines_test/xmlsitemap_engines_test.info.yml	1b96191fd92b687701e661d3dbaf69ee
+M	xmlsitemap_engines/xmlsitemap_engines.info.yml	249e69bebb8f60d139c3f0feb6df44aa
+M	xsl/xmlsitemap.xsl	53574c570c08e815590cf6c4c3abfc84
+M	xsl/xmlsitemap.xsl.js	32bd62febb035f2256f8eda2414d1392

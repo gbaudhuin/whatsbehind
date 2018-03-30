@@ -1,0 +1,5 @@
+M	plugins/ctools/export_ui/ultimate_cron_job_ctools_export_ui.class.php	0969a9a22e9f8c08ed6b7c668ed9e3c6
+M	plugins/ultimate_cron/launcher/serial.class.php	48c6536dd68d251b01972546dec61e31
+M	plugins/ultimate_cron/scheduler/simple.class.php	ae16b0fcbbb6f40d2f37d3289645ffe9
+M	ultimate_cron.info	6ad482ba148d959e7b94c365d272e94d
+M	ultimate_cron.module	c0d25cb71d35795dffc511ec8a957750

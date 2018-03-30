@@ -1,0 +1,4 @@
+M	acquia_connector.info.yml	f16b1edac525a98c23e6843e52121cfa
+M	acquia_search/acquia_search.info.yml	51119215b23c37dd7923a2860a98cd65
+M	src/Controller/SpiController.php	03ec941236110c78c92093ee47ac0298
+M	tests/modules/acquia_connector_test.info.yml	0d3f2d6187126075336f67a58629e56f

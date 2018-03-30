@@ -1,0 +1,9 @@
+M	README.txt	2976402cfd43decae4d08d7966658cdf
+A	composer.json	434517d7fe4ecbce429dde32c237182b
+A	config/schema/fb_likebox.schema.yml	33d28eda605fc503f1db3221b3b59783
+M	fb_likebox.info.yml	34a7564d7c41d5044773acedd3ccdf54
+A	fb_likebox.js	a186840136773b57777bdd8c6d9e927f
+A	fb_likebox.libraries.yml	872ff5550144875110348e1c4787c4ef
+M	fb_likebox.module	150968efe7bb5c38fabb71f558e19a34
+M	src/Plugin/Block/FBLikeboxBlock.php	153fb32dc8904ea7ac19e0433355b851
+D	templates/fb_likebox_block.html.twig	

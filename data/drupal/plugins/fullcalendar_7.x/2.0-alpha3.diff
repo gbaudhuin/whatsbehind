@@ -1,0 +1,36 @@
+M	CHANGELOG.txt	6f971f740b635e7b52ff1b8954e01264
+A	css/fullcalendar.theme.css	59e4ef92bd42b0bad8413f1c3c9cccd1
+D	fullcalendar.admin.inc	
+D	fullcalendar.custom.css	
+D	fullcalendar.drush.inc	
+M	fullcalendar.info	8f6dd657bcdd351578c70b0b83a790ce
+M	fullcalendar.install	efe1fc50072c1f4c16f42c9133f845c1
+M	fullcalendar.module	e03214afc0298d595e8119f2fad97ea8
+D	fullcalendar.views.inc	
+D	fullcalendar.views.js	
+D	fullcalendar.views_default.inc	
+D	fullcalendar_handler_empty.inc	
+D	fullcalendar_handler_field_date.inc	
+D	fullcalendar_handler_field_field.inc	
+D	fullcalendar_handler_field_gcal.inc	
+D	fullcalendar_plugin_display_page.inc	
+D	gcal.js	
+A	includes/fullcalendar.admin.inc	fc2829cdc8b4b1ce38e4c08f47ba26ef
+A	includes/fullcalendar.drush.inc	95e2868f4df05102feb0610b1c8adbd9
+A	includes/views/fullcalendar.views.inc	9188bf88ed3ff0a0d273ef39c0c45939
+A	includes/views/fullcalendar.views_default.inc	4ced173213c017cc7b30304fcf7e42b1
+A	includes/views/handlers/fullcalendar_handler_area_empty.inc	cba806f2b125aae054b95e834d82b9ef
+A	includes/views/handlers/fullcalendar_handler_field_date.inc	d4f2315e52b6627b4d63dc2d9cd6dcc1
+A	includes/views/handlers/fullcalendar_handler_field_field.inc	62ade52f72a9a38d9040762926e516f2
+A	includes/views/handlers/fullcalendar_handler_field_gcal.inc	bb5e8099963a73f85a3adfea5cf53603
+A	includes/views/plugins/fullcalendar_plugin_display_page.inc	7f2bbbbe2a44f6862834ed4fc8614280
+A	includes/views/plugins/fullcalendar_plugin_row_fields.inc	eff77ceded02fe085fc716d990776699
+A	includes/views/plugins/fullcalendar_plugin_style_fullcalendar.inc	19415baa7b6456da416b8694972d25a4
+A	js/fullcalendar.views.js	fd790b5964b7e89ef312ef993b4d3fa8
+A	theme/fullcalendar-fields.tpl.php	10e7c7c4659d3866bac6c601fe27be39
+A	theme/fullcalendar.tpl.php	fef371e465b0c0dc5c267d63fdf2ce92
+A	theme/theme.inc	459d0354ed774f7d72ad9b8f92fc0491
+D	views-view-fullcalendar.tpl.php	
+D	views-view-node-fullcalendar.tpl.php	
+D	views_plugin_node_fullcalendar.inc	
+D	views_plugin_style_fullcalendar.inc	

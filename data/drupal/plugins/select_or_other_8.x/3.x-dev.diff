@@ -1,0 +1,28 @@
+D	README.txt	
+D	config/schema/select_or_other.schema.yml	
+M	js/MultipleSelectStatesHack.js	ccfbd9a53dbf26c1e4f1bfba1c0e0d2d
+M	select_or_other.info.yml	819207989881be82dcc6c64c9da9ede7
+D	select_or_other.module	
+M	src/Element/Buttons.php	55f6f9f55dc089f39c23069ceb787ca2
+M	src/Element/ElementBase.php	1c62a55dc88a8f38b8de9862d0a6218c
+M	src/Element/Select.php	6f65889cb53a0dcf5608519903d363f5
+A	src/Plugin/Field/FieldFormatter/Formatter.php	2ec88e27b3ba20f7d1d3d09705e0183f
+A	src/Plugin/Field/FieldWidget/EntityReference/ReferenceWidget.php	0803ade668d24f3fbc5c477c4fb5bbd4
+D	src/Plugin/Field/FieldWidget/ListWidget.php	
+D	src/Plugin/Field/FieldWidget/ReferenceWidget.php	
+A	src/Plugin/Field/FieldWidget/SelectOrOtherWidgetBase.php	004cb87b4ea5548c161bde9d2cc18b1c
+A	src/Plugin/Field/FieldWidget/Widget.php	bb7052a94ede36f9a56b56b4c98271f8
+D	src/Plugin/Field/FieldWidget/WidgetBase.php	
+D	src/Plugin/Validation/AllowedValuesConstraint.php	
+D	src/Plugin/Validation/AllowedValuesConstraintValidator.php	
+D	src/Tests/ListTest.php	
+D	src/Tests/ReferenceTest.php	
+D	src/Tests/TestBase.php	
+D	tests/src/Unit/ButtonsElementTest.php	
+M	tests/src/Unit/ElementsTest.php	4156f7c121deb11cc5d2f20b48939099
+D	tests/src/Unit/ListWidgetTest.php	
+M	tests/src/Unit/ReferenceWidgetTest.php	6b1ec490d3cc2e5240ad007918fe0e58
+D	tests/src/Unit/SelectElementTest.php	
+A	tests/src/Unit/SelectOrOtherWidgetBaseTest.php	e9770ae33884cc4b0fa2b41db6536205
+D	tests/src/Unit/UnitTestBase.php	
+D	tests/src/Unit/WidgetBaseTest.php	

@@ -1,0 +1,16 @@
+M	facetapi.admin.inc	7614b1267528744bea72d167fe06d0ef
+A	facetapi.admin.js	c710ab4456d2b9ec93ab8b5c28444376
+M	facetapi.block.inc	2161927a4f8c520829e380c1abd2a1b8
+A	facetapi.css	32ac6071644ae39643c05ea5df480660
+M	facetapi.info	6bfed7db289668f21943b3e32f892bf6
+M	facetapi.install	fe2d1020728a77058234e317e7562637
+M	facetapi.js	bb3a9d468e36f1b0588deabc8824d5b6
+M	facetapi.module	719d0a6f22e10641d3cf6e509aa6622f
+M	facetapi.theme.inc	107636ce0fc7fa9449b8ae14eed696b2
+M	plugins/facetapi/adapter.inc	15204bb31dd8233806211012013f117c
+A	plugins/facetapi/dependency.inc	21e5257dae39211906847eaf43c633db
+A	plugins/facetapi/dependency_bundle.inc	16330b89cc6ca2bd8d7619eb856930d8
+A	plugins/facetapi/dependency_role.inc	cd9e942c9a6efb01ee282d0c515d1380
+M	plugins/facetapi/widget.inc	e68e33fab89c553f06dde6f9c472feb0
+M	plugins/facetapi/widget_checkbox_links.inc	638aaa31d9ab07206ca35749f3026269
+M	plugins/facetapi/widget_links.inc	9359fb667b8e65e867baf2ce308c066c

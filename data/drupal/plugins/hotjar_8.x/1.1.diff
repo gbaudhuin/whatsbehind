@@ -1,0 +1,6 @@
+M	config/install/hotjar.settings.yml	973394197b98cd2407cab59c0351400e
+M	config/schema/hotjar.schema.yml	3071a312858d19b636d39dd6189c2be1
+A	hotjar.api.php	4b3a8c055da6879a36229de6b19e5ce7
+M	hotjar.info.yml	e4e8479ce0b9959f9ba5194c40f8a24f
+M	hotjar.module	8a906431cf42f4d81aa5031fa63eef12
+M	src/Form/HotjarAdminSettingsForm.php	66e42fa16dbc518b6b43dc6bdb61f912

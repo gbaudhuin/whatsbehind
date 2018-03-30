@@ -1,0 +1,15 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	role_delegation.info.yml	23db6aef10c6ebf49de28ded28cd6e4d
+A	role_delegation.links.task.yml	67f2e932cf283cd4e307ac1c44d454e1
+A	role_delegation.module	a3665039a708fde5c9e1dc841a3798c3
+A	role_delegation.permissions.yml	0ab8d9f7a3bc1c7baa4f98e61a7dae4c
+A	role_delegation.routing.yml	05043213c94d9f88917a4acb8d1df50d
+A	role_delegation.services.yml	18f432392e7b75b308405c0f33a683cf
+A	src/Access/RoleDelegationAccessCheck.php	6f449fd6c9d5622301b344a13552ecc2
+A	src/DelegatableRoles.php	6e8a9d536e76a9a77ad7044f693242c2
+A	src/DelegatableRolesInterface.php	919810296c14e650530c03d1ea7b20aa
+A	src/Form/RoleDelegationSettingsForm.php	796866df41be854448dc2054c4726ec9
+A	src/PermissionGenerator.php	7638da8d27d7fb7136be1dac07636bcb
+A	src/Tests/RoleAssignTest.php	64d8cf981fa2b8933423759fa86fa262
+A	tests/src/Kernel/AccessTest.php	7f756f729f5c120b23026bcb80fe017c
+A	tests/src/Kernel/DelegatableRolesTest.php	f0bef9b8d5931a76dd0a1b1fe3c824d6

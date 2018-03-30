@@ -1,0 +1,6 @@
+M	config_filter.info.yml	bb3ef6cbcf542d51c97d19cb783c65f1
+M	src/Config/FilteredStorage.php	e146188dbbfffd45adc198aa593db9f0
+M	src/Config/StorageFilterInterface.php	767321987734ec5572cff3bfcebcb7fe
+M	src/Plugin/ConfigFilterBase.php	0df1194380f8810972f98ce8f34029a2
+M	tests/modules/config_filter_split_test/config_filter_split_test.info.yml	0bce28b6cd181493cfad680ad0808a75
+M	tests/modules/config_filter_test/config_filter_test.info.yml	c3df47373bbd70616297604863745d5d

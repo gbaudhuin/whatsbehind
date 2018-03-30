@@ -1,0 +1,13 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	publishcontent.api.php	b98e073e238c6520978f292b55e9752a
+A	publishcontent.info.yml	f1b888df35e5e2eab69b87635c8ac867
+A	publishcontent.links.task.yml	add2f5a975f35131cad425fef4c1f422
+A	publishcontent.permissions.yml	c706ed836c6cc6daaed56e32ac90e974
+A	publishcontent.routing.yml	4efd9c35e8d4504689c5ffc737c1e997
+A	publishcontent.services.yml	42f4944288ae0bf59f3c3f82dfb0e650
+A	publishcontent.views.inc	797f501a8e52dfa68aec61716b8eadab
+A	src/Access/PublishContentAccess.php	78e91137b8036b17f6b42d09f4b6f860
+A	src/Controller/PublishContentPublishEntity.php	a7bb74d8ed7844fefd809f7efab794ca
+A	src/Plugin/Menu/LocalTask/PublishContentLocalTask.php	f6a191790fbee138adb59159580381de
+A	src/Plugin/views/field/PublishContentNode.php	2a29ba34fa4d8f54d32fe7ae9cd39307
+A	src/PublishContentPermissions.php	df0f085dc6b7987f6f83a2f2eed26e0d

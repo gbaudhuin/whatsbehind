@@ -1,0 +1,6 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	computed_field.info.yml	0729d443188d0b204ca627e6afa5b233
+A	computed_field.module	b85e2f7e285cec0c69929ea3d9a0e273
+A	src/Plugin/Field/FieldFormatter/ComputedFormatter.php	6d9613015da1cd0f27ac6438213f2bd1
+A	src/Plugin/Field/FieldFormatter/ComputedRawFormatter.php	57bfb70bced45cc5629f64ea606c71cc
+A	src/Plugin/Field/FieldType/ComputedFieldItem.php	8c934aed195d034dd81e0e6ac496464a

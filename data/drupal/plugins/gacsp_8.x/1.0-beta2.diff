@@ -1,0 +1,12 @@
+A	config/schema/gacsp.schema.yml	c56591fccd4b2391a8a9e6e9116c568e
+D	config/schema/gascp.schema.yml	
+M	gacsp.info.yml	37a2ba7ad5e030bbb9bd8e9ae242126c
+M	gacsp.module	4ac06ced1bff460dfa41c8146e5d76d6
+M	gacsp.services.yml	800dc599ad34e06ff8eea242e9e4dbe6
+M	js/analytics.js	7f3e09068197228a76016f37e8fe87d6
+M	readme.md	b75cfb1e1c5244a15b50daa48d47adb0
+A	src/AnalyticsEvents.php	1f28e952e8ac8d2d44a028b4ce707b10
+M	src/CommandRegistryService.php	2d603935ebc6e04562e2000131689a32
+A	src/Event/CollectEvent.php	5154269837cf57eb34728100ff59ddaf
+A	src/EventSubscriber/DefaultCommandSubscriber.php	af311133ffafc0b524e036cfa02b0648
+M	src/Form/AdminSettingsForm.php	6804604ef1ccdc8c52fe254af6876faf

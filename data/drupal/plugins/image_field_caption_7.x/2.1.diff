@@ -1,0 +1,5 @@
+M	image_field_caption.info	5257fa88b96239350fefb277734c13a5
+M	image_field_caption.install	cae76a3c598bf23d67786b261082cc9b
+M	image_field_caption.module	f5f6aaef95de1f3a5cddc1a013b0f2a1
+A	views/image_field_caption.views.inc	e87d3820c0ea44c98930a0c315516054
+A	views/image_field_caption_handler_join.inc	81638f3db85fa29187e831bd44afcbe7

@@ -1,0 +1,9 @@
+M	CHANGELOG.txt	4041dd0150eeee76c36674a27ec9171d
+M	README.txt	53d9704550aecff5c948ae4230a0602e
+M	acl.admin.inc	454c2dce226b08f87b23c58cc5e75ff0
+M	acl.info	c68b83383c381e79187fe728687486ba
+M	acl.install	8a54259c6e68b19c82e1e3a0ad916845
+M	acl.module	f3fe74f8fc953596d9ca2cdcf19d4120
+D	acl.test	
+A	tests/acl.test	eed1b21499862a1b3dd76d3102ce9dbc
+M	tests/acl_node_test.info	7b91864607113f57df9ef4bbea31fd60

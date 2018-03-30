@@ -1,0 +1,43 @@
+D	.cvsignore	
+M	CHANGELOG.txt	9baf10f29a891dd0ee5bafb32d4fe5d8
+M	README.txt	76c29689e5007ae501643d808258e1e1
+M	TROUBLESHOOTING.txt	7669ad56fb522ae88222ab67f689fc94
+A	ckeditor-rtl.css	70ee4698902e8e5c1ecb405f96ee93bd
+M	ckeditor.config.js	117ecaab5f753bf03c23a9be815fb846
+M	ckeditor.css	9bd3daccd61eb67a8ffc97300b8567da
+M	ckeditor.info	cc0e7650f81549cc1a76628bc38596c0
+M	ckeditor.install	9adb3efa0a076bef49e6cd7bfe9319b1
+A	ckeditor.make	7d774fe49b221d6d46207e3c02b49e46
+M	ckeditor.module	418b4e11a5afc4e56a4afd95c97f6a49
+M	ckeditor.styles.js	4190b87574159dcc90c784f0b2188e6a
+M	includes/ckeditor.admin.inc	7a6dd9c65c8e6727b6cb87a5006116c4
+M	includes/ckeditor.admin.js	109a94a1c3c9293344286bf0e9bf7901
+M	includes/ckeditor.drush.inc	37092d61f27945a5e791d3ee9b72bc31
+A	includes/ckeditor.features.inc	ad4d4e9f6558bc864bfc78b738641765
+M	includes/ckeditor.lib.inc	e00d05084374f4d38f40d04b08556990
+M	includes/ckeditor.page.inc	b013a135a30dae1ca15d18071d3653c7
+M	includes/ckeditor.popup.html	6340f7d8e589c8c392f18cc6b932b0c1
+M	includes/ckeditor.user.inc	ff1a1e703c22cee53cb2b6fd83c665dc
+M	includes/ckeditor.utils.js	bf8080b85df48e3fd9e1fc691196b524
+M	includes/filemanager.config.php	f8628cb0ac9b22c61d0bbf823847ac5b
+D	plugins/drupalbreaks/images/drupalbreak.gif	
+A	plugins/drupalbreaks/images/drupalbreak.png	403aff8a2dda0c99c6c0ae667cf904f3
+D	plugins/drupalbreaks/images/drupalpagebreak.gif	
+A	plugins/drupalbreaks/images/drupalpagebreak.png	cc8e64223725c39b23dbab780f69f04c
+M	plugins/drupalbreaks/plugin.js	0cf8751df732b97a3efceeb14860ac91
+D	plugins/imce/images/icon.gif	
+A	plugins/imce/images/icon.png	06c405a1ac60f9962af9d97cb963c9c5
+M	plugins/imce/plugin.js	5ec2b5dc24a3ca99a671b9e483db7fc0
+M	plugins/linktomenu/dialogs/link.js	d22666f3aada3ec5894c3d00e6235123
+M	plugins/linktomenu/jscripts/functions.js	950719ac160ec91a7ca7404325cb1276
+M	plugins/linktomenu/plugin.js	6ae2d5f515225aa7bb604aca3a2b23f2
+M	plugins/linktonode/dialogs/link.js	0ac1194a2d1987af047ffb6afec310cb
+M	plugins/linktonode/jscripts/functions.js	f8f0daef582cb9430258d03174a5d5cd
+M	plugins/linktonode/plugin.js	6bba675dbf35e92475a352da103d5eeb
+D	plugins/mediaembed/images/icon.gif	
+A	plugins/mediaembed/images/icon.png	478a2dcd1a8071eb2eb4347c6fd673c4
+M	plugins/mediaembed/plugin.js	064ed475cccdceec27ac180cd5352f4c
+D	translations/ckeditor.pot	
+D	translations/de.po	
+D	translations/es.po	
+D	translations/fr.po	

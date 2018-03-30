@@ -1,0 +1,7 @@
+A	composer.json	9a4a6315d32f476287e629380d564a32
+M	composer_manager.admin.inc	cc3315154635e38f42dd5595dcc2f672
+M	composer_manager.drush.inc	c752ac6413ae856160023f25770a9115
+M	composer_manager.info	a7d5407c25cf150017a841fc1347be16
+M	composer_manager.install	5a68db3b4895a871a84579d23e3ecda0
+M	composer_manager.module	9256c3b3c4b638fe9a4987b01850b59a
+M	composer_manager.writer.inc	e5acd8bbff25c452a5981e8bf38da268

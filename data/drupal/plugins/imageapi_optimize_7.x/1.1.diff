@@ -1,0 +1,15 @@
+A	binaries/advdef.inc	91e24cc53cb27cd9d0d16a645bdb6145
+A	binaries/advpng.inc	d53e57dfeeeb8d454bb776265002ec47
+A	binaries/jfifremove.inc	b493a1bf4cae958e825b28d1bfb68dd0
+A	binaries/jpegoptim.inc	20e81b56c73fc35b5f27581cba60b235
+A	binaries/jpegtran.inc	ab81fd8ceedabd0e0c200818149d5c7d
+A	binaries/optipng.inc	8bb873708fa6b26ffec61ce622bab7a3
+A	binaries/pngcrush.inc	7a01fff317cf176c42b4e736b393c10c
+A	binaries/pngout.inc	d0f464517488cc88056f826635ecd129
+A	binaries/pngquant.inc	f0164e7bc6fdc50582463c28f1e0dd72
+M	imageapi_optimize.info	ae02e073fa0c6d0634e5d9f634340ec6
+M	imageapi_optimize.install	9988a3b374dda48244bf0b47d0ddf4f2
+M	imageapi_optimize.module	301c83019a1c65bfb2f2b6e69d156434
+A	includes/imageapi_optimize.inc	f42a3ce739e612cc129c2a0746c368f8
+A	services/internal.inc	0fe670c6005b4ae5070526c9065a7c61
+A	services/smushit.inc	3ac28cbd7a02332d625565fe51b2bb41

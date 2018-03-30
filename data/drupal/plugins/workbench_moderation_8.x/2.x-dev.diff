@@ -1,0 +1,14 @@
+M	src/EntityOperations.php	c624827152da05687dd637dabcbc803a
+M	src/Form/EntityModerationForm.php	32358c8d4ce081531f4a64367e24cc62
+M	src/Plugin/Action/ModerationOptOutPublishNode.php	1e4a6c195c8fb7064ebde5231b9121ed
+M	src/Plugin/Action/ModerationOptOutUnpublishNode.php	db3947bab4750e23cada1d6ba5d598f1
+M	src/Tests/ModerationFormTest.php	6acada546d73180fda884bec501e7f79
+M	tests/modules/workbench_moderation_test_views/workbench_moderation_test_views.info.yml	4276068b9856a5a5bb2a0d50f4ba88fb
+D	tests/src/Functional/ModerationFormAccessTest.php	
+M	tests/src/Functional/ModerationStateAccessTest.php	91580ba3ee53b177defc0b306898ffea
+M	tests/src/Kernel/WorkbenchModerationSchemaTest.php	198ee3c1a843f79a5bb9dea65f14b408
+D	tests/src/WorkbenchModerationTestTrait.php	
+M	workbench_moderation.info.yml	d3bdbedd1ee616ccedbf3f062e9d5102
+M	workbench_moderation.module	06c2a24c4c45e2d793d521f3c4d67725
+M	workbench_moderation.permissions.yml	c48639737897b972c9f5e10269aebbcb
+M	workbench_moderation.services.yml	4046b8c0127d52ff85272e539cc38045

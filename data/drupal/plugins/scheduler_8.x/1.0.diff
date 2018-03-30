@@ -1,0 +1,13 @@
+A	.travis.yml	c46942958579192c85cf06679fb84740
+A	README.md	abef2b3bd7063517f09edc612f4c1696
+D	README.txt	
+A	phpcs.xml.dist	8927d3fe8f463bd18b54e945fbb2db4a
+M	scheduler.info.yml	231a186baabb5f1f464f4f78f223d504
+M	scheduler.module	ca1a045724a2eb026ba196d6bdb628f5
+M	scheduler_rules_integration/scheduler_rules_integration.info.yml	2c0a108469d0a82868f4ecb3ce157695
+M	scheduler_rules_integration/src/Plugin/Condition/NodeIsScheduledForPublishing.php	b564a9b602528dccdfc754eee166e03e
+M	scheduler_rules_integration/src/Plugin/Condition/NodeIsScheduledForUnpublishing.php	1a405608184ae986193d34aa14f12a9e
+M	scheduler_rules_integration/src/Plugin/Condition/PublishingIsEnabled.php	88c06a1823b795e84b97048549a9795e
+M	scheduler_rules_integration/src/Plugin/Condition/UnpublishingIsEnabled.php	eefc0956dbdc7b1c24ff84909e976261
+M	tests/modules/scheduler_access_test/scheduler_access_test.info.yml	e8da84fabdc079284d73d82a9364e7d1
+M	tests/modules/scheduler_api_test/scheduler_api_test.info.yml	b1f27c6e70ec6b1cb2e60e0b8521ce64

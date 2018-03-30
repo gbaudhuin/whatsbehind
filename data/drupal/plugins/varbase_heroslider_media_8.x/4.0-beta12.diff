@@ -1,0 +1,20 @@
+A	.gitignore	e9ee484e83039d6c1ad334a5e8c96eee
+D	config/install/block.block.views_block__media_hero_slider_block.yml	
+A	config/install/block.block.views_block__varbase_heroslider_media_varbase_heroslider_media.yml	9e44a22c692a77c33bdb1c72d8fbfd97
+M	config/install/core.entity_form_display.node.varbase_heroslider_media.default.yml	d47a4798af02f6494f76af1870bfa720
+M	config/install/core.entity_view_display.media.image.varbase_media_hero_slider.yml	a50bfce6b08e832ef1b5a84272761c69
+M	config/install/core.entity_view_display.media.video.varbase_media_hero_slider.yml	a5f4c6de32bef875ddc7a89baea36fd6
+M	config/install/core.entity_view_display.node.varbase_heroslider_media.default.yml	c6d2199ff4b4c475ddd903a4968955c6
+M	config/install/core.entity_view_display.node.varbase_heroslider_media.teaser.yml	a07d934fccdb553330c4859a4f4321ff
+M	config/install/entityqueue.entity_queue.varbase_heroslider_media.yml	02ce79774584fa8b573362e427d00c73
+A	config/install/tour.tour.media-hero-slider-creation.yml	1403daf5b5a9fae739142228552edd34
+D	config/install/views.view.media_hero_slider.yml	
+M	config/install/views.view.varbase_heroslider_media.yml	7ff672e44376d2956925f35733ba798e
+M	config/install/views.view.varbase_heroslider_media_browser.yml	1c6d1f62681a333600e8e25ae7e5156c
+M	css/varbase_hero_slider_media.style.css	bac7a969c19dd3efe7247200a5f875bb
+M	css/varbase_hero_slider_media.style.css.map	b9cc70fc7403a6a74a059cc90ba9681d
+M	js/varbase_hero_slider_media.scripts.js	5358b9545ac7fb57f31bdbdd01ebe512
+A	js/varbase_hero_slider_media.scripts.min.js	9916ddbfaadfa4894bcdfd7ea685b8fe
+M	less/varbase_hero_slider_media.style.less	a9d554bed104b0dfc1ac28a4ac73ab29
+M	less/variables.less	6f7135361ce0a4ab35fe620c58ec6431
+M	varbase_heroslider_media.info.yml	a606deb34ac54afedbeca296df2b34b4

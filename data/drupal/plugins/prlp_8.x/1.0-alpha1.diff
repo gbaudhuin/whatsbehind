@@ -1,0 +1,9 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	2f0283fbd2c6155a071fe0ce6b641f26
+A	config/install/prlp.settings.yml	0ce4a9fe461816cd2e94592e9219b144
+A	config/schema/prlp.settings.yml	a561eb75d271b258d583081298d81f23
+A	prlp.info.yml	fd1822dfff55ade00a720f2e4f486837
+A	prlp.links.menu.yml	a2baf60554366a4660521e2b5bf46f95
+A	prlp.module	291d709fcfc41c3e6aa65c6f6672f57a
+A	prlp.routing.yml	eb80b892032ed78de4d1865ff7e256bc
+A	src/Form/AdminSettingsForm.php	2d46bd25eee999336821e9bc53bd05fe

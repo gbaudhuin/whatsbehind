@@ -1,0 +1,16 @@
+M	.travis.yml	9b1f5834f89cc27b76900513d0bdfa3b
+M	.travis/drupal.make.yml	3a4710591f4dc62e35981572a3fcb9d5
+M	css/deploy.toolbar.css	1f6da729158a8e7c42392de601a53d03
+M	deploy.info.yml	adb48e6de7c150f8710bde81f333db1f
+M	deploy.install	27eabaa2c025ed5ab19a9e83fc3d89fc
+M	deploy.libraries.yml	8318e94e856fcf0bbf533be371142a06
+M	deploy.module	d8f80c85ad8a1e9e815d9ca691452fdd
+M	deploy.routing.yml	90c5c432ffbc9a19cc00e8c16d28bfe3
+M	src/Deploy.php	f19c15d92cb7dff5fd8314cc2b100aa4
+M	src/DeployInterface.php	2faf8169134ee8a7815044916685f9c3
+M	src/Form/PushForm.php	04a6afaf7dfacc9f39831e9a114929ad
+M	src/Tests/DeployTest.php	9325fc62ec0b13ae770aacc50063e702
+A	tests/modules/deploy_test/deploy_test.info.yml	c2d4a50f2232685be5c0f4b289299958
+A	tests/modules/deploy_test/deploy_test.install	512cbb8fa21b5010443be450ec570ef1
+A	tests/modules/deploy_test/deploy_test.module	ce407ff5715c837d02b1aba7975bf512
+M	tests/src/Unit/DeployUnitTest.php	8c23ca5ecbf29ceb4fc8d8f1d96b4fa5

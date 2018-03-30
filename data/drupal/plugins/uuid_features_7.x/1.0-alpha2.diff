@@ -1,0 +1,7 @@
+D	.cvsignore	
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	includes/uuid_node.features.inc	13e83b137c659b9346873f84f9ae696a
+M	includes/uuid_term.features.inc	638d2273102ed908d11e5b58e1e37f75
+D	includes/uuid_vocabulary.features.inc	
+M	uuid_features.info	9a0c128774d201ad3aff074cd4791cf5
+M	uuid_features.module	6177b3349d8b6d2107e7fc7ef5ed7c84

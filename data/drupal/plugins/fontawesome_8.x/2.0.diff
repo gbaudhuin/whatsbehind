@@ -1,0 +1,13 @@
+M	config/install/fontawesome.settings.yml	5ae63a16fd43ea564f1b151129027f2e
+M	config/schema/fontawesome.schema.yml	80c87edf2db02230de1992540b4bb3d0
+M	fontawesome.info.yml	a642e7cec0b9902e9d7f0df24cd5b1b2
+M	fontawesome.install	6064e1b4c38bd8e38bbd9cd0c5934bd0
+M	fontawesome.libraries.yml	afe4311203da242bff8b3b0a803d09cc
+M	fontawesome.module	4d0241343a699e3a850fe3c015276ed7
+A	js/enablePseudoElements.js	5ea773e60d585e199277f699fbae03da
+M	js/plugins/drupalfontawesome/plugin.es6.js	bfff64efd63ae697f8f86233a13c53d3
+M	js/plugins/drupalfontawesome/plugin.js	67f7d320287828e1f59a418c6fd6faf8
+M	src/Form/EditorIconDialog.php	def62e744a5fbafa9e06129eb5dd8de8
+M	src/Form/SettingsForm.php	3b647fa54f0c1b642e5558931f8e6eca
+M	src/Plugin/Field/FieldFormatter/FontAwesomeIconFormatter.php	13638ddfe62a4958a21bd251ac73c2a4
+M	templates/fontawesomeicon.html.twig	0bd4b69f387e36cee50e76a628aecce8

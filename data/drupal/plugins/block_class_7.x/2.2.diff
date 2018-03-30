@@ -1,0 +1,7 @@
+M	block_class.info	a814c9f41cb393a0ae289b40478bd816
+M	block_class.install	2a99761efecce8987edaca1ad1b8bd47
+M	block_class.module	a533a34738423e7aa00a72d2e735708e
+M	block_class.test	d61c7f5d213cdff9871e53a53e1cb928
+A	tests/block_class_fe_block_test.features.fe_block_settings.inc	c8967897e701d73977aa882e4cae9674
+A	tests/block_class_fe_block_test.info	6a9b71e01117543870ab7719a43941d1
+A	tests/block_class_fe_block_test.module	1cdaa3c5a390cc850c000dc7345e82c8

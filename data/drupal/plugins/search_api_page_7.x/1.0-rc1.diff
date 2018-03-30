@@ -1,0 +1,9 @@
+A	CHANGELOG.txt	96dc27cea0c44fbc070c50e385a13ccb
+A	search-api-page-result.tpl.php	d9a838cda6629f18358fd59b86d04a21
+A	search-api-page-results.tpl.php	5d30e1f3c0305d4921298c036ab5ad93
+M	search_api_page.admin.inc	9829c5fb22874634d20d81ec48a90a60
+M	search_api_page.css	8862c3c709c06b30103b91c2fce5b918
+M	search_api_page.info	030d18ef21334ff962350c006b73960e
+M	search_api_page.install	486da1f823a8dfedd240ef1377f787f0
+M	search_api_page.module	9caf06a982ba0974e80086cf81360ff7
+M	search_api_page.pages.inc	12b89ebeac3e19316e1ea81353855b44

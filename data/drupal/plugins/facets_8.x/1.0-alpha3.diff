@@ -1,0 +1,75 @@
+A	composer.json	150ca446ebe7e747523195e2d30a4fd6
+M	core_search_facets/core_search_facets.info.yml	820a5769d46b8ccf46474c5752c0fd37
+M	core_search_facets/src/FacetsQuery.php	8864c8041f34c96bfe0700147bef21bb
+M	core_search_facets/src/Plugin/facets/facet_source/CoreNodeSearchFacetSource.php	0fb124eb9fa31fda75fefb55b370f00c
+M	core_search_facets/src/Tests/HooksTest.php	e14a31d3ff44ff5ae768ef2d56e52f3b
+M	core_search_facets/src/Tests/IntegrationTest.php	4960ada0203437ff991ee0a8a9246df9
+M	core_search_facets/src/Tests/WebTestBase.php	676af1ed251c3cd604cfcd55fe4f5f05
+M	core_search_facets/tests/core_search_facets_test_hooks/core_search_facets_test_hooks.info.yml	b3bb4df00b8a6d597102ffa0bf3c6966
+M	facets.info.yml	3c4227ab5e2799fd63550029d7abe2cd
+M	facets.libraries.yml	4c9fd354b507b31415cf979db8d95e35
+M	facets.links.contextual.yml	5cc45491e25984285c644fab50a1f298
+M	facets.links.menu.yml	a1c5db08171d067e60e66b317f1e0132
+M	facets.links.task.yml	bf926973df3e87c2072661a45215c670
+M	facets.module	898376f795dd15e8d1fdb7420d10428e
+M	facets.routing.yml	c9e2856ed816fe9ee056cac7d957725c
+A	js/checkbox-widget.js	bca015da1a19892ba30167a76bcd2725
+A	js/dropdown-widget.js	8a763a22dd7976ae291682f8cd6ebf81
+A	js/edit-facet.js	4bfa95cb21e5ce4f7d447d3d434a51c6
+A	js/soft-limit.js	80eca6a8fc7e21ae5fc0d04ef425218a
+M	src/Annotation/FacetsProcessor.php	4cc0b121c254f80db490ff3872c84e73
+M	src/Entity/Facet.php	dbcf2d29702ad2a97d96fa90d13270c3
+M	src/FacetInterface.php	16115c231cc9bffcda0d5a991ea298e8
+M	src/FacetListBuilder.php	67e04a014f524e0aab326dba1d1caccd
+M	src/FacetManager/DefaultFacetManager.php	d171ac947e1f30dab8bd2e1061b67cfc
+D	src/Form/CheckboxWidgetForm.php	
+D	src/Form/DropdownWidgetForm.php	
+D	src/Form/FacetDisplayForm.php	
+M	src/Form/FacetForm.php	6d0e5eded5a62c70c831aa4f61d8682a
+A	src/Form/FacetSettingsForm.php	b092e6af1f90d1e2b409ed89549a66e7
+M	src/Form/FacetSourceEditForm.php	375e5366cba14c6d1b93fa7ad7c62e96
+M	src/Form/SubFormState.php	ac8174da2f67a222826b3462b0788964
+M	src/Plugin/Condition/OtherFacet.php	b3bd69c91fb7ef57bf802555a9f09426
+M	src/Plugin/facets/facet_source/SearchApiBaseFacetSource.php	442ca866f1b18cb0bf0f4da718eb2faf
+M	src/Plugin/facets/processor/ActiveWidgetOrderProcessor.php	b7d47aebd00f07e6ce033d9b9cc8ae3b
+M	src/Plugin/facets/processor/CountWidgetOrderProcessor.php	282bbe770748729d59a9af747ad88aa3
+M	src/Plugin/facets/processor/DisplayValueWidgetOrderProcessor.php	dcc8604897a336bdb5fe7636632c8810
+M	src/Plugin/facets/processor/ListItemProcessor.php	f1981584a94bbcb8a486c6b33a6be901
+M	src/Plugin/facets/processor/RawValueWidgetOrderProcessor.php	fd0a934f4caff5d954ce430a98a11427
+M	src/Plugin/facets/query_type/SearchApiString.php	de903afd65f41dd2694d9b090e4fa954
+M	src/Plugin/facets/url_processor/QueryString.php	c54d61ad05d4127bf3dbf93d3e4beb30
+M	src/Plugin/facets/widget/CheckboxWidget.php	d6f7d8bf2ad6f0238eb1f9d58a3682b9
+M	src/Plugin/facets/widget/DropdownWidget.php	2823885cfe3066e0889f8f7116230f0d
+M	src/Plugin/facets/widget/LinksWidget.php	9db2ebe2e6562e45e0213d8c88963f7f
+M	src/Processor/PostQueryProcessorInterface.php	71684b308b51c237f8d4bfcc06137066
+M	src/Processor/ProcessorInterface.php	8d3f0e2e0bb9bcc43729153baf4efcbe
+M	src/Processor/ProcessorPluginManager.php	f276727f4174773be00093fca208ae65
+A	src/Processor/SortProcessorInterface.php	d345411b2d53fd81258de7e73b3b06e8
+M	src/Processor/WidgetOrderPluginBase.php	151fa869f253c59187261765cc4025ac
+M	src/Processor/WidgetOrderProcessorInterface.php	53030f72e9f7d913699563c1ac447e98
+M	src/QueryType/QueryTypeInterface.php	ee974be7d494870c555793fd83f5977f
+A	src/Tests/BlockTestTrait.php	cbb4a444887b380f4b12e269106fd649
+M	src/Tests/ExampleContentTrait.php	88114256616ea4696ffd885fead21f45
+M	src/Tests/FacetSourceTest.php	5344f21e787a5d4934c1a0e504dcd320
+M	src/Tests/IntegrationTest.php	0e2efc79945e3499e9ff1da66bfcaa54
+A	src/Tests/LanguageIntegrationTest.php	9aae74812e9341a950815e3795e493a7
+M	src/Tests/ProcessorIntegrationTest.php	22d70ea5d4e7537c2beba22fa9673756
+M	src/Tests/UrlIntegrationTest.php	032af375501a376124c8fb980512ba66
+M	src/Tests/WebTestBase.php	3d2fe8dcee27eac8a59ed200ff8380c4
+M	src/Tests/WidgetIntegrationTest.php	76e42d04aae712441f35d042bbf78cd8
+M	tests/facets_query_processor/facets_query_processor.info.yml	3f2c4de4760b0d61e7af30000af54deb
+M	tests/facets_search_api_dependency/facets_search_api_dependency.info.yml	d2e6a1d73fc3fb2190a3150259df7df8
+D	tests/src/Unit/Form/CheckboxWidgetFormTest.php	
+D	tests/src/Unit/Form/SelectWidgetFormTest.php	
+M	tests/src/Unit/Plugin/processor/ActiveWidgetOrderProcessorTest.php	d3591de487d806b5299aa8ba9f700040
+M	tests/src/Unit/Plugin/processor/CountWidgetOrderProcessorTest.php	fd97c6611b9d624582f79d04726902ab
+M	tests/src/Unit/Plugin/processor/DisplayValueWidgetOrderProcessorTest.php	e283bfa7d2ebd51e0e80a429562182a5
+D	tests/src/Unit/Plugin/processor/LimitItemProcessorTest.php	
+A	tests/src/Unit/Plugin/processor/ListItemProcessorTest.php	3710758127691f75644a3fe32b3b64c5
+M	tests/src/Unit/Plugin/processor/RawValueWidgetOrderProcessorTest.php	a2cd732a870141ca631a48f2dcff8a96
+M	tests/src/Unit/Plugin/query_type/SearchApiStringTest.php	9ba6a2641f5901d360f2b1d544489b3a
+M	tests/src/Unit/Plugin/widget/CheckboxWidgetTest.php	20b252be7ce88471455979711bd2ba7f
+A	tests/src/Unit/Plugin/widget/DropdownWidgetTest.php	58c9f0a1a18de29efa7ffc3e05fb1a6f
+M	tests/src/Unit/Plugin/widget/LinksWidgetTest.php	66b18143651d2287916c7d9af85ee6d7
+D	tests/src/Unit/Plugin/widget/SelectWidgetTest.php	
+M	tests/src/Unit/Processor/ProcessorPluginManagerTest.php	8bf728fcced7d8cd06c77a26eef38eae

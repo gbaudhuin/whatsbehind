@@ -1,0 +1,10 @@
+M	CHANGELOG.txt	8aef31dfd8a7dd293fe456d2cebfecfd
+M	apachesolr.index.inc	8c429ae05a94d9a9fc4707323be4743e
+M	apachesolr.info	9c630513c7f30993120c3ffa6cbe9aa1
+M	apachesolr.module	4d25698a6e9fd5ea4acbe0c64f1cd7c8
+M	apachesolr_access/apachesolr_access.info	15b59bb15f456290deee002c4e99b145
+M	apachesolr_search.admin.inc	e63f4fd70515070f376f46d665d4b615
+M	apachesolr_search.info	ad8cde0eb2576220789cdd48d7fcaa7f
+M	apachesolr_search.module	3848aa2140942ed84d7834b4f46ad2b0
+M	plugins/facetapi/query_type_term.inc	89cc0f84637046a81cdb86c2d0c88733
+M	tests/apachesolr_test/apachesolr_test.info	6109766022c238feaf8c648736f6a9a0

@@ -1,0 +1,10 @@
+M	src/Adapter/LocalDirectoryAdapter.php	ce50761e4cb35070e47b1e2a6349c295
+M	src/Libraries/LibrariesFinderPlugin.php	6811d41d8d0347a66758bc2fc0e7603e
+M	src/Libraries/LibrariesInfoAlter.php	a3175d355e03c992ed457791475bc92f
+M	tests/test_1/xautoload_test_1.info	eeaae588a9f38e4bef7c361d586fc7d0
+M	tests/test_2/xautoload_test_2.info	a166ce7f2005450f9704a2ebf64cd191
+M	tests/test_3/xautoload_test_3.info	931871cfb5827f0144d44939c24320f3
+M	tests/test_4/xautoload_test_4.info	b74bac1aedf7bf4900316a46b905db1d
+M	tests/test_5/xautoload_test_5.info	6d7668a3155eaeb55f648dd330ec300f
+M	xautoload.info	96e9fa1636086ecebad1c7c4026a2389
+M	xautoload.install	ba38380a1c63c770e58631a4648132c6

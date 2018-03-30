@@ -1,0 +1,25 @@
+A	gmap.api.php	0b5b42ea227668199deec9e7fa9549df
+M	gmap.info	2b95dbc4da1aae6ab19e4eafc2ac3756
+M	gmap.module	a1418017e05614171bbe6d2a05666d5b
+D	gmap.php	
+M	gmap_location.info	98363f802a3a86e4c5edff043ac08f2c
+M	gmap_location.module	cfa575d2c66563c5373d95a48f5c1172
+M	gmap_macro_builder.info	7143b37fcafc246309d6b9ae7d5d6bb6
+M	gmap_polyutil.inc	f8712810c5d0bfa56a5e4fef0c031c76
+M	gmap_settings_ui.inc	2108cc885adb4388ecbebc0536fc4080
+M	gmap_style_bubbles/gmap_style_bubbles.info	b539a67db030f8508ef5f156d8f7a51b
+M	gmap_style_bubbles/js/infobubble_extended.js	6922fa2fc79b4f8b01e5eb8ad01b332b
+M	gmap_taxonomy.info	d5572284fc0cda84e9de0bcfc61dc91f
+M	gmap_taxonomy.module	147579ecf64582b070044a8b280309d5
+M	gmap_test/gmap_test.info	06089a136bd0b660dde163366e2552d1
+M	gmap_test/tests/gmap_test.test	47af5b99bb8fe1be9eb8f16867669b6a
+M	gmap_test_extended/gmap_test_extended.info	385b88f21dc01406edb0a13c57359a78
+M	gmap_test_extended/tests/gmap_test_extended.test	8582a20564bb7bf6f7250062e847e903
+M	help/gmap.help.ini	5b14835c41bd65acfdfd120252137891
+M	js/gmap.js	c302190639d26a2bdffb479af3f2dd63
+M	js/highlight.js	9c4074fa5d33f226a61516ad9b6384e3
+M	js/marker.js	a7d7c6fb8c820b16924b677737d2143b
+A	lib/Drupal/gmap/GmapDefaults.php	78791ad838a4c444586f1741f25781f5
+A	lib/Drupal/gmap/GmapPolylineToolbox.php	4ebd8f43b1cfda92849323adec0b1f1d
+M	location_gmap_find_address/location_gmap_find_address.info	234de085e6b8d5e05d05337c4ffffaeb
+A	vendor/README.txt	132f848c74c2d9c4cf3006039fc9a8dd

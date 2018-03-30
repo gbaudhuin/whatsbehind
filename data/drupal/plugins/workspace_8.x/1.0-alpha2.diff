@@ -1,0 +1,19 @@
+M	.travis.yml	877e571d9082430eafabd879883986dc
+D	.travis/drupal-8.0.x.make.yml	
+M	.travis/drupal-8.1.x.make.yml	9be52884b7f9575b69cad5da27831593
+A	.travis/drupal-8.2.x.make.yml	a423b0f0b20543da330929b3e6ce4325
+M	css/workspace.toolbar.css	469aad5b89cbc76d3224b3147ebd3811
+A	icons/bebebe/update.svg	464e339d863a534b66ea9372abfbaa81
+A	icons/ffffff/update.svg	f901d0ee6b2c79c1e974d5a91c0f1e13
+M	src/EntityTypeInfo.php	4e0e10311fc5dad55a4636de523ee515
+M	src/EventSubscriber/WorkbenchModerationSubscriber.php	0f8b614db2d9eed9088d57ee806ed4c6
+A	src/Form/UpdateForm.php	3fdb04313a1ff550c210955db6df34eb
+M	src/InternalReplicator.php	18009f47f0d77ed8f6b01641a889c057
+M	src/Plugin/RulesAction/ReplicateContent.php	6ad0751f1c72916e6138ab3ec7071e62
+M	src/ReplicatorInterface.php	0fe75016aada7705f6b1a0d543e60343
+M	src/ReplicatorManager.php	8852953324312814bca0ebd8fb2abaae
+M	src/Routing/RouteSubscriber.php	16142d5a5b96bc078c811716d0d169ab
+M	src/Toolbar.php	73b04dde142e3af66ffd9b14fa41f60b
+M	tests/src/Functional/EntityTypeAlterTest.php	8c49cbfda76b3576b01b581d40971a88
+M	workspace.info.yml	b1c546c4bd1c9dceac7f3ea36b1e64bb
+M	workspace.routing.yml	1e46a3671fb53e3dd2d5403845fc636d

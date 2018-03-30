@@ -1,0 +1,17 @@
+M	feeds_tamper.info	69999b03e85f9e13c905e36d446542a2
+M	feeds_tamper_ui/feeds_tamper_ui.admin.inc	bcc452e74ceeb55f4f640a3b28148fd9
+M	feeds_tamper_ui/feeds_tamper_ui.info	4e52da70f405f6e2c4d6afa5a4987bc4
+M	plugins/convert_case.inc	f6c819c0d706efe6d907cec6def81d40
+M	plugins/explode.inc	3e675c5fb42ce99bdc8b11658c1efc7f
+M	plugins/find_replace.inc	82ab8b2f047cdb9c9c018b3a94db7f8d
+M	plugins/find_replace_regex.inc	88f025065e7276edfcdd5c3784334644
+M	plugins/html_entity_decode.inc	3e5edc19aebcebf5466b4cd736c311ee
+M	plugins/html_entity_encode.inc	cb6ffea71415feb2efac8aea9feca997
+M	plugins/implode.inc	f367d5348e3d08150a98979bb5f94a7d
+M	plugins/keyword_filter.inc	84908a5623617f2a9dbcc13c317d0398
+M	plugins/required.inc	e36ac26d0badc2a37e9e84f9daf76d73
+M	plugins/strip_tags.inc	4092cd2b4003a68e8b78f231df5c9c4f
+D	plugins/taxonomy_keyword_filter.inc	
+M	plugins/trim.inc	f94073124eb0f2666f6d9bf84483d17f
+M	plugins/truncate_text.inc	536444eb0635ecd8cef4fb297eb36e48
+M	plugins/unique.inc	fb7251e74f8ace24b6f83048a893c08e

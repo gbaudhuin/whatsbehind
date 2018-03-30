@@ -1,0 +1,10 @@
+M	flag.inc	5c487589a6cf78528f11e190bcf0ef37
+M	flag.info	87a8c94dcd87aa4d66e1f280a94de8f0
+M	flag.install	e6e9b91a2037295eeab3a565fc686ca4
+M	flag.module	a9a5f2a790082c4c0dff0ee45e696432
+M	flag_actions.info	7044c402d014485a867a1efc223c4267
+A	includes/flag.rules.inc	3826672dd600b51bf0dcb6c497004adc
+A	includes/flag.rules_forms.inc	520dd7b59817298fae49394c6b942de3
+M	includes/flag.views_default.inc	6d360d0adf967a27e00d28a34013fa93
+A	tests/flag.test	8d052298ade84d6b29ff9644514d10c1
+M	translations/de.po	aae4b7df426e8f9366e98c48a03d8ec7

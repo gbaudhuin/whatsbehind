@@ -1,0 +1,8 @@
+M	fontyourface.info.yml	cc10305e074a77ef70b074d08f1171a6
+M	modules/adobe_edge_fonts/adobe_edge_fonts.info.yml	19a9b89bb0e30080d71b31dea2d36ab5
+M	modules/fontscom_api/fontscom_api.info.yml	7a0cb7207ea787c0ff881e74e345378e
+M	modules/fontsquirrel_api/fontsquirrel_api.info.yml	5e5b5afabdf4fcd85d31a593c97dd658
+M	modules/google_fonts_api/google_fonts_api.info.yml	c1873eb393b223ea142cfb12b5d33c78
+M	modules/local_fonts/local_fonts.info.yml	228c7189ca4c559272cd9edf4337fc50
+M	modules/typekit_api/typekit_api.info.yml	e70ea0188583d5baa24afcdba25f906f
+M	tests/websafe_fonts_test/websafe_fonts_test.info.yml	7fcefaee08f9460362733a5f58fd4a62

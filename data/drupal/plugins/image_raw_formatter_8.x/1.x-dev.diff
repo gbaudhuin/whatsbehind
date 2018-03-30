@@ -1,0 +1,9 @@
+A	.gitignore	6a0d95f60cc699db73f87daed4f06187
+A	.travis.yml	a1bb0b4e41126d731e3bfcab4d411796
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	9a1c8b209510801e013bf80cd62b56c3
+A	composer.json	5253c04fc53165946e9d1240d8b8cf14
+A	image_raw_formatter.info.yml	0dfd804354208c1f598fdf6a331e4ab8
+A	image_raw_formatter.module	f4c2b6f32b4f31470143cb5ad28b1723
+A	phpunit.xml.dist	86a51b4015935706e7d5d9588a8e5da4
+A	src/Plugin/Field/FieldFormatter/ImageRawFormatter.php	c992137ca4f3b1bb49b189b2e7d7a934

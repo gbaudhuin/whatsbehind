@@ -1,0 +1,27 @@
+M	geoPHP/geoPHP.inc	79ea3a1cad81043fa33dddd0ef1f2892
+M	geoPHP/lib/adapters/GPX.class.php	a77ab193ef15912598eb88eea5bee2d8
+D	geoPHP/lib/adapters/GeoHash.class.php	
+M	geoPHP/lib/adapters/GeoJSON.class.php	dbbba09733b90e71bc0eb38c84fd3535
+M	geoPHP/lib/adapters/KML.class.php	68d1ba7cc039865f2c992ded6c7bef01
+M	geoPHP/lib/adapters/WKB.class.php	e9e322bcc5c5dba585f4a1533f31d197
+M	geoPHP/lib/geometry/Collection.class.php	5440a689870775162e12f15893faeb0b
+M	geoPHP/lib/geometry/Geometry.class.php	f6a22a4239653993101ee914cee37cfc
+M	geoPHP/lib/geometry/LineString.class.php	17cf61f3f484877523c8f478cc9ca8ac
+M	geoPHP/lib/geometry/MultiLineString.class.php	cfc0ba895424c3425c619de243985dca
+M	geoPHP/lib/geometry/Point.class.php	02e0cc8acc16c6ec4523fe16a563ddc3
+M	geoPHP/lib/geometry/Polygon.class.php	080efffae20b485a6748b222211f70b8
+D	geoPHP/tests/input/20120702.gpx	
+D	geoPHP/tests/input/long.geohash	
+D	geoPHP/tests/input/opposite.gpx	
+D	geoPHP/tests/input/paths_big.json	
+D	geoPHP/tests/input/short.geohash	
+D	geoPHP/tests/input/simple_point.json	
+M	geoPHP/tests/test.php	b18b3d780960ea970bd0aaa2d0eb0511
+D	geoPHP/tests/tests/20120702Test.php	
+D	geoPHP/tests/tests/adaptersTest.php	
+D	geoPHP/tests/tests/aliasesTest.php	
+D	geoPHP/tests/tests/geosTest.php	
+D	geoPHP/tests/tests/methodsTest.php	
+D	geoPHP/tests/tests/placeholdersTest.php	
+M	geophp.info	2e939b431ccc2d08aa708ffcd6453f04
+M	geophp.module	6f4efeecde44cac4511ceb28673888c4

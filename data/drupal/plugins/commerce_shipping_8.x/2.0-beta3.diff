@@ -1,0 +1,34 @@
+A	.travis-before-script.sh	916c71f312206422a64d9bc7e95805e8
+A	.travis-simpletest-js.sh	c4739fe0069be169beb2cf647701eb38
+A	.travis.yml	d234bd26d89403543203d78d1a128468
+M	commerce_shipping.info.yml	c05017395e0b5d69a449b0f5c033a037
+A	commerce_shipping.install	39a934ff4c84d95953f9587d093c3071
+M	commerce_shipping.module	b497f08d6ee72dda59d56020d35b5080
+A	composer.json	af25dec1efc3da5a89ef00d3329b53cd
+M	config/install/core.entity_view_display.commerce_shipment.default.user.yml	1f462216c3584a18e29488c9971607a8
+M	config/optional/commerce_checkout.commerce_checkout_flow.shipping.yml	13a8ce807c899bf2809327223eb47312
+A	src/CommerceShippingServiceProvider.php	956b8cd4316807ae4130e02c4cb2b6d9
+M	src/Entity/Shipment.php	4f3c0de3d2ba2d39fe72bcb18472cf4f
+M	src/Entity/ShipmentInterface.php	cd5bd8dd7c37fa439cbd92055a616d6a
+M	src/Entity/ShippingMethod.php	23fa602888b3c114b2d284a23484f5f8
+A	src/EventSubscriber/CustomerProfileSubscriber.php	d1d86de1314a469616ed5d9e8f3af8b3
+M	src/Packer/PackerInterface.php	3131db38fd3457c7fdfd6bcc307b9746
+M	src/PackerManager.php	adfbd3209b33b728233a44092d0fe117
+M	src/Plugin/Commerce/CheckoutPane/ShippingInformation.php	610dfab62f7c6bb9992cf35118d53d64
+M	src/Plugin/Commerce/ShippingMethod/ShippingMethodInterface.php	4936e3162662b24a7ba8fa5cdc02e2f3
+M	src/Plugin/Field/FieldWidget/ShippingRateWidget.php	03cc207c9c1ca69c269be0fbe71278d1
+M	src/ShipmentOrderProcessor.php	36d52362c965956d51f9d04e65d7ec53
+M	src/ShippingMethodPluginCollection.php	96bf522aae53333a82d233b7e3756b37
+D	src/ShippingMethodRouteProvider.php	
+M	src/ShippingMethodStorage.php	b8a72541a5c48ec73162885e7c536a26
+M	tests/modules/commerce_shipping_test/commerce_shipping_test.info.yml	14d3d78b0218613a39ce1ddb81ce163b
+M	tests/src/Functional/PackageTypeTest.php	20681a212d8bbdd12b0a1407e8dd73a8
+D	tests/src/Functional/ShippingMethodTest.php	
+M	tests/src/FunctionalJavascript/CheckoutPaneTest.php	feac9673ed97b2434414233e825e74c8
+A	tests/src/FunctionalJavascript/ShippingMethodTest.php	50230bd781231fd457c760beb2922c33
+M	tests/src/Kernel/Entity/ShipmentTest.php	066b37b5bc19fa9f6e0d6ef51117680b
+M	tests/src/Kernel/Formatter/TrackingLinkFormatterTest.php	6f834893d3181e4f2fe840e69c9a1b67
+M	tests/src/Kernel/OrderWorkflowTest.php	716ea9313617d533c85bc8e76ffb2f42
+M	tests/src/Kernel/ShippingKernelTestBase.php	7cddb6d46fc2ebf1391ca8ddc7892e3a
+M	tests/src/Unit/Packer/DefaultPackerTest.php	15e99e86392d810b91c3f12eeeb20a88
+M	tests/src/Unit/Plugin/Commerce/PackageType/PackageTypeTest.php	c2b585c79d009cb07c0c6cccf123400a

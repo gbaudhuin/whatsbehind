@@ -1,0 +1,16 @@
+M	features.info.yml	7f66f2e1e4f9076a9de36079cfe1b941
+M	features.module	9766ab8b7162b4646cbcbab98f1579ae
+M	features.services.yml	c04b2f25c8d42091aad82ecac00f1c54
+M	modules/features_ui/features_ui.info.yml	ba9d6a947c09ff385d1b003c80013c8c
+M	src/FeaturesConfigInstaller.php	869e9ca2c455e7466aa5c8b9311db5dd
+M	src/FeaturesGenerationMethodBase.php	b6cb712efdad527bff4954232cbb78ac
+M	src/FeaturesManager.php	14a87cd1d08a460c7cd48ccf9860f668
+M	src/FeaturesManagerInterface.php	06afbc145985fe4668b8e32196d63199
+D	src/FeaturesServiceProvider.php	
+M	src/Plugin/FeaturesGeneration/FeaturesGenerationArchive.php	0fb12682f4ba899af644162133f60e4f
+M	src/Plugin/FeaturesGeneration/FeaturesGenerationWrite.php	f066988045420159987bbd6cb02c614f
+D	src/ProxyClass/FeaturesConfigInstaller.php	
+M	tests/modules/test_feature/test_feature.info.yml	95fc150e7f8c31e14cf5ecb22f4c67c4
+M	tests/modules/test_mybundle_core/test_mybundle_core.info.yml	4cc242c843d34b427c9d5be519613bc8
+M	tests/src/Kernel/FeaturesGenerateTest.php	2cc79e30a437c7c2c9d29e8828d2f324
+M	tests/src/Unit/FeaturesManagerTest.php	d07b0b4c0926f6b378a1b309fe681f97

@@ -1,0 +1,9 @@
+M	CHANGELOG.txt	c1150db41e8c02038303cc7f3eb427b0
+M	includes/bootstrap.inc	6f8f13685d7bc9d0db27ad5ccfa5db00
+M	includes/common.inc	3386fcc0f4fee55792581dbcfa09d269
+M	misc/drupal.js	a4065c93addf975e695586c24a20bda8
+M	modules/file/file.module	797ae43fb5c446db290cfc334eacfa2f
+M	modules/file/tests/file.test	136019dc574e521e08df0f635d42681d
+M	modules/file/tests/file_module_test.module	0df3096175566633cfe14e9335b47ff6
+M	modules/simpletest/tests/common.test	63c35a58160a81352ac946be4aa0b24d
+M	modules/simpletest/tests/common_test.module	292c885e053e3da9734bde11f1ca56fa

@@ -1,0 +1,26 @@
+M	.eslintignore	4471dfa3096240733c9ae36c0f82ee14
+M	CHANGELOG.txt	c75b52fc932cf34951440ef51d35bccf
+M	README.txt	8156f2a0608e719af9a914a8b863aef6
+M	composer.json	bf7a533bc8841050d7be045373a4c629
+M	css/theme/slick.theme.css	d6f39c2f74ec556de4ab4b07acf67477
+M	js/slick.load.js	db9021c066cac923eda1941a14d49de2
+M	js/slick.load.min.js	0da43c1996e30ad889e8da4b1c3c04da
+M	slick.api.php	6196742cfd086c1d069fa3f351be28bd
+M	slick.info.yml	6837b26fffdba9127b515203f0b9f1df
+M	slick.module	b2d142c6c41e959da3cc13054d39176c
+M	slick_ui/slick_ui.info.yml	77601bbe7dd8713665a83ce053ea0746
+M	slick_ui/src/Form/SlickForm.php	2d6a5918c2eda90fef91e53aa0ebda07
+M	src/Entity/Slick.php	77a3feb323a30817fc64364d0b700f03
+M	src/Entity/SlickInterface.php	02c832c2e102ebc5ce6435a81b7ed117
+M	src/Form/SlickAdmin.php	6709b342da69bbb26abbdca7f1f99cec
+M	src/Plugin/Field/FieldFormatter/SlickImageFormatter.php	08ae1f23a9b4c4b3b4001afeb52a8e9d
+M	src/Plugin/Field/FieldFormatter/SlickTextFormatter.php	6e45d4a3d181cd9bd2adc8ccc1665504
+M	src/SlickDefault.php	966f3ccd4096426e70c6d92c85894052
+M	src/SlickFormatter.php	6906bc84295da21139b3516acfcb8c55
+M	src/SlickManager.php	8237ff7eec14cd977f84fb7614db43c5
+M	src/SlickManagerInterface.php	6866b37577279d7246c294959c6e35da
+M	templates/slick-image.html.twig	264c28f8e98f7c6d2f866e1f849c431b
+D	templates/slick-media.html.twig	
+M	templates/slick-slide.html.twig	d72bd02b9f5f7c60a9a94523d35e81e6
+M	templates/slick.html.twig	f6902ef037fb93a101aef773f3a264ff
+M	templates/slick.theme.inc	f3eb1956e4ac70accf0ce454c7b00540

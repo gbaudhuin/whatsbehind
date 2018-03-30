@@ -1,0 +1,13 @@
+M	core/lib/Drupal.php	445dc442161002115f0963605122234c
+M	core/misc/drupal.js	5ef71c6e30d110e9e329c3f7531bb285
+M	core/modules/comment/src/Controller/CommentController.php	1412dfcaf4561ec0bcf2ed23257ecfa8
+M	core/modules/comment/src/Tests/CommentNonNodeTest.php	2cc38d2298fa6883703fee37b4da7ae6
+M	core/modules/comment/src/Tests/CommentTokenReplaceTest.php	7c248aadd4bc2e39dca87479156f46fb
+A	core/modules/comment/tests/src/Functional/CommentAccessTest.php	f848dfc6de4c9bc142039c65244ecb07
+M	core/modules/node/node.install	9edb96a086afffa9e2c62bf6f59580e1
+M	core/modules/node/src/NodeGrantDatabaseStorage.php	2830f0d16d76f854ab9169f28a6f6dc8
+A	core/modules/node/tests/src/Functional/NodeAccessLanguageFallbackTest.php	c756db31e43a2ec5876ca74dbdbc82fa
+M	core/modules/outside_in/src/Form/SystemBrandingOffCanvasForm.php	4ebc308fe301ec64811864addf2013d6
+M	core/modules/outside_in/src/Form/SystemMenuOffCanvasForm.php	8a5dbdbbe749f1fad6e8cfdb0a862682
+M	core/modules/outside_in/tests/src/FunctionalJavascript/OutsideInBlockFormTest.php	4ae75e49f129ada9a80815a0bda5a548
+M	core/modules/update/update.module	2fd09f84627f9f4f9dd19e2c9c7cb78b

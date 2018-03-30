@@ -1,0 +1,10 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	src/Plugin/views/field/Fieldset.php	47e7740592a2f42a653857ec64a6b10b
+A	src/RowFieldset.php	12da162d40969e222ee6544ccba66d80
+A	views-fieldsets-details.html.twig	1b36f9e88875c24a85616ec9db5074bb
+A	views-fieldsets-div.html.twig	ef8a4100aada7f9f173e8589fda55003
+A	views-fieldsets-fieldset.html.twig	38938118ada6e3fc89130fbd76faf006
+A	views_fieldsets.admin.css	4feaa39a2046a75a26604ea16b654ca2
+A	views_fieldsets.info.yml	69ad7d16352bf22eb263bbe7e2ce06b2
+A	views_fieldsets.libraries.yml	622a168f485cd9d674e0842dc5d5aa0e
+A	views_fieldsets.module	6411b6852fb1021cc71a1075a6b39090

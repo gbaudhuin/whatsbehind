@@ -1,0 +1,7 @@
+M	config/schema/geofield.schema.yml	506ae35c3f8e26fdc5a0557975a68fcb
+M	geofield.info.yml	d9e5beb9e48d44d4bdcaba0d72adf444
+M	src/Plugin/Field/FieldType/GeofieldItem.php	34a1f28952c92b5cd580e11f61792af7
+M	tests/src/Functional/GeofieldWidgetTest.php	ca45914aa1f29ee44281502bf68f9f1c
+M	tests/src/Kernel/ConstraintsTest.php	7eb899fad7e2df860237969ccf7efd64
+M	tests/src/Kernel/GeofieldFormatterTest.php	91b7a86090357be1bedce8a459564931
+M	tests/src/Kernel/GeofieldItemTest.php	1e7cb4d249e13f5517b199841e4bc7e7

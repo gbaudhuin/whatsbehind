@@ -1,0 +1,6 @@
+D	README.txt	
+M	image_style_quality.info.yml	d1baf6cb9d3d920fa9b1de2f4ceda19f
+D	image_style_quality.module	
+M	tests/modules/image_style_quality_test/config/install/image.style.high_quality.yml	04bf0e5244de200c531537fcdf70d3dd
+M	tests/modules/image_style_quality_test/config/install/image.style.low_quality.yml	095827e237bea4720bb32a94a7794244
+M	tests/modules/image_style_quality_test/image_style_quality_test.info.yml	0e63aa19fd62d6b78b0b0ecc86f90812

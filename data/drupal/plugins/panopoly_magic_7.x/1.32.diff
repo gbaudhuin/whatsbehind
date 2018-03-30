@@ -1,0 +1,16 @@
+A	CHANGELOG.txt	7566402de9dd595910d636430d0586d9
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	03688b744e918d9245db335dac9a5d50
+A	css/panopoly-magic.css	4a57d925a728ce3ec96aa9d4e59316c3
+A	css/panopoly-modal.css	a55888ff76e79e512186cf84507a360a
+A	images/close-popup.png	635664ff785a9d2fa0fbd0a5c1ee35f4
+A	images/status-active.gif	49cc6b4fa4c07797e35160ed0f6239dc
+A	panopoly-magic-preview.tpl.php	71adb007ae8b0c4e69a34ff22d4e1bb0
+A	panopoly-magic.js	4000d70b1119824a5c19b7f00b15c271
+A	panopoly_magic.api.php	251a393aa4e65a583ce6030a3bf7ba3b
+A	panopoly_magic.features.inc	23dd7b4cc47b30a3c76725835a7af162
+A	panopoly_magic.info	003768c3050c80cac1dda1146c654351
+A	panopoly_magic.install	4b99c764ab5c931ab7dcad78aed8e432
+A	panopoly_magic.module	8aa2d57074f5d659503acb84139b669d
+A	plugins/views/panopoly_magic.views.inc	f886d40ec16b95846b08a924b7336ab6
+A	plugins/views/panopoly_magic_plugin_display_panel_pane.inc	4eefddafa90bdab0be679ff40a504272

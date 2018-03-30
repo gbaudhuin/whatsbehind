@@ -1,0 +1,14 @@
+M	README.md	0cc6330cbb800d253531970928b48f09
+M	context.info.yml	4227059592f7bbc9a81019323502c04b
+M	context.install	825947ccbde58063f0a74fa389ddd7af
+M	context.services.yml	262e4209b6bde811b8b2289e07050886
+M	modules/context_ui/context_ui.info.yml	88eba86de9989fa3249b26aa106733f2
+M	modules/context_ui/context_ui.links.menu.yml	a8fa1fd38339f961e073447b7efca084
+A	modules/context_ui/context_ui.module	60135976223b5f15961059950639cf7d
+A	modules/context_ui/context_ui.services.yml	c8ac29507a02bab2bfdf0ab8942d78b0
+A	modules/context_ui/src/MenuBuilder.php	375e393ac708f4f6d5830ca4e19f11d0
+A	src/Plugin/Condition/ViewInclusion.php	3c55c54af5a6e05a90bb7297a3be2ce1
+M	src/Plugin/ContextReaction/Blocks.php	ccad654629088883ed52532ae6697b74
+M	src/Plugin/DisplayVariant/ContextBlockPageVariant.php	394e55b5ed00ee87232b736e8ef256c0
+M	src/Reaction/Blocks/Form/BlockFormBase.php	974e75e0440fce14b7e33f84051b9c9e
+M	src/Theme/ThemeSwitcherNegotiator.php	e8e11bdf97835bc3672ecd8157d56e0a

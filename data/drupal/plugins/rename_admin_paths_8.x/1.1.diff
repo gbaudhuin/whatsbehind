@@ -1,0 +1,6 @@
+M	rename_admin_paths.info.yml	33be40355b17a44ed4f6f1a101532ec4
+M	rename_admin_paths.module	e72e948b4e52f091984b89934509fddf
+M	rename_admin_paths.services.yml	3a30c72b58720caa2a7827e37e9dfadd
+M	src/Form/RenameAdminPathsCallbacks.php	e031b13ca497897b6f54b7e6e0be5508
+M	src/Form/RenameAdminPathsSettingsForm.php	1065af28ed333e524f6bbbf03e11e5de
+M	src/RenameAdminPathsProcessor.php	da03fa1ca791d75dc50e93cbd22dcbee

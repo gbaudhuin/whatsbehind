@@ -1,0 +1,4 @@
+M	permissions_by_term.info.yml	c51d21d6fcfc628d165307f3833f827f
+M	permissions_by_term.module	0cb373f131ebeaceea8b2f2bf3c03db2
+M	src/Service/AccessStorage.php	4245c3c3f295a498fe51c046f9b77273
+M	src/Service/NodeAccess.php	e91f939cd37f45c4615df6d8cba935e9

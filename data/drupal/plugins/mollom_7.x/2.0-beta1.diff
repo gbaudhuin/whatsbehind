@@ -1,0 +1,13 @@
+A	includes/README.md	1b2302aab1ccc1edd46c139b8a17b779
+D	includes/README.txt	
+M	includes/mollom.class.inc	3bac2f82b4486609544b4ea84a34b554
+M	mollom.admin.inc	6192505103987998a88d499398c602d8
+M	mollom.drupal.inc	d901a6aa9d85001367d7c8b258d071c8
+M	mollom.info	e30a74fba369809678ff648adbb06e59
+M	mollom.install	c94abe8f46cea0e010ad67fe3aff3638
+M	mollom.module	030170e3b750dd60f98c7076285f9619
+M	tests/mollom.test	ff93b63287245fe229ee497c4de4b879
+M	tests/mollom_test.info	abded8df6b03b587939b5d6c44627114
+M	tests/mollom_test.module	e5b8fe5289eb0dc06357f4e1836c4b03
+M	tests/mollom_test_server.info	062d279b9c24b467836de9afb2fa384e
+M	tests/mollom_test_server.module	10d4a07e7dbd5cf4acd874783695a4fb

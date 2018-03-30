@@ -1,0 +1,7 @@
+M	config/schema/geofield.schema.yml	87749192f8623a9ee83e6687486cd8d7
+M	geofield.info.yml	1ffd0305d29c97b92de76c471cbcd519
+M	geofield.module	891029119d04050e2cee56f4c2ac744f
+D	src/Plugin/Field/FieldFormatter/DmsFormatter.php	
+A	src/Plugin/Field/FieldFormatter/LatLonFormatter.php	90c44e15de4b282610f1ab1d854a41fc
+A	templates/geofield-latlon.html.twig	55db08beb981c1706a426869cd86176f
+M	tests/src/Kernel/GeofieldFormatterTest.php	950b3f4201403f2389325043f449a949

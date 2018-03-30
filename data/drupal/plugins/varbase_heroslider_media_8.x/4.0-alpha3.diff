@@ -1,0 +1,6 @@
+M	composer.json	f50cb6ad17035789f3c61bddb05d97fa
+M	config/install/core.entity_form_display.node.varbase_heroslider_media.default.yml	7682e1b972414da1f6d48f35324a2d3e
+A	config/install/entity_browser.browser.heroslider_media_browser.yml	5a2aeb06df4c329860161126e2416a70
+M	config/install/views.view.varbase_heroslider_media.yml	c653c9b6d854bf3e06d60f8d9bff7310
+A	config/install/views.view.varbase_heroslider_media_browser.yml	a2f7bff621111efb1e8f8d18686d9585
+M	varbase_heroslider_media.info.yml	1cca4d01a4202bdfcab02964611ae723

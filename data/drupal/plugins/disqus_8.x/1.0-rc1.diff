@@ -1,0 +1,9 @@
+M	disqus.info.yml	88e1b0ee24d7f01be3c35566d6a49a21
+M	disqus.install	244a97d498547c40ffb971a3e14a312d
+M	js/disqus.js	c3aa911abb9ec0e269f2dc49ba6c5d2d
+M	src/Element/Disqus.php	e8ffc7e8c07a721f507088022a1633f1
+M	src/Form/DisqusSettingsForm.php	3d9fe054110ed50b011a9a297ee456c7
+M	src/Plugin/Field/FieldFormatter/DisqusFormatter.php	2222815810ce55d0c860730bfceea12d
+M	src/Plugin/migrate/source/DisqusCommentsStatus.php	8e9a0948bc24ddd561c39b6bb60e15a8
+M	src/Plugin/migrate/source/DisqusEnabledNodeTypes.php	995c0effffb6ebe7e66bf006d2c367cc
+M	src/Plugin/views/field/DisqusCommentCount.php	eb4d3bee1399fec6c2268fc8113b53a7

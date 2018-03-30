@@ -1,0 +1,11 @@
+M	README.txt	72d947110a7810bc6cf164b77dc11567
+M	composer.json	45da13db909cb15c430a351c6e528199
+M	s3fs.drush.inc	295b696df82ca766ca2aa4bca79e715f
+M	s3fs.info.yml	5ce1ddfbacd3eefe7680955468b11862
+M	s3fs.install	375a78dfd4e95a0c3278e1c73dde2248
+M	s3fs.routing.yml	4fab0b17d7e5882d516433af49186ead
+M	s3fs.services.yml	044640f5e0a77af43a09ac76c5895d48
+A	src/Controller/S3fsImageStyleDownloadController.php	aff011d8806bc912e3337afc267d751b
+A	src/PathProcessor/S3fsPathProcessorImageStyles.php	d0a99f6819641ba7b4099b1c5e7158f5
+M	src/S3fsServiceProvider.php	46802aadd2a39b2ac6d92ac939330314
+M	src/StreamWrapper/S3fsStream.php	6f254667c8b256f27f7153035e34cb95

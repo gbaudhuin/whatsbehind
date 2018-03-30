@@ -1,0 +1,16 @@
+M	hacked.details.inc	623e9a504549173e979d51b4bc95bfa3
+M	hacked.diff.inc	f1d741e62a140e0e1335f8ba5be10bf4
+M	hacked.drush.inc	efdf8f2a89077d3d587075645e4e5105
+M	hacked.info	795b998abb1464fb69a8c289ada2ba52
+M	hacked.install	0b26ef09d9a43f1b6b68cc5be8877f36
+M	hacked.module	9b712a323b09f3f87240da690bee0b10
+M	hacked.theme.inc	5abf3117ec5b216482b2c8f77d73466f
+A	includes/hackedFileGroup.inc	5fa536ab1f518f43b1e75068f8eef961
+A	includes/hackedFileHasher.inc	59f9c0785abc71255a0c31ee012ccf0d
+A	includes/hackedFileIgnoreEndingsHasher.inc	f9f87ec0ff494a17cb5df6327531fa0a
+A	includes/hackedFileIncludeEndingsHasher.inc	022786077072edd4509b204985dd6d07
+A	includes/hackedProject.inc	6c7e90162701a227cf358032cc37b7fa
+A	includes/hackedProjectWebCVSDownloader.inc	ac23a9aa0212bdebaaa53a3cce57b0df
+A	includes/hackedProjectWebDownloader.inc	1a6f0b77e01652fbd212208a01fcb0e0
+A	includes/hackedProjectWebFilesDownloader.inc	b623fffdd43743ba69351eb7ddd4133a
+D	includes/hacked_project.inc	

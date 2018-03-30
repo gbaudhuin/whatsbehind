@@ -1,0 +1,9 @@
+M	FeedsXPathParserBase.inc	d61b0802731ae1af5990772eb9ec93b1
+M	FeedsXPathParserDOMXPath.inc	dd09b4077f47f92fa74f1e0cffb65a5c
+M	FeedsXPathParserHTML.inc	34f7a8389799ba64e6180ba28dafa688
+M	FeedsXPathParserXML.inc	3237d39964a386d38a3177787f4574de
+M	feeds_xpathparser.info	744d56f53c9d34598f7bc7781ed12581
+M	feeds_xpathparser.module	2fb3b8817ac8e86d793d5f9fadd22916
+A	tests/feeds_xpathparser/simple.html	0a4457ed8c7b1a9c4015ba9891dbc80a
+M	tests/feeds_xpathparser_parser_html.test	803a1ca5649d3bc37a8bfa500889ff1d
+M	tests/feeds_xpathparser_parser_xml.test	b57c2fd2ee36a6a5e45f45cda809729e

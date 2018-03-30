@@ -1,0 +1,4 @@
+M	message.info.yml	b7690c3de4d042a77a6ea59061ca593d
+M	modules/message_example/message_example.info.yml	0d49ddc88b2b838a2bf368986ad20f27
+M	src/MessagePurgeBase.php	9506a83597e435fd78eacf07ff53ab49
+A	tests/src/Unit/Plugin/MessagePurge/DaysTest.php	1a6c2a1453a6760144613b3c0d4e06df

@@ -1,0 +1,12 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	config/schema/fences.schema.yml	ddf40f55390474e1d4156fe62b3679b2
+A	fences.fences.yml	e612721d688a64c120eea6dc077a03d6
+A	fences.info.yml	a78da0bb7bf5530ba92e4bac087d223b
+A	fences.module	698eb1288cf1ce0d7198d7f67df33be5
+A	fences.services.yml	c7c5385bb43ad24645d837bba619c90f
+A	field.html.twig	3325b68f41a2a25cb030e67efc4a4fa1
+A	src/TagManager.php	e71abf5faf91db318bad61f13b87b191
+A	src/TagManagerInterface.php	5d2a655e7197abc50ae70b268854999f
+A	src/Tests/FieldOutputTest.php	30e5e430f9ea7d07dab17e6f7d00d3d8
+A	src/Tests/IntegrationTest.php	502549f9386236f953800fd8b2248dd7
+A	src/Tests/StripWhitespaceTrait.php	f1f5c96044eff743b4896575f764b59f

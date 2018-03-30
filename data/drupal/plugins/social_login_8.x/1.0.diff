@@ -1,0 +1,17 @@
+A	.project	e8844f0b2d0c7cbb9e2c72d9f6b76af5
+A	INSTALL.txt	4d3af019f9b32f89b8f6377f4fccf4f2
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	5f249fb40c84e60f5e03f637a9c2a249
+A	css/social_login.admin.css	55601f5000b4828495d651ddd8f4f896
+A	img/social_login.providers.png	a9ceb94cce53813bd3c60b0bc32d85be
+A	social_login.info.yml	fa87657ecf41b62d151777aa124a4f49
+A	social_login.install	d37b270891d1f515d2e8bf7c008b5e0b
+A	social_login.libraries.yml	5b0db21606039548858abed2837985bc
+A	social_login.links.menu.yml	b0efb31772c3aadc3129b5c3514cec79
+A	social_login.module	2ac5eacbf7e9bd78fe7ffb268a01ec0e
+A	social_login.routing.yml	dff542c8fb4596f9b00dc76b4c3a8c3d
+A	src/Controller/SocialLoginCore.php	c6f1994a23cc2488df30a9014f0606ca
+A	src/Form/SocialLoginAdminSettings.php	04998d9aa8a1dfe6821c39bde1dc31cb
+A	templates/block-provider-container.html.twig	858917025bb048a33c176d0f81468d3f
+A	templates/provider-container.html.twig	cdec14c0069b574a56b5473c5d93fe42
+A	upgrade-info.html	2fc1b80488dab61b4d2d0c41e915a0cc

@@ -1,0 +1,22 @@
+M	CHANGELOG.txt	4c593770397957c93bfcb570e81d926e
+M	INSTALL.txt	57a5b740b3dc8897b29163446f3dcbcb
+M	README.txt	c9d58e6da883169a2237897b4e191709
+M	includes/service.inc	c082090bd35fdb430954b47152f7501d
+M	includes/solr_connection.inc	4809f30b3b694868b96bc93c86354e35
+M	includes/solr_connection.interface.inc	61c5d87bdc4070ad9b9a8efaf6a6489a
+M	search_api_solr.api.php	07078141f40eea2e96866975fbdcf639
+M	search_api_solr.info	d7b11f5db69afa537201a8267f82f1f8
+M	search_api_solr.install	f604dc2fa8e098c542065fc1262dd3cf
+M	search_api_solr.module	5fec9ef261665a7e9a9510c8cd9d0e42
+M	search_api_solr.views.inc	5dc9d15e6e03c74ae97096b3b0fbe7e8
+D	solr-conf/1.4/elevate.xml	
+D	solr-conf/1.4/mapping-ISOLatin1Accent.txt	
+D	solr-conf/1.4/protwords.txt	
+D	solr-conf/1.4/schema.xml	
+D	solr-conf/1.4/schema_extra_fields.xml	
+D	solr-conf/1.4/schema_extra_types.xml	
+D	solr-conf/1.4/solrconfig.xml	
+D	solr-conf/1.4/solrconfig_extra.xml	
+D	solr-conf/1.4/solrcore.properties	
+D	solr-conf/1.4/stopwords.txt	
+D	solr-conf/1.4/synonyms.txt	

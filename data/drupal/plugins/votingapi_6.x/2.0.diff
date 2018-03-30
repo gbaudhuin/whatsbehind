@@ -1,0 +1,14 @@
+M	API.txt	35debbf03d84169f7bf683cf256657c5
+M	CHANGELOG.txt	2049813fbdd0a83ea93fd8f6cc42993c
+M	tests/votingapi.test	9bde632a54e8a2b3926807e477e2134b
+A	translations/nl.po	8d5a20c321886d8c83a39a4bb1a57c2e
+A	translations/uk-ua.po	7be9d6b2e24c7e87da67b986c5f3aebd
+A	translations/uk.po	9f3aa4c26df7f81cbad3067e531454b3
+M	views/votingapi.views.inc	69c55cd5d7dcc5815ced1ab0e4ec0b05
+M	views/votingapi_views_handler_field_value.inc	a7ee6852b3f45d78d02a7404898734e1
+M	views/votingapi_views_handler_relationship.inc	d7d707fece0e3b307eae057247b50737
+M	votingapi.admin.inc	8592d360bc3f81ea84a2c63f9df796db
+A	votingapi.api.php	80ecc0494a352849f92f304425d1d1c7
+M	votingapi.info	b63196648ab8a6e0e2f58cd559a72c91
+M	votingapi.install	bbf1fbc4117cfe3275136634a7201a35
+M	votingapi.module	3d207355b92b89e8d697821428702374

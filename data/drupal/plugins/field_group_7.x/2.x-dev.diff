@@ -1,0 +1,22 @@
+M	CHANGELOG.txt	277b451f87d10d47505ca572a3288409
+M	README.txt	f9207d3025f5c9e4bc679e1f04e28bad
+D	field_group-rtl.css	
+M	field_group.api.php	a8847d86ae9f6f80e242a63f91ce2377
+A	field_group.css	b0401d3b3167aa1d67e293e239268745
+M	field_group.features.inc	b0108ba5c335c03171caf64b47b04300
+M	field_group.field_ui.inc	9769e3dea8169f298e18bb577367fdbd
+M	field_group.info	2717f4752a21b02503fa3317c3c05fa2
+M	field_group.install	86ab17f291a000e8d929676d865f96ac
+M	field_group.js	8833fc5a72eac3ce8c6afe551410730a
+M	field_group.module	4561026d65e04b748a46b27ef7e560ce
+A	field_group.test	5a3fae7dcf415a7f70066ac7d5f0addd
+D	horizontal-tabs/horizontal-tabs-rtl.css	
+D	horizontal-tabs/horizontal-tabs.css	
+D	horizontal-tabs/horizontal-tabs.js	
+D	multipage/multipage-rtl.css	
+M	multipage/multipage.css	3293d62375d4a680f79fc1544c5a5238
+M	multipage/multipage.js	22ed5d7fb98678b7fcb8e04dfaac2049
+D	tests/field_group.display.test	
+D	tests/field_group.ui.test	
+D	tests/field_group_test.info	
+D	tests/field_group_test.module	

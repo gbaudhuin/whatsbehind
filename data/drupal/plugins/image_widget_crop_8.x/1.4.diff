@@ -1,0 +1,101 @@
+M	README.md	75482acd53232d0f0510dd625dd3b16a
+A	composer.json	7ef68042f781e72a15f9f2de16bf8295
+D	config/install/image.style.crop_thumbnail.yml	
+A	config/optional/image.style.crop_thumbnail.yml	e0ea5c2a629e0010a7fd1679e0ef05de
+M	config/schema/image_widget_crop.schema.yml	06c1916d1046613a6bcfd807c73e68da
+M	image_widget_crop.info.yml	f4cfc5f2d0ff08c64f3f5522229d0fa7
+A	image_widget_crop.install	de3e5ce434291af36174f9a8156868bd
+M	image_widget_crop.libraries.yml	c22afe78b739def276325afe2b06b8ba
+M	image_widget_crop.module	b71017856c1801b1a285db1123508655
+M	js/imageWidgetCrop.js	ba278b0c64b50ba16edc19e564ce1d70
+D	modules/image_widget_crop_examples/config/install/core.base_field_override.node.crop_media_example.title.yml	
+D	modules/image_widget_crop_examples/config/install/core.base_field_override.node.crop_responsive_example.title.yml	
+D	modules/image_widget_crop_examples/config/install/core.base_field_override.node.crop_simple_example.title.yml	
+D	modules/image_widget_crop_examples/config/install/core.entity_form_display.media.image.default.yml	
+D	modules/image_widget_crop_examples/config/install/core.entity_form_display.node.crop_file_entity_example.default.yml	
+D	modules/image_widget_crop_examples/config/install/core.entity_form_display.node.crop_media_example.default.yml	
+D	modules/image_widget_crop_examples/config/install/core.entity_form_display.node.crop_responsive_example.default.yml	
+D	modules/image_widget_crop_examples/config/install/core.entity_form_display.node.crop_simple_example.default.yml	
+D	modules/image_widget_crop_examples/config/install/core.entity_view_display.media.image.default.yml	
+D	modules/image_widget_crop_examples/config/install/core.entity_view_display.node.crop_file_entity_example.default.yml	
+D	modules/image_widget_crop_examples/config/install/core.entity_view_display.node.crop_media_example.default.yml	
+D	modules/image_widget_crop_examples/config/install/core.entity_view_display.node.crop_media_example.teaser.yml	
+D	modules/image_widget_crop_examples/config/install/core.entity_view_display.node.crop_responsive_example.default.yml	
+D	modules/image_widget_crop_examples/config/install/core.entity_view_display.node.crop_responsive_example.teaser.yml	
+D	modules/image_widget_crop_examples/config/install/core.entity_view_display.node.crop_simple_example.default.yml	
+D	modules/image_widget_crop_examples/config/install/core.entity_view_display.node.crop_simple_example.teaser.yml	
+D	modules/image_widget_crop_examples/config/install/crop.type.crop_16_9.yml	
+D	modules/image_widget_crop_examples/config/install/crop.type.crop_4_3.yml	
+D	modules/image_widget_crop_examples/config/install/crop.type.crop_free_ratio.yml	
+D	modules/image_widget_crop_examples/config/install/field.field.media.image.field_image_crop.yml	
+D	modules/image_widget_crop_examples/config/install/field.field.node.crop_file_entity_example.body.yml	
+D	modules/image_widget_crop_examples/config/install/field.field.node.crop_file_entity_example.field_image_crop_file_entity.yml	
+D	modules/image_widget_crop_examples/config/install/field.field.node.crop_media_example.body.yml	
+D	modules/image_widget_crop_examples/config/install/field.field.node.crop_media_example.field_image_crop_media.yml	
+D	modules/image_widget_crop_examples/config/install/field.field.node.crop_responsive_example.body.yml	
+D	modules/image_widget_crop_examples/config/install/field.field.node.crop_responsive_example.field_image_crop_simple.yml	
+D	modules/image_widget_crop_examples/config/install/field.field.node.crop_simple_example.body.yml	
+D	modules/image_widget_crop_examples/config/install/field.field.node.crop_simple_example.field_image_crop_simple.yml	
+D	modules/image_widget_crop_examples/config/install/field.storage.media.field_image_crop.yml	
+D	modules/image_widget_crop_examples/config/install/field.storage.node.field_image_crop_file_entity.yml	
+D	modules/image_widget_crop_examples/config/install/field.storage.node.field_image_crop_media.yml	
+D	modules/image_widget_crop_examples/config/install/field.storage.node.field_image_crop_simple.yml	
+D	modules/image_widget_crop_examples/config/install/image.style.medium_4_3.yml	
+D	modules/image_widget_crop_examples/config/install/image.style.medium_crop_simple.yml	
+D	modules/image_widget_crop_examples/config/install/image.style.small_16_9.yml	
+D	modules/image_widget_crop_examples/config/install/media_entity.bundle.image.yml	
+D	modules/image_widget_crop_examples/config/install/node.type.crop_file_entity_example.yml	
+D	modules/image_widget_crop_examples/config/install/node.type.crop_media_example.yml	
+D	modules/image_widget_crop_examples/config/install/node.type.crop_responsive_example.yml	
+D	modules/image_widget_crop_examples/config/install/node.type.crop_simple_example.yml	
+D	modules/image_widget_crop_examples/config/install/responsive_image.styles.crop_example_responsive.yml	
+A	modules/image_widget_crop_examples/config/optional/core.base_field_override.node.crop_media_example.title.yml	141399bfc6d117797436e615b4d8d67d
+A	modules/image_widget_crop_examples/config/optional/core.base_field_override.node.crop_responsive_example.title.yml	f5c8536022bf86380c2effdb8f076b15
+A	modules/image_widget_crop_examples/config/optional/core.base_field_override.node.crop_simple_example.title.yml	af5433dee294f80eca084e818c2614e1
+A	modules/image_widget_crop_examples/config/optional/core.entity_form_display.media.image.default.yml	926409aeb5b5014abfde24f599382f97
+A	modules/image_widget_crop_examples/config/optional/core.entity_form_display.node.crop_file_entity_example.default.yml	00650d2d803b639ec5ae6ca99498f050
+A	modules/image_widget_crop_examples/config/optional/core.entity_form_display.node.crop_media_example.default.yml	b594a51b2dfcbf626710c9ac8e51a9f9
+A	modules/image_widget_crop_examples/config/optional/core.entity_form_display.node.crop_responsive_example.default.yml	19e215447837db6b68885c7c58f30912
+A	modules/image_widget_crop_examples/config/optional/core.entity_form_display.node.crop_simple_example.default.yml	4133dcdb4f9ae0490a7f9351a661fcde
+A	modules/image_widget_crop_examples/config/optional/core.entity_view_display.media.image.default.yml	c83dff4a06f2f96eb557c9b77028976e
+A	modules/image_widget_crop_examples/config/optional/core.entity_view_display.node.crop_file_entity_example.default.yml	f0e71ac2eb0eeefe1b5f7f14c2ea73b1
+A	modules/image_widget_crop_examples/config/optional/core.entity_view_display.node.crop_media_example.default.yml	08dcea1587bb472069beb477faf53d6d
+A	modules/image_widget_crop_examples/config/optional/core.entity_view_display.node.crop_media_example.teaser.yml	d4d730f1f51ad29d534af976bb890a51
+A	modules/image_widget_crop_examples/config/optional/core.entity_view_display.node.crop_responsive_example.default.yml	128be0b4bfc26f67b09b96c35b19b151
+A	modules/image_widget_crop_examples/config/optional/core.entity_view_display.node.crop_responsive_example.teaser.yml	f6c9d4cf5f13ec0186fedcca3d0d4c31
+A	modules/image_widget_crop_examples/config/optional/core.entity_view_display.node.crop_simple_example.default.yml	4eafbb0235bd1f0cd2b569ff6c845968
+A	modules/image_widget_crop_examples/config/optional/core.entity_view_display.node.crop_simple_example.teaser.yml	e25718606bec6e81cc2c9cf03233bd52
+A	modules/image_widget_crop_examples/config/optional/crop.type.crop_16_9.yml	bc9b5e8800b5a086fc5febfd60f81111
+A	modules/image_widget_crop_examples/config/optional/crop.type.crop_4_3.yml	f9ac59dd5b562ebd3a8d21d69a1998b8
+A	modules/image_widget_crop_examples/config/optional/crop.type.crop_free_ratio.yml	e70526adcaacf9e7e39f9f65e93db2e4
+A	modules/image_widget_crop_examples/config/optional/field.field.media.image.field_image_crop.yml	52ee2dfdb1bb728e58a3b2640142d2f4
+A	modules/image_widget_crop_examples/config/optional/field.field.node.crop_file_entity_example.body.yml	e5f4e68990f5ce2c720f06a8e132b635
+A	modules/image_widget_crop_examples/config/optional/field.field.node.crop_file_entity_example.field_image_crop_file_entity.yml	ae6fc92ae07a96d5243f980d2d6d42a5
+A	modules/image_widget_crop_examples/config/optional/field.field.node.crop_media_example.body.yml	69987c69f6e3e3210c0a83ea842c297c
+A	modules/image_widget_crop_examples/config/optional/field.field.node.crop_media_example.field_image_crop_media.yml	896547658b34296b6e83cc4f0eed6d08
+A	modules/image_widget_crop_examples/config/optional/field.field.node.crop_responsive_example.body.yml	b1c5f46d4d5c7f2673c9488523e5e1e4
+A	modules/image_widget_crop_examples/config/optional/field.field.node.crop_responsive_example.field_image_crop_simple.yml	6daf6f76060aec86a48fe5e84c28375c
+A	modules/image_widget_crop_examples/config/optional/field.field.node.crop_simple_example.body.yml	1b42f6628dc90a59aa74f38c0614bc17
+A	modules/image_widget_crop_examples/config/optional/field.field.node.crop_simple_example.field_image_crop_simple.yml	319dd1eb68a1cce7346095f128308e9f
+A	modules/image_widget_crop_examples/config/optional/field.storage.media.field_image_crop.yml	06552eb732d1179fc5caf0bf9ec604ee
+A	modules/image_widget_crop_examples/config/optional/field.storage.node.field_image_crop_file_entity.yml	63bc9bfc0c17f8dd1d021382d735ca89
+A	modules/image_widget_crop_examples/config/optional/field.storage.node.field_image_crop_media.yml	889f44dd95b1a760fdf90536e7ee9c2e
+A	modules/image_widget_crop_examples/config/optional/field.storage.node.field_image_crop_simple.yml	273f9c6b1edef156d008b06d01272c83
+A	modules/image_widget_crop_examples/config/optional/image.style.medium_4_3.yml	8f3b220185246fbb98702460dbac65ad
+A	modules/image_widget_crop_examples/config/optional/image.style.medium_crop_simple.yml	681f12935231224834d3b8ecb65aad70
+A	modules/image_widget_crop_examples/config/optional/image.style.small_16_9.yml	1bbab950ffc9ae44610e5bd2a65e9683
+A	modules/image_widget_crop_examples/config/optional/media_entity.bundle.image.yml	9835338de62562f6d17dd8d217efcbd7
+A	modules/image_widget_crop_examples/config/optional/node.type.crop_file_entity_example.yml	777dc0f7bde309c17ca423ecd4cb3547
+A	modules/image_widget_crop_examples/config/optional/node.type.crop_media_example.yml	78f02a0b39394fa7bfdc7d1d8efcfe23
+A	modules/image_widget_crop_examples/config/optional/node.type.crop_responsive_example.yml	48e17bdcac2e37a8a7e054c0ab1e7cbe
+A	modules/image_widget_crop_examples/config/optional/node.type.crop_simple_example.yml	0d21f6cad4a878b713e99bb0ef605a6e
+A	modules/image_widget_crop_examples/config/optional/responsive_image.styles.crop_example_responsive.yml	58d908cbbdd59ae80ac3a91af3308ff3
+M	modules/image_widget_crop_examples/image_widget_crop_examples.info.yml	b6000270ee00334ab80048570eaa44ae
+M	modules/image_widget_crop_examples/image_widget_crop_examples.install	8d46b83f8a247bd23f09d5e12c1e6d31
+M	modules/image_widget_crop_examples/src/Controller/FrontPage.php	8c333be86870be082035dbd86d024058
+M	modules/image_widget_crop_examples/src/Tests/ImageWidgetCropExamplesTest.php	47f0c18c8c34e788d962ff619d3c8ffa
+M	src/Element/ImageCrop.php	a5d0c0459784ad1260e846f9e7e11d48
+M	src/Form/CropWidgetForm.php	8c4f8070fa1ab542d5abce8b904a9641
+M	src/ImageWidgetCropManager.php	ccf4f8419e7061da3e2d9fd9bb4dfdcf
+M	src/Plugin/Field/FieldWidget/ImageCropWidget.php	5c0e9c24beadb8caf26b624b0f9c0f00
+M	src/Tests/ImageWidgetCropTest.php	0fb8a1c12807c4dae410cdfcca500dd6

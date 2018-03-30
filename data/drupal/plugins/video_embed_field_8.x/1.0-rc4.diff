@@ -1,0 +1,17 @@
+M	config/schema/video_embed_field.schema.yml	826cb407b47245364111e13f291bed0e
+M	js/video-embed-field.colorbox.js	7c9d90cc7baa42096ab56ea74665b98c
+M	src/Plugin/Field/FieldFormatter/Colorbox.php	4ce289583d73a2805d9810b3e5642812
+M	src/Plugin/Field/FieldFormatter/Thumbnail.php	308900f0a9dd586b692208faf4a3f3fb
+M	src/Plugin/Field/FieldType/VideoEmbedField.php	d29dc99eca679168810801a1c58b28ac
+M	src/ProviderPluginBase.php	d0d76fb0af971bca292ce140119e15e7
+D	src/Tests/AutoplayPermissionTest.php	
+D	src/Tests/FieldOutputTest.php	
+A	src/Tests/Kernel/FieldOutputTest.php	f080d327383d287c793e5ff7c9db4511
+A	src/Tests/Kernel/FormatterDependenciesTest.php	45ca668a17c222401e4b7746ef5a86e8
+A	src/Tests/KernelTestBase.php	0ecd18ab39141e5cad1332ea38348590
+A	src/Tests/MockHttpClient.php	4e14ce178b591946c8cf169b02f7dca2
+A	src/Tests/Web/AutoplayPermissionTest.php	d8298b6920781cd9be0484927ae957bb
+A	src/Tests/Web/WidgetTest.php	68f6a48bb943f9bdeaa79323aee0d644
+M	src/Tests/WebTestBase.php	6305e4b14d39037abe18872ebf1f21bc
+D	src/Tests/WidgetTest.php	
+M	video_embed_field.info.yml	787c0a8d97a4c0ff2c8dcf2265557e7d

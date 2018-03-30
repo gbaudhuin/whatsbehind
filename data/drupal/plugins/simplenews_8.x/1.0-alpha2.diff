@@ -1,0 +1,69 @@
+D	config/install/core.entity_form_display.node.simplenews_issue.default.yml	
+D	config/install/core.entity_view_display.node.simplenews_issue.email_html.yml	
+D	config/install/core.entity_view_display.node.simplenews_issue.email_plain.yml	
+D	config/install/core.entity_view_display.node.simplenews_issue.email_textalt.yml	
+D	config/install/core.entity_view_display.node.simplenews_issue.teaser.yml	
+M	config/install/core.entity_view_mode.node.email_html.yml	ccf28f95150cf85ba872422db0b76f57
+M	config/install/core.entity_view_mode.node.email_plain.yml	53b267e9f8797241fbe7bce51fd725bb
+M	config/install/core.entity_view_mode.node.email_textalt.yml	6b806725dd5026b4d60ee43cd0844f45
+D	config/install/field.field.node.simplenews_issue.body.yml	
+D	config/install/field.field.node.simplenews_issue.simplenews_issue.yml	
+D	config/install/field.storage.node.simplenews_issue.yml	
+D	config/install/node.type.simplenews_issue.yml	
+M	config/install/simplenews.settings.yml	f845ae421bb6c5ea8b902936be743a0e
+D	config/install/views.view.simplenews_newsletters.yml	
+A	config/optional/core.entity_form_display.node.simplenews_issue.default.yml	97f58fd4c0eb1d980a57c595b25016bf
+A	config/optional/core.entity_view_display.node.simplenews_issue.default.yml	ec967257a14cdcf762b21e9abdb83963
+A	config/optional/core.entity_view_display.node.simplenews_issue.email_html.yml	86d6962b9f57ee2a5604f5281e35c46b
+A	config/optional/core.entity_view_display.node.simplenews_issue.email_plain.yml	a4b342abdbef3374b074c54881cab1f1
+A	config/optional/core.entity_view_display.node.simplenews_issue.email_textalt.yml	47699a5420fb8855542ea9a306febc07
+A	config/optional/core.entity_view_display.node.simplenews_issue.teaser.yml	8f98ebcc02e15791feb82532e9fbdaf0
+A	config/optional/field.field.node.simplenews_issue.body.yml	c5dc2518f35cdb4b74ec8bebc85641cc
+A	config/optional/field.field.node.simplenews_issue.simplenews_issue.yml	cb578fef96f0c61e96e236a83ac21e80
+A	config/optional/field.storage.node.simplenews_issue.yml	b6a55ee70337ba5f236ca124137e165b
+A	config/optional/node.type.simplenews_issue.yml	75ba1b96ae07ab422340e2fedd8ade53
+A	config/optional/views.view.simplenews_newsletters.yml	cdc5b7c5920f9c1d2648ee665d5ea462
+M	config/schema/simplenews.schema.yml	25a8bc77200c99d9278b394ea1e64aa3
+M	modules/simplenews_demo/simplenews_demo.info.yml	e9e3f4f3e81af997c64a5619cf977d19
+M	simplenews.api.php	d9e924e4cc4e8a48a70f77bebfbeddce
+M	simplenews.info.yml	7c97362fe47efdb6ab8317b50bd6fd23
+M	simplenews.install	bae1a4bfaa30d0a713b173fa4d179590
+M	simplenews.links.task.yml	5ff7af31977cea4050b010e23a043d46
+M	simplenews.module	e202804e8a44a9e6f468d3c216a153ac
+M	simplenews.routing.yml	44e4a3e253564737e3056f8ed590009f
+M	simplenews.services.yml	311447f3f8cf8d015faada9c3fc26791
+M	simplenews_rules/simplenews_rules.info	03449c1eb8e43ea65247cc3b73c3b2c1
+M	src/Form/MailSettingsForm.php	624376ced7f752af86c204dc05542b74
+A	src/Form/PrepareUninstallForm.php	620e991d5b278d280199fe35b50c4f54
+M	src/Form/SubscriberExportForm.php	677fe5f62db7917ee0d8e45859e4738e
+M	src/Mail/MailBuilder.php	304c07b5a2d5c168810d9c188979f4f6
+M	src/Mail/MailBuilderInterface.php	9ca2eef791ed3083f2a0bf6cfda1261e
+A	src/Mail/MailCacheBuild.php	f05e5ed7d48d74c441c011a37c5d45bd
+A	src/Mail/MailCacheInterface.php	8ebf459d97f836edefc8572797ed962f
+A	src/Mail/MailCacheNone.php	535ffb9be2b955833b9a6b78a93e06ed
+A	src/Mail/MailCacheStatic.php	a170926ea9768df8c2bfc63ff0d3b6c9
+A	src/Mail/MailEntity.php	238352ef56f1ff0e866ef0cc976d71ca
+M	src/Mail/MailFormatHelper.php	6ee5222cfbb9cb3f103d9b138826c509
+A	src/Mail/MailInterface.php	e02e7f7051f73b32108fe077aaf9147b
+A	src/Mail/MailTest.php	00df428e53ca6e7a4d322d2ea43175d4
+M	src/Mail/Mailer.php	6ceedc182789379b2fc0c4f3063cd605
+M	src/Mail/MailerInterface.php	d7fbe39be487e7b981172ea9708632aa
+M	src/Plugin/Field/FieldType/IssueItem.php	5bf1fe0fb4a7b0897da3712c69ad9c80
+M	src/Plugin/Field/FieldType/SubscriptionItem.php	e080c1d6a6c97e3948bfcb02eec11294
+M	src/Plugin/simplenews/RecipientHandler/RecipientHandlerBase.php	1f41bd42d3c02995926af3aca5b1c77b
+D	src/Source/SourceCacheBuild.php	
+D	src/Source/SourceCacheInterface.php	
+D	src/Source/SourceCacheNone.php	
+D	src/Source/SourceCacheStatic.php	
+D	src/Source/SourceEntity.php	
+D	src/Source/SourceEntityInterface.php	
+D	src/Source/SourceInterface.php	
+D	src/Source/SourceTest.php	
+M	src/Spool/SpoolList.php	4b59de54c86d3eec4922a54eba88566b
+M	src/Spool/SpoolListInterface.php	7678131803275f48be65b0bf03fec20d
+M	src/SubscriberInterface.php	46d9bc8a138440ad04d57a954cfcc817
+M	src/Subscription/SubscriptionManager.php	e2fab29d03c7a8b60885495916407033
+M	src/Tests/SimplenewsAdministrationTest.php	6b72a94ceb541a544a053c94f07b25ca
+M	src/Tests/SimplenewsSourceTest.php	577a079153b8023ccc40eca7605126dd
+A	src/Tests/SimplenewsUninstallTest.php	e5e0f443473be6cdfd411325230140ba
+M	tests/themes/simplenews_newsletter_test_theme/simplenews_newsletter_test_theme.info.yml	9498ae2ea9045a7964b3fd10ea330268

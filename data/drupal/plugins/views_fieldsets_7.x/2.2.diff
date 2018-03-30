@@ -1,0 +1,9 @@
+M	css/views_fieldsets.css	af3f2e1556da0d63309be815f68e6187
+M	includes/views_fieldsets.views.inc	ee88ac2333b9fe3863d213dde6036073
+M	templates/views-fieldsets-details.tpl.php	4a90ce7b45ce060ccd520c8dc2a3ab52
+M	templates/views-fieldsets-div.tpl.php	466983bffec52a619524c56556014906
+M	templates/views-fieldsets-fieldset.tpl.php	19735857bce6e0041af069e55446d8d8
+M	views/views_fieldsets_fieldset_field_handler.inc	a1ab7dc3a31a24247a3513186c7542c1
+M	views_fieldsets.api.php	e4a755cc32b1537a8c04d62660dfecc7
+M	views_fieldsets.info	807deb9b0664f1e866c1247a6880e415
+M	views_fieldsets.module	08e0effcca446a21c9fe093b996f609d

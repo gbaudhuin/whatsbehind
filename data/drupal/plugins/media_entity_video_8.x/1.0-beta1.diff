@@ -1,0 +1,13 @@
+A	DEVELOPING.md	ef499e1748afea4b349690026dae094b
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	fa99e01ee35395aa1fafd2328fa20a67
+A	config/schema/media_entity_video.schema.yml	984404a2d51bfc2f8e1f8cb7058cafe5
+A	images/icons/video.png	3e680c51ca5b1f1de1b50ec29ea72636
+A	media_entity_video.info.yml	0dfb29b1408ebd3e6461618a35a16324
+A	media_entity_video.install	0e4a53e02644b33f1c24436912aaeb30
+A	media_entity_video.module	bc99fa5ca66d72fb336eab5b2785154d
+A	src/Plugin/EntityBrowser/Widget/Upload.php	36c695edb63a4b2e1fd1051b62993d7f
+A	src/Plugin/Field/FieldFormatter/VideoPlayerBase.php	0d66de40635dbe0733d1707fc1a092f8
+A	src/Plugin/Field/FieldFormatter/VideoPlayerHTML5.php	3d9092e5d452e5a0f88ace27ff8e0619
+A	src/Plugin/MediaEntity/Type/Video.php	8edffd97017057f63d24b1e6b26798f9
+A	templates/media-file-formatter.html.twig	cf7cac00608793850bd51bd7e6717bbd

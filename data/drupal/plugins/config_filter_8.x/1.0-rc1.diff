@@ -1,0 +1,22 @@
+M	.travis.yml	c1599067d651c5c04234016ca94a2353
+M	README.md	c9cbbfc4026500b28a9ffc0f8c000c2d
+M	composer.json	5d6b89c665464df3b3af1e8aae41682f
+M	config_filter.info.yml	a01e1cf6a4b24509e160c8395ef3003f
+M	config_filter.services.yml	afaadc81c06e07d4d2138cdcf79390a3
+M	src/Config/FilteredStorage.php	e627c72cfee96b039ca2656ce2885838
+M	src/Config/ReadOnlyStorage.php	bd4100253a61b16f698d6a3fa6a076e7
+M	src/Config/StorageFilterInterface.php	c53da69338d4980deb83c7bfeabe0c11
+M	src/ConfigFilterManagerInterface.php	af1607746415466b36ce3f701eb0c0e8
+D	src/ConfigFilterServiceProvider.php	
+A	src/ConfigFilterStorageFactory.php	b95588e4ed3dfb508f4db46858dede51
+A	src/Exception/UnsupportedMethod.php	ae1310249c619b6697b4bc6213d08106
+M	src/Plugin/ConfigFilterPluginManager.php	10a523cf15c24be94e2d09e753c0b56d
+M	src/Tests/FilteredStorageTest.php	002b75836937971fe0d35a65e384c503
+A	src/Tests/ReadonlyStorageTest.php	0a108a5a6a3183c1d783ec19acf88631
+M	src/Tests/TransparentFilter.php	f7e70d58b70dcfbbfef93f1f9284fd46
+A	tests/modules/config_filter_split_test/README.md	981d6b2fbe54eaea1f9201c60d3f0f30
+A	tests/modules/config_filter_split_test/config_filter_split_test.info.yml	e4b369295cfe002a864a0c0ca5b45367
+A	tests/modules/config_filter_split_test/src/Config/ActiveMigrateStorage.php	ae4a4998dfdb80a8fd44ef576e3f0077
+A	tests/modules/config_filter_split_test/src/Plugin/ConfigFilter/TestSplitFilter.php	1b3be32ca7da4fbe03d1aeff3c196a0b
+M	tests/modules/config_filter_test/config_filter_test.info.yml	0bc95d566ebf67397277ddc66516a9f8
+A	tests/src/Kernel/ConfigFilterStorageFactoryTest.php	0a7bb08aec7c7831d91109bc04ef9029

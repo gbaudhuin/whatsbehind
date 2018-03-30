@@ -1,0 +1,9 @@
+A	.idea/modules.xml	bb9fcf795e63bc186f63f4e56a7eacd9
+A	.idea/msh_svg_image.iml	9c58223099cf28f56d55c2c182dd0288
+A	.idea/workspace.xml	9ef0f7a58743498bf9a32bded653cac6
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	d41d8cd98f00b204e9800998ecf8427e
+A	src/Plugin/Field/FieldFormatter/SvgImageFormatter.php	5d9e7266947774722c7141fce8981e18
+A	src/Plugin/Field/FieldWidget/SvgImageWidget.php	ed17d5982aebcc62456120d071359d04
+A	svg_image.info.yml	d05bd88f3df768f2160aa17ba0838f9f
+A	svg_image.module	485a48d751f1c2a818f0aeeddd05f90f

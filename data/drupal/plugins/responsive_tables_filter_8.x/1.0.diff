@@ -1,0 +1,8 @@
+M	README.md	545e000043ce4e2c6e1eff70af0339ef
+A	css/tablesaw.stackonly.css	9ef6e131156a7aa59c5b2ec3cb9a028e
+A	js/tablesaw-init.js	e33d56db979ecb0264453c30cc3f6ff1
+A	js/tablesaw.stackonly.js	4b2697e9ada1b0f2ff19a11ff23a5e4b
+M	responsive_tables_filter.info.yml	fb019ab169cb1e3d1f53bc67f2adaa25
+M	responsive_tables_filter.libraries.yml	fb225060f5475d0b181c7eb7f6c70803
+M	responsive_tables_filter.module	0a852f89be2862718412c17e6f1bbdd9
+M	src/Plugin/Filter/FilterResponsiveTablesFilter.php	e9a6352f0614697d86fdb8680f538176

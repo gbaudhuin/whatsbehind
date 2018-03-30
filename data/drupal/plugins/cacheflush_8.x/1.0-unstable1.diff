@@ -1,0 +1,17 @@
+A	CHANGELOG.txt	9e40987c2beb678b0e282f5af853602f
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	53b5b64b9a35de672b1cc66fce1d5b22
+A	cacheflush.info.yml	af2fd4aa235fa8715f12acba9d076744
+A	cacheflush.libraries.yml	61ca1c12c0527c8732f13f15fcb6c1e2
+A	cacheflush.links.menu.yml	d6138be9ce9a4c2ab8ce352ab9e67123
+A	cacheflush.module	702afd9c2137dbbf64caef1a14b926a7
+A	cacheflush.permissions.yml	248cd4c783d48bec3a52fc437c1a0bcc
+A	cacheflush.routing.yml	47819f379dfda60608854e90ef4290ba
+A	css/cacheflush.menu.css	dd1e4f3ae2294a88ce5345b33667fe2f
+A	modules/cacheflush_entity/cacheflush_entity.info.yml	bc95fda44002784eb8a6ce24e0132f6f
+A	modules/cacheflush_entity/cacheflush_entity.module	548a438546056cbb54f2e5c9165741c8
+A	modules/cacheflush_entity/src/CacheflushEntityInterface.php	33022a4c85283dba3cf6b677ed58a33a
+A	modules/cacheflush_entity/src/Entity/CacheflushEntity.php	3c23a1ed71b8df5614b4f4fd1e8b43e8
+A	modules/cacheflush_entity/src/Tests/CacheFlushEntityTest.php	1e747361a06f62eb8a21fb5f034124d7
+A	src/Controller/CacheflushApi.php	d2124c7131c6e0bf0f124f5ab85e39f6
+A	src/Tests/CacheFlushTest.php	101dff44d7be6614e7482b597fa1e93b

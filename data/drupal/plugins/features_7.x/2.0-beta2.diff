@@ -1,0 +1,12 @@
+M	features.admin.inc	7fd5fdc5d904decad5c50faa583083d4
+M	features.drush.inc	ca586d11bd4db5316f9ba8b84e625145
+M	features.export.inc	06d5aaba227291dd9d0d79e3cc9f3a85
+M	features.info	85a46a04e144317a55f6811131a821aa
+M	features.js	a513ef6f87373cb0d91dcc8e146c4ed4
+M	features.module	e07591d6b107c2224a13155cbd7c91f0
+M	includes/features.field.inc	29e9198cb5d2dc0168016abb7c2bdc9a
+M	includes/features.node.inc	3ea3b83a16a635f6f15a3c9550cad503
+M	includes/features.taxonomy.inc	18ea68326000c1b1ffe105b830979bd7
+M	tests/features.test	e78da32b3b442945484f8ec730f99105
+M	tests/features_test.features.user_permission.inc	e8e643edb38627e215da0db2864e4e6c
+M	tests/features_test.info	a3fc2b34c148917c3d55771a36d35cc3

@@ -1,0 +1,1373 @@
+M	.editorconfig	3cafc6993bc05dcc246c8959af4b1522
+M	core/CHANGELOG.txt	f50de9476bc30d736ec992dad35cf782
+M	core/MAINTAINERS.txt	165756f4a7df7f9ffda2aab6df239b2c
+M	core/core.services.yml	057b91cb0815f5bac2d14cab4b4253ab
+M	core/includes/bootstrap.inc	f5d28726b3fc7d0476d70639c3479f5e
+M	core/includes/common.inc	174e02889ad14e83144f732363e456c6
+M	core/includes/config.inc	9a22bc8f20799c454c70de33f60fa8be
+M	core/includes/entity.inc	ccbcce87b6423894348118d68a46b789
+M	core/includes/file.inc	3ff85d9554ec27153bd0dbd8f21625e4
+M	core/includes/form.inc	e0b743307ebf5dc0dd990a1334036437
+M	core/includes/install.core.inc	fc7a889b93e7db9ebd42bfacdc0b5c09
+M	core/includes/install.inc	08f49939d6799cfc2f55ff2d33114ad4
+M	core/includes/language.inc	c23c0906ace3f75cb63df6ed42ec2117
+M	core/includes/menu.inc	bee4632972dfed1d6bddbdfa8344100c
+M	core/includes/module.inc	a1d868cef1b4454b7ce05e8e1dd8ad9d
+M	core/includes/pager.inc	c6e48f2e354303354c5eec1b7340a53b
+M	core/includes/theme.inc	c8861108b8d461292a7f8a33ec00ebb6
+M	core/includes/theme.maintenance.inc	fb33ff329c855469c066797917f8ad4b
+M	core/includes/update.inc	382e8e3ce8ab51155a3f69b8df2c5009
+M	core/install.php	93db965db1b5b106a56d3df61ac2ac79
+M	core/lib/Drupal.php	1debf84e01141f4a2bfa29577df79d4f
+M	core/lib/Drupal/Component/PhpStorage/PhpStorageFactory.php	83b51fda4b2f08caedd5eb4ef4846104
+M	core/lib/Drupal/Component/Plugin/DefaultPluginBag.php	e130cfe1d96db7034f2479853e5e9cbe
+M	core/lib/Drupal/Component/Plugin/Discovery/CachedDiscoveryInterface.php	fc183eb05731c9e9ef224d943376f428
+M	core/lib/Drupal/Component/Plugin/Discovery/DerivativeDiscoveryDecorator.php	698278994eadfda308bff738af57ffce
+A	core/lib/Drupal/Component/Plugin/Exception/InvalidDerivativeClassException.php	1638407210ce991d0bff6c5192d46dbf
+M	core/lib/Drupal/Component/Plugin/PluginBag.php	1305101ca4cde0d4e2987abc99fb3510
+M	core/lib/Drupal/Core/Access/AccessManager.php	83776788a67f571486bfe8e232573ad7
+A	core/lib/Drupal/Core/Access/CsrfAccessCheck.php	11e97d59c7b863df1ccdb316041db167
+M	core/lib/Drupal/Core/Access/CsrfTokenGenerator.php	bdf98b26bfa0b5acb3f1593770928c5f
+A	core/lib/Drupal/Core/Access/CustomAccessCheck.php	9534312454172833a064f9acbb6a6927
+M	core/lib/Drupal/Core/Access/DefaultAccessCheck.php	1f943305085ce694c10ee2fd545ae6bf
+A	core/lib/Drupal/Core/Access/RouteProcessorCsrf.php	1288cd3766eadaaa25a09672decb5d75
+M	core/lib/Drupal/Core/Authentication/AuthenticationManager.php	4c687ac5525adaedaa5bcc8387fca3be
+M	core/lib/Drupal/Core/Config/Config.php	b7abdb684d21794f9329a4610052d892
+M	core/lib/Drupal/Core/Config/ConfigImporter.php	93146613a56d8ead64de63465757dd7a
+D	core/lib/Drupal/Core/Config/ConfigInstaller.php	
+A	core/lib/Drupal/Core/Config/Context/LanguageConfigContext.php	d9560c72b3996deec53a2dee91cd45b8
+M	core/lib/Drupal/Core/Config/Entity/ConfigEntityBase.php	57f887e7ac8bb3de1db9eaa1f769b6fa
+M	core/lib/Drupal/Core/Config/Entity/ConfigEntityInterface.php	53eed6aae4cb940e043a1e375c96eeeb
+M	core/lib/Drupal/Core/Config/Entity/ConfigStorageController.php	69cdbc1e20f3971f7bd79c7d1bf16ead
+M	core/lib/Drupal/Core/Config/Entity/Query/Query.php	aa9774774f65a2e958ed3304b2082b3c
+M	core/lib/Drupal/Core/Config/Entity/Query/QueryFactory.php	35ecaf8fdc4059b27ed326030f9a5700
+M	core/lib/Drupal/Core/Config/ExtensionInstallStorage.php	247f19d6d83daaac0239107f2bbad4bc
+D	core/lib/Drupal/Core/Config/ExtensionInstallStorageComparer.php	
+M	core/lib/Drupal/Core/Config/FileStorage.php	60c840c2c6ed6d680d668e058afde252
+M	core/lib/Drupal/Core/Config/InstallStorage.php	e518bbba88ccfaab63c4e2f382d4cb01
+M	core/lib/Drupal/Core/Controller/ControllerBase.php	26aaf35bdec5bcea2aeeeb96fd19832f
+M	core/lib/Drupal/Core/Controller/DialogController.php	da22f764b3167e6b441c5efccd1ae979
+M	core/lib/Drupal/Core/Controller/HtmlFormController.php	4492cc87bcec38cdd6f1c56cc8a52a06
+M	core/lib/Drupal/Core/Controller/TitleResolver.php	71f4f7f3afab8e402e933e21dd996d8f
+M	core/lib/Drupal/Core/CoreServiceProvider.php	d69768998244e307eb34a01056b8d5dc
+M	core/lib/Drupal/Core/Database/Install/Tasks.php	d3bfc556e6857d2f4f5a2aa77ca14721
+M	core/lib/Drupal/Core/Datetime/Date.php	4b69e6671261c42bbd84637011c4942c
+A	core/lib/Drupal/Core/DependencyInjection/Compiler/RegisterRouteProcessorsPass.php	2a27b1499aa2d35e1351b1e7abe4b944
+A	core/lib/Drupal/Core/DependencyInjection/ServiceProviderBase.php	2c2fb32eb361580b93e506277f22d2d0
+M	core/lib/Drupal/Core/DependencyInjection/YamlFileLoader.php	2aabd56633417cb09325331c8311a46d
+M	core/lib/Drupal/Core/DrupalKernel.php	5a673edd5de781708502b69885091a24
+M	core/lib/Drupal/Core/Entity/Annotation/EntityType.php	e3efeab3e9047af151166a2cffc4400d
+D	core/lib/Drupal/Core/Entity/Annotation/FieldType.php	
+M	core/lib/Drupal/Core/Entity/ContentEntityBase.php	a9e6839aee03676cd0cded3272d054dd
+M	core/lib/Drupal/Core/Entity/ContentEntityFormController.php	835bac3c8fafd8acef6d2676d7462c15
+M	core/lib/Drupal/Core/Entity/ContentEntityInterface.php	cee8762812530ed7b977e6b2cee8b4f8
+M	core/lib/Drupal/Core/Entity/Controller/EntityViewController.php	93c5c5d2aec27592305f32dc182399d5
+M	core/lib/Drupal/Core/Entity/Entity.php	a6c3a1bca50fffe20dab29bb2c5e91f1
+M	core/lib/Drupal/Core/Entity/EntityAccessCheck.php	5ba43a93ade619fa934febfcdee06611
+M	core/lib/Drupal/Core/Entity/EntityAccessController.php	22398c2b566599bbbdd220748144811f
+M	core/lib/Drupal/Core/Entity/EntityAccessControllerInterface.php	73f0e0149828a0d81040917e7a4f00b4
+M	core/lib/Drupal/Core/Entity/EntityCreateAccessCheck.php	ba48c51c88efe35bfc31f8b1a53eaef3
+M	core/lib/Drupal/Core/Entity/EntityFormController.php	f59a99eabe4d7d58aa988a1ff6032a5d
+M	core/lib/Drupal/Core/Entity/EntityFormControllerInterface.php	6b013afab38bc75b091c4ed0250d701c
+M	core/lib/Drupal/Core/Entity/EntityInterface.php	ce459252906a8f56ec89542b522ff9e3
+M	core/lib/Drupal/Core/Entity/EntityListController.php	ff16116c836e75b95d2bf030c1865d14
+M	core/lib/Drupal/Core/Entity/EntityManager.php	ff83504b6bb4a1a39d4f1e5707e9310c
+A	core/lib/Drupal/Core/Entity/EntityManagerInterface.php	f1e44c934d5603f8d83c4d8ac00f8f3d
+D	core/lib/Drupal/Core/Entity/EntityRenderController.php	
+D	core/lib/Drupal/Core/Entity/EntityRenderControllerInterface.php	
+M	core/lib/Drupal/Core/Entity/EntityStorageControllerInterface.php	43a2c119b8ebefc87206225a6cb31d03
+A	core/lib/Drupal/Core/Entity/EntityViewBuilder.php	221117816a4130bf3e9c2a7a522609be
+A	core/lib/Drupal/Core/Entity/EntityViewBuilderInterface.php	b108420ade077b4fa79f38fd40cf5280
+D	core/lib/Drupal/Core/Entity/Field/FieldDefinition.php	
+D	core/lib/Drupal/Core/Entity/Field/FieldDefinitionInterface.php	
+D	core/lib/Drupal/Core/Entity/Field/FieldItemBase.php	
+D	core/lib/Drupal/Core/Entity/Field/FieldItemInterface.php	
+D	core/lib/Drupal/Core/Entity/Field/FieldItemList.php	
+D	core/lib/Drupal/Core/Entity/Field/FieldItemListInterface.php	
+D	core/lib/Drupal/Core/Entity/Field/FieldTypePluginManager.php	
+D	core/lib/Drupal/Core/Entity/Field/PrepareCacheInterface.php	
+M	core/lib/Drupal/Core/Entity/FieldableDatabaseStorageController.php	8ecf61040c2c91238e25cb67dd053c8c
+M	core/lib/Drupal/Core/Entity/FieldableEntityStorageControllerBase.php	6e06537d607a06e1f20b1639988530a8
+M	core/lib/Drupal/Core/Entity/Plugin/DataType/Deriver/EntityDeriver.php	aa17e998a8dbe3b938e63e90549f9a7a
+M	core/lib/Drupal/Core/Entity/Plugin/DataType/Deriver/FieldItemDeriver.php	1886402f1e60a24b3d26e6a948621d18
+M	core/lib/Drupal/Core/Entity/Plugin/DataType/FieldItem.php	c3eea8fc25197411b8671b966a42026d
+D	core/lib/Drupal/Core/Entity/Plugin/field/field_type/BooleanItem.php	
+D	core/lib/Drupal/Core/Entity/Plugin/field/field_type/DateItem.php	
+D	core/lib/Drupal/Core/Entity/Plugin/field/field_type/EmailItem.php	
+D	core/lib/Drupal/Core/Entity/Plugin/field/field_type/EntityReferenceItem.php	
+D	core/lib/Drupal/Core/Entity/Plugin/field/field_type/FloatItem.php	
+D	core/lib/Drupal/Core/Entity/Plugin/field/field_type/IntegerItem.php	
+D	core/lib/Drupal/Core/Entity/Plugin/field/field_type/LanguageItem.php	
+D	core/lib/Drupal/Core/Entity/Plugin/field/field_type/StringItem.php	
+D	core/lib/Drupal/Core/Entity/Plugin/field/field_type/UriItem.php	
+D	core/lib/Drupal/Core/Entity/Plugin/field/field_type/UuidItem.php	
+M	core/lib/Drupal/Core/Entity/Query/QueryFactory.php	989d8384b8bcf34f6a1506dc6795610b
+M	core/lib/Drupal/Core/Entity/Query/QueryFactoryInterface.php	f15ea38beb1c7d1bf65ab68b36a3cc3d
+M	core/lib/Drupal/Core/Entity/Query/Sql/Query.php	f21414202b2ad6e3c960164e131c665d
+M	core/lib/Drupal/Core/Entity/Query/Sql/QueryFactory.php	579bf92092283e296ea445beeb85782a
+A	core/lib/Drupal/Core/EventSubscriber/AccessRouteSubscriber.php	69ae36ec4e8b133b71d5e798e09eed96
+M	core/lib/Drupal/Core/EventSubscriber/AccessSubscriber.php	19873f9dc28ce3f1502bf394acd18af6
+M	core/lib/Drupal/Core/EventSubscriber/EntityRouteAlterSubscriber.php	e9be0f28b7afcd29c1f19a6b634b1ba0
+M	core/lib/Drupal/Core/EventSubscriber/SpecialAttributesRouteSubscriber.php	8a13a505db240ee509df5b09021f6cef
+M	core/lib/Drupal/Core/EventSubscriber/ViewSubscriber.php	83d6e6dcb7a8b8f55537181cf1dfa360
+A	core/lib/Drupal/Core/Extension/InfoParser.php	4bb66dd451676ed9449a08dacd8a00a9
+A	core/lib/Drupal/Core/Extension/InfoParserException.php	d0a6ea778f8274701cb19ae2e12f2ddc
+A	core/lib/Drupal/Core/Extension/InfoParserInterface.php	c76df48cda4ade1393251910fc7c3715
+A	core/lib/Drupal/Core/Field/Annotation/FieldFormatter.php	8cb8696def2744cd9ae36fc5d6df1eb8
+A	core/lib/Drupal/Core/Field/Annotation/FieldType.php	db771bf6ead67969ef9472ef0228d945
+A	core/lib/Drupal/Core/Field/Annotation/FieldWidget.php	f7d8dc99909040fca59c37eb7597cb70
+A	core/lib/Drupal/Core/Field/ConfigEntityReferenceItemBase.php	386b8c89dad09ed2efd046445999ee7a
+A	core/lib/Drupal/Core/Field/ConfigFieldItemBase.php	27970b9e85c212cadf983d262276d87c
+A	core/lib/Drupal/Core/Field/ConfigFieldItemInterface.php	3d0652db233c5f963fbb16942919d7b9
+A	core/lib/Drupal/Core/Field/ConfigFieldItemList.php	a3cf5652a0f9aac506352c125b7617ac
+A	core/lib/Drupal/Core/Field/ConfigFieldItemListInterface.php	c6a05739b4d7ca8c19b1b951072b27de
+A	core/lib/Drupal/Core/Field/FieldDefinition.php	8dacff7ac3b553650f38c56b77a3f98b
+A	core/lib/Drupal/Core/Field/FieldDefinitionInterface.php	7c9d81861caae15a546fbd0b75a5daab
+A	core/lib/Drupal/Core/Field/FieldItemBase.php	b9a4c4c11ef554d33533b7a0de48c4e1
+A	core/lib/Drupal/Core/Field/FieldItemInterface.php	6d45176b169c98c50d36b75e943ff2d8
+A	core/lib/Drupal/Core/Field/FieldItemList.php	4b2121a767a6067f3cca0efbe3a1e0b1
+A	core/lib/Drupal/Core/Field/FieldItemListInterface.php	9f3a7b8ff062bcd933d8b158cd2c7046
+A	core/lib/Drupal/Core/Field/FieldTypePluginManager.php	2a7572a9d3483ef671f4ecc9aac7beab
+A	core/lib/Drupal/Core/Field/FormatterBase.php	9c7f64534e7211aba4d1c90978013165
+A	core/lib/Drupal/Core/Field/FormatterInterface.php	cf4f3c33e291abc14a338cd541450d9a
+A	core/lib/Drupal/Core/Field/FormatterPluginManager.php	4afb3cd0996da3ee01c4d401245ee7ad
+A	core/lib/Drupal/Core/Field/LegacyFieldTypeDiscoveryDecorator.php	8e3c6c6febdb448c9dd56a887e7e173b
+A	core/lib/Drupal/Core/Field/Plugin/Field/FieldType/BooleanItem.php	f5cfed18cb9ddb906e5ebfd64d530b80
+A	core/lib/Drupal/Core/Field/Plugin/Field/FieldType/DateItem.php	dfed3ab0d4f30cab31108f7f35265913
+A	core/lib/Drupal/Core/Field/Plugin/Field/FieldType/EmailItem.php	7fd535670015facd16bfbaf045fb99cc
+A	core/lib/Drupal/Core/Field/Plugin/Field/FieldType/EntityReferenceItem.php	cd691e707eb458daae8938e5ad997d42
+A	core/lib/Drupal/Core/Field/Plugin/Field/FieldType/FloatItem.php	f546d9185b80d92f1ad5dabc52aa9699
+A	core/lib/Drupal/Core/Field/Plugin/Field/FieldType/IntegerItem.php	305fb636d72b84583d672147fd73b1ac
+A	core/lib/Drupal/Core/Field/Plugin/Field/FieldType/LanguageItem.php	14036f6bdbe389835244bed15e2140ee
+A	core/lib/Drupal/Core/Field/Plugin/Field/FieldType/LegacyConfigFieldItem.php	e21bfbb097f94d08403735a125124f93
+A	core/lib/Drupal/Core/Field/Plugin/Field/FieldType/LegacyConfigFieldItemList.php	e58b5de22af15634443165f8385b4b38
+A	core/lib/Drupal/Core/Field/Plugin/Field/FieldType/StringItem.php	75732ffd292ed26f2ac46cdf5d709bba
+A	core/lib/Drupal/Core/Field/Plugin/Field/FieldType/UriItem.php	c6f00cb7ccdb5ac0d34aa5f524638f2f
+A	core/lib/Drupal/Core/Field/Plugin/Field/FieldType/UuidItem.php	c91ea2458337ca05fed15eab4338f570
+A	core/lib/Drupal/Core/Field/PluginSettingsBase.php	cd3607b8256cb1a481ce747a900c880a
+A	core/lib/Drupal/Core/Field/PluginSettingsInterface.php	6e068043e565ffb080e388f5594aff8d
+A	core/lib/Drupal/Core/Field/PrepareCacheInterface.php	4521541246f8c5b75a1dd480f1c26d47
+A	core/lib/Drupal/Core/Field/WidgetBase.php	ddb2707b25f8a6e7cbc8cb3e3dc637bd
+A	core/lib/Drupal/Core/Field/WidgetBaseInterface.php	2028d27ef3d5d6b5ba7d167db7dd97cf
+A	core/lib/Drupal/Core/Field/WidgetFactory.php	0e38854b067697e0400e6806d2de4a25
+A	core/lib/Drupal/Core/Field/WidgetInterface.php	268393285049643066bb7f505dc5137c
+A	core/lib/Drupal/Core/Field/WidgetPluginManager.php	27f0ecfce6a4ddcf28dac5ee898b618b
+M	core/lib/Drupal/Core/Form/FormBase.php	ce9fe5bc5a0767bc2d32d0fed36796f5
+A	core/lib/Drupal/Core/Form/FormBuilder.php	4133ca9fd93d20f155e466ce1406230f
+A	core/lib/Drupal/Core/Form/FormBuilderInterface.php	0d7d14f2db792aa6d31f518bc063d07c
+M	core/lib/Drupal/Core/Language/Language.php	3a6979e90c7041fb93eee1cc9b66ee3b
+M	core/lib/Drupal/Core/Language/LanguageManager.php	ae1f9735e62654de10f3cb47ea3a8241
+A	core/lib/Drupal/Core/Menu/ContextualLinkDefault.php	42a2ff4ea78228d765c56d34e9a755b6
+A	core/lib/Drupal/Core/Menu/ContextualLinkInterface.php	b387719362b10979cec829b77ebef943
+A	core/lib/Drupal/Core/Menu/ContextualLinkManager.php	0ff5c4d818e8ea9bbd7dbf6ce18e2b35
+A	core/lib/Drupal/Core/Menu/ContextualLinkManagerInterface.php	38eccbcf2c39bd8d981dd67c326cd94a
+M	core/lib/Drupal/Core/Menu/LocalActionDefault.php	bf59bb7b6473a27c3078c4e045c9f669
+M	core/lib/Drupal/Core/Menu/LocalActionManager.php	2db9b4c7c6bfd9a2f7a9be7750712f96
+M	core/lib/Drupal/Core/Menu/LocalTaskDefault.php	2ee4b7eaafcc0974f6a33362aa855ee3
+M	core/lib/Drupal/Core/Menu/LocalTaskManager.php	61e312e6b8dfb0329aa5be2f9baa9155
+M	core/lib/Drupal/Core/ParamConverter/EntityConverter.php	75d879ca69a0db64b8498a00f56c5861
+M	core/lib/Drupal/Core/PathProcessor/OutboundPathProcessorInterface.php	6d44014801bb15bcdd15125b99ddc7ce
+M	core/lib/Drupal/Core/Plugin/DefaultPluginManager.php	16b2ad2ddb6ce928d7860d475315a7b9
+M	core/lib/Drupal/Core/Plugin/Discovery/ContainerDerivativeDiscoveryDecorator.php	816c63ec9069eb62e8b68f8141426b3c
+A	core/lib/Drupal/Core/RouteProcessor/OutboundRouteProcessorInterface.php	4c9fa87b9692229520c9852037d4891c
+A	core/lib/Drupal/Core/RouteProcessor/RouteProcessorManager.php	fe5ca9e3ed7ec14571a526670c651ca4
+M	core/lib/Drupal/Core/Routing/Access/AccessInterface.php	ae5b872e8ee58197570614184570a0e6
+M	core/lib/Drupal/Core/Routing/Enhancer/AuthenticationEnhancer.php	f7de3dc07898a82c745bde1b37c14be9
+M	core/lib/Drupal/Core/Routing/MatcherDumper.php	f4b1cea13c7baee0c81340dbf5b1aff6
+A	core/lib/Drupal/Core/Routing/MatcherDumperInterface.php	c2c0f6eccc9ac53c70c8020a11e0f7e1
+M	core/lib/Drupal/Core/Routing/NullGenerator.php	424ada03d22f3f85bee6cc27c9828308
+M	core/lib/Drupal/Core/Routing/RouteBuilder.php	f1afb103d0debbbe3e131ccd16560af6
+M	core/lib/Drupal/Core/Routing/RouteCompiler.php	a799ee1fa1c573cc78e4be8655e277ef
+M	core/lib/Drupal/Core/Routing/RouteProvider.php	5c0f60ccff74d9c7458d8aa0df5544d2
+M	core/lib/Drupal/Core/Routing/UrlGenerator.php	fc618e0850ca0a1a53f2e4ca636daf28
+M	core/lib/Drupal/Core/SystemListingInfo.php	4579b43ca2300a149f29f138934143de
+A	core/lib/Drupal/Core/Theme/Registry.php	06cb9768d0ee276ef72b5ca4e7e9b76a
+M	core/lib/Drupal/Core/Theme/ThemeAccessCheck.php	bc664a53b54dba470b9359e4329f3427
+M	core/lib/Drupal/Core/TypedData/AllowedValuesInterface.php	adc34e42300ba751750e21752c01d145
+M	core/lib/Drupal/Core/TypedData/TranslatableInterface.php	b62e1116bab77e454efbd970280bfd0c
+M	core/lib/Drupal/Core/TypedData/TypedDataManager.php	39f3a685642904fc324e421e023ea341
+M	core/lib/Drupal/Core/Updater/Updater.php	16e93f80f66e0501244ff659c55af138
+M	core/lib/Drupal/Core/Utility/LinkGenerator.php	249bebbae76ec6e9c49a26314d7816ba
+M	core/lib/Drupal/Core/Utility/LinkGeneratorInterface.php	72722ed9399035dd141fdceacd91628d
+M	core/lib/Drupal/Core/Utility/ProjectInfo.php	1841337b4c4c3bc51f12be2b82eee0d0
+M	core/lib/Drupal/Core/Utility/ThemeRegistry.php	9c9aada042a660e29901fba484cb04b4
+M	core/misc/dialog.ajax.js	5669f9da361a8b79a19de0f0604fe9d9
+M	core/misc/icons/787878/cog.png	500dc175bfe19fc88d5ab41542d87ae5
+M	core/misc/icons/787878/key.png	7cf9c7db920f2a5f981dc3f73627f1f6
+M	core/misc/icons/787878/move.png	b411870fa83514a407f44b2dafdf85ca
+M	core/misc/icons/bebebe/cog.png	c476687b5b62ab7ad0df1e10c75e69ff
+M	core/misc/icons/bebebe/key.png	371b31e94432d150a8aaf00105015d0b
+M	core/misc/icons/bebebe/move.png	547e00407d3d072cf5a6d795786ae1f9
+M	core/misc/states.js	186b3643209dcc98dafa52d4e139a1d7
+A	core/modules/action/action.local_tasks.yml	700bd8fc1a5bab51c503cb156f656a21
+M	core/modules/action/action.module	a88ee60010ea452ffe83ba15411a7c82
+A	core/modules/action/config/schema/views.field.schema.yml	a5685bfcb0ed22a4dde05dead9718665
+M	core/modules/action/lib/Drupal/action/ActionFormControllerBase.php	b2c0772bd36c428df8b3a733f63d255b
+M	core/modules/action/lib/Drupal/action/Form/ActionAdminManageForm.php	13ba3d8e12a5f67d46e27beb68762515
+M	core/modules/action/lib/Drupal/action/Form/ActionDeleteForm.php	5e79bf5c8af3b1a625fd1f07af49f30b
+M	core/modules/action/lib/Drupal/action/Plugin/Action/EmailAction.php	6f41003f9876219ac11dbe46a359823c
+M	core/modules/action/lib/Drupal/action/Tests/BulkFormTest.php	de2dd16c62d8a8f271c3d4a65f529a2d
+A	core/modules/action/tests/Drupal/action/Tests/Menu/ActionLocalTasksTest.php	812463e7236746926339d9cda06a6b39
+A	core/modules/aggregator/aggregator.local_actions.yml	f35e8f38277ed0a4b52c1eba00c188f0
+A	core/modules/aggregator/aggregator.local_tasks.yml	5df9c59e05493c5a0fce5744906d31fd
+M	core/modules/aggregator/aggregator.module	8fe8160e3724b3aa4d941c58fb916d27
+M	core/modules/aggregator/aggregator.pages.inc	037494fedb156999d7a7b7e73b79ab12
+M	core/modules/aggregator/lib/Drupal/aggregator/Access/CategoriesAccessCheck.php	03d2fa2a1a6f0789d3ecedd6463ded01
+M	core/modules/aggregator/lib/Drupal/aggregator/CategoryStorageController.php	49d002ad3bf63a288c7c89d615069fd7
+M	core/modules/aggregator/lib/Drupal/aggregator/CategoryStorageControllerInterface.php	287bf80d54b022af3d6c87edefc4b4ed
+M	core/modules/aggregator/lib/Drupal/aggregator/Controller/AggregatorController.php	17c3a662a84b995a60ebac03639e1c71
+M	core/modules/aggregator/lib/Drupal/aggregator/Entity/Feed.php	6d99521eb1c20a1a7f4011c5ae5a5ea9
+M	core/modules/aggregator/lib/Drupal/aggregator/Entity/Item.php	312e80387bff472444c7ce569d8be2d8
+M	core/modules/aggregator/lib/Drupal/aggregator/FeedFormController.php	61dfefa9ead0ed7a275b4e144bb193fc
+D	core/modules/aggregator/lib/Drupal/aggregator/FeedRenderController.php	
+M	core/modules/aggregator/lib/Drupal/aggregator/FeedStorageController.php	6e012493df4ff9714d327d394344c46b
+M	core/modules/aggregator/lib/Drupal/aggregator/FeedStorageControllerInterface.php	df301bc3eee841255ab1f0f381b9350b
+A	core/modules/aggregator/lib/Drupal/aggregator/FeedViewBuilder.php	6b40c5e845041003db6371291a174afa
+M	core/modules/aggregator/lib/Drupal/aggregator/Form/AggregatorCategorizeFormBase.php	1865da4333c4daa46335350b25dc1b45
+M	core/modules/aggregator/lib/Drupal/aggregator/Form/CategoryAdminForm.php	fca40ebb46c383d49fa0000e9cb8a10a
+M	core/modules/aggregator/lib/Drupal/aggregator/Form/CategoryDeleteForm.php	587e08514a7f473e2f43494cc986cea3
+M	core/modules/aggregator/lib/Drupal/aggregator/Form/FeedDeleteForm.php	5871c537bc250c3b3f09b61cf7c04cf2
+M	core/modules/aggregator/lib/Drupal/aggregator/Form/FeedItemsRemoveForm.php	f231378d14c458378590633c3b451657
+M	core/modules/aggregator/lib/Drupal/aggregator/Form/OpmlFeedAdd.php	c2f71a1aca7905f38e7b017f1da087ec
+M	core/modules/aggregator/lib/Drupal/aggregator/ItemInterface.php	df326eab19a95a1a29d65df5dd13cf49
+D	core/modules/aggregator/lib/Drupal/aggregator/ItemRenderController.php	
+M	core/modules/aggregator/lib/Drupal/aggregator/ItemStorageController.php	10936f6018665109a046519f08d4721a
+A	core/modules/aggregator/lib/Drupal/aggregator/ItemViewBuilder.php	12b6010ed3a040aa0b6c3d806398f05a
+M	core/modules/aggregator/lib/Drupal/aggregator/Plugin/Block/AggregatorCategoryBlock.php	4ca74f71e857fd0a4902047ceea75c70
+M	core/modules/aggregator/lib/Drupal/aggregator/Plugin/Block/AggregatorFeedBlock.php	8b4b88ef7786e9b494c823e5c21424b7
+M	core/modules/aggregator/lib/Drupal/aggregator/Plugin/aggregator/processor/DefaultProcessor.php	df84c4240866b879672125eb3be67910
+M	core/modules/aggregator/lib/Drupal/aggregator/Plugin/views/argument/Fid.php	b2f4c120bfc1ff8456389df6f8e5bba7
+M	core/modules/aggregator/lib/Drupal/aggregator/Plugin/views/argument/Iid.php	32839b4fe81d93f0ccd82a53799423b5
+M	core/modules/aggregator/lib/Drupal/aggregator/Tests/FeedProcessorPluginTest.php	ecb69ccebbfbaf16b442b03f54029fb8
+M	core/modules/aggregator/lib/Drupal/aggregator/Tests/Views/IntegrationTest.php	f793e8c2f9b849f65ecc237bdf780fd6
+A	core/modules/aggregator/tests/Drupal/aggregator/Tests/Menu/AggregatorLocalTasksTest.php	c03fcaf4d1c81e8d90bf45e4ac425d94
+M	core/modules/aggregator/tests/modules/aggregator_test_views/aggregator_test_views.info.yml	7fb97f448a7d7a97ebafe0ed9cb6b318
+M	core/modules/ban/lib/Drupal/ban/Form/BanAdmin.php	548a9290eaa22a1d9e61318eb0a89dd8
+M	core/modules/ban/lib/Drupal/ban/Form/BanDelete.php	e2e47ae6f5f0e8f3ad73f6c8344f3cb9
+A	core/modules/block/block.contextual_links.yml	05d4fe3348dbf2f5fcfe5ed63fbdae5b
+A	core/modules/block/block.local_tasks.yml	bb9fc2d6976661fd1a7391f8caef5fd9
+M	core/modules/block/block.module	71106d26b4f3bdf98a2441f4edee093d
+M	core/modules/block/block.routing.yml	c65e71b90ba045ce42f0df7252066dd3
+M	core/modules/block/block.services.yml	dde621b99c227f3f772000d7ff692af3
+M	core/modules/block/css/block.admin.css	bc7adfaf9f88ebd5edc9f2e27dd55610
+A	core/modules/block/custom_block/custom_block.contextual_links.yml	27cab27d516871c87f6b4f49678c7857
+M	core/modules/block/custom_block/custom_block.local_actions.yml	5870680aa9d9ddbf305d9cdea324441e
+A	core/modules/block/custom_block/custom_block.local_tasks.yml	d6be50a52b928692653a756a2b228f0f
+M	core/modules/block/custom_block/custom_block.module	ca723c31d2cacf9fbb2332dddcf0139d
+M	core/modules/block/custom_block/custom_block.routing.yml	96de934364c69991d93902f4b7943fb7
+M	core/modules/block/custom_block/lib/Drupal/custom_block/CustomBlockFormController.php	b07a2ace016745085d72609445f32e06
+D	core/modules/block/custom_block/lib/Drupal/custom_block/CustomBlockRenderController.php	
+M	core/modules/block/custom_block/lib/Drupal/custom_block/CustomBlockTypeFormController.php	8b8bcf2e707423b73a824a8453b8506f
+A	core/modules/block/custom_block/lib/Drupal/custom_block/CustomBlockViewBuilder.php	cfa4109e2df591c59a08b9534d33d169
+M	core/modules/block/custom_block/lib/Drupal/custom_block/Entity/CustomBlock.php	247b37a757cd2038fd00e35f79fffe2d
+M	core/modules/block/custom_block/lib/Drupal/custom_block/Entity/CustomBlockType.php	55b30edf7f9fca467d3f2934538ba964
+M	core/modules/block/custom_block/lib/Drupal/custom_block/Form/CustomBlockDeleteForm.php	f1084dd551e2a97f218dde8f961e7c2c
+M	core/modules/block/custom_block/lib/Drupal/custom_block/Form/CustomBlockTypeDeleteForm.php	d85354f24ed477850a1e372810efc26b
+M	core/modules/block/custom_block/lib/Drupal/custom_block/Plugin/Block/CustomBlockBlock.php	0c75c0e1b1a832c95b3057ec4579c082
+M	core/modules/block/custom_block/lib/Drupal/custom_block/Plugin/Derivative/CustomBlock.php	c0256802d78de1c63033f809d7155270
+A	core/modules/block/custom_block/lib/Drupal/custom_block/Plugin/Menu/LocalAction/CustomBlockAddLocalAction.php	4822b9fa5b5300d372b6c8167d0d05f0
+M	core/modules/block/custom_block/lib/Drupal/custom_block/Tests/CustomBlockCreationTest.php	5e4cb5c5ef5bca19cc834fde70375f6e
+A	core/modules/block/custom_block/tests/Drupal/custom_blocks/Tests/Menu/CustomBlockLocalTasksTest.php	1ff00b41464e44e9ccd8fd3ff3b48b4f
+M	core/modules/block/custom_block/tests/modules/custom_block_test/custom_block_test.info.yml	f216a9a4f7a5829196864ac374716c9d
+M	core/modules/block/lib/Drupal/block/BlockAccessController.php	0fe6da75fb5f5dd48b95bc661b470260
+M	core/modules/block/lib/Drupal/block/BlockBase.php	9d86ef9ef04d65fbb43e957b2e99dfd2
+M	core/modules/block/lib/Drupal/block/BlockFormController.php	68a0d93aaa9562d9c270aac69c660f13
+M	core/modules/block/lib/Drupal/block/BlockInterface.php	9a52d8537f1a3163b7ee7612b49916f0
+M	core/modules/block/lib/Drupal/block/BlockListController.php	f26d8340c05478f07ebdfb41b31e15de
+M	core/modules/block/lib/Drupal/block/BlockPluginInterface.php	e55bf30d1de405075345121f383a69fb
+D	core/modules/block/lib/Drupal/block/BlockRenderController.php	
+A	core/modules/block/lib/Drupal/block/BlockViewBuilder.php	95da061bde1d07ade22553fafff7279a
+M	core/modules/block/lib/Drupal/block/Entity/Block.php	e480aabfa9391de1b3a364699f2a3992
+M	core/modules/block/lib/Drupal/block/Form/BlockDeleteForm.php	2da680df21fa8bcccec34c34bc2fc137
+A	core/modules/block/lib/Drupal/block/Plugin/Derivative/ThemeLocalTask.php	63b2ff0c58bce3753f52f57eb5a017cd
+M	core/modules/block/lib/Drupal/block/Plugin/views/display/Block.php	b774fc3601d1360f61ec0e46d40d014a
+M	core/modules/block/lib/Drupal/block/Tests/BlockInterfaceTest.php	fc83cd8d695dfdbd49cab8d7785c091d
+M	core/modules/block/lib/Drupal/block/Tests/BlockTest.php	bce4548edc258e28125381060f29fcce
+M	core/modules/block/lib/Drupal/block/Tests/BlockUiTest.php	0e5e61ad733a36fc23db58438719ef9d
+M	core/modules/block/lib/Drupal/block/Tests/Views/DisplayBlockTest.php	ef252fb53aeb54c391645493a81dfc16
+M	core/modules/block/tests/Drupal/block/Tests/BlockBaseTest.php	2c7471a48e380fb8ef52ce513dc9436a
+M	core/modules/block/tests/Drupal/block/Tests/BlockFormControllerTest.php	7f401a9f19dc90ec6ccc8a90f491ce34
+A	core/modules/block/tests/Drupal/block/Tests/Menu/BlockLocalTasksTest.php	8e512c1058a72435b1b2f12f424666db
+M	core/modules/block/tests/modules/block_test/lib/Drupal/block_test/Plugin/Block/TestBlockInstantiation.php	89b621211109c498f12f787bbbc6696b
+M	core/modules/block/tests/modules/block_test/themes/block_test_theme/block_test_theme.info.yml	c914cd167395dd5152400f673ab43e38
+M	core/modules/book/book.admin.inc	55d0503d183e4fa70f6d69375345e645
+A	core/modules/book/book.local_tasks.yml	0255eaa1f3a716d044ceec35c34f2af2
+M	core/modules/book/book.module	4110a7d62291603f17d62b2f475a933a
+M	core/modules/book/book.pages.inc	2ebce20510604b3ae205deb46108c138
+M	core/modules/book/book.services.yml	2eaa2d269558936d2bf92d30ecc58662
+M	core/modules/book/lib/Drupal/book/Access/BookNodeIsRemovableAccessCheck.php	d26168ff196288fff722a72802573c1f
+M	core/modules/book/lib/Drupal/book/BookBreadcrumbBuilder.php	3ecd38132ed76d3c8a4c47f0e6e7be3e
+M	core/modules/book/lib/Drupal/book/BookExport.php	0e4eb48c17dfe14eb247d1d2b0d57aaa
+M	core/modules/book/lib/Drupal/book/BookManager.php	fa03d2d215cd5eb386e9e7f4654c8834
+M	core/modules/book/lib/Drupal/book/Controller/BookController.php	77b4b6c95b1596b5b2ed1613ea86d07e
+M	core/modules/book/lib/Drupal/book/Form/BookOutlineForm.php	6a1dd74d66e0e16933edc65cc65d8327
+M	core/modules/book/lib/Drupal/book/Plugin/Block/BookNavigationBlock.php	b783087c09550ca93a0a909a455f9ac1
+A	core/modules/book/tests/Drupal/book/Tests/Menu/BookLocalTasksTest.php	cc599f04b64f39d1cf45ea96ab4dc891
+M	core/modules/breakpoint/lib/Drupal/breakpoint/Entity/Breakpoint.php	988642cfbfe874b1af0e721bebb8f7fa
+M	core/modules/breakpoint/lib/Drupal/breakpoint/Entity/BreakpointGroup.php	9bb214bb9d7a4049c7bd26f43ff72c9a
+M	core/modules/breakpoint/tests/breakpoint_theme_test.info.yml	a0141c710d4821af7d33f02d23b47ce5
+M	core/modules/breakpoint/tests/themes/breakpoint_test_theme/breakpoint_test_theme.info.yml	711a585ceff593efa6fde5e4c2681dad
+M	core/modules/ckeditor/ckeditor.admin.inc	3937b4ed1fccaef56eccd4f91ca252a0
+M	core/modules/ckeditor/ckeditor.module	e25f84d80ae3a94729ef96ce579a6ba5
+M	core/modules/ckeditor/config/schema/ckeditor.schema.yml	d85d8f4df1380e01af2e3aea72aa2240
+M	core/modules/ckeditor/css/ckeditor.admin.css	4f7c4a9f7c9b56b2daff292058a236c2
+M	core/modules/ckeditor/js/ckeditor.admin.js	fd33c417aebb13692d7b3f34957f3da1
+M	core/modules/ckeditor/js/ckeditor.js	3508a0b9a5dee8844f6f6e9b99f9a908
+M	core/modules/ckeditor/lib/Drupal/ckeditor/CKEditorPluginManager.php	4e9cddb13fd3dcf3029edeb42f5ec5c7
+M	core/modules/ckeditor/lib/Drupal/ckeditor/Plugin/CKEditorPlugin/DrupalImage.php	62231649d664b546058a5c2e75245f27
+M	core/modules/ckeditor/lib/Drupal/ckeditor/Plugin/CKEditorPlugin/DrupalImageCaption.php	9990e06756bf1d2609c2b41e38ff4710
+M	core/modules/ckeditor/lib/Drupal/ckeditor/Plugin/CKEditorPlugin/Internal.php	f4b2dfeb85d7c03d041a30fa1a3aa9ea
+M	core/modules/ckeditor/lib/Drupal/ckeditor/Plugin/Editor/CKEditor.php	47b26a9d33455c9fc36c95675f87007f
+M	core/modules/ckeditor/lib/Drupal/ckeditor/Tests/CKEditorAdminTest.php	4e747a86abda2bafaa3fe45dfbc7f205
+M	core/modules/ckeditor/lib/Drupal/ckeditor/Tests/CKEditorPluginManagerTest.php	887cd5e3ee1a70935fcf4b5b69477d3c
+M	core/modules/ckeditor/lib/Drupal/ckeditor/Tests/CKEditorTest.php	07b5b26927c3ea4633118a80350360af
+M	core/modules/ckeditor/tests/modules/lib/Drupal/ckeditor_test/Plugin/CKEditorPlugin/LlamaContextual.php	1d2795c4c99efd3489dd2f53cf7aca57
+M	core/modules/ckeditor/tests/modules/lib/Drupal/ckeditor_test/Plugin/CKEditorPlugin/LlamaContextualAndButton.php	657f3c3acd1569c0c1dc6e579835bb01
+M	core/modules/comment/comment.admin.inc	acd8a9dd21b0626fe4345bcba416eb17
+M	core/modules/comment/comment.install	00e0d29bbd58fd5694b05346406add8b
+M	core/modules/comment/comment.module	7fb9ec4fdc66992058021e310ef0061f
+M	core/modules/comment/js/comment-new-indicator.js	523eedcee5c692b2057cf0aa01a47452
+M	core/modules/comment/lib/Drupal/comment/CommentBreadcrumbBuilder.php	9a3823f03170bdfed14543b1393fc8b7
+M	core/modules/comment/lib/Drupal/comment/CommentFieldName.php	b9c81c43a6e1aac350202a96f81cad39
+M	core/modules/comment/lib/Drupal/comment/CommentFormController.php	7371629530cb759604c54e64b51e772e
+M	core/modules/comment/lib/Drupal/comment/CommentManager.php	0b1db4be0144696923cc9f9ee531fdc0
+D	core/modules/comment/lib/Drupal/comment/CommentRenderController.php	
+A	core/modules/comment/lib/Drupal/comment/CommentViewBuilder.php	b7d8257ae74f3476c118c848872c47c8
+M	core/modules/comment/lib/Drupal/comment/Controller/CommentController.php	48945f6043f277ab1944c0ed69a3494c
+M	core/modules/comment/lib/Drupal/comment/Entity/Comment.php	4bd1b22d95d825683a29acb7c4dd7d33
+M	core/modules/comment/lib/Drupal/comment/Form/ConfirmDeleteMultiple.php	defc861821d2079b38fb3d4a03fee762
+M	core/modules/comment/lib/Drupal/comment/Form/DeleteForm.php	6df5ebdc8dc9fd22c65d5d20b535a21a
+M	core/modules/comment/lib/Drupal/comment/Plugin/Block/RecentCommentsBlock.php	8bcc7d7e72e7cd90ce161d0fbac3c396
+A	core/modules/comment/lib/Drupal/comment/Plugin/Field/FieldFormatter/CommentDefaultFormatter.php	52cbd2c21776900649598f2828ab9190
+A	core/modules/comment/lib/Drupal/comment/Plugin/Field/FieldType/CommentItem.php	e74580b1cfdba923f42c1d3ec50e0b8c
+A	core/modules/comment/lib/Drupal/comment/Plugin/Field/FieldWidget/CommentWidget.php	14fcbcabca985cf37730323029c2584a
+D	core/modules/comment/lib/Drupal/comment/Plugin/field/field_type/CommentItem.php	
+D	core/modules/comment/lib/Drupal/comment/Plugin/field/formatter/CommentDefaultFormatter.php	
+D	core/modules/comment/lib/Drupal/comment/Plugin/field/widget/CommentWidget.php	
+M	core/modules/comment/lib/Drupal/comment/Plugin/views/field/Link.php	9fef5ec59078f2e662cddc4f59abef72
+M	core/modules/comment/lib/Drupal/comment/Routing/CommentBundleEnhancer.php	eefc1c1765fc4bec518e9af1dd63a1d6
+M	core/modules/comment/lib/Drupal/comment/Tests/CommentNodeAccessTest.php	5e26244b4363363d10e193945fa53451
+M	core/modules/comment/lib/Drupal/comment/Tests/CommentNonNodeTest.php	3bfd55ae9b70bdc2305d7f5d81345140
+M	core/modules/comment/lib/Drupal/comment/Tests/CommentPreviewTest.php	890f6f945e6f6cdd43797fbd72bf999e
+M	core/modules/comment/lib/Drupal/comment/Tests/CommentTranslationUITest.php	f80496b3a746286efaa2192341dfdfc8
+M	core/modules/comment/lib/Drupal/comment/Tests/Views/CommentTestBase.php	ca259f1c48c626ebac457b8e8b970d29
+M	core/modules/comment/tests/Drupal/comment/Tests/Routing/CommentBundleEnhancerTest.php	7ffb86f70332476e1977d3d056d047d3
+A	core/modules/config/config.local_tasks.yml	b5267ff57fffc4a80dbf9237dba89214
+M	core/modules/config/config.module	daf7a6f532638c0b613bce89fddb53d4
+M	core/modules/config/config.routing.yml	f1bfdeb71a17e9ea711dfddf11b2d374
+M	core/modules/config/lib/Drupal/config/Controller/ConfigController.php	c860e9d38bbd7df01f6abc69d46f82ca
+M	core/modules/config/lib/Drupal/config/Form/ConfigExportForm.php	56adf59ca60bdbde60afda30e8140738
+M	core/modules/config/lib/Drupal/config/Form/ConfigImportForm.php	c88d519876b4baba110944248f335b31
+A	core/modules/config/lib/Drupal/config/Form/ConfigSingleExportForm.php	3ab3b63b9781c2585f69222f8880d899
+A	core/modules/config/lib/Drupal/config/Form/ConfigSingleImportForm.php	b3d309f1892aa900dc1162a7973d7997
+M	core/modules/config/lib/Drupal/config/Form/ConfigSync.php	8d229c96e0d2201a50deebe460e9039e
+M	core/modules/config/lib/Drupal/config/Tests/ConfigEntityListTest.php	2c8d01ab41c947362caab6568d0a8b18
+M	core/modules/config/lib/Drupal/config/Tests/ConfigExportImportUITest.php	11f908070ab35eea2a5635a5fa006924
+M	core/modules/config/lib/Drupal/config/Tests/ConfigExportUITest.php	b73fc6e179ebf0c9e397f83838e0e130
+M	core/modules/config/lib/Drupal/config/Tests/ConfigImportUITest.php	3b296fc28c10d1b04645306ceff7b6f6
+M	core/modules/config/lib/Drupal/config/Tests/ConfigImportUploadTest.php	0d758ef34a7f84b292ce08e64b940244
+M	core/modules/config/lib/Drupal/config/Tests/ConfigInstallTest.php	2e5793906f55c7d10088ba531adbfae0
+M	core/modules/config/lib/Drupal/config/Tests/ConfigLocaleOverride.php	e74126655e645966e854b43a1b5ed6b6
+A	core/modules/config/lib/Drupal/config/Tests/ConfigSingleImportExportTest.php	31ad9ad2e552022d4e5ea0e905b57f21
+A	core/modules/config/tests/Drupal/config/Tests/Menu/ConfigLocalTasksTest.php	99c9d5b659c89f598c51fd1277d8b429
+M	core/modules/config/tests/config_test/lib/Drupal/config_test/ConfigTestController.php	cff5f1f1ca308ed9a45b3bf65fa98f64
+M	core/modules/config/tests/config_test/lib/Drupal/config_test/ConfigTestFormController.php	349eec487066561552fa53c7ac0d7339
+M	core/modules/config/tests/config_test/lib/Drupal/config_test/Entity/ConfigQueryTest.php	7b115c6a97bf883e67cf37a61ef893f6
+M	core/modules/config/tests/config_test/lib/Drupal/config_test/Entity/ConfigTest.php	58f2530f2381ff79e0b9d241a6a76551
+M	core/modules/config/tests/config_test/lib/Drupal/config_test/Form/ConfigTestDeleteForm.php	7163068793b4d9dce9b148b9be9be6f4
+A	core/modules/config_translation/config_translation.api.php	47b7f74efe0cdb3bb5090eead05d1274
+A	core/modules/config_translation/config_translation.contextual_links.yml	cfd8e5bb312f6a97f02ec73736e1cbd1
+A	core/modules/config_translation/config_translation.info.yml	c7189fc9b995d6144212baf69a6997a0
+A	core/modules/config_translation/config_translation.local_tasks.yml	51ac18eb8e34d9c14ee10a40ba245252
+A	core/modules/config_translation/config_translation.module	c9503d9849656d81ad53bee2ed7d1107
+A	core/modules/config_translation/config_translation.routing.yml	25a335dfe2ba0619fc15da3c97a58cd0
+A	core/modules/config_translation/config_translation.services.yml	5791380c9b7f6c63fb45cd30a49302a0
+A	core/modules/config_translation/css/config_translation.admin.css	ca12152b558521e321b3406ece45cb36
+A	core/modules/config_translation/lib/Drupal/config_translation/Access/ConfigTranslationFormAccess.php	81af35df322e01cb25d2e06c8aa15f92
+A	core/modules/config_translation/lib/Drupal/config_translation/Access/ConfigTranslationOverviewAccess.php	48eb028c02de4188b43be213e5defb7a
+A	core/modules/config_translation/lib/Drupal/config_translation/ConfigEntityMapper.php	58b0c3dff003ae3600850f779a6e476e
+A	core/modules/config_translation/lib/Drupal/config_translation/ConfigFieldInstanceMapper.php	13a16a50e9c36e0925c2f46995f50b2c
+A	core/modules/config_translation/lib/Drupal/config_translation/ConfigMapperInterface.php	a3ef7ac5ef34056fcaf6fb096eda974e
+A	core/modules/config_translation/lib/Drupal/config_translation/ConfigMapperManager.php	ae6abb25efabafcd73b8fc9d2792f3ca
+A	core/modules/config_translation/lib/Drupal/config_translation/ConfigMapperManagerInterface.php	a2193902a1a731b96fe9562975abf590
+A	core/modules/config_translation/lib/Drupal/config_translation/ConfigNamesMapper.php	5c8147e47881a7f8dc8a93f562ec4461
+A	core/modules/config_translation/lib/Drupal/config_translation/Controller/ConfigTranslationBlockListController.php	61399f13cb699d6edd4902857602f90d
+A	core/modules/config_translation/lib/Drupal/config_translation/Controller/ConfigTranslationController.php	5733ae46dbf2a370b502a268a4f3eb45
+A	core/modules/config_translation/lib/Drupal/config_translation/Controller/ConfigTranslationEntityListController.php	d877ebb095db10d6ecd8622eed49667c
+A	core/modules/config_translation/lib/Drupal/config_translation/Controller/ConfigTranslationEntityListControllerInterface.php	71bb3191b9cb9040fdb24db3778c8dee
+A	core/modules/config_translation/lib/Drupal/config_translation/Controller/ConfigTranslationFieldInstanceListController.php	7609631107e11ac5f203f84da3d33240
+A	core/modules/config_translation/lib/Drupal/config_translation/Controller/ConfigTranslationListController.php	7141bba5ebbc517373ebe05294d0ad1c
+A	core/modules/config_translation/lib/Drupal/config_translation/Controller/ConfigTranslationMapperList.php	3b671692e50bc51d4913eb042e8e08c0
+A	core/modules/config_translation/lib/Drupal/config_translation/Exception/InvalidMapperDefinitionException.php	a8791574807f4d1cbcdaf8fa0145a41e
+A	core/modules/config_translation/lib/Drupal/config_translation/Form/ConfigTranslationAddForm.php	d4a94b025f996946c5638d46918a5028
+A	core/modules/config_translation/lib/Drupal/config_translation/Form/ConfigTranslationDeleteForm.php	24809fcaedbea7428f9441f9cee6fd83
+A	core/modules/config_translation/lib/Drupal/config_translation/Form/ConfigTranslationEditForm.php	455179691ee263d50bc97698f0559ec7
+A	core/modules/config_translation/lib/Drupal/config_translation/Form/ConfigTranslationFormBase.php	324bd585a00c3dc2b38f15834b4d14cc
+A	core/modules/config_translation/lib/Drupal/config_translation/FormElement/DateFormat.php	e2785e131ef14e344344430ec79fbb94
+A	core/modules/config_translation/lib/Drupal/config_translation/FormElement/Element.php	bb81e3059e8e6b5edb80152813f50618
+A	core/modules/config_translation/lib/Drupal/config_translation/FormElement/ElementInterface.php	4c7c3a3a7e9e150b3d314258f1745338
+A	core/modules/config_translation/lib/Drupal/config_translation/FormElement/Textarea.php	c1a5b3f019f621c3ed9649951019a3df
+A	core/modules/config_translation/lib/Drupal/config_translation/FormElement/Textfield.php	df2d4808cabfda8a5ad2da6462bace60
+A	core/modules/config_translation/lib/Drupal/config_translation/Plugin/Derivative/ConfigTranslationContextualLinks.php	5d62a5e2bfd66003920f8b7b0eb53792
+A	core/modules/config_translation/lib/Drupal/config_translation/Plugin/Derivative/ConfigTranslationLocalTasks.php	e3d384e7c0274fb26c460dc2351c8ed4
+A	core/modules/config_translation/lib/Drupal/config_translation/Plugin/Menu/ContextualLink/ConfigTranslationContextualLink.php	9c815ece89a6605816dcb1a06cf150eb
+A	core/modules/config_translation/lib/Drupal/config_translation/Plugin/Menu/LocalTask/ConfigTranslationLocalTask.php	aed08b824ad3d611dbbb90933225eb87
+A	core/modules/config_translation/lib/Drupal/config_translation/Routing/RouteSubscriber.php	5b16055ab5d4eba830b521977a7a261f
+A	core/modules/config_translation/lib/Drupal/config_translation/Tests/ConfigTranslationFormTest.php	aec5f484cd88750490f4e70ae6115e98
+A	core/modules/config_translation/lib/Drupal/config_translation/Tests/ConfigTranslationListUiTest.php	fb8a3ed33d2b2e104de143e777e7e658
+A	core/modules/config_translation/lib/Drupal/config_translation/Tests/ConfigTranslationOverviewTest.php	b1ddefc6ae7b0c9b587ba096b49354df
+A	core/modules/config_translation/lib/Drupal/config_translation/Tests/ConfigTranslationUiTest.php	cc3f02ef5be265cb04525f8f4ab8b636
+A	core/modules/config_translation/lib/Drupal/config_translation/Tests/ConfigTranslationViewListUiTest.php	206781498cd1935d899d07596a5637f0
+A	core/modules/config_translation/templates/config_translation_manage_form_element.html.twig	9e239b25bfc01c96f0c9a937d3dc9038
+A	core/modules/config_translation/tests/Drupal/config_translation/Tests/ConfigEntityMapperTest.php	7ead88b4f564c0da5e9f2721131402eb
+A	core/modules/config_translation/tests/Drupal/config_translation/Tests/ConfigMapperManagerTest.php	8c50f13130973c6e924a16d336064ef8
+A	core/modules/config_translation/tests/Drupal/config_translation/Tests/ConfigNamesMapperTest.php	288eaaff339b427d10d3e7b3d5e9b240
+A	core/modules/config_translation/tests/modules/config_translation_test/config_translation_test.info.yml	271792a8d15dbc0052328118111cb454
+A	core/modules/config_translation/tests/modules/config_translation_test/config_translation_test.module	2b8761a28849a8297746eba2fc993f67
+A	core/modules/config_translation/tests/themes/config_translation_test_theme/config_translation_test_theme.config_translation.yml	7671d8f37bdcc0502c97ddce6cc7703c
+A	core/modules/config_translation/tests/themes/config_translation_test_theme/config_translation_test_theme.info.yml	08bb228c8a290b3198bcce219e3ba560
+A	core/modules/contact/contact.local_actions.yml	8de5f98d4c36ec87821b3017757c8431
+M	core/modules/contact/contact.module	aa468d875d5a441aa05be0b87c4ad7db
+M	core/modules/contact/contact.routing.yml	fc31cd625e1c74d1c6af5b072daf6860
+M	core/modules/contact/lib/Drupal/contact/Access/ContactPageAccess.php	61910c588bce375158d27bba761272b1
+M	core/modules/contact/lib/Drupal/contact/CategoryFormController.php	967bc6ed067e3cf375af5bf09f88927c
+M	core/modules/contact/lib/Drupal/contact/Entity/Category.php	1db96d32539050f160c2ada9beb5f703
+M	core/modules/contact/lib/Drupal/contact/Entity/Message.php	77a6f40387beb1304ae4a727adb46037
+M	core/modules/contact/lib/Drupal/contact/Form/CategoryDeleteForm.php	d3fde02e7878d1e1f4e4b30dbeae338b
+M	core/modules/contact/lib/Drupal/contact/MessageFormController.php	c01a6091a5fdb1bc44683d9d0a9aa554
+D	core/modules/contact/lib/Drupal/contact/MessageRenderController.php	
+A	core/modules/contact/lib/Drupal/contact/MessageViewBuilder.php	198a91d29c65fcddb801453f646710c2
+D	core/modules/contact/lib/Drupal/contact/Tests/ContactUpgradePathTest.php	
+M	core/modules/content_translation/content_translation.admin.inc	a243f341a3687ed03b66a298f9587c22
+A	core/modules/content_translation/content_translation.contextual_links.yml	b40bb03b38f31157387596c21a47735e
+M	core/modules/content_translation/content_translation.local_tasks.yml	5a4b7b310f61ee4365d95d1caa57f52f
+M	core/modules/content_translation/content_translation.module	531010de1b7411512fbabad6f51154c3
+M	core/modules/content_translation/content_translation.pages.inc	4812a12b0d600595bc98acc0b4b76335
+M	core/modules/content_translation/content_translation.services.yml	09165e9629fe7d78ea7a71e4824a3ff9
+M	core/modules/content_translation/lib/Drupal/content_translation/Access/ContentTranslationManageAccessCheck.php	a81aa0e914a541bc78ef65ef5f88093c
+M	core/modules/content_translation/lib/Drupal/content_translation/Access/ContentTranslationOverviewAccess.php	4cb73217933371ed9d930a7f977f6e08
+M	core/modules/content_translation/lib/Drupal/content_translation/ContentTranslationController.php	d064b5f68a3de34294cfdf011428210e
+M	core/modules/content_translation/lib/Drupal/content_translation/ContentTranslationControllerInterface.php	e8dbf19eb5ee93262a6e61d26ea2f9c6
+A	core/modules/content_translation/lib/Drupal/content_translation/ContentTranslationManager.php	811e91cf16772aa046573d475c22e77d
+A	core/modules/content_translation/lib/Drupal/content_translation/ContentTranslationManagerInterface.php	2a8592f0dff70098fc4d6c575002dcb2
+M	core/modules/content_translation/lib/Drupal/content_translation/FieldTranslationSynchronizer.php	5ac742d37470f6fbdadd113f9cc751a2
+D	core/modules/content_translation/lib/Drupal/content_translation/Plugin/ContentTranslationLocalTasks.php	
+A	core/modules/content_translation/lib/Drupal/content_translation/Plugin/Derivative/ContentTranslationContextualLinks.php	b14826c1fb1f71e56fd07c5fe9d3fd90
+M	core/modules/content_translation/lib/Drupal/content_translation/Plugin/Derivative/ContentTranslationLocalTasks.php	43770da9a1e86b57ed7e02e46ebd4979
+M	core/modules/content_translation/lib/Drupal/content_translation/Routing/ContentTranslationRouteSubscriber.php	d0711cde2c999c0915316df24c09821c
+M	core/modules/content_translation/lib/Drupal/content_translation/Tests/ConfigTestTranslationUITest.php	a5d5dc1c7404f33dbced74445241de2c
+M	core/modules/content_translation/lib/Drupal/content_translation/Tests/ContentTranslationTestBase.php	b1e42466c8e324562a7ea789dfc7cec5
+M	core/modules/content_translation/lib/Drupal/content_translation/Tests/ContentTranslationUITest.php	99ea7ac09c5bd4d483f0e98bd95b2ca7
+M	core/modules/content_translation/lib/Drupal/content_translation/Tests/ContentTranslationWorkflowsTest.php	a73984a5bd7627bbb5572451e6408dcf
+A	core/modules/content_translation/tests/Drupal/content_translation/Tests/Menu/ContentTranslationLocalTasksTest.php	2be8a74081d0181b3ab71d87ef6be36e
+M	core/modules/contextual/contextual.api.php	8a9b8c830c4fedc78c46580ebea54a18
+M	core/modules/contextual/contextual.module	7f667a6dce231853e17a72c5b89cef44
+M	core/modules/contextual/css/contextual.icons.css	b4e9d10383d0e5468be2f602d3b94411
+M	core/modules/contextual/lib/Drupal/contextual/Tests/ContextualDynamicContextTest.php	2177ff656508142da827fca1b51f34bd
+M	core/modules/contextual/lib/Drupal/contextual/Tests/ContextualUnitTest.php	149d2f7fc9da4b8fd72d94ccb18bf50c
+M	core/modules/datetime/datetime.module	4347dd37693884459e729da5c2a908b3
+A	core/modules/datetime/lib/Drupal/datetime/Plugin/Field/FieldFormatter/DatetimeDefaultFormatter.php	2e69ce1323f65ec4a6ee90ca13cbd0db
+A	core/modules/datetime/lib/Drupal/datetime/Plugin/Field/FieldFormatter/DatetimePlainFormatter.php	eaf0f9a509f9041e8060fed70dd93d14
+A	core/modules/datetime/lib/Drupal/datetime/Plugin/Field/FieldType/DateTimeItem.php	1d3b3fa275f1071138b0242a020c3874
+A	core/modules/datetime/lib/Drupal/datetime/Plugin/Field/FieldWidget/DatetimeDatelistWidget.php	e1824855597ec748171704032f98a738
+A	core/modules/datetime/lib/Drupal/datetime/Plugin/Field/FieldWidget/DatetimeDefaultWidget.php	44a57a59654712b775539b61e013a57f
+D	core/modules/datetime/lib/Drupal/datetime/Plugin/field/field_type/DateTimeItem.php	
+D	core/modules/datetime/lib/Drupal/datetime/Plugin/field/formatter/DatetimeDefaultFormatter.php	
+D	core/modules/datetime/lib/Drupal/datetime/Plugin/field/formatter/DatetimePlainFormatter.php	
+D	core/modules/datetime/lib/Drupal/datetime/Plugin/field/widget/DatetimeDatelistWidget.php	
+D	core/modules/datetime/lib/Drupal/datetime/Plugin/field/widget/DatetimeDefaultWidget.php	
+M	core/modules/datetime/lib/Drupal/datetime/Tests/DateTimeItemTest.php	3297623759f83d5cfd1d9e89c9e8f2c3
+M	core/modules/dblog/tests/modules/dblog_test_views/dblog_test_views.info.yml	e17baac22adacbe5ac7437e39a316c05
+M	core/modules/edit/css/edit.module.css	ff78121c2974122f63fa25649f8ee53d
+M	core/modules/edit/css/edit.theme.css	e6d75112f2f0a8fbff939e5b567b5e03
+M	core/modules/edit/edit.api.php	c00ee71a4fadbfe1f247e5ea4e24e067
+M	core/modules/edit/edit.module	5fc1d5e9367f0b1dc47de1bce4bbae5e
+M	core/modules/edit/js/edit.js	1aac677ecb8561e3676eb409a510bb07
+D	core/modules/edit/js/editors/directEditor.js	
+A	core/modules/edit/js/editors/plainTextEditor.js	a3834d6564f6ba124492e17bb7663b8f
+M	core/modules/edit/js/models/AppModel.js	be2f53f19b9e53d4fbab9b1ff38a4f96
+M	core/modules/edit/js/models/EntityModel.js	bd292b06390797d6bf1ccf922e0cf930
+M	core/modules/edit/js/models/FieldModel.js	2f93ae1471b7ba429f9dd0b1b39c374c
+M	core/modules/edit/js/util.js	b88c81812972851d3a269d50e0da52fd
+M	core/modules/edit/js/views/AppView.js	fd4cae12d7cff74cd9c9a4418df24c36
+M	core/modules/edit/js/views/EditorView.js	c9d847c6d0188c9af4ae8344f0ea41d8
+M	core/modules/edit/js/views/EntityToolbarView.js	e1b8c69159483b4069fc5c20428cddfb
+M	core/modules/edit/lib/Drupal/edit/Access/EditEntityAccessCheck.php	a0ac4bd8486b417a6a35595260789e5b
+M	core/modules/edit/lib/Drupal/edit/Access/EditEntityFieldAccessCheck.php	84343f1999d683061983892c99e8bcf9
+M	core/modules/edit/lib/Drupal/edit/EditController.php	4d491e29ffdc9185253d77bed7eca266
+M	core/modules/edit/lib/Drupal/edit/EditPluginInterface.php	1a6a6833d4e7a1f776f523a959f8ac22
+M	core/modules/edit/lib/Drupal/edit/EditorBase.php	fe6b5c0e82ce0532caec2356f23f7c77
+M	core/modules/edit/lib/Drupal/edit/EditorSelector.php	be31450e1f3b59ebc19deffd997d4995
+M	core/modules/edit/lib/Drupal/edit/EditorSelectorInterface.php	07896c00549f1c19e4c5188634850ecb
+M	core/modules/edit/lib/Drupal/edit/MetadataGenerator.php	a6525f8ce2a78bb7d8ac366aba9d4014
+M	core/modules/edit/lib/Drupal/edit/MetadataGeneratorInterface.php	1689b5905d18ce04bdc0729c86db8d44
+D	core/modules/edit/lib/Drupal/edit/Plugin/InPlaceEditor/DirectEditor.php	
+M	core/modules/edit/lib/Drupal/edit/Plugin/InPlaceEditor/FormEditor.php	82ce0939a538dc2582bf5a1deb547af1
+A	core/modules/edit/lib/Drupal/edit/Plugin/InPlaceEditor/PlainTextEditor.php	c43da6e86b2d1eab0e449b4f8a0d21b0
+M	core/modules/edit/lib/Drupal/edit/Tests/EditAutocompleteTermTest.php	b1b3518c57902b39476644c2d3e76a49
+M	core/modules/edit/lib/Drupal/edit/Tests/EditLoadingTest.php	ed0cf89438de71c50408b6bb9a9bda2e
+M	core/modules/edit/lib/Drupal/edit/Tests/EditorSelectionTest.php	be46b1d15c3192c514b0485904959125
+M	core/modules/edit/lib/Drupal/edit/Tests/MetadataGeneratorTest.php	de89962f6281a5780aab8c7fd1f971bf
+M	core/modules/edit/tests/Drupal/edit/Tests/Access/EditEntityAccessCheckTest.php	734fe9cdc5c52cc9d4dbd8579ce5a33c
+M	core/modules/edit/tests/Drupal/edit/Tests/Access/EditEntityFieldAccessCheckTest.php	802e2eee1bea600247d42b3747e85dfb
+M	core/modules/edit/tests/modules/edit_test.module	1ca453fbc8b7594d5f5448ab68249dd9
+M	core/modules/edit/tests/modules/lib/Drupal/edit_test/Plugin/InPlaceEditor/WysiwygEditor.php	09774a95b5c17e51da3b8396b3d48aac
+M	core/modules/editor/editor.admin.inc	f077878259de568525aa5b7c6c98cc25
+M	core/modules/editor/editor.info.yml	1de7061e223e81a11a0a69bfea867696
+M	core/modules/editor/editor.module	570b8359cd652f491f56a66f9b074591
+M	core/modules/editor/lib/Drupal/editor/Entity/Editor.php	1ad61f068656c01d1ee1b9d1b137a7a2
+M	core/modules/editor/lib/Drupal/editor/Form/EditorImageDialog.php	514735fedca13660cf82092f62f2c5c2
+M	core/modules/editor/lib/Drupal/editor/Plugin/InPlaceEditor/Editor.php	435dbe7b84d35e886b0627668f173471
+M	core/modules/email/email.module	f9f8268e1e51d6f295cd73df9ae0b6e5
+M	core/modules/email/lib/Drupal/email/ConfigurableEmailItem.php	44a3b283e427d8694cd9a2ef1a8a309c
+A	core/modules/email/lib/Drupal/email/Plugin/Field/FieldFormatter/MailToFormatter.php	989952fea0ac073fb255dbbc1050db73
+A	core/modules/email/lib/Drupal/email/Plugin/Field/FieldWidget/EmailDefaultWidget.php	613c129d955bac1a5c154c44b833d300
+D	core/modules/email/lib/Drupal/email/Plugin/field/formatter/MailToFormatter.php	
+D	core/modules/email/lib/Drupal/email/Plugin/field/widget/EmailDefaultWidget.php	
+M	core/modules/email/lib/Drupal/email/Tests/EmailItemTest.php	bff8c2d1de1d8164c754124d1c2b7e1e
+A	core/modules/entity/entity.local_tasks.yml	5003fcae2288a0b8d1c1e37ee9764d79
+M	core/modules/entity/entity.module	957e535e539caee44378fdf5f26b0e57
+M	core/modules/entity/entity.routing.yml	5cfd76342ac7e4d5a07e309ffa7a8327
+M	core/modules/entity/lib/Drupal/entity/Controller/EntityDisplayModeController.php	a8832f7aaf4bceedb12e8dd6e62122d4
+M	core/modules/entity/lib/Drupal/entity/Entity/EntityDisplay.php	91302604d177f4c6f7cd56664525d6f9
+M	core/modules/entity/lib/Drupal/entity/Entity/EntityFormDisplay.php	f9cb1bd165dd994da80f387d008e935c
+M	core/modules/entity/lib/Drupal/entity/Entity/EntityFormMode.php	c9efbeb855a4dc8616c752ed10b9a628
+M	core/modules/entity/lib/Drupal/entity/Entity/EntityViewMode.php	c808345e040e82c020e5277ce4b10f1f
+M	core/modules/entity/lib/Drupal/entity/EntityDisplayBase.php	f3d7ee55799b4fae6d8356a49d6eeb61
+M	core/modules/entity/lib/Drupal/entity/EntityDisplayBaseInterface.php	fc85db3aa86e71aee9a0dde93acdd330
+M	core/modules/entity/lib/Drupal/entity/EntityDisplayModeListController.php	e49da8487543865da1228a501781c1f7
+M	core/modules/entity/lib/Drupal/entity/Form/EntityDisplayModeAddForm.php	3bacbea761105e01368603fff7ec086d
+M	core/modules/entity/lib/Drupal/entity/Form/EntityDisplayModeDeleteForm.php	6e4b249c83e386c4056163bfb478ecd5
+M	core/modules/entity/lib/Drupal/entity/Form/EntityDisplayModeEditForm.php	14676885a69b458c43809678cfe11f8f
+M	core/modules/entity/lib/Drupal/entity/Form/EntityDisplayModeFormBase.php	d187e0bb83075d8def4b50b344d62db8
+M	core/modules/entity/lib/Drupal/entity/Form/EntityFormModeAddForm.php	198615c5eaba77885689eed042d35e45
+M	core/modules/entity/lib/Drupal/entity/Tests/EntityDisplayModeTest.php	dab2ea1953fd5003840b5cd234ea35d2
+M	core/modules/entity/lib/Drupal/entity/Tests/EntityDisplayTest.php	29731813907ecf7f83b7576d8d1bd516
+M	core/modules/entity/lib/Drupal/entity/Tests/EntityFormDisplayTest.php	234d22f56bb62c700d5428d30fc528b5
+M	core/modules/entity_reference/entity_reference.module	f531852dbdf1eda1ad7c726aa4d1ef46
+M	core/modules/entity_reference/lib/Drupal/entity_reference/ConfigurableEntityReferenceItem.php	af970b1e6eaa4be53d37df9cfcfe3f2b
+M	core/modules/entity_reference/lib/Drupal/entity_reference/EntityReferenceAutocomplete.php	24be2adf662dd112cd9e1af0315879ec
+M	core/modules/entity_reference/lib/Drupal/entity_reference/EntityReferenceController.php	aa2b1fab97a1a751512e1287e5f79b79
+A	core/modules/entity_reference/lib/Drupal/entity_reference/Plugin/Field/FieldFormatter/EntityReferenceEntityFormatter.php	7eec442bcbf3444adc1db9beeed20cea
+A	core/modules/entity_reference/lib/Drupal/entity_reference/Plugin/Field/FieldFormatter/EntityReferenceFormatterBase.php	53aa16988c2022f076614bf56753ccae
+A	core/modules/entity_reference/lib/Drupal/entity_reference/Plugin/Field/FieldFormatter/EntityReferenceIdFormatter.php	26533edead63a5ae800047c3e3bccc99
+A	core/modules/entity_reference/lib/Drupal/entity_reference/Plugin/Field/FieldFormatter/EntityReferenceLabelFormatter.php	450c8db5055596f48497ffdb83c0e4b8
+A	core/modules/entity_reference/lib/Drupal/entity_reference/Plugin/Field/FieldType/ConfigurableEntityReferenceFieldItemList.php	729991261fe588613f949b34dcc4520a
+A	core/modules/entity_reference/lib/Drupal/entity_reference/Plugin/Field/FieldWidget/AutocompleteTagsWidget.php	79b7fa35132fc44f9ca1423358dda221
+A	core/modules/entity_reference/lib/Drupal/entity_reference/Plugin/Field/FieldWidget/AutocompleteWidget.php	13a072faf2ef078340b2bbc330a85076
+A	core/modules/entity_reference/lib/Drupal/entity_reference/Plugin/Field/FieldWidget/AutocompleteWidgetBase.php	65951a02526ab3b56b7042f7e59dc9a2
+M	core/modules/entity_reference/lib/Drupal/entity_reference/Plugin/Type/Selection/SelectionBroken.php	f5a65ce7f6c24cb1b95605b771fb0603
+M	core/modules/entity_reference/lib/Drupal/entity_reference/Plugin/Type/Selection/SelectionInterface.php	26d9bc4fd1d994527ea689f0a91279a5
+M	core/modules/entity_reference/lib/Drupal/entity_reference/Plugin/Type/SelectionPluginManager.php	928317e8fd382bff05c17f2c495cfda3
+M	core/modules/entity_reference/lib/Drupal/entity_reference/Plugin/entity_reference/selection/SelectionBase.php	1fc086ff57d99cac90ea079da3334cc1
+D	core/modules/entity_reference/lib/Drupal/entity_reference/Plugin/field/formatter/EntityReferenceEntityFormatter.php	
+D	core/modules/entity_reference/lib/Drupal/entity_reference/Plugin/field/formatter/EntityReferenceFormatterBase.php	
+D	core/modules/entity_reference/lib/Drupal/entity_reference/Plugin/field/formatter/EntityReferenceIdFormatter.php	
+D	core/modules/entity_reference/lib/Drupal/entity_reference/Plugin/field/formatter/EntityReferenceLabelFormatter.php	
+D	core/modules/entity_reference/lib/Drupal/entity_reference/Plugin/field/widget/AutocompleteTagsWidget.php	
+D	core/modules/entity_reference/lib/Drupal/entity_reference/Plugin/field/widget/AutocompleteWidget.php	
+D	core/modules/entity_reference/lib/Drupal/entity_reference/Plugin/field/widget/AutocompleteWidgetBase.php	
+M	core/modules/entity_reference/lib/Drupal/entity_reference/Tests/EntityReferenceAutoCreateTest.php	a24ddc211362d8fdb27faf315797701b
+A	core/modules/entity_reference/lib/Drupal/entity_reference/Tests/EntityReferenceFieldDefaultValueTest.php	cb4fd55114663a650ad98a841f8b6ea3
+M	core/modules/entity_reference/lib/Drupal/entity_reference/Tests/EntityReferenceFormatterTest.php	9a434a93fb03539529572ea1ef542b9d
+M	core/modules/entity_reference/lib/Drupal/entity_reference/Tests/EntityReferenceItemTest.php	f6e4cae88f187b2da8ee462ac4372790
+M	core/modules/entity_reference/lib/Drupal/entity_reference/Tests/EntityReferenceSelectionAccessTest.php	7ef82ad3ab62a07f57789abf94a6e1f8
+M	core/modules/entity_reference/tests/modules/entity_reference_test/config/views.view.test_entity_reference.yml	99331fc696c4e3626cb3a115eab9141c
+M	core/modules/field/config/field.settings.yml	1555dcbe5e1f40f2a98969935c19ad8d
+M	core/modules/field/config/schema/field.schema.yml	9ba48fd362106fff325c484ae5257c6d
+M	core/modules/field/css/field.module.css	9b14f1c503f84ab23d9e3d448e4d8664
+M	core/modules/field/field.api.php	3087237e188e3366be8da81a9613cccd
+M	core/modules/field/field.attach.inc	093a87221e03d0148c39e3d78ed87f61
+M	core/modules/field/field.deprecated.inc	d40da2f347f70e1ea33b24a5a59147ad
+M	core/modules/field/field.form.inc	e31b828f5273ee62e5d6e80049915143
+M	core/modules/field/field.info.inc	6ae36e05d6a037a1734d3a5107c964a7
+M	core/modules/field/field.install	5914065aeca57d53b377dc25eb32b52c
+M	core/modules/field/field.module	b112f15a02f767c4837fc71c011cf99f
+M	core/modules/field/field.multilingual.inc	0a25448ad70e035c4e0e20b909deeb59
+M	core/modules/field/field.services.yml	7a5aa09239289b807de0df725e8ec874
+M	core/modules/field/field.views.inc	7d620c115003b35f02a94346251dde7f
+D	core/modules/field/lib/Drupal/field/Annotation/FieldFormatter.php	
+D	core/modules/field/lib/Drupal/field/Annotation/FieldWidget.php	
+M	core/modules/field/lib/Drupal/field/Entity/Field.php	d0cd9e7394251975d8e70fc5e97264c9
+M	core/modules/field/lib/Drupal/field/Entity/FieldInstance.php	8ed800e9406bc52eb105202afb103db9
+M	core/modules/field/lib/Drupal/field/FieldInfo.php	31e3acdb4a10983a0399958670a696a2
+M	core/modules/field/lib/Drupal/field/FieldInstanceInterface.php	4d509ce2dd0945f15456ce09f25770d4
+M	core/modules/field/lib/Drupal/field/FieldInstanceStorageController.php	a3833143f4d58bc579dcb95b872283ca
+M	core/modules/field/lib/Drupal/field/FieldInterface.php	c77096ecc5deaedc2f1100a9464058b3
+M	core/modules/field/lib/Drupal/field/FieldStorageController.php	f00606d70c7dc3f27355d308217c4e9a
+D	core/modules/field/lib/Drupal/field/Plugin/PluginSettingsBase.php	
+D	core/modules/field/lib/Drupal/field/Plugin/PluginSettingsInterface.php	
+D	core/modules/field/lib/Drupal/field/Plugin/Type/FieldType/ConfigEntityReferenceItemBase.php	
+D	core/modules/field/lib/Drupal/field/Plugin/Type/FieldType/ConfigFieldItemBase.php	
+D	core/modules/field/lib/Drupal/field/Plugin/Type/FieldType/ConfigFieldItemInterface.php	
+D	core/modules/field/lib/Drupal/field/Plugin/Type/FieldType/ConfigFieldItemList.php	
+D	core/modules/field/lib/Drupal/field/Plugin/Type/FieldType/ConfigFieldItemListInterface.php	
+D	core/modules/field/lib/Drupal/field/Plugin/Type/FieldType/LegacyFieldTypeDiscoveryDecorator.php	
+D	core/modules/field/lib/Drupal/field/Plugin/Type/Formatter/FormatterBase.php	
+D	core/modules/field/lib/Drupal/field/Plugin/Type/Formatter/FormatterInterface.php	
+D	core/modules/field/lib/Drupal/field/Plugin/Type/Formatter/FormatterPluginManager.php	
+D	core/modules/field/lib/Drupal/field/Plugin/Type/Widget/WidgetBase.php	
+D	core/modules/field/lib/Drupal/field/Plugin/Type/Widget/WidgetBaseInterface.php	
+D	core/modules/field/lib/Drupal/field/Plugin/Type/Widget/WidgetFactory.php	
+D	core/modules/field/lib/Drupal/field/Plugin/Type/Widget/WidgetInterface.php	
+D	core/modules/field/lib/Drupal/field/Plugin/Type/Widget/WidgetPluginManager.php	
+D	core/modules/field/lib/Drupal/field/Plugin/field/field_type/LegacyConfigFieldItem.php	
+D	core/modules/field/lib/Drupal/field/Plugin/field/field_type/LegacyConfigFieldItemList.php	
+M	core/modules/field/lib/Drupal/field/Plugin/views/field/Field.php	cb57f7850dee48e2576c29d8489e6d01
+M	core/modules/field/lib/Drupal/field/Plugin/views/relationship/EntityReverse.php	0f2219b5b0c1bfec752911d7ad0377a1
+M	core/modules/field/lib/Drupal/field/Tests/CrudTest.php	af91d70759323bd510dec1623165492d
+M	core/modules/field/lib/Drupal/field/Tests/DisplayApiTest.php	0dca8264b463ec5e6a7e56e567c4c4f5
+M	core/modules/field/lib/Drupal/field/Tests/FieldAttachStorageTest.php	c2791ad458ff1599151aca575d94b4ba
+M	core/modules/field/lib/Drupal/field/Tests/FieldHelpTest.php	020c13ff53d40f88c68ec3f372674879
+M	core/modules/field/lib/Drupal/field/Tests/FieldInfoTest.php	2ae0444411fcf4171a9368e8aa0b4e9d
+M	core/modules/field/lib/Drupal/field/Tests/FieldInstanceCrudTest.php	c7804c3b7c1d1ca05293012ed4b63b15
+M	core/modules/field/lib/Drupal/field/Tests/FormTest.php	69173d5bcb19c214de3218d7ba8e0a98
+M	core/modules/field/lib/Drupal/field/Tests/NestedFormTest.php	5f40c061f1b5f453617028b93b0b0683
+M	core/modules/field/lib/Drupal/field/Tests/ShapeItemTest.php	66bb8431fd3b6a486c2f9dbe652bb14e
+M	core/modules/field/lib/Drupal/field/Tests/TestItemTest.php	1242755115233ccc2d7c2da8ef5f4bb0
+M	core/modules/field/lib/Drupal/field/Tests/TranslationTest.php	5fd8fe63276038a19665d4121bce2e60
+M	core/modules/field/lib/Drupal/field/Tests/TranslationWebTest.php	54f28d953035a9cb060d4b5052656884
+M	core/modules/field/lib/Drupal/field/Tests/Views/FieldUITest.php	ce88600d016b941a7205001bc65dd64a
+M	core/modules/field/lib/Drupal/field/Tests/Views/HandlerFieldFieldTest.php	d93c041e26644331b6dbb2eeee3bc832
+M	core/modules/field/tests/modules/field_test/field_test.field.inc	f47a47540d830da8f205cc4fb1622c8d
+M	core/modules/field/tests/modules/field_test/field_test.module	28780260815d931fbd5e76be81fcaa01
+A	core/modules/field/tests/modules/field_test/lib/Drupal/field_test/Plugin/Field/FieldFormatter/TestFieldDefaultFormatter.php	dcf0101e12fa33821a13696f1c0e9c11
+A	core/modules/field/tests/modules/field_test/lib/Drupal/field_test/Plugin/Field/FieldFormatter/TestFieldEmptyFormatter.php	c5d2559d406ce111a2e9249ddaab2994
+A	core/modules/field/tests/modules/field_test/lib/Drupal/field_test/Plugin/Field/FieldFormatter/TestFieldEmptySettingFormatter.php	6ddb3689a1186d2ad3b3ba2dba09f546
+A	core/modules/field/tests/modules/field_test/lib/Drupal/field_test/Plugin/Field/FieldFormatter/TestFieldMultipleFormatter.php	067535866c7fb13977a985e7dc0aaa18
+A	core/modules/field/tests/modules/field_test/lib/Drupal/field_test/Plugin/Field/FieldFormatter/TestFieldPrepareViewFormatter.php	59dcb129d982428673e7af871aa0c7af
+A	core/modules/field/tests/modules/field_test/lib/Drupal/field_test/Plugin/Field/FieldType/HiddenTestItem.php	b5c9d96d5f40a95890360ba4610e20c8
+A	core/modules/field/tests/modules/field_test/lib/Drupal/field_test/Plugin/Field/FieldType/ShapeItem.php	62ccb1f5f1fad776c3964a7241aa72eb
+A	core/modules/field/tests/modules/field_test/lib/Drupal/field_test/Plugin/Field/FieldType/TestItem.php	2a75f4e61d25ac9b04a211c1c493d780
+A	core/modules/field/tests/modules/field_test/lib/Drupal/field_test/Plugin/Field/FieldWidget/TestFieldWidget.php	c007e0ddcef02979e291be3b259e14ff
+A	core/modules/field/tests/modules/field_test/lib/Drupal/field_test/Plugin/Field/FieldWidget/TestFieldWidgetMultiple.php	dfd0dc5032c31fd8f8143878b7df0994
+D	core/modules/field/tests/modules/field_test/lib/Drupal/field_test/Plugin/field/field_type/HiddenTestItem.php	
+D	core/modules/field/tests/modules/field_test/lib/Drupal/field_test/Plugin/field/field_type/ShapeItem.php	
+D	core/modules/field/tests/modules/field_test/lib/Drupal/field_test/Plugin/field/field_type/TestItem.php	
+D	core/modules/field/tests/modules/field_test/lib/Drupal/field_test/Plugin/field/formatter/TestFieldDefaultFormatter.php	
+D	core/modules/field/tests/modules/field_test/lib/Drupal/field_test/Plugin/field/formatter/TestFieldEmptyFormatter.php	
+D	core/modules/field/tests/modules/field_test/lib/Drupal/field_test/Plugin/field/formatter/TestFieldEmptySettingFormatter.php	
+D	core/modules/field/tests/modules/field_test/lib/Drupal/field_test/Plugin/field/formatter/TestFieldMultipleFormatter.php	
+D	core/modules/field/tests/modules/field_test/lib/Drupal/field_test/Plugin/field/formatter/TestFieldPrepareViewFormatter.php	
+D	core/modules/field/tests/modules/field_test/lib/Drupal/field_test/Plugin/field/widget/TestFieldWidget.php	
+D	core/modules/field/tests/modules/field_test/lib/Drupal/field_test/Plugin/field/widget/TestFieldWidgetMultiple.php	
+A	core/modules/field_ui/field_ui.local_tasks.yml	67a84595b5925705bbb4b68ab65ed325
+M	core/modules/field_ui/field_ui.module	b4bdeb11940f1a0d1971ea62c85b73ae
+M	core/modules/field_ui/lib/Drupal/field_ui/Access/FormModeAccessCheck.php	b37fab3c81b512aeb27552848a5c75c9
+M	core/modules/field_ui/lib/Drupal/field_ui/Access/ViewModeAccessCheck.php	f252d48b0b05c3b721d7ef12736e0f1f
+M	core/modules/field_ui/lib/Drupal/field_ui/DisplayOverview.php	c2d1503332329cd3ccf7c29117ed8a9b
+M	core/modules/field_ui/lib/Drupal/field_ui/DisplayOverviewBase.php	9337ebdd54115449ac50c311e645cd70
+M	core/modules/field_ui/lib/Drupal/field_ui/FieldListController.php	e731faff071fdbc20be7784f63764f72
+M	core/modules/field_ui/lib/Drupal/field_ui/FieldOverview.php	ebe90afcb5bd983f98cd754166732ddf
+M	core/modules/field_ui/lib/Drupal/field_ui/Form/FieldDeleteForm.php	56dacec15c852e124511b620b3734b32
+M	core/modules/field_ui/lib/Drupal/field_ui/Form/FieldEditForm.php	4f477f3d8271727f031b96985b4388b2
+M	core/modules/field_ui/lib/Drupal/field_ui/Form/FieldInstanceEditForm.php	3937398bc0f0e2b16a17444dbaa3ba23
+M	core/modules/field_ui/lib/Drupal/field_ui/FormDisplayOverview.php	08d72a90ae65429f4271ecdeefb42307
+M	core/modules/field_ui/lib/Drupal/field_ui/OverviewBase.php	772bd4604e3a3f88e420deab69d3fbc1
+M	core/modules/field_ui/lib/Drupal/field_ui/Routing/RouteSubscriber.php	443940c03f9c6417011a03b2b41a0750
+M	core/modules/field_ui/lib/Drupal/field_ui/Tests/FieldUIRouteTest.php	0d9de1bb9c1469b621c38ed1df7cec92
+M	core/modules/field_ui/lib/Drupal/field_ui/Tests/FieldUiTestBase.php	d711d973997216a9f6a37630583ecadd
+M	core/modules/field_ui/lib/Drupal/field_ui/Tests/ManageFieldsTest.php	fb407d330639de1a38e28811340e18b6
+M	core/modules/field_ui/tests/modules/field_ui_test/lib/Drupal/field_ui_test/Entity/FieldUITestNoBundle.php	86763a3a835e4e6812e98b84317b8244
+M	core/modules/file/file.module	ad9f760a6ca9b4650c4b124e4be2650d
+M	core/modules/file/lib/Drupal/file/Entity/File.php	d77836fc4628487a360c71477edf6b66
+A	core/modules/file/lib/Drupal/file/Plugin/Field/FieldFormatter/FileFormatterBase.php	c2f62f5fbc855097b677c9cd34c9dc4c
+A	core/modules/file/lib/Drupal/file/Plugin/Field/FieldFormatter/GenericFileFormatter.php	e7d5bbb1e12cd6558beff35d2009c192
+A	core/modules/file/lib/Drupal/file/Plugin/Field/FieldFormatter/RSSEnclosureFormatter.php	1edf8cc65832eee83540e733a49c3ff3
+A	core/modules/file/lib/Drupal/file/Plugin/Field/FieldFormatter/TableFormatter.php	72fb1aee53bde4540a6f69bac6cbe58a
+A	core/modules/file/lib/Drupal/file/Plugin/Field/FieldFormatter/UrlPlainFormatter.php	94f72eade33c571389d36901a1225a8a
+A	core/modules/file/lib/Drupal/file/Plugin/Field/FieldType/FileFieldItemList.php	b3a1682565af6b6c37bd741e6ef46124
+A	core/modules/file/lib/Drupal/file/Plugin/Field/FieldType/FileItem.php	e2af560b4b7367418ac2e458ab52a33a
+A	core/modules/file/lib/Drupal/file/Plugin/Field/FieldWidget/FileWidget.php	1f78f8a2931c786a983a666b352c5855
+D	core/modules/file/lib/Drupal/file/Plugin/field/field_type/FileFieldItemList.php	
+D	core/modules/file/lib/Drupal/file/Plugin/field/field_type/FileItem.php	
+D	core/modules/file/lib/Drupal/file/Plugin/field/formatter/FileFormatterBase.php	
+D	core/modules/file/lib/Drupal/file/Plugin/field/formatter/GenericFileFormatter.php	
+D	core/modules/file/lib/Drupal/file/Plugin/field/formatter/RSSEnclosureFormatter.php	
+D	core/modules/file/lib/Drupal/file/Plugin/field/formatter/TableFormatter.php	
+D	core/modules/file/lib/Drupal/file/Plugin/field/formatter/UrlPlainFormatter.php	
+D	core/modules/file/lib/Drupal/file/Plugin/field/widget/FileWidget.php	
+M	core/modules/file/lib/Drupal/file/Plugin/views/argument/Fid.php	8abc3f048a9521f97b34ce7a82a5da6f
+M	core/modules/file/lib/Drupal/file/Tests/FileFieldValidateTest.php	1638eed2e364472d779d9b300b246e85
+M	core/modules/file/lib/Drupal/file/Tests/FileItemTest.php	8208b2f0c693016818282a3e62c6a6b2
+M	core/modules/filter/css/filter.admin.css	b3a761a1c2fa78c2601f51e8b98ef82e
+M	core/modules/filter/filter.js	d10d93b558f266982be4abbfbf0c110c
+M	core/modules/filter/filter.module	0a33a79d5d14ba6d82bdacaef7626a10
+M	core/modules/filter/filter.routing.yml	f0b07a3cc63c572995b876c197a32a6d
+M	core/modules/filter/lib/Drupal/filter/Access/FormatDisableCheck.php	0c4faf1b8d27b9c245f7124a96efa41d
+M	core/modules/filter/lib/Drupal/filter/Entity/FilterFormat.php	bf28b638d1d7dc2a762cda191886c284
+M	core/modules/filter/lib/Drupal/filter/FilterFormatAddFormController.php	d1b2445bd861dc536e3eb66e63755bcf
+M	core/modules/filter/lib/Drupal/filter/FilterFormatEditFormController.php	78e320e5047487985c6a640c28938295
+M	core/modules/filter/lib/Drupal/filter/FilterFormatFormControllerBase.php	0f6bbd8cb2a87c0972a2ce83556cefb7
+M	core/modules/filter/lib/Drupal/filter/Form/FilterDisableForm.php	2ebd114c4653f2952fe9156c17d60157
+M	core/modules/forum/forum.install	6132b248cea20e96ac7f435c61fa63c7
+A	core/modules/forum/forum.local_tasks.yml	879ca82806938db15b27b12fc46aa2ff
+M	core/modules/forum/forum.module	26cccd164898928807db83152fc31a2b
+M	core/modules/forum/lib/Drupal/forum/Controller/ForumController.php	196833d57338f50f5064d1b89f6b7b1b
+M	core/modules/forum/lib/Drupal/forum/Form/DeleteForm.php	29534c48d3bad89aed52fdebf6deafc7
+M	core/modules/forum/lib/Drupal/forum/Form/ForumFormController.php	876d318eec46dedd3329e6c25fb950c4
+M	core/modules/forum/lib/Drupal/forum/Form/Overview.php	dfeddc4c657e85b3da4a04bcafd4ce49
+M	core/modules/forum/lib/Drupal/forum/ForumBreadcrumbBuilder.php	1f85092b2051a79ea710aff307b2e3af
+M	core/modules/forum/lib/Drupal/forum/ForumManager.php	6a7727aa4b2c2557b9ab7bf3aeaf2a79
+M	core/modules/forum/lib/Drupal/forum/Plugin/Block/ActiveTopicsBlock.php	d99e002e9c89a847ee92bc283d5e461d
+M	core/modules/forum/lib/Drupal/forum/Plugin/Block/ForumBlockBase.php	4163f8fac212890b730d55d9e1868f58
+M	core/modules/forum/lib/Drupal/forum/Plugin/Block/NewTopicsBlock.php	8b822561b78cde6f6b5a2817cdd8caf2
+M	core/modules/forum/lib/Drupal/forum/Tests/Views/ForumIntegrationTest.php	a30046ea000daaf2f1ecd80d7c4b604d
+M	core/modules/forum/tests/Drupal/forum/Tests/ForumManagerTest.php	369ad9ef3f5367ff44909c9bd7eff00b
+M	core/modules/hal/hal.info.yml	b4667a3bbe80770755478bd0ce8488fa
+M	core/modules/hal/lib/Drupal/hal/Normalizer/EntityReferenceItemNormalizer.php	7770870d6edab1a5f5d9a3d125fbc311
+M	core/modules/hal/lib/Drupal/hal/Normalizer/FieldItemNormalizer.php	79ea8e39b75b2214742b7444477a82ff
+M	core/modules/hal/lib/Drupal/hal/Normalizer/FieldNormalizer.php	00282a1da44d7e2a597e0f7e0b73cd27
+M	core/modules/hal/lib/Drupal/hal/Tests/NormalizerTestBase.php	2b88a8afb0afdc487f2f65da3821264f
+M	core/modules/help/help.module	26ca4c5596fad1724cac93b3437e9e08
+M	core/modules/help/lib/Drupal/help/Controller/HelpController.php	ff047d38317cbd884d2a5aedb10b2126
+M	core/modules/help/lib/Drupal/help/Tests/HelpTest.php	c4ddcb3570aa7d3655469b40d3bd4094
+M	core/modules/image/config/image.settings.yml	93f22bffec57795f2eb7cffa2db221e9
+M	core/modules/image/config/schema/image.schema.yml	51916381d02c4cf1500cab5e9aa56b39
+M	core/modules/image/image.install	4814026fc97381e6a3d4711aa0de02c9
+A	core/modules/image/image.local_tasks.yml	a1d0af1633c7ecf409f5327c0e4b5810
+M	core/modules/image/image.module	4315f366302de090b72189130c1a5e8b
+M	core/modules/image/image.routing.yml	438801459c8b0b63947be33d0e46ff31
+M	core/modules/image/lib/Drupal/image/Entity/ImageStyle.php	337a928a6fce2abebd34cb43009dd03c
+M	core/modules/image/lib/Drupal/image/Form/ImageEffectDeleteForm.php	a8ae69d99805d9de65aa19edfc637478
+M	core/modules/image/lib/Drupal/image/Form/ImageEffectFormBase.php	0a5f1cf01f62f02815a05a880a148aba
+M	core/modules/image/lib/Drupal/image/Form/ImageStyleDeleteForm.php	6a4cd499b60a00bfe9983ba66679460c
+M	core/modules/image/lib/Drupal/image/Form/ImageStyleEditForm.php	1c11d1fb2d78a2fbad0bc05363dfd1eb
+A	core/modules/image/lib/Drupal/image/Form/ImageStyleFlushForm.php	96917e954c45e2545944fc0a710345de
+M	core/modules/image/lib/Drupal/image/Form/ImageStyleFormBase.php	5bdc81a78490058e271a467ed9581628
+M	core/modules/image/lib/Drupal/image/ImageEffectBag.php	b821b261f663a15182af8752e606b13b
+M	core/modules/image/lib/Drupal/image/ImageStyleListController.php	4e14710f2be61137f0baf6c57cce6bd4
+A	core/modules/image/lib/Drupal/image/Plugin/Field/FieldFormatter/ImageFormatter.php	d1413e144917475d431e8958e40f7560
+A	core/modules/image/lib/Drupal/image/Plugin/Field/FieldFormatter/ImageFormatterBase.php	cb7cbb94558398160825b0a628e6ebde
+A	core/modules/image/lib/Drupal/image/Plugin/Field/FieldType/ImageItem.php	819df560393f3dffcc323e8abb49cd7e
+A	core/modules/image/lib/Drupal/image/Plugin/Field/FieldWidget/ImageWidget.php	6a474026ba409e62c172117866556778
+D	core/modules/image/lib/Drupal/image/Plugin/field/field_type/ImageItem.php	
+D	core/modules/image/lib/Drupal/image/Plugin/field/formatter/ImageFormatter.php	
+D	core/modules/image/lib/Drupal/image/Plugin/field/formatter/ImageFormatterBase.php	
+D	core/modules/image/lib/Drupal/image/Plugin/field/widget/ImageWidget.php	
+M	core/modules/image/lib/Drupal/image/Tests/ImageAdminStylesTest.php	2f4a45db56e5508e7ab4a5f970f0cae2
+M	core/modules/image/lib/Drupal/image/Tests/ImageFieldDefaultImagesTest.php	52c8525dcafda07ecda33de9f88ba99f
+M	core/modules/image/lib/Drupal/image/Tests/ImageFieldDisplayTest.php	2b4409685195d3bfed90f2d1a9e7ed1f
+M	core/modules/image/lib/Drupal/image/Tests/ImageItemTest.php	8a943da797b27a28e5320116c54d16ce
+M	core/modules/language/config/language.entity.en.yml	664d3ed7c73371632a55b77f2551c582
+M	core/modules/language/config/schema/language.schema.yml	37352333a53c3ff0f39d3b3283bc8424
+M	core/modules/language/language.admin.inc	7bf538206a1dc4d114e4da060c1e990c
+M	core/modules/language/language.api.php	9fc4a824832aa4c6d65023e4332a3a5d
+A	core/modules/language/language.local_tasks.yml	5a4bb11b3cb399ce34373d87acf2ad38
+M	core/modules/language/language.module	aab8a853fce342636c9281c3737bf1b1
+M	core/modules/language/language.negotiation.inc	ccad86a0269acc8c679bc3e3dbdfd7de
+M	core/modules/language/language.routing.yml	4df5823571086dac8903ff66cf8f5f47
+M	core/modules/language/lib/Drupal/language/Entity/Language.php	03e92ef85d406812504dad4a75da6ce4
+M	core/modules/language/lib/Drupal/language/Form/ContentLanguageSettingsForm.php	8418ee7134e516cbeb4812ede2d53fc5
+M	core/modules/language/lib/Drupal/language/Form/LanguageAddForm.php	73a46a2a2564ffd9e7aba8825be749c1
+M	core/modules/language/lib/Drupal/language/Form/LanguageDeleteForm.php	006c334270c19073dea00c9b08047d31
+M	core/modules/language/lib/Drupal/language/Form/LanguageEditForm.php	e867dbdbbd57e734d6b5b27e074047fb
+M	core/modules/language/lib/Drupal/language/Form/NegotiationBrowserDeleteForm.php	8d50287f47bf8a13666c832ba3117048
+M	core/modules/language/lib/Drupal/language/Form/NegotiationBrowserForm.php	3a292e7624aae87db3dbaef6aa3d3c7c
+M	core/modules/language/lib/Drupal/language/Form/NegotiationSessionForm.php	51843dd164fdc4c4c530a16d27ed7981
+M	core/modules/language/lib/Drupal/language/Form/NegotiationUrlForm.php	ae6c8dc4d16e595a4bee1179dd606dbd
+D	core/modules/language/lib/Drupal/language/LanguageConfigContext.php	
+M	core/modules/language/lib/Drupal/language/Plugin/Block/LanguageBlock.php	d0ec1d43bc4b648f404f48818efbd8e5
+M	core/modules/language/lib/Drupal/language/Tests/LanguageBrowserDetectionUnitTest.php	7f2f116c72bfe0479e6cac7fb0bbb9f3
+A	core/modules/language/lib/Drupal/language/Tests/LanguageFallbackTest.php	ad3157cf45f19573ac98c5229013bfe2
+M	core/modules/language/lib/Drupal/language/Tests/LanguageUILanguageNegotiationTest.php	e7f80b32e82293e9aa5885f436192de9
+A	core/modules/language/tests/Drupal/language/Tests/Menu/LanguageLocalTasks.php	4787f3f6d79ed38c9030d58c33add1a6
+M	core/modules/language/tests/language_test/language_test.module	5890502f3ef9b3c656da75cd9ae85675
+M	core/modules/language/tests/language_test/lib/Drupal/language_test/LanguageTestManager.php	7b9d2125e0ee040b4dfa1652c45d3179
+M	core/modules/language/tests/language_test/lib/Drupal/language_test/LanguageTestServiceProvider.php	51219b11b0928c69ec811416571799aa
+A	core/modules/link/lib/Drupal/link/Plugin/Field/FieldFormatter/LinkFormatter.php	fc8ee21848fc3843395a9cb4623b0b63
+A	core/modules/link/lib/Drupal/link/Plugin/Field/FieldFormatter/LinkSeparateFormatter.php	808c8c30a5447eb07e3ce720838b14f6
+A	core/modules/link/lib/Drupal/link/Plugin/Field/FieldType/LinkItem.php	d8a30dc84dcf7bc34019f036b8961bed
+A	core/modules/link/lib/Drupal/link/Plugin/Field/FieldWidget/LinkWidget.php	3ec04cac9aa6167c8818b2e592e02112
+D	core/modules/link/lib/Drupal/link/Plugin/field/field_type/LinkItem.php	
+D	core/modules/link/lib/Drupal/link/Plugin/field/formatter/LinkFormatter.php	
+D	core/modules/link/lib/Drupal/link/Plugin/field/formatter/LinkSeparateFormatter.php	
+D	core/modules/link/lib/Drupal/link/Plugin/field/widget/LinkWidget.php	
+M	core/modules/link/lib/Drupal/link/Tests/LinkItemTest.php	b0cfe842e3298969aea727423ea35aa2
+M	core/modules/locale/lib/Drupal/locale/Form/LocaleSettingsForm.php	9ce8a8bad891b71aa87b519f4c3a2d24
+M	core/modules/locale/lib/Drupal/locale/Form/TranslateEditForm.php	cb646e96dc1147139c017565ada07d19
+M	core/modules/locale/lib/Drupal/locale/Form/TranslateFilterForm.php	a24152616b70826cc27fd86acaf2eb51
+M	core/modules/locale/lib/Drupal/locale/Tests/LocaleConfigTranslationTest.php	1cf90f4ea16c7a208da1341866430b47
+M	core/modules/locale/locale.bulk.inc	b81dd898fa174ea576c01c72f862b9b4
+M	core/modules/locale/locale.install	a715cb6404b0dccf85ba59fc0f966b98
+A	core/modules/locale/locale.local_tasks.yml	1096c125e9ce9afc0449f0470b0b1ac2
+M	core/modules/locale/locale.module	2ea899d808450c9a386a60f3fd7705a1
+A	core/modules/locale/tests/Drupal/locale/Tests/Menu/LocaleLocalTasksTest.php	739df78c2c172a4af942f819362a687f
+M	core/modules/menu/lib/Drupal/menu/Controller/MenuController.php	ce3bab0ce7bcecb94b48c676da5636ff
+M	core/modules/menu/lib/Drupal/menu/Form/MenuDeleteForm.php	5db902ad58df5afebfd675d069cad9ef
+M	core/modules/menu/lib/Drupal/menu/Form/MenuLinkDeleteForm.php	72fb1b9069527cbbd0c1e239062cc629
+M	core/modules/menu/lib/Drupal/menu/Form/MenuLinkResetForm.php	649669928af3d85e7b5898577ad1aea4
+M	core/modules/menu/lib/Drupal/menu/MenuFormController.php	4eb143380859c2cbcf4f16ee4f6ef7e2
+M	core/modules/menu/lib/Drupal/menu/Tests/MenuTest.php	aa03c3551aac27a2264c15239c0b4450
+A	core/modules/menu/menu.contextual_links.yml	67173ab8eab1a98d8e1efe290337963c
+M	core/modules/menu/menu.local_actions.yml	359d299ce89c2cb8a155c2a3d58d0545
+A	core/modules/menu/menu.local_tasks.yml	9423fb2d639394ce18658195ddebae8b
+M	core/modules/menu/menu.module	3470168646db6935d3a77956ca711934
+M	core/modules/menu_link/lib/Drupal/menu_link/Entity/MenuLink.php	0ef172e4ea8f2f8337913df4ce75edef
+M	core/modules/menu_link/lib/Drupal/menu_link/MenuLinkFormController.php	6d59e74d5561525b208f3d1bd5079bce
+M	core/modules/menu_link/menu_link.api.php	49958121769e1148c53e7b7a07c831bf
+M	core/modules/menu_link/menu_link.module	8aa1cce29f8235ed5680d83b1df09991
+M	core/modules/node/lib/Drupal/node/Access/NodeAddAccessCheck.php	b791458b347f7454a9864c13ebcc4902
+M	core/modules/node/lib/Drupal/node/Access/NodeRevisionAccessCheck.php	a860e503dc71d271abce068e52f0b63a
+M	core/modules/node/lib/Drupal/node/Controller/NodeController.php	b842440e3a3a5244e92d7f1a49b507fa
+M	core/modules/node/lib/Drupal/node/Entity/Node.php	6b10ea46e195dd66b07156f2581f5e6e
+M	core/modules/node/lib/Drupal/node/Entity/NodeType.php	ffe7a8e9cebdbad115740927ab605580
+M	core/modules/node/lib/Drupal/node/Form/DeleteMultiple.php	081aae3e29342e9ab3d1dd75a148ee29
+M	core/modules/node/lib/Drupal/node/Form/NodeDeleteForm.php	976b20a366066db73a03aca6abee5cd8
+M	core/modules/node/lib/Drupal/node/Form/NodeRevisionDeleteForm.php	4ea4193d86a124f56deec2400e43a449
+M	core/modules/node/lib/Drupal/node/Form/NodeRevisionRevertForm.php	291cf780956a948e840d8e3ab8635b8e
+M	core/modules/node/lib/Drupal/node/Form/NodeTypeDeleteConfirm.php	83838e4769b0b567b1b8ef92b7ae0eb0
+M	core/modules/node/lib/Drupal/node/Form/RebuildPermissionsForm.php	c3e2303ebbc490d5fc61dd36a1ea699b
+M	core/modules/node/lib/Drupal/node/NodeFormController.php	5f496d1f09a89de1b02b4875151245d6
+D	core/modules/node/lib/Drupal/node/NodeRenderController.php	
+M	core/modules/node/lib/Drupal/node/NodeTypeFormController.php	e2c7e2ef05e9a067a1bd3a6eb0aba601
+A	core/modules/node/lib/Drupal/node/NodeViewBuilder.php	26ffd5001da1b972f79373fa4ccb8519
+M	core/modules/node/lib/Drupal/node/Plugin/Block/RecentContentBlock.php	981bca51b9cc2f2e06d77e111500d196
+M	core/modules/node/lib/Drupal/node/Plugin/Block/SyndicateBlock.php	883c4985c0d7518615e875812ee5b5eb
+M	core/modules/node/lib/Drupal/node/Plugin/Search/NodeSearch.php	229b5ae02e2ce8876291898b8b2d8701
+M	core/modules/node/lib/Drupal/node/Plugin/views/field/NodeBulkForm.php	54efab2b9156de2ce4fbbbcc8e49da0a
+M	core/modules/node/lib/Drupal/node/Tests/Config/NodeImportCreateTest.php	ad2180b30879f19dc230f801b3a9c5b3
+M	core/modules/node/lib/Drupal/node/Tests/NodeAccessPagerTest.php	3477924ef384c1dbe571b2d31c536e5c
+M	core/modules/node/lib/Drupal/node/Tests/NodeTranslationUITest.php	aa5bdd9eb9e4b3dca54a4da4ab42ad34
+M	core/modules/node/lib/Drupal/node/Tests/NodeTypeInitialLanguageTest.php	6d23a99a8e5b3489851f4f6c247161d1
+M	core/modules/node/lib/Drupal/node/Tests/SummaryLengthTest.php	90fa5a8d65706392d998366d6e4ff9ab
+M	core/modules/node/lib/Drupal/node/Tests/Views/NodeContextualLinksTest.php	5a212f13df40f4f933ef4add18b4ab4b
+M	core/modules/node/node.api.php	540b427a84e22a1bc028378277bea095
+A	core/modules/node/node.contextual_links.yml	4eefc20b41efc4a54bd97e42cd385977
+M	core/modules/node/node.install	72b362479ce03e3aec2616fb30e4b603
+A	core/modules/node/node.local_actions.yml	f2cf724732a1639e9278a2a61fe5d7b0
+A	core/modules/node/node.local_tasks.yml	eb77d21fbc0116cb959180712985ac33
+M	core/modules/node/node.module	4c4069fc2ae781ef9b8d6d9a11bfd5ab
+M	core/modules/node/node.pages.inc	62e54b63fa5f8a15768920b064775a3c
+M	core/modules/node/node.routing.yml	196cba6997124919ac843ca72218a1f8
+M	core/modules/node/node.tokens.inc	13beb37dde0c02fe9145ffc2ee240242
+M	core/modules/node/tests/Drupal/node/Tests/Plugin/views/field/NodeBulkFormTest.php	070e30fda3dc0818cbd44b5147e33b82
+A	core/modules/number/lib/Drupal/number/Plugin/Field/FieldFormatter/DefaultNumberFormatter.php	cdeccae31d37307cf4ee34bb2a188421
+A	core/modules/number/lib/Drupal/number/Plugin/Field/FieldFormatter/NumberDecimalFormatter.php	9ba9d060b2f85a8dfdc89918d7f26fe3
+A	core/modules/number/lib/Drupal/number/Plugin/Field/FieldFormatter/NumberIntegerFormatter.php	93883ac19d3a35dd25f3ef49b32f688f
+A	core/modules/number/lib/Drupal/number/Plugin/Field/FieldFormatter/NumberUnformattedFormatter.php	95ec957dc1c4c1de575a99301d6bae5f
+A	core/modules/number/lib/Drupal/number/Plugin/Field/FieldType/DecimalItem.php	d4b9251372520d89bc04548b82efdcce
+A	core/modules/number/lib/Drupal/number/Plugin/Field/FieldType/FloatItem.php	8cf5ada3a22fd67e2f9c10049e145857
+A	core/modules/number/lib/Drupal/number/Plugin/Field/FieldType/IntegerItem.php	e9714584c3b22950fdbd00454e0e21ed
+A	core/modules/number/lib/Drupal/number/Plugin/Field/FieldType/NumberItemBase.php	b20f043763c1014aaac767fa6cf2f948
+A	core/modules/number/lib/Drupal/number/Plugin/Field/FieldWidget/NumberWidget.php	197765682ede366f6b78daf339138115
+D	core/modules/number/lib/Drupal/number/Plugin/field/field_type/DecimalItem.php	
+D	core/modules/number/lib/Drupal/number/Plugin/field/field_type/FloatItem.php	
+D	core/modules/number/lib/Drupal/number/Plugin/field/field_type/IntegerItem.php	
+D	core/modules/number/lib/Drupal/number/Plugin/field/field_type/NumberItemBase.php	
+D	core/modules/number/lib/Drupal/number/Plugin/field/formatter/DefaultNumberFormatter.php	
+D	core/modules/number/lib/Drupal/number/Plugin/field/formatter/NumberDecimalFormatter.php	
+D	core/modules/number/lib/Drupal/number/Plugin/field/formatter/NumberIntegerFormatter.php	
+D	core/modules/number/lib/Drupal/number/Plugin/field/formatter/NumberUnformattedFormatter.php	
+D	core/modules/number/lib/Drupal/number/Plugin/field/widget/NumberWidget.php	
+M	core/modules/number/lib/Drupal/number/Tests/NumberItemTest.php	f4ecac4f53ef1d92a8fed496626e61da
+A	core/modules/options/lib/Drupal/options/Plugin/Field/FieldFormatter/OptionsDefaultFormatter.php	4ef79434bf137529c45535cac47fa12a
+A	core/modules/options/lib/Drupal/options/Plugin/Field/FieldFormatter/OptionsKeyFormatter.php	0b4173d8eaee273e6f8960bcbe0f7a91
+A	core/modules/options/lib/Drupal/options/Plugin/Field/FieldWidget/ButtonsWidget.php	74437b15a38f85157471e74d73b39b5a
+A	core/modules/options/lib/Drupal/options/Plugin/Field/FieldWidget/OnOffWidget.php	f6f54ad364a09a2d87ea4160bb4aeb22
+A	core/modules/options/lib/Drupal/options/Plugin/Field/FieldWidget/OptionsWidgetBase.php	eb00ab9674aec55d335502a3ddb93637
+A	core/modules/options/lib/Drupal/options/Plugin/Field/FieldWidget/SelectWidget.php	67ac30e005bb28ab249ab2befba9ae8a
+D	core/modules/options/lib/Drupal/options/Plugin/field/formatter/OptionsDefaultFormatter.php	
+D	core/modules/options/lib/Drupal/options/Plugin/field/formatter/OptionsKeyFormatter.php	
+D	core/modules/options/lib/Drupal/options/Plugin/field/widget/ButtonsWidget.php	
+D	core/modules/options/lib/Drupal/options/Plugin/field/widget/OnOffWidget.php	
+D	core/modules/options/lib/Drupal/options/Plugin/field/widget/OptionsWidgetBase.php	
+D	core/modules/options/lib/Drupal/options/Plugin/field/widget/SelectWidget.php	
+M	core/modules/options/lib/Drupal/options/Type/ListFloatItem.php	5486c8787864a81abc0615e452e4e7e7
+M	core/modules/options/lib/Drupal/options/Type/ListIntegerItem.php	fa6c697976401fa00e434970071c7792
+M	core/modules/options/lib/Drupal/options/Type/ListTextItem.php	cb7672e92c4e714dfe83518d993d43f3
+M	core/modules/options/options.api.php	6a0eba87510333d7f11a32e319064dca
+M	core/modules/options/options.module	99f617dd8f852accf48703d9b866e3b8
+M	core/modules/options/tests/options_test.module	e2d1785f3ed1bb072aed56a49a06c94d
+M	core/modules/overlay/css/overlay-child.css	cd7e3327da8f2c64559787a4284acc42
+M	core/modules/overlay/lib/Drupal/overlay/Access/DismissMessageAccessCheck.php	d10971aa24b758f158d168e760cdd451
+M	core/modules/overlay/overlay-parent.js	12531fc0378b0ab43b5307f27c6a3c6d
+M	core/modules/overlay/templates/overlay.html.twig	b6ed0db35bde6fea076337b868da4977
+A	core/modules/path/lib/Drupal/path/Plugin/Field/FieldType/PathItem.php	56e056a262ad5ca4a5a833c94cba8386
+D	core/modules/path/lib/Drupal/path/Plugin/field/field_type/PathItem.php	
+M	core/modules/path/path.admin.inc	d3485385d1b59a5108f517af0b485fc0
+A	core/modules/path/path.local_actions.yml	5a7d3310e443d98e1f8fee31ad7aac15
+M	core/modules/path/path.module	523ff52aea3204e9f88df5b73d225a36
+M	core/modules/picture/lib/Drupal/picture/Entity/PictureMapping.php	c11bd38ba119cf0ca9605e5ce0680a62
+M	core/modules/picture/lib/Drupal/picture/Form/PictureMappingDeleteForm.php	6940fecf3c844e5ebbce22f461da2f3d
+M	core/modules/picture/lib/Drupal/picture/PictureMappingFormController.php	4e8990e8099be05121c6584f1138726c
+A	core/modules/picture/lib/Drupal/picture/Plugin/Field/FieldFormatter/PictureFormatter.php	95f78452265d59be55779ca79bbf7670
+D	core/modules/picture/lib/Drupal/picture/Plugin/field/formatter/PictureFormatter.php	
+A	core/modules/picture/picture.local_actions.yml	89fede7f499d039e9168abb7170922e8
+M	core/modules/picture/picture.module	617fe08a717ccbe7350865ac048bcd37
+A	core/modules/rdf/config/schema/rdf.data_types.yml	ad5e749aabfa7b409a068f77aeede026
+A	core/modules/rdf/config/schema/rdf.schema.yml	fd0531e31ecf323e4a9cb011ca772af1
+M	core/modules/rdf/lib/Drupal/rdf/Entity/RdfMapping.php	52cfdd703fef430e65b9b798ffb8416b
+M	core/modules/rdf/lib/Drupal/rdf/Tests/Field/FieldRdfaDatatypeCallbackTest.php	d544f6e1c3a81ddd5953135429da856a
+M	core/modules/rdf/lib/Drupal/rdf/Tests/Field/FieldRdfaTestBase.php	4c22d329f5f16ca58602aa7514252970
+M	core/modules/rdf/lib/Drupal/rdf/Tests/Field/TaxonomyTermReferenceRdfaTest.php	ceb2345164a85fb000a950a01bff106c
+D	core/modules/rdf/lib/Drupal/rdf/Tests/RdfMappingUpgradePathTest.php	
+M	core/modules/rdf/lib/Drupal/rdf/Tests/TaxonomyTermFieldAttributesTest.php	04c97bd462e6dff23349205a7dc6acdd
+M	core/modules/rdf/tests/rdf_test_namespaces/rdf_test_namespaces.info.yml	61c77bb9b8de105fdaa0f3eae72107ff
+M	core/modules/rest/lib/Drupal/rest/Access/CSRFAccessCheck.php	794cfd7bdd4c72514edd3398d04cb94b
+M	core/modules/rest/lib/Drupal/rest/Plugin/Derivative/EntityDerivative.php	726334c06f047ea5fb87a83f3a7739e0
+M	core/modules/search/config/entity.view_mode.node.search_index.yml	ff8b9a306f888d3863cc1a9acb1b5b04
+M	core/modules/search/config/entity.view_mode.node.search_result.yml	1ffe718d3d2e63c8689e3b3b13314418
+M	core/modules/search/lib/Drupal/search/Access/SearchAccessCheck.php	ca7359a749884a42348024d4add8bf98
+M	core/modules/search/lib/Drupal/search/Access/SearchPluginAccessCheck.php	b6a0bcaef756f22eb4c2085b13af02e5
+M	core/modules/search/lib/Drupal/search/Controller/SearchController.php	7559b09540cc61c12d4e74d716b0c9a2
+M	core/modules/search/lib/Drupal/search/Form/ReindexConfirm.php	0ba2f61b6ab0592c5a50a8668cae7649
+M	core/modules/search/lib/Drupal/search/Form/SearchBlockForm.php	48ab830ad2065b781c70b8219726331e
+A	core/modules/search/lib/Drupal/search/Form/SearchForm.php	d819e9446935365a613b94b673fddc98
+M	core/modules/search/lib/Drupal/search/Form/SearchSettingsForm.php	60dc069d9be965dbff8a9a2329668a74
+M	core/modules/search/lib/Drupal/search/Plugin/Block/SearchBlock.php	785f48cf77eff3bffadc762671f61ff4
+M	core/modules/search/lib/Drupal/search/Plugin/SearchInterface.php	70d37985d3fd0cd1467c05c152afe3d2
+M	core/modules/search/lib/Drupal/search/Routing/SearchRouteSubscriber.php	3f74b9256b905823de3bb4224c3eec92
+M	core/modules/search/lib/Drupal/search/Tests/SearchCommentCountToggleTest.php	b6f35fe6731e93ac879e89b4bd855860
+D	core/modules/search/lib/Drupal/search/Tests/SearchUpgradePathTest.php	
+M	core/modules/search/search.module	0192e51ed5e1ae7c2f0cd2834d940381
+M	core/modules/search/search.pages.inc	45b7a8115a8a2e06305a76cf2d45d64a
+M	core/modules/search/search.routing.yml	3401ce0183cb5f5af583754df35f31d8
+M	core/modules/search/tests/modules/search_embedded_form/config/search_embedded_form.settings.yml	40362224c653814b592e43fb5e17ec02
+M	core/modules/serialization/lib/Drupal/serialization/Tests/EntitySerializationTest.php	c4219dcff88d6cb581f0851f0733fe0b
+M	core/modules/serialization/serialization.info.yml	f647a64083e3f1bbe95c401c770d8042
+M	core/modules/serialization/tests/serialization_test/serialization_test.info.yml	a1969ecf42755ef465ffb7be7b06c048
+M	core/modules/shortcut/lib/Drupal/shortcut/Access/LinkAccessCheck.php	1d0cbfe78d0bf8ea6b4c003d3d03f20a
+M	core/modules/shortcut/lib/Drupal/shortcut/Access/ShortcutSetEditAccessCheck.php	0f7a66eb35b29335f75453c77a738474
+M	core/modules/shortcut/lib/Drupal/shortcut/Access/ShortcutSetSwitchAccessCheck.php	8ce6119d726ea927cf9f00de7f379ea5
+M	core/modules/shortcut/lib/Drupal/shortcut/Controller/ShortcutSetController.php	5287b309dddc473f4f4e9fe08ac01285
+M	core/modules/shortcut/lib/Drupal/shortcut/Entity/ShortcutSet.php	cac3a56984a944131490397239ff8572
+M	core/modules/shortcut/lib/Drupal/shortcut/Form/LinkDelete.php	66f12d8f5f0dd8047e3070ff336c343c
+M	core/modules/shortcut/lib/Drupal/shortcut/Form/ShortcutSetDeleteForm.php	c312d9e621a5f982f6bfaa87afffa473
+M	core/modules/shortcut/lib/Drupal/shortcut/Plugin/Block/ShortcutsBlock.php	373ab51bb7c621a9bc334ff67f20e004
+M	core/modules/shortcut/lib/Drupal/shortcut/ShortcutSetFormController.php	1bbbd8d6a7f04ac1d8e43cbfa518d938
+M	core/modules/shortcut/shortcut.admin.inc	76064b7fb41f7cf3977b03d1a0a63271
+M	core/modules/shortcut/shortcut.local_actions.yml	6dfd600a08448a3be44020741680c3e4
+A	core/modules/shortcut/shortcut.local_tasks.yml	5b1eb916d29541861c3f843a7130a123
+M	core/modules/shortcut/shortcut.module	38f40023ac0d5f682bff44b70c3e1c95
+M	core/modules/shortcut/shortcut.routing.yml	9f2b591c7e022c9ecbd3aeb4f30633ad
+A	core/modules/shortcut/tests/Drupal/shortcut/Tests/Menu/ShortcutLocalTasksTest.php	35857ff3ea14b6855a139e16ab215a59
+M	core/modules/simpletest/lib/Drupal/simpletest/DrupalUnitTestBase.php	2ceb9422e5be931063b9a9a8f294c86a
+M	core/modules/simpletest/lib/Drupal/simpletest/Form/SimpletestResultsForm.php	56d2f2014fcb2fc5b99e39b10ba13be6
+M	core/modules/simpletest/lib/Drupal/simpletest/Form/SimpletestTestForm.php	7db60f9aa2f92a3c71dfcef4faa085e4
+M	core/modules/simpletest/lib/Drupal/simpletest/TestBase.php	78599009d8a863aa4e72aa0fa6995443
+M	core/modules/simpletest/lib/Drupal/simpletest/UnitTestBase.php	966f1f649129000b0955e2cc7aea28b4
+M	core/modules/simpletest/lib/Drupal/simpletest/WebTestBase.php	bcffbafe89e38d8a33039e68b61d9ace
+M	core/modules/simpletest/simpletest.module	e5ba1b9f18d17d56942cd168db80dd2b
+M	core/modules/statistics/lib/Drupal/statistics/Plugin/Block/StatisticsPopularBlock.php	22de8760f5fef9c3691c9e375488cbca
+M	core/modules/syslog/syslog.module	b3bdb4b7a7887b2918f72ac09b46831f
+M	core/modules/system/config/schema/system.data_types.schema.yml	1827a507dd64fc39d51416e09543fc50
+M	core/modules/system/config/schema/system.schema.yml	6374bc821f2d30ffff6508138770f89c
+M	core/modules/system/config/system.date_format.fallback.yml	0382f32a5c3df0f058c4fac16fabc2b4
+M	core/modules/system/config/system.date_format.html_date.yml	051fe17bd74d84238186532eb0f8d27d
+M	core/modules/system/config/system.date_format.html_datetime.yml	2a9399daadf4202462a51fccf74211eb
+M	core/modules/system/config/system.date_format.html_month.yml	801451e7576779b2f8eb1f5c02c726b6
+M	core/modules/system/config/system.date_format.html_time.yml	6ec65803c88b370237d15fb581857b85
+M	core/modules/system/config/system.date_format.html_week.yml	1d1991037996b132cde000d3d9d324e3
+M	core/modules/system/config/system.date_format.html_year.yml	68b641001c51bd0e21e8298d737ff159
+M	core/modules/system/config/system.date_format.html_yearless_date.yml	1cdc2d0f4b563f79db18f4e3d05257ae
+M	core/modules/system/config/system.date_format.long.yml	7b2f7ce5b78259bd5cf1e83a5bccb2eb
+M	core/modules/system/config/system.date_format.medium.yml	17fbdcd0688278b667ff7bafd3ade351
+M	core/modules/system/config/system.date_format.short.yml	5c693fc506d9a3243964bab16a751970
+M	core/modules/system/css/system.admin.css	c49de77759c64e424fd80e50a53cee67
+M	core/modules/system/css/system.module.css	d8ed9fe5162076b28ccb3095a64806cf
+M	core/modules/system/entity.api.php	548e6245a161e787e7678dcf2e893cd4
+M	core/modules/system/language.api.php	d911152d4379285cd5ad9d2e8e1c08aa
+M	core/modules/system/lib/Drupal/system/Access/CronAccessCheck.php	40b022a4c2aca0fc43b8acb76c6e7fa9
+D	core/modules/system/lib/Drupal/system/Controller/DateFormatLanguageController.php	
+M	core/modules/system/lib/Drupal/system/DateFormatInterface.php	d1386fda1b6f0d86730fb7962cf7e3c4
+M	core/modules/system/lib/Drupal/system/Entity/Action.php	4cca00cdba7c280314645cba6330cbfa
+M	core/modules/system/lib/Drupal/system/Entity/DateFormat.php	0b55c6e7b05c513554db55b23522308b
+M	core/modules/system/lib/Drupal/system/Entity/Menu.php	893d91c9382baa481afbb8f6d1eb4f8f
+M	core/modules/system/lib/Drupal/system/Form/DateFormatDeleteForm.php	be8153eea7e2cc95adbf6f28653df81c
+M	core/modules/system/lib/Drupal/system/Form/DateFormatFormBase.php	f63b05b03c9cb76a459a434e6bdaf1db
+D	core/modules/system/lib/Drupal/system/Form/DateFormatLocalizeResetForm.php	
+M	core/modules/system/lib/Drupal/system/Form/ModulesListConfirmForm.php	0572b8e264b1fc0cf390970de94744e4
+M	core/modules/system/lib/Drupal/system/Form/ModulesListForm.php	7b3a24cd297710da421aaf48223a4d5e
+M	core/modules/system/lib/Drupal/system/Form/ModulesUninstallConfirmForm.php	66d3078c9c9b040d3543a0c4c5122ff9
+M	core/modules/system/lib/Drupal/system/Form/ModulesUninstallForm.php	9ef45de3f9fd0260931964300d5a8b96
+D	core/modules/system/lib/Drupal/system/Form/SystemForm.php	
+M	core/modules/system/lib/Drupal/system/Form/ThemeSettingsForm.php	da2883970d8d6df830abd3c4b67161e7
+M	core/modules/system/lib/Drupal/system/PathBasedBreadcrumbBuilder.php	86aed481c005952788729c68608fd14a
+M	core/modules/system/lib/Drupal/system/Plugin/Block/SystemHelpBlock.php	a00c3127a716e8603351d9b64f757130
+M	core/modules/system/lib/Drupal/system/Plugin/Block/SystemMenuBlock.php	55aa9efee097f80502a70cb9a16e882f
+A	core/modules/system/lib/Drupal/system/Plugin/Derivative/ThemeLocalTask.php	08ed2c9890fbca1275d5c4ab20566d2e
+M	core/modules/system/lib/Drupal/system/Plugin/views/field/BulkFormBase.php	92d54060def40fec408fcd42b7d147b6
+D	core/modules/system/lib/Drupal/system/Routing/RouteSubscriber.php	
+M	core/modules/system/lib/Drupal/system/SystemManager.php	caf3f486bc4f3460d7d78cbb4a000202
+M	core/modules/system/lib/Drupal/system/Tests/Ajax/DialogTest.php	4922f87c7e6013a2ff64b66a95c6fa1e
+M	core/modules/system/lib/Drupal/system/Tests/Ajax/MultiFormTest.php	0d4a8e3cffee734fa689df9dc6018e25
+M	core/modules/system/lib/Drupal/system/Tests/Bootstrap/PageCacheTest.php	4053e715e4278fb0c29fe9ff768728ef
+M	core/modules/system/lib/Drupal/system/Tests/Common/AddFeedTest.php	ee7d3a7208ac4cd98053d743310d068e
+A	core/modules/system/lib/Drupal/system/Tests/Common/MergeAttachmentsTest.php	d4e71dc751243da1d7f05f5032ef5109
+A	core/modules/system/lib/Drupal/system/Tests/Common/NoJavaScriptAnonymousTest.php	9a10f6d34c0b8af4c5f89b7c7de58b28
+D	core/modules/system/lib/Drupal/system/Tests/Common/ParseInfoFileUnitTest.php	
+M	core/modules/system/lib/Drupal/system/Tests/Common/RenderTest.php	914b487f009a54a74a599222aacb8ea7
+A	core/modules/system/lib/Drupal/system/Tests/Common/RenderWebTest.php	6d79445448dcedab3660f3b3438420f1
+M	core/modules/system/lib/Drupal/system/Tests/Entity/EntityFieldTest.php	ae7fe7dadb673db5109953ade0801c67
+M	core/modules/system/lib/Drupal/system/Tests/Entity/EntityManagerTest.php	d5f9c2ba50bdad8d077f08408a4dcb06
+D	core/modules/system/lib/Drupal/system/Tests/Entity/EntityRenderTest.php	
+M	core/modules/system/lib/Drupal/system/Tests/Entity/EntityTranslationTest.php	e8d9abeec337bdf65737afd0f9d84f1a
+M	core/modules/system/lib/Drupal/system/Tests/Entity/EntityUnitTestBase.php	4650894d16c95c887fd6daca84ad8ba6
+M	core/modules/system/lib/Drupal/system/Tests/Entity/EntityUriTest.php	41ad0b339951c84ce09d58ba4e024319
+M	core/modules/system/lib/Drupal/system/Tests/Entity/EntityValidationTest.php	97aa5a90f12c02e1b6d610e323e17c40
+A	core/modules/system/lib/Drupal/system/Tests/Entity/EntityViewBuilderTest.php	668fbb8b656cf35d8d5f0c6b444528bd
+M	core/modules/system/lib/Drupal/system/Tests/Entity/EntityViewControllerTest.php	776e670f8e8c3378d5ffcdd335c9225f
+A	core/modules/system/lib/Drupal/system/Tests/Extension/InfoParserUnitTest.php	fb90f10da84d4bcb52d178792e9db398
+M	core/modules/system/lib/Drupal/system/Tests/Form/FormCacheTest.php	904d4fa26a4646d85dcd2017334504ec
+M	core/modules/system/lib/Drupal/system/Tests/Form/RebuildTest.php	2ab0cfb4713a430c3f6f20e14d17e968
+M	core/modules/system/lib/Drupal/system/Tests/Menu/LocalActionTest.php	11e194696ee60c33e1ea20bdb14c077c
+M	core/modules/system/lib/Drupal/system/Tests/Menu/MenuRouterTest.php	d6015014364c0922114d3b962f8cff45
+M	core/modules/system/lib/Drupal/system/Tests/Routing/RouteProviderTest.php	5359b670ae407def29fd8085a867b18c
+M	core/modules/system/lib/Drupal/system/Tests/Routing/RoutingFixtures.php	50504a7e4095c75e1b288230887208fa
+D	core/modules/system/lib/Drupal/system/Tests/System/DateFormatsLanguageTest.php	
+A	core/modules/system/lib/Drupal/system/Tests/System/DateFormatsMachineNameTest.php	d893a22db0e12afb0aa0fec5b2369499
+M	core/modules/system/lib/Drupal/system/Tests/System/DateTimeTest.php	018df878773f784e7415abb0f263d533
+M	core/modules/system/lib/Drupal/system/Tests/System/SettingsRewriteTest.php	a046a37cc1d3ba4d98ddd3f0725bb268
+M	core/modules/system/lib/Drupal/system/Tests/Theme/FunctionsTest.php	5a565c92301f44bca16ab7d6859aaa9e
+M	core/modules/system/lib/Drupal/system/Tests/Theme/RegistryTest.php	c9e76d7abe1ccd78174400466eca82c8
+M	core/modules/system/lib/Drupal/system/Tests/Theme/ThemeTest.php	c3050cfd68a3329ea46a720c41b16d51
+M	core/modules/system/lib/Drupal/system/Tests/Theme/TwigDebugMarkupTest.php	0872d38093763c55973d11fa6e99d071
+M	core/modules/system/lib/Drupal/system/Tests/Theme/TwigSettingsTest.php	7a1185db655eb0c992df723cb2d66edd
+D	core/modules/system/lib/Drupal/system/Tests/Upgrade/ActionUpgradePathTest.php	
+D	core/modules/system/lib/Drupal/system/Tests/Upgrade/BareMinimalAnonymousUpgradePathTest.php	
+D	core/modules/system/lib/Drupal/system/Tests/Upgrade/BareMinimalNoConfigUpgradePathTest.php	
+D	core/modules/system/lib/Drupal/system/Tests/Upgrade/BareMinimalUpgradePathTest.php	
+D	core/modules/system/lib/Drupal/system/Tests/Upgrade/BareStandardUpgradePathTest.php	
+D	core/modules/system/lib/Drupal/system/Tests/Upgrade/BlockUpgradePathTest.php	
+D	core/modules/system/lib/Drupal/system/Tests/Upgrade/CommentUpgradePathTest.php	
+D	core/modules/system/lib/Drupal/system/Tests/Upgrade/DateUpgradePathTest.php	
+D	core/modules/system/lib/Drupal/system/Tests/Upgrade/ExistingModuleNameLengthUpgradePathTest.php	
+D	core/modules/system/lib/Drupal/system/Tests/Upgrade/FieldUIUpgradePathTest.php	
+D	core/modules/system/lib/Drupal/system/Tests/Upgrade/FieldUpgradePathTest.php	
+D	core/modules/system/lib/Drupal/system/Tests/Upgrade/FilledMinimalUpgradePathTest.php	
+D	core/modules/system/lib/Drupal/system/Tests/Upgrade/FilledStandardUpgradePathTest.php	
+D	core/modules/system/lib/Drupal/system/Tests/Upgrade/FilterFormatUpgradePathTest.php	
+D	core/modules/system/lib/Drupal/system/Tests/Upgrade/ForumUpgradePathTest.php	
+D	core/modules/system/lib/Drupal/system/Tests/Upgrade/ImageUpgradePathTest.php	
+D	core/modules/system/lib/Drupal/system/Tests/Upgrade/LanguageUpgradePathTest.php	
+D	core/modules/system/lib/Drupal/system/Tests/Upgrade/MailUpgradePathTest.php	
+D	core/modules/system/lib/Drupal/system/Tests/Upgrade/ModuleNameLengthUpgradePathTest.php	
+D	core/modules/system/lib/Drupal/system/Tests/Upgrade/ModulesDisabledUpgradePathTest.php	
+D	core/modules/system/lib/Drupal/system/Tests/Upgrade/ShortcutUpgradePathTest.php	
+D	core/modules/system/lib/Drupal/system/Tests/Upgrade/StateSystemUpgradePathTest.php	
+D	core/modules/system/lib/Drupal/system/Tests/Upgrade/SystemUpgradePathTest.php	
+D	core/modules/system/lib/Drupal/system/Tests/Upgrade/UpgradePathTestBase.php	
+D	core/modules/system/lib/Drupal/system/Tests/Upgrade/UserPermissionUpgradePathTest.php	
+D	core/modules/system/lib/Drupal/system/Tests/Upgrade/UserPictureUpgradePathTest.php	
+D	core/modules/system/lib/Drupal/system/Tests/Upgrade/UserRoleUpgradePathTest.php	
+D	core/modules/system/lib/Drupal/system/Tests/Upgrade/UuidUpgradePathTest.php	
+M	core/modules/system/system.admin.inc	ea504aa82856cc41f11cb55f2028063e
+M	core/modules/system/system.api.php	815a60eff3a18af1ae1fab1b08b77cd3
+A	core/modules/system/system.config_translation.yml	3347cc936402f4004b21b298e19063aa
+M	core/modules/system/system.install	1724cace596189ef7eb965e79227d431
+A	core/modules/system/system.local_actions.yml	4013eb55a06d224a5ae03c4fad0c78fd
+M	core/modules/system/system.local_tasks.yml	e8ea4f7b2b5216f9d8738a5b5e6cef3e
+M	core/modules/system/system.module	3f7cf5538ee85439ae09db60c311db7d
+M	core/modules/system/system.routing.yml	235c705cf2ceb40772127c06fdb5d31b
+M	core/modules/system/system.services.yml	12d3b518c8992a08081ee36cc676c5d9
+M	core/modules/system/templates/html.html.twig	0b88927c4099c2201d92f5641979bd74
+M	core/modules/system/templates/status-messages.html.twig	8f986ec9946cf93674df422e02e056eb
+D	core/modules/system/tests/common_test_info.txt	
+A	core/modules/system/tests/fixtures/broken.info.txt	0fb6e0bc9cc8701c588cd69d87247944
+A	core/modules/system/tests/fixtures/common_test.info.txt	ebaac3091b5eb0de4b65b07ee19710f9
+A	core/modules/system/tests/fixtures/missing_key.info.txt	c8a1ad41346ff6a3d7633dcbaf1a1510
+A	core/modules/system/tests/fixtures/missing_keys.info.txt	4e694d9f4231dc48718554e3865674d8
+M	core/modules/system/tests/modules/ajax_test/ajax_test.module	198b8923f2979215036f43d63903ae16
+M	core/modules/system/tests/modules/batch_test/batch_test.module	8aa9b65f17042244857ddcd12569f3d8
+M	core/modules/system/tests/modules/batch_test/lib/Drupal/batch_test/Controller/BatchTestController.php	0778af260a3070e054cfbb1d80619b31
+M	core/modules/system/tests/modules/common_test/common_test.module	4ae71009d40e96a55c39e3c6aeeb3d9a
+M	core/modules/system/tests/modules/entity_cache_test_dependency/lib/Drupal/entity_cache_test_dependency/Entity/EntityCacheTest.php	b7621175558a421a200e69e9bb3dc02d
+A	core/modules/system/tests/modules/entity_test/config/entity.view_mode.entity_test.full.yml	344b50fdad0bed2e57a52346474f43f3
+A	core/modules/system/tests/modules/entity_test/config/entity.view_mode.entity_test.test.yml	d376fa1793633e613deec4022b63ad83
+D	core/modules/system/tests/modules/entity_test/config/entity.view_mode.entity_test_render.full.yml	
+D	core/modules/system/tests/modules/entity_test/config/entity.view_mode.entity_test_render.test.yml	
+A	core/modules/system/tests/modules/entity_test/entity_test.local_tasks.yml	e6230abf3e68665b3738bc0a613b00b2
+M	core/modules/system/tests/modules/entity_test/entity_test.module	f6d6ba2bfeb4ea48cd43216c5118726b
+M	core/modules/system/tests/modules/entity_test/entity_test.routing.yml	966de9538086841200902e1650c27339
+M	core/modules/system/tests/modules/entity_test/lib/Drupal/entity_test/Controller/EntityTestController.php	628e3265c86a5cc70f4dad3d1b3d999b
+M	core/modules/system/tests/modules/entity_test/lib/Drupal/entity_test/Entity/EntityTest.php	20fe6961f2c2b89cf8e96df76cfd4796
+M	core/modules/system/tests/modules/entity_test/lib/Drupal/entity_test/Entity/EntityTestCache.php	d241f18d6b7334ebea3de41b974988eb
+M	core/modules/system/tests/modules/entity_test/lib/Drupal/entity_test/Entity/EntityTestDefaultAccess.php	0bc804ff99cafc3b94f3ce5cda18d9b8
+M	core/modules/system/tests/modules/entity_test/lib/Drupal/entity_test/Entity/EntityTestLabel.php	d111b2fc3e9a69b4acd5b12dbb67075a
+M	core/modules/system/tests/modules/entity_test/lib/Drupal/entity_test/Entity/EntityTestLabelCallback.php	116a917929ae2a89f93856638e9b660f
+M	core/modules/system/tests/modules/entity_test/lib/Drupal/entity_test/Entity/EntityTestMul.php	7177afd8e3e5c95d674784309173bef4
+M	core/modules/system/tests/modules/entity_test/lib/Drupal/entity_test/Entity/EntityTestMulRev.php	e4c34cd172db608a88d3635f5b0e12cc
+M	core/modules/system/tests/modules/entity_test/lib/Drupal/entity_test/Entity/EntityTestNoLabel.php	3c67154a987aa8700ba38b6aaf365c4c
+D	core/modules/system/tests/modules/entity_test/lib/Drupal/entity_test/Entity/EntityTestRender.php	
+M	core/modules/system/tests/modules/entity_test/lib/Drupal/entity_test/Entity/EntityTestRev.php	1cd2705da80ecd179347a39a1462c1de
+M	core/modules/system/tests/modules/entity_test/lib/Drupal/entity_test/EntityTestFormController.php	9adf009180eb7eb0ba122e7cbaae5d3a
+D	core/modules/system/tests/modules/entity_test/lib/Drupal/entity_test/EntityTestRenderController.php	
+A	core/modules/system/tests/modules/entity_test/lib/Drupal/entity_test/EntityTestViewBuilder.php	f3813c810afc4d84593b719e140acb71
+A	core/modules/system/tests/modules/entity_test/lib/Drupal/entity_test/Plugin/Derivative/EntityTestLocalTasks.php	a62a3dd9eeb15cfe89bb89d679adc605
+M	core/modules/system/tests/modules/entity_test/lib/Drupal/entity_test/Routing/RouteSubscriber.php	daa06e951513990c17f1fec03edd7eb3
+M	core/modules/system/tests/modules/form_test/form_test.module	95e4931482aca70b083e58985a14cd96
+M	core/modules/system/tests/modules/form_test/lib/Drupal/form_test/ConfirmFormTestForm.php	3e4bdbac53f2c787c242884b4b608fe0
+A	core/modules/system/tests/modules/menu_test/lib/Drupal/menu_test/Plugin/Menu/LocalAction/TestLocalAction4.php	4025ba580d683308013d08caf722a308
+A	core/modules/system/tests/modules/menu_test/menu_test.contextual_links.yml	fd082947965e02e3c807885d48ff7298
+M	core/modules/system/tests/modules/menu_test/menu_test.local_actions.yml	58329ccd6e0fba001a4fb3ff746d3ce0
+M	core/modules/system/tests/modules/menu_test/menu_test.module	07b436996602bb5053eb8faf1fd13cc9
+M	core/modules/system/tests/modules/router_test_directory/lib/Drupal/router_test/Access/DefinedTestAccessCheck.php	acc8c8ceea498b4dbd39488a6941becf
+M	core/modules/system/tests/modules/router_test_directory/lib/Drupal/router_test/Access/TestAccessCheck.php	c269cf78ba99f83a593012bc6f25df0c
+M	core/modules/system/tests/modules/router_test_directory/lib/Drupal/router_test/TestContent.php	24c2dac4ba9204e98fa1fa20b2db9d57
+M	core/modules/system/tests/modules/serialization_test/serialization_test.info.yml	b05944faf1a39a7bc003b1739f645865
+M	core/modules/system/tests/modules/service_provider_test/lib/Drupal/service_provider_test/ServiceProviderTestServiceProvider.php	9f44c14932f12d54dbe145d6f9acc0be
+M	core/modules/system/tests/modules/system_test/lib/Drupal/system_test/Controller/SystemTestController.php	78081e8838e59214f9d434a19580adf9
+M	core/modules/system/tests/modules/system_test/system_test.routing.yml	84f29781876f5f440ba4e9dab3e3257a
+M	core/modules/system/tests/modules/theme_test/lib/Drupal/theme_test/EventSubscriber/ThemeTestSubscriber.php	1b5dcab1096d82db19aeb52c58b28535
+M	core/modules/system/tests/modules/theme_test/theme_test.module	00c2f3648947c5cb54098a97dc228607
+M	core/modules/system/tests/themes/test_basetheme/test_basetheme.info.yml	401be1dbc326732a7a2a372e5a2cd1f8
+M	core/modules/system/tests/themes/test_invalid_basetheme/test_invalid_basetheme.info.yml	00ad04c3af433fbcc8fa56896a729d69
+M	core/modules/system/tests/themes/test_invalid_engine/test_invalid_engine.info.yml	e35412ec646e328cc6be765233fb9fdf
+M	core/modules/system/tests/themes/test_subtheme/test_subtheme.info.yml	242c85ebd51bb6204c9567c07a03aff6
+M	core/modules/system/tests/themes/test_theme/test_theme.info.yml	68583c4e3e7fee02eae60a64ba6d5ead
+M	core/modules/system/tests/themes/test_theme_phptemplate/test_theme_phptemplate.info.yml	df4aa7a0775527a413f1d004b7512ad1
+M	core/modules/taxonomy/lib/Drupal/taxonomy/Entity/Term.php	7283ff7dec9bcb23ea289aada3fc0f23
+M	core/modules/taxonomy/lib/Drupal/taxonomy/Entity/Vocabulary.php	05d053ec7e31b53f25644fa62e6b20e7
+M	core/modules/taxonomy/lib/Drupal/taxonomy/Form/OverviewTerms.php	d1bca0504ef10e3801396a325f2111bf
+M	core/modules/taxonomy/lib/Drupal/taxonomy/Form/TermDeleteForm.php	0e99056d24d0af686d08715c539b2a5d
+M	core/modules/taxonomy/lib/Drupal/taxonomy/Form/VocabularyDeleteForm.php	7730cf1849c07b742d799e3f0f9cd255
+M	core/modules/taxonomy/lib/Drupal/taxonomy/Form/VocabularyResetForm.php	28a5d25eeefe45095c3bfff2a1adf328
+A	core/modules/taxonomy/lib/Drupal/taxonomy/Plugin/Field/FieldFormatter/EntityReferenceTaxonomyTermRssFormatter.php	a10f2b043fb1ff392dc7e374087c7ef7
+A	core/modules/taxonomy/lib/Drupal/taxonomy/Plugin/Field/FieldFormatter/LinkFormatter.php	b6c3da12d97500d6a6895beed2b96eeb
+A	core/modules/taxonomy/lib/Drupal/taxonomy/Plugin/Field/FieldFormatter/PlainFormatter.php	dd62bc3f3055e5a295b54199f300e91e
+A	core/modules/taxonomy/lib/Drupal/taxonomy/Plugin/Field/FieldFormatter/RSSCategoryFormatter.php	9b5b6c122964b044205f44f5efdb8c58
+A	core/modules/taxonomy/lib/Drupal/taxonomy/Plugin/Field/FieldFormatter/TaxonomyFormatterBase.php	92e52e3b309148f467dde386ff3f5daf
+A	core/modules/taxonomy/lib/Drupal/taxonomy/Plugin/Field/FieldType/TaxonomyTermReferenceFieldItemList.php	118de7693bd1a01819bffa9887f678d3
+A	core/modules/taxonomy/lib/Drupal/taxonomy/Plugin/Field/FieldWidget/TaxonomyAutocompleteWidget.php	763a6ab44a1816557fb288aaa7a56a33
+M	core/modules/taxonomy/lib/Drupal/taxonomy/Plugin/entity_reference/selection/TermSelection.php	505b3b31d0fd4ba68911eab65b854b9b
+D	core/modules/taxonomy/lib/Drupal/taxonomy/Plugin/field/formatter/EntityReferenceTaxonomyTermRssFormatter.php	
+D	core/modules/taxonomy/lib/Drupal/taxonomy/Plugin/field/formatter/LinkFormatter.php	
+D	core/modules/taxonomy/lib/Drupal/taxonomy/Plugin/field/formatter/PlainFormatter.php	
+D	core/modules/taxonomy/lib/Drupal/taxonomy/Plugin/field/formatter/RSSCategoryFormatter.php	
+D	core/modules/taxonomy/lib/Drupal/taxonomy/Plugin/field/formatter/TaxonomyFormatterBase.php	
+D	core/modules/taxonomy/lib/Drupal/taxonomy/Plugin/field/widget/TaxonomyAutocompleteWidget.php	
+M	core/modules/taxonomy/lib/Drupal/taxonomy/TermFormController.php	b50fc6d55225ba4872cca5584b4a7597
+D	core/modules/taxonomy/lib/Drupal/taxonomy/TermRenderController.php	
+M	core/modules/taxonomy/lib/Drupal/taxonomy/TermStorageController.php	ec033d9a58aff785037af2b66e525c11
+M	core/modules/taxonomy/lib/Drupal/taxonomy/TermStorageControllerInterface.php	7a6d06b74321c93634e7e14460b196de
+M	core/modules/taxonomy/lib/Drupal/taxonomy/TermTranslationController.php	ad165a7b3bb2d66692467171db964d29
+A	core/modules/taxonomy/lib/Drupal/taxonomy/TermViewBuilder.php	ea68e13af2cec74bd873760a835f155a
+M	core/modules/taxonomy/lib/Drupal/taxonomy/Tests/RssTest.php	c466ac5b4f58e72e4895f1f6ea0880bd
+M	core/modules/taxonomy/lib/Drupal/taxonomy/Tests/TaxonomyTermReferenceItemTest.php	2d0c246aacc162059abeeccfe6f8d263
+M	core/modules/taxonomy/lib/Drupal/taxonomy/Tests/TermFieldMultipleVocabularyTest.php	7b975e2ccdf22becd1316ae7199218d5
+M	core/modules/taxonomy/lib/Drupal/taxonomy/Tests/TermIndexTest.php	c2ed378493de42ad467b3b8d362d5375
+M	core/modules/taxonomy/lib/Drupal/taxonomy/Tests/TermTest.php	32b0dc37fc3280fc01581f7672525d40
+M	core/modules/taxonomy/lib/Drupal/taxonomy/Tests/TokenReplaceTest.php	ea58e92b491f32d7254f0826d05a1120
+M	core/modules/taxonomy/lib/Drupal/taxonomy/Tests/Views/TaxonomyTestBase.php	cd804e2ec0f6722e14535c81fd7bcd62
+M	core/modules/taxonomy/lib/Drupal/taxonomy/Type/TaxonomyTermReferenceItem.php	be3c870fff6482ca29ade76497f8b634
+M	core/modules/taxonomy/lib/Drupal/taxonomy/VocabularyFormController.php	ce9312ffd44458d86576f625f55acdd1
+M	core/modules/taxonomy/lib/Drupal/taxonomy/VocabularyListController.php	305e44da95d7e571a8473b87883c9501
+A	core/modules/taxonomy/taxonomy.contextual_links.yml	e144f9b70c2f7cf46859db91bc502938
+M	core/modules/taxonomy/taxonomy.install	47ebd05ae5efdd07205f442203dc20db
+M	core/modules/taxonomy/taxonomy.local_actions.yml	2dd89610ab2589cc5103a867bf9c86fc
+A	core/modules/taxonomy/taxonomy.local_tasks.yml	144a15b77f78f5b9c31b73f4b520d11f
+M	core/modules/taxonomy/taxonomy.module	6b948295be8c27ec6a3b413d3724e012
+M	core/modules/taxonomy/taxonomy.pages.inc	2bc25377f6af3d114c37fbfecf920f92
+M	core/modules/taxonomy/taxonomy.tokens.inc	477c98b545da7fdec74dcbe774bcc787
+A	core/modules/taxonomy/tests/Drupal/taxonomy/Tests/Menu/TaxonomyLocalTasksTest.php	3f19fd5a6ce01523e5d463a7e9a6d72b
+A	core/modules/taxonomy/tests/upgrade/drupal-7.taxonomy.database.php	fc9bd1ebf4237f28d00995135395962a
+A	core/modules/telephone/lib/Drupal/telephone/Plugin/Field/FieldFormatter/TelephoneLinkFormatter.php	420267e59284f5d498eb1fdd4b67dc1c
+A	core/modules/telephone/lib/Drupal/telephone/Plugin/Field/FieldType/TelephoneItem.php	47519de556df9930c252a2dd45da5b84
+A	core/modules/telephone/lib/Drupal/telephone/Plugin/Field/FieldWidget/TelephoneDefaultWidget.php	8859905aa618c08733015220faeebf5f
+D	core/modules/telephone/lib/Drupal/telephone/Plugin/field/field_type/TelephoneItem.php	
+D	core/modules/telephone/lib/Drupal/telephone/Plugin/field/formatter/TelephoneLinkFormatter.php	
+D	core/modules/telephone/lib/Drupal/telephone/Plugin/field/widget/TelephoneDefaultWidget.php	
+M	core/modules/telephone/lib/Drupal/telephone/Tests/TelephoneItemTest.php	bc66adc1dc5eab561f58fe77430db39c
+A	core/modules/text/lib/Drupal/text/Plugin/Field/FieldFormatter/TextDefaultFormatter.php	aeaf28c60bdd2d88e90f7cfa4d8abe24
+A	core/modules/text/lib/Drupal/text/Plugin/Field/FieldFormatter/TextPlainFormatter.php	67df0a960e6616a6c45499a25c9e0907
+A	core/modules/text/lib/Drupal/text/Plugin/Field/FieldFormatter/TextSummaryOrTrimmedFormatter.php	326a1f1b6a22ba9f1a8d66076096c3ad
+A	core/modules/text/lib/Drupal/text/Plugin/Field/FieldFormatter/TextTrimmedFormatter.php	491d32e45cc0f177579451f38facf3f7
+A	core/modules/text/lib/Drupal/text/Plugin/Field/FieldType/TextItem.php	fc78e4334206d87878339bc896c2aabc
+A	core/modules/text/lib/Drupal/text/Plugin/Field/FieldType/TextItemBase.php	21af6de740ad6a0cab238ae668aad837
+A	core/modules/text/lib/Drupal/text/Plugin/Field/FieldType/TextLongItem.php	67e20392721dd00b5ef2761443e7d357
+A	core/modules/text/lib/Drupal/text/Plugin/Field/FieldType/TextWithSummaryItem.php	bb7259a45ad3055b573dd59b9e8dde84
+A	core/modules/text/lib/Drupal/text/Plugin/Field/FieldWidget/TextareaWidget.php	8216c15bde0dd3da1863f4f4d9feb5d7
+A	core/modules/text/lib/Drupal/text/Plugin/Field/FieldWidget/TextareaWithSummaryWidget.php	050921f1df59fa2018b993e5fc45fe8d
+A	core/modules/text/lib/Drupal/text/Plugin/Field/FieldWidget/TextfieldWidget.php	f1c9eab8cf99b9a854cd008af168c8c6
+D	core/modules/text/lib/Drupal/text/Plugin/field/field_type/TextItem.php	
+D	core/modules/text/lib/Drupal/text/Plugin/field/field_type/TextItemBase.php	
+D	core/modules/text/lib/Drupal/text/Plugin/field/field_type/TextLongItem.php	
+D	core/modules/text/lib/Drupal/text/Plugin/field/field_type/TextWithSummaryItem.php	
+D	core/modules/text/lib/Drupal/text/Plugin/field/formatter/TextDefaultFormatter.php	
+D	core/modules/text/lib/Drupal/text/Plugin/field/formatter/TextPlainFormatter.php	
+D	core/modules/text/lib/Drupal/text/Plugin/field/formatter/TextSummaryOrTrimmedFormatter.php	
+D	core/modules/text/lib/Drupal/text/Plugin/field/formatter/TextTrimmedFormatter.php	
+D	core/modules/text/lib/Drupal/text/Plugin/field/widget/TextareaWidget.php	
+D	core/modules/text/lib/Drupal/text/Plugin/field/widget/TextareaWithSummaryWidget.php	
+D	core/modules/text/lib/Drupal/text/Plugin/field/widget/TextfieldWidget.php	
+M	core/modules/text/lib/Drupal/text/Tests/TextWithSummaryItemTest.php	2f2be3e66b598989cbe82d08948f6989
+M	core/modules/toolbar/css/toolbar.theme.css	1ce324e106eed37ed48dea50310992a1
+D	core/modules/toolbar/lib/Drupal/toolbar/Access/SubtreeAccess.php	
+M	core/modules/toolbar/lib/Drupal/toolbar/Routing/ToolbarController.php	abe75ee7575053f0156a047c29de37ee
+M	core/modules/toolbar/toolbar.routing.yml	a659c59bfac65dcc1431c6d1146580f8
+M	core/modules/toolbar/toolbar.services.yml	ebc9dcaa6be9e4959b37c613de36afa5
+M	core/modules/tour/lib/Drupal/tour/Entity/Tour.php	05d1d22fd413d6bec6d845403cc5c41b
+D	core/modules/tour/lib/Drupal/tour/TourRenderController.php	
+A	core/modules/tour/lib/Drupal/tour/TourViewBuilder.php	bfaaa82fd8ba3bd99ced8365e6d4d6cf
+M	core/modules/tracker/lib/Drupal/tracker/Access/ViewOwnTrackerAccessCheck.php	81881b080df028cad77c9526d66636ef
+M	core/modules/update/lib/Drupal/update/Access/UpdateManagerAccessCheck.php	f75b317843effdd42c5b5e4007ca5d41
+M	core/modules/update/lib/Drupal/update/Tests/UpdateCoreTest.php	42c22aec6894c468258632f42990f9a5
+M	core/modules/update/tests/aaa_update_test/aaa_update_test.info.yml	b75ae04ad0531807038cb76f01baf7da
+M	core/modules/update/tests/modules/aaa_update_test/aaa_update_test.info.yml	b75ae04ad0531807038cb76f01baf7da
+M	core/modules/update/tests/modules/bbb_update_test/bbb_update_test.info.yml	b76935c3bd3a3706f51b2f6a28858d14
+M	core/modules/update/tests/modules/ccc_update_test/ccc_update_test.info.yml	1d279c56e817ae7a4a166516b332716a
+M	core/modules/update/tests/themes/update_test_basetheme/update_test_basetheme.info.yml	11d05153b445ec981667aefa12e8e00f
+M	core/modules/update/tests/themes/update_test_subtheme/update_test_subtheme.info.yml	b2c81cfe27dcc0edd63e692740068e29
+A	core/modules/update/update.local_actions.yml	6fac107f9912ed8f6bba6dc2f87a5930
+A	core/modules/update/update.local_tasks.yml	5a7069b2192ed415de06910598361c3e
+M	core/modules/update/update.module	87b3a35c5acc1e61e3c994dc91622a2c
+M	core/modules/user/lib/Drupal/user/Access/LoginStatusCheck.php	7d737156998b50f2f047aab5855ca68d
+M	core/modules/user/lib/Drupal/user/Access/PermissionAccessCheck.php	21980dbd0c14c07c7c33c5580cbe4afe
+M	core/modules/user/lib/Drupal/user/Access/RegisterAccessCheck.php	d50d9a82899a24b10385a26c270a6aea
+M	core/modules/user/lib/Drupal/user/Access/RoleAccessCheck.php	0f3eea20a02a27e5019772e38e16a952
+M	core/modules/user/lib/Drupal/user/AccountFormController.php	00288c9da396bd09dd3daf419595a724
+M	core/modules/user/lib/Drupal/user/Entity/Role.php	8d3a9519eb8c385bef6cc39ac178d20d
+M	core/modules/user/lib/Drupal/user/Entity/User.php	626531c086d2d44ac2b0952d93a5d94a
+M	core/modules/user/lib/Drupal/user/Form/UserCancelForm.php	aa0a6849343847ed63594fce75e522f9
+M	core/modules/user/lib/Drupal/user/Form/UserLoginForm.php	e2240619e7b89a61921164d00ef7be91
+M	core/modules/user/lib/Drupal/user/Form/UserMultipleCancelConfirm.php	e4d7954d98943b8a0afdea5ea581d304
+M	core/modules/user/lib/Drupal/user/Form/UserPasswordForm.php	022848dd9c883126f67a6e3e6564c98a
+M	core/modules/user/lib/Drupal/user/Form/UserRoleDelete.php	71ec1cee729e35779ab8d3d7fb98b857
+M	core/modules/user/lib/Drupal/user/Plugin/Block/UserLoginBlock.php	683489710c1f522313e9d90fe81f2f2c
+M	core/modules/user/lib/Drupal/user/Plugin/Block/UserNewBlock.php	f212b68330307cfc04b6c926547c9c1d
+M	core/modules/user/lib/Drupal/user/Plugin/Block/UserOnlineBlock.php	c870b7a0101f32e2f3c78938ee23d61a
+M	core/modules/user/lib/Drupal/user/Plugin/Search/UserSearch.php	a8cc729396c220c4cdb06cbca95324c0
+M	core/modules/user/lib/Drupal/user/Plugin/entity_reference/selection/UserSelection.php	528255f545bf477f3ec33b658effa07d
+M	core/modules/user/lib/Drupal/user/Plugin/views/argument/RolesRid.php	925de43aa503f49ebebe46805563196d
+M	core/modules/user/lib/Drupal/user/Plugin/views/field/Permissions.php	59985ccbd28ced0046f660004e4ca9e2
+M	core/modules/user/lib/Drupal/user/Plugin/views/field/UserBulkForm.php	72adc2d3a9101330c9684888ec3f56cb
+M	core/modules/user/lib/Drupal/user/ProfileFormController.php	f9da5bc506dca7949a32cc53834e18f2
+M	core/modules/user/lib/Drupal/user/ProfileTranslationController.php	9d160b9b3bdc7bfc266b6a9d1d198a0e
+M	core/modules/user/lib/Drupal/user/RegisterFormController.php	26147d2f4455b97d659fcbd39f3e6bd2
+M	core/modules/user/lib/Drupal/user/RoleFormController.php	bea8ba14ebb89e130921eaf53acd1a6c
+M	core/modules/user/lib/Drupal/user/Tests/UserAccountLinksTests.php	0e27fd2f24b0f6c0e02d84d4390c8e79
+M	core/modules/user/lib/Drupal/user/Tests/UserPictureTest.php	04bfc4513dafa371baddac38cc804023
+M	core/modules/user/lib/Drupal/user/Tests/UserRegistrationTest.php	9d359fd9c4025b6602c3a5957eb73b87
+M	core/modules/user/lib/Drupal/user/Tests/Views/HandlerFieldUserNameTest.php	dde76ada2a5450e78781e1669ece5fec
+M	core/modules/user/lib/Drupal/user/Tests/Views/HandlerFilterUserNameTest.php	5c55b846bbdac96d4ded5afdd0c843df
+A	core/modules/user/tests/Drupal/user/Tests/Menu/UserLocalTasksTest.php	9e7c41725cfa6af9b60290b0d4bf08fa
+M	core/modules/user/tests/Drupal/user/Tests/Plugin/Core/Entity/UserTest.php	b5c54adb5de7db64d9c1ab3f5ea2038f
+M	core/modules/user/tests/Drupal/user/Tests/Plugin/views/field/UserBulkFormTest.php	156224d6402979cbaa87638681e2fb83
+M	core/modules/user/tests/Drupal/user/Tests/Views/Argument/RolesRidTest.php	0a5cc81d20a2141c8467dd5d19cfd53f
+A	core/modules/user/user.config_translation.yml	a9a07c314953a9df5ff225623a670145
+A	core/modules/user/user.contextual_links.yml	eb54a6fbab0ccabbec437e2cb1868d3c
+M	core/modules/user/user.install	a1fe04bcd967a5832447f77ac1363cd4
+M	core/modules/user/user.local_actions.yml	adbaeb4880b85b071bca13cd23f72fa4
+M	core/modules/user/user.local_tasks.yml	cf420aec015a934dc8a11fd4476d444a
+M	core/modules/user/user.module	f0ba2426bb7054928ad87573d7ad0a20
+M	core/modules/user/user.routing.yml	76af20ba19fdc668f949af233fd81cb9
+M	core/modules/views/lib/Drupal/views/Entity/View.php	c7371b51e262556424db0c23ba9ff574
+M	core/modules/views/lib/Drupal/views/EventSubscriber/RouteSubscriber.php	5f6d33fbae702cf8d1888ab9439ab661
+A	core/modules/views/lib/Drupal/views/Form/ViewsForm.php	9da80c200cc96161f57b3794a3715286
+A	core/modules/views/lib/Drupal/views/Form/ViewsFormMainForm.php	007963fbfced8994013f740570e7f641
+M	core/modules/views/lib/Drupal/views/ManyToOneHelper.php	04f23bbe706cc3b778922832976135d3
+M	core/modules/views/lib/Drupal/views/Plugin/Block/ViewsBlockBase.php	f1e70e042446932cd95e0e0c58b8c98b
+M	core/modules/views/lib/Drupal/views/Plugin/Derivative/ViewsEntityRow.php	9e24453e969f873bac49ce94ee4daf09
+M	core/modules/views/lib/Drupal/views/Plugin/entity_reference/selection/ViewsSelection.php	75a9ca58036c1c41b280ec442c05fca9
+M	core/modules/views/lib/Drupal/views/Plugin/views/HandlerBase.php	103d361d87c13189c8a68597fc6ce971
+M	core/modules/views/lib/Drupal/views/Plugin/views/argument/ArgumentPluginBase.php	8882a03ca083ebc34076cb95a4693ee3
+M	core/modules/views/lib/Drupal/views/Plugin/views/display/DisplayPluginBase.php	9dd535d800b9fd9a5c77b4382c14eaa8
+M	core/modules/views/lib/Drupal/views/Plugin/views/display/PathPluginBase.php	c637a9a1a1ad1c14158b31d66f6c03ac
+M	core/modules/views/lib/Drupal/views/Plugin/views/field/EntityLabel.php	8515e4c832f37038e3e327741f5069cb
+M	core/modules/views/lib/Drupal/views/Plugin/views/relationship/GroupwiseMax.php	d5c6a7f19b02add6bed6774085f3a07b
+M	core/modules/views/lib/Drupal/views/Plugin/views/row/EntityRow.php	9b305a823c8056aa86f630352d3bd43d
+M	core/modules/views/lib/Drupal/views/Plugin/views/style/Rss.php	a1335fd95d11c01bb8fda89893a0ed39
+M	core/modules/views/lib/Drupal/views/Plugin/views/wizard/WizardPluginBase.php	e953780252e825d55d5b71b178f498d6
+M	core/modules/views/lib/Drupal/views/Routing/ViewPageController.php	24b99becec4cec48fe9a01c93e131bbc
+M	core/modules/views/lib/Drupal/views/Tests/Handler/AreaEntityTest.php	2351444b0e7b0da82ca71953e5cbc9eb
+M	core/modules/views/lib/Drupal/views/Tests/Handler/FieldWebTest.php	83383b688c78ec92d31eec5070d8c183
+M	core/modules/views/lib/Drupal/views/Tests/Plugin/DisplayTest.php	0f8cae93c76154eba092770d4084ba97
+M	core/modules/views/lib/Drupal/views/Tests/QueryGroupByTest.php	826032cd3511f01a2672e5140268101e
+D	core/modules/views/lib/Drupal/views/Tests/ViewPageControllerTest.php	
+M	core/modules/views/lib/Drupal/views/Tests/ViewTestBase.php	715c977062df03d5e1269873b5a9f3aa
+M	core/modules/views/lib/Drupal/views/Tests/Wizard/TaggedWithTest.php	c074a1364dae1368b3c14df66a069915
+M	core/modules/views/lib/Drupal/views/ViewExecutable.php	4ebe03a0e7c4a66772426e326a1b39f0
+M	core/modules/views/lib/Drupal/views/Views.php	14c92f45c46aff18cbe6ed027650b3f4
+M	core/modules/views/lib/Drupal/views/ViewsAccessCheck.php	8d8e839754ffa516051cca2d151660e5
+M	core/modules/views/tests/Drupal/views/Tests/EventSubscriber/RouteSubscriberTest.php	749559aa012bf24778afe9f98062c3b5
+M	core/modules/views/tests/Drupal/views/Tests/Plugin/Block/ViewsBlockTest.php	3992f37b4a056725b4b91df92706e53b
+M	core/modules/views/tests/Drupal/views/Tests/Plugin/display/PathPluginBaseTest.php	a78d1da216c8ccd13c40eb6ac91e1567
+A	core/modules/views/tests/Drupal/views/Tests/Routing/ViewPageControllerTest.php	6b0d9a59027be6e5a9081dafa86ab5a3
+M	core/modules/views/tests/Drupal/views/Tests/ViewsTest.php	9222f4a1e903e1f32ac89b0fee4e2b8e
+M	core/modules/views/tests/modules/views_test_config/test_views/views.view.test_entity_area.yml	a096c5037be3af65aa61df88d47d1dd2
+M	core/modules/views/views.module	601cee83afa5465ba33be8c856efc300
+M	core/modules/views/views.theme.inc	9257f7862c8a6f6179d3ecdf39b64ff9
+M	core/modules/views/views.views.inc	95cad5a982451db085582e1ded67d55b
+M	core/modules/views_ui/admin.inc	b207f52a126bff23cfa032041407215e
+M	core/modules/views_ui/lib/Drupal/views_ui/Controller/ViewsUIController.php	ad79537b60a7b88b1b44e24d0487d032
+M	core/modules/views_ui/lib/Drupal/views_ui/Form/Ajax/AddItem.php	13af41dc27713f0758f7ec44ccb92ab6
+M	core/modules/views_ui/lib/Drupal/views_ui/Form/Ajax/Analyze.php	a3377d200aad44cf854bb3b1a5cf673d
+M	core/modules/views_ui/lib/Drupal/views_ui/Form/Ajax/ConfigItem.php	84a921809a46189ae2b1100f7a389f4b
+M	core/modules/views_ui/lib/Drupal/views_ui/Form/Ajax/ConfigItemExtra.php	01b36d721d88c51562c4e9ed64700760
+M	core/modules/views_ui/lib/Drupal/views_ui/Form/Ajax/ConfigItemGroup.php	f3e3a27ae08d032faa49b169f99cf336
+M	core/modules/views_ui/lib/Drupal/views_ui/Form/Ajax/Display.php	928f6b80f249da0ac0e63ed9c36094b4
+M	core/modules/views_ui/lib/Drupal/views_ui/Form/Ajax/EditDetails.php	29d20123b81c87e555d54e8637b3f720
+M	core/modules/views_ui/lib/Drupal/views_ui/Form/Ajax/Rearrange.php	17c02fa711efa70851cd4cbc95d4b1f8
+M	core/modules/views_ui/lib/Drupal/views_ui/Form/Ajax/RearrangeFilter.php	9aa44c32b85ba0bf3c7d4382756d9164
+M	core/modules/views_ui/lib/Drupal/views_ui/Form/Ajax/ReorderDisplays.php	d7ca098fc261f623f148b5f55f80b9fe
+M	core/modules/views_ui/lib/Drupal/views_ui/Form/Ajax/ViewsFormBase.php	d06e0badcafab2302c51a43e71885732
+M	core/modules/views_ui/lib/Drupal/views_ui/Form/BreakLockForm.php	f258ac70b37bd28c0f95b8a1e7927f1c
+M	core/modules/views_ui/lib/Drupal/views_ui/ParamConverter/ViewUIConverter.php	6f345e5f3665222735c441e9058a95ac
+M	core/modules/views_ui/lib/Drupal/views_ui/Tests/DisplayTest.php	a58c1cf33417ef2a4c2265199bd523dd
+M	core/modules/views_ui/lib/Drupal/views_ui/Tests/RowUITest.php	7dc8d820dc248116f1e64bdbfbc18603
+M	core/modules/views_ui/lib/Drupal/views_ui/ViewAddFormController.php	aa81e85fdf7e2da15734e3fcce676a0b
+M	core/modules/views_ui/lib/Drupal/views_ui/ViewDeleteFormController.php	1136aef95b470ad269f3a4e7df61fbc2
+M	core/modules/views_ui/lib/Drupal/views_ui/ViewEditFormController.php	277bf39ad845d15d305bb11c45e09574
+M	core/modules/views_ui/lib/Drupal/views_ui/ViewListController.php	2f431e8e8d63c6f5ac593a2356d4aaa9
+M	core/modules/views_ui/lib/Drupal/views_ui/ViewUI.php	57f3cfdce736b6c10999b978f6d86305
+M	core/modules/views_ui/tests/Drupal/views_ui/Tests/ViewListControllerTest.php	83a51def23e53e503806d22078697c35
+M	core/modules/views_ui/tests/Drupal/views_ui/Tests/ViewUIObjectTest.php	19236863d3f56afc8ce7ca6ea225c8d1
+A	core/modules/views_ui/views_ui.contextual_links.yml	c9c0fdf002c45f7e7e20834d62a19436
+M	core/modules/views_ui/views_ui.local_tasks.yml	2aa1b5c15cbd0a12644bc6db72a2a3bd
+M	core/modules/views_ui/views_ui.module	477936c820d96d508def2b2a8dd51bde
+M	core/profiles/standard/config/editor.editor.basic_html.yml	9f9e14cdd19eabe59f49222ae1f258da
+M	core/profiles/standard/config/editor.editor.full_html.yml	abbdd3ffb060bc53edab8bc0467d7b23
+A	core/profiles/standard/config/entity.display.user.user.compact.yml	bdba09f3ba8e9e0f68a48f2bac8c67cb
+A	core/profiles/standard/config/entity.display.user.user.default.yml	e844d9370bd797a2f37696a661e40ea4
+A	core/profiles/standard/config/entity.form_display.user.user.default.yml	bb1b2225ec41e24a2c6e9d3fcdd8397f
+M	core/profiles/standard/config/field.field.node.field_image.yml	93758a1f2b575ad3730042e8a7fddd94
+A	core/profiles/standard/config/field.field.user.user_picture.yml	40a6e784b323669a21cc2803e0ea99e9
+M	core/profiles/standard/config/field.instance.node.article.field_image.yml	fa1677dd5d58d2af3b17cafaeaa07f9b
+A	core/profiles/standard/config/field.instance.user.user.user_picture.yml	a8d2e4b949dbe3ed1840e301e75f80a3
+M	core/profiles/standard/standard.install	013ac3c5c993eff4b0a7df06f6d256f8
+M	core/scripts/run-tests.sh	69b9073a1f29c2edadd6dd10b70b7bb1
+M	core/tests/Drupal/Tests/Component/PhpStorage/FileStorageTest.php	9e2c6c6fe1d089d973dee325896b48c2
+M	core/tests/Drupal/Tests/Component/PhpStorage/MTimeProtectedFileStorageTest.php	6d02d30cedc8f3ca4b917c236c3d10ca
+M	core/tests/Drupal/Tests/Component/Plugin/DefaultPluginBagTest.php	3ca0cfaeb7db249c2483b0aaf467dd7f
+M	core/tests/Drupal/Tests/Component/Utility/NestedArrayTest.php	d875462ed8dddc85cbf050311ca585cb
+M	core/tests/Drupal/Tests/Core/Access/AccessManagerTest.php	0bf16e10fc0f1fb5d52b4fc5abff0a3b
+A	core/tests/Drupal/Tests/Core/Access/CsrfAccessCheckTest.php	846aa01b8e8524c2b1c2b437afdbee33
+M	core/tests/Drupal/Tests/Core/Access/CsrfTokenGeneratorTest.php	71aa5920ec965ae30f855cc5e76471de
+A	core/tests/Drupal/Tests/Core/Access/CustomAccessCheckTest.php	df64aed3103ad899ec6191d73ac8ed15
+M	core/tests/Drupal/Tests/Core/Access/DefaultAccessCheckTest.php	6f87795ba88cc140dd6273cf410d183d
+A	core/tests/Drupal/Tests/Core/Access/RouteProcessorCsrfTest.php	32285f063b04739c97de74037e00d867
+M	core/tests/Drupal/Tests/Core/Batch/PercentagesTest.php	79de43a6d86976b15949725bc4bad109
+M	core/tests/Drupal/Tests/Core/Controller/ExceptionControllerTest.php	74be66944e054b3979902a68428944a9
+A	core/tests/Drupal/Tests/Core/Controller/TitleResolverTest.php	c88631672c03790ed3617bd6c3f6e49b
+M	core/tests/Drupal/Tests/Core/Entity/Controller/EntityViewControllerTest.php	6130dc5d7f6f27f2241b91ac76dcae8c
+M	core/tests/Drupal/Tests/Core/Entity/EntityAccessCheckTest.php	8b91af15ad937a97ab7594fdc7716269
+M	core/tests/Drupal/Tests/Core/Entity/EntityCreateAccessCheckTest.php	75c399145ff47231ca5d46ed5e13f51c
+M	core/tests/Drupal/Tests/Core/Entity/FieldDefinitionTest.php	91032ce49fcc07fb77385383a3974597
+M	core/tests/Drupal/Tests/Core/EventSubscriber/SpecialAttributesRouteSubscriberTest.php	6bf4d1a271d4b0b07e55871fe4e52831
+A	core/tests/Drupal/Tests/Core/Form/FormBuilderTest.php	d77a871aa28a7bb8b1546a11dbf1bd59
+A	core/tests/Drupal/Tests/Core/Menu/ContextualLinkDefaultTest.php	e790c97ff13e07d5863efe9cbd89295b
+A	core/tests/Drupal/Tests/Core/Menu/ContextualLinkManagerTest.php	b6c20921808cf354e454cae39b21da5b
+A	core/tests/Drupal/Tests/Core/Menu/LocalActionDefaultTest.php	6d1c151b32e74df75e95afd59f14083c
+M	core/tests/Drupal/Tests/Core/Menu/LocalTaskDefaultTest.php	c25798d5e7b877d89c97c42ae36dfdaf
+A	core/tests/Drupal/Tests/Core/Menu/LocalTaskIntegrationTest.php	7f53afe8836432b8f13aea3c73211cae
+M	core/tests/Drupal/Tests/Core/Menu/LocalTaskManagerTest.php	cdb9c4eaac048f65c447c3cf6f899ccb
+A	core/tests/Drupal/Tests/Core/Plugin/Discovery/DerivativeDiscoveryDecoratorTest.php	89421e670acbb8b3d3a1d28929af8a52
+M	core/tests/Drupal/Tests/Core/Route/RoleAccessCheckTest.php	8f7edacd826e1b59122c462ee3a852ea
+A	core/tests/Drupal/Tests/Core/RouteProcessor/RouteProcessorManagerTest.php	abc1142bfe28050ef38fe16530b4799a
+A	core/tests/Drupal/Tests/Core/Routing/RouteBuilderTest.php	395f545ec0c3611cebfd14fdcbdb7471
+M	core/tests/Drupal/Tests/Core/Routing/RouteCompilerTest.php	b6d801d4358f331401e067e17d8d809a
+M	core/tests/Drupal/Tests/Core/Routing/UrlGeneratorTest.php	793ed3cd0bb40178996ba76c198ded34
+M	core/tests/Drupal/Tests/Core/Session/UserSessionTest.php	c08327df33466f380706f06278992418
+M	core/tests/Drupal/Tests/Core/Template/AttributeTest.php	2177082049dddb76314f91d27800560b
+A	core/tests/Drupal/Tests/Core/Theme/RegistryTest.php	d4e72b9e1ae46e58305699673ddbde57
+M	core/tests/Drupal/Tests/UnitTestCase.php	ce6821b1d7f48195a167c514ee56393a
+M	core/themes/bartik/bartik.theme	207db91e433ba53a9302d303e4d23f36
+M	core/themes/bartik/css/style.css	8e3cb27862926e7f8aebbdcacc3350f1
+M	core/themes/bartik/templates/maintenance-page.html.twig	ab6fe07d0bdfaebfddf0a14c11d65af1
+M	core/themes/seven/install-page.css	94a76c8eaee141deb9dbbf05053a81ea
+M	core/themes/seven/seven.theme	68d7df52963858d048898fad1bcae0b1
+M	core/themes/seven/style.css	f34db2f1edcccf30ee0391ec93a5999e
+M	core/themes/stark/css/layout.css	0e4de13b3a81289eee6c07c82e9865b8
+M	core/themes/stark/stark.info.yml	f17a61ea31738b468a346796ec38a6f7
+M	core/update.php	8a4f7b800ed44b0530b4fa75b2c8725c

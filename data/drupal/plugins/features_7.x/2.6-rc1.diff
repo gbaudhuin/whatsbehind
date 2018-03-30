@@ -1,0 +1,12 @@
+M	features.admin.inc	e56cba26919744c126fd2d57b8b3a9a0
+M	features.api.php	dcf8d319bb784aae31338b033d0d9283
+M	features.drush.inc	9218ac351f4fe83b876dfaa19c740cc9
+M	features.export.inc	a34992c3680b38823b8c7ed546f5b648
+M	features.info	373ae6d73d3625cedf114e20b4fa5606
+M	features.install	517b763c3171154c2c158ca16471c4ff
+M	features.js	49a8984a30c1f4602dfec39e90628715
+M	features.module	b1a847c82c2bb31c4d2657842e37eec5
+M	includes/features.field.inc	dcc4db95cc488d0be40f386dc9dfc7cf
+M	includes/features.menu.inc	495ca2c2fe6d87bc2ed77a54131ca4db
+M	tests/features.test	01a3f7883695d9d1649a23f7f3c75816
+M	tests/features_test/features_test.info	5da73c8facddca913aad42406fa0c626

@@ -1,0 +1,4 @@
+M	computed_field.info.yml	1c634cbec66ac1dcf1bfac6f095c0e93
+M	src/Plugin/Field/FieldFormatter/ComputedFormatter.php	3e140106c5f591e6eb7d7dbb07a349b6
+M	src/Plugin/Field/FieldFormatter/ComputedRawFormatter.php	6b3978315692d072b4173e3b4f7d8b1e
+M	src/Plugin/Field/FieldType/ComputedFieldItem.php	bf7a6cf5bed048425bf9bdb64ff56b9e

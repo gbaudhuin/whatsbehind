@@ -1,0 +1,16 @@
+M	openid_connect.info.yml	b4375caf198169aba7adf96a88015695
+M	src/Annotation/OpenIDConnectClient.php	96529cc90e67e97d91388950aefbb38a
+M	src/Authmap.php	9c1bc6167d1b1c52added3594f0ad6de
+M	src/Claims.php	2da0b838b300c5b03acdf667a7d12727
+M	src/Controller/RedirectController.php	7041efdc1f465d03b12a23384e0a86e6
+M	src/Form/AccountsForm.php	b909243b64942c1098f863610b1009d2
+M	src/Form/LoginForm.php	c2e4c505797c292d3fdc69484495b7d2
+M	src/Form/SettingsForm.php	4d6a90b424ad89d20ff12535fb6e5915
+M	src/Plugin/Block/LoginBlock.php	2a4e7db8cb5dd7023839090069023a53
+M	src/Plugin/OpenIDConnectClient/OpenIDConnectClientGeneric.php	945ab4ff8a9bb6a5e023d362d421dcb0
+M	src/Plugin/OpenIDConnectClient/OpenIDConnectClientGoogle.php	c0c6db8af7b53b3ed869200bbe3a3633
+M	src/Plugin/OpenIDConnectClientBase.php	2c4d8bfbbd8dabcec40c67a7f8da9552
+M	src/Plugin/OpenIDConnectClientInterface.php	7435a9a58bc10ebb95a24ae92f61b377
+M	src/Plugin/OpenIDConnectClientManager.php	767c695740f2dbd4525f6e16bbf57136
+M	src/StateToken.php	01401d8776e0daa43e32d32800814986
+M	src/Tests/SettingsFormTest.php	27eea675cc7912dd53247801dacabc2e

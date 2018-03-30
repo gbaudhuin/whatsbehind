@@ -1,0 +1,61 @@
+M	ds.info.yml	b0fcd374d55bd6f46f3c2ee971fb52dd
+M	ds.module	6191b3e2e5d841004da73ef7adaec184
+M	includes/field_ui.inc	7937660bf8d1ae1b5037dfea92139e9b
+M	modules/ds_devel/ds_devel.info.yml	4c8296462ebad11dc9c59f2142b2724d
+M	modules/ds_extras/ds_extras.info.yml	9f0710b09b4645c827153095b3c593f9
+M	modules/ds_switch_view_mode/ds_switch_view_mode.info.yml	1582b86de38827d190cf7e8bbcd1b5b1
+M	modules/ds_switch_view_mode/ds_switch_view_mode.module	cf6f20519b4d6b9ceeeac8db25d7fd46
+M	src/Annotation/DsField.php	fc35527664a61c54ef047883672ce6fe
+M	src/Ds.php	692ac3dd76a645d8bc16a6e0c3c2ad30
+M	src/Plugin/DsField/DsFieldInterface.php	26c4bb0f603c74cdacf82bf229968a55
+M	src/Plugin/DsFieldTemplate/DsFieldTemplateInterface.php	b6d2e3f55798f923904b7539df970e2b
+D	src/Tests/BlockFieldPluginTest.php	
+D	src/Tests/BlockTest.php	
+D	src/Tests/CacheTagsTest.php	
+D	src/Tests/CloneTest.php	
+D	src/Tests/DsFieldCacheTest.php	
+D	src/Tests/DynamicFieldPluginTest.php	
+D	src/Tests/EntitiesTest.php	
+D	src/Tests/ExportablesTest.php	
+D	src/Tests/FieldGroupTest.php	
+D	src/Tests/FieldPermissionsTest.php	
+D	src/Tests/FieldPluginTest.php	
+D	src/Tests/FieldTemplateTest.php	
+D	src/Tests/HiddenRegionTest.php	
+D	src/Tests/LayoutClassesTest.php	
+D	src/Tests/LayoutFluidTest.php	
+D	src/Tests/LayoutPluginTest.php	
+D	src/Tests/ManageDisplayTabTest.php	
+D	src/Tests/RdfTest.php	
+D	src/Tests/TwigRenderTest.php	
+D	src/Tests/ViewsTest.php	
+M	tests/modules/ds_exportables_test/ds_exportables_test.info.yml	dcb456040c6a8f5a05cb4804324bd5e5
+M	tests/modules/ds_test/ds_test.info.yml	c6588b38b853c5df78a58cb8be9d4a46
+M	tests/modules/ds_test/ds_test.module	7a3bea9435df67b25b393c0d0e498d7e
+A	tests/modules/ds_test/src/Plugin/DsField/TestMultipleEntityTypeField.php	67ffc734f6c1cfc48759f79e563aff6a
+M	tests/modules/ds_test_rdf/ds_test_rdf.info.yml	181f3f82eacd912d45196eab7d51a4d6
+A	tests/src/Functional/BlockFieldPluginTest.php	7ca69789893d987d6a653b383fe77bdc
+A	tests/src/Functional/BlockTest.php	72f256881dd3701ebda1c92201f25ea5
+A	tests/src/Functional/CacheTagsTest.php	f6ae4212b585859cae79b2c9960a0735
+A	tests/src/Functional/CloneTest.php	794152d7c661c20006a5d4e56a7d919f
+A	tests/src/Functional/DsFieldCacheTest.php	fd27a4da8399f41feaffd94b6881abff
+A	tests/src/Functional/DsTestTrait.php	381c6dcb249a851efc7e835e912c4c4f
+A	tests/src/Functional/DynamicFieldPluginTest.php	a3e395a312d6911723e2f9863fe48e1e
+A	tests/src/Functional/EntitiesTest.php	563290dbdc87e3f8e0a3939c903787dd
+A	tests/src/Functional/ExportablesTest.php	723b2a57719b1b2067ccb033641b4964
+A	tests/src/Functional/FastTestBase.php	b594c8bd923bad6aa27a9c26f4e01972
+A	tests/src/Functional/FieldGroupTest.php	1f87151332a158d6e61e61c571b6d5ac
+A	tests/src/Functional/FieldLayoutTest.php	7a8c39effff26bccd372155988f70bed
+A	tests/src/Functional/FieldPermissionsTest.php	278ca4d5e9ed0746bcc5151d25571c70
+A	tests/src/Functional/FieldPluginTest.php	a45a65e6ba85a556cd7094fb7395f493
+A	tests/src/Functional/FieldTemplateTest.php	19eb0b8e8c9c2b62c0404a6d8d66db5d
+A	tests/src/Functional/HiddenRegionTest.php	bdf99ecdb6af9b14c4a139f2ea489e23
+A	tests/src/Functional/LayoutClassesTest.php	7256730299f8f6f4c5f0aad9cc31e9f6
+A	tests/src/Functional/LayoutFluidTest.php	0d5e3678e7c5b357172f785feb37dc83
+A	tests/src/Functional/LayoutPluginTest.php	ab0952a87f558390078cd969f6f7890f
+A	tests/src/Functional/ManageDisplayTabTest.php	fc71c5d6c65e68bb5ce827392255b567
+A	tests/src/Functional/RdfTest.php	67ca346589ec7dbd84d603899627bfc9
+A	tests/src/Functional/TwigRenderTest.php	85fbb1d55d911dc880ba025436b417ef
+A	tests/src/Functional/UserTest.php	fb20d3eb744762fed8b258a80ae77eb8
+A	tests/src/Functional/ViewsTest.php	7ad0656e5045c31586c0d6f42e5c4cb2
+M	tests/themes/ds_test_layout_theme/ds_test_layout_theme.info.yml	9218961ef72efd9d38e1adf1ffdbd179

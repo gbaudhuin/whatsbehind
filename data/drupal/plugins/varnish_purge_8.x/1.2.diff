@@ -1,0 +1,5 @@
+M	src/Entity/VarnishPurgerSettings.php	d22c113c5fd9aa4d5be88f9258fb7f4e
+M	src/Form/VarnishPurgerFormBase.php	72f51275a784119414063d3fd075f493
+M	src/Plugin/Purge/Purger/VarnishPurgerBase.php	e8a049a3b3f19de11f08d54655495de1
+M	src/Tests/VarnishPurgerFormTestBase.php	3aa28489ae6399d89f4a644a302ef40f
+M	varnish_purger.info.yml	7f0add909b7f6569a3f64ca169bc0118

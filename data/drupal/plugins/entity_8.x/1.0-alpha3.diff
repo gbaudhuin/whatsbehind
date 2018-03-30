@@ -1,0 +1,10 @@
+M	entity.info.yml	6891fc8bda0628c97566b3ee46c1ecb8
+M	entity.services.yml	78638e39f691f0e35aee24dfcd52878c
+M	src/Access/EntityRevisionRouteAccessChecker.php	4a5af36a8d5f045103f9bab3a1291c41
+M	src/Plugin/Derivative/RevisionsOverviewDeriver.php	de2eb246e502dbedc41c339466a04ac8
+M	tests/Kernel/RevisionOverviewIntegrationTest.php	393d3ec902c752ec7efcd136fb146147
+M	tests/modules/entity_module_test/entity_module_test.info.yml	c79d832fffdf5842e9106e66ae227ff7
+A	tests/modules/entity_module_test/entity_module_test.links.task.yml	0fc112686cf3a3059db7eefb4b761bbf
+M	tests/modules/entity_module_test/entity_module_test.permissions.yml	bf77f4c8ede4bd84d248e0c77864b7f3
+M	tests/modules/entity_module_test/src/Entity/EnhancedEntity.php	e16de6199a81d713699ff5d512ba106b
+A	tests/src/Functional/RevisionRouteAccessTest.php	a1e466a3bedff01a4dd3832abca9114f

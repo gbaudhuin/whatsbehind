@@ -1,0 +1,13 @@
+D	API.txt	
+M	README.txt	310336c4e2bb7b12db8677d061b0495f
+M	pathauto.admin.inc	ab5cd350a3a6d905aa8f41f9b3432b5d
+M	pathauto.api.php	ea887a5728a2b887b708bfc7723fdd8b
+M	pathauto.inc	d5876c7c27e18028ca5db99d888e17fd
+M	pathauto.info	3f9854889f66b580bfb273dbdf793c69
+M	pathauto.install	129f0e44eb3e1417b285d248b68e897b
+M	pathauto.js	b3cde2712e5f0980b9f82d4696d244d9
+A	pathauto.migrate.inc	a6f04b3bd1c5061ec417f1f01a72eee2
+M	pathauto.module	f53e4e50713ec843ff1756ec3590498a
+M	pathauto.pathauto.inc	9a14d23c4f3d831b6739faf1eb3eaf89
+M	pathauto.test	5ac6bd67d2da6c27ca113d4ad1c7046b
+M	pathauto.tokens.inc	43cdbc340e511db707168a8ebaf43bd3

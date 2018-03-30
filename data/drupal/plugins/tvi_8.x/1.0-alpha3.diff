@@ -1,0 +1,5 @@
+A	src/Controller/TaxonomyViewsIntegratorTermPageController.php	52600a95c17dd7b39c8e88f496428141
+A	src/EventSubscriber/RouteSubscriber.php	24fe8ce5babb7187c573b8590c734cb7
+M	tvi.info.yml	58429e918a960349c7a4a2bf927d74fa
+M	tvi.module	d7bfd76a071ab9e9adafbf0063b3d615
+A	tvi.services.yml	58f99798c61192bd60a47cf4890e1a4e

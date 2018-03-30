@@ -1,0 +1,378 @@
+M	core/INSTALL.txt	32f9ac862a5ffd967e388f9678edec73
+M	core/MAINTAINERS.txt	333e660df18ab61bf3021115987b424c
+M	core/core.services.yml	f0af0c0a178e66f1e16e3bc4f6207863
+M	core/lib/Drupal.php	dccf128731496c3677efc37e401d6dd4
+M	core/lib/Drupal/Component/Utility/SafeMarkup.php	7a35bd077b6d57ed28da83dc2e5ea3dd
+M	core/lib/Drupal/Core/Block/BlockManager.php	db5efc920026b719dc3b6a886fb2c5c3
+M	core/lib/Drupal/Core/Database/Query/ConditionInterface.php	b334d67ec1c4ee64002e9d9c38e9d5cd
+M	core/lib/Drupal/Core/Entity/EntityManager.php	50a1956bb7427f4ba96c06bf27e013e2
+M	core/lib/Drupal/Core/Extension/ModuleHandlerInterface.php	c2650bbab50f1bc280af43f1c2fa1ed7
+M	core/lib/Drupal/Core/Form/BaseFormIdInterface.php	c014c76062c0b4561e206327640df28f
+M	core/lib/Drupal/Core/Render/theme.api.php	1afe89b5400d7d4ad4628a4dc55fe2c7
+D	core/modules/aggregator/src/Tests/AddFeedTest.php	
+D	core/modules/aggregator/src/Tests/AggregatorAdminTest.php	
+D	core/modules/aggregator/src/Tests/AggregatorCronTest.php	
+D	core/modules/aggregator/src/Tests/AggregatorRenderingTest.php	
+D	core/modules/aggregator/src/Tests/FeedAdminDisplayTest.php	
+D	core/modules/aggregator/src/Tests/FeedLanguageTest.php	
+D	core/modules/aggregator/src/Tests/UpdateFeedItemTest.php	
+D	core/modules/aggregator/src/Tests/UpdateFeedTest.php	
+A	core/modules/aggregator/tests/src/Functional/AddFeedTest.php	e79d31d4e17ca3706d33766afa2acfff
+A	core/modules/aggregator/tests/src/Functional/AggregatorAdminTest.php	c52ac07712e88462421b1e5222cc07f3
+A	core/modules/aggregator/tests/src/Functional/AggregatorCronTest.php	7db1996aa1ea6ecb82b8f8d1a1aeceb8
+A	core/modules/aggregator/tests/src/Functional/AggregatorRenderingTest.php	ea600bc61e5481ecc53a77701b183f25
+A	core/modules/aggregator/tests/src/Functional/FeedAdminDisplayTest.php	c84a959b8c1d9a000242f82c16295fad
+A	core/modules/aggregator/tests/src/Functional/FeedLanguageTest.php	0acf09571a66f492381c999f9457978d
+A	core/modules/aggregator/tests/src/Functional/UpdateFeedItemTest.php	0781eef8c047048502c9b6180f05b50a
+A	core/modules/aggregator/tests/src/Functional/UpdateFeedTest.php	ac744bfc1bd1a57c674add85e2a228a7
+M	core/modules/block_content/src/Plugin/Block/BlockContentBlock.php	c59539d73e440b08eb06fc5d306e5689
+D	core/modules/block_content/src/Tests/BlockContentCreationTest.php	
+D	core/modules/block_content/src/Tests/BlockContentListTest.php	
+D	core/modules/block_content/src/Tests/BlockContentListViewsTest.php	
+D	core/modules/block_content/src/Tests/BlockContentTranslationUITest.php	
+D	core/modules/block_content/src/Tests/BlockContentValidationTest.php	
+D	core/modules/block_content/src/Tests/Views/BlockContentFieldFilterTest.php	
+D	core/modules/block_content/src/Tests/Views/BlockContentIntegrationTest.php	
+D	core/modules/block_content/src/Tests/Views/BlockContentRedirectTest.php	
+M	core/modules/block_content/src/Tests/Views/BlockContentTestBase.php	4973cddfea71d6682d5fd8c61fcccec4
+D	core/modules/block_content/src/Tests/Views/FieldTypeTest.php	
+D	core/modules/block_content/src/Tests/Views/RevisionRelationshipsTest.php	
+A	core/modules/block_content/tests/src/Functional/BlockContentCreationTest.php	dafeda54d08c6642bf02e14b0f490c3c
+A	core/modules/block_content/tests/src/Functional/BlockContentListTest.php	6670bd0e761b7ef2cd4f47fb499f463e
+A	core/modules/block_content/tests/src/Functional/BlockContentListViewsTest.php	2234e8197ea84bd230cb113202c51a83
+A	core/modules/block_content/tests/src/Functional/BlockContentTranslationUITest.php	a51f26d0c25e5bd54ea8dac2475683d4
+A	core/modules/block_content/tests/src/Functional/BlockContentValidationTest.php	9cd6a5dbd196fd9c0ad9645ad6521df9
+A	core/modules/block_content/tests/src/Functional/Views/BlockContentFieldFilterTest.php	b52f80bd509df77ea1fb368c0baa964c
+A	core/modules/block_content/tests/src/Functional/Views/BlockContentIntegrationTest.php	f3b8839b110c221397f565399cb9e7fa
+A	core/modules/block_content/tests/src/Functional/Views/BlockContentRedirectTest.php	3e589c6b281205c0cbcf2caa2f8dd65b
+A	core/modules/block_content/tests/src/Functional/Views/BlockContentTestBase.php	b38c7bf77277cf7c49a5c9df335bb820
+A	core/modules/block_content/tests/src/Functional/Views/FieldTypeTest.php	728fd2d466e3f30114ff933efca0e959
+A	core/modules/block_content/tests/src/Functional/Views/RevisionRelationshipsTest.php	9c8bd4f975efb26cda0301d9efa9f202
+D	core/modules/book/src/Tests/Views/BookRelationshipTest.php	
+A	core/modules/book/tests/src/Functional/Views/BookRelationshipTest.php	489acb12c2893a80667b0841c789b0e7
+D	core/modules/config_translation/src/Tests/ConfigTranslationFormTest.php	
+D	core/modules/config_translation/src/Tests/ConfigTranslationOverviewTest.php	
+D	core/modules/config_translation/src/Tests/ConfigTranslationUiThemeTest.php	
+D	core/modules/config_translation/src/Tests/ConfigTranslationViewListUiTest.php	
+A	core/modules/config_translation/tests/src/Functional/ConfigTranslationFormTest.php	010d390519d654a8bdbca965999f1e07
+A	core/modules/config_translation/tests/src/Functional/ConfigTranslationOverviewTest.php	be3e801167963a818bb335717f432da8
+A	core/modules/config_translation/tests/src/Functional/ConfigTranslationUiThemeTest.php	1733d843f0a66f63a7e4ae1a1da356d7
+A	core/modules/config_translation/tests/src/Functional/ConfigTranslationViewListUiTest.php	dfa1bd45d1b554b1c23a7e76d9832b35
+D	core/modules/contact/src/Tests/Views/ContactFieldsTest.php	
+D	core/modules/contact/src/Tests/Views/ContactLinkTest.php	
+A	core/modules/contact/tests/src/Functional/Views/ContactFieldsTest.php	3c0f02964dd4d8774624da41766f0a6b
+A	core/modules/contact/tests/src/Functional/Views/ContactLinkTest.php	596742053f4578ad4ef60279e695651c
+M	core/modules/content_moderation/src/Plugin/WorkflowType/ContentModeration.php	8c701f038e5fcaf97c8a43999d36816f
+M	core/modules/content_moderation/tests/src/Kernel/InitialStateTest.php	276d75a86a6a7eb9adc71f1f0d214706
+M	core/modules/content_moderation/tests/src/Kernel/ModerationStateFieldItemListTest.php	7ae71bc0ba94dbbbd71849f8693082d5
+D	core/modules/content_translation/src/Tests/ContentTestTranslationUITest.php	
+D	core/modules/content_translation/src/Tests/ContentTranslationDisableSettingTest.php	
+D	core/modules/content_translation/src/Tests/ContentTranslationEnableTest.php	
+D	core/modules/content_translation/src/Tests/ContentTranslationLanguageChangeTest.php	
+D	core/modules/content_translation/src/Tests/ContentTranslationSettingsTest.php	
+D	core/modules/content_translation/src/Tests/ContentTranslationSyncImageTest.php	
+D	core/modules/content_translation/src/Tests/Views/ContentTranslationViewsUITest.php	
+D	core/modules/content_translation/src/Tests/Views/TranslationLinkTest.php	
+A	core/modules/content_translation/tests/src/Functional/ContentTestTranslationUITest.php	fbd9619ff2def7774a0f94216589e42b
+A	core/modules/content_translation/tests/src/Functional/ContentTranslationDisableSettingTest.php	6492c15aebf0d6951129c69450fe737e
+A	core/modules/content_translation/tests/src/Functional/ContentTranslationEnableTest.php	2adf852985289d5874cd63ab0b22b525
+A	core/modules/content_translation/tests/src/Functional/ContentTranslationLanguageChangeTest.php	6541982fa277cbcc233f392b7d58edde
+A	core/modules/content_translation/tests/src/Functional/ContentTranslationSettingsTest.php	d83c324eabdb014a693060c01526afbb
+A	core/modules/content_translation/tests/src/Functional/ContentTranslationSyncImageTest.php	627f50ef74b78dd508d04dc3513d3c7b
+A	core/modules/content_translation/tests/src/Functional/Views/ContentTranslationViewsUITest.php	de6a23271296d4c49aa6ada451ce4b5e
+A	core/modules/content_translation/tests/src/Functional/Views/TranslationLinkTest.php	b84fb6a1b9b4506165d2eef2aba3dfa9
+M	core/modules/file/migration_templates/d7_file.yml	880b02e9bc4fe84dba98093182bc3740
+A	core/modules/file/migration_templates/d7_file_private.yml	76bd8d4ba733361d2ba5d140212f8b15
+A	core/modules/file/tests/src/Kernel/Migrate/d7/MigratePrivateFileTest.php	700780f2ad964e2d9f78ec62bbc07daf
+M	core/modules/filter/src/Plugin/migrate/process/d6/FilterFormatPermission.php	b9936eeaeba28ca9cecedb14f4bdc098
+A	core/modules/filter/tests/src/Kernel/Migrate/d6/FilterFormatPermissionTest.php	1865b0839fcb1143aa066382b81c045a
+D	core/modules/forum/src/Tests/Views/ForumIntegrationTest.php	
+A	core/modules/forum/tests/src/Functional/Views/ForumIntegrationTest.php	ccb4a05941f4a8b150f6af745d0865c2
+M	core/modules/hal/src/LinkManager/RelationLinkManager.php	ef5cc0a63e1a027d4eadc6cd400450fc
+M	core/modules/hal/src/LinkManager/TypeLinkManager.php	14255138f04d4494953680c74b052604
+M	core/modules/hal/tests/modules/hal_test/hal_test.module	57dd832ac5c32823828613ec2bd7f7e0
+M	core/modules/hal/tests/src/Functional/EntityResource/ImageStyle/ImageStyleHalJsonAnonTest.php	1bf6a45a9ba32c99cd900f670729c165
+M	core/modules/hal/tests/src/Functional/EntityResource/ImageStyle/ImageStyleHalJsonBasicAuthTest.php	e0c13e41ccf3640323c13ea2c424b463
+M	core/modules/hal/tests/src/Functional/EntityResource/ImageStyle/ImageStyleHalJsonCookieTest.php	bd4eadccccdd20d62a9ee8ab314bc63d
+M	core/modules/image/tests/src/Functional/ImageEffectsTest.php	143c14f3dc25b0eae4c7249a57a042bc
+A	core/modules/language/tests/src/Kernel/Plugin/migrate/source/d6/LanguageContentSettingsTest.php	9283ef0c8dd620e8a0f6b22e43cf9d25
+A	core/modules/language/tests/src/Kernel/Plugin/migrate/source/d7/LanguageContentSettingsTest.php	b8d849d6f847689ebbb1e18237b5f18a
+M	core/modules/layout_discovery/layouts/threecol_33_34_33/threecol_33_34_33.css	35683b01ec04afa6c8726c78c5dbf96d
+D	core/modules/locale/src/Tests/LocaleConfigTranslationImportTest.php	
+D	core/modules/locale/src/Tests/LocaleConfigTranslationTest.php	
+D	core/modules/locale/src/Tests/LocaleExportTest.php	
+D	core/modules/locale/src/Tests/LocaleFileSystemFormTest.php	
+D	core/modules/locale/src/Tests/LocaleImportFunctionalTest.php	
+D	core/modules/locale/src/Tests/LocaleJavascriptTranslationTest.php	
+D	core/modules/locale/src/Tests/LocaleLibraryAlterTest.php	
+D	core/modules/locale/src/Tests/LocalePluralFormatTest.php	
+D	core/modules/locale/src/Tests/LocaleTranslateStringTourTest.php	
+D	core/modules/locale/src/Tests/LocaleTranslationUiTest.php	
+D	core/modules/locale/src/Tests/LocaleUpdateBase.php	
+D	core/modules/locale/src/Tests/LocaleUpdateCronTest.php	
+D	core/modules/locale/src/Tests/LocaleUpdateDevelopmentReleaseTest.php	
+D	core/modules/locale/src/Tests/LocaleUpdateInterfaceTest.php	
+D	core/modules/locale/src/Tests/LocaleUpdateTest.php	
+A	core/modules/locale/tests/src/Functional/LocaleConfigTranslationImportTest.php	074c829404ecc9be5eef5644247e252a
+A	core/modules/locale/tests/src/Functional/LocaleConfigTranslationTest.php	2ad08a6560cf1dc900bd3b0a9126ac92
+A	core/modules/locale/tests/src/Functional/LocaleExportTest.php	a05701b35d40665cc4b03530905d599f
+A	core/modules/locale/tests/src/Functional/LocaleFileSystemFormTest.php	928b44951f8fc95d9e64d8180a1816ff
+A	core/modules/locale/tests/src/Functional/LocaleImportFunctionalTest.php	25c13e08ca57bcf723c70bda7ade869f
+A	core/modules/locale/tests/src/Functional/LocaleJavascriptTranslationTest.php	90bcae6702a33e4b1238e42d63aa002b
+A	core/modules/locale/tests/src/Functional/LocaleLibraryAlterTest.php	7c18e5511e6d42dee8846d3f267e4d43
+A	core/modules/locale/tests/src/Functional/LocalePluralFormatTest.php	e6818e4d478484472722e4374f200aa2
+A	core/modules/locale/tests/src/Functional/LocaleTranslateStringTourTest.php	f8a9162b5bf708888ceaa13650a75a3a
+A	core/modules/locale/tests/src/Functional/LocaleTranslationUiTest.php	b8ddb900a615b49d6df2f035d41e8848
+A	core/modules/locale/tests/src/Functional/LocaleUpdateBase.php	f8975f96c430e3c918c6064d67ce9155
+A	core/modules/locale/tests/src/Functional/LocaleUpdateCronTest.php	99e547fa91eb2270f159d7a33683271e
+A	core/modules/locale/tests/src/Functional/LocaleUpdateDevelopmentReleaseTest.php	01d571f14e2b01b729af1531fc8bf5cb
+A	core/modules/locale/tests/src/Functional/LocaleUpdateInterfaceTest.php	16c3d98bdc6d412bb333196c0ddd8c7a
+A	core/modules/locale/tests/src/Functional/LocaleUpdateTest.php	3a365a776da33d618b50d190e53553ed
+M	core/modules/migrate/src/Plugin/migrate/process/MigrationLookup.php	59dddace7ec7cb227dc8d0e03abce5ea
+A	core/modules/migrate_drupal/src/Plugin/migrate/field/UserReference.php	a0957629483ea805bcc8002c4c04dac2
+M	core/modules/migrate_drupal/tests/fixtures/drupal6.php	723e5fab5151f761edd5dffab7ebff6a
+M	core/modules/migrate_drupal/tests/fixtures/drupal7.php	432b698188ed2604e2686942d66ad965
+M	core/modules/migrate_drupal_ui/src/Batch/MigrateUpgradeImportBatch.php	46f3899a117b30cdbf96812ea590eac0
+M	core/modules/migrate_drupal_ui/src/Form/MigrateUpgradeForm.php	77ae2f3979530741f2f5116681e2eb7f
+D	core/modules/migrate_drupal_ui/src/Tests/MigrateAccessTest.php	
+M	core/modules/migrate_drupal_ui/src/Tests/MigrateUpgradeTestBase.php	e363361a2f6361c029f34c06b57abf1a
+D	core/modules/migrate_drupal_ui/src/Tests/d6/MigrateUpgrade6Test.php	
+D	core/modules/migrate_drupal_ui/src/Tests/d6/files/core/modules/simpletest/files/html-1.txt	
+D	core/modules/migrate_drupal_ui/src/Tests/d6/files/core/modules/simpletest/files/image-1.png	
+D	core/modules/migrate_drupal_ui/src/Tests/d6/files/core/modules/simpletest/files/image-2.jpg	
+D	core/modules/migrate_drupal_ui/src/Tests/d6/files/core/modules/simpletest/files/image-test.gif	
+D	core/modules/migrate_drupal_ui/src/Tests/d6/files/core/modules/simpletest/files/image-test.jpg	
+D	core/modules/migrate_drupal_ui/src/Tests/d6/files/core/modules/simpletest/files/image-test.png	
+D	core/modules/migrate_drupal_ui/src/Tests/d6/files/tmp/some-temp-file.jpg	
+D	core/modules/migrate_drupal_ui/src/Tests/d7/MigrateUpgrade7Test.php	
+D	core/modules/migrate_drupal_ui/src/Tests/d7/files/sites/default/files/cube.jpeg	
+D	core/modules/migrate_drupal_ui/src/Tests/d7/files/sites/default/files/ds9.txt	
+A	core/modules/migrate_drupal_ui/tests/src/Functional/MigrateAccessTest.php	047ec6be47791b66ffbfae0631223cea
+A	core/modules/migrate_drupal_ui/tests/src/Functional/MigrateUpgradeTestBase.php	248893d406b7a908fede66af68d5dd23
+A	core/modules/migrate_drupal_ui/tests/src/Functional/d6/MigrateUpgrade6Test.php	7ea84bfe45146e77e77b10c379275ac9
+A	core/modules/migrate_drupal_ui/tests/src/Functional/d6/files/core/modules/simpletest/files/html-1.txt	483383b234d4346c4d4b3d7595a93175
+A	core/modules/migrate_drupal_ui/tests/src/Functional/d6/files/core/modules/simpletest/files/image-1.png	14790f5a698dc07012f6b6455e6e2753
+A	core/modules/migrate_drupal_ui/tests/src/Functional/d6/files/core/modules/simpletest/files/image-2.jpg	a25f1abda366301f24ae3e2ae497a609
+A	core/modules/migrate_drupal_ui/tests/src/Functional/d6/files/core/modules/simpletest/files/image-test.gif	a06a0d333078a1016c0894d04321e6ca
+A	core/modules/migrate_drupal_ui/tests/src/Functional/d6/files/core/modules/simpletest/files/image-test.jpg	f8a277cb083393a05526c7237f353d2a
+A	core/modules/migrate_drupal_ui/tests/src/Functional/d6/files/core/modules/simpletest/files/image-test.png	1ca3bbb6386f9046730db1debaf08294
+A	core/modules/migrate_drupal_ui/tests/src/Functional/d6/files/tmp/some-temp-file.jpg	483383b234d4346c4d4b3d7595a93175
+A	core/modules/migrate_drupal_ui/tests/src/Functional/d7/MigrateUpgrade7Test.php	93b58443dccd68c379796fe2f0e5e672
+A	core/modules/migrate_drupal_ui/tests/src/Functional/d7/files/sites/default/files/cube.jpeg	2e290b39221d7f90d48b6f98c8e25a3b
+A	core/modules/migrate_drupal_ui/tests/src/Functional/d7/files/sites/default/files/ds9.txt	4710ec7d4a57c140e8ec01581b091f63
+A	core/modules/migrate_drupal_ui/tests/src/Functional/d7/files/sites/default/private/Babylon5.txt	2bb6aed5111ef9726bcf6eef982ff32b
+M	core/modules/node/tests/src/Kernel/Migrate/d6/MigrateNodeTest.php	b2ba180d24ee400de0e3a0fe71ea980a
+M	core/modules/outside_in/src/Ajax/OpenOffCanvasDialogCommand.php	ddd8d2f7d9e27df1ca82f994b3c85c2c
+M	core/modules/outside_in/src/Tests/Ajax/OffCanvasDialogTest.php	0a6bfc1345457092a0b27f0830ce0953
+M	core/modules/outside_in/tests/src/FunctionalJavascript/OffCanvasTest.php	0e7a2e147d454d365c27fbd9822db030
+M	core/modules/outside_in/tests/src/Unit/Ajax/OpenOffCanvasDialogCommandTest.php	d20be36c462b1fd4071a5e1ffc6a5209
+M	core/modules/rdf/tests/src/Functional/EntityReferenceFieldAttributesTest.php	6e3ece9f5b56666c39865ab3c4b2d9fe
+M	core/modules/rdf/tests/src/Functional/TaxonomyAttributesTest.php	c592930de9849b01c8811713cdfc7554
+M	core/modules/rest/config/schema/rest.schema.yml	3150495785491391192410a69b668ecd
+M	core/modules/rest/rest.api.php	c2d71cba271527c526243988f6e2367b
+M	core/modules/rest/src/LinkManager/ConfigurableLinkManagerInterface.php	7cc5542ead5c961ff11b4a1dfd686df7
+M	core/modules/rest/src/LinkManager/LinkManager.php	b3e64bc8279e45becf7e4eabeaf74718
+M	core/modules/rest/src/LinkManager/LinkManagerBase.php	6305982db0fbc16a971825425654bf83
+M	core/modules/rest/src/LinkManager/LinkManagerInterface.php	8c952e31a50b3c181ff210a628d08d9e
+M	core/modules/rest/src/LinkManager/RelationLinkManager.php	7ee7e9d39790f21d7c53e3591b78cbe6
+M	core/modules/rest/src/LinkManager/RelationLinkManagerInterface.php	77d80c5ff6eaf13c656a22786d7a913b
+M	core/modules/rest/src/LinkManager/TypeLinkManager.php	18e75f6cb9e43b838abab4e42dc05cbe
+M	core/modules/rest/src/LinkManager/TypeLinkManagerInterface.php	590e6cbc4692b1ebbf0adcea2e9bd875
+M	core/modules/rest/src/Plugin/Type/ResourcePluginManager.php	90bfa80b190f31846d4dfe3a25855924
+M	core/modules/rest/src/RestServiceProvider.php	f629a9d18ddbd9e17ad0eecbb03f7058
+M	core/modules/system/src/Tests/Database/DatabaseWebTestBase.php	5d66e2e1ba9a6b9f23bb026ca7016c70
+M	core/modules/system/src/Tests/Database/FakeRecord.php	0124d33a866720e9b473858cec0441fa
+D	core/modules/system/src/Tests/Database/SelectPagerDefaultTest.php	
+D	core/modules/system/src/Tests/Database/SelectTableSortDefaultTest.php	
+D	core/modules/system/src/Tests/Database/TemporaryQueryTest.php	
+D	core/modules/system/src/Tests/DrupalKernel/ContainerRebuildWebTest.php	
+D	core/modules/system/src/Tests/Image/ToolkitSetupFormTest.php	
+D	core/modules/system/src/Tests/Image/ToolkitTest.php	
+M	core/modules/system/src/Tests/Image/ToolkitTestBase.php	e9943f981a755b9050198e6a9b62e23f
+M	core/modules/system/tests/modules/entity_test/entity_test.module	ef21146bfb962c5ee72cc645e1b0c0f2
+D	core/modules/system/tests/modules/entity_test/src/Entity/EntityTestUpdate.php	
+M	core/modules/system/tests/modules/entity_test_update/entity_test_update.module	b2d79c8b12cb627a0cd8d87a77554a30
+M	core/modules/system/tests/modules/image_test/src/Plugin/ImageToolkit/TestToolkit.php	d7314844f425ff09a84e1117f0106473
+A	core/modules/system/tests/src/Functional/Database/DatabaseTestBase.php	bb091a527f8b0e142401ae3a5c807720
+A	core/modules/system/tests/src/Functional/Database/FakeRecord.php	c70059a5951883eeb5d60d3f87fe4d52
+A	core/modules/system/tests/src/Functional/Database/SelectPagerDefaultTest.php	bb3c911d5b00c5c14eff4e5c024860a1
+A	core/modules/system/tests/src/Functional/Database/SelectTableSortDefaultTest.php	02c3732dfd0bdaf58caddcac37a02a71
+A	core/modules/system/tests/src/Functional/Database/TemporaryQueryTest.php	6e8e44c2c0e537ba017ad46172e0d838
+A	core/modules/system/tests/src/Functional/DrupalKernel/ContainerRebuildWebTest.php	002f132250bb0eedaa05c2ea7ce121be
+A	core/modules/taxonomy/migration_templates/d6_taxonomy_term_translation.yml	63519de6e3b78ce9904e60d748fa32ef
+A	core/modules/taxonomy/migration_templates/d6_taxonomy_vocabulary_translation.yml	57449e62a663ed8abb7c246169dd420c
+M	core/modules/taxonomy/src/Plugin/migrate/source/d6/Term.php	eef256d54e8cf871eb6505dd62268547
+A	core/modules/taxonomy/src/Plugin/migrate/source/d6/VocabularyTranslation.php	9b0748a64778b8fe9cb3b9368a597744
+D	core/modules/taxonomy/src/Tests/TaxonomyImageTest.php	
+D	core/modules/taxonomy/src/Tests/TaxonomyQueryAlterTest.php	
+D	core/modules/taxonomy/src/Tests/TaxonomyTermPagerTest.php	
+M	core/modules/taxonomy/src/Tests/TaxonomyTestBase.php	559088ef6243ce144c4fb8595a92dd51
+M	core/modules/taxonomy/src/Tests/TaxonomyTestTrait.php	00ed353127a887b11377f01a15307a2b
+M	core/modules/taxonomy/src/Tests/TaxonomyTranslationTestTrait.php	f0704abbffd92be81c7d1d7310fc9548
+D	core/modules/taxonomy/src/Tests/TermTranslationUITest.php	
+D	core/modules/taxonomy/src/Tests/ThemeTest.php	
+D	core/modules/taxonomy/src/Tests/Views/ArgumentValidatorTermTest.php	
+D	core/modules/taxonomy/src/Tests/Views/RelationshipNodeTermDataTest.php	
+D	core/modules/taxonomy/src/Tests/Views/RelationshipRepresentativeNodeTest.php	
+D	core/modules/taxonomy/src/Tests/Views/TaxonomyDefaultArgumentTest.php	
+D	core/modules/taxonomy/src/Tests/Views/TaxonomyFieldAllTermsTest.php	
+D	core/modules/taxonomy/src/Tests/Views/TaxonomyFieldFilterTest.php	
+D	core/modules/taxonomy/src/Tests/Views/TaxonomyFieldTidTest.php	
+D	core/modules/taxonomy/src/Tests/Views/TaxonomyIndexTidFilterTest.php	
+D	core/modules/taxonomy/src/Tests/Views/TaxonomyIndexTidUiTest.php	
+D	core/modules/taxonomy/src/Tests/Views/TaxonomyParentUITest.php	
+D	core/modules/taxonomy/src/Tests/Views/TaxonomyRelationshipTest.php	
+D	core/modules/taxonomy/src/Tests/Views/TaxonomyTermArgumentDepthTest.php	
+D	core/modules/taxonomy/src/Tests/Views/TaxonomyTermFilterDepthTest.php	
+D	core/modules/taxonomy/src/Tests/Views/TaxonomyTermViewTest.php	
+D	core/modules/taxonomy/src/Tests/Views/TaxonomyTestBase.php	
+D	core/modules/taxonomy/src/Tests/Views/TaxonomyVocabularyArgumentTest.php	
+D	core/modules/taxonomy/src/Tests/Views/TermNameFieldTest.php	
+D	core/modules/taxonomy/src/Tests/VocabularyUiTest.php	
+A	core/modules/taxonomy/tests/src/Functional/TaxonomyImageTest.php	eaa58f13e263d8a88ce26526050781d7
+A	core/modules/taxonomy/tests/src/Functional/TaxonomyQueryAlterTest.php	95c07f76f866010e366033b491f1f830
+A	core/modules/taxonomy/tests/src/Functional/TaxonomyTermPagerTest.php	aaa96e2ddbf9f0e64f70271132a8c3d0
+M	core/modules/taxonomy/tests/src/Functional/TaxonomyTestBase.php	b9e074afaceeea0e245da59b5aa0c499
+A	core/modules/taxonomy/tests/src/Functional/TaxonomyTestTrait.php	79e1ae3f4e5cae5993eda203171d1159
+A	core/modules/taxonomy/tests/src/Functional/TaxonomyTranslationTestTrait.php	ba69e73454d7481eb7a52d05cd804941
+M	core/modules/taxonomy/tests/src/Functional/TermTranslationFieldViewTest.php	164ff1e6d5031e4e7b1c8177e87d1edf
+A	core/modules/taxonomy/tests/src/Functional/TermTranslationUITest.php	fe826d5a35f0661dc4768c802c933283
+A	core/modules/taxonomy/tests/src/Functional/ThemeTest.php	943602016cc1e352b84ec67e652fa457
+A	core/modules/taxonomy/tests/src/Functional/Views/ArgumentValidatorTermTest.php	fbecae85dbee43e241aee2f1a8354a98
+A	core/modules/taxonomy/tests/src/Functional/Views/RelationshipNodeTermDataTest.php	b1a967288e86a97f0a2878a87ce7f07f
+A	core/modules/taxonomy/tests/src/Functional/Views/RelationshipRepresentativeNodeTest.php	22c93d2935d5a6c48ba4185c87a54e14
+A	core/modules/taxonomy/tests/src/Functional/Views/TaxonomyDefaultArgumentTest.php	27af1a1d5c9274d9da69bb750a5e7c1a
+A	core/modules/taxonomy/tests/src/Functional/Views/TaxonomyFieldAllTermsTest.php	deac81d66be6b8c4f7e6aa15b15c6124
+A	core/modules/taxonomy/tests/src/Functional/Views/TaxonomyFieldFilterTest.php	be98b6ab8aa500a1948a226850ac1f39
+A	core/modules/taxonomy/tests/src/Functional/Views/TaxonomyFieldTidTest.php	5553a5888dc48d825949bb4040c7886a
+A	core/modules/taxonomy/tests/src/Functional/Views/TaxonomyIndexTidFilterTest.php	19dd25e2dfa91d660e7e3d718665565f
+A	core/modules/taxonomy/tests/src/Functional/Views/TaxonomyIndexTidUiTest.php	5552f549465a6b3b2ba14eb3c83664ea
+A	core/modules/taxonomy/tests/src/Functional/Views/TaxonomyParentUITest.php	74f1eac15346fedaca842a68b685d991
+A	core/modules/taxonomy/tests/src/Functional/Views/TaxonomyRelationshipTest.php	e1c8afbd49bea01b0ac639f732e8a0be
+A	core/modules/taxonomy/tests/src/Functional/Views/TaxonomyTermArgumentDepthTest.php	6c2082007a579ad7fd1acfa41449bd89
+A	core/modules/taxonomy/tests/src/Functional/Views/TaxonomyTermFilterDepthTest.php	0a061f228508f35b4137eaef93e30281
+A	core/modules/taxonomy/tests/src/Functional/Views/TaxonomyTermViewTest.php	57bb33882a00de8b82ca3073e4246aa1
+A	core/modules/taxonomy/tests/src/Functional/Views/TaxonomyTestBase.php	92854d385be2bb6a7f7c24a7e3e3ad4f
+A	core/modules/taxonomy/tests/src/Functional/Views/TaxonomyVocabularyArgumentTest.php	b6a257d10b050af53350232eb0ba5d05
+A	core/modules/taxonomy/tests/src/Functional/Views/TermNameFieldTest.php	d3d860c042ab7e88be3686b8ae7e8f44
+A	core/modules/taxonomy/tests/src/Functional/VocabularyUiTest.php	fd4417f319b7b66ed6a039a489dfcfad
+M	core/modules/taxonomy/tests/src/Kernel/Migrate/d6/MigrateTaxonomyTermTest.php	98d332601903e4914f03e4c9215bfa3a
+A	core/modules/taxonomy/tests/src/Kernel/Migrate/d6/MigrateTaxonomyTermTranslationTest.php	382e27e420f32004a25b0a2af653df90
+A	core/modules/taxonomy/tests/src/Kernel/Migrate/d6/MigrateTaxonomyVocabularyTranslationTest.php	29e0ab642dce34f2a0fd844d60b43c78
+A	core/modules/taxonomy/tests/src/Kernel/Plugin/migrate/source/d6/TermTranslationTest.php	a5d9ac6f88f556c0432d0ee8fa272510
+A	core/modules/taxonomy/tests/src/Kernel/Plugin/migrate/source/d6/VocabularyTranslationTest.php	48c6204fd5e44b4be9575673bab8cbb6
+M	core/modules/taxonomy/tests/src/Kernel/TermKernelTest.php	ca1f4b403049d96fc42bf0b35482bb1f
+D	core/modules/update/src/Tests/FileTransferAuthorizeFormTest.php	
+D	core/modules/update/src/Tests/UpdateContribTest.php	
+D	core/modules/update/src/Tests/UpdateCoreTest.php	
+D	core/modules/update/src/Tests/UpdateDeleteFileIfStaleTest.php	
+M	core/modules/update/src/Tests/UpdateTestBase.php	e6d2ae9b50b594d513730d45d323677a
+D	core/modules/update/src/Tests/UpdateUploadTest.php	
+A	core/modules/update/tests/src/Functional/FileTransferAuthorizeFormTest.php	39719aca08cde891772c7c4555edc5af
+A	core/modules/update/tests/src/Functional/UpdateContribTest.php	072927c8eaed1e1368ce58c7f9524d5c
+A	core/modules/update/tests/src/Functional/UpdateCoreTest.php	66c3b9749db7522f3b033cc27dae9528
+A	core/modules/update/tests/src/Functional/UpdateDeleteFileIfStaleTest.php	4f79bf65dd7828b1d46921c6135d9d04
+A	core/modules/update/tests/src/Functional/UpdateTestBase.php	fac2580ff6065d82dd8797735f719227
+A	core/modules/update/tests/src/Functional/UpdateUploadTest.php	d5ce3b8e58c2f728f55bfd9ce6f64e39
+D	core/modules/user/src/Tests/Views/AccessRoleUITest.php	
+M	core/modules/user/src/UserData.php	3f4c43d2500e6093221e0663b557f6e1
+A	core/modules/user/tests/src/Functional/AccessRoleUITest.php	7b01b9cb328770ccb2c3fd20028f6b70
+M	core/modules/user/tests/src/Functional/UserLoginHttpTest.php	f3235224811abaeb5448d7bbcbdfd18e
+M	core/modules/user/tests/src/Unit/Plugin/Action/AddRoleUserTest.php	11827c96c41737c6fb4e7acee9d071b1
+M	core/modules/views/src/Plugin/views/field/FieldPluginBase.php	8d150abe6b4f81c7d69ad7ed1c51b60b
+M	core/modules/views/src/Plugin/views/style/DefaultStyle.php	3ef10876d253c40b4ef0df08e4a7a976
+M	core/modules/views/src/Plugin/views/style/Grid.php	f7ec0322270690e311fb8ee236bfdd34
+M	core/modules/views/src/Plugin/views/style/HtmlList.php	1ffea508acc1276ab5cb9d8739d73826
+M	core/modules/views/src/Plugin/views/style/Opml.php	e98cac1dfaaf5d338be322d7cb8355de
+M	core/modules/views/src/Plugin/views/style/Rss.php	54903edf00fcb9dca3b20b0cd5aaa77b
+M	core/modules/views/src/Plugin/views/style/StylePluginBase.php	1f87c634f5fc2edc0f88aa593dcda97f
+M	core/modules/views/src/Plugin/views/style/Table.php	9884e0b1283d195e30ebcbdc395c64cf
+M	core/modules/views/tests/modules/views_test_data/src/Plugin/views/style/StyleTemplateTest.php	7a7783b76ceccf70b6dbf5c4df5420e6
+M	core/modules/views/tests/modules/views_test_data/src/Plugin/views/style/StyleTest.php	b22191d876f66842ecfa013303b49965
+M	core/modules/views/tests/src/Functional/TaxonomyGlossaryTest.php	d34ba638be1b1facc509b9d5a363a7f4
+M	core/modules/views/tests/src/Unit/Plugin/field/FieldPluginBaseTest.php	2774d8e0c003c19d4e464b6a15527a79
+D	core/modules/views_ui/src/Tests/AnalyzeTest.php	
+D	core/modules/views_ui/src/Tests/AreaEntityUITest.php	
+D	core/modules/views_ui/src/Tests/ArgumentValidatorTest.php	
+D	core/modules/views_ui/src/Tests/CachedDataUITest.php	
+D	core/modules/views_ui/src/Tests/CustomBooleanTest.php	
+D	core/modules/views_ui/src/Tests/DefaultViewsTest.php	
+D	core/modules/views_ui/src/Tests/DisplayAttachmentTest.php	
+D	core/modules/views_ui/src/Tests/DisplayCRUDTest.php	
+D	core/modules/views_ui/src/Tests/DisplayExtenderUITest.php	
+D	core/modules/views_ui/src/Tests/DisplayFeedTest.php	
+D	core/modules/views_ui/src/Tests/DisplayPathTest.php	
+D	core/modules/views_ui/src/Tests/DisplayTest.php	
+D	core/modules/views_ui/src/Tests/DuplicateTest.php	
+D	core/modules/views_ui/src/Tests/FieldUITest.php	
+D	core/modules/views_ui/src/Tests/FilterBooleanWebTest.php	
+D	core/modules/views_ui/src/Tests/FilterNumericWebTest.php	
+D	core/modules/views_ui/src/Tests/FilterUITest.php	
+D	core/modules/views_ui/src/Tests/GroupByTest.php	
+D	core/modules/views_ui/src/Tests/HandlerTest.php	
+D	core/modules/views_ui/src/Tests/NewViewConfigSchemaTest.php	
+D	core/modules/views_ui/src/Tests/OverrideDisplaysTest.php	
+M	core/modules/views_ui/src/Tests/PreviewTest.php	eb8c2323d397522b42a91d4e543e9af7
+D	core/modules/views_ui/src/Tests/QueryTest.php	
+D	core/modules/views_ui/src/Tests/RearrangeFieldsTest.php	
+D	core/modules/views_ui/src/Tests/RedirectTest.php	
+D	core/modules/views_ui/src/Tests/ReportFieldsTest.php	
+D	core/modules/views_ui/src/Tests/ReportTest.php	
+D	core/modules/views_ui/src/Tests/SettingsTest.php	
+D	core/modules/views_ui/src/Tests/StorageTest.php	
+D	core/modules/views_ui/src/Tests/StyleTableTest.php	
+D	core/modules/views_ui/src/Tests/StyleUITest.php	
+D	core/modules/views_ui/src/Tests/TokenizeAreaUITest.php	
+D	core/modules/views_ui/src/Tests/TranslatedViewTest.php	
+M	core/modules/views_ui/src/Tests/UITestBase.php	0d7c533c93066caa6812d4d1ac381f17
+D	core/modules/views_ui/src/Tests/UnsavedPreviewTest.php	
+D	core/modules/views_ui/src/Tests/ViewsListTest.php	
+D	core/modules/views_ui/src/Tests/WizardTest.php	
+D	core/modules/views_ui/src/Tests/XssTest.php	
+M	core/modules/views_ui/src/ViewUI.php	5e6dda51fe81b5c84e93271e8bbce419
+A	core/modules/views_ui/tests/src/Functional/AnalyzeTest.php	6f1463102c94dce0710eb5b86d3f3dd6
+A	core/modules/views_ui/tests/src/Functional/AreaEntityUITest.php	ee97a821d0a63592030febd5460084ad
+A	core/modules/views_ui/tests/src/Functional/ArgumentValidatorTest.php	7c5361b6af4a9b28e988f97367c8ccd7
+A	core/modules/views_ui/tests/src/Functional/CachedDataUITest.php	988b607c361695c11c5d836ddb3fbbbc
+A	core/modules/views_ui/tests/src/Functional/CustomBooleanTest.php	1c0402c881976899fd1c8062255ac858
+A	core/modules/views_ui/tests/src/Functional/DefaultViewsTest.php	7435c01e162f9a0122ca13cd35531f17
+A	core/modules/views_ui/tests/src/Functional/DisplayAttachmentTest.php	dab61703a83d63ccf02ef76ceea8d84a
+A	core/modules/views_ui/tests/src/Functional/DisplayCRUDTest.php	d4e7c0a5b68101e03eb73b65188a280b
+A	core/modules/views_ui/tests/src/Functional/DisplayExtenderUITest.php	1b2d41bfe6c9c336b9162f9bc838780e
+A	core/modules/views_ui/tests/src/Functional/DisplayFeedTest.php	7067ce62c28348360083fe0637069a74
+A	core/modules/views_ui/tests/src/Functional/DisplayPathTest.php	5d4700778c0dcf2abdb27c58024663fc
+A	core/modules/views_ui/tests/src/Functional/DisplayTest.php	b84fb3070668c2b05a207f5e9a21170f
+A	core/modules/views_ui/tests/src/Functional/DuplicateTest.php	77c214cd59c9a89b3fcb7c2001f53663
+A	core/modules/views_ui/tests/src/Functional/FieldUITest.php	196e146ad8ef74417f25e22bf3208d8c
+A	core/modules/views_ui/tests/src/Functional/FilterBooleanWebTest.php	5d63251fe813db43505d009a10724091
+A	core/modules/views_ui/tests/src/Functional/FilterNumericWebTest.php	d402510c5606d9aa6cc72c7bf5676b69
+A	core/modules/views_ui/tests/src/Functional/FilterUITest.php	73b3bf493f132679fff3091c6a774ec4
+A	core/modules/views_ui/tests/src/Functional/GroupByTest.php	ec7e2e0acc389a9c5cd6762b7d70952a
+A	core/modules/views_ui/tests/src/Functional/HandlerTest.php	8774e49cc955aa7a7afe0c3462bed136
+A	core/modules/views_ui/tests/src/Functional/NewViewConfigSchemaTest.php	7e3cee59e26768d525129b5bfca293a2
+A	core/modules/views_ui/tests/src/Functional/OverrideDisplaysTest.php	01d1468bca11609d32883b76854cc385
+A	core/modules/views_ui/tests/src/Functional/QueryTest.php	6d22b4f2387d71e36522b98f36c78573
+A	core/modules/views_ui/tests/src/Functional/RearrangeFieldsTest.php	6240eed8754c0a2539f0ce1e9ac2034f
+A	core/modules/views_ui/tests/src/Functional/RedirectTest.php	4a693689ed4aa7fc916f51dc35b0a57a
+A	core/modules/views_ui/tests/src/Functional/ReportFieldsTest.php	07c8c07753aaf185e223254b0e012cb2
+A	core/modules/views_ui/tests/src/Functional/ReportTest.php	700c4c290571765569af7f881f4a357d
+A	core/modules/views_ui/tests/src/Functional/SettingsTest.php	bd70bc1077be57e13bbec9c9a5c1910a
+A	core/modules/views_ui/tests/src/Functional/StorageTest.php	9a48a02806ba6717bfd642eb79513e0a
+A	core/modules/views_ui/tests/src/Functional/StyleTableTest.php	d92ae05b49b3e89b7b554bf2d86d7557
+A	core/modules/views_ui/tests/src/Functional/StyleUITest.php	c3201b6e87a2e5d1ff6e35ced66ca705
+A	core/modules/views_ui/tests/src/Functional/TokenizeAreaUITest.php	d56d7ac748077d473bf8be3aebd3eaac
+A	core/modules/views_ui/tests/src/Functional/TranslatedViewTest.php	b34326d32586dcf54efa5274d2fa3eb4
+A	core/modules/views_ui/tests/src/Functional/UITestBase.php	22478600e5e7f4ddd52ed900f3aeff1d
+A	core/modules/views_ui/tests/src/Functional/UnsavedPreviewTest.php	fb0a325a0dae81801972d0a37b59e058
+A	core/modules/views_ui/tests/src/Functional/ViewsListTest.php	692611fe1766d5bcc764c3c98260ca0d
+A	core/modules/views_ui/tests/src/Functional/WizardTest.php	a1ad5c6b21815f4490b69798cdb37534
+A	core/modules/views_ui/tests/src/Functional/XssTest.php	b78fbe95553dfb02b87ef9725057e07a
+A	core/modules/views_ui/tests/src/FunctionalJavascript/DisplayTest.php	72f0086f8504ce44973093fe8fa34045
+M	core/tests/Drupal/FunctionalTests/BrowserTestBaseTest.php	72c43a3e211b8ea79a93c0e5942fa28d
+A	core/tests/Drupal/FunctionalTests/Image/ToolkitSetupFormTest.php	58b1d6df2a6229afa5036f5b90ed566d
+A	core/tests/Drupal/FunctionalTests/Image/ToolkitTest.php	96e15489112d2a9904d504123badbac8
+A	core/tests/Drupal/FunctionalTests/Image/ToolkitTestBase.php	42e3b4189ca801453fe2e1f2f816018d
+M	core/tests/Drupal/KernelTests/Core/Database/FetchTest.php	685ee824df496d70d1fc277bf11cec3a
+M	core/tests/Drupal/KernelTests/KernelTestBaseTest.php	eaa8a23022623e05f82f306eab488748
+A	core/tests/Drupal/Tests/Core/Block/BlockManagerTest.php	29dbfdb3d41993aab125cc25362840e1
+M	core/tests/Drupal/Tests/TestSuites/TestSuiteBaseTest.php	4d0d17ac94bab3698b90762df14b37fa

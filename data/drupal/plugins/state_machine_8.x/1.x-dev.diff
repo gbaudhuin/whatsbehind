@@ -1,0 +1,4 @@
+M	config/schema/state_machine.schema.yml	79bb8714c0cb391ac822e2a52da1881f
+M	state_machine.info.yml	28bf9519c0b59e1d0d56d7b7690f28d3
+M	tests/modules/state_machine_test/state_machine_test.info.yml	7da33456e7de49ef5ef803ba5b0480ea
+M	tests/src/Unit/Plugin/Workflow/WorkflowTest.php	ddb871cd6b2bc315c447b6c5ac1f50a3

@@ -1,0 +1,15 @@
+M	bootstrap_paragraphs.info.yml	a7f716baaf76176f390b88eb7efaf543
+M	bootstrap_paragraphs.install	b29bee90a2bd2e5a28904eb9d4d08026
+D	config/install/field.storage.paragraph.bp_contact_form.yml	
+M	css/bootstrap-paragraphs.css	48b175f9955801a9a7ee5dfe1ade7348
+M	less/bootstrap-paragraphs.less	8b33a7d2d74d8243004dfc6dd173c861
+M	templates/field--paragraph--bp-column-content-2.html.twig	a63900009573c745bd2c33c1af4ea3a4
+M	templates/field--paragraph--bp-column-content-3.html.twig	a63900009573c745bd2c33c1af4ea3a4
+M	templates/field--paragraph--bp-column-content.html.twig	a63900009573c745bd2c33c1af4ea3a4
+M	templates/paragraph--bp-accordion.html.twig	9b4dd9931678344fa4c7ee90da8738ea
+M	templates/paragraph--bp-columns-three-uneven.html.twig	0e225de59487698376ab4fcc7ba5bde5
+M	templates/paragraph--bp-columns-two-uneven.html.twig	538bf81d8882c80ba4823eb57b7b5778
+M	templates/paragraph--bp-image.html.twig	c086c66941b3b9517c1a89f885f89401
+M	templates/paragraph--bp-modal.html.twig	8f1e5ae4a029be1a15af938730fa9a0a
+M	templates/paragraph--bp-tabs.html.twig	7a61fcd361878be7a4c114fe1378da49
+M	templates/paragraph--default.html.twig	3bac8af553fafa00146c0cf9130cb9ac

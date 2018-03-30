@@ -1,0 +1,150 @@
+M	README.txt	fde6f48d6731ec098072dd2dce49e60e
+M	css/ds.admin.css	651b9b29e883135316a9762ed95a0f86
+A	drush/ds.drush.inc	2f878182824a33444e9ece16dfc57304
+A	drush/example_layout/README.txt	075ebf1fce1e4a19dd2c41e263e63e47
+A	drush/example_layout/example-layout.tpl.php	9c44d976ab7c5f64f90ca7aeb90e7a67
+A	drush/example_layout/example_layout-rtl.css	9b2e0184c2a4f9234163dfa54fd608cb
+A	drush/example_layout/example_layout.css	c35a2a729b8a443be579c7b5b3d4e2c2
+A	drush/example_layout/example_layout.inc	16f58b9ff39106889035c7004d5981b1
+A	drush/example_layout/example_layout.png	966a9e933f5b619eb0759eb785fd5626
+M	ds.api.php	291ed6717f7ae6a223cfc706bef50c94
+D	ds.drush.inc	
+M	ds.ds_fields_info.inc	b1389cc705a6368261f44ae2035b2014
+D	ds.field_ui.inc	
+D	ds.fields.inc	
+M	ds.info	48146fb7cb7a1e07aff65ce5c1900ae9
+M	ds.install	52cc7de1f506c78ebb6994e9d0e7a7ab
+D	ds.layout.inc	
+M	ds.module	7b938cb175c4a070855af29492f21fc2
+D	ds.registry.inc	
+D	ds.styles.inc	
+D	ds.view_modes.inc	
+M	ds.views.inc	68d1d895c540dd28cf5602555da4c10e
+D	example_layout/README.txt	
+D	example_layout/example-layout.tpl.php	
+D	example_layout/example_layout.css	
+D	example_layout/example_layout.inc	
+A	images/arrow.png	bb3175da4db50c5ee9dc30b3f8cec9a0
+A	images/preview.png	e8d8862444b69eff654761e53241ec8e
+A	includes/ds.contextual.inc	ff50bbb982008139a0e2d8925d1cdfa9
+A	includes/ds.displays.inc	794e1c7f9ca7b7363a062e57a9637168
+A	includes/ds.field_ui.inc	8267192fe008afe31742203271cbe788
+A	includes/ds.registry.inc	0e4ab6ec270162be694a7c312512f822
+A	includes/ds.revision.inc	792d947bfd0d738e55eba55c971e8612
+A	js/ds.admin.js	72c096c315c7a5f2211602e0264802ae
+D	js/ds.js	
+M	layouts/ds_1col/ds-1col.tpl.php	07c37110f5f89922d3cb87b34c32581c
+A	layouts/ds_1col/ds_1col.png	32015be68c93406e96e5301699f1418d
+M	layouts/ds_2col/ds-2col.tpl.php	761da3cd190e04a6c1a15f60d6388660
+A	layouts/ds_2col/ds_2col-rtl.css	f5140ce1f6042d8df553c5e380b26b9c
+M	layouts/ds_2col/ds_2col.css	47b7863cec5c163044e2038eafee2da1
+A	layouts/ds_2col/ds_2col.png	966a9e933f5b619eb0759eb785fd5626
+A	layouts/ds_2col_fluid/ds-2col-fluid.tpl.php	8e1e9e47450c9f3e39271a7cee122c7b
+A	layouts/ds_2col_fluid/ds_2col_fluid-rtl.css	5814dcdc72ab49cece1a79ce9b4c2213
+A	layouts/ds_2col_fluid/ds_2col_fluid.css	63efa72dabdadc3cc968ea0ff1c86dae
+A	layouts/ds_2col_fluid/ds_2col_fluid.png	22f239d0ecb32cd2de2263f3dc2e4478
+M	layouts/ds_2col_stacked/ds-2col-stacked.tpl.php	acf467a6427eb82a832806b1290a57cd
+A	layouts/ds_2col_stacked/ds_2col_stacked-rtl.css	a5f3ebeb24af50b2b72379475812407e
+M	layouts/ds_2col_stacked/ds_2col_stacked.css	0ac4ce2ae2507b3a1fce6dc0bc5ead21
+A	layouts/ds_2col_stacked/ds_2col_stacked.png	0b26440fd82411aa486d317a736f6782
+M	layouts/ds_2col_stacked_fluid/ds-2col-stacked-fluid.tpl.php	5ae85b85834580477cebee5785111982
+A	layouts/ds_2col_stacked_fluid/ds_2col_stacked_fluid-rtl.css	8b476253aaf2ed8b2134062beb6045f5
+M	layouts/ds_2col_stacked_fluid/ds_2col_stacked_fluid.css	ab457b9ea57268bb9d125e6d6b28be99
+A	layouts/ds_2col_stacked_fluid/ds_2col_stacked_fluid.png	4d26ecaa1c137f7655c161b87fd01604
+M	layouts/ds_3col/ds-3col.tpl.php	e2543081ced4d162a1a5d748d9303c43
+A	layouts/ds_3col/ds_3col-rtl.css	e9c7d9d48b4bdb7f917e0b34b370958f
+M	layouts/ds_3col/ds_3col.css	abc8a4c353ff20d1458aaefb14b04976
+A	layouts/ds_3col/ds_3col.png	ded859ca4638ff6493c6009a46ffa3e0
+M	layouts/ds_3col_equal_width/ds-3col-equal-width.tpl.php	6e3e2e26447a86da22af8897c3973a6a
+A	layouts/ds_3col_equal_width/ds_3col_equal_width-rtl.css	e710adbb3496435fb13a51ab41ac2bc5
+M	layouts/ds_3col_equal_width/ds_3col_equal_width.css	680fa391cde669261f47fe0b51734caf
+A	layouts/ds_3col_equal_width/ds_3col_equal_width.png	16f811dc5288a9ec1a3bad9ac2c6c22f
+M	layouts/ds_3col_stacked/ds-3col-stacked.tpl.php	d5ee27c496a66a245945af259480bdd4
+A	layouts/ds_3col_stacked/ds_3col_stacked-rtl.css	76d9fbfa47fb042691af5ce508fe33de
+M	layouts/ds_3col_stacked/ds_3col_stacked.css	f1f3df24da5ef2b923c4d0280a246806
+A	layouts/ds_3col_stacked/ds_3col_stacked.png	b512a4f80aec43dcfe569ce464bce180
+M	layouts/ds_3col_stacked_equal_width/ds-3col-stacked-equal-width.tpl.php	abf132acc076882510f76557b35679a1
+A	layouts/ds_3col_stacked_equal_width/ds_3col_stacked_equal_width-rtl.css	9003a3a784e524b386af658e51309858
+M	layouts/ds_3col_stacked_equal_width/ds_3col_stacked_equal_width.css	cf16252b95c493aee3a59f8b0c0b3fb7
+A	layouts/ds_3col_stacked_equal_width/ds_3col_stacked_equal_width.png	7a500f83737fbdde3d6c646c4f0f7122
+M	layouts/ds_3col_stacked_fluid/ds-3col-stacked-fluid.tpl.php	672e52068d7b08efc7fa9c33c3235c19
+A	layouts/ds_3col_stacked_fluid/ds_3col_stacked_fluid-rtl.css	bf4bad82eee4d822196e9a3bc1aff5b2
+M	layouts/ds_3col_stacked_fluid/ds_3col_stacked_fluid.css	eec97c5bf309c4ab9c7029488794247b
+A	layouts/ds_3col_stacked_fluid/ds_3col_stacked_fluid.png	3f38e93f76b179e9dbd69286367c27e9
+D	layouts/ds_3col_stacked_html5/ds-3col-stacked-html5.tpl.php	
+D	layouts/ds_3col_stacked_html5/ds_3col_stacked_html5.css	
+M	layouts/ds_4col/ds-4col.tpl.php	2313a0043b46446754738e728fa22f82
+A	layouts/ds_4col/ds_4col-rtl.css	1e3eb9684d2a4c62fdd74d53e860527c
+M	layouts/ds_4col/ds_4col.css	2f23257186e0fa14fd907c6aabcb7069
+A	layouts/ds_4col/ds_4col.png	809565542bd9f7ac8424557cc783c2ca
+A	layouts/ds_reset/ds-reset.tpl.php	4a32e1064b956bc8eeae11f6a259f315
+A	layouts/ds_reset/ds_reset.png	f5fc791de52b9d15490bc0f0f100373a
+A	modules/ds_devel/ds_devel.info	9a0e17cf795a9bca82f9c44309950065
+A	modules/ds_devel/ds_devel.module	7796affbaa6136e9deb4b67466e54434
+M	modules/ds_extras/README.txt	f56d6ac6a6370253465ba8e4f09f66a5
+D	modules/ds_extras/ds_extras.admin.inc	
+D	modules/ds_extras/ds_extras.admin.js	
+M	modules/ds_extras/ds_extras.ds_fields_info.inc	7d2d9864e4b6f6eb07ed4a5bb7d79f8a
+M	modules/ds_extras/ds_extras.info	9c3f25789edce630a5f5c7409e7dfb37
+M	modules/ds_extras/ds_extras.install	17b3ac7bdd0d2350c09b33d3d82703cf
+D	modules/ds_extras/ds_extras.js	
+M	modules/ds_extras/ds_extras.module	9e5ecdfb467cbd5f4f3ba816a293724b
+D	modules/ds_extras/ds_extras.pages.inc	
+D	modules/ds_extras/ds_extras.panels.admin.css	
+D	modules/ds_extras/ds_extras.panels.admin.js	
+D	modules/ds_extras/ds_extras.panels.inc	
+D	modules/ds_extras/ds_extras.registry.inc	
+D	modules/ds_extras/ds_extras.vd.inc	
+A	modules/ds_extras/includes/ds_extras.admin.inc	ebd21b53b3a6a70c5fad0ccbe778fc94
+A	modules/ds_extras/includes/ds_extras.pages.inc	18bac328c65613d7360c805cb734f0a6
+A	modules/ds_extras/includes/ds_extras.registry.inc	63b355a093489fd4c3a42875f75f8b1b
+A	modules/ds_extras/includes/ds_extras.vd.inc	51613afe95bf9382f26752f3b692ab66
+A	modules/ds_extras/js/ds_extras.admin.js	273c03980564d61b72d18efdd1e495f4
+A	modules/ds_extras/js/ds_extras.js	635fb3439a89534422459ef23a775e71
+D	modules/ds_extras/plugins/cache/ds_panels_cache.inc	
+A	modules/ds_format/ds_format.info	37485504e97a1f901d95610444e0ead5
+A	modules/ds_format/ds_format.install	569271b2d02c635bb42183cbdd939711
+A	modules/ds_format/ds_format.module	22700ec7082c9fadbdfaf39a8a8f2b05
+A	modules/ds_forms/css/ds_forms.admin.css	56c6e0e4d24422657b0622ea87d18dff
+D	modules/ds_forms/ds_forms.admin.css	
+D	modules/ds_forms/ds_forms.admin.js	
+M	modules/ds_forms/ds_forms.info	d3dc38066588347acbcbca751c6be526
+M	modules/ds_forms/ds_forms.install	105403af623dcc1bad9341ad81d18c80
+M	modules/ds_forms/ds_forms.module	4d892bbb8f126a1af34a1e9b72bb9c2b
+A	modules/ds_forms/js/ds_forms.admin.js	c9a3e4fef4772a6b1b2b10852608942c
+D	modules/ds_forms/layouts/ds_form/ds-form.tpl.php	
+D	modules/ds_forms/layouts/ds_form/ds_form.css	
+D	modules/ds_forms/layouts/ds_form_3col/ds-form-3col.tpl.php	
+D	modules/ds_forms/layouts/ds_form_3col/ds_form_3col.css	
+A	modules/ds_search/css/ds_search.theme.css	0000bb5a9d316f848e7d4ad93551a951
+D	modules/ds_search/ds_search.admin.inc	
+M	modules/ds_search/ds_search.info	284a746f1addc5ab11e9c2b3d236d345
+M	modules/ds_search/ds_search.install	6ac363bd28d86ae9bd27933d0aaf4e18
+D	modules/ds_search/ds_search.js	
+M	modules/ds_search/ds_search.module	c6b2d08628d1fa22cc6dd99286d5669a
+D	modules/ds_search/ds_search.theme.css	
+A	modules/ds_search/includes/ds_search.admin.inc	76a5cca9e1f258326ec877f4b3c02190
+A	modules/ds_search/js/ds_search.js	30b299725126a832472db5f6620937f6
+A	modules/ds_ui/ds_ui.info	aeffef9daac04d86d29b477cab6ee310
+A	modules/ds_ui/ds_ui.module	7425992cb57247769fdb44975bfcef91
+A	modules/ds_ui/includes/ds.classes.inc	99bd6b5b7194379452bb489bba5da565
+A	modules/ds_ui/includes/ds.fields.inc	ddc8367135ae687f070267760a67b9a3
+A	modules/ds_ui/includes/ds.view_modes.inc	41d57b4dee3cd5cb90a21bdbc0ac8e64
+M	plugins/content_types/dsc/dsc.inc	66d3866da3cb579ee14b934daa50fdcd
+M	tests/ds.base.test	d15404cd76464b769d7bd13d5fd76704
+M	tests/ds.entities.test	8c9ef7afccc913ae8b9d33a061f39229
+M	tests/ds.exportables.test	d9c5c9055573e5f83a96dc5ce134cde6
+M	tests/ds.forms.test	c701d7006ef0c23d86c24a3599c62755
+D	tests/ds.panels.test	
+M	tests/ds.search.test	b2c4a136e9bb08e6b240dc546edb5bb9
+M	tests/ds.views.test	f913df67513f187d92b5ffdb6e1d3063
+M	tests/ds_exportables_test/ds_exportables_test.info	28a7e8718617910908d62b4bc4f2206e
+M	tests/ds_exportables_test/ds_exportables_test.module	c9590ec4b02aa172a8ce63927a43e662
+M	tests/ds_test.info	8e320cbd0ef9ff7f64710098b03f36dd
+M	tests/ds_test.module	ae5ff7d0f91c507df84f87da50aa7a3d
+D	tests/plugins/layouts/twocol_swentel/panels-twocol-swentel.tpl.php	
+D	tests/plugins/layouts/twocol_swentel/twocol_swentel.css	
+D	tests/plugins/layouts/twocol_swentel/twocol_swentel.inc	
+D	tests/plugins/layouts/twocol_swentel/twocol_swentel.png	
+M	views/views_plugin_ds_entity_view.inc	25c2ec214f5b873e1860549e45d677b0
+M	views/views_plugin_ds_fields_view.inc	433a7dec7a2629208f262f6ff99eeee3

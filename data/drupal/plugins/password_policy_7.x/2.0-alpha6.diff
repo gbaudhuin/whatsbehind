@@ -1,0 +1,10 @@
+M	password_policy.info	abb14784015e68f1db1986bcdb3d92f1
+M	password_policy.js	30db94c666cbad0e49a845a9c518a2f1
+M	password_policy.module	48892745cdc880fd8c6aae1c9b48afb9
+M	password_policy.test	a369182b71508aab3e6db1a577e45f1e
+M	password_policy_test/password_policy_test.info	1df5e0dfcb69a87b1132b134fb5d8697
+M	plugins/constraint/consecutive.inc	8acd13c89418cde13f3f913940962d7b
+M	plugins/constraint/drupal_strength.inc	39cc2993f3a36793eb2e51fce4a6e86a
+M	plugins/constraint/symbol_count.inc	2fe000fa1a5d14e922e66d7750fed727
+M	plugins/constraint/username.inc	bbc709d73037efcdbadd9e6aff1b56bd
+M	plugins/item/expire.inc	3c6f5cc2b460386ee9efbcd015830de9

@@ -1,0 +1,40 @@
+M	CHANGELOG.txt	be73c184981ed97b26dec6cd5b401260
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	docs/docs.php	09845ce980406a733815da1ee3702ec4
+M	subscriptions.admin.inc	bbab9efc28f5e030dded2c7813115431
+M	subscriptions.info	f14a8519f2837d3fdbd9fef88845ba37
+M	subscriptions.install	58ee19d250777ad5190b701084665d33
+M	subscriptions.install.inc	0e16e209e42ce07a7d2eac0eb5c5f48f
+M	subscriptions.module	2010340f3b2b553b915480d1f5d26d88
+M	subscriptions_blog_ui.info	41bd174eb9ae90711d5c46474497e093
+M	subscriptions_blog_ui.module	5cad85dcb36ce58765170c9c749f8696
+M	subscriptions_cck.info	271c59ec173148883adf59ee3150718f
+M	subscriptions_cck.install	df33937e8686bfef2f99580fafa8dec4
+M	subscriptions_cck.module	75ef55d311ed3e7fb1868bfaaab10bcc
+M	subscriptions_content.info	2485fd33c193bbdf494246886d53e6c5
+M	subscriptions_content.install	b47dc8dc3255508478a51d52667ce032
+M	subscriptions_content.module	e4e8b0d5a9adec327920ca466d6b3ad0
+M	subscriptions_mail.admin.inc	92f626de6b70694a67191fc0568be371
+M	subscriptions_mail.cron.inc	99bfeafb9725c5793305ad2a4fc03374
+M	subscriptions_mail.info	4ad1686efb3ded7d6b70f3dd79cd58cf
+M	subscriptions_mail.install	330e09ec2e4df80c0dd453475b789df4
+M	subscriptions_mail.mail_edit_D5.inc	428645a70aca0f81f65973a0cba876d8
+M	subscriptions_mail.module	c5d1908f9a649231f4687429374c78a3
+M	subscriptions_mail.templates.inc	d2171c84835af30d3795a018d6f02448
+M	subscriptions_tableselect.js	6b477060206463114be3387d5254d4dd
+M	subscriptions_taxonomy.info	a175530a9ec0571b73988cfd358003d0
+M	subscriptions_taxonomy.install	f862eb0ad343da712eb213481456f999
+M	subscriptions_taxonomy.module	bbc245ed4a0d2a1f8b4e1b929f2a62d6
+M	subscriptions_ui.info	460d026a9fec3dae6ad9e1b380be1b4b
+M	subscriptions_ui.module	1396c86e742a98804898f8c9b953d0d6
+D	translations/ar.po	
+D	translations/da.po	
+D	translations/de.po	
+D	translations/es.po	
+D	translations/fr.po	
+D	translations/he.po	
+D	translations/hu.po	
+D	translations/it.po	
+D	translations/ja.po	
+D	translations/pt-br.po	
+D	translations/subscriptions.pot	

@@ -1,0 +1,107 @@
+M	core/UPGRADE.txt	82853596ed71727d57fe9fee672b3644
+M	core/includes/entity.inc	d5c5d8b59c17023bee2fff0b9a76e0ee
+M	core/lib/Drupal.php	4b8f61883c7e83dff215db21a2061a54
+A	core/lib/Drupal/Component/Gettext/LICENSE.txt	4488187f1c3ad7f12c6f48c83c1d9117
+A	core/lib/Drupal/Component/Gettext/README.txt	8c2e70ae962ef59cfdaccaef2b80e9dd
+A	core/lib/Drupal/Component/Gettext/TESTING.txt	fac83a0f839bd8416a0ec3189588ddc3
+A	core/lib/Drupal/Component/Gettext/composer.json	794d221d7242f025de3992269075e59e
+M	core/lib/Drupal/Core/EventSubscriber/FinishResponseSubscriber.php	6ae044b0443e841f84325acfbb9acb3a
+M	core/lib/Drupal/Core/Menu/MenuLinkDefault.php	b661cd42ac517f3929e44f617e4ee142
+M	core/lib/Drupal/Core/Menu/MenuLinkManager.php	7713e19fb582e131764d1a7128e0fe08
+M	core/lib/Drupal/Core/Menu/MenuTreeStorage.php	4c51bacf2796d3526cb897726068d757
+M	core/lib/Drupal/Core/Menu/menu.api.php	d4672d9b36ea709b0a6812630d57f2c4
+M	core/modules/color/color.module	479235771e0cccf572c53cd6bb0f4554
+M	core/modules/color/tests/modules/color_test/themes/color_test_theme/color_test_theme.libraries.yml	86efe0c7da2d2e3788e61a9a891b326b
+A	core/modules/color/tests/modules/color_test/themes/color_test_theme/js/color_test_theme-fontsize.js	5477c2fee99e250a8060dabd2abe8e21
+M	core/modules/comment/js/comment-new-indicator.js	9c383ac2169170b31a4889adaf2e484f
+M	core/modules/comment/templates/comment.html.twig	01b4eb7e08504302e447a60ad792c1ee
+M	core/modules/content_translation/content_translation.module	bc028d347048920b5560f81a3e0ac26e
+M	core/modules/dblog/dblog.module	2c91924bbcc658388efdead12ca2ca7f
+M	core/modules/editor/editor.module	e4d7f898a06a25b21122ac4dba6243dd
+M	core/modules/menu_link_content/src/Tests/MenuLinkContentDeriverTest.php	2ae19dc9202fbb4c6b1b7761bad42a14
+A	core/modules/menu_ui/migration_templates/d6_menu_settings.yml	cc8213793d35bc3b5216aff8c9937392
+A	core/modules/menu_ui/src/Tests/Migrate/d6/MigrateMenuConfigsTest.php	e87d2aca818dc58ebc7e10bfa1746ad1
+M	core/modules/migrate_drupal/config/schema/migrate_drupal.source.schema.yml	62d3a1d46cc7f90fa64b1dbf4d31d627
+D	core/modules/migrate_drupal/migration_templates/d6_menu_settings.yml	
+D	core/modules/migrate_drupal/migration_templates/d6_node.yml	
+D	core/modules/migrate_drupal/migration_templates/d6_node_revision.yml	
+D	core/modules/migrate_drupal/migration_templates/d6_node_setting_promote.yml	
+D	core/modules/migrate_drupal/migration_templates/d6_node_setting_status.yml	
+D	core/modules/migrate_drupal/migration_templates/d6_node_setting_sticky.yml	
+D	core/modules/migrate_drupal/migration_templates/d6_node_settings.yml	
+D	core/modules/migrate_drupal/migration_templates/d6_node_type.yml	
+D	core/modules/migrate_drupal/migration_templates/d6_view_modes.yml	
+D	core/modules/migrate_drupal/src/Plugin/migrate/process/d6/NodeUpdate7008.php	
+M	core/modules/migrate_drupal/src/Plugin/migrate/source/d6/FieldInstancePerViewMode.php	51852c28b9d94e8ea9dadb57cb426d77
+D	core/modules/migrate_drupal/src/Plugin/migrate/source/d6/Node.php	
+D	core/modules/migrate_drupal/src/Plugin/migrate/source/d6/NodeRevision.php	
+D	core/modules/migrate_drupal/src/Plugin/migrate/source/d6/NodeType.php	
+D	core/modules/migrate_drupal/src/Plugin/migrate/source/d6/ViewMode.php	
+D	core/modules/migrate_drupal/src/Plugin/migrate/source/d6/ViewModeBase.php	
+M	core/modules/migrate_drupal/src/Tests/d6/MigrateCckFieldRevisionTest.php	0bb4847f7a50772161cead77b67f6094
+M	core/modules/migrate_drupal/src/Tests/d6/MigrateCckFieldValuesTest.php	bd8b5ef58a6aafe31b6140c59419fdbf
+D	core/modules/migrate_drupal/src/Tests/d6/MigrateMenuConfigsTest.php	
+D	core/modules/migrate_drupal/src/Tests/d6/MigrateNodeBundleSettingsTest.php	
+D	core/modules/migrate_drupal/src/Tests/d6/MigrateNodeConfigsTest.php	
+D	core/modules/migrate_drupal/src/Tests/d6/MigrateNodeRevisionTest.php	
+D	core/modules/migrate_drupal/src/Tests/d6/MigrateNodeTest.php	
+D	core/modules/migrate_drupal/src/Tests/d6/MigrateNodeTestBase.php	
+D	core/modules/migrate_drupal/src/Tests/d6/MigrateNodeTypeTest.php	
+M	core/modules/migrate_drupal/src/Tests/d6/MigrateUserRoleTest.php	067287bf82e73befd96e0f99d2683d96
+D	core/modules/migrate_drupal/src/Tests/d6/MigrateViewModesTest.php	
+D	core/modules/migrate_drupal/tests/src/Unit/source/d6/NodeByNodeTypeTest.php	
+D	core/modules/migrate_drupal/tests/src/Unit/source/d6/NodeRevisionByNodeTypeTest.php	
+D	core/modules/migrate_drupal/tests/src/Unit/source/d6/NodeRevisionTest.php	
+D	core/modules/migrate_drupal/tests/src/Unit/source/d6/NodeTest.php	
+D	core/modules/migrate_drupal/tests/src/Unit/source/d6/NodeTypeTest.php	
+D	core/modules/migrate_drupal/tests/src/Unit/source/d6/ViewModeTest.php	
+A	core/modules/node/config/schema/node.source.schema.yml	65eb87f338604288fb578130fcd654ba
+A	core/modules/node/migration_templates/d6_node.yml	0a7970d875e936fcb4d59b35d331a783
+A	core/modules/node/migration_templates/d6_node_revision.yml	7562c13a7ad4567d13c7bc88950636f2
+A	core/modules/node/migration_templates/d6_node_setting_promote.yml	4c634db9557b53731a1fcfa9234dc9a3
+A	core/modules/node/migration_templates/d6_node_setting_status.yml	0d8b3d83b459c42645bb14cc8be7f483
+A	core/modules/node/migration_templates/d6_node_setting_sticky.yml	1592d1b46c8257f2c0d5ce4afb85976a
+A	core/modules/node/migration_templates/d6_node_settings.yml	82f70ac0b969969fb2fbad910c00cf84
+A	core/modules/node/migration_templates/d6_node_type.yml	a34d68716571b0c70cfd3ada99131a94
+A	core/modules/node/migration_templates/d6_view_modes.yml	368ed02dafeb130f49cb33f2c728e3cc
+A	core/modules/node/src/Plugin/migrate/process/d6/NodeUpdate7008.php	bf3e52a0e60512812f5c15a698066c82
+A	core/modules/node/src/Plugin/migrate/source/d6/Node.php	71ba3ed8bc0646514bba5ee17fdebc94
+A	core/modules/node/src/Plugin/migrate/source/d6/NodeRevision.php	79d03f8a08d2672ce5e1e03ae24b4739
+A	core/modules/node/src/Plugin/migrate/source/d6/NodeType.php	ee0441fccd947a3485097d8b7060f12a
+A	core/modules/node/src/Plugin/migrate/source/d6/ViewMode.php	147257e260767ae9edeb7176e44da429
+A	core/modules/node/src/Plugin/migrate/source/d6/ViewModeBase.php	82e14abe647a4f21fb1d9d3c8f686d6b
+A	core/modules/node/src/Tests/Migrate/d6/MigrateNodeBundleSettingsTest.php	abb3ea0159a02c1333683253d3dc014e
+A	core/modules/node/src/Tests/Migrate/d6/MigrateNodeConfigsTest.php	3745501886d6a7195534efede46a7775
+A	core/modules/node/src/Tests/Migrate/d6/MigrateNodeRevisionTest.php	3c3e2c439338d3b50e107f2688387155
+A	core/modules/node/src/Tests/Migrate/d6/MigrateNodeTest.php	8b885bb4dfd8319e7f637290d4251ff2
+A	core/modules/node/src/Tests/Migrate/d6/MigrateNodeTestBase.php	565dc35e3adda4c69daf31262630bda2
+A	core/modules/node/src/Tests/Migrate/d6/MigrateNodeTypeTest.php	1f02f8cda5f230793fbbab1145975216
+A	core/modules/node/src/Tests/Migrate/d6/MigrateViewModesTest.php	28fbec39431c4a0930b229c7cab9b2ce
+A	core/modules/node/tests/src/Unit/Plugin/migrate/source/d6/NodeByNodeTypeTest.php	605f9267936ef869cd470cd2c65eeebb
+A	core/modules/node/tests/src/Unit/Plugin/migrate/source/d6/NodeRevisionByNodeTypeTest.php	eb941dd0cc6a3c050602c55b86c7ce69
+A	core/modules/node/tests/src/Unit/Plugin/migrate/source/d6/NodeRevisionTest.php	93300e582f004fed353b3f32b6f1399e
+A	core/modules/node/tests/src/Unit/Plugin/migrate/source/d6/NodeTest.php	a90e30e18eda1dd4f4a2061813c420f6
+A	core/modules/node/tests/src/Unit/Plugin/migrate/source/d6/NodeTypeTest.php	6c4d92790d683da7775503979c2aba7d
+A	core/modules/node/tests/src/Unit/Plugin/migrate/source/d6/ViewModeTest.php	f709a7b332165fe8b058976d16d36751
+M	core/modules/search/src/Tests/SearchPageTextTest.php	ea56a2f1755d17484eab85bdb5da4648
+M	core/modules/simpletest/src/WebTestBase.php	5c08df9a489b77ea03ea130fff89b935
+M	core/modules/system/src/DateFormatListBuilder.php	302ffa02f01e6efe2e1b0fd7759db03a
+A	core/modules/system/src/Tests/Menu/MenuLinkSecurityTest.php	17483dbe1b79a3ba89173c5ed1ce19b2
+M	core/modules/system/src/Tests/Menu/MenuTreeStorageTest.php	1aa9efbecb8238200f8a9826314448b4
+M	core/modules/system/src/Tests/System/DateFormatsLockedTest.php	65347bb497349ee198ab8cc831a15429
+M	core/modules/system/src/Tests/System/DateTimeTest.php	5c0ed5e5829fe82b61a4789b0b4a36ed
+A	core/modules/system/src/Tests/Update/MenuTreeSerializationTitleTest.php	0a0ea96e6f8eef155b0f9f6635e7ddd0
+M	core/modules/system/src/Tests/Update/UpdatePathTestBase.php	a2385f9eda9df14bb1483440f0e5f4ef
+M	core/modules/system/system.install	fbfc70682cb2f477fb43d7454b802a33
+M	core/modules/system/tests/modules/menu_test/menu_test.links.menu.yml	047e84b90c88b27ec78590ba64901125
+A	core/modules/system/tests/modules/menu_test/src/Plugin/Derivative/MenuLinkTestWithUnsafeTitle.php	219f2a5623392697b8995e9636501275
+M	core/modules/user/user.module	2e179b52173a62031707a5985854967a
+M	core/tests/Drupal/Tests/ComposerIntegrationTest.php	dcd3ca6e81cc293e37a9993d1059d6ba
+M	core/themes/bartik/css/components/comments.css	ce350f36e4c5d7b3f08e92e671777d6c
+M	core/themes/bartik/css/components/contextual.css	88a1ad281d037609b6279caca240b818
+M	core/themes/bartik/css/components/dropbutton.component.css	35784253c1471e1eb350428fbdcefc98
+M	core/themes/bartik/css/components/form.css	6b41aea07cceb624191ff163d55e389a
+M	core/themes/bartik/templates/comment.html.twig	cf5314164e212ccbb59fbdce83b87792
+M	core/themes/classy/templates/content/comment.html.twig	a51077ca9a196b791035f9eda6af820d
+M	core/themes/seven/css/components/form.css	fa0b818024ef08901d9e6911039941cf
+M	sites/example.settings.local.php	035889dce2f45ad19ef882716ca71bd9

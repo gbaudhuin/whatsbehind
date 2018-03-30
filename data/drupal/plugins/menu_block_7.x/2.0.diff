@@ -1,0 +1,13 @@
+M	CHANGELOG.txt	e49d11a0266456632e86cc3d4519896b
+M	README.txt	d42b719c7d944e09e2ed2376db6161fa
+A	custom_menu_active_trail.inc	f2dc7325491a554bf5193c74de3d5876
+M	menu_block.admin.inc	31573b003b4a5f3ba5adcd8cae2739ea
+M	menu_block.api.php	779591c5ccd06c0c69347fa0b67cde04
+M	menu_block.book.inc	c074bd5b2e87d59070077efc238042b7
+M	menu_block.info	1d03c6205f10c083f8384597a820eb8e
+M	menu_block.install	c236870182139aa6456137f585d645ed
+M	menu_block.module	9c1c473a8876e9f6b9b4d8b01047aad0
+M	menu_block_export.info	a1111adce500e51423c9a3cea871a782
+D	translations/fr.po	
+D	translations/hu.po	
+D	translations/menu_block.pot	

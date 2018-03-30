@@ -1,0 +1,10 @@
+M	js/qt_accordion.js	17581b560d1c49ec14f7c4a1ad366d50
+M	js/qt_ui_tabs.js	21019172c5216e52a9d5f2726d1be539
+A	js/quicktabs_bbq.js	b0d87d41b36e864a32126ffb6e4b875f
+M	plugins/QuickAccordion.inc	b1c08ca04e977f9dd878fba295d77bb1
+M	plugins/QuickQuicktabs.inc	8e9740d916b7979abc2ef9d3de7457d6
+M	plugins/QuickUiTabs.inc	5486c7b00a4c4c3dfd2683e688b86752
+M	quicktabs.admin.inc	232ec6f2058d8ea0bd8b2fd61ba8a32e
+M	quicktabs.info	3ed0d8fe6e46ffb715e829f3ea1f4f70
+M	quicktabs.module	1f88266021beee6e0d955e8b1e5b3aa8
+M	quicktabs_tabstyles/quicktabs_tabstyles.info	3cba21efdc932565d45cbbc8ba98a947

@@ -1,0 +1,5 @@
+M	iframe.info.yml	1a22b9eefcd303a154f8e87d879a56ed
+M	src/Plugin/Field/FieldType/IframeItem.php	86b001d17f16596c4392b9fe576ea273
+M	src/Plugin/Field/FieldWidget/IframeWidgetBase.php	0acc40d2bc4ee479a51fd6dc82e0a1f3
+A	src/Plugin/migrate/cckfield/IframeField.php	cb6a5cfe5c42aa356fbb34fb043be310
+A	src/Plugin/migrate/process/d6/CckIframe.php	c2a08f7e0853097317a28a9cc5fcbdfe

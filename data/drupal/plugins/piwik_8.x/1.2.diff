@@ -1,0 +1,17 @@
+M	README.txt	d9b313bee4d59d725e807c90afe9f974
+M	piwik.info.yml	c451a977eaf2265beb80f4983ceeca78
+M	piwik.module	f68a78ec43850742adfa8214a5c9f5e3
+M	piwik.tokens.inc	da40ed7b24b883602d540afca480134f
+A	src/Component/Render/PiwikJavaScriptSnippet.php	e34e476001c155ad7c2a1641d2a32f27
+M	src/Form/PiwikAdminSettingsForm.php	a2f4b3a4702b68548b3d1b4f8692a555
+M	src/Plugin/migrate/process/PiwikVisibilityPages.php	9f814fc84dcea8653797fa6e33d3ff08
+M	src/Plugin/migrate/process/PiwikVisibilityRoles.php	0c21b91c132e362c33b3437293a9fb06
+M	src/Tests/PiwikBasicTest.php	4b0c11407d46c4ef9d225d41ce39c1e3
+A	src/Tests/PiwikCustomUrls.php	429397e444958761d442d6f3d444f181
+M	src/Tests/PiwikSearchTest.php	9ba0f9b2e3dbf835fdd5cf703a1f2472
+M	src/Tests/PiwikStatusMessagesTest.php	fae90d2ce42cd5d930e8a9021006b819
+M	src/Tests/PiwikUninstallTest.php	9880a6b0ef8e176649e460a2826eccd7
+M	src/Tests/PiwikUserFieldsTest.php	e74e7babb948ad6282b53422b3bf82fd
+A	tests/modules/piwik_test/piwik_test.info.yml	d14feb165dc7939e10b675f097e9f521
+A	tests/modules/piwik_test/piwik_test.routing.yml	72c6ccf81cea5ec21d33132feb94dabf
+A	tests/modules/piwik_test/src/Controller/PiwikTestController.php	cb6b4cb8775ea768a266b1222a5e0bb6

@@ -1,0 +1,14 @@
+M	config/schema/ds.field.schema.yml	00ae2dd92587244a3dfa9c3aa6963ff0
+M	ds.info.yml	72d2d063e2e78a9671b8e3870aff1273
+M	modules/ds_devel/ds_devel.info.yml	44da0d67c0d14c3235c0d3c357136f47
+M	modules/ds_extras/ds_extras.info.yml	aa47e96debfc5d2e89de3a97d87b9809
+M	modules/ds_switch_view_mode/ds_switch_view_mode.info.yml	c531451d7bd9949a4bf5071e722e57ee
+M	src/Form/BlockFieldForm.php	4db2d8cda0dfa38cd81207bf90c9fe54
+M	src/Plugin/DsField/BlockBase.php	f829dc7f1fe7dd98e884de8cae5d0d39
+M	src/Plugin/views/Entity/Render/DefaultLanguageRenderer.php	d371bc35c7750ea9b26cf2a6264db529
+M	tests/modules/ds_exportables_test/ds_exportables_test.info.yml	53c3f93902f95c231475275ba47e4924
+M	tests/modules/ds_test/ds_test.info.yml	7797937364007ff0a16736379438ea70
+M	tests/modules/ds_test_rdf/ds_test_rdf.info.yml	4edff2556a27ec2c9335fbb2da1de6f1
+M	tests/src/Functional/BlockFieldPluginTest.php	24ffef6cb791e9844744320eb47db707
+M	tests/src/Functional/FieldGroupTest.php	8b6d1faa9acf640d3a1903bf997323fe
+M	tests/themes/ds_test_layout_theme/ds_test_layout_theme.info.yml	e68ef9bfc48e8fd74aea65369c1e3685

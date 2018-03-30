@@ -1,0 +1,10 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	contrib/file_styles/file_styles.info	a15d7211f74a28dc17f9783b723d5142
+M	contrib/file_styles/file_styles.install	fcab6db17d55af2ecc6a256788862140
+M	contrib/file_styles/file_styles.module	afe083975b0cec97dd4f3de7415b9795
+M	contrib/file_styles/includes/styles/FileStyles.inc	65ad869d7a7e65404045d6a28b8305da
+M	contrib/styles_ui/styles_ui.info	0ecbbb93ee12a9eefba6e1f62d290dc5
+A	includes/styles.features.inc	521f59b37d77712ff170a6c354ed4789
+M	styles.info	8f3f9db498f9112cb440a35bcb15c925
+M	styles.install	e941c0e5122f694a2c1ae560907b8eb8
+M	styles.module	8dd17ec0063241aba9220acd741b392a

@@ -1,0 +1,4 @@
+M	js/infinite-scroll.js	54575b3153a80ba34c395e9c539b1f13
+M	src/Plugin/views/pager/InfiniteScroll.php	6d9d77b35c8a27f9a1cb06f223eb79f1
+M	tests/src/FunctionalJavascript/InfiniteScrollTest.php	0231092508554abe3b9c9d2de5b5dd87
+M	views_infinite_scroll.info.yml	190e7a0b541595bb8a04253554a8564b

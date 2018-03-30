@@ -1,0 +1,13 @@
+M	CHANGELOG.txt	00fc16d4cde1b6918257517104e8fbef
+M	README.txt	312bbb32eaecb04e75393e6b87aefcc1
+M	fb_likebox.info	2e1be3eb2b284dfed8a12fbfd4660691
+M	fb_likebox.js	1293d4a171d8ea896cd2f3ea806bfe73
+M	fb_likebox.module	130f6da669336007d5616e3a9fe47e19
+D	fb_likebox_patterns/fb_likebox_patterns.info	
+D	fb_likebox_patterns/fb_likebox_patterns.module	
+D	fb_likebox_patterns/patterns/fb_likebox_default.yaml	
+D	fb_likebox_patterns/patterns/fb_likebox_maximal.yaml	
+D	fb_likebox_patterns/patterns/fb_likebox_minimal.yaml	
+A	templates/fb_likebox.tpl.php	fbbfa01c13c3f9c83d3e222f5c70e2ab
+A	translations/fb_likebox.es.po	8bae1fbe14e88931051a0158913df78f
+A	translations/fb_likebox.pot	e0a3ee024ca7dd13d1be04af3efa0fee

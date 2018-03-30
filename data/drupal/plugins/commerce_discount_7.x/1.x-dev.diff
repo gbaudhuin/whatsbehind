@@ -1,0 +1,5 @@
+M	commerce_discount.info	de381c3328eb4fd4c8d017b338515bef
+M	commerce_discount.module	f7f3ac242404f434c1d31af1abad35f8
+M	commerce_discount.rules.inc	89c4feec98fcfe3491be52d2b2b3eb8f
+M	commerce_discount.rules_defaults.inc	5f6b31d8842d826d0e1e4964b7ee5bc6
+M	tests/commerce_discount_shipping_test/commerce_discount_shipping_test.info	0b053807d1850f142db01a4e5b33ade7

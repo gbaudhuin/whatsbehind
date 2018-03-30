@@ -1,0 +1,11 @@
+M	README.txt	e80ae4b93e0b56ef7c031c21ed836427
+A	coffee.admin.inc	127216ae08ad85a3a1fa21ed3f4bd4aa
+M	coffee.api.php	6831fd34e2bb3187ff092d9b29b97d75
+D	coffee.css	
+M	coffee.hooks.inc	7e13ed62da03620d30e9cbc59cec34d0
+M	coffee.info	16fbcfa05b7127d9e53ac2f16f50d10a
+M	coffee.install	a14f25b3d673dcd34d9d9fcac3986697
+D	coffee.js	
+M	coffee.module	d89e8aa0bca76a615a131396942077a5
+A	css/coffee.css	cb9968505637e0dd92b00b2c274bbd7a
+A	js/coffee.js	8e839e39a31c219dd6cf3e89d4944fdb

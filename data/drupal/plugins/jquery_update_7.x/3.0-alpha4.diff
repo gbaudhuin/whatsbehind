@@ -1,0 +1,21 @@
+M	jquery_update.info	ed11fd3b2ab886e603b89172d9bf6832
+M	jquery_update.module	517afe04985974751bf1f21292108719
+D	replace/jquery-migrate/1.2.1/jquery-migrate.js	
+D	replace/jquery-migrate/1.2.1/jquery-migrate.min.js	
+A	replace/jquery-migrate/1/jquery-migrate.js	9e9c5ad337c82728db66241eed0ae0ef
+A	replace/jquery-migrate/1/jquery-migrate.min.js	f9c3a4ef52a35b92c70fc0e71afd4c91
+A	replace/jquery-migrate/3/jquery-migrate.js	74e5d90a3ddddbddcce28ade132fa2e5
+A	replace/jquery-migrate/3/jquery-migrate.min.js	ef2d18714041b9e7c625fe5e81edc3b3
+A	replace/jquery.form/4/jquery.form.js	84a3446833dda70212270de8b8aa5751
+A	replace/jquery.form/4/jquery.form.min.js	059a005f18410b477c0a7d16b9a7dc15
+M	replace/jquery/1.10/jquery.min.js	bdce12c949e78d570c8d44e9c2b23508
+A	replace/jquery/1.12/jquery-1.12.4.min.map	b40722fa1b5fa066562beab1c8c0e0b3
+A	replace/jquery/1.12/jquery.js	fb2d334dabf4902825df4fe6c2298b4b
+A	replace/jquery/1.12/jquery.min.js	4f252523d4af0b478c810c2547a63e19
+A	replace/jquery/1.6/jquery.js	8d5d68ffbd9c642001df950270c695c0
+A	replace/jquery/1.6/jquery.min.js	459fbec472faed5b6b98e6957012e691
+M	replace/jquery/1.9/jquery.min.js	ace6bda2067c29bcd15eb89a8221df3d
+A	replace/jquery/2.2/jquery.js	888d4551b8db7c41cda28d95e494f998
+A	replace/jquery/2.2/jquery.min.js	2f6b11a7e914718e0290410e85366fe9
+A	replace/jquery/3.1/jquery.js	46836bbc603c9565b5cc061100ccbac8
+A	replace/jquery/3.1/jquery.min.js	e071abda8fe61194711cfc2ab99fe104

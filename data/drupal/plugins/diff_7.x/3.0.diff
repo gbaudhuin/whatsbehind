@@ -1,0 +1,14 @@
+M	CHANGELOG.txt	ef1a6e62a722ca2ea8e2b4b6d7dc739a
+M	DiffEngine.php	72bbcb08e2ee6044706730de0e2b4b21
+M	css/diff.default.css	ae6a13e16e2453fd40daff7fbf61c5ab
+M	diff.admin.inc	3ca00e4e388834c22e4a0a4fb3919f99
+M	diff.diff.inc	5aa8a5dd7dac30f67359bee5bbc52c15
+M	diff.info	15d6f59273a65eedbcd09e5ad24fe258
+M	diff.install	a18c8efd2d30cf3aad984bbc77048498
+M	diff.module	ff323729ebff80e798879b82be4f3c9d
+M	diff.pages.inc	12d6cdf8f9d6304da3a72a3fe0c8bb61
+M	diff.theme.inc	3961bafec48e3dd99e26302f6ff01a0a
+M	diff.tokens.inc	0ccdd5483e1d2e6a0033c3ce6aee9f28
+A	includes/number.inc	c664f1ea36ca3e4a0c9c83c74377d073
+M	includes/text.inc	d7c4dbd8c18fb487329a813cff49f5c9
+M	readme.txt	b7e3cd083310aa6556be9f89fdec04cd

@@ -1,0 +1,41 @@
+M	CHANGELOG.txt	37305333f874e038da0a6bac99249374
+M	README.txt	c00147a664242a8d344714beea073d84
+A	UPGRADE.txt	28a6987452a540fe37269132df5a890c
+M	ckeditor.api.php	5e4b878474d5fb9c9e83e55230635a1c
+M	ckeditor.config.js	3e06ee7b1739a0a9c4ed415c8750c0f6
+M	ckeditor.css	edb90d5d266df9929b05e3043d95ed1b
+M	ckeditor.info	e4bb7ec2d7875b56493350f6cd1efa37
+M	ckeditor.install	acd92002769ea027a3cbd2c8182dc329
+D	ckeditor.make.example	
+M	ckeditor.module	77c69e6fd5b375f12a312cb49c5d18e6
+M	includes/ckeditor.admin.inc	c4dc633fb8c4ededbb75da588e704843
+M	includes/ckeditor.admin.js	70f287e4ca336f96de6f91b1b165ee56
+M	includes/ckeditor.drush.inc	1361e884aae0124df1823e1a62a60806
+M	includes/ckeditor.features.inc	e68a4f48f4538e0c8c25b95ba8f2a399
+M	includes/ckeditor.lib.inc	30ba71377be1cbfbfbc9425fa090539f
+M	includes/ckeditor.page.inc	676581ea9f7b50fd4c50b114676bada0
+M	includes/ckeditor.popup.html	981819f3265158f4d11229b9b4aeb786
+M	includes/ckeditor.user.inc	4c62a1a87fbf711612e4c9da0e775fe4
+M	includes/ckeditor.utils.js	19e220054a8d172617121df54edd8136
+M	includes/filemanager.config.php	91540d1a067e785345595346587b5eb4
+D	includes/jqueryUI/jquery-1.4.4.min.js	
+M	plugins/drupalbreaks/plugin.js	7d2be3d659520eed13448fce9af82ea8
+M	plugins/imce/plugin.js	1c40e703572c5f306596b2814e470bd6
+D	plugins/linktomenu/css/linktocontent.css	
+D	plugins/linktomenu/dialogs/link.js	
+D	plugins/linktomenu/images/descendant.gif	
+D	plugins/linktomenu/images/linktomenu.gif	
+D	plugins/linktomenu/images/loading.gif	
+D	plugins/linktomenu/jscripts/functions.js	
+D	plugins/linktomenu/plugin.js	
+D	plugins/linktonode/css/linktocontent.css	
+D	plugins/linktonode/dialogs/link.js	
+D	plugins/linktonode/images/descendant.gif	
+D	plugins/linktonode/images/linktonode.gif	
+D	plugins/linktonode/images/loading.gif	
+D	plugins/linktonode/jscripts/functions.js	
+D	plugins/linktonode/plugin.js	
+A	plugins/media/images/icon.gif	72ee02878384be9e2119d8bfdb6a430f
+A	plugins/media/library.js	2d0b92da3035038f4c88b670b223aeff
+A	plugins/media/plugin.js	1657b025bd874376faf860484e8b85b3
+M	plugins/mediaembed/plugin.js	32eb9d3878ce68b3099587d13a851d85

@@ -1,0 +1,16 @@
+M	.travis.yml	a8db4e09ff4076e9bf76844f106a9163
+M	README.md	37369df7b4ff142b29bf1c97c142428d
+M	message.info.yml	25ccc932ca1f13ad3441eff0af94e353
+M	message.module	335de4cb376d708efc9fd7b34d579371
+M	modules/message_example/message_example.info.yml	1cf3f42eecf04311593f4b9b3593327b
+M	modules/message_example/message_example.module	1383b758d17403b909c675b255dc5d19
+M	phpcs.xml	2644c28d2d31eab3b8346312f79ee727
+M	src/Entity/Message.php	f567fee94c0fe02a8eaed9990efd3b01
+M	src/Form/DeleteMultiple.php	ac626f5c87f3cd1a4186359bace9bbb1
+M	src/Form/MessageTemplateForm.php	f93860d220535efc1c5225608835c5cc
+M	src/FormElement/MessageTemplateMultipleTextField.php	81ce5d73e8e6e245be658b87575c2eef
+M	src/MessagePurgeBase.php	aff1bd23a88f2a17eb14383b75f700ff
+M	tests/src/Functional/MessageCreateTest.php	71fbc1b8a9956a53c7f156dffa37a684
+M	tests/src/Functional/MessageCron.php	e8ec68ad4c902b16c2a9f0118bc7958d
+M	tests/src/Functional/MessageEntityDelete.php	919cc56386836a7338d435a8b9b16479
+M	tests/src/Kernel/MessageTokenTest.php	922367e58235d83727c4638df43f4ee6

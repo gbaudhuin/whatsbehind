@@ -1,0 +1,33 @@
+M	.travis.yml	6fdc4a2d4347fbe9ef504dec384fcb70
+M	CHANGELOG.md	75fec037ae146446d24c202a3fb94e7b
+M	composer.json	35e6c5bff3d31544309666ee8acf5c47
+M	lightning_workflow.info.yml	4f6d9eaecf4cdd826fc48a03688c1388
+M	lightning_workflow.module	6bc7fe7c3bb38f2812e189a42072593b
+A	modules/lightning_scheduler/css/component.css	8968764852398f4b73563767c43d6fff
+A	modules/lightning_scheduler/js/TransitionSet.js	cd5bc9111cc60c0342339ec1107b4135
+A	modules/lightning_scheduler/js/dist/helpers.js	022ea3a62bfd4743838468f4d24ec38c
+A	modules/lightning_scheduler/js/dist/index.js	980d7bfccf2ec475715ea7348783de03
+A	modules/lightning_scheduler/js/index.js	871cd596b7c3d2d6d093514ca3391a5a
+A	modules/lightning_scheduler/js/package.json	1788b0eefcbe4ba70d8ebab685dbb877
+D	modules/lightning_scheduler/js/publication-info.js	
+A	modules/lightning_scheduler/js/webpack.js	4d468e2d4fa754eaaff073a8ea254442
+A	modules/lightning_scheduler/js/yarn.lock	babd480ef2c3365f2bede7bde58b270c
+M	modules/lightning_scheduler/lightning_scheduler.info.yml	c2b721f08b63d38fd3e091d7b054c3ed
+A	modules/lightning_scheduler/lightning_scheduler.install	d7fe7c9f3e613d04ce087f6ef1d88c93
+M	modules/lightning_scheduler/lightning_scheduler.libraries.yml	27631369342c3134185d6cbd8cc465f0
+M	modules/lightning_scheduler/lightning_scheduler.module	4047f65154bf65120cdcb3bf9249a0e4
+A	modules/lightning_scheduler/lightning_scheduler.permissions.yml	35beacedd4d4392003a9487abd683033
+A	modules/lightning_scheduler/lightning_scheduler.services.yml	3f8d0debf68c888dd622c16bb33f4ec1
+A	modules/lightning_scheduler/src/Permissions.php	aa178f66e1d96bab6d3610b976918930
+A	modules/lightning_scheduler/src/TransitionManager.php	3b3e033d23f08479adf315d5d5ff18d8
+A	modules/lightning_scheduler/src/TransitionSet.php	4e5c4be86d2c5eee747b780c9cc8a466
+A	modules/lightning_scheduler/tests/behat.partial.yml	0b117554c2d56e94aff838c1c14c77d4
+A	modules/lightning_scheduler/tests/contexts/TimeElementContext.behat.inc	8427bdbde6894c94d7a7d190df69b96f
+A	modules/lightning_scheduler/tests/features/transitions.feature	7c8bebf99f10dfb2c82a8100c6dc445a
+A	modules/lightning_scheduler/tests/features/ui.feature	fd6411b25625ba37830ee1efa353c09b
+A	modules/lightning_scheduler/tests/fixtures/BaseFieldMigrationTest.php.gz	79c619c222d8df36549e1051eca1b00d
+A	modules/lightning_scheduler/tests/src/Functional/BaseFieldMigrationTest.php	14cc64bace6d451c2097fc2b624da6b2
+A	modules/lightning_scheduler/tests/src/Kernel/TransitionManagerTest.php	0050eaee1e298aa8f4b759d7db5654c8
+M	tests/features/moderation_states.feature	85b9848647ccfcb9253ca4da0fdf6783
+M	tests/features/scheduled_updates.feature	842b51029b40c022c7c8a0e80acca124
+D	tests/fixtures/1.2.0.sql.gz	

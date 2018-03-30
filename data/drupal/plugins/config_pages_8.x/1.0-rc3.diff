@@ -1,0 +1,13 @@
+M	config_pages.info.yml	e56a363105f8bfb2b0d8a94857d48d1a
+M	config_pages.links.task.yml	fda735a99d76593121f468ddf63b2d81
+M	src/ConfigPagesAccessControlHandler.php	8aa67567df8ff38c951c0cf70ce2dd79
+M	src/ConfigPagesForm.php	2a104ddc730f7edb938e570c6bcc23ed
+M	src/ConfigPagesListBuilder.php	221f8cb1778812ce00729b1dde4e5140
+M	src/ConfigPagesTypeForm.php	f5730ae09ab055c0b0905e03b5581e03
+M	src/ConfigPagesTypeListBuilder.php	4199556a8a4d39b33a59066ec6bf77f0
+M	src/Controller/ConfigPagesController.php	0147342cc0eea677c666ac2ab7e6b36e
+M	src/Entity/ConfigPages.php	53ffa922e32f9de1178d8fc6491db447
+M	src/Entity/ConfigPagesType.php	a5117aba6e06381c42df5128795bd36c
+M	src/Form/ConfigPagesClearConfirmationForm.php	fc0770d6987b965ffcb799d1b892d38b
+M	src/Plugin/Block/ConfigPagesBlock.php	f704dcd1ec509565acadf0d93fe3773f
+M	src/Routing/ConfigPagesRoutes.php	b16e9a247a110add2a597b76c8df5bf6

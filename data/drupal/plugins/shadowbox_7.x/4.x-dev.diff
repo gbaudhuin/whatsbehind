@@ -1,0 +1,8 @@
+M	file_shadowbox/file_shadowbox.info	4d4e06d51962ec1371c34f4fa4b92f63
+M	image_shadowbox/image_shadowbox.info	a576d981dfd3cd3cdd634cf9b1afbd85
+A	insert_shadowbox/insert_shadowbox.info	7555cf950a2ed502adc532ae4ee436c2
+A	insert_shadowbox/insert_shadowbox.module	c4a4f89a12fabb28c80f8f672e82a9cf
+M	login_shadowbox/login_shadowbox.info	5ed5dd0a77835b01c9db6813d53032f6
+M	shadowbox.info	0e37355d5558d3f3cc8b1f3341db8bf0
+M	shadowbox.install	dd1723f7442d14ac36a86eb542362978
+M	shadowbox_auto.js	4ee9aff36238e9828e59b5a0156d3773

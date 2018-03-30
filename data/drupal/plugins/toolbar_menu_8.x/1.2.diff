@@ -1,0 +1,6 @@
+A	src/Tests/ToolbarMenuFonctionalTest.php	f3c8c761de5e3e616650d58f08564b9b
+M	src/ToolbarMenuManager.php	bfc36055010bfa10fad5dbee2719bbe8
+M	toolbar_menu.info.yml	8f0d018ed3cd0e42628befb0f58c539e
+M	toolbar_menu.module	3fecfe1e607314875fc6a2510dba4cb8
+M	toolbar_menu.permissions.yml	834ea56010171e1d2bfe7dd49b026f55
+M	toolbar_menu.routing.yml	819d3dab737c6b10094b8424fe75c1d0

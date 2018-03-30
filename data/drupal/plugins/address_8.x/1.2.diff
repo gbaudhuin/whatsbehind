@@ -1,0 +1,8 @@
+M	address.info.yml	788a928f8304e16a1f7c03d0966f8f08
+M	src/Element/Address.php	e85f7b62f94b3db4907b8718cd0ecb47
+M	src/Element/Country.php	0de446f4d4121710351ce497f1d6f963
+M	src/Element/Zone.php	98a7fc030f3702ddafd1eb9b3110060b
+M	src/Element/ZoneTerritory.php	b3a55d62fdebfe9f558202a5e03e9dd4
+M	src/LabelHelper.php	fc6f372be2609c243f2478bf7c632697
+M	tests/modules/address_test/address_test.info.yml	baf305dda085d8b999d8ed363bbadfbe
+M	tests/src/FunctionalJavascript/AddressDefaultWidgetTest.php	5b67d3821d712d188f5f84ccc8afc48d

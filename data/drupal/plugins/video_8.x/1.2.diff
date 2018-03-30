@@ -1,0 +1,6 @@
+A	composer.json	8cb521c8edd03d3ec9bb1b180b884bdb
+M	src/Plugin/Field/FieldFormatter/VideoEmbedPlayerFormatter.php	0a1e3568deb3c0beed8c543d25b6dcbb
+M	src/Plugin/Field/FieldFormatter/VideoEmbedThumbnailFormatter.php	1bacaffb887c2f008a774205ba725cb2
+M	src/Plugin/Field/FieldFormatter/VideoPlayerFormatter.php	c562687f609d079f6e384e3b8b48f3df
+M	src/Plugin/Field/FieldFormatter/VideoPlayerListFormatter.php	283e35b615e691e33a5dfbf416e08656
+M	video.info.yml	b22522cfd3d1667295c3cd02c7c019ae

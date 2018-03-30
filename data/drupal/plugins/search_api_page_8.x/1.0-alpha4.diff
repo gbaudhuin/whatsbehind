@@ -1,0 +1,6 @@
+M	search_api_page.info.yml	42f2dca08f9f7beedb068647945801a7
+A	search_api_page.links.task.yml	846554ff26e34b91573b1ba1ab2c28bd
+M	src/Entity/SearchApiPage.php	602e64c3e4a7396491c6b286409fac64
+M	src/Form/SearchApiPageBlockForm.php	f813e10d9ebfac2f87dd38076f35ef62
+M	src/Form/SearchApiPageForm.php	a7fd06f784492faebd609158bfef9803
+A	templates/search-api-page-result.html.twig	fd0431ea1af996cd9f680fccaff511eb

@@ -1,0 +1,17 @@
+M	src/ClassFinder/GenericPrefixMap.php	dbe13062812b87500e514b82acda79f0
+M	src/ClassFinder/InjectedApi/InjectedApiInterface.php	b544f38d7896c30214765ee2623a5447
+A	src/ClassFinder/Plugin/DrupalCoreRegistryPlugin.php	a2ba497d3a50122b110894ed9d4296e7
+M	src/DIC/ServiceFactory.php	36725efc724d6dec142bfd83bd3a3250
+M	src/DrupalSystem/DrupalSystemInterface.php	9fc22ff01b8fbc457b22693141702ed9
+M	src/Libraries/LibrariesFinderPlugin.php	08a1d6d6dcd58a7c6a056c6076447afb
+A	src/Phases/DrupalCoreRegistryRegistrator.php	37d1dbc7f4e3c3832e2411b3a2648610
+M	tests/test_1/xautoload_test_1.info	616d5096bb8941a29428be275ac194fb
+M	tests/test_2/xautoload_test_2.info	ec569d0b12b6c7effb1743c7bedfec4b
+M	tests/test_3/xautoload_test_3.info	7a6337b95a67b08e9262ff648cd91fd4
+M	tests/test_4/xautoload_test_4.info	7b50f342a33f070e3b54191c3ea460cd
+M	tests/test_5/xautoload_test_5.info	b9911f143e5b43afb8ca499554921f7d
+M	xautoload.early.lib.inc	18d44940655ba07ece28c57cf4d3e951
+M	xautoload.info	1a3805e6a7c106ab1c43d39b8fa381dd
+M	xautoload.install	5658e2a333187d24ad7cf7dd60f51327
+M	xautoload.module	1badf27e9f3c271d9708ab87d86846a8
+M	xautoload.ui.inc	645538595812e74905fff56711d9c4f8

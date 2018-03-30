@@ -1,0 +1,12 @@
+D	BACKPORT.txt	
+M	CHANGELOG.txt	7d6a070f97a5db118cf99d5d86a36778
+M	migrate.info	79aa5f577b942849e9258cbfa09333e8
+M	migrate_example/migrate_example.info	6226d896a10a2f7c1fe669f06edbf9e8
+M	migrate_example/migrate_example_oracle/migrate_example_oracle.info	5d2acc6718bd198303bafb8fbaad6959
+M	migrate_example_baseball/migrate_example_baseball.info	4ebd5e31d6a02163aca25a4d80df693f
+M	migrate_ui/migrate_ui.info	94b82e75bfb5454970602c5f39a31e13
+M	migrate_ui/migrate_ui.pages.inc	e959ab07d169bfe67e31a93c4b5f8823
+M	plugins/destinations/fields.inc	b2dac6db0d5212eeb9c21c9ea24f3736
+M	plugins/sources/list.inc	adeff86ed705f20bb846e97afa7c644c
+M	plugins/sources/multiitems.inc	c1659411d65ac157fd6079d575b71547
+M	tests/import/options.test	5e197db41240ea3f9b4fba39224eae05

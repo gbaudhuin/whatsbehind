@@ -1,0 +1,9 @@
+M	config/schema/contact_storage.schema.yml	a84c872b224bcf067411d31797ba2198
+M	contact_storage.info.yml	3ed90062d74dad6d60b6aee4484d907f
+M	contact_storage.install	289d7f6738b1599b9409ddf3919809ff
+M	contact_storage.module	b4d66617411fcc6fe977105cdff5e693
+M	contact_storage.routing.yml	ac0ad87924974d054d301124a45207a1
+M	src/ContactFormViewBuilder.php	b4699038575dc08a50e8d70742aa2025
+D	src/Form/MessageDeleteForm.php	
+M	src/Tests/ContactStorageTest.php	765955d474090ff3d81ec372e6fdb8de
+M	tests/src/Kernel/ContactStorageFieldTest.php	28d034c721e13317e5451cff492a3f98

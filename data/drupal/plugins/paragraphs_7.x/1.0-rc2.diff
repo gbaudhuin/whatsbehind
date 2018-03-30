@@ -1,0 +1,9 @@
+M	ParagraphsItemEntity.inc	a6376971a009b1cb31f8676f6ee3c066
+M	modules/paragraphs_bundle_permissions/paragraphs_bundle_permissions.info	d34e7d217ef89eb53660303f1f03a880
+M	modules/paragraphs_i18n/paragraphs_i18n.info	86c791e2b1b980fce441282cf216c794
+M	paragraphs.admin.inc	7e026eca870c2901f3a3990ae09dfef9
+M	paragraphs.field_widget.inc	851e67d04268dc6f4140dd7824d54898
+M	paragraphs.info	c7fe20a15df459156f018d2d6059d849
+M	paragraphs.module	00e6460d29670c24632c780c13942d7b
+M	plugins/panelizer/entity/PanelizerEntityParagraphsItem.class.php	6c84abac963e613743c5e01e5f64bf26
+M	tests/paragraphs_test/paragraphs_test.info	9d39d010592ebff119284f514dc79594

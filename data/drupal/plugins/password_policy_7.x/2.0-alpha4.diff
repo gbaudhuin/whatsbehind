@@ -1,0 +1,11 @@
+M	includes/PasswordPolicy.inc	6e1ae2c22090908129adf0e68ffdca84
+M	password_policy.info	1295c2742bd5da5b48ab6ab82c9bfa70
+M	password_policy.install	5d40c0686141352ee4588263a1243f67
+M	password_policy.js	4807fbafa633f062ae1bd6b88dd07404
+M	password_policy.module	0062db970477f63dfa686a822c5f0719
+M	password_policy.test	1bbebfe48908d2c3fa3996310d8b5050
+M	password_policy_test/password_policy_test.info	ac7956e97bafb8d75b0ab056ae0c4279
+M	plugins/condition/authmap.inc	daa6740cd39a731bf2933bb91225a37e
+M	plugins/condition/role.inc	bee836d13a55480c3cf0ba7a59951de4
+M	plugins/constraint/alpha_case.inc	5f84ff6f680e8966dbc76d7d1d2ef096
+M	plugins/constraint/drupal_strength.inc	117d8263ca3bd0fab0687c05494dc4d3

@@ -1,0 +1,11 @@
+M	CHANGELOG.txt	2d14b9d8d828c5aa371d725882825235
+M	acl.admin.inc	a40cf9f2955e77328fed86346a514656
+M	acl.info.yml	bb04dc791a53517c064ce670876a4356
+M	acl.module	430b0c02ec4a7a8a1eeb1ed88d2cfa56
+M	src/Plugin/migrate/destination/AclList.php	b2a82bda410f5f97e2f13980e22fa470
+M	src/Plugin/migrate/destination/AclTable.php	0b0cf8fb5ede60e462b19332c64caad4
+M	src/Plugin/migrate/source/AclList.php	f9e76cb969d31ace65d83a7df3223a1e
+M	src/Plugin/migrate/source/AclTable.php	7c08e37ea3ae37495cd77b62e8135477
+M	src/Tests/Migrate/d6/MigrateAclListTest.php	78c1823522760cb8ccad0d55c9feec44
+M	src/Tests/Migrate/d7/MigrateAclListTest.php	41fc8e183e05fa1c082824e0a9529ae9
+M	tests/modules/acl_node_test/acl_node_test.info.yml	7832a33c20776aa6ab480fc65994d969

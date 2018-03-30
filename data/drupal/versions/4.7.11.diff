@@ -1,0 +1,9 @@
+M	CHANGELOG.txt	de027e4ff8ac22c06ee8a47c0c37af97
+M	INSTALL.txt	60063b7e0926c047dc22bcb64a427f1d
+M	includes/bootstrap.inc	0281c8b1d14153b3b7bb4076ea490b40
+M	includes/database.inc	6c734f518edd447adc4d5bbd4b3b03cd
+M	modules/aggregator.module	a85d5876e3af7c7f445d70548aa68d65
+M	modules/filter.module	cdc02592ffc341c6c1b94dfda7757e64
+M	modules/poll.module	93200b5d2e300a7e149cbf3b4d7dd15a
+M	modules/system.module	afe38e5bb23b4f7c079823220ad1e424
+M	modules/watchdog.module	e544ea4ca3c1c04dabce719f9d355ff0

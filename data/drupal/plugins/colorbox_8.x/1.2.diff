@@ -1,0 +1,9 @@
+M	colorbox.info.yml	114da1f8f9774193ad3ad98bdc208b83
+M	colorbox.theme.inc	091636bb1f0ae5ef63e411a058f79b03
+M	composer.json	d1e038ba0ec273d220b4e55046b378c6
+M	config/install/colorbox.settings.yml	f4941af0b72a82e2852d83bb2d6cd07c
+M	config/schema/colorbox.schema.yml	213b14126758dfab36b87392e70f6c16
+M	src/ColorboxAttachment.php	b86ff99b6cc67533401f26ada0b6e5dc
+M	src/Form/ColorboxSettingsForm.php	311c0d93042296f5098190ef50c7ef68
+M	src/Plugin/Field/FieldFormatter/ColorboxFormatter.php	462a1cabf157d264bd46c49c2311b019
+M	tests/modules/colorbox_library_test/colorbox_library_test.info.yml	f2e5864ad52624cacf29308cc1bfec5c

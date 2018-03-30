@@ -1,0 +1,6 @@
+M	checklistapi.info.yml	7e5f2f955023fc9e9ff157249aa5b20e
+A	checklistapi.install	84b65314b8ff10066bcac2ed121d8aab
+M	checklistapiexample/checklistapiexample.info.yml	45ac6d268dc24e42a4a7977a14516adf
+A	config/schema/checklistapi.schema.yml	442dbbdb21479fb0cd4f3682e4a2e223
+M	src/ChecklistapiChecklist.php	55037ad7f3cc876e6cedbfbcc4d1dc0b
+M	src/Form/ChecklistapiChecklistForm.php	aff6fa1cf8e22ad6b53625bf69346d80

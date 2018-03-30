@@ -1,0 +1,28 @@
+M	CHANGELOG.txt	2cfdf42979a3fd1f4d6cf2bfd111c3cc
+M	README.txt	17ba91546d4c06f69ba94ad2d1ec03b4
+M	css/linkit.css	ce4d64f3e6c69f7d460dbe2a0b7d447f
+M	editors/ckeditor/plugin.js	86c49fcde6d9693d8459253ef4220346
+M	editors/tinymce/editor_plugin.js	4b67b892667979e702ba6d2a36e0b817
+M	editors/tinymce/linkitDialog.js	067bad478c15c3a40ac704ac5d3afc1c
+M	js/linkit.dialog.js	b81d510714703ff3632bd5aa7b5a6b56
+M	js/linkit.js	a2cf6125796f2570946170cc07c598fc
+M	linkit-dashboard.tpl.php	0791dd23bff3ea0ef469fb2cbe49e269
+M	linkit.api.php	a7d1d5c0480fbffbf4fa71d67aad919c
+M	linkit.info	3e0d4b7ebdbaef8cabc40cbfcbbed33c
+M	linkit.install	7ca5ba0358e71b56c286b7cf2c106a4f
+M	linkit.module	546176ebcbd7ca6840a2a33a8348d4c5
+M	linkit.theme.inc	6f5f695a5bd330be9fb4dd390686eb1b
+M	plugins/export_ui/linkit_profiles.inc	0bd8edf5da24470eb15dcf9784046ab9
+M	plugins/export_ui/linkit_profiles_ui.class.php	a4ac0619b678f80ceeea915823a1002f
+D	plugins/linkit.external.inc	
+D	plugins/linkit.file.inc	
+D	plugins/linkit.node.inc	
+D	plugins/linkit.taxonomy.inc	
+D	plugins/linkit.user.inc	
+A	plugins/linkit_plugins/entity.inc	4cfc3823a0caf41846aec2ed245631c7
+A	plugins/linkit_plugins/linkit-plugin-entity.class.php	f57ce3b7c1377296467458517faa13eb
+A	plugins/linkit_plugins/linkit-plugin-file.class.php	1e623c3a36d6ac6e52e548872a01c537
+A	plugins/linkit_plugins/linkit-plugin-node.class.php	5ba4d5c4293f21a980701ae1f6c99b5c
+A	plugins/linkit_plugins/linkit-plugin-taxonomy_term.class.php	b98393c92c71712217dc478f0fcb8da1
+A	plugins/linkit_plugins/linkit-plugin-user.class.php	cce9891c13e635c709df0bbdaa876364
+A	plugins/plugin.class.php	0f0460c8687a9ae4a54d7a6b8852fbc5

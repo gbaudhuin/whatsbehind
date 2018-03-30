@@ -1,0 +1,119 @@
+M	CHANGELOG.txt	3697092dc7172479b09e8ca2e7671347
+M	D6UPDATE.txt	4355f3fe7feb226762eaeebb09a09561
+M	css/panels-dashboard.css	31a8256a7fa208b2f2bf8960953b4510
+M	css/panels_admin.css	5032ca053ed1326022d6365247fe938a
+M	css/panels_dnd.css	4a7cca9015e2bd0838cebb81e85fc82d
+M	includes/callbacks.inc	ed4f04b612d2d5ba8dbe4f560e74c646
+M	includes/common.inc	7a31c381162b464ee2b7a35742dbb88f
+M	includes/display-edit.inc	b15ae1d8971e9fe5eced04d7a063c5fd
+M	includes/display-layout.inc	fdd71db2136ddc7dc1b0fec243eaa52f
+M	includes/display-render.inc	0f1fa32cce2a010c92c85f97f4e41c71
+A	includes/legacy.inc	d9ec12c6f3dffac540235425834da165
+A	includes/panels.pipelines.inc	7f32f1f220f2f64e3dc29284da370521
+M	includes/plugins.inc	b7d6172a057c7edb783aedf538983521
+M	js/display_editor.js	8d1c0dc31fa94115431cd27ae1dcb537
+M	panels.info	c6449b12bbf3f926effeaeb7d7a6c184
+M	panels.install	eb10917db5d7fb310ddeb3d8d32db689
+M	panels.module	474cd6b3412ac93ad44b48b6ca6c1443
+A	panels_ipe/css/panels_ipe.css	470f5dd7d55b9cd5a392f31f96f00b7b
+A	panels_ipe/images/dragger.png	073efc3b327f12767fe696788b397b94
+A	panels_ipe/includes/panels_ipe.pipelines.inc	9a9f998528e88f1ca39f67c8adfc5d35
+A	panels_ipe/js/panels_ipe.js	ec6126ff9849d890ca0f938a14b1735f
+A	panels_ipe/panels_ipe.info	362ddaa2fd1b5be15aab8ad04be3d64c
+A	panels_ipe/panels_ipe.module	875f720457f298f3b01899be41b607ab
+A	panels_ipe/plugins/display_renderers/ipe.inc	897efabc398a05ef0d733a39abd5bbf6
+A	panels_ipe/plugins/display_renderers/panels_renderer_ipe.class.php	edbe864a1a961a2a501c021c6f9a9478
+M	panels_mini/panels_mini.admin.inc	bea6624435801ec6fbb8f20ddd662951
+M	panels_mini/panels_mini.info	05b8d96387cb7ee5abd87343be500482
+M	panels_mini/panels_mini.install	c39a54b4c3e041d01f27dc99d421dea2
+M	panels_mini/panels_mini.module	3762c7af7f5fac0a0e8d5a1c41a7a406
+M	panels_mini/plugins/content_types/panels_mini.inc	a50b0c81037c8da7237ababeacaf7a1d
+A	panels_mini/plugins/export_ui/panels_mini.inc	f940b06e8224801993c883d2ee063903
+A	panels_mini/plugins/export_ui/panels_mini_ui.class.php	e2b3ea89328b9ad10e5ba234e05b18f9
+M	panels_node/panels_node.info	6db37d41fff152dcbc4f0ae9426cf18f
+M	panels_node/panels_node.install	9f955f9cf272ad931ef5e8be7e3bd9a4
+M	panels_node/panels_node.module	633fc824cb862c6909928ff86b14ca2c
+D	panels_stylizer/panels-style.css	
+D	panels_stylizer/panels-style.js	
+D	panels_stylizer/panels_stylizer.admin.inc	
+D	panels_stylizer/panels_stylizer.info	
+D	panels_stylizer/panels_stylizer.install	
+D	panels_stylizer/panels_stylizer.module	
+D	panels_stylizer/plugins/style_bases/pane/pane_plain_box/icon.png	
+D	panels_stylizer/plugins/style_bases/pane/pane_plain_box/pane-plain-box.css	
+D	panels_stylizer/plugins/style_bases/pane/pane_plain_box/pane-plain-box.tpl.php	
+D	panels_stylizer/plugins/style_bases/pane/pane_plain_box/pane_plain_box.inc	
+D	panels_stylizer/plugins/style_bases/pane/pane_rounded_shadow/box-color.png	
+D	panels_stylizer/plugins/style_bases/pane/pane_rounded_shadow/box-shadow.png	
+D	panels_stylizer/plugins/style_bases/pane/pane_rounded_shadow/icon.png	
+D	panels_stylizer/plugins/style_bases/pane/pane_rounded_shadow/pane-rounded-shadow.css	
+D	panels_stylizer/plugins/style_bases/pane/pane_rounded_shadow/pane-rounded-shadow.tpl.php	
+D	panels_stylizer/plugins/style_bases/pane/pane_rounded_shadow/pane_rounded_shadow.inc	
+D	panels_stylizer/plugins/style_bases/region/region_plain_box/icon.png	
+D	panels_stylizer/plugins/style_bases/region/region_plain_box/region-plain-box.css	
+D	panels_stylizer/plugins/style_bases/region/region_plain_box/region-plain-box.tpl.php	
+D	panels_stylizer/plugins/style_bases/region/region_plain_box/region_plain_box.inc	
+D	panels_stylizer/plugins/style_bases/region/region_rounded_shadow/box-color.png	
+D	panels_stylizer/plugins/style_bases/region/region_rounded_shadow/box-shadow.png	
+D	panels_stylizer/plugins/style_bases/region/region_rounded_shadow/icon.png	
+D	panels_stylizer/plugins/style_bases/region/region_rounded_shadow/region-rounded-shadow.css	
+D	panels_stylizer/plugins/style_bases/region/region_rounded_shadow/region-rounded-shadow.tpl.php	
+D	panels_stylizer/plugins/style_bases/region/region_rounded_shadow/region_rounded_shadow.inc	
+D	panels_stylizer/plugins/styles/stylizer.inc	
+A	plugins/display_renderers/editor.inc	86c2db9f2058bdd503cd1ac4a2c31c46
+A	plugins/display_renderers/legacy.inc	779478ebc86c67ac5bffb91711013c18
+A	plugins/display_renderers/panels_renderer_editor.class.php	52bbda058f2c8df9738709983f592572
+A	plugins/display_renderers/panels_renderer_legacy.class.php	22951bedf67077ede23a1abc6800acf3
+A	plugins/display_renderers/panels_renderer_single_pane.class.php	a22cfb55e76d0a42cceea601ebaeae7b
+A	plugins/display_renderers/panels_renderer_standard.class.php	aa050c39692171994df86a459ef711e0
+A	plugins/display_renderers/single_pane.inc	494304996300dbafb80a6aa2075f0fba
+A	plugins/display_renderers/standard.inc	f6d81029afc512ca16e455c72b561703
+A	plugins/export_ui/panels_layouts.inc	6419b317058d050d6b2ce3de6bcb9db6
+A	plugins/export_ui/panels_layouts_ui.class.php	6c93c57998825b7af71df4b38991ff26
+M	plugins/layouts/flexible/flexible-admin.css	8041a0283a5b9ff4350c8f634812cfb1
+M	plugins/layouts/flexible/flexible-admin.js	88a09414ea141cc92ce138aa07b36e36
+M	plugins/layouts/flexible/flexible.css	d7cc9189058ac87fa9f72d34adf0ee6b
+M	plugins/layouts/flexible/flexible.inc	6e5b3d00ffab1aa34594509b1211884b
+M	plugins/layouts/onecol/onecol.inc	fcf9c0b1fe36e60f04892b174324a75d
+M	plugins/layouts/threecol_25_50_25/threecol_25_50_25.inc	fce698183360106e8ed3f7f8d71e6e9b
+M	plugins/layouts/threecol_25_50_25_stacked/panels-threecol-25-50-25-stacked.tpl.php	edf34651950e0b9d9e82d23018f0b146
+M	plugins/layouts/threecol_25_50_25_stacked/threecol_25_50_25_stacked.inc	c2153ff1f2376ec54fbb9e3a95d44d8a
+M	plugins/layouts/threecol_33_34_33/threecol_33_34_33.inc	f489579b29fbca45464307a3ee175ee5
+M	plugins/layouts/threecol_33_34_33_stacked/panels-threecol-33-34-33-stacked.tpl.php	3249985ea66b7f97050489c949146781
+M	plugins/layouts/threecol_33_34_33_stacked/threecol_33_34_33_stacked.inc	a87e9a7f7d8953b3429648c272924f96
+M	plugins/layouts/twocol/twocol.inc	be02319777edf00b6dfbe622e622a6de
+M	plugins/layouts/twocol_bricks/panels-twocol-bricks.tpl.php	de46d1c9eb3c730841334abf576c4aef
+M	plugins/layouts/twocol_bricks/twocol_bricks.inc	66efd845e1c5c7713ac3f1f7e1a7963b
+M	plugins/layouts/twocol_stacked/panels-twocol-stacked.tpl.php	89e70801e7a54779d4d47807b2e4e36c
+M	plugins/layouts/twocol_stacked/twocol_stacked.inc	00aa12956ed77814af2798b89167c99a
+A	plugins/style_bases/pane/pane_plain_box/icon.png	76e293d7ab438643bcf3b097a57d03b2
+A	plugins/style_bases/pane/pane_plain_box/pane-plain-box.css	7a8d4e7e14dbb24e371424cae435df89
+A	plugins/style_bases/pane/pane_plain_box/pane-plain-box.tpl.php	5122f8f3d8ebdb70d24bcf38898a231c
+A	plugins/style_bases/pane/pane_plain_box/pane_plain_box.inc	1eeb7b8cf6750cadf301cbf0c678ef95
+A	plugins/style_bases/pane/pane_rounded_shadow/box-color.png	a34c4cbff01ce8413c0da31006b2ea89
+A	plugins/style_bases/pane/pane_rounded_shadow/box-shadow.png	13f660645e32dee62d94d4a5a789d1c3
+A	plugins/style_bases/pane/pane_rounded_shadow/icon.png	371c19996a033d0932fbf4f66c229bd6
+A	plugins/style_bases/pane/pane_rounded_shadow/pane-rounded-shadow.css	0465931ca02ac85d50b32d3600e4269b
+A	plugins/style_bases/pane/pane_rounded_shadow/pane-rounded-shadow.tpl.php	5de129a33edad1199a673e6417c11b49
+A	plugins/style_bases/pane/pane_rounded_shadow/pane_rounded_shadow.inc	d1376c1cd84d6aa75907b43aa143ea08
+A	plugins/style_bases/region/region_plain_box/icon.png	76e293d7ab438643bcf3b097a57d03b2
+A	plugins/style_bases/region/region_plain_box/region-plain-box.css	f934dcf08970639d31569812a5f3855d
+A	plugins/style_bases/region/region_plain_box/region-plain-box.tpl.php	d4dfb350e1075c8e03095ccdeb6c1c29
+A	plugins/style_bases/region/region_plain_box/region_plain_box.inc	44519d76082e5f0fa38b3dfab0bc9d9b
+A	plugins/style_bases/region/region_rounded_shadow/box-color.png	a34c4cbff01ce8413c0da31006b2ea89
+A	plugins/style_bases/region/region_rounded_shadow/box-shadow.png	13f660645e32dee62d94d4a5a789d1c3
+A	plugins/style_bases/region/region_rounded_shadow/icon.png	371c19996a033d0932fbf4f66c229bd6
+A	plugins/style_bases/region/region_rounded_shadow/region-rounded-shadow.css	5e512b4a934724feba39cd3aa0b3ce7f
+A	plugins/style_bases/region/region_rounded_shadow/region-rounded-shadow.tpl.php	9d207242c03a73d47a79853d8022128c
+A	plugins/style_bases/region/region_rounded_shadow/region_rounded_shadow.inc	73c69f38d5cd0c616c0191f267ee8403
+M	plugins/styles/block.inc	6fca60aa896d415f4fb815ccea189d29
+M	plugins/styles/corners/rounded_corners.inc	ebed31c312800fc3a2a710f7c50d7a98
+M	plugins/styles/default.inc	4e76b390e26be8664ccbfa648c3d51e7
+M	plugins/styles/list.inc	dbdc9a24e03145156ebc5d2e86c3675d
+M	plugins/styles/naked.inc	e5ed5a826ed5b7667ce6d47340ff3113
+A	plugins/styles/stylizer.inc	69fb23748398b90cfa6ed13a63020245
+M	plugins/task_handlers/panel_context.inc	e6004557332b730346532c834ef2425a
+A	templates/panels-dashboard-block.tpl.php	6b07039f4ff6e81a16cdac2b6d782390
+A	templates/panels-dashboard-link.tpl.php	d10c1b0f30c42fcdf6975adb7b70f0a3
+M	templates/panels-dashboard.tpl.php	01268d8f3cd36c2d3b7b7392ef40be1a
+A	translations/panels.hu.po	776a40f85352912cd675d2634757ddac

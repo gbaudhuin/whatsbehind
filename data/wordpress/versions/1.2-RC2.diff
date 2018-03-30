@@ -1,0 +1,31 @@
+D	phpinfo.php	
+M	wp-admin/admin-functions.php	8a6ba0e7cba8fac934c7f194f39faad7
+M	wp-admin/auth.php	65d6a6019e7ef58111b291ef00f24d47
+M	wp-admin/categories.php	2e3365f46d8cd81b3f55e725e0789e3d
+M	wp-admin/import-blogger.php	e8c2d5357dff5fac571b9bbd71aede6e
+M	wp-admin/import-mt.php	a55a9c67db7b672445acf8c485aace60
+D	wp-admin/install-config.php	
+M	wp-admin/install.php	e98826e4553b08824d07a3c61bb6ac05
+M	wp-admin/link-manager.php	98eda841c132a13a7a139cc5fa704b7f
+M	wp-admin/plugins.php	d6668331343a9e5c3aae03743e3956c8
+M	wp-admin/post.php	f2a5f122ad817938478c86b968161a73
+M	wp-admin/profile.php	7bc2af834b7fd39e4c9fc12401580ccf
+A	wp-admin/setup-config.php	0521e681e83b5bec58473371f38afcc6
+M	wp-admin/upgrade-functions.php	0c305b3f18864b8a6d010a6d1d95e09c
+M	wp-admin/users.php	fceea210bd840d0c56a6c738f6edb3b3
+M	wp-blog-header.php	e4393be3dffffd95111fff9bbe2accac
+M	wp-comments.php	79e9091f9568a483a3ff44f67c60c8df
+M	wp-includes/class-xmlrpc.php	cd0ff42caff5b3dc3dc4a273373f8c9d
+M	wp-includes/functions-formatting.php	dc054d9894ed11619d4f0f1e18f2a321
+M	wp-includes/functions.php	dd2156277e9b731f34c3f129fed792d9
+M	wp-includes/locale.php	0d73bc5e2572e6379e1deb24e64dc808
+M	wp-includes/template-functions-category.php	266ac2adc81187a3091a1881f627c7e3
+M	wp-includes/template-functions-general.php	9a49c9d5a2c06cad61f876bba2ac8ab0
+M	wp-includes/template-functions-links.php	12aa93b494a70fe2d28dbcec9d536f6f
+M	wp-includes/version.php	0383a354fc13b98ca3ed5373c070b79a
+M	wp-includes/wp-l10n.php	e0f8c87970276fa954fdb3e039dfd319
+M	wp-login.php	bc642cfe24d50da7a9f1eff0456aa559
+M	wp-mail.php	145cd6b39df86a92e2ff0e8ed13adfea
+M	wp-rdf.php	095e0a6872e249385c19a94a86f3bc2b
+M	wp-register.php	2d242f93459cac0c56c939f29ee297b9
+M	xmlrpc.php	36be7a6992d34df070d6a513e5bba897

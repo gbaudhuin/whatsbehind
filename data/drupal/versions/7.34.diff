@@ -1,0 +1,5 @@
+M	CHANGELOG.txt	34335e648b3cbd720cc3ed86f88c1d26
+M	includes/bootstrap.inc	bfe3179d2cfc33c1b94e5aeba2ef7cf3
+M	includes/password.inc	36a1a1ada622a5301e4c21b26a002ba1
+M	includes/session.inc	ac08167c1b6371c2447eb2bae13648cd
+M	modules/simpletest/tests/password.test	f1087056108f6a181e4e841e54d3d45d

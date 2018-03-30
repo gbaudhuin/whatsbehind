@@ -1,0 +1,4 @@
+M	restui.info.yml	1468be57484b4976a4623b617fafebd9
+M	src/Controller/RestUIController.php	c52fdb7629f8d99a14e28a80ad95da76
+M	src/Form/RestUIForm.php	06e66e8303dddc8afcb9c3f8f93eea37
+M	templates/restui-resource-info.html.twig	fa8be643de14d0b788d65c1725ebc244

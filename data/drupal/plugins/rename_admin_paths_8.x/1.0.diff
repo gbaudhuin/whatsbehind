@@ -1,0 +1,12 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	6981f7bcf1f9896faafc1fd567be9dc0
+A	config/install/rename_admin_paths.settings.yml	6cb7120c19ee184d0e811f59ee166041
+A	rename_admin_paths.info.yml	80273832913ddf466382b4883fb8c338
+A	rename_admin_paths.install	f220dee82b22b44932ed9245387eba92
+A	rename_admin_paths.links.menu.yml	d7d22150194293d61d7f82095cf68a61
+A	rename_admin_paths.module	99dd325f22581d0219eaeceae377414f
+A	rename_admin_paths.routing.yml	0346c14d284f6310e725f0abe0b3b96d
+A	rename_admin_paths.services.yml	ebbedaca2a5702b86a33867fbc56f576
+A	src/Form/RenameAdminPathsCallbacks.php	9ddd0ccf853449fd213cd0ef4a0c1a4a
+A	src/Form/RenameAdminPathsSettingsForm.php	e4103937748e6d00ff3ea0ebdb31bfa3
+A	src/RenameAdminPathsProcessor.php	0c206edffb3470d0b099a5044003faa5

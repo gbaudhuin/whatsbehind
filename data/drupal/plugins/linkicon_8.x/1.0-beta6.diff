@@ -1,0 +1,17 @@
+M	README.txt	319db4c64f216e83e509e1a0cd582bd1
+M	config/schema/linkicon.schema.yml	bd5bf859c76be85b0a0ab5a4a2dff659
+A	css/linkicon.admin.css	5f3c22f164738c739aa971f90d69c652
+M	css/linkicon.css	02723a0ab626f3bdaaba2ac6d63b0ce6
+D	css/linkicon.field_ui.css	
+M	linkicon.info.yml	a1fd1f485554e94ad5c54600b3a8334c
+A	linkicon.libraries.yml	8ebfaba4f8c9094dd5467ddb0408c32a
+A	linkicon.links.menu.yml	eb028750c7c03c77e5e0d11df985d340
+M	linkicon.module	d66b19fb2240eddbb19b4fdd7d52d60a
+A	linkicon.permissions.yml	ba43bdd29f91170d4b9fd74fc41be311
+A	linkicon.routing.yml	7ace0b51242cc3226d34104e79bb3e9d
+A	src/LinkIconItem.php	8bfedc2562dda26b15e5b380394cf0a4
+A	src/LinkiconSettingsForm.php	8192f9c442542aeea083c36d984b530f
+M	src/Plugin/Field/FieldFormatter/LinkIconFormatter.php	98a1ca87ac8e477bfcc962a61de6c322
+D	src/Plugin/Field/FieldType/LinkIconItem.php	
+D	src/Plugin/Field/FieldWidget/LinkIconWidget.php	
+A	templates/linkicon.html.twig	8644616e52af42a62c00b3db8cfa559d

@@ -1,0 +1,14 @@
+M	simple_oauth.info.yml	dd337d0dde34cf008ce6db90b4eb685c
+M	simple_oauth.module	dcf0877adc812172e0aafc6ce681abdb
+M	simple_oauth_extras/simple_oauth_extras.info.yml	f7fd1d5d32c8fcc0e673ef2dc1fb26d7
+M	simple_oauth_extras/src/Plugin/Oauth2Grant/ClientCredentials.php	09214e6872928bfbdd81305f2ccfb158
+M	simple_oauth_extras/tests/simple_oauth_extras_test/simple_oauth_extras_test.info.yml	6f06dad0c1d04fb0fa0b512ad8d6a562
+A	simple_oauth_extras/tests/src/Functional/RolesNegotiationFunctionalTest.php	0fd7882b65d9dc91883abcc5e8399d9a
+M	src/ExpiredCollector.php	b23dfc68865c25f2e4c67b86abab2860
+M	src/HttpMiddleware/BasicAuthSwap.php	867b93652eee03fc7bb9e356dbefb31c
+M	src/Plugin/Oauth2GrantBase.php	ff0f82857405ec0d0be3f7b86fb0d3e5
+M	src/Plugin/Oauth2GrantManager.php	24a4b84e6d174958405625c731d37c4c
+M	src/Repositories/ScopeRepository.php	f4cda506e5e6e0c32cc78662a9d2ef3f
+A	tests/src/Functional/RequestHelperTrait.php	69fdccbd6460f43c90f5f78df0338735
+M	tests/src/Functional/TokenBearerFunctionalTestBase.php	d6cb3e8ef0fbffdf384a7219fed81995
+M	tests/src/Unit/EntityCollectorTest.php	8dd019b36ae10f2044145134072db343

@@ -1,0 +1,5 @@
+M	config/install/search_api_attachments.admin_config.yml	714ad4ceaac454714e49368fa5ead958
+M	search_api_attachments.info.yml	af9f5bfff9eb5af46c96996862f22fbc
+M	src/Plugin/SearchApiAttachmentsTextExtractor/PythonPdf2txtExtractor.php	96de6bbc0c1ee82e171cfc71da5096f9
+M	src/Plugin/SearchApiAttachmentsTextExtractor/TikaExtractor.php	8a85849512114ef74f5c026e0e6f61bf
+M	src/Plugin/search_api/processor/FilesFieldsProcessorPlugin.php	7be3d551ba0535e1bbba05212ac3ae89

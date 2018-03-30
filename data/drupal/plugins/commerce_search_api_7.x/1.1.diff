@@ -1,0 +1,6 @@
+A	commerce_search_api.css	414d09886ac1eccc391072e3eabe30f0
+M	commerce_search_api.info	f5ea37dfc993823f3d64163efd779d70
+M	commerce_search_api.install	0b28de0ed5c971548903669d7a0c97c7
+M	commerce_search_api.module	761ec2ca6b1a356a0a8da0656ba3d70c
+M	includes/commerce_search_api.admin.inc	23df5992b269eeec1920688b2d6afe56
+A	includes/facetapi/widget_fancy_attributes.inc	cf1da5482fe8577c9dd85e646504a55f

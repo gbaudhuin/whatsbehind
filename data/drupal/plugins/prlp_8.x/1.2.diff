@@ -1,0 +1,5 @@
+M	prlp.info.yml	525b1fd446c237df536536fd8f58856d
+M	prlp.module	b3d816a5d9ba39a74f0bb70d8374ee19
+A	prlp.services.yml	d845193984373c288c9861ff5c249b4a
+A	src/Controller/PrlpController.php	47071f26f33fc8637f54cdeeaf543211
+A	src/Routing/RouteSubscriber.php	4dfab928f0d27fe80e96daf66d0b2b1f

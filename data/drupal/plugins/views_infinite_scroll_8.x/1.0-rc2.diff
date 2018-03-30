@@ -1,0 +1,5 @@
+A	src/EventSubscriber/AjaxResponseSubscriber.php	edd45e6fd1c25474fec3fc1f582cb6db
+M	src/Plugin/views/pager/InfiniteScroll.php	81f62e922fad9d9b5435cb61a21f924c
+M	views_infinite_scroll.info.yml	6435221d4d52db418e6d578bfbdcc9ad
+M	views_infinite_scroll.module	ce27e7562dca4977cb2eba34a73726f6
+A	views_infinite_scroll.services.yml	65152c126a864eb1f54121337abfbcc1

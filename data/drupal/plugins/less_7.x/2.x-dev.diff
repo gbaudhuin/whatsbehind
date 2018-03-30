@@ -1,0 +1,15 @@
+M	composer.json	24ba477ab12d42fa452a90bdb50a6972
+M	less.admin.inc	a20d43abf18b8b2a015f054ea8ea12c4
+M	less.drush.inc	d3ef7c8898bca14cab4a60ef12cc9c11
+M	less.info	0adcd5f8f0477056bbb0392782e2d32a
+M	less.install	9592452fb85b0a7bcce7afde01e0c460
+M	less.module	d2b8cab9952ed91ad0e0deab16c44c33
+A	less.theme.inc	643b402ded088e70f7484cdb904a9eec
+A	less.watch.js	66d3a5d5ea4c7ebcb1d1a4eee89eee3b
+A	less.wysiwyg.inc	0d74a7322e410af058185c9f8ca3d03b
+A	less_demo/images/logo.png	59d487becd5838c8de4c34c681b07817
+A	less_demo/imports/less_demo.clearfix.css.less	5c328187507862de583ce9cd43233fd5
+A	less_demo/imports/less_demo.imported.css.less	682b79ef1c35953016e5e96a400ad09b
+A	less_demo/less_demo.info	8b094033423faf3c30342a927acc6bb5
+A	less_demo/less_demo.module	c266170c7bac47d4e2bd7a0bc89c3743
+A	less_demo/styles/less_demo.css.less	a50832ef1217eb0359609a0a1d8d7d73

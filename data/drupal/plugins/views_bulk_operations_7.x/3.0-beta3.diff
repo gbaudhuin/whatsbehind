@@ -1,0 +1,11 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	actions/archive.action.inc	2d4cceff764da33fa93d2b90686f4ed9
+M	actions/argument_selector.action.inc	fd45b1bf2881821146b8adb873a18323
+M	actions_permissions.info	90bac706cdc8206d9259790980ddff76
+M	plugins/operation_types/action.class.php	65c2a3ce8d3927d2546b0897527c830f
+M	plugins/operation_types/base.class.php	e9943053248df2863929a7776f033fdf
+M	plugins/operation_types/rules_component.class.php	bec0252eca2d3ab017256157eb71a1e3
+M	views/views_bulk_operations_handler_field_operations.inc	1aca334fc3a9cfd8d602c33d085b884e
+M	views_bulk_operations.info	7fbb2bcd633ad4c87e9779ede9f0b51b
+M	views_bulk_operations.module	c9bde5b8e4515a872f0545df88f7e825
+M	views_bulk_operations.rules.inc	c45c208dd058855f61696681f911d7fe

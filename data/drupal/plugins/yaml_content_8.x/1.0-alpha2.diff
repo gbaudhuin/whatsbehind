@@ -1,0 +1,8 @@
+M	README.txt	603208d2f5ab3b247dd66f9792726db9
+A	content/demo.content.yml	c7b57f572a56ebd66826e7f1f323c1dc
+A	images/demo-image.jpg	3272e866040119093d8b56fec4696403
+M	src/ContentLoader/ContentLoader.php	4997ab986d1e557602dbf745fe166146
+M	src/ContentLoader/ContentLoaderInterface.php	5200822c0fb01e712af0d76f95323e2c
+M	yaml_content.drush.inc	47fb0b4110393abc8d5abe13f7d0f27f
+M	yaml_content.info.yml	e786048f75d66aa92a6f67988141856b
+M	yaml_content.services.yml	9eba9c785f0191971c2c49f04e94c79c

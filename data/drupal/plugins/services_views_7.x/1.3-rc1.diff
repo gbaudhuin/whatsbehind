@@ -1,0 +1,10 @@
+M	includes/views/views_plugin_display_services.inc	c895e3dba2f0d4ebaed9006b8bdab4ed
+M	services_views.api.php	8235a5b5bdc017f4284020261daf21b8
+M	services_views.info	4800716c3ba649f262b71641eb9aad3d
+M	services_views.install	d98a6a8280eaa92b72b2a6718e2d62cf
+M	services_views.module	bffdf3ac7ae045fb467322f44800b0a2
+M	services_views.resource.inc	f7a20cdaf3f7fa8d55f0075dee314680
+A	tests/modules/services_views_test/services_views_test.info	ea8c784bf5d40187c384e8e367418854
+A	tests/modules/services_views_test/services_views_test.module	fca06d21932fda08c37265b080dcb81a
+A	tests/services_views.test	16716cabfa1cb374ba4a50ac3794c48a
+A	tests/services_views_upgrade_path.test	3e0dafefaa42bdaabb2af85c8d7ca825

@@ -1,0 +1,14 @@
+M	bootstrap_paragraphs.info.yml	4a4c44c96905d786859b66edd93f57c7
+M	config/install/field.field.paragraph.bp_accordion.bp_accordion_section.yml	f7042ea31111ec3eaf3b652a0cf35c2c
+M	config/install/field.field.paragraph.bp_accordion_section.bp_accordion_section_body.yml	666dda356e231a5f6f3226b3b45da63f
+M	config/install/field.field.paragraph.bp_carousel.bp_slide_content.yml	29f180e660d26ac40b4d0cb6ed0824cb
+M	config/install/field.field.paragraph.bp_column_wrapper.bp_column_content_w.yml	1796d1bf81a69de1515136918a795d92
+M	config/install/field.field.paragraph.bp_columns.bp_column_content.yml	a017de565ce338c06221bffa520e5a4c
+M	config/install/field.field.paragraph.bp_columns_three_uneven.bp_column_content_3.yml	a030911195f3472caab1e4f99676e9d3
+M	config/install/field.field.paragraph.bp_columns_two_uneven.bp_column_content_2.yml	1505bd72c662fab5bd08836a414b4dff
+M	config/install/field.field.paragraph.bp_modal.bp_modal_body.yml	560839c50e422bcbc151becdb26593fc
+M	config/install/field.field.paragraph.bp_modal.bp_modal_footer.yml	8565956bd9cabc30ac01523c1896dd51
+M	config/install/field.field.paragraph.bp_tab_section.bp_tab_section_body.yml	69968172276867723595d40671b243bb
+M	config/install/field.field.paragraph.bp_tabs.bp_tab_section.yml	897ae30083218a033f684f9270a126a3
+M	modules/bp_contact/bp_contact.info.yml	9818c7d4175115d4e082f1d97dce0c2f
+M	modules/bp_webform/bp_webform.info.yml	b20721b1b54bf93f720d9601dff1d218

@@ -1,0 +1,16 @@
+M	eck.api.php	d49fa21d159acca98e3c8977bd7b6278
+M	eck.bundle.inc	f07de8d799815a3431c31a91be5279b0
+M	eck.classes.inc	edb897585e4fdc92725a4962a1964b84
+M	eck.entity.inc	4664090af7a0237d9a0cf69e799a4b11
+M	eck.entity_type.inc	dce22f1581610d6b83037155fd7d6b1f
+M	eck.info	f4e174c2840d702dcaf57630d289a594
+M	eck.install	275fecc93d42646e6fa82d4eda2e0a2b
+M	eck.module	cfda9ec173c33b1517264629cdabaad2
+M	eck.properties.inc	067cc8e0aee7b55c5dd5770e627e1c09
+M	examples/eck_example.info	42b7df11d91508789c6a645b6a314ad3
+M	modules/eck_entitycache/eck_entitycache.info	ca1e0759e866c4341052b429749b6abb
+M	modules/eck_services/eck_services.info	17c452e44b897770297c750a1018e0f2
+M	tests/behat/features/CRUD.feature	3247bd6faae7bbb646a6c121b3c18890
+M	tests/behat/features/Permissions.feature	92b1a5fffc57a4166529ca9e3e2ad6f1
+A	tests/behat/features/Properties.feature	d50e1971e711400818537395ba3fbf39
+M	tests/behat/features/bootstrap/FeatureContext.php	6b1eb9159ae936a02e1badf739b7d308

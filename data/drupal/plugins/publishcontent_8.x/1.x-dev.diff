@@ -1,0 +1,4 @@
+M	publishcontent.info.yml	bfef2d63da300b5d7089dbe3771205bc
+M	src/Access/PublishContentAccess.php	69e2aeedd07c6781dd029e90eff696d6
+M	src/Controller/PublishContentPublishEntity.php	64f32b26c57894fb8505c755e2409004
+M	src/PublishContentPermissions.php	ea1bd285ad76d7cd47a1adffce194c21

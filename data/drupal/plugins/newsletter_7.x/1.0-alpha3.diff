@@ -1,0 +1,12 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	5ebaadab595dfcac3555ebf8abc6d3bd
+A	css/newsletter.admin.css	50b0055f8147ce97129c1b849474bb01
+A	includes/newsletter.admin.inc	1cdd87246b300f66640c0aebdaf5b881
+A	includes/newsletter.basic.inc	437374390ccdb545a155dcedb52370c5
+A	includes/newsletter.functions.inc	9d23479f324a57f100fbb2a5f327ad9d
+A	includes/newsletter.mail.inc	e2adb25182ea8db5418809c0f4a0e2c5
+A	includes/newsletter.user.inc	f3eb0d1f91c7c9a3dfd4c7dd6e01d1e2
+A	js/newsletter.js	7f2bb9c2b8e399222e3c8997b7cb9ad8
+A	newsletter.info	091e24e717266fd911faf35dfa38fc58
+A	newsletter.install	d79ca3041f8755a82d92a4148b9c63ea
+A	newsletter.module	e54effe2bb1cbe363212fc59185db5d1

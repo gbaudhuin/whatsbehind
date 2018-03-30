@@ -1,0 +1,12 @@
+M	includes/message.admin.inc	35c676e3b31356d55e361384c8d61e90
+M	includes/message.message.inc	93bff4929bd0a53e6e169965e234490b
+M	message.info	8d0eb65cfb339ad8a212103128f4e5fb
+M	message.module	c0521a72a28d6d130363c281e2bfada3
+A	message.tpl.php	adc20f05dfddf08d6ab9d2751fd0dc05
+M	message_example/message_example.features.field.inc	9d272f82a6191e3aaf639f02a19ef290
+M	message_example/message_example.features.inc	2ddfa5983c9440483310297caf49fe78
+M	message_example/message_example.info	bd6b37b142bfd93f2d01113042e83555
+M	message_example/message_example.module	da14a8e9e2ff6b3f9a94f88dc7976939
+A	message_example/message_example.strongarm.inc	59ee5fcfc56f70a2e463abb5e388257b
+M	message_example/message_example.views_default.inc	8842a7f8d92b3ba49e3315e78aaf06e4
+M	message_og_example/message_og_example.info	e9fa7a1eb0dd9afab64913eca1cb1caf

@@ -1,0 +1,6 @@
+M	environment_indicator.info.yml	3f5f5f257026a803a1f65f49a8e67c67
+M	environment_indicator.module	8b07e91fa86f9c41e37d3c0866f53237
+M	modules/environment_indicator_ui/environment_indicator_ui.info.yml	95813ff86662e0300bb7982b82ad14e7
+M	src/EnvironmentIndicatorForm.php	d4451ddd386861ab651304159dbf186e
+M	src/EnvironmentIndicatorListBuilder.php	1c5a7b48646a55f09b8e1ea4052fe281
+M	src/EnvironmentIndicatorPermissions.php	f401769b7b9ebed7c0bebd2a85fc4cc4

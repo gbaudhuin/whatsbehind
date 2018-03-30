@@ -1,0 +1,7 @@
+M	composer.json	555e7891b360cf5c8305cd5a16803a40
+M	config/install/core.entity_form_display.node.varbase_heroslider_media.default.yml	8c49374a516ba8e7ab06fc09b40bdcee
+M	config/install/entity_browser.browser.heroslider_media_browser.yml	d453bd879a68210e5646b8533be17b8e
+M	config/install/image.style.varbase_media_hero_slider.yml	848733a60a2b90d6e9c0fa80e331755b
+A	config/install/rabbit_hole.behavior_settings.node_type_varbase_heroslider_media.yml	737db8ff4c30a20ba11087f63664a188
+M	js/varbase_hero_slider_media.scripts.js	dede0d41e430df2b4816461d48fe6c94
+M	varbase_heroslider_media.info.yml	d0ec4e554a939d881646a968667adbbb

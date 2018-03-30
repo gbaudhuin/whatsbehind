@@ -1,0 +1,23 @@
+M	composer.json	99266835d99d6787ecd5ff01e6732dcf
+A	jsonapi.api.php	2e54ad5aefb55f69212c7289877744f3
+M	jsonapi.info.yml	40d0ebe8a9e1c06760412a843944d865
+M	jsonapi.services.yml	6678a8262eecdab07794e5569ba630e8
+M	src/Controller/EntityResource.php	98d92de2158d95ea9f1298cd46b2fe87
+M	src/EventSubscriber/ResourceResponseSubscriber.php	196efaab6027b96e3dcdbe2a8a1ff50d
+M	src/JsonApiSpec.php	f5de5a97c76afadad4a18347299d2c21
+M	src/Normalizer/ConfigEntityNormalizer.php	33b4cf1d8124fa705413afe1cbbfdc4d
+M	src/Normalizer/JsonApiDocumentTopLevelNormalizer.php	64153ce91ff349be8100afb8cfcee722
+M	src/Normalizer/RelationshipItemNormalizer.php	ef523d639f6ec4526336bc041b1f95d5
+D	src/Normalizer/ScalarNormalizer.php	
+M	src/Normalizer/SortNormalizer.php	b57342a07587a4e52cf3e931999a22ab
+M	src/Normalizer/Value/JsonApiDocumentTopLevelNormalizerValue.php	47b2a51990519da1924574f546b805b9
+M	src/Routing/JsonApiParamEnhancer.php	5d804552ae80c391daa78077c0a35169
+M	tests/src/Functional/JsonApiFunctionalTest.php	43f4385ebe9ee13064c7054f0f195db1
+M	tests/src/Functional/JsonApiFunctionalTestBase.php	53b09939ee5f7469142972188800787e
+M	tests/src/Functional/RestJsonApiUnsupported.php	1f3465dcd19b5e2bd6bbd68a4fefeea6
+M	tests/src/Kernel/Normalizer/EntityConditionNormalizerTest.php	26d3d9f978b54d3ca747ae9a218a7ca1
+M	tests/src/Kernel/Normalizer/JsonApiDocumentTopLevelNormalizerTest.php	48e990118853458e766c976f09f13a45
+M	tests/src/Kernel/Normalizer/SortNormalizerTest.php	81782268488ec60fc8ce59d9fa557ab1
+M	tests/src/Unit/EventSubscriber/ResourceResponseSubscriberTest.php	563db1726199b0e471385d5c8150ad4a
+M	tests/src/Unit/Normalizer/ConfigEntityNormalizerTest.php	655feeff42a828dc2317e2e2cdf80201
+M	tests/src/Unit/Routing/JsonApiParamEnhancerTest.php	ad1d7aa23a17aeb1843a4c16aaf6e192

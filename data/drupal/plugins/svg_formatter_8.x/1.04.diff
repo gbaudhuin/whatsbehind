@@ -1,0 +1,6 @@
+A	.editorconfig	be390fc3feabfda60f10dfd94453f78c
+M	README.md	4bfb5231c6b6185435fcd2e771280a81
+M	composer.json	42cf25f9a13582f654ba11a4b1aa4b1c
+M	src/Plugin/Field/FieldFormatter/SvgFormatter.php	06ba4a76946af764c5fd0b54179425a7
+M	svg_formatter.info.yml	f98ea4c7b1bcdd6f3cb1b5b09a661c6e
+M	svg_formatter.module	ec4a1cbbc1308c745bac23262e8c47ea

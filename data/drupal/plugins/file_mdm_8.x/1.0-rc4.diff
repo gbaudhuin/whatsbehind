@@ -1,0 +1,8 @@
+M	file_mdm.info.yml	e9d7dd41490666b1f5ee0128246e06cc
+M	file_mdm_exif/file_mdm_exif.info.yml	919e1c4dfb37df397714a4523b14ff19
+D	file_mdm_exif/src/Tests/FileMetadataExifTest.php	
+A	file_mdm_exif/tests/src/Kernel/FileMetadataExifTest.php	394991c3187e5cff398c452707fea066
+M	file_mdm_font/file_mdm_font.info.yml	6d297478bc9fb557a8266af9ea9b6d8c
+M	file_mdm_font/src/Plugin/FileMetadata/Font.php	d252e2ec043699837ecd5951e0385154
+A	phpcs.xml.dist	83802f44b8ecae808d09ab6f0fc916e5
+M	src/Plugin/FileMetadata/FileMetadataPluginBase.php	6af29358ea904aa5873325dcc7fe290a

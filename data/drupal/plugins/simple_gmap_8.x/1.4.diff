@@ -1,0 +1,6 @@
+M	README.txt	c4e0d2b1cbcb34ad570c35e27a46f37b
+M	config/schema/simple_gmap.schema.yml	678611f70f79dfaa3fdbb5bdb982d17c
+M	simple_gmap.info.yml	1b4342ccfda4793f3700cbfb27d19237
+M	simple_gmap.module	836f303f295b0635496fbbacc380cc32
+M	src/Plugin/Field/FieldFormatter/SimpleGMapFormatter.php	3aae4b98a809307b520998651dbe5a1d
+A	src/Tests/SimpleGmapTest.php	9f7ce4fd63a1d312d08adcdc8880696c

@@ -1,0 +1,11 @@
+M	CHANGELOG.txt	dde317be107ac3185a0d85b7774a7b81
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	migrate.drush.inc	f2fa8041f04ac10f40f3ab1edf5ff208
+M	migrate.info	a5e185b7a67f4370cd1bbd3845b0e78f
+M	migrate_example/beer.inc	20c28652aab4e215e9676a16e7470f90
+M	migrate_example/migrate_example.info	8c0835388e81801187d21e4ada60707f
+M	migrate_example/migrate_example_oracle/migrate_example_oracle.info	046a0ad29d0b3e3b0f08f7ea1384942a
+M	migrate_example_baseball/migrate_example_baseball.info	23acb53e2908beea31f0af4c6558e416
+M	migrate_ui/migrate_ui.info	db4ab9d5777e4fb87bc56d729eaedc93
+M	migrate_ui/migrate_ui.pages.inc	efe76eb9d11754a86c173d2b13241b91
+M	plugins/sources/xml.inc	8e80a58e8925a2f6c48612d5bde3eb4b

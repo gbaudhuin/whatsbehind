@@ -1,0 +1,5 @@
+M	config/install/easy_breadcrumb.settings.yml	d2f45796ad9ab632927dbd6b0d5f99be
+M	easy_breadcrumb.info.yml	cc4cebfd8ebb288493fc5f71bf25e850
+M	src/EasyBreadcrumbBuilder.php	628fc8d5c11cc75bd4d4863798cf2a06
+M	src/EasyBreadcrumbConstants.php	ddf12b7eaf773bc7869c03dd16cf4781
+M	src/Form/EasyBreadcrumbGeneralSettingsForm.php	218a7ad91bde9879b51f5289850f2a02

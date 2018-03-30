@@ -1,0 +1,14 @@
+M	modules/redirect_404/redirect_404.info.yml	81961e9435bfe2347b0e5f19de370fcb
+M	modules/redirect_404/src/Render/Redirect404LogSuppressor.php	c43372831d0d6898a38d2bb127dd2a57
+M	modules/redirect_404/src/Tests/Fix404RedirectUILanguageTest.php	b14508efdbf118884c005ae3f4e58ce5
+M	modules/redirect_domain/redirect_domain.info.yml	2e4d5ce067a11d11bf31632508a204ca
+M	modules/redirect_domain/src/EventSubscriber/DomainRedirectRequestSubscriber.php	e49a9751b4378717a44010ddf14cafc0
+M	modules/redirect_domain/tests/src/Unit/DomainRedirectRequestSubscriberTest.php	f9be2cef42843d7fead1ad9f793f06a3
+M	redirect.generate.inc	fc5c9bd70915b0cc9040394070303713
+M	redirect.info.yml	c638f2a5ba8d7666664dae998f49963a
+M	redirect.install	13ef0af0a527ad49ca43e1359d40d44c
+M	redirect.module	9daea018eb4e7970caa5d96095cf3c0d
+M	redirect.services.yml	e588e8343af2e65b76a8a88b43de479d
+M	src/EventSubscriber/RouteNormalizerRequestSubscriber.php	bb17434c6881519d7147e3f557b47027
+A	src/Routing/RouteSubscriber.php	d559ac43c13dcb413aaa122a76822265
+M	src/Tests/GlobalRedirectTest.php	16c5290f71d617880702b245c6ed9fd3

@@ -1,0 +1,16 @@
+M	.travis.yml	f1fd6c0c007563ac8a7570c2093cde70
+D	.travis/drupal-8.3.x.make.yml	
+M	.travis/nginx.conf	8283d3437d3ae25335645dcf8e6e756f
+M	config/install/multiversion.settings.yml	e968719b764156d6e6ddfb418d732bb6
+M	multiversion.drush.inc	54f2e00f71b7c9c5e03bd398ae649bd3
+M	multiversion.info.yml	4fe20a3c41621a782b3d5facc5947cd8
+M	multiversion.install	60cb6c0637bb1f79e592af7a0b1ef21c
+M	multiversion.module	29161e66002e904b1ad1b537c6a60c88
+M	src/Entity/MenuLinkContent.php	ffe07f5fab0d5d2936dd9294507ba900
+M	src/Entity/Query/QueryTrait.php	13b16e7de77b033014b336f4ae16831e
+M	src/Entity/Storage/ContentEntityStorageTrait.php	23d8788e5e1da772fa728b2a4ca29a70
+M	src/MultiversionServiceProvider.php	2e2c67bd41a9b5d79f1a99a94511c204
+A	src/Redirect/RedirectRepository.php	a7e6ddb2b46beafb537852911722b8d3
+A	src/Redirect/RedirectStorageSchema.php	cc9f58ea755489b64e404b14b495f0fd
+M	tests/modules/multiversion_test_paragraphs/multiversion_test_paragraphs.info.yml	e316f3936a203133c515fdc566dcfff6
+M	tests/modules/multiversion_test_views/multiversion_test_views.info.yml	af606c555946c4c913f131d05b7c9bb6

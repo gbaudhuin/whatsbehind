@@ -1,0 +1,9 @@
+A	menu_trail_by_path.admin.inc	51d5f422c146df3ee7ab9db885c93297
+M	menu_trail_by_path.info	948cb4b904eda2681b0d188de15ce673
+A	menu_trail_by_path.install	37c0e8b43746cb2822cac85dc1129026
+M	menu_trail_by_path.module	1ea2e5aab3859ad50162288a7b2099a8
+M	menu_trail_by_path.test	e6431623732301ca72b99cd5068433e9
+A	src/MenutrailbypathActivetrail.inc	1c85ed65df658dc01c21fa757548f375
+A	src/MenutrailbypathBreadcrumb.inc	d88e8f6c3b7c78b4954bde32fb669605
+A	src/MenutrailbypathMenuHelper.inc	eb7c9da79ea3cce8fd18949a8a69da87
+A	src/MenutrailbypathPathHelper.inc	c360fd7a3645e3efb3cdcd997a6756de

@@ -1,0 +1,7 @@
+M	CHANGELOG.txt	4ed7f259568c75ea216e0159a8b43ffe
+M	README.txt	da691591457b2d0c9fb9b37b916d4594
+M	includes/service.inc	e9b4589ea542467c2b58eebd14ec2b5a
+M	includes/solr_connection.inc	c3daa993a207113c349a4a341be907cd
+M	includes/solr_connection.interface.inc	f4a46c020c4e065c26ba2eaf841e77b5
+M	includes/spellcheck.inc	d661029375bc93e48f3c1414a615a319
+M	search_api_solr.info	5a601199e0fdc9633bc34aa51bc83f53

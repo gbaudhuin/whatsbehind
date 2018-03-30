@@ -1,0 +1,7 @@
+A	composer.json	adc94929122ab827eba540c852d23823
+M	src/Plugin/Block/SuperfishBlock.php	cf539fbdf71f106321476d334981251b
+M	superfish.info.yml	c9c9cf3c9eaa4bafc8da15f3e90e0d45
+D	superfish.libraries.yml	
+M	superfish.module	dc2aaf6e70767295fb650bd947e58573
+D	superfish.services.yml	
+M	superfish.theme.inc	645528c7fb72608935f2c117a5b6af57

@@ -1,0 +1,4 @@
+M	pagerer.info.yml	dca291838e9569ed9ee653906b002cec
+M	pagerer_example/pagerer_example.info.yml	b3b2e733c9ec43b9d71fd8f1874e676d
+M	src/Entity/PagererPreset.php	036ff4fa286522f22f906211b4487ba1
+M	src/PagererPresetListBuilder.php	179508abef7a12aa55a359316d8dbfc0

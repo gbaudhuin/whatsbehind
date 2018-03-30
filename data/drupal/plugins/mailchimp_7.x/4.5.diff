@@ -1,0 +1,10 @@
+M	README.txt	9db666f22386e8c296efeffe6c1c327c
+A	composer.json	7f3787cc0b8df63e323c2dd54ef24259
+M	mailchimp.info	da13518f24644351a1c7ee5de983c5e8
+M	mailchimp.install	514cea7670f8da4f2edd9a18108b1dc8
+M	mailchimp.module	abea02cddabfec24fdac1220f7bb1aca
+M	modules/mailchimp_activity/mailchimp_activity.info	e012efd7397c878de3da993ffbe2cea9
+M	modules/mailchimp_campaign/mailchimp_campaign.info	4d80bc2cefd7297ffb9192101030ba71
+M	modules/mailchimp_lists/mailchimp_lists.info	c2bcc97e6f1ceb529d5e8a6dd41b4ba7
+M	modules/mailchimp_signup/mailchimp_signup.info	95fc4169cb81b718421d861f7c7574f5
+M	modules/mailchimp_signup/mailchimp_signup.install	8d4a146d99a0c0f23c21ac268eb2d9f2

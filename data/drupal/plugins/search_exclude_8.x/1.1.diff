@@ -1,0 +1,3 @@
+A	CHANGELOG.txt	924f8b78846cbc42353a9090b21d556b
+M	search_exclude.info.yml	a8fac3e00bdad8ccdaeba5e410de3822
+M	src/Plugin/Search/SearchExcludeNodeSearch.php	b9ee90d2eeba378e4770bb9e95d478f7

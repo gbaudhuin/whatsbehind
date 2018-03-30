@@ -1,0 +1,11 @@
+M	CHANGELOG.txt	59c6772f4489da20f45bf433fa62dfb5
+M	README.txt	80d21de067a703a0642aeb601dcf9bfb
+M	panelizer.info	6d4ad58500394553c83dd3232285794a
+M	panelizer.install	33ac0d50b0c157b2b7bc6243c566db5d
+M	panelizer.module	02f11d10c0e21638c85f87947a297208
+M	plugins/entity/PanelizerEntityDefault.class.php	d865b33974b625403b7949dfd8c8bfa4
+M	plugins/search_api/PanelizerSearchApiAlterCallback.class.php	006391d683ae9d4749c02bbcb977cedf
+A	tests/panelizer.exportables.test	31b86189a3f67f72d281a9558733d5a2
+M	tests/panelizer.with_panels_ipe.test	9a6bdc38470589ee691cc28207167739
+A	tests/panelizer_test_exportables.info	0b1651ce3d149c94987e26c8d0dedaf2
+A	tests/panelizer_test_exportables.module	c841b8d2f9400572cd55bb786f12d071

@@ -1,0 +1,9 @@
+M	lib/Drupal/xautoload/Tests/XAutoloadUnitTestCase.php	ca28e7bbc4b890afec73fbca412c49e7
+M	src/DIC/ServiceContainerInterface.php	357d1b2031131a59f7c938c30a044b4b
+M	src/DrupalSystem/DrupalSystem.php	dd96d4143988f78aeed3b67339a48e6f
+M	tests/test_1/xautoload_test_1.info	bb7acedb0b0c55766fe5766035a0778b
+M	tests/test_2/xautoload_test_2.info	ff70cf13a4cf44bbb2cfa2621685b9c2
+M	tests/test_3/xautoload_test_3.info	28b1fb06c9865278b73a0124dbf4d033
+M	tests/test_4/xautoload_test_4.info	d178674a4916c9c412ad2adcf07c9a28
+M	tests/test_5/xautoload_test_5.info	ec4320e54441791b9b47875a77f975ce
+M	xautoload.info	a91176146bee54a6cc3d3f0d3a61c1c1

@@ -1,0 +1,8 @@
+M	link.info	473ea6b0736edefeb1885ec80f754960
+M	link.install	d14b00b98601efcfd5824a1740dacc66
+M	link.module	7b620dccfaa2c867ff09741a6e8b58ba
+D	link.views.inc	
+A	translations/fr.po	6cbe5b11e0042f37f214279f7824494e
+A	views/link.views.inc	b2dbdf905f57128f66bafdd9752b1859
+A	views/link_views_handler_argument_target.inc	c426fcb24b2c82c7c39a8d1cf96b610b
+A	views/link_views_handler_filter_protocol.inc	964197e91e733b13892f462c374787b3

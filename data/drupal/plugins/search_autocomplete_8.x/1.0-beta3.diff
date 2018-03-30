@@ -1,0 +1,34 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+D	README.txt	
+A	config/install/search_autocomplete.autocompletion_configuration.search_block.yml	ab954464b017dee07ae24a29e8639bfc
+A	config/install/search_autocomplete.settings.yml	7a767ccac8d3bac41c9654507d52a9d2
+A	config/install/views.view.nodes_autocomplete_callback.yml	72163c8833b8d0cb54dd06ffd8740a7c
+A	config/schema/search_autocomplete.schema.yml	70d7e2ec45ef382d7f0e45b077c4ab11
+A	css/themes/MAKE YOUR THEME.css_	106dce70edc85dadea817d3981cceae0
+A	css/themes/basic-blue.css	03bb87c86e6e6c22164b21b711a3a12e
+A	css/themes/minimal.css	99c3529e7d2ac212fc8171abf79f7cd7
+A	js/jquery.autocomplete.js	ce8e2783ab7253e89b0f8e3138322d30
+D	search_autocomplete.info	
+A	search_autocomplete.info.yml	64a8bbf2b033eca597ed6491282ad829
+A	search_autocomplete.links.action.yml	febd53f18ef7c2dd61fbb95c0193a389
+A	search_autocomplete.links.menu.yml	eb6bac0e5d7d2e787d46b90ca741a762
+M	search_autocomplete.module	5ead8ad57267028cb0ea49c6746249fc
+A	search_autocomplete.permissions.yml	0cae9ae595eceb19cabcd2df9742932e
+A	search_autocomplete.routing.yml	6e91b91e207b15f0f9fcffba07b249ca
+A	src/AutocompletionConfigurationAccessControlHandler.php	9ce0b60713e1ff27f9cf3e2bde3cb2ec
+A	src/AutocompletionConfigurationInterface.php	2a1ff356db62a7c01fcfb3ad69213fd6
+A	src/Controller/AutocompletionConfigurationListBuilder.php	8b4114b40432cb940a8defef7d78d76e
+A	src/Entity/AutocompletionConfiguration.php	6b12dedba0c968ea203ac580c0c6fd08
+A	src/Form/AutocompletionConfigurationAddForm.php	5de0c53809bab441d373998c92b1a644
+A	src/Form/AutocompletionConfigurationDeleteForm.php	c9efa71ba8ea32f74c604fde6ce12da6
+A	src/Form/AutocompletionConfigurationEditForm.php	e1162e5e7f7271e46b617c27c86cf17f
+A	src/Form/AutocompletionConfigurationFormBase.php	709717b82a589013334345b5ff09dd3c
+A	src/Plugin/views/display/AutocompletionCallback.php	ff538bba173e4740550114abbdb10e3a
+A	src/Plugin/views/row/DataEntityRow.php	7d00b144829643b583495c2e0efbd512
+A	src/Plugin/views/row/DataFieldRow.php	7d7cdcbaee82603dc83e688092555273
+A	src/Plugin/views/style/Serializer.php	40a05cf321d1408afc1b1f67c4135dac
+A	src/Tests/Entity/BasicCRUDConfigEntityTest.php	00b7f53567c5e915ea3b287b356147b5
+A	src/Tests/Entity/DefaultConfigEntityTest.php	951d2a32a8712f1cfb28a73efd67286c
+A	src/Tests/InstallTest.php	9aa96799686a250459b83af3502231e5
+A	src/Tests/SettingsTest.php	91fc46823334a7d9599c188397aa5930
+D	translations/search_autocomplete.pot	

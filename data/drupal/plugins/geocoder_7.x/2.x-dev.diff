@@ -1,0 +1,68 @@
+D	.editorconfig	
+A	README.md	a271e6964b8b497f962fcbe0550e6806
+D	README.txt	
+A	composer.json	8bbd99710fcb2d97dea2de496df86394
+D	geocoder.admin.inc	
+D	geocoder.admin.js	
+D	geocoder.api.php	
+D	geocoder.drush.inc	
+M	geocoder.info	351bd7350545a6b63befeb8ac827e574
+M	geocoder.install	7ba4d958db313dd5c4d4e885a9bd7e3e
+M	geocoder.module	2fd77695a73f67d00ed85ff83e95f36a
+D	geocoder.services.inc	
+A	geocoder.services.yml	298bf767867c727ddaec72f73c38e3ec
+D	geocoder.widget.inc	
+A	modules/geocoder_field/geocoder_field.info	468605d3a1dbc8dfd7fe241d6f7e8de0
+A	modules/geocoder_field/geocoder_field.module	1d8469a184ddde3b69cf08662a220594
+A	modules/geocoder_services/geocoder_services.info	4e63200c0d5a4d5e948ad5faa89f33a4
+A	modules/geocoder_services/geocoder_services.module	3d226929de3629f9ac4a9ebb7c709800
+A	modules/geocoder_services/geocoder_services.services.inc	1e5a977ff20dad508c821bad3a6e68cb
+D	plugins/geocoder_handler/bing.inc	
+D	plugins/geocoder_handler/exif.inc	
+D	plugins/geocoder_handler/google.inc	
+D	plugins/geocoder_handler/gpx.inc	
+D	plugins/geocoder_handler/json.inc	
+D	plugins/geocoder_handler/kml.inc	
+D	plugins/geocoder_handler/latlon.inc	
+D	plugins/geocoder_handler/mapbox.inc	
+D	plugins/geocoder_handler/mapquest_nominatim.inc	
+D	plugins/geocoder_handler/mapzen.inc	
+D	plugins/geocoder_handler/openstreetmap_nominatim.inc	
+D	plugins/geocoder_handler/wkt.inc	
+D	plugins/geocoder_handler/yahoo.inc	
+D	plugins/geocoder_handler/yandex.inc	
+A	src/Annotation/GeocoderPlugin.php	9a45569b9ade598dcdcd0f471d7634c5
+A	src/Config.php	78bc8dd00c129b412fdabe76f41e7be6
+A	src/Geocoder.php	4ac8dae4c39f8e0d08492058eabf448b
+A	src/Geocoder/Dumper/Geometry.php	bfd557473faf4db090cf65e5c96f00b1
+A	src/Geocoder/Provider/File.php	022b4cea88101c089c12e5ca1018f607
+A	src/Plugin/Geocoder/Dumper.php	697471d3765fa42b7076c941a7c1fbf0
+A	src/Plugin/Geocoder/Dumper/GeoJson.php	95e755668d416bd9ff645bd7ba4aaee9
+A	src/Plugin/Geocoder/Dumper/Geometry.php	624d561b32f9737fc03f250b73ab4a40
+A	src/Plugin/Geocoder/Dumper/Gpx.php	612ed5c46b72b9fdfbf26e41228ca64c
+A	src/Plugin/Geocoder/Dumper/Kml.php	e957039957838f43c6cfdee0384af3fa
+A	src/Plugin/Geocoder/Dumper/Wkb.php	c30c0a2ace8cae6e8fab564cc74ed3d6
+A	src/Plugin/Geocoder/Dumper/Wkt.php	c969cd3b868fa194a16c33d8891443d9
+A	src/Plugin/Geocoder/DumperInterface.php	739dfa81bd0c5c8410a38b8445e37fd9
+A	src/Plugin/Geocoder/Provider.php	5bdbe8f059b453fc1b48b8348c49d490
+A	src/Plugin/Geocoder/Provider/ArcGISOnline.php	b27acd6288e6a3d48645518004c3b181
+A	src/Plugin/Geocoder/Provider/BingMaps.php	beb20351baeaad0d4ad460da71707c85
+A	src/Plugin/Geocoder/Provider/File.php	d14e620d6bfb2b9f932aa2f20626408d
+A	src/Plugin/Geocoder/Provider/FreeGeoIp.php	585f49d17fda348b1c0fb0e736147195
+A	src/Plugin/Geocoder/Provider/GeoPlugin.php	ba45b75bc49c7e383b99ce73c47c4138
+A	src/Plugin/Geocoder/Provider/Geoip.php	ac3e5ccdae0187a9005583d7b0af611f
+A	src/Plugin/Geocoder/Provider/Geonames.php	39d38d866aa78994f8716c18401f6adc
+A	src/Plugin/Geocoder/Provider/GoogleMaps.php	32220bf3904b042b755357898e085a0c
+A	src/Plugin/Geocoder/Provider/HostIp.php	294dfa420e2b8a74183e2c6cdcead61c
+A	src/Plugin/Geocoder/Provider/IpInfoDb.php	ea9e83283a6bf12dd3d378e87952ad1d
+A	src/Plugin/Geocoder/Provider/MapQuest.php	66413c1a3f805ffbb5689bd6c0d92530
+A	src/Plugin/Geocoder/Provider/MaxMind.php	49e1bc2992084b152a8d1a0cdc50b902
+A	src/Plugin/Geocoder/Provider/Nominatim.php	9ffc492635d1e147a0b012f36283cd85
+A	src/Plugin/Geocoder/Provider/OpenCage.php	2a9ae24c458bb61cef520d28329a8421
+A	src/Plugin/Geocoder/Provider/OpenStreetMap.php	522896c4c8baab39dcfdd32665c3a720
+A	src/Plugin/Geocoder/Provider/Random.php	0d899d8f104792a2daa82378822b274c
+A	src/Plugin/Geocoder/Provider/TomTom.php	9772a654aec1ac7ab37adf5a662db8be
+A	src/Plugin/Geocoder/Provider/Yandex.php	01d9ec8214cfc49a02569861120241a5
+A	src/Plugin/Geocoder/ProviderInterface.php	9f847eaf20545ef9c461cdae42cf67ae
+A	src/Plugin/GeocoderPlugin.php	31f4eaa5f9f41e5388ac4428631c5cee
+A	src/Plugin/GeocoderPluginInterface.php	62cc151a92892340f85b2cd3da7aabe5

@@ -1,0 +1,17 @@
+M	pathauto.info.yml	962eb5aa6d855bc9d7d9966419f2da20
+M	pathauto.module	1fafd1979902e34fb963797e2efd05b1
+M	src/Entity/PathautoPattern.php	43e4798b7445d17a297d31bdfe46022a
+M	src/Form/PathautoSettingsForm.php	b8b5e214530a554a45e86c60dc4cdd36
+A	src/PathautoFieldItemList.php	e2c1c28a2fcba31c9f04a3db585c64aa
+M	src/PathautoItem.php	8d584cead359718e218c28d2c46ecfc9
+M	src/PathautoState.php	472bd4ada122c44c81b5d5fb061f9897
+M	src/Plugin/pathauto/AliasType/EntityAliasTypeBase.php	b162485d3d1490e3ab69396f5327e532
+M	src/Tests/PathautoLocaleTest.php	fad98ef354dbcb92852b18118d44b459
+M	src/Tests/PathautoNodeWebTest.php	7a36a82fdb79799e70cb4001d75e1841
+M	src/Tests/PathautoSettingsFormWebTest.php	4b0d122140797d05be41322cddc91cec
+M	src/Tests/PathautoUiTest.php	7ce7a83c8aca7f341f14e747255723ba
+A	tests/modules/pathauto_string_id_test/pathauto_string_id_test.info.yml	a1c0d5fdcbc869ada24645608e5062e7
+A	tests/modules/pathauto_string_id_test/src/Entity/PathautoStringIdTest.php	f4db24b3ff813b4012a96b2898b2b48e
+M	tests/modules/pathauto_views_test/pathauto_views_test.info.yml	3f97a332600b66a1fc908ceea8dac468
+A	tests/src/Kernel/PathautoEntityWithStringIdTest.php	b29c44a94a38f0d5f059e33385cc17a8
+M	tests/src/Kernel/PathautoKernelTest.php	44303513587d0c197b7358088e94908c

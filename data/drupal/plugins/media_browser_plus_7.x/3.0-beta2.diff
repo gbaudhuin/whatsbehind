@@ -1,0 +1,14 @@
+M	css/media_browser_plus.views.css	6864460e446d53be0a56d5668c91270d
+D	images/icons/folder-empty.png	
+D	images/icons/folder.png	
+A	images/icons/folder_icons.png	8d8e633e7a9357df9590a7a58dc5d5f4
+M	includes/media_browser_plus.folders.inc	78db695de2ceb0fed64f2071b5a47cec
+M	media_browser_plus.file.inc	a8444aaafd8fd5ef692d6428704c4c60
+M	media_browser_plus.info	45946be803ea96e205890ca3f997438b
+M	media_browser_plus.install	4ee3fd37ba25866ea16319ccf952f1e7
+M	media_browser_plus.module	cb8b5dcbf04375df90d2f21bbc2d5f7b
+M	tests/media_browser_plus.test	575a55098bec5c875e56d96b02798cb7
+M	tests/media_browser_plus_tests.info	ab3b9ebda77f07e9835b41d612cd3a92
+M	views/media-browser-plus-views-view-media-browser.tpl.php	117417d0dc939b7563619704e96c0d30
+M	views/media_browser_plus.views.inc	cbfc4dc838b4eb161f678d7bab78226b
+M	views/media_browser_plus.views_default.inc	2423775e254c7a702246eac9ef5fdfb6

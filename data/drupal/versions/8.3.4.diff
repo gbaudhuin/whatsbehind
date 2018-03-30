@@ -1,0 +1,13 @@
+M	core/CHANGELOG.txt	6c09f9a34092414ae5cbf4828b29ef20
+M	core/lib/Drupal.php	28850449825a099bac869a4e408a5c8b
+M	core/lib/Drupal/Component/Serialization/YamlPecl.php	5f933da0d42ed7245424d323183c8d5a
+A	core/lib/Drupal/Core/Test/ObjectSerialization.php	761f32b2e1c9eae243e4630525401d75
+M	core/modules/config/src/Tests/ConfigSingleImportExportTest.php	a828a489fed3551f59507d0749df7516
+M	core/modules/file/file.module	5e5e0932ea95f258da0f60fc8fdc6446
+M	core/modules/file/src/FileAccessControlHandler.php	b261523edd893c4dc5420a4a203868ad
+M	core/modules/file/src/Tests/FilePrivateTest.php	8d080f8db0323cce81a3186f4d7a0a58
+M	core/modules/file/tests/src/Kernel/AccessTest.php	b29088d5fdaa4339b8865d06b8113a6a
+M	core/modules/file/tests/src/Kernel/FileItemValidationTest.php	979836582259a96031aa0babcc9d9873
+M	core/tests/Drupal/Tests/Component/Serialization/YamlPeclTest.php	2d6686fca319e99666ecea796b858aa4
+M	core/tests/Drupal/Tests/Component/Serialization/YamlSymfonyTest.php	c25cada8c7f0226b9fdb3cf0306078f2
+M	core/tests/Drupal/Tests/Component/Serialization/YamlTest.php	45182b4c953d5c3da762be3d9cea9e12

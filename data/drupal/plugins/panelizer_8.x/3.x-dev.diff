@@ -1,0 +1,9 @@
+M	CHANGELOG.txt	45a91a30c14cb968e4fe83dd6a91620d
+M	js/panels_ipe/views/SaveTabView.js	33a1fd9753825022eb36236a1ed3d717
+M	panelizer.info.yml	3c3beb23b726ce3d3dc3422a3547fbf4
+M	panelizer.module	c04605dca8a52b39e4fa9cf896229aac
+M	panelizer_quickedit/panelizer_quickedit.info.yml	f79fe0ae1abd9c0ec23c0ec5eabeafc0
+M	src/Form/PanelizerWizardGeneralForm.php	3922e09425ad6a7c9878b249194dc57c
+M	src/Tests/PanelizerDefaultsTest.php	bc7c6779b9aa62804825de9e6a03acaa
+M	src/Tests/PanelizerNodeFunctionalTest.php	be0b0ed259be3593ef6d059c789671a4
+M	tests/modules/panelizer_test/panelizer_test.info.yml	ba8700d6710444c685dddb785b953863

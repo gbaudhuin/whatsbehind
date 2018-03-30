@@ -1,0 +1,14 @@
+M	CHANGELOG.txt	e404f830854c4c3ff42583d8f8d8ae61
+M	calendar.inc	811ddd5c0132af194afaa39a897b8eb4
+M	calendar.info	aead8d27fee2f711a03e6d6f15412ac4
+M	calendar.install	a2fa710160a67ef421705f3617e894fc
+M	calendar.module	786360e2c4412b6f678fe977fb6eab85
+M	calendar.views.inc	fa39ecee3b06de435b729d8a6972724f
+M	calendar.views_default.inc	24add042b7b3aa17d4fcbe7481ebd27e
+M	calendar_ical.info	f55aeeecf6c8e805dd38815a624aed0a
+M	calendar_ical.install	09fe83a2443ba173ccaff890060f0931
+M	calendar_ical.module	6f9308cbc218e9a9d90f7604f48fcd76
+A	calendar_ical.views.inc	5ee208470ea22d457575cae18b86ad99
+M	readme.txt	e0877019a2f689f8e4e24bc9374e29cc
+A	theme/calendar-view-ical.tpl.php	b097fe23305bbdd103716dd92855b8b0
+M	theme/theme.inc	59702b148d6167e44ba63621369bb4f8

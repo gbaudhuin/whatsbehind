@@ -1,0 +1,16 @@
+A	README.txt	ebfa2d673ddbf7890c27cb25458381b7
+M	config/install/entity_browser.browser.browse_files.yml	084786c3d58771ce64183eecd3bdef33
+M	config/install/entity_browser.browser.browse_files_modal.yml	47f5a4ec859a7998e1c3c5111fb8e02d
+M	config/install/image.style.file_entity_browser_small.yml	ba84b44bd5f61294c8eefe2da9ae0267
+M	config/install/views.view.file_entity_browser.yml	7718ab25285267f6de9168ca1b594d36
+M	css/file_browser.view.css	cf268f8720fcb9475845efed86d7c98b
+M	file_browser.info.yml	4b224fc7eacc21fd6114f3ae01844a82
+M	file_browser.install	0dbccda4067e9e0da67162de652addff
+M	file_browser.libraries.yml	1ef86e7da9da6f5e3a9fa9810960cbc9
+M	file_browser.module	5f9f8d9a8b247c1b99c6c5c8c313ead1
+A	images/remove.svg	bad0eab5d6f190e0b74464e0929a3bbd
+M	js/file_browser.view.js	f037dcaf2811de846fe0e2f395b9ef9b
+M	modules/file_browser_example/file_browser_example.info.yml	3d66ce80a3d4b162bbece2d9a548dddd
+M	src/Plugin/Block/ImageEmbedBlock.php	d5ce3f8928ebc3fba6dc512bbcc0a7fa
+M	src/Plugin/views/field/FileBrowserPreview.php	88e9d87311ec653f7e25f6896e732e17
+A	tests/src/FunctionalJavascript/FileBrowserTest.php	d0391f133ec5126f3c34da53d54c03ae

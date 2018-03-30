@@ -1,0 +1,13 @@
+M	CHANGELOG.txt	fa9c5304b33cd33f8bfd2f51ac643c9b
+M	README.txt	f173e3998ededfddd0d873e26a1aaedf
+A	custom_formatters.api.php	4374186e153ba08c900065357ba436b1
+M	custom_formatters.info	1291776bc337a70d7983a5a85dc2b149
+M	engines/php.inc	c0d1fc91b52c6ed5ffee76845956a04e
+M	engines/token.inc	c7ac746a3dc0b1cabe1fa82ac10693f3
+M	includes/contextual.inc	d6c6449c13808237133ab9034e1641ca
+M	includes/custom_formatters.inc	e01a787f3b0c2c1ea0406caf81c63158
+M	includes/features.inc	54288450d7d0e36d48c7684dfb3aad9a
+M	includes/field.inc	72dde03833bd796e6afd126bf01207ed
+A	includes/help.inc	7384b405d94c2b5c7323b04c3b0df1c8
+M	includes/token.inc	6f2625336a35276a2c64963c4f830760
+M	plugins/export_ui/custom_formatters.inc	b3ebe69992385a2b1afe6533d0b44560

@@ -1,0 +1,54 @@
+M	CHANGELOG.txt	567c0f9d19c2570f98f404fe36bae156
+M	date/date.info	c3530aef867572b1695b5f14617343e0
+M	date/date.module	27d1826e615a689b0bbe81d5b5e572e8
+M	date/date.theme	8486ef2d4e4b5b737baa7d161f413058
+M	date/date_admin.inc	b3ea9e5e8045cc7f8f530ef28da0b393
+M	date/date_elements.inc	3797bf6776e9e74bf303bb2255720e71
+M	date/date_repeat.inc	4980424edd83661fd257f81813ad3427
+M	date/date_token.inc	cbc3384432a9c338efbc454672aa4c97
+M	date/translations/date.hu.po	12000b9d26708535676d130a189f427f
+M	date_api.info	c8759ffd5657ed4f5c71f631ba24a21b
+M	date_api.module	fdf6551d551822215e5035bad9049ec7
+M	date_api_elements.inc	7a98e06329fef63b8b8f275a57c3e6e7
+M	date_api_ical.inc	f6995bde71e884b3ae7244c163f3b3f8
+M	date_locale/date_locale.info	38d57a885b40d81ddf441f9850b421e5
+M	date_locale/translations/date_locale.hu.po	d1fa52c546073f59c6ded2b2acb9a187
+M	date_php4/date_php4.info	6126f72f211170341ff451870f842ac9
+M	date_php4/translations/date_php4.hu.po	3f9d0156899af9cbae0628e0fc3ea764
+M	date_popup/date_popup.info	7a5e062bdf9bfca5f1e77e167ed0d15d
+M	date_popup/date_popup.install	180eb28b2925614a67853ee03bc53bde
+M	date_popup/date_popup.js	d713700f427f177ceeea63e5582a2361
+M	date_popup/date_popup.module	32c4e31e59d1b66425f7da2ea2b59058
+M	date_popup/themes/datepicker.1.7.css	80fd665b4cdbbd177841b90ffbd1fc3b
+M	date_popup/translations/date_popup.hu.po	07289e08de96ad36dc722c7115dbc520
+M	date_repeat/date_repeat.info	607b51d0b67a619a24e67a2cc2878ab6
+M	date_repeat/date_repeat.module	5ad56fcbaa97ea544c1ef69fb96c256f
+M	date_repeat/date_repeat_calc.inc	fa4a6bd9cc5ec78467a2be9c0f96f6bd
+M	date_repeat/date_repeat_form.inc	858c0bf026b71683b6eb40b46b737807
+M	date_repeat/translations/date_repeat.hu.po	a398dcf0504e0181b582221e5a0e5422
+M	date_timezone/date_timezone.info	116b0031b463b042389eee36f600fb34
+M	date_timezone/translations/date_timezone.hu.po	8f4ff8e0dbae10b8afaf33462bccf029
+M	date_tools/date_tools.info	beefe19bf130ca1fdef727d495576a58
+M	date_tools/translations/date_tools.hu.po	4d84e42c65b162923f0c056d3474b27a
+M	help/date_api.help.ini	c920e6adc0a716cbe05f69392eb18b68
+D	help/ical-import.html	
+D	help/ical-parser.html	
+D	help/images/ical_feed_create.png	
+D	help/images/ical_feed_map.png	
+D	help/images/ical_feed_map2.png	
+D	help/images/ical_feed_type_middle.png	
+D	help/images/ical_feed_type_top.png	
+D	help/images/ical_imported_event_list.png	
+D	help/images/ical_modules.png	
+M	includes/date_api_argument_handler.inc	9b7392de9d74f0c2a52745d04e307504
+M	includes/date_api_fields.inc	b070c53c5230c016ffa71b8ca580c3ec
+M	includes/date_api_filter_handler.inc	27027e11113648ae53859f489e29fb96
+A	tests/date.test	7a31261906bce8f1e04bf9fdd974f39f
+M	tests/date_api.test	4542c80c9bd41d641ae90d0678425fee
+M	tests/date_repeat.test	6647a700eb7113ef109506a25bf8035d
+M	theme/date-vcalendar.tpl.php	83beb70c9f1104d552f189f4ccd8e547
+M	theme/date-vevent.tpl.php	38875b651058fb39750aa822c45b8658
+M	theme/theme.inc	6a4309f558aca27f76d9e9d1145c49a9
+M	translations/general.hu.po	b6294c33dd369461ff017165b9bcfef6
+M	translations/installer.hu.po	92b9476b25f260381a1c51690b72ee1c
+M	translations/root.hu.po	734c141890c58ce0bdb0fe119c693419

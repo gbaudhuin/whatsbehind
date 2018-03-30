@@ -1,0 +1,11 @@
+M	content.info	7f4e4e64081792392e68aab09d13701b
+M	modules/content_copy/content_copy.info	3715466683b1be9434b1b0187599a997
+M	modules/content_multigroup/content_multigroup.info	c429ca7aebd1a077b1c158500b67ad11
+M	modules/content_permissions/content_permissions.info	c89c582eb788bb35533d5acb73a2981e
+M	modules/fieldgroup/fieldgroup.info	1c2e93d2f08c4f52d04a706aba5ffb4f
+M	modules/nodereference/nodereference.info	d59cdca0aa1b6f149d3e0c4dab7279e2
+M	modules/number/number.info	428e0b7247e5531b43afca796945bca7
+M	modules/optionwidgets/optionwidgets.info	f1900a78203e20e80db08dee0e4936a1
+M	modules/text/text.info	e8862f318ef2e09cfef0dad19a87908e
+M	modules/userreference/userreference.info	4a62a61026301d1dab7dad52302e3099
+M	tests/content_test.info	6ca190239d16f242a1c95ca26598406e

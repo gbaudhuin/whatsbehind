@@ -1,0 +1,7 @@
+M	config/schema/media_entity_audio.schema.yml	0ef85f672361e891ea2cad4f74ca85a3
+A	images/icons/audio.png	d14310fa77438402640f91fb6fee0ae5
+D	images/icons/image.png	
+M	media_entity_audio.info.yml	a48988c08f76bf8647e61178f641381b
+M	media_entity_audio.install	b707e17476807f4f2c1742ae7c402166
+D	src/Plugin/MediaEntity/Type/Audio.php	
+A	src/Plugin/media/Source/Audio.php	c4e27b6ec1af9ca9fafa0e267597307f

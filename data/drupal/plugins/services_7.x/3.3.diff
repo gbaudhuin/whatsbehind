@@ -1,0 +1,13 @@
+M	README.txt	9ab9ffa0d0adee1d9287e40f943cee77
+M	auth/services_oauth/services_oauth.info	960abf14a2fd0d33a94823cdf7fdc32b
+M	servers/rest_server/formats/xcal_format.info	0427bca16e9c2f84a0884f768e04cc76
+M	servers/rest_server/includes/RESTServer.inc	e21b9fecc395aa3bf7f339e527b1364d
+M	servers/rest_server/rest_server.api.php	84c7699be16959fa523e34d5a4526400
+M	servers/rest_server/rest_server.info	6510490564ba7a56f4468c8b8aa6f70b
+M	servers/rest_server/rest_server.install	7cb70580eedb0a6ca6f2391909b3baf3
+M	servers/xmlrpc_server/xmlrpc_server.info	5258828d21310584a87e995439c7f278
+M	services.info	12d83287b9da5a6a24c637b0bd9cdf94
+M	services.make	6897ffd8ffa79f87557d55f41db91820
+M	services.module	234f6bb6af64c62b89394e163dcb6a84
+M	tests/services.test	2e653aecefa3e8a35ae6ae08559f11c9
+M	tests/services_test_resource/services_test_resource.info	3bfcedc6082be646c9a7a5226fa5ea06

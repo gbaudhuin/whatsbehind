@@ -1,0 +1,3 @@
+M	antibot.info.yml	2a4bbab5da95d022fd7ebb3123e9fe01
+A	config/schema/antibot.schema.yml	45094517ed97dbb5392b1b2f35555882
+M	src/Form/AntibotSettings.php	5699667f34b3cee2a44a24e5fa4fe01e

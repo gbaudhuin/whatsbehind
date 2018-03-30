@@ -1,0 +1,9 @@
+M	js/base.js	10f39999c319a58e13988263cf20dd0a
+M	js/mini.js	2e2f0ef8527b582961a67fc51447d3b1
+M	js/scrollpane.js	6f1ecfe03fe0df31104d71b7d8a49579
+M	js/slider.js	da7b4fae08a76d67ee8d36f66904f637
+M	pagerer.info.yml	714be27c4db21151371ecae4e072f5ab
+M	pagerer_example/pagerer_example.info.yml	1126c02b6a2b2bc11a2d964ba1dbc084
+M	src/Form/PagererConfigForm.php	bf216c8df59c1d776eb292b7fafde228
+M	src/Plugin/views/pager/Pagerer.php	121eabd3ff4b5a32731446ea2d571cac
+M	src/Tests/PagererTest.php	e6fa33ca4a00137652ab1c74f04df554

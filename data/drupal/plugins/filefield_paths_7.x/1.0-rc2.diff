@@ -1,0 +1,11 @@
+M	CHANGELOG.txt	c05f7513158cf3402f04bae4892b2a50
+M	README.md	af8261323a89640214c1ade7a6d9764c
+M	filefield_paths.info	76001305a396ee45edcb5f7c284dc7f6
+M	filefield_paths.module	96c60d774a932f39d7dbfad9226d0e4d
+M	modules/filefield_paths.inc	d9e5d96375599e75f17452d376ed6e60
+A	tests/filefield_paths.general.test	5ca5d1b140be462abacba91497c385f7
+M	tests/filefield_paths.test	e9c9cb6ff03c6cf842d4381910618025
+A	tests/filefield_paths.text_replace.test	ec861da5637bf7e56d2cb899ee434834
+A	tests/filefield_paths.tokens.test	c53edb7408ee09086e6d729d8bbb90df
+A	tests/filefield_paths.update.test	8b96f9e448245ed950c77be1f3555c3d
+M	tests/filefield_paths_test.info	a7cd4b65c046414ffb2e3b6d5242e7aa

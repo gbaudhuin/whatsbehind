@@ -1,0 +1,15 @@
+M	audiofield.info.yml	3c156d1b9bd06ce1ae7a156bf395e9b6
+M	audiofield.install	09374f6fc9996c2d746e8b44e98892bc
+M	audiofield.module	c89fc8f1cb67803f335379cb6876c6ab
+M	js/audiojs.builder.js	ce3e10da79bff76c78aea7182411d79a
+M	js/jplayer.builder.js	32831144105b57cbdb5ba48482dc24ae
+M	js/mediaelement.builder.js	8177ef62696e6df52d4848ee91494e40
+M	js/soundmanager.builder.js	5a6ff7161c59ea6d2d7c99146cd569ea
+M	js/wordpress.builder.js	72e6121fcf0726b67f756fcde97125c3
+M	src/Plugin/AudioPlayer/AudioJsAudioPlayer.php	8805463d745faf619e31a2488d177840
+M	src/Plugin/AudioPlayer/DefaultMp3Player.php	efdabadbcd12fe1a45dcc03d885c7125
+M	src/Plugin/AudioPlayer/JPlayerAudioPlayer.php	9719dd354354576e39fb001a17d74051
+M	src/Plugin/AudioPlayer/MediaElementAudioPlayer.php	97cbd483d521fb92b05d842cb16e1563
+M	src/Plugin/AudioPlayer/SoundManagerAudioPlayer.php	2dd83212934a8274ebd4a6def46929ac
+M	src/Plugin/AudioPlayer/WordPressAudioPlayer.php	b1e7e9c2d3a6ad9093eeca298a4d5284
+M	src/Plugin/Field/FieldFormatter/AudioFieldFieldFormatter.php	d0c7f3171d107158a739ba58d01d3c50

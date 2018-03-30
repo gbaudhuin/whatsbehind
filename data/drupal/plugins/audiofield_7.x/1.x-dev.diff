@@ -1,0 +1,17 @@
+M	audio.field.inc	1f9bee99bf1ba6892908fd3bfc705ad6
+A	audiofield.admin.inc	730da697574a08cdc5b263556e21a0e6
+M	audiofield.info	275fab08bb96e35fc7a698108f2cae7f
+M	audiofield.install	10aa05a8e197b8a3404e8c2d1995d496
+M	audiofield.module	8c5d07ec3f0ddad87627c13d88e6b724
+M	audiofield.players.inc	1f38567654964b455cc12b1b01025092
+A	js/soundmanager2-360player.builder.js	14b26f9023cf87714eb3fbe6f01e96a6
+A	templates/audiofield--html5.tpl.php	f4b7824a2c800c209a40a31195e59163
+A	templates/audiofield--premiumbeat-mini.tpl.php	ad9a8e3f7276c684f591fe0abc509a03
+A	templates/audiofield--premiumbeat-singletrack.tpl.php	89d0065c0416f874b64dc5d130c2d917
+A	templates/audiofield--premiumbeat-thin.tpl.php	800dea4c98ccc97d5c257e715d51b211
+A	templates/audiofield--soundmanager2-360player.tpl.php	09f693cd47ad796d1f87aa601af65b74
+A	templates/audiofield--soundmanager2-barui.tpl.php	b58b3d0c82ed1d374adb7d2b9f04902c
+A	templates/audiofield--soundmanager2-button.tpl.php	7fcbf3c065fd2742df1296c42cca3223
+A	templates/audiofield--wpaudio.tpl.php	0836b902f0c01c0e19ba731dd718a238
+A	templates/audiofield--xspf-button.tpl.php	c2efe2a77bb436adee476b02233217e6
+A	templates/audiofield--xspf-slim.tpl.php	bac81a6489f414698e4fbaaa588dc005

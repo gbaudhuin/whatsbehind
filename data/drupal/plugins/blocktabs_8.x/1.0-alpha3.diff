@@ -1,0 +1,8 @@
+M	blocktabs.info.yml	620103832fea1a111b79019da167657f
+M	blocktabs.libraries.yml	d042e9881aac6233389a03f391f5681a
+M	blocktabs.module	1490339db197b61a3d2f497946db0b5a
+M	src/Plugin/Block/BlocktabsBlock.php	e1661b8a191d4f002ee99802dea7e8a2
+M	src/Plugin/Tab/BlockContentTab.php	77c9a61f7836e03ee4e38db80ddcd856
+A	src/Plugin/Tab/BlockTab.php	da88dcd40f44e88e0f78fb951da578fe
+M	src/Plugin/Tab/ViewsTab.php	9f04ec37833baf35f19295c181dac439
+A	templates/blocktabs.html.twig	5932e67f5dc240a2681f9a79594ca435

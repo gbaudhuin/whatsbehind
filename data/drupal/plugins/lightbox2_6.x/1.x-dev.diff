@@ -1,0 +1,28 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	css/lightbox-rtl.css	fa4afbb59b1d7c4ea1a641dd6f821b34
+M	css/lightbox.css	d837f5d195aa6027333d0a84484a56d0
+M	css/lightbox_alt.css	8fd2ea88f23a832ec098cc29d40bdcb1
+M	css/lightbox_lite-rtl.css	2bb58bbbd533096710af50c2f95f3601
+M	css/lightbox_lite.css	eb1e397c83f19a244511e18ea4eded70
+M	js/auto_image_handling.js	a95d75da99cca7f6bc9f4fc0e9c39df2
+M	js/lightbox.js	d745b8e12effd742a4d5c1e565cb5bbb
+M	js/lightbox2.js	e34b2f7fcd1137b270a69c0cdc4a3e56
+M	js/lightbox_lite.js	3064d4c00b293f2ebef88bfe8380a6bf
+M	js/lightbox_modal.js	c28377730e74613a773e686bc5e3c67e
+M	js/lightbox_video.js	4dd14ba2241a2e9e593781e969ca5733
+M	lightbox2-insert-image.tpl.php	cda5fc9a4b5ba01bfae9f956ea0a5b21
+M	lightbox2.admin.inc	ec4e4c85d0ace7843748708e1249b5fc
+M	lightbox2.formatter.inc	2b54ffed4bf050291a66bfb26f2559b0
+M	lightbox2.info	6cfbc483540c74efc01dc76817771d83
+M	lightbox2.insert.inc	a717d17d3d1bb7df1f0d4bcc7706a442
+M	lightbox2.install	9982ce1aec38d1a3424740d203619e6d
+M	lightbox2.module	27ee34c635813e9adf04e6f5242803d0
+M	lightbox2.views.inc	86db3f9a82875102b2969d9342d104d7
+M	lightbox2_handler_field_lightbox2.inc	54de543f3947d1f72aa187d9af227abf
+M	page-node-lightbox2.tpl.php	9b6966c333d6112071796718b4918c9a
+D	translations/de.po	
+D	translations/fr.po	
+D	translations/hu.po	
+D	translations/ja.po	
+D	translations/lightbox2-module.pot	
+D	translations/lightbox2.pot	

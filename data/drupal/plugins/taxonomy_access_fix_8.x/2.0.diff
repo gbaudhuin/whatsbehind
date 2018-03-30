@@ -1,0 +1,7 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	src/Routing/RouteSubscriber.php	764e0ffa31a9caf9bf47b9d080400510
+A	src/VocabularyListBuilder.php	3da707cd9fedce5131a085610b138d2d
+A	taxonomy_access_fix.info.yml	a3f24df70bae0c055cc3d25f11144ab7
+A	taxonomy_access_fix.module	ef8caaf407f40fa87311339fb8064d6c
+A	taxonomy_access_fix.permissions.yml	8fa267d105c6d15e4b5ece8163b8191b
+A	taxonomy_access_fix.services.yml	14a59fbb7ac6ee6693a91a29c1a4f2dc

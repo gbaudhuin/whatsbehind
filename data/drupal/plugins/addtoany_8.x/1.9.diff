@@ -1,0 +1,10 @@
+M	README.txt	a5fa2b237e814ba0421392826bba32c9
+A	addtoany.api.php	0a0de08de0b4cd89c3063eeb7205e693
+M	addtoany.info.yml	7c33ed847697d4f9a08c49fd5886d67c
+M	addtoany.install	93f1f97d070a9b673e796213fc817b43
+M	addtoany.module	319b9a36a0ce6749e29776b670c5fe8f
+M	addtoany.views.inc	70bc442446cc2c926f0b7c0848b49a4f
+M	src/Form/AddToAnySettingsForm.php	b3d7ffe211ae17d3eb43c72a0a788020
+M	src/Plugin/Block/AddToAnyBlock.php	d3944f48350411915c1281a0e4f21aa8
+M	src/Plugin/views/field/NodeAddToAnyShare.php	c174f07f6dac0cf8c8f6f39abd254c26
+M	templates/addtoany-standard.html.twig	1d054327c6b259ebf7076c68fbfbd399

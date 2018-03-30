@@ -1,0 +1,5 @@
+M	src/Plugin/Field/FieldFormatter/YouTubeFormatter.php	4d61cc87ae7082deba6e5307b1762998
+M	src/Plugin/Field/FieldFormatter/YouTubeThumbFormatter.php	7fd29a3a78c15e3ab29cd4f111b569b4
+M	src/Plugin/Field/FieldWidget/YouTubeDefaultWidget.php	1cdfdadb6a70bf244e8a2b59c59207c1
+M	youtube.info.yml	dd6a2003ccfe8a67e9a7aabc0316d4a5
+M	youtube.module	a5a88ac0c08be0651adde3d1eaf22624

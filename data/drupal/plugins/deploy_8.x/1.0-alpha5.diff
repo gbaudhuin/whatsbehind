@@ -1,0 +1,9 @@
+M	.travis.yml	0043fcdc54185b0478112fd81e2cba50
+A	.travis/drupal-8.0.x.make.yml	3a4710591f4dc62e35981572a3fcb9d5
+A	.travis/drupal-8.1.x.make.yml	fbda53b2a37b12157712ecb315a7e6a4
+D	.travis/drupal.make.yml	
+M	deploy.info.yml	456374fd637849657bd9102f60b12f02
+M	src/Deploy.php	10ef839f98fa6ec6151862240797c311
+M	tests/modules/deploy_test/deploy_test.info.yml	50b4dccc39132b13fc6cd8517ed84285
+M	tests/modules/deploy_test/deploy_test.install	8a079d70b116ac6c65403ee531159079
+M	tests/src/Unit/DeployUnitTest.php	132d128f88577f31469e4b0c15f74203

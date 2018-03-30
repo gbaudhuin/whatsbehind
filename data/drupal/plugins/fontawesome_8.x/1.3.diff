@@ -1,0 +1,13 @@
+M	README.txt	c692f60b7439ddb3c559b650859b64dc
+A	composer.json	d51a6775cf7f4f5eadac6be7e9023874
+M	config/install/fontawesome.settings.yml	1f5207858ec0e970d23fd0eda879368a
+M	config/schema/fontawesome.schema.yml	647815d03d8373bbd378fa44510c6076
+M	drush/fontawesome.drush.inc	9aa86912182a858cf8a6ba1e6042b2a0
+M	fontawesome.info.yml	08eb95932f5d96b9e3c420aa6d392f56
+M	fontawesome.install	a3b1448d3642d63af3f65c4391cd2e25
+M	fontawesome.libraries.yml	d2421370964a6029d80ce37681e4b376
+A	fontawesome.links.menu.yml	8281b222a737bcbaddf323aeaf709153
+M	fontawesome.module	7b80b19ecd60075220c899eae286e39c
+A	fontawesome.routing.yml	bf05c32df2d10438a763bd499192073d
+A	js/allowEmptyTags.config.js	ea396b5a18614d7ecc2cbd041c25ddaf
+A	src/Form/SettingsForm.php	72239c868fa7f8da1062128ceb69fdf5

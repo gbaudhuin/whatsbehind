@@ -1,0 +1,16 @@
+M	geofield.elements.inc	2203b3d72f66a1119e485b0a229f5196
+M	geofield.feeds.inc	3a15dbb14655547d8590b9a06a52efcd
+M	geofield.info	f5da9ef533724ca629f45adce5241af6
+M	geofield.module	3fb42aaf43a446f4d7a7e22008e238e7
+A	geofield.rules.inc	c4bf0109d07b288102ddf98276864183
+M	modules/geofield_map/geofield_map.info	9f66e0b50e751691ff06ffa517c590a2
+M	modules/geofield_map/geofield_map.module	39ddfbdbb3084b70d650ee04f2d03952
+M	modules/geofield_map/includes/geofield_map_plugin_style_map.inc	87a323fa861b0558e7dde8d58cb1e369
+M	modules/geofield_map/js/geofield_map.js	ced1e4fe6d2d131eb7debb633074b615
+M	tests/geofield_openlayers_test.info	3d783b7fe108cad860363209d3da2b8f
+M	tests/geofield_test.info	b7a2ead7610f065bfdf9f58613a10780
+M	views/geofield.views.inc	de338eb5aeb1826f41246ba3284621ba
+M	views/handlers/geofield_handler_argument_proximity.inc	794e16f9e3231d8604e82dee4c6e57ee
+M	views/handlers/geofield_handler_field.inc	5710ace9e189942c5ecad9c1b236875e
+M	views/handlers/geofield_handler_filter.inc	4ca8e8f7a5a7fc4b82a88b50b69dd6a9
+M	views/handlers/geofield_handler_sort.inc	207287f6f0b3f74cbae2c0997faaca25

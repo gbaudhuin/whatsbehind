@@ -1,0 +1,5 @@
+A	src/Plugin/Field/FieldFormatter/WeightFieldFormatter.php	68bb57248c2e91d2f6982ec9441bd9e6
+M	src/Plugin/Field/FieldType/WeightItem.php	bfca5fed981d134dfc4b9c6154d6ca6d
+M	src/Plugin/Field/FieldWidget/WeightSelectorWidget.php	3e3f56597b049f1920669cacae06c88a
+M	src/Plugin/views/field/WeightSelector.php	14959335a7132aeb4d192593442a7ff1
+M	weight.info.yml	9d5eca0300d212f8937f3cc495c4a43c

@@ -1,0 +1,9 @@
+A	composer.json	a00c278e0a23b05d33ca67bc8223825d
+M	override_node_options.info.yml	75563011a216d0880281e7e81e44738f
+M	override_node_options.module	b7734d12fe2f3142fd040c2c6d795453
+M	override_node_options.permissions.yml	385b0d5ef0d18110eb0a249adf71ac1d
+A	src/Form/OverrideNodeOptionsNodeForm.php	760faaaf269ee14ffc75aed1aadec147
+D	src/OverrideNodeOptionsNodeForm.php	
+D	src/OverrideNodeOptionsPermissions.php	
+A	src/Permission/OverrideNodeOptionsPermissions.php	e6b24ed3fc7585a31abc06e26e991481
+A	src/Tests/OverrideNodeOptionsTest.php	1f2e73fefbbc5f054869f6cb272190a1

@@ -1,0 +1,8 @@
+M	countries.info	92a88c57e84c73bb92ab8375d8be855d
+M	countries.module	307c328f36fcbf696c3985e2e5f0e492
+M	modules/countries_configuration/countries_configuration.info	d7446b3f1666324ef172ba4cf2cc41dc
+M	modules/countries_example/countries_example.info	85cdda09ad091f260828ce16405b8710
+M	modules/countries_i18n/countries_i18n.info	352976a86c91efd90eb1226cd0b5b263
+M	modules/countries_i18n/countries_i18n.module	bb647bf43bf81a429457651d2df40439
+M	views/countries.views.inc	01dd7edd05f1478e155a712069cb9bc8
+D	views/views_handler_filter_countries_continents_list.inc	

@@ -1,0 +1,14 @@
+M	README.txt	63a37e9ace7a1c9d7e5a80cf2773fa75
+A	includes/handlers/shs_handler_filter_entityreference.inc	2c8d7a3616610ff676018f3e56e06f7c
+M	includes/handlers/shs_handler_filter_term_node_tid.inc	6040e6fa10fdd80eee0c316b075f842c
+M	includes/handlers/shs_handler_filter_term_node_tid_depth.inc	6e5cb9bc9f1c947b6fb6da0b69607d41
+M	js/shs.js	789f9258cc459bedad80f4287093aa2e
+A	modules/shs_node_count/shs_node_count.info	766807bd3c1488782f1a5ab592200c02
+A	modules/shs_node_count/shs_node_count.install	e4c1290178a51a1fbdd6dac8d96a4b16
+A	modules/shs_node_count/shs_node_count.module	ba0db8be7d2db5bddadc67e4b43059b1
+A	shs.api.php	88f8404015b9b1f2136c08c96ea6daae
+M	shs.info	342e0aaf3f9dece3225d732d997fec15
+M	shs.module	d85bf2c70472e2b4f044c7d3ecfcdd96
+A	theme/images/arrow.png	3abe3decc37767f4cd754321b0f5cffd
+M	theme/shs.form.css	6b335b1e33276b5a8b2569bc4ca30d0d
+M	theme/shs.formatter.css	1b4f999ba9eed5c59e0b9f6087b2238e

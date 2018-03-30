@@ -1,0 +1,79 @@
+A	.gitignore	d16c86e4b351269da828dda280158325
+M	README.txt	ed5a95acd4f57658fb8e06585d77f628
+M	composer.json	89491ce7af3d22a0be67d8bb9cd11251
+M	config/schema/mailchimp.schema.yml	5f70072628b328f9e443959d507983bc
+A	lib/mailchimp-api-php/.gitignore	d16c86e4b351269da828dda280158325
+A	lib/mailchimp-api-php/README.md	773acb04889eab6db806f044cc749160
+A	lib/mailchimp-api-php/composer.json	881684c7db20e63892de6db2d0cc9bb0
+A	lib/mailchimp-api-php/phpunit.xml	82c845f9b3ab0071a44beed67f6308df
+A	lib/mailchimp-api-php/src/Mailchimp.php	9ed65c0e9dc0d6fb45d9b70478714d50
+A	lib/mailchimp-api-php/src/MailchimpAPIException.php	18c05539b7d34d9b1981a11c87d863ec
+A	lib/mailchimp-api-php/src/MailchimpCampaigns.php	03ff7494ff796ee0416361c14f0b31d0
+A	lib/mailchimp-api-php/src/MailchimpLists.php	52655f2c31d39f1b14138b1b6ee25d66
+A	lib/mailchimp-api-php/src/MailchimpReports.php	9c73a46640d3e370eaa850d1ad743a06
+A	lib/mailchimp-api-php/src/MailchimpTemplates.php	e5405d2f07d9d9b559e9a9403b817bb7
+A	lib/mailchimp-api-php/tests/MailchimpCampaignsTest.php	87544bc17bd1e5e6a51845d35178ae37
+A	lib/mailchimp-api-php/tests/MailchimpListsTest.php	d9f957688c9ac78b71ebd855e9176261
+A	lib/mailchimp-api-php/tests/MailchimpReportsTest.php	35c2e13e1370ec1d75fcec077857f7b7
+A	lib/mailchimp-api-php/tests/MailchimpTemplatesTest.php	114cacc3036d8c3983d5bddfcfc0db2b
+A	lib/mailchimp-api-php/tests/MailchimpTest.php	63ec5109a66f1dd617b1347ad098756e
+A	lib/mailchimp-api-php/tests/src/Client.php	23027331839196150719c997504a4282
+A	lib/mailchimp-api-php/tests/src/Mailchimp.php	c92e76196a569c2950fa99ae2b99000d
+A	lib/mailchimp-api-php/tests/src/MailchimpCampaigns.php	c62a1a9e92a48869ab2cff65aebf83aa
+A	lib/mailchimp-api-php/tests/src/MailchimpLists.php	4ac08adfd3b1ad3c2bfbc5c3b84a8068
+A	lib/mailchimp-api-php/tests/src/MailchimpReports.php	f1f530de39fec25df956e3fb49118cf6
+A	lib/mailchimp-api-php/tests/src/MailchimpTemplates.php	8cefd76bc90c6cef54ee2676c831dfe7
+A	lib/mailchimp-api-php/tests/src/Response.php	192e63d148e17a7e7680e38f22340790
+A	mailchimp.info	fccb5e3367ced9770df91aeb7a866c48
+M	mailchimp.info.yml	824ce9f3a8e6dad868b8998193a5c16e
+M	mailchimp.install	f90efc10c90c559c1d2f20bce932f26e
+M	mailchimp.links.menu.yml	853d8d4af7f64c5f336e9785900ff62d
+A	mailchimp.make.example	bdedb62366484ca95165db367bed2716
+M	mailchimp.module	448bbdcbab094841528db7ee9646e4f2
+M	modules/mailchimp_campaign/mailchimp_campaign.info.yml	5d240a46167ea6eef12a465af37da9e3
+M	modules/mailchimp_campaign/mailchimp_campaign.module	384b7896a9c32f3f9d9ead907f5ebc25
+A	modules/mailchimp_campaign/mailchimp_campaign.services.yml	31f717820e8025dbdb440587f5bb11e3
+M	modules/mailchimp_campaign/src/Controller/MailchimpCampaignController.php	6082ee4deba136a3ddfd4ae0fb3c070f
+M	modules/mailchimp_campaign/src/Entity/MailchimpCampaign.php	c7150d047074f9489dc7efa50631d51c
+M	modules/mailchimp_campaign/src/Entity/MailchimpCampaignViewBuilder.php	95cc967f1b5c99b359b56aa259eb4743
+M	modules/mailchimp_campaign/src/Form/MailchimpCampaignForm.php	07786e6fea9fe6f18ea306bad0cfa458
+M	modules/mailchimp_campaign/src/MailchimpCampaignAccessControlHandler.php	85c8e5dfe7d01c0491150cba575692d2
+A	modules/mailchimp_campaign/src/MailchimpCampaignUninstallValidator.php	c714f65391b11152917f315b5394c53c
+M	modules/mailchimp_campaign/src/Plugin/Filter/FilterMailchimpCampaign.php	7788b906f64a5f05bf92324967604230
+M	modules/mailchimp_campaign/src/Tests/MailchimpCampaignTest.php	377ae82a6478f7e43feb880e79646b5a
+M	modules/mailchimp_campaign/src/Tests/MailchimpCampaignTestBase.php	c1bf08f71e1741ffbb21486996447e48
+M	modules/mailchimp_campaign/tests/modules/mailchimp_campaign_test/mailchimp_campaign_test.info.yml	9e5ce301bffe9094ba27a849b795825d
+D	modules/mailchimp_campaign/tests/modules/mailchimp_campaign_test/src/ConfigOverrider.php	
+D	modules/mailchimp_campaign/tests/modules/mailchimp_campaign_test/src/DrupalMailchimp.php	
+D	modules/mailchimp_campaign/tests/modules/mailchimp_campaign_test/src/DrupalMailchimpCampaigns.php	
+A	modules/mailchimp_campaign/tests/modules/mailchimp_campaign_test/src/MailchimpCampaignConfigOverrider.php	1e2eb8117cbf13e8a443bedd9d33e490
+M	modules/mailchimp_lists/mailchimp_lists.info.yml	8202cdf80e66fdede151616f8e166da9
+M	modules/mailchimp_lists/mailchimp_lists.module	fe4539a989189a5b33b665e991ff40f5
+M	modules/mailchimp_lists/src/Controller/MailchimpListsController.php	b8da728d77de48a2457a0dc8d3e0691c
+M	modules/mailchimp_lists/src/Form/MailchimpListsWebhookSettingsForm.php	a42211774d6262d1ff320cc29c2b55c5
+M	modules/mailchimp_lists/src/Plugin/Field/FieldFormatter/MailchimpListsFieldSubscribeFormatter.php	051a06526b1a7aed4c68b819f209c161
+M	modules/mailchimp_lists/src/Plugin/Field/FieldFormatter/MailchimpListsSubscribeDefaultFormatter.php	4fc69c9d0811e328acafc540408a10d6
+M	modules/mailchimp_lists/src/Plugin/Field/FieldType/MailchimpListsSubscription.php	8448693387db055fadcf05af98cc1f21
+M	modules/mailchimp_lists/src/Plugin/Field/FieldWidget/MailchimpListsSelectWidget.php	aaee5e6453b6498db75b7c55c93ad2ed
+M	modules/mailchimp_lists/src/Tests/MailchimpListsSubscriptionTest.php	9e50e2bec877391e4fd614a280dd3052
+M	modules/mailchimp_lists/src/Tests/MailchimpListsTest.php	30264adb84e8df50315c5bce1c8ee3de
+M	modules/mailchimp_lists/src/Tests/MailchimpListsTestBase.php	576d8eee1a7949397eee2ad092ff5c75
+M	modules/mailchimp_lists/src/Tests/MailchimpListsWebhookTest.php	7a63c257d6e7d46d9af28be5244c67d2
+M	modules/mailchimp_lists/tests/modules/mailchimp_lists_test/mailchimp_lists_test.info.yml	609d7fc8501b83d9b07377572f39aa55
+D	modules/mailchimp_lists/tests/modules/mailchimp_lists_test/src/ConfigOverrider.php	
+D	modules/mailchimp_lists/tests/modules/mailchimp_lists_test/src/DrupalMailchimp.php	
+D	modules/mailchimp_lists/tests/modules/mailchimp_lists_test/src/DrupalMailchimpLists.php	
+A	modules/mailchimp_lists/tests/modules/mailchimp_lists_test/src/MailchimpListsConfigOverrider.php	9e014490d91f88d40c23bec52aa3304c
+M	modules/mailchimp_signup/config/schema/mailchimp_signup.schema.yml	9a2e3beea45e518b6d9bfd5934794575
+M	modules/mailchimp_signup/mailchimp_signup.info.yml	fda32dc79fb84f4c6568c9c4c053b27b
+M	modules/mailchimp_signup/src/Controller/MailchimpSignupListBuilder.php	58bdb8950c552d2d239149cabebe110f
+M	modules/mailchimp_signup/src/Form/MailchimpSignupForm.php	9e8b2fa4e39652c9952f7683090c22e3
+M	modules/mailchimp_signup/src/Form/MailchimpSignupPageForm.php	402221375335b22c6dc697c082a52637
+M	modules/mailchimp_signup/src/Plugin/Derivative/MailchimpSignupSubscribeBlock.php	32beb7d2b4e1cec3cef1282a7a4d9ccb
+D	src/DrupalMailchimp.php	
+M	src/Form/MailchimpAdminSettingsForm.php	75e39e30f134d1e9a1a250358d9e9003
+M	src/Tests/MailchimpAPITest.php	ab71bf203a4479c7b315902c3c826952
+M	src/Tests/MailchimpTestBase.php	e9c94d528ab46b4b2d1748ef9e6d4683
+M	tests/modules/mailchimp_test/mailchimp_test.info.yml	d1f8f8ae65293f9a98c28961172b32bf
+D	tests/modules/mailchimp_test/src/ConfigOverrider.php	
+A	tests/modules/mailchimp_test/src/MailchimpConfigOverrider.php	42a5ef9b5d874694fa460a6baca190c9

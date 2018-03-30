@@ -1,0 +1,4 @@
+M	config/install/views.view.media_entity_browser.yml	6cbef745a596f72a199898e539bdeaaf
+M	config/optional/embed.button.media_entity_embed.yml	9f3323c6ec20551aa205589f5071547b
+M	media_entity_browser.info.yml	a9739c9ce2204a13d75092af65ded0b6
+M	tests/src/FunctionalJavascript/MediaEntityBrowserTest.php	f2d49094e0b721a0cd99ff9bb718b18e

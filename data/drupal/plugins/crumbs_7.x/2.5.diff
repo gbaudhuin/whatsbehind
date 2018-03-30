@@ -1,0 +1,13 @@
+M	crumbs.info	8cb00d737a012da7ebd86fbc788cdee2
+M	crumbs.info.inc	8ff1d5064f30a7807b311078ecfc8c1a
+M	crumbs.module	af63882dbddd8c5e0a00406822241b32
+M	example/crumbs_example.info	8dd47ca738b1772d44f53299ecda377f
+M	labs/crumbs_labs.info	9691f2adbbbf45799238d8a78133b899
+M	lib/BreadcrumbBuilder.php	d9a0a74ed636487ac8180e9dbdb29e49
+A	lib/EntityPlugin/Field/NodeReference.php	2572bc5a63945a1c8a843623407f401d
+A	lib/EntityPlugin/Field/UserReference.php	1d6d1371ecb04ed7ca5114c5099fa695
+M	lib/ParentFinder.php	c83c9b42a45bd08cd7b0116e51de4920
+M	lib/TrailFinder.php	0122a7c9f260f55aa641c1a1dd4ab0bf
+M	plugins/crumbs.menu.inc	683d20f335811da217f7477059d9ec6e
+A	plugins/crumbs.node_reference.inc	cdc5a7cdd52b5a843222e5203dc0bb8d
+A	plugins/crumbs.user_reference.inc	60459f3ae4bbd7d757acfe8e94c70e8a

@@ -1,0 +1,5 @@
+A	js/instagram.js	59c8a3667c49e83d8d11aacc60ba4947
+M	media_entity_instagram.info.yml	94f1e5d386593f00cd7fc513260452f8
+M	media_entity_instagram.libraries.yml	702ad5dc2db1f4d4bbb4ccb4c1a41739
+M	src/Plugin/Field/FieldFormatter/InstagramEmbedFormatter.php	a940a6370a49a761197b2e0ff837b16f
+M	src/Plugin/MediaEntity/Type/Instagram.php	9bfe62e6cf509c591e2a607ae6842d4c

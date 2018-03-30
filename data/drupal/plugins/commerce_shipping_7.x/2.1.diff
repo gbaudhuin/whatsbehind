@@ -1,0 +1,10 @@
+M	commerce_shipping.info	837598601f4b524496938775d37307da
+M	commerce_shipping.install	3ec6ae7a2379c2723cb7f97e1a63c8c8
+D	commerce_shipping.js	
+M	commerce_shipping.module	d360bb58b4e65dcc75c5564111349698
+M	commerce_shipping_ui.info	ba7a126826200f8b19a72faaf854d517
+M	includes/commerce_shipping.checkout_pane.inc	438814a205ff384fa8df34a272738393
+M	includes/commerce_shipping_ui.admin.inc	b7e95f18a957af758ff2a9d1f4f2403e
+A	js/commerce_shipping.js	e3fee9639b7d316869f8a2c8d54139be
+M	modules/commerce_shipping_example.info	e13210bb4bbd160ed934835ab65f71d3
+M	modules/commerce_shipping_example.module	3677bea81db2d2760ecd4169a299d95a

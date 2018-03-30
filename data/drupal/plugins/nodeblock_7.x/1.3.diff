@@ -1,0 +1,7 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	node--nodeblock.tpl.php	eb430741ff9b48f25221f3b4de276d62
+D	node-nodeblock-default.tpl.php	
+M	nodeblock.info	7dcf2f6fdc6bc98ad4606ffb8762d064
+M	nodeblock.install	227a0f5c7463c2f0ccb829a27b724ea3
+M	nodeblock.module	ec74bf46cf40e5c198b1fc3d05b6685a
+A	nodeblock.views.inc	3a6605e48fe1a9f0c7e74f14cd50299a

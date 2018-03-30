@@ -1,0 +1,12 @@
+M	CHANGELOG.txt	a33fa41941fb5e936fbd18c00ffed396
+M	Drupal_Apache_Solr_Service.php	506eba6d3592bff8fc2da2202337b128
+M	apachesolr.api.php	f8cfc811c789701b112f4e66f26bc737
+M	apachesolr.index.inc	91d5599f0ddf1796eb96ee100effa56f
+M	apachesolr.info	ba3e25d25f864403e00e98cc333d5902
+M	apachesolr.install	89a30e4d5c5900a393cc9e5872ffd7f5
+M	apachesolr.module	7edd9dad08a27f9bdd8649fce5070e6e
+M	apachesolr_access/apachesolr_access.info	bde78cf9baa786e1cbc1bbc1d510385c
+M	apachesolr_search.admin.inc	e7684d6d336eeddefc294f0449305a28
+M	apachesolr_search.info	449773e912e6fdb138f48abdee7131e1
+M	apachesolr_search.module	cc8e45b296840ad35d58605cb472aad3
+M	tests/apachesolr_test/apachesolr_test.info	c4e797fbd9fdfc7462ac6b5423e2848c

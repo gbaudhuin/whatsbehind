@@ -1,0 +1,6 @@
+M	src/Routing/RouteSubscriber.php	21a4a2e14b88fbb02a77c068a1fcb449
+A	src/TaxonomyAccessFixPermissions.php	24506d2f2de72fe535d4bd6c3fda825d
+M	src/VocabularyListBuilder.php	980c577b05cadb9a04b371db6778e78d
+M	taxonomy_access_fix.info.yml	c6857976923bdfc0a5d0adb1f0b92be3
+M	taxonomy_access_fix.module	e55ed391af7ca2ecc158a61203087acc
+M	taxonomy_access_fix.permissions.yml	921da51ccb50feee39d9dfb62125991d

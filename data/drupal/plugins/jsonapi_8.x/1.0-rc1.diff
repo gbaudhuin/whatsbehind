@@ -1,0 +1,11 @@
+M	jsonapi.info.yml	d5ab21b125ecd937a2bd924ed7273d3d
+M	jsonapi.module	78e20f2acc211760a1379f05d64a742c
+M	src/Controller/EntityResource.php	400e7d943cda78ac6365f2a7066de501
+M	src/Controller/EntryPoint.php	c6882afa7dbf1d5dcddc68e87a34d934
+M	src/Controller/RequestHandler.php	1f2359ef476961e0cbb37127816e6d12
+M	src/Normalizer/JsonApiDocumentTopLevelNormalizer.php	09dba1b844f642f80664e507de688f67
+M	src/Normalizer/Value/NullFieldNormalizerValue.php	d17436bba6b918cc98525085665834e8
+M	src/ResourceType/ResourceTypeRepository.php	437a294e516aa9eb21f0bc91f2eb60f5
+M	tests/src/Kernel/Controller/EntityResourceTest.php	beb9c437456b58355861308c1ef05fae
+M	tests/src/Kernel/Normalizer/JsonApiDocumentTopLevelNormalizerTest.php	71190497abff8d097d1725cb482114d2
+M	tests/src/Unit/Controller/RequestHandlerTest.php	f51c357d734ad6e6a1a66c56c19683f7

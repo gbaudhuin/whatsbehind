@@ -1,0 +1,15 @@
+M	.travis.yml	06af9b1c812d8cee7676baecaacbdc05
+D	.travis/drupal-8.2.x.make.yml	
+M	replication.drush.inc	3b350aa664fad273c049cb36acdaee41
+M	replication.info.yml	dbe319af88f2d0999982644946ef353c
+M	replication.services.yml	568036b4a19c269cd7343bedada3f99a
+M	src/Changes/Changes.php	0e6db0722f18bf3658c6b310c7bf1fd5
+M	src/Changes/ChangesInterface.php	4fa1fee418b565e70c1045530788fe98
+M	src/Normalizer/ContentEntityNormalizer.php	e8cd701846bb0c371f5280b0c7fd7d8d
+A	src/Normalizer/MetatagFieldItemNormalizer.php	97ee644fabb77f315d35cda2d896e1c8
+A	src/Normalizer/MetatagNormalizer.php	bafeec375cebc8f9a419862fe95c5b88
+A	src/Normalizer/PathFieldItemListNormalizer.php	728965e43351112a39cf46831ce69735
+D	src/Normalizer/TextItemNormalizer.php	
+M	tests/modules/replication_alter_test/replication_alter_test.info.yml	2a164fb3d697a8862275f84592eb50de
+M	tests/src/Kernel/Normalizer/ContentEntityNormalizerTest.php	176ebf9367edca6d1daa9800bef66177
+M	tests/src/Kernel/Normalizer/LinkItemNormalizerTest.php	c6b56e14cf8bfdd677e1d0f4794eb540

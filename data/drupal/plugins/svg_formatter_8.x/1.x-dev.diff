@@ -1,0 +1,4 @@
+M	README.md	01cbc8b1007bfe695a51e4d5fa9df8de
+M	config/schema/svg_formatter.schema.yml	19fe40cf6c3c300ef2bea183e4b0b69c
+M	src/Plugin/Field/FieldFormatter/SvgFormatter.php	766804b311cd31dd2fb07d3ee3c74f32
+M	svg_formatter.info.yml	df145d7eebf5540f96d675de2c07b41d

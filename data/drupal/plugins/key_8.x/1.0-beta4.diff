@@ -1,0 +1,9 @@
+M	key.info.yml	4fa5123a6a8bd30ea982cd60636d9387
+M	readme.md	397424d8ea12b2dcc1a977a382a40ed0
+M	src/Entity/Key.php	0f915ac4685e998456aa5968fce96240
+M	src/Form/KeyEditForm.php	6b2ad480f650c465be4d8227ae58d136
+M	src/Plugin/KeyProvider/ConfigKeyProvider.php	b96fcb8cbabd5cd2c42db4d5f83d0c40
+M	src/Plugin/KeyProvider/FileKeyProvider.php	24a26b9cd8cd13449905c9dbb89e2119
+A	src/Plugin/KeyType/AuthenticationKeyType.php	2a5d65e8b225c640a4eda460acf42090
+D	src/Plugin/KeyType/BasicKeyType.php	
+M	tests/src/Unit/Entity/KeyEntityTest.php	1b6ef2c4449811d1921fd1ab7f94f602

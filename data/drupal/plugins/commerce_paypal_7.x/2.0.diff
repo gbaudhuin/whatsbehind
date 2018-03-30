@@ -1,0 +1,13 @@
+M	commerce_paypal.info	b7b1732a9435ed90dedcd01d724942ca
+M	commerce_paypal.module	e6ed0efbbd6323563b22ea5cdcd8d9c5
+M	modules/ec/commerce_paypal_ec.info	86cb4799f3677bcc08ab185fee0bd968
+M	modules/ec/commerce_paypal_ec.module	53d3a4dc64e1c98f3a6b5a79e2930f61
+M	modules/ec/includes/commerce_paypal_ec.admin.inc	df747954651276b99d620c22471f9d1d
+M	modules/payflow/commerce_payflow.info	32d90ee79fb231b9bbe33f19aafab72e
+M	modules/payflow/commerce_payflow.module	9b943668f2245109a6167277bd862836
+M	modules/payflow/includes/commerce_payflow.admin.inc	b3049c8e6e61dc007bd9659b8b106be8
+M	modules/wpp/commerce_paypal_wpp.info	d1281ebed18b9095a4121f2e10770d1f
+M	modules/wpp/commerce_paypal_wpp.module	2130195c83f7633ab2ec595d4fc630aa
+M	modules/wpp/includes/commerce_paypal_wpp.admin.inc	dbfcff6a5fa6d9fa0825f20625e4bd26
+M	modules/wps/commerce_paypal_wps.info	c4239c79826e65cf467c91f80a83cb91
+M	modules/wps/commerce_paypal_wps.module	ee6c219ac89880f0d6edf2d83841684d

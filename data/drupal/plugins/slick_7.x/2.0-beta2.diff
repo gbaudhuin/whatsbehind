@@ -1,0 +1,121 @@
+M	.gitignore	fcc642312e5670f77fc59d7aeb49c35f
+D	.ruby-version	
+D	ASPECT-RATIO.txt	
+M	CHANGELOG.txt	4566ca150dbb95b4486d0a5591f61497
+D	Gemfile	
+D	Gemfile.lock	
+M	README.txt	3bedb8673b6d0786a79432896c99a2ca
+D	config.rb	
+M	css/components/slick.media.css	0afb2cd3282ac5db4dc5dc5daaf58f7a
+M	css/theme/slick.theme--fullscreen.css	046bac60d01e4cd3ee66c34d8e6f4b0a
+M	css/theme/slick.theme--fullwidth.css	0bd97bc06652f84ac24fe4934b24666c
+M	css/theme/slick.theme.css	a905ee88962c1947b9863ebe53c07ebd
+M	includes/slick.admin.inc	adf47085a6c5f15e3e68efd3c9810a55
+D	includes/slick.elements.inc	
+M	includes/slick.extras.inc	4e78f72c9eeb99812af142d33b15bba9
+M	js/slick.load.js	8e5dc28915ffec5f36de3db6249fed83
+M	js/slick.load.min.js	f00bfdab28a21aaa9bb883723f14f66d
+D	plugins/export_ui/SlickOptionsetUi.class.php	
+M	plugins/export_ui/slick_optionset_ui.inc	44a5111dd7bc2bca65ff19e7fe8d6c73
+D	sass/_globals.scss	
+D	sass/abstractions/_css3.scss	
+D	sass/abstractions/_element-hoverable.scss	
+D	sass/abstractions/_grid.scss	
+D	sass/abstractions/_shapes.scss	
+D	sass/abstractions/_typography.scss	
+D	sass/abstractions/_unit.scss	
+D	sass/abstractions/_visibility.scss	
+D	sass/admin/components/_admin-typography.scss	
+D	sass/admin/components/_admin-visibility.scss	
+D	sass/admin/components/_admin.box-sizing.scss	
+D	sass/admin/components/_buttons.scss	
+D	sass/admin/components/_checkboxes.scss	
+D	sass/admin/components/_clearfix.scss	
+D	sass/admin/components/_fieldset.scss	
+D	sass/admin/components/_form-item-tooltip.scss	
+D	sass/admin/components/_form-item.scss	
+D	sass/admin/components/_forms.scss	
+D	sass/admin/components/_header.scss	
+D	sass/admin/components/_misc.scss	
+D	sass/admin/components/_radios.scss	
+D	sass/admin/components/_shiny-overrides.scss	
+D	sass/admin/components/_table.scss	
+D	sass/admin/slick.admin--ui--field.scss	
+D	sass/admin/slick.admin--ui.scss	
+D	sass/admin/slick.admin--vertical-tabs.scss	
+D	sass/base/_base.scss	
+D	sass/components/slick.colorbox.scss	
+D	sass/components/slick.dots--thumbnail.scss	
+D	sass/components/slick.lightbox.scss	
+D	sass/components/slick.media.scss	
+D	sass/theme/components/_arrows.scss	
+D	sass/theme/components/_edit-links.scss	
+D	sass/theme/components/_slick-center.scss	
+D	sass/theme/components/_thumbnail.scss	
+D	sass/theme/components/_z-overrides.scss	
+D	sass/theme/components/_z-responsive.scss	
+D	sass/theme/slick.theme--3d-back.scss	
+D	sass/theme/slick.theme--asnavfor.scss	
+D	sass/theme/slick.theme--boxed--carousel.scss	
+D	sass/theme/slick.theme--boxed.scss	
+D	sass/theme/slick.theme--classic.scss	
+D	sass/theme/slick.theme--default.scss	
+D	sass/theme/slick.theme--fullscreen.scss	
+D	sass/theme/slick.theme--fullwidth.scss	
+D	sass/theme/slick.theme--grid.scss	
+D	sass/theme/slick.theme--rounded.scss	
+D	sass/theme/slick.theme--split.scss	
+D	sass/theme/slick.theme.scss	
+D	sass/variables/_colors.scss	
+D	sass/variables/_css3.scss	
+D	sass/variables/_grid.scss	
+D	sass/variables/_misc.scss	
+D	sass/variables/_typography.scss	
+D	sass/vendors/foundation/_functions.scss	
+D	sass/vendors/foundation/_settings.scss	
+D	sass/vendors/foundation/components/_block-grid.scss	
+D	sass/vendors/foundation/components/_global.scss	
+D	sass/vendors/foundation/components/_grid.scss	
+M	slick.api.php	a48b5c05c24a8bd0b1860149f66e4c8d
+M	slick.info	43eabb5281c8e155ec8fcdeab1e43647
+M	slick.install	ebd332e70bfb897f173ed1652f7b2a81
+M	slick.make	622133f5b2faa9d8b7608fab1d789cb7
+M	slick.module	a7ed62e06896f90ce0b5906990376195
+M	slick.slick.inc	82d9e735f2f7aa18427b2a04cc9771b5
+M	slick.slick_default_preset.inc	1b6ec8ec89f7e078a86d5a56efb345cf
+D	slick_devel/includes/slick_devel.admin.inc	
+D	slick_devel/js/slick.load.devel.js	
+D	slick_devel/slick_devel.info	
+D	slick_devel/slick_devel.install	
+D	slick_devel/slick_devel.module	
+D	slick_example/README.txt	
+D	slick_example/css/slick.theme--x-testimonial.css	
+D	slick_example/js/slick_example.asnavfor.js	
+D	slick_example/slick_example.info	
+D	slick_example/slick_example.module	
+D	slick_example/slick_example.slick_default_preset.inc	
+D	slick_example/slick_example.views_default.inc	
+M	slick_fields/includes/slick_fields.formatters.admin.inc	b23a573de923585dea643ae7b95b4742
+M	slick_fields/includes/slick_fields.formatters.field_collection.inc	01c5f88506aaecbc33e6d02d75649d6f
+M	slick_fields/includes/slick_fields.formatters.global.inc	10890c379bce9c36962e373cd60af2f1
+M	slick_fields/includes/slick_fields.formatters.image.inc	c63ae0967b7592c0f352fbc403b27023
+M	slick_fields/includes/slick_fields.formatters.media.inc	1bf432cecd14421f7c1813bf89ab80bc
+M	slick_fields/slick_fields.info	f2707dd578718752cc1c4a2db4cc98a4
+M	slick_fields/slick_fields.module	1022895077f275fef3dee65945c6ff4b
+A	slick_ui/plugins/export_ui/SlickUi.class.php	eb771ab8c0722acbd46ccee3e500d578
+A	slick_ui/plugins/export_ui/slick_ui.inc	2a898249d9ee7085ebb866a46f4f1f28
+A	slick_ui/slick_ui.info	5000e7c563d6561d06b1b583f64a40bb
+A	slick_ui/slick_ui.module	5071f771312b0a11bf816ace3f75043f
+D	slick_views/README.txt	
+D	slick_views/slick_views.info	
+D	slick_views/slick_views.module	
+D	slick_views/slick_views.views.inc	
+D	slick_views/slick_views_plugin_style_slick.inc	
+D	slick_views/templates/slick-views.tpl.php	
+D	slick_views/templates/slick_views.theme.inc	
+M	templates/slick-item.tpl.php	ba83e0f1c4ffe3dae65edfb2903dc031
+M	templates/slick.theme.inc	bd8b446730a0053e6a09c17fa21bffa7
+M	templates/slick.tpl.php	b7bad8d4d632b0112638396c309c72ff
+M	tests/slick.test	9a7d3a27e63376f383da8571a4e27009
+D	tests/slick_test.info	
+D	tests/slick_test.module	

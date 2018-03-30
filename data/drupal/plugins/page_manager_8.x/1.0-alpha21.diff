@@ -1,0 +1,4 @@
+M	page_manager.info.yml	d123984400bfc86cd0c12d22e84df24e
+M	src/Entity/PageVariant.php	a6204acb316442186b7dfb39a3ac863f
+M	tests/modules/page_manager_test/page_manager_test.info.yml	ea298231f048ba61505399497f085267
+M	tests/src/Unit/PageBlockDisplayVariantTest.php	93aaa52a408b411af71015810cf07b96

@@ -1,0 +1,7 @@
+M	README.txt	45215a8bc833d065b0c863ba85e26b2f
+M	src/Form/AddRedirect.php	9bc40ab7240f21e9bbf40c3af6332912
+M	src/Form/DeleteRedirect.php	9c7684ffc75a2085b64b1111273702dc
+M	src/Form/EditRedirect.php	311b9fc9966d0d9cf8aa32119d83a2cb
+M	src/Form/ListRedirect.php	d5fe1693b82b430cc549f99aac8b04bb
+M	url_redirect.info.yml	cc6b5bfd01461399ea7f8fc144edf0f0
+M	url_redirect.module	63430a81249edecf3fdb856431b02fd6

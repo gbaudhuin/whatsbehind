@@ -1,0 +1,5 @@
+M	CHANGELOG.txt	d3925c247a0370dd23fd335d90720042
+M	README.txt	175a89935d20ce8e4b4f096d8ca73ff1
+M	config/schema/linkicon.schema.yml	f7f0928f447136ec39354eca1fd73d2e
+M	linkicon.info.yml	f0ebb05d9ec013e8dac7d7d3b3a22b3d
+M	src/Plugin/Field/FieldFormatter/LinkIconFormatter.php	7a787dacb33009c58d5834d15753ff48

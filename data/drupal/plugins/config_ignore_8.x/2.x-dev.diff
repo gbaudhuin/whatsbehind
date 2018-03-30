@@ -1,0 +1,3 @@
+M	config_ignore.info.yml	c2edfc8e50d4f46cb9bd5b369646c4ec
+M	src/Plugin/ConfigFilter/IgnoreFilter.php	983346a745859ae9245ece2003b06a11
+M	tests/config_ignore_hook_test/config_ignore_hook_test.info.yml	dafc7d6c6bf007e182f5384248b3e1a9

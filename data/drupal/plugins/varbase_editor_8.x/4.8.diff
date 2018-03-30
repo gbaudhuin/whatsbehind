@@ -1,0 +1,10 @@
+A	config/install/ace_editor.settings.yml	0634ca547573c1e2bab5731c4cf2e6f1
+A	config/install/editor.editor.code_html.yml	8733573612eb8232717aad88076e2920
+M	config/install/editor.editor.restricted_html.yml	95707382092d17767b71598ed15693de
+M	config/install/filter.format.basic_html.yml	1d0ba02cf319aead1dff6cba650462d6
+A	config/install/filter.format.code_html.yml	bf812c0ae621f2de2ac4d9702b7be285
+M	config/install/filter.format.full_html.yml	0ace3281e61821c1bfd30fc691207aef
+M	config/install/filter.format.plain_text.yml	88a6b96fdceca2cd1b87526dce910d0b
+M	config/install/filter.format.restricted_html.yml	829ee457adea0e98b1a7287dfe16c129
+M	varbase_editor.info.yml	7f325fd0ee31b3aabad3cd96ecde055d
+A	varbase_editor.install	f438a134459a7d81e4145225d9194c46

@@ -1,0 +1,5 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	better_normalizers.info.yml	ce5dbc69eaeffaa2dae42a319c142474
+A	src/BetterNormalizersServiceProvider.php	5900a5e437f1c646db90c355c0cb8b6f
+A	src/Normalizer/FileEntityNormalizer.php	1ad368291765a1df095e3aeda046a114
+A	src/Normalizer/FileItemNormalizer.php	5992db9a7c3c17c745564a068d3a9c05

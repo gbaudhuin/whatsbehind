@@ -1,0 +1,13 @@
+M	CHANGELOG.txt	789b556844caa9e00ac2b883aec6e878
+M	includes/slick.elements.inc	eebdad92691d52be64f911e1d675a829
+M	js/slick.load.js	fe6259036d56199401cf793883538a48
+M	js/slick.load.min.js	db434a5b9a6b970d7af69a8c463eea6f
+M	plugins/export_ui/SlickOptionsetUi.class.php	1779047f3f3bc834b94d4bcd4d955978
+M	slick.info	45cc6d7635e30d39a4c1cf174da26b71
+M	slick_devel/js/slick.load.devel.js	fe6259036d56199401cf793883538a48
+M	slick_devel/slick_devel.info	5d32df1d54db365df9586ad9c804cc98
+M	slick_example/slick_example.info	860d353f7f930f59dcde87acf1d8eed5
+M	slick_fields/slick_fields.info	d34a5fbeb5b51ba43da3d0e6b3366e9b
+M	slick_views/slick_views.info	868daeb0ff856125b1cd4b9248b8d6a2
+M	slick_views/slick_views_plugin_style_slick.inc	d5c53b5a67c8316d6976a3f4a21c00de
+M	tests/slick_test.info	29f365588808402e244a2b3d2eaa78f8

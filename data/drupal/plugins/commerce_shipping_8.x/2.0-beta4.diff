@@ -1,0 +1,20 @@
+M	commerce_shipping.info.yml	6d4e6de3bc1ed74f0b211d245cc43bc8
+M	commerce_shipping.install	f10a8de53744c8c80a0ef26338b7d577
+M	commerce_shipping.links.menu.yml	bd721aa0e5a569a1fd2fd3db01e81ff7
+M	commerce_shipping.links.task.yml	7429d6ef8b89bdc3a2a153ded7f9d139
+A	commerce_shipping.post_update.php	bc9fff5180298a10702bdcbf345aef2a
+M	commerce_shipping.routing.yml	d40072f6f4b0982b9a629362a015de8f
+M	config/schema/commerce_shipping.schema.yml	4a7da01fc6c77601eeccbe6df6bd30d8
+M	src/Entity/Shipment.php	cc5e1df19e3d434e95157bbabe0a1c62
+M	src/Entity/ShippingMethod.php	7d65aa9901504ad203bb47a2f557814a
+M	src/Entity/ShippingMethodInterface.php	c30fe15b2b1b0699fccee22077985d9b
+A	src/Plugin/Commerce/Condition/ShipmentAddress.php	096dac2ae3c962476d0f1c2cc79975ec
+A	src/Plugin/Commerce/Condition/ShipmentWeight.php	d5ae1bd2365b4e42fc999977e494a928
+A	src/ShipmentStorage.php	01b9b9936abd981d200d41cb62ae74fc
+A	src/ShipmentStorageInterface.php	2df91c691a4b393ec1cc217c8aeb7895
+D	src/ShippingMethodPluginCollection.php	
+M	src/ShippingMethodStorage.php	42985712af7ff20e280946c75b082b22
+M	tests/modules/commerce_shipping_test/commerce_shipping_test.info.yml	4f1fe864216bddc9a84fab92e7fe00b1
+A	tests/src/Kernel/ShippingMethodStorageTest.php	1f39ee6953f6d69d4a78c021c0d00a3e
+A	tests/src/Unit/Plugin/Commerce/Condition/ShipmentAddressTest.php	c36d44a52c8388360eaf2a1a71b9ec83
+A	tests/src/Unit/Plugin/Commerce/Condition/ShipmentWeightTest.php	f71b4f21917363c10b2f178ee3fd2987

@@ -1,0 +1,4 @@
+M	config_pages.info.yml	b7c4ac18edd3e85d0e68223b456ae245
+M	config_pages.services.yml	ae7fc24c833ae5f2075a2bd5e0714deb
+D	src/ConfigPagesNormalizer.php	
+M	src/Entity/ConfigPages.php	743cfa8a3fffd26474ad0181284881c7

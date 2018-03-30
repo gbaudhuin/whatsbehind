@@ -1,0 +1,10 @@
+M	README.txt	1d8c484e5aa3ba6e68bcf7fbde3f3aed
+M	views/plugins/views_plugin_style_json.inc	c43102b6ff66bf00c80695e81baa48a9
+A	views/theme/views-views-json-style-simple-object.tpl.php	e0bd33f34d2cb3467b5977735b34c0ff
+M	views/theme/views-views-json-style-simple.tpl.php	2f8d90740d61edf46369c8379b283073
+M	views/theme/views_views_json_style.theme.inc	bae9898991a4fdd0b85908b986a03462
+M	views/views_json.views.inc	3eb43b8084bdc56442bc65f8d81e7258
+M	views_json.info	50b41eb4fa0ef6c093fa67632b37a1e8
+M	views_rdf.info	181cfae991ecf6562bc0206ad6009bc2
+M	views_xhtml.info	d5b92ac6473f0b0a26cd7b166778157b
+M	views_xml.info	5bf9170f73e392b0ebbc1035d77ea2ee

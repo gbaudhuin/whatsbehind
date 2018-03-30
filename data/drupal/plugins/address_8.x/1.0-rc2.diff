@@ -1,0 +1,16 @@
+M	.travis-before-script.sh	916c71f312206422a64d9bc7e95805e8
+M	.travis.yml	eedc5d4d26062eb9c2b689952fcc1416
+M	address.info.yml	d090ded189a7c1140d6c1877eaedeb71
+M	address.services.yml	b8d606b5a0fef355011173598a811748
+M	src/Event/AddressEvents.php	8ebc508e172c87eb591b239f8aa0dee5
+A	src/Event/SubdivisionsEvent.php	66706d9cbc65609701ffe0bea84b4730
+A	src/Plugin/migrate/cckfield/AddressField.php	d15a801de65b810fb4afae85ef7c98e9
+A	src/Plugin/migrate/process/AddressField.php	a5c907ede5217e06fec6d912f71511f3
+M	src/Plugin/views/field/Subdivision.php	ce41b19e7cd908b060337dc33968a3c5
+M	src/Repository/SubdivisionRepository.php	868eb7bfd0edb625e99eb4e9100b2ce8
+D	src/Tests/AddressDefaultWidgetTest.php	
+M	tests/modules/address_test/address_test.info.yml	dbf19533b0dbcb854dfdf212c9cae611
+M	tests/modules/address_test/address_test.services.yml	019987087d0a342023396bfbfb32a386
+M	tests/modules/address_test/src/EventSubscriber/AddressTestEventSubscriber.php	2ee17b53663909154e70ca1669e6232d
+A	tests/modules/address_test/src/EventSubscriber/GreatBritainEventSubscriber.php	98e4d28a7f2dbdd595176f267207cc02
+A	tests/src/FunctionalJavascript/AddressDefaultWidgetTest.php	9b1a935083146a5ec1de695faf5723dc

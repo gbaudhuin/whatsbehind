@@ -1,0 +1,5 @@
+A	ctools/relationships/field_collection_from_field.inc	3fbe74b4a5f93a5072e6acb6821277a2
+M	field_collection.info	188dfe2c1113940ae3f90e83cf22fdef
+M	field_collection.install	f68467958bdd4aefaaa150a84b6e8c01
+A	field_collection.migrate.inc	cba3a6459ccc8a6aa3dd15320d799ef4
+M	field_collection.module	c2fbfdfffe7d4c85babdd4f040fd334c

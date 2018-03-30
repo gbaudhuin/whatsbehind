@@ -1,0 +1,8 @@
+M	CHANGELOG.txt	47a356b497c7fcdc6b699ff46be56f87
+M	README.txt	6dd85e1deba59b7c92edcb438e6de5a4
+A	disqus-node-form.js	5f6a61aabb07f0f2e5de181a9a5a5d95
+M	disqus.admin.inc	887bb67c00fd3586abfbc415c65c0df9
+M	disqus.info	712e81ae3deba53a06c43aaf3cc5713a
+M	disqus.module	932dbafca3cc6e04f5f501c963844e41
+A	disqus_ds/disqus_ds.info	bf7e9406cb2089c8690007b9bdbb6302
+A	disqus_ds/disqus_ds.module	3dfd46671a64cbba8fa76a119bf2fd13

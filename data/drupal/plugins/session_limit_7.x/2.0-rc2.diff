@@ -1,0 +1,5 @@
+A	session_limit.api.php	2b8ddbcf27adb1b0d9e6a72e45279c87
+M	session_limit.info	fa69f4a96faefc143be28c2cd35961fd
+M	session_limit.install	a130c7bd9b19497bf6411873209c1188
+M	session_limit.module	93fce1d0faaf15bb4e0d22133d720ef9
+M	tests/session_limit.test	61c403293f5616aa873538a06592a579

@@ -1,0 +1,10 @@
+M	README.txt	e0435e55232fd14968ef360b2ed18256
+A	l10n_client.admin.inc	24e3f8b490ae14041e40fee8e4b51f82
+M	l10n_client.css	6a38f9b907ce6c4bb5b669eb67409509
+M	l10n_client.info	d60a5ddf49fd00c08308f06a22b7e7e2
+M	l10n_client.install	3060103f62b06beed5843b844623b75f
+M	l10n_client.js	9de719c569ec5c35bbe50d157418516f
+M	l10n_client.module	7840fd5adab0ea8917d9bc5936d2d696
+A	l10n_client.test	bca4f79b2b52f46a9982def37009f7c2
+A	l10n_client_test/l10n_client_test.info	c22465ada0cc313bc69b40be7bdbd093
+A	l10n_client_test/l10n_client_test.module	60ffc79f29cf5d5461369b1ae3f1630e

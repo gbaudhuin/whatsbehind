@@ -1,0 +1,33 @@
+A	CHANGELOG.txt	bbb345af408d278b34ed4337418aac1c
+D	README.md	
+A	README.txt	a6bd47d31ef8a8eb4d6e61799a8873c7
+M	composer.json	1d522b419578a98d542dc1301ec96015
+M	contribute.info.yml	28716a755d0c368380fa253ac977bf9d
+M	contribute.libraries.yml	517edec5821b8e879ded2e20f793fceb
+A	contribute.links.task.yml	32d9040067ede67a817b2c9cbeed43a8
+M	contribute.module	9f663bbc97b287cc90a574d2fe0a3ea8
+M	contribute.routing.yml	f8c8c2453fe1ca2493dae6b8ccd61810
+M	contribute.services.yml	ee0b1cbff70cbd39ecc2ad25373b2512
+A	css/contribute-status-report-community-info.css	f58507fe6de7e91c2a83f264ce1f4e9c
+A	css/contribute-system-status-report.css	0b4ff485aaeed10b4c59406490fa2d43
+D	css/status-report-contribute-info.css	
+M	docs/RELEASE-NOTES.md	7eb98b97dfc7517be3e384f95c4d92de
+A	images/icons/cccccc/people.svg	ef75e9824f0944d5813a0ce9574d5eb3
+A	images/icons/e29700/warning.svg	693cb65888066f863ca85b13d60e07af
+A	images/icons/e32700/error.svg	4b0df5692262275123f44751ec048524
+A	includes/contribute.association.inc	1733341345828b9694a3f18724019d70
+A	includes/contribute.drupal.inc	63a091be66cce07fd1023bc746e19501
+A	includes/contribute.projects.inc	90f3359e1f501497207214dc94a2ca1f
+A	src/ContributeGenerate.php	11133af5961f43f3fe20c574b2f24429
+A	src/ContributeGenerateInterface.php	a482eb4dda450b0f8d5a5b49569f0ded
+M	src/ContributeManager.php	77d755f708bd13f6c4dc582ed284dcc2
+M	src/ContributeManagerInterface.php	3531b628c62779a6ce9c0f22e98df7c6
+A	src/Controller/ContributeAutocompleteController.php	e8a0c78450f12239388cac4c5f3b6b50
+A	src/Controller/ContributeCommunityController.php	fb0d806098ad2f4af5798a1d314b8ef3
+D	src/Controller/ContributeController.php	
+M	src/Form/ContributeSettingsForm.php	e507cf3d9fef0dabe8301fff6ec35678
+A	templates/contribute-person.html.twig	7b17d80720c38095f31bae603b9634f5
+A	templates/contribute-status-report-community-info.html.twig	112a61e55a6d2e421bfa5188ad0546c4
+A	templates/contribute-status-report-grouped.html.twig	f8755041889b39167de30ca7ec3404ae
+D	templates/status-report-contribute-info.html.twig	
+M	tests/src/Functional/ContributeFunctionalTest.php	959c44561f8186ba2f9e5833c7abffdb

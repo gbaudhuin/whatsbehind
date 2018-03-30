@@ -1,0 +1,28 @@
+M	config/schema/ctools.schema.yml	f4773ca2f82927e6e48c0064d67e0a81
+M	ctools.info.yml	40b83ccb88772bb043ebb8ea5b9a66d8
+M	src/Form/ConditionConfigure.php	3da1594838b44228039a49ab80fa7970
+M	src/Form/ConditionDelete.php	05cb588f6d79bf460bbe69372b2c0c59
+M	src/Form/ContextConfigure.php	ba707570c6eba9b2b7c349a7c26a6c4d
+M	src/Form/ManageConditions.php	c9755278abaadce0cc19b161f0d1b66d
+A	src/Form/ManageContext.php	0dde3fc8c43b843879106388865c2ff2
+A	src/Form/RelationshipConfigure.php	4acb3f2868ceb3209604e6fae18d3cff
+A	src/Form/RelationshipDelete.php	c8fe88950d689da369369f19f85461af
+M	src/Form/RequiredContext.php	f87a200722e4154c175e410267ccba92
+M	src/Form/RequiredContextDelete.php	efa57e8c2b44f477f44d6b80f93d434d
+A	src/Plugin/Condition/EntityBundle.php	386e7c5ae8a30ec19a4a46a840592de1
+D	src/Plugin/Condition/EntityType.php	
+A	src/Plugin/Deriver/EntityBundle.php	fecc43681cb4b015e7c1eee66980cb88
+D	src/Plugin/Deriver/EntityType.php	
+A	src/Plugin/PluginWizardInterface.php	77aa07dca9ca3691e3abe6ab6a598905
+M	src/Plugin/VariantPluginCollection.php	5828a75ef85c9fbb78d18d5e4b07e34e
+M	src/Tests/Wizard/CToolsWizardTest.php	fca8c554623d344cd0ae478e151d3ef2
+M	src/Wizard/FormWizardBase.php	535d1fcc6e95ab86aaab4a6eee8d0bad
+M	src/Wizard/FormWizardInterface.php	50a69ffd9af6b346da31eec0adf861a4
+M	src/Wizard/WizardFactory.php	620a1445034dcdba857ff4c83dbf449b
+M	tests/modules/ctools_wizard_test/ctools_wizard_test.info.yml	65b5136b441121d995c4dc18b15e787a
+M	tests/modules/ctools_wizard_test/ctools_wizard_test.routing.yml	5e24ebd32f7044f6e1c7bc528bf0f88b
+A	tests/modules/ctools_wizard_test/src/Form/ExampleConfigEntityExternalForm.php	c09099edd5a6268d4a0ef38b2d4135ce
+M	tests/modules/ctools_wizard_test/src/Form/ExampleConfigEntityOneForm.php	1b2248be6e20834ea2157a125da706b3
+M	tests/modules/ctools_wizard_test/src/Form/OneForm.php	1ab9915bc56e4927fc265636951efb37
+M	tests/modules/ctools_wizard_test/src/Form/TwoForm.php	3dd861ecf8577daaaa8833442b09c383
+M	tests/modules/ctools_wizard_test/src/Wizard/WizardTest.php	5f4c07e1f127a9da86b704c904494dd1

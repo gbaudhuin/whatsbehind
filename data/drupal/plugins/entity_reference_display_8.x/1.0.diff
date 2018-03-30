@@ -1,0 +1,6 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	593470d571045c64a661c67682b4490d
+A	entity_reference_display.info.yml	b1c0d564f7a66447c4d0fa6dc469a4be
+A	entity_reference_display.module	425695e5d87513251f0245a42d92c0d8
+A	src/Plugin/Field/FieldFormatter/EntityReferenceDisplayFormatter.php	ff12e4d0abf001afea36edd996ab8b6a
+A	src/Plugin/Field/FieldType/EntityReferenceDisplayItem.php	e57e067f4e006eb2eef86389437dec07

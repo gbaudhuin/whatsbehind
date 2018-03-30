@@ -1,0 +1,20 @@
+M	simplesitemap.info.yml	9c8c7ac69460329c9bfe1bb0e5029522
+M	simplesitemap.install	b7cff2410b4217915978832fe88c9211
+M	simplesitemap.module	a938053ce8787f0927f8fb5445484050
+A	simplesitemap.services.yml	725c2929d10ccd0b7413fdfea1fe791f
+A	src/Annotation/LinkGenerator.php	c67c9dc4b7ec0392ade6bfb07df63ddb
+A	src/CustomLinkGenerator.php	d4f7f41237819749f1bc4f3ac0c4af80
+A	src/LinkGeneratorBase.php	5979dad628148ff861f0449265b93469
+A	src/LinkGeneratorInterface.php	e3c4527dbadebadbcdc00c5ef949dd68
+D	src/LinkGenerators/CustomLinkGenerator.php	
+D	src/LinkGenerators/EntityLinkGenerator.php	
+D	src/LinkGenerators/EntityTypeLinkGenerators/menu.php	
+D	src/LinkGenerators/EntityTypeLinkGenerators/node_type.php	
+D	src/LinkGenerators/EntityTypeLinkGenerators/taxonomy_vocabulary.php	
+A	src/Plugin/LinkGenerator/Menu.php	8901a172f0b4a2ff793fd22e88f70ca4
+A	src/Plugin/LinkGenerator/NodeType.php	2233515571ba0b4a9800cf2423c5131c
+A	src/Plugin/LinkGenerator/TaxonomyVocabulary.php	9632a55959c2ecf8eae05a60c15adf89
+A	src/Plugin/LinkGenerator/User.php	c05d555a4799f41cb4d55bb5446b27c9
+M	src/Simplesitemap.php	b1b37c7638c0a1597a233128b7de4603
+A	src/SimplesitemapManager.php	f7c06eb0f3568400d34d9d2ed0cdcfe2
+M	src/SitemapGenerator.php	d2c2b6d1dd9365a07b2ce2426cf9bdd1

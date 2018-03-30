@@ -1,0 +1,12 @@
+M	DEVELOPING.md	671095dd744d19c5eee920acb7108f7d
+M	README.md	89aee9eb8c9a21304c8569d3b9a77898
+M	js/twitter.js	8a883381e9e387eafc6651601111aa2a
+M	media_entity_twitter.info.yml	c34a8c560e99891aad271184388bb884
+M	src/Plugin/Field/FieldFormatter/TwitterEmbedFormatter.php	97e0d8610f89fcd36652724a7750d68f
+M	src/Plugin/MediaEntity/Type/Twitter.php	eb839c6b732338c15619adb8e9fc804a
+M	src/Plugin/Validation/Constraint/TweetEmbedCodeConstraint.php	291524f12b5ba8202ed4bd1566e0abe8
+M	src/Plugin/Validation/Constraint/TweetEmbedCodeConstraintValidator.php	ab2c5902b3efe82eb6abdbb967d7caa0
+M	src/Plugin/Validation/Constraint/TweetVisibleConstraint.php	e6842a7bf855a4bc706f6e6815b1f628
+M	src/Plugin/Validation/Constraint/TweetVisibleConstraintValidator.php	aa195d9ba184d608fa7224a35a04a2f5
+M	src/Tests/TweetEmbedFormatterTest.php	f87399a2c637b8dd65fa140e8429a981
+M	tests/src/Unit/ConstraintsTest.php	fb2b5c949d5db03e68bc0afbc3422639

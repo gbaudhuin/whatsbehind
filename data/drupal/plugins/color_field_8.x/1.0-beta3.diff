@@ -1,0 +1,10 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	4548a2596e9c63a32c735e44aadbf140
+A	color_field.info.yml	9d20c06c18e5e8cd5cdaa0900b48d2f4
+A	color_field.module	286772b2bc49791c5d74304c4e500d6d
+A	config/schema/color_field.schema.yml	c1a88c3ba4db56e5b95c93f32d5b0dfe
+A	src/Color.php	407907464a58f8636a5146799f895d17
+A	src/Plugin/Field/FieldFormatter/ColorFieldSwatchFormatter.php	472d0dfce59f44deafd90653cf63ec4a
+A	src/Plugin/Field/FieldFormatter/ColorFieldTextFormatter.php	cb46e2edd100e68c3186c7ab0e8e4a00
+A	src/Plugin/Field/FieldType/ColorFieldItem.php	8d8e7e7218d329f7e55a6d4192ac3470
+A	src/Plugin/Field/FieldWidget/ColorFieldDefaultWidget.php	e2d413a809d6d760d8b26fecdd9094e4

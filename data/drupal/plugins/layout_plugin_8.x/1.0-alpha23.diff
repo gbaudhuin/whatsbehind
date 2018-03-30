@@ -1,0 +1,29 @@
+A	layout_plugin.api.php	0e239a1d7ef264db210b4612d92979d7
+M	layout_plugin.drush.inc	16d9a42d9e4d9d9910009dd7bb254d27
+M	layout_plugin.info.yml	020a0ee491ca9cb20e2642d072f842da
+M	layout_plugin.module	321b1061614e307fa96a7b3689b44312
+D	modules/block_page_layout/block_page_layout.info.yml	
+D	modules/block_page_layout/config/schema/block_page_layout.schema.yml	
+D	modules/block_page_layout/src/Plugin/DisplayVariant/BlockPageLayoutVariant.php	
+D	modules/block_page_layout/src/Tests/BlockPageLayoutTest.php	
+M	modules/layout_plugin_example/layout_plugin_example.info.yml	55380e30053fcdacf86298468e430860
+M	modules/layout_plugin_example/src/Plugin/Layout/LayoutExampleTest.php	ed523b8d2481718322538f00b2defedd
+M	src/Annotation/Layout.php	61781fddb10ee5f40666c8aadeb88c1c
+M	src/Layout.php	539f36adde8edf551ec30f53073b991b
+M	src/Plugin/Layout/LayoutBase.php	b708e6ea86940b3887364103ae141493
+M	src/Plugin/Layout/LayoutDefault.php	a2004ae8f2da48454abf3db2b4c616a1
+M	src/Plugin/Layout/LayoutInterface.php	2cdc412fe94afdf09562a410b6170302
+M	src/Plugin/Layout/LayoutPluginManager.php	a5d009de4982e526526d9efa883c7ddc
+M	src/Plugin/Layout/LayoutPluginManagerInterface.php	077643c40505e90b2d88955810e715a1
+A	tests/modules/layout_test/config/schema/layout_test.schema.yml	73e9ac5fc439c3162dade5f5943f7983
+A	tests/modules/layout_test/css/layout-test-1col.css	68b329da9893e34099c7d8ad5cb9c940
+A	tests/modules/layout_test/css/layout-test-2col.css	4c870472b1f446a7213399d9d7fccd60
+A	tests/modules/layout_test/layout_test.info.yml	77902b83530a01e7af8e489c74c08946
+A	tests/modules/layout_test/layout_test.layouts.yml	34c4b8a6c457990444c7c265ab3c8786
+A	tests/modules/layout_test/layout_test.libraries.yml	669e607ad9eba6374fa77ac61d7ec62a
+A	tests/modules/layout_test/src/Plugin/Layout/LayoutTestPlugin.php	72b129592f3c86071b9e25d0f7f6f4bf
+A	tests/modules/layout_test/templates/layout-test-1col.html.twig	378a249af980a2e2a02ed1f13789d40a
+A	tests/modules/layout_test/templates/layout-test-2col.html.twig	9aa5a0db3b199e28f40f44c82e60b201
+A	tests/modules/layout_test/templates/layout-test-plugin.html.twig	270022c7f315249e3876620e74873581
+A	tests/src/Kernel/LayoutTest.php	867452c97eed61b26eb8933be2a428fb
+M	tests/src/Unit/PluginManagerTest.php	ef3e22e4d8eda21d8290789428d061ab

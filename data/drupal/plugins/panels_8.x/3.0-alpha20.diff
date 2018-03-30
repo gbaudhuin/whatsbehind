@@ -1,0 +1,48 @@
+M	i18n_panels/i18n_panels.info	464cc47e38a22946a60cf94c3d583215
+M	panels.info.yml	f6a7f8b9f196772e4587b0bfda02929a
+D	panels_ipe/css/panels_ipe-rtl.css	
+M	panels_ipe/css/panels_ipe.css	6992c819cc35ddd989f2bd447b106034
+A	panels_ipe/fonts/ipeicons.woff	c7d3ade1d7707b5ad794706cc5baffe6
+A	panels_ipe/fonts/selection.json	b09c320e8ac8cf71181b256c465091e9
+D	panels_ipe/images/dragger.png	
+D	panels_ipe/images/icon-add.png	
+D	panels_ipe/images/icon-change-layout.png	
+D	panels_ipe/images/icon-close.png	
+D	panels_ipe/images/icon-configure.png	
+D	panels_ipe/images/icon-delete.png	
+D	panels_ipe/images/icon-draggable.png	
+D	panels_ipe/images/icon-save.png	
+D	panels_ipe/images/icon-settings.png	
+D	panels_ipe/images/icon-style.png	
+D	panels_ipe/images/loading-small.gif	
+D	panels_ipe/includes/panels_ipe.pipelines.inc	
+A	panels_ipe/js/models/AppModel.js	bbf50cd722f221e421ded0d5aa0dbf72
+A	panels_ipe/js/models/BlockModel.js	b83a68c4608b847cf2eefcbfbc8e92a7
+A	panels_ipe/js/models/BlockPluginModel.js	853d0ec2d391f6bbe78f5f1f7de93521
+A	panels_ipe/js/models/LayoutModel.js	e17492f4da1172d712b76ea449d27f9a
+A	panels_ipe/js/models/RegionModel.js	d70935e0fc510396ed7ab9de0be8ef6e
+A	panels_ipe/js/models/TabModel.js	1cadaa5bd02bfebf372121ccd16f9c02
+M	panels_ipe/js/panels_ipe.js	66ae456e51cbde1f851a066c92a717a0
+A	panels_ipe/js/views/AppView.js	dcb15bee634ccad3e0fefe43af4828a2
+A	panels_ipe/js/views/BlockPicker.js	a5b5c973a41e0af89103e0b760f89eda
+A	panels_ipe/js/views/BlockView.js	f29c3ef0b6a73874ae2be50ee2623ea3
+A	panels_ipe/js/views/LayoutPicker.js	304324389ca43c4c876f4f5fa74f2cad
+A	panels_ipe/js/views/LayoutView.js	8a7118dbc28e5c410915e6697db72ecc
+A	panels_ipe/js/views/TabsView.js	228b6a11969a24dcc1ae4e08a8d62e91
+D	panels_ipe/panels_ipe.info	
+A	panels_ipe/panels_ipe.info.yml	6e56f2eb0bbeaa452727f8f113874f9c
+A	panels_ipe/panels_ipe.libraries.yml	d61065d9e085e0e66c0057662ac1e986
+M	panels_ipe/panels_ipe.module	36252886141429facd3eb83412675cd5
+A	panels_ipe/panels_ipe.permissions.yml	dbd64dcd48b21552fe2324ff39cb9277
+A	panels_ipe/panels_ipe.routing.yml	ed29999dcf6533cebba6652b68bdef95
+D	panels_ipe/plugins/display_renderers/ipe.inc	
+D	panels_ipe/plugins/display_renderers/panels_renderer_ipe.class.php	
+A	panels_ipe/src/Controller/PanelsIPEPageController.php	b99cb4a38fb1cee329d3153532666f17
+A	panels_ipe/src/Form/PanelsIPEBlockPluginForm.php	1e5f5e164aba5b6a1983189227aef2a6
+A	panels_ipe/src/Plugin/DisplayBuilder/InPlaceEditorDisplayBuilder.php	d607711d8ee45550e8d05bc3a86314ee
+M	panels_mini/panels_mini.info	0ba322d44db300c183fe637fb0caf949
+D	panels_node/panels_node.info	
+D	panels_node/panels_node.install	
+D	panels_node/panels_node.module	
+M	src/Plugin/DisplayVariant/PanelsDisplayVariant.php	6329c624af6e824738ca47c0af495503
+M	tests/modules/panels_test/panels_test.info.yml	f822d4e07d927f382ecd15f21045aaa9

@@ -1,0 +1,5 @@
+M	flag.info.yml	5f995e573a80d7a32c470046746c2114
+M	modules/flag_bookmark/flag_bookmark.info.yml	4330c978699b44cd1b85a012572ef330
+M	modules/flag_follower/flag_follower.info.yml	06991d8597d5a1ebe29cadc365d3fd2e
+M	tests/modules/flag_event_test/flag_event_test.info.yml	443276c9f7e658ff29c235e2c95a8260
+M	tests/modules/flag_test_plugins/flag_test_plugins.info.yml	910c53ffb4656ee3835d7002efd7ce04

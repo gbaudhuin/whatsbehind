@@ -1,0 +1,7 @@
+M	.travis.yml	3eef88c2aa96c9d6090d43f6ad73d415
+M	CHANGELOG.txt	df26188bc10599e6310bdae76dc97ffa
+M	filefield_paths.api.php	71fa2c1046e31f0792d8cf2fd8a5c551
+M	filefield_paths.info.yml	273963c3436bae84667a523ebb7f1299
+M	filefield_paths.module	599f94829825e2591fb5916fbff95656
+M	src/Tests/FileFieldPathsTestBase.php	cab4fc72a4b081442e4650af3f599852
+M	tests/filefield_paths_test/filefield_paths_test.info.yml	a4fde3ff1381c1bb7d058a2f867fe7da

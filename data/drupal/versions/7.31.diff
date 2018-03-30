@@ -1,0 +1,5 @@
+M	CHANGELOG.txt	85f9505fcf687b9fd4b55d2e60393436
+M	includes/bootstrap.inc	63052efc5454a24b2230c52ebd94a8a7
+M	includes/xmlrpc.inc	8ea3390aceaf920a174ddda00960d2df
+M	modules/openid/openid.inc	e5db55e0c976008cc781c3d101ce7dd8
+M	modules/simpletest/tests/xmlrpc.test	5b7521de882c1d05b83d7bd379bccb54

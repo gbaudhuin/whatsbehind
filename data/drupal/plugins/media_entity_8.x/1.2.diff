@@ -1,0 +1,14 @@
+A	config/install/system.action.media_publish_action.yml	79a6b49c8e00175bc8309361b23a3385
+A	config/install/system.action.media_unpublish_action.yml	74c566f12913b694639b86da3cafecd2
+M	config/schema/media_entity.schema.yml	ea930421bfa00ab4cadbc4753e4cfaac
+M	media_entity.info.yml	044d9f57a4aa41923157a41be7ab731b
+M	src/MediaBundleForm.php	af3920acceaff40fa760e73c9b8e2628
+M	src/MediaForm.php	ce9bb3b4c94bbaca52d1f98d1624ef62
+A	src/Plugin/Action/PublishMedia.php	11d138900f5f2af862ee2e98b9194775
+A	src/Plugin/Action/UnpublishMedia.php	190670fc752e25b4b127849b3eb7e1ab
+M	src/Tests/MediaUITest.php	8fd470e00d62dec2d09224e07e60f3f8
+A	src/Tests/Views/BulkFormTest.php	e2e2573358fc3d095f94d6ec58f6004b
+M	tests/modules/media_entity_test_bundle/media_entity_test_bundle.info.yml	b03f8e82ed7fcb25695829c81ed1f7ac
+M	tests/modules/media_entity_test_type/media_entity_test_type.info.yml	c5e08198e4377c8fe4cc59b1001470e8
+A	tests/modules/media_entity_test_views/media_entity_test_views.info.yml	cf25572c80d3cdfb830fd1242beccf85
+A	tests/modules/media_entity_test_views/test_views/views.view.test_media_entity_bulk_form.yml	3608f1bbfb572b0570edc611a91260f5

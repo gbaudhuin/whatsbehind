@@ -1,0 +1,9 @@
+M	README.txt	afc0722f5b4d340c1d7a23fa82326422
+M	acquia_agent/acquia_agent.info	05498304a1a001b0714147439bb1bf64
+M	acquia_agent/tests/acquia_connector_test.info	f02ff72bbe0b935e876e77802679458c
+M	acquia_search/acquia_search.info	6e2ba5c55a377920917c8d26da679d79
+M	acquia_search/acquia_search.install	5537365d251011b1544fb6153d740a68
+M	acquia_search/acquia_search.module	97dd3e47e5e495d83c614e14c61d00d7
+A	acquia_search/src/PreferredSearchCoreService.php	62d2a15fdb109e24e6ce322231b2194d
+M	acquia_search/tests/acquia_search.test	58c0289f416c0b1cbd8ef655dbaaf0e9
+M	acquia_spi/acquia_spi.info	95f9cefb07c24e8c0c319f283eb0dabe

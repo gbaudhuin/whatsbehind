@@ -1,0 +1,6 @@
+D	config/install/varbase_bootstrap_paragraphs.settings.yml	
+M	modules/vbp_text_and_image/config/install/core.entity_form_display.paragraph.text_and_image.default.yml	bf42195a3f585ce4c5a1d681a555dec9
+M	modules/vbp_text_and_image/vbp_text_and_image.info.yml	0418498d2d9cd728debacff804502fa0
+A	modules/vbp_text_and_image/vbp_text_and_image.install	b392976ced4a6094a60732840c18fdfd
+M	varbase_bootstrap_paragraphs.info.yml	021f0ed3072fca5984c9819d29b249fb
+M	varbase_bootstrap_paragraphs.install	2c2b657dc0c4f29885b46477b483c327

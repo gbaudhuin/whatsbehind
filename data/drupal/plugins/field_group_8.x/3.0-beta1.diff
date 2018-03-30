@@ -1,0 +1,12 @@
+A	CHANGELOG.txt	f62143bdd79b8894ba51e14a8fe1a156
+M	config/schema/field_group.entity_display.schema.yml	e6d114db343d781938f0552911d33a03
+M	contrib/field_group_migrate/field_group_migrate.info.yml	78cb51618816420fb6c3b92768442f78
+M	contrib/field_group_migrate/tests/src/Unit/Migrate/d7/FieldGroupTest.php	86171c835ae2b196bfcd93d2e05e0160
+M	field_group.info.yml	6e0bbbafc330c1f52c5ae0a96b479902
+M	field_group.libraries.yml	f5884ded346bd3121b3f73ab0225109f
+M	includes/field_ui.inc	0ed7798debaf5ff17f8ebbb3349e43b0
+M	js/field_group.field_ui.js	18827b31f8b8f35340066d666727f4f3
+M	src/Form/FieldGroupAddForm.php	8709ef0fb7f09b8c315136d63d52c174
+M	src/Form/FieldGroupDeleteForm.php	a7269490c19100b57a3288342c4a438a
+M	src/Routing/RouteSubscriber.php	bf3af43b81d683fb74456dd4f95a2058
+M	tests/modules/field_group_test/field_group_test.info.yml	a1e77582cd630f713703a7d6731d5366

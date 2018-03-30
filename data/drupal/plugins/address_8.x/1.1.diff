@@ -1,0 +1,8 @@
+M	address.info.yml	a0b641ed3ac20add3d8abba1f8dbad66
+M	composer.json	781425bb5f1bf9172639c7b652deeb42
+A	ludwig.json	cfcd17b16249856152049179ef4d587c
+M	src/Element/Address.php	bd4d75152a1a4b6d3093650d6332d792
+M	src/Element/ZoneTerritory.php	c03a18be2506ecbde2406e92a4f13cd4
+M	src/Plugin/Field/FieldFormatter/AddressPlainFormatter.php	bcd0861b6d7d38318520898d845388cd
+M	tests/modules/address_test/address_test.info.yml	15819011edd65097e886e7a1f83da708
+M	tests/src/Kernel/ZoneItemTest.php	f09b5716d57e0b68a19b620ac04460f8

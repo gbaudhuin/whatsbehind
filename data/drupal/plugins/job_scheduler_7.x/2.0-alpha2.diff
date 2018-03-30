@@ -1,0 +1,7 @@
+M	CHANGELOG.txt	e2001a904ea6c3240323175c59fd7d5b
+M	JobScheduler.inc	cb84461b4e5255d9a3f5b68c87bc0a76
+A	JobSchedulerCronTab.inc	141f50b2853bc32d258434319213ab59
+M	README.txt	29d5a4f2e5bf7871dbf465eb6070e648
+M	job_scheduler.info	7d586e3f9642e34ef918a3336c02f62a
+M	job_scheduler.install	f1f89395d70c5eeddf27b93b6434357d
+M	job_scheduler.module	bbb2c33c28c8f3b4b83113b7af02bfaa

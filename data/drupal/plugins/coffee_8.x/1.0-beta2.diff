@@ -1,0 +1,18 @@
+M	coffee.api.php	fa4b5e976fd709fac059f86c50a32fb1
+M	coffee.coffee.inc	5b792617c5a3c910ce5811be0be0ba4e
+M	coffee.info.yml	e7f9f362dbec6c0112ca28269251fea0
+M	coffee.libraries.yml	3b8260ccab232a5ac2542e81d9b737f0
+M	coffee.module	0668ec0ee1c0a1886e07f013d5a858ca
+M	coffee.routing.yml	6d26267389051806d36e16bd1f29b994
+A	composer.json	f469c7a558246eae2228a4e9ec1f3e57
+M	css/coffee.css	51cbe44812ae08b37357e6dadffaea8b
+M	images/icons/bebebe/coffee.svg	a6a735b655c19610b2bedcbc63e07306
+M	images/icons/ffffff/coffee.svg	04e53ade390ba4112006d55e39b7c307
+M	js/coffee.js	a490bd8d1f17ada87b48df7f600673b0
+M	src/Controller/CoffeeController.php	92c89ad63e6d98199619505b381d9780
+M	src/Form/CoffeeConfigurationForm.php	35e39084c67574bcf3d20e86becfbb2a
+D	src/Tests/CoffeeHookCoffeeCommandsTest.php	
+D	src/Tests/CoffeeTest.php	
+M	tests/modules/coffee_test/coffee_test.info.yml	51af7f745dba19c801a899e872e0c62c
+A	tests/src/Functional/CoffeeTest.php	716780b4e6093278dd2253f7f1a03c20
+A	tests/src/Kernel/CoffeeCommandsTest.php	f7882e4316659674cb728c1e33a0b7c8

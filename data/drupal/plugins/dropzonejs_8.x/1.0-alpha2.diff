@@ -1,0 +1,15 @@
+A	config/schema/dropzonejs.schema.yml	beb44fdfde14579613167a061f06d705
+M	dropzonejs.info.yml	073862a0a32205b5485deb49e4863204
+M	dropzonejs.install	9b08e197fa64a0b5f6e9ba99dcee2140
+M	js/dropzone.integration.js	95e9ab26a8b2c4bea0343c623ae9ec04
+M	modules/eb_widget/dropzonejs_eb_widget.info.yml	5adbde9a56461232235140f9fdb4212f
+M	modules/eb_widget/src/Plugin/EntityBrowser/Widget/DropzoneJsEbWidget.php	9b64f2ba47b27a53d84427e17c4ba366
+M	modules/eb_widget/src/Plugin/EntityBrowser/Widget/MediaEntityDropzoneJsEbWidget.php	6e543d32275a7f4013508cb1e5e7a386
+M	src/Controller/UploadController.php	46482d8d376a77ec5b1efed0385a92a3
+M	src/DropzoneJsUploadSave.php	3ed262eec9ec1cf09bea4477b969e736
+M	src/DropzoneJsUploadSaveInterface.php	57825053c8ec3c9ac26e0e0b6a938688
+M	src/Element/DropzoneJs.php	b2f3ea3a5e75fcd4332742fcca936e0f
+M	src/UploadHandler.php	a5257298a0ba423d4f3ed1e1994dc7e9
+M	tests/modules/dropzonejs_test/dropzonejs_test.info.yml	be4e55651d2f8ef675a8017cd570086b
+M	tests/src/Kernel/DropzoneJsElementTest.php	efa3ac6c31780c326b9cacb4fd110d66
+A	tests/src/Kernel/DropzoneJsUploadControllerTest.php	6e13ca35027f9ea5e17e65e5cd18d420

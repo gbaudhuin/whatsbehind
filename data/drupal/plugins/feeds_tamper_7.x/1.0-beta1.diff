@@ -1,0 +1,13 @@
+M	feeds_tamper.info	487433211499887ee56f3fd5f1c75337
+M	feeds_tamper.install	45a3c9fc5d13b764cdaa6101d1e2378d
+M	feeds_tamper.module	8414f53516421bb91275c5e0e8b65cbc
+M	feeds_tamper_ui/feeds_tamper_ui.admin.inc	c3b653cd7a7b0f56a3f861d81ddc63a7
+M	feeds_tamper_ui/feeds_tamper_ui.info	eb2533b706dde1e14e8bbd87b7aeedc4
+M	feeds_tamper_ui/feeds_tamper_ui.module	09373acc3c2be397aa40e54e32d0ffa6
+M	plugins/absolute_url.inc	b1729d16a02c09df4283e2d73367ee7a
+M	plugins/html_entity_decode.inc	c22560f76d0852a919598900b97adf5d
+M	plugins/required.inc	0c70381e42417320e27ab418ab0e3c26
+M	plugins/strip_tags.inc	ba8bde5c49eb3614363cbe944bef78ae
+M	plugins/trim.inc	87dc8a4c3162217deb1a05badbf3e905
+M	plugins/truncate_text.inc	edb40b8692bba74567c0a2be80b620bd
+M	plugins/unique.inc	ab546560e26bcd8a8fc4f6f0b139220b

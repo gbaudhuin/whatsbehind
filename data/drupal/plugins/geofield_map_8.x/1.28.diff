@@ -1,0 +1,12 @@
+M	README.md	36d0bc1aa4fc96044a7c42c3d99f3bda
+M	composer.json	8335842b262732d9ec38db6a1200439f
+M	config/install/geofield_map.settings.yml	26a5efc40ba5007d81a1ae0ca55054c4
+M	css/geofield_google_map.css	453732269118b4f1d7bb45b7b9b7156b
+M	geofield_map.info.yml	62b43a5187b566cf35d9e8f42749166d
+M	geofield_map.libraries.yml	ac34ff7b5c5e271e10a7a3f2354d11e9
+M	geofield_map.module	61644e8be333d20869744f592253e4d2
+M	geofield_map.permissions.yml	c893e7015c0fecc1300609507b33037d
+M	src/Element/GeofieldMap.php	d13d562dc2f3791e1ed54211266287e0
+M	src/GeofieldMapFieldTrait.php	cbe3a993ac0d92854914bcdb99a48158
+M	src/Plugin/Field/FieldFormatter/GeofieldGoogleMapFormatter.php	e781ea63f583dbd9305ae7c4a9eb6796
+M	src/Plugin/Field/FieldWidget/GeofieldMapWidget.php	4a0861402cd90a8c673eefc3f43738a1

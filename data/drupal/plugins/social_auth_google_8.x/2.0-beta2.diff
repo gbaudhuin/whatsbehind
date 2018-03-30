@@ -1,0 +1,4 @@
+M	README.txt	72b51478896709ae7438454bb0d369b1
+M	social_auth_google.info.yml	4da06a01d6efcb7bbb464051f2ea6331
+M	src/Form/GoogleAuthSettingsForm.php	4c29d09347ab91a49c04a3f5a410e3a5
+M	tests/src/Functional/SocialAuthGoogleSettingsFormTest.php	04cd614155b3145e80e903a7e9703350

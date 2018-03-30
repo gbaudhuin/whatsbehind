@@ -1,0 +1,9 @@
+M	README.txt	5666f57e3b0931f9ca8470e406f8fec0
+M	ctools/relationships/field_collection_from_field.inc	5a5c8522e7f13af705f0440270c70440
+M	field_collection.info	e71051ff44adcceee94455adf3bb266e
+M	field_collection.install	ee36604fb8396e4ff812f17f564211ee
+M	field_collection.migrate.inc	2e99ea8d25361b21516ad1b11b31b0d0
+M	field_collection.module	90b6ce504005a53a6a778fb7452e8082
+M	field_collection.pages.inc	dae54a3d53775bd8b3296c9fc1c672fd
+M	field_collection.test	33b93915ed827b3bca897ac0751465af
+M	views/field_collection.views.inc	0e4e0b3b5bd50bd4f3491068abeb0971

@@ -1,0 +1,19 @@
+M	css/navbar.icons-rtl.css	6ed4c253063dea778680659b02414f57
+M	css/navbar.icons.css	8c13e033f4ac09a925b8c4dccb687163
+M	css/navbar.menu.css	b3ebef41b929c50d3bbc174859cd945f
+M	css/navbar.module-rtl.css	607fa00f24f1bbe9acffa9cd32136f6f
+M	css/navbar.module.css	9914e1590bc8787c73f6c0663b99ce3d
+M	css/navbar.theme-rtl.css	303107366d9de3335ab6be7c811bcb02
+M	css/navbar.theme.css	74d9a3f4261441482cffba89c8f8efc1
+D	icons/bebebe/house.png	
+D	icons/bebebe/house.svg	
+D	icons/ffffff/house.png	
+D	icons/ffffff/house.svg	
+M	js/displace.js	6f44b2b41610705dcd3572033b20239d
+A	js/escape-admin.js	73eaef9b563cde8d09342d3978f7d691
+M	js/navbar.js	3d5863a7802e90981015474cf32c1818
+M	js/navbar.menu.js	c01a3a24163af2a84ef4516d03872306
+M	navbar.info	c5fc1be0e0c1ac200fc679351bc3c007
+A	navbar.make.example	91675ea86a330b479f5c29001606051f
+M	navbar.module	44ce881a30588d819a125ecb79d31d90
+M	navbar.navbar.inc	d627e3124e7b9553a46b1577290f27d7

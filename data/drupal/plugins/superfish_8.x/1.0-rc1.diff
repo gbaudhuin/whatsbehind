@@ -1,0 +1,16 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	config/install/superfish.settings.yml	98ffc2f51009ac03b024888d758bb5e1
+A	config/schema/superfish.settings.schema.yml	638cd23369f4fe10f50cfd9bf5e70de3
+A	js/superfish.js	25f8a4dc4a989c0143df989abc67def4
+A	src/Form/SuperfishSettingsForm.php	5c01aff44d870f58febe8426f5326bdb
+A	src/Plugin/Block/SuperfishBlock.php	976cc485b99c68a6317cd382143efa4c
+A	superfish.info.yml	d77f21092d93cf6b1147ece9bd15068c
+A	superfish.install	ef6e7d7d1be5b105c5951f2ef959374c
+A	superfish.libraries.yml	658afea172cc9c1ee64cd8fffad33b13
+A	superfish.links.menu.yml	ad6deac15120a1b8fb929a8dfe0b2d0d
+A	superfish.module	253922e0e862520ed7c3f096f1bbc190
+A	superfish.routing.yml	1580156ed14a192577f55a436affb923
+A	superfish.services.yml	dc3f690804ba136005b40ce030fdbf40
+A	superfish.theme.inc	dc8fe2fa61aa78441ca89da3981c7bc0
+A	templates/superfish-menu-items.html.twig	b365722196031f4ca2a71a14f9924fd8
+A	templates/superfish.html.twig	3481e8b60774875368bd1c72422e7310

@@ -1,0 +1,5 @@
+M	multiversion.info.yml	24f8e324d88dea5abdb4b070fa72a032
+M	multiversion.install	9f3e275bd14a29de078958cc76414152
+M	src/MultiversionManager.php	27e3d10ef4f2f81df76e7992343cde4b
+M	tests/modules/multiversion_test_paragraphs/multiversion_test_paragraphs.info.yml	ddd1bbfb1c4d5a1efe66eeb67559a58b
+M	tests/modules/multiversion_test_views/multiversion_test_views.info.yml	80247a575c070652450a7a8afc3cfa15

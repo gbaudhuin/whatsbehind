@@ -1,0 +1,126 @@
+M	CHANGELOG.txt	87d88a310a2357baed76b1546a84c46d
+M	README.txt	2c788389e0aa5def838c944636c1f344
+M	advanced_forum.info	6ab87f98ddb1efc459c39aa1774d6eb4
+M	advanced_forum.install	a0be5b9835b3c8e05b2b23aa26d71b4e
+M	advanced_forum.module	5d4274945678d09bdf49d763fda0e175
+M	advf-plugins.inc	8eba545eb3cef136dc1f61b990320285
+M	styles/blue_lagoon/advanced_forum-structure.css	0aec0042a3c458fc15968918668bf07f
+M	styles/blue_lagoon/advanced_forum.css	a49ccbddf4f886e5aabe25ce91affd38
+M	styles/blue_lagoon_stacked/advanced_forum-structure.css	be9dda4eb3db0a9465e86585693b63e0
+M	styles/blue_lagoon_stacked/advanced_forum.css	547b18e0d8add87285bfe2b1e57451ab
+M	styles/blue_lagoon_stacked/advf-author-pane.tpl.php	13b36026e927ae5639b045b71bd938b9
+M	styles/boxy/advanced_forum-structure.css	1990d3d265ae7358d0ffde2ea5116614
+M	styles/boxy/advanced_forum.css	74e499bc32cb12f36f356cb65658781c
+M	styles/boxy_stacked/advanced_forum-structure.css	60f7bad75598772fbcac9138b6918626
+M	styles/boxy_stacked/advanced_forum.css	792f35e2b1fc69082c96bc45fce231e0
+M	styles/boxy_stacked/advf-author-pane.tpl.php	89521cf38b83135c5d06ba1e6d2881b5
+A	styles/boxy_stacked/images/blank.png	3d3782527f4c6c957ef483ee71dbfcba
+A	styles/boxy_stacked/images/blank_lock.png	898571a70ab210ec2733d401c0f7484c
+A	styles/boxy_stacked/images/blank_note.png	e876abda8e2b6bd1c1a1908df6f061d8
+A	styles/boxy_stacked/images/blank_small.png	93ff88b840d2f5be82add6aa9ee1c121
+A	styles/boxy_stacked/images/buddy-add.png	458de225f70277a185f9d46248bd107e
+A	styles/boxy_stacked/images/buddy-remove.png	52abb8542299a07f014e1ddbec4f2c50
+A	styles/boxy_stacked/images/contact.png	b1cec350afb396ce68fb6e23a9af78ca
+A	styles/boxy_stacked/images/delete.png	2410e20d13f73cce3e88488d1f084de9
+A	styles/boxy_stacked/images/edit.png	a9dc616151f353727b28a772aa41efd0
+A	styles/boxy_stacked/images/forum-folder-locked.png	ff74a1bcc69820a7c64b76b9c2d48bb0
+A	styles/boxy_stacked/images/forum-folder-new-posts.png	40f7c818f0b5e26a26493754aa7192b9
+A	styles/boxy_stacked/images/forum-folder.png	dbaa7cef2ddef803bf65f64e853d4906
+A	styles/boxy_stacked/images/locked-topic.png	7bdabba33db118c0492bacbd3a84daae
+A	styles/boxy_stacked/images/mark-read.png	4b5e183bce09ecd63cd0244ce631a58d
+A	styles/boxy_stacked/images/new-poll.png	35f28931ffc88f16421f4d2e2527a5d3
+A	styles/boxy_stacked/images/new-topic.png	ce4549c87f77832ec15777106414db1a
+A	styles/boxy_stacked/images/post-reply.png	9e9a3e0bf5026e98e5392d0ac53317ba
+A	styles/boxy_stacked/images/private-message.png	3499e83a97700647060e4caada9146b1
+A	styles/boxy_stacked/images/quote.png	d6e50e5d27c1fe818372e5d42a498615
+A	styles/boxy_stacked/images/reply.png	6a9bd09420641777dd8519dc15fab4f7
+A	styles/boxy_stacked/images/topic-closed.png	86d791ea81631a103ba5d07f96b5e241
+A	styles/boxy_stacked/images/topic-default.png	d5eaa602e033fea42e5d712b4a8b134a
+A	styles/boxy_stacked/images/topic-hot-new.png	16e68cb2d11226b4da6b5175bb414c5e
+A	styles/boxy_stacked/images/topic-hot.png	b0dcea275003e6b397fcba025afb3426
+A	styles/boxy_stacked/images/topic-new.png	6447d46425a093d9d722f696c7e6b926
+A	styles/boxy_stacked/images/topic-sticky.png	9d3a45eda3b48bb16fe018afecdc4843
+A	styles/boxy_stacked/images/user-offline.png	47bd8a3b0bfd11861585e5d803f5b891
+A	styles/boxy_stacked/images/user-online.png	6f9fe87570047754b7a2f13df4c476bb
+M	styles/naked/advanced_forum-forum-legend.tpl.php	c29c0236ace387722cd824e828c4cc3d
+M	styles/naked/advanced_forum-structure.css	6c3eb464813bc01f7d99daa837c0b0b9
+M	styles/naked/advanced_forum-topic-legend.tpl.php	19b14ea2bea3154130a8e4a47dda5815
+M	styles/naked/advanced_forum.css	117a2db44dc49fdeee626843126fe30f
+M	styles/naked/advf-author-pane.tpl.php	bbd6f68c8f9c4a54b72a5465a0857848
+M	styles/naked/advf-comment-wrapper.tpl.php	c9af8a95a152d41664cd11180d0866b4
+M	styles/naked/advf-forum-icon.tpl.php	22b499784b1efea2617521cc0b2809e8
+M	styles/naked/advf-forum-list.tpl.php	b47ab907509694da2e7c72a4cc4e7647
+M	styles/naked/advf-forum-post.tpl.php	cc9c33f536be678711dd85e27ba9e8cf
+M	styles/naked/advf-forum-preview-post.tpl.php	f42964f53150ccca458a340db79ee85a
+M	styles/naked/advf-forum-repeat-post.tpl.php	7f10d7609fda3505386f3f830073d213
+M	styles/naked/advf-forum-statistics.tpl.php	e0fb17f035edc36265f0dc9a54f13248
+M	styles/naked/advf-forum-submitted.tpl.php	ad7658ee5d00de1cf9f7c66f2ea98dbb
+M	styles/naked/advf-forum-topic-list.tpl.php	e26555c2380c7ec15231066fa79a6e24
+M	styles/naked/advf-forums.tpl.php	0a06412c1f2502bf2d6582b04dd5d3f2
+M	styles/naked_stacked/advanced_forum-structure.css	c54a8bc60041dcd72394b85c9f3723f1
+M	styles/naked_stacked/advanced_forum.css	7494fb138bbdd1e9ee0576430358ec16
+M	styles/naked_stacked/advf-author-pane.tpl.php	aa4745488dd04ccb8b99d80f8bf79996
+D	translations/advanced_forum.pot	
+D	translations/da.po	
+D	translations/de.po	
+D	translations/el.po	
+D	translations/es.po	
+D	translations/fr.po	
+D	translations/images/de/blue_lagoon/SOURCES.txt	
+D	translations/images/de/blue_lagoon/delete.png	
+D	translations/images/de/blue_lagoon/edit.png	
+D	translations/images/de/blue_lagoon/locked-topic.png	
+D	translations/images/de/blue_lagoon/mark-read.png	
+D	translations/images/de/blue_lagoon/new-poll.png	
+D	translations/images/de/blue_lagoon/new-topic.png	
+D	translations/images/de/blue_lagoon/post-reply.png	
+D	translations/images/de/blue_lagoon/quote.png	
+D	translations/images/de/blue_lagoon/reply.png	
+D	translations/images/el/blue_lagoon/delete.png	
+D	translations/images/el/blue_lagoon/edit.png	
+D	translations/images/el/blue_lagoon/locked-topic.png	
+D	translations/images/el/blue_lagoon/mark-read.png	
+D	translations/images/el/blue_lagoon/new-poll.png	
+D	translations/images/el/blue_lagoon/new-topic.png	
+D	translations/images/el/blue_lagoon/post-reply.png	
+D	translations/images/el/blue_lagoon/quote.png	
+D	translations/images/el/blue_lagoon/reply.png	
+D	translations/images/fr/blue_lagoon/delete.png	
+D	translations/images/fr/blue_lagoon/edit.png	
+D	translations/images/fr/blue_lagoon/locked-topic.png	
+D	translations/images/fr/blue_lagoon/mark-read.png	
+D	translations/images/fr/blue_lagoon/new-topic.png	
+D	translations/images/fr/blue_lagoon/post-reply.png	
+D	translations/images/fr/blue_lagoon/quote.png	
+D	translations/images/fr/blue_lagoon/reply.png	
+D	translations/images/fr/naked/delete.png	
+D	translations/images/fr/naked/edit.png	
+D	translations/images/fr/naked/locked-topic.png	
+D	translations/images/fr/naked/mark-read.png	
+D	translations/images/fr/naked/new-topic.png	
+D	translations/images/fr/naked/post-reply.png	
+D	translations/images/fr/naked/quote.png	
+D	translations/images/fr/naked/reply.png	
+D	translations/images/sv/blue_lagoon/delete.png	
+D	translations/images/sv/blue_lagoon/edit.png	
+D	translations/images/sv/blue_lagoon/locked-topic.png	
+D	translations/images/sv/blue_lagoon/mark-read.png	
+D	translations/images/sv/blue_lagoon/new-poll.png	
+D	translations/images/sv/blue_lagoon/new-topic.png	
+D	translations/images/sv/blue_lagoon/post-reply.png	
+D	translations/images/sv/blue_lagoon/quote.png	
+D	translations/images/sv/blue_lagoon/reply.png	
+D	translations/images/sv/naked/delete.png	
+D	translations/images/sv/naked/edit.png	
+D	translations/images/sv/naked/locked-topic.png	
+D	translations/images/sv/naked/mark-read.png	
+D	translations/images/sv/naked/new-poll.png	
+D	translations/images/sv/naked/new-topic.png	
+D	translations/images/sv/naked/post-reply.png	
+D	translations/images/sv/naked/quote.png	
+D	translations/images/sv/naked/reply.png	
+D	translations/it.po	
+D	translations/ja.po	
+D	translations/nl.po	
+D	translations/ru.po	
+D	translations/sv.po	

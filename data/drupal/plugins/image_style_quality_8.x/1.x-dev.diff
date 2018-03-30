@@ -1,0 +1,13 @@
+M	image_style_quality.info.yml	35abd3fcefb2bc9da72111e54c59000f
+A	image_style_quality.mutable_quality_toolkits.yml	7b4adc889a30bd7ae2aad45f644f5f18
+A	image_style_quality.services.yml	7092e5678a732a3b800c7e6fd11a4099
+A	src/MutableQualityToolkitManager.php	83782f0eeb37db13b62ce755043e5726
+A	src/MutableQualityToolkitManagerInterface.php	dff7d29629eea6f88c9c93a0e43260a5
+M	src/Plugin/ImageEffect/ImageStyleQualityImageEffect.php	048f59fd86118e66c13811cccf769edf
+D	src/Tests/ImageQuality.php	
+A	tests/fixtures/original.jpg	8ab0643092fdfed04ba99cd140ef6d2a
+D	tests/modules/image_style_quality_test/config/install/image.style.high_quality.yml	
+D	tests/modules/image_style_quality_test/config/install/image.style.low_quality.yml	
+D	tests/modules/image_style_quality_test/image_style_quality_test.info.yml	
+D	tests/modules/image_style_quality_test/images/original.jpg	
+A	tests/src/Kernel/ImageStyleQualityTest.php	03a83cce61ddcd08e1d750a930a7afa1

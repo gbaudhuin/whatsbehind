@@ -1,0 +1,7 @@
+M	README.txt	1c847d37f124c56f87d01370cc2a2f77
+M	inline_responsive_images.info.yml	ea78d00366ebd21ad78ceafd6ebce5f7
+M	inline_responsive_images.module	dc2e01994c2794df0a3d60872914edd3
+M	js/plugins/drupalimagestyle/plugin.js	0609c8e61281ac949a51a10f1898b4bb
+M	js/plugins/drupalresponsiveimagestyle/plugin.js	53d9d88bb0ec28de877c00362c95961b
+M	src/Plugin/Filter/FilterImageStyle.php	2ace01e62b7796fddf8fa754b904b380
+M	src/Plugin/Filter/FilterResponsiveImageStyle.php	381331094348eb5be0edf377b269a7fa

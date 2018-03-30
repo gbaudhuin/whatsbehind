@@ -1,0 +1,8 @@
+M	config_filter.info.yml	cc582357518e2512e76aef1c31d57925
+M	src/Config/FilteredStorage.php	645fdf49f75c5606758daea110a541f6
+A	src/Config/TransparentStorageFilterTrait.php	f2138c37b0a97e245f0167a99622feb5
+A	src/Exception/InvalidStorageFilterException.php	c1d5bc256b48607b1280d65c0fc3b1a0
+M	src/Plugin/ConfigFilterBase.php	a705855a493eb8446423c72efb38225a
+M	src/Tests/FilteredStorageTest.php	47374ed726146afd57f4b589726a86db
+M	tests/modules/config_filter_split_test/config_filter_split_test.info.yml	2f6e1ee5cd63791428ed8971f22f2d61
+M	tests/modules/config_filter_test/config_filter_test.info.yml	4cec86922027ba47d4edaf1178cd5f8e

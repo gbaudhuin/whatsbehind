@@ -1,0 +1,6 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	f77bcdccec25b85b4830eb9c0422f96c
+A	simple_gmap.info.yml	0f838279a108db8c00247cbe16ef742f
+A	simple_gmap.module	5adac14916e6841728bfff0b723b9ae3
+A	src/Plugin/Field/FieldFormatter/SimpleGMapFormatter.php	44be71741433c974c2a9bcfd4f537541
+A	templates/simple-gmap-output.html.twig	9a5b2aab0a43096b49718a55378d3df7

@@ -1,0 +1,6 @@
+M	.travis.yml	f5e06e976a4941946cf26e989dc30bd2
+M	src/AccessControlHierarchyBase.php	017682278597c304704a3f0d2ab5e545
+M	src/Plugin/views/field/UserSection.php	893140bfa11dfc51481891132c8e199b
+M	src/Plugin/views/filter/Section.php	61c2dcbd8a5bdaa2d55c6a94a870eb11
+M	workbench_access.info.yml	2532962b59927d31fd5dee2d37252c18
+M	workbench_access.module	dc684f5ff5efa554bbbd6441216015ab

@@ -1,0 +1,9 @@
+M	README.md	4da51b694eb3f48f1d48f5cfb18ee439
+D	src/EventSubscriber/FieldConfigEventSubscriber.php	
+M	src/Plugin/Field/FieldFormatter/VotingApiFormatter.php	13054d373a22df963632bbc194a6c978
+M	src/Plugin/Field/FieldType/VotingApiField.php	9eaebb55b12ad99547ed2d197e73a435
+M	src/Plugin/Field/FieldWidget/VotingApiWidget.php	f164c9f386efd1e96574de2f09767d11
+M	src/Plugin/votingapi_widget/FiveStarWidget.php	435b18999749a80abb2924a1f54fde64
+M	src/Plugin/votingapi_widget/UsefulWidget.php	89e7c6546e451e17bbb82896b2bde989
+M	votingapi_widgets.info.yml	d5d6256dfd90a7b1749e5db3ceb71d9a
+M	votingapi_widgets.services.yml	ee7e1b96b886e5faf3c6bfd1adf6cf64

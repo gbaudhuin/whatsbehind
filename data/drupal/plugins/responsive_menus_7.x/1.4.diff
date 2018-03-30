@@ -1,0 +1,22 @@
+M	README.txt	f43f4aba881d30bd2d34d5f73427857d
+M	plugins/context/responsive_menus_context_reaction_general.inc	906bd72c38593a83d416e68da1f2f309
+M	responsive_menus.api.php	44ee62ca69a6c263ae27feac1f075122
+M	responsive_menus.info	6e0774142061b4d7b2db5253749197e8
+M	responsive_menus.module	0224e8ff73c2a885e044786041790dc7
+A	styles/ResponsiveMultiLevelMenu/js/responsive_menus_codrops_responsive_multi.js	97c0612e0e79c35a351ad27801302b64
+A	styles/meanMenu/README.md	0992a57368861210930c133a69de6956
+A	styles/meanMenu/gpl.txt	bb3ca60759f3202f1ae42e3519cd06bc
+A	styles/meanMenu/jquery.meanmenu.js	5b96e4c75abf75eb2dc0314509846f31
+A	styles/meanMenu/jquery.meanmenu.min.js	d5637edf42eaa69ab7d35dfc745132fd
+A	styles/meanMenu/meanmenu.css	6575b343675724bf58a5306d826960b9
+A	styles/meanMenu/meanmenu.min.css	67400a26e5f18de34cfa2b619a1ea991
+A	styles/meanMenu/responsive_menus_mean_menu.js	5c940a5093f408a1b1699761625d26e8
+D	styles/mean_menu/README.md	
+D	styles/mean_menu/css/meanmenu.css	
+D	styles/mean_menu/gpl.txt	
+D	styles/mean_menu/js/jquery.meanmenu.2.0.min.js	
+D	styles/mean_menu/js/jquery.meanmenu.js	
+D	styles/mean_menu/js/responsive_menus_mean_menu.js	
+M	styles/responsive_menus_simple/css/responsive_menus_simple.css	bff273cf221761faed74887b00bd4636
+M	styles/responsive_menus_simple/js/responsive_menus_simple.js	179c3c278e85fa6e92ab89e348a06da8
+A	styles/sidr/js/responsive_menus_sidr.js	9ff58de710c16a7f391ed999cec29ad3

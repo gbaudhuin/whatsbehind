@@ -1,0 +1,4 @@
+M	entity_embed.info.yml	4d809e67667343b5d85e7106a8474d22
+M	src/Form/EntityEmbedDialog.php	5503c66402ec0f2bdfa851508f42a22f
+M	src/Plugin/Derivative/ViewModeDeriver.php	2968106d14005b0da720495b726f91b0
+M	tests/modules/entity_embed_test/entity_embed_test.info.yml	523728615aae3b938479c0373e50a08c

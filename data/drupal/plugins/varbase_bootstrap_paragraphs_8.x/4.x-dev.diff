@@ -1,0 +1,12 @@
+M	css/base/vbp-default.admin.css	0b9e453a0e0f8738d384afb4c0d78076
+D	css/base/vbp-default.admin.css.map	
+M	css/base/vbp-default.base.css	003908d1bd4bfba253ac5a529a2ba57b
+D	css/base/vbp-default.base.css.map	
+M	css/component/vbp-accordion.component.css	064364c02b6a641de9d54a13fb168e6e
+M	css/component/vbp-carousel.component.css	d41d8cd98f00b204e9800998ecf8427e
+M	css/component/vbp-image.component.css	d41d8cd98f00b204e9800998ecf8427e
+M	css/component/vbp-modal.component.css	eca36526bdd54bccae5a865ec5ad0cf7
+M	css/component/vbp-tabs.component.css	b3a0eabf17abb36adb0183928f541ea5
+M	css/theme/vbp-colors.theme.css	20260a80146ce37df8ba7abdbf740deb
+M	modules/vbp_text_and_image/vbp_text_and_image.info.yml	7e7e5cf0e8dca2a0fee03c06a2dd3229
+M	varbase_bootstrap_paragraphs.info.yml	c5deffd43b7cf28e9ae9e13a5ef8181d

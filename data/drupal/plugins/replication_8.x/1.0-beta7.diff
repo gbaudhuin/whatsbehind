@@ -1,0 +1,17 @@
+M	.travis.yml	b4d4970a78c3d94d5157d1a6f8f9d625
+D	.travis/drupal-8.3.x.make.yml	
+A	.travis/drupal-8.5.x.make.yml	4e9a4d7ac94928917eb84faacbcac5ca
+M	.travis/nginx.conf	c95a00cded2acaee18d9b1b68ef89d3b
+M	replication.info.yml	0e3355502d146aaa570fba2f7c418597
+M	replication.services.yml	ab72155255e707a2830f92c87053f95f
+M	src/Normalizer/LinkItemNormalizer.php	a48fa973e7ad8cb2779a97d229e55a6a
+M	src/Normalizer/RedirectSourceItemNormalizer.php	d383a8b5242586a5f83185594c88da32
+M	tests/modules/replication_alter_test/replication_alter_test.info.yml	5ba39a5420a28daba9fa6adf54a241c3
+M	tests/src/Kernel/Normalizer/AttachmentNormalizerTest.php	19909047a8124f7e5111381204be5dd8
+M	tests/src/Kernel/Normalizer/BulkDocsNormalizerTest.php	da301ffcb018068f31429d8ba1d68591
+M	tests/src/Kernel/Normalizer/ContentEntityNormalizerAlterTest.php	9d22446c27250fb3888050afec41ffed
+M	tests/src/Kernel/Normalizer/ContentEntityNormalizerTest.php	b524b781d00dd4a2ba8caecd97d5cff9
+M	tests/src/Kernel/Normalizer/EntityReferenceItemNormalizerTest.php	b14c9832141ddad2bfab352a0f0bb2f2
+M	tests/src/Kernel/Normalizer/FileEntityNormalizerTest.php	356da6acba5fd0ad943f8188f1ef0882
+M	tests/src/Kernel/Normalizer/LinkItemNormalizerTest.php	842eaedb1e961458a5d599c89a1492e0
+M	tests/src/Kernel/Normalizer/WorkspaceNormalizerTest.php	b869b02796b8cee363b78e5da42211db

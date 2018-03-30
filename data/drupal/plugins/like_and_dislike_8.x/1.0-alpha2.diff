@@ -1,0 +1,22 @@
+A	config/install/like_and_dislike.settings.yml	50625467e6abe20633fa8099b3010d76
+M	config/install/votingapi.vote_type.dislike.yml	2bd1f1b04f28b2ab37f07d20dc83722e
+M	config/install/votingapi.vote_type.like.yml	783a352da526268c950928e407cf4d59
+A	config/schema/like_and_dislike.schema.yml	cbe6d2b3893303d9bc225f9d777cb77e
+A	css/like_and_dislike.icons.css	b1608ce7a0248a7361c85c8b86a2bfb5
+A	images/sprite.png	c6c0916af0fcc940132d330dad37a6f6
+A	js/like_and_dislike.js	834da757d5f2ccab55c7c5cad746e919
+A	js/like_and_dislike_service.js	166b8c06aa2f1e47fac56bdd95922d0e
+M	like_and_dislike.info.yml	02895cca552feb80e6be59d6a31b87bb
+A	like_and_dislike.libraries.yml	791d430f3566a9777f1de5360996c933
+M	like_and_dislike.module	70646c7cfd678ac7a1cd387204a3d625
+M	like_and_dislike.permissions.yml	1fd7b0389858947eeb06da7fc1b12a4c
+M	like_and_dislike.routing.yml	dfddca2beb0daecb4a2a8992c8f7c9d2
+A	like_and_dislike.services.yml	7b77b55b9c8a35e4df27fbbb8be9569e
+M	src/Controller/VoteController.php	2ea39e17810074cac1aa6aa1c45f15e0
+M	src/Form/SettingsForm.php	9c906a209b8dd150ee648c4a880323e0
+D	src/LikeDislikeAccessController.php	
+M	src/LikeDislikePermissions.php	b47bae85a64783bda1ca436b69a8c36c
+A	src/LikeDislikeVoteBuilder.php	dd3a8d21deab33dfb861f5b370426e80
+A	src/LikeDislikeVoteBuilderInterface.php	8ddba2454ea92616e3f50771e7b7a608
+A	src/Tests/LikeAndDislikeTest.php	0a9310bf6fc212eb13fd8404dde668e7
+A	templates/like-and-dislike-icons.html.twig	d1dee1ae3b5e2c851916d48cc07bff4e

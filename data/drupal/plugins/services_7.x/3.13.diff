@@ -1,0 +1,16 @@
+M	auth/services_oauth/services_oauth.info	9a51062d25fd1536b4ccda52393a0270
+M	plugins/export_ui/services_ctools_export_ui.class.php	c6f070e7ceba27c9daf69ad7e863d3df
+M	resources/comment_resource.inc	179fa36f7af14fae54627fffa8f0c7f9
+M	resources/file_resource.inc	44a1de5fb493a21edc091f18ccb0799f
+M	resources/node_resource.inc	cfc1bcb4363d19d0061c083cfc1944fb
+M	resources/taxonomy_resource.inc	afbba9125cc70ace29ce43c5a5534244
+M	resources/user_resource.inc	b79a385471dc8d6d9d5fe001fe827011
+M	servers/rest_server/includes/RESTServer.inc	dd6c1ebf32836ef12c547816f727b345
+M	servers/rest_server/includes/ServicesParser.inc	919e087fe0990666eeebd4e62550983d
+M	servers/rest_server/rest_server.info	5ad20db43759bfc59e32621a0f25775d
+M	servers/xmlrpc_server/xmlrpc_server.info	b80005a99d51ba94d1b1295cc54e232c
+M	servers/xmlrpc_server/xmlrpc_server.module	05eac1795ab8d6bebb05d33fc82bf6e9
+M	services.admin.inc	65fd9e17c0a26a16e29c9b1bc6865a06
+M	services.info	6d19a6425990d0c6c9dc35abf56d22aa
+M	services.module	d5cff47a532c0856ebc4128d502803ad
+M	tests/services_test_resource/services_test_resource.info	8db047a16fb85bfa9774ca7342901312

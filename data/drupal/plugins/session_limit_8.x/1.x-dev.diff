@@ -1,0 +1,8 @@
+M	session_limit.info.yml	7418a65026001a0d28baf1b975528c05
+M	session_limit.services.yml	0ca5ad5aab138a5ba365145d8554cd6b
+M	src/Event/SessionLimitBypassEvent.php	cafa178b86c98d6313ce85db8b3f1a78
+M	src/Event/SessionLimitCollisionEvent.php	a9fb2e0c6288bd2246c65f1c52a82862
+M	src/Event/SessionLimitDisconnectEvent.php	12890054433f5fba7dd87dad388022e1
+M	src/Form/SessionLimitForm.php	7f10da4639d308cb021a452c83b85073
+M	src/Form/SettingsForm.php	53aa6e4dea4f6641b973b4672a38529c
+M	src/Services/SessionLimit.php	c55ab3f96d4036b596f1c2cab9e6d2b8

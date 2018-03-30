@@ -1,0 +1,17 @@
+M	INSTALL.txt	b8fa6d44a57cfcdd0116da90cea940d5
+M	imagecache.api.php	70f555e9424105b908241f1d939fbf0c
+A	imagecache.drush.inc	e940e13016a1708bca54b03a5582c344
+M	imagecache.info	d009f3487eb448845b6260a74a73aad4
+M	imagecache.install	0988c01f8615de96286e22373b78629d
+A	imagecache.js	7f672c9bd1773d9059093304d63a53f6
+M	imagecache.module	1c2e46066835579a88337059c9c89e00
+M	imagecache_actions.inc	f04ac31c223c026311d5e04bb9abf027
+M	imagecache_ui.info	2c6575431c5a4e44d7e603983fed8faa
+M	imagecache_ui.module	2ed0c03096e5571d381f7c9ac7a81bf7
+M	imagecache_ui.pages.inc	24b221542953b81aa7cd8d8e9d21bf11
+M	sample.png	10b03fb1db7f44e011a5aec248a2daad
+M	tests/imagecache_create_url.test	46279c82fe949856160f20978727e315
+D	translations/de.po	
+D	translations/fr.po	
+D	translations/ja.po	
+D	translations/nl.po	

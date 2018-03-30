@@ -1,0 +1,5 @@
+M	formblock.info.yml	5b48b9b51a97e840b969ce860736d303
+M	src/Plugin/Block/ContactFormBlock.php	bf9ac950e3b5ff7378df3e92baae814d
+M	src/Plugin/Block/NodeFormBlock.php	55c07dd537ca3c7ce8581d880863970b
+M	src/Plugin/Block/UserPasswordBlock.php	5cf1aed3799b701e8a55a791fd23a5be
+M	src/Plugin/Block/UserRegisterBlock.php	4d1fd96c9903a2335d251cbe8bdb49f2

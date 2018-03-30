@@ -1,0 +1,51 @@
+M	schema_article/schema_article.info.yml	07187e8cd9a0181a6fbab79612475759
+M	schema_article_example/schema_article_example.info.yml	37fda0bf8846aabe5c1135ce29bc5b6a
+M	schema_audit/schema_audit.info.yml	e8677e60f31d3b81ba8ae710a9352137
+M	schema_book/schema_book.info.yml	01cfa93a7745ab74b61880e76f535342
+M	schema_event/schema_event.info.yml	df99a00cb76bd5e8aa5afc33e1708b97
+M	schema_image_object/schema_image_object.info.yml	d99f7d7308e19a92926ff72ebc10287d
+M	schema_item_list/schema_item_list.info.yml	43eae5dd07f9f44a928700afdef80411
+M	schema_job_posting/schema_job_posting.info.yml	6112c33fdaedcfc3463e32785d77e7cd
+M	schema_metatag.info.yml	cca7ee6bb6bd2f76fd37daf0f422610d
+M	schema_movie/schema_movie.info.yml	ebb604deed9498a50eeea215526d1f8e
+M	schema_organization/schema_organization.info.yml	e7b1e1d31d5669a7690b0214ec9774fa
+M	schema_person/schema_person.info.yml	37c2902a46837630580eb32585b0a57d
+M	schema_product/schema_product.info.yml	8e332216cbe504dc829d3041bcb145ec
+D	schema_program_membership/config/schema/schema_program_membership.metatag_tag.schema.yml	
+D	schema_program_membership/schema_program_membership.info.yml	
+D	schema_program_membership/schema_program_membership.module	
+D	schema_program_membership/src/Plugin/metatag/Group/SchemaProgramMembership.php	
+D	schema_program_membership/src/Plugin/metatag/Tag/SchemaProgramMembershipAdditionalType.php	
+D	schema_program_membership/src/Plugin/metatag/Tag/SchemaProgramMembershipAlternateName.php	
+D	schema_program_membership/src/Plugin/metatag/Tag/SchemaProgramMembershipDescription.php	
+D	schema_program_membership/src/Plugin/metatag/Tag/SchemaProgramMembershipDisambiguatingDescription.php	
+D	schema_program_membership/src/Plugin/metatag/Tag/SchemaProgramMembershipHostingOrganization.php	
+D	schema_program_membership/src/Plugin/metatag/Tag/SchemaProgramMembershipIdentifier.php	
+D	schema_program_membership/src/Plugin/metatag/Tag/SchemaProgramMembershipImage.php	
+D	schema_program_membership/src/Plugin/metatag/Tag/SchemaProgramMembershipMainEntityOfPage.php	
+D	schema_program_membership/src/Plugin/metatag/Tag/SchemaProgramMembershipMember.php	
+D	schema_program_membership/src/Plugin/metatag/Tag/SchemaProgramMembershipMembershipNumber.php	
+D	schema_program_membership/src/Plugin/metatag/Tag/SchemaProgramMembershipName.php	
+D	schema_program_membership/src/Plugin/metatag/Tag/SchemaProgramMembershipProgramName.php	
+D	schema_program_membership/src/Plugin/metatag/Tag/SchemaProgramMembershipSameAs.php	
+D	schema_program_membership/src/Plugin/metatag/Tag/SchemaProgramMembershipType.php	
+D	schema_program_membership/src/Plugin/metatag/Tag/SchemaProgramMembershipUrl.php	
+D	schema_program_membership/tests/src/Functional/SchemaProgramMembershipTest.php	
+M	schema_recipe/schema_recipe.info.yml	c76a72f1b7c7b0e4faa3ef0d79a50daa
+M	schema_review/schema_review.info.yml	3fa30e7a7e92a77e3fbd2f1676757147
+M	schema_service/schema_service.info.yml	e9589b8d050280dccade3a88080da791
+M	schema_video_object/schema_video_object.info.yml	cc554b35f7bfc6f2622fb35c5a10a950
+D	schema_votingapi/schema_votingapi.info.yml	
+D	schema_votingapi/src/Plugin/metatag/Tag/SchemaArticleAggregateRatingVotingApi.php	
+D	schema_votingapi/src/Plugin/metatag/Tag/SchemaEventAggregateRatingVotingApi.php	
+D	schema_votingapi/src/Plugin/metatag/Tag/SchemaImageObjectAggregateRatingVotingApi.php	
+D	schema_votingapi/src/Plugin/metatag/Tag/SchemaOrganizationAggregateRatingVotingApi.php	
+D	schema_votingapi/src/Plugin/metatag/Tag/SchemaPersonAggregateRatingVotingApi.php	
+D	schema_votingapi/src/Plugin/metatag/Tag/SchemaProductAggregateRatingVotingApi.php	
+D	schema_votingapi/src/Plugin/metatag/Tag/SchemaRecipeAggregateRatingVotingApi.php	
+D	schema_votingapi/src/Plugin/metatag/Tag/SchemaServiceAggregateRatingVotingApi.php	
+D	schema_votingapi/src/Plugin/metatag/Tag/SchemaVideoObjectAggregateRatingVotingApi.php	
+D	schema_votingapi/src/Plugin/metatag/Tag/SchemaVotingapiAggregateRatingBase.php	
+M	schema_web_page/schema_web_page.info.yml	9f1b76bb1d7a644818b0c6af4bb18d16
+M	schema_web_site/schema_web_site.info.yml	7b4df523b7708c7da6a3bfcaec052ab7
+M	tests/modules/schema_metatag_test/schema_metatag_test.info.yml	cab18b474f7ecc567283bf0da51d493d

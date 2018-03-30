@@ -1,0 +1,16 @@
+D	date_validation/README.txt	
+D	date_validation/date_validation.info	
+D	date_validation/date_validation.module	
+D	date_validation/date_validation.validators.inc	
+D	field_validation.admin.inc	
+M	field_validation.default_field_validation_rules.inc	343f51825b290a2f3b8a3073834764f3
+M	field_validation.info	2f209a69a1f9566f6f3f581c0a11338c
+M	field_validation.install	5c4bbe4e9ab95c417470e7456cefee79
+M	field_validation.module	b6f1af3a5c50cfed1cdab5c9f075eaed
+D	field_validation.rules.inc	
+D	field_validation.validators.inc	
+A	field_validation_ui.info	c2431385c97d34c9271ef3e7ab896ba0
+A	field_validation_ui.module	0eadb33db2b88d833c87fc7411396e60
+A	field_validation_validator.inc	6192224a0eb20ae252f6ae0e228a2091
+M	plugins/export_ui/field_validation_export_ui.inc	a6917f269f10d1d20dfb87aa82584b6d
+A	plugins/validator/field_validation_min_length_validator.inc	fc616b9a7a6765430abbb8f2c1f55f13

@@ -1,0 +1,5 @@
+M	acquia_agent/acquia_agent.info	58aebbaf872e702e19374bd898374924
+M	acquia_agent/acquia_agent.module	be776e525b00a397d91ea6ad5941501d
+M	acquia_search/acquia_search.info	401ca37f9d0db6b22538dd7ade77bd32
+A	acquia_search/drush/acquia_search.drush.inc	04b7e7bfb55e85a216725044262d8c6c
+M	acquia_spi/acquia_spi.info	8919ce74922149cf72cfce89143ac614

@@ -1,0 +1,14 @@
+M	README.txt	16d234e3085095fdca13c2df3d8d3cd7
+M	css/ddslick/ddsBlue.css	631d3955683083a691bba4ee109ffc85
+M	css/ddslick/ddsDark.css	0834691f19db27d162760fba9105d694
+M	css/ddslick/ddsDefault.css	af02bd0798ff954a2f275c99bdcb343c
+M	css/lang_dropdown.css	3eb2ebe9999d83885b885130eaa24a59
+M	css/msdropdown/ldsBlue.css	b570455164fc23264859c49d79abda32
+M	css/msdropdown/ldsDark.css	1bd525cf7234606493f6240ef2c4a325
+M	css/msdropdown/ldsSkin.css	0f5dbd8336e95dbafcd4a21fde73e11f
+M	js/lang_dropdown.js	95aa370051790926144780c3f4ef1b8e
+M	lang_dropdown.info.yml	6404e8b447c84164339517a19dd1b29a
+M	lang_dropdown.module	8029a825dd0a53f5d677af76c99cfc44
+M	src/Form/LanguageDropdownForm.php	b2dffb664fa1fa6c11b9fde6fcc42f34
+M	src/Plugin/Block/LanguageDropdownBlock.php	3633bea92a9385f876f87389853be085
+M	src/Plugin/Derivative/LanguageDropdownBlock.php	0e3f5fd76fc53286e4ffdb55c5eaddfc

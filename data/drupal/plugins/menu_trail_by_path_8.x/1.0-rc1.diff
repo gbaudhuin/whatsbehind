@@ -1,0 +1,7 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	92380d175b2b032da77140e757155890
+A	composer.json	6add08d5857d4ad22dfacc815d5a8941
+A	menu_trail_by_path.info.yml	8cc5d38324d5759285970c915fe84015
+A	menu_trail_by_path.module	68583093fe1b5d7bba88e443722a67b1
+A	src/MenuTrailByPathActiveTrail.php	2e9ad5804532184a4a0fc1a87a4c5507
+A	src/MenuTrailByPathServiceProvider.php	35a3c888b455d60f6bbe638c64d593cd

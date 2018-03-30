@@ -1,0 +1,9 @@
+M	jsonapi.info.yml	41e50cb40e42acab6cf7391342013142
+M	jsonapi.services.yml	e673684005244f720a6bd996e51ed490
+M	src/Controller/EntityResource.php	18af452e72d669cf772c5a08857a12cc
+M	src/Controller/RequestHandler.php	8be091c819fed021159ea5de8f3a45fc
+M	src/EventSubscriber/ResourceResponseSubscriber.php	a4237e328570c3c6991c12f082392447
+M	src/Normalizer/RelationshipNormalizer.php	f9324649caed09fa16543133cdf339e9
+M	tests/src/Functional/JsonApiFunctionalTest.php	7217027c4e35ee581f105fa441f166db
+M	tests/src/Kernel/Controller/EntityResourceTest.php	87d4db65c001468c167db825fa1567f1
+M	tests/src/Unit/EventSubscriber/ResourceResponseSubscriberTest.php	49eda2eb6c15f614021e8543a0419c5d

@@ -1,0 +1,7 @@
+M	config_readonly.info.yml	75afed7b37f268fc5843bae65a038a6d
+M	config_readonly.module	07dfec6b5e0ce26a3b4fd8b7457f02aa
+A	config_readonly.services.yml	1a10f3215114177858e24be4fb81ca54
+M	src/Config/ConfigReadonlyStorage.php	2c6f99e386f1332311f1982243d248f0
+A	src/EventSubscriber/ReadOnlyFormSubscriber.php	c83debe64541d9ea0c42a64e223916ef
+A	src/ReadOnlyFormEvent.php	ce07f50cb51030925faf9413a074adca
+A	src/Tests/ReadOnlyConfigTest.php	0cae1645406b46b87580abd771ade6e3

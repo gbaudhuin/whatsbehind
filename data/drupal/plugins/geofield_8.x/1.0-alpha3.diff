@@ -1,0 +1,38 @@
+M	config/schema/geofield.schema.yml	7e6b1833d303fb507743e7d02d9354e6
+M	geofield.info.yml	2d9340e37a1831727cca37303a0e0d64
+M	geofield.module	9fe139ce6030360dac1a939e117b0b4a
+A	src/DmsConverter.php	ad6c5472ab6d3b15a44442cc86baa943
+A	src/DmsConverterInterface.php	f394abf7e3903dbae6b08c5990d89de4
+A	src/DmsPoint.php	8fb240565ab145c8c457ea46c88e78b6
+M	src/Element/GeofieldBounds.php	42c18675c7f93f2ad9a6b382caa77c8f
+A	src/Element/GeofieldDms.php	8091677aa4f9437d45f1382b70feedfd
+M	src/Element/GeofieldElementBase.php	46d53e6e3644212a6337d4afda36e43f
+M	src/Element/GeofieldLatLon.php	ae8d8c827beb816e5908269cfaba58da
+M	src/Element/GeofieldProximity.php	9c1dca7ed1b627fae8aac884179453ab
+M	src/GeoPHP/GeoPHPInterface.php	da10f215ccffac0a04a5defa982ff1ac
+M	src/GeoPHP/GeoPHPWrapper.php	3c5267cf4148ef6419e65f403223e06c
+A	src/Plugin/Field/FieldFormatter/DmsFormatter.php	0c1526b2e7944462b69b8a6b0eb0cae3
+M	src/Plugin/Field/FieldFormatter/GeofieldDefaultFormatter.php	245a2d1128f9922991486221de82de89
+M	src/Plugin/Field/FieldType/GeofieldItem.php	9d9a263ed54677843fb074f1d863b967
+M	src/Plugin/Field/FieldWidget/GeofieldBoundsWidget.php	cdd55ce54550ed1688fd57114db15b15
+M	src/Plugin/Field/FieldWidget/GeofieldDefaultWidget.php	3f1681752066dff7bd2e677ddc5a1e73
+A	src/Plugin/Field/FieldWidget/GeofieldDmsWidget.php	16ace54ed8ac203c95ad2c57ad48c74d
+M	src/Plugin/Field/FieldWidget/GeofieldLatLonWidget.php	794537969e8c1bb0ff1bb2c379d34cc1
+M	src/Plugin/GeofieldBackend/GeofieldBackendDefault.php	7436049f7daad11bc2a6436a6b2ff096
+M	src/Plugin/Validation/Constraint/GeoConstraint.php	ca3a146b5904b389fdb54f4b35cf94e1
+A	src/Plugin/Validation/Constraint/GeoConstraintValidator.php	70e2dc32f98aa7915585e93ef102da5b
+M	src/Plugin/migrate/process/GeofieldLatLon.php	b65d6b5a8c2284f9cb8a785f56f3e18d
+M	src/Plugin/views/field/GeofieldProximity.php	79d85a0e49146d140abc93207f0fcb5b
+M	src/Plugin/views/filter/GeofieldProximity.php	6e3eb95e0ad690f95b10b2fe6ac5e135
+M	src/Plugin/views/sort/GeofieldProximity.php	909ff6cee59107e9e52baf7ec0e26ad5
+D	src/Tests/GeofieldFormatterTest.php	
+D	src/Tests/GeofieldItemTest.php	
+D	src/Tests/WktGeneratorTest.php	
+M	src/WktGenerator.php	7e4da667a97573969fd8fa84c716f7ea
+A	templates/geofield-dms.html.twig	9b2b38b5b3ca26d4fca083dad45530aa
+A	tests/src/Functional/GeofieldWidgetTest.php	ba95ccc187cfa36332ba8c4f421e30ce
+A	tests/src/Kernel/ConstraintsTest.php	d40e3fc6bdebf61246bad1d8ad93a2e5
+A	tests/src/Kernel/GeofieldFormatterTest.php	1f3f191ac47743f18ac5409afb759168
+A	tests/src/Kernel/GeofieldItemTest.php	c3049b1bf8f70a1ab87b5a11f8254adc
+A	tests/src/Kernel/WktGeneratorTest.php	96e0fdada16f91111feebc058f8e01d1
+A	tests/src/Unit/DmsConverterTest.php	7ab2af459b104cdeda52eefdd8d76ea4

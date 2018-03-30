@@ -1,0 +1,4 @@
+M	override_node_options.info.yml	8d6fcb581b72955bdf650d54f6f78a20
+M	override_node_options.module	f5ce8b28fb2706499cfb23ae2e7896dd
+D	src/Form/NodeForm.php	
+M	tests/src/Functional/NodeFormTest.php	508f23b9c2466bbbd0a7b41e4f55c5cc

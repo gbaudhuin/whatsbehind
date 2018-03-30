@@ -1,0 +1,11 @@
+M	CHANGELOG.txt	4b1ea8965aa615c0bc39faf7ab11b34d
+M	migrate.drush.inc	f20d8f7852f21e0e7241a265ac9bafad
+M	migrate.info	e3171b1c5c3780cd8817d53a938283f2
+M	migrate_example/migrate_example.info	070f7335c5d44285dfda2d94ef1daefa
+M	migrate_example/migrate_example_oracle/migrate_example_oracle.info	ca342ad0b1d24e2f429fd0d3e71f3206
+M	migrate_example_baseball/migrate_example_baseball.info	0f00c42a02548264c6f562a49f00cc1a
+M	migrate_ui/migrate_ui.info	7c2f423d16232b2f7a310823a6edd6b2
+M	plugins/destinations/fields.inc	1909e8d82fac93979b31958932c3264b
+M	plugins/destinations/term.inc	ad5f2f32d21108ddce83dd752e37f21b
+M	plugins/destinations/user.inc	63bb02a1893ef4b8405ed540e71a4002
+M	plugins/sources/csv.inc	cdfc6d8f4a382c60a67f7dd2b81835bd

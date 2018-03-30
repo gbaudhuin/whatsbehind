@@ -1,0 +1,10 @@
+A	.editorconfig	3cafc6993bc05dcc246c8959af4b1522
+A	.gitignore	7a8b085dbf273de1bb2cb0b44c858f33
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	paragraphs_edit.info.yml	c19666971300b13b328f578a72594311
+A	paragraphs_edit.links.contextual.yml	d59ad1b8bf5c7e0002c00c590f677b77
+A	paragraphs_edit.module	49cb8576efc3b510ad8ca721c5acacc4
+A	paragraphs_edit.routing.yml	20ab5cf8104bf2936c8d1f1112dd3b36
+A	src/ParagraphCloneForm.php	de0b7957840b1aaaf16c8d3d016f135b
+A	src/ParagraphDeleteForm.php	5b153b15ae9c98fdcf3514bd361cbaad
+A	src/ParagraphEditForm.php	ec4d0f0b976cdb872ec3b4c1b2e17b41

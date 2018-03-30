@@ -1,0 +1,5 @@
+A	CHANGELOG.txt	3240d9540d49ff0fa0e48d38ff87306a
+M	src/Plugin/Field/FieldFormatter/VideoEmbedPlayerFormatter.php	99c86fb52703bed28536ab0c84b8c66f
+M	src/Plugin/video/Provider/Instagram.php	42fe0124d8b8481a35618cd45180e062
+M	src/Plugin/video/Provider/YouTube.php	e71e6fe4a93ae51d95535eb6dcbbcf46
+M	video.info.yml	ff51ccf2143917842456858adc2de012

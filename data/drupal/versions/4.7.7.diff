@@ -1,0 +1,14 @@
+M	CHANGELOG.txt	f0ef3c41b86561c8f61fab7b740cbb07
+M	INSTALL.txt	daccdce88cd0e7ce48924f74892ad391
+M	includes/bootstrap.inc	7a2862236e19707edae91b1bb38eb638
+M	includes/common.inc	e5c4e23936622ea84c09a53b83a3d0c1
+M	includes/database.inc	95c857d86f761e265c30b39ad8d64060
+M	misc/textarea.js	dbc57aceaeaf19de9a3e124ad8d75cf0
+M	modules/comment.module	85d6a31c97688865b0fee4ec29aec491
+M	modules/filter.module	26659bdef112f5d6b559cf6c6514047d
+M	modules/poll.module	5f7dbd1e7f6b72605a33dd8093e60e9e
+M	modules/profile.module	24de87ac7443eb4f4a64d7d33f1ab96e
+M	modules/system.module	f66e9ee142b4d897eb08b252faeb406c
+M	modules/upload.module	64554eeedb786b97f87e6efc7edbc6d9
+M	modules/user.module	66e90ce2fc007c048e6355b72ff9dfb1
+M	sites/default/settings.php	108f045a0c4cfeed0c366db5b6c850ce

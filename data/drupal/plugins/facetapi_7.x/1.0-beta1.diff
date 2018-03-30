@@ -1,0 +1,16 @@
+A	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+A	facetapi.admin.inc	e01b0a01d43bb29ba14796afdc3b9bd8
+A	facetapi.api.php	6e6e34f7dad463f2f00c9ec012a2a8d3
+A	facetapi.block.inc	60e3a81319fc9f713ab403e192bd1135
+A	facetapi.callbacks.inc	f8684c671a7771e7f4af7dae11d772dc
+A	facetapi.date.inc	aabf2deb9f85b9cadaeb69929865683d
+A	facetapi.info	1c70ec04d642e386b9db69187169dd0f
+A	facetapi.install	3f4b50de77848a62719bcbaeddbbfd70
+A	facetapi.js	90c163f223966db180b84c70dc4a4068
+A	facetapi.module	3171b88af01fdbffc4fdc4f3558acae7
+A	facetapi.theme.inc	d7d287f562ca75f631d62815ff9bf321
+A	plugins/facetapi/adapter.inc	5a9b5a28c602ea967b94076717ab6756
+A	plugins/facetapi/query_type.inc	dbb701fc3e93fbaa52b1bffaecc9b5ba
+A	plugins/facetapi/widget.inc	c9bc216758bbfe4c482d71c5e7e37e8e
+A	plugins/facetapi/widget_checkbox_links.inc	d5401cb45d22f8023cc6a5d68dca2eb1
+A	plugins/facetapi/widget_links.inc	34543095a17b18b8b21a89f84387d820

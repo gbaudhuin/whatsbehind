@@ -1,0 +1,31 @@
+M	README	6d7702c2d202ea41af3ccd81a1606e06
+M	inline_entity_form.info.yml	b14595494765e621df25ea9577ba5860
+M	inline_entity_form.module	0fbb5fe4a291c60ddcbe8f6123329af4
+D	inline_entity_form.routing.yml	
+D	src/Controller/AutocompleteController.php	
+M	src/Element/InlineEntityForm.php	b1dbe10144a3bab1e0739d31cebbcdb3
+A	src/Form/EntityInlineForm.php	c2f6502ad888a9c74e3d5f94a850816a
+A	src/Form/NodeInlineForm.php	e338242c7ce8084bf3f66fc31334bb04
+D	src/InlineEntityForm/EntityInlineEntityFormHandler.php	
+D	src/InlineEntityForm/NodeInlineEntityFormHandler.php	
+D	src/InlineEntityFormHandlerInterface.php	
+A	src/InlineFormInterface.php	96e70ae5c09a18c6d0c3e419128592df
+M	src/Plugin/Field/FieldWidget/InlineEntityFormBase.php	71cbbf025faac35c603f6c48c6f8c7ad
+M	src/Plugin/Field/FieldWidget/InlineEntityFormComplex.php	067899799c1964cb1518c2aea09af61a
+M	src/Plugin/Field/FieldWidget/InlineEntityFormSimple.php	7fec073a079a215f1b9370c202ef6232
+A	src/Tests/InlineEntityFormComplexWebTest.php	1ed44b8df9113d8277e3adabeb89f907
+M	src/Tests/InlineEntityFormWebTest.php	5506ce1c60347064f2ac30a28bac6829
+A	tests/modules/inline_entity_form_test/config/install/core.entity_form_display.node.ief_reference_type.default.yml	13fc50e58ff2ee0193948d99d2eacf69
+A	tests/modules/inline_entity_form_test/config/install/core.entity_form_display.node.ief_test_complex.default.yml	dfdfbaaa413f68f83d2f86ba888c2276
+A	tests/modules/inline_entity_form_test/config/install/field.field.node.ief_reference_type.first_name.yml	268cc6ada5bf93119008bf3fbdcaa5e9
+A	tests/modules/inline_entity_form_test/config/install/field.field.node.ief_reference_type.last_name.yml	593f5637dc29e39db89b000a481eb6f8
+M	tests/modules/inline_entity_form_test/config/install/field.field.node.ief_simple_single.single.yml	84c59799a1c3b31586fc6ecb13a4b4e8
+A	tests/modules/inline_entity_form_test/config/install/field.field.node.ief_test_complex.all_bundles.yml	ac969b3a5b535ad3128b52a0aaf5da0e
+A	tests/modules/inline_entity_form_test/config/install/field.field.node.ief_test_complex.multi.yml	05f5a2e04c3547d21c7805796ce4b696
+A	tests/modules/inline_entity_form_test/config/install/field.storage.node.all_bundles.yml	46f8e3b79c3f4aeff21924136895b74a
+A	tests/modules/inline_entity_form_test/config/install/field.storage.node.first_name.yml	0eb9d01588abad6e06bbf32b346c206a
+A	tests/modules/inline_entity_form_test/config/install/field.storage.node.last_name.yml	c92888b43f7751bc9bc59dc6bd066609
+M	tests/modules/inline_entity_form_test/config/install/field.storage.node.multi.yml	38cc478af1f09631ea168d41677d5852
+A	tests/modules/inline_entity_form_test/config/install/node.type.ief_reference_type.yml	6be4fea6a0db5da3295c30d40c349544
+A	tests/modules/inline_entity_form_test/config/install/node.type.ief_test_complex.yml	96a6a97c812ffe750006f9d6a311a85f
+M	tests/modules/inline_entity_form_test/inline_entity_form_test.info.yml	0567d5384e7a8129f002e48d55f1cc90

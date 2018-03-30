@@ -1,0 +1,6 @@
+M	README.md	1e554ee20fd0a216f776e2ba96a76b93
+M	config/schema/hide_revision_field.schema.yml	8d8730e70c8eb37a13d384f47d2a3b00
+M	hide_revision_field.info.yml	9405747151ae8f3cf2554b011244e41e
+A	hide_revision_field.install	18cdb86da25614f6cd8ea345c0951ed3
+M	hide_revision_field.module	aedebba977b29d6fc05995d23a993407
+A	hide_revision_field.permissions.yml	c7e7d72e5b0e4174d3b441db3196339a

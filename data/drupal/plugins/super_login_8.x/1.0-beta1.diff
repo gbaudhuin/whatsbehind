@@ -1,0 +1,17 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	config/install/super_login.settings.yml	82b134aafbdf84660818a4b6e7fd5750
+A	css/images/login-icon.svg	6a24981cd8f9c05b5ffbd3a378582d3c
+A	css/images/password-icon.svg	dbda5dc957c46b24b81a525fb94137c7
+A	css/images/warning.svg	e74f1ac8d0bfa0bb68442206567f9a3c
+A	css/super-login-buttons.css	d41d8cd98f00b204e9800998ecf8427e
+A	css/super-login.css	e7468dfb3a37efd2537150d2bd620f4e
+A	js/super-login-pw.js	58bfe5dd2cd979bd0f92b9d3e721f6cb
+A	js/super-login.js	b494fed068134876c74c049636f82789
+A	src/Routing/RouteSubscriber.php	4d8040dcf2913b52116cc3e313e1d048
+A	src/Super_loginSettingsForm.php	ec7790ef9aeb8f3c4a79b62d89df30e0
+A	super_login.info.yml	972f1511c2b3b6ee0ea557c01701dc91
+A	super_login.libraries.yml	82554425435ecfcc9504447a6047be55
+A	super_login.links.menu.yml	0aa93e2b7b9b79dee967729db00fef71
+A	super_login.module	503743c669cabb0dc45707886474c64d
+A	super_login.routing.yml	494e0dbf05f855a71fc16a36127829d5
+A	super_login.services.yml	928c1f45b357744147717813a5f3dafa

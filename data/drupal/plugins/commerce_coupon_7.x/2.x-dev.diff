@@ -1,0 +1,7 @@
+M	commerce_coupon.info	0c771ba1b48d28af601baf809c17db5e
+M	commerce_coupon.module	d98968817f3ca36c8dbc7491d9e6857c
+M	commerce_coupon.test	db0852ad2e978e994e00c409aef4849f
+M	includes/commerce_coupon.admin.inc	0dce206942fd960c04aa5c8444aaf7cb
+M	modules/date/commerce_coupon_date.info	cc39bb85b48b6098a9be57ac754fb1b0
+M	modules/usage/commerce_coupon_usage.info	0d76404cdc0db77a8c99fa4c666ced79
+M	modules/user/commerce_coupon_user.info	8e120072b27c06268afd27dfcca30a62

@@ -1,0 +1,15 @@
+A	README.md	5b109e41e0ee36329518f0231ec38c1b
+M	monolog.info.yml	1842137eb2265336241db08048782124
+M	monolog.services.yml	f2677b891e81819d52b634385d2a5ec7
+A	src/Logger/Handler/DrupalHandler.php	d62cfb2fb615c886b9c901dbbead7adf
+M	src/Logger/Logger.php	2f90b84a3197fd16f48e89752c811358
+M	src/Logger/MonologLogLevel.php	704974b9b9f32296133044ecec84edde
+M	src/Logger/MonologLoggerChannelFactory.php	15261e9261191b3073f4dc412188ca3d
+M	src/Logger/Processor/AbstractRequestProcessor.php	014ffa44660a39a80fbe2c230ca3ce43
+M	src/Logger/Processor/CurrentUserProcessor.php	82d61e1c3045665de79763541c7e3f77
+M	src/Logger/Processor/IpProcessor.php	81b2b85beff29d2756618049df57a251
+M	src/Logger/Processor/MessagePlaceholderProcessor.php	2f9358ee99c9f082885a0210a25ef6b3
+M	src/Logger/Processor/RefererProcessor.php	014b5415e8e8e20a37b1739e72fd3bc7
+M	src/Logger/Processor/RequestUriProcessor.php	d2e3fd60fb4f3fc3b9f11466378ae470
+M	src/MonologServiceProvider.php	c9e40e0fa08b4e97c0c9ea6256b362a1
+M	tests/src/Unit/Logger/LoggerTest.php	cfc521ab038c6577496a204250d4a2a3

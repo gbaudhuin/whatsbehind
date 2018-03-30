@@ -1,0 +1,13 @@
+M	README.txt	2932a871bf5b430dbd4c0fd9fcddf1c1
+M	auth/services_oauth/services_oauth.info	971a3cfcadea922bf7fdfaae44cc2701
+M	includes/services.runtime.inc	8c88b69ac2d5906101ed0136289c8d34
+M	resources/comment_resource.inc	226ab6f037ae80fcb6f8231d14ab2d37
+M	resources/file_resource.inc	82718721c64e4597467b9825d9b3cf84
+M	resources/user_resource.inc	199adfe76cdb1e4bb20c14427269a5b7
+M	servers/rest_server/includes/RESTServer.inc	c62198e62f9f88fe1202acac02addb14
+M	servers/rest_server/lib/mimeparse.php	a4a3476b952b17f955e05d448fdee6fe
+M	servers/rest_server/rest_server.info	d569e9ee658177a79aebd1c46ebf6420
+M	servers/xmlrpc_server/xmlrpc_server.info	85228e1ee2aa16b735fd66582a1bd217
+M	services.info	fbcfd4b3bc3ccffafad634aa15346e29
+M	services.install	d6e606720b39bc81e677328efdf497af
+M	tests/services_test_resource/services_test_resource.info	4c8750fdd0137751674deea05870c029

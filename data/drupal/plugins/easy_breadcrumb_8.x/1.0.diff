@@ -1,0 +1,13 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	4e9ced40445b2cd3fa91e610e89678a7
+A	config/install/easy_breadcrumb.settings.yml	1bab1156a184754a0d5d3e8001939c3f
+A	easy_breadcrumb.info.yml	0ebb481526071c1fbd393ded39527135
+A	easy_breadcrumb.install	06eb5f028e39dcd1e602c4e4da8334c4
+A	easy_breadcrumb.links.menu.yml	9e69ce4359335e1e254b24f5e5886cbf
+A	easy_breadcrumb.module	bb607b35793fc91a413db332f5dd112c
+A	easy_breadcrumb.routing.yml	eabeaee2634e4780f3c70662986b73cc
+A	easy_breadcrumb.services.yml	32fdbcf3a6b2747676972236d1f3e937
+A	src/EasyBreadcrumbBuilder.php	eab28bc28e9a2ebb5bf9f5fba1c3d257
+A	src/EasyBreadcrumbConstants.php	637ec7d5e97119ad862cafe201c1b507
+A	src/EventSubscriber/InitSubscriber.php	5f4d6e0e93df76ce8e72b186e9828282
+A	src/Form/EasyBreadcrumbGeneralSettingsForm.php	bb4396d76c34ca2da1cb65899b91c76b

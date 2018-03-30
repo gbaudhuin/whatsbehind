@@ -1,0 +1,14 @@
+M	CHANGELOG.txt	a47f4380ec639b4af3c6f587db26c76b
+M	classes/associated_display.inc	26f474b3e14461ba89f8417637055e48
+M	classes/handler_form.inc	507c26a9d338782c9993bdac5bd74fbe
+M	classes/term_display.inc	ffbbd0998389c5383020617ebe599276
+M	handlers/associated/core.inc	12a009f24cabac6661d42b5a65279a47
+M	handlers/associated/hidden.inc	097309738fe3fc89fc8103f92d8d70b5
+M	handlers/associated/views.inc	035a2b5239597ec5111baced654601c9
+M	handlers/term/core.inc	213d894e05b4d79becc346428f5f6f42
+M	handlers/term/hidden.inc	3d3080dc3597b415aef13cfdd2212d5c
+M	taxonomy_display.admin.inc	b506fad6c28aba8be09653b76d46c446
+M	taxonomy_display.api.php	2d9391d9ff5247f16ac50bc44eaa9a9e
+M	taxonomy_display.info	08a3825d76506259be4ae4237c463673
+M	taxonomy_display.install	3adf716e7b4f9849e43b07896fccab3d
+M	taxonomy_display.module	b9064d793c2d99932779ac5f8ddecc1c

@@ -1,0 +1,7 @@
+M	CHANGELOG.txt	03dea6874edc01df6b80d98867585b9c
+A	README.md	28030a33e4262391116e6df1918bb09e
+M	composer.json	61db175475bbbb3a3a7285d07595f86a
+M	search_api_pantheon.info.yml	a32bb97b0c2fa85487b36676943d07a4
+A	src/Plugin/SolrConnector/PantheonSolrConnector.php	4734507fc3fd43a0b8d69307efd17282
+D	src/Plugin/search_api/backend/SearchApiPantheonSolrBackend.php	
+D	src/search_api_solr/PantheonSolrHelper.php	

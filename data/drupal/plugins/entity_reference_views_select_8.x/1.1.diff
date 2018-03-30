@@ -1,0 +1,3 @@
+M	entity_reference_views_select.info.yml	3ba2ba56ead4a438aff0d0c8da9c6c4f
+M	src/Plugin/Field/FieldWidget/EntityReferenceViewsOptionsButtonsWidget.php	9d991c824c7dc96a93adc3e174dc19f4
+M	src/Plugin/Field/FieldWidget/EntityReferenceViewsOptionsSelectWidget.php	9e1ed02f4943d8c002dc295abe3f2597

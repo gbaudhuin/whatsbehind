@@ -1,0 +1,10 @@
+M	.travis.yml	c783e795272bd9d45426805b6bbbb1d0
+M	CHANGELOG.md	488f8e21f37f879fc5cd60edfffc89f2
+M	README.md	da6a14a001db50b528a01cae8d0319c3
+M	composer.json	a872d93dbd6b15ef2608e1e0e3c59e68
+M	lightning_workflow.info.yml	ff21e7bf45d7e002d473ab232f5fdf5d
+M	lightning_workflow.install	c6df84b6ecca9117fefb953002dc1d0f
+M	lightning_workflow.module	6eb71a5307bd7a395db45cf51e53180c
+M	modules/lightning_scheduler/lightning_scheduler.info.yml	9169a53fb2026107de97c25980387a13
+M	tests/features/moderation_states.feature	85b9848647ccfcb9253ca4da0fdf6783
+A	tests/fixtures/1.0.0.sql.gz	ed64632fb60d31ab84e8a0950e76536e

@@ -1,0 +1,11 @@
+M	README.txt	afa21eb88a9e72f176954b3f93c11324
+A	database.inc	3da3cb2a88fbc7d122bb78d255c433e5
+M	dmemcache.inc	4b81de531c211c252e797e3447c89ee3
+A	memcache-lock.inc	3596a326b16ff242cb75b536fbf4020b
+M	memcache-session.inc	c6e4156825d08703a6383a6f9ca36e4f
+M	memcache.db.inc	b684cb5860d4feec377306c4d3722e56
+M	memcache.inc	a5e5b0dfa07c9447a60c3f5cdfd3ca9d
+M	memcache.info	cbc455b88719e5abc329fdbd50f45a98
+M	memcache_admin/memcache_admin.info	c81f0b978dc2efa21e5952c884b2cfc2
+M	memcache_admin/memcache_admin.module	390e233f7d454f6b5df40eda84191718
+A	translations/hu.po	753de69588a24dec1085d016bfb46cb4

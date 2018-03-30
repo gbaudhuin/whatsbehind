@@ -1,0 +1,12 @@
+M	core/CHANGELOG.txt	3cc8cb841bc37014bc27c499919959de
+M	core/lib/Drupal.php	9b6c11c06ef3f3c1363afd2e19819088
+M	core/lib/Drupal/Core/Entity/EntityAccessControlHandler.php	c049cb3dffd1a3b21a86d144e83ca493
+M	core/modules/comment/src/Entity/Comment.php	03868d688dc0c55687f8e3249440c4e9
+M	core/modules/comment/tests/src/Unit/Entity/CommentLockTest.php	3cf3c4712f30fc0a92daa40633e79351
+M	core/modules/rest/tests/src/Functional/EntityResource/Comment/CommentResourceTestBase.php	aae12da19f84b4fc412e707436c1c7eb
+M	core/modules/system/tests/modules/entity_test/entity_test.module	c15ce089c0110d297b43e099526df59d
+A	core/modules/system/tests/modules/entity_test/src/Entity/EntityTestNoUuid.php	b7324e0545583795b92ff37296d8910c
+M	core/modules/views/src/Controller/ViewAjaxController.php	f1b80a1888204b4bda1120e91cbc9b6d
+M	core/modules/views/src/Tests/ViewAjaxTest.php	46c43799c935e530e250b27b86fb9859
+M	core/modules/views/tests/src/Unit/Controller/ViewAjaxControllerTest.php	a73cdab50970aba0f1c75b2b27e8851f
+M	core/tests/Drupal/KernelTests/Core/Entity/EntityAccessControlHandlerTest.php	809377509aa095135e351fc6fa9a7194

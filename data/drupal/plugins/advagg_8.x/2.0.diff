@@ -1,0 +1,46 @@
+M	advagg.info.yml	03aa9ee551fcdf7de67ee7aa3719476c
+M	advagg.install	41152b184eeaf1eb51270c2d522175e9
+M	advagg_bundler/advagg_bundler.info.yml	7d4d44395b484ad600596be54ec81fcc
+M	advagg_cdn/advagg_cdn.info.yml	85b498020a17bcdaac07de3e08ecd393
+M	advagg_css_minify/advagg_css_minify.info.yml	84ba6b22e8f913c8105d4a63dc36ceb4
+M	advagg_ext_minify/advagg_ext_minify.info.yml	2e1bce3d407cc923efefda47d239e91d
+M	advagg_js_minify/advagg_js_minify.info.yml	dada2f98e5883e639df3008f0e8ac09d
+M	advagg_mod/advagg_mod.info.yml	1e3d494b1827c4c1b6c716b527195568
+M	advagg_validator/advagg_validator.info.yml	65f250d7ed21a5bbbd9819be9c1e6567
+M	advagg_validator/src/Form/CssW3Form.php	d54362ee09af2e5989182b64fa232252
+M	config/install/advagg.settings.yml	3ac33c6cdaaf93ecb83b313013ade79c
+M	config/schema/advagg.schema.yml	032f6d2b532131d524cd4a4d654b2cf5
+M	migration_templates/d7_advagg_settings.yml	3b2f890f145af9aad4331ffeb91b3623
+M	src/Asset/AssetResolver.php	8b55aace547429215387d4d719b0b5dc
+M	src/Asset/CssCollectionOptimizer.php	2259b69f1662969b581d29be210df3db
+M	src/Asset/JsCollectionOptimizer.php	09f9e03ecad1fbe13859f7164d2ab7f4
+M	src/Form/SettingsForm.php	0a3f79feb1e82267d651f4f84a2b4020
+M	src/Render/HtmlResponseAttachmentsProcessor.php	b4dc49fbab848062885abae69cd6ab31
+A	src/Tests/AdvaggPathManipulationTest.php	fdd66ca35edc6cff5459aedfb1f40adc
+M	src/Tests/AdvaggTestBase.php	3e5b6b4c3c3fdc79c09b25d644df3146
+D	tests/advagg.test	
+D	tests/css_test_files/advagg.css	
+D	tests/css_test_files/advagg.css.optimized.css	
+D	tests/css_test_files/charset.css	
+D	tests/css_test_files/charset.css.optimized.css	
+D	tests/css_test_files/charset_newline.css	
+D	tests/css_test_files/charset_newline.css.optimized.css	
+D	tests/css_test_files/charset_sameline.css	
+D	tests/css_test_files/charset_sameline.css.optimized.css	
+D	tests/css_test_files/comment_hacks.css	
+D	tests/css_test_files/comment_hacks.css.optimized.css	
+D	tests/css_test_files/comment_hacks.css.unoptimized.css	
+D	tests/css_test_files/css_input_with_import.css	
+D	tests/css_test_files/css_input_with_import.css.optimized.css	
+D	tests/css_test_files/css_input_with_import.css.unoptimized.css	
+D	tests/css_test_files/css_input_without_import.css	
+D	tests/css_test_files/css_input_without_import.css.optimized.css	
+D	tests/css_test_files/css_input_without_import.css.unoptimized.css	
+D	tests/css_test_files/css_subfolder/css_input_with_import.css	
+D	tests/css_test_files/css_subfolder/css_input_with_import.css.optimized.css	
+D	tests/css_test_files/css_subfolder/css_input_with_import.css.unoptimized.css	
+D	tests/css_test_files/import1.css	
+D	tests/css_test_files/import2.css	
+A	tests/modules/advagg_test/advagg_test.info.yml	e55f550840cfd73fda3167cf589b06c9
+A	tests/modules/advagg_test/advagg_test.libraries.yml	a36e22d9bf7bf3e8902ce83a59f61a28
+A	tests/modules/advagg_test/advagg_test.module	f719452cd9e3966de985cac08ef64eef

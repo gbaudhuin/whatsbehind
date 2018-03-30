@@ -1,0 +1,15 @@
+A	.travis.yml	90eae8eeb0a51f604d32d873b57d7423
+A	DEVELOPING.md	547c4f6aa0eab1e3eef87057f1a8dd19
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	867658612d5ea2cc0ba3c6199b5d5357
+A	composer.json	aeffb00e950113807a37511fa828deca
+A	config/install/media_entity_instagram.settings.yml	100b3da4f4ec92b74ebb75c803673bc2
+A	config/schema/media_entity_instagram.schema.yml	c07327c2c7f6adfa9fd75bb919ec4638
+A	images/icons/instagram.png	9b0b2690bd2b4e9de128117eff897aa0
+A	media_entity_instagram.info.yml	7d88d39300f22a6edc84f8275a7a15ae
+A	media_entity_instagram.install	61baed258245697070a83e9f2c43de8f
+A	media_entity_instagram.module	ce407ff5715c837d02b1aba7975bf512
+A	src/Plugin/MediaEntity/Type/Instagram.php	145d8f03dede4ffd96e78711abad101e
+A	src/Plugin/Validation/Constraint/InstagramEmbedCodeConstraint.php	2ea4677171c3d01528eccfec8513a0b2
+A	src/Plugin/Validation/Constraint/InstagramEmbedCodeConstraintValidator.php	4dcaa62e3a2967409e1de0576fd4a173
+A	tests/src/Unit/ConstraintsTest.php	9901af28f94f583104340b50d33af54c

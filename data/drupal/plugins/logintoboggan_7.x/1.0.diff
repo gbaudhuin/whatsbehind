@@ -1,0 +1,16 @@
+M	INSTALL.txt	736dbe60ad9ee8097460722c91e1f663
+M	README.txt	a5bd1461ff2e153690b6ba1b9a57ec51
+M	UPGRADING.txt	2e1e3a0c2bee6b64520e59eb588b3762
+M	contrib/logintoboggan_rules/README.txt	632ff14db3ad3739f573d9a39ffc45ed
+M	contrib/logintoboggan_rules/logintoboggan_rules.info	7068d6f35b68c6132f6e0705349b5842
+M	contrib/logintoboggan_rules/logintoboggan_rules.module	c294492ba6ced363a26f5e850978fe18
+M	logintoboggan-rtl.css	997a64cb98a59539bbcb17c110711061
+A	logintoboggan.admin.inc	36b16a708f2198bada0b94d12611a4fc
+M	logintoboggan.css	3f2cbb9f995ac32090cd4bc50c1821dd
+M	logintoboggan.info	194b89bf30b9524964f4b6927c4bb581
+M	logintoboggan.js	068e591a3323129215a3197b4356da7d
+M	logintoboggan.module	2a4098175bdd306bb9a029ae00707b33
+M	logintoboggan.permissions.js	61b6405238cd9c1ba1a512ff814f876d
+A	logintoboggan.tokens.inc	4e9bc443918279641da09b979125e723
+A	logintoboggan.unifiedlogin.js	9b891cb2cc598411b0e809915d9f3f12
+A	logintoboggan.validation.inc	6564222113f9e9d6f0e4aef8eac7f79d

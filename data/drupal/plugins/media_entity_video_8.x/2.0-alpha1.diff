@@ -1,0 +1,6 @@
+M	composer.json	42f522736be41492d888e898c63fe929
+M	config/schema/media_entity_video.schema.yml	4e8b04427c9693f7d28a986c7ff14cb3
+M	media_entity_video.info.yml	f079cfb657a2ad6557764c16891c44c5
+M	media_entity_video.install	544bfff5de069a4fcab3d6f81f661bcf
+D	src/Plugin/MediaEntity/Type/Video.php	
+A	src/Plugin/media/Source/Video.php	119aa5e97b600671a1ea14fdf63190d6

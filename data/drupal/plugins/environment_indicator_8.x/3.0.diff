@@ -1,0 +1,6 @@
+M	README.md	c2fb8e0480393448f36e58c9a1a0434c
+M	config/install/environment_indicator.settings.yml	379e1ded1e4087a9d95406ac8f595a90
+M	config/schema/environment_indicator.schema.yml	56eb284d1c2e9aa36c85455850476aa1
+M	environment_indicator.info.yml	590a627f9500724aab6a3ca09fed4f6a
+M	environment_indicator.module	36156ee113be20a36708eb4e81b4ddd9
+M	src/Form/EnvironmentIndicatorSettingsForm.php	fe1f9b4f8fe29e311789ce6b511c62c4

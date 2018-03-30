@@ -1,0 +1,19 @@
+M	README.txt	799b39516cd91f4c1bcb45bb0f2a600c
+M	site-map.tpl.php	901d3c3f2403e64179e7c04418c271a4
+M	site_map.admin.inc	063fbfdd4f1488d5b49d74f4a35b0638
+D	site_map.css	
+M	site_map.info	0bd248f1d5e9571421742bc198cd481c
+M	site_map.install	3a4e1fb8ea0ab156563ee48ba7ada48b
+M	site_map.module	0cdc520c68db9220ce0a4b0590cfd3f6
+A	site_map.theme.css	3978c9fc3fde28f4cdb82a2f1bedd42e
+M	site_map.theme.inc	539108366a55685038919df0a5d0b56e
+D	translations/ca.po	
+D	translations/de.po	
+D	translations/es.po	
+D	translations/fr.po	
+D	translations/gl.po	
+D	translations/it.po	
+D	translations/nl.po	
+D	translations/ru.po	
+D	translations/site_map.pot	
+D	translations/sk.po	

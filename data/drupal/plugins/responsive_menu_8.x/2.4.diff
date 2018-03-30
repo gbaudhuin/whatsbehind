@@ -1,0 +1,11 @@
+M	README.md	6d3675378db93a571d490588118cc680
+A	composer.json	6204d838db557dfe30878fe301ff3ea1
+M	config/install/responsive_menu.settings.yml	0044b953b0ba8528eecf6a48e3484bfb
+M	config/schema/responsive_menu.schema.yml	f06932cc6f1dad567faaef123bf75752
+M	js/responsive_menu.config.js	58e5f48411e5980ba07e9dea123c3437
+A	responsive_menu.api.php	b1dcfb4c177a183c86e3fcbcd58d77c4
+M	responsive_menu.info.yml	92e2c4467705815d83a943bc2675bf26
+M	responsive_menu.install	76c84136441e98a67502fe9e669b7dad
+M	responsive_menu.module	26a3a912b9fff7e46fecf03a34ab57e7
+M	src/Form/SettingsForm.php	56715842ded64c6402911f3754893435
+M	src/Plugin/Block/HorizontalMenu.php	cb47add03d97313ec86becbb5f40bd75

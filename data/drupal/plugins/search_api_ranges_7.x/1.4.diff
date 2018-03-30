@@ -1,0 +1,7 @@
+M	includes/callback_search_api_ranges.inc	88bfe1024253fccccf1bdfcbd5af7d28
+M	plugins/facetapi/widget_links.inc	5292a145c1c274bb77b17b04bab0c720
+A	plugins/facetapi/widget_select.inc	b1b8c4838151ed8a47d37b944a9cec5a
+A	plugins/facetapi/widget_slider.inc	6c05c35c03b9416c0ad6ad5919b4bf01
+M	search_api_ranges.info	32150deb332fd1fe675863e8db475083
+M	search_api_ranges.js	2dfc117bc191bb31e0c4f0fe3c27757e
+M	search_api_ranges.module	5975bfc095f309c5c6efa2b85eb7be1e

@@ -1,0 +1,7 @@
+A	.gitignore	7a8b085dbf273de1bb2cb0b44c858f33
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	d7ebe0e992ebe1445c9e26e3cc20541d
+A	background_image_formatter.info.yml	2ea496696f6be33526a8301f44db05fe
+A	background_image_formatter.module	1ac43f6bc7d04715b07b5ca5606e8ba5
+A	src/Plugin/Field/FieldFormatter/BackgroundImageFormatter.php	85e63b30b828bd2c1adbd33e0aa91c67
+A	templates/background-image-formatter-inline.html.twig	02a4f0209c2692ac1a4f991964270e84

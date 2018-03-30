@@ -1,0 +1,13 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	README.txt	3e0d5cbdf0a105b1e184a837682ddbe3
+M	field-collection-item.tpl.php	e37cfad5137a5e85343ef2cdef76f009
+M	field_collection.admin.inc	2a1aa1e2031f888561c852ec8d23fbed
+M	field_collection.info	76db3b4c054eee1cfcca2e37982f9e62
+M	field_collection.info.inc	9477fcec662d357ce2b0f424a82b6bfa
+M	field_collection.install	3c76b4be48bc5199e6d059fbd7d614a2
+M	field_collection.module	1048e8966233cdb5657a6178e7e577e7
+M	field_collection.pages.inc	c07721b34b3e72c4f1d112fa2a6a02df
+M	field_collection.test	823587f07a06e4f21686822f3785fb1c
+A	field_collection.theme.css	fc762fd5bf14d882ce4872ea346a636d
+D	field_collection_view.css	
+M	views/field_collection.views.inc	5ca5fa1b3f6ebf7f47f34d366f4f86fa

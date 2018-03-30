@@ -1,0 +1,4 @@
+M	file_mdm.info.yml	2bf65340346db076d56d85c544ba0de7
+M	file_mdm_exif/file_mdm_exif.info.yml	c9492376c5c91271ac9f0f70e3f395ba
+M	file_mdm_font/file_mdm_font.info.yml	43e5868f3ced4b274f592f0f587991fb
+M	file_mdm_font/src/Plugin/FileMetadata/Font.php	42d18ddf18c459c404fd7e57d0291b3b

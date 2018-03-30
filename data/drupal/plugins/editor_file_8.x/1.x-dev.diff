@@ -1,0 +1,5 @@
+A	README.txt	0e948a92300199cdf87869ed37e91c7c
+M	editor_file.info.yml	62f9b66280b85940c6ba22a1750ea65c
+M	js/plugins/drupalfile/plugin.js	e35b7c4e4988f4e7d83bf98624bc859c
+M	src/Form/EditorFileDialog.php	8e86209493fde076a3c8636797e10634
+M	src/Plugin/CKEditorPlugin/DrupalFile.php	9e51a48a7e6df57d52f943cf8fe9826c

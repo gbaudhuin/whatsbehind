@@ -1,0 +1,31 @@
+M	config/install/redirect.settings.yml	00c8ecd03ec159d575e581a5b99fef8f
+M	config/schema/redirect.schema.yml	fcfb50dc9dca1b340f82de2102dad09e
+A	css/redirect.admin.css	ff9cc9e5210385abb5d0b1274c764251
+D	migration_templates/d6_path_redirect.yml	
+D	migration_templates/d7_path_redirect.yml	
+A	migrations/d6_path_redirect.yml	9caa13cc9e1f9cf7bfdbc7da068004ba
+A	migrations/d7_path_redirect.yml	705302b56ffbd5677ee0d1e099c0ae3a
+M	modules/redirect_404/config/install/views.view.redirect_404.yml	55f54e0071ba2b36380a9e92f4a9c869
+M	modules/redirect_404/redirect_404.info.yml	462ea46da33364b2ba37a5affc6c9767
+M	modules/redirect_404/src/SqlRedirectNotFoundStorage.php	eceef3090d0af71f4cd21856a639f58c
+M	modules/redirect_404/src/Tests/Fix404RedirectUILanguageTest.php	a91d83d4462891b6527b5d1d16bf863c
+M	modules/redirect_404/src/Tests/Redirect404LogSuppressorTest.php	59bdf2f146ea96b8a67b3d15ef99bd01
+M	modules/redirect_404/src/Tests/Redirect404TestBase.php	0d8f710ab249de87e0d9837637691cda
+M	modules/redirect_404/tests/src/Kernel/Fix404RedirectCronJobTest.php	ea372748d837fc421d789a667cd9e0ce
+M	modules/redirect_404/tests/src/Unit/SqlRedirectNotFoundStorageTest.php	608a4a520a31bec9b4fef3bd16b28fa7
+M	modules/redirect_domain/redirect_domain.info.yml	127170b35a03a4ddf41a5fa05d8be2e4
+M	redirect.info.yml	04d5743eb75f5e2c306f0f47cc1deb61
+M	redirect.install	afeaa722b8c0b9aa401d17e664ff45b9
+A	redirect.libraries.yml	a219742d86f8d4c81c70ee375ff0b067
+M	redirect.links.menu.yml	433a3a416e8568d05e2698c26fe53937
+M	redirect.module	e63fb94ef70f0908cc6a5a29b128e4f4
+M	src/EventSubscriber/RedirectRequestSubscriber.php	2fc7e61e126c2e75d37df9481fba998c
+M	src/EventSubscriber/RouteNormalizerRequestSubscriber.php	de3ffa44bda79d27a2c01f7245e44cd4
+M	src/Form/RedirectForm.php	5ccf8006e11af8950bdc6837a59c739c
+M	src/Form/RedirectSettingsForm.php	4d51b61c3dd126aeed5730aa3276decd
+M	src/Plugin/Field/FieldFormatter/RedirectSourceFormatter.php	1ae3e53fee9c733658279098aa73d56b
+M	src/RedirectRepository.php	149f91ba13078a902624adb37f7569ec
+M	src/Tests/RedirectUILanguageTest.php	d33ac8cd3e0e52641baf5f3bb83dc2ae
+M	src/Tests/RedirectUITest.php	ad28071d056f13d0ddd7933e6cdb7b72
+M	tests/src/Unit/RedirectRequestSubscriberTest.php	eaa3f77bbb4995dc937ce177570471de
+A	tests/src/Unit/RouteNormalizerRequestSubscriberTest.php	fcd972b4455cf73f6882d058a28124ba

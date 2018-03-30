@@ -1,0 +1,49 @@
+D	README.txt	
+M	composer.json	e7931c96ad1f7eefb534ac71cef1e939
+A	content/article.template.yml	436f032d374b1f0f0ec49fc0331f9f57
+A	content/article_dummy.template.yml	40676d191dc3da478d3be7f2b3e49443
+M	content/demo.content.yml	9511a0a33518d2640ea4068d58c3dd67
+A	content/dev.content.yml	8eaea2ea83cacb60b9c397c50fdb9f22
+A	content/template_example.content.yml	e8eac8ce958967281d1ee4e94ec076a6
+D	images/demo-image.jpg	
+A	modules/sample_data/sample_data.info.yml	4a0893e5c6d7a09ae9bc192cb05f10f6
+A	modules/sample_data/sample_data.services.yml	50938e1dda3038f5485740de6fa35d91
+A	modules/sample_data/src/Annotation/SampleDataGenerator.php	9e88ca6431786863b8efb4208413e5b6
+A	modules/sample_data/src/DataGeneratorPluginManager.php	94c09547746bbba255d3b2800606186b
+A	modules/sample_data/src/Plugin/SampleData/FileGenerator.php	aa464cb3466ee457916ec4fd860f1959
+A	modules/sample_data/src/Plugin/SampleData/ImageGenerator.php	f5448e7636cd510156a389bb5cc45346
+A	modules/sample_data/src/Plugin/YamlContent/SampleDataProcessor.php	202b79399a3a3ae43e9f8b3dd995235d
+A	modules/sample_data/src/SampleDataGeneratorBase.php	959ea2aad84a926601a2f31096aa1666
+A	modules/sample_data/src/SampleDataGeneratorInterface.php	4338f208e7ded529a9b509bddc289654
+A	modules/sample_data/src/SampleDataLoader.php	47b3ac83a1fdb8c35ce7cdff2e086a0b
+A	modules/sample_data/src/SampleDataSet.php	4f83d7d28d4264f8dd4f7722b870fdae
+A	modules/sample_data/src/lipsum.txt	669f90989e756c7b509930f9c98d81fa
+A	src/Annotation/ContentProcessor.php	5beac28c320c5f60b56c0b7fe54b32ae
+A	src/Annotation/ImportProcessor.php	c3113ce1488e478c8d32776e9cf22968
+A	src/ContentLoader/ConfigurableContentLoader.php	44d24ce972cc5445190276edd0b08561
+D	src/ContentLoader/ContentLoader.php	
+A	src/ContentLoader/ContentLoaderBase.php	d825b171d879d4c339719d2f43ca97c1
+M	src/ContentLoader/ContentLoaderInterface.php	9f1c4434f753998eaf83a5f570b39d08
+A	src/ContentLoader/ProcessedContentLoader.php	8683922b15e92bf3d6afe0295e061320
+A	src/ContentProcessorBase.php	7e0815ddbedd59a2875423666188b756
+A	src/ContentProcessorInterface.php	19d973a5b746cdb7961f8716f5809ea9
+A	src/ContentProcessorPluginManager.php	8ccfcf763ea062720852bc8cf870410a
+A	src/ContentProcessorPluginManagerInterface.php	c872f07cc87afe9a7755d51a5c1b9150
+M	src/Event/ContentParsedEvent.php	dace01878f6272d42de2e6c7fd8a8748
+M	src/Event/FieldImportEvent.php	69fa6fe44f674473441eae409918e5de
+A	src/Event/PostImportEvent.php	f668ec85c4e9e4f7b49cfeebab137748
+A	src/Event/PreImportEvent.php	87769e2c3ea8f2fa8d78136657994c98
+M	src/Event/YamlContentEvents.php	66b30a74bba09471aceb4cc09347b9f7
+A	src/ImportProcessorBase.php	22233486df0eda88b291eeb1de7a4a25
+A	src/ImportProcessorInterface.php	73779e5567cc6201e18049ab3ae5facb
+A	src/Plugin/YamlContent/DebugImportProcessor.php	991bd1912c726b5ec7022f0a813c6706
+A	src/Plugin/YamlContent/EntityReferenceImportProcessor.php	cb3189d1aeb37563bdf6119d3e8ded45
+A	src/Plugin/YamlContent/TemplateProcessor.php	77d54e338549e6284177bdbf78ec87ba
+D	src/Service/LoadHelper.php	
+D	tests/content/basic_node.content.yml	
+D	tests/src/Functional/NodeImportTest.php	
+D	tests/src/Unit/ContentLoaderTest.php	
+M	yaml_content.api.php	f017ef588766043290d74f1694d6655f
+M	yaml_content.drush.inc	dd237cc20c79df65affb5d70c7e1e82b
+M	yaml_content.info.yml	7d3a3f7c66ce567854f373acc004c04d
+M	yaml_content.services.yml	a01e64041ea6e6c9f4e629b29c90e38d

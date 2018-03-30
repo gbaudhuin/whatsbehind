@@ -1,0 +1,23 @@
+M	config/schema/linkit.schema.yml	8febb08843e40e6ce4f07f13ad66ab3d
+M	css/linkit.autocomplete.css	af5fab6a7d3d1128083f103522009802
+M	js/autocomplete.js	0800400f13080b1d36f87cdde4a1df9e
+D	js/linkit.imce.js	
+M	linkit.info.yml	baf990f07c4bafa75a55daf94663c9bf
+M	linkit.install	c282712b7779174226f9d950c3398099
+M	linkit.libraries.yml	57390a3292afc0f3cc3c40b41b9b2182
+M	linkit.module	b42893a3eac26831ec22a637a9ee2880
+M	src/Form/Profile/FormBase.php	4179df62def6d160a60229a57867ec15
+A	src/Plugin/Linkit/Matcher/ContactFormMatcher.php	1a9f093c64f3741e75b4336e0a165572
+M	src/Plugin/Linkit/Matcher/EntityMatcher.php	07d64fcf2b2c74bf4b549602f92a3a22
+M	src/Plugin/Linkit/Matcher/FileMatcher.php	4dfc0ffd7177624957874821a6939dbd
+M	src/Tests/Update/LinkitUpdateTest.php	76794c3232c6fc8466acec022313d0ad
+M	tests/fixtures/update/linkit-additions.php	e3027f1556c2efba5dad8671fc9b6f26
+A	tests/fixtures/update/linkit.linkit_profile.test_profile_with_imce.yml	4588345ddc60af346555639a45769457
+M	tests/linkit_test/linkit_test.info.yml	2017395ba0a19a8a5a4d4f466b57b32f
+D	tests/src/Functional/ImceIntegrationTest.php	
+M	tests/src/FunctionalJavascript/LinkitDialogTest.php	af29d003623084080a6809b7c45a1b78
+M	tests/src/Kernel/LinkitAutocompleteTest.php	90586a711d11867d186f1e303da086c9
+M	tests/src/Kernel/LinkitEditorLinkDialogTest.php	9a72a0b28c200b64084de8ef935f6d1f
+A	tests/src/Kernel/Matchers/ContactFormMatcherTest.php	1ca732614608af0fca09436ac722e201
+M	tests/src/Kernel/Matchers/TermMatcherTest.php	a3f814580fcbc16de62a399762126fb1
+M	tests/src/Kernel/Matchers/UserMatcherTest.php	3ecf4e86ba032a45fb2c1043f4e80998

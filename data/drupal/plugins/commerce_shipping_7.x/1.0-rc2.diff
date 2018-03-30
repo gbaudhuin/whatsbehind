@@ -1,0 +1,13 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	commerce_shipping.info	f6e0a9218b1b14f58f09a078069a0d8c
+M	commerce_shipping.module	ede9edb10736be6c861f7dc905b02002
+M	commerce_shipping.rules.inc	49b884fc433babbecb7755e49551fac9
+M	commerce_shipping.rules_defaults.inc	ac99f3b2404427cfdbdad6ebedf5faa6
+M	commerce_shipping_ui.info	08ae31dcd4f590e726147144979bf09f
+M	commerce_shipping_ui.module	cc8f2e94cbc97215d219ffd50b966cc0
+M	includes/commerce_shipping.checkout_pane.inc	a221a6192566dc6e683f1bbfe8c78187
+M	includes/commerce_shipping_ui.admin.inc	8d836ebcb64451fbc2d95109b39809c6
+M	modules/commerce_shipping_example.info	02b6159808f8d2ead4438adb9df51ba4
+M	modules/commerce_shipping_example.module	d2d8cce035bfecd66fdc420cea061982
+D	plugins/quotes/flat_rate/CommerceShippingFlatRate.class.php	
+D	plugins/quotes/flat_rate/flat_rate.inc	

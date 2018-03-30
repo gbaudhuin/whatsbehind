@@ -1,0 +1,17 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	addtoany.info.yml	42221eecc339d4124398a979e540bd20
+A	addtoany.libraries.yml	04da40c309e7f81b6c1f9fd1bcf2c485
+A	addtoany.links.menu.yml	b19368dfd4a9722512f6f206a0bf4bbb
+A	addtoany.links.task.yml	fefdaf9c70443dc48f8731707eb5e89a
+A	addtoany.module	d6a4a7b88447f3fc32cab462260177b4
+A	addtoany.routing.yml	0b0792e684febf834459d7e339104770
+A	config/install/addtoany.settings.yml	3af64ecf2624c2917a81bb1fa218b6cd
+A	css/addtoany.admin.css	2e7e9fabb8163feb39673a0aebf51845
+A	css/addtoany.css	8e26ebdba0452f17ae9f707a3cb7bb88
+A	images/a2a_32_32.png	3d68fa041428d720dd31e9cbccc73a64
+A	images/a2a_32_32.svg	d7b1fa0f01dda62568809d03e53d0189
+A	js/addtoany.admin.js	dcff5ab60ce82ca5966160dfafad0ad4
+A	src/Form/AddToAnySettingsForm.php	8234a4020fd30bf31d08411d1ad0e579
+A	src/Plugin/Block/AddToAnyBlock.php	0379ea2d621376edf0b59c1771e9b549
+A	templates/addtoany-standard.html.twig	5e94d9a22150535d669cd76c9db76ac2
+A	views/addtoany.views.inc	9d2dc0d76a564363e014042af52ea4ab

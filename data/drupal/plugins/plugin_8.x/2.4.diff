@@ -1,0 +1,79 @@
+D	modules/plugin_test_helper/config/schema/plugin_test_helper.schema.yml	
+D	modules/plugin_test_helper/plugin_test_helper.info.yml	
+D	modules/plugin_test_helper/plugin_test_helper.plugin_type.yml	
+D	modules/plugin_test_helper/plugin_test_helper.routing.yml	
+D	modules/plugin_test_helper/plugin_test_helper.services.yml	
+D	modules/plugin_test_helper/src/AdvancedPluginSelectorBasePluginSelectorForm.php	
+D	modules/plugin_test_helper/src/Plugin/PluginTestHelper/MockConfigurablePlugin.php	
+D	modules/plugin_test_helper/src/Plugin/PluginTestHelper/MockManager.php	
+D	modules/plugin_test_helper/src/Plugin/PluginTestHelper/MockPlugin.php	
+D	modules/plugin_test_mvpbf/config/install/views.view.plugin_test_mvpbf.yml	
+D	modules/plugin_test_mvpbf/plugin_test_mvpbf.info.yml	
+D	modules/plugin_test_mvpbf/src/Entity/MultiValuePluginBaseField.php	
+D	modules/plugin_test_pcf/config/install/field.field.node.plugin_test_pcf.plugin_test_pcf.yml	
+D	modules/plugin_test_pcf/config/install/field.storage.node.plugin_test_pcf.yml	
+D	modules/plugin_test_pcf/config/install/node.type.plugin_test_pcf.yml	
+D	modules/plugin_test_pcf/config/install/views.view.plugin_test_pcf.yml	
+D	modules/plugin_test_pcf/plugin_test_pcf.info.yml	
+D	modules/plugin_test_svpbf/config/install/views.view.plugin_test_svpbf.yml	
+D	modules/plugin_test_svpbf/plugin_test_svpbf.info.yml	
+D	modules/plugin_test_svpbf/src/Entity/SingleValuePluginBaseField.php	
+M	plugin.info.yml	93a510c1521a610988fca5effbdeb5df
+M	plugin.routing.yml	ae2544acbcb89666816f35836bf82750
+M	plugin.services.yml	fbed1df0e91d09e1e48a046906329b95
+M	src/Controller/ListBase.php	93e17cdefab954b61bd56d57a87f72c2
+M	src/Controller/ListPluginTypes.php	fd12a7a630bbd1c7f1bbffc97a99cf53
+M	src/Controller/ListPlugins.php	f4990f0ed0b17112054d9195148854d4
+M	src/DefaultPluginResolver/DefaultPluginResolverInterface.php	76a4804cb41631633772e3199d7b242c
+A	src/ParamConverter/PluginDefinitionConverter.php	42b0a66d9569eca4b58e858374444542
+A	src/ParamConverter/PluginInstanceConverter.php	afefbff827bf85578e34cc8803d3d6c0
+A	src/ParamConverter/PluginTypeBasedConverterTrait.php	baef56a24b01f7129bdb41be7bcd4299
+A	src/ParamConverter/PluginTypeConverter.php	c0a77186e2a162103c4a548f60116867
+M	src/PluginType/DefaultPluginTypeOperationsProvider.php	bc6cfd87250559f073eeda7c578ef29e
+M	src/ViewsData.php	527588ddf13d8f117ba0c905a7c16aaa
+A	tests/modules/plugin_test_helper/config/schema/plugin_test_helper.schema.yml	8e2a49802ea6ad3b5580248209c4f2ab
+A	tests/modules/plugin_test_helper/plugin_test_helper.info.yml	873e69b4e8781f56a20746d47c23a031
+A	tests/modules/plugin_test_helper/plugin_test_helper.plugin_type.yml	faa133df631c81b96aa1d88972a978f5
+A	tests/modules/plugin_test_helper/plugin_test_helper.routing.yml	af2737c0fbbd299a5fcaf34df5412f33
+A	tests/modules/plugin_test_helper/plugin_test_helper.services.yml	d2368a859f329f8c753e3bd371570bd1
+A	tests/modules/plugin_test_helper/src/AdvancedPluginSelectorBasePluginSelectorForm.php	b8d8194fc0bf0bb8e1e325d2d4986247
+A	tests/modules/plugin_test_helper/src/Controller/PluginDefinitionParamConverter.php	f49b2b75d7ba697f5d852b6eb0b6c025
+A	tests/modules/plugin_test_helper/src/Controller/PluginInstanceParamConverter.php	f2da194810c0a8e9cfbd39b5d1298413
+A	tests/modules/plugin_test_helper/src/Controller/PluginTypeParamConverter.php	15482f4210dbc04e67c887f1eb62f1b4
+A	tests/modules/plugin_test_helper/src/Plugin/PluginTestHelper/MockConfigurablePlugin.php	a56591a1920dba8e09a25ecb8e71e113
+A	tests/modules/plugin_test_helper/src/Plugin/PluginTestHelper/MockManager.php	d26c7afec4ba380356d9640f4ba5a18c
+A	tests/modules/plugin_test_helper/src/Plugin/PluginTestHelper/MockPlugin.php	de7f2096f25abc2eae837d5c2629a8f7
+A	tests/modules/plugin_test_helper/src/Plugin/PluginTestHelper/MockPluginInterface.php	c053122249e383b897881cde73ecfabf
+A	tests/modules/plugin_test_mvpbf/config/install/views.view.plugin_test_mvpbf.yml	a71cce7666f7904b9f038e00651c9a1f
+A	tests/modules/plugin_test_mvpbf/plugin_test_mvpbf.info.yml	efc0053e5e5d838788294b04aaf135e3
+A	tests/modules/plugin_test_mvpbf/src/Entity/MultiValuePluginBaseField.php	afc36efe5059387a1854f9308cd60ccc
+A	tests/modules/plugin_test_pcf/config/install/field.field.node.plugin_test_pcf.plugin_test_pcf.yml	16622f55680e2bf0d9d8848543028925
+A	tests/modules/plugin_test_pcf/config/install/field.storage.node.plugin_test_pcf.yml	94a25e8c923cb3d98a1c7c9d187963dc
+A	tests/modules/plugin_test_pcf/config/install/node.type.plugin_test_pcf.yml	2bc2364209fca10a7e0e935f4b28a1a4
+A	tests/modules/plugin_test_pcf/config/install/views.view.plugin_test_pcf.yml	0ae185f374f7e59a061e4eb69c922a3c
+A	tests/modules/plugin_test_pcf/plugin_test_pcf.info.yml	c4efa9b28bebb67f90469063b1dc658d
+A	tests/modules/plugin_test_svpbf/config/install/views.view.plugin_test_svpbf.yml	8a3f43cc8e24604d3277139506100ec0
+A	tests/modules/plugin_test_svpbf/plugin_test_svpbf.info.yml	7c06f212976834443e91f6b314859177
+A	tests/modules/plugin_test_svpbf/src/Entity/SingleValuePluginBaseField.php	56446f796f077448c19eb11f39010505
+A	tests/src/Functional/ParamConverter/PluginDefinitionConverterTest.php	dccc97951edb2682dcd0c80bbc53ec41
+A	tests/src/Functional/ParamConverter/PluginInstanceConverterTest.php	f7788039165774283de67079f151dc84
+A	tests/src/Functional/ParamConverter/PluginTypeConverterTest.php	d99f26de85ccaac576718be99dcbc378
+M	tests/src/Unit/Controller/ListPluginsTest.php	ca781f88f524dd315f0401148b201f76
+A	tests/src/Unit/ParamConverter/PluginDefinitionConverterTest.php	77a51f0761cf173e2d0300f6ed0b08ff
+A	tests/src/Unit/ParamConverter/PluginInstanceConverterTest.php	218566c472248202194acfae8466707a
+A	tests/src/Unit/ParamConverter/PluginTypeConverterTest.php	9f7b9b95ee850b11756675f0c63ff4da
+A	tests/src/Unit/Plugin/Plugin/PluginSelector/AdvancedPluginSelectorBaseTest.php	2ddf2c40181e9500bebe5f29864a1688
+A	tests/src/Unit/Plugin/Plugin/PluginSelector/PluginSelectorBaseTest.php	7a29e94c3902f9eb537f2b00b3c886e6
+A	tests/src/Unit/Plugin/Plugin/PluginSelector/PluginSelectorBaseTestBase.php	0558ba2a5013222dab01bf59cf27d7bd
+A	tests/src/Unit/Plugin/Plugin/PluginSelector/PluginSelectorManagerTest.php	38220266ca05df6f97060a56a6f4f65d
+A	tests/src/Unit/Plugin/Plugin/PluginSelector/RadiosTest.php	61bda28542dd71c5e382501647b037d2
+A	tests/src/Unit/Plugin/Plugin/PluginSelector/SelectListTest.php	2a61c64eb15d1b0a690098c60ff11954
+D	tests/src/Unit/Plugin/PluginSelector/PluginSelector/AdvancedPluginSelectorBaseTest.php	
+D	tests/src/Unit/Plugin/PluginSelector/PluginSelector/PluginSelectorBaseTest.php	
+D	tests/src/Unit/Plugin/PluginSelector/PluginSelector/PluginSelectorBaseTestBase.php	
+D	tests/src/Unit/Plugin/PluginSelector/PluginSelector/PluginSelectorManagerTest.php	
+D	tests/src/Unit/Plugin/PluginSelector/PluginSelector/RadiosTest.php	
+D	tests/src/Unit/Plugin/PluginSelector/PluginSelector/SelectListTest.php	
+M	tests/src/Unit/Plugin/views/filter/PluginIdTest.php	ce325b23bf45216a3d774e9eeb97cf63
+M	tests/src/Unit/PluginHierarchyTraitTest.php	f8f9c0b69014fa4367df945da29a9eac
+M	tests/src/Unit/PluginManager/PluginManagerDecoratorTest.php	d6a30ef80110b74b5ac5834f8446c4d2

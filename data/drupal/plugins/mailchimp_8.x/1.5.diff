@@ -1,0 +1,11 @@
+M	lib/mailchimp-api-php/composer.json	cedfa0422ad7904d8855ba415092c1cc
+M	lib/mailchimp-api-php/src/Mailchimp.php	575bcd5b66f17eeaf6214cfd96827c39
+M	lib/mailchimp-api-php/src/MailchimpEcommerce.php	6676cd2b38c44c9c5ca5b6b42e28dc40
+M	lib/mailchimp-api-php/tests/MailchimpTest.php	d470587430a9a597202e9248235d6a71
+M	mailchimp.info.yml	b4fd7648d1153ed0da37ee8e1aa6ad6b
+M	modules/mailchimp_campaign/mailchimp_campaign.info.yml	dc48e6c496eee3d6d41cb7b7e0b6a840
+M	modules/mailchimp_campaign/tests/modules/mailchimp_campaign_test/mailchimp_campaign_test.info.yml	2304370046418b385d6847fcb694e4d5
+M	modules/mailchimp_lists/mailchimp_lists.info.yml	6274ed695ba98020716a5b8ef068438f
+M	modules/mailchimp_lists/tests/modules/mailchimp_lists_test/mailchimp_lists_test.info.yml	24eed351ba287c3103a71571271b480d
+M	modules/mailchimp_signup/mailchimp_signup.info.yml	08c7c5af98909994ea4fa95c80136cc1
+M	tests/modules/mailchimp_test/mailchimp_test.info.yml	c076903012cfd3e3b58db37d35328777

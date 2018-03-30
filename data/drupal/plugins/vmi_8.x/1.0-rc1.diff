@@ -1,0 +1,76 @@
+M	composer.json	2e516dc7276ff72ba7da63c680d90a46
+M	css/hero/layout/hero-xlarge.css	e6c03ccdc2979842409ac9370e7cacc0
+D	css/hero/layout/hero-xlarge.css.map	
+M	css/hero/theme/hero-xlarge.css	d1340297fb00c04fa1ef86d9c912f292
+D	css/hero/theme/hero-xlarge.css.map	
+M	css/horizontal-media-teaser/layout/horizontal-media-teaser.css	55dd4c57a3c0f92395f6c9f013c9c9c1
+D	css/horizontal-media-teaser/layout/horizontal-media-teaser.css.map	
+M	css/horizontal-media-teaser/theme/horizontal-media-teaser-large.css	302cb8accd1b1262132ba6f7433e00e3
+D	css/horizontal-media-teaser/theme/horizontal-media-teaser-large.css.map	
+M	css/horizontal-media-teaser/theme/horizontal-media-teaser-medium.css	c855e9dc2ea2815b76c6da9ac7c8895d
+D	css/horizontal-media-teaser/theme/horizontal-media-teaser-medium.css.map	
+M	css/horizontal-media-teaser/theme/horizontal-media-teaser-small.css	a9012f4a6fb4a78b1adfc9e8556aa70a
+D	css/horizontal-media-teaser/theme/horizontal-media-teaser-small.css.map	
+M	css/horizontal-media-teaser/theme/horizontal-media-teaser-xlarge.css	531a8d9a1972ae353d83a03c72dfc3fc
+D	css/horizontal-media-teaser/theme/horizontal-media-teaser-xlarge.css.map	
+M	css/horizontal-media-teaser/theme/horizontal-media-teaser-xsmall.css	25d6fac57e53a1abc4a59670440ce3a8
+D	css/horizontal-media-teaser/theme/horizontal-media-teaser-xsmall.css.map	
+M	css/horizontal-media-teaser/theme/horizontal-media-teaser.css	dd983cab00ccc56b01ad0b9c0f1a55ab
+D	css/horizontal-media-teaser/theme/horizontal-media-teaser.css.map	
+M	css/text-teaser/layout/text-teaser.css	6fda2da54be96ae342ddbedde5e05249
+D	css/text-teaser/layout/text-teaser.css.map	
+M	css/text-teaser/theme/text-teaser-large.css	ba2b46adb9e89dbd0d62d1d36cd3f811
+D	css/text-teaser/theme/text-teaser-large.css.map	
+M	css/text-teaser/theme/text-teaser-medium.css	63d3eda7c67a4de7e3ae89a1088ed55d
+D	css/text-teaser/theme/text-teaser-medium.css.map	
+M	css/text-teaser/theme/text-teaser-small.css	da55559549f252fccc998f5bab317ea7
+D	css/text-teaser/theme/text-teaser-small.css.map	
+M	css/text-teaser/theme/text-teaser.css	7d9ed83a2ba9920226713b7add626594
+D	css/text-teaser/theme/text-teaser.css.map	
+M	css/tout/layout/tout-large.css	2b2b706a0424e85c1a1d5387fb06059b
+D	css/tout/layout/tout-large.css.map	
+M	css/tout/layout/tout-medium.css	6cb48c88e02aac0ccb41f5896fe09993
+D	css/tout/layout/tout-medium.css.map	
+M	css/tout/layout/tout-xlarge.css	2896c85f7171cd77537e20c1fdcc4c0e
+D	css/tout/layout/tout-xlarge.css.map	
+M	css/tout/layout/tout.css	7ef81894f3ac51d289415452b2d0fb30
+D	css/tout/layout/tout.css.map	
+M	css/tout/theme/tout-large.css	f7c930cfeda2a4cb911d0bcea6e7f70f
+D	css/tout/theme/tout-large.css.map	
+M	css/tout/theme/tout-medium.css	d9e77bb07f477d5040409034ccd3835f
+D	css/tout/theme/tout-medium.css.map	
+M	css/tout/theme/tout-xlarge.css	07599e7500944076bdd38fc4cac57d46
+D	css/tout/theme/tout-xlarge.css.map	
+M	css/tout/theme/tout.css	748967ab1421601c09d2130fee1e7fcd
+D	css/tout/theme/tout.css.map	
+M	css/vertical-media-teaser/layout/vertical-media-teaser.css	aeeeda5869c4b1911b96bfe64d9a88e7
+D	css/vertical-media-teaser/layout/vertical-media-teaser.css.map	
+M	css/vertical-media-teaser/theme/vertical-media-teaser-large.css	a6c186d7ebc50808981b1c510989f10c
+D	css/vertical-media-teaser/theme/vertical-media-teaser-large.css.map	
+M	css/vertical-media-teaser/theme/vertical-media-teaser-medium.css	378e1103a1860679804111ab2c213e76
+D	css/vertical-media-teaser/theme/vertical-media-teaser-medium.css.map	
+M	css/vertical-media-teaser/theme/vertical-media-teaser-small.css	bed5e1c0e76b3537a2853c639c03b9a4
+D	css/vertical-media-teaser/theme/vertical-media-teaser-small.css.map	
+M	css/vertical-media-teaser/theme/vertical-media-teaser-xlarge.css	1881e423df92a25acc873447a8378de8
+D	css/vertical-media-teaser/theme/vertical-media-teaser-xlarge.css.map	
+M	css/vertical-media-teaser/theme/vertical-media-teaser-xsmall.css	0afbb1c5bafe07732f7545d987bd04be
+D	css/vertical-media-teaser/theme/vertical-media-teaser-xsmall.css.map	
+M	css/vertical-media-teaser/theme/vertical-media-teaser.css	0a3f9cfe5cebfe7937d64033c9ec2ab2
+D	css/vertical-media-teaser/theme/vertical-media-teaser.css.map	
+D	css/vmi.admin.theme.css	
+D	css/vmi.admin.theme.css.map	
+M	less/horizontal-media-teaser/theme/horizontal-media-teaser.less	954f00fa161d2375a3f0cd4ee3c5fa3d
+M	less/text-teaser/theme/text-teaser.less	c966053141368ac2e12f92e0fb4c2ff2
+M	less/tout/theme/tout.less	70dffa3408ef6b091f575cb64f95c9b4
+M	less/vertical-media-teaser/theme/vertical-media-teaser.less	05688f385aa38a4beecfbb9e0b645cbd
+M	src/assets/config_templates/CONTENT_TYPE_NAME/core.entity_view_display.node.CONTENT_TYPE_NAME.horizontal_media_teaser_large.yml	4d5785e76f66fc47c120c3295d285260
+M	src/assets/config_templates/CONTENT_TYPE_NAME/core.entity_view_display.node.CONTENT_TYPE_NAME.horizontal_media_teaser_medium.yml	b4517445f060ea49dc3c927d6b78109a
+M	src/assets/config_templates/CONTENT_TYPE_NAME/core.entity_view_display.node.CONTENT_TYPE_NAME.horizontal_media_teaser_small.yml	314749ff393a99c3cf2d9942c2e737d0
+M	src/assets/config_templates/CONTENT_TYPE_NAME/core.entity_view_display.node.CONTENT_TYPE_NAME.horizontal_media_teaser_xlarge.yml	e880fdf4370973afea6f288cb6d6a822
+M	src/assets/config_templates/CONTENT_TYPE_NAME/core.entity_view_display.node.CONTENT_TYPE_NAME.horizontal_media_teaser_xsmall.yml	e4e444dcccddec9fb8fb2478864c58af
+M	src/assets/config_templates/CONTENT_TYPE_NAME/core.entity_view_display.node.CONTENT_TYPE_NAME.vertical_media_teaser_large.yml	c0140be0f98f958c57a0926fe13efbdd
+M	src/assets/config_templates/CONTENT_TYPE_NAME/core.entity_view_display.node.CONTENT_TYPE_NAME.vertical_media_teaser_medium.yml	8232d97db2cf2ba7b87744f1bcfe63d6
+M	src/assets/config_templates/CONTENT_TYPE_NAME/core.entity_view_display.node.CONTENT_TYPE_NAME.vertical_media_teaser_small.yml	51ef0b33ead8742234deb8e43e320161
+M	src/assets/config_templates/CONTENT_TYPE_NAME/core.entity_view_display.node.CONTENT_TYPE_NAME.vertical_media_teaser_xlarge.yml	23edc80d8f3c0f1095440994b694d9b7
+M	src/assets/config_templates/CONTENT_TYPE_NAME/core.entity_view_display.node.CONTENT_TYPE_NAME.vertical_media_teaser_xsmall.yml	1998ea4b3e3bb1317c4762ea597d82c3
+M	vmi.info.yml	68b77f2562b57c8aa7b77a92b669463f

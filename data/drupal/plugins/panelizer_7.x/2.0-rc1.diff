@@ -1,0 +1,6 @@
+M	includes/admin.inc	e99b3e9bee06e15b6bc8f222e73514a2
+M	panelizer.info	83f4f2ca8709c5699af6e89b61ace1e3
+A	plugins/content_types/panelizer_form/icon_panelizer_form.png	a91416f5e51db6aa243a1dfb1700970d
+A	plugins/content_types/panelizer_form/panelizer_form_default.inc	b53a5591e9e3108d8585eedffd51a65a
+M	plugins/entity/PanelizerEntityDefault.class.php	85795f8655f1e6b3f78c216555b507b3
+M	plugins/task_handlers/panelizer_node.inc	d04f7c4d49edf7079a3f2108568f3204

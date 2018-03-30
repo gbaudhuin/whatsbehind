@@ -1,0 +1,34 @@
+M	README.txt	2578a316437e5912e3a042e3fd3d0042
+M	backup_migrate.css	088df64e8c5f65e2339c808a256a7296
+M	backup_migrate.info.yml	7db8506974f359a53183ae2ae1e093c5
+M	backup_migrate.install	90f30007a07cd1a4c7727fd73053d294
+M	backup_migrate.js	34a9250b2af4573ba1ccd48c3690b834
+M	backup_migrate.module	fcc90f3effb1f17ca8439b784f69c3fa
+M	includes/backup_migrate.drush.inc	e5bc5296de10afd4e0f1127c11291ff7
+M	includes/crud.inc	f0815892d8543e61a5e8e499cb738e9c
+D	includes/db.inc	
+D	includes/db.mysql.inc	
+M	includes/destinations.browser.inc	b8ebbc3659ac6bd429710621ec529364
+M	includes/destinations.db.inc	1439d4ac3a7354d969401f2602437d75
+M	includes/destinations.db.mysql.inc	8acb2da9d6b3ee81b94ff60e3c6fad92
+M	includes/destinations.email.inc	1265b17979db53ad9df1ed974f5ab019
+M	includes/destinations.file.inc	80004599b37e12c80e3f79819a49497b
+M	includes/destinations.ftp.inc	283af079b337d5e5eb15ecd93b96047e
+M	includes/destinations.inc	0d8f8b7e23d4d0b00ba6108201810325
+A	includes/destinations.nodesquirrel.inc	60f215d75aaac9ee672933b724106cc8
+M	includes/destinations.s3.inc	323753035eb0a0d763aa36fd5b62e14a
+M	includes/files.inc	e5def74d9312a58da35c38ae5111df39
+M	includes/filters.backup_restore.inc	5639d0b2c890222c50af53bd1bec2c2b
+M	includes/filters.compression.inc	8557c075ad987da1491046e4277f30f0
+M	includes/filters.encryption.inc	0506cba50a450308bc685e2efb3afb53
+M	includes/filters.inc	cfc7739f502ee0942458c9ea41d94513
+M	includes/filters.statusnotify.inc	9902216313fbe214a3cd77488d4b4202
+M	includes/filters.utils.inc	4f90f513d45e02c82cf3bda2e1b78625
+A	includes/locations.inc	69bcef3d2fe013d41472e424896c69c5
+M	includes/profiles.inc	84cbed1f73ef7c95125e9b0f3815107e
+M	includes/schedules.inc	3a059598f15ebe14b0cf83dd8feaaf26
+A	includes/sources.archivesource.inc	4bb9fb9e8664cbef262a2b1c2635e275
+A	includes/sources.db.inc	3d330bd6288b2394a20d25fbd2094978
+A	includes/sources.db.mysql.inc	97c5c3d7676f29b105eccbb5cf57a0bc
+A	includes/sources.filesource.inc	62fa1cdc4cb34c229f42eca413b114ea
+A	includes/sources.inc	22b13689efcb27bd0fc53b5b5e0f2421

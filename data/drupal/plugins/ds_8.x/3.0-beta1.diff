@@ -1,0 +1,12 @@
+M	ds.info.yml	b8e3f7c3358a7829346346768cce507c
+M	ds.module	23235fedc2b9ae51a8dcd32f53460792
+M	includes/field_ui.inc	b7066a6f771fced441c1e2715018b460
+M	modules/ds_devel/ds_devel.info.yml	44706d23adf864feb44475346ee27119
+M	modules/ds_extras/ds_extras.info.yml	3382d6da01795c0fa5e5ba1d18966850
+M	modules/ds_switch_view_mode/ds_switch_view_mode.info.yml	06192449dfe7530f08670bf2f8f5c27e
+M	src/Tests/LayoutPluginTest.php	0a4915aebb173dae9f98a49c5453676c
+M	tests/modules/ds_exportables_test/ds_exportables_test.info.yml	9ca0b7c24e38aa6404a53105efe62279
+M	tests/modules/ds_test/ds_test.info.yml	bfd1f9bb307864653c1fba24bd10a2e5
+M	tests/modules/ds_test_rdf/ds_test_rdf.info.yml	cf8b5b233e3316b6309195738832e577
+M	tests/themes/ds_test_layout_theme/ds_test_layout_theme.info.yml	7acc662158cd5b381c691d5e97e8769f
+A	tests/themes/ds_test_layout_theme/templates/ds-1col--node.html.twig	21c99b2c5ef1543addb4ab2cee207bff

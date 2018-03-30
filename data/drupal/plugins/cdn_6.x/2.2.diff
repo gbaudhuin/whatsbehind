@@ -1,0 +1,33 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	README.txt	21c4823acdbbe475654a4950e4a13eec
+M	UPGRADE.txt	74b281dcbd62b0d3566f889d15c572a9
+A	cdn.admin.css	cf41e773c8ff943e1f4a40310fefe35b
+M	cdn.admin.inc	2d5d1e0a240781c2d7cd5e1ab1744f0d
+M	cdn.advanced.inc	0b606f921f56f8473550e9f5d47e2e87
+A	cdn.basic.farfuture.inc	19a48a05a10b7efd12d289b9849a6c32
+M	cdn.basic.inc	5b54aaf9bec72333399800ae8463163e
+M	cdn.fallback.inc	f90b9da61bac1bf13e68ca622baa8888
+M	cdn.info	4febaae5000d97bfa165ba7a4e641224
+M	cdn.install	cfc8af6aed93027c652c8d3f0abeb53e
+A	cdn.mimetypes.inc	a4edb9f69fdd2b0ccb3a8e80ac8fb33a
+M	cdn.module	4c9f7fd7292bb821b316eacca10904b9
+M	cdn.requirements.inc	62118f98ec89a95ce13e45b36de505a6
+M	cdn.stats.inc	24c82463341e7a9d033d12e089dcd021
+A	help/admin-details-mode-fc-db.html	bf42b30465b1beaf95b999b57b7bcb61
+A	help/admin-details-mode-fc-pid.html	3a62500c09384eb5e9d4d8c9627253a4
+A	help/admin-details-mode-fc.html	aca3db6598fc04ba391f94ef42407571
+A	help/admin-details-mode-pull-cdn-mapping.html	cd40f38f2e4507a7bf9c1eeb95f24071
+A	help/admin-details-mode-pull-far-future.html	0d147080072c04f5cc7c005777eee44f
+A	help/admin-details-mode-pull-ufi.html	ccde760a22dafd920175b804e6391b5d
+A	help/admin-details-mode-pull.html	dbf2e6dd5da125b3c0ec9f2f8904e7ab
+A	help/admin-details-mode.html	0a78d39bb3df0c4b668d129324f11a1a
+A	help/admin-details.html	005a5c4057e42cec8fb54588a79df303
+A	help/admin-other-cdn-pick-server.html	ba235821b805d9a7f9941e4d5ec6a71d
+A	help/admin-other-exceptions.html	fbaf037987d54521d31ded79ea2459a4
+A	help/admin-other-https.html	090cb37885019c9e11b96857d1827bec
+A	help/admin-other.html	b8c975139c0fee038ece02d009576696
+A	help/cdn.help.ini	1ea967ed129b668f023742104df675b3
+M	patches/hook_file_url_alter.php	7b41f2bbd6f5c96c344f98527ebffe1c
+D	patches/imagecache.patch	
+D	patches/imagecache_6--2.patch	
+M	theme.inc	56f497a7730677e33daf8fb0eef30baa

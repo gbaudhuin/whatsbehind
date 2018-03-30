@@ -1,0 +1,7 @@
+M	core/CHANGELOG.txt	f117edb1124f3904b41d275d58ad6830
+M	core/lib/Drupal.php	7c153fa8c23a8c5360bebfab75098b8b
+A	core/modules/statistics/config/schema/statistics.views.schema.yml	9c2a248e03d625795233ea89f66c03b3
+A	core/modules/statistics/src/Plugin/views/field/NodeCounterTimestamp.php	a564ee722e4088ad22dce13ca08e80e3
+A	core/modules/statistics/src/Plugin/views/field/StatisticsNumeric.php	94ddb09abfb02cf6590aea62480a5bdd
+M	core/modules/statistics/src/Tests/Views/IntegrationTest.php	5e8059cdfb94e84d1946e4ae6c354c03
+M	core/modules/statistics/statistics.views.inc	130331c10ac82af2de3d4e6fe2c8a81e

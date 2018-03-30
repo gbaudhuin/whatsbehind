@@ -1,0 +1,38 @@
+M	.travis.yml	ccd73e56e9855cbe75448227f85d77e4
+M	replication.info.yml	c2fa5a0a73e88af46feba99580119cdf
+M	replication.install	9703fa56fa64e6fc54748e8038fc97dc
+M	replication.services.yml	bf3ca3afba9048a8ee3c09ad91a11bcf
+A	src/Normalizer/CropNormalizer.php	8039e575ab7092fd57d79b177f616fb5
+M	tests/modules/replication_alter_test/replication_alter_test.info.yml	d800583268dfcb103e6b7ab14ca4942f
+A	tests/src/Kernel/AllDocsFactoryTest.php	0405353d92d0533c279022e443b79dcf
+A	tests/src/Kernel/BulkDocsFactoryTest.php	1fb8778255e78faee489bc4b4fea003e
+A	tests/src/Kernel/ChangesFactoryTest.php	2e3d44cc1122f23eeab50a469f0f3f6d
+A	tests/src/Kernel/Encoder/StreamEncoderTest.php	32f34f03f5d0bf27d5e1b6fd08bd866e
+A	tests/src/Kernel/Normalizer/AttachmentNormalizerTest.php	b2a06d3afc06cec873d6ebdd7cd26924
+A	tests/src/Kernel/Normalizer/BulkDocsNormalizerTest.php	97382c663d88c9ca29e1f6ab2f255068
+A	tests/src/Kernel/Normalizer/ContentEntityNormalizerAlterTest.php	2a09ede704b42177db7fad05f9040107
+A	tests/src/Kernel/Normalizer/ContentEntityNormalizerTest.php	dcd1c7de107866c051fa572b613bed85
+A	tests/src/Kernel/Normalizer/EntityReferenceItemNormalizerTest.php	b5dd78cc742071be49e30a7588d4b375
+A	tests/src/Kernel/Normalizer/FileEntityNormalizerTest.php	84df6456409f5d3117b6c5575ef47049
+A	tests/src/Kernel/Normalizer/LinkItemNormalizerTest.php	b1288f471bfaf4996b07dc1c80ad5128
+A	tests/src/Kernel/Normalizer/NormalizerTestBase.php	5b9570d6d55bf0d5f5ec648610febf99
+A	tests/src/Kernel/Normalizer/ReplicationLogNormalizerTest.php	30f52f942ffab39419ab7f6dd2cacc96
+A	tests/src/Kernel/Normalizer/WorkspaceNormalizerTest.php	1cb409f2844e2dd6e453721138389b59
+A	tests/src/Kernel/RevisionDiffFactoryTest.php	246816cc7d969e9ff869f182020252eb
+D	tests/src/Unit/AllDocsFactoryTest.php	
+D	tests/src/Unit/BulkDocsFactoryTest.php	
+D	tests/src/Unit/ChangesFactoryTest.php	
+D	tests/src/Unit/Encoder/StreamEncoderTest.php	
+D	tests/src/Unit/Normalizer/AttachmentNormalizerTest.php	
+D	tests/src/Unit/Normalizer/BulkDocsNormalizerTest.php	
+D	tests/src/Unit/Normalizer/ContentEntityNormalizerAlterTest.php	
+D	tests/src/Unit/Normalizer/ContentEntityNormalizerTest.php	
+D	tests/src/Unit/Normalizer/EntityReferenceItemNormalizerTest.php	
+D	tests/src/Unit/Normalizer/FileEntityNormalizerTest.php	
+D	tests/src/Unit/Normalizer/LinkItemNormalizerTest.php	
+D	tests/src/Unit/Normalizer/NormalizerTestBase.php	
+D	tests/src/Unit/Normalizer/ReplicationLogNormalizerTest.php	
+D	tests/src/Unit/Normalizer/WorkspaceNormalizerTest.php	
+M	tests/src/Unit/Plugin/ReplicationFilter/EntityTypeFilterTest.php	5b46b69ad9803a017fd60b42ddb2aa53
+M	tests/src/Unit/Plugin/ReplicationFilter/UuidFilterTest.php	233cf82ae7e9f647bdb5e8f7f9f84f82
+D	tests/src/Unit/RevisionDiffFactoryTest.php	

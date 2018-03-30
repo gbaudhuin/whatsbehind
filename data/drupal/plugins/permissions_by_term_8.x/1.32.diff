@@ -1,0 +1,4 @@
+M	permissions_by_term.info.yml	86e4913cf35fb8a2d3f24bac3d2ef862
+M	src/Controller/PermissionsByTermController.php	5472f5c03b90fcc7c8540a9555a50314
+M	src/Listener/KernelEventListener.php	3f0d0795aa06f3746cb4004fef883345
+M	src/Service/AccessStorage.php	0890ca0babfa1e7b1545df2e5821f19c

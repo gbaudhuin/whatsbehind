@@ -1,0 +1,4 @@
+M	src/EventSubscriber/WorkbenchTransitionEventSubscriber.php	ff13fbd1d36db6acd6a31fc50152a70f
+M	src/Form/TemplateDeleteForm.php	9238630a9715f944865bb348cd1b103a
+M	tests/src/Functional/WorkbenchTransitionEmailTest.php	102550fde0747ccc6e305ae2346f4ebe
+M	workbench_email.info.yml	25bcf5ab193798ecc6e330a01bdb8b7b

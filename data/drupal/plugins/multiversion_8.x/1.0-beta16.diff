@@ -1,0 +1,4 @@
+M	multiversion.info.yml	2904bd0706c3b91e67bd8a067a7a9fff
+M	src/Access/NodeRevisionAccessCheck.php	5a1a4d29ef2b25962d46778ef82854ff
+M	tests/modules/multiversion_test_paragraphs/multiversion_test_paragraphs.info.yml	e2767fb5647138d2ec5a473a358725c9
+M	tests/modules/multiversion_test_views/multiversion_test_views.info.yml	05ca0e9da67a875b579d61d2e4687e9c

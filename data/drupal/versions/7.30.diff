@@ -1,0 +1,20 @@
+M	CHANGELOG.txt	0dc4dee7ee83ab17bd09ddd73c14e0c0
+M	MAINTAINERS.txt	8011189477c8a9818275e41d9b1abb76
+M	includes/bootstrap.inc	b3f9018293c3e14098e0a2a7393ffb7d
+M	includes/common.inc	f60b76641b8bb6754b34b20b19f43fd8
+M	includes/database/database.inc	26d92f9fc776ede6bbea220ed8ad92f4
+M	includes/database/schema.inc	ec5c3db763a22666d601d4e07bcb32da
+M	includes/entity.inc	834d987c7ca4211dd4ada5e0ebd9de46
+M	includes/xmlrpcs.inc	d59ded3eb01ac9581185cc1c8b6c893d
+M	modules/field/field.crud.inc	f1430ddca8906c7922b1cc16590a415c
+M	modules/field/field.module	63c4714720b2dd12bbd7a81bb4cc80c0
+M	modules/field_ui/field_ui.api.php	3aa12b89845c04ae8b633ca6efb81e5d
+M	modules/file/file.module	ad7f2fc54cc48e4a0476476483df2e33
+M	modules/file/tests/file.test	61d6a599efbf44179b3ae1a9f2ea7935
+D	modules/help/help.api.php	
+M	modules/simpletest/drupal_web_test_case.php	083500e8326485c5e305e6a05af0e0c9
+M	modules/system/system.admin.inc	602b84fea90b4c345e7d98c172411164
+M	modules/system/system.api.php	c84b8d68a9609227abd3159f80df1c2d
+M	modules/system/system.module	133a850cfe3a14f6f28405c9e03c9e6e
+M	modules/user/user.pages.inc	eaaee43e067fc390bdd5d0be6be97724
+M	robots.txt	9794138a6c3614e0145b05a02d7ea967

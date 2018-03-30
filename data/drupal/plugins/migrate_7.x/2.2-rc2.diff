@@ -1,0 +1,15 @@
+M	CHANGELOG.txt	cf0ecaf6436ea68ac2c727a8f4f8a7ae
+M	includes/base.inc	816baf7a6357c75b97f6f3680a6c559a
+M	includes/migration.inc	fb04a467507ac036c31112cad06cc37c
+M	migrate.info	fd0c23f517065ba148aa8e857e6c29d6
+M	migrate_example/migrate_example.info	81e95d1d5737aeae7a20e1834665b317
+M	migrate_example/migrate_example_oracle/migrate_example_oracle.info	fbcd02d15b6af4dfd8c6b8c66e97cc9c
+M	migrate_example_baseball/migrate_example_baseball.info	484c315378b467883c0fd7424d63df44
+M	migrate_ui/migrate_ui.info	6672a6d5d8f114fc55d9d3c98d3d0f1f
+M	plugins/destinations/fields.inc	61588feb063bbfb88318c1839acb3bb7
+M	plugins/destinations/file.inc	c7dd5c1a4a7c43ed65d0a51cb3d6e724
+M	plugins/destinations/table_copy.inc	1b3292e859b8921b1309159fe3664e19
+M	plugins/sources/csv.inc	cd26d8111ffd4afe77d2bd57bb0e6382
+M	plugins/sources/mssql.inc	37e397b9ecfee141cb0ad922da3f94f8
+M	plugins/sources/oracle.inc	6ac0a90832ea8351ddeb44cf90805c3a
+M	plugins/sources/xml.inc	6aa1c7cb9662c7152977b1ab9b1fc178

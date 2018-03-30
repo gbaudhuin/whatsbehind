@@ -1,0 +1,53 @@
+M	API.txt	4f080d85331ae89b68782d2b2ecd0365
+M	CHANGELOG.txt	6326ad70e1ed054c63006d090fe3f866
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	README.txt	f19586bb8901401bd5d2157e98304b0e
+D	WARNING_README_FIRST.txt	
+D	includes/blog.inc	
+M	includes/forum.inc	b3ead444ec6e4f8d021cfca971c58e31
+M	includes/image.inc	0869030fcd83c3c519e5040cc5c1aabf
+M	includes/node.inc	03e536722a04f956c4a80f3e19673249
+M	includes/taxonomy.inc	d4cec57e91a50711e43532a4d61ac4b9
+M	includes/taxonomy_menu.inc	ec63c8c84ae97d30698441950b36a724
+D	includes/tracker.inc	
+M	includes/uc_catalog.inc	dd05cad50ba5431049d7b9ae836fc752
+M	includes/user.inc	f2d53bb681e68894dfe061dc1596a2e6
+A	nodewords.admin.inc	f98d837048b97478de9fbb0c2b88377a
+M	nodewords.api.php	cb0c088aa79c880c92401d7355f4b788
+M	nodewords.info	22e38704f576017823635c60f2174c4d
+M	nodewords.install	f82856af654a272dda6dd221907daaaf
+M	nodewords.module	45a02fe535faffd373d017004bf98862
+A	nodewords.test	4bdb2078c1bd501ee09e4b1e982c73d4
+D	nodewords_admin/nodewords_admin.admin.inc	
+D	nodewords_admin/nodewords_admin.info	
+D	nodewords_admin/nodewords_admin.install	
+D	nodewords_admin/nodewords_admin.module	
+D	nodewords_basic/includes/nodewords_basic.nodewords.hooks.inc	
+D	nodewords_basic/includes/nodewords_basic.nodewords.tags.inc	
+M	nodewords_basic/nodewords_basic.info	1e3fe1d6c320be6c1faef169c071ee1c
+M	nodewords_basic/nodewords_basic.install	37d8a5869f9e8a7cb8098dc0df2b006d
+M	nodewords_basic/nodewords_basic.module	31222f7d8f8366fffdc3fa0cb29fc6ac
+D	nodewords_custom_pages/includes/nodewords_custom_pages.nodewords.hooks.inc	
+D	nodewords_custom_pages/nodewords_custom_pages.admin.inc	
+D	nodewords_custom_pages/nodewords_custom_pages.info	
+D	nodewords_custom_pages/nodewords_custom_pages.install	
+D	nodewords_custom_pages/nodewords_custom_pages.module	
+D	nodewords_extra/includes/nodewords_extra.nodewords.hooks.inc	
+D	nodewords_extra/includes/nodewords_extra.nodewords.tags.inc	
+M	nodewords_extra/nodewords_extra.info	bbcfc344ba5192194fb793c18487a2ac
+M	nodewords_extra/nodewords_extra.install	4b1b5ffeef8517f76d985a38e0009951
+M	nodewords_extra/nodewords_extra.module	c4f871bb2b763b340ee4870976bfa7a5
+A	nodewords_og/nodewords_og.info	a0d2bde5c9fdf9cf0c337c6a48e1e45b
+A	nodewords_og/nodewords_og.install	04c878c65bfc1fe84238e426adeeec95
+A	nodewords_og/nodewords_og.module	ecdd8dc3d6962037185db37993923649
+D	nodewords_tokens/nodewords_tokens.info	
+D	nodewords_tokens/nodewords_tokens.install	
+D	nodewords_tokens/nodewords_tokens.module	
+D	nodewords_ui/nodewords_ui.info	
+D	nodewords_ui/nodewords_ui.install	
+D	nodewords_ui/nodewords_ui.module	
+D	nodewords_verification_tags/includes/nodewords_verification_tags.nodewords.hooks.inc	
+D	nodewords_verification_tags/includes/nodewords_verification_tags.nodewords.tags.inc	
+D	nodewords_verification_tags/nodewords_verification_tags.info	
+D	nodewords_verification_tags/nodewords_verification_tags.install	
+D	nodewords_verification_tags/nodewords_verification_tags.module	

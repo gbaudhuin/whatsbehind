@@ -1,0 +1,14 @@
+A	CHANGELOG.txt	8d7c540de870cda5ccdba0c30eca3e07
+A	slick_devel/includes/slick_devel.admin.inc	cc1295a8330d6386b75d2a767ed8f41d
+A	slick_devel/js/slick.load.devel.js	7b59ed7538f53ee3b4aa6d42f94cfebb
+A	slick_devel/slick_devel.info	c73049c981af02ea251f22521b9eca03
+A	slick_devel/slick_devel.install	691d3d8ae85816bdcb04f3233b07ae1d
+A	slick_devel/slick_devel.module	a3f978e279ebdafcf6bdd770f5b25fe0
+A	slick_example/README.txt	987be291cd01798f479e10eb42abaf9f
+A	slick_example/css/slick.theme--x-testimonial.css	9e05c314a48e4567477c2d7c859dfba0
+A	slick_example/js/slick_example.asnavfor.js	ed226dd4dd75b374a4ca4961395a27d5
+A	slick_example/slick_example.info	27a3394a1ca7c91c034da7b6b0da5b32
+A	slick_example/slick_example.module	928b28f75b7a8865ca03fc381f50763e
+A	slick_example/slick_example.slick_default_preset.inc	320854d83da82babaabc6f17bca98f46
+A	slick_example/slick_example.views_default.inc	cb23d541c0453edbd21a1f6ef007e6d6
+M	slick_extras.info	3805fed6afe4f8b0ad4dc8b6746f26a2

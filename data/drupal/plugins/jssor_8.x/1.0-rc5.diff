@@ -1,0 +1,15 @@
+M	README.txt	1e732977f03795ce76d7a7a5ebe38214
+M	css/jssor-skin.css	93c4b21b31bebd3aa0f33ea8d429b4e0
+M	css/jssor-skin.css.map	5011aba8af6bc14c1313560de90603b1
+M	javascript/jssor_view.js	166f579f792b0fa97d1de6b0dd47f0bc
+M	js/jssor_view.js	cca4b077ef4f05003487b1aebbfe19a5
+M	jssor.info.yml	25a1773a28035dd003c9ffd7e7ba9d40
+M	jssor.module	dac08d4fa531712a262332164416f0fd
+M	jssor.theme.inc	09be5c38905ef6898d5b201efa4faa1c
+M	jssor_example/config/install/views.view.jssor.yml	5e639ae1b00a6deebd61d9fb4e33e987
+M	jssor_example/jssor_example.info.yml	c332304258bfb8bce0c3fe429294a853
+M	package.json	704c2a1f7b604f767607ea3964a7c568
+M	sass/jssor-skin.scss	11aec9978450098d900d484ba7b73e18
+A	src/Plugin/views/row/Jssor.php	a36564185c6f9c526695554a3372e855
+M	src/Plugin/views/style/Jssor.php	74edaa9bdbea6e6f5a4b557888b15839
+A	templates/views-view-jssor-row.html.twig	2e3d12aee98e86e0a4a7c9ef9ab317c8

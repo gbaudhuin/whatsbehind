@@ -1,0 +1,24 @@
+D	GMAP-MACRO-DICTIONARY.txt	
+D	NOTES.txt	
+M	README.txt	c6f30713fb4686471b5b86be43f6ae48
+D	THEMING.txt	
+D	TODO.txt	
+D	WARNING_D7_ONLY	
+M	gmap.info	baf20d75e4106dc2eb108954024fea75
+M	gmap_location.info	7cadabbca5d81115ae6d90c33af2f7dc
+M	gmap_location.module	d7071c04c93bc7cb8aaa6c3c7829ad87
+M	gmap_macro_builder.info	3271f9c5fb5d01fd6143e13a56903a52
+M	gmap_plugin_style_gmap.inc	50964a827c7be60f524186d842e78db8
+M	gmap_plugin_style_gmapextended.inc	524c56bbda89180aa6de405329f77c41
+A	gmap_style_bubbles/gmap_style_bubbles.info	d06ea3d1ab5b4e26713a33521c0c698d
+A	gmap_style_bubbles/gmap_style_bubbles.install	85ffef3ceeab96e7c8e71418ba8e5f2f
+A	gmap_style_bubbles/gmap_style_bubbles.module	563d960e2cf439c4a7c42f8dce11ac15
+A	gmap_style_bubbles/js/infobubble_extended.js	8fe7a55e774385c43d2576b778ac18a3
+M	gmap_taxonomy.info	cc2aa3a8d7fb33f3b1b2e7015ca8f1cb
+M	gmap_test/gmap_test.info	3b281f3a172dd82121e37b042e3de671
+M	gmap_test_extended/gmap_test_extended.info	1e6aabb0415831b2d7c33fc199332ce8
+M	gmap_test_extended/tests/gmap_test_extended.test	2ab053773727ae4bbd9eaad0fe6891fd
+M	js/icon.js	3bf04cafff5c7e806ea42929c32a8409
+M	js/locpick.js	95d7f0d1d1b299f08aef8efa7dd48b12
+M	js/marker.js	c58144caf3575a2c28d46eed81272b78
+M	location_gmap_find_address/location_gmap_find_address.info	da949792bb312f831a1611e40e08e857

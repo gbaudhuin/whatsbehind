@@ -1,0 +1,9 @@
+A	addtoany.config_translation.yml	0d2e16f9e33e82689d643dfe5ebe6475
+M	addtoany.info.yml	92a39dd9a2fac2852fa355d61a670bac
+M	addtoany.libraries.yml	d487aa2b78c63fa38f55641049713eea
+M	addtoany.module	628bcaeecfdcfeb3adeeb9578161c816
+M	config/install/addtoany.settings.yml	8d5d24aef680ba9de4d32ade24a13d7f
+A	config/schema/addtoany.schema.yml	aec64049f0191bc7ea6474cfdceb2467
+M	js/addtoany.js	df626dbf25c042ee54a4a772df51d01d
+M	src/Form/AddToAnySettingsForm.php	00cab4715d526b3109b1c6b0395ea4ea
+A	src/Plugin/DsField/AddToAnyField.php	e4ec4a654ae7bf544d21589b89e57b80

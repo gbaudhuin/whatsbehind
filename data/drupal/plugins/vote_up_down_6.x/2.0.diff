@@ -1,0 +1,19 @@
+D	CHANGELOG.txt	
+A	translations/es.po	0a944a1ceeaadb31f2202f0d965d6e8e
+D	translations/vote_up_down-module.pot	
+M	translations/vote_up_down.pot	e6ff13b0e33c1d0f3a0cc8a925f3e9a8
+M	vud.info	a1e97f9567b8272ac62bf62649845808
+M	vud.module	4c28ebce44ef83a1d7229b1440663304
+M	vud.theme.inc	60049dfc0301844f49f3a1e4ecc6ab97
+M	vud_comment/views/vud_comment.views.inc	dd8f64c2df0eb05bef9fe5f1c915f4c6
+M	vud_comment/views/vud_comment_handler_field_widget.inc	e002d69620970a7f82a8108f69eb4061
+M	vud_comment/vud_comment.info	8be46217e50732df66d535825631735d
+M	vud_comment/vud_comment.module	0cd156b3dd17c995c85e7ca78cfbebde
+M	vud_node/views/vud_node.views.inc	2c10dcc369d68236909f81038e6add04
+M	vud_node/views/vud_node_handler_field_widget.inc	ac5c83f28101d08f41061fa495e07524
+M	vud_node/vud_node.info	7cbe54231fea3871f25705ab8c2d9f8f
+M	vud_node/vud_node.module	6711bf2491c5d1f4167a258e03634907
+M	vud_term/views/vud_term.views.inc	251de93d51b47276da1e7e9a00dc2b0e
+M	vud_term/views/vud_term_handler_field_widget.inc	605a365862cab17dce40a99e926a11d3
+M	vud_term/vud_term.info	e7d7490865dd84a1801926b1ebe2defc
+M	vud_term/vud_term.module	43c48ca0c0b1645d1c72f17ad4f75c0e

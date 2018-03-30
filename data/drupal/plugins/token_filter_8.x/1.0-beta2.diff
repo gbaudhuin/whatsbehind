@@ -1,0 +1,5 @@
+A	js/plugins/tokenbrowser/plugin.js	112139aa9053e4e6e22d6bfee44ddd7b
+A	js/plugins/tokenbrowser/tokenbrowser.png	3a32e24a2b172ca8d9bf1aa85e8569a8
+A	src/Plugin/CKEditorPlugin/TokenBrowser.php	47473bf5f4d0f41eb97c4ead1ab46753
+M	src/Plugin/Filter/TokenFilter.php	f7d425babdef2702dc5cf0ce7fce1077
+M	token_filter.info.yml	57129e8a16eeba3d0f0e3d8a19be56cd

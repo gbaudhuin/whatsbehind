@@ -1,0 +1,7 @@
+M	README.txt	c6d50c638da261b6c67c53b294a46bf0
+M	js/yoast_seo.js	b38ac62c9c7966d055db167075491c67
+M	src/Controller/YoastseoController.php	f1758e023df390bcdf746ff630d479ba
+M	src/Plugin/Field/FieldType/YoastSeoItem.php	a481a8d37d647934574207190025b3ca
+M	yoast_seo.info.yml	af23f19133c9e787e0f01c80b69682f1
+M	yoast_seo.install	556c44f2645ec6590e8f167b120f9ef9
+M	yoast_seo.module	187b722ef01adfa57d704f302bce78a3

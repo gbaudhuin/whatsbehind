@@ -1,0 +1,14 @@
+M	CHANGELOG.txt	d16d97ab20cf77a9f742f86607477b79
+M	includes/ajax.inc	7e2e62594af0586a8b55f3a5b2859c43
+M	includes/bootstrap.inc	314aa397c90b12b05cbfae7b7a1ba758
+M	includes/database/database.inc	dd7543242ef8082e7e1a99c55403a3b5
+M	includes/form.inc	28bd783a71da242aa0e07f17fea07e62
+M	includes/menu.inc	3f7a7c4d6aa2e5ec530b4f6cafecf335
+M	misc/ajax.js	eb32af955400cee44f869bbf7ed00e20
+M	misc/autocomplete.js	b2e39a0a3ba120bc99b8c6dbf6956a1a
+M	misc/drupal.js	bb9f18fb7a42b95fcad87b98dbb19c87
+M	modules/file/tests/file.test	a1edfb8c953d89a117fc4ecbb78d4e1d
+M	modules/profile/profile.test	bcb66ecd2a0cd182b4248299deb05b5d
+M	modules/simpletest/drupal_web_test_case.php	261c8d106b9ce830ac415109a797338f
+M	modules/simpletest/tests/database_test.test	babf20bec6f30ab1e4c8969427e01388
+M	modules/system/system.module	b50f1187c73e73758358229ada6731e0

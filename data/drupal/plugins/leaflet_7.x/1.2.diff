@@ -1,0 +1,10 @@
+M	README.txt	a974d790d1bca35264f185a3dec7ad2c
+M	leaflet.api.php	cbfd1ea6e9d15a5de86c082893d743b6
+M	leaflet.drupal.js	6c2d81e810b755136a992822340d14a3
+M	leaflet.formatters.inc	2d43884a644831258d14d1c2be5e109c
+M	leaflet.info	79c05fd6565470cd737bf9615c882f12
+M	leaflet.module	d60472adbe595db4a12eb1c5227904e7
+A	leaflet_extras.css	a62654015443622788d8422c9dc9d0e6
+M	leaflet_views/leaflet_views.info	a6113a45b4fca35325efaf58c4173b20
+M	leaflet_views/leaflet_views.views.inc	772fa61f67d01b277406e7b2aa410ac2
+M	leaflet_views/leaflet_views_plugin_style.inc	2e274e8e97d54d5ddb956900e88683b5

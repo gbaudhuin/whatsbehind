@@ -1,0 +1,113 @@
+M	config/install/core.entity_form_display.paragraph.bp_accordion.default.yml	32c2c503dcf2ce3cf2ededf165f59578
+M	config/install/core.entity_form_display.paragraph.bp_block.default.yml	3213699349725cf78ce190311fd31f1d
+M	config/install/core.entity_form_display.paragraph.bp_carousel.default.yml	5e89b6341d94f2c955ba672a8ca48e39
+A	config/install/core.entity_form_display.paragraph.bp_column_wrapper.default.yml	9d10c50a80649f52561bb62a81f71a8a
+M	config/install/core.entity_form_display.paragraph.bp_columns.default.yml	99127b8c4c8346e9b06cf2640ba87caf
+M	config/install/core.entity_form_display.paragraph.bp_columns_three_uneven.default.yml	ffda0361fddeed21555b9d639226c349
+M	config/install/core.entity_form_display.paragraph.bp_columns_two_uneven.default.yml	c661e542c5c2b79fd53e100f59e4f05f
+M	config/install/core.entity_form_display.paragraph.bp_image.default.yml	cc764dd5171c0a37716c4bfebb1c033a
+M	config/install/core.entity_form_display.paragraph.bp_modal.default.yml	6fd095c9f5370bb3db77ef7539a2f40d
+M	config/install/core.entity_form_display.paragraph.bp_simple.default.yml	b77cdbb4eb08fcf8978a2ab675487227
+M	config/install/core.entity_form_display.paragraph.bp_tabs.default.yml	0ef6a83b28db2b68737f74c0494b7f61
+M	config/install/core.entity_form_display.paragraph.bp_view.default.yml	41850b2dcf111c74dade84b27780f593
+M	config/install/core.entity_form_display.paragraph.bp_webform.default.yml	cb082be659713bb33011281a219c7c96
+M	config/install/core.entity_view_display.paragraph.bp_accordion.default.yml	85c3961b7cae5defe595b1efdd685848
+M	config/install/core.entity_view_display.paragraph.bp_block.default.yml	7cc6aa51f85a4c99794a3424227bf6fd
+M	config/install/core.entity_view_display.paragraph.bp_carousel.default.yml	b2792181ddfbca9c55682563543fcf94
+A	config/install/core.entity_view_display.paragraph.bp_column_wrapper.default.yml	da8d23aab5b73a2a04cdd87ea5103554
+M	config/install/core.entity_view_display.paragraph.bp_columns.default.yml	cb0a9289bf22c313c77e0d219086877b
+M	config/install/core.entity_view_display.paragraph.bp_columns_three_uneven.default.yml	b5191afdd8f52d8e810981e2688ff3b0
+M	config/install/core.entity_view_display.paragraph.bp_columns_two_uneven.default.yml	5c07875f57a22855b2e530b270ce4641
+M	config/install/core.entity_view_display.paragraph.bp_image.default.yml	ab345baeaedbf71fd81d8a489edbba34
+M	config/install/core.entity_view_display.paragraph.bp_modal.default.yml	680886601c04e9365d785524a94258f2
+M	config/install/core.entity_view_display.paragraph.bp_simple.default.yml	d76626a4ef8c944b19290fd09a5ab897
+M	config/install/core.entity_view_display.paragraph.bp_tabs.default.yml	dfba0db6aceeb8f5a11e4ba8e3bb9a7b
+M	config/install/core.entity_view_display.paragraph.bp_view.default.yml	05f5950bbc17fdc778adf6b752dc4094
+M	config/install/core.entity_view_display.paragraph.bp_webform.default.yml	61b037ef8d4930e92453f6f5bd21c68f
+A	config/install/field.field.paragraph.bp_accordion.bp_gutter.yml	24bc1c37f5835ff8b48b34eef20b096e
+D	config/install/field.field.paragraph.bp_accordion.bp_remove_container.yml	
+M	config/install/field.field.paragraph.bp_accordion_section.bp_accordion_section_body.yml	3129734d4468988ebbd349e1ef35e88f
+A	config/install/field.field.paragraph.bp_block.bp_gutter.yml	61c4b86d99e546ec6bf7a721cc32045e
+D	config/install/field.field.paragraph.bp_block.bp_remove_container.yml	
+A	config/install/field.field.paragraph.bp_carousel.bp_gutter.yml	459c2f891fc2915c2af295a8bc6a6a16
+D	config/install/field.field.paragraph.bp_carousel.bp_remove_container.yml	
+M	config/install/field.field.paragraph.bp_carousel.bp_slide_content.yml	a15ee524a8c59cc86c6d924b5a7d77d4
+A	config/install/field.field.paragraph.bp_column_wrapper.bp_column_content_w.yml	e839eead283ca3928c73be77667639b8
+M	config/install/field.field.paragraph.bp_columns.bp_column_content.yml	3313b04cefd9cbf703c17ebbed046af7
+A	config/install/field.field.paragraph.bp_columns.bp_gutter.yml	e7d8bf3d072e55faf25bc16ba097d335
+D	config/install/field.field.paragraph.bp_columns.bp_remove_container.yml	
+M	config/install/field.field.paragraph.bp_columns_three_uneven.bp_column_content_3.yml	a89586c488ece3a940e9764d11e0246f
+M	config/install/field.field.paragraph.bp_columns_three_uneven.bp_column_style_3.yml	23638963494957c7f1a5ab391d15fae9
+A	config/install/field.field.paragraph.bp_columns_three_uneven.bp_gutter.yml	cd2f0777f440f4d3ff7662d2121959ba
+D	config/install/field.field.paragraph.bp_columns_three_uneven.bp_remove_container.yml	
+M	config/install/field.field.paragraph.bp_columns_two_uneven.bp_column_content_2.yml	cc677d0796b9741fa85f7aed44057a70
+M	config/install/field.field.paragraph.bp_columns_two_uneven.bp_column_style_2.yml	77ec837d3523283f46d39c26d6ace39f
+A	config/install/field.field.paragraph.bp_columns_two_uneven.bp_gutter.yml	ab2dc5e4c4c87de925a1340f36e24493
+D	config/install/field.field.paragraph.bp_columns_two_uneven.bp_remove_container.yml	
+A	config/install/field.field.paragraph.bp_image.bp_gutter.yml	a6c69916a65f09e122675e111f860ac8
+D	config/install/field.field.paragraph.bp_image.bp_remove_container.yml	
+A	config/install/field.field.paragraph.bp_modal.bp_gutter.yml	d6e696c8e318cd32ce7f5c2c8ed4d231
+M	config/install/field.field.paragraph.bp_modal.bp_modal_body.yml	e67e72b50ccee3a4ef5c06c155808eb5
+M	config/install/field.field.paragraph.bp_modal.bp_modal_footer.yml	939e41a6f498ccf4030cffcff910d833
+D	config/install/field.field.paragraph.bp_modal.bp_remove_container.yml	
+A	config/install/field.field.paragraph.bp_simple.bp_gutter.yml	89d77d7f245b714b4a5850bc96a8dfa5
+D	config/install/field.field.paragraph.bp_simple.bp_remove_container.yml	
+M	config/install/field.field.paragraph.bp_tab_section.bp_tab_section_body.yml	29184394f595d3e76ad8b4c5e3177e93
+A	config/install/field.field.paragraph.bp_tabs.bp_gutter.yml	929c4a1929c01f647ad767291a13907f
+D	config/install/field.field.paragraph.bp_tabs.bp_remove_container.yml	
+A	config/install/field.field.paragraph.bp_view.bp_gutter.yml	bed726902e1eb8a95df6ffb2af72830e
+D	config/install/field.field.paragraph.bp_view.bp_remove_container.yml	
+A	config/install/field.field.paragraph.bp_webform.bp_gutter.yml	c48ddd7c5eda36aa2727cfc03bfc5b34
+D	config/install/field.field.paragraph.bp_webform.bp_remove_container.yml	
+A	config/install/field.storage.paragraph.bp_column_content_w.yml	a2631ba504535688e18d85de9f8fcad8
+A	config/install/field.storage.paragraph.bp_gutter.yml	b45a313a9bf3bb7df7dfc842f8633255
+D	config/install/field.storage.paragraph.bp_remove_container.yml	
+A	config/install/paragraphs.paragraphs_type.bp_column_wrapper.yml	7bec0f9e847c74b750a8cfa152a30c31
+M	css/base/vbp-default.admin.css	c8663bbb2c0da7355454a69b9687e2a5
+M	css/base/vbp-default.admin.css.map	2c9ea55d3cce914b95082b3657125075
+M	css/component/vbp-accordion.component.css	087a920c5fe67a9762fc0fc3605c23e9
+M	css/component/vbp-carousel.component.css	fc1c28e92cdee82549142c43f9f56163
+M	css/component/vbp-image.component.css	a0e27bd265f2031216eeaa0d8633c20f
+M	css/component/vbp-modal.component.css	a3bd127a3373b41d43450e36f03e441b
+M	css/component/vbp-tabs.component.css	eac995a6ac9e69b540b3bade9e528be7
+A	images/icons/paragraph--gutter--with-gutter.svg	006721a7dd7de793da677adaac1bc5a2
+A	images/icons/paragraph--gutter--without-gutter.svg	1aa6e1a4b12a1a9bb9683cd95c85ecce
+A	images/icons/paragraph--style--16-16-66.svg	20ccaaa7213066d2e39a3fbd924ae99d
+A	images/icons/paragraph--style--16-66-16.svg	4c8044847777d8972decf5c3f5ec2daa
+A	images/icons/paragraph--style--25-25-50.svg	89f32f05d9bfe6c407ccc6a19f9c2a16
+A	images/icons/paragraph--style--25-50-25.svg	897b5bd2a46abae3d8783a68e0870b77
+A	images/icons/paragraph--style--25-75.svg	147fc071418254f524c719aa0de5c7b3
+A	images/icons/paragraph--style--33-66.svg	b9b12db003bf0481db55402dff12d281
+A	images/icons/paragraph--style--50-25-25.svg	a6c76d1f67c1550da334ba81557b07d4
+A	images/icons/paragraph--style--50-50.svg	5f5473825d5dd804b07e5c64fe92a469
+A	images/icons/paragraph--style--66-16-16.svg	a762832932b99aed3bde14ab2be6c68c
+A	images/icons/paragraph--style--66-33.svg	a16e889f400fe28ba335a20a027bc653
+A	images/icons/paragraph--style--75-25.svg	a29005c28182e207b04dd87cb698571e
+A	images/icons/paragraph--style--left.svg	50f5955bc59f194566d060a253807550
+A	images/icons/paragraph--style--right.svg	6cb206ac77c453486aab32a5a27ba874
+A	images/icons/paragraph--width--edge-to-edge.svg	f6047a555e25500bc85fd5aed7ca3667
+A	images/icons/paragraph--width--full.svg	8aa42defbf25ebb878e8729f6c279ea1
+A	images/icons/paragraph--width--medium.svg	9843415a8a484319db8003140c1b8b68
+A	images/icons/paragraph--width--narrow.svg	874f25f20c46341e471027c473a9e3b6
+A	images/icons/paragraph--width--tiny.svg	93841308bccc00b53eb75da4838d5bd9
+A	images/icons/paragraph--width--wide.svg	d92ddc6608823edcb325f2b6c231296a
+M	js/vbp-scripts.admin.js	eaeb12899669e3d59998baa999302f2f
+M	less/base/vbp-default.admin.less	1a0b300fc8c5152fe3a3edbbdbed8f3d
+M	modules/vbp_text_and_image/config/install/core.entity_form_display.paragraph.text_and_image.default.yml	fa2af950d33955847dcc69f1bf9e942a
+M	modules/vbp_text_and_image/config/install/core.entity_view_display.paragraph.text_and_image.default.yml	e0cf5d179a1dd3a9824264c9b34d4c4a
+M	modules/vbp_text_and_image/config/install/field.field.paragraph.text_and_image.bp_classes.yml	581a74152f049f55aa44622202a41c91
+A	modules/vbp_text_and_image/config/install/field.field.paragraph.text_and_image.bp_gutter.yml	80fd26ee998f3c4213737099f0dacc5b
+D	modules/vbp_text_and_image/config/install/field.field.paragraph.text_and_image.bp_remove_container.yml	
+M	modules/vbp_text_and_image/config/install/field.field.paragraph.text_and_image.text_and_image_style.yml	3b29fe00f1075b4927c42a4318cd7d1f
+M	modules/vbp_text_and_image/templates/paragraph--text-and-image.html.twig	c0fbe5b3db1728fddab10026c1c8a7f9
+M	modules/vbp_text_and_image/vbp_text_and_image.info.yml	55207042090f0186d31395f06f52c066
+M	templates/paragraph--bp-accordion.html.twig	a797349e00bfa6a12f53ee889a14f29f
+M	templates/paragraph--bp-carousel.html.twig	5763ed0d4735f96603258ce360673416
+M	templates/paragraph--bp-columns-three-uneven.html.twig	aa7313e59e45b10671b44c154695a8eb
+M	templates/paragraph--bp-columns-two-uneven.html.twig	bd3749f0539326b22155d997a5841be2
+M	templates/paragraph--bp-image.html.twig	1b646ceb91b9e24ce529f8013cb14324
+M	templates/paragraph--bp-modal.html.twig	556721c6ef67fe12719ab7281439da2b
+M	templates/paragraph--bp-tabs.html.twig	463583c10722f78d5fbf0b69d0808614
+M	templates/paragraph--default.html.twig	54315d9c2b8ef12d95807a1f8f06877e
+M	varbase_bootstrap_paragraphs.info.yml	420ae6b395c768dfdd19dd61aed9490b
+M	varbase_bootstrap_paragraphs.module	ae558c84250b89488f8bdd3a52c03e1b

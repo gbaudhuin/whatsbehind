@@ -1,0 +1,18 @@
+M	config/install/views.view.control_content_panes.yml	385c4bc035d6390499ed28b97f6f61d0
+D	config/install/views.view.control_terms.yml	
+A	config/optional/views.view.control_terms.yml	1cb94841489c9af9284297aed5fe4f71
+M	src/Plugin/Block/AdministerContentTypes.php	b48eb7f7051a0e50d646f0a13eb9f963
+M	src/Plugin/Block/AdministerMenus.php	13b06e5cbfc399eff1d444ebc7302bf8
+M	src/Plugin/Block/AdministerPanelPages.php	aa5d7a8f52018709faade319dbb8b32c
+M	src/Plugin/Block/AdministerTaxonomy.php	f6250e64efc2a54557ed77b80341feb6
+M	src/Plugin/Block/ContentOverview.php	313f905b5dd78c3eeb88ce01d8292ebc
+M	src/Plugin/Block/CreateContent.php	b81e8105d1d7f2537da6edda3082cbcb
+M	src/Plugin/Block/TotalControlDashboard.php	fa1a23c6b12626acc2e1771807bb4b66
+M	src/Plugin/Derivative/DynamicLocalTasks.php	23d4d7bf0445e6c9cc4b0f6244ad5635
+M	src/Plugin/Derivative/TotalControlMenuLink.php	e36e1b8543624216b69def84901d54f4
+M	src/Plugin/Menu/TotalControlMenuLink.php	bd230db437c98d7b3611c65cebcfaf01
+M	src/Routing/RouteSubscriber.php	8550cd0a51889db3c26e0824b4eea5cc
+M	total_control.info.yml	6201913ff40469f2dceeba7a345a48d8
+M	total_control.links.task.yml	a6eb539696fbd2a32e0ca7d977c49cc8
+M	total_control.module	5e2b42939dedab32ef848167707a5611
+M	total_control.services.yml	9aeb63195f4980ca30c46c7de960c419

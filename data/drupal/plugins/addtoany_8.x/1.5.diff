@@ -1,0 +1,11 @@
+M	addtoany.info.yml	b849e1a424a12812beec385df96385ae
+A	addtoany.install	f4ba0acdcc402d8a690836200e213339
+M	addtoany.module	4acd3ad02892c24059266edafaddc987
+A	addtoany.permissions.yml	c598d024a076151f50bc718a8df3ee4d
+M	config/install/addtoany.settings.yml	8de9ab97564ce895911c481896b057ee
+M	config/schema/addtoany.schema.yml	b3febbdfaca5328e890a79a8119af41e
+M	css/addtoany.css	1991e7332990ce178bcb59ad5ffaf84a
+M	js/addtoany.js	601d0fcc187400dcea9447904f643ad3
+M	src/Form/AddToAnySettingsForm.php	f7bf438dd9cb9120fe2b7c5429c16f0d
+D	src/Plugin/DsField/AddToAnyField.php	
+M	src/Plugin/views/field/NodeAddToAnyShare.php	922f00a6a6ab106442da87f459facc65

@@ -1,0 +1,9 @@
+D	TODO.txt	
+M	includes/views_fieldsets.views.inc	dbaf9203a36929af7a4196e8d92ac5bc
+A	templates/views-fieldsets-details.tpl.php	b1e32526f66d18a056790d53816e051b
+A	templates/views-fieldsets-div.tpl.php	a8f62a6a6286469488c3837321ccf223
+M	templates/views-fieldsets-fieldset.tpl.php	5dcb7ef77e28947c9cf17383c67ea0ab
+M	views/views_fieldsets_fieldset_field_handler.inc	b86c1e69629d84d9c7e8537d934d428d
+A	views_fieldsets.api.php	2d26f22796e5ce7ee595856cc8afc3b0
+M	views_fieldsets.info	5e55728912b90a455fb9af8e184ee896
+M	views_fieldsets.module	a000b4a19c4bd3691c3e9c8b338db690

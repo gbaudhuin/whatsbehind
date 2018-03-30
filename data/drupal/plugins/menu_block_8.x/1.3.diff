@@ -1,0 +1,6 @@
+A	README.txt	8d2119690bba094f10ab788311cc3d29
+M	config/schema/menu_block.schema.yml	a741df8b903e5f156b0f62bd5bc15c40
+M	menu_block.info.yml	a9460b5cfa9055d23f55d66589ec06de
+M	menu_block.module	ec0bb21f6cb86e3d83687a98348dbf0a
+M	src/EventSubscriber/MenuBlockKernelViewSubscriber.php	23bfc2f37e6c2203a8547bb3d29078b0
+M	src/Plugin/Block/MenuBlock.php	cb5224c981a52e4181af9f45cfc2ce17

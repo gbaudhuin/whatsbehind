@@ -1,0 +1,12 @@
+M	avatars.info.yml	77ad5d45293142bdc921694da4711759
+M	avatars.module	c45f6fd7a4fb1fa588c252519c8ccf0a
+M	avatars.services.yml	b1a290bc194b9e3d98b081a7eaa4650a
+M	avatars_adorable/avatars_adorable.info.yml	666f1b34b648d64340f556842abbeb1a
+M	avatars_gravatar/avatars_gravatar.info.yml	22bc8d3c8f05f7033c54acf7e0ce41ff
+M	avatars_robohash/avatars_robohash.info.yml	5ef9bcd901e06bad4e5b4dd5bd815b5c
+M	src/AvatarManager.php	dd6fef020d8f8e845b5c07d4c1c0d267
+M	src/AvatarManagerInterface.php	9229f17b6e85a9aa4285db2d467af8b9
+M	src/Entity/AvatarPreview.php	f890490575698c15a67e2dc21cb7f25f
+M	src/Tests/AvatarKitGeneratorTest.php	2e1d586d2582dd5e2ec807c61f119ce8
+M	tests/modules/avatars_test/avatars_test.info.yml	81534260beb79c2fd69dc43b0bb28488
+M	tests/src/Kernel/AvatarKitPermissionsTest.php	46cbec96aa5e7c8dbba6567507b5ddc2

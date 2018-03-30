@@ -1,0 +1,4 @@
+M	entity_reference_revisions.info.yml	b5f91e2be6647888dc64fcc471c60091
+M	src/Plugin/Field/FieldType/EntityReferenceRevisionsItem.php	e9cdfd524c996372c92d5685a7963272
+M	tests/modules/entity_composite_relationship_test/entity_composite_relationship_test.info.yml	b2a63c3ea4083295ba3b7b04955eeac1
+M	tests/src/Kernel/EntityReferenceRevisionsCompositeTest.php	ceaac5b6686626b30aac2d0930c1eabb

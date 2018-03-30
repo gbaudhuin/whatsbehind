@@ -1,0 +1,11 @@
+M	event_calendar.info	575ea05113872802ed369b042bddeda0
+M	event_calendar.install	d020955d0cb5da90b815102362439b83
+M	event_calendar.list.inc	7e59dd96cd01c40c48cc854e2ff4c40c
+M	event_calendar.module	a16efff8985e6a6fe73fa95736a10448
+M	event_calendar.tokens.inc	184429f1c3e4d786b1cb9d5b20a5897a
+M	event_calendar_colors/event_calendar_colors.info	1fe5c33b4b097a0033507dc86d55a341
+M	event_calendar_colors/event_calendar_colors.module	90935d38f49e3ddc58c9766b0565b09f
+M	event_popup/event_popup.info	4ffc12b4470424d36d34d3bb5e2fa956
+M	event_popup/event_popup.module	d9727117d9abd31f487c0985cf027528
+M	event_popup/js/event_popup.js	446b62c3f75c9e6d97ddbe79e89f8395
+M	event_popup/js/event_popup_validate.js	faa9295f413dc92dfbc93a7f05b1a0c9

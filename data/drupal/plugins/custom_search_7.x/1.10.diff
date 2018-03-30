@@ -1,0 +1,29 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+D	custom_search-result.tpl.php	
+D	custom_search-results.tpl.php	
+D	custom_search-sort-form.tpl.php	
+M	custom_search.admin.inc	58f27940b22afbe7601df7b46333bdad
+M	custom_search.info	4547c8320165d7e4b1cbdd6f3bfed7a1
+M	custom_search.install	f81219a76f2d3f24e4808d215e555938
+D	custom_search.js	
+M	custom_search.module	9bbafdfd407aca7f901256f454492a4a
+D	custom_search.pages.inc	
+D	custom_search_sort.js	
+A	includes/apachesolr_search.inc	d16ed60eb7f17986d071962174bc3c41
+M	includes/forms.inc	d3d82660c21412e0b6ff52df84a55d86
+A	includes/google_appliance.inc	97288942f6d8d6d2a61880051389c5d8
+A	includes/luceneapi_node.inc	7528fc4eb8e1e990df632598bef8c193
+A	includes/search_api.inc	a898d8dc46610675a65d5e476bbfc7c4
+A	js/custom_search.js	7d373fd8fb5339083f582b6fc5eb8798
+A	js/custom_search_sort.js	e4b2ee21b73549a8bce7302e2d262dc9
+M	modules/custom_search_blocks/custom_search_blocks.info	d268a08c7a9a13b2fec5746f23e1592c
+M	modules/custom_search_blocks/custom_search_blocks.install	381d43681e0cf2b0241809c71d1f9920
+M	modules/custom_search_i18n/custom_search_i18n.info	ddab275f36c80771e7813ffdf21e4a32
+M	modules/custom_search_i18n/custom_search_i18n.module	fde9c46250ec261fdaf7295ce44be896
+M	modules/custom_search_taxonomy/custom_search_taxonomy.admin.inc	91f84ae35992bb2713338a11ee5cffc4
+M	modules/custom_search_taxonomy/custom_search_taxonomy.info	bf967f1842bf47a69f31298743f58b6d
+M	modules/custom_search_taxonomy/custom_search_taxonomy.module	e2753c7e9cdb61518bfa7bb907ba65c4
+A	theme/custom_search-result.tpl.php	1b536799846adbf8a0bbc47b052e3c8e
+A	theme/custom_search-results.tpl.php	96d768b95b948e2b9b93b94e78eae144
+A	theme/custom_search-sort-form.tpl.php	dc4a5482df38d868378f854a2c64f241
+A	theme/custom_search.pages.inc	1a15b7e761b7f827b4af30df426bf32c

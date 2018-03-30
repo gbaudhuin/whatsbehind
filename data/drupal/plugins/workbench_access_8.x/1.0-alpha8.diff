@@ -1,0 +1,4 @@
+M	tests/modules/workbench_access_test/workbench_access_test.info.yml	5bd0f93c97e6c4ef4731d94d4fd97d04
+M	tests/src/Functional/UpdatePathTest.php	b1bb427991edf4e797d2e50533c505da
+M	workbench_access.info.yml	525d3fef99e497e10d428583ec597116
+M	workbench_access.install	f106f056993e2c5e199de32b28d9b6f9

@@ -1,0 +1,9 @@
+A	.gitignore	2c357c4e7690d76b83b96f13c072ff34
+M	formblock.info.yml	43dd4bbff67a64b4f9d8fc34b9d8a74e
+D	formblock.module	
+A	phpunit.xml.dist	cbf4d437be32255b4b7d58d6b7ba272e
+M	src/Plugin/Block/NodeFormBlock.php	3e67e044603900b8bfb168301317c397
+M	src/Plugin/Block/UserPasswordBlock.php	9fc951f445e179fb88ee0cb07cd94367
+M	src/Plugin/Block/UserRegisterBlock.php	c719a1f8c1afbf0ccd1e881df6a20483
+A	tests/src/Functional/FormblockTestBase.php	0ddcbc8737084c67598f0ec9e8c622c7
+A	tests/src/Functional/PasswordResetBlockTest.php	7cadea44f18a58c1ac36bb859fd05529

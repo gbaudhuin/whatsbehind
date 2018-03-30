@@ -1,0 +1,4 @@
+M	select_or_other.field_widget.inc	353d21aa98a2a14ffb108defe5c60bd1
+M	select_or_other.info	982dfb62e74a119dec8dbf142718686f
+M	select_or_other.module	59f68008ead11ba7f69a25b0ca949c63
+A	tests/select_or_other_admin.test	d7a3ddff29ecfb43f6d2e22598f70fbc

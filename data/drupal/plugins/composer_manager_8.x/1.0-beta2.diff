@@ -1,0 +1,6 @@
+M	composer_manager.info.yml	f42b905663345c4aa7b14258e5ad509c
+M	src/Composer/Command.php	e8be0d2c2fd71bc0545952e370434bc3
+M	src/Controller/PackageController.php	60d6c4ce8194f3c8e814dc7022ff3936
+M	src/JsonFile.php	ffc559bf8e39c57214df4048fc95c039
+M	src/RootPackageBuilder.php	80895d0b4d779bf5e2ff2b44cc852556
+M	tests/src/Unit/RootPackageBuilderTest.php	be62197ccb649ce2e974255af1006583

@@ -1,0 +1,9 @@
+A	.travis-phpcs.sh	f6d17e9efe603434118a58da405e66b2
+A	.travis.yml	770c2ee48d6299155227d5bb21930e1b
+M	README.md	5e8d4885f130425923a75a84da1e5123
+A	composer.json	9fcb47de4b8de061a48b4d7fcb5528c8
+M	menu_item_extras.info.yml	929c635cf84e65cf43a5ff3383b923af
+M	menu_item_extras.module	a031943c5500e9c2068eac0051c999dc
+M	templates/menu--extras.html.twig	4ec6beccc5289fd52e917a9d8610bb6a
+M	tests/src/Functional/MenuItemExtrasMenuConfigTest.php	5a79d92af04c5ed5bb68a7b21ae96081
+M	tests/src/Functional/MenuItemExtrasUiCrudTest.php	fbb0d80e5910617c21eedc9f5bde5f5f

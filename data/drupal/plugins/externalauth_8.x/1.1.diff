@@ -1,0 +1,13 @@
+M	externalauth.info.yml	6f57361dd0a03c7d6eacf44133ec9c54
+M	externalauth.install	78176878b053d9fcea0812c9c63982a8
+A	externalauth.views.inc	958d6059891699ab5688e62ab4167ecc
+M	src/Authmap.php	bc28c05f275470a426f0cc80e4de4f5f
+M	src/AuthmapInterface.php	103529e0c7ec8a03292f72826b43eb4a
+M	src/Event/ExternalAuthLoginEvent.php	2502d07ff8a81174e098460f2bf38cd4
+M	src/Event/ExternalAuthRegisterEvent.php	874640b8fe0bb2dbbe1e9d60234fea77
+M	src/ExternalAuth.php	51bf5dda94a08ed79ee71938cb7e3c6a
+M	src/ExternalAuthInterface.php	9522f8041184d88bae10c58af7048651
+M	src/Plugin/migrate/destination/Authmap.php	01968e9d6887e9386bb85ecee5c43a12
+M	src/Plugin/migrate/source/Authmap.php	06138c1ea34c10fac49717f1a5215274
+M	src/Tests/AuthmapTest.php	5b26d6966b38bffc75e689d1b7e45b68
+M	tests/src/Unit/ExternalAuthTest.php	c2c143aca5bb08e877fa59c4b177c58b

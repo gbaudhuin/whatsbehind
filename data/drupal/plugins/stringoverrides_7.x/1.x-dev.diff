@@ -1,0 +1,14 @@
+A	.gitignore	e8a346051f935e6cb104e1dc40998a91
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	b95effa87706120e3354217d63a568fa
+A	composer.json	28d8128b003c549794e67f691a4a0c52
+M	stringoverrides.admin.css	f315778ab7dc3121f91f04a3bc1bda17
+M	stringoverrides.admin.inc	d1bb06bb30e8ad109f8692f134ea8b2b
+A	stringoverrides.drush.inc	0ba2e63fd652117c53724d33c8af3674
+M	stringoverrides.info	e2a0915a3d2fe4799799a46b936347a1
+M	stringoverrides.install	1b39462dba8a6196f52521f033e6e5c9
+M	stringoverrides.module	7453b905992d2d5885988c8825428551
+A	stringoverrides.test	700ffda5625bc3104b6bec8b8a89d414
+M	stringoverrides_migrate.admin.inc	7a509584097324bb657f685b01ea90d6
+M	stringoverrides_migrate.info	c054d8b028437311b46553805dcded25
+M	stringoverrides_migrate.module	c1129385c54d0be9279dd962ee1c3af8

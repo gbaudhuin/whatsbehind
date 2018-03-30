@@ -1,0 +1,8 @@
+D	composer.json	
+M	sharethis.info.yml	a2f543c8ebcc69423d284dcc42bd47b9
+M	sharethis.module	3ab94c5bf220b447daa0a8fe7e98fbed
+M	src/Form/SharethisConfigurationForm.php	8fcc4ee55ae7866fb1513a109c04786d
+M	src/Plugin/Block/SharethisWidgetBlock.php	6733777baa07e5aa267cbc428206907f
+M	src/SharethisManager.php	289711dbc5081497fe4cd505e5a3afae
+M	src/Tests/SharethisBlockTest.php	69ff6568a4af415c9e7a236fac971d21
+M	tests/modules/sharethis_test_views/sharethis_test_views.info.yml	24368a0c4f22181cbb66862646adc02f

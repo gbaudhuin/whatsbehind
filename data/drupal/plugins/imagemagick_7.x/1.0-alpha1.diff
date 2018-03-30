@@ -1,0 +1,11 @@
+A	CHANGELOG.txt	27a3eb715ff235d35bbd451f6ef9610f
+A	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+A	README.txt	5f55e1934672b25eef8434144cfc7734
+A	imagemagick.api.php	6766730e88262ab3b92b58af030aad28
+A	imagemagick.info	2824fd3c4413447508f35171e92d5d99
+A	imagemagick.install	60952a9913ce573a358246ed24b7e54e
+A	imagemagick.module	394c60744e8ecdf18595de47c014f897
+A	tests/imagemagick.test	8f8835e13409843984e939cbd0110b62
+A	tests/imagemagick_test.info	577461c0ad6729c39fcf3e9c96cf5bb6
+A	tests/imagemagick_test.install	0cec62a15cea6f1dac7d06e7014e50d1
+A	tests/imagemagick_test.module	98eaf1a24f147e4e44af022e125b65a9

@@ -1,0 +1,7 @@
+D	date_validation/README.txt	
+D	date_validation/date_validation.info	
+D	date_validation/date_validation.module	
+D	date_validation/plugins/validator/field_validation_date_range_validator.inc	
+M	field_validation.info	e3935ad2ab68bfe0bd523c4a2a5786b3
+M	field_validation_ui.info	d1027d14592e41bfed126fe5808a722a
+M	plugins/validator/field_validation_numeric2_validator.inc	121df605a8053d7fb52119d1603fa43c

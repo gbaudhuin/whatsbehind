@@ -1,0 +1,10 @@
+M	jquery_colorpicker.info.yml	e9018bd0a89d8050a8d2e863dee0182c
+M	js/jquery_colorpicker.js	a898cd810eb36aeccfa1615520f5da00
+M	src/Element/JQueryColorpicker.php	0929736d1a16428da44dc3af42bcdb85
+D	src/Plugin/Field/FieldType/JQueryColorpicker.php	
+A	src/Plugin/Field/FieldType/JQueryColorpickerItem.php	3588c79df148b80a142afe5a68ed154d
+M	src/Plugin/Field/FieldWidget/JQueryColorpickerDefaultWidget.php	fe87ad0e81f601cb38a8b3aa5df3e897
+M	src/Service/JQueryColorpickerService.php	c7594c14984655b1587bbbae0a5a1bda
+M	src/Service/JQueryColorpickerServiceInterface.php	70e5491fc2ea1c491bffad741eea0132
+A	tests/src/Unit/Element/JQueryColorpickerTest.php	f77bf10479b392284b633e099d28fe2d
+A	tests/src/Unit/Service/jQueryColorpickerServiceTest.php	7bf9c0fe032afbf12a564ff98884aa3b

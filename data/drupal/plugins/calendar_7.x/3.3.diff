@@ -1,0 +1,13 @@
+M	CHANGELOG.txt	2d940e63e5c8cdefe33bfa22ecff890b
+M	calendar.info	2e814af20b72d13b04657326d79eb896
+M	calendar.install	c0d99f811be09a518e67665357abcf37
+M	calendar.module	39a8a9b8a3b3c7fccc9d559286ea29aa
+M	calendar_ical/calendar_ical.info	a37540dc16a9d02765892e510765d04a
+M	css/calendar-overlap.css	87beef04753a8b9a7866ddbdde5267a7
+M	css/calendar_multiday.css	12887a3da06d4e0a838d99bd5e80aaa6
+M	includes/calendar.views_template.inc	94bd9050df3f0ffddcf163c3ac9bff04
+M	includes/calendar_plugin_row.inc	910fe099c7a8c7186af35a11697f050f
+M	includes/calendar_plugin_style.inc	cb1564519173dd4c6f0cf87a890c82fe
+M	js/calendar_overlap.js	dc45736a15e94313f450f8e45dae4fc3
+M	readme.txt	2e0ca68c9d82697dbd5f0ff67f1ff70e
+M	theme/theme.inc	324563f0e2a3ddaad3b7e739e6e5f04e

@@ -1,0 +1,10 @@
+M	link.info	3c30ce06cbeec710e4494ee92cad8678
+M	link.install	b05517a97ad604425ec074f16e1eb0f2
+D	link.js	
+M	link.module	6956bf19db41ef49400e59bc70fcf334
+D	po/da.po	
+D	po/fr.po	
+D	po/link.pot	
+M	views/link.views.inc	3f61a17a3f591cc89fe6101827760d70
+M	views/link_views_handler_argument_target.inc	425db4bd5e04245c14aebff8d55becb4
+M	views/link_views_handler_filter_protocol.inc	2e931b3501e98fbf74fb333ea0129921

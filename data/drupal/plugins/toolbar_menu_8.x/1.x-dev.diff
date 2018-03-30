@@ -1,0 +1,18 @@
+D	config/schema/toolbar_menu.schema.yml	
+A	config/schema/toolbar_menu_element.schema.yml	056ac7dfb9d228153ec4d065a7972f62
+A	src/Entity/ToolbarMenuElement.php	a75aa94cde437c001200cda1f334e4bf
+A	src/Form/ToolbarMenuElementEditForm.php	3b9cdf765b77611ed3b2adb0871a8fe3
+D	src/Form/ToolbarMenuForm.php	
+M	src/Tests/ToolbarMenuFonctionalTest.php	c87d4360014719d8b5b1ced692070934
+A	src/ToolbarMenuElementListBuilder.php	23cde0e42faaf508aa57b46b59746666
+M	src/ToolbarMenuManager.php	5379da60fe6e7d7d4c17abaecdb81f17
+M	src/ToolbarMenuMenuLinkTreeManipulators.php	1bb56209959090088010edc7e6fd917a
+M	src/ToolbarMenuPermissions.php	7420353d8ce2faa04d40dbf9080a173c
+M	toolbar_menu.info.yml	3a91ac10efdfec8c26cd2af9358836dc
+A	toolbar_menu.install	aca88a7dccf9b8e7b26242a33b8b0fba
+A	toolbar_menu.links.action.yml	aae06a56fc0215cc66e83ae84192f021
+M	toolbar_menu.links.menu.yml	8927f3820ee5dd99bc9d7dacc84af9e6
+M	toolbar_menu.links.task.yml	d32ff74d300a371aa4d7a6baa73d2ab0
+M	toolbar_menu.module	c0058809d3b5fbad62c205aa1df9f58e
+M	toolbar_menu.routing.yml	856b5e5391d9db03d55cc20ca8437c34
+M	toolbar_menu.services.yml	00d8586137d87c51cd0feec1a98823c6

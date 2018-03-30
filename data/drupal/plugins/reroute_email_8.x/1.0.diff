@@ -1,0 +1,28 @@
+M	README.txt	78ef00cc8312d31fbc964e0932a86b18
+A	config/install/reroute_email.settings.yml	a32ab3acd2f85a833b352f5fcf2f3905
+M	config/schema/reroute_email.schema.yml	b149f6cb592468b0b0af07a271849b09
+M	reroute_email.info.yml	09259806fb1f02269b4eddc8d6e810b0
+A	reroute_email.install	41ab73504e2926165a541a4e2a0b1757
+M	reroute_email.module	fa9aadb061d3fda0de258a7c466c470c
+M	reroute_email.routing.yml	62ec5b6efb61a5e8592488e37306e738
+D	src/Form/RerouteEmailSettings.php	
+D	src/Form/RerouteEmailTestEmailForm.php	
+A	src/Form/SettingsForm.php	c46028dfca2f5826c7157abb07c72502
+A	src/Form/TestEmailForm.php	2386c54790effc0eb1f360ac308801b7
+D	src/RerouteEmailTestBase.php	
+D	src/Tests/ContactTest.php	
+D	src/Tests/DefaultAddressTest.php	
+D	src/Tests/TestEmailTest.php	
+D	src/Tests/UnusualMessageFieldsTest.php	
+D	test_modules/reroute_email_test.info.yml	
+D	test_modules/reroute_email_test.module	
+A	tests/modules/reroute_email_test/reroute_email_test.info.yml	7e098cb9b68236629a0b012faa01bf0a
+A	tests/modules/reroute_email_test/reroute_email_test.module	c853fe6badfb6c4ffe51390c1f8a797e
+A	tests/src/Functional/ContactTest.php	c4336431c343cdd76bfdd1d038a8e99c
+A	tests/src/Functional/DefaultAddressesTest.php	44c45ba97bd75f851b09412aa60ebd1a
+A	tests/src/Functional/DomainWhitelistedTest.php	faf296394f43751ac8e62136653a0bb6
+A	tests/src/Functional/MailKeysTest.php	3bf97ade4735eabcc78da47c01ed53b9
+A	tests/src/Functional/MultipleRecipientsTest.php	76f437bfbcac91d36ec16df673b2845c
+A	tests/src/Functional/RerouteEmailTestBase.php	28657d569861800804717a4de7cfbe87
+A	tests/src/Functional/TestEmailFormTest.php	9970487d8b80ec8e46c4b7f5ce7bd4c7
+A	tests/src/Functional/UnusualMessageFieldsTest.php	b2d4f6abdd5aa42c8f3eb6f560cd1dad

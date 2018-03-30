@@ -1,0 +1,35 @@
+M	.travis.yml	569693ce2ede719e0ce842f77978620e
+M	composer.json	1b66f1e13b8cc6c48b0ce8ed8fea7085
+M	entity.info.yml	998cc1e13b45cc00e3f45c013d3c6c26
+A	entity.links.action.yml	a7dfb36cba1f8fd8bd0344b67bc0a06a
+M	entity.services.yml	91f8822599290a662b1b37218f4e2344
+A	src/Access/EntityDeleteMultipleAccessCheck.php	84febd6403d41e52160232e74d62c9c3
+M	src/Controller/RevisionControllerTrait.php	4e404f0cac69971190f87adec9958eef
+D	src/Entity/RevisionableEntityBundleInterface.php	
+M	src/EntityPermissionProvider.php	21734ce9b7b0595bb67e73c8a8f8fa8d
+D	src/EntityViewBuilder.php	
+D	src/Form/DeleteMultiple.php	
+A	src/Form/DeleteMultipleForm.php	2c6880b95cd62f35e49cefeecbfaba6e
+D	src/Form/RevisionableContentEntityForm.php	
+A	src/Menu/EntityAddLocalAction.php	a6828adfe132c287a45bcb55c55e21b5
+A	src/Menu/EntityCollectionLocalActionProvider.php	ca3c23e98bcdd698d2c87a62f9f3dc69
+A	src/Menu/EntityLocalActionProviderInterface.php	176dbd57d5b99fc65161762a70e49ff0
+M	src/Plugin/Action/DeleteAction.php	85e226012a36b62a6e095bd94c4f4432
+M	src/Plugin/Action/Derivative/DeleteActionDeriver.php	459bbe9828976f65aefc0fc683784961
+A	src/Plugin/Derivative/EntityActionsDeriver.php	32b2a2b6655431040a6f19b91741f9f1
+M	src/Revision/RevisionableContentEntityBase.php	2907dbbf7cb2f6b82f2779c2f72e9a29
+A	src/Routing/AdminHtmlRouteProvider.php	c74837269faf1026ec826f611a8a5289
+A	src/Routing/DefaultHtmlRouteProvider.php	aff81567f89e28658c01e512c6f0d086
+M	src/Routing/DeleteMultipleRouteProvider.php	94e97cc39b5a602eb637b2ea9b87ceb9
+M	src/UncacheableEntityPermissionProvider.php	0692effa6a0cd327f7b15831ee3ff84e
+M	tests/modules/entity_module_bundle_plugin_examples_test/entity_module_bundle_plugin_examples_test.info.yml	23d215200097a579232369f91ed5885b
+M	tests/modules/entity_module_bundle_plugin_test/entity_module_bundle_plugin_test.info.yml	c11fb5fd5c40412f3241771fa138a216
+M	tests/modules/entity_module_test/entity_module_test.info.yml	a9eb6aca569762610647f75441f97eec
+D	tests/modules/entity_module_test/entity_module_test.routing.yml	
+M	tests/modules/entity_module_test/src/Entity/EnhancedEntity.php	14475c415243297c72a785df4f37ab4a
+M	tests/modules/entity_module_test/src/Entity/EnhancedEntityBundle.php	a12659515c652fd689f36629ee92f75e
+A	tests/src/Functional/CollectionRouteAccessTest.php	af8eb92f59deede6c4ea3c7f2b960697
+M	tests/src/Functional/DeleteMultipleFormTest.php	b20bee92ff614fc0cfd3a2dc149dc91f
+A	tests/src/Functional/Menu/EntityLocalActionTest.php	9553475d361cf6523e35441cb62fb422
+M	tests/src/Functional/RevisionRouteAccessTest.php	a4b4d43531c3e3ee4a046ad260c3792b
+M	tests/src/Kernel/DeleteActionTest.php	e387600bf749d603983aea050a45db20

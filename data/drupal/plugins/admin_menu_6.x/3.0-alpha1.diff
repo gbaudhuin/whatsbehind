@@ -1,0 +1,26 @@
+M	CHANGELOG.txt	f8360db3179ef0ccfd8fa79d210b9b7b
+M	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+M	README.txt	8265de66f49781b69aab9f5794b22e27
+M	admin_menu-rtl.css	72cd8c8f51b5c63d6c7f020f783f2174
+A	admin_menu.color.css	412042f14bf84317927b6dee31762038
+M	admin_menu.css	43a269a9be57ef9cfb3b9e9806bef12b
+D	admin_menu.drush.inc	
+M	admin_menu.inc	26272d388288cfec244f1ddae0c88b55
+M	admin_menu.info	c5dd4cfaf304570aa13dc67ef47b4d7c
+M	admin_menu.install	9b10ff92447820c9c66433f733213807
+M	admin_menu.js	76d005db22eee9a58aba48783fc962d8
+M	admin_menu.module	5877c549ff05c3fda5c34c5a20658de6
+A	images/bkg-red.png	c35af5c6678483f04aea8fbed7035e79
+M	images/icon_users.png	854edc7a1a46ea3ddb379d30737e898e
+M	tests/admin_menu.test	6cee9e205c5f19763b3af17628cc551a
+A	translations/admin_menu.pot	12d16b338283a3bf58071bbcf18bda15
+A	translations/da.po	f35050fa01171a355efb207a2ff940d4
+A	translations/de.po	9bd6df85c70e3ccb34c7866d485dec17
+A	translations/es.po	cccfd8e2aa42e03afd1c3ba3e30b9ade
+A	translations/fr.po	03be568bd2906ab0020cc723228f0e6c
+A	translations/hu.po	5255e8a591b696b8aaa8c70b77e5a7d7
+A	translations/ja.po	d20c1c9bfdc275365dd61a2d60b04bbb
+A	translations/nl.po	42f6e8cb6c3008db559152701cf78a1d
+A	translations/pt-br.po	4f0d26b7833b9fd904f2ace134d6e56a
+A	translations/ru.po	6b7ac94e5946ca85742a5c0185025a52
+A	translations/sv.po	eae71f1a6455941d0387f03c5d15bc15

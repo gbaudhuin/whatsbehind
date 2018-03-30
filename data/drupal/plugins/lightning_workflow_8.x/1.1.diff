@@ -1,0 +1,8 @@
+M	.travis.yml	1f87c4979a4da989c76bccfa0b0d2551
+M	CHANGELOG.md	31edbbbae16d194db393e6aebf13e46f
+M	composer.json	ba301c909531afbb92e49a0e40d5b8f2
+M	lightning_workflow.info.yml	190250c0861246a955a7de82985c15c6
+M	modules/lightning_scheduler/lightning_scheduler.info.yml	81a6a1529448a3daf8be7b85d401be2b
+M	tests/contexts/DiffContext.behat.inc	a945101cc85d12f72a2abc4687dd7163
+M	tests/contexts/QuickEditContext.behat.inc	e55b12a06d3fdcc3ab855b9233055e92
+A	tests/fixtures/1.1.0.sql.gz	2e767bac5215ea39b71a85ac0e147b5a

@@ -1,0 +1,3 @@
+M	background_image_formatter.info.yml	deff08799b84b06a2008536dcbdcea45
+A	composer.json	1defc01eac42783faa36b9159868160b
+M	src/Plugin/Field/FieldFormatter/BackgroundImageFormatter.php	2d9f71d676a918ea08cca43d602391e0

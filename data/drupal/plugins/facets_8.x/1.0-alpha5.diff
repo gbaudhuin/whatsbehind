@@ -1,0 +1,46 @@
+M	core_search_facets/core_search_facets.info.yml	f47c88516bac611b91cb385e32d29925
+M	core_search_facets/tests/core_search_facets_test_hooks/core_search_facets_test_hooks.info.yml	afab76543d0d8fe9facfd6a21064204c
+M	facets.info.yml	c3f3211190e0b6caa72e0957a315bb90
+M	facets.module	d65fae8fe1d7de72f2024900351e3f8c
+M	facets.routing.yml	b69d3da058126a6d3347e51916304764
+A	rest_facets/rest_facets.info.yml	fc0f8be9dc1f8231fcf2a9b2bf65e4ea
+A	rest_facets/src/Plugin/views/style/FacetsSerializer.php	8c020a257ced63a2a3663e83f7938c1e
+A	rest_facets/src/Tests/RestIntegrationTest.php	b2f1a9b13974c4bb99198d38e6688bef
+A	rest_facets/tests/rest_view/config/install/views.view.search_api_test_views_fulltext.yml	772f41841c7e49019fb7ec7924d23aec
+A	rest_facets/tests/rest_view/rest_view.info.yml	cedf9805a3ac81e67443cebae4784574
+M	src/Controller/FacetController.php	2a36c990761fe570cc8a6db950067a00
+M	src/Entity/Facet.php	101ef5305c7b46086d7246ef9dfa5d59
+M	src/FacetInterface.php	f34597f53d4572f8eaea134752210ea2
+M	src/FacetManager/DefaultFacetManager.php	51af5fde4862d087ee5e396cdd984158
+M	src/FacetSource/FacetSourceDeriverBase.php	24e707fbaa6f8784493a192b5a0905b4
+M	src/Form/FacetDeleteConfirmForm.php	8e88162b39beab10d387afe2321bbb0d
+M	src/Plugin/facets/facet_source/SearchApiBaseFacetSource.php	6c0d4b346655fb9eaffbe19b88db7f97
+M	src/Plugin/facets/facet_source/SearchApiViews.php	329f41a60f44258e4627e428627973c7
+M	src/Plugin/facets/facet_source/SearchApiViewsDeriver.php	870c89ff53e3de6c643fa48bf8731747
+M	src/Plugin/facets/processor/ExcludeSpecifiedItemsProcessor.php	47dc5653b206c2503d9943b649c8d2bc
+M	src/Plugin/facets/processor/ListItemProcessor.php	cd32c7acbfbe90e4e56d7c2d6f74e8d8
+A	src/Plugin/facets/processor/TranslateEntityProcessor.php	50ef2ba38ee72992497445d5508991cd
+D	src/Plugin/facets/processor/TranslateTaxonomyProcessor.php	
+M	src/Plugin/facets/query_type/SearchApiString.php	c73eb4c4248976cf85c9ed63c24ea717
+M	src/Plugin/facets/url_processor/QueryString.php	ac3c3d2c7ec8272f54e949c336224bea
+M	src/Plugin/facets/widget/LinksWidget.php	57e2f859b85b3facbe1ed9ad80fcb97f
+D	src/Plugin/views/style/FacetsSerializer.php	
+M	src/Result/Result.php	a3ca9ff43bdb3b5a1d0337833c260722
+M	src/Result/ResultInterface.php	f04c63e6837c72d10e6fa6ca81204ec6
+M	src/Tests/BlockTestTrait.php	2c2f28406de1768843ce722e23d9da9b
+M	src/Tests/FacetSourceTest.php	68a5a53a785f6580cfc0ce8866f5f7db
+M	src/Tests/IntegrationTest.php	a297aaa768d622c1bb1ee19e37c2b971
+M	src/Tests/ProcessorIntegrationTest.php	03083db1595bdc3520d4752c5a55532e
+D	src/Tests/RestIntegrationTest.php	
+M	src/Tests/UrlIntegrationTest.php	f277a284b9ee163415b9a90808198d82
+M	src/Tests/WebTestBase.php	8e117e87694e0fe8900ce72f07dbdb8e
+M	tests/facets_query_processor/facets_query_processor.info.yml	b6d2f09a16399d80fa49547715f4ccef
+M	tests/facets_search_api_dependency/config/install/views.view.search_api_test_views_fulltext.yml	a1314ddb8ed454f7f382690b7be71cda
+M	tests/facets_search_api_dependency/facets_search_api_dependency.info.yml	8f83e00533fc880ff424686b015253a0
+M	tests/src/FunctionalJavascript/WidgetJSTest.php	2d2483136275ad1502d2a18d28145f21
+M	tests/src/Unit/Plugin/processor/ExcludeSpecifiedItemsProcessorTest.php	9f413329aa227b9fd4b49ce24f746283
+M	tests/src/Unit/Plugin/processor/ListItemProcessorTest.php	eeeb81ea2acef6160edba40ce4172d5b
+A	tests/src/Unit/Plugin/processor/TranslateEntityProcessorTest.php	54bd72d133b588b8233dc6bfdfd277e4
+D	tests/src/Unit/Plugin/processor/TranslateTaxonomyProcessorTest.php	
+M	tests/src/Unit/Plugin/processor/UrlProcessorHandlerTest.php	8e8eb92f1701077501e3ece40bdf3293
+M	tests/src/Unit/Plugin/url_processor/QueryStringTest.php	9fc0e4b53d56cee0a68b6cbb0861f715

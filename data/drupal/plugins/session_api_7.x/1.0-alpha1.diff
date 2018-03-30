@@ -1,0 +1,11 @@
+A	CHANGELOG.txt	acdd78b2e5ae12be6a3a4cf744c9c7cc
+A	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+A	session_api.admin.inc	962f44fe34c0f2a4f175b6bb16fd7cbd
+A	session_api.info	d9aae751033859c71fe90a6b5b528fce
+A	session_api.install	ba756631154f939451add92f300d5732
+A	session_api.module	a9802a95294327254845be87eca809eb
+A	session_api.test	7514483bcb26975ac554c91a9ea2bed5
+A	tests/session_api_test.info	c495e57b3a06f076c88e638bf8289ca0
+A	tests/session_api_test.module	ec8bfbc1f2727b8ad27148e4a9be7a4b
+A	translations/de.po	e5da6fd3466484d2bdfda5cca94c2683
+A	translations/session_api.pot	502b0e32d00beb43f69ec3f3245d73d5

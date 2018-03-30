@@ -1,0 +1,20 @@
+D	CHANGELOG.txt	
+D	README.txt	
+M	composer.json	54c360b08513992b1e106e5c67968a7b
+M	contribute.info.yml	db18c29a60ef372ac3065b21582ab6f6
+M	contribute.libraries.yml	699b631d54bd9d18dc5f319826a34493
+D	contribute.links.task.yml	
+M	contribute.module	d84f67fd6fb7586910a9de5f4150c72b
+M	contribute.routing.yml	a846a92a15f24684fcdbeaf0ffe0d364
+D	css/contribute-status-report-community-info.css	
+A	css/status-report-contribute-info.css	50084abaf736bbbfd0bbeda0d2179cb7
+M	docs/RELEASE-NOTES.md	24b28e8c9335870dde8b1b8e4bc342e3
+D	images/icons/e29700/warning.svg	
+D	images/icons/e32700/error.svg	
+M	src/ContributeManager.php	ba807df816118fa403065d0273a52b83
+D	src/Controller/ContributeAutocompleteController.php	
+A	src/Controller/ContributeController.php	b398e6b76769c5f27fae8279135ac69b
+M	src/Form/ContributeSettingsForm.php	3040e7b900d072262c371ef0fa369f36
+D	templates/contribute-status-report-community-info.html.twig	
+A	templates/status-report-contribute-info.html.twig	dd4da86a91f90d6e22fd8e82d85f7eed
+D	tests/src/Functional/ContributeFunctionalTest.php	

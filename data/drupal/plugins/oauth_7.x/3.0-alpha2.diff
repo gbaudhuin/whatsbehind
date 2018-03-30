@@ -1,0 +1,8 @@
+M	CHANGELOG	d4e4b5f4574bc74a24b2f2a4e215b3b9
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	includes/OAuthSignatureMethod_HMAC.inc	e8f8e7a64457e5ddd47e15f33b0cf3f1
+M	oauth_common.consumers.inc	68ca49b951c18afe1d8455fb4e09370d
+M	oauth_common.info	6c7ddf4ceac08f868075893a4d79382a
+M	oauth_common.module	58821e715fa9932a8828379700cb6bd4
+M	oauth_common.pages.inc	1c57713ff84e2757871dff1327bc508c
+M	oauth_common_providerui.info	1b4cf1b4ba652676035a7561b77b1827

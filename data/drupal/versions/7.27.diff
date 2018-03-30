@@ -1,0 +1,10 @@
+M	CHANGELOG.txt	cedcdbb21a0b0946b264fecc48a20703
+M	includes/ajax.inc	2906e477836104dc267df30abfea2756
+M	includes/bootstrap.inc	8a3c989f40010ab6d67b9414af908e73
+M	includes/form.inc	e79850e33cc6211aaded953581c94c66
+M	misc/ajax.js	fb2f42e93aa34d26a48c415b46fb2468
+M	modules/file/file.module	408880bee0f3903d4fc52124f4af929f
+M	modules/simpletest/drupal_web_test_case.php	48e279ff332e3d65bf29fdb2b381d938
+M	modules/simpletest/tests/ajax.test	8f7e32f2614ac849df103a71d0c3f516
+M	modules/simpletest/tests/form.test	d1d4d625d5e6e06b93026e8078e119e3
+M	modules/simpletest/tests/form_test.module	0a8766b9bab8b434b4f08c7d5b748fd0

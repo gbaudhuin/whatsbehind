@@ -1,0 +1,7 @@
+M	media_expire.info.yml	cb39cec0b90ae75673d985b097ed7e7c
+M	media_expire.module	4b530257608d3c9b7385b8e51e18772a
+M	media_expire.services.yml	722f95f5a4a42010575d07d72076ab3b
+A	src/Controller/MediaViewController.php	7b6cd6d52470f625b9ff53dcd703f32f
+A	src/MediaAccessControlHandler.php	5a41d629f9de5746541ae2b09589aa3c
+M	src/MediaExpireService.php	5779b6b7555279150625e3430f721213
+A	src/Routing/RouteSubscriber.php	934ad8110724a2ed4a7d4fe774e90f7a

@@ -1,0 +1,8 @@
+A	l10n_update-not_compatible_with_drupal_core_db_field_length-2559367-2-7.x.patch	f4a3f478aa9276dcb44a8a885866122f
+A	l10n_update-not_compatible_with_drupal_core_db_field_length-2559367-7-7.x.patch	0854afa52cdef159b61702f39d4373b6
+A	l10n_update-plural-handling-fix-2501315-6-D7.patch	34579fde84ad84c73b1f401b9baf6c25
+A	l10n_update-unable-to-download-translations-updates-216758-29.patch	a1480badc55e94a1d27aedca002c7153
+A	l10n_update-update-files-directory-2544892-1.patch	9e3b22eeaceafdbc97de72c07eb02f3b
+M	l10n_update.info	e0c127cfb8b525b254a369f628a320d8
+M	l10n_update.install	f93f4041075628b36371a40a33070d95
+M	l10n_update.project.inc	3b3ef2ce06c9857b048165705b41aff3

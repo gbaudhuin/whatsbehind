@@ -1,0 +1,8 @@
+D	CHANGELOG.txt	
+M	README.txt	5640879db9d50d93748c6f79a76668a3
+M	smtp.admin.inc	638b93b1b76e144feb6ea0aabdb98bf7
+M	smtp.info	5c85c2037760df2ca6d88012b43cd870
+M	smtp.install	441eb184478fb590a2254874d4e5b69b
+M	smtp.mail.inc	1d36d8f578400558d8dde3b3dd0ec1ca
+M	smtp.module	bca3b97c60ce2246bbbfe8267a68c01a
+M	smtp.phpmailer.inc	dfdb0971d5e95d7c2e8ab238fbcccb6f

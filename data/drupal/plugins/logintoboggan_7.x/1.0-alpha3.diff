@@ -1,0 +1,15 @@
+A	contrib/logintoboggan_rules/README.txt	82598521df8a038c76234cc0e26225d4
+A	contrib/logintoboggan_rules/logintoboggan_rules.info	a561d8ba7f1fb51ed11672edee29f866
+A	contrib/logintoboggan_rules/logintoboggan_rules.module	82166dc1b925f78d4a5aae8d1e2d337a
+A	contrib/logintoboggan_rules/logintoboggan_rules.rules.inc	ba1cb0c028cdd8be9c1f01762f997d7c
+M	logintoboggan.info	18c2820bb5abb8097590f722d6d9742d
+M	logintoboggan.install	82c2ccecb34e3a947549fe9d6fa2365e
+M	logintoboggan.module	8581accfc1e17c4f6f783cb1ddc6a95a
+M	translations/de.po	40958d35ad84668ec775c6f598c1be00
+M	translations/es.po	d2bd6bb051e36cc71e41d8f44176ddb5
+M	translations/fr.po	9bef6ef94cd56b91a32f80fbf893b124
+M	translations/he.po	3f3de7723ef647276aa7882ab5d52508
+M	translations/it.po	c65f4737c0c07f60dede45b932bee7dd
+M	translations/logintoboggan.pot	f3e85d3e33bcf810cc420b51b379bafe
+M	translations/nl.po	216f4b823a35d18f9c22cbc9e92a83c0
+M	translations/pl.po	182d1929b48d599997107efebf364c52

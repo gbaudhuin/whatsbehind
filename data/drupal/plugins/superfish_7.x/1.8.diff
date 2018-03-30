@@ -1,0 +1,26 @@
+M	CHANGELOG.txt	d313631336132a80ef36cc26ac8e9fc9
+D	css/extra/blue.css	
+D	css/extra/coffee.css	
+D	css/extra/light-blue.css	
+D	css/extra/pomegranate.css	
+D	css/extra/space-orange.css	
+D	css/extra/space-teal.css	
+D	css/extra/space.css	
+D	css/extra/spring.css	
+D	css/extra/white.css	
+D	css/superfish-navbar.css	
+D	css/superfish-vertical.css	
+D	css/superfish.css	
+D	images/arrows-777777-rtl.png	
+D	images/arrows-777777.png	
+D	images/arrows-ffffff-rtl.png	
+D	images/arrows-ffffff.png	
+D	images/shadow.png	
+D	js/jquery.bgiframe.min.js	
+D	js/jquery.hoverIntent.minified.js	
+D	js/superfish.js	
+D	js/supersubs.js	
+M	superfish.admin.inc	1d6eef34c948fff1ab51252016cf5c75
+M	superfish.info	410e3a2b70d3fad7616a493fec8bd44c
+A	superfish.install	99b82a8d1ad053b8b6bfa2b91bfc0540
+M	superfish.module	8b6ebf627af246d9f3e28d51dc524d32

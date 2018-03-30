@@ -1,0 +1,13 @@
+M	README.txt	84dc7c8867fac9116f160a15e33caa81
+M	config/install/login_security.settings.yml	8bba2f34c6cd869cc2e92a7373ba33c7
+M	login_security.info.yml	e40a8c078ff99e0e817fa7c4220ce565
+M	login_security.install	08b0a3d831f664ecc14ed7d8c05b1e7d
+M	login_security.links.menu.yml	8909e9a4da4ed910cb5663e659bfc420
+M	login_security.module	de035936d401203679656fe5ef6b00c1
+M	login_security.routing.yml	83f6235e85d91e9e4a0a15496c556a12
+M	src/Form/LoginSecurityAdminSettings.php	92552e49ae6094cc7e8bda89cd94e6f6
+M	src/Tests/LoginSecurityEmailTest.php	56cb2c250aeb3dfb254efa398d994696
+M	src/Tests/LoginSecurityInterfaceTest.php	0f10f7e077ec854d540262e33a3b4b5d
+M	src/Tests/LoginSecuritySoftBlockTest.php	322aaf2714c1a63e4d4d648a15644a3d
+M	src/Tests/LoginSecurityTestBase.php	9fc21b907311a1aee6287d79123458bb
+M	src/Tests/LoginSecurityUserBlockingTest.php	88d84a522d1659767323ff8efa23c079

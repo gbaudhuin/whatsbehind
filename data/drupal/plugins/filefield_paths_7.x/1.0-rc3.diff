@@ -1,0 +1,10 @@
+M	CHANGELOG.txt	daa901f18ca179930de5f70ea5414358
+M	README.md	55d5274bb04d6a8a76403c6416346a72
+A	filefield_paths.admin.inc	20d89a21364e87a779289d065a8d29ea
+A	filefield_paths.api.php	0042bdb563e2052eb204b2e7d0b16f34
+M	filefield_paths.info	227a608d6ca5405ca137854d875a2e27
+M	filefield_paths.module	ce122c10d2be9d494d12fbc05aa77eaa
+M	modules/filefield_paths.inc	e9c9eb0f61bf4766eda302e932fff933
+M	tests/filefield_paths.general.test	e5214128e846490d08dcc9de53a9f4b8
+M	tests/filefield_paths.text_replace.test	84bce04648cd7fb9e95fdbe331cb16dc
+M	tests/filefield_paths_test.info	d34f81562aa277b5160282f5a0d75ca7

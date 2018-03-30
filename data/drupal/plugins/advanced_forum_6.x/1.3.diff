@@ -1,0 +1,60 @@
+M	CHANGELOG.txt	7cd8eb0641f0956cc34180c599a7743f
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	advanced_forum.info	2080a996e7d7507a6b0e347ab43aa936
+M	advanced_forum.module	87db0dee2d7f091ef0ff74f1cd12c775
+A	styles/boxy/images/blank.png	3d3782527f4c6c957ef483ee71dbfcba
+A	styles/boxy/images/blank_lock.png	898571a70ab210ec2733d401c0f7484c
+A	styles/boxy/images/blank_note.png	e876abda8e2b6bd1c1a1908df6f061d8
+A	styles/boxy/images/blank_small.png	93ff88b840d2f5be82add6aa9ee1c121
+A	styles/boxy/images/buddy-add.png	458de225f70277a185f9d46248bd107e
+A	styles/boxy/images/buddy-remove.png	52abb8542299a07f014e1ddbec4f2c50
+A	styles/boxy/images/contact.png	b1cec350afb396ce68fb6e23a9af78ca
+A	styles/boxy/images/delete.png	2410e20d13f73cce3e88488d1f084de9
+A	styles/boxy/images/edit.png	a9dc616151f353727b28a772aa41efd0
+A	styles/boxy/images/forum-folder-locked.png	ff74a1bcc69820a7c64b76b9c2d48bb0
+A	styles/boxy/images/forum-folder-new-posts.png	40f7c818f0b5e26a26493754aa7192b9
+A	styles/boxy/images/forum-folder.png	dbaa7cef2ddef803bf65f64e853d4906
+A	styles/boxy/images/locked-topic.png	7bdabba33db118c0492bacbd3a84daae
+A	styles/boxy/images/mark-read.png	4b5e183bce09ecd63cd0244ce631a58d
+A	styles/boxy/images/new-poll.png	35f28931ffc88f16421f4d2e2527a5d3
+A	styles/boxy/images/new-topic.png	ce4549c87f77832ec15777106414db1a
+A	styles/boxy/images/post-reply.png	9e9a3e0bf5026e98e5392d0ac53317ba
+A	styles/boxy/images/private-message.png	3499e83a97700647060e4caada9146b1
+A	styles/boxy/images/quote.png	d6e50e5d27c1fe818372e5d42a498615
+A	styles/boxy/images/reply.png	6a9bd09420641777dd8519dc15fab4f7
+A	styles/boxy/images/topic-closed.png	86d791ea81631a103ba5d07f96b5e241
+A	styles/boxy/images/topic-default.png	d5eaa602e033fea42e5d712b4a8b134a
+A	styles/boxy/images/topic-hot-new.png	16e68cb2d11226b4da6b5175bb414c5e
+A	styles/boxy/images/topic-hot.png	b0dcea275003e6b397fcba025afb3426
+A	styles/boxy/images/topic-new.png	6447d46425a093d9d722f696c7e6b926
+A	styles/boxy/images/topic-sticky.png	9d3a45eda3b48bb16fe018afecdc4843
+A	styles/boxy/images/user-offline.png	47bd8a3b0bfd11861585e5d803f5b891
+A	styles/boxy/images/user-online.png	6f9fe87570047754b7a2f13df4c476bb
+D	styles/boxy_images/blank.png	
+D	styles/boxy_images/blank_lock.png	
+D	styles/boxy_images/blank_note.png	
+D	styles/boxy_images/blank_small.png	
+D	styles/boxy_images/buddy-add.png	
+D	styles/boxy_images/buddy-remove.png	
+D	styles/boxy_images/contact.png	
+D	styles/boxy_images/delete.png	
+D	styles/boxy_images/edit.png	
+D	styles/boxy_images/forum-folder-locked.png	
+D	styles/boxy_images/forum-folder-new-posts.png	
+D	styles/boxy_images/forum-folder.png	
+D	styles/boxy_images/locked-topic.png	
+D	styles/boxy_images/mark-read.png	
+D	styles/boxy_images/new-poll.png	
+D	styles/boxy_images/new-topic.png	
+D	styles/boxy_images/post-reply.png	
+D	styles/boxy_images/private-message.png	
+D	styles/boxy_images/quote.png	
+D	styles/boxy_images/reply.png	
+D	styles/boxy_images/topic-closed.png	
+D	styles/boxy_images/topic-default.png	
+D	styles/boxy_images/topic-hot-new.png	
+D	styles/boxy_images/topic-hot.png	
+D	styles/boxy_images/topic-new.png	
+D	styles/boxy_images/topic-sticky.png	
+D	styles/boxy_images/user-offline.png	
+D	styles/boxy_images/user-online.png	

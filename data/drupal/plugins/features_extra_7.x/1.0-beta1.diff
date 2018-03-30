@@ -1,0 +1,14 @@
+M	fe_block.info	008ef7968f6ec8ca25134c43fb670bef
+M	fe_block.module	73b343e12ff62d78deac9c64939575a0
+M	fe_nodequeue.info	ae789598d72d31b710eb62247c163946
+M	fe_nodequeue.module	a64fcd99fdd8f3b6ff3486bde18b1021
+M	fe_profile.info	8df08c5bd6eeab806e5125fa185e0658
+M	fe_profile.module	1660c7078fae6d7d443fe6aaa46e798b
+M	tests/fe_block.test	f6e3203bd4d61f5974b99e5664633446
+A	tests/fe_nodequeue.test	112be2e4c4223c2d048b4e6b2f095c03
+M	tests/features_extra_test.features.fe_block_boxes.inc	61945aa1280e4cd99f7f1d2187b57978
+M	tests/features_extra_test.features.fe_block_settings.inc	b386fa5c8051ea38567e1510ea2a5fa9
+A	tests/features_extra_test.features.inc	24257718fd0443ddc33d495edd3e5d12
+M	tests/features_extra_test.info	de7c7a738ac9db5dd09ba38ce4f68e39
+M	tests/features_extra_test.module	02f2c9090166431246554a23776e8a2f
+A	tests/features_extra_test_case.test	c93a367d71701f5220ebb816d9fc716a

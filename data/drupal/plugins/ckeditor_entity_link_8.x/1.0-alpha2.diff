@@ -1,0 +1,6 @@
+M	ckeditor_entity_link.info.yml	17fa57e5ec708c487bcc742d7f67cea9
+M	ckeditor_entity_link.routing.yml	0a17c0187c7a32598f7e774c85505b09
+M	js/plugins/entitylink/plugin.js	3543dc38505b105aec239232d22abdd2
+M	src/Form/CKEditorEntityLinkConfigForm.php	1cc34a5069fc2857c6415c4ace8b805f
+M	src/Form/CKEditorEntityLinkDialog.php	549c2c2d9d3b45e9ebed305409859668
+M	src/Plugin/CKEditorPlugin/EntityLink.php	1044ba849cec2a156d3214de961f27f1

@@ -1,0 +1,14 @@
+A	addresses.txt	ae65f834c7ad3ee0dd6a938c6e3d7334
+A	addressfield-rtl.css	05402fcd09305f84afdc522f47190619
+M	addressfield.api.php	ef7aca4f0c5eb5fd91dc26acef063b41
+M	addressfield.css	a95ceeb88adf59c4dc1d0fa8978c0e7b
+A	addressfield.devel_generate.inc	768d62cc13b4b18477b481e6ba798b8c
+M	addressfield.feeds.inc	79ad9009bcebd50c54c933a0a99bbe84
+M	addressfield.info	14e2dcd4c38af81883a4e50cd8a50c81
+M	addressfield.module	e849047660fdeca4afbef19c07c2e847
+M	example/addressfield_example.info	522e5b46bd20d5909094dde74f6de350
+M	example/plugins/format/addressfield-example.inc	d111ba2fbac1a87e4512f3c10a2be9dc
+M	plugins/format/address-hide-country.inc	ee27f829da9c1768bf8f78dffd2e9534
+M	plugins/format/address.inc	1008ba7031e796e23a4189bbc462fd83
+M	plugins/format/name-full.inc	edc598c0416e0ff87084eeb709df58ca
+M	views/addressfield.views.inc	314d68f1bdfad76b18b8fc9efe7f750c

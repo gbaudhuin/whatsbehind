@@ -1,0 +1,14 @@
+D	lib/Drupal/restui/Controller/RestUIController.php	
+D	lib/Drupal/restui/Form/RestUIForm.php	
+D	lib/Drupal/restui/RestUIManager.php	
+M	restui.info.yml	30bfdfc37a9a492c3c999cc9af7bd633
+A	restui.links.menu.yml	ec83ffe2c2c7ead4d3ba5ec6a2d035cd
+D	restui.menu_links.yml	
+M	restui.module	541bc89409cce9bf33090ff2132f7653
+A	restui.permissions.yml	df8a639cd77522906d0153cb12b508a0
+M	restui.routing.yml	64efa141777e65d8b30c05e0929c18ef
+M	restui.services.yml	cf3d02bde9182567b2e8cbc2092f0b64
+A	src/Controller/RestUIController.php	975067a46083504ecf42e16bedf0a933
+A	src/Form/RestUIForm.php	862c96008ee841042bb62ecc481708a3
+A	src/RestUIAuthenticationCollector.php	6c42f22cfba8229a4f695ebf8745d3f4
+A	src/RestUIManager.php	9bf30303dc035cfd7668fb3a1a3b1bf3

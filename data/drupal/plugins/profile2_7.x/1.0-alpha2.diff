@@ -1,0 +1,13 @@
+A	README.txt	a0618c245a7f75d9e0ff5081e22dcb82
+A	contrib/profile2_page.inc	a5232fbb60de15a2411aaa2f0fd622a7
+A	contrib/profile2_page.info	9aeebecf0eea8354d1b6b3830d47f0de
+A	contrib/profile2_page.module	88ab5c4772013572030741bff5d0d62f
+D	profile.tpl.php	
+M	profile2.admin.inc	9a84809b3a2e521d44654200d0502276
+M	profile2.api.php	ff6cfbe25670b81c74d52091288391d7
+M	profile2.info	3da9c98f6c529f65c9780018c947d70f
+M	profile2.info.inc	d9a9774cde0f23e3f5cd76b6c1eb4853
+M	profile2.install	a521a60bcd0681b81e93633253a5d7d5
+M	profile2.module	f13528189eed355970a3e93f43d383e8
+M	profile2.test	ecbf0fcd8a29c992fb08b1b1d6855653
+A	profile2.tpl.php	4db0e521e57a166df86befffda4f7cd9

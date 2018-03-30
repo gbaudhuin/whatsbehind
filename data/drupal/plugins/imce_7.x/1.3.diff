@@ -1,0 +1,17 @@
+M	README.txt	33d41faf178bf310537630812808c19b
+M	css/imce-content.css	b74bae3a9fc6479285ea4a74756cb1a7
+M	imce.info	7c49310f0a80816b69a7bce93d5b0f5b
+M	imce.install	9ceb6c188cb5f08573bc75bbf5a13d64
+M	imce.module	d0e86f1ebfadcef2ca792d1f20277c63
+M	inc/imce.admin.inc	95bcedebee102b2a373824ff6b3bb838
+M	inc/imce.core.profiles.inc	eb5cbed72e46d5e03781bde0dbf56c16
+M	inc/imce.js.inc	a05d0e1701a848b3c8561354f85e31d7
+M	inc/imce.page.inc	c97dcf3992699568bf801010ad643309
+M	js/imce.js	0eae4afd8387dbbb367f8ff130d364d8
+M	js/imce_extras.js	477db638cc4fff344de80f99143b629f
+M	js/imce_set_app.js	3c59294860a7fe6821343b34084574a4
+M	js/imce_set_inline.js	63b797c45bebb29ac3c24e5e23e0e3f4
+M	js/jquery.form.js	b140b97fd8ac45939d74ae0d87bd1618
+M	tpl/imce-content.tpl.php	9de6b4a0782ef0c37e5f055d860a27dd
+M	tpl/imce-file-list.tpl.php	ba0d02795d7f892ce07bdc0b44c529f5
+M	tpl/imce-page.tpl.php	c95b3bff0b75fbaf3133e9c973b74210

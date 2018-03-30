@@ -1,0 +1,41 @@
+M	CHANGELOG.txt	1db174d105ff4fc8e015efd3116f3f54
+M	README.txt	f3482cd12e46954f3acecb224cf8cf81
+D	UPGRADE.txt	
+M	ckeditor.api.php	9ad216cf6955e10d340f591f14d23757
+M	ckeditor.config.js	103e8ae66ad03c0a6b4addfaee9a5a85
+M	ckeditor.css	697e373705e300e97499069e6af4cd01
+M	ckeditor.info	dcbdb8e15f3da53e20b124797e182bb1
+M	ckeditor.install	a2758420f5cdd5c98ae74eedb1d1c65e
+A	ckeditor.make.example	d5c7d57820d92263ea20357b4f2cb207
+M	ckeditor.module	3ca13fac97ec2ef645c694bf4d8fd000
+M	includes/ckeditor.admin.inc	8cd9c0f07733e0b907d576798cad3032
+M	includes/ckeditor.admin.js	a01e1c14fff33011d0b30316007a2653
+M	includes/ckeditor.drush.inc	282262f18976ba761ad479ab3dc4ad38
+M	includes/ckeditor.features.inc	dadc1e66ce8d3b01e7a69ede54aac338
+M	includes/ckeditor.lib.inc	a4f9746b42301795e52e0a7aada7e85b
+M	includes/ckeditor.page.inc	e272bf94a75ce8522e7eec04837348fb
+M	includes/ckeditor.popup.html	5d6e12fbe73109cb4105d5c7f5ca5887
+M	includes/ckeditor.user.inc	77981a40a87d674a6740d33ca2ed6c48
+M	includes/ckeditor.utils.js	643dbe69a972ba89eb1e7dcce87a0fde
+M	includes/filemanager.config.php	d8e47002ad211c6e6f25a010de0e5089
+A	includes/jqueryUI/jquery-1.4.4.min.js	73a9c334c5ca71d70d092b42064f6476
+M	plugins/drupalbreaks/plugin.js	2dc25cd3251066e1d14d4b56286ba42a
+M	plugins/imce/plugin.js	5ec2b5dc24a3ca99a671b9e483db7fc0
+A	plugins/linktomenu/css/linktocontent.css	4aa4e6cb64a96b3028e24b30ec7fddf9
+A	plugins/linktomenu/dialogs/link.js	d22666f3aada3ec5894c3d00e6235123
+A	plugins/linktomenu/images/descendant.gif	1b5c0c701636cb3f4081e8fb8c254da4
+A	plugins/linktomenu/images/linktomenu.gif	4a9679d2f024ce4215638473ad67d501
+A	plugins/linktomenu/images/loading.gif	e37e5d7a340c6f0621ce637cb4650e51
+A	plugins/linktomenu/jscripts/functions.js	950719ac160ec91a7ca7404325cb1276
+A	plugins/linktomenu/plugin.js	6ae2d5f515225aa7bb604aca3a2b23f2
+A	plugins/linktonode/css/linktocontent.css	f9172cb3bf19a0e7e5382b1d846bf1c0
+A	plugins/linktonode/dialogs/link.js	0ac1194a2d1987af047ffb6afec310cb
+A	plugins/linktonode/images/descendant.gif	1b5c0c701636cb3f4081e8fb8c254da4
+A	plugins/linktonode/images/linktonode.gif	8bdfc1859881434045ae71a84c592ecb
+A	plugins/linktonode/images/loading.gif	e37e5d7a340c6f0621ce637cb4650e51
+A	plugins/linktonode/jscripts/functions.js	f8f0daef582cb9430258d03174a5d5cd
+A	plugins/linktonode/plugin.js	6bba675dbf35e92475a352da103d5eeb
+D	plugins/media/images/icon.gif	
+D	plugins/media/library.js	
+D	plugins/media/plugin.js	
+M	plugins/mediaembed/plugin.js	064ed475cccdceec27ac180cd5352f4c

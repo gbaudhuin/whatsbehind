@@ -1,0 +1,13 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	2088f9e761c8042555b384991b84fb83
+A	css/flippy.css	bb46661909325e806e1d8b7e122cbb9c
+A	flippy.info.yml	f833b24c15a079005bae46bd7f964036
+A	flippy.install	bcb405a896d9b523b6f424450b73bfc0
+A	flippy.libraries.yml	4dd2b66e0d0623a5d79b9b4cc0e8200e
+A	flippy.module	976437706292a8ee3055bdc5f076424e
+A	flippy.services.yml	be9bd6a4e28b314d7351aacf2e503f9f
+A	js/flippy.js	f1761e7c9935baf0943d055abf7b85cc
+A	src/FlippyEvent.php	184aa394593036301e49631248d981dd
+A	src/FlippyPager.php	a7af42f3b0dd377463cc4425ed6682ff
+A	src/Plugin/Block/FlippyBlock.php	4edc9cb1a661fbaa574825194824202b
+A	templates/flippy.html.twig	42a8a7c7fd6dccabef00ba4ecf929863

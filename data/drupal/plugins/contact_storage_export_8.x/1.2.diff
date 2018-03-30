@@ -1,0 +1,4 @@
+M	contact_storage_export.info.yml	d543a03973df1ed29a88af23ff64f5b6
+M	contact_storage_export.module	c1b3c127ff905d3eef72fb8c1299fa02
+M	src/ContactStorageExportBatches.php	e761281ed3f32bcb8ba5ce6b5a407079
+M	src/Form/ContactStorageExportForm.php	68e887fd9a4362fe23cd6f5ca6b6c6ce

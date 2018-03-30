@@ -1,0 +1,19 @@
+M	CHANGELOG.txt	0ff2855761071e92202754db206a1d50
+M	calendar.info	ab9b8a1752e0c7b152dd5e96d5540ce2
+M	calendar.install	3c454d699f5dead9aadf8f599be8b3cc
+M	calendar.module	41d81090ea1a64e1f75d336d8901635b
+M	calendar_ical/calendar_ical.info	6c6927f9cecaabff6cd6bed250a146d6
+M	css/calendar_multiday.css	7fadc850758d893929d7732e628d667f
+M	includes/calendar.views.inc	694f963bd9bba08b3745789ecd99f989
+D	includes/calendar.views_default.inc	
+M	includes/calendar.views_template.inc	3a8543abc02820b9e2a91fbb839c4d79
+M	includes/calendar_plugin_row.inc	091db60f8c5f6a054c44e2508ba3e749
+M	includes/calendar_plugin_row_node.inc	f90c8da2c06e1b039261972dc515622d
+M	includes/calendar_plugin_style.inc	96249dc75b8ffc505a147f49a77ff406
+M	readme.txt	e365be68cf492554164546764823100b
+M	theme/calendar-day-overlap.tpl.php	7930bd9d5370942d8ed301b026cd0417
+M	theme/calendar-month-col.tpl.php	3db94ddcd4905ab8fc3ba4741e2f8f0d
+M	theme/calendar-month.tpl.php	ba56b016a0f37d07e81746d34c56c6e7
+M	theme/calendar-week-overlap.tpl.php	bc38ebd55ea4deb7763d50db021a7d0e
+M	theme/calendar-week.tpl.php	b3ea9cf16b0dce1e1d486ba6d4d25100
+M	theme/theme.inc	f1012223095b50afefae0e35d7a85a83

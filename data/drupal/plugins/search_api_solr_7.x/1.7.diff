@@ -1,0 +1,22 @@
+M	CHANGELOG.txt	082566110ae5950d221641c6558b67a0
+D	INSTALL.txt	
+M	README.txt	8d527bd0658254c25871e0a7bbeb2a49
+M	includes/service.inc	22fb3c15f35fdcdcd97b0e2bb2863e9c
+M	includes/solr_connection.inc	9e4885eecb5c4b184a47c989d94d1d47
+M	includes/solr_connection.interface.inc	0129d66aa01a8bded690aa926e26c07b
+M	search_api_solr.info	d91a38489bfde6fa06881d9fdb4256e4
+M	solr-conf/3.x/schema.xml	b70d72dcc0da4e31f491872b172cd60d
+M	solr-conf/3.x/solrconfig.xml	c4881c06d302b4bdec8e63855098ff1b
+M	solr-conf/4.x/schema.xml	585c7062f60eba8c3b5b2707895877fc
+M	solr-conf/4.x/solrconfig.xml	8f7c8d5b98191ef1ec104d71cdb78fb4
+A	solr-conf/5.x/elevate.xml	fad03a3da57c70f58c6747edd1300de8
+A	solr-conf/5.x/mapping-ISOLatin1Accent.txt	287f86277b9c667f4a21985d73602ce4
+A	solr-conf/5.x/protwords.txt	5efcd6eedb6b60f385fd9f80fe61ea74
+A	solr-conf/5.x/schema.xml	9edf7a8dd002262b73ac22f98205d3e0
+A	solr-conf/5.x/schema_extra_fields.xml	edb3368bbcdadec12a57322c33d42688
+A	solr-conf/5.x/schema_extra_types.xml	b9ab7493f25ee6bb547652b999c41c58
+A	solr-conf/5.x/solrconfig.xml	2b66d4d57c49a53dcbde6197df01aaa4
+A	solr-conf/5.x/solrconfig_extra.xml	6d7afb2b30a9487f5ecc1f18c02e2f0e
+A	solr-conf/5.x/solrcore.properties	e09f81735ca990685951300e25e0f2fb
+A	solr-conf/5.x/stopwords.txt	d1e4617aedb57410383d606606a436e4
+A	solr-conf/5.x/synonyms.txt	d3bae0cf7df2ff6f3c8dc1b5b025e875

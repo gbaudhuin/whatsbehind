@@ -1,0 +1,11 @@
+M	README.txt	4f17382c0bf4d87fc4747863851137fa
+M	geofield.feeds.inc	dbb9f11030c5b94d3ab9ada0a1027ab1
+M	geofield.formatters.inc	84b0e2f9591c581c0739104c0161e385
+M	geofield.info	262ceb67396b238b922c1ee3b29b24d5
+M	geofield.install	b3af7d45aef4c229b4d930a7c777c919
+M	geofield.openlayers.inc	afd4e2278354e6ffcc378b4d6d5025c6
+M	geofield.widgets.inc	cc9822e3b437bf24da923ef8c0079ecd
+A	modules/geofield_map/css/geofield_map.css	eba3669f922c27f66a9f19e7d3b52bce
+M	modules/geofield_map/geofield_map.info	b99f393cfdba21ac37a92c3878910a4f
+M	modules/geofield_map/geofield_map.module	aa40cb1776cb017b968a63a801fa50ba
+M	modules/geofield_map/includes/geofield_map_plugin_style_map.inc	0bd8f02d89af162fa0e173c6098e63fe

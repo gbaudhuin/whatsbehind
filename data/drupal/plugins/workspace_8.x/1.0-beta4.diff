@@ -1,0 +1,10 @@
+D	.travis/drupal-8.1.x.make.yml	
+D	.travis/drupal-8.2.x.make.yml	
+A	src/Controller/ChangesListController.php	46e328f0a3104314c7495adc0c5e831e
+M	src/Entity/Replication.php	c601fcbb5ac3e058781083daf5913145
+M	src/EntityTypeInfo.php	b6dd2080358a8d5f59ae057b1eb2251e
+M	src/ReplicatorManager.php	1e95f49d00456292c98092f7e0cf1728
+M	src/WorkspaceListBuilder.php	887d2c5b741602d933a8a171b13207fb
+M	workspace.info.yml	2ebffa065a8b6e9372b6ea0308f5c700
+M	workspace.links.task.yml	2e2f4b6cb6ff6c99360bab6b3fc92fde
+M	workspace.routing.yml	3bfe0bb91851f1df77e3764d4d1d8643

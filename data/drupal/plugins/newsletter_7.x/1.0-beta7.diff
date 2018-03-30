@@ -1,0 +1,19 @@
+M	includes/newsletter.admin.inc	f8e8aa6f35a851b9e9054ad2943a0d15
+A	includes/newsletter.automated.inc	3a6018c87f76b53742d8409ffc87df60
+M	includes/newsletter.basic.inc	849e5fc8c6df52e65c6e86c69cca93eb
+A	includes/newsletter.custom.inc	605c395e813ae87993a6474541aa4678
+D	includes/newsletter.functions.inc	
+M	includes/newsletter.list.controller.inc	8060c31244269a87bac2d4bf9e9049ec
+M	includes/newsletter.mail.inc	31fa6c01f6129f6eaf2581e8a55ab99d
+M	includes/newsletter.newsletter.controller.inc	7001b1ea7b7e2807d4b933af7be26ec8
+A	includes/newsletter.pages.inc	1f14c93cb0451ba379242964f7e67657
+M	includes/newsletter.subscriber.controller.inc	68654a9bec320a7359c6df1319c75b2e
+M	includes/newsletter.template.controller.inc	069114f3175670460bc7546019f8873b
+D	includes/newsletter.user.inc	
+A	includes/views/handlers/newsletter_handler_field_datetime.inc	fae6eabd6c700d0705912b2686d77019
+A	includes/views/newsletter.views.inc	89b552851e620db8795459fb63f2f692
+M	js/newsletter.js	b1cd6e134404e39eafaa2bea79546c7e
+M	newsletter.info	e5c9ff7b00cba36615ede7fb9c7e1086
+M	newsletter.install	562ca24f8f89b99e536bd4aec99445fd
+M	newsletter.module	5ca92d74003cee18c6b59d1bbddf881d
+M	newsletter.test	064847d8eebba99a1fa61768aa097c49

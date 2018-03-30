@@ -1,0 +1,42 @@
+M	CHANGELOG.txt	5075eafe8b84fa5dfd6009725b26effe
+M	README.txt	600c5f9c74083edacb3330163d37a1b2
+A	UPGRADE.txt	28a6987452a540fe37269132df5a890c
+M	ckeditor.api.php	e72896ba593b61b541875f6abee17fcc
+M	ckeditor.config.js	d2d0add8a5f805d59745e9c8327d9808
+M	ckeditor.css	da29a09fa96301c79b5fb7b715c397a3
+M	ckeditor.info	137b66f7bee133ae26f7270467bcd9b4
+M	ckeditor.install	c290fb49c29066d6abe18299cd88b04c
+D	ckeditor.make.example	
+M	ckeditor.module	e7436d1e396a228944c2c8262b1d3211
+A	images/delete.png	68461ca5187cd2c6af08786467085f2b
+A	images/tick.png	c9b528b9541e127967eda62f79118ef0
+M	includes/ckeditor.admin.inc	e2a77deb787ce1d414b093d6c68d5bf5
+M	includes/ckeditor.admin.js	44911d053a1d9d1c320656bcedb8efd6
+M	includes/ckeditor.drush.inc	008363a72fb19f1fc29e301a60c4f80b
+M	includes/ckeditor.features.inc	854c2eec552f0ea42ad3308d255ab75e
+M	includes/ckeditor.lib.inc	8028c0ff565ae012f2324094380f006b
+M	includes/ckeditor.page.inc	aeb72ce236febd44307b47b26037c7db
+D	includes/ckeditor.popup.html	
+M	includes/ckeditor.user.inc	170097588d3a0ea9fd8dd26087790928
+M	includes/ckeditor.utils.js	028474ffca33883b0b1264afd73d76f1
+M	includes/filemanager.config.php	15f411729fb8c06eed69a656a0054b71
+D	includes/jqueryUI/jquery-1.4.4.min.js	
+M	plugins/drupalbreaks/plugin.js	0fcd926f5029e04644956d3fe85957dc
+M	plugins/imce/plugin.js	97186a98c14da5cf12924b42996ce8c9
+D	plugins/linktomenu/css/linktocontent.css	
+D	plugins/linktomenu/dialogs/link.js	
+D	plugins/linktomenu/images/descendant.gif	
+D	plugins/linktomenu/images/linktomenu.gif	
+D	plugins/linktomenu/images/loading.gif	
+D	plugins/linktomenu/jscripts/functions.js	
+D	plugins/linktomenu/plugin.js	
+D	plugins/linktonode/css/linktocontent.css	
+D	plugins/linktonode/dialogs/link.js	
+D	plugins/linktonode/images/descendant.gif	
+D	plugins/linktonode/images/linktonode.gif	
+D	plugins/linktonode/images/loading.gif	
+D	plugins/linktonode/jscripts/functions.js	
+D	plugins/linktonode/plugin.js	
+A	plugins/media/images/icon.gif	72ee02878384be9e2119d8bfdb6a430f
+A	plugins/media/library.js	43c2cf897787b49620044b5056625032
+A	plugins/media/plugin.js	1fe889211a6df6b13e240ac0d82fa9a2

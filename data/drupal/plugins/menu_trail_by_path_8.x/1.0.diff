@@ -1,0 +1,8 @@
+M	menu_trail_by_path.info.yml	1020f9b94beb2f2837d268ec25e7ccda
+M	src/Menu/MenuHelperInterface.php	b560f31f66c2c2de0408f00dc9970d88
+M	src/Menu/MenuTreeStorageMenuHelper.php	7d2dfb8ec548fa0bc550574e200bf21f
+M	src/MenuTrailByPathActiveTrail.php	1dcfc2b6033837e8f6fa0604127605c5
+M	src/MenuTrailByPathServiceProvider.php	7058e8429ee1d2c2c7d4ea89ae2e10a4
+M	src/Path/CurrentPathHelper.php	a33bcc2f49e2a8e379ae10505ca8a90d
+M	src/Path/PathHelperInterface.php	3917661447d0dcb671f5d7f5ad23e025
+M	src/Tests/MenuTrailByPathActiveTrailHtmlClassTest.php	7bb18d7bd1db8d91e2be80601e949448

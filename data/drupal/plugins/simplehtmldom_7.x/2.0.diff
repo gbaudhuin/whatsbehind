@@ -1,0 +1,23 @@
+A	CHANGELOG.txt	c3cf2ca876a8397ad8f4b38e25bfa3e0
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	0d1d6c1eaf6e561ef5c0b1460ee76d71
+M	simplehtmldom.info	07183e1fee3044e9348a30e4d7c23313
+M	simplehtmldom.module	0d367890868fb21b8848a60086c83797
+D	simplehtmldom/example/example_advanced_selector.php	
+D	simplehtmldom/example/example_basic_selector.php	
+D	simplehtmldom/example/example_callback.php	
+D	simplehtmldom/example/example_extract_html.php	
+D	simplehtmldom/example/example_modify_contents.php	
+D	simplehtmldom/example/scraping/example_scraping_digg.php	
+D	simplehtmldom/example/scraping/example_scraping_imdb.php	
+D	simplehtmldom/example/scraping/example_scraping_slashdot.php	
+D	simplehtmldom/example/simple_html_dom_utility.php	
+D	simplehtmldom/manual/css/default.css	
+D	simplehtmldom/manual/css/ui.tabs.css	
+D	simplehtmldom/manual/img/tab.png	
+D	simplehtmldom/manual/js/jquery-1.2.3.pack.js	
+D	simplehtmldom/manual/js/ui.tabs.pack.js	
+D	simplehtmldom/manual/manual.htm	
+D	simplehtmldom/manual/manual_api.htm	
+D	simplehtmldom/manual/manual_faq.htm	
+D	simplehtmldom/simple_html_dom.php	

@@ -1,0 +1,12 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	config/schema/field_token_value.schema.yml	dac9016fb01496649a6d390db1f726d2
+A	field_token_value.api.php	45f5a9e1b79ebe3708f124ad24e015d5
+A	field_token_value.field_token_value.yml	134d613f156368961cf7ce664dc9636d
+A	field_token_value.info.yml	0b1ec72ce8940aa4853bfdcae0a4f61d
+A	field_token_value.module	677e021a15be7c18a918c83da4592f7c
+A	field_token_value.services.yml	9395e7fbb6a5848582fa00b5d1c4fff2
+A	src/Plugin/Field/FieldFormatter/FieldTokenValueTextFormatter.php	94d9e94fbcca9666ed37497f0f4f2d83
+A	src/Plugin/Field/FieldType/FieldTokenValueItem.php	0cd32d106ee082e3f80ba7c3440d50d4
+A	src/Plugin/Field/FieldWidget/FieldTokenValueDefaultWidget.php	68dc52aa74b5c557d8f08d36fdbe44ee
+A	src/WrapperManager.php	514f766a00238a271d6c85f8c095731a
+A	src/WrapperManagerInterface.php	846ef7cf896aa2785d76ec517c58c963

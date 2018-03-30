@@ -1,0 +1,13 @@
+M	README.txt	1b79c0c0aca6ad9fa572475c44063da5
+M	config/schema/eva.display.schema.yml	d64817486ee89695818ce1b98325a2df
+M	eva.info.yml	cdcbdb2042a4a9e01e0f4980ee28470e
+M	eva.module	a999c7334607885de358d264e92f19e3
+M	src/Plugin/views/display/Eva.php	1d0854c377f58eb9013b5e7acd024e60
+M	tests/eva_docker/docker-compose.yml	658853049d864b946313303d5a5756ed
+M	tests/eva_docker/scripts/composer/ScriptHandler.php	a1409cfba135b9df30fb14c9b312e618
+M	tests/eva_docker/services.yml	bcd2d76464d460475405aa80983e8f1b
+M	tests/eva_docker/settings.php	ac95c8206da93082cb4313d28a564e87
+M	tests/eva_test/eva_test.info.yml	01062672e8bcf3c21657d303bdf1c1dc
+D	tests/eva_test/eva_test.module	
+M	tests/src/Functional/EvaTest.php	959dfe4d2ae70fcc7897bf7cb26aff17
+M	tests/src/Functional/EvaTestBase.php	29338f1e48104bdcc9a61caea557aab8

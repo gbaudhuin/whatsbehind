@@ -1,0 +1,16 @@
+D	.gitignore	
+M	Jcrop/css/jquery.Jcrop.css	57f8e48478434693fffa1fec8c251aba
+A	Jcrop/css/jquery.Jcrop.min.css	98d40e3ac1444fa83ebc3e3f0b152066
+M	Jcrop/js/jquery.Jcrop.js	e095a6a5e2dd198df7e98273e488a6ca
+M	Jcrop/js/jquery.Jcrop.min.js	486a87d6c94893ebbb868ce73179d212
+M	Jcrop/js/jquery.color.js	e069238beb78923c7cb4e0a482640b60
+M	Jcrop/js/jquery.min.js	0652da382b6fceb033dfe2b6c06d4d11
+A	README.txt	cf9d3548ca0d706e6fb8480fccfa1af8
+M	imagefield_crop.api.php	dbef4d3d654bcdbb4f6de15fd7039c68
+M	imagefield_crop.info	4e6f0c841fedffd020e5a6fc683dc734
+M	imagefield_crop.install	44c0c2771cd5aadffb4bb0a720b64099
+M	imagefield_crop.js	88852e246de296e4037cae16d5e4e77a
+M	imagefield_crop.module	747d10dead618414ee85813c071c0083
+A	includes/imagefield_crop.views.inc	52902a2e7262b419dd211ffb391cbd36
+D	po/he.po	
+D	po/imagefield_crop-module.pot	

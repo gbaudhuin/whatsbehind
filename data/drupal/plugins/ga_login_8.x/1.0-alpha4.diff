@@ -1,0 +1,16 @@
+M	composer.json	d832d905bc5e3ed07214bf053a3b857d
+M	config/schema/ga_login.schema.yml	c8f53d1f545e091dc181f1640142cf92
+M	ga_login.info.yml	95e4d1798aebb945042c896d9f881e21
+M	readme.md	d70a8ccf9793dee44e5505bb2fc7f256
+M	src/Plugin/TfaSetup/GALoginHotpSetup.php	8d07864f7d1173d1a38fc39cc0c846e2
+M	src/Plugin/TfaSetup/GALoginTotpSetup.php	91e6b682ac023581695c9ee1ef779edb
+M	src/Plugin/TfaValidation/GALoginHotpValidation.php	a7155c4bcd733d7473fae5eca90c4afb
+M	src/Plugin/TfaValidation/GALoginTotpValidation.php	7443d0650d33ac0214d7d0e25e1c7399
+D	src/Tests/GALoginHotpSetupTest.php	
+D	src/Tests/GALoginTestBase.php	
+D	src/Tests/GALoginTotpSetupTest.php	
+D	src/Tests/GALoginValidationTest.php	
+A	tests/src/Functional/GALoginHotpSetupPluginTest.php	b579c106f066dee35f7608cd6763d33b
+A	tests/src/Functional/GALoginHotpValidationPluginTest.php	755f326b5f438efaadf6a065449c7574
+A	tests/src/Functional/GALoginTotpSetupPluginTest.php	4c8c40c901dea0cb750d74ebfe96e1c9
+A	tests/src/Functional/GALoginTotpValidationPluginTest.php	88d196923cbd6bcb0641d7e36e5596b8

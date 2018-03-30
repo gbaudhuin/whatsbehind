@@ -1,0 +1,15 @@
+M	README.md	faa5f3b2eb6b54bff979acb8d5708651
+M	amp.info.yml	b624b9d5300e8d261717efad7a015a3b
+M	amp.install	771c121e2e43c58ebd7589e2b2df7ac9
+M	amp.module	da6cd17b6b5622095cf3cb72ce2ba23e
+M	amp.routing.yml	8a6a65aa9c25ae81155e897ea66764cb
+M	amp.services.yml	4cf3707c8a972a580250bb93adf9d599
+M	src/Controller/AMPTestLibrary.php	f13d045f67037b84368c50a4f173bd5d
+A	src/Controller/ampNodeViewController.php	41194dda7d1a79376d679189f7876137
+D	src/Controller/ampPage.php	
+A	src/EntityTypeInfo.php	a980c297c142a4411efa763b2f8bd5ff
+M	src/EventSubscriber/AmpHtmlResponseSubscriber.php	529feef611230f78074d0cbdce73fd5f
+M	src/Form/AmpSettingsForm.php	b1f084b167ae0a01290cf0e41285f2e1
+M	src/Plugin/Field/FieldFormatter/AmpImageFormatter.php	9e8d7728325a89e352e677f2472f3355
+M	src/Render/AmpHtmlResponseMarkupProcessor.php	805f0cddc2976a1c32ed03f6900726e2
+M	src/Routing/AmpContext.php	2933d39461aceb049da2fb0ac6882f59

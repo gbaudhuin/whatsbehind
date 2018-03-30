@@ -1,0 +1,7 @@
+A	js/toolbar_menu.js	aa81699db9fd47ff409fd7e1ae74f915
+M	src/ToolbarMenuManager.php	1a27bcc64cda2196e1a1b76fcf97fedb
+A	src/ToolbarMenuMenuLinkTreeManipulators.php	63d0ee7a36d76f77c1959cb2bc50fc93
+M	toolbar_menu.info.yml	1e11d11b0b37ad54f5d0242391019329
+M	toolbar_menu.libraries.yml	bef7d73c04a62ed7c1dca9c72e40eb8f
+M	toolbar_menu.module	e97126df338673b72d641c5b0f1f1562
+M	toolbar_menu.services.yml	596228eb62d1f33cebea8c9ac57ba610

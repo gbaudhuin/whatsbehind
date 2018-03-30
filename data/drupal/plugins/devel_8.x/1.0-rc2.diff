@@ -1,0 +1,16 @@
+M	devel.info.yml	d32e90fa76247961e81e28c3da994c90
+M	devel_generate/devel_generate.info.yml	9c378f4746776d199d5398d1c8ab619b
+M	devel_generate/tests/modules/devel_generate_example/devel_generate_example.info.yml	b38b1c5a38b9ffff668e8593ef732528
+M	kint/kint.info.yml	bba3db47e670b371ed3fd3dfc5810256
+A	log.json	60db0e2f90508e6c6ec7c9fad16def67
+M	src/Plugin/Mail/DevelMailLog.php	91be6a4d1fa58cd54d61d3b5e90df71d
+M	tests/modules/devel_dumper_test/devel_dumper_test.info.yml	6e8b1b521e11f8f08616db111e7b032b
+M	tests/modules/devel_entity_test/devel_entity_test.info.yml	2424fe1839793b5a5a5d06cd53b80e8f
+M	tests/modules/devel_test/devel_test.info.yml	64c14e325f76e58e09fb06aeaf60ca53
+M	tests/src/Kernel/DevelMailLogTest.php	1ecca3fd31fabcb14e94f9ebbd7038a8
+M	webprofiler/README.md	bea4f1f201c318ccc1cdc06e583dc98f
+M	webprofiler/src/DataCollector/TranslationsDataCollector.php	6861d7276abccdc74508e50dd548e6fe
+M	webprofiler/src/Views/TraceableViewExecutable.php	c4bfb046d1e44afaa9f3bc01593bc7c9
+M	webprofiler/webprofiler.info.yml	76d6f7ff6605237954e43d6b82b567ea
+M	webprofiler/webprofiler.install	6b4326db20738093bda763d7cfe4404f
+M	webprofiler/webprofiler.services.yml	8f0eda1cbdf683e706918419f8d12c04

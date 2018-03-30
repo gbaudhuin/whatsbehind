@@ -1,0 +1,10 @@
+M	honeypot.info.yml	074104728c7d70654f22517ca65bb2ae
+M	honeypot.install	67020bb415d7519c490d9d27f86f1e04
+M	honeypot.module	7201c1988950d36b07c4fdeb0ae676fc
+M	src/Controller/HoneypotSettingsController.php	4d75a4c20458c315ba84076cebe5d1cb
+A	src/Tests/HoneypotAdminFormTest.php	699d7ffab4b03cb412982841293acd89
+A	src/Tests/HoneypotFormProgrammaticSubmissionTest.php	1a4d7b358e1fe81e67b16d2a9e5de0c0
+M	src/Tests/HoneypotFormTest.php	56488fde882f91eee7746a22b48745a6
+A	tests/modules/honeypot_test/honeypot_test.info.yml	8e16419e7c049c37d5a392356accb88e
+A	tests/modules/honeypot_test/honeypot_test.routing.yml	9f95987a468899d6c5524fc77c2ef9c9
+A	tests/modules/honeypot_test/src/Controller/HoneypotTestController.php	d434bec3336cb25a7d066db6c55fd742

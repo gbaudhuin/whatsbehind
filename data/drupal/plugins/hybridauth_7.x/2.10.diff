@@ -1,0 +1,17 @@
+M	README.txt	e591a6f8cf3ae01ded4085db298e4666
+M	hybridauth.admin.inc	7a034cfb0daa0a7a17a9899cac6c4400
+M	hybridauth.info	a09c827bf16b69dcbb04cb2a6db25c6a
+M	hybridauth.install	bf20d0e5cf7e58b9af64762d5e928e29
+M	hybridauth.module	1922685ee86e643c99a48628c629231a
+M	hybridauth.pages.inc	ae7a2b6bccd6c23313255b28911e0ee7
+M	hybridauth.theme.inc	876f64b2cba56d6a294f82e1dcd5b890
+M	hybridauth.variable.inc	e5b54b302cc18c8982e831b80944ce28
+M	hybridauth_bonus/hybridauth_bonus.info	92f9ffab2acf0b9b3c0537e9b0fa30a4
+M	hybridauth_ulogin/hybridauth_ulogin.info	ca932dcf8e35a0b9b6df9f806f3cf488
+M	js/hybridauth.admin.js	b5bf4c9ae60573943d18e00021ac365b
+M	js/hybridauth.onclick.js	0e54e12ac543263cdf67dac33ad67a5b
+M	plugins/provider/DrupalOAuth2/DrupalOAuth2.inc	ed72a60911f39df0cc69ab26fd281a4e
+M	plugins/provider/Facebook/Facebook.inc	c9bba642edb94035d95891efd46a00d7
+M	plugins/provider/Google/Google.inc	23b7699cf02e4ec9b68a1dd0e07ab0b5
+A	plugins/provider/Instagram/Instagram.inc	124fcadd772a5b5deb5d753104e6eb12
+M	plugins/provider/Twitter/Twitter.inc	ef42712087d7fb0cb6ea031a11c1a689

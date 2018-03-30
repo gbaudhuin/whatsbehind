@@ -1,0 +1,12 @@
+A	.gitignore	4118924bac872f113dbf5b21473da45f
+M	composer.json	c320f8428b1cb86b9cc0cf6365b33431
+A	composer.lock	dcb15df99cc2afc36852af00b206c3c4
+M	lightning_core.info.yml	507d7f024f0b6f6529430e8d90791aab
+M	modules/lightning_contact_form/lightning_contact_form.info.yml	16b770b29af317327d9bf97a83d71b02
+D	modules/lightning_dev/lightning_dev.info.yml	
+D	modules/lightning_dev/lightning_dev.install	
+D	modules/lightning_dev/lightning_dev.module	
+M	modules/lightning_page/lightning_page.info.yml	a069616a3457467a20fbec44698e4ebb
+M	modules/lightning_roles/lightning_roles.info.yml	5bdb251a86380d441afa03ed0f9acabe
+M	modules/lightning_search/lightning_search.info.yml	9db57b66596b9184b3dc3683b810d936
+M	modules/lightning_test/lightning_test.info.yml	833fa17e0dda2058750c5f322e917b59

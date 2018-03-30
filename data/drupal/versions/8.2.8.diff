@@ -1,0 +1,3 @@
+M	core/CHANGELOG.txt	1f07c4a43b36fc8b5e9a86463cac7ed7
+M	core/lib/Drupal.php	a85fc509845c97faa46e8534185d1b8c
+M	core/lib/Drupal/Core/Entity/EntityAccessControlHandler.php	cde272f18097a0b91c92105980c1d48b

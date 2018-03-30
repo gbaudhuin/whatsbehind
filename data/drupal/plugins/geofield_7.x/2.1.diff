@@ -1,0 +1,8 @@
+M	geofield.elements.inc	5013378d8ad65ca8490b3bad8cf1e997
+M	geofield.formatters.inc	553aa5d3eb8085783205becdb4d3ca6a
+M	geofield.info	f98fb8e6f45e47fa4f7428c7d4c55eaa
+M	geofield.module	6a7ab6bfbf21fe0d2c549f60835643de
+M	geofield.widgets.inc	e20309b348191849c59214e1c3036ec3
+M	modules/geofield_map/geofield_map.info	eb0ffdb2dcc71a7eb743391e2a71ad34
+M	tests/geofield_openlayers_test.info	e71e4595cd7bbcff22f77e7f0376776e
+M	tests/geofield_test.info	bd0cdc51992c981e088ec9528571f9e7

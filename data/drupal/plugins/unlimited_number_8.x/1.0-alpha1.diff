@@ -1,0 +1,6 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	bee3d261efeec486366a24cf31dcb65c
+A	config/schema/unlimited_number.schema.yml	873622a76c00532944a78cd5d5129b42
+A	src/Element/UnlimitedNumber.php	a73140a58cb4267b9c2e903cf300a4ce
+A	src/Plugin/Field/FieldWidget/UnlimitedNumberWidget.php	b5245afa69f02a9c6ed6de0654963586
+A	unlimited_number.info.yml	b0ce10dc6bd6669d5d42c16d8c8abc24

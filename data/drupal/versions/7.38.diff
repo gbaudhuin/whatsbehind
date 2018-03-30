@@ -1,0 +1,10 @@
+M	CHANGELOG.txt	947b04948fd53beab411bd04f4159c4d
+M	includes/bootstrap.inc	5dfe6f0872866e7d4a5c2c308550a69b
+M	includes/common.inc	7498fa00d01eecf9433df88fe2932a22
+M	modules/field_ui/field_ui.admin.inc	0cf4279c0892e4a0c9ff257862d27928
+M	modules/field_ui/field_ui.test	1883bf57067caf4b42ddc774a1656f73
+M	modules/openid/openid.module	335f367c9ab89f002738365dbbca56a6
+M	modules/openid/openid.test	621d72209d3510232e4afcfb90b837e6
+M	modules/openid/tests/openid_test.module	b54d75598ce1c4d97ad4038a2962c769
+M	modules/overlay/overlay-parent.js	91016782197a36ab690d723cd69a6117
+M	modules/simpletest/tests/common.test	e6f212c3c478ac9e5740c4f7ea693c2f

@@ -1,0 +1,13 @@
+A	CHANGELOG.txt	b5d0ba6446d306db32ca5a2989675854
+A	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+A	README.txt	bf4c0a03e4a4c7ba8ad602e04b1bb669
+A	tests/title.test	73cc6f8939c7e62b58092f2460c9673f
+A	tests/title_test.info	37da1d2fd560dc34a0d732664634cba1
+A	tests/title_test.install	16021e5b9969240b53462154b7064562
+A	tests/title_test.module	5457aaa973adabddad5b55de8444bd73
+A	title.admin.inc	c4e69b802e1f88ed2376b17b5a358d44
+A	title.api.php	ee82d4bf5f03f9e957c7eda3a239c002
+A	title.core.inc	12a6939b369850d771f52fdd4e374fa2
+A	title.info	cd0c5f4e2836247bca9348c359443e91
+A	title.install	074f51c60af0f01eb497c3dc0dee6611
+A	title.module	3757bb7c0a95daaae1c45c7d961ccdaf

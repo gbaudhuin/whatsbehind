@@ -1,0 +1,7 @@
+M	includes/JuiceboxConnector.inc	4ae20389ec3da0f916727d8c64058ca9
+A	juicebox.admin.inc	173a5faaa3b815ba1971a740224be45a
+M	juicebox.info	7dc61364c281f7fe19d43a5d3a569063
+M	juicebox.module	9e770b211a476963a48fda9410082119
+M	plugins/JuiceboxConnectorField.inc	b65e3b827183c6335c3b31fa538794bf
+M	plugins/JuiceboxConnectorViewsStyle.inc	b8ec80f4b4bc86fc4ae83c9ea276ffcc
+M	plugins/JuiceboxViewsStylePlugin.inc	55591f5a354015d5312f835bdf6e1c1f

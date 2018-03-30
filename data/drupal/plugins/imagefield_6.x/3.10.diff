@@ -1,0 +1,23 @@
+M	README.txt	be589ca1bad28b4691491aa05cbd718a
+M	UPGRADE.txt	e50ca3743eb81c22ea41d8c62ec3691f
+M	imagefield.css	4c6e78616cada6ab89f4f7b0aa0aa878
+M	imagefield.info	d7b33c96a7c6e9786b702d9597f65faf
+M	imagefield.install	257804444f845371408a8676dbfb4e16
+M	imagefield.module	bddd42dba1f3d18ab49edf258e5a6290
+M	imagefield_file.inc	a2c836233fc397d6e5e79b3cad462bcb
+M	imagefield_formatter.inc	1664e2ed61098dfb4623177118a60bda
+M	imagefield_widget.inc	7aaa154f779cab8f5e10d4b4c5320b54
+M	tests/imagefield.test	a94e0dfa01bf6068e02cc637ff24e30a
+D	translations/cs.po	
+D	translations/de.po	
+D	translations/es.po	
+D	translations/fr.po	
+D	translations/hu.po	
+D	translations/imagefield.pot	
+D	translations/it.po	
+D	translations/ja.po	
+D	translations/nl.po	
+D	translations/pt-br.po	
+D	translations/sv.po	
+D	translations/uk-ua.po	
+D	translations/uk.po	

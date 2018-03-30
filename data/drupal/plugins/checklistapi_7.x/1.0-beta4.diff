@@ -1,0 +1,12 @@
+M	checklistapi.admin.inc	c31c9fd3606626c6a29fd028f83a281c
+M	checklistapi.api.php	8a0e12944d1f999b3d8f5326078cdc29
+M	checklistapi.css	dbb259974b0ae46ecee3fc2db58c78d9
+M	checklistapi.info	aa5a42f89d508e5fbbcb675f94f98c42
+M	checklistapi.js	7ade52159bf08bdb443750d15e186ff3
+M	checklistapi.module	34493420b03cf31cfc830040df38a134
+M	checklistapi.pages.inc	c71beafc09121b2485c899e6d642ddd3
+M	checklistapi_example/checklistapi_example.info	660d376bdd4cdea0d4e1a48de4b8fb94
+M	lib/Drupal/checklistapi/ChecklistapiChecklist.php	e1f84941953349e31159b1ebe43955a4
+A	templates/checklistapi-progress-bar.tpl.php	ba2e0b4eabfcbe6dc53efd38d6067fa5
+M	tests/checklistapi.test	bf0b65b8f6be923aa2ff545146cd7801
+M	tests/modules/checklistapi_test/checklistapi_test.info	9976779df89c9ef5cbd6cec40d4a5a57

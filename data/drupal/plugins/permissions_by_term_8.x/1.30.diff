@@ -1,0 +1,17 @@
+M	composer.json	4490aeaa18a3eab9c598efb140b4ffbe
+M	permissions_by_term.info.yml	1bd02d47b714ce87a8c5c4ae96d13aa8
+M	permissions_by_term.module	d31a7df2ba136f1f9ed69914984bd023
+M	src/Service/AccessCheck.php	201c8d75691f31e9daf0880d6d9a2db3
+M	src/Service/AccessStorage.php	aa76b4d5fd4293197d93cb0373496cef
+M	src/Service/Term.php	b3b69a25d26ab23c904715558eca3c24
+D	tests/README.md	
+A	tests/bash.sh	d225c8bae7ab5f5b54ab034bec8fd686
+D	tests/bootstrap.php	
+A	tests/fixtures/db.sqlite	4d0387c798d49d9e22b638e4aecb146d
+M	tests/phpunit.xml.dist	6f7326928b4ec7cc9ef2da45dec5f541
+A	tests/src/Behat/Context/PermissionsByTermContext.php	322e41c19ae893f4e668b545be9bc1db
+A	tests/src/Behat/Features/access.feature	321015d886d9f0be36baf9444b683e56
+A	tests/src/Behat/README.md	ce7f8c7b5e9bcf44705ecddb0e7ccb45
+A	tests/src/Behat/behat.yml	ea2163b19926bce007285b636a49a8f6
+A	tests/src/Behat/composer.json	884e0c0256d8a119e0543de6671bc7a3
+M	tests/src/Kernel/AccessCheckTest.php	38837c3fc782301e7cae2bf80cb659fa

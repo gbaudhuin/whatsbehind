@@ -1,0 +1,9 @@
+M	config/schema/linkit.schema.yml	6c6eef52556da129573647ad2d4651d8
+M	js/attribute/title.js	1fe484d5fb8bc725ef4b621181f48d88
+M	js/autocomplete.js	46ceec58b07bc39bc15717133a143930
+M	js/linkit.imce.js	e6caff95330f57457de1e53bdef1b31a
+M	js/plugins/linkit/plugin.js	2d95ddf642d521ffaa7acce4184bbb7a
+M	linkit.info.yml	8558c161a8753ffe6875b04127e272df
+M	src/Form/LinkitEditorDialog.php	c916788a2ba87834daaf594ad79e65cd
+M	src/MatcherTokensTrait.php	3d2427b624647749e1af050afa10fedd
+M	tests/linkit_test/linkit_test.info.yml	fde1976b2df352887053c0d9b2f54ef7

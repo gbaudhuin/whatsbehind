@@ -1,0 +1,6 @@
+M	page_manager.info.yml	561f55d482d8b482dbe8d3397d7e55de
+M	src/Entity/Page.php	fbe7f343293160cd38adee6f461e4cec
+M	src/Entity/PageListBuilder.php	ebf37e64b51b04c9fba0e8fb33dce914
+M	src/Tests/PageManagerAdminTest.php	23b640de1af2a681c4f947972cd45496
+M	tests/modules/page_manager_test/page_manager_test.info.yml	b6558a9fa536df8a07390d38a1a55916
+M	tests/src/Unit/VariantAwareTraitTest.php	34c245999b9c1a86e5002a001ff9bd44

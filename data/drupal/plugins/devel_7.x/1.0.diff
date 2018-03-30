@@ -1,0 +1,19 @@
+M	README.txt	f8f292e983fcca06e79eb1020d0c9e45
+M	devel.admin.inc	b54242067b6d28cefb5bfe79d87748df
+M	devel.drush.inc	ce71dd2b61c7d3c705391e1efed3d7fe
+M	devel.info	fe8e6549d2d7111ffe9f30eade5e74b7
+M	devel.module	3c9e382a9d255391e8d75e497e21ab62
+M	devel.pages.inc	504269068b95506decd24337de28e63a
+M	devel_generate/devel_generate.info	652e7bdb64a8aee784cd96cdaaa2985a
+M	devel_generate/devel_generate.module	32dc5e27cf7b249b7774ca8dd45be8b4
+M	devel_node_access.info	f30ceb70d139c379972ec2ab33abffb7
+M	devel_node_access.module	8a9e0adf27c2742ab553b6f93c2871c0
+D	loader-little.gif	
+M	performance/performance.info	4dc11244fa6be0b1b67af2e505c19e83
+D	translations/da.po	
+D	translations/de.po	
+D	translations/devel.pot	
+D	translations/fr.po	
+D	translations/hu.po	
+D	translations/it.po	
+D	translations/tr.po	

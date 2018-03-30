@@ -1,0 +1,24 @@
+M	advanced-help-popup.tpl.php	82bc86e96171691faf9182a08e054921
+M	advanced_help.info	09cbc1d94d77edaed8f245d6f27cb412
+M	advanced_help.module	d4939deee6f73c5ae2c551f88447c041
+M	help-icon.css	e73ba55d90d531407f9891e71576bbd4
+M	help-popup.css	f12e2c1e272593dbb2419fb309cafc2d
+M	help.css	212558373186e33bec303f91ce247cfd
+A	help/.htaccess	fbc49b3d70cd6c3a72829109e66d01ef
+M	help/advanced_help.help.ini	f3fe84b2279562f22535fa8cdb54e34a
+A	help/click_icon.png	aa5c1b09646cab9f917e4582257d5824
+M	help/ini-file.html	4a2feeb0ee263f039177b5e3513f930a
+A	help/readme.html	9234e826b649840371bca3c227b19941
+M	help/translation.html	66cbaa9083aedb8209f3e85f2bf19627
+M	help/using-advanced-help.html	82d4d89e0ee442b1a2843a9a6fd84c40
+M	help/why-advanced-help.html	3573b62b7f5cb72d66e4b6a6ae102832
+A	help_example/help/.htaccess	fbc49b3d70cd6c3a72829109e66d01ef
+D	help_example/help/180px-PHP_Hello_World_screenshot.png	
+M	help_example/help/about-php.html	251991046bb2aae56c62c4c43aa666be
+M	help_example/help/help_example.help.ini	e314a3bec4cdd91e75518cc6258bcc68
+M	help_example/help/history.html	b98e6d8ee48cb3246eaab4fda9189fb1
+M	help_example/help/security.html	b030d6c94a3010dfdd60267614b52fb5
+M	help_example/help/syntax.html	2054698b29e46e28a5b827482c7305f7
+M	help_example/help/usage.html	acb301d04e1db33cbebc52a521e74dd2
+M	help_example/help_example.info	09a25ea4fa585a31e757236e8a1c1405
+M	help_example/help_example.module	956467cccff9f6e352db950633af18d7

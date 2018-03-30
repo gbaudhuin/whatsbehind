@@ -1,0 +1,8 @@
+M	css/preview_page.css	1eb49951e1ed63f7fd8a89caec6418a6
+M	js/dialog.js	4e65252d366fe7702ceecc5ad8005622
+M	paragraphs_previewer.info.yml	96c2564f94bce6d1e4a519bd0775fe3c
+M	paragraphs_previewer.libraries.yml	eb3a819b56bcc5cee8afce516c40d0af
+M	paragraphs_previewer.theme.inc	a7df2d38dad96e13591de70bc10e5913
+M	src/Plugin/Field/FieldWidget/InlineParagraphsPreviewerWidget.php	d2c35b080e04e883e752746e8b710954
+A	src/Plugin/Field/FieldWidget/ParagraphsPreviewerWidget.php	4946d1941ef143a06a874457fbeb087e
+A	src/Plugin/Field/FieldWidget/ParagraphsPreviewerWidgetTrait.php	34cb0ef081e41678f47acefda51987f1

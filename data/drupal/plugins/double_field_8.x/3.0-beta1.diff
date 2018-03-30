@@ -1,0 +1,14 @@
+M	double_field.info.yml	87bf69049354022161be1b2a3fe5b5c9
+M	src/Plugin/Field/FieldFormatter/Accordion.php	8ac1ce977acc7d10bf4896de7a50536e
+M	src/Plugin/Field/FieldFormatter/Details.php	0f0b03d19eeaf6b6ddc418f690c8696a
+M	src/Plugin/Field/FieldFormatter/HtmlList.php	b6733d7922568a1b0b9d91388db528c8
+M	src/Plugin/Field/FieldFormatter/ListBase.php	3f2beb52065c67dd8c7af8a224898e54
+M	src/Plugin/Field/FieldFormatter/Table.php	2705adcd2c2b0d7cb7dc997b15e69fbb
+M	src/Plugin/Field/FieldFormatter/Tabs.php	2e8d10c7502887b0965f788c38381b98
+M	src/Plugin/Field/FieldFormatter/UnformattedList.php	a8a1861107de45b31fc54382249f26e9
+M	src/Plugin/Field/FieldType/DoubleField.php	1f2367877c982ced98b3e4ef681e826e
+M	src/Plugin/Field/FieldWidget/DoubleField.php	f1482618e6d2c02a71f89337f89ec161
+M	src/Tests/FieldTypeTest.php	bb156f848914a6e833498e5a79bd7a5c
+M	src/Tests/FormatterTest.php	85672b2fd3b6490218c5863a088ceb03
+M	src/Tests/TestBase.php	8417b1f551d710baec54cc37e3e1f11b
+M	src/Tests/WidgetTest.php	91b3ea0898ff563a76380717dfbf814e

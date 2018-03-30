@@ -1,0 +1,9 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	2a3bdde314e205b0f6723310b82c9ccd
+A	block_content_permissions.info.yml	f51d7f783f9924ff2e4b7a5bc7d97c87
+A	block_content_permissions.module	15ec4bdf7b6abe570bbace08c7317f8d
+A	block_content_permissions.permissions.yml	c757049b89fdc74b320f7e9f8b83114f
+A	block_content_permissions.services.yml	981f7aec7c61ac5e9546c32df83470bc
+A	src/AccessControlHandler.php	de86380686a6955848dfeaa1977ba21f
+A	src/Permissions.php	3a8c36efd56471f35c10e577bd9b1ba6
+A	src/Routing/RouteSubscriber.php	1ba6019d258e483a3c77a9a07d8d38ee

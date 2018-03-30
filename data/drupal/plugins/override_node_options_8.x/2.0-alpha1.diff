@@ -1,0 +1,7 @@
+D	INSTALL.txt	
+M	override_node_options.info.yml	75bf21d79b4f2ed189e5a87e098ea840
+D	override_node_options.install	
+M	override_node_options.module	8b75d6949a7c8186b3a059d784ab594c
+A	override_node_options.permissions.yml	6ee0f15db6612fe4c8e8bedf63e0eb31
+D	override_node_options.test	
+A	src/OverrideNodeOptionsPermissions.php	188113867831df9a2f6024a3260f65f8

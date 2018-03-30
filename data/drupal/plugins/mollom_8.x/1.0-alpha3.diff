@@ -1,0 +1,51 @@
+M	README.txt	e3b94ac793e9d429de8c98f73e46cf0d
+M	config/install/mollom.settings.yml	c2fc67f839946d407bca32e43b46609d
+M	config/schema/mollom.schema.yml	e905a8dbf20e2a3fa64679a2906b6f51
+M	css/mollom.css	765899d6c375d1ec2fe65ae9e34db4e3
+D	css/mollom.flag.css	
+D	css/mollom.flag.position.css	
+D	js/mollom.flag.js	
+M	js/mollom.js	de718f7cdf1eb955666fb57d3b11e32c
+D	mollom.admin.inc	
+M	mollom.api.php	ecc2b7e96677e10ae6da6097aaf85b3b
+D	mollom.flag.inc	
+M	mollom.info.yml	f88bb2356d946c81113e7e3b22a9ae9d
+M	mollom.install	e86240c4007f3d894a23f60cb0ef8920
+M	mollom.module	cb158f7225990652f6a785ba94b9f6c7
+D	mollom.module_old.php	
+D	mollom.pages.inc	
+M	mollom.permissions.yml	12f7eab0dd4b4c0f64325822c607f6e7
+M	mollom.routing.yml	7099ae5b06b107cd4657eba926f05db9
+M	src/API/DrupalClient.php	78d1e443ac6e25903c49e3ddcf75dd61
+M	src/API/DrupalClientFactory.php	e16c0a996d963d954d091820ea957140
+M	src/API/DrupalTestClient.php	4f76fa12052e7a95b90c6878d505f516
+M	src/API/DrupalTestLocalClient.php	82a4af1095ac0ecdcbf9f0d5f6c84916
+M	src/API/FeedbackManager.php	334f49bd159e7ff7d159f69765a8b540
+D	src/Controller/AjaxController.php	
+M	src/Controller/FormController.php	1c8362bfed84c601daed16ae29be8e70
+M	src/Controller/StatisticsController.php	cffae1f7ca9c204f31cdcf576d74590d
+D	src/Controller/TestController.php	
+M	src/Element/Mollom.php	082c7495adad42c2838314fd52ed3bbc
+M	src/Entity/Form.php	ea9174028fde936e6cd72a596fa3e998
+M	src/Entity/FormInterface.php	3c823ddb56644bc8e45090be57d12fa1
+M	src/Form/FormFormBase.php	0ad0671393db9cfc93157bbde939c205
+M	src/Storage/ResponseDataStorage.php	0c2e58ceef6417d050d673e01612eaad
+A	src/Tests/MollomCaptchaTest.php	64dd2e0b0befac66d17dbdde4243d350
+M	src/Tests/MollomTestBase.php	b47f985625f9f58f94071c0e5d95d4e3
+M	src/Utility/Logger.php	3b58e138f7bc67046936094da323e4a7
+M	src/Utility/MollomUtilities.php	7e57f999690cae8cf78a9770c5160170
+M	templates/mollom-captcha-audio.html.twig	03ef8bf2dbfbe1fab53ce547d8c66aaf
+M	templates/mollom-captcha-image.html.twig	b3b7c66c7f131adb635918e67e9a7939
+A	templates/mollom-captcha.html.twig	9ceeeea47a05b60daaff8c49a19fc4e3
+M	tests/modules/mollom_test/mollom_test.info.yml	00a6ef0e6ce0e49422ef405bf87bb898
+A	tests/modules/mollom_test/mollom_test.module	735a038507ae1c1c128bfc8737cfdfd2
+A	tests/modules/mollom_test/mollom_test.routing.yml	d58d21519bcc5ac35271d6eead8998b4
+A	tests/modules/mollom_test/src/Entity/Post.php	69f9e1ecd3dad0f9ec68e19456818f60
+A	tests/modules/mollom_test/src/Entity/PostInterface.php	e6383fc06781f1b59a00dcd9fd7afa51
+A	tests/modules/mollom_test/src/Form/PongForm.php	d41d8cd98f00b204e9800998ecf8427e
+A	tests/modules/mollom_test/src/Form/PostDeleteForm.php	e4ed87f1e5f8485699af86a90778ae58
+A	tests/modules/mollom_test/src/Form/PostForm.php	552a7143681d404ea42d0d07213a2373
+A	tests/modules/mollom_test/src/TestController.php	1292d552fb9e8843a20572af773f6ee6
+M	tests/modules/mollom_test_server/mollom_test_server.info.yml	51caefbc781556fb5d25830abd05ff6a
+M	tests/modules/mollom_test_server/src/ServerController.php	b001c4eb7daff35588bff3337c100661
+M	vendor/mollom/client/src/Client/Client.php	f25ee58266fdbbcd3a799eac1bb83732

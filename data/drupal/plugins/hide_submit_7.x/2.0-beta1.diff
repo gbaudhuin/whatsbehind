@@ -1,0 +1,20 @@
+D	CHANGELOG.txt	
+M	README.txt	20685e7832681fbaac7944a7dba4ef16
+D	help/hide_submit.help.ini	
+D	help/using-hide-submit.html	
+A	hide_submit.admin.inc	798ff6f04115f8bfbd8a22b4d266484a
+A	hide_submit.api.php	b343c8548808b18bddd432a421ff15a5
+A	hide_submit.css	b4bcefb3c2eb9ef66177830018238ead
+M	hide_submit.info	528cff5c43c1522fb3f9701b4b035160
+M	hide_submit.install	b346b2b58375e1276a4466c3dd7faddb
+M	hide_submit.js	8e4dfcbe3ccca722abc06fb335c63577
+M	hide_submit.module	6e6fe2969cf78ca34580c6d7a2bea399
+D	hide_submit_admin.inc	
+D	hide_submit_admin_settings.js	
+D	images/clock.gif	
+D	images/cogwheel.gif	
+D	images/hourglass .gif	
+D	images/loader.gif	
+D	images/radioactive.gif	
+D	images/squares.gif	
+A	processing.gif	7b9776076d5fceef4993b55c9383dedd

@@ -1,0 +1,10 @@
+M	README.txt	826a73aca48a7ccec05d3cd30071cbfa
+M	src/Controller/TablefieldController.php	4eead613849e6221d18e8cb601c8f1f8
+M	src/Element/Tablefield.php	5e98cc81924fccfea8c8e5e02bc0d41a
+M	src/Form/TablefieldConfigForm.php	759cfe739d1ed92fa69b366a7705c368
+M	src/Plugin/Field/FieldFormatter/TablefieldFormatter.php	0290dd114f84a916eefc781f9e2668eb
+M	src/Plugin/Field/FieldType/TablefieldItem.php	23952fe10d6a2251531b584cc5d550f7
+M	src/Plugin/Field/FieldWidget/TablefieldWidget.php	f92e0aa41f4347bbb0a6509b65097f29
+M	src/Utility/Tablefield.php	9ea163ad1e369bc69bdf6c507fc3b43b
+M	tablefield.info.yml	ea46c074d0117e79a006ded3f33580b8
+M	tablefield.permissions.yml	b2f4eb6272c6885d1e63848f5bd8f382

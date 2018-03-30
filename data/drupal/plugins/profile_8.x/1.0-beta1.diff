@@ -1,0 +1,32 @@
+M	config/schema/profile.schema.yml	0fdd569a74a45ddc7617c56f9d6d49c0
+M	profile.info.yml	f0bdefa14e7cd1f5c11d65a967f64bc4
+M	profile.module	ccd162facd8628622bf905c7be13cd18
+M	profile.routing.yml	5422f9116f037275a71d0bfa588958af
+M	src/Access/ProfileAccessCheck.php	f5152c6ee40ac97c37619d81f3c24002
+M	src/Controller/ProfileController.php	bd7910bdf097d681d295cb2a4c0811f0
+M	src/Entity/Profile.php	1fb6dbe0010b3b669d7d66d5e46fa7a4
+M	src/Entity/ProfileType.php	e5ea6ba821ebd0de0f4cb97bf08594c4
+M	src/Entity/ProfileTypeInterface.php	19d0d09c432022a545cfe326725674d8
+M	src/Form/ProfileDeleteForm.php	e215129dfbc08c0db7e27f1cefb80066
+M	src/Form/ProfileForm.php	6fd47059fae8269f7c1a122e6796ec35
+M	src/Form/ProfileTypeDeleteForm.php	838adf056a477ce26bb833c832786828
+M	src/Form/ProfileTypeForm.php	aba4d210fb6f06b1cf202fbf87770713
+M	src/Plugin/Derivative/ProfileLocalTask.php	875235056b5f6847506f72ea49aedd90
+M	src/Plugin/EntityReferenceSelection/ProfileSelection.php	15d7c65b814e7d4cfb148e4d4be1cc49
+M	src/ProfileAccessControlHandler.php	e0444bf172ab81061b0f6f680b068483
+D	src/ProfileHtmlRouteProvider.php	
+D	src/ProfilePermissions.php	
+M	src/ProfileStorage.php	bf966cce394629da6406e618a582f57b
+M	src/ProfileTestTrait.php	b388c2cf1e352e4369deca06f5e87399
+M	tests/profile_test/profile_test.info.yml	5ee783eb2f74e6c9b9f55f7fffff07d4
+M	tests/src/Functional/ProfileDefaultTest.php	8efd67ef3dfef97291c99b9df7f44cb4
+M	tests/src/Functional/ProfileFieldAccessTest.php	9c2112b2f386b1f87e60bf45256ebe8c
+A	tests/src/Functional/ProfileRevisionTest.php	4e4b2648d56a21552eec9768d3f4628f
+M	tests/src/Functional/ProfileTabTest.php	842954906a53cba3d3563a54d14a751a
+M	tests/src/Functional/ProfileTest.php	0c776b1d8d5e4659fd1827e3d958c03d
+M	tests/src/Functional/ProfileTestBase.php	7a1e02673f4cc680b95b54420529cd64
+M	tests/src/Functional/ProfileTypeCRUDTest.php	1f77a8ce336493c62a12f3484403b915
+M	tests/src/Kernel/ProfileAccessTest.php	11ccd64e57c94bb9fb7c4b314bd88384
+M	tests/src/Kernel/ProfileRoleAccessTest.php	533884256a6d3210737320d0f610ba33
+M	tests/src/Kernel/ProfileTest.php	57fbc8d7d84e09a3a488dc4b331e4412
+M	tests/src/Kernel/ProfileViewTest.php	5d9f3ebb0e020ccd7c181746b082d322

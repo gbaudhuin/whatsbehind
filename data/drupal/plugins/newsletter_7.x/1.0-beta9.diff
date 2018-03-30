@@ -1,0 +1,11 @@
+M	includes/newsletter.admin.inc	f9fa4dd75f360a30f2fbe91580472474
+M	includes/newsletter.automated.inc	86b51ba6ec93cb92ca034bb5f7568891
+M	includes/newsletter.custom.inc	111545a5e8373d0cb9c243e249263857
+M	includes/newsletter.mail.inc	12bfbe87b4b17d4266bd84a104a15023
+M	includes/newsletter.pages.inc	a03bc17dd53b8bef8032f97cc856c988
+M	includes/views/newsletter.views.inc	dea438d27119338f4ad20aacc8e3393c
+A	includes/views/newsletter.views_default.inc	3dd990001d766e28268f4e0830dcc336
+M	js/newsletter.js	a5564aa291639bfa7222f72bd052599a
+M	newsletter.info	2f24740f09a439885843d7c4432e2940
+M	newsletter.install	8552ebea56447eeb5f3670e499dcb9bb
+M	newsletter.module	c2cef549c68f1295c054591cc67333b1

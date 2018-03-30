@@ -1,0 +1,11 @@
+M	.htaccess	69c8967b22c39dd4ef0c9706ab2458d3
+M	CHANGELOG	ff11e06cbe2dce298e0d3f66c99a2a00
+M	includes/theme.inc	9437ee04105a73cb529f9d01e64b8c77
+M	modules/forum.module	c84ff3d86516c62e56636b2f1d5c9450
+M	modules/import.module	340fe9e786f3a60dbafce2434541141c
+M	modules/node.module	7ca52089d409136b4c0289874780b90c
+M	modules/profile.module	fc7855278bfd495153f41e8f70f78701
+M	modules/queue.module	b6411805e04f0d86c712f6885ed77092
+M	modules/statistics.module	2442809e5ce663be2bc01e985e75e0e1
+M	modules/user.module	82ee39ecdba189db7f3392b0be40d7fa
+M	themes/xtemplate/xtemplate.inc	b02bee27bdc43bcf7f165a1c964ee4a2

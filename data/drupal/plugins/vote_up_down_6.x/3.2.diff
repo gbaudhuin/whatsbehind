@@ -1,0 +1,17 @@
+M	README.txt	e8a216304353cafb8455288e3159b2f2
+M	WIDGETAPI.txt	e7f1fc4131d87667e4301a4fffb648cb
+M	vud.info	146ff4685a4ee09fa7229c6f5c365a98
+M	vud_comment/vud_comment.info	2ad5630d272a767b49ac74e620bfceed
+M	vud_comment/vud_comment.module	b242393d8ab76f719e4bf0c8256b5f7d
+M	vud_node/views/vud_node_handler_field_widget.inc	2ba538912e282c98659e84ad2ce05945
+A	vud_node/vud_node.api.php	01164723439ba402dbd7283b188b3183
+M	vud_node/vud_node.info	97157d371330fc08cdfe8101db5ef716
+M	vud_node/vud_node.module	0c8f363754e1871e8d956f68993cd984
+M	vud_term/vud_term.info	706d8ae3dd0bca0e9be144d3d0ffe253
+A	widgets/thumbs/status-active.gif	8308162eed8e9af997a63f685a258345
+A	widgets/thumbs/thumbs.css	3b1ac9f909b593622782082b563ed39f
+A	widgets/thumbs/thumbs.inc	a2a118b7d994191b4280f264d48dd5c9
+A	widgets/thumbs/thumbs.js	8b3f7fd56a0bc2b52a9ba5352289ab5e
+A	widgets/thumbs/thumbs.png	4b06c9769767efb750d235f04192c2c7
+A	widgets/thumbs/thumbs.svg	19804eb1e2a20b020b414c70594a88ff
+A	widgets/thumbs/widget.tpl.php	e9330eef56af93fe143234850ef4fd0a

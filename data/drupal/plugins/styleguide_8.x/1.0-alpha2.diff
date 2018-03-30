@@ -1,0 +1,5 @@
+M	composer.json	49f2e3c25d36ff25760bf29c2176f337
+M	src/Controller/StyleguideController.php	c44658c149c1e7b705791e0dce0bf931
+M	src/Plugin/Styleguide/commentStyleguide.php	c152420cfbdd3572549af15627f0a5a8
+M	styleguide.info.yml	b460dc2f03b3be11475bb9ac12524f9c
+M	styleguide.module	46ae6204864ef3df520acec836b55e82

@@ -1,0 +1,15 @@
+M	config/install/field.storage.paragraph.bp_background.yml	c36c826456968c62d6b79ec51f71b67f
+M	css/theme/vbp-colors.theme.css	0a6239f4996e12673efbf409bff46cba
+M	css/theme/vbp-colors.theme.css.map	df938667f7cda6665c6899988ad99c11
+M	less/theme/vbp-colors.theme.less	097112f1cdd8575e53baeaf676f668dd
+M	modules/vbp_text_and_image/templates/paragraph--text-and-image.html.twig	f65f5908adaa654fdd9a0ab98dfd8eb4
+M	modules/vbp_text_and_image/vbp_text_and_image.info.yml	eca5595f618e521ea15ac0e1be584147
+M	templates/paragraph--bp-accordion.html.twig	6df9633b0cdf036e2b50ef101779b851
+M	templates/paragraph--bp-carousel.html.twig	2ac18070a2b11a602797a4bb3d023d93
+M	templates/paragraph--bp-columns-three-uneven.html.twig	85e1c7c4fe456b11a013e85ce73e88e3
+M	templates/paragraph--bp-columns-two-uneven.html.twig	eeefcdc8bd3776f247fb8ba672052e7b
+M	templates/paragraph--bp-image.html.twig	23c7de15296eaf0360ef70f9e1a1cada
+M	templates/paragraph--bp-modal.html.twig	9641df24d5d81e3bf4af1c655bd3a940
+M	templates/paragraph--bp-tabs.html.twig	443713cf6f214e511e30c9fa830558c1
+M	templates/paragraph--default.html.twig	3b809ca0dff8cd8e5c9d3691bd74e010
+M	varbase_bootstrap_paragraphs.info.yml	93f3fc876b7f0571cd34ca9b3754b500

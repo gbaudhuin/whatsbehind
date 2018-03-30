@@ -1,0 +1,17 @@
+M	asset_injector.info.yml	4442a76c0a45be6fb82d313e605d00ba
+M	asset_injector.libraries.yml	bb5b020bde36d1db47a02ad277312f6d
+M	asset_injector.module	38c89938da2b6abf6e354b5bf3cd2f96
+A	composer.json	820e541707508e719d88350f551b1b12
+M	config/schema/asset_injector.schema.yml	6e476445e4485c475aa32dc93059cd0d
+A	js/asset_injector.js	a69111cc1dd4b92521c5397b0675e52b
+A	src/AssetInjectorAccessControlHandler.php	def4ef2f813175c88cc7d4b4873af011
+M	src/AssetInjectorInterface.php	56018662420d7c88d51c66a49068f2a7
+M	src/AssetInjectorListBuilder.php	ef4c06df5ad112d4852c18977d9fc9b0
+M	src/Entity/AssetInjectorBase.php	a60aa6ac1d89fde1e4133dff4b60dbd4
+M	src/Entity/AssetInjectorCss.php	bffa1ac3234b20d4fbda35a3f7597df9
+M	src/Entity/AssetInjectorJs.php	48da968eeabadb7d3287bc1d92658b8d
+M	src/Form/AssetInjectorCssForm.php	67edd0f4927f5f3d6ce4d7f38f4f9463
+M	src/Form/AssetInjectorFormBase.php	a80f5120992f1839936cf0d8c34109e6
+M	src/Form/AssetInjectorJsForm.php	c9503bb5eb3b8b04262148277f27343d
+A	tests/src/Functional/AssetInjectorCssTest.php	b52924357a03af692185ee4a39f21ff5
+A	tests/src/Functional/AssetInjectorJsTest.php	13edeebd00252e7e9c1eaf29d72a7c57

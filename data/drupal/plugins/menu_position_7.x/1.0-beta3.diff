@@ -1,0 +1,9 @@
+M	CHANGELOG.txt	eab6747d299998a8fdbace95a0e4af29
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	menu_position.admin.inc	6f0f6d5ec97f40b49dea3cccc80a8eef
+M	menu_position.api.php	82cf4d3782307404fc84594d6fd9c201
+M	menu_position.info	75d3ecccfd7997df46d914f57884ee9a
+M	menu_position.install	f9fbb606a952ed67b331a3ccf82c0bfe
+M	menu_position.module	4788031de3e87740027a52575a77fedb
+A	plugins/menu_position.language.inc	8b05dae36b9b57e0a9ba3d977c179d8d
+A	plugins/menu_position.language.js	66b677f6dda0e5654e7902a5dc6b349c

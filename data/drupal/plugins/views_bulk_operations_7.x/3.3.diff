@@ -1,0 +1,13 @@
+M	actions/archive.action.inc	1e4f2b27491d626cf3fe24b6e4dc3001
+M	actions/book.action.inc	d04c289baff910adee94484f5d5fd2e6
+M	actions/delete.action.inc	f689728b5cfe4c368b3685aaa9a62248
+M	actions/modify.action.inc	8fa9b9bcdb4e457aad26079ca7b3d8b1
+M	actions/user_cancel.action.inc	eac229268c71752e2550018c9743bad6
+M	actions/user_roles.action.inc	d9ce1a79e5b8d37d0de956b1e89ab120
+M	actions_permissions.info	3c2ccb28a5a9075028c0b71c777acdb2
+M	js/views_bulk_operations.js	d9fe80b14cb3393682868cb6e404e400
+M	plugins/operation_types/action.class.php	579222c041a1fb1e0f4c55863cdb322f
+M	plugins/operation_types/rules_component.class.php	bfb3cba76d4b456fd71bcee79d265610
+M	views/views_bulk_operations_handler_field_operations.inc	13cd2e7b3a70e4631802d822b7af3142
+M	views_bulk_operations.info	f36181883855b16f75c2b5bfaaa4db4d
+M	views_bulk_operations.module	6f69b13ef2f9c35c670b068c01f84219

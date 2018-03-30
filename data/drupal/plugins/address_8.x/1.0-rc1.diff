@@ -1,0 +1,54 @@
+M	address.info.yml	089e8f9a3a0705b86c30c86c60cab521
+M	address.install	c8785c4c6c6a9764e67d94c94b457e45
+M	address.links.action.yml	8ada9ff06aea625e0bf10f319d134b21
+M	address.links.menu.yml	68022c520df806c9f4b3063b211da6b7
+M	address.module	a4d15d59c7d6b499f39fe8b88d0206ec
+M	address.permissions.yml	48e554ab44778eba3dc759f51a6078a4
+A	address.post_update.php	c0a50105ca371620aee948c321abfdae
+M	address.routing.yml	b6f86fc216c512a37943fd2d64428c3b
+M	address.services.yml	4777d182e2d6efd8b3b3a9eaa92cbc64
+M	composer.json	148d19f4035f0b84b4ab53c736e7ef18
+M	config/schema/address.schema.yml	394a5fdb498363e3a17eb395b326fa1e
+D	src/AddressFormatAccessControlHandler.php	
+D	src/AddressFormatImporter.php	
+D	src/AddressFormatImporterInterface.php	
+D	src/AddressFormatListBuilder.php	
+D	src/AddressFormatStorage.php	
+M	src/AddressInterface.php	9c096bfc9a466daa4b690f44c1bce913
+D	src/Entity/AddressFormat.php	
+D	src/Entity/AddressFormatInterface.php	
+M	src/Entity/Zone.php	4b41a76f3d6c066f399a31723ddf6ed2
+M	src/Event/AddressEvents.php	072bb6a4ed96341ed5b25019b33fa257
+A	src/Event/AddressFormatEvent.php	3040feb085419f566b3130b860e4872a
+M	src/Event/AvailableCountriesEvent.php	4f19997a46a42ada85056a490e081990
+M	src/Event/InitialValuesEvent.php	8a0b42f0de8f79cba0aef1ff8e896206
+M	src/FieldHelper.php	ec439b55b51c280de7f24dbf168031cd
+D	src/Form/AddressFormatDeleteForm.php	
+D	src/Form/AddressFormatForm.php	
+M	src/LabelHelper.php	f6bb6ccedf26b24fcc09ff5db780e772
+M	src/Plugin/Field/FieldFormatter/AddressDefaultFormatter.php	5285137c458c1d00c933bed4ece034df
+M	src/Plugin/Field/FieldFormatter/AddressPlainFormatter.php	f085f38f2b8eca4cecf0145b48ddd6fb
+M	src/Plugin/Field/FieldType/AddressItem.php	b688d3135429a47273c40096f106bb47
+M	src/Plugin/Field/FieldWidget/AddressDefaultWidget.php	e55defa3f4402bfe8ad9b82dc8e6e77c
+M	src/Plugin/Validation/Constraint/AddressFormatConstraint.php	e2a529177f99c1575011741284c66e61
+M	src/Plugin/Validation/Constraint/AddressFormatConstraintValidator.php	dc771c04d2bec22069443eafccb39184
+M	src/Plugin/Validation/Constraint/CountryConstraintValidator.php	90dccfa463ec748ab97972df928ec07d
+M	src/Plugin/ZoneMember/ZoneMemberBase.php	cce44784112f149d8195d5ef7cfa4508
+M	src/Plugin/ZoneMember/ZoneMemberCountry.php	1c76a0951486d2e3013c50abf35189e0
+M	src/Plugin/ZoneMember/ZoneMemberEu.php	cbe81cbfe834b6f141f1d230356c4534
+M	src/Plugin/ZoneMember/ZoneMemberZone.php	8a756121f964168552096e2d21566020
+M	src/Plugin/views/field/CountryCode.php	b0e8d0ffa25299ce782b9f968ea201cd
+M	src/Plugin/views/field/Subdivision.php	77537221e23dbbf1daca3c3c39c57446
+M	src/Plugin/views/filter/CountryCode.php	65b4947fb38b85b96d1606e2cd35a9c3
+M	src/Repository/AddressFormatRepository.php	d76f91a0b3c6b6fb85529f5de9443ded
+M	src/Repository/CountryRepository.php	5e66b4958d4b06a527401ee81da38dfa
+M	src/Repository/SubdivisionRepository.php	39e23b5010018cf5bcf4725db3c3c36b
+M	src/Tests/AddressDefaultWidgetTest.php	f00410a5ff8ce0f01f248f66bbba3c6a
+M	templates/address-plain.html.twig	2c097d317acb57dbe867bd1174d45b73
+M	tests/modules/address_test/address_test.info.yml	ad0872a951c47d7c1fea839b7b33fe38
+M	tests/modules/address_test/src/EventSubscriber/AddressTestEventSubscriber.php	72135ad9b450367da243b4dd22628bad
+D	tests/src/Functional/AddressFormatTest.php	
+M	tests/src/FunctionalJavascript/ZoneTest.php	ddfa67edbcccd50d2085458e64e1f31d
+M	tests/src/Kernel/Formatter/DefaultFormatterTest.php	e24d08415601bb8e3d9ed30dbdda6b09
+M	tests/src/Kernel/Formatter/PlainFormatterTest.php	1d51cdec03050b33ad1fbd7f1c7d00e8
+M	tests/src/Unit/Plugin/Validation/Constraint/CountryConstraintValidatorTest.php	d0e143218d241e35cfe7975c8c8536d8

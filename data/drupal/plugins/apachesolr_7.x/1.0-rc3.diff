@@ -1,0 +1,17 @@
+M	CHANGELOG.txt	bde883a50317874be1c9eadeaff85e1a
+M	README.txt	56acdc9a5f965d2fffeaded73b7f304f
+M	apachesolr.admin.inc	bf7cf32bff54047ad8b3021999101068
+M	apachesolr.api.php	130b5c3b452b35b23550c78a26e9deef
+M	apachesolr.index.inc	94f3005cffd2fe085b61730749679a51
+M	apachesolr.info	839d7a95d985577d8e89e03c4e431870
+M	apachesolr.install	d8b0e614ca4b14cd11c5db6127cf9fef
+M	apachesolr.module	acbfd697fdc775be847c174cda6f130d
+M	apachesolr_access/apachesolr_access.info	2b45d24eeec25e1b8ae1fe01691edda2
+M	apachesolr_search.admin.inc	199702e4011fb29572fd3253f0d01a18
+M	apachesolr_search.info	de938b289787485d7b00aa2352efcd37
+M	apachesolr_search.install	e1eaa0c4a244c884eec5a589df9b9d6a
+M	apachesolr_search.module	e8ea680aca55d639f621b9a1503ab766
+M	apachesolr_search.pages.inc	0b7583d8c919edb3890f5f0e5d8313c5
+M	drush/apachesolr.drush.inc	ae41db74809c60e6d3d8fe4399882074
+M	tests/apachesolr_base.test	f0fe47922270c049b2e8d0d60afa2329
+M	tests/apachesolr_test/apachesolr_test.info	0f6c5ccf5d2caa66527cc698f82cc189

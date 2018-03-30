@@ -1,0 +1,7 @@
+M	honeypot.admin.inc	8f253d5a24e63294e5f256b524dba85c
+M	honeypot.info	fc1101a12123ed5ddaa0117fbf706f97
+M	honeypot.install	36d7f653b34936e6f8fa5449362295cf
+M	honeypot.module	d5e39526dfbeb17138912c151335e70a
+M	honeypot.test	d5dec2e9d22c5124d256923c51038e8a
+A	tests/honeypot_test.info	acbf59c411d8451e13005e38c6bf99c8
+A	tests/honeypot_test.module	af74a700c4c1e9aeba03b244b44dec31

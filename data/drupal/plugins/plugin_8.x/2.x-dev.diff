@@ -1,0 +1,5 @@
+M	plugin.info.yml	779a5e7ad061509b95c5d7c249fe649d
+M	tests/modules/plugin_test_helper/plugin_test_helper.info.yml	2e64efb6579b988dfa0cc93f4437fd01
+M	tests/modules/plugin_test_mvpbf/plugin_test_mvpbf.info.yml	afa0929612a4410ce78584bbdfb13e72
+M	tests/modules/plugin_test_pcf/plugin_test_pcf.info.yml	86543039ac5d9b8b2423796d4123e0cd
+M	tests/modules/plugin_test_svpbf/plugin_test_svpbf.info.yml	6acc3aa73d4ce78549b7054d48e61d18

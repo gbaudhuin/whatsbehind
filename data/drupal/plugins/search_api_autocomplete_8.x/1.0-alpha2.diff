@@ -1,0 +1,42 @@
+M	README.txt	f12dd01c3c1b0ee8eaf687cc4569b749
+M	config/schema/search_api_autocomplete.schema.yml	5a1ba821298b3eafeda385e18d5ed3dc
+M	js/search_api_autocomplete.js	2f434f199b8d83106461d5e7c41597e8
+M	search_api_autocomplete.api.php	0a01433488c8adb19f206d4709091df1
+M	search_api_autocomplete.info.yml	6ba761b4db7c25364ef48e14ff97902b
+M	search_api_autocomplete.module	afa2a4454b3dce9d990db85586f6ab54
+M	search_api_autocomplete.permissions.yml	a992db523fe1f27e135480f4b080f9ac
+A	search_api_autocomplete.plugin_type.yml	740af3bf80f27ca61eee338a1b234915
+M	search_api_autocomplete.routing.yml	0cc6942b526caa1a5f0ecb024cc12b9b
+D	search_api_autocomplete.search_api_page.inc	
+D	search_api_autocomplete.search_api_views.inc	
+M	search_api_autocomplete.services.yml	d4a7811dd0700613b8b7e811a91ce587
+M	src/Annotation/SearchApiAutocompleteSuggester.php	fb37dc0c3dffe1ec3ccfa1e0b07e5200
+M	src/Annotation/SearchapiAutocompleteType.php	e0e4edf1e7391cee6a559bc527f79d2a
+A	src/AutocompleteBackendInterface.php	bfc572cb925a99daf417d89ce8cc0554
+M	src/AutocompleteFormUtility.php	46a4e0e2e43d0bd630d7541735c117c7
+M	src/Controller/AutocompleteController.php	7d72ba9f93e34ab3505f1c9ee5bef56f
+A	src/Entity/Search.php	9025fa109c71b3e41e4da1b33863bb26
+D	src/Entity/SearchApiAutocompleteSearch.php	
+D	src/Form/AutocompleteSearchAdminOverview.php	
+D	src/Form/AutocompleteSearchEditForm.php	
+A	src/Form/IndexOverviewForm.php	4dd3c433aa4ea00439d4c6ec874326ba
+A	src/Form/SearchEditForm.php	8e77b29e17bb099e6291bdf41229b628
+M	src/Permissions.php	128936f919ddb1dd164016e6457e0748
+D	src/Plugin/search_api_autocomplete/AutocompleteType/Page.php	
+D	src/Plugin/search_api_autocomplete/AutocompleteType/Views.php	
+M	src/Plugin/search_api_autocomplete/suggester/Server.php	a1072d18d55cdf2a718deb4206b7afdc
+A	src/Plugin/search_api_autocomplete/type/Page.php	6f4ab129474e3047ecfe7b118f244612
+A	src/Plugin/search_api_autocomplete/type/Views.php	f7372578234db7dffe3936b58debc839
+D	src/SearchApiAutocompleteInterface.php	
+D	src/SearchApiAutocompleteSearchInterface.php	
+A	src/SearchInterface.php	ad7a29d176f93306ac10eaf6412e5641
+M	src/Suggester/SuggesterInterface.php	e1de1d67c5936abee17c913c10dfa9d5
+M	src/Suggester/SuggesterManager.php	5daedfd1854dd0c6025e5a88ff0c25da
+M	src/Suggester/SuggesterPluginBase.php	77795c96854c9800a8cc68b114a5bd92
+M	src/Suggestion.php	baac6d6bb73b6be42a99402aa235c723
+M	src/SuggestionInterface.php	1766e2da587519f6da96e43f17b3a746
+M	src/Type/TypeInterface.php	490add569f76ec6ce59ec88b6f0f4841
+M	src/Type/TypeManager.php	ddd7222dd49f1c05bb0870297493ebbd
+A	src/Type/TypePluginBase.php	70237d71d33fcac0e2822929c452af18
+M	tests/src/Kernel/SearchCrudTest.php	1b6802909f78c0d02c19faa1c6f94286
+M	tests/src/Unit/AutocompleteFormUtilityTest.php	d858ed4b8936f809650795057c921032

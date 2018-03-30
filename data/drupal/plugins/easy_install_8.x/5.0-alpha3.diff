@@ -1,0 +1,6 @@
+M	easy_install.info.yml	3429e251dd5fe3ded1438970f4f76746
+A	easy_install.links.task.yml	85d66b6ad80dd220eb775652807f7dea
+M	easy_install.module	c7086adfa2110bde2d58e8bffa87a6ab
+A	easy_install.routing.yml	11171c6a62240f56d72c2a632f9439dc
+A	src/Form/PurgeConfigurationsConfirmForm.php	77a7e3428458e3386a0c7613d9593c56
+A	src/Form/PurgeConfigurationsForm.php	2f5feb9bb0bee8093956f938119f2c01

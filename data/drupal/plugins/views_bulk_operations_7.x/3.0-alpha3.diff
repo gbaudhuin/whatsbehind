@@ -1,0 +1,13 @@
+M	README.txt	9aae97a1d3c8a8775aaaa10052c95aca
+M	actions/argument_selector.action.inc	65593f9f4e3dc91dd7f78d8143bc2bdb
+M	actions/delete.action.inc	6c4d8fd2bd6098b7528b1accc39e5a41
+M	actions/script.action.inc	e00605e9947b4877264a3044910bbce5
+M	actions/user_roles.action.inc	850f0c46612c5f824babeaec14c6d92c
+M	actions_permissions.info	3b4a6bcb43cd65e99d13c9f4c957d0f9
+M	actions_permissions.module	37cefa65aee6cc38932265c9d0e5f257
+M	views/views_bulk_operations.views.inc	0e4775112642f5d14da7ca5cbde01b85
+M	views/views_bulk_operations.views_default.inc	228eb13cb5185e427d46296cd0ca600d
+M	views/views_bulk_operations_handler_field_operations.inc	c641ce95f2e2f4e620aa634f11f4c67f
+M	views_bulk_operations.info	2e4286016ca09df740c580c1054b21a7
+A	views_bulk_operations.install	6b79aac4c73c2f437cc62cd759035a1e
+M	views_bulk_operations.module	8f2528df5588923adfab27a419d8735b

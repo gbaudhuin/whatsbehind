@@ -1,0 +1,12 @@
+M	ctools.info.yml	26d658da326814b16248498b6b986c0a
+M	modules/ctools_block/ctools_block.info.yml	4cd4b2e17cc2da99c957823302a1e701
+M	modules/ctools_block/src/Plugin/Block/EntityField.php	63a78031b001443a488394612cde0bcd
+D	modules/ctools_block/src/Tests/EntityFieldBlockTest.php	
+A	modules/ctools_block/tests/modules/ctools_block_field_test/config/install/field.field.node.ctools_block_field_test.field_image.yml	dd4582b1cedc52c4df15080d86c3a3f5
+A	modules/ctools_block/tests/modules/ctools_block_field_test/config/install/field.storage.node.field_image.yml	3a96f307add8b891555ff6536e8a5922
+M	modules/ctools_block/tests/modules/ctools_block_field_test/ctools_block_field_test.info.yml	3a29609ae496d722ffdba2cb0bfd25e6
+A	modules/ctools_block/tests/src/Functional/EntityFieldBlockTest.php	40c80edd14f15c2f12ca6aab1d9f5ee2
+M	modules/ctools_views/ctools_views.info.yml	f1545282e3613a6acb0835cad3ee0883
+M	modules/ctools_views/tests/modules/ctools_views_test_views/ctools_views_test_views.info.yml	c8b0ca6fb1cf026eeedf1feee33def07
+A	src/Context/AutomaticContext.php	35b5644eb954f37f69d3a7c1cc42b07a
+M	tests/modules/ctools_wizard_test/ctools_wizard_test.info.yml	ff03cceb4d234c0a3f112354dcba41f9

@@ -1,0 +1,13 @@
+M	vud.info	4dd19527948e7fb40deb87ad9ebabb71
+M	vud.module	c51bfb36e0d6b1ae3251db2041dbc9f5
+M	vud.test	fb1b0fea658f801e57bf9020dcb5f296
+M	vud_comment/views/vud_comment.views.inc	924f3f812d297649f6e2d4eb58d32ebe
+M	vud_comment/vud_comment.info	36ef1b5aa3b574ef235827c17a0a2b2f
+M	vud_node/views/vud_node.views.inc	7ece5cfdb58d490d2d649ebb5f4233c5
+M	vud_node/views/vud_node_handler_field_widget.inc	2f480b2d71445d3334329872cd4f805d
+M	vud_node/vud_node.info	67f6c7d1c4be98b25e3bbdc11ae16c78
+M	vud_node/vud_node.test	908c9641e8a774d8ea57d5b261017902
+M	vud_term/views/vud_term.views.inc	e7dcfe02122ca478c530d1b9b760641d
+M	vud_term/vud_term.info	3a6dc9975f8a549663d78140e4edf2b4
+M	vud_term/vud_term.module	1882edf2f10b8927428b8f8b63b398fa
+M	widgets/upanddown/widget.tpl.php	beaf15d8ca98a0d1727718b5fa4efcde

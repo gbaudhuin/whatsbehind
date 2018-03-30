@@ -1,0 +1,10 @@
+M	addressfield.address_formats.inc	525b9e5443ac55a48a210d2f6821d6b3
+M	addressfield.devel_generate.inc	e51cd68321afaccef7e929ab5b924c25
+M	addressfield.info	aed77590ec158c925730252395433767
+M	addressfield.install	6f0e0aecc84b62f83a6290ac99f3a8fc
+M	addressfield.module	ab14734bf1034c4e6a45b85d4cd0650e
+M	example/addressfield_example.info	d67a5a24d8f2993ea77c60b7b01fcd29
+M	plugins/format/address.inc	4d002581ab05454b9d2e22941ef6ae2b
+M	plugins/format/name-full.inc	6a5e9bb2db3d9f6d70dc4482be555231
+M	plugins/format/name-oneline.inc	686b29c14a7717d8caef80771a628822
+M	plugins/format/organisation.inc	71cc4d6788c326f9d193f88dc698126c

@@ -1,0 +1,16 @@
+M	group.info.yml	3bb8d52b8860c2c326f62b98fc8b1870
+M	group.permissions.yml	7984f0a4b6931baddee6a7940118f3d0
+M	group.post_update.php	14fdf45d42d1bc27e693e2efa37ca559
+M	modules/gnode/config/optional/views.view.group_nodes.yml	df87ef924849cab5996d20123f564111
+M	modules/gnode/gnode.info.yml	953179ecfdd6c0576570b254e829585c
+M	modules/gnode/gnode.module	4c6a035f8cfff073228d9ceef4ea1093
+A	modules/gnode/tests/src/Functional/EntityOperationsTest.php	51614b604c4be4619692e1f120ad131f
+M	modules/grolesync/grolesync.info.yml	c2229171c62ef9bc2707c7266c5d77b4
+M	src/Entity/Controller/GroupListBuilder.php	a47f3c3c7d131f48c2c4e5316d42f13a
+M	src/Entity/Routing/GroupRouteProvider.php	bf3d2c2c55f42472c701c064f3dca692
+M	tests/modules/group_test/group_test.info.yml	ed0221f1608b4619f7909774909426f9
+M	tests/modules/group_test_config/group_test_config.info.yml	14073f1748a3e9184ea76dd0e62eb07b
+M	tests/modules/group_test_plugin/group_test_plugin.info.yml	da5e805ba1ce414dc897087ae301d20a
+M	tests/modules/group_test_views/group_test_views.info.yml	5a041f954cf0c1eb3de43f09ff35db10
+A	tests/src/Functional/EntityOperationsTest.php	58bcf579c88c853f74de42efed1af553
+M	tests/src/Functional/GroupBrowserTestBase.php	5fc586f296e90fc5c7409d0ee4302b6c

@@ -1,0 +1,6 @@
+M	config/install/entity_browser.browser.browse_content.yml	ab1d481fe5aecbd1ef6e7e89f50568c2
+M	config/install/entity_browser.browser.browse_content_iframe.yml	9f332eddda4810f2fd091abfae7f0e38
+M	config/install/views.view.content_browser.yml	d78bd943f002a4ddb1d71b603b6a23ed
+A	config/schema/content_browser.schema.yml	4173d1567775bf8ba5bbd90745079878
+M	content_browser.info.yml	f7074e52473283b62e472b32c0eeb5b8
+M	content_browser.install	36bc70757be91717003eb2881d51baab

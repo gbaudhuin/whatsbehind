@@ -1,0 +1,25 @@
+M	README.md	be17cb72a049726505e75ffde9621b62
+M	config/schema/message.schema.yml	25b92be8c61b1c549e06dccbd1a760f0
+M	message.info.yml	a155c864849193e0636dad004381f31a
+M	message.module	f42e92ee0f9ffbf5573d8f76e110997c
+M	message.tokens.inc	1a924d47cfb6baa83d38491f8935dae8
+M	modules/message_example/message_example.info.yml	5666a544c40da6ca9913fffff8312f52
+M	src/Entity/Message.php	5063a5892a7ad3608683f35b98302fd7
+M	src/Entity/MessageTemplate.php	aa22f0fbc5b7aaba55aaae8932fa7790
+D	src/Form/MessageTemplateConfigTranslationAddForm.php	
+D	src/Form/MessageTemplateConfigTranslationBaseForm.php	
+D	src/Form/MessageTemplateConfigTranslationDeleteForm.php	
+D	src/Form/MessageTemplateConfigTranslationEditForm.php	
+M	src/Form/MessageTemplateForm.php	1fe2cf5fd8440ef5f6cda4e6c1f00fe0
+M	src/FormElement/MessageTemplateMultipleTextField.php	f9c9966cd8489a4f981816103489759b
+D	src/MessageConfigEntityMapper.php	
+M	src/MessageTemplateInterface.php	df01350207f26bce1fe1817219db17e1
+M	src/MessageViewBuilder.php	a16c5764eaa97993867d69d3926902cb
+M	tests/src/Functional/MessageTestBase.php	0e2c514cd7a4fe4271fa9ae1d6b254f5
+M	tests/src/Functional/MessageTextHandlerTest.php	12eefbc8c4453508a5bc14c718d6159a
+M	tests/src/Functional/MessageUiTest.php	c00bf6eaf8e90e61343c2ffa1b949541
+M	tests/src/Kernel/MessageTemplateCreateTrait.php	edc78ef97a66a285d614b170f9bd05e5
+M	tests/src/Kernel/MessageTest.php	ba71a8ace6f7e0f50b74fea764fd995d
+M	tests/src/Kernel/MessageThemeTest.php	7585dcd117c0af7e7c4ad4b2080e146f
+M	tests/src/Kernel/MessageTokenTest.php	afbb89627b4a35a448de7b1941b862d5
+M	tests/src/Unit/Entity/MessageTemplateTest.php	241f88537d805a7202bfca56ccd309c9

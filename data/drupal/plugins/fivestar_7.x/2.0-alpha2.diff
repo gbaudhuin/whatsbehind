@@ -1,0 +1,16 @@
+M	fivestar.info	be992166fb5b6cf621f251418c94858c
+M	fivestar.install	5c4b388d5d50b0cf89cf0eb4ebd5a1ca
+M	fivestar.module	7addf4002e4c91b0ccdabe48d87b0557
+D	fivestar.test	
+A	help/about.html	62b793c272456643da934ff587982d33
+A	help/advance-settings.html	7b27b9fccdf503e6d847f907aa76487b
+A	help/api.html	fe1faaeec7c854aaeeec292d8a5ba72a
+A	help/fivestar.help.ini	65f47d71c27fc1a8b7ee68933101848d
+A	help/getting-started.html	71a9ed4dee598da1f0cf78f53bcd8651
+A	help/images/widgets-preview.png	b4138b985abe0966efe615ab1d155891
+A	help/widgets.html	17ec3fa1aaf264650bc16e50ff27ee17
+M	includes/fivestar.admin.inc	ed4391b0a3447199455a5d5827826589
+M	includes/fivestar.field.inc	9f3233f76cc40e7e1afd7b5131153ca1
+M	includes/fivestar.theme.inc	8fa8c7e0854eb9b5660bb727175ab2cb
+A	test/fivestar.base.test	1ce6bdee00f30173ec4315cc1fa6fea0
+A	test/fivestar.field.test	71f6bf62ac8b33e35a2221b4c1d15811

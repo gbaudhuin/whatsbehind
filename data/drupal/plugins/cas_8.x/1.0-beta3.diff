@@ -1,0 +1,12 @@
+M	README.md	a9ed240974f2af0567eb069659fce11d
+M	cas.info.yml	0c706d5983fa3d4390e84007ed9348b5
+M	cas.install	cf3d6e438b9b6f7310adf166d47252d3
+M	cas.module	bd6898dc4c424145f1995dbd25fbc05b
+M	config/install/cas.settings.yml	9863c6e881b3c14fcf589d4b2dbcef46
+M	config/schema/cas.schema.yml	fe82c37ae0eaa952e0d5a8ce6c57db49
+M	src/Form/CasSettings.php	c8c0773eee6184ea712b61da086360b9
+M	src/Service/CasHelper.php	eebe9128301416da5c8a33830ace2f2d
+M	src/Service/CasProxyHelper.php	e3b2a1e19a5c34da8e20c199cab9f281
+M	src/Service/CasValidator.php	5283fc6f3349ed5a5cb7d1d8b2839f39
+M	tests/modules/cas_test/cas_test.info.yml	d1fc3d2baa3c6e2f16684c296ba02566
+M	tests/src/Unit/Service/CasHelperTest.php	067280b63b9953734c243bfa77522338

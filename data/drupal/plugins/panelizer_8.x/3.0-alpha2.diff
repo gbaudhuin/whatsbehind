@@ -1,0 +1,10 @@
+M	CHANGELOG.txt	bd0638f6696b44e1bb3cb527c896e66a
+M	panelizer.info.yml	182ccb816018d4cbb7e0a3e9c1d58e4c
+M	panelizer.module	15e49dc5ae5daef7f7b377027a777b12
+M	src/Panelizer.php	9a92a9b17c4121d905bb49f6949ca88c
+M	src/Plugin/Field/FieldType/PanelizerFieldType.php	8323f562915ab647ccd742e1d3a269e3
+M	src/Plugin/PanelsStorage/PanelizerDefaultPanelsStorage.php	c10a14d4f43e50f01a4da9f7584b9bf6
+M	src/Plugin/PanelsStorage/PanelizerFieldPanelsStorage.php	888e3352ddda69f7206c7df24abeda98
+A	src/Tests/PanelizerNodeFunctionalTest.php	323a346e7f1e612292c8b7b126f7eb09
+A	tests/modules/panelizer_test/panelizer_test.info.yml	0ac65b776e91c92f0295adfa23f88883
+A	tests/modules/panelizer_test/src/Plugin/Block/PanelizerTestBlock.php	965bf2852505715919414d0bec422dab

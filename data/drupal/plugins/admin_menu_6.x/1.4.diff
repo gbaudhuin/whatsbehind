@@ -1,0 +1,10 @@
+M	CHANGELOG.txt	fc7339f232b0cd6cbea6f2991447ec7c
+M	admin_menu.inc	0a2943eeee94ff887d799605eb61e11a
+M	admin_menu.info	7939b5d3b3625c468f128f68a2bb1e4f
+M	admin_menu.install	44d3e55b870783ddd541a04d91564874
+M	admin_menu.module	15d46657cc9c2731a98eaa94321b57c8
+M	tests/admin_menu.test	5138adf9b84d7000698b0da9b55c9c2d
+A	translations/fr.po	03be568bd2906ab0020cc723228f0e6c
+M	translations/hu.po	5255e8a591b696b8aaa8c70b77e5a7d7
+M	translations/ja.po	5ae2ce28491903d435f267f8f15a2f03
+M	translations/nl.po	42f6e8cb6c3008db559152701cf78a1d

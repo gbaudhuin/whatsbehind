@@ -1,0 +1,17 @@
+M	auth/services_oauth/services_oauth.inc	7db40ddad81b532e0db7723725a7aa94
+M	auth/services_oauth/services_oauth.info	5b6feb29ab1f839c9cdd80dbffdb226b
+M	includes/services.resource_build.inc	e57971a9915669adadb00358c34dd05b
+M	includes/services.runtime.inc	e996589c99121475060251c10182fb9f
+M	resources/node_resource.inc	cdd6b22648714293f2d42463b39f9dc8
+M	resources/user_resource.inc	d6342030a93e7fecce6f9fcb5532613f
+M	servers/rest_server/includes/RESTServer.inc	4cef815de33eab9b7e2a1a9c767bb7a1
+M	servers/rest_server/includes/ServicesContext.inc	4af335a9947710a696654fa1e713ab92
+M	servers/rest_server/includes/ServicesRESTServerFactory.inc	5907f6c978f2188f0b3cd35632f2e61b
+M	servers/rest_server/rest_server.info	cddc22a71700a5405f3c01fe4e3faeb5
+M	servers/xmlrpc_server/xmlrpc_server.info	b9b27678fd645bee669719e59f9e4563
+M	services.info	551b2f3f45aa344a2e73c0bd17170b1d
+M	services.module	29e1c9f0416703bfa1962a8527fe901b
+M	tests/functional/ServicesResourceUserTests.test	945ab3332011d9a405465968dd4de47e
+M	tests/functional/ServicesXMLRPCTests.test	1f9cb4c717b7b24c87634ba57add2f6f
+M	tests/services.test	d1dafb74c5b24c40cc5a61adedb7f3dc
+M	tests/services_test_resource/services_test_resource.info	41c17f6f57615a6a2b630e4617ae3230

@@ -1,0 +1,13 @@
+A	CHANGELOG.txt	5f9f3e355f29cd4294754305fd516382
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	893283e475bbc6180d7208db432b9cb0
+A	config/install/mimemail.settings.yml	6929829eab4263b4c23a4226410b2e53
+A	mimemail.info.yml	cda721a66247285a469481b148c2b9d9
+A	mimemail.links.menu.yml	be509d5f4ba8d96b77f2b04e9549edde
+A	mimemail.module	ff14bb1d4186803aa76b1d1a3554755d
+A	mimemail.permissions.yml	5fda323b2ab3fa78d98a3e1987421417
+A	mimemail.routing.yml	a837617b27e1eaae7f771374c00232c5
+A	src/Form/AdminForm.php	4deca5bedefcdceffa98aa4742b8edda
+A	src/Plugin/Mail/MimeMail.php	628d9db97aa2cb9ecc10fa5eb27a5934
+A	src/Utility/MimeMailFormatHelper.php	5f20dcce75ff8a3ab6b3300f7741de84
+A	templates/mimemail-messages.html.twig	1508b05bd1c96973f979f8564afb0346

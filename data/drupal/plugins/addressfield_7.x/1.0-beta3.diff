@@ -1,0 +1,7 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	addressfield.css	aac228e173cfcf4481fda1cf260b4fe7
+M	addressfield.info	82d7ec20c066e44c5928a278e63849ac
+M	addressfield.module	5633e5293cb0f9756d6158a9367b7d77
+M	example/addressfield_example.info	dee1627f000635f3334ca4b6f9d07d2b
+A	plugins/format/address-hide-country.inc	4234db3bba2a4e551df951275bfb688a
+M	plugins/format/address.inc	91d1b1915854608fb9af4b16ca7d098e

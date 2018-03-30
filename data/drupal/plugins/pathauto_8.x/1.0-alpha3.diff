@@ -1,0 +1,34 @@
+M	README.md	d1a3c51b6ccc5b1d9293d0dbb0fdfa08
+M	config/install/pathauto.settings.yml	886ad5d01c8f68c75eaf8d6ee9872543
+M	config/optional/system.action.pathauto_update_alias_node.yml	b76509d95aada8da4a7f8600459a10c9
+M	config/optional/system.action.pathauto_update_alias_user.yml	f98897de0c748ca4f2dc5fc25959ad9f
+M	config/schema/pathauto.schema.yml	b6958df45c8b097bf7a56e5a10957720
+M	pathauto.info.yml	d84330173f7b16ad2fecd496d04e2950
+M	pathauto.install	21f0441d3c3e5bd6ce0081c72a1f59d0
+M	pathauto.js	ea47d9ffb8b0a8c254e023d3c703c659
+M	pathauto.module	c5b05b6db5f6c82157bb47ea58b51eae
+M	pathauto.routing.yml	5cda1e81b98fb4648592d04d6d7877b5
+M	pathauto.tokens.inc	d614ebc64603cb1b0ee23ef813d5ceb2
+M	src/AliasCleaner.php	5332d9041ccd7c4419fa61ccaee57af7
+M	src/AliasUniquifier.php	0b9e355f7c598fbf223e5288b3ac68d4
+M	src/Entity/PathautoPattern.php	c3e47f1beb38af612f36a84966dbfc4e
+M	src/Form/PathautoSettingsForm.php	93e706047d329b64335b3eee3d8e2fc0
+A	src/Form/PatternDisableForm.php	344df2d942ed7f4c09b73046bea31ad0
+M	src/Form/PatternEditForm.php	dc116b645db356554cfd8df2eb4262b4
+A	src/Form/PatternEnableForm.php	d8b4766083a6a083305493b4d38007c2
+M	src/PathautoGenerator.php	d9fcdfab1d698c06b79f2f50ea495fdb
+M	src/PathautoWidget.php	00aa65c2add5e7710774272b63ca83f8
+M	src/Plugin/Action/UpdateAction.php	abb5f981137cf3d2831edb6e3b51b299
+M	src/Plugin/pathauto/AliasType/ForumAliasType.php	e46e7f2f39ec5b3bdb1656d527206722
+M	src/Tests/PathautoNodeWebTest.php	a1da2c7bd9e94bafd58031cb6fa451a1
+A	src/Tests/PathautoSettingsFormWebTest.php	94b50dba3e5dbc31e0ef72ba15fd3519
+D	src/Tests/PathautoTokenTest.php	
+M	src/Tests/PathautoUiTest.php	04fe0a2ec59866b4f73d3ec44dbb2952
+D	src/Tests/PathautoUnitTest.php	
+M	src/Tests/PathautoUserWebTest.php	50435a249340f41e54041bd51b55cdba
+A	tests/modules/pathauto_views_test/config/install/views.view.articles.yml	9307b685efe7d4a1116aff0894cda7d1
+A	tests/modules/pathauto_views_test/pathauto_views_test.info.yml	42ec7b918b067b387edace02591564fe
+A	tests/src/Kernel/PathautoKernelTest.php	c71e1698f086d1e9896a2dd2ba8b5186
+A	tests/src/Kernel/PathautoTokenTest.php	d6535ac2a048c4712bd6097c1009fe41
+A	tests/src/Unit/VerboseMessengerTest.php	08d50b320d159a9981d59e36359a137b
+D	tests/src/VerboseMessengerTest.php	

@@ -1,0 +1,20 @@
+A	css/placeholder_styles.css	392efcfe54c16f4e0d153e307ca91f7a
+A	images/mimetypes/application-octet-stream.png	28b3ac7b8530374a31e62fb07c05c904
+A	images/mimetypes/audio-mpeg.png	20c5cc061bb452e01c59407eacb7268b
+A	images/mimetypes/audio-x-generic.png	20c5cc061bb452e01c59407eacb7268b
+A	images/mimetypes/file-unknown.png	55aa2c4ed250ef2e6c101b591f48dd72
+A	images/mimetypes/image-x-generic.png	161fb4d28544c764d368aaaeb8dc87a0
+A	images/mimetypes/video-x-generic.png	10ba293ec1702621ccbf8b8eb7382b8f
+A	includes/JuiceboxConnector.inc	a254865fdbf89c739e798aa21fccfb84
+A	includes/JuiceboxGallery.inc	beba3716b24219e1a00f7eb4b5eec450
+A	includes/JuiceboxGalleryInterface.inc	eb36d8d3f8b9d9f79b11f3398e5ef0f6
+M	juicebox.api.php	db4cde825139e64ce0f8e2d1adb6dc0d
+M	juicebox.info	59087f482f244dab7b87ad783d62817a
+M	juicebox.install	c00defa231089e031f133df0338f70c8
+M	juicebox.module	6602af578637a38eebedae5214ec30ab
+D	juicebox.views.inc	
+A	plugins/JuiceboxConnectorField.inc	73d9c1b1647af9e5c54203806d87fc8e
+A	plugins/JuiceboxConnectorViewsStyle.inc	008b264c6788e00e5e46b5087b0565b9
+A	plugins/JuiceboxViewsStylePlugin.inc	5b82287012d533a81150063146c7c626
+D	plugins/juicebox_style_plugin.inc	
+M	themes/juicebox.theme.inc	b3f0c9f23e705d518f4abdbf77a65eab

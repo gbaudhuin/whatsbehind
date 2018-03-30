@@ -1,0 +1,9 @@
+A	CHANGELOG.md	6dc65a22e7c7c19aad101508c48525a5
+D	CHANGELOG.txt	
+M	field_permissions.info.yml	266d2c64e3a00d0521370135c070861e
+M	field_permissions.module	3dee1003109f6cb23c2ad0f1a6323a5d
+M	src/FieldPermissionsService.php	9c581e1a6a9d63a6264dfccd6751def1
+M	src/FieldPermissionsServiceInterface.php	3c44b6583382f736764110a2f7f76367
+A	src/Plugin/migrate/process/FieldPermissionSettings.php	bec9709e8b034f5d83e8606bc998c741
+M	tests/modules/field_permissions_test/field_permissions_test.info.yml	a74eca0f5499e6464b1b5f124fac5d8c
+M	tests/src/Unit/FieldPermissionsServiceTest.php	8f0b038171922823fb285f642b4238b9

@@ -1,0 +1,15 @@
+A	.cvsignore	a6522a5ba71cd5d440833adf4853f789
+A	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+A	includes/modules/content.inc	e0aec1b4ad22bbe81563c548b9a5831a
+A	includes/modules/filefield.inc	5ede409d89fdb52817cfefaa6e85be03
+A	includes/modules/nodereference.inc	a85ae1fef90caec968afb6461eabed12
+A	includes/modules/taxonomy.inc	8b142d53d3cd65be7a05343673fab0a3
+A	includes/modules/userreference.inc	539ccaaf7d3e582e4b0229750c0b0406
+A	includes/uuid_features.drush.inc	1d88005ba62c715607ec8c213ab9b4c7
+A	includes/uuid_file.features.inc	42e16a0a7688ead8f2c6d57c6148da6a
+A	includes/uuid_node.features.inc	970977cfe04f0e180e3dde835e114613
+A	includes/uuid_term.features.inc	b0e2136107d3b79869bc37e81c7fd676
+A	includes/uuid_vocabulary.features.inc	d4c98e0ff660103936d1f1cbaa59387a
+A	uuid_features.info	4be82da301252267fca1cff10852c409
+A	uuid_features.install	8c9ecd25f060546c8f7d6d33c4b1edd9
+A	uuid_features.module	415558d23f8ca4b2578ee382be70b571

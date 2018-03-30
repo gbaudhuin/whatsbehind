@@ -1,0 +1,16 @@
+M	includes/og.field.inc	1d03c8d57769dde2d89a635c7eed5629
+M	includes/og.membership.inc	fc5eb278f50bd61516b9a413f71f6059
+M	og.info	ceb6daa6e65191f326d9b7b678ddfa16
+M	og.module	34800827bb30caec079d595745c9ca4a
+M	og.test	882e5f1f6bff5e703c332cf7d37a9427
+M	og_access/og_access.info	d071839d4ca971cbfa8278f90dec1256
+M	og_context/og_context.info	a502ed46251b49cba130fd4964d440f4
+M	og_example/og_example.info	558bd967edfe5d97ce4b93dc3c999ebb
+M	og_field_access/og_field_access.info	7452b2f105d8b00034c55241028c4479
+M	og_register/og_register.info	eecf16f6b1bb0a168750da7cb2062fb3
+M	og_ui/og_ui.info	ed20d8540f369a7ad4f05d23c01f3f1e
+M	og_ui/og_ui.module	13b6f79532d371ff5e2e084bac1c7f8c
+M	og_ui/og_ui.test	e9547f8810bdaa103d811eba5fa232ca
+M	plugins/entityreference/behavior/OgBehaviorHandler.class.php	4ba504921e6af9857d8010b74e1558ae
+M	plugins/entityreference/behavior/OgWidgetHandler.class.php	bcdf77c81b44cf5f217174bb9f5ddf26
+M	tests/og_test.info	a40148984520bb132ac20fcb8e5bc7fd

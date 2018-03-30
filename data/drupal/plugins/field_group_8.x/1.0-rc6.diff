@@ -1,0 +1,4 @@
+M	contrib/field_group_migrate/field_group_migrate.info.yml	a0ceab303d536046e39274c3c4f709df
+M	field_group.info.yml	4bc462fa372e5bfa5f42a71b0fe813c0
+M	formatters/tabs/horizontal-tabs.js	3eeb013cbd0fef60534cdbfba1e796c0
+M	tests/modules/field_group_test/field_group_test.info.yml	5ffb81123487f6fe4f4bac6f016fceea

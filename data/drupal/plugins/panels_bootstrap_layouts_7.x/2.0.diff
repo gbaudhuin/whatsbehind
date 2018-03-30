@@ -1,0 +1,71 @@
+M	panels_bootstrap_layouts.info	98c2b19d87321579585c97cfb72dff95
+M	panels_bootstrap_layouts.module	cfdd768dbfaa7a8f93fce6d22ca9e83b
+D	plugins/layouts/bootstrap_panels_admin.css	
+A	plugins/layouts/bootstrap_threecol_stacked/bootstrap-threecol-stacked.tpl.php	c5a0dea56d0bf28e9f861a6e0462108a
+A	plugins/layouts/bootstrap_threecol_stacked/bootstrap_threecol_stacked.inc	6c87b7b95cfb0f85002134c60319c4d2
+A	plugins/layouts/bootstrap_threecol_stacked/bootstrap_threecol_stacked.png	b4084c32bc02367026665fb5219d0f20
+A	plugins/layouts/bootstrap_twocol_stacked/bootstrap-twocol-stacked.tpl.php	86dbcba8632a26ca5396e1919567a5f0
+A	plugins/layouts/bootstrap_twocol_stacked/bootstrap_twocol_stacked.inc	15a9b22fb87c6927159845ecafa0b4d1
+A	plugins/layouts/bootstrap_twocol_stacked/bootstrap_twocol_stacked.png	124ceee143b69ef5423f508b28b0f325
+D	plugins/layouts/onecol/bootstrap_onecol/bootstrap-onecol.tpl.php	
+D	plugins/layouts/onecol/bootstrap_onecol/bootstrap_onecol.inc	
+D	plugins/layouts/onecol/bootstrap_onecol/bootstrap_onecol.png	
+A	plugins/layouts/panels-bootstrap-layouts-admin.css	e2f5be1717ab0874e01d2daf406d17e3
+D	plugins/layouts/threecol/bootstrap_threecol_1_10_1_stacked/bootstrap-threecol-1-10-1-stacked.tpl.php	
+D	plugins/layouts/threecol/bootstrap_threecol_1_10_1_stacked/bootstrap_threecol_1_10_1_stacked.inc	
+D	plugins/layouts/threecol/bootstrap_threecol_1_10_1_stacked/bootstrap_threecol_1_10_1_stacked.png	
+D	plugins/layouts/threecol/bootstrap_threecol_2_8_2_stacked/bootstrap-threecol-2-8-2-stacked.tpl.php	
+D	plugins/layouts/threecol/bootstrap_threecol_2_8_2_stacked/bootstrap_threecol_2_8_2_stacked.inc	
+D	plugins/layouts/threecol/bootstrap_threecol_2_8_2_stacked/bootstrap_threecol_2_8_2_stacked.png	
+D	plugins/layouts/threecol/bootstrap_threecol_3_6_3_stacked/bootstrap-threecol-3-6-3-stacked.tpl.php	
+D	plugins/layouts/threecol/bootstrap_threecol_3_6_3_stacked/bootstrap_threecol_3_6_3_stacked.inc	
+D	plugins/layouts/threecol/bootstrap_threecol_3_6_3_stacked/bootstrap_threecol_3_6_3_stacked.png	
+D	plugins/layouts/threecol/bootstrap_threecol_4_4_4/bootstrap-threecol-4-4-4.tpl.php	
+D	plugins/layouts/threecol/bootstrap_threecol_4_4_4/bootstrap_threecol_4_4_4.inc	
+D	plugins/layouts/threecol/bootstrap_threecol_4_4_4/bootstrap_threecol_4_4_4.png	
+D	plugins/layouts/threecol/bootstrap_threecol_4_4_4_stacked/bootstrap-threecol-4-4-4-stacked.tpl.php	
+D	plugins/layouts/threecol/bootstrap_threecol_4_4_4_stacked/bootstrap_threecol_4_4_4_stacked.inc	
+D	plugins/layouts/threecol/bootstrap_threecol_4_4_4_stacked/bootstrap_threecol_4_4_4_stacked.png	
+D	plugins/layouts/threecol/bootstrap_threecol_5_2_5_stacked/bootstrap-threecol-5-2-5-stacked.tpl.php	
+D	plugins/layouts/threecol/bootstrap_threecol_5_2_5_stacked/bootstrap_threecol_5_2_5_stacked.inc	
+D	plugins/layouts/threecol/bootstrap_threecol_5_2_5_stacked/bootstrap_threecol_5_2_5_stacked.png	
+D	plugins/layouts/twocol/bootstrap_twocol_10_2/bootstrap-twocol-10-2.tpl.php	
+D	plugins/layouts/twocol/bootstrap_twocol_10_2/bootstrap_twocol_10_2.inc	
+D	plugins/layouts/twocol/bootstrap_twocol_10_2/bootstrap_twocol_10_2.png	
+D	plugins/layouts/twocol/bootstrap_twocol_11_1/bootstrap-twocol-11-1.tpl.php	
+D	plugins/layouts/twocol/bootstrap_twocol_11_1/bootstrap_twocol_11_1.inc	
+D	plugins/layouts/twocol/bootstrap_twocol_11_1/bootstrap_twocol_11_1.png	
+D	plugins/layouts/twocol/bootstrap_twocol_1_11/bootstrap-twocol-1-11.tpl.php	
+D	plugins/layouts/twocol/bootstrap_twocol_1_11/bootstrap_twocol_1_11.inc	
+D	plugins/layouts/twocol/bootstrap_twocol_1_11/bootstrap_twocol_1_11.png	
+D	plugins/layouts/twocol/bootstrap_twocol_2_10/bootstrap-twocol-2-10.tpl.php	
+D	plugins/layouts/twocol/bootstrap_twocol_2_10/bootstrap_twocol_2_10.inc	
+D	plugins/layouts/twocol/bootstrap_twocol_2_10/bootstrap_twocol_2_10.png	
+D	plugins/layouts/twocol/bootstrap_twocol_3_9/bootstrap-twocol-3-9.tpl.php	
+D	plugins/layouts/twocol/bootstrap_twocol_3_9/bootstrap_twocol_3_9.inc	
+D	plugins/layouts/twocol/bootstrap_twocol_3_9/bootstrap_twocol_3_9.png	
+D	plugins/layouts/twocol/bootstrap_twocol_4_8/bootstrap-twocol-4-8.tpl.php	
+D	plugins/layouts/twocol/bootstrap_twocol_4_8/bootstrap_twocol_4_8.inc	
+D	plugins/layouts/twocol/bootstrap_twocol_4_8/bootstrap_twocol_4_8.png	
+D	plugins/layouts/twocol/bootstrap_twocol_5_7/bootstrap-twocol-5-7.tpl.php	
+D	plugins/layouts/twocol/bootstrap_twocol_5_7/bootstrap_twocol_5_7.inc	
+D	plugins/layouts/twocol/bootstrap_twocol_5_7/bootstrap_twocol_5_7.png	
+D	plugins/layouts/twocol/bootstrap_twocol_6_6/bootstrap-twocol-6-6.tpl.php	
+D	plugins/layouts/twocol/bootstrap_twocol_6_6/bootstrap_twocol_6_6.inc	
+D	plugins/layouts/twocol/bootstrap_twocol_6_6/bootstrap_twocol_6_6.png	
+D	plugins/layouts/twocol/bootstrap_twocol_6_6_bricks/bootstrap-twocol-6-6-bricks.tpl.php	
+D	plugins/layouts/twocol/bootstrap_twocol_6_6_bricks/bootstrap_twocol_6_6_bricks.inc	
+D	plugins/layouts/twocol/bootstrap_twocol_6_6_bricks/bootstrap_twocol_6_6_bricks.png	
+D	plugins/layouts/twocol/bootstrap_twocol_6_6_stacked/bootstrap-twocol-6-6-stacked.tpl.php	
+D	plugins/layouts/twocol/bootstrap_twocol_6_6_stacked/bootstrap_twocol_6_6_stacked.inc	
+D	plugins/layouts/twocol/bootstrap_twocol_6_6_stacked/bootstrap_twocol_6_6_stacked.png	
+D	plugins/layouts/twocol/bootstrap_twocol_7_5/bootstrap-twocol-7-5.tpl.php	
+D	plugins/layouts/twocol/bootstrap_twocol_7_5/bootstrap_twocol_7_5.inc	
+D	plugins/layouts/twocol/bootstrap_twocol_7_5/bootstrap_twocol_7_5.png	
+D	plugins/layouts/twocol/bootstrap_twocol_8_4/bootstrap-twocol-8-4.tpl.php	
+D	plugins/layouts/twocol/bootstrap_twocol_8_4/bootstrap_twocol_8_4.inc	
+D	plugins/layouts/twocol/bootstrap_twocol_8_4/bootstrap_twocol_8_4.png	
+D	plugins/layouts/twocol/bootstrap_twocol_9_3/bootstrap-twocol-9-3.tpl.php	
+D	plugins/layouts/twocol/bootstrap_twocol_9_3/bootstrap_twocol_9_3.inc	
+D	plugins/layouts/twocol/bootstrap_twocol_9_3/bootstrap_twocol_9_3.png	
+A	plugins/styles/bootstrap_region.inc	3d79c4731b9ed54fb778fac66996eaca

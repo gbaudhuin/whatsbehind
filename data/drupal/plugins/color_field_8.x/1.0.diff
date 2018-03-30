@@ -1,0 +1,14 @@
+M	README.txt	63e8d64aa47f47cc7b703f6e36aa5f1c
+M	color_field.info.yml	57d11c14df1feb4d98038154f1f47d49
+A	color_field.install	375b44bdd8c38a9fa4512a610b3a0090
+M	color_field.module	b528f932b91f48da311e0206ff88bcc4
+D	config/schema/color_field.schema.yml	
+A	lib/Drupal/color_field/Plugin/field/formatter/ColorFieldHexFormatter.php	24361aa91cf318c4bd6645f949557772
+A	lib/Drupal/color_field/Plugin/field/formatter/ColorFieldSwatchFormatter.php	2e3eed05629d6021bff8c61dce3d7c32
+A	lib/Drupal/color_field/Plugin/field/widget/ColorFieldDefaultWidget.php	e1fc3de36814923758cde6f46a04c255
+A	lib/Drupal/color_field/Type/ColorFieldItem.php	ba08466614596b94d1aedb4ca4761a8d
+D	src/Color.php	
+D	src/Plugin/Field/FieldFormatter/ColorFieldSwatchFormatter.php	
+D	src/Plugin/Field/FieldFormatter/ColorFieldTextFormatter.php	
+D	src/Plugin/Field/FieldType/ColorFieldItem.php	
+D	src/Plugin/Field/FieldWidget/ColorFieldDefaultWidget.php	

@@ -1,0 +1,59 @@
+M	readme.html	30d62b21a621e81280b10e73945a5c38
+M	wp-admin/about.php	5a3ba032d6cc65b990300327d3377b18
+M	wp-admin/credits.php	ae58e4f547ea807762bf795f436ea335
+M	wp-admin/css/about-rtl.css	7eb9a84f6a5e8f9856fabe6f60ae26d0
+M	wp-admin/css/about.css	a81a4579a2bf58c42998289ea1ca04d2
+M	wp-admin/css/common-rtl.css	8d6461b9e7a10f2635880587e37688c8
+M	wp-admin/css/common.css	cf2cfe5b33d2c6a1a2afd50128902698
+M	wp-admin/css/install-rtl.css	271de0780b4ce277539b2029932acd9c
+M	wp-admin/css/install-rtl.min.css	bfb464d0c31eb556a824623537b0da3b
+M	wp-admin/css/install.css	985f4c5f6567fa568c0dd17084f34e31
+M	wp-admin/css/install.min.css	572e9e2e3d23c7b899a505bb16d5131a
+M	wp-admin/css/list-tables-rtl.css	f3db51aaac5931d61f45b7d025018ddd
+M	wp-admin/css/list-tables.css	4b8d9513e1dda944e989056488048494
+M	wp-admin/css/wp-admin-rtl.min.css	92b1d910730c03ead0d0113d7cd01fbb
+M	wp-admin/css/wp-admin.min.css	1ac33574bd35da1e4cf9e66d2d173686
+M	wp-admin/freedoms.php	850edca6f4b6e1f2424c25bb19c77989
+M	wp-admin/includes/ajax-actions.php	5ab411d09c014f11ed749964bbf6c768
+M	wp-admin/includes/class-wp-comments-list-table.php	cd5735bffe3768b48025ce6e7998dfd5
+M	wp-admin/includes/class-wp-list-table.php	1d1a95b053c5ccd6655f4d790de433f1
+M	wp-admin/includes/class-wp-media-list-table.php	36d6001cb11c3b459979a56d8d5a789a
+M	wp-admin/includes/file.php	fab94d961b2a7d6bb072a1bb729a1903
+M	wp-admin/includes/nav-menu.php	d55b5b17d11865264520face7eda9a2d
+M	wp-admin/includes/post.php	75c537d5a1fe7ca266892b3ad9e680ca
+M	wp-admin/includes/user.php	72339220ed82930e78eeac3076cd6ca3
+M	wp-admin/install.php	fd9ae440aaf64160a0f961646ff3be78
+M	wp-admin/maint/repair.php	951bc3728d300393514e168769efbeaa
+M	wp-admin/setup-config.php	174867260dde575accd6ca7253da78fb
+M	wp-admin/upgrade.php	b2efdd003aeacd49ea8325fc923000c3
+M	wp-content/themes/twentyfifteen/languages/twentyfifteen.pot	60929e24aa9fc68903a3586cced89079
+M	wp-content/themes/twentyfifteen/readme.txt	81d36834f5f9fb5daef874195c7fbb38
+M	wp-content/themes/twentyfifteen/style.css	1be33c9c8311ecf952299ffe9a044e2f
+M	wp-content/themes/twentyfourteen/languages/twentyfourteen.pot	2131f6440d4bd7156b7352ab687d8ebb
+M	wp-content/themes/twentyfourteen/readme.txt	cddc1f5a6b14c4d07edccd206380bdee
+M	wp-content/themes/twentyfourteen/style.css	60761bf12cdbc616904d3b8740eb8c9a
+D	wp-content/themes/twentysixteen/.jscsrc	
+D	wp-content/themes/twentysixteen/.jshintignore	
+D	wp-content/themes/twentysixteen/.travis.yml	
+D	wp-content/themes/twentysixteen/CONTRIBUTING.md	
+D	wp-content/themes/twentysixteen/CONTRIBUTORS.md	
+D	wp-content/themes/twentysixteen/codesniffer.ruleset.xml	
+M	wp-content/themes/twentysixteen/js/functions.js	588f920ba3054f87d5cd945a441cfe66
+M	wp-content/themes/twentysixteen/style.css	bddd017ce6541de1eb972067f14727be
+M	wp-content/themes/twentysixteen/template-parts/biography.php	3c5d5fd7a8b480cb6f83754e07814292
+M	wp-includes/admin-bar.php	4934166c572f63d7d6bfa29cadf2eff3
+M	wp-includes/canonical.php	72ce5607798181c0ca597e3ea0a4aa18
+M	wp-includes/capabilities.php	4cad9e157c41e7c4933c1f6e02ff1868
+M	wp-includes/class-wp-comment-query.php	7c2e825cb4eb717f5f4e3ed41e90a477
+M	wp-includes/comment-template.php	881c5c8ab941c6ec6ba36a4bd772c407
+M	wp-includes/comment.php	186966dff022742266bdd5151286bd58
+M	wp-includes/embed.php	cfd184a92a4526c9fc06cef20afdc151
+M	wp-includes/formatting.php	f0fffd10cada88f50e515842e706e13d
+M	wp-includes/js/wp-embed.js	2463b0d386cc5e574f4c6702ecd36490
+M	wp-includes/js/wp-embed.min.js	2fb8dee3969a7597d0d892028e01cc2e
+M	wp-includes/media.php	2f8c82a346b22db94062725fe277047b
+M	wp-includes/rest-api/class-wp-rest-request.php	d7b97c625dce06330bbf339b0aa192f9
+M	wp-includes/rest-api/class-wp-rest-server.php	c0b2b45ffdb936e0e65ec521f3f330f8
+M	wp-includes/update.php	45f721f85f9ca5796c62a7dbe34c0ca5
+M	wp-includes/user.php	9b4b80bb9a3988ead7a0cd7842a88e58
+M	wp-includes/version.php	730fd836cad6a9e0013ce3792af8bdc6

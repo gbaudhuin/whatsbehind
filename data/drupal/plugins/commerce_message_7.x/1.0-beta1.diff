@@ -1,0 +1,10 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	commerce_message.info	2e72a0c9c1c32d0d54dacee3b012822f
+A	commerce_message.install	cbe3dd4a6856d5a235caa010391e7dab
+A	commerce_message.module	7e869412cd36b95f75ff85a538307695
+A	commerce_message.rules_defaults.inc	364121a96e0e0e7b528b2cb1243c2331
+A	commerce_message.tokens.inc	44b6bfa46b54af580318632c64781f37
+A	includes/commerce_message.message.inc	c62f93c45335cd7ae4268dfb041b4880
+A	includes/views/commerce_message.views.inc	663c0801320dac71d784f7bb816e5cb2
+A	includes/views/commerce_message.views_default.inc	0f7370d7278694c290614c9969fcaf05
+A	includes/views/handlers/commerce_message_handler_area_add_message.inc	bb8ea3c6788ef20d81c4147f19703078

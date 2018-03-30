@@ -1,0 +1,6 @@
+M	config/install/entity_browser.browser.browse_content.yml	46231ba69577f079870905feddcf7466
+M	config/install/entity_browser.browser.browse_content_iframe.yml	b26807f833e037ebefa4682a1b6debc0
+M	content_browser.info.yml	e89132fc095ef9671a3ef0530d06a2d2
+M	content_browser.install	fc8fd7ea8f13115871cb94d3e5ce391d
+M	js/content_browser.view.js	aa6c26070a63812f6956b208360099f3
+M	src/Plugin/Block/ContentEmbedBlock.php	6ac0dd780ce8a001ce47ddabde54519d

@@ -1,0 +1,26 @@
+M	CHANGELOG.txt	c446a2cc9cb9dafafef40a7ced5ec64c
+A	scripts/admin/images/smileys-deselected.png	a84dda82c8cafab49f645cd3a3aa6023
+A	scripts/admin/images/smileys-middle.png	bebf799d7414d927b87e86ac8f33288e
+A	scripts/admin/images/smileys-middle1.png	75133671ee662c062d90a5606ee3c763
+A	scripts/admin/images/smileys-selected.png	6938034170cc14ccc3daf3bb183996bf
+A	scripts/admin/smileys-admin.css	4c27b5e1e865835ca8eff07bc4d8714f
+A	scripts/admin/smileys-admin.js	0039c4c167e078cb4f5073b01005674a
+A	scripts/images/222222_11x11_icon_close.gif	1a24aa56d7caad2c987be96b25713077
+A	scripts/images/222222_11x11_icon_resize_se.gif	2d1afdd1335aafd3b3114dbc62c2199f
+A	scripts/images/454545_11x11_icon_close.gif	95ff9ff43c930f34a955e54291a197c8
+A	scripts/images/888888_11x11_icon_close.gif	1d8eca8f82dcff2184e3fbe6b4eab6de
+A	scripts/images/dadada_40x100_textures_02_glass_75.png	374d173034d212f308a97a6139ff1601
+A	scripts/images/e6e6e6_40x100_textures_02_glass_75.png	897792eb563e104b9bd54ca290c95f2b
+A	scripts/images/ffffff_40x100_textures_02_glass_65.png	2aba552213164b739e773967a33982a0
+A	scripts/smileys.css	4f4dc7a93aa32df48ab602897ddb3ebd
+A	scripts/smileys.js	43215683677ea46a9434da8fb2b0a484
+A	scripts/ui.core.dialog.js	2d6953690711e29cbd7c241d277f9c35
+A	scripts/ui.draggable.js	991fd085dd30ab9c89e404fe7e3d3513
+A	scripts/ui.resizable.js	1e519388ba829bd69df02bcc6341aba6
+D	smileys-admin.css	
+D	smileys-admin.js	
+D	smileys.css	
+M	smileys.info	627438794d9ae46fc188f826ad76bfb8
+D	smileys.js	
+M	smileys.module	783094392cbf353f79f887f0e0252240
+M	smileys_import.info	e5812ca112c7eaefc15ebb7e7267709e

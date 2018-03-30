@@ -1,0 +1,9 @@
+M	.travis.yml	4a775038086010924a97a8d9758383bc
+M	CHANGELOG.md	961141590fe7b1313bf03abbeb1c9d43
+M	composer.json	95f767fef6b77b873c1b68bef4651498
+M	lightning_layout.info.yml	390c0639b5e264cf8360b6bee3d47936
+M	modules/lightning_landing_page/lightning_landing_page.info.yml	c7c608e6957eef924727be04ab249529
+M	tests/contexts/PanelizerContext.behat.inc	d55bc8715f9c2bfd54bba102d9e20e9f
+M	tests/contexts/PanelsIPEContext.behat.inc	a5ce0711e7d7b413470cf51cea173335
+A	tests/fixtures/1.1.0.sql.gz	ba7db0dfba3e6495855f8fa39cfb849b
+M	tests/src/Functional/EntityBlockTest.php	25e6bc52e3e669ef67ab7e7d2335cd5c

@@ -1,0 +1,4 @@
+M	better_normalizers.info.yml	fc69ed63ac57c454321349c6f1d7c6b1
+M	src/BetterNormalizersServiceProvider.php	09f8773c9248b13e2c198042b138e615
+M	src/Normalizer/MenuLinkContentNormalizer.php	0cb38a75c48ede53d54177716191907b
+M	tests/src/Kernel/MenuLinkContentNormalizerTest.php	e1dcddfe53c558b9b60e172210ac769f

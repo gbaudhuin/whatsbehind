@@ -1,0 +1,6 @@
+M	css/toolbar/toolbar.module.css	d853f57f133fe1686f7148f0dbf5f759
+D	js/toolbar/js/models/ToolbarModel.js	
+M	js/toolbar/js/views/BodyVisualView.js	102195ad43f25d5b0d0f3671dda6d73b
+M	toolbar_anti_flicker.info.yml	52795987ae85d16c6b991196dfa7879b
+M	toolbar_anti_flicker.libraries.yml	e08cac6160b4c729bbed725515e952e1
+M	toolbar_anti_flicker.module	b998bc58acb75ea204c51b1387bc05f1

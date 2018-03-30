@@ -1,0 +1,3 @@
+M	geocoder.info.yml	1c501ce2eed85bd40e0860be6d2c95cf
+M	modules/geocoder_field/geocoder_field.info.yml	cc59cc7e861ae1adc271108e4c31fa67
+M	modules/geocoder_field/src/Plugin/Field/FieldWidget/GeocoderWidget.php	8e31b945cf0de3cf756472f55f9f7cfa

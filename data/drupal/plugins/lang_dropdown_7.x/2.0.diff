@@ -1,0 +1,72 @@
+A	ddslick/ddsBlue.css	b35ee17defec4ac22c189e66c6db621f
+A	ddslick/ddsDark.css	899c87258f6acbe724097182b64b82c5
+A	ddslick/ddsDefault.css	8270c3b8dd2f4d3fd3e575a67ba8d50c
+M	lang_dropdown.info	91e3b56d476353bc152c0ac21a9b58f0
+M	lang_dropdown.install	623b70c8ab80bf597461758e06aac423
+M	lang_dropdown.js	8fcd858742e0707a68cdea47700e63b2
+M	lang_dropdown.module	1aeccecfc7fee13d62788b7d5466ba46
+D	msdropdown/Readme.md	
+D	msdropdown/Readme.txt	
+D	msdropdown/css/msdropdown/dd.css	
+D	msdropdown/css/msdropdown/flags.css	
+D	msdropdown/css/msdropdown/skin2.css	
+D	msdropdown/css/msdropdown/sprite.css	
+D	msdropdown/examples/byjson.html	
+D	msdropdown/examples/css-sprite.html	
+D	msdropdown/examples/css/sample.css	
+D	msdropdown/examples/help.html	
+D	msdropdown/examples/index.html	
+D	msdropdown/examples/mouse-events.html	
+D	msdropdown/examples/multiple-skin.html	
+D	msdropdown/examples/object-oriented-approach-more.html	
+D	msdropdown/examples/object-oriented-approach.html	
+D	msdropdown/examples/submitdata.php	
+D	msdropdown/examples/use-checkbox.html	
+D	msdropdown/images/msdropdown/icons/1273404841_tick_16.png	
+D	msdropdown/images/msdropdown/icons/Amex-56.png	
+D	msdropdown/images/msdropdown/icons/Cash-56.png	
+D	msdropdown/images/msdropdown/icons/Discover-56.png	
+D	msdropdown/images/msdropdown/icons/Mastercard-56.png	
+D	msdropdown/images/msdropdown/icons/Paypal-56.png	
+D	msdropdown/images/msdropdown/icons/Thumbs.db	
+D	msdropdown/images/msdropdown/icons/Visa-56.png	
+D	msdropdown/images/msdropdown/icons/blank.gif	
+D	msdropdown/images/msdropdown/icons/browser-chrome.png	
+D	msdropdown/images/msdropdown/icons/browser-firefox.png	
+D	msdropdown/images/msdropdown/icons/browser-msie.png	
+D	msdropdown/images/msdropdown/icons/browser-opera.png	
+D	msdropdown/images/msdropdown/icons/browser-safari.png	
+D	msdropdown/images/msdropdown/icons/button-large.gif	
+D	msdropdown/images/msdropdown/icons/demoaction.jpg	
+D	msdropdown/images/msdropdown/icons/enabled.gif	
+D	msdropdown/images/msdropdown/icons/flagssprite_small.png	
+D	msdropdown/images/msdropdown/icons/giftlelo_dot_com.jpg	
+D	msdropdown/images/msdropdown/icons/icon-search.gif	
+D	msdropdown/images/msdropdown/icons/icon_calendar.gif	
+D	msdropdown/images/msdropdown/icons/icon_cart.gif	
+D	msdropdown/images/msdropdown/icons/icon_cd.gif	
+D	msdropdown/images/msdropdown/icons/icon_email.gif	
+D	msdropdown/images/msdropdown/icons/icon_faq.gif	
+D	msdropdown/images/msdropdown/icons/icon_games.gif	
+D	msdropdown/images/msdropdown/icons/icon_lockopen.gif	
+D	msdropdown/images/msdropdown/icons/icon_music.gif	
+D	msdropdown/images/msdropdown/icons/icon_phone.gif	
+D	msdropdown/images/msdropdown/icons/icon_sales.gif	
+D	msdropdown/images/msdropdown/icons/icon_secure.gif	
+D	msdropdown/images/msdropdown/icons/icon_video.gif	
+D	msdropdown/images/msdropdown/icons/jquery-msdropdown.gif	
+D	msdropdown/images/msdropdown/icons/msDropDown.gif	
+D	msdropdown/images/msdropdown/icons/preview.gif	
+D	msdropdown/images/msdropdown/icons/sprite.gif	
+D	msdropdown/images/msdropdown/icons/sprite.jpg	
+D	msdropdown/images/msdropdown/icons/tick.gif	
+D	msdropdown/images/msdropdown/skin1/dd_arrow.gif	
+D	msdropdown/images/msdropdown/skin1/title-bg.gif	
+D	msdropdown/images/msdropdown/skin2/dd_arrow.gif	
+D	msdropdown/images/msdropdown/skin2/icon-ok.gif	
+D	msdropdown/images/msdropdown/skin2/title-bg.gif	
+D	msdropdown/index.html	
+D	msdropdown/js/jquery/jquery-1.9.0.min.js	
+D	msdropdown/js/jquery/tester.js	
+D	msdropdown/js/msdropdown/jquery.dd.js	
+D	msdropdown/js/msdropdown/jquery.dd.min.js	

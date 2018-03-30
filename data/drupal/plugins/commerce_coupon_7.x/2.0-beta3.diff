@@ -1,0 +1,7 @@
+M	commerce_coupon.info	33c9ace4147f1fd7df9c970679980c66
+M	commerce_coupon.install	02ffeae97fd145c58bbe26f0c5d16ddd
+M	commerce_coupon.module	63a4609929a7449a042ea6a69103eb99
+M	modules/date/commerce_coupon_date.info	d59970246b5e0b3627df2c5409556b70
+M	modules/usage/commerce_coupon_usage.info	bb4ad8d823f714c2ae9533b0cbeff510
+M	modules/usage/includes/views/handlers/commerce_coupon_usage_views_handler_field_usage.inc	4efa80966c0100b00147a8791bfd2c2e
+M	modules/user/commerce_coupon_user.info	2671fd4fb16b1f96316bc9ffd8935b32

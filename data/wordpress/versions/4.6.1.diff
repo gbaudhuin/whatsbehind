@@ -1,0 +1,23 @@
+M	wp-admin/about.php	cd863e187fd190cbe5c4d91e36869cc9
+M	wp-admin/includes/class-file-upload-upgrader.php	8f161cd539b60efd6c87dc716a7c77d8
+M	wp-admin/includes/media.php	81d08465caa10868932eae82cc1b520b
+M	wp-content/plugins/akismet/_inc/akismet.js	e4860e892829c49a92375371a95165fb
+M	wp-content/plugins/akismet/akismet.php	923da5a2e407689ad093839d47b7c074
+M	wp-content/plugins/akismet/class.akismet-admin.php	63ce9912983db5ed36951205ad185eb4
+A	wp-content/plugins/akismet/class.akismet-cli.php	2b1b0b5ac8794ac58e3b914d2a5b47bd
+M	wp-content/plugins/akismet/class.akismet-widget.php	bfd9b1a0ca7a06ba0f50d9bce1bcef53
+M	wp-content/plugins/akismet/class.akismet.php	31b3220d2a82a40171849dc6dd289e39
+M	wp-content/plugins/akismet/readme.txt	ca3bd453affdbace77d4266bb8a0f61b
+M	wp-content/plugins/akismet/views/config.php	a8e303ec1567c5a875df0281a217298e
+M	wp-content/plugins/akismet/views/get.php	cef64d57d7ed42cf154e54e09af2d9e4
+M	wp-content/plugins/akismet/views/start.php	71f78bcca1114f60a40cd9a0dc57c638
+M	wp-content/plugins/akismet/views/stats.php	779f816156f2502ac1a7b661b0b9c484
+D	wp-content/themes/twentysixteen/.gitattributes	
+D	wp-content/themes/twentysixteen/.jscsrc	
+D	wp-content/themes/twentysixteen/.jshintignore	
+D	wp-content/themes/twentysixteen/.travis.yml	
+D	wp-content/themes/twentysixteen/CONTRIBUTING.md	
+D	wp-content/themes/twentysixteen/CONTRIBUTORS.md	
+D	wp-content/themes/twentysixteen/codesniffer.ruleset.xml	
+M	wp-includes/class-wp-comment-query.php	d2bbd0e9cb3fe3e81fcf7c09d43e33fd
+M	wp-includes/version.php	a39607af408bae5996bb945ae0adc1c9

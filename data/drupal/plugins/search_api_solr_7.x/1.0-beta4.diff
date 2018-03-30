@@ -1,0 +1,13 @@
+M	CHANGELOG.txt	c3c863699d60681448cbb107f990dd3b
+M	INSTALL.txt	93aae5442f268f7d155b7cbc9a56bce0
+M	README.txt	b968efc2943c165018ef0ed363780260
+D	includes/SearchApiSpellcheckSolr.inc	
+A	includes/solr_httptransport.inc	35dbbfa275e6e26afd547b94c8103c42
+A	includes/spellcheck.inc	7c945bcc0c3c9c44e578485ceb021baa
+M	schema.xml	44248aafc9831bb89cf0e4a7254ad7fc
+M	search_api_solr.info	7ad0880bfc21732180a27d437223335f
+M	search_api_solr.install	347f4aefc2e81c09374cb221b0d647dd
+M	search_api_solr.module	d80f6d768031bc06b437c3161112bc4e
+M	service.inc	39275b3de9c3cc191bb4ac20589b9847
+M	solr_connection.inc	ac03bb94e0173861647423acf2f4f2de
+M	solrconfig.xml	acf5a1b641eb16db3524bc2e2eb6c6de

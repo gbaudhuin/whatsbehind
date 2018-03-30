@@ -1,0 +1,7 @@
+M	media_entity_video.info.yml	27b384456ed9f0adc994e521c5603fdc
+M	media_entity_video.module	19f8e7d110c51a80d7d551dce9de5b75
+M	src/Plugin/EntityBrowser/Widget/Upload.php	d6a5137d299837a9aa9db1f2bb937304
+M	src/Plugin/Field/FieldFormatter/VideoPlayerHTML5.php	5859e15a0523373857bb9e4961e9b0c9
+M	src/Plugin/MediaEntity/Type/Video.php	15cf7d0ba6cd595fb474b2f1cad7130b
+D	templates/media-file-formatter.html.twig	
+A	templates/media-video-file-formatter.html.twig	cf7cac00608793850bd51bd7e6717bbd

@@ -1,0 +1,8 @@
+M	README.txt	94b06ccb4097ce350b4baa6c3c44345f
+M	config/install/menu_breadcrumb.settings.yml	ab53846e5130f1000074a0dbc271ffde
+M	menu_breadcrumb.info.yml	aca251779e92dcc2a7a605214fdb7fd7
+M	menu_breadcrumb.links.menu.yml	c85d6ca45e475159c7db81d727c2bd3a
+M	menu_breadcrumb.module	8faba6acec26f5762a5fe4ed903c8d9a
+M	menu_breadcrumb.services.yml	8807850b1b63eea573aab42d55c84d5d
+M	src/Form/SettingsForm.php	1879b85fce85dbe5f248bc7b3f40afe6
+M	src/MenuBasedBreadcrumbBuilder.php	0b3ea551c7ecf288465498a3f0a42b93

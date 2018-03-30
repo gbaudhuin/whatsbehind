@@ -1,0 +1,17 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	d32e17b5c0f8df06bdfb8fe6fedb432d
+A	memcache.info.yml	19fd0e572d1c335817e0c94e92528f73
+A	memcache.install	ac64e91fcec8a3847724bcf637a10ecf
+A	memcache.module	1f4247ed10a4a29de027694b4aaa6e9f
+A	memcache.services.yml	448bc23e30bc570b274883bcf030230f
+A	src/DrupalMemcache.php	e8863437547d1cad1c225e5419894218
+A	src/DrupalMemcacheBase.php	a2b07f0cc5f3e93214911c1e253af2d1
+A	src/DrupalMemcacheConfig.php	fab2d73e5d4a52dc1a97dd678626aaf4
+A	src/DrupalMemcacheFactory.php	fd023db542e1405755223a451a5f332f
+A	src/DrupalMemcacheInterface.php	d3c9959ce4d96a2f411b412364086e95
+A	src/DrupalMemcached.php	a5e2c86bcfa931bfd22d1353c74b7028
+A	src/MemcacheBackend.php	d03d6d6941cae9da45ce911b789096c1
+A	src/MemcacheBackendFactory.php	a50d98d19011d4a1a9026c968f6b58fa
+A	src/MemcacheLockBackend.php	2b83c89e36be7e8907227d87ae776bbc
+A	src/Tests/MemcacheBackendUnitTest.php	115c0c1934b0ec4a2fcae313b5485d02
+A	tests/src/Unit/DrupalMemcacheConfigTest.php	bed0029b96802eb7f316262b6bcbaae1

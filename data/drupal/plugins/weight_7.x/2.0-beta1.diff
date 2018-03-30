@@ -1,0 +1,19 @@
+D	INSTALL.txt	
+M	README.txt	efda54b36c725ce22dadcd6919ee0887
+D	httpRequest.js	
+A	views/weight.views.inc	d201d3a8e987681ea0895d7848be40be
+A	views/weight.views_default.inc	96c943252991eaf9f7f4539630a392c2
+A	views/weight_handler_field_weight.inc	b9ce169b2ce99568d2dc984b59c1daea
+D	weight-node-form.js	
+D	weight-view-weight-form.tpl.php	
+D	weight.admin.inc	
+D	weight.css	
+M	weight.info	699a547a0d4201e04f0d840263d0a431
+M	weight.install	91bf229abe809a87cd797bc12dfa0332
+A	weight.js	35054651858afd3d20f2664de9d38746
+M	weight.module	c23312a936c1533e98584b1226e5e78d
+D	weight.views.inc	
+D	weight_handler_field_sticky.inc	
+D	weight_handler_filter_sticky.inc	
+D	weight_handler_filter_weight.inc	
+D	weight_handler_sort.inc	

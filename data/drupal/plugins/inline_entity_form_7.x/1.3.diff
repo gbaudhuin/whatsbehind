@@ -1,0 +1,8 @@
+M	includes/commerce_line_item.inline_entity_form.inc	6e59100bd048c15a7506a635ca6ddf19
+M	includes/commerce_product.inline_entity_form.inc	92e38056de3c59a924d0e0a328edc412
+M	includes/entity.inline_entity_form.inc	5c7241931e407596735f501eb5d7493b
+M	includes/node.inline_entity_form.inc	f31a5e5903c0f91efc8425a6c3af79bc
+M	includes/taxonomy_term.inline_entity_form.inc	94314b41eae018c5f4d39e6e1c834ece
+M	inline_entity_form.api.php	49b56a2dc3b92753701eab630f1dc30a
+M	inline_entity_form.info	974a2851c1751fb614c875c331d008e5
+M	inline_entity_form.module	c56d5a1a68c599121ae496450dfacf3f

@@ -1,0 +1,13 @@
+M	CHANGELOG.md	6ee7a3584b7a4a5761dfa481d6c11a9d
+M	README.md	bbf6c7b9c1ca65c3d9b8dc5716598eec
+M	js/viewsreference.js	7bd8869e9dfc05f9310b298e511f1bf2
+D	modules/viewsreference_options/src/Field/FieldFormatter/ViewsReferenceOptionsFieldFormatter.php	
+D	modules/viewsreference_options/src/Field/FieldWidget/ViewsReferenceOptionsWidget.php	
+D	modules/viewsreference_options/viewsreference_options.info.yml	
+M	src/Plugin/Field/FieldType/ViewsReferenceItem.php	68dcca58e3058b059d5e9778c053ecb5
+M	src/Plugin/Field/FieldWidget/ViewsReferenceSelectWidget.php	ba6435cde2fb3cfbd1c1abbb3ef96d91
+M	src/Plugin/Field/FieldWidget/ViewsReferenceTrait.php	abe06c4db8d6df1e9b304ea124031c0a
+M	src/Plugin/Field/FieldWidget/ViewsReferenceWidget.php	e8bc65a0ed627920ec5f0da9e0fcf170
+M	viewsreference.info.yml	19b2b7b2290bc75fe9dd5125ad6c1dfb
+M	viewsreference.install	c15b34ef438cec6694a212d9c6ca1645
+M	viewsreference.module	95ca23c1b2f626e9ef18e4929ebbb056

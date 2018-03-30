@@ -1,0 +1,6 @@
+M	CHANGELOG.txt	0b32fdb85615a5b17451d02de026974c
+A	search_api_db.api.php	70607c1248ed4c3f7f65049b7d25f48f
+M	search_api_db.info	81ef7631c9b9030483593ae30fbe2b18
+M	search_api_db.install	80856669cdd0061c02d27c4cf04efae0
+M	search_api_db.test	260f52b56068c7f3a9e302bc44b73e05
+M	service.inc	f2fbadaf20504341106b2877976b8a86

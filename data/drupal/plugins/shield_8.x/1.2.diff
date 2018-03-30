@@ -1,0 +1,7 @@
+M	README.md	a44aaddd8f609cc2194f1ffe4df72366
+M	config/install/shield.settings.yml	984a45982da8add68ccea2a4a76651f1
+M	config/schema/shield.schema.yml	ae0b528bd4ad89bf919281e869a8b4dc
+M	shield.info.yml	eab94714f6e25534b1712ffc81982a3c
+M	shield.install	bcef6ee88866142700a231bc28999029
+M	src/Form/ShieldSettingsForm.php	ad640c8e294feaa053a970d18040f0b0
+M	src/ShieldMiddleware.php	cc5000aad9175f5e268fe3c27a890fd1

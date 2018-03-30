@@ -1,0 +1,14 @@
+A	CHANGELOG.txt	c1b7109732aa8c774016101099485dbd
+A	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+A	README.txt	4088c72afee02fe144486143aa0997ef
+A	menu_position.admin.inc	12e318e2c188f663424f1e425c01309e
+A	menu_position.api.php	7a149e20e430c531168d18a2b6f32b30
+A	menu_position.info	d72652e28e4e839e321b82d692e318ee
+A	menu_position.install	868f9ce88ac6e074c63350098abe75eb
+A	menu_position.module	4a703c1ad9d2dd5ff12d171fcc4e8b87
+A	plugins/menu_position.content_type.inc	c68be725c78744cabcbdbfa0d5d578fd
+A	plugins/menu_position.content_type.js	8a31a1f74923b93b123f727597f84f97
+A	plugins/menu_position.example_plugin.inc	91cf16debb058a655fa9046e5c38aa8f
+A	plugins/menu_position.example_plugin.js	41ae8c2d5c0a9d074f43b2597a799cb8
+A	plugins/menu_position.pages.inc	f0d94af95ce4ec69bf61c90f1533b243
+A	plugins/menu_position.pages.js	8063c32ad28b2328bdf7093bba8d45c1

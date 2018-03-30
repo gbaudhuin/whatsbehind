@@ -1,0 +1,7 @@
+A	.editorconfig	79bd34511e61689ed49e2b74f4b4cd4b
+M	.gitignore	89f3d4a1788c23b190205a5633b4f28f
+A	.php_cs.dist	2f63cc4cba7911002f04c7b2b1e9505c
+A	composer.json	0e0f07c1b7ed8b1714795c03f103c89e
+A	grumphp.yml.dist	5ba2379f377a9714df41e7556d784b29
+M	src/Plugin/Field/FieldFormatter/ViewsFieldFormatter.php	0c0caed7d6c2c09c5e7dd5b5ffe1ab1f
+M	views_field_formatter.info.yml	028b2b85792eb0dcea2a264fa859f504

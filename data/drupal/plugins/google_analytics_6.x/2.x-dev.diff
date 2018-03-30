@@ -1,0 +1,16 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	README.txt	cd332c2af5fdbedec8c613638dde1a83
+M	googleanalytics.admin.inc	d784d4e9985542e8720e651575295314
+M	googleanalytics.info	970e63fcb27e23ca89d3320fbfbbb024
+M	googleanalytics.install	e926b9810dfb5599c3f0b3cf1c28c0b8
+M	googleanalytics.js	88f35e53b11f08d5ca0220fce80a7f08
+M	googleanalytics.module	1bb1f8108d05f801f172fb336a31c862
+M	tests/googleanalytics_basic.test	71e0cf92e75293031454180ba6ee97e4
+D	translations/de.po	
+D	translations/el.po	
+D	translations/fr.po	
+D	translations/googleanalytics.pot	
+D	translations/hu.po	
+D	translations/ja.po	
+D	translations/pl.po	
+D	translations/sk.po	

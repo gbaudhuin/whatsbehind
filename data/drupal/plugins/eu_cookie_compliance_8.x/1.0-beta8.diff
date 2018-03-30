@@ -1,0 +1,20 @@
+M	README.txt	0253aa551800d77b5350c96d94ad26d1
+M	config/install/eu_cookie_compliance.settings.yml	9efe35d568e733931f3943bde712b277
+M	config/schema/eu_cookie_compliance.schema.yml	bdaaefb7f0410074513c57066c465a6f
+M	css/eu_cookie_compliance.css	9cb31e8731066436b8358c5ac7408e66
+A	eu_cookie_compliance.api.php	04a6a7d45372ab438e840c9bb10aff39
+M	eu_cookie_compliance.info.yml	acdb330d9ee871c99713c03af41d50f0
+M	eu_cookie_compliance.install	bf717eb8c8b520c00f7713ca8b417ae7
+M	eu_cookie_compliance.libraries.yml	d28be1f6c02bf82b3a7e4657ed089362
+M	eu_cookie_compliance.module	bf132ea7a758d40240e8050bf032ea15
+D	images/transparent.png	
+M	js/eu_cookie_compliance.js	adf8ef8d1c1dc2e9c1d3759b86d3ceed
+M	src/Form/EuCookieComplianceConfigForm.php	a26c821ca15063c4e2f93f51ddc49c26
+D	src/Tests/EuCookieComplianceConfigFormTest.php	
+D	src/Tests/EuCookieComplianceTestBase.php	
+D	src/Tests/Update/EuCookieComplianceUpdateTest.php	
+D	tests/fixtures/update/drupal-8.eu-cookie-compliance-beta5.standard.php.gz	
+D	tests/fixtures/update/drupal-8.user-role-manager-2774143.php	
+D	tests/fixtures/update/user.role.secondtestfor2774143.yml	
+D	tests/fixtures/update/user.role.testfor2774143.yml	
+D	tests/modules/eu_cookie_compliance_test.info.yml	

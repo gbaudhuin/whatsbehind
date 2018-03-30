@@ -1,0 +1,6 @@
+M	CHANGELOG.txt	123dd4a9e03ff8a06a02391e1815d6f9
+M	votingapi.info	b205d6a74c553e05e08331057ca18858
+M	votingapi.install	e677fdba89cac67686053d177bf4265c
+M	votingapi.module	82ab6fe2fbac175e8f6672ecd3930eb2
+A	votingapi.views.inc	ab6084c204a060667ea02b3e780258ab
+D	votingapi_views.inc	

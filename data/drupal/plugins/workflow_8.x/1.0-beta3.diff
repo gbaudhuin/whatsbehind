@@ -1,0 +1,29 @@
+D	config/install/block.block.workflowtransitionform.yml	
+A	config/optional/block.block.workflowtransitionform.yml	346dfbe167623d6a81c4e3ae05fcd90a
+A	config/optional/system.action.change_a_node_to_next_workflow_state.yml	df65aa73f0fd20f6aa1c751ccb68a1dd
+D	modules/workflow_access/src/Form/WorkflowAccessForm.php	
+A	modules/workflow_access/src/Form/WorkflowAccessRoleForm.php	5085eecd0ec7e91391bdfddf291936e9
+M	modules/workflow_access/src/Form/WorkflowAccessSettingsForm.php	0496388b444c0042aa5aa3fefe285cb6
+M	modules/workflow_access/workflow_access.info.yml	06da7fe6edb6368ca8af2a1b00ab8ebf
+M	modules/workflow_access/workflow_access.install	2cd85976d7117c93a7c349faf72c6bf7
+M	modules/workflow_access/workflow_access.module	1f6bc98dc323ac5730544c692264b18c
+M	modules/workflow_access/workflow_access.routing.yml	6749b494cb9362cd713bb0c868f7dab9
+M	modules/workflow_devel/workflow_devel.info.yml	2500761d5408e3a771cc56858fa7c251
+M	modules/workflow_field/workflowfield.info.yml	8ee4a540a5e020005124b1e8ff49fb61
+M	modules/workflow_operations/workflow_operations.info.yml	d2ede9e5ecaa8606ddd6aabad6a58477
+M	modules/workflow_ui/src/Form/WorkflowConfigTransitionRoleForm.php	ef7f74ce4a1b5a43246e8991f02df275
+M	modules/workflow_ui/workflow_ui.info.yml	dcf51c8070af1fbe814f0a563cdaf955
+M	modules/workflow_ui/workflow_ui.install	1c10b15fa0c25a567641ab8bf7fa4be0
+M	src/Controller/WorkflowTransitionListController.php	386b8ac08e6927c8ed85b3b044ebb773
+M	src/Entity/WorkflowConfigTransition.php	467b2a68d8d6d3fb652ce9f6b56d265b
+M	src/Entity/WorkflowManager.php	63094cbf2559d3d90efc8e26822b4924
+M	src/Entity/WorkflowTransition.php	01708b233286b8297be24f35e333f2a7
+D	src/Plugin/Action/GivenNodeWorkflowStateAction.php	
+D	src/Plugin/Action/NextNodeWorkflowStateAction.php	
+A	src/Plugin/Action/WorkflowNodeGivenStateAction.php	442463f20c4c6e8baab9dd6a01668e56
+A	src/Plugin/Action/WorkflowNodeNextStateAction.php	8145c78e8457e22b05a0fe1824440c0d
+M	src/Plugin/Action/WorkflowStateActionBase.php	dac5e3cbd215bb8b278d4908ad6882d0
+M	src/WorkflowTransitionListBuilder.php	c78da0e69f85a625f5f86c98abe39d0c
+M	workflow.info.yml	7b661de4935feee861a05f6445ef54a1
+M	workflow.install	ed0575525eae2cc61c58709349ce924c
+M	workflow.module	83f340470554593d7955465aa3495c67

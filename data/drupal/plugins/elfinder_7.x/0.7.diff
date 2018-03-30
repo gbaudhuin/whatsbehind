@@ -1,0 +1,43 @@
+M	CHANGELOG.txt	65f401643efc47ae10cd88737fb0b5ab
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	README.txt	604f6a465e84cbea3da500eeb45fe11b
+M	css/elfinder.css	1069554e784858bcbc42257feaaeb5e7
+M	css/elfinder.d7.css	f477ccf9c15e8edc346331a013959f8f
+A	css/elfinder.drupal.css	8ad01851c9533d38aa6b732d14bfafff
+A	editors/bueditor/bueditor.callback.js	0cda2d072161e2cbe0ceed7bee6a3462
+A	editors/bueditor/bueditor.inc	1a5ec9ad6aee825deeff45713beb221b
+A	editors/bueditor/bueditor.js	daf1787379647ddcd8f0d9f810b26e38
+A	editors/ckeditor/ckeditor.callback.js	147885e1ca72dfc6d9de24b94d636185
+A	editors/ckeditor/ckeditor.inc	ff2671aac229d4e23ec3c46e9f91b436
+A	editors/drupalnodeattach/drupalnodeattach.callback.js	f0d2d3d445ca84fb6d2e67a07cfbfed9
+A	editors/fckeditor/fckeditor.callback.js	7cd865c491258ed80d97767ed87b6583
+A	editors/fckeditor/fckeditor.inc	f1f6b7d5a9dc9bb1304a5f9751f034cc
+A	editors/jwysiwyg/jwysiwyg.callback.js	7a1546b35417067c7123919185fe9ddc
+A	editors/jwysiwyg/jwysiwyg.inc	2167ad9960850f04f5cb130782689551
+A	editors/jwysiwyg/jwysiwyg.js	f77c6f12b2e8bc0c75a1965ae5de7441
+A	editors/tinymce/tinymce.callback.js	477c4643dfb98da82b98c0fe2e438393
+A	editors/tinymce/tinymce.inc	cde04f9956bcb7ff67d52b40b4b5be61
+A	editors/tinymce/tinymce.js	611bc08fe313488f8613e5c088343261
+A	editors/wymeditor/wymeditor.callback.js	955687785b220f5ed4502c46a51b3a38
+A	editors/wymeditor/wymeditor.inc	1b5df7cb53e3cf4b9f32fb392f277902
+A	editors/wymeditor/wymeditor.js	5a16015867d5fcf9ee7919ee1a1d0f63
+A	editors/yui/yui.callback.js	8f3a7f98c489e8962aab93a190fed108
+A	editors/yui/yui.inc	dcd26214c0a7fde363d4a6ef2c5b5390
+A	editors/yui/yui.js	485bcc6877e68880048617f6e057b178
+M	elfinder.info	2138ddbac2fb4a99e3a1fa3b18baafb7
+M	elfinder.install	048550dc167f48d405e86c19eaaa4bfe
+M	elfinder.module	4daabadb0a787c4164bd19e3387d434f
+M	inc/elfinder.admin.inc	87060f746891e372e28b71ca8dc27bf5
+D	js/elfinder.bueditor.js	
+M	js/elfinder.callback.js	6c7074b3c8178e76fc82edb24e6a990b
+D	js/elfinder.jwysiwyg.js	
+D	js/elfinder.wymeditor.js	
+D	js/elfinder.yui.js	
+M	js/helper.js	292512d80d3670cda0ca762b7cb5beca
+A	modules/elfinder_bueditor/elfinder_bueditor.info	d3f068091569c3cbc331c78d7f93c652
+A	modules/elfinder_bueditor/elfinder_bueditor.module	6ca11482c586255ffd1757a78248d19d
+M	modules/elfinder_ffsel/elfinder_ffsel.info	ed69587d1bef0d83ac5aba502a9ec4f8
+M	modules/elfinder_ffsel/elfinder_ffsel.module	da756aee9b1be6eeebc10a62b4bafb58
+A	modules/elfinder_ffsel/ffs.callback.js	1351df7cf67826e76c1df9062abdb3f7
+M	tpl/elfinder-page-backend.tpl.php	fc1d5406c91257ae7e21ad74a5df16e5
+M	tpl/elfinder-page.tpl.php	0d163f5686180310e9cceedb090b3606

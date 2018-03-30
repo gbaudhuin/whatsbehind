@@ -1,0 +1,10 @@
+M	README.txt	c1ec1caac5c7b06e650b952923952111
+M	cdn.info.yml	276acade91f98d906e20484161bcf4c8
+M	cdn.install	47d95aadb31a3b3d6dc9f85c9ea6ce4a
+M	cdn.module	4d5b408b287c444e1b554b123150e207
+M	cdn_ui/cdn_ui.info.yml	0f524a544108138101df6e533e80c545
+M	src/CdnFarfutureController.php	0f26d300edd6bc74c23ce4619ffc2537
+M	src/EventSubscriber/HtmlResponseSubscriber.php	9d4b532ba0061ae8f661f98b15f6d430
+M	src/File/FileUrlGenerator.php	60ecfc2f52673ba092ca5cfc6402ffba
+M	tests/src/Functional/CdnIntegrationTest.php	ba87e834baaea4f6d9e566d8b808ec11
+M	tests/src/Functional/Update/CdnDefaultSettingsUpdateTest.php	60434845f0e38397bc9f2299e9fc07ab

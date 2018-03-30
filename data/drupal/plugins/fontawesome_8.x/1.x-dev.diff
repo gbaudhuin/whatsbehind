@@ -1,0 +1,13 @@
+M	composer.json	4ebc5b55577b7c90309e9d625a36998a
+M	config/schema/fontawesome.schema.yml	388b48c536116ed2c17a9824f9b7108b
+M	drush/fontawesome.drush.inc	ca07492b763340963f160bdb21bf772b
+M	fontawesome.info.yml	85d8d5456ae57144e0a25af1a52923b9
+M	fontawesome.libraries.yml	dd6beb7a72fc98c96da64a5c82cdcfe1
+M	fontawesome.module	dcdc1b055cd1b438a8e8aa45606f8ee7
+M	fontawesome.routing.yml	adcf4042b1a916b608d273f6f2b2e413
+D	js/allowEmptyTags.config.js	
+A	js/plugins/drupalfontawesome/icons/drupalfontawesome.png	fedacca34bd98b22b9feef0d161489c6
+A	js/plugins/drupalfontawesome/icons/hidpi/drupalfontawesome.png	8def1edb29714c9d24fcae8b2420e7ae
+A	js/plugins/drupalfontawesome/plugin.js	5a41fe324c91bc4beff21d4b75964a1d
+A	src/Form/EditorIconDialog.php	179e66e420a451dbbdedddf86a614cd9
+A	src/Plugin/CKEditorPlugin/DrupalFontAwesome.php	0da13b6a2ba6d5fc01c60f2355f9f665

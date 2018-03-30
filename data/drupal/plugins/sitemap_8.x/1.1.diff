@@ -1,0 +1,10 @@
+A	composer.json	f37bf3ebef1b46571dd4637ae5e6552b
+M	sitemap.info.yml	a11a9e2725e101bcbb63658dc486cf76
+A	sitemap.install	d24dc6e04601063ad648b5f06a7e3154
+M	sitemap.permissions.yml	9f2324fcaf52bf30cf55d79dc38ac656
+M	sitemap.routing.yml	88fbaa6f6012147f1a22b1cb53fa3639
+M	src/Tests/SitemapBookTest.php	2f68a64b8b6fede7cde605cc1203f553
+M	src/Tests/SitemapContentTest.php	e599309458cd65d550957f261613a105
+M	src/Tests/SitemapCssTest.php	b48b0f235b8f831799ab2068b3b2c18f
+M	src/Tests/SitemapMenuTest.php	1f1d2caeb9d5125121de16aa602aef2e
+M	src/Tests/SitemapTestBase.php	8daba217802996a4ba1e4ca4a1c11507

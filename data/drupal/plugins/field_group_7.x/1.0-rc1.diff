@@ -1,0 +1,16 @@
+A	CHANGELOG.txt	9c2eace8df5d40a76a59f2a28fe4373b
+A	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+A	README.txt	f4619fa0017b3a3a2b91f7af84112464
+A	field_group.admin.inc	9cec17eb2838c7daf28a51969344f99a
+A	field_group.css	ecb18c7eef10c62a8281e750ff6fe4b5
+A	field_group.features.inc	1d584338d0a9a2fe207663f808d51da9
+A	field_group.field_ui.css	692b877db125f604323a86836bfaa7f5
+A	field_group.field_ui.inc	4c00e058496e07981e28cd1691cf65c8
+A	field_group.field_ui.js	1bf3c43d6372f4c97986124a843d7fe5
+A	field_group.info	042d88fed37fcb1e2f28402b33213606
+A	field_group.install	6a7b39e8eca8d58b12e4ef525b53ec61
+A	field_group.js	d02eb85aca4ee61dfec5fa62870f1ed5
+A	field_group.module	2a1a5256cde217d0c66d1a9206b6d9c8
+A	field_group.test	f17fc7d219bc95c489a3a37221883d96
+A	horizontal-tabs/horizontal-tabs.css	72d9ec5612131baf3be49c2ab173f07c
+A	horizontal-tabs/horizontal-tabs.js	593ed4343431d83bf314e15db128b96d

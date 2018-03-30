@@ -1,0 +1,21 @@
+M	CHANGELOG.txt	a798011161d89f406bf551db8ce8b3ef
+M	contribute.info.yml	b49ebb402071a0daab1a37549053bc0c
+M	contribute.libraries.yml	cf8760ad599c904cd0e6ef906d799ad4
+M	contribute.links.task.yml	45c3462e8b52c7b61e7f415926a3203c
+M	contribute.module	b02e745b3c9f24f59c81eb7a314bcaf8
+M	contribute.routing.yml	f28950deada613641ccc496493d1ed87
+M	contribute.services.yml	e871a641109ae9db3059f09b65981de2
+M	css/contribute-status-report-community-info.css	5db779f3d51aea35a5c870549d598666
+D	css/contribute-system-status-report.css	
+D	images/icons/cccccc/people.svg	
+D	includes/contribute.association.inc	
+D	includes/contribute.drupal.inc	
+D	includes/contribute.projects.inc	
+D	src/ContributeGenerate.php	
+D	src/ContributeGenerateInterface.php	
+M	src/ContributeManager.php	4da7b35df046d8393f65c049632d364c
+M	src/ContributeManagerInterface.php	56385d777f64a8f6c132a54c9588651d
+D	src/Controller/ContributeCommunityController.php	
+D	templates/contribute-person.html.twig	
+M	templates/contribute-status-report-community-info.html.twig	cf5c8f7944fc1c68cec945b0df926fce
+D	templates/contribute-status-report-grouped.html.twig	

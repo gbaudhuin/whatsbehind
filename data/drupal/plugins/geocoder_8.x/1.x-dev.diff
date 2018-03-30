@@ -1,0 +1,10 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	ba7a2cc8798d71d9ceb9baad2e201ac2
+A	config/install/geocoder.google.yml	aa40e9286bb3a22f69d6d7fe785be0c2
+A	geocoder.info.yml	ef2012753b2519bc4a02c7c9c470e9ac
+A	geocoder.links.menu.yml	5f6523643614457040ea9c64475771dc
+A	geocoder.module	5686464783b042f28ddc4e87498658ff
+A	geocoder.routing.yml	a068d8aa81f15a80f459650847742194
+A	js/geocoderWidget.js	2a8674041816f30a8460793bcefb4ba1
+A	src/Form/APIKeysForm.php	e1ec0a4850da309d6dc4809a0b82dfad
+A	src/Plugin/Field/FieldWidget/GeocoderWidget.php	3af339b547be00e76b8f34964932cf3e

@@ -1,0 +1,17 @@
+D	flag.actions.inc	
+M	flag.inc	292f4c8a93235c22410f8d86664c5596
+M	flag.info	ce1a9e2c3e5517d03076ce8e2e3491b4
+M	flag.install	4d1155237f7ccf9660f0f36a060b39ce
+M	flag.module	50ba7df7ac914db84186b294a468a905
+M	flag_actions.info	780186902d9ec51251a84d63009dfab6
+M	flag_actions.module	1d574d6bad4d96db8ccb9efae2022bb7
+A	includes/flag.actions.inc	032d6c48ce9f1cb4e3a57c1eadc4331d
+A	includes/flag.admin.inc	e1dc4683f31ba1f7ec7a1bd8da5c31e8
+M	includes/flag.rules.inc	7e8e7cf48a008967ccb47576f5826bde
+M	includes/flag_handler_field_ops.inc	ad0d33d2fd0005610589412ba095d139
+M	includes/flag_handler_filter_flagged.inc	6834ab91e79a75383360212c7152151e
+M	includes/flag_handler_relationships.inc	120931be5b73430df4afee51f29200f2
+M	theme/flag.js	f98da2a8fd22ce68d6eaece704941b63
+M	theme/flag.tpl.php	7f27e0ab17bea51d345f3c64bf214a08
+A	translations/da.po	530485823a06577e325b5464aec1037c
+A	translations/fr.po	33a1286ca2d47ffc3381c8f1fbcd863e

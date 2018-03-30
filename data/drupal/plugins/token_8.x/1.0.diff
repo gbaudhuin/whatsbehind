@@ -1,0 +1,7 @@
+D	composer.json	
+M	src/Tests/TokenMenuTest.php	c500f283b645d97456f76dd1a224b13d
+M	tests/modules/token_module_test/token_module_test.info.yml	e1f0937f494fa7ec6889ae491576703d
+M	tests/modules/token_user_picture/token_user_picture.info.yml	a732e88da7920f6bcbd6b1f309acd13d
+M	token.info.yml	b239224eaaf6785d406b8ad91b095e3f
+M	token.module	0555c14ca4a28f03164b26f655105585
+M	token.tokens.inc	88ebf0310dc3963ce9f02fb99d2465fe

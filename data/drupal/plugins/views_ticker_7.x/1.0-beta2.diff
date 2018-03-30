@@ -1,0 +1,7 @@
+M	includes/views-ticker-view.tpl.php	8a514b57ee09cc0722cd3790994d9360
+M	includes/views_ticker.views.inc	d146c94b2334a040d9f9ce1b3701589c
+M	includes/views_ticker_style_plugin.inc	afad62e35c0fa3103fff01104c77008d
+A	js/jquery.vticker-min.js	688ec0ff1638a9e13288126ccf6555c5
+A	js/jscroller2-1.5.js	b341c843d0b3c8810f23f620227a8400
+M	js/views.ticker.fade.js	ee828cb35aa13d78a2af7c1c308e768b
+M	views_ticker.info	2880237e0f182a790c2bbf6077573ca6

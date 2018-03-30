@@ -1,0 +1,107 @@
+M	.htaccess	7072c491823849cfb5a5236b5890ef40
+M	CHANGELOG	710bd8b98ced087fff802ef0703ca3b7
+M	INSTALL	a5ae41fa10f4c0cb719f10388eb6de05
+M	MAINTAINERS	3e26eeb5d3cc2d032ca303f26dc50fe2
+D	admin.php	
+M	cron.php	1f30ebab515bf5b0b890743ea5918718
+A	database/database.mssql	bc9fdbba11e31cc21dd3ac92e58fd799
+M	database/database.mysql	bcae0d530a7dc5a2a77606f7ef33b6a9
+M	database/database.pgsql	5c31bbb6b217c15c33eb4cd36a812341
+M	error.php	e3e7ae3c767b0158aae6965b2e34f491
+M	favicon.ico	f0ee98b4394dfdab17c16245dd799204
+M	includes/common.inc	4e15df07f546dac6fcfd06bb7dc9c7cc
+M	includes/conf.php	dd3fb3d7792bfe929293ae875dc01a95
+M	includes/database.mysql.inc	a2dbc282ba86f8cd14adbadd6dcb18df
+M	includes/database.pear.inc	009280014cb3c1836f02cb307fa1aca4
+A	includes/menu.inc	fc43502f5de3d40fc03147806765b1c2
+M	includes/module.inc	abd530243ea30b17e6c7c32224e85bc5
+M	includes/pager.inc	9bfc9d1651648b385ea99df0645af646
+M	includes/theme.inc	cb83ac13bba73511ad144b933dc758cd
+M	includes/xmlrpc.inc	9e1b83acf5e1231e4fb0dd21898bfc34
+M	includes/xmlrpcs.inc	61776125d5b64a961e071511a3aee988
+M	index.php	04691bfbce14e25a33b026ed7b8ccd25
+A	misc/admin.css	e1e639097ef20a80beb1a3c255a5e423
+M	misc/blog.gif	8e00a80a5fc23b398da83654ccdfd78c
+A	misc/drupal.css	049b663495feb2dd2711cd15ced57c33
+A	misc/druplicon-small.gif	e484b96a25abcfe8e7e5266b5a365bb3
+A	misc/druplicon.eps.gz	96ff52197fc077f393d10f69a844610f
+M	misc/druplicon.txt	361b324ec4f369e6912ff13fdb9079c2
+A	misc/menu-collapsed.gif	6b6eb49a09fcc7a8f6f1566588b057a8
+A	misc/menu-expanded.gif	e3f1c474a6b75b829a242bbb1c29f47d
+A	misc/menu-leaf.gif	24ca6245c65b5d2b39cb6178ec978170
+A	misc/print.css	dde7e3d51b8dd80cc90656e01292b677
+D	module.php	
+A	modules/admin.module	0eec856ee839147ac4db9096215a8dcf
+M	modules/archive.module	da8fc5a37fc389b02bf49fffc7e9591a
+M	modules/block.module	121cdedb4e689d68792e2e99c189c280
+M	modules/blog.module	7ca096db75bb58d369a839476b8be015
+M	modules/bloggerapi.module	12fd90580922e94d1da479ba996fd540
+M	modules/book.module	78455b84910c726611322b35e32fb75a
+M	modules/cloud.module	ea3c8dfc378f16e55ca5840ef1e1e879
+M	modules/comment.module	b8a105e02e86c950b855e946c215d39f
+M	modules/drupal.module	e0a0dff05a0b21eeb5af8fc1bc8a0fca
+M	modules/forum.module	ac057ccc86491fa36ecfa5ab6bf957de
+M	modules/help.module	e6e1aa975997cc38a42d58f1d3c78457
+M	modules/import.module	8d81c7d7d200415d129fc052a8dadd18
+M	modules/jabber.module	40a33b1587dbfe42a224651247b58fab
+M	modules/locale.module	2fa7e278a84643deccc685815c6069a2
+M	modules/node.module	2372be0f5deb22c688ff2db43bf61989
+M	modules/page.module	e0a83eb39cb2706e301e98820f024dc5
+M	modules/ping.module	73262d43729bd209ff682ed41f67bd5d
+M	modules/poll.module	9fcd30d37e73693be0ee5e219d792cd6
+M	modules/profile.module	3492545147a2fa53231fcf1d25cafb80
+M	modules/queue.module	738a810ee0d7903dbe1cb6f6050dee21
+M	modules/search.module	d93abe8b59a4096030c1b36c6aa2d394
+M	modules/statistics.module	9262c8320d04af87f666a459db014c42
+M	modules/story.module	3d94e9fbf9747b194a6e422685e6b5f6
+M	modules/system.module	51805225d62d33dce4cda102c1dbfcaa
+M	modules/taxonomy.module	d8cf90877eaa8e86351d8d38a3b0c245
+M	modules/throttle.module	d89e7f5f860ccf6c25e0f594566e0a71
+A	modules/title.module	550e285e017e2593edb1427e716be25e
+M	modules/tracker.module	a1fcaa4ca1a3e60402fed15ee7a92153
+M	modules/user.module	25a89d436e1e00a9a7e3753640d1b318
+M	modules/watchdog.module	f0103c83203fccf1b650e3beefce6b18
+D	node.php	
+M	scripts/code-clean.sh	135c312a3eeedaf851a4de13ecb6358a
+M	scripts/code-style.pl	ee37253934c500cd02a15dacddec638f
+M	themes/example/example.theme	d0db55dde26359822296233cd9a46178
+D	themes/goofy/goofy.theme	
+D	themes/goofy/images/drupal.png	
+D	themes/goofy/images/gr-d.png	
+D	themes/goofy/images/gr-dl.png	
+D	themes/goofy/images/gr-dr.png	
+D	themes/goofy/images/gr-l.png	
+D	themes/goofy/images/gr-r.png	
+D	themes/goofy/images/gr-u.png	
+D	themes/goofy/images/gr-ul.png	
+D	themes/goofy/images/gr-ur.png	
+D	themes/goofy/images/lg-d.png	
+D	themes/goofy/images/lg-dl.png	
+D	themes/goofy/images/lg-dr.png	
+D	themes/goofy/images/lg-l.png	
+D	themes/goofy/images/lg-r.png	
+D	themes/goofy/images/lg-u.png	
+D	themes/goofy/images/lg-ul.png	
+D	themes/goofy/images/lg-ur.png	
+D	themes/goofy/images/logo.png	
+D	themes/goofy/images/null.gif	
+D	themes/goofy/images/or-d.png	
+D	themes/goofy/images/or-dl.png	
+D	themes/goofy/images/or-dr.png	
+D	themes/goofy/images/or-l.png	
+D	themes/goofy/images/or-r.png	
+D	themes/goofy/images/or-u.png	
+D	themes/goofy/images/or-ul.png	
+D	themes/goofy/images/or-ur.png	
+M	themes/marvin/images/logo.png	273ae3e76dbd2e9a632c83bcaaf4d06a
+A	themes/marvin/marvin.css	2a18db29f034f40183cc25f0b7b2e5c3
+M	themes/marvin/marvin.theme	7e49b42e8d057f158af4b61bd17798e5
+M	themes/unconed/images/logo.png	cd21264a8b9bda28d44fe0bb230e04a9
+A	themes/unconed/unconed.css	ca05b77c90ebded08b7ea40465ef7947
+M	themes/unconed/unconed.theme	b58a5b1be8a27b70aafab2ce7587785e
+A	themes/xtemplate/images/druplicon.gif	39568d479851bfe23e84890ebe481b17
+A	themes/xtemplate/xtemplate.css	fcd146129e08b4f8e42a5bf6cb325fa4
+A	themes/xtemplate/xtemplate.inc	5ebb017e6aba53e93a667a80e720102a
+A	themes/xtemplate/xtemplate.theme	4689429d42cbaaca6eddd3ee9bb26b02
+A	themes/xtemplate/xtemplate.xtmpl	2159a891317ba6c1e15d32c000d9f5b9
+M	update.php	6f4f403331957d1c3b7d99b150012723

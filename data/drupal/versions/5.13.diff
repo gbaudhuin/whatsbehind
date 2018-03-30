@@ -1,0 +1,12 @@
+M	.htaccess	ea0212737f3c5187bc50270f69555103
+M	CHANGELOG.txt	dab9cd2fd72f3aa5d1db9853c86c8def
+M	includes/bootstrap.inc	43dd651357cbb42ee174c5fbb63076d1
+M	includes/session.inc	d2034ee52afded25f72f4521106ffd3f
+M	includes/theme.inc	7d0cd0c55cc17cc54378baa52ce7d6aa
+M	modules/comment/comment.module	c2325a858cf6eea517bb2ec5210453c8
+M	modules/filter/filter.module	8471febaec655bcee5e485abad7d2ef4
+M	modules/menu/menu.module	85634385e9f3d5ab6aa14cd6d29b924e
+M	modules/profile/profile.module	766dc053d5bb10cb31cd663707818523
+M	modules/system/system.module	dde0df23498af9b6daa1a4304be8969e
+M	robots.txt	c4aff473613bb81d8e92fee46a372fe0
+M	update.php	b1e7962fa25fb3700b828778adb1a275

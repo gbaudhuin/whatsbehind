@@ -1,0 +1,15 @@
+M	.travis.yml	ee2ec9ec704dd63e2fe1af2a95f854a1
+A	.travis/drupal-8.3.x.make.yml	9854b916872ea429ee3577de1e94e6a4
+M	src/Entity/Form/WorkspaceForm.php	70cfc35742aec05f91a14a0336710302
+M	src/Entity/WorkspacePointer.php	aec0a72543797fff3c461a4a06614a2b
+M	src/EntityTypeInfo.php	5add0ebe3411ef9cd64eee6df951106e
+A	src/Field/FieldWidget/OptionsUpstreamButtonsWidget.php	82fb3a23c005afa8554cfd4579f8b486
+A	src/Plugin/Field/FieldWidget/OptionsUpstreamButtonsWidget.php	dcc1e9d916fcac7b9528920fdf4496a7
+M	src/ReplicatorManager.php	92f5f2b8a21eaa6d90838b74ffcfe997
+M	src/Routing/RouteSubscriber.php	6131f76bcc1238825c12e5ce439478bd
+M	src/WorkspaceListBuilder.php	4da9c36ac0699958dabc913d5d3d79c8
+M	tests/src/Functional/ReplicatorTest.php	f7926dfecac019bac1af43bd000cded1
+A	workspace.drush.inc	55e868083fd855457a7390235fa6d2e8
+M	workspace.info.yml	7d58d61758d3aaa8d15522b3765f546e
+M	workspace.module	932cb2a5eefb2464cccd9e4d8ac9c16c
+M	workspace.services.yml	0254a1384255fec2f465d25922982579

@@ -1,0 +1,53 @@
+M	composer.json	dedab45ee5ffa84053588050b4895acb
+M	i18n_panels/i18n_panels.info	21522b4914b243eaa6032a1d2355356b
+D	layouts/onecol/onecol.css	
+D	layouts/onecol/onecol.png	
+D	layouts/onecol/panels-onecol.html.twig	
+D	layouts/threecol_25_50_25/panels-threecol-25-50-25.html.twig	
+D	layouts/threecol_25_50_25/threecol_25_50_25.css	
+D	layouts/threecol_25_50_25/threecol_25_50_25.png	
+D	layouts/threecol_25_50_25_stacked/panels-threecol-25-50-25-stacked.html.twig	
+D	layouts/threecol_25_50_25_stacked/threecol_25_50_25_stacked.css	
+D	layouts/threecol_25_50_25_stacked/threecol_25_50_25_stacked.png	
+D	layouts/threecol_33_34_33/panels-threecol-33-34-33.html.twig	
+D	layouts/threecol_33_34_33/threecol_33_34_33.css	
+D	layouts/threecol_33_34_33/threecol_33_34_33.png	
+D	layouts/threecol_33_34_33_stacked/panels-threecol-33-34-33-stacked.html.twig	
+D	layouts/threecol_33_34_33_stacked/threecol_33_34_33_stacked.css	
+D	layouts/threecol_33_34_33_stacked/threecol_33_34_33_stacked.png	
+D	layouts/twocol/panels-twocol.html.twig	
+D	layouts/twocol/twocol.css	
+D	layouts/twocol/twocol.png	
+D	layouts/twocol_bricks/panels-twocol-bricks.html.twig	
+D	layouts/twocol_bricks/twocol_bricks.css	
+D	layouts/twocol_bricks/twocol_bricks.png	
+D	layouts/twocol_stacked/panels-twocol-stacked.html.twig	
+D	layouts/twocol_stacked/twocol_stacked.css	
+D	layouts/twocol_stacked/twocol_stacked.png	
+M	panels.info.yml	c9d0d1a111b18cc588f038d9ad8b62b8
+D	panels.layouts.yml	
+M	panels_ipe/panels_ipe.info.yml	3e22c354a204407a2766a5a8c54ddc34
+M	panels_ipe/src/Controller/PanelsIPEPageController.php	39b4b5e65445511d4d459713c7c91b8c
+M	panels_ipe/src/Form/PanelsIPELayoutForm.php	be4606fa53b471cab721ecb10673e01e
+M	panels_ipe/src/Plugin/DisplayBuilder/InPlaceEditorDisplayBuilder.php	28d6715a141ef9e6dd90c27650ff70b4
+M	panels_ipe/tests/modules/panels_ipe_page_manager_test_config/config/install/page_manager.page_variant.test_page-panels_variant-0.yml	b0cd3c8ec4d8489b4d5de3f93ee68f3f
+M	panels_ipe/tests/modules/panels_ipe_page_manager_test_config/panels_ipe_page_manager_test_config.info.yml	5c180bebe253b3ce474007ca7ff105a6
+D	panels_ipe/tests/src/FunctionalJavascript/PanelizerIntegrationTest.php	
+M	panels_ipe/tests/src/FunctionalJavascript/PanelsIPETestBase.php	b15b60e8d5c730b1b42c7f075c8459f1
+M	panels_ipe/tests/src/FunctionalJavascript/PanelsIPETestTrait.php	5d9f4739267ff6e015e24aa93c75fd15
+M	panels_mini/panels_mini.info	3ff1b697c6128374dbfd6c453324e08f
+M	src/Form/LayoutChangeRegions.php	d884f64354823270660ad2bda305b30b
+M	src/Form/LayoutChangeSettings.php	fe4ac7c462324933a2d29782051b756c
+M	src/Form/LayoutPluginSelector.php	e08bfec99f9e7d8057e1d26f75abb4f3
+M	src/PanelsDisplayManager.php	2cc0ff3b426c71fd041595850d98be8d
+M	src/PanelsDisplayManagerInterface.php	4561c76c5b59399c4ce61a34ec3f9093
+M	src/Plugin/DisplayBuilder/DisplayBuilderInterface.php	4bdf546e8085a317ab6ecd1aece1df95
+M	src/Plugin/DisplayVariant/PanelsDisplayVariant.php	47be9ad6e7315a95250e86f027235ce1
+M	src/Tests/PageManagerPanelsStorageIntegrationTest.php	16f92b7213bf85d005710e6a6da9ef77
+M	src/Tests/PanelsConfigSchemaTest.php	4a3cf1ef232c2c04ebc92e7967bbb3da
+M	src/Tests/PanelsTest.php	acbb0e7370c899dee169ef254246603e
+A	tests/modules/panels_test/config/schema/layout_plugin_example.schema.yml	821c43654a1a22aedf33fba060d4fbe9
+M	tests/modules/panels_test/panels_test.info.yml	c78dfcfa630bf91a13f3141d2b3032c5
+A	tests/modules/panels_test/src/Plugin/Layout/LayoutExampleTest.php	fd6b540c66d19f31645d4f8ed346eddc
+A	tests/modules/panels_test/templates/layout-example-test.html.twig	014378ed9baf17b932f81e911585f612
+M	tests/src/Unit/PanelsDisplayVariantTest.php	9938dc6c3e47419392ad08cd6f852f1e

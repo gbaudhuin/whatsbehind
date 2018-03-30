@@ -1,0 +1,10 @@
+M	README.txt	c0a52949ea01784b11d0f2c3f3a4146d
+M	date_ical.info	f10de3044c9bbf3ce1468c203e7cc9a3
+M	date_ical.module	6bce9ad95f0bac4ec2b92a8f69addd5b
+A	date_ical.utils.inc	b6b6c5666e3a6e76f41efaacb15f48c8
+M	includes/date_ical_plugin_row_ical_entity.inc	3f761115555d8a1b1043a124ef352d47
+M	includes/date_ical_plugin_row_ical_fields.inc	0416725ee5339c468dff05e3fbf96932
+M	libraries/ParserVcalendar.inc	72b5cd05879afb81a0a8c76d6b8b83bd
+A	libraries/windowsZones.json	e502326e92391627a1f1f147d0154a67
+M	tests/basic_tests.ics	186dff8f3b0e8c1b9468c7711a506cce
+A	tests/multiple_rrule_exceptions.ics	f86577abf7bbab40e323f5e3f505297a

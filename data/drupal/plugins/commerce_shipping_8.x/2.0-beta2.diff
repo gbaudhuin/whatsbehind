@@ -1,0 +1,17 @@
+M	README.md	acafb72eed20e571d28ea368b3eacefe
+M	commerce_shipping.info.yml	be7b3a71521d5991e003b4d9502e5881
+M	src/Entity/Shipment.php	c80dcaf389c0313fffd4ea2d34ee17b0
+M	src/Entity/ShippingMethod.php	a0fdbc53208b0b92eecd274eb78378fe
+M	src/Packer/DefaultPacker.php	11bbda4fa70ab33271bd3249b79ac0d5
+M	src/Plugin/Commerce/CheckoutPane/ShippingInformation.php	914e9c9534fad88552dc410ef6440890
+M	src/Plugin/Field/FieldWidget/ShippingRateWidget.php	04eac983abd26760ab8d4b4d125b779a
+M	src/ProposedShipment.php	89afa9500d25ef41e545c27131e80690
+M	src/ShippingMethodListBuilder.php	6720250019d6eebf3b460531fbe2bfa4
+A	src/ShippingMethodRouteProvider.php	66482e00905ad66e59d8e60797f289ea
+M	tests/modules/commerce_shipping_test/commerce_shipping_test.info.yml	13847a968ba83a4647b2f6574329043f
+M	tests/modules/commerce_shipping_test/src/Packer/TestPacker.php	beb1079a9803ab0c30490a4f7ed24e69
+M	tests/src/Functional/ShipmentTypeTest.php	9ad837aa6866dcad069303ec09fd351f
+M	tests/src/FunctionalJavascript/CheckoutPaneTest.php	4c64e8325d04e1acd64d1dc11eb8b16e
+M	tests/src/Kernel/Entity/ShipmentTest.php	9dcbe463f9d7027948ae83fa5a38a040
+M	tests/src/Unit/Packer/DefaultPackerTest.php	8e9ae4401c957a0b32bb0e18f0a9bcba
+M	tests/src/Unit/ProposedShipmentTest.php	52c9ffb595b68582ccd8e829f95d522f

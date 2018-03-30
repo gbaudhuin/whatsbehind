@@ -1,0 +1,7 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	plugins/page_manager/tasks/myworkbench.inc	f51b6127cb1e512e1c38e9272aeea7ac
+M	views/workbench_recent_content.view.inc	ec7f0e6f0a5ade21467859025fe2fbce
+M	workbench.info	521b326c0aee5a4f53048df955282dfa
+M	workbench.module	6240a6e75ed513be94e43ef43e329a7d
+M	workbench.pages.inc	1c024f6ab222a0309a725e1c17d3f4d8
+A	workbench.pages_default.inc	8e9e3271903ca677c9d3e51821b37d1c

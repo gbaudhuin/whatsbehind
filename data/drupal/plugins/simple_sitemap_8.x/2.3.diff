@@ -1,0 +1,19 @@
+M	simple_sitemap.info.yml	3063ee3517e7dcf05f0d58aa2655249e
+M	simple_sitemap.install	d62bb6c2de34a30b1e6b6691f9337c40
+M	simple_sitemap.module	f8a6b685630d97a00a883ff6de1efa98
+M	src/Batch.php	2bdd062dd112565b5080a44c63dd5d62
+M	src/Form.php	9d34b62c24db88d8474c59c390e03833
+M	src/LinkGeneratorInterface.php	66eb86205a440a5694ae94581a924a13
+D	src/Plugin/LinkGenerator/Menu.php	
+D	src/Plugin/LinkGenerator/NodeType.php	
+D	src/Plugin/LinkGenerator/TaxonomyVocabulary.php	
+D	src/Plugin/LinkGenerator/User.php	
+A	src/Plugin/simple_sitemap/LinkGenerator/CommerceProductType.php	56a16a07d920cc308a1a33c4a7ae15cf
+A	src/Plugin/simple_sitemap/LinkGenerator/Menu.php	23e71049647f9d2fcf77bcbfe2ef4fc4
+A	src/Plugin/simple_sitemap/LinkGenerator/NodeType.php	7744bdb57897377ea342404621346a9d
+A	src/Plugin/simple_sitemap/LinkGenerator/TaxonomyVocabulary.php	52ed93068477ef55a4d275ec193e91d3
+A	src/Plugin/simple_sitemap/LinkGenerator/User.php	5ca4d3e3ed54b8e5fa11383445335b4f
+M	src/Simplesitemap.php	43c9f4ea2cedcb852848ae301f9ad25e
+M	src/SimplesitemapManager.php	3a1e162e3939943829ae474e23c610df
+M	src/SitemapGenerator.php	a04adaa411072bdb4250e660cdeabe91
+M	src/Tests/SimplesitemapTest.php	ca57dc50545914c2bc3521c6f1eb614f

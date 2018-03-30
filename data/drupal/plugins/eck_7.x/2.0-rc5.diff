@@ -1,0 +1,15 @@
+A	.gitignore	7bb265792eef850cb807e0edec01af52
+M	composer.json	53d2a1bcde255b52e6b55c995f4a6670
+M	eck.bundle.inc	be8d316ecc216b7533467736c177a611
+M	eck.classes.inc	0127256ddec7de43477b21fa51ccdca4
+M	eck.entity.inc	5913e2f3973f171f7db407bbfb303fba
+M	eck.entity_type.inc	157f3760cae4a074b4e3b6d592208b9e
+M	eck.features.inc	b5b27c718fa98270563986b9fc4bb32c
+M	eck.info	2541cd6a4de965dbe8c0a302149fcf3f
+M	eck.module	f9364b001f584125a9bd0f5708a020c6
+M	examples/eck_example.info	4ca0a04226cf5f615912a6e791fdaf4c
+M	includes/eck.inline_entity_form.inc	bfb0ac5158a6d9db19329df0ae62aa00
+M	modules/eck_entitycache/eck_entitycache.info	930902bcd0a5a83e47545e98235d0bb0
+M	modules/eck_services/eck_services.info	322db103d12bf4d0885e66eb552ff995
+M	plugins/property_behavior/language.inc	edb9589e3d5150847e5d3a7215705e33
+M	tests/behat/features/CRUD.feature	db96df4b3bff99cce9a828a8867eb403

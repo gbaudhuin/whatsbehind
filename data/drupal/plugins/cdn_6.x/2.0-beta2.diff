@@ -1,0 +1,13 @@
+A	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+A	README.txt	22ecfa88832017d01f59fc9cf5d75b97
+A	UPGRADE.txt	8c6804e1947c012f5e1c0147fc9242cf
+A	cdn.admin.inc	63ec9f4b6b872a953d230e98a8646202
+A	cdn.info	66f7393f35bf56515b1cdb9cebd0428f
+A	cdn.module	261b7378b5cb8be2016ed3dbe502e6fc
+A	cdn.requirements.inc	451f5b7c886785e6e7a1b41ccd1e4faa
+A	cdn.stats.inc	d6dcff9ec932f2af5101be4c6dce30d8
+A	config.xml	2e7788ee7eda79607950c61d7d5fee26
+A	patches/drupal6.patch	5c464a999d6debae80282d68c28bbd22
+A	patches/hook_file_url_alter.php	15b025909aaf6b87884475be0f8e1f44
+A	patches/imagecache.patch	ea9946e41b523a4cf3cedce7ed541a15
+A	theme.inc	fd469d117a197cee7fac13c405174c8e

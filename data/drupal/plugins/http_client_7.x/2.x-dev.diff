@@ -1,0 +1,15 @@
+M	http_client.info	2db651064a7bd43e0ed50bc7a562076a
+D	http_client_oauth.info	
+D	http_client_oauth.module	
+M	includes/HttpClient.inc	fe362809d3720074ee88b2c18c36121a
+D	includes/HttpClientOAuth.inc	
+D	includes/HttpClientXMLFormatter.inc	
+A	includes/auth/basic/HttpClientBasicAuth.inc	488374539b884d1cdc4711a7a6c0e8fb
+A	includes/auth/oauth/HttpClientOAuth.inc	7e12fa93c59e45f63c9b995a045ef7ca
+A	includes/auth/oauth/http_client_oauth.info	1a5ae8c98ad4791fa8eabd2046627397
+A	includes/auth/oauth/http_client_oauth.module	ead7c0f9d237a341531e645c7fde0d08
+A	includes/auth/oauth2/HttpClientOAuth2.inc	9bd948c782f312751ac4e9b4eeaf43bf
+A	includes/auth/oauth2/README.org	7816dce7e53115193f62be3d8c672810
+A	includes/auth/oauth2/http_client_oauth2.info	cd7b76cb7b1f85cce18f187cb8b78c9e
+A	includes/auth/oauth2/http_client_oauth2.module	52965a8c6944208d6bcbf761a7af61d6
+A	includes/formatter/HttpClientXMLFormatter.inc	0fc4f86569905e582c8dd852a69af234

@@ -1,0 +1,8 @@
+A	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+A	README.txt	2ddc5cfc3fa2c2d82809bde8b2ed602b
+A	engines/schema_mysql.inc	0b65d5e4442679664bbb40ebbab4f8c6
+A	engines/schema_mysqli.inc	90627bc808221d563f262058b03325ce
+A	engines/schema_pgsql.inc	db328c0556f9a82cdd69eed38a44627d
+A	schema.info	688d615e279e00f0e23310e6949c860e
+A	schema.install	0d44e514bc81dbc94f5efdcd99f3dc0f
+A	schema.module	a22af4797499a84dbf0e32d1523a5c83

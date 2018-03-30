@@ -1,0 +1,11 @@
+M	CHANGELOG.txt	1a90669927f577d3d9cf30ed48bc9dac
+A	admin_menu.api.php	cdc83505110d94c9e49560a9bfcb2ae4
+M	admin_menu.css	c6c7151a123694f0b5af6afea85eb39e
+M	admin_menu.inc	28336df8a54df4777317ccdefc02c369
+M	admin_menu.info	72b0ca51c05346c15b9e4e9f422eb545
+M	admin_menu.install	20c1f74cb570e05ed9e81c6556ffdf45
+M	admin_menu.js	bed3a4bd50ed3defbea9f3b104e4e225
+M	admin_menu.module	57a12f5273db35bc9356e901707fbec0
+A	admin_menu.uid1.css	53ead5802630d07780736667e0f47236
+M	tests/admin_menu.test	01b451e7b06d0aeb1416bddc02f7f248
+M	translations/de.po	918d6ecd41e70d3f0beaeeb16641487d

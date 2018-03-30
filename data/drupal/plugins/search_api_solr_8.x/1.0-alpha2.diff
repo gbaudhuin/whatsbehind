@@ -1,0 +1,18 @@
+M	CHANGELOG.txt	47f79061c1f4b16d6ffcea1f966e415e
+M	README.txt	e11616a5ddc901cc61fdf293b60af8fd
+M	config/schema/search_api_solr.backend.schema.yml	09aa1f83c9149c925be6b44e750f6a70
+M	config/schema/search_api_solr.schema.yml	5a647f1e22c69357f5eb1e7e90411509
+D	includes/solr_connection.inc	
+D	includes/solr_connection.interface.inc	
+D	includes/solr_field.inc	
+D	includes/spellcheck.inc	
+M	search_api_solr.info.yml	43061c06f48ba082d565e0ce5b0cf78b
+M	search_api_solr.module	6777071dced35effdffc3f6938687693
+M	src/Plugin/search_api/backend/SearchApiSolrBackend.php	51e67132d8a5266295efe19c8f129824
+M	src/Solr/SolrHelper.php	f3d3428223eb9589d23fca4e54f07679
+D	src/Tests/SearchApiSolrTest.php	
+M	src/Utility/Utility.php	55de5ba60b6b1ff2b4f21847b6f87e81
+M	tests/modules/search_api_test_solr/config/install/search_api.index.solr_search_index.yml	70f795d25eb666022ed0930dd06e2def
+M	tests/modules/search_api_test_solr/config/install/search_api.server.solr_search_server.yml	14046bd9d4da2df8738e4cd579e7511b
+M	tests/modules/search_api_test_solr/search_api_test_solr.info.yml	6017a468bf6fbdc07e54fa7b1c8825b7
+A	tests/src/Kernel/SearchApiSolrTest.php	81f69ed0583a1684f2fc9b50c964ae28

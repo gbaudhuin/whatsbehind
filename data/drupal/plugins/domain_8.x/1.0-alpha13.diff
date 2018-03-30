@@ -1,0 +1,16 @@
+M	CHANGELOG.md	6af95d9b63cea181f908bb6ccd991de4
+M	domain/domain.info.yml	d8ed7b0eb6574f84696a8dbf7632e8f6
+D	domain/migration_templates/d7_domain.yml	
+A	domain/migrations/d7_domain.yml	4838fdb24767c2fa40b2535ef703c252
+M	domain/src/Plugin/migrate/source/d7/DomainRecord.php	9ae66da5b15bedb9a67d3f36cc680be2
+M	domain/tests/modules/domain_test/domain_test.info.yml	0239c1de5880aaf2eb43a89bc6b51fca
+M	domain_access/domain_access.info.yml	56b239b9775e88fa00b3d14040698ab1
+M	domain_access/tests/modules/domain_access_test/domain_access_test.info.yml	481027f4be8ae4923a74af78b66ef0c5
+M	domain_alias/domain_alias.info.yml	53ba58d4bea9ed46ab3f3fe8022f7ff0
+M	domain_alpha/domain_alpha.info.yml	941ce28960200ed94b144af2f652f0c0
+M	domain_config/domain_config.info.yml	10d987d9b0ca263c2d49d4a6790bc93d
+M	domain_config/tests/modules/domain_config_middleware_test/domain_config_middleware_test.info.yml	a9f6389c926760b5bb1ba3c0d5351eac
+M	domain_config/tests/modules/domain_config_test/domain_config_test.info.yml	914eafd0bc15b083aaf1f06d662faff3
+M	domain_content/domain_content.info.yml	344a53bd7c0b123a2e00acc34433c280
+M	domain_source/domain_source.info.yml	b31f458122db4ccf5b3cb52f447a59f5
+M	domain_source/domain_source.module	cfd93bd034cde147c13cda4539b002cc

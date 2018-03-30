@@ -1,0 +1,19 @@
+M	readme.html	a5bc745849e1971abf8efb9a135ce764
+M	wp-admin/cat-js.php	76284c881b966c94b2d605e815ab17ca
+M	wp-admin/install.php	106845a1f09e0107578c6a6f3176b921
+M	wp-admin/upgrade-functions.php	8598a846f01a5a4401ba8ce90fc2eeb8
+M	wp-admin/upload-functions.php	8e236feafca2921c8625e93a700d8b52
+M	wp-admin/upload-js.php	497fb44809dd29a9b268501b79fbc03e
+M	wp-includes/category-template.php	74f9e1385e8d03a7129acaca0ea7ef74
+M	wp-includes/general-template.php	7d0328e5499c4fdf965581a27a2d4806
+M	wp-includes/js/crop/cropper.js	1d97b296d918482e1273c56fbff6a8e2
+D	wp-includes/js/dbx.compressed.js	
+D	wp-includes/js/fat.compressed.js	
+M	wp-includes/js/list-manipulation-js.php	2a2b77aa455dff04372a6673fe4b2209
+D	wp-includes/js/quicktags.compressed.js	
+D	wp-includes/js/tw-sack.compressed.js	
+M	wp-includes/js/wp-ajax-js.php	a2528804e1cc008b7b82ce98a50d3d58
+M	wp-includes/l10n.php	06c210044f2d5bbb68364f6510afa444
+M	wp-includes/post.php	18e07c667cfbc8dd0ada145ccb865f74
+M	wp-includes/script-loader.php	16819dd1d3c09efafea48aa4f06dece3
+M	wp-includes/version.php	06c3ee5713405ac81088650f508ac4c2

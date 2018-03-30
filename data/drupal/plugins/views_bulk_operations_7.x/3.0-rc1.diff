@@ -1,0 +1,17 @@
+M	actions/archive.action.inc	4b3ee3daee25889a9c3fdc0626ba3db3
+A	actions/modify.action.inc	3ee26362e621a364d084225375f79979
+M	actions_permissions.info	6d1308239a3a0b946177b79278fa8771
+M	actions_permissions.module	861fdc936522d6de49816696488977b0
+A	css/modify.action.css	ae44095be0e7b7b42cc18d068456a885
+M	plugins/operation_types/action.class.php	8634903946608702a60210b14cc0f213
+M	plugins/operation_types/action.inc	ecb81ed84c7881e6da7c7808fb898355
+M	plugins/operation_types/base.class.php	a3da69a02ff4d8b1fc70359705daeb32
+M	plugins/operation_types/rules_component.class.php	3a00adb5c8e3cf5aecf7772c0c03a64a
+M	plugins/operation_types/rules_component.inc	ba74fb38b653f402439abe95e4679500
+M	views/views_bulk_operations.views.inc	4564e7d5f8893bcbf0c691ab495e8a4f
+M	views/views_bulk_operations.views_default.inc	599b2f18cecba2e79d58a8e659fe0bd1
+M	views/views_bulk_operations_handler_field_operations.inc	4fc05d5bfb420717a2248134e7cbe6ad
+M	views_bulk_operations.drush.inc	70e7d31f81af528f2880c3ccaf73f937
+M	views_bulk_operations.info	d0665e6bbd5b6369cb1ef552ccbf3b4e
+M	views_bulk_operations.module	3f6ea0b5446fb714bc3b1802f712dfa9
+M	views_bulk_operations.rules.inc	be776aa029d5f5ea8f0520c52376126b

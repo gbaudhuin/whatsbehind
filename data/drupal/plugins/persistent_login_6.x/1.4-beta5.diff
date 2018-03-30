@@ -1,0 +1,10 @@
+M	persistent_login.info	ba533dfa08a884c215145b6e40aaf4fb
+M	persistent_login.install	f9b4889b20af8a89c36e35aa40cbf039
+M	persistent_login.module	296f76a67fd3dd550ec9e482ad5864ce
+A	persistent_login.pages.inc	51171c9efbc0c0d39b2ac5280621cdf1
+D	persistent_login_debug.inc	
+A	translations/de.po	b64d24b6b1d289fee53e4215d1cd5176
+A	translations/es.po	761d9d9bc667f9848f0645002f6b3941
+A	translations/fr.po	51b766ab5fa11dcb5cb1257b28b4198a
+A	translations/persistent_login.pot	da70ae45cb067e3fca67a1dacd4bc243
+A	translations/pl.po	c6511b561e6624ad4332b49b86362950

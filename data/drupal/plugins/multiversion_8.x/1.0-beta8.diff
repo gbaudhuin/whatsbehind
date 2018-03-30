@@ -1,0 +1,6 @@
+M	multiversion.info.yml	34fe25d7d5663cbc10d912af274519d9
+M	multiversion.module	dcbad88a33e9db1477f18c05b9a394a7
+M	src/Entity/Storage/Sql/MediaStorage.php	83ac4e0c4aee4f73afabaa52a35d697e
+M	src/Entity/Workspace.php	2beb78b3dba1a6e68473a62e5e7407f2
+M	tests/modules/multiversion_test_paragraphs/multiversion_test_paragraphs.info.yml	81a7db6484ccecee5d424f384e578b0b
+M	tests/modules/multiversion_test_views/multiversion_test_views.info.yml	6e8b9b4fd0ed937732ffa716bbd89846

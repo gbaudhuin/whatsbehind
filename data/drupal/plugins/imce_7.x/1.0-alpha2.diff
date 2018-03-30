@@ -1,0 +1,14 @@
+M	README.txt	ab7964bc2de24d96f1661057b1816102
+M	css/close.png	bc2e2045b9f0bcfb4ade2491b8c9eb14
+M	css/imce-content.css	e012ba06761c8adafdb6ca7f57ab71dc
+A	css/sendto.png	f243c7a0d6b42f95d1261b76fe949248
+M	imce.info	51115eb75dc4a9a77f83bba0f65c9246
+M	imce.install	12f42be0f26267715340d2ceea14af3c
+M	imce.module	4c85f61c63e3c6986a8ee5bea9a360d8
+M	inc/imce.admin.inc	8481d857ce8f0745733042c11a46e364
+M	inc/imce.core.profiles.inc	e3dcb5677d88d6bdc360a2f2e45ca70b
+M	inc/imce.page.inc	49c13aaf3eb61897c38dcc83d5dd4879
+M	js/imce.js	809d98fcc6b7b947d0e974d1e26564a2
+M	js/imce_extras.js	8161d244684c86ac2b0c97d19d0811be
+M	js/imce_set_app.js	965f8d342261c2f257bfbea38d98c459
+M	tpl/imce-content.tpl.php	6788949e5efc459925496b773f8b3668

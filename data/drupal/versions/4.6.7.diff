@@ -1,0 +1,10 @@
+M	CHANGELOG.txt	3d8d75809df039d322f9f53cee62559d
+M	INSTALL.txt	10110b5c1e24ec8904deb0041a7c6ef0
+M	includes/database.mysql.inc	0dfef8e3b9ded489ed82586bda5306c9
+M	includes/database.pgsql.inc	bfee8d244d29443c6858d753f6895498
+M	includes/file.inc	45f12f9c8e536974c23d02d13a36e8f1
+M	includes/menu.inc	9afa8e50b6523d83391f3f59bf8bebe4
+M	includes/xmlrpc.inc	cfbe636e3f433639c1978c0ec0dce799
+M	modules/book.module	e01acb4b8a0d39e1731d4fccacf6296d
+M	modules/comment.module	b0765fd8d0837c278b10c1eb4267cc1a
+M	modules/filter.module	82d7348debcb0cfe9b4d688977e2d749

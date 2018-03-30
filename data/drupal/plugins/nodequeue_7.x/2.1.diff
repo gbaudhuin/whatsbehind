@@ -1,0 +1,17 @@
+M	addons/nodequeue_service/nodequeue_service.inc	817133b6eebc47fd5182929d50bc13f6
+M	addons/nodequeue_service/nodequeue_service.info	6f67eba774829700e11a3b442ac09415
+M	includes/nodequeue.admin.inc	fdce0b28b220647c27ddc0adc05bbfdd
+M	includes/views/nodequeue.views.inc	8904e71f5f95cf6c50df1c844e9e6c0f
+A	nodequeue.api.php	d9006165fd0f3d1fbd7994a2decd06b9
+M	nodequeue.info	b43cb577c42f2df934e629b329182905
+M	nodequeue.install	1e523d18cb9e130221b188ed1f502c6b
+M	nodequeue.module	5e4476f70d42d814b31b4bb5186524f2
+A	nodequeue.rules.inc	fdb5975960cfd19252265cb9d7c6ecac
+M	nodequeue_generate.drush.inc	790e3e3491731d460c766176f1808514
+M	nodequeue_generate.info	0f93d3d6295dc39e6c4552bad5ecb838
+M	nodequeue_generate.module	546378fa8ad4bac935fd7c6c1eefbd0a
+M	smartqueue.info	964cffa5faa0c9c5f370bd736242a259
+M	smartqueue.install	63e94a50982745990a536e71611c3948
+M	smartqueue.module	e4b8c43f701bd4346adf633dfe164306
+A	tests/TESTING.txt	e35c220f4231d71c0b6043255336bb69
+A	tests/nodequeue.test	6d91772fbdf6e25e2153a1d93f7fda07

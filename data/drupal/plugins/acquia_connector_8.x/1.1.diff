@@ -1,0 +1,6 @@
+M	acquia_connector.info.yml	f3b98df0d4c1b0fc127eef52e4c8263e
+M	acquia_search/acquia_search.info.yml	c42be0236ee21a8c9b6f5ea41fbc7474
+M	src/Controller/SecurityReviewController.php	2334be892e6f620fc33382ba48bf645c
+M	src/Controller/SpiController.php	e3397aa8dd5fde362f2fd0ca4406f527
+M	src/Tests/AcquiaConnectorSpiTest.php	33c880e3007175f0ef9651e27d9be74c
+M	tests/modules/acquia_connector_test.info.yml	4c7f52b825b29c999f7d1d5706a0b2e3

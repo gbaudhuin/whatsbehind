@@ -1,0 +1,16 @@
+A	.editorconfig	f860e0e3feda32898f65bfd776a413f2
+M	geocoder.admin.inc	d90ceef30d4df4b7f0116a015f24098a
+M	geocoder.api.php	57129d8efb5c5eecdc35198414ff52cc
+M	geocoder.drush.inc	6a4a1580916569621ff0317bd6d8ba17
+M	geocoder.info	01c40001b26e69955b3f6d6f67429936
+M	geocoder.module	fc4b0c50cf49365eb8360ac118fdab89
+M	geocoder.widget.inc	c1d87a181049fb4ac4c51a3d16e5c1c5
+M	plugins/geocoder_handler/bing.inc	b3cd7e8fa38ab4ed2d3bf79288f2615c
+M	plugins/geocoder_handler/exif.inc	1bc5ea38a91586b3f9a462566614ff84
+M	plugins/geocoder_handler/google.inc	e224cbd4c31083498d568bfc0ea24e90
+M	plugins/geocoder_handler/latlon.inc	74837509d28574a8fa680ba3a752c555
+A	plugins/geocoder_handler/mapbox.inc	3ab996b254be704dcf8bb60708fb279b
+M	plugins/geocoder_handler/mapquest_nominatim.inc	5b1c6e20323e0185cfebbd52493ff222
+A	plugins/geocoder_handler/mapzen.inc	4b34e8bbbeb5c3468c023bea298ba0c1
+M	plugins/geocoder_handler/yahoo.inc	9aaa8637e0713c14e19adbbbd7e21d2a
+M	plugins/geocoder_handler/yandex.inc	e363c052177ab142b7ab4bc1e67d2246

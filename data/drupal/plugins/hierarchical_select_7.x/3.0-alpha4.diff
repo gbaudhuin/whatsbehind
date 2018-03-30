@@ -1,0 +1,12 @@
+M	TODO.txt	105197083f7006dbc2071d00ff8e416d
+M	hierarchical_select.info	4f9ba15647f569527fa24ba3dafd7a4d
+M	hierarchical_select.module	597c739cd191d8b51d16bb2fc9242596
+D	js/jquery.ui/effects.core.js	
+D	js/jquery.ui/effects.drop.js	
+M	modules/hs_flatlist.info	d268fac5e4891f826178a5cb3eb9c45c
+M	modules/hs_menu.info	30a320e6c5f5ed6582a5625e8078a568
+M	modules/hs_menu.module	cc7efa814043af747dc2c20eafabb45c
+M	modules/hs_smallhierarchy.info	8cd8f3f47eefd219d420bc4892c4cb58
+M	modules/hs_taxonomy.info	db76806654d1eec3c420c48c1a0e2818
+M	modules/hs_taxonomy.module	845954ea4fb7a0b4959231b384889e44
+M	modules/hs_taxonomy_views.info	d1b9c31c2659adbdc96d03d8664c43c6

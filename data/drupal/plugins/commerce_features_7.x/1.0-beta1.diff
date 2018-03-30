@@ -1,0 +1,8 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	commerce_coupon_type.features.inc	2420c110b071b749497fe1b6fcf2318f
+M	commerce_features.info	eecc6d4cda1730665f36085480c1e025
+M	commerce_features.module	7b151562e3dec69fa5a14a40b548e606
+A	commerce_line_item_type.features.inc	68af994d7fdb559229bf7c2fbadab4aa
+M	commerce_product_type.features.inc	ac51d01d01176e917d750d0a07f7e483
+A	commerce_tax_rate.features.inc	4220e336a4cd54a91c2e5f12c31cb024
+A	commerce_tax_type.features.inc	381b1efffe96edf9ecc885f71eae6108

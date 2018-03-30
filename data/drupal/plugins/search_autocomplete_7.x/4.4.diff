@@ -1,0 +1,11 @@
+M	js/jquery.autocomplete.js	b429d7806e534565f55e0d33820b5602
+M	search_autocomplete.autocomplete.inc	2d62671ca751cc8e99231eb68bf97105
+M	search_autocomplete.features.inc	bd9f0a208c0d55a91c7feed5811b08ce
+M	search_autocomplete.form.configure.inc	12c033d76e141cae165d1ac05d98f76b
+M	search_autocomplete.info	b7bc0bc842ea426de2d4edf761388547
+M	search_autocomplete.install	3974afdba6072a0394a912024f1a363f
+M	search_autocomplete.module	5454780dce751ef82a9765d142710cad
+M	search_autocomplete.view_autocomplete.inc	e446d92ef6af5ae85d5a51a9d384ce8b
+M	views/plugins/search_autocomplete.views_plugin_style.inc	d362c14e465ba24e5fe4cbaf618a03c2
+M	views/search_autocomplete.views.inc	3ea77d6cc263b4c0a60c526c151d4fe3
+M	views/theme/views_search_autocomplete_style.theme.inc	c806e56f0f4f294be11567bdb9eebb74

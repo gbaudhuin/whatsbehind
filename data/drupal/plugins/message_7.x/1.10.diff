@@ -1,0 +1,10 @@
+A	.travis.yml	2fa6a6a312bec8bacd372c85f31f39e4
+A	README.md	8c7edf5f3c184ec861fc7d14bf47a331
+D	README.txt	
+M	includes/message.admin.inc	1775a7bf3412788546dd3f8754abe2a8
+M	message.api.php	d1f9d0751fa38a05b7ca29958fbc9cfe
+M	message.info	d3c35a7989b67cb8f64114b41a5043bb
+M	message.module	39cbb5d4cb28d245d852355a96100f08
+M	message_example/message_example.info	0ec8a824564657748af3df7c35ce8b03
+M	message_example/message_example.strongarm.inc	66727991d0a46209a9e72eb1387adc44
+M	message_og_example/message_og_example.info	bcaa4282fe3efc4dac0fe398000e98c0

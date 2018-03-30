@@ -1,0 +1,9 @@
+M	flickity.info.yml	287f0cf71684c0a4fa2e113bae730845
+M	flickity.libraries.yml	2d8be1e8ea0ee22f1d592217bc9b1280
+M	js/flickity.settings.js	d034509c513731160b1af379d79edd73
+A	modules/fields/flickity_fields.info.yml	866617d9d0bdc6ae176cb5830666b59f
+A	modules/fields/flickity_fields.module	fa334cacf99a7d721383619a3dcf91e4
+A	modules/fields/src/Plugin/Field/FieldFormatter/FlickityEntityView.php	86a405dbb70deac142dd52e2dbf538d4
+A	modules/fields/templates/flickity-entity-view.html.twig	35a5b1f948de2afce21d120757a6ad55
+A	modules/fields/theme/flickity_fields.theme.inc	5d7e24606c0789ba6fca04ab18e3dff8
+M	modules/views/flickity_views.info.yml	d3afac1c26d4f703065f223f21662a9a

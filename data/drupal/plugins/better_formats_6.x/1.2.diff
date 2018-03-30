@@ -1,0 +1,5 @@
+M	better-formats-defaults-admin-form.tpl.php	a883fe382e07deb2a929cb9a688487f5
+M	better_formats.info	df89f8a433b5c6f6bde1d4d80dcbb037
+M	better_formats.module	46e007c129cd56ab6278b45a0d40fb10
+M	better_formats_defaults.admin.inc	0c29ace6fb1159a11404dacf06ce6e9e
+A	tests/better_formats_anonymous_user.test	f393fa87e073f4de5aa59a3c3feed395

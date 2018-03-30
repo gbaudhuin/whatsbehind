@@ -1,0 +1,6 @@
+M	config/install/flickity.group.default.yml	de66b5ab910e61b3862f69f9bfe39908
+M	config/schema/flickity.schema.yml	e942d1fe0d6ebe86bec2e110983d9cdb
+M	flickity.info.yml	8b3adc0c65a92d2e21ed9a0c00b4a5df
+M	modules/fields/flickity_fields.info.yml	6d98dcee7b57ff3ac1c9b32edebae885
+M	modules/views/flickity_views.info.yml	77f6f34e3533a80185d81587f59ded4b
+M	src/Form/FlickityGroupForm.php	f5e0fd34d26eeb81175dc35ceadcb249

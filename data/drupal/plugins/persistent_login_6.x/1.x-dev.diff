@@ -1,0 +1,12 @@
+M	CHANGELOG.txt	4ec02f1ad24f363e4f7b0f1ae7ccb944
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	README.txt	040dea370ba15a2d81df2a38800dd00d
+M	persistent_login.info	9c47c17154028bc84eddc431a87d6334
+M	persistent_login.install	fe5eeb349cc996484dee620d812e36b1
+M	persistent_login.module	b94c66bdd6b5a3446976f0ccc4d9ca24
+M	persistent_login.pages.inc	679b34c65c07c47c4a7b63e1e728f055
+D	translations/de.po	
+D	translations/es.po	
+D	translations/fr.po	
+D	translations/persistent_login.pot	
+D	translations/pl.po	

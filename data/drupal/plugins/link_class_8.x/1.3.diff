@@ -1,0 +1,3 @@
+M	link_class.info.yml	7975b72da214a8af0121040e8c195a7a
+M	src/Plugin/Field/FieldWidget/LinkclassFieldWidget.php	b85e34b4f34a87f5e738616f34909b77
+M	src/Tests/LinkClassWidgetTest.php	5664f08d3e9627a9c7c654259b884671

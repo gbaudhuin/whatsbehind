@@ -1,0 +1,9 @@
+M	CHANGELOG.txt	47a4875fa1cc74f994933d250bbc3315
+M	includes/common.inc	2968fc77bc6b223038260294785f28c2
+M	includes/session.inc	abf4aa18a938bb85e517c510fe20617c
+M	includes/xmlrpc.inc	49290b242007288573fd65f1ddc439d4
+M	includes/xmlrpcs.inc	b5710725e7e93308ce6028034f5582f2
+M	modules/blogapi.module	cc3746dcfa7218ec6b2232fab58c61d9
+M	modules/drupal.module	b999ef944e86ec3a40b37dd8c3c382ea
+M	modules/ping.module	53b38402380161422a27c304b28a3eaf
+M	xmlrpc.php	fd2e25933a9b3d77e1456a0e1e1f7a77

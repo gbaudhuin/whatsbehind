@@ -1,0 +1,11 @@
+M	composer_manager.info.yml	513d4c115f34d76b938554a08914e151
+M	composer_manager.install	5e9014384351016b5b58bd41cc86ccc3
+M	composer_manager.module	b985aefb987b0f68271478e48eb4fe3d
+M	src/Composer/Command.php	c191e068a8f172799a5e2e670ca867ff
+M	src/Controller/PackageController.php	5b6b6dec98e176d4ba2ae783c6bbd553
+M	src/ExtensionDiscovery.php	123c47eeca114bfe53fc3c12c846ee01
+M	src/JsonFile.php	7f236d9efbf4fa2b9fd33f2f74e8b6ee
+M	src/PackageManager.php	f7a119d3f89bc2877ef2696797a0445c
+M	src/PackageManagerInterface.php	bf8e89e0fb3682fcd057ac4e0e6a1559
+M	tests/src/Unit/ExtensionDiscoveryTest.php	dfbe1d07a0fe16d9818ec8048c98ecb3
+M	tests/src/Unit/PackageManagerTest.php	7ac09e1dff8c1227caf0523ca9249662

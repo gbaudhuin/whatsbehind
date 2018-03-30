@@ -1,0 +1,13 @@
+M	countries.admin.inc	d81bcb4419770f76c35a2ad816560a15
+M	countries.csv	749a138fde0e3cb4e267303c198eaa4a
+A	countries.diff.inc	dca79b3963b47eda028336de0dd14da5
+M	countries.fields.inc	6e2ade36ba3a1b7c81890b3ebef82e2e
+M	countries.info	5a216e016e6dc8b387ac46708f5b941a
+M	countries.migrate.inc	4012bbbec70360183cdb0692a7d8af18
+M	countries.module	e3f6637d0b3680113e87d87dedc6ad50
+M	modules/countries_configuration/countries_configuration.info	021689cc4abaa960060b3b6de1a80ff5
+M	modules/countries_example/countries_example.info	377b1c5323ed6e5ef1345d78a493cf01
+M	modules/countries_i18n/countries_i18n.info	0d651756d2981082e09cc7704d0fd10a
+M	modules/countries_i18n/countries_i18n.module	a36205b53ba00ff0265e4991d67f9a46
+M	tests/countries.test	d72810909dc4f11f750b8e6c5c53a5c3
+M	views/countries.views.inc	a95ac122d2ca02776f5fc24528b802b0

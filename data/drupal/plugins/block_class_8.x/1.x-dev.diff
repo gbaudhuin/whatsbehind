@@ -1,0 +1,5 @@
+M	README.txt	7e5a494438fe025c531085f0bcc25dcb
+M	block_class.info.yml	83a4ea693fdb89aaa139d475b234c235
+M	block_class.module	212b4827b06247858a21cb630f031fab
+A	composer.json	a89cbc24cc02ba4bafcc385eb55e5da3
+M	src/Tests/BlockClassTest.php	c73f580b2b83ab2c5eab26d532f6eb93

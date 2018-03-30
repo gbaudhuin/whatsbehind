@@ -1,0 +1,10 @@
+A	.travis.yml	98b9cf417790dd04152c2041fced553e
+A	README.md	71c698c1820ef4131518930d57b4ff35
+D	README.txt	
+M	config/install/honeypot.settings.yml	9ef313d0d4d661b92f60f446c095623a
+M	docker-compose.yml	06f77aeafd1b3a7f98a85bcf02962d1a
+M	honeypot.info.yml	aa9c3c320922a34fb005ba01a869fbf7
+M	honeypot.module	96476d011667b183f3c7462424b28856
+M	src/Controller/HoneypotSettingsController.php	3baf8e96cdcabded6c752de836a13c8a
+M	src/Tests/HoneypotFormCacheTest.php	3faff670914dcb093543d9e029a516c8
+M	tests/modules/honeypot_test/honeypot_test.info.yml	1748ead20806476e64e59bf1a8b95586

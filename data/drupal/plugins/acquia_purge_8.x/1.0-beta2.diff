@@ -1,0 +1,9 @@
+M	PROJECTPAGE.md	6a6fa634bbca3292452b27cc529fac80
+M	README.md	6a6fa634bbca3292452b27cc529fac80
+M	acquia_purge.info.yml	08dd5f7dcdbee1ea9f4eeb501861c85b
+M	acquia_purge.services.yml	3000f24830aeb23609615f44621ec3fa
+A	src/Http/FailedInvalidationException.php	4b4226ac0fa1fa0fe6f2b7e4b782bd46
+A	src/Http/LoadBalancerMiddleware.php	38eb8c9b72cd64286df3cbdf58b18c9b
+D	src/Plugin/Purge/DiagnosticCheck/AcquiaCloudCheck.php	
+M	src/Plugin/Purge/DiagnosticCheck/AcquiaPurgeCheck.php	ad5cb5bb76d6aa15a63a08eb89482205
+M	src/Plugin/Purge/Purger/AcquiaCloudPurger.php	476ae065cd797d82198931a054783a50

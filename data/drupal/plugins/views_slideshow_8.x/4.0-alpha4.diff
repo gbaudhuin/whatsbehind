@@ -1,0 +1,4 @@
+M	modules/views_slideshow_cycle/src/Plugin/ViewsSlideshowType/Cycle.php	cd273c08752b14ab551b4d56dd5a4e9d
+M	modules/views_slideshow_cycle/views_slideshow_cycle.info.yml	42637318d5322a3ab3af76ea79ec12e8
+M	src/Plugin/views/style/Slideshow.php	cbc543a669b3f176973acc8d33c78720
+M	views_slideshow.info.yml	632c193cbf4f9ec1b1674a4781804eb6

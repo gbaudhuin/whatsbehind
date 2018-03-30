@@ -1,0 +1,13 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	74bac0f9c88b9c926ec34ddef312ded3
+A	menu_admin_per_menu.api.php	f6b852b6957d9eb75b6f3d9472642fc0
+A	menu_admin_per_menu.info.yml	8fcbe42ba0a8d27ee4b4689d0135af5e
+A	menu_admin_per_menu.install	882c44c889cfb7dda27f8a7018871ea3
+A	menu_admin_per_menu.module	c23cb03006de446ea96911b3c82dc188
+A	menu_admin_per_menu.permissions.yml	2b65e1e4f956bfaa41ae3acb35557279
+A	menu_admin_per_menu.services.yml	f444bfa044dcfd0706cce6974bf93703
+A	src/Access/MenuAdminPerMenuAccess.php	acea98133ac0971cece9b2e3c7e08095
+A	src/Controller/MenuAdminPerMenuController.php	e07f82cf84964e581a81070b34b99d62
+A	src/MenuAdminPerMenuAccessInterface.php	25ec9fb26d52f2c6c45e98045c61aff5
+A	src/MenuAdminPerMenuPermissions.php	9f052622210c853d70fa090475b4d92c
+A	src/Routing/RouteSubscriber.php	9edc08bf7cbe017160894359e6b0ddc0

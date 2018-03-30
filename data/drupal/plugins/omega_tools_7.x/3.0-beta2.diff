@@ -1,0 +1,15 @@
+M	README.txt	47c4f6aa5acf5fc4f8da6ae35f4dda46
+A	default/css/README.txt	15217243053dc8e5d76d857fd670645a
+A	default/default.pattern	13d2f38babfa0564b7147033eaa11073
+A	default/logo.png	054e39056a6df3d12c4748aaa45a732c
+A	default/preprocess/README.txt	4ad098bc4d0282d9b866553866248e2f
+A	default/process/README.txt	2b21569ad5c68fa8eb22f8b9e9edb4c2
+A	default/screenshot.png	ac6a3e19686f6fe5a124731edb3a6c66
+A	default/template.php	23d366103d86737364277819a343c855
+A	default/templates/README.txt	a2f32ee3567147442917ea2177c7d1b1
+A	includes/omega_tools.admin.inc	30f9311a7e34d80c5adced1d0f0968a1
+A	includes/omega_tools.drush.inc	a5f410055d41d0eb3eb4f4be84f97c07
+A	includes/omega_tools.wizard.inc	84e4a2cb27db40546d29d79d229b97dc
+D	omega_tools.drush.inc	
+M	omega_tools.info	8502e9d4432e6aa1f30ea7c753e3fc67
+M	omega_tools.module	ae70b54af38c9497d92bec8564d8ddab

@@ -1,0 +1,17 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	ee752e86476c8cf1855859d456db315b
+A	composer.json	f1f2ef6d99e2dc3b61362e85de37edb2
+A	social_api.info.yml	3c8a9858a028bf3d7ad4e2c2044d78de
+A	social_api.links.menu.yml	47748e7300b1131df9212ba580c64ea4
+A	social_api.module	8540ad3f38a5400a10dadd0b10458f30
+A	social_api.permissions.yml	eeb0ba5ae53d369667fec201c756fb04
+A	social_api.routing.yml	f9d6cdceb0d0fcb86b5e66a132997229
+A	social_api.services.yml	10a751acc89872bd5cbe7d370b8bb81d
+A	src/Annotation/Network.php	0a6feb68f4caae01e439ceb07481b35b
+A	src/Controller/SocialApiController.php	34f7e32832b2ef4f199b60708630dff0
+A	src/Plugin/NetworkBase.php	c17dcedc8bce4c9ba8397bf1da008be1
+A	src/Plugin/NetworkInterface.php	e8c52aabffb1be66808e11cae46437f6
+A	src/Plugin/NetworkManager.php	b0d22838d7829c96d0924c10a3c7002b
+A	src/Settings/SettingsBase.php	5b96b58e02f859c887a278795c320d7d
+A	src/Settings/SettingsInterface.php	1bf123674519751a00cb2f18d89509dc
+A	src/SocialApiException.php	b751a4986daa2d3c0766c558e6cf3c03

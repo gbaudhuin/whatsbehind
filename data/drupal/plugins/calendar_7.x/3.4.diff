@@ -1,0 +1,16 @@
+M	CHANGELOG.txt	fa0807909cb42585751970dc82c76e71
+M	calendar.info	38c5b348bf61df6bf2fb762165a5dca1
+M	calendar.module	d3334502bf3ba465ef4a958da97adb25
+D	calendar_ical/calendar-row-ical-node.tpl.php	
+D	calendar_ical/calendar-style-ical.tpl.php	
+D	calendar_ical/calendar_ical.info	
+D	calendar_ical/calendar_ical.install	
+D	calendar_ical/calendar_ical.module	
+D	calendar_ical/calendar_plugin_row_ical_node.inc	
+D	calendar_ical/calendar_plugin_style_ical.inc	
+D	calendar_ical/theme.inc	
+M	includes/calendar.views_template.inc	8ef0beba5a1baad8b149a53154916c0a
+M	includes/calendar_plugin_row.inc	4c1f76a6c5ea14a95dea1b9963acdc33
+D	includes/calendar_plugin_row_node.inc	
+M	includes/calendar_plugin_style.inc	57701e3235ed3b397125c5005a0fcc4f
+D	theme/calendar-row-node.tpl.php	

@@ -1,0 +1,12 @@
+M	CHANGELOG.txt	dfa8920a94e94c5a514ba2b39e12b72f
+M	README.txt	44ca79a662c414afa67a9588a935cd56
+M	includes/service.inc	65fecec91d98d1ed95e67cbc808d4862
+M	includes/solr_connection.inc	d7fea7484d5caede104aa123dbc4cbb6
+M	includes/solr_connection.interface.inc	adacab502d304479654a4bfd1946e5a8
+M	search_api_solr.info	0a55b9eaf16276a27c3584ca6f27aaad
+M	search_api_solr.install	8a565a1fcc99f06c6614520e9c30b36c
+M	search_api_solr.module	9806bcff6fcdb9e82167b403347ee70d
+A	search_api_solr.views.inc	b0ff73a28f8dbcc4b7f41372f7afad06
+M	solr-conf/1.4/schema.xml	09b25747c04fd39863f1876aab8eb957
+M	solr-conf/3.x/schema.xml	f9f2f6c5d95e4295e4639af13dc393be
+M	solr-conf/4.x/schema.xml	2f96ed816c41f0da85d62a20836fc85e

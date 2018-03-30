@@ -1,0 +1,8 @@
+M	CHANGELOG.txt	f8fb6ee6d6564f0a48b4fa6211441677
+M	includes/database.mysqli.inc	ed6d92b30faf34372a7596667f35af5e
+M	includes/database.pgsql.inc	c074c284eb3a4a7a2c336e972d3b203b
+M	modules/block/block.module	9444804067fc85a71ae94f86baf1a86d
+M	modules/node/node.module	1c0690d2f80e144c3ed686726f6f21be
+M	modules/system/system.module	913ebde077d22192f896a94379f2ac7e
+M	modules/user/user.module	aff0502db63dd564232f48a629b01802
+M	themes/engines/phptemplate/phptemplate.engine	a2fab36243ccfbb61c928886466eab44

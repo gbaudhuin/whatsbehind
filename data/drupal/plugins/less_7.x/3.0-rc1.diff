@@ -1,0 +1,10 @@
+M	README.txt	201c7841010138d18e986077d3327356
+M	less.admin.inc	d4fb8db2252d205d268326ff978f3c52
+A	less.api.php	209bd0479ab158127f493fc4f86fdce5
+M	less.info	17be03de9f46f871f3f0b708830bb808
+M	less.install	55bd1601c7f0dc2997702d432fcee2e0
+M	less.module	db91e5114fc16da30657a00e082c571a
+M	less_demo/less_demo.info	d1e236fca5d655017c5f527181bede6f
+M	less_demo/less_demo.module	ad61a73247371760fbbfe0cce48d1ec1
+M	less_demo/styles/less_demo.drupal_add_css.css.less	bf46d136e270d48707d043a00f6e3197
+M	less_demo/styles/less_demo.info.css.less	42ccc7cc87cba1c345de2da87a7dcb03

@@ -1,0 +1,24 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	README.txt	daaaffa2eb4bdc5d4a3d25bcd1e27462
+M	tests/userpoints_api.test	a82826e1369bc292333d803515e229ba
+D	translations/de.po	
+D	translations/es.po	
+D	translations/fr.po	
+D	translations/general.pot	
+D	translations/it.po	
+D	translations/ja.po	
+D	translations/nl.po	
+D	translations/pt-pt.po	
+D	translations/ru.po	
+M	userpoints.info	b8f1707638c68f36064401824132d922
+M	userpoints.install	51425977066301051b1d25cf4599a04a
+M	userpoints.module	d5cc6cfcd97d7490036f9c015a741e2a
+M	userpoints.views.inc	1b621bd75cd47f47f7ee0d6f6380cf4d
+M	userpoints_rules.info	c4b73368baf84a679be343837e3168f4
+M	userpoints_rules.module	f313b5770e58094d6ffd6434b75a1ed7
+M	userpoints_rules.rules.inc	da62e524ba00bc376560836faa055371
+M	userpoints_service.info	721a44c98a80c20c1d4c2463005954ce
+M	userpoints_service.module	d79cf8140e9c9e23d2496d46a034849d
+A	views/userpoints_views_handler_argument_category.inc	97338fff38320f06ee73362a2885e1d7
+A	views/userpoints_views_handler_field_category.inc	9367e951192c930913991b31b1ca2ede
+A	views/userpoints_views_handler_filter_category.inc	facf2ce62f4ff9ae7090c5491e79a898

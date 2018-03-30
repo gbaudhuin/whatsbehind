@@ -1,0 +1,11 @@
+M	CHANGELOG.txt	d72524566624ad84bf8ceba7aa5e643a
+M	README.txt	cf902630d10f9e3f7f03d7a7a5802ad3
+M	filefield_paths.info	647b64643d6c945e7fdb246b0ac15f30
+M	filefield_paths.install	1817c10430ae8d039e8f7184319f02d6
+M	filefield_paths.module	df1f67e636b52db7549bc972af222613
+M	modules/features.inc	85db8fc055f2cc9e45c4ff3c8af41015
+M	modules/file.inc	a9824d0cc7e87fb01e682bf44773f82b
+M	modules/filefield_paths.drush.inc	cb6d4548fcb1cc54297281f5e72d0e0f
+M	modules/filefield_paths.inc	52f51194293b656ec5784ad677b8bf3f
+M	modules/image.inc	d33acabbbc1c72cd031bb3f7f37d5281
+M	modules/video.inc	1e22b5a3e80f4787bfe5abe57a0576f6

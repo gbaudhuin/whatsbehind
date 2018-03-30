@@ -1,0 +1,18 @@
+M	config_devel.info.yml	a47124cf9f3ba929dbc9f32f8b1c3add
+M	config_devel.services.yml	bc10ef8ff8feb52e2a762ac62086b6a9
+M	drush/config_devel.drush.inc	1884bf29806ba12868283779d18af279
+A	src/Event/ConfigDevelEvents.php	baaf577bb0a7d70865dc310c77bcdb5e
+A	src/Event/ConfigDevelSaveEvent.php	16c57eca4cfba030e10966bab3b41c01
+M	src/EventSubscriber/ConfigDevelAutoExportSubscriber.php	28929005f44683db236176d68d9e9290
+M	src/EventSubscriber/ConfigDevelAutoImportSubscriber.php	da54b6272a845efb1732e5f3aa144525
+M	src/EventSubscriber/ConfigDevelSubscriberBase.php	0af18ec8dc4029e016ba218833870f91
+D	src/Tests/ConfigDevelSubscriberEntityTest.php	
+D	src/Tests/ConfigDevelSubscriberRawTest.php	
+D	src/Tests/ConfigDevelSubscriberTestBase.php	
+D	tests/src/ConfigDevelAutoExportSubscriberTest.php	
+D	tests/src/ConfigDevelTestBase.php	
+A	tests/src/Kernel/ConfigDevelSubscriberEntityTest.php	654813511334840e0e6f8d57ac822dba
+A	tests/src/Kernel/ConfigDevelSubscriberRawTest.php	9710aeca1a08e932dd586ab50f869d21
+A	tests/src/Kernel/ConfigDevelSubscriberTestBase.php	9af35da16554e44611f5dabbaf2c76ff
+A	tests/src/Unit/ConfigDevelAutoExportSubscriberTest.php	7b058d923793d1ff9452b3dd33fb20a3
+A	tests/src/Unit/ConfigDevelTestBase.php	28d9fa2d059ae651d08acb96f730c7fb

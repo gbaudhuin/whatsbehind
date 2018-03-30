@@ -1,0 +1,13 @@
+M	default_content.info.yml	28b27b9956dadddf53e3c9749c212d77
+M	drush/default_content.drush.inc	b9c3c7740e7cd95eece613f3add57769
+M	src/DefaultContentManager.php	c10069616a03c63329ba6a647c66992a
+M	src/DefaultContentManagerInterface.php	5d8f14b9c13c53ef830ac35e1c59ef64
+M	src/DefaultContentScanner.php	d7ca20be0ccf1e3ca687054deeced109
+M	src/DefaultContentServiceProvider.php	3a9f1236df766ba4bef99ae52c0d0cb4
+M	src/Event/DefaultContentEvents.php	10b35a4c4a20bb5252b60811aa052978
+M	src/Event/ExportEvent.php	1157cbc0547463de3bfbbfaab8400a11
+M	src/Event/ImportEvent.php	7e7d2d98389414e19656f3c8154925dc
+M	src/Normalizer/TermEntityNormalizer.php	5732bcdd7c70e8ff09cda521f1d5919e
+M	tests/modules/default_content_export_test/default_content_export_test.info.yml	90eea8baac2c6249e3462599e8cb6b9b
+M	tests/modules/default_content_test/default_content_test.info.yml	9b98eae3e03294212cac4a46d8e831ce
+M	tests/src/Kernel/DefaultContentManagerIntegrationTest.php	db7e4457f29e644afb011cae3f63cbd0

@@ -1,0 +1,10 @@
+M	INSTALL.txt	9e827bb35a1663f1b185b43fedbd8d80
+M	composer.json	d615576db170b4a190ddac5bda93c095
+M	search_api_solr.api.php	2f1d07223f7b184f5aadde3e0eb6b466
+M	search_api_solr.info.yml	e1cf90e6109a08c294f01a9dbbc88ce2
+M	search_api_solr_defaults/search_api_solr_defaults.info.yml	209c71c87594d6e16a1436da7f4c68b6
+M	src/Plugin/search_api/backend/SearchApiSolrBackend.php	49f77fff105e83b91e692707e2f4dde6
+M	src/SolrConnector/SolrConnectorPluginBase.php	b63430caac3d03d7ac0c841ec1dc86cb
+M	tests/modules/search_api_solr_test/search_api_solr_test.info.yml	719f939d9b78a7241ae9fa92489a2db7
+M	tests/modules/search_api_solr_test_facets/search_api_solr_test_facets.info.yml	febb00cbe5c2e4a46e8abd6730ee0a4c
+M	tests/src/Kernel/SearchApiSolrTest.php	22910ba0307ca9d23b8f92b7a08ae2de

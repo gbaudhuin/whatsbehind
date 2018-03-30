@@ -1,0 +1,4 @@
+M	composer.json	fe85efeb4a1e4d321eda3a6424b56d32
+M	simplesamlphp_auth.info.yml	018911cf4be4fec19b1f0a552c6f6b4a
+M	src/Controller/SimplesamlphpAuthController.php	be93019ec09fb546ca376c525d5d630e
+M	tests/simplesamlphp_auth_test/simplesamlphp_auth_test.info.yml	ee1d6438bdf91ffdf7db70fb51ffb2de

@@ -1,0 +1,6 @@
+M	composer.json	0bc776a2b86bca06545b13a70407269a
+M	geocoder.info.yml	5ebd76f01ec76f952afee65c3ac5fee0
+M	modules/geocoder_field/geocoder_field.info.yml	47e868568d9337f3ac4759b2ff428363
+M	modules/geocoder_field/geocoder_field.module	5171ec6c2cad72b0ea417cb6265f8a15
+A	modules/geocoder_field/src/Plugin/Field/FieldWidget/GeocodeWidget.php	e4d788f733e947d77d35429cc8d37a65
+D	modules/geocoder_field/src/Plugin/Field/FieldWidget/GeocoderWidget.php	

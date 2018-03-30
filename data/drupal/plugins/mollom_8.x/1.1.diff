@@ -1,0 +1,13 @@
+M	mollom.info.yml	912a4ed36da97287a2c3cd89b31ce89b
+M	mollom.module	8001a49a9d1c5ea9d42047923c1e912b
+M	src/Controller/FormController.php	e3f74b73c868652a688b858144eca4d1
+M	src/Form/FormFormBase.php	c00d08bca8ef33ff3efa75c4e7663b61
+M	src/Tests/ActionsTest.php	0f04d8573257973414a1cbbfb66c4bff
+M	src/Tests/CommentFormTest.php	9d1de6ed00f28fc4765b4f314823b1c6
+M	src/Tests/DataTest.php	d98a32e740ee53944b02de510ce29e25
+M	src/Tests/FormConfigurationTest.php	f2ff6c3f688afc44ec045d8c5695044a
+M	src/Tests/MollomCommentTestTrait.php	caa57eb552ce27f9074a618213589ed6
+M	src/Tests/ReportingTest.php	66e0152de8623d4448039c802b26d46c
+M	tests/modules/mollom_test/mollom_test.info.yml	97916f541fc7a18a525fda6d4e9de1f5
+M	tests/modules/mollom_test/src/Entity/Post.php	88d4a03b0e93b66b2460ce43cdf49f7a
+M	tests/modules/mollom_test_server/mollom_test_server.info.yml	d116019263a63bfd4ef2c7d6a10896d2

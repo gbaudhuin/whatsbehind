@@ -1,0 +1,7 @@
+M	README.md	3656eac67120a190588715d511101146
+M	simple_oauth.info.yml	c3455c4a071d86684243b71dde7bdbab
+M	simple_oauth.routing.yml	fba9f485b3ef25f7a223bbc80fcace12
+M	simple_oauth.services.yml	c01918092a5a986f528dd30e894cea0a
+D	src/Cache/Context/BearerTokenCacheContext.php	
+A	src/Controller/AccessTokenIssue.php	2d5e5cb79b6ede2bf84d18550554277a
+M	src/Entity/AccessToken.php	2091a8aee835358b9498b8dfe970eb9f

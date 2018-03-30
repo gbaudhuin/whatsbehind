@@ -1,0 +1,4 @@
+M	ng_lightbox.info.yml	9da00c9b6fa4a9a41c82f84454693963
+M	src/Form/NgLightboxSettingsForm.php	1ce0a758004fdb04856696879766def1
+M	src/NgLightbox.php	1afc34845da74aaefb52ffdfb4098d43
+M	src/Tests/NgLightboxTest.php	fc37a4d52b05570cd49e55830b4459aa

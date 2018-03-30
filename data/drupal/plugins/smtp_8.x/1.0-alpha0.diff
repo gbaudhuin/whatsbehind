@@ -1,0 +1,15 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	094b8bb1e0dd04a20be287f174213477
+A	config/install/smtp.settings.yml	5164f3f354e401b0bf7eec4d32f13674
+A	config/schema/smtp.schema.yml	738893c84a70c756546f7a056797f69b
+A	smtp.info.yml	20a31792b6cec71ae8edb1752bdfe7f8
+A	smtp.install	52b4904e8da70fdbb627a6662856fca5
+A	smtp.links.menu.yml	8df8cc07b45a5a4fcb29e75384ea45ff
+A	smtp.module	669acce169213831e5bfc2c13b2966cc
+A	smtp.routing.yml	0c929f2dd9466a8f4df098fc98234d9e
+A	src/Form/SMTPConfigForm.php	d82bda6e609378d2fedc9d8945b7610c
+A	src/PHPMailer/PHPMailer.php	b8121c3c58180349e301fdca71397d07
+A	src/PHPMailer/SMTP.php	38316e0a11329f6de386a9e792c4dec2
+A	src/Plugin/Exception/PHPMailerException.php	8420ba862230534656066e7f6626868f
+A	src/Plugin/Mail/SMTPMailSystem.php	7717dc84d01e1c947adc7af66df0c146
+A	src/Tests/SmtpTest.php	e8022cfbd7c28872c0413ba5c1156268

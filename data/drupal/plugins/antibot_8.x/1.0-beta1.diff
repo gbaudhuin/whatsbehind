@@ -1,0 +1,11 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	antibot.info.yml	2d7b73846b3ba06ef3bb1e041f43a7f2
+A	antibot.libraries.yml	afad4b3f05c6235b308911f641090d75
+A	antibot.links.menu.yml	262f3b61872f55d84bcddca9e1ae3472
+A	antibot.module	213f3a0de70cb19dd5cdce93f4083ec8
+A	antibot.routing.yml	fc5a8f7139240d82dab936b90b63588d
+A	config/install/antibot.settings.yml	b545672a194dac14078ec2913fd9d09a
+A	css/antibot.css	2997c5ce60dc5dacf38ec908b908b288
+A	js/antibot.js	57daa52a1f01cdcf84a34cc439c98080
+A	src/Controller/AntibotPage.php	13ca3be3bc5d1f0fd37ef9bf44a9587d
+A	src/Form/AntibotSettings.php	9abf86fd119eb5bf8a6c20488bb754d1

@@ -1,0 +1,70 @@
+M	.travis-before-script.sh	916c71f312206422a64d9bc7e95805e8
+M	commerce.info.yml	5e2e518df3da7fa01326e744c6009d80
+M	composer.json	f8c6dce4383e294bf4b052eeed8fcb3a
+M	modules/cart/commerce_cart.info.yml	a045f59b96151db91e77adf24be8b15e
+M	modules/cart/commerce_cart.module	62dbb5d3d7007517c6489a00ce7ee1d1
+A	modules/cart/commerce_cart.post_update.php	56614bcfd1528e022456f872624da691
+M	modules/cart/commerce_cart.services.yml	738f5fd827b98cafdafc1e0af176b948
+M	modules/cart/config/install/views.view.commerce_cart_block.yml	ba8d5d32efa82db1e02439957b9bd7c3
+M	modules/cart/config/install/views.view.commerce_cart_form.yml	7c738500f491d4747eedc812f4bde731
+M	modules/cart/config/install/views.view.commerce_carts.yml	3f52b52f285283b68fe2dd234b6805e3
+D	modules/cart/src/CartAssignment.php	
+D	modules/cart/src/CartAssignmentInterface.php	
+D	modules/cart/src/Event/CartAssignEvent.php	
+M	modules/cart/src/Event/CartEvents.php	aef5cb4bf1a5bf68ddbd2302fe626052
+M	modules/cart/src/Plugin/Block/CartBlock.php	28a44a7057ef057ac2d37c3844b7e0f6
+M	modules/cart/tests/modules/commerce_cart_test/commerce_cart_test.info.yml	c423bc2a8735cb1c4578b9b95461cd03
+M	modules/cart/tests/src/Functional/AddToCartFormTest.php	95187c6891095ba1f7eef27d1fcb2834
+M	modules/cart/tests/src/Kernel/CartOrderPlacedTest.php	006e6dcfcf87a6a5c0f318b7c9fa5d8e
+M	modules/checkout/commerce_checkout.info.yml	15ec018b25a20a18c49132f486668d35
+A	modules/checkout/commerce_checkout.post_update.php	68b83966c2ef6dff1ff49a64387a127f
+M	modules/checkout/config/install/views.view.commerce_checkout_order_summary.yml	08038d4f44faf4ecb3c0910e63fae70e
+M	modules/order/commerce_order.info.yml	11702764332fdfced47170067a655140
+M	modules/order/commerce_order.links.menu.yml	fd40b95f915e88d33bcd2e28b5eafaca
+M	modules/order/commerce_order.module	00be42a61e84b0adfd9e20acf3e28869
+A	modules/order/commerce_order.post_update.php	be012a7cbedc4af564e2e3d7a9aedccc
+M	modules/order/commerce_order.routing.yml	58bde52f17304185a3b747b78a3a2a4d
+M	modules/order/commerce_order.services.yml	e44abbe1ec6e43ae053d1eb941e76213
+M	modules/order/config/install/field.field.commerce_order.default.order_items.yml	ded06a7c185198121b946de54d22eba9
+M	modules/order/config/install/views.view.commerce_order_item_table.yml	9e2d2b8010e87261ef48d378cf87f2f8
+M	modules/order/config/install/views.view.commerce_orders.yml	5fac87e828388581f85158d075727299
+M	modules/order/config/install/views.view.commerce_user_orders.yml	85565832c76757e7a81066c387712432
+A	modules/order/src/Event/OrderAssignEvent.php	50c1b439d76d91e14233c886e63ed9e2
+M	modules/order/src/Event/OrderEvents.php	9dd53a19ed0d0db513a6de15c460bc9c
+M	modules/order/src/Form/OrderAddForm.php	301b14784c9a51469ef95d77b8720fde
+M	modules/order/src/Form/OrderReassignForm.php	6e0930c668fae4255ef4ce10f02993a5
+M	modules/order/src/Form/OrderTypeForm.php	b0d2a0480cf8c2aa792c28dd592a7766
+A	modules/order/src/OrderAssignment.php	d53914e854a801a33c228b56757d9cc6
+A	modules/order/src/OrderAssignmentInterface.php	2b1cc1299108d96f9f2754ae4c7c4315
+M	modules/order/tests/src/Functional/OrderTest.php	065431cafd626d237c6b1bb8a904c5fd
+M	modules/order/tests/src/Functional/OrderViewTest.php	5cd8040f887e082e9664227b67bc9c30
+M	modules/order/tests/src/FunctionalJavascript/OrderReassignTest.php	632b1b90735a19448961601503425118
+M	modules/payment/commerce_payment.info.yml	5d137a0675f25e0c006fe42d56ad9524
+M	modules/payment/src/Form/PaymentAddForm.php	382171b2e09a89827dcbec4626083bd1
+M	modules/payment/src/PluginForm/PaymentMethodAddForm.php	6089445832d6bf3fbd670a62578b4b31
+M	modules/payment_example/commerce_payment_example.info.yml	aed770ab4b1d41b5a3778f84138f4976
+M	modules/price/commerce_price.info.yml	f8e157720c7e65501db6edb9deecd04b
+M	modules/price/commerce_price.views.inc	bfca591b7f0d9a50496479fd842c8012
+M	modules/price/tests/modules/commerce_price_test/commerce_price_test.info.yml	f41535539bb49f54a3f58eb3cb40677e
+M	modules/product/commerce_product.info.yml	01c456c4a33688c3d7d946024820a584
+M	modules/product/config/install/commerce_product.commerce_product_variation_type.default.yml	d6a2fb84e244d5d21ea53812d0bf7c2a
+A	modules/product/config/optional/commerce_order.commerce_order_item_type.default.yml	8238f5ae422b9f68a9657e4259dbc3f0
+D	modules/product/config/optional/commerce_order.commerce_order_item_type.product_variation.yml	
+A	modules/product/config/optional/core.entity_form_display.commerce_order_item.default.add_to_cart.yml	ec1da33ccbbef90dbfe044bdca2a1e89
+A	modules/product/config/optional/core.entity_form_display.commerce_order_item.default.default.yml	64a85a27bedc3655cdd499e84d0f82c1
+D	modules/product/config/optional/core.entity_form_display.commerce_order_item.product_variation.add_to_cart.yml	
+D	modules/product/config/optional/core.entity_form_display.commerce_order_item.product_variation.default.yml	
+A	modules/product/config/optional/core.entity_view_display.commerce_order_item.default.default.yml	a7da026404e84175def4ca60f967d7b5
+D	modules/product/config/optional/core.entity_view_display.commerce_order_item.product_variation.default.yml	
+M	modules/product/config/schema/commerce_product.schema.yml	505c0586f567a0a9a7b18ba78e61ea19
+M	modules/product/src/Form/ProductVariationTypeForm.php	01500236b99252073d4079fd07a3702d
+M	modules/product/src/Plugin/Field/FieldWidget/ProductVariationAttributesWidget.php	c90ad2451738a40a72d9d26c4d376b4b
+A	modules/product/src/Plugin/Field/FieldWidget/ProductVariationTitleWidget.php	a2c0bb60f11f1669c3034f2749c627b3
+A	modules/product/src/Plugin/Field/FieldWidget/ProductVariationWidgetBase.php	a3818e1ea04787b59da6b1aa53a5c463
+M	modules/product/tests/src/Functional/ProductVariationTitleGenerationTest.php	1ddd58df9df37ff0b62a5303166a60da
+M	modules/product/tests/src/Functional/ProductVariationTypeTest.php	be256e8ab3099c6fbb6125106c347a00
+M	modules/promotion/commerce_promotion.info.yml	0ec9b341e8aa96959fc955a54528ce6d
+M	modules/store/commerce_store.info.yml	24f0f95a7c4303f76c3a88cf036e278d
+M	tests/modules/commerce_bundle_plugin_test/commerce_bundle_plugin_test.info.yml	bcfd5efe60740d4872d0519ea2c5066f
+M	tests/modules/commerce_test/commerce_test.info.yml	7a3fa6cf7d7e2e4cfbb8672cc6de25d7
+M	tests/modules/commerce_update_test/commerce_update_test.info.yml	4d54745eeb5188ccccc8235aaa33c5ac

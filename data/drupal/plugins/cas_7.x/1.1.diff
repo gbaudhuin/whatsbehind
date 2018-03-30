@@ -1,0 +1,14 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	README.txt	3baababc338844ea3f879ca2055322ca
+A	README_SERVER.txt	82b9ef8f265bde91bd5ea832381fb127
+M	cas.info	d0ca92010bc1bef43897e3e09b388669
+M	cas.module	098f8029f69dceeb3609b3d10c35ab24
+M	cas.test	852ffc77a7532868f7a07d94da64eca1
+M	cas_server.info	776d3be3890d82cfe8c6b61800e60741
+M	cas_server.module	023911fc86444dfeddbc4d344c9abad3
+A	cas_server.response.inc	4e61e72dac9d113544e28f47c3375898
+A	includes/views/cas.views.inc	f7420ca83de678b6324d0e429aa6f61b
+A	includes/views/handlers/cas_handler_field_cas_name.inc	4948d665fa5d8f3f907df46edf70833c
+M	tests/cas_test.info	8a6bb23dac92e720b367a0b0556974a4
+M	tests/cas_test.module	47bd8a61be471310ff101669b94cd2f3
+D	tests/cas_test.response.inc	

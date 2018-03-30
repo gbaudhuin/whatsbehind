@@ -1,0 +1,8 @@
+A	src/EventDispatcher/AlterExcludedPathsEvent.php	2d13eac75f49d17ad68cd5ec6cb6d6e7
+M	src/EventSubscriber/ProxySubscriber.php	4b84bb0603ff29375cef84650e7b6156
+M	src/FetchManager.php	4c0cf35e483310605f636ae3471818a4
+M	src/FetchManagerInterface.php	4a95700496c2b7473f1605015da69e91
+M	src/Form/SettingsForm.php	491db917331bbd223269ba0dbd553f61
+A	stage_file_proxy.drush.inc	7b8f070413a3ef6c33869e00cd49ba07
+M	stage_file_proxy.info.yml	b2f67c608773ee70e58261441e490aeb
+M	stage_file_proxy.services.yml	e1b32dbb39aa63c50d76f20d4ea83162

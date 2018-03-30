@@ -1,0 +1,6 @@
+M	contrib/password_tab/password_policy_password_tab.info	103a75c57cee3b31b51e84b8d2617e07
+M	contrib/password_tab/password_policy_password_tab.module	0f47c3c73b6c254d59ff9d4f7249041b
+M	password_policy.info	04b32176d29394a91c5ba51f7090d1f0
+M	password_policy.install	9273f6615c08b55351868afb212f9925
+M	password_policy.module	e3805d0f1542d1ed929c1bc544701719
+M	tests/password_policy.test	f0c1fdd0f3ff8e1e19e33ee7a2ce0853

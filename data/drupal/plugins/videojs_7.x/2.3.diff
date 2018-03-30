@@ -1,0 +1,11 @@
+M	README.md	834de4fb5038be6b1ef55f383b0a63a4
+M	includes/videojs.admin.inc	798babcc443b632e6d67ef59849f458c
+M	includes/videojs.theme.inc	b6b6ae20d8f41c01636da1df06ed9515
+M	modules/videojs_hls/README.md	c2f05ca3a2a76e45361564bf88bd0fbc
+M	modules/videojs_hls/videojs_hls.info	a4a6f9e8a6a63d01ff887600295b63a4
+M	modules/videojs_hls/videojs_hls.install	1f7f4e235209859fa721283696bd580b
+M	modules/videojs_hls/videojs_hls.module	ca6cfdd18f50ae5bab400f73314959d2
+M	modules/videojs_hls/videojs_hls.pages.inc	01e519b88b287a7396fc734988b0592b
+M	theme/videojs.tpl.php	36efd148f9dab60e9b2104c92cb04a53
+M	videojs.info	fec1e909a550b409ab208665ee077879
+M	videojs.module	8b091913a733f66dfeb1c5283d91e82d

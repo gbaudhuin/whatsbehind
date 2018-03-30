@@ -1,0 +1,10 @@
+M	icon.info	c21e4ac76e5203d7129b5b33f383c1c3
+M	icon.module	0826e48f01036f7759a8c0da0e7e5d07
+M	includes/import.inc	3d5ed188ce28f512f70c90ae3b727408
+M	includes/render.inc	a5a63913eb2b313cda5c77bc81baa32d
+M	includes/utilities.inc	0bf3f50fd22860ad1370bc4d7e766433
+M	modules/icon_block/icon_block.info	0506feb86feac98a7b834942f15d3d7e
+M	modules/icon_field/icon_field.info	eda767cbfbdc0e53f059bca341de6d75
+A	modules/icon_filter/icon_filter.info	d9ecbea76790bd31c27fae88e031abbb
+A	modules/icon_filter/icon_filter.module	61627e183bb10bb2b1aeeed5e2f4b9db
+M	modules/icon_menu/icon_menu.info	f2a6af664e623fc56b2f2e19cd2d6c2c

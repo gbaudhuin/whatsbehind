@@ -1,0 +1,8 @@
+M	.travis.yml	2008be7deab347e01e929deb1c5b57d2
+D	.travis/drupal-8.2.x.make.yml	
+D	.travis/drupal-8.3.x.make.yml	
+A	.travis/drupal-8.5.x.make.yml	2d16325c331409e019a78cd5c0a7df45
+M	deploy.info.yml	3272c006483e76dc81d4ee62a4059ca9
+M	deploy.permissions.yml	8171a8f7f818e3462d75200fa575e048
+M	src/ReplicationAccessControlHandler.php	98169303dec32d9d4549355714038d5e
+M	tests/src/Functional/DeploymentAccessTest.php	45df60a413ffd7188e541e1a3e2d4aa5

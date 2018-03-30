@@ -1,0 +1,13 @@
+M	CHANGELOG.txt	4f54f564e7b8397ae3fd276605b0bbdd
+M	content.info	1320cb0cd16cbeb0212f0c8ca0798b6f
+M	modules/content_copy/content_copy.info	bf23b340e305f28019a32f7cb79c6d6d
+M	modules/content_multigroup/content_multigroup.admin.inc	e1e0d7e81e9edbfb943bc70916936b95
+M	modules/content_multigroup/content_multigroup.info	549dd2fe2ed3ebfa704a5c990b087111
+M	modules/content_multigroup/content_multigroup.node_form.inc	0380e635faf92c47d1b4a01ce95fa8cd
+M	modules/content_permissions/content_permissions.info	930a4507b330805e10437b52db997e4e
+M	modules/fieldgroup/fieldgroup.info	df41fa0a1b7c3fdf7afec56f913a4548
+M	modules/nodereference/nodereference.info	1a73b057726a071a6efa861a910ddfa5
+M	modules/number/number.info	2bbe2c01b4457603066e3110473ed192
+M	modules/optionwidgets/optionwidgets.info	d58a0c4302f5109e5b7540623fd51ece
+M	modules/text/text.info	6cd95a9a71682cb84b82aef986c69c30
+M	modules/userreference/userreference.info	5ddca0474cbd04da980f4a70c4e90f7e

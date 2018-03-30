@@ -1,0 +1,15 @@
+M	css/linkit.autocomplete.css	a7b691c509a8dd2426b1fe577ea1db3d
+M	js/linkit.filter_html.admin.js	12c4d9c9a8466c85c3a8b54b1c85cf6c
+M	linkit.info.yml	b8c9d34865df27e3774209db04a9e762
+M	src/Plugin/Filter/LinkitFilter.php	0f2dd0059f93065e161357778cd058b2
+M	src/Plugin/Linkit/Matcher/EntityMatcher.php	5db5129c16daf51bdbfdff7459e935a6
+M	src/Plugin/Linkit/Substitution/Canonical.php	2bad1c62c8d9948083bb6639dc26588e
+M	src/Plugin/Linkit/Substitution/File.php	0bce5b09142b02ecc7bc652d51cf3e37
+A	src/Plugin/Linkit/Substitution/Media.php	8051113c3a714a6d86342450dcfb37e0
+A	tests/linkit_media_test/config/schema/linkit_media_test.schema.yml	eeeb211e314931d48ab4b9fb8956765c
+A	tests/linkit_media_test/config/schema/linkit_test.schema.yml	f9a6d7dc10cf193c2d5d17336004fed4
+A	tests/linkit_media_test/linkit_media_test.info.yml	efc763e5552fbb198872d31b654e5560
+A	tests/linkit_media_test/src/Plugin/MediaEntity/Type/TestType.php	890422bf1519b059a7c027a7d3b6bcff
+M	tests/linkit_test/linkit_test.info.yml	a4c515fccfbd747a21df44250a05151e
+M	tests/src/FunctionalJavascript/LinkitFormatAdminTest.php	87edad6119edb9b2e48754bcc64bc6f9
+M	tests/src/Kernel/SubstitutionPluginTest.php	1ab710fd5d86fda50b4b77b2a0e04ead

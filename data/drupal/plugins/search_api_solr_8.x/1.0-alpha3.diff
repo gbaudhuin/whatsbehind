@@ -1,0 +1,21 @@
+M	.travis.yml	74472abcf86ff7e0e6a943945a0537f3
+D	CHANGELOG.txt	
+M	INSTALL.txt	4c3393a12413f3b039b027be75aa41b1
+M	README.txt	ac654a50447c39144bc5ef2098fb0520
+M	config/schema/search_api_solr.backend.schema.yml	725ac4dc7c54c2e90333ac0daba0f5ff
+M	search_api_solr.info.yml	aae6653c294d9a304b321dc367ae9c64
+M	search_api_solr.module	46325fa8fbfa572e0fb2b67eafecd536
+D	search_api_solr.services.yml	
+M	solr-conf/5.x/solrconfig.xml	2fbd441433ef3f662d8c0be4d64e5d77
+D	src/EventSubscriber/AutoloaderSubscriber.php	
+M	src/Plugin/search_api/backend/SearchApiSolrBackend.php	206bf0b3dfd2bb8abb85d300ef737c75
+A	src/SearchApiSolrException.php	a322859a94c18b650a4cd421d4caacb2
+M	src/Solr/SolrHelper.php	10ee9f3c3bb36af28f6c093679577bcd
+A	src/Solr/StatsJspResult.php	a31de5ecb1a5413e4515e743f9878c90
+A	src/SolrBackendInterface.php	be99adb72e091c81b34e12092a875a9c
+A	src/Tests/IntegrationTest.php	e04c12c352ea0d7abb6473bbd7a9ae7f
+M	src/Utility/Utility.php	1846ec51cac1aa119c09d39cbdb51d16
+D	tests/bootstrap.php	
+M	tests/modules/search_api_test_solr/config/install/search_api.index.solr_search_index.yml	0a6bd89931492fbff0c6613bf0ab9ee2
+M	tests/modules/search_api_test_solr/search_api_test_solr.info.yml	e190135186e53443612b50e70e6e8214
+M	tests/src/Kernel/SearchApiSolrTest.php	5d5f1d6d49311735b8601256f37f0de2

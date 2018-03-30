@@ -1,0 +1,14 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	config/install/social_auth.settings.yml	a829c665f59074b49b2595b20ab0bdcb
+A	css/auth-icons.css	075d86301965d31d9425143adae42f95
+A	social_auth.info.yml	94c37d52595ff5284ca03db40ab1cac6
+A	social_auth.libraries.yml	bd0236b6ad088fd4d354e1977027096c
+A	social_auth.links.menu.yml	7412f2f38ddf5d4203d4f95c398c16c0
+A	social_auth.links.task.yml	3b6ca7f2ec815c73935c2d487f6240ca
+A	social_auth.module	dc70fabcd6e6b4763d982e92339f1a59
+A	social_auth.routing.yml	4c50c9db65e4e6a48d6164715f6b2f28
+A	social_auth.services.yml	26e9c1de446846dd13c7f453fe41d852
+A	src/Controller/SocialAuthController.php	8f8888e7deb089311c14adc1af9c96ba
+A	src/Plugin/Block/SocialAuthLoginBlock.php	cbba36c58934df07a1d72984be2d401a
+A	src/SocialAuthUserManager.php	30fbceb70c6a244a518d9693cd3e5320
+A	templates/login-with.html.twig	1a30affc983b5bb2bbb971fd9529bedb

@@ -1,0 +1,15 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	README.txt	262b1b7983e13df2735adf7a2249939b
+M	engines/schema_mysql.inc	960781b7acb8a192db5ae341fcf5204d
+M	engines/schema_mysqli.inc	6d38fb04896fbec83bcf8815aae92044
+M	engines/schema_pgsql.inc	b23385af780d0fbbbc3a9eedf4be6f61
+M	schema.drush.inc	7eb9cb64ecc7edfede61f53c6d18b7ab
+M	schema.info	691e3abcd26b3bd4871e3aa54566536e
+M	schema.module	cbe77117b9dc5807abe93c5791a96d19
+M	tests/schema_regression.test	6bc49356054d1a6b8842952fa6b6225a
+D	translations/Kopie von schema.de.po	
+D	translations/de.mo	
+D	translations/de.po	
+D	translations/schema.de.mo	
+D	translations/schema.mo	
+D	translations/schema.pot	

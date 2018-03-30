@@ -1,0 +1,10 @@
+M	features.info.yml	fafe315bbd01a56c8cfd22660a1a67b6
+M	features.install	2deb1a7ff3a4cd61741891aa8d2ef208
+M	features.services.yml	8cef6bf388910910a600abcb97355c6c
+M	modules/features_ui/features_ui.info.yml	1fb5f81bce180cfbaf4ea15bef391520
+M	modules/features_ui/src/Controller/FeaturesUIController.php	7d6020e0cd132654a7ecc398e81a44a9
+D	src/EventSubscriber/ConfigSaveSubscriber.php	
+M	src/FeaturesAssigner.php	512ad6ee467687c2dab79e1db3cf2875
+M	tests/modules/test_feature/test_feature.info.yml	fc1dbab065209bba53898450285119b8
+M	tests/modules/test_mybundle_core/test_mybundle_core.info.yml	1005c66cecba899c25c3afd3c9439afd
+D	tests/src/Kernel/EventSubscriber/FeaturesConfigSaveEventSubscriberTest.php	

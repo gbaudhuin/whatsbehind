@@ -1,0 +1,5 @@
+M	paragraphs_previewer.info.yml	5a149dc7b5c81917d44c0bc9e0e9a921
+M	src/Controller/ParagraphsPreviewController.php	56774601958c718bacb03af0e9aac151
+M	src/Plugin/Field/FieldWidget/InlineParagraphsPreviewerWidget.php	5e6d99558658d7c3592564a5912a3823
+M	src/Plugin/Field/FieldWidget/ParagraphsPreviewerWidget.php	3f51d96c2a51f6320394bd7ad36ff5ca
+M	src/Plugin/Field/FieldWidget/ParagraphsPreviewerWidgetTrait.php	3fce47de21ab3a8de6d84b831825979e

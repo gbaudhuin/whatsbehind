@@ -1,0 +1,13 @@
+M	l10n_update.api.php	5b810865799e08a565d95e4e52108c5b
+M	l10n_update.compare.inc	9f777381282bb68326db2fe115a7d27a
+M	l10n_update.drush.inc	b39ca469f1af3fb9a560f0f5c53c1e3e
+M	l10n_update.info	c7ebfe2626708cf7feadf721956503c6
+M	l10n_update.install	d2105119e6af3023d5dedbf525b04b85
+M	l10n_update.module	5b1577924d178c57924c1e6283a038b5
+M	l10n_update.translation.inc	6cc6d2a57f55b090d6601978546f1734
+M	tests/L10nUpdateCronTest.test	2a7bd6019fc372814b5e11a9ca0117d8
+M	tests/L10nUpdateTest.test	83c55af5c318b1cedcced9ec44321b39
+M	tests/L10nUpdateTestBase.test	7d3eed87928e100b6937f6132eae9eb3
+M	tests/modules/l10n_update_test/l10n_update_test.info	1bb3949298b8b47a2959e6ae4efb66de
+M	tests/modules/l10n_update_test/l10n_update_test.module	fbd843b1d80f0642851d0e47e27267f5
+M	tests/modules/l10n_update_test_translate/l10n_update_test_translate.info	0b32cb66fcdf75c02588f572679f4914

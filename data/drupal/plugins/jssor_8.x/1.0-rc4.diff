@@ -1,0 +1,12 @@
+M	README.txt	b9b5800fec49996b10e3427e1c41d536
+M	jssor.info.yml	7980ccca894fd21f2e0c158786dbcae3
+M	jssor.theme.inc	3450b1e690d4dd966edf937eaaaff79e
+A	jssor_example/config/install/core.entity_form_display.node.jssor_slider.default.yml	f3e25df42d766cd17df4b7299abe65a0
+A	jssor_example/config/install/core.entity_view_display.node.jssor_slider.default.yml	efffcd898f3f472da1a60d784236657c
+M	jssor_example/config/install/field.field.node.jssor_slider.field_jssor_image.yml	46d013aa0fac732a7daa3ad4b6210123
+M	jssor_example/config/install/field.storage.node.field_jssor_image.yml	49bee4b70864cee235418032d43d8215
+M	jssor_example/config/install/node.type.jssor_slider.yml	ad4b3c89d6bae8055ae24e0a5dcf5c36
+M	jssor_example/config/install/views.view.jssor.yml	7330f4c28e5ff54ab693c271b12d0c0b
+M	jssor_example/jssor_example.info.yml	6039d25a8b7b3fea71af391afba3bec8
+M	package.json	19e9df5a6f9fa8d0f2c8be91f0e6e7c5
+M	src/Plugin/Field/FieldFormatter/JssorFieldFormatter.php	756560b93849bcb8c4f144a6bdaec15f

@@ -1,0 +1,16 @@
+M	contrib/location_addanother/location_addanother.info	a13f50d2746c89bc3a8fb1a542ef6dbd
+M	contrib/location_autofill/la.info	d50344a6b3a1c57f1d66b846546201b2
+M	contrib/location_cck/location_cck.info	12dcfc94a0699cfd88f26466cc4c0433
+M	contrib/location_email/location_email.info	1b32ece5480699113a635a8f48aff559
+M	contrib/location_entity/location_entity.info	bc01d9206324ab931f5be473a2f778b1
+M	contrib/location_fax/location_fax.info	900d4570e97f6a8f11488e2ec9d688c8
+M	contrib/location_generate/location_generate.info	277adb3aa186203c45eac53787c88459
+M	contrib/location_phone/location_phone.info	7061ac248bb48ea06665f2d95dd8d330
+M	contrib/location_search/location_search.info	b8c7dc34f74957b9a810a1b4b527793a
+M	contrib/location_taxonomy/location_taxonomy.info	b839f15a9455a02b45f0a9395a78f4b9
+M	geocoding/google.inc	ed13ad3d3195a4ac39abe7ff4284688b
+M	location.info	a4004140c0deec956a8e500a1351504c
+M	location_node.info	969f9db1d6cd88ef3863de9e654d8f36
+M	location_user.info	7574fc0dd8bb4c4503d88cf90a910a49
+M	plugins/contexts/location.inc	2f7a2c40444042f843d7cc358971301d
+M	supported/location.ar.inc	30d4029b73b7a171a12c8565dc9c9231

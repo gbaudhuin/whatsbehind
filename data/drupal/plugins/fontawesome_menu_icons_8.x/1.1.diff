@@ -1,0 +1,6 @@
+A	config/install/fontawesome_menu_icons.settings.yml	e23ea7e3eee0b0a705b4a3a181641430
+A	config/schema/fontawesome_menu_icons.schema.yml	5b5d7bef959dbc43e594b160074e0430
+M	css/fontawesome_menu_icons.css	6ddd329beeccbde71e60c6aec8b4f44d
+M	fontawesome_menu_icons.info.yml	2592297f39cc17db54202952a4cb13be
+A	fontawesome_menu_icons.install	6bf130c69055dd8412b99f229b084d0d
+M	fontawesome_menu_icons.module	cfed035c98a4b3fce8777f9494a909ed

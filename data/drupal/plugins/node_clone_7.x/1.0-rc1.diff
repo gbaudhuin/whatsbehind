@@ -1,0 +1,13 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	README.txt	9420f931cb1c4b817b4d8d744ae3d18c
+A	clone.api.php	b1e238572ed54f59f1dc05227d45749f
+M	clone.info	2bae0affb3d11d96176c9be47de39a6f
+M	clone.install	4f3368b24c9dca4988291cb55e485aee
+M	clone.module	6e323646156508d4f15d7a672ee299ff
+M	clone.pages.inc	b5dc399a3028d7ac534067e4f919c8e9
+D	translations/de.po	
+D	translations/fr.po	
+D	translations/ru.po	
+D	translations/sv.po	
+M	views/clone.views.inc	2236e1d2cb6e6c07d1dd9c7a00a0d8d8
+M	views/views_handler_field_node_link_clone.inc	c55c7dbb596d6e7ffaa51d739377dc01

@@ -1,0 +1,9 @@
+M	CHANGELOG.txt	3e7e2bca8f9c64198dbb5dc3ffc553cd
+M	README.txt	cdad78816697990f8455d2ea9ac6e4f6
+A	js/jquery.bgiframe.js	9e365fc24d99b23b123fbab6860b890d
+D	js/jquery.bgiframe.min.js	
+A	js/jquery.hoverIntent.js	d664cf4c32cb766d64d12d1fd0d13ce9
+D	js/jquery.hoverIntent.minified.js	
+M	nice_menus.admin.inc	32766c6d0e80988f39df8b4598ba4cae
+M	nice_menus.info	4adf7ab092d9b71a0e4de74dbbea2687
+M	nice_menus.module	ebed9ca77cbf401fd7cf9fcaa93f4247

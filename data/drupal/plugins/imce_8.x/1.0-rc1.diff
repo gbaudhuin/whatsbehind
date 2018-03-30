@@ -1,0 +1,9 @@
+A	composer.json	99778922c3b699fcf6f9565da646dca7
+M	config/schema/imce.schema.yml	1cf8072674374dbc92fef45dbf899fb4
+M	imce.info.yml	821103366d4d14cab8b36bd01791b909
+M	js/imce.Folder.js	77d9f0e43ce8f8f2fdbdf7ecf09c8a39
+M	js/imce.Item.js	6329a0b0706a221007bcbea10cefe400
+M	js/imce.js	05cf671721b6e74358335a4fd3c91045
+M	js/plugins/ckeditor/imce.ckeditor.js	f81e5cbd6206e79e5f530d2ed630165b
+M	src/Form/ImceSettingsForm.php	8eb9103b6bb7087b0fb2417a5ae53456
+M	src/ImceFM.php	43d43137adcb3590aee9c4f55f45fc16

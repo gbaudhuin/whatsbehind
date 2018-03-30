@@ -1,0 +1,16 @@
+M	color_field.info.yml	913d5add1d829f75f1da053bbff2f2b3
+M	color_field.libraries.yml	96159e3c2ab44dec094ae66429adea30
+M	color_field.module	17c1916cae5ce0ec4e1a287862a746f0
+M	css/color_field_widget_box.css	efa1f68833edc875bc5f0a7e0dd72719
+A	css/color_field_widget_grid.css	2cb58aa6a3d0d61a142dc8b38bf51e16
+M	js/color_field_widget_box.jquery.js	2ba28e9b8ab68baa2c04b4326f8db75e
+M	js/color_field_widget_box.js	92135a359fc5d1e66f04e8412204541c
+A	js/color_field_widget_grid.jquery.js	49297d09b5c5f47d039f4eab7ba603c4
+A	js/color_field_widget_spectrum.jquery.js	4188b54063a4ef5ebea08245b9c18816
+M	src/Plugin/Field/FieldWidget/ColorFieldWidgetBox.php	8af428dce84664e755b71e7f62018453
+M	src/Plugin/Field/FieldWidget/ColorFieldWidgetDefault.php	4dddcce02d3c91562778d76d4e85e093
+A	src/Plugin/Field/FieldWidget/ColorFieldWidgetGrid.php	450dcda27cdb237a85e49165b8cdbca7
+A	src/Plugin/Field/FieldWidget/ColorFieldWidgetHTML5.php	49106c3edb22e449ae47158cbdb0d654
+D	src/Plugin/Field/FieldWidget/ColorFieldWidgetSimple.php	
+M	src/Plugin/Field/FieldWidget/ColorFieldWidgetSpectrum.php	915f7015c8b5825ef08906572e178a23
+A	templates/color-field-widget-spectrum.html.twig	43d55c807a5d19564dba80f95922298b

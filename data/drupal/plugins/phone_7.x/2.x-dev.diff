@@ -1,0 +1,83 @@
+D	README.int.txt	
+M	README.txt	0243d2c46e8befd994475c40f6d59b09
+D	countries.txt	
+D	include/phone.au.inc	
+D	include/phone.be.inc	
+D	include/phone.br.inc	
+D	include/phone.ca.inc	
+D	include/phone.ch.inc	
+D	include/phone.cl.inc	
+D	include/phone.cn.inc	
+D	include/phone.cr.inc	
+D	include/phone.cs.inc	
+D	include/phone.eg.inc	
+D	include/phone.el.inc	
+D	include/phone.es.inc	
+D	include/phone.fr.inc	
+D	include/phone.gb.inc	
+D	include/phone.hu.inc	
+D	include/phone.il.inc	
+D	include/phone.int.inc	
+D	include/phone.it.inc	
+D	include/phone.jo.inc	
+D	include/phone.nl.inc	
+D	include/phone.nz.inc	
+D	include/phone.pa.inc	
+D	include/phone.ph.inc	
+D	include/phone.pk.inc	
+D	include/phone.pl.inc	
+D	include/phone.ru.inc	
+D	include/phone.se.inc	
+D	include/phone.sg.inc	
+D	include/phone.sn.inc	
+D	include/phone.ua.inc	
+D	include/phone.za.inc	
+A	includes/phone.element.inc	890b81573c0d6666fdc9fa1ec54ec6ad
+A	includes/phone.libphonenumber.inc	26d072ad246340bbe6244be146059ba8
+A	phone.api.php	1cc4f7b5b827583a5fe174840fafe037
+A	phone.content_migrate.inc	091ee36d9377e9b05b4ce1e7b3ad9d70
+A	phone.devel_generate.inc	bb033c0be3eda568f918f9ccce8cd574
+M	phone.feeds.inc	65ddd0a7b64eee13f3e411e64c718440
+M	phone.info	1aae4f37844b51365a04e01857faa34b
+M	phone.install	5745866a89d0501f8f19ea14edf9140f
+A	phone.microdata.inc	6af2b921e096865427d9be6dc28e2d20
+M	phone.migrate.inc	c7e6ad9348cb551882f5884c1e0c5e56
+M	phone.module	8c277e3cd1f2e26e9cdb776691b651e3
+A	phone.tokens.inc	356715618fd3e5e4700684c15a72e6d8
+A	phone_cck_convert/phone_cck_convert.info	0851f3e3ad24b388fa497fe4765c9b17
+A	phone_cck_convert/phone_cck_convert.module	8b8f24ed43442992899fa3d8064b9ec0
+A	phone_country_locator/README.txt	ed4156442f2d9b77a12621960d678b93
+A	phone_country_locator/phone_country_locator.info	fef404317d686433c79e0149947657ab
+A	phone_country_locator/phone_country_locator.module	c1f3c87cc716a8fecb87e368f858fa8c
+D	tests/phone.au.test	
+D	tests/phone.be.test	
+D	tests/phone.br.test	
+D	tests/phone.ca.test	
+D	tests/phone.ch.test	
+D	tests/phone.cl.test	
+D	tests/phone.cn.test	
+D	tests/phone.cr.test	
+D	tests/phone.cs.test	
+D	tests/phone.eg.test	
+D	tests/phone.es.test	
+D	tests/phone.fr.test	
+D	tests/phone.hu.test	
+D	tests/phone.il.test	
+D	tests/phone.int.test	
+D	tests/phone.it.test	
+D	tests/phone.jo.test	
+D	tests/phone.nl.test	
+D	tests/phone.nz.test	
+D	tests/phone.pa.test	
+D	tests/phone.ph.test	
+D	tests/phone.pk.test	
+D	tests/phone.pl.test	
+D	tests/phone.ru.test	
+D	tests/phone.se.test	
+D	tests/phone.sg.test	
+D	tests/phone.ua.test	
+D	tests/phone.uk.test	
+D	tests/phone.za.test	
+A	theme/phone-settings.css	fc9a173b63aa88b964805f32709393e6
+A	theme/phone-settings.js	d522ebd0a504f1eb1130707804c971b0
+M	theme/phone.css	beab30b530cc3167552a4c6f56d0c3e4

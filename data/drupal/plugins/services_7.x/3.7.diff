@@ -1,0 +1,11 @@
+M	auth/services_oauth/services_oauth.info	f6dcd86b4b0735b544c8e24911bd56b3
+M	includes/services.runtime.inc	dc1b879a6bb969d7318b425eb20bf0f0
+M	resources/comment_resource.inc	9f8a1081eafd3f62bf46a7e82d18eef7
+M	resources/user_resource.inc	42a7934804208c43b9eb98e8ebe782b9
+M	servers/rest_server/rest_server.info	80550775b931e827e81199617a774e29
+M	servers/xmlrpc_server/xmlrpc_server.info	55237de01056f11940c5a146c9b35468
+M	services.info	464944c65b4036db8fc174c745218cb9
+M	tests/functional/ServicesResourceCommentTests.test	d2a4a4035cb01280e3bffe2abfa2f7da
+M	tests/functional/ServicesResourceNodeTests.test	48ce912c8dd7c0231012ce6c6d774cf9
+M	tests/functional/ServicesResourceUserTests.test	ab97a806a4190dc1e35c2034a3db2e54
+M	tests/services_test_resource/services_test_resource.info	c0d071a3e0f63d598ceacbf1ea58d220

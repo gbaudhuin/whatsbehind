@@ -1,0 +1,6 @@
+M	drush/features.drush.inc	0135c780cf8cc028d5514fa7d906de4e
+M	features.info.yml	0f468a70a0cecdb1a6d11a2a096c19fa
+M	modules/features_ui/features_ui.info.yml	f9bbd22be51f71050f17c35e194d75e8
+M	src/FeaturesConfigInstaller.php	9494f83c9eb2a4bbc0fed9dd38429d62
+M	tests/modules/test_feature/test_feature.info.yml	697f4b52b09ac1ef997ee3a038992078
+M	tests/modules/test_mybundle_core/test_mybundle_core.info.yml	ee43e13340603be64390d24619b9c18e

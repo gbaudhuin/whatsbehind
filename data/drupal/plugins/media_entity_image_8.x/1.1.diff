@@ -1,0 +1,10 @@
+M	config/schema/media_entity_image.schema.yml	4f031609e348775983f84fc264f894c1
+M	media_entity_image.info.yml	d0e682bad45b4d98ae93c71914dacac3
+M	src/Plugin/EntityBrowser/Widget/Upload.php	e8542ee23d50b209d81b39cf4d3a8218
+M	src/Plugin/MediaEntity/Type/Image.php	ad26fb636741f807fe90f43e063c1d3f
+A	src/Tests/MediaEntityImageTest.php	ac1c244adaca92bb012ed712f363acc6
+A	tests/modules/media_entity_image_test/config/install/entity_browser.browser.test_entity_browser_for_images.yml	c769607f8c7cc00ddcae9fb4a5ed7fbb
+A	tests/modules/media_entity_image_test/config/install/field.field.media.media_bundle_for_images.field_image.yml	7b0f2b2f942d1e5c75a467aba9c73509
+A	tests/modules/media_entity_image_test/config/install/field.storage.media.field_image.yml	84dad5efcb419282223cab53aa24ff1f
+A	tests/modules/media_entity_image_test/config/install/media_entity.bundle.media_bundle_for_images.yml	a66366a8f8c82c85e47d0507b38fb1a0
+A	tests/modules/media_entity_image_test/media_entity_image_test.info.yml	11e20b9779f278160a2f4d7ae5ebe663

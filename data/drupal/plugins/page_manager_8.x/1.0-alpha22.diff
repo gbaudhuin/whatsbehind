@@ -1,0 +1,45 @@
+M	config/install/page_manager.page.node_view.yml	fd90715e4406dd469cbf459502354a5e
+M	config/schema/page_manager.schema.yml	f3d0256937c97ce2c62714cd84a96940
+M	page_manager.info.yml	f0272ab95d10a2d6608cf241bdb3ff68
+A	page_manager.links.task.yml	8278a52f21dd662d4d06e0a90c3b059f
+M	page_manager.routing.yml	4276c9252d88a0db28331389c844cd4d
+M	page_manager.services.yml	cc719bfde6d4366ae5bb7a15d8ef2038
+A	src/ContextMapper.php	2b09ecef14387704109c1b79e542526d
+A	src/ContextMapperInterface.php	caab749246589bd6e782c926948179b8
+M	src/Controller/PageManagerController.php	07c2dbcc4baebe9af552e9f0d4d0e1b5
+M	src/Entity/Page.php	e232da1af481fd9c07d5b4c3365dda13
+M	src/Entity/PageAccess.php	096ec446ec87af7540b9fa6ed6621178
+M	src/Entity/PageVariant.php	fdaad6ceb2f26ae373ea3fcfdf31d891
+M	src/Event/PageManagerContextEvent.php	a82a5e7fb4c7e95a51d0bd9443063161
+M	src/EventSubscriber/CurrentUserContext.php	6734807387f30e48943f5f914967a290
+M	src/EventSubscriber/RouteParamContext.php	f27b4d90d2987d5858d60e1d25778e06
+D	src/EventSubscriber/StaticContext.php	
+M	src/Form/PageEditForm.php	3892a73f23e1ed984e5cf0f1eeec40d2
+M	src/Form/PageVariantAddForm.php	9dcb7fe1a6d630ba1ee34cd697e5f9f2
+M	src/Form/PageVariantEditForm.php	e10b2294eb48cd57d4143e40cab973b0
+M	src/Form/PageVariantFormBase.php	439d3ca8c5a257fef0dea0365d0460a3
+M	src/Form/StaticContextDeleteForm.php	e1000d2a135af9e6a5c99ee895c2ab93
+M	src/Form/StaticContextEditForm.php	e4463bd9168b8bfb29ed04af72a027f3
+M	src/Form/StaticContextFormBase.php	cd5de830122e5492c9fe55a0dff68786
+D	src/PageExecutable.php	
+D	src/PageExecutableFactory.php	
+D	src/PageExecutableFactoryInterface.php	
+D	src/PageExecutableInterface.php	
+M	src/PageInterface.php	4c72408dc267a376abdf50894b7f89b4
+M	src/PageVariantInterface.php	dc1e6787a29b6f3f6faa224ba5645767
+M	src/Plugin/DisplayVariant/PageBlockDisplayVariant.php	ea91a5ca8ebcbb379257a46f085728c7
+A	src/Plugin/PanelsStorage/PageManagerPanelsStorage.php	d33bcf30516373e640f60252ac2355f0
+M	src/Tests/PageManagerAdminTest.php	8e830f53caa64ffacc7e2385bbfab377
+M	src/Tests/StaticContextTest.php	39b8d3e193f28b5ff5dd2b92e5dd5593
+M	tests/modules/page_manager_test/page_manager_test.info.yml	4ca962b0c67ac7937b802931a041174d
+A	tests/modules/page_manager_test/page_manager_test.module	85b5dffdd9ee78811ea15c1eba7dd08c
+A	tests/src/Unit/ContextMapperTest.php	748966643d4b360dad568ab91966a4b2
+M	tests/src/Unit/CurrentUserContextTest.php	31c2ec2f95f313ac4b75cb6fa7cf5189
+M	tests/src/Unit/PageAccessTest.php	3e31b131a36b4e1fb3dfaf58def81a21
+M	tests/src/Unit/PageBlockDisplayVariantTest.php	0d0c596c457581f462122664aa054e24
+M	tests/src/Unit/PageContextTestBase.php	eebb1b91df8cf0aef9b8498b36e2f350
+D	tests/src/Unit/PageExecutableTest.php	
+M	tests/src/Unit/PageTest.php	719a923ac728bee535d01f55a52a0a3a
+A	tests/src/Unit/PageVariantTest.php	1215c1c5a0809b78fdf9ba31915e1569
+A	tests/src/Unit/PanelsStorageTest.php	5cb4c979684ba2454cbe988ab15ecb09
+M	tests/src/Unit/RouteParamContextTest.php	5e290ebf810c414c8175ce46438593f4

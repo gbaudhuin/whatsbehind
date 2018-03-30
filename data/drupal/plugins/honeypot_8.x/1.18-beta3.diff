@@ -1,0 +1,5 @@
+M	honeypot.info.yml	7a8538d21dfd151ed9d47621ed819f45
+M	honeypot.install	a5ae732b0a651c18a851a8ac7e88bfc2
+M	honeypot.module	2f1c22bf3e6da9c078e57158d47de664
+M	src/Controller/HoneypotSettingsController.php	fcbb47c4e34fff9beb373d1912333dd1
+M	src/Tests/HoneypotFormTest.php	32eb5670a169fb571c12687e68a476c9

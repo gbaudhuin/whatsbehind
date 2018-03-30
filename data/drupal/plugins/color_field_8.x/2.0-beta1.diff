@@ -1,0 +1,32 @@
+M	README.txt	32032d1a436421b5f0b5156985de1918
+M	color_field.info.yml	ad6d7e3d1a93b033a438eeb85d3d74e8
+A	color_field.libraries.yml	e30f3ae14f57815cd5bbdd222cb7f6a5
+M	color_field.module	8508ca9caa5cd309b04f6076af5182e0
+M	config/schema/color_field.schema.yml	d41d8cd98f00b204e9800998ecf8427e
+A	css/color_field_formatter_swatch.css	2da0ac4b8b1facfa2e1200b0f21b8aca
+A	css/color_field_widget_box.css	5f06196ab2df91d644ba28947e494876
+A	images/transparent_box16.gif	a938d57708bb3a1c328bdf8fb9c1636b
+A	images/transparent_box32.gif	c6cf2b4671d7723e93c3ab58ed212888
+A	js/color_field_widget_box.jquery.js	2ed2b1eb94a486c23b77bc2712331bd4
+A	js/color_field_widget_box.js	2fb275b02bca80ff907980964a881dc6
+D	src/Color.php	
+A	src/ColorBase.php	a592f7b95a0cdef87cf309091a3cc6ed
+A	src/ColorCMY.php	c58290e2e554d4c00a60a979db6ff317
+A	src/ColorCMYK.php	d6169ff19f9d8abfba7d77962c7a1427
+A	src/ColorHex.php	e22f116af866a2c43dc336a604fa372b
+A	src/ColorInterface.php	ba72dc40f11c32211fc9448f0a5843c1
+A	src/ColorRGB.php	9c22d61214322b67d31800b48713d2d3
+A	src/Plugin/Field/FieldFormatter/ColorFieldFormatterCss.php	394ccd0b3849780ce04ead16b11291aa
+A	src/Plugin/Field/FieldFormatter/ColorFieldFormatterSwatch.php	93500a060b99675d5101c8ea1b0c07a4
+A	src/Plugin/Field/FieldFormatter/ColorFieldFormatterText.php	d9360b2ae4516b8e75f00432f5ba591f
+D	src/Plugin/Field/FieldFormatter/ColorFieldSwatchFormatter.php	
+D	src/Plugin/Field/FieldFormatter/ColorFieldTextFormatter.php	
+D	src/Plugin/Field/FieldType/ColorFieldItem.php	
+A	src/Plugin/Field/FieldType/ColorFieldType.php	9f97f7bd25142bb87ee4803ef58a7cd3
+D	src/Plugin/Field/FieldWidget/ColorFieldDefaultWidget.php	
+A	src/Plugin/Field/FieldWidget/ColorFieldWidgetBox.php	3687d5414054ce4f2c4d74042d1c02a3
+A	src/Plugin/Field/FieldWidget/ColorFieldWidgetDefault.php	ba432eee23e064d6f9afea152a80e795
+A	src/Plugin/Field/FieldWidget/ColorFieldWidgetSimple.php	7f0575bd7eff4c709f42009fe9da8eab
+A	src/Plugin/Field/FieldWidget/ColorFieldWidgetSpectrum.php	5d2ef2b632ffa236378149dbdf25a6da
+A	templates/color-field-formatter-swatch.html.twig	b840c172ef24e28e079f2909fb0eaee4
+A	templates/color-field-widget-box.html.twig	12a28920e303264b3c7663590addfd9f

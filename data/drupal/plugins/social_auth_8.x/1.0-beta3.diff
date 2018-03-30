@@ -1,0 +1,11 @@
+M	README.txt	00c4c45415f7534a16f981c427a02132
+M	config/install/social_auth.settings.yml	57e03602533412d52fc06e2c087ce905
+A	config/schema/social_auth.schema.yml	aa39529047656dedcc07b90d1cd40ac7
+M	social_auth.info.yml	4752dd02f408c60be7c8f295e313273c
+A	social_auth.install	8936b19f30dd74412c0a500d6c056b9d
+M	social_auth.services.yml	c48328ecd181a3a440336e78933d7b26
+A	src/Event/SocialAuthEvents.php	450aea58a65d3fbecc604dfa5dbe2488
+A	src/Event/SocialAuthUserEvent.php	fa7b3a7a1f5b034cee408da977336681
+A	src/Event/SocialAuthUserFieldsEvent.php	e56dcaef8f63fa73cbf304993df1e968
+A	src/Form/SocialAuthSettingsForm.php	eee4b0e3c0d896a0ffb2c632b232f8ff
+M	src/SocialAuthUserManager.php	2ce38b844bee454e29219de06432ca6c

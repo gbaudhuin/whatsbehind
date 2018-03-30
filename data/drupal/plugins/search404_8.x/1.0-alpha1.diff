@@ -1,0 +1,12 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	7792e6afcfda0540fb672f383aa34df8
+A	TODO	bc6f8cc311c8de847623f97e94202a52
+A	config/install/search404.settings.yml	1538f2d88525e84db3ae923f58d2218f
+A	config/schema/search404.settings.yml	aa510a9e4fb8c2bb396c26dc95c39f90
+A	search404.info.yml	51f3880e34ce9e0232019e053396ff7f
+A	search404.install	09717c1d1a4c7b924ded37156bf35046
+A	search404.links.menu.yml	a3ab2d46aa3a845bd04d9cf57d1c38cb
+A	search404.module	14ef862a5fcc762372bd404dc5ac51e4
+A	search404.routing.yml	1b3bcfde6aaa42596878b5a0cb134cc3
+A	src/Controller/Search404Controller.php	b7d5d1b2ec9bac8a53164308a98dbc21
+A	src/Form/Search404Settings.php	739e71bb1e46401d45bcbeb4b818e942

@@ -1,0 +1,388 @@
+M	core/CHANGELOG.txt	dfdf455038ce2a3b9f311b77a18163d7
+M	core/lib/Drupal.php	3a746cb413ce0bca1cc1e603aab1fb21
+M	core/lib/Drupal/Component/Annotation/composer.json	5dac7b54611ecf02361598dba51b6120
+M	core/lib/Drupal/Component/Diff/composer.json	67ece2a3c32ece3d93a53f04a1a625a4
+M	core/lib/Drupal/Component/Discovery/composer.json	a07782f4226ff4520de069e5ca4ab975
+M	core/lib/Drupal/Component/Plugin/Exception/ContextException.php	bdf1930d342d1dee1168b8eaee727e9e
+M	core/lib/Drupal/Component/Plugin/Exception/ExceptionInterface.php	b5740bd8f3c4ff75b5edf16e210e7833
+M	core/lib/Drupal/Component/Plugin/Exception/InvalidDecoratedMethod.php	17f438b2b19877f76e6f84541ccf546b
+M	core/lib/Drupal/Component/Plugin/Exception/InvalidDeriverException.php	c78f4744fb9c83f011ec6c42583aa8f7
+M	core/lib/Drupal/Component/Plugin/Exception/MapperExceptionInterface.php	87d8009251762e6d799e327f3fdbe677
+M	core/lib/Drupal/Component/Plugin/Exception/PluginException.php	895b224229f091de1279136da51904d9
+M	core/lib/Drupal/Component/Utility/UrlHelper.php	cdb3a477a0dff4f164d2bdc5eeda371b
+M	core/lib/Drupal/Core/Batch/BatchStorage.php	ea497a8d6881a29bbd6fb5f3dc54fe34
+M	core/lib/Drupal/Core/Block/MessagesBlockPluginInterface.php	bf24bf39463e7c59aa8fc967e24360ed
+M	core/lib/Drupal/Core/Cache/DatabaseBackend.php	62c9faa3f95afd2d9a9c07d19e25739b
+M	core/lib/Drupal/Core/Cache/DatabaseCacheTagsChecksum.php	dd8f971c19e84f4c5859ddd06be5ee72
+M	core/lib/Drupal/Core/Config/ConfigManager.php	c6340581217708c6aea84058bd240946
+M	core/lib/Drupal/Core/Config/DatabaseStorage.php	b974d9fbad2f922773eea099678c4f90
+M	core/lib/Drupal/Core/Database/Connection.php	344a72089b21e8641129fa9a897bc8dd
+M	core/lib/Drupal/Core/Database/Driver/mysql/Delete.php	925d1224c481ec7bc275de400dd4caf9
+M	core/lib/Drupal/Core/Database/Driver/mysql/Merge.php	9d31f877d370eebb74d90cb9c079623a
+M	core/lib/Drupal/Core/Database/Driver/mysql/Select.php	8bf99f0a6036663d35e490f05a01b05d
+M	core/lib/Drupal/Core/Database/Driver/mysql/Transaction.php	8b684def3c96efcb0967004cc265a440
+M	core/lib/Drupal/Core/Database/Driver/mysql/Truncate.php	b39c09567e62566a0d14dfeb68ea99c6
+M	core/lib/Drupal/Core/Database/Driver/mysql/Update.php	423054df80928e4e670d1f21064510fd
+M	core/lib/Drupal/Core/Database/Driver/pgsql/Connection.php	06a7c9cf6c6dda8db6655d0ef5e7881c
+M	core/lib/Drupal/Core/Database/Driver/pgsql/Insert.php	51cd1cab635788aec7c0478d7b5620cf
+M	core/lib/Drupal/Core/Database/Driver/pgsql/Install/Tasks.php	a2c085b812b91f342183ff5549b39c4f
+M	core/lib/Drupal/Core/Database/Driver/pgsql/Merge.php	30a4f09e9791e522eb794504f02f943f
+M	core/lib/Drupal/Core/Database/Driver/pgsql/NativeUpsert.php	37e789f5fe245a293378418904a3b27b
+M	core/lib/Drupal/Core/Database/Driver/pgsql/Transaction.php	15a433879bd2860ee1088453a58b5133
+M	core/lib/Drupal/Core/Database/Driver/sqlite/Delete.php	81fd6469b41b63204c6a74553f1c4ada
+M	core/lib/Drupal/Core/Database/Driver/sqlite/Merge.php	3259ee53ff9eaefe5bb3b7f83c98a27a
+M	core/lib/Drupal/Core/Database/Driver/sqlite/Transaction.php	f40ea97113d472fd551e40f20856c972
+M	core/lib/Drupal/Core/Database/Driver/sqlite/Update.php	7816825f104e3fa11e5e8b6abe96a3a6
+M	core/lib/Drupal/Core/Database/IntegrityConstraintViolationException.php	0a40cfd801404a0b7488991d75c623aa
+M	core/lib/Drupal/Core/Database/InvalidQueryException.php	97f84110c616576b8c78a267f62fef77
+M	core/lib/Drupal/Core/Database/Query/Select.php	9ed93affdaf8a5530176a3b25bab189e
+M	core/lib/Drupal/Core/Database/SchemaException.php	57be7293f961c04d1801b329b28d1706
+M	core/lib/Drupal/Core/Database/SchemaObjectDoesNotExistException.php	7022e6cbd74f828cd050233fde86189b
+M	core/lib/Drupal/Core/Database/SchemaObjectExistsException.php	d3eaa9a10d6ce39c9f4065db0bc56905
+M	core/lib/Drupal/Core/Database/StatementInterface.php	fa4f4c402e923940b3a3a44fd47e234d
+M	core/lib/Drupal/Core/Database/TransactionCommitFailedException.php	4df5a9d15181929da65661e6b50a3df3
+M	core/lib/Drupal/Core/Database/TransactionException.php	38d80b70e4ea66b628f76534ccf45bc3
+M	core/lib/Drupal/Core/Database/TransactionExplicitCommitNotAllowedException.php	37da3585b28f8aebf100e7044bf2a20c
+M	core/lib/Drupal/Core/Database/TransactionNameNonUniqueException.php	a92fc71f8803d7621caab5c0b1989569
+M	core/lib/Drupal/Core/Database/TransactionNoActiveException.php	260b2623f12d1bcd72d904948e5c9ba5
+M	core/lib/Drupal/Core/Database/TransactionOutOfOrderException.php	736d2c1c7988b3fab3f1b11529f23c2e
+M	core/lib/Drupal/Core/Datetime/Element/Datetime.php	b187eac90e06b80dbd6f512007bfe4c5
+M	core/lib/Drupal/Core/Diff/DiffFormatter.php	eacc7638efe6273ced2f1e104289c536
+M	core/lib/Drupal/Core/Entity/ContentEntityBase.php	b9ff27608c312c7215d683c5b7999717
+M	core/lib/Drupal/Core/Entity/ContentEntityForm.php	f4939ceeeb7447db96a34edd510097dd
+M	core/lib/Drupal/Core/Entity/ContentEntityStorageBase.php	1e3c90d361add20e7c6048c303a94878
+M	core/lib/Drupal/Core/Entity/EntityDisplayModeBase.php	a03e966b36b4380d8e4cf9af6adcdea1
+M	core/lib/Drupal/Core/Entity/EntityMalformedException.php	4dcf087f00f5290cc4cd7ee202aaac1b
+M	core/lib/Drupal/Core/Entity/EntityReferenceSelection/SelectionPluginBase.php	5c9c3842684e5c4c37f0b0de2bcca225
+M	core/lib/Drupal/Core/Entity/EntityStorageException.php	42b7c922b769f170ca24a8c5d69fa4db
+M	core/lib/Drupal/Core/Entity/EntityViewBuilder.php	58a2a880ff59094faed848bb154800d9
+M	core/lib/Drupal/Core/Entity/Exception/EntityTypeIdLengthException.php	e1ba3247901041a2bdf200ddc96579bb
+M	core/lib/Drupal/Core/Entity/Exception/UnsupportedEntityTypeDefinitionException.php	b00efda4486f9ea6346ff18cfc82f70c
+M	core/lib/Drupal/Core/Entity/Plugin/DataType/EntityAdapter.php	cbfca4c57e802106a1bd3bedca158c63
+M	core/lib/Drupal/Core/Entity/Plugin/EntityReferenceSelection/SelectionBase.php	76097d4c021cb88ea2582865808ee997
+M	core/lib/Drupal/Core/Entity/Query/QueryException.php	566255f449318522c0b6712957647bbb
+M	core/lib/Drupal/Core/Entity/Sql/DefaultTableMapping.php	cedcbf7a6c896de2296159392d5c40d1
+M	core/lib/Drupal/Core/Entity/Sql/SqlContentEntityStorage.php	d5e9b7e51d55d3ca48f8faa54e3ff2c9
+M	core/lib/Drupal/Core/Entity/Sql/SqlContentEntityStorageSchema.php	654ca879e0dbff631608a135178cb6a7
+M	core/lib/Drupal/Core/Entity/Sql/SqlContentEntityStorageSchemaConverter.php	2572c1a4cd0477360a8e426320077b72
+M	core/lib/Drupal/Core/Extension/ExtensionNameLengthException.php	a9172a3563640bfa76a10847e510d37b
+M	core/lib/Drupal/Core/Extension/ModuleHandler.php	81ac50d856a4fe88de5ac3d5e096633d
+M	core/lib/Drupal/Core/Extension/ModuleUninstallValidatorException.php	74662a58d46792d20e638a3753efe2c3
+M	core/lib/Drupal/Core/Field/FieldItemBase.php	e9beec4bd3bc362736516b4691a1d155
+M	core/lib/Drupal/Core/Field/FormatterBase.php	c3f60e1d2bb17d8f31a3f228a66d71b2
+M	core/lib/Drupal/Core/Field/Plugin/Field/FieldWidget/OptionsWidgetBase.php	538d509ee41007821a7d64153e3f357e
+M	core/lib/Drupal/Core/FileTransfer/FTPExtension.php	5c44b8d27cf32e5ef20b0771c86f7729
+M	core/lib/Drupal/Core/Flood/DatabaseBackend.php	ef19ad1761ba1ec713e2dfe2c578d8bf
+M	core/lib/Drupal/Core/Flood/MemoryBackend.php	1f3b87e6e7497b6960abd649ecde964a
+M	core/lib/Drupal/Core/ImageToolkit/ImageToolkitBase.php	f2b38a0eb1f6600046def4a5d6c6a165
+M	core/lib/Drupal/Core/KeyValueStore/NullStorageExpirable.php	cc40dfacbd1830d21c01bc8910b40a16
+M	core/lib/Drupal/Core/Lock/DatabaseLockBackend.php	7564668ff2918d6737e6256024c1780c
+M	core/lib/Drupal/Core/Menu/MenuTreeStorage.php	a4028061dac51301c2707d4db5099c84
+M	core/lib/Drupal/Core/ParamConverter/ParamConverterManager.php	e1f32123ece9b8f4c711b57e9990b147
+M	core/lib/Drupal/Core/ParamConverter/ParamNotConvertedException.php	081bb0404909b4559f146fb3a1c2983b
+M	core/lib/Drupal/Core/Path/AliasStorage.php	56e1ad09d5abe11ba9b0b55f3cce3e38
+M	core/lib/Drupal/Core/Queue/DatabaseQueue.php	6d873b94df6a4638fdd7e080d35a6b97
+M	core/lib/Drupal/Core/Render/Element/Date.php	d222ff27ffeddbff605e4afb871bb8ef
+M	core/lib/Drupal/Core/Render/Element/RenderElement.php	3220448f1b87a2534c0ab93acfa81fde
+M	core/lib/Drupal/Core/Render/Renderer.php	aa8a328a26bc523108a97df6fa36a304
+M	core/lib/Drupal/Core/Routing/GeneratorNotInitializedException.php	e1453f0c51ad2295d50d1835c36d9d31
+M	core/lib/Drupal/Core/Routing/MatcherDumper.php	e6e85282c8f9d7fb4ecb2b91ec0c9da5
+M	core/lib/Drupal/Core/Template/Loader/FilesystemLoader.php	6cff9c3c80a59538f49b6765e20b075c
+M	core/lib/Drupal/Core/Utility/UpdateException.php	fbd27f63b64233b992d213189b1d4562
+M	core/lib/Drupal/Core/Validation/Plugin/Validation/Constraint/IsNullConstraint.php	516811f256922fbe489b68f136268977
+M	core/lib/Drupal/Core/Validation/Plugin/Validation/Constraint/NotNullConstraint.php	ca60e3f139b6d794aee51056582d5ffa
+M	core/modules/big_pipe/tests/modules/big_pipe_test/src/Form/BigPipeTestForm.php	2c5dd2bb0eeaf3c2d6473ad9524ce8ab
+M	core/modules/big_pipe/tests/src/Functional/BigPipeTest.php	2899d57c60667cac15f793548d8829d2
+M	core/modules/block/tests/src/Functional/BlockTest.php	13ccd302e5f9a2e066858e4f201a1de0
+M	core/modules/book/tests/src/Functional/BookTestTrait.php	105f2dcd6a16b77d44d3e681c6fb0a34
+M	core/modules/ckeditor/ckeditor.module	624be2167a3cab9fd3c250c92322e3c7
+M	core/modules/ckeditor/src/Plugin/CKEditorPlugin/StylesCombo.php	2bc3b27201be9b49161f86b98b68604e
+M	core/modules/comment/migration_templates/d7_comment.yml	4e5218e902c2ee358a1c03ff7af4f5ac
+M	core/modules/comment/migration_templates/d7_comment_entity_display.yml	81dfd68886568f0573bfe5af2914f9e8
+M	core/modules/comment/migration_templates/d7_comment_entity_form_display_subject.yml	56f2e4d621b50a9535307c11bcd375e0
+M	core/modules/comment/migration_templates/d7_comment_field.yml	e50ba2ca1fce3791119fc7697ec31f94
+M	core/modules/comment/migration_templates/d7_comment_field_instance.yml	528e498960ac24905cc9c1567ff1cf07
+M	core/modules/comment/migration_templates/d7_comment_type.yml	cfc565cb967501fa1a3a9216ebfaeff8
+M	core/modules/comment/src/Controller/CommentController.php	8e40bc5fbc5796d03785f57257be319c
+M	core/modules/comment/src/Plugin/views/sort/Thread.php	a9c19c94884bb53ebda74dc261ea36f4
+D	core/modules/comment/src/Tests/CommentActionsTest.php	
+D	core/modules/comment/src/Tests/CommentAdminTest.php	
+D	core/modules/comment/src/Tests/CommentAnonymousTest.php	
+D	core/modules/comment/src/Tests/CommentBlockTest.php	
+D	core/modules/comment/src/Tests/CommentBookTest.php	
+D	core/modules/comment/src/Tests/CommentCSSTest.php	
+D	core/modules/comment/src/Tests/CommentFieldsTest.php	
+D	core/modules/comment/src/Tests/CommentInterfaceTest.php	
+D	core/modules/comment/src/Tests/CommentLanguageTest.php	
+D	core/modules/comment/src/Tests/CommentLinksAlterTest.php	
+D	core/modules/comment/src/Tests/CommentLinksTest.php	
+D	core/modules/comment/src/Tests/CommentNodeAccessTest.php	
+D	core/modules/comment/src/Tests/CommentNodeChangesTest.php	
+D	core/modules/comment/src/Tests/CommentNonNodeTest.php	
+D	core/modules/comment/src/Tests/CommentPreviewTest.php	
+D	core/modules/comment/src/Tests/CommentRssTest.php	
+D	core/modules/comment/src/Tests/CommentStatisticsTest.php	
+M	core/modules/comment/src/Tests/CommentTestBase.php	88213b3f26ad5509f494521fe3505f54
+D	core/modules/comment/src/Tests/CommentThreadingTest.php	
+D	core/modules/comment/src/Tests/CommentTitleTest.php	
+D	core/modules/comment/src/Tests/CommentTokenReplaceTest.php	
+D	core/modules/comment/src/Tests/CommentTranslationUITest.php	
+D	core/modules/comment/src/Tests/CommentTypeTest.php	
+D	core/modules/comment/src/Tests/CommentUninstallTest.php	
+D	core/modules/comment/src/Tests/Views/ArgumentUserUIDTest.php	
+D	core/modules/comment/src/Tests/Views/CommentAdminTest.php	
+D	core/modules/comment/src/Tests/Views/CommentEditTest.php	
+D	core/modules/comment/src/Tests/Views/CommentFieldFilterTest.php	
+D	core/modules/comment/src/Tests/Views/CommentFieldNameTest.php	
+D	core/modules/comment/src/Tests/Views/CommentOperationsTest.php	
+D	core/modules/comment/src/Tests/Views/CommentRestExportTest.php	
+D	core/modules/comment/src/Tests/Views/CommentRowTest.php	
+M	core/modules/comment/src/Tests/Views/CommentTestBase.php	edad84e7c4474f90cc1f98da6a30eb0a
+D	core/modules/comment/src/Tests/Views/DefaultViewRecentCommentsTest.php	
+D	core/modules/comment/src/Tests/Views/FilterUserUIDTest.php	
+D	core/modules/comment/src/Tests/Views/NodeCommentsTest.php	
+D	core/modules/comment/src/Tests/Views/RowRssTest.php	
+D	core/modules/comment/src/Tests/Views/WizardTest.php	
+A	core/modules/comment/tests/src/Functional/CommentActionsTest.php	4896acc11aa921c5d701372c2c5a5785
+A	core/modules/comment/tests/src/Functional/CommentAdminTest.php	2d6fb32b17fb79be854f703338976913
+A	core/modules/comment/tests/src/Functional/CommentAnonymousTest.php	a607dd2545f49f5052e4b88f2d1e10f7
+A	core/modules/comment/tests/src/Functional/CommentBlockTest.php	6e93ff253845b8ef7f8c877fcc9c241c
+A	core/modules/comment/tests/src/Functional/CommentBookTest.php	426113f53a816c49f41cbb3b1004af3e
+A	core/modules/comment/tests/src/Functional/CommentCSSTest.php	c2ae04c7b2764011cbf668288b2e14b8
+A	core/modules/comment/tests/src/Functional/CommentFieldsTest.php	e3e732520aa20f2ed9eaf0b2c6d97cae
+A	core/modules/comment/tests/src/Functional/CommentInterfaceTest.php	ed4cb04eb3f4e3d4ccc42fa9476eaa0d
+A	core/modules/comment/tests/src/Functional/CommentLanguageTest.php	8c9c9667ec0973e11de2f408cefda806
+A	core/modules/comment/tests/src/Functional/CommentLinksAlterTest.php	a3c614719fd84ef0a9220a99e4cd68fb
+A	core/modules/comment/tests/src/Functional/CommentLinksTest.php	0b5489f4141499c8dcf58049a6b6ad41
+A	core/modules/comment/tests/src/Functional/CommentNodeAccessTest.php	b6408d321991b2660f5fbc86df7b549e
+A	core/modules/comment/tests/src/Functional/CommentNodeChangesTest.php	93c4837a863c6384605d4979da6e5969
+A	core/modules/comment/tests/src/Functional/CommentNonNodeTest.php	4c5e170e5a777b9d488e8448d775025a
+A	core/modules/comment/tests/src/Functional/CommentPreviewTest.php	19dcf30b41f6f607502009a6fed51214
+A	core/modules/comment/tests/src/Functional/CommentRssTest.php	27fddab03296e01cf4082d0f084cc705
+A	core/modules/comment/tests/src/Functional/CommentStatisticsTest.php	3e3576d9fdf7061ccc3a18a014851694
+A	core/modules/comment/tests/src/Functional/CommentTestBase.php	c5458ab543919097c162df2aef23bfd0
+A	core/modules/comment/tests/src/Functional/CommentThreadingTest.php	5a56e6f9b53f69341d09dd1a347ca34a
+A	core/modules/comment/tests/src/Functional/CommentTitleTest.php	dfb1589f2b65d071e0f1f3522a535157
+A	core/modules/comment/tests/src/Functional/CommentTokenReplaceTest.php	f23677deebee28276a908f3ba72a17e1
+A	core/modules/comment/tests/src/Functional/CommentTranslationUITest.php	c6a761a09e14869e1d8dc5403cbf726d
+A	core/modules/comment/tests/src/Functional/CommentTypeTest.php	4bba01ba58d1883ba61c7aca9ce67943
+A	core/modules/comment/tests/src/Functional/CommentUninstallTest.php	e820bac7879880f579328652e3b515ca
+A	core/modules/comment/tests/src/Functional/Views/ArgumentUserUIDTest.php	0d54b8507b7f2e2a60018b351f74b858
+A	core/modules/comment/tests/src/Functional/Views/CommentAdminTest.php	a935e7221330a478f3896fb2fa4e6dd7
+A	core/modules/comment/tests/src/Functional/Views/CommentEditTest.php	129b1f11a7d490a3a9ecf5766c53e920
+A	core/modules/comment/tests/src/Functional/Views/CommentFieldFilterTest.php	4022df971fe79095a2281d26d7ce2c14
+A	core/modules/comment/tests/src/Functional/Views/CommentFieldNameTest.php	78d86073aa65897cd8ede0dbad66eff5
+A	core/modules/comment/tests/src/Functional/Views/CommentOperationsTest.php	90a24076d6ceeb6ef60dcef4d83a6bc9
+A	core/modules/comment/tests/src/Functional/Views/CommentRestExportTest.php	16eeb9d29380682f3d945b11425ac93e
+A	core/modules/comment/tests/src/Functional/Views/CommentRowTest.php	021fd76ad12967749bc2771eb41b58ce
+A	core/modules/comment/tests/src/Functional/Views/CommentTestBase.php	43e416af4fa26b8f2fdf53242055611b
+A	core/modules/comment/tests/src/Functional/Views/DefaultViewRecentCommentsTest.php	82913d99d956d5fe5d03dbda01e82757
+A	core/modules/comment/tests/src/Functional/Views/FilterUserUIDTest.php	88a4c33c34f9792843f2dd86537be782
+A	core/modules/comment/tests/src/Functional/Views/NodeCommentsTest.php	ffb7f0679ac3717e14fab30fe510f65b
+A	core/modules/comment/tests/src/Functional/Views/RowRssTest.php	aedc5442a745c14a3786f5f3e3762198
+A	core/modules/comment/tests/src/Functional/Views/WizardTest.php	1a2f01be08b919027a904f9babaf96c9
+M	core/modules/comment/tests/src/Kernel/Migrate/d7/MigrateCommentEntityDisplayTest.php	93726adbb16204d18a12088519465516
+M	core/modules/comment/tests/src/Kernel/Migrate/d7/MigrateCommentEntityFormDisplaySubjectTest.php	2988fd9088b15a1ebb33f502ff5255a7
+M	core/modules/comment/tests/src/Kernel/Migrate/d7/MigrateCommentFieldInstanceTest.php	078b9b9ed020627a43e62e9d97ac3f99
+M	core/modules/comment/tests/src/Kernel/Migrate/d7/MigrateCommentFieldTest.php	4cf00901e578d2696e4d695a5421bc37
+M	core/modules/comment/tests/src/Kernel/Migrate/d7/MigrateCommentTypeTest.php	69301bfb0efd60b572215e98628214eb
+M	core/modules/contact/tests/src/Unit/MailHandlerTest.php	2ee9d5ce9833f58e46dfdb673d413e8a
+M	core/modules/content_moderation/src/Form/ContentModerationConfigureEntityTypesForm.php	35628b6c9ca5c8a0bd1f25186b03422b
+M	core/modules/content_moderation/src/Form/ContentModerationConfigureForm.php	54ce16c2d66b7a674f08bbe5168fc8d0
+M	core/modules/content_moderation/tests/src/Functional/ModerationFormTest.php	62b09562ec6efc740fdb4c9efbe80f8d
+M	core/modules/content_translation/tests/src/Kernel/ContentTranslationSyncUnitTest.php	d614a91beba67e84dbbd62ab6bd4da36
+M	core/modules/contextual/src/Plugin/views/field/ContextualLinks.php	6e5606d7952ce7979b0932bb722149c7
+A	core/modules/contextual/tests/modules/contextual_test/contextual_test.info.yml	6e4f47f2c85c8e11301643b719db0936
+A	core/modules/contextual/tests/modules/contextual_test/contextual_test.links.contextual.yml	6e6dc6844c7a8d3c4b7ad4dae80b0b71
+A	core/modules/contextual/tests/modules/contextual_test/contextual_test.module	fdf211f78a64e9b8b0c5fa078804ca3f
+A	core/modules/contextual/tests/modules/contextual_test/contextual_test.routing.yml	546456674a5895c2153bb2aa199e05a6
+A	core/modules/contextual/tests/modules/contextual_test/src/Controller/TestController.php	3ebd74966376f09795d56d5e71da4836
+A	core/modules/contextual/tests/src/FunctionalJavascript/ContextualLinkClickTrait.php	8f467ceebb2718db3c3a34d787d4b363
+M	core/modules/contextual/tests/src/FunctionalJavascript/ContextualLinksTest.php	d6689c7fee2f91d79fbea4832d72738c
+M	core/modules/editor/src/Tests/EditorLoadingTest.php	151e31392d5b0272e3fbfcfa70ac0b29
+M	core/modules/entity_reference/src/ConfigurableEntityReferenceItem.php	bb14e55be5ab7e93495cc0507ea698f4
+M	core/modules/entity_reference/src/Plugin/views/display/EntityReference.php	e0821dd1841ee8aff7a604b7d204e83c
+M	core/modules/entity_reference/src/Plugin/views/row/EntityReference.php	d3c5a243a59202231cdc385150473384
+M	core/modules/entity_reference/src/Plugin/views/style/EntityReference.php	2e9bd90ce8682aff612dbcc81e446c91
+M	core/modules/field/field.post_update.php	cdc23aef803ec84aee88b1b4cbc1a48e
+M	core/modules/field/migration_templates/d7_field_formatter_settings.yml	104690ff2f1c32476de54026002aeace
+M	core/modules/field/migration_templates/d7_field_instance.yml	2d97df13fcd6dc435195e998c0a4524b
+M	core/modules/field/migration_templates/d7_field_instance_widget_settings.yml	886f5de23141e7d140b9dced06327801
+A	core/modules/field/tests/fixtures/update/drupal-8.remove_handler_submit_setting-2715589.php	fabc8692e9ce8deb880073da599f8351
+M	core/modules/field/tests/src/Functional/EntityReference/EntityReferenceAutoCreateTest.php	0f7ca2b9171a751d55fde7725d0e94ba
+M	core/modules/field/tests/src/Functional/Update/FieldUpdateTest.php	f74b14f90bf2644fc3674c7e8651af0d
+M	core/modules/field/tests/src/Kernel/EntityReference/Views/EntityReferenceRelationshipTest.php	46e9bd2fdc13d3bdf3447d06c01b33cf
+M	core/modules/field/tests/src/Kernel/Migrate/d7/MigrateFieldFormatterSettingsTest.php	f1e80d7dec1bc4a0e7b24f4094d36a99
+M	core/modules/field/tests/src/Kernel/Migrate/d7/MigrateFieldInstanceTest.php	b718599f0d93387e776705bdff4bb41d
+M	core/modules/field/tests/src/Kernel/Migrate/d7/MigrateFieldTest.php	c72659519113fd4dd23e299f7b4df3df
+M	core/modules/field/tests/src/Kernel/Migrate/d7/RollbackFieldInstanceTest.php	88f3b38337d775694bcf4f1b27cd29e8
+M	core/modules/field/tests/src/Kernel/Number/NumberItemTest.php	533fe243c59e4f3e509be25959ebc52c
+M	core/modules/field_ui/tests/src/Functional/EntityDisplayModeTest.php	f4c0e59912aebc686bface2096babc37
+M	core/modules/field_ui/tests/src/Kernel/EntityDisplayTest.php	53fe8531bd4d9a32bbc6e89c1820bbb7
+M	core/modules/file/file.module	2dac21532227bbee3aad949b4a9db4f6
+M	core/modules/file/src/FileAccessFormatterControlHandlerInterface.php	7002adfaa6b1bafaf8041d3fddd442e1
+M	core/modules/file/src/Plugin/Field/FieldType/FileFieldItemList.php	684dd92d7ebc88bc273816ebd3f0a4ee
+M	core/modules/file/src/Plugin/migrate/source/d6/UploadInstance.php	8595419c1d4c8e8a8b519d2a6fb29e7a
+M	core/modules/filter/filter.module	1d955f2da6b544f8dafb9e07ddc36c6f
+M	core/modules/filter/src/Plugin/DataType/FilterFormat.php	4e190921cbc2163e4234d71227281e5e
+M	core/modules/filter/src/Plugin/Filter/FilterHtml.php	d8a4a87a85c0a7cc30a3ee54e97a9b72
+M	core/modules/forum/src/ForumIndexStorage.php	a221c3d570d45161befebe029058cd57
+M	core/modules/forum/tests/src/Functional/ForumTest.php	7b7d2b8cb72ff97d0c3c4e7ff5c74c84
+M	core/modules/hal/tests/src/Kernel/DenormalizeTest.php	ce72cdbfc1b2cfc2ac97348ac16bc17e
+M	core/modules/hal/tests/src/Kernel/HalLinkManagerTest.php	300a111033721a72ac57ff4513a3a43c
+M	core/modules/image/src/Tests/ImageStylesPathAndUrlTest.php	46c2bac56933f162026a13bde2a1ef96
+M	core/modules/link/src/Plugin/migrate/process/d6/CckLink.php	8f9a760018ffc884978313fe15814a9c
+M	core/modules/media/media.permissions.yml	8be251df63b776f6db01ca96e157c503
+M	core/modules/media/tests/src/Functional/MediaAccessTest.php	893f41d035d396473d3ebf88e2c2d676
+M	core/modules/media/tests/src/Functional/MediaFunctionalTestTrait.php	8bda65dbaa20668b8d436ef70c9cb66d
+M	core/modules/media/tests/src/FunctionalJavascript/MediaSourceFileTest.php	845ef1a07ea9dc365d7114411377c300
+M	core/modules/migrate/src/MigrateExecutable.php	852c649cede1f578bfcb905edbd6e465
+M	core/modules/migrate/src/Plugin/Migration.php	fa6b98f8cdfe127823ae3426b5f03d0b
+M	core/modules/migrate/src/Plugin/migrate/process/DedupeEntity.php	4bbb4d8d9d20512fa810b31178a0664b
+M	core/modules/migrate/src/Plugin/migrate/process/Migration.php	e96010d8fc59ea43150a2a25212e0326
+M	core/modules/migrate/tests/src/Kernel/MigrateSqlSourceTestBase.php	a2b786142722dacd72acf93145c4e47a
+M	core/modules/migrate/tests/src/Kernel/MigrateTestBase.php	52099b3fd7543bcab02b5284961566ff
+A	core/modules/migrate/tests/src/Kernel/NodeCommentCombinationTrait.php	96cdc2026c5839817381c674a63b7501
+M	core/modules/migrate/tests/src/Kernel/Plugin/MigrationPluginListTest.php	0ff8a998d48842654dbf1f0c13242733
+M	core/modules/migrate/tests/src/Unit/MigrateTestCase.php	b8069da9a53543acea821dab8292ff02
+M	core/modules/migrate/tests/src/Unit/Plugin/migrate/destination/EntityContentBaseTest.php	ed2a99dd3a5afe31e90265e244e04708
+M	core/modules/migrate/tests/src/Unit/process/DedupeEntityTest.php	4f0f404051ef4c229799ba291e1f1ca6
+M	core/modules/migrate/tests/src/Unit/process/GetTest.php	679fd12a58bea805d196ac242830468d
+M	core/modules/migrate/tests/src/Unit/process/MakeUniqueEntityFieldTest.php	13dad448808d76c0895a0e0d4856653f
+M	core/modules/migrate_drupal/src/Plugin/MigrateCckFieldPluginManager.php	d81245fd09b749264c29986897482148
+M	core/modules/migrate_drupal/src/Plugin/MigrateCckFieldPluginManagerInterface.php	cbf2ddca685124aca69f811dc7d3f358
+M	core/modules/migrate_drupal/tests/fixtures/drupal7.php	a88b0bb74509614261b14fb665c46b75
+M	core/modules/migrate_drupal_ui/src/Form/MigrateUpgradeForm.php	c0871e21d9817a48c4e5c9fb25f4a796
+M	core/modules/migrate_drupal_ui/tests/src/Functional/MigrateUpgradeTestBase.php	03a715a9cbab944f3f8cdb514a9f33f4
+M	core/modules/migrate_drupal_ui/tests/src/Functional/d7/MigrateUpgrade7Test.php	42f015b28a7c2565413ea7d98ba6db12
+M	core/modules/node/migration_templates/d7_node.yml	1810dc38ea9988972733d930b4ce94ee
+M	core/modules/node/src/Entity/NodeRouteProvider.php	3ef3eeb2fb388467d46ae7a888c85ad0
+A	core/modules/node/src/EventSubscriber/NodeTranslationExceptionSubscriber.php	f060a9e16a4a256ca38be92e19889f22
+A	core/modules/node/src/EventSubscriber/NodeTranslationMigrateSubscriber.php	de42b7826ebf1357a124350c4eebb4be
+A	core/modules/node/src/NodeServiceProvider.php	26f5f4d1bc0cea8bf3455f4cf81f2b58
+M	core/modules/node/src/Plugin/migrate/D7NodeDeriver.php	54426a002a8adb1101e9f2128e0675fc
+M	core/modules/node/src/Plugin/migrate/source/d6/Node.php	a0455ee23da3f0d065db8663eb23f922
+M	core/modules/node/src/Plugin/views/filter/Access.php	7b926ef130fb387bc789b96e7a878147
+M	core/modules/node/src/Plugin/views/filter/Status.php	b9d8491b28722e14bfb35729717afbae
+M	core/modules/node/tests/modules/node_test/node_test.module	524648c3bb08d11ea9c8a61abf782a3a
+A	core/modules/node/tests/src/Kernel/Migrate/d6/NodeTranslationRedirectTest.php	85fe55cb459b31f5ec06a0f90c7070b4
+M	core/modules/node/tests/src/Kernel/Migrate/d7/MigrateNodeTest.php	65c163fb93360c9aa445f73315680cfa
+A	core/modules/node/tests/src/Kernel/Migrate/d7/NodeTranslationRedirectTest.php	6112756d5d6492aaa68700ecaae88100
+M	core/modules/options/src/Plugin/Field/FieldType/ListItemBase.php	5a279a2359749e15d0813a73c2d0352b
+M	core/modules/options/tests/src/Functional/OptionsFieldUITest.php	ee4e4c3f5edcfee3f904944e0f3d16cc
+M	core/modules/page_cache/src/StackMiddleware/PageCache.php	d9144f1386c86b0a1813e6c6e9d4e6eb
+M	core/modules/page_cache/tests/modules/src/Form/TestForm.php	54614413268b6599d056ed3a37e83b7d
+M	core/modules/path/src/Plugin/Field/FieldType/PathItem.php	6002d58213e39c49405af56824dfc8b3
+M	core/modules/path/tests/src/Kernel/PathItemTest.php	99a5aa86fda2d84fe028a38a3fabdf0f
+M	core/modules/quickedit/tests/src/Kernel/MetadataGeneratorTest.php	d398a7b5ee2644ae2bf5168113e5aa8c
+M	core/modules/rdf/tests/src/Functional/EntityReferenceFieldAttributesTest.php	49f959ab54456c713c1594d887f31247
+M	core/modules/rdf/tests/src/Functional/StandardProfileTest.php	b22e4e84e71c94ff4dbee2814359ac1d
+M	core/modules/responsive_image/responsive_image.module	4770931c713fc9dd5bf2b57f63be4c65
+M	core/modules/rest/tests/src/Functional/EntityResource/Comment/CommentResourceTestBase.php	3416824702c3910641546b684e419e7b
+M	core/modules/rest/tests/src/Functional/Views/StyleSerializerTest.php	cf2844eb153afca89c9247ddf2b168a5
+M	core/modules/search/src/Tests/SearchConfigSettingsFormTest.php	10c2cd40e0e7a86e44bbfbfc33056e0a
+M	core/modules/serialization/src/Tests/NormalizerTestBase.php	913bd12cecbcd2ec0636dd5e6412bffa
+M	core/modules/settings_tray/tests/src/FunctionalJavascript/SettingsTrayBlockFormTest.php	6e8ef28ffedc507dd80568fbcfbaa858
+M	core/modules/settings_tray/tests/src/FunctionalJavascript/SettingsTrayJavascriptTestBase.php	fab6433fc6152a5200747507400428df
+M	core/modules/simpletest/src/TestDiscovery.php	7cd547f0de93a346ba5c42e2f7c6b86b
+M	core/modules/simpletest/src/Tests/SimpleTestTest.php	a27cefea0196ae2e9f61a4e163b1a676
+A	core/modules/simpletest/src/Tests/SkipRequiredModulesTest.php	e106642c1d0652796774d7bfaba33dfc
+D	core/modules/simpletest/tests/src/Functional/MissingDependentModuleUnitTest.php	
+M	core/modules/system/src/Plugin/Block/SystemMenuBlock.php	1f99df803846f3567d1727acb60b6b7b
+M	core/modules/system/src/Plugin/ImageToolkit/Operation/gd/Rotate.php	784c4ec6975967cce23ad46e2fd1a6e6
+M	core/modules/system/src/Tests/Database/FakeRecord.php	63a778a4da5320e1ca2ea63aed54c7cd
+M	core/modules/system/src/Tests/Form/ElementsTableSelectTest.php	be4b31acbde2b5fcd2e243e0facdaf29
+M	core/modules/system/src/Tests/Form/TriggeringElementTest.php	d423602c35d5b788fcffc518e8bc4cff
+M	core/modules/system/src/Tests/System/FloodTest.php	af360b6fc0d5b49eeadd0f5b97163d3b
+M	core/modules/system/tests/modules/ajax_forms_test/ajax_forms_test.routing.yml	6dfceb00080f17c89abf9119c036ed2b
+M	core/modules/system/tests/modules/ajax_forms_test/src/Callbacks.php	e3c11aceee0f19ce9ed3bc8ad80495ce
+A	core/modules/system/tests/modules/ajax_forms_test/src/Form/AjaxFormsTestAjaxElementsForm.php	c06956046ed22833d61264f21bf66842
+M	core/modules/system/tests/modules/early_rendering_controller_test/src/TestDomainObject.php	bea8286a8d0b0afcedcda2a871becf4d
+M	core/modules/system/tests/modules/image_test/src/Plugin/ImageToolkit/DerivedToolkit.php	e9b1e8165297de9cd54d95d45da1b0bc
+M	core/modules/system/tests/modules/image_test/src/Plugin/ImageToolkit/Operation/test/Bar.php	877405703e4ceac0468adfa054ca0056
+M	core/modules/system/tests/modules/image_test/src/Plugin/ImageToolkit/Operation/test/Foo.php	892faa0f0f1e7b029a80ca4938cc9030
+M	core/modules/system/tests/modules/image_test/src/Plugin/ImageToolkit/Operation/test/FooDerived.php	0a1bf2e969825dcd6996710c79722c63
+M	core/modules/system/tests/modules/plugin_test/src/Plugin/plugin_test/fruit/ExtendingNonInstalledClass.php	0f702ce96cb81b49aa2eab915b8060ca
+M	core/modules/system/tests/modules/plugin_test/src/Plugin/plugin_test/fruit/FruitInterface.php	1e9661c38e040c8c99b6c8fde3050cc3
+M	core/modules/system/tests/src/Functional/FileTransfer/FileTransferTest.php	243136d382f9ef9029cce931565d30f0
+M	core/modules/system/tests/themes/test_theme/src/ThemeClass.php	d39f5f2f84a37ded52392af9019d9229
+M	core/modules/taxonomy/src/Plugin/views/argument/IndexTidDepthModifier.php	1bc010aee342589c78797b1a55cca104
+M	core/modules/taxonomy/src/Plugin/views/filter/TaxonomyIndexTid.php	d98cb82a2e6c05dde07556cffcff6b0d
+M	core/modules/taxonomy/tests/src/Kernel/TermKernelTest.php	faa2541f1ad798b0f13691c9f74a9349
+M	core/modules/text/src/Plugin/Field/FieldFormatter/TextSummaryOrTrimmedFormatter.php	82663089052f74a4ff80921ea5f3114e
+M	core/modules/toolbar/toolbar.api.php	a2338c6940ec3931d4891110c280072e
+M	core/modules/update/update.module	d798d45cb0f8762b1728c878d2837d66
+M	core/modules/user/src/Tests/UserPasswordResetTest.php	b9511e40d783c984863bede61390b8cd
+M	core/modules/user/src/Tests/Views/AccessRoleTest.php	39d20bfa6a4df7d9be78da1f0735d5b6
+M	core/modules/user/tests/src/Kernel/Migrate/d7/MigrateUserTest.php	95d330f1854f196c012852db5fc85ac3
+M	core/modules/user/tests/src/Kernel/UserValidationTest.php	96a650c22c70c395bca792f0f8f98f33
+M	core/modules/views/src/Plugin/views/HandlerBase.php	be7c0d624bae51b49b20b35e4ee1b191
+M	core/modules/views/src/Plugin/views/PluginBase.php	41b709d6c240587d47c8bac1d33a5014
+M	core/modules/views/src/Plugin/views/argument_default/ArgumentDefaultPluginBase.php	1aebbeb86c880549e488f82b4d6b2de5
+M	core/modules/views/src/Plugin/views/argument_validator/ArgumentValidatorPluginBase.php	2a064a450a76c51127bf139b35b890c6
+M	core/modules/views/src/Plugin/views/cache/CachePluginBase.php	76ee92452ea1382b6e8402886c69c215
+M	core/modules/views/src/Plugin/views/display/DefaultDisplay.php	257b1f0486e8df4d26e0baad3123f0d1
+M	core/modules/views/src/Plugin/views/display/DisplayPluginBase.php	794222e1dd28611412283fe3ada365bd
+M	core/modules/views/src/Plugin/views/display_extender/DisplayExtenderPluginBase.php	5ebae2f19f2fa85ee96365b6eb92d9a2
+M	core/modules/views/src/Plugin/views/exposed_form/ExposedFormPluginBase.php	e81ba16a15abf92ff96dca21ab1afd3e
+M	core/modules/views/src/Plugin/views/field/FieldPluginBase.php	8932bf564fea18a1430d06fd93c3a7e4
+M	core/modules/views/src/Plugin/views/filter/FilterPluginBase.php	83889fd35ec954d7f830acae8b9741a2
+M	core/modules/views/src/Plugin/views/filter/GroupByNumeric.php	0a028bf8193af52c8bcaeaf87e690692
+M	core/modules/views/src/Plugin/views/pager/PagerPluginBase.php	2dcf657196d29705160e949a75afeb37
+M	core/modules/views/src/Plugin/views/query/QueryPluginBase.php	6c0c9e2349b04c2d10743f6b5132ee96
+M	core/modules/views/src/Plugin/views/row/RowPluginBase.php	323047b393c109f784d4a3586ef2eeb0
+M	core/modules/views/src/Plugin/views/sort/SortPluginBase.php	ffdc8d5731f1f7880862f950acfb93ce
+M	core/modules/views/src/Plugin/views/style/StylePluginBase.php	2191f2d74765567cc488131230ef89a6
+M	core/modules/views/src/Tests/ViewKernelTestBase.php	1a0e0264038e97c3f27019a21a75b74b
+M	core/modules/views/src/Tests/ViewTestBase.php	74e7f790ed233826c44dab345526480f
+M	core/modules/views/src/Tests/ViewTestData.php	6a9ba2741d5d5914560c796f6d1b882a
+M	core/modules/views/tests/src/Functional/Plugin/ArgumentDefaultTest.php	29d94c6a6ccaf96088422019e503df28
+M	core/modules/views/tests/src/Functional/ViewTestBase.php	6c1012c65580440be47f8040068cea61
+M	core/modules/views/tests/src/Kernel/Handler/FilterCombineTest.php	885921741f408a7ad52ce691448a1453
+M	core/modules/views/tests/src/Kernel/Handler/FilterStringTest.php	6915bfcfd74d3f804491ea92152b9483
+M	core/modules/views/tests/src/Kernel/Handler/SortTranslationTest.php	4a752dd7965966885b8c22a8936ba82a
+M	core/modules/views/tests/src/Kernel/Plugin/RelationshipJoinTestBase.php	c1d85def7f14d825a2fca06673435a9c
+M	core/modules/views/tests/src/Kernel/ViewsKernelTestBase.php	db55870e8d3abfa942ceca351c285408
+M	core/modules/views/tests/src/Unit/ViewExecutableTest.php	f003b164dab249e0875557a5019f0acc
+D	core/modules/views_ui/src/Tests/ExposedFormUITest.php	
+A	core/modules/views_ui/tests/src/Functional/ExposedFormUITest.php	a58e7cd7e91598c4ff7105ea2ae00700
+M	core/modules/views_ui/tests/src/Functional/HandlerTest.php	002c3babd948eb9435ba778a29e1d3a3
+M	core/modules/workflows/src/Plugin/WorkflowTypeBase.php	6ede24e355442beefef75ded77676d02
+M	core/phpcs.xml.dist	75bf39f312ae27714a7538507701b06c
+A	core/tests/Drupal/FunctionalJavascriptTests/Ajax/AjaxCallbacksTest.php	988fa2dc9c51020da6a3d25026944216
+M	core/tests/Drupal/KernelTests/Core/Config/ConfigSchemaTest.php	689e60317bf318740681bcfbd01d632c
+M	core/tests/Drupal/KernelTests/Core/Database/ConnectionTest.php	c9948d5209d1456cacf3647661e063a2
+M	core/tests/Drupal/KernelTests/Core/Database/LoggingTest.php	7f0d9cf3558b5b935c9d5438ec940cc9
+M	core/tests/Drupal/KernelTests/Core/Entity/Element/EntityAutocompleteElementFormTest.php	0cd9d029bf94fcf9efe3d62e6ec4ff9b
+M	core/tests/Drupal/KernelTests/Core/Entity/EntityDefinitionUpdateTest.php	3519cabd440a10d4f761ef814b3fd2fd
+M	core/tests/Drupal/KernelTests/Core/Entity/EntityTypeConstraintsTest.php	64fbf9b41b8fcf509cf560be3ad59c98
+M	core/tests/Drupal/KernelTests/Core/Path/AliasTest.php	00199ab76d57fe49f9c23fe18c901275
+A	core/tests/Drupal/KernelTests/Core/Test/BrowserTestBaseTest.php	272c9a5edf180e1928f1dca3f25ff960
+M	core/tests/Drupal/KernelTests/Core/Theme/ThemeRenderAndAutoescapeTest.php	54a2ff72f3e88df5b77eb2819095b21b
+M	core/tests/Drupal/KernelTests/KernelTestBase.php	3f91f5f03fde8a1086398da67aa899d2
+M	core/tests/Drupal/KernelTests/KernelTestBaseTest.php	2c521b0c815be551f2a6ed435d541369
+M	core/tests/Drupal/Tests/BrowserTestBase.php	d9004614d34cdef2543caa3f02e26c37
+M	core/tests/Drupal/Tests/Component/Utility/NestedArrayTest.php	2a144ab616ad8a1a13c18beb4890131d
+M	core/tests/Drupal/Tests/Component/Utility/RectangleTest.php	9769b57e6143f0ba6c01775de1577698
+M	core/tests/Drupal/Tests/Component/Utility/UrlHelperTest.php	28dda5b33b067f9b62437db12a11c046
+M	core/tests/Drupal/Tests/Core/Access/CsrfTokenGeneratorTest.php	88d04ed91ee0d8b199a78824e87afeca
+M	core/tests/Drupal/Tests/Core/Cache/CacheableMetadataTest.php	be1dfb680fbabcff3679e1e024818c94
+M	core/tests/Drupal/Tests/Core/Entity/EntityTypeBundleInfoTest.php	c6583e672652a49d67b76c1d51442f88
+M	core/tests/Drupal/Tests/Core/Entity/EntityUrlTest.php	81bea75f5afa8118476cef930f88593e
+M	core/tests/Drupal/Tests/Core/Entity/Sql/SqlContentEntityStorageSchemaTest.php	be0bd6c60a282bc7232c53a6f38b6f2e
+M	core/tests/Drupal/Tests/Core/Entity/TypedData/EntityAdapterUnitTest.php	846edf22218de08738910624d513405b
+M	core/tests/Drupal/Tests/Core/EntityReferenceSelection/EntityReferenceSelectionUnitTest.php	ff9012b841aacd1eb5efa23e8328971b
+M	core/tests/Drupal/Tests/Core/Extension/modules/module_handler_test/module_handler_test.module	3b89e0a957bbe18d8d7a7a376e2562c8
+M	core/tests/Drupal/Tests/Core/Extension/modules/module_handler_test_all1/module_handler_test_all1.module	fecd14ab1930c3a1bdadb4f3e1865f7f
+M	core/tests/Drupal/Tests/Core/Form/FormBuilderTest.php	64acb451993a55460a5def09292c517d
+M	core/tests/Drupal/Tests/Core/Form/FormStateTest.php	7e9fe9f9ce7d1822879b580373c05fea
+M	core/tests/Drupal/Tests/Core/Logger/LoggerChannelTest.php	8ac39b5da205070aa0da04f6082f9c3a
+M	core/tests/Drupal/Tests/Core/Plugin/Context/ContextTest.php	af5258e8f1a9cbe65b5a67b55dc5bd2b
+M	core/tests/Drupal/Tests/Core/Render/RendererPlaceholdersTest.php	63fcd3de6f869d35541f6ab05aa6ce7e
+M	core/tests/Drupal/Tests/Core/StackMiddleware/NegotiationMiddlewareTest.php	8ba151d97087116ef938923725b82cc8
+M	core/tests/Drupal/Tests/Core/StringTranslation/TranslationManagerTest.php	b34b6f31e4538ee54d3c1b8eb071f1af
+A	core/tests/Drupal/Tests/TestRequirementsTrait.php	f909595e1f86b0f8d88d3547c42279eb
+A	core/tests/fixtures/BrowserMissingDependentModuleMethodTest.php	f9868a5f079e6c87acabf28be01ac9ef
+A	core/tests/fixtures/BrowserMissingDependentModuleTest.php	fa086919c5d6c597583bd935514fbf0a
+A	core/tests/fixtures/KernelMissingDependentModuleMethodTest.php	7c709bfa18ac0dc3b2945b1964e85131
+A	core/tests/fixtures/KernelMissingDependentModuleTest.php	ab8e8578bb0cc8602e0cde9fdb562d36

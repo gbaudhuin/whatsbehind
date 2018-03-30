@@ -1,0 +1,12 @@
+M	CHANGELOG.txt	5a6130c1d89beb3dfaf68e8312fd4e37
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+D	custom_menu_active_trail.inc	
+M	menu_block.admin.inc	6fb55cb7d9cf597c977aa57911782f3c
+D	menu_block.book.inc	
+M	menu_block.info	ec9fbbcc33afc24926efda2d20af7cde
+M	menu_block.install	e7331150f0aafb0d61f06fc6de300f14
+M	menu_block.module	7141d39d91546ff42c32223bfbdf4af0
+M	menu_block_export.admin.inc	0cbbcfb5cfef8d898e4ce51eae6fd694
+M	menu_block_export.info	34230e8c2dd68040a8a8d9ff725db64b
+M	menu_block_export.module	269c96d345d8c86c5e515ccc269db6f4
+M	plugins/content_types/menu_tree/menu_tree.inc	b9d6b3eea107dcfef6725da469a92d65

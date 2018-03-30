@@ -1,0 +1,5 @@
+A	composer.json	8d0fca48dbdebcd35112b55026b8f9d0
+M	layout_plugin.info.yml	ff370f07c9b65c4c1916245642622858
+M	modules/block_page_layout/block_page_layout.info.yml	3032525846389afd2c41e092ad606ea6
+M	modules/layout_plugin_example/layout_plugin_example.info.yml	7b9683f899b0edb1e2c848dc5095c0b2
+M	src/Plugin/Layout/LayoutPluginManager.php	9e872509d84cb8101df31079e1e5ec19

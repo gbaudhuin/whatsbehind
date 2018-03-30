@@ -1,0 +1,9 @@
+M	CHANGELOG.txt	dcba4748e5463f93da7e1eb774a5a084
+M	includes/mimemail.rules.inc	7602964493efece07d760544230604a6
+M	includes/mimemail.rules_forms.inc	b24a18722d8715d4bae150e0d1c5e40c
+M	mimemail.inc	9cf03bad58732cedd4223744688f0007
+M	mimemail.info	7871d97ac4390e2b751365a987b2641e
+M	mimemail.module	c918841389a7b86080ab11450875d7a2
+M	modules/mimemail_action/mimemail_action.info	10a10731a09f6361563799e5b5be2192
+M	modules/mimemail_action/mimemail_action.module	9cb32f84ebccd26636faacd0605cbf2d
+M	modules/mimemail_compress/mimemail_compress.info	6f4f56c4233a2a37e83cd11c35e1dace

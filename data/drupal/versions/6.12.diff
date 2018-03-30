@@ -1,0 +1,9 @@
+M	CHANGELOG.txt	07bcc568d91a610f408f8f5079e0f1fe
+M	includes/common.inc	38f452eef1899909be7b577d0d529293
+M	includes/form.inc	1d77c84aa0e9c9d5746371eadea07311
+M	includes/theme.inc	85937021b456db32b421ea2da06bec88
+M	modules/book/book-export-html.tpl.php	d87e42426c9ba1de5ae1312183d8c3d9
+M	modules/comment/comment.module	51078c3418e03716c3fd89f41b1599fc
+M	modules/system/system.module	3bd30331e1c33b0386c6878f9cc5e061
+M	modules/taxonomy/taxonomy.module	d8fe37046499f269a7293766c8a136cd
+M	modules/update/update.module	badc7b49115247c643176f5c5fcef866

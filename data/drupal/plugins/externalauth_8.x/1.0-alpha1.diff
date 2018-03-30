@@ -1,0 +1,16 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	6b06e0ef10e166c48752c14d42f9b7bf
+A	externalauth.info.yml	e7f6837df7e938adf7382c0ec4944379
+A	externalauth.install	dee41703b61b80d460ff8361a24165df
+A	externalauth.module	b8f9f9089c56720e89d6b8c0afec15a2
+A	externalauth.services.yml	1cee68df906ff61be5f28c2c1d0130be
+A	src/Authmap.php	636903d06d0445840c37edb3f6caaab1
+A	src/AuthmapInterface.php	bf6cd34cb8076055c1c0750b38699a76
+A	src/Event/ExternalAuthAuthmapAlterEvent.php	d479dddc27bff287776eeaa297949e29
+A	src/Event/ExternalAuthEvents.php	1a1417b8ed11e2cdcfaae507699cdc79
+A	src/Event/ExternalAuthRegisterEvent.php	d89d867e21bd5219f5919af761fd81fa
+A	src/ExternalAuth.php	d5f75093a84a3e5d4b4261beb330bf74
+A	src/ExternalAuthInterface.php	21adf86c0e53ef9c620f1c596cb17580
+A	src/Tests/AuthmapTest.php	c2ca11f81c5189fc232669ca5243d7cb
+A	tests/src/Unit/AuthmapTest.php	50400f8b7e792a0bc439e8a2c87c6e0d
+A	tests/src/Unit/ExternalAuthTest.php	4ab1592643347c79804464bf62a1f774

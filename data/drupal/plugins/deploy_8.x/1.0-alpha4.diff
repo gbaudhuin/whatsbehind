@@ -1,0 +1,7 @@
+M	deploy.info.yml	ee0b7762a0b00592d400d2e898e47427
+M	src/Deploy.php	9da3e41fe251af2484e746e87b3d2a7d
+M	src/DeployInterface.php	61924bfa62fedbde94277cb9593c587c
+M	src/Form/PushForm.php	e6d20f17619882ff399e13bbeb6ed985
+M	src/Tests/DeployTest.php	c1ac137e3ae2bf05b15d224a33f4f986
+M	tests/modules/deploy_test/deploy_test.info.yml	087fa78e3bb2ce9b3496a794c996f94c
+M	tests/src/Unit/DeployUnitTest.php	a7404373b7c9f8424c10c013aa82f844

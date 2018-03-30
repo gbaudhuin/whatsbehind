@@ -1,0 +1,17 @@
+M	includes/forum.variable.inc	62bcc5b6e3e1d4af48d7b68dddc84312
+M	includes/locale.variable.inc	0821db49c3feae087115cd4ce0691d83
+M	includes/menu.variable.inc	767941846b5579980d2b2d5cab7f621e
+M	includes/node.variable.inc	40c1f6274b2558873e2f2a49a634138c
+M	includes/system.variable.inc	9045368f3323d2a154327dbbdf630a78
+M	includes/taxonomy.variable.inc	9d314ef31e98b3691902c067c117901a
+M	includes/translation.variable.inc	33369b278d48f444469ecad211e80249
+M	includes/user.variable.inc	1cf2f3d84f08f7789958c566a3a9eb9b
+A	variable.api.php	d08487b84bbbcf6cf55a8fbafa29593b
+M	variable.form.inc	71a7e53deee8d40f55c3709073bf5072
+M	variable.inc	383591daf668bcdedb63739c3630d673
+M	variable.info	67ea0b5d20b55d5c76f250e970e63353
+M	variable.module	730b5edef1d5e604663b826a1b63b73b
+M	variable.variable.inc	03cd5d8edb52bfaa27a9354ba207b4b7
+M	variable_admin/variable_admin.info	8fe4c1422a157805bd3eedb31b3ccd1a
+M	variable_realm/variable_realm.info	386d392dbef527dcbc2abdae9e558201
+M	variable_store/variable_store.info	e30be25433f58700fa1e9cd4aea3592b

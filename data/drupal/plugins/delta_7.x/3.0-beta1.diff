@@ -1,0 +1,10 @@
+M	delta.info	8211c22855533aa693929693e59e7b2d
+M	delta.install	48c276656905f459e2e07e31a29f1ab4
+M	delta.module	218ead8312ed259a12fbf484e58c5aa9
+A	delta_blocks/delta_blocks.info	7fbf829396ed893c845237cedf19e017
+A	delta_blocks/delta_blocks.install	16190a5d980a6521dc0cbaf41b72f5e3
+A	delta_blocks/delta_blocks.module	9c6caade10b1cceb2d71fd5368dbcc78
+A	delta_blocks/includes/delta_blocks.admin.inc	871b1332cc76d0324c1ac38e613c426d
+A	delta_blocks/includes/delta_blocks.theme.inc	3dc278b8997aa511c8a782192da5bc40
+M	delta_ui/delta_ui.info	04437fe1f51b6bd984f9cc2da214d05f
+M	plugins/context_reaction_delta.inc	9be65d4951c2bc6d185c38cde7a79c6e

@@ -1,0 +1,38 @@
+A	.gitignore	1940d66493702c670473d8838c8db01a
+A	.travis.yml	4d4cc48773ace8a04b306fa0d691868f
+A	MAINTENANCE.md	e17ee5bbd7d7b243476f933850ae8541
+M	README.md	876e5b137e5dbfc16199017e5fb84a68
+A	bin/travis-run-test.sh	ac6ffd639b9e48158e1a8adde04dafab
+A	composer.json	a48d7c497f5a4a93b4779e20c3064b2e
+M	schemata.info.yml	878c2980214bcd5778d8c656ccae663e
+M	schemata_json_schema/schemata_json_schema.info.yml	4624b7adf33088667e9430339ffb53bc
+M	schemata_json_schema/src/Normalizer/hal/DataReferenceDefinitionNormalizer.php	9637d121ab02c65ecf99583b85c07a6e
+M	schemata_json_schema/src/Normalizer/json/DataDefinitionNormalizer.php	d8216cd601355f5086b1844f65fa5c81
+M	schemata_json_schema/src/Normalizer/json/DataReferenceDefinitionNormalizer.php	cbfd3419afa13f168b495ec7ed3edb14
+M	schemata_json_schema/src/Normalizer/jsonapi/ListDataDefinitionNormalizer.php	1cf90ccdbab61a0bcfc24ea1b036beb4
+M	schemata_json_schema/src/Normalizer/jsonapi/RelationshipFieldDefinitionNormalizer.php	2a31e52188d73223004e30ab60ddec88
+M	schemata_json_schema/src/Normalizer/jsonapi/SchemataSchemaNormalizer.php	d1ecfd0690bfe22529914a10b101c980
+M	schemata_json_schema/src/Plugin/schemata_json_schema/type_mapper/TypeMapperBase.php	684fadc090cbc01db52e8f22b10e90c4
+D	schemata_json_schema/src/SchemataHalServiceProvider.php	
+A	schemata_json_schema/src/SchemataJsonSchemaServiceProvider.php	6601172c98f9c6549c43d9a9d2d0f569
+M	src/Routing/Routes.php	7adb3eabfe9032c80e984bd05d9f0419
+M	src/Schema/NodeSchema.php	74b899f854c7cf703f9ac3cd6625885f
+M	src/SchemaFactory.php	bb794c329b54c345c997575efd71dbc1
+D	tests/expectations/node.api_json.json	
+D	tests/expectations/node.camelids.api_json.json	
+D	tests/expectations/node.camelids.hal_json.json	
+D	tests/expectations/node.camelids.json.json	
+D	tests/expectations/node.hal_json.json	
+D	tests/expectations/node.json.json	
+D	tests/expectations/taxonomy_term.api_json.json	
+D	tests/expectations/taxonomy_term.camelids.api_json.json	
+D	tests/expectations/taxonomy_term.camelids.hal_json.json	
+D	tests/expectations/taxonomy_term.camelids.json.json	
+D	tests/expectations/taxonomy_term.hal_json.json	
+D	tests/expectations/taxonomy_term.json.json	
+A	tests/phpcs-ruleset.xml.dist	940628b8e18ed326e417a1bd25624ca8
+A	tests/phpcs.xml	a31d270774a903d2dfd4fd6029d06066
+D	tests/src/Functional/RequestTest.php	
+A	tests/src/Functional/SchemataBrowserTestBase.php	26b1f6370c7ff1e2b364ff5aa51f4cd6
+A	tests/src/Functional/ValidateSchemaTest.php	94bf0bdd69debde782a2b60b94ffcee1
+A	tests/src/Kernel/SchemaFactoryTest.php	3d41ef02cdb150a374e0f1e9c9973ae7

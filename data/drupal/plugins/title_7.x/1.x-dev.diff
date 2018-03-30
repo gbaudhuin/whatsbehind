@@ -1,0 +1,9 @@
+M	CHANGELOG.txt	760203f30533c11cab5a23b4e8a0156c
+A	tests/TitleAdminSettingsTestCase.test	b856bd9acf29e5619ef1f03dc3d4a10a
+A	tests/TitleFieldReplacementTestCase.test	331ad034f432a0853f342521d325e178
+A	tests/TitleTranslationTestCase.test	867cda398ecb37c57aa348c83fcb640b
+D	tests/title.test	
+M	tests/title_test.info	cb6e67224cd610214f966d9004d7c45f
+M	title.core.inc	8b1826bf132bbbb8590a51dcd281a2d0
+M	title.info	a64d6b247c92c4465dce37248d193ca0
+M	title.module	7c6ae8fb01ab6e4047309fdfeaa56d42

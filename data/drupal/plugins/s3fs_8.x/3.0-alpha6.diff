@@ -1,0 +1,8 @@
+M	s3fs.info.yml	3fb3b2fca5a0ed9a668af511d6b2748b
+M	s3fs.install	931eccd7c61f3ee0eb999756a2ae18dc
+A	src/Asset/S3fsCssOptimizer.php	52148c74d4d0dc2a5d6ae82768671b73
+A	src/EventSubscriber/S3fsAdvAggSubscriber.php	b6006f9476de22d0b39d52c78314d23b
+M	src/Form/ActionsForm.php	c7c0fde8c9d84721d4335ff302b78cd5
+D	src/S3fsCssOptimizer.php	
+M	src/S3fsServiceProvider.php	e0fbcf4d022db33c4c90817d14ad9dfd
+M	src/StreamWrapper/S3fsStream.php	bea6c5a05fa0887ed58b551d1aa38412

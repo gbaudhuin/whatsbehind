@@ -1,0 +1,15 @@
+M	CHANGELOG.txt	c0e23f09b1aa1bfb054c75cfb7012087
+M	includes/bootstrap.inc	ffb9012fb1b9bf2435ad66fe566069eb
+M	includes/database.inc	02b481365938ea427b5afe97d22567d3
+M	includes/database.mysql.inc	bfb3d7a5bfe3c332b20703125682dddf
+M	includes/database.mysqli.inc	710822672fb78f04b758e9ddda776bf4
+M	includes/database.pgsql.inc	710d4565321f54c7ff82620b66406e3a
+M	includes/form.inc	48f686b02eff756ed9cc0b9772e6d814
+M	install.php	cc980d5acf68c1e3da720df01a770c9d
+M	modules/color/color.module	76a507cc5c5b72ea49c7b4580f76a75e
+M	modules/comment/comment.module	e149a14b576eefa73a4ff78d1c06d9cd
+M	modules/legacy/legacy.module	a869345473d81aefa61f1e23d8c751cc
+M	modules/system/system.install	3e68fc9595fe63b112043b8cd83e86a3
+M	modules/system/system.module	86e4a8e2a01c749588ae9e73c9c1dcf5
+M	modules/taxonomy/taxonomy.module	21646340827228adae8263fe88faf2e5
+M	modules/user/user.module	f1d453cece4c85c62e8e0fc71bdb84f2

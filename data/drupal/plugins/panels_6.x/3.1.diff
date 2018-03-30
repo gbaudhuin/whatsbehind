@@ -1,0 +1,27 @@
+M	CHANGELOG.txt	5908b9985e8c1080934fd385c77b2fed
+M	css/panels-dashboard.css	c98f44f7eecf0500b6ccf1aec8a71ae6
+M	css/panels_dnd.css	05a2bfc67d26ff5554a361abb356e50b
+M	help/plugin-layout.html	af0001dd6117451e0017904a05cf7b6f
+M	includes/display-edit.inc	29df867ea0b5ddb28cf778004cfe7faf
+D	includes/display-layout-settings.inc	
+M	includes/display-render.inc	a89b1c5ac6acea3905c9b94d326b0090
+M	includes/plugins.inc	d9589f9b805d13103c25eaa3127b0c2b
+D	js/checkboxes.js	
+M	js/display_editor.js	8eb5d4a043c9c3994c108d7e3bf24d0f
+M	js/layout.js	29d381406bf896cba27161db93d401be
+M	js/panels-base.js	3e04a127a55483a5496b430538b94185
+M	js/panels.js	fdc1c172dbf5ad6e0ee34344c2f7207d
+M	panels.info	c59f5089c9476a68b1383306a684a8aa
+M	panels.install	bf98c8ad69da416a39f578b3787962e5
+M	panels.module	44d707cfb773b2a6b8641f12645aa931
+M	panels_mini/panels_mini.admin.inc	59b42ef306177cd1c5cdec05355deba8
+M	panels_mini/panels_mini.info	7fadf48cfbadd6db47b7f85c21ee01c7
+M	panels_mini/panels_mini.module	6bc35757fed9176afab0d43641b6113d
+M	panels_node/panels_node.info	638596799c4c1fb32cd8414e6148aaaf
+M	panels_node/panels_node.module	deb72eafd081edab3f2f44b7f8ce3f60
+M	plugins/layouts/flexible/flexible-admin.js	20cd8f2562304ea146444886e55e609f
+M	plugins/layouts/flexible/flexible.inc	0981762907e6576afc3ab492314e465d
+M	plugins/task_handlers/panel_context.inc	970a99d583d7cd899118ca5453a5a34f
+A	templates/panels-pane.tpl.php	a0236cfb3bb7aa3d8bf31d6c47887b6d
+M	translations/panels.de.po	cc762b542c94199524ff44f2d91df5b9
+A	translations/panels.ja.po	efbb91e09ec66b0e6401cd8e50fd5833

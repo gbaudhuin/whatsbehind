@@ -1,0 +1,13 @@
+M	jsonapi.info.yml	8a31ba896386814fa609a04fd21df569
+M	src/Normalizer/EntityNormalizer.php	ea4f3371b73cb64ca9a439655f7d2528
+A	tests/modules/jsonapi_test_data_type/jsonapi_test_data_type.info.yml	ddebb089b5452226ad06230bddfbd465
+A	tests/modules/jsonapi_test_data_type/jsonapi_test_data_type.services.yml	0e7a0efae2ed4b2569a699fb51765033
+A	tests/modules/jsonapi_test_data_type/src/Normalizer/StringNormalizer.php	ed02e672d899c021015904b6d4b20650
+A	tests/modules/jsonapi_test_field_type/jsonapi_test_field_type.info.yml	487941ca481fe1e230c56e7ac6fcefd9
+A	tests/modules/jsonapi_test_field_type/jsonapi_test_field_type.services.yml	27fb79dd5b45185f2eca705650a459c4
+A	tests/modules/jsonapi_test_field_type/src/Normalizer/StringNormalizer.php	a120c9a7d9827feef5c7cebf4340cd32
+M	tests/src/Functional/BlockContentTest.php	46532cc093fd49b80b0a4cb6344479a1
+M	tests/src/Functional/EntityTestTest.php	c5f084a854277a0db8239f16a898e85d
+A	tests/src/Functional/ExternalNormalizersTest.php	a79967b97ba1e9e1897d3bfa1aa893bc
+M	tests/src/Functional/MediaTest.php	d32cb30a20fb0fa4a8d1d2d03a9c4a83
+M	tests/src/Functional/NodeTest.php	5618a9558bc8e9b73331e0a556ff7250

@@ -1,0 +1,10 @@
+M	commerce_coupon.info	0506c932097b79cb6aa802db9532aa35
+M	commerce_coupon.module	d20a2a260196101a653ef66cddb02932
+M	commerce_coupon.test	5ae59df3c2eb238cbf460864b8008483
+M	includes/commerce_coupon.controller.inc	2f0c4d3bb30239250b9457dd72a3ab3a
+M	modules/date/commerce_coupon_date.info	85cd69f1c4ce96187c4ac1a74fd4dc7b
+M	modules/date/commerce_coupon_date.module	7797b216a90c90cb521ad9264b33065b
+A	modules/usage/commerce_coupon_usage.api.php	4c2b23e8d2d7e94351628db18df24d51
+M	modules/usage/commerce_coupon_usage.info	a8209d97ab9b5a5a9322e4f6abe3e0a7
+M	modules/usage/commerce_coupon_usage.module	5a8e5d285614bac3629d24a2f3aeec1d
+M	modules/user/commerce_coupon_user.info	2267555a5ee5d5a8dad1ba2c7e0c17fe

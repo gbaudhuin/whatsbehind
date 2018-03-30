@@ -1,0 +1,13 @@
+M	geocoder.info.yml	408e8f54f751ca100fdc8d186a0d7723
+M	modules/geocoder_address/geocoder_address.info.yml	f424afcfb6b8bc1f3617a3b0261285d2
+M	modules/geocoder_address/src/Plugin/Geocoder/Preprocessor/Address.php	5f11d106371c24c89abfad8e04c1b4d9
+M	modules/geocoder_field/geocoder_field.info.yml	2c240bb15147893026c659abc75aa868
+M	modules/geocoder_field/geocoder_field.module	fa47f049a79652bef585684d296d51d6
+M	modules/geocoder_field/src/GeocoderFieldPluginInterface.php	d752afae9124b0f8b53891c924c4bac4
+M	modules/geocoder_field/src/Plugin/Geocoder/Field/DefaultField.php	03bae48124e0e9d23608c78ae5121c1d
+M	modules/geocoder_geofield/geocoder_geofield.info.yml	658d1e91137cd093a388b9a331ec693b
+M	modules/geocoder_geofield/src/Plugin/Geocoder/Field/GeofieldField.php	64b929f13c6fa0b3d25474ae51f43205
+M	modules/geocoder_geofield/tests/modules/geocoder_geofield_test/geocoder_geofield_test.info.yml	4c74eb9181b5c8a2d9aeeedbfd4b1f3f
+M	modules/geocoder_geofield/tests/src/Kernel/GeocoderGeofieldIntegrationTest.php	c44b34b57c7b9bd2a0fe8e5facca3d3c
+M	src/Geocoder.php	25baaa275f37f43521c0e9f9087e3c1f
+M	src/GeocoderInterface.php	a2b50dec9fc90ec3528e47ee123032e1

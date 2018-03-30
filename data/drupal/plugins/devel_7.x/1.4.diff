@@ -1,0 +1,25 @@
+D	.gitignore	
+M	README.txt	33693dc07008a72ee9a3947cc7f71844
+M	devel.admin.inc	c3c33fd4802f98c36da432bd5c8cd1dc
+M	devel.drush.inc	cfd6cdf91bccba9c4d6accda37b6b7d6
+M	devel.info	f5afd0dca29b04266d828a84a5935540
+M	devel.install	2511cca5bc893eaef0be2d8e53b9aa1e
+M	devel.js	2906189c25629d246722d5d3d3e4baf8
+M	devel.mail.inc	1af8f5ba49315ec557e3e2bbb313b147
+M	devel.module	828f346ffc6bf53859a18b062366a050
+M	devel.pages.inc	167cc03e6d3183bf68a4456aa996ad04
+M	devel.test	1fa6ea0b208e96df17623dc9eaf4564f
+M	devel_generate/devel_generate.drush.inc	587ca522b5fdf7f83bac6402e9039185
+M	devel_generate/devel_generate.inc	c4918f84702da432af5c755ddfb92081
+M	devel_generate/devel_generate.info	c811432d735bf14ce0a08a0a6ff6dc47
+M	devel_generate/devel_generate.module	b2178abdcd79a6334ba1e29446a99f9f
+A	devel_generate/devel_generate.test	58dce6e70674073a4925dc51f9a59f29
+M	devel_generate/file.devel_generate.inc	ea70946cbcf9c0e47cc7337c9ea55500
+M	devel_generate/image.devel_generate.inc	69e7ea37551e26253fbece0de9bf4e78
+M	devel_generate/text.devel_generate.inc	ed046c52b220cdb6813f93525cbb03bf
+M	devel_krumo_path.js	f71565d3f1875fef6d02bc9395b8c148
+M	devel_node_access.info	6d31adb3adf54d29232b4fa16a452d2e
+M	devel_node_access.js	bdddb021b4845de607e39a23d8318fc9
+M	devel_node_access.module	236390428dea752539373fcec53541e8
+M	krumo/class.krumo.php	b42cf77756a78babe8c07a05726122b0
+A	runtests.sh	745c5fecdc67af3e8358155be4e8c268

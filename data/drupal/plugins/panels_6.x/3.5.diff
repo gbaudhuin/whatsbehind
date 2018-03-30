@@ -1,0 +1,22 @@
+D	API.txt	
+M	CHANGELOG.txt	abb31beff03f5a6ab8504609f499d91f
+D	TODO.txt	
+D	docs/docs.inc	
+D	docs/doxygen.css	
+D	docs/sample_plugin_ct.inc	
+M	includes/callbacks.inc	60f0fa0597acbe4bdb7cdefc1c429eae
+M	includes/common.inc	1c6263fdd3220bd69172124c6532d53e
+M	includes/display-edit.inc	ae965c4e33fff9c89dcc35a94af656cc
+M	includes/display-layout.inc	299c75862c5c4ddeb7420e4c97a089dd
+M	panels.info	d414fb3a89663e30704e8532593dcf64
+M	panels.install	6f5f467c87a1fa0f15d3ab31ec442e8b
+M	panels.module	0d4ae3c540e63985b731e294b2a57cb0
+D	panels2.doxy	
+M	panels_mini/panels_mini.admin.inc	bb3f8fbded56d3ad26ca936854a6b90f
+M	panels_mini/panels_mini.info	1095d42892b224d054243a3f1000c7b5
+M	panels_node/panels_node.info	49abcc0a46609d7f3065c6e65f3b11eb
+M	panels_node/panels_node.module	76f51050ce1b83e6f5496f55d14b765a
+M	panels_stylizer/panels_stylizer.admin.inc	af6a1ebcf3681c1d9ef4e8baa528679a
+M	panels_stylizer/panels_stylizer.info	f9048d83b1971121361b191f2f9f2a47
+M	plugins/layouts/flexible/flexible.inc	54ddb7a866b7b8ee97ecec636be893b0
+M	plugins/task_handlers/panel_context.inc	4a345b014279f8366202aa0222582f87

@@ -1,0 +1,16 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	geofield.devel_generate.inc	54588b7d01a422956c7fdf5d3aed8888
+M	geofield.feeds.inc	a6071adf4f376cb935449aa63fed4084
+M	geofield.info	0c6a3fe6ee31b0439ba680712cd25c53
+M	geofield.module	26297ca9ad0961e20b50e5a3368c6d44
+M	geofield.widgets.inc	c1a903e44ad82949ec122a62405715c8
+M	includes/behaviors/css/openlayers_behavior_geofield.css	39516166dca8a7fffeaff4e1fbf6bd9e
+D	includes/behaviors/css/openlayers_behavior_geofield.css~	
+A	includes/behaviors/images/dropdown.png	317b55693b545dc577924355367f687c
+M	includes/behaviors/js/openlayers_behavior_geofield.js	ebd0575360db58640e330256defed49e
+M	includes/behaviors/openlayers_behavior_geofield.inc	f208c6aa9da84f87349a5d172aafbd4f
+A	js/geolocation.js	a5b332917a3260ecc40f678814e27d7a
+M	modules/geofield_map/geofield_map.info	c9bb897bb336af777bffd1d34a5c894d
+M	modules/geofield_map/geofield_map.module	fa43626c0b3485ec96ede81d401ee3cd
+M	modules/geofield_map/includes/geofield_map_plugin_style_map.inc	237ea41b20d642dc23d4d056c47cb20a
+M	modules/geofield_map/js/geofield_map.js	2b78f99064d5d0b704f68334672abcb5

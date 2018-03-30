@@ -1,0 +1,10 @@
+A	composer.json	02fb06c673d9f959aeb8719d63b064f4
+M	restui.info.yml	10698805f66d46309740d6fd5ea55a39
+M	restui.module	6d6c107e118b861f9941f6209825243a
+M	restui.routing.yml	8c0a8b34324f0f94dd2daf9bcdeb5f7d
+D	restui.services.yml	
+M	src/Controller/RestUIController.php	ff07afb24aabebdf167b675692442fef
+M	src/Form/RestUIForm.php	8af1b714c5082c9f4887cf7f5a0a9fd7
+D	src/RestUIAuthenticationCollector.php	
+D	src/RestUIManager.php	
+M	src/Tests/RestUITest.php	80eae5c91490aa57549b79804bb414df

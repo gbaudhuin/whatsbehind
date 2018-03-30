@@ -1,0 +1,15 @@
+M	README.txt	7e022b64835969561313565f145c470b
+D	Tests/Unit/Plugin/Mail/SwiftMailerTest.php	
+M	composer.json	f3bf4b9055ed600ca29344cd39586407
+A	src/Form/TestForm.php	e4404ae9700587549a80cb93201d27d8
+M	src/Plugin/Mail/SwiftMailer.php	eaa33b64c7bd697472beb0ac68975ff5
+M	src/Tests/SwiftMailerSettingsTest.php	5edef1d1100e3edb656c9ea57371c19e
+M	swiftmailer.info.yml	5b334398bc7606909157a0741f3b5835
+M	swiftmailer.install	2f1d8393e37b85a396a42b5dee77fc2b
+M	swiftmailer.links.menu.yml	d98715091d14d8fadf66f3a0207e8346
+M	swiftmailer.links.task.yml	7b5e08d5bea624d6d1ff8e2c292e1d79
+M	swiftmailer.module	010e796f5d366a13b504172319f50332
+M	swiftmailer.routing.yml	8758864a30b7e5fb13fd8cd25a80f6b4
+M	templates/swiftmailer.html.twig	dd6ea6b258b4b0f02802b97bad9caa93
+A	tests/src/Functional/ExampleMailTest.php	d40cebbe2c3969835581ba61c2897a5f
+A	tests/src/Unit/Plugin/Mail/SwiftMailerTest.php	5e2efb5609fa06f7b609e2728d415154

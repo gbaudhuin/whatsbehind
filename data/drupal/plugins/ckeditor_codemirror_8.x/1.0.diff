@@ -1,0 +1,10 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	fc5882f35019a94f7c632d7e2f87f6f2
+A	ckeditor_codemirror.info.yml	83d9c5010109851982d77ad1f02b95d1
+A	ckeditor_codemirror.install	bf31d2ca503559de2972022230549a3a
+A	ckeditor_codemirror.libraries.yml	73633b8a7388cdb2008f69550ee7dadb
+A	ckeditor_codemirror.module	cacf19f9d5f692267528697a1d0d45cc
+A	config/schema/ckeditor_codemirror.schema.yml	35cbc32e36f1e6b197aa791c45afcf80
+A	js/ckeditor_codemirror.admin.js	56092d11ea3bf12717dfe336f7ff6481
+A	src/Plugin/CKEditorPlugin/CodeMirror.php	ca6004593c924547afee141450722fb3
+A	src/Tests/CkeditorCodeMirrorBasicTest.php	e74a1d18be1226516d6be3dc82b8ede6

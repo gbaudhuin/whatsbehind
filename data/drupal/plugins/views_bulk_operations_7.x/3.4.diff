@@ -1,0 +1,14 @@
+M	actions/archive.action.inc	e38ba7eace1e4f24d1e82bfd90d9c185
+A	actions/change_owner.action.inc	13ac53ff94a9746931ed7c6d9ddbe47e
+M	actions/delete.action.inc	ca4e18acbc3a425c2015ceb2650c99f9
+M	actions/modify.action.inc	d270fd8def73e3afaa0b4f737976fc1f
+M	actions/user_cancel.action.inc	7d30481d9a8d5d13aff79063d18542ed
+M	actions_permissions.info	9745cdac6ee048d631e861533c00fb40
+M	css/views_bulk_operations.css	7c734e15463f4c6c93d43b1ca76828f1
+M	js/views_bulk_operations.js	7770da5e01964c8b067642bbda357d43
+M	views/views_bulk_operations.views.inc	dc389c9d026302acaf8daaec1c35a0b8
+M	views/views_bulk_operations_handler_field_operations.inc	79a01b7f9bc53128dbc4498034f6535a
+M	views_bulk_operations.drush.inc	8637c1d31063c8de1d276cf4b12ea97b
+M	views_bulk_operations.info	4267b9be1812879e97cbd4c1dbfe81d6
+M	views_bulk_operations.module	f40e9a721f8a71cb50eaee65ac475a7f
+M	views_bulk_operations.rules.inc	6ba58c4ca3fd648659d4088c713cddb5

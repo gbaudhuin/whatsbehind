@@ -1,0 +1,53 @@
+A	css/yamlform.assets.css	6f82b53a955a6622db82074ee0681e77
+D	css/yamlform.element.list.css	
+A	css/yamlform.element.multiple.css	062796a2b7e493850f5f1fb4497898f7
+D	css/yamlform.element.options.css	
+M	css/yamlform.element.states.css	2df10ca5dcd5ff67eab6874f117b1d55
+M	images/icons/ex.svg	cf1c932be0fc724681ab9464cd2a9603
+M	images/icons/plus.svg	d848d67e4d2485fd6d525105312d3929
+M	includes/yamlform.translation.inc	34cab31d167993b25426c067b8ac0f55
+A	js/yamlform.assets.js	4209ec5263a842434ab09948a4aec442
+A	js/yamlform.dialog.js	ed567a1737c5252ef634729cd2bcefd1
+M	js/yamlform.element.buttons.js	13fc18d1f263341fee204f008210089c
+M	js/yamlform.element.location.js	14d69dd7f192ea11251cc7ff448fa348
+M	js/yamlform.element.other.js	9f7e9be15431941f3a00743d01fe6659
+M	modules/yamlform_devel/yamlform_devel.info.yml	cdda0d9c01eedfc539d7f8ea6f32055f
+M	modules/yamlform_examples/yamlform_examples.info.yml	d415f82ccd3474af837518d72aecf0b3
+M	modules/yamlform_node/yamlform_node.info.yml	455ad320dfa086e833c6f4cfeaf0e35f
+M	modules/yamlform_templates/src/Controller/YamlFormTemplatesController.php	80c638fb2e01f476f69387dafafee05e
+M	modules/yamlform_templates/src/YamlFormTemplatesSubmissionPreviewForm.php	8e83ac90092b3cb19405e67b276ced35
+M	modules/yamlform_templates/yamlform_templates.info.yml	c94664144ea693b21b1ed9a477055c18
+M	modules/yamlform_to_webform/_config/yamlform_to_webform.yml	587b0500eea9c48f776af64d515f7b28
+M	modules/yamlform_to_webform/src/YamlFormToWebformMigrateManager.php	5ef7c548a94db2afb900252bef6788d8
+M	modules/yamlform_to_webform/yamlform_to_webform.info.yml	caebe7c8caa07e8c9014150f36b4eeea
+M	modules/yamlform_ui/src/Form/YamlFormUiElementEditForm.php	04946612027b2e0f5d6d1ef9ceb49bb0
+M	modules/yamlform_ui/yamlform_ui.info.yml	e7a8297ad64914f9cb3e57ecac4369fc
+M	src/Element/YamlFormCompositeBase.php	dc1f47c7d77836d9d274dd1779ed2e80
+M	src/Element/YamlFormElementOptions.php	2abb2d1dca705a0da9acd337aa21db6c
+M	src/Element/YamlFormElementStates.php	60dd14ca4598cef03a423ae47dec119d
+M	src/Element/YamlFormEmailConfirm.php	9c914b542bc8e7d3e1c539ef2d766a3b
+D	src/Element/YamlFormList.php	
+M	src/Element/YamlFormLocation.php	6a7c907fedf2e6ff06d3d9a07250c57c
+M	src/Element/YamlFormMessage.php	9d1d7f9e7a1a75c5dafe3c323e7b5fa4
+A	src/Element/YamlFormMultiple.php	39377bc5c8b903e7323c2e56214d863b
+M	src/Element/YamlFormOptions.php	420cfdffac73ea6cb27197ab66e750d2
+M	src/Element/YamlFormTableSelectSort.php	65556a423f393c525d06d7f0f97bdcd9
+M	src/Element/YamlFormTableSort.php	bc00700bc3c6465143df56a64b510c2b
+M	src/Form/YamlFormAdminSettingsForm.php	3cfc068977bdaf55f3c04696eab31a95
+M	src/Plugin/YamlFormElement/YamlFormAutocomplete.php	23779df2384b76b7a0e0ae771e31a38a
+M	src/Plugin/YamlFormElement/YamlFormManagedFileBase.php	9c2892b5461e70f7a6425276d2e50738
+M	src/Plugin/YamlFormHandler/EmailYamlFormHandler.php	21f2a1898b5bd6931406d29e7dd61c9e
+D	src/Tests/YamlFormElementListTest.php	
+A	src/Tests/YamlFormElementMultipleTest.php	6292fb6b929c45305db01899aa1e581f
+M	src/Tests/YamlFormElementOptionsTest.php	1890a4d58d834117752cec5f22b5461d
+M	src/YamlFormEntityForm.php	fd790b820c178eabcbb0079781510f05
+D	tests/modules/yamlform_test/config/install/yamlform.yamlform.test_element_list.yml	
+A	tests/modules/yamlform_test/config/install/yamlform.yamlform.test_element_multiple.yml	f04e3cac9a19b247e7a56b1df9c1ddfe
+M	tests/modules/yamlform_test/yamlform_test.info.yml	51a3b914c07564e03a2e171e0cd2e34a
+M	tests/modules/yamlform_test_custom_properties/yamlform_test_custom_properties.info.yml	1b424db854e9ad6d842d8f645785c9f0
+M	tests/modules/yamlform_test_third_party_settings/yamlform_test_third_party_settings.info.yml	0133c30704476bd9f79c6ba5888fb49e
+M	tests/modules/yamlform_test_translation/yamlform_test_translation.info.yml	53f41be7f858ee302dd9ee46505a7807
+M	yamlform.info.yml	eed5da37bb6590bb60632a6d15df8afd
+M	yamlform.install	1b117e152902437982a6543315547938
+M	yamlform.libraries.yml	53cb2398987152c16e95fefc24f6000d
+M	yamlform.module	ca969b712fb124ccf12a504d5466c77a

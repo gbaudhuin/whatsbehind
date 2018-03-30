@@ -1,0 +1,23 @@
+D	README.txt	
+A	Tests/src/Functional/PersistentLoginTest.php	fbaaa55cebafa10280448356031be49f
+A	composer.json	e60fa8420aa6488cd5501385e8d67552
+M	config/install/persistent_login.settings.yml	e34446c794f8d81392f819534c536f4a
+A	config/schema/persistent_login.schema.yml	ccd87e3e136835b3f6117764977dc3b6
+A	persistent_login.config_translation.yml	8306ebe422d0a2a6f606100d429f2bc5
+M	persistent_login.info.yml	f14e129b8c29c7e01a77ddd2456f9ae9
+M	persistent_login.install	6d69f29b21bc188f9d8272987068cca9
+A	persistent_login.links.task.yml	6bcd53dae2ccffafc05560524502aaa3
+M	persistent_login.module	0211e87c3a337bc51562b7a13e636a02
+M	persistent_login.routing.yml	1f5988ec98f6b403a7a678d9d7f4fdda
+M	persistent_login.services.yml	822122b7e3b8fd49f0a438802317c9b1
+A	readme.md	fa51d92907287105d1e73cc2581fc47e
+A	src/Controller/UserController.php	b22e9ed35b879ffa056e4bc1c7d0a77a
+A	src/CookieHelper.php	138e048485bfb2008283c0975a1b4c75
+A	src/CookieHelperInterface.php	0abc4e7befaff95f8f3a0a8c3493d18f
+A	src/EventSubscriber/TokenHandler.php	83c4894f163255b22cf04a64189a7d85
+D	src/EventSubscriber/TokenManager.php	
+M	src/Form/PersistentLoginSettingsForm.php	7e701d4362c5ad47baf289c5ce56b3d7
+A	src/PageCache/RequestPolicy/PendingPersistentLogin.php	cd772f5e557f8d00c5cfcede9dd2585b
+M	src/PersistentToken.php	d00413a2e9402af4616047054a8ad7a8
+A	src/TokenException.php	eb840af6ebab6ff63710f858ac2046cb
+A	src/TokenManager.php	eea5b7f4516644f69ef54b9024924b16

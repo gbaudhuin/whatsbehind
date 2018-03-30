@@ -1,0 +1,6 @@
+A	composer.json	e34d62bbace0440d1ffe49f2cd7d330f
+M	easy_breadcrumb.info.yml	d64808a1016123f7de3592c808f99928
+M	easy_breadcrumb.services.yml	2d85c7eea363740edfaab9b40a96481e
+M	src/EasyBreadcrumbBuilder.php	14509960be558f3a6414b9dbb7c3cc11
+M	src/EventSubscriber/InitSubscriber.php	fcbbe15b8f0841ea7fb06bbb2b986c08
+M	src/Form/EasyBreadcrumbGeneralSettingsForm.php	605f8d04c8f3420b3428a004f1d42eae

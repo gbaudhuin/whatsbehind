@@ -1,0 +1,22 @@
+A	README.txt	a8e42cb4ef4d4f619016cfe757d1f653
+D	fe_block.info	
+D	fe_block.install	
+D	fe_block.module	
+A	fe_block/fe_block.info	f47e894bc23b1e5af4a0397103160afb
+A	fe_block/fe_block.install	09c1c71ad6d1d70c930e37c8940966dc
+A	fe_block/fe_block.module	c9657fc9518d4efea05b5357bf1a28c7
+D	fe_date.info	
+D	fe_date.module	
+A	fe_date/fe_date.info	c0051b4025807018b11dcb615725228d
+A	fe_date/fe_date.module	124750c3f0c5b434aaa8b0131602d2aa
+D	fe_nodequeue.info	
+D	fe_nodequeue.module	
+A	fe_nodequeue/fe_nodequeue.info	747ede853fb38a3a48e3d5afb22c6827
+A	fe_nodequeue/fe_nodequeue.module	b5516be72d0c45f02ddddff32ba992aa
+D	fe_profile.info	
+D	fe_profile.module	
+A	fe_profile/fe_profile.info	4562575f3475c24036084c17355dcbd7
+A	fe_profile/fe_profile.module	ccd3722baf025e4e08feec68b3b8b446
+M	tests/fe_block.test	aadd48657b62879bea2bdc79f03447ac
+M	tests/fe_nodequeue.test	6d2a9ff69654c31917e08994d159730d
+M	tests/features_extra_test.info	d0b2db0bdfeb3d553af55114760eda7d

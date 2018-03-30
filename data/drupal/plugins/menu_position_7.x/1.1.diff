@@ -1,0 +1,8 @@
+M	CHANGELOG.txt	aec6b870dbdb141cd13680516223f0d3
+M	menu_position.admin.inc	cb397405e44519dfe78d73c902f66516
+M	menu_position.api.php	6e348b3f0ec63a4399da587f214d080b
+M	menu_position.info	cd41be585a1e7b8cfff4b307cb68482d
+M	menu_position.module	ed71d992e5fadcd723a2af188f2805bb
+M	plugins/menu_position.taxonomy.inc	5668ac54911714529661a15904b6c2a4
+A	plugins/menu_position.user_roles.inc	0d6553fea73d2d55ca8f5567c443f062
+A	plugins/menu_position.user_roles.js	bba947c36395db6b5bc0aecf0427a4aa

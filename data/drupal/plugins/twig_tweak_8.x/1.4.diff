@@ -1,0 +1,8 @@
+M	src/TwigExtension.php	5bc6b54b2d219179775f2078a80bc5fe
+A	tests/src/Functional/TwigTweakTest.php	7b5dce94836dfb6c8d952b28bd0e3bf6
+A	tests/twig_tweak_test/config/install/block.block.powered_by_drupal.yml	5b33fe9f0edf94e0000901550a990a17
+A	tests/twig_tweak_test/config/install/views.view.twig_tweak_test.yml	0419d1a38662812b64bbb0bee40bb4db
+A	tests/twig_tweak_test/templates/twig-tweak-test.html.twig	1dfd41c5c67f94c7b455abe80c34ec5b
+A	tests/twig_tweak_test/twig_tweak_test.info.yml	e386c393dccb96ff6f047c7efd36fb7e
+A	tests/twig_tweak_test/twig_tweak_test.module	1bd92a164540f7f293e1de0ed81dc131
+M	twig_tweak.info.yml	51b6c2381df600f0bcb61c58df966c9e

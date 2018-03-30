@@ -1,0 +1,10 @@
+M	README.txt	a2af055aacfddfe4447fd7d2cbed14c5
+M	cdn.info.yml	c1951a3dabe0648cdcc9ba5e0f4c0ffb
+M	cdn.module	517fd835373ce976bf87f24944007767
+M	cdn_ui/cdn_ui.info.yml	d03eec4aad739701ffc9b70bc27f3e56
+M	cdn_ui/src/Form/CdnSettingsForm.php	1178cb8c3a03f34f0963899ca2091bd8
+M	src/File/FileUrlGenerator.php	e159495129148ccca868c6908192eb2e
+M	src/StackMiddleware/DuplicateContentPreventionMiddleware.php	226e5a4a7f8714127a360cf231475e19
+M	tests/src/Functional/Update/CdnDefaultSettingsUpdateTest.php	ac5a3a2d33fe84458e11d9e9e242d27d
+M	tests/src/Kernel/EditorFileReferenceFilterTest.php	45a083cf43df0f9a849decf0376dca2e
+M	tests/src/Unit/StackMiddleware/DuplicateContentPreventionMiddlewareTest.php	007d6c38ee02e0648cb74e2580507b7d

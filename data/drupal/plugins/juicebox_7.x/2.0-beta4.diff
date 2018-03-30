@@ -1,0 +1,20 @@
+D	includes/JuiceboxConnector.inc	
+M	includes/JuiceboxGallery.inc	503d09ec87c78513fc9a8fe97389a2e5
+A	includes/JuiceboxGalleryDecorator.inc	3d1f3b6f1fc8770a81fa49ca1c33dad5
+A	includes/JuiceboxGalleryDrupal.inc	823394ffefde781a881922e54362e8b9
+A	includes/JuiceboxGalleryDrupalInterface.inc	0ebbccfac297047e14d3a2f84cb6465f
+M	includes/JuiceboxGalleryInterface.inc	4f04432d239dd144c06903fa2b92f701
+M	juicebox.admin.inc	e2a8e568ab191f42c2814b84829d0350
+M	juicebox.api.php	1607be81b0eaca61f3f2a222acdf252d
+A	juicebox.field.inc	be66a8c60feaec0a11f83df5094d8dbd
+M	juicebox.info	ee250e62608627ed3c6fbf7346df671c
+M	juicebox.install	bc8732de0be567fcd22e45a7d3deed7b
+M	juicebox.module	1f4d231fda952d21ca875b07d2ee7370
+D	plugins/JuiceboxConnectorField.inc	
+D	plugins/JuiceboxConnectorViewsStyle.inc	
+A	plugins/JuiceboxFormatterViewsStyle.inc	8a95ecc27c40185da170a67bbc7ed2b1
+D	plugins/JuiceboxViewsStylePlugin.inc	
+A	plugins/JuiceboxXmlField.inc	cd62e81b0dcda4bc8499a6d65fd3467a
+A	plugins/JuiceboxXmlInterface.inc	b78626f47fc45f80dc619e3332ad1427
+A	plugins/JuiceboxXmlViewsStyle.inc	0e005a84f66953687513571b20c834a2
+M	themes/juicebox.theme.inc	3bb9d85444ab427733039f733bac5aff

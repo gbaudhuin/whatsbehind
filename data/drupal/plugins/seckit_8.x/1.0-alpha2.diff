@@ -1,0 +1,9 @@
+M	config/install/seckit.settings.yml	1cf11e3fa4d8bc29db15fcb93f239516
+M	seckit.info.yml	9fac8188c9ad5267037957cae7cca4b0
+M	seckit.module	8aa0086ada4588b338cf505f44272c92
+M	seckit.routing.yml	8798c8cbd70ee3ea4287839bcc469865
+M	src/Controller/SeckitExportController.php	d0ed01eeede2eab1f1600238217525a1
+M	src/EventSubscriber/SecKitEventSubscriber.php	60ca4134101cd3fe58f3049a44caba06
+M	src/Form/SecKitSettingsForm.php	2d7cfc88db4e4b18f7e7071489b664cd
+M	src/Tests/SecKitCSPCaseTest.php	916834502835384bf029a673ac620d7e
+M	src/Tests/SecKitTestCaseTest.php	0a810eae14f6844b1a0dfe93150385fb

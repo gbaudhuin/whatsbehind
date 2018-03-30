@@ -1,0 +1,10 @@
+M	README.txt	0ff1bc56b8fb8fdb4b02905de28a13eb
+A	js/plugins/media/icons/hidpi/media.png	de4aed9a7f1b21ddeb869025ab9d0d21
+A	js/plugins/media/icons/media.png	819f031f80e6d74aab6b04e8ade2c9c0
+D	js/plugins/media/images/icon.gif	
+M	js/plugins/media/library.js	872c0025fe8a01c7bbc31ad078a2b8af
+M	js/plugins/media/plugin.js	e19b20d5468967843c997ea4f2ff9d40
+M	media_ckeditor.ckeditor.inc	3f2e85e0b0f71b76d21469fdee6353fe
+M	media_ckeditor.info	4875c89034adc2d3cc8741e12c59a003
+M	media_ckeditor.module	35e146b9fe620b0dbf3aeb42e36a1493
+M	tests/media_ckeditor_test.info	ebdf4a8cbef7eb9f67959bba7d5acfad

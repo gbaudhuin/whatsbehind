@@ -1,0 +1,17 @@
+M	README.txt	c85e13aef83638e8fdd1744b7c99ffbe
+M	captcha.admin.inc	f6c3bade7d68fb988f3384b79c5e1cd6
+M	captcha.info	b0c650ef01dd716d35df530fc6adaea3
+M	captcha.install	1bdcec990096894e6e99054fb748a7b9
+M	captcha.module	df2f93833bc794415aed8a520b4ac5e7
+M	captcha.test	065467c0f317808cb91a0715856fc8b2
+M	image_captcha/image_captcha.admin.inc	858abb5d5c059859cf1c3fb178f31020
+A	image_captcha/image_captcha.css	e03f56abba6ef09268906cc394c6adb1
+M	image_captcha/image_captcha.info	fabf79788521db8ba4a4badac7f222c1
+M	image_captcha/image_captcha.install	615e7b38e14592c21c06838efdb166c0
+M	image_captcha/image_captcha.module	5ed46893d75d3be78221b38630d163be
+M	image_captcha/image_captcha.user.inc	8e96d7e887419b6b90d00d7c76259727
+M	translations/de.po	2c700558550bb77cfcbd1bfd8567799c
+A	translations/es.po	dfe8ca2678dd2049b503e69de7f217eb
+M	translations/hu.po	d5926e2618f4d0022fbc5e9fa5a7ca4b
+M	translations/uk-ua.po	faf2451f2c4741c45e65b156396df917
+M	translations/uk.po	faf2451f2c4741c45e65b156396df917

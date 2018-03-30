@@ -1,0 +1,13 @@
+M	cas.info.yml	f428addc03aa38beab71337cfa27ac5b
+M	src/CasRedirectData.php	087ad0c14bf623eedc8d79eb5543877c
+M	src/Controller/ForceLoginController.php	eaf4e66a11d3be36c19455f57fbd297c
+M	src/Event/CasPreLoginEvent.php	0753aa97ea0f7306e7eee4e45d8a2317
+M	src/Event/CasPreRegisterEvent.php	938c015cb2c3b04ff2bd68f08f203a0b
+M	src/Form/CasSettings.php	1e3b41527ab08656888f20cee079d944
+M	src/Service/CasRedirector.php	b06a73c2a18c825f2b98f3a10184f877
+M	src/Service/CasUserManager.php	556ab6b34d2d1c0f32d547c86bc005aa
+M	src/Subscriber/CasSubscriber.php	331e3540c43004cf44c76511099b1eac
+M	tests/modules/cas_test/cas_test.info.yml	a795b3469e28eff20dea4a82fdf7b943
+M	tests/src/Unit/CasRedirectDataTest.php	4e6cc7447898c8c112a40950e6766d4a
+M	tests/src/Unit/Service/CasRedirectorTest.php	5e93cf24fa623af181321967395b4052
+M	tests/src/Unit/Service/CasUserManagerTest.php	ae92a11e58bc68792aa29b35d8396a37

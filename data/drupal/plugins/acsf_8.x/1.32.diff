@@ -1,0 +1,16 @@
+M	acsf.drush.inc	d0dfd1367f825f17c8cc47bc1a3f74b4
+M	acsf.info.yml	b00ac87e788de3433759c1fb98f19369
+M	acsf_duplication/acsf_duplication.info.yml	50846a7e5efaabd4f20eb41c231c6932
+M	acsf_init/acsf_init.drush.inc	a747e22c1191056487b4246b1ab2673f
+A	acsf_init/lib/sites/default/acsf.legacy.default.settings.php	d02597d68501f278cad0370477ffda57
+A	acsf_init/lib/sites/default/acsf.settings.php	24d15c04aeb3e786fa46c1e3f729bf94
+D	acsf_init/lib/sites/default/settings.php	
+M	acsf_init/lib/sites/g/settings.php	c156c0ff3355083a8301eb12e003e27e
+M	acsf_sso/acsf_sso.info.yml	5385d98ac476d0d0980d54765bc7d42e
+M	acsf_sso/acsf_sso.install	78e0115dad4c6a2104ccc95e837bb085
+M	acsf_theme/acsf_theme.info.yml	2c1b8e696b9b91ed288469d5f80dee68
+M	acsf_variables/acsf_variables.info.yml	f7a76d13979f66a5372b274b1de49de6
+M	build_info	76a01a7baf1220733ab50be843228530
+D	scripts/acsf_cron	
+D	scripts/acsf_ssh	
+M	src/Event/AcsfDuplicationScrubConfigurationHandler.php	64163539df95a1f717bf76be42426cdb

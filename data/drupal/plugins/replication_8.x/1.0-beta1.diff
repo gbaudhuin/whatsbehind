@@ -1,0 +1,10 @@
+M	.travis.yml	118f11786c6d67d6ed4b32a759056a1b
+A	.travis/drupal-8.3.x.make.yml	0f291d31696258db75bde19890811223
+M	replication.info.yml	769369f09fc91c13e411ea87625aa3c5
+M	src/Normalizer/EntityReferenceItemNormalizer.php	384ca91f0b1e800996a5fe461ffd44bd
+M	src/ProcessFileAttachment.php	8127ef3a1764948b625ddd7fdbad00b3
+M	tests/src/Kernel/ReplicationLogTest.php	3bd4d377e4f4a0cdcb49b2a035f84163
+M	tests/src/Unit/Normalizer/ContentEntityNormalizerTest.php	2652a78ea2a5a16e5df95e6bcc000c65
+A	tests/src/Unit/Normalizer/EntityReferenceItemNormalizerTest.php	2ebb0141557bd70c43c1252d6f801f29
+M	tests/src/Unit/Normalizer/FileItemNormalizerTest.php	970d83042d90cb7290a9aed2bca209af
+M	tests/src/Unit/Normalizer/LinkItemNormalizerTest.php	5145ee90f9c67c6cfda0767c7e4bd67f

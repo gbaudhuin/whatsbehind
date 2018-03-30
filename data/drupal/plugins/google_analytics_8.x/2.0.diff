@@ -1,0 +1,11 @@
+A	composer.json	41db3531c850934f8ea9e16a7700c044
+M	google_analytics.info.yml	e0783e1a52b6ab211b095778f9ec9d73
+M	google_analytics.install	cb413053cbf78bcbee2c66b4def06314
+M	google_analytics.module	077739cda7196e5e6c90448e28eb0fb0
+M	js/google_analytics.debug.js	95b86896b4abe1e748b2a509410bf53a
+M	js/google_analytics.js	f9d2ac1975e5a748ccda06da037006a7
+M	migration_templates/d7_google_analytics_settings.yml	c459fa9ae533dea7c6d5b66c1090d9a7
+M	src/Form/GoogleAnalyticsAdminSettingsForm.php	90e5d80d964b9c4f73815362b627b6a9
+M	src/Plugin/migrate/process/GoogleAnalyticsVisibilityPages.php	6334f2cae66f67493e30dc270ae9ef62
+M	src/Plugin/migrate/process/GoogleAnalyticsVisibilityRoles.php	236050fa35d5b47dbc42da1d0a3a51ed
+M	src/Tests/GoogleAnalyticsBasicTest.php	e4f5299a9a16f66ed5fecd4d1c17cd9a

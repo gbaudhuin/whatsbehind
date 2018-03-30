@@ -1,0 +1,8 @@
+M	tests/workbench_moderation_node_access_test/workbench_moderation_node_access_test.info	9460c307c56ddc5839e5eae28dd7c038
+D	tests/workbench_moderation_test.info	
+D	tests/workbench_moderation_test.module	
+M	tests/workbench_moderation_test/workbench_moderation_test.info	69c932b0371b57292dbda1d189d8a625
+M	workbench_moderation.features.inc	bc35512855994e7d057f27ca101b7338
+M	workbench_moderation.info	69b5e238dfe001c1423f03a7288a98d4
+M	workbench_moderation.module	2b8b027c76ee0642b60846b1feec9e86
+M	workbench_moderation.node.inc	7ede467c9a34c9b545d59a50285ffe89

@@ -1,0 +1,14 @@
+M	README.txt	a6d487e79ea2e9be31c74a4cf7938633
+A	css/views-slideshow-pager-bullets.css	4587f836182954644c9f55b0bb3345f0
+M	js/views_slideshow.js	3d7a161a00eeafcc63220b0618b32c6b
+A	modules/views_slideshow_cycle/drush.services.yml	6db02b4b18bdb419730e16173f0fb295
+A	modules/views_slideshow_cycle/src/Commands/ViewsSlideshowCycleCommands.php	594a1f23fd3ca46080c19a83f01da3cc
+M	modules/views_slideshow_cycle/views_slideshow_cycle.drush.inc	5be8df71baaa5b8aa9ebb9a1f7fbc732
+M	modules/views_slideshow_cycle/views_slideshow_cycle.info.yml	5afb132a5cecb9363e50af52168e9fa0
+A	src/Plugin/ViewsSlideshowWidget/PagerBullets.php	8736a68f4ce2e5eeb17c95ea3bb1d77b
+A	templates/views-slideshow-pager-bullets.html.twig	c67ebc7c78f94c44aef7d76abede7505
+M	tests/modules/views_slideshow_test/views_slideshow_test.info.yml	dd0ea1a991c6ad729ac9ca39656fb8ea
+M	views_slideshow.info.yml	b6d3094fc0ae53e5d8e33032e6188df1
+M	views_slideshow.libraries.yml	b6bea3a5c629fd943a1a9559d79202a0
+M	views_slideshow.module	242372373d5993a65960e6881e6371b3
+M	views_slideshow.theme.inc	c346a788340a67e363a6854e3dcc8a0a

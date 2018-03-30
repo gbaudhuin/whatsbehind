@@ -1,0 +1,12 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	50595351d0b3c98a5b5f4fc737ae5e88
+A	config/install/form_placeholder.settings.yml	fec1a868bf92201765430d9f355b51f2
+A	config/schema/form_placeholder.schema.yml	3a55738eea98b82044b772340a1ebeb7
+A	form_placeholder.info.yml	9c4f43f48cbcdced94ef335a31a29472
+A	form_placeholder.libraries.yml	980c778f53ea3e0e152a7032027831d9
+A	form_placeholder.links.menu.yml	bbaa56429e740ac2ebdb25d7948676bf
+A	form_placeholder.module	7dc75b0c0687b179d735a3bcaa5bb0ea
+A	form_placeholder.permissions.yml	868d06114bf94e8cb0d43b629dcfcae2
+A	form_placeholder.routing.yml	70ea574741916336ff066682a75a9527
+A	js/form_placeholder.js	d24d6719fae5bb2e3d6ae61d7f12dc0c
+A	src/Form/SettingsForm.php	02dc57643496caffa8d287375455fa67

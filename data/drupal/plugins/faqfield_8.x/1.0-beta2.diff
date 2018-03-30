@@ -1,0 +1,5 @@
+M	faqfield.info.yml	f5685a673c264d148c5a0bfac8d8d793
+A	faqfield.libraries.yml	ca09a71892c9a64026aa36ce5f35ef98
+A	js/faqfield.accordion.js	a750797c169ea875fab60538570325d1
+M	src/Plugin/Field/FieldFormatter/FaqFieldAccordionFormatter.php	8200d62c6cf2adbce0d37065d6dc3040
+M	src/Plugin/Field/FieldWidget/FaqFieldDefaultWidget.php	7d3e36f94dc26265d27b4183fcee344d

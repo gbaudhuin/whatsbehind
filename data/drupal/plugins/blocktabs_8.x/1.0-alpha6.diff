@@ -1,0 +1,9 @@
+M	blocktabs.info.yml	7bf5420894424f2e90bb2a8a1e3564c3
+M	blocktabs.libraries.yml	a64908634238fc2afb866c87b16b198d
+M	blocktabs.module	469f358f22d11048ad3c8b405f8e2e5b
+M	config/schema/blocktabs.schema.yml	b3a8158c2047b3a446984344da85b230
+A	css/blocktabs.css	9ad0f725f8b433524c261e4b686699e5
+M	js/blocktabs.js	ea800b8372b185fa8b0bf297ddae36e6
+M	src/Entity/Blocktabs.php	a90c4b048658a9a9a4a68686054198eb
+M	src/Form/BlocktabsFormBase.php	d45a47f280c8a322bbe20794fe846729
+M	templates/blocktabs.html.twig	9f09e7b4fb75ca7372843533e018e2f3

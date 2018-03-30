@@ -1,0 +1,11 @@
+M	config/schema/eu_cookie_compliance.schema.yml	34e2ddcd011b30d81ec4abe469141b8d
+M	eu_cookie_compliance.info.yml	694c143fedc5135e590aa5d64ee5d16a
+M	eu_cookie_compliance.module	198cc803390d436cdd944a17e3358312
+A	eu_cookie_compliance.post_update.php	3b2cb1918ff8d9d47cfe9c0bcc971a67
+M	src/Form/EuCookieComplianceAdminForm.php	a00f5d237e50f26391a9b7dd474d79fb
+A	src/Tests/Update/EuCookieComplianceUpdateTest.php	91ee916976bd7b79d3d316405341e9d8
+A	tests/fixtures/update/drupal-8.eu-cookie-compliance-beta5.standard.php.gz	c1f87cf247f71f7fbb2fb80e93d196a0
+A	tests/fixtures/update/drupal-8.user-role-manager-2774143.php	59d354f3c0f0381f28ba2344d3a04cdf
+A	tests/fixtures/update/user.role.secondtestfor2774143.yml	359a254fa14f4df0d53284a2a5be9ed3
+A	tests/fixtures/update/user.role.testfor2774143.yml	053e74b80f4c37b077bcdfb0e0ab626b
+M	tests/modules/eu_cookie_compliance_test.info.yml	ad954a23d1cb8fe41caa769473d6cc03

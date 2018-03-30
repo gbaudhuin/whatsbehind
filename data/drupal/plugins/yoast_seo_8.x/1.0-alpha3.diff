@@ -1,0 +1,6 @@
+M	js/yoast_seo.edit_node.js	ececeb4852c249b550163880efee30ee
+M	src/Plugin/Field/FieldFormatter/YoastSeoFormatter.php	93f1ebbfd081dba78bf291bf162bbb02
+M	src/YoastSeoFieldManager.php	e5856beed32975a2201d8fdd6dadde14
+M	yoast_seo.info.yml	14fa20fe7318168667377b65d529c449
+M	yoast_seo.libraries.yml	900c6db514b3676ed397b56e6bd5fa98
+M	yoast_seo.module	38b41e92a85e68ffe42ecda967cf7f74

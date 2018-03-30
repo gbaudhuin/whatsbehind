@@ -1,0 +1,13 @@
+M	juicebox.info.yml	0d36826355c5f3eef0e8d60387c2bb36
+M	juicebox.links.contextual.yml	f7b43ca68e8dbcc8e11d2214ed3e18ce
+M	juicebox.routing.yml	4418ed19f20ab3e865fd4a65cc5cfd0f
+M	src/Controller/JuiceboxXmlControllerBase.php	7b2aea830787f43906f2806fa26a87ff
+M	src/Controller/JuiceboxXmlControllerField.php	2cbbbd619509679b33c831312948738d
+A	src/Controller/JuiceboxXmlControllerViewsStyle.php	33e18790b32c6c006e25bb847ca0eac5
+M	src/JuiceboxFormatter.php	5a323adffebf90facc3313324065f4b4
+M	src/JuiceboxFormatterInterface.php	f5b117ace2392adc560f322ab6cb36d3
+M	src/Plugin/Field/FieldFormatter/JuiceboxFieldFormatter.php	8482c9449ede5063fe3dcab67bdea9dc
+A	src/Plugin/Views/Style/JuiceboxDisplayStyle.php	3ee93a1a68138b5efe2bf12e242c5c9a
+M	src/Tests/JuiceboxConfGlobalCase.php	da3d4a4c6b59b0fb960a493658f5a97e
+M	tests/modules/juicebox_mimic_article/juicebox_mimic_article.info.yml	5c84ea04c61c45a0b1935e31fe83e4f4
+M	tests/modules/juicebox_test_views/juicebox_test_views.info.yml	330fbd80893c6da90703c2ec004b6a0a

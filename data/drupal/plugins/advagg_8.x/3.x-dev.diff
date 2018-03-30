@@ -1,0 +1,11 @@
+M	advagg.info.yml	4acc0d45b93a731223f9b11e30c25c6e
+M	advagg_bundler/advagg_bundler.info.yml	bcc789d6b523ee0a0ee65502a8acd017
+M	advagg_bundler/tests/modules/advagg_bundler_test/advagg_bundler_test.info.yml	27b1d6fe3d8e51cd31f00dddd5e92ce0
+M	advagg_cdn/advagg_cdn.info.yml	df7deb3de4f731d64898f3deacdc7b38
+M	advagg_css_minify/advagg_css_minify.info.yml	b0becaa6e647fe10ae2d5c14178ecb11
+M	advagg_ext_minify/advagg_ext_minify.info.yml	bb08dd4bc1c97ad45c971f23f057fa94
+M	advagg_js_minify/advagg_js_minify.info.yml	83de0b74f830b49454a0e2b13d2f7365
+M	advagg_mod/advagg_mod.info.yml	effd8af7b41f894861d0351e5652298b
+M	advagg_old_ie_compatibility/advagg_old_ie_compatibility.info.yml	49ac2b01896210e19463d0c3ac1353fd
+M	advagg_validator/advagg_validator.info.yml	ee4971d233b9561eedd1c130933fec69
+M	tests/modules/advagg_test/advagg_test.info.yml	0ca61d0ab00c93c33a61bdfa8cffc77d

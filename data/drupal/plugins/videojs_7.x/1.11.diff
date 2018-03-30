@@ -1,0 +1,12 @@
+M	README.txt	3f75ea0a9b4d16173e7fed33320c64c3
+M	includes/videojs.admin.inc	f889e90bd2a94ac283758a702a229434
+M	includes/videojs.theme.inc	fe6cb6853cc92c4b55b1a509d656f21e
+M	includes/videojs.views.inc	1892c83e7509da073f2479fc3dbd1af9
+M	includes/videojs_style_plugin.inc	4e4833ee92bfed1590e767eee33d530b
+M	theme/videojs.css	147d1274203cfb1a471f2c4be54632f1
+M	theme/videojs.tpl.php	3026c4e348ca7248480f458e29ca1323
+M	videojs.info	9d91b4c927f2b4e303768822400674bc
+M	videojs.install	700a7086a76bbe03580eb925fc6bc4d0
+A	videojs.make.sample	b1b9490d7d1a55ce1a55f288bf10ba35
+D	videojs.make.test	
+M	videojs.module	4f199f3a54f1baed4aa642eec7557113

@@ -1,0 +1,16 @@
+A	.gitignore	27ae2bcd5a73f5a839f5438b5faa750b
+A	CHANGELOG.txt	1bf381640a94a411d112b460ac761e5e
+M	README.txt	74cf5284666dc5e7ff5b7c252201403d
+M	config/schema/linkicon.schema.yml	4bacb78b7e89eb5f4db4dc192c811431
+M	linkicon.info.yml	9e701735d18c5e9cbbc64d94fe7f2a1d
+M	linkicon.libraries.yml	5606b6e7cf444db54f381b35c4298701
+M	linkicon.module	f7c4f2aa8eb2006885bed4b5bfc11241
+A	linkicon.services.yml	e7afc7de3c74506251b66d64cc9264ca
+A	linkicon.theme.inc	1bc60052a66dd343c1f683f9ab40724d
+M	src/LinkIconItem.php	b4c6e9848b37f1e7ca9b88b9c79e3717
+A	src/LinkIconManager.php	51701f571a4c204f279257545ca7204a
+A	src/LinkIconManagerInterface.php	ea4f18539538215a6b654b54510476b7
+M	src/LinkiconSettingsForm.php	e9274feac56acaa4e7590d9571af09bc
+M	src/Plugin/Field/FieldFormatter/LinkIconFormatter.php	b40c33b59d389039ef107fd599641c24
+A	templates/linkicon-item.html.twig	7bcaa5d43a2c5e7b344344140092cf8f
+M	templates/linkicon.html.twig	4e3425fdee4c2d274362b5767944d1cb

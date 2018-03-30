@@ -1,0 +1,16 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	9471c4d3acfbf9dd73cef4f9eb2571d9
+A	aBig.gif	381261d54396717af9b71fc8bcc69343
+A	aSmall.gif	6104ee4ee796007e5aead471644c87df
+A	a_reset.gif	db672d5eda9b89b220225402ecb9a4e8
+A	config/text_resize.settings.yml	bd3478a47f1fb7da6ff09b3634e6f627
+A	src/Form/TextResizeSettingsForm.php	bf4bceeca746f0a1c795fd39c88d12e4
+A	src/Plugin/Block/textResizeBlock.php	791d0b9379442956fb836db20d6e4568
+A	templates/text-resize-block.html.twig	8b40cdbda397421c848f0034918a1097
+A	text_resize.css	102c91d668db61a5ec513bb6b12684df
+A	text_resize.info.yml	a23022811122f8aa7bd3aae7c079bee8
+A	text_resize.js	29eb338a267e240b339072a83436ba7c
+A	text_resize.libraries.yml	6fbcee011de99fa5598c6ab2b54b9679
+A	text_resize.links.menu.yml	792ebed3bd1066fd45a84b3258f89b0f
+A	text_resize.module	c5170222537fd1ebd6a824830add27d6
+A	text_resize.routing.yml	77d49b24a05c69452fb7690d3995a9a9

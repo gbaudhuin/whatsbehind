@@ -1,0 +1,13 @@
+M	captcha.info	1f99854b0ecfd83c541b0956e621fe52
+M	captcha.module	900342cb04457b5d1e1c0206149f7d67
+M	image_captcha/fonts/README.txt	d3ea15345604d0e3c62bb47e3adc3b61
+A	image_captcha/fonts/Tesox/tesox.ttf	da2986afbdd3b72d6ac4dc260a935964
+A	image_captcha/fonts/Tesox/tesox_readme.txt	2e147ff22d07efcaca93d2cd5321f3be
+A	image_captcha/fonts/Tuffy/README.txt	12af202b2c4820ce88ea9773df097fdb
+A	image_captcha/fonts/Tuffy/Tuffy.ttf	1c28f465d9f1379f07437d9df543d422
+A	image_captcha/fonts/Tuffy/Tuffy_Bold.ttf	32c9f4f8f5079ce7718df5028bba4ee2
+M	image_captcha/image_captcha.admin.inc	15d1d4043b03675d6826ddc52af22bce
+M	image_captcha/image_captcha.info	fb43e9c5708a278e502f552293137072
+M	image_captcha/image_captcha.module	26c46986c26fbdc5abf7a350f61c6294
+M	image_captcha/image_captcha.user.inc	620826720d83a8489fe0c482714a6b8d
+M	translations/captcha-module.pot	4f3fa7d6c2f20b9d1ca701afef7fb8d5

@@ -1,0 +1,10 @@
+M	CHANGELOG.txt	586f4503a1291a32393721fe00833f48
+M	menu_position.admin.inc	5b08cce63bcbeaf970d0ff2172ca3e7f
+M	menu_position.api.php	6055b0b0ec5b5263dc45124c7bd6e89c
+M	menu_position.info	d07bb2f6a58fd16344b4e423f4b3c9e7
+M	menu_position.install	06895fe7096083350427424481375ae8
+M	menu_position.module	50d063608214bc6cd98e91e52c9e268d
+M	plugins/menu_position.content_type.inc	bb19f79f40127accb37e436b296dd9a7
+M	plugins/menu_position.example_plugin.js	3eed9d0eb317af27879e0b3cf7970270
+A	plugins/menu_position.taxonomy.inc	39bf36396cabf869d7f3862bb030e357
+A	plugins/menu_position.taxonomy.js	9d0315cd95f72799e95e8d4c5bd226f1

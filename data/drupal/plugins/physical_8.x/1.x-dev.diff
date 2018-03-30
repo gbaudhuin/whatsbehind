@@ -1,0 +1,7 @@
+M	physical.info.yml	746b2d9b925053b08e4bbccf9a7bb527
+M	physical.services.yml	c53efe5272de7b83638f7411482c416c
+M	src/Element/Dimensions.php	3373781fd85c60c3b95bbcebc2fe5d45
+M	src/Element/Measurement.php	e369d41c15785490ce86d30c76fedd6e
+M	src/Element/Number.php	d2a37f1cdc324b7a987f904e461c3644
+A	src/Plugin/migrate/process/PhysicalWeight.php	4c746f164618e42d50f17dac422aa3b9
+M	tests/modules/physical_test/physical_test.info.yml	e441652e0b33fcda2d7191075970ed03

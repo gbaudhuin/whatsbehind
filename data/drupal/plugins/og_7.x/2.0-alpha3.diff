@@ -1,0 +1,91 @@
+A	includes/actions/membership_delete.action.inc	ea5a2fc950b20a331a64ad04b39b4bbc
+A	includes/actions/set_state.action.inc	01249887e91de6008609184ba1b6ea6b
+A	includes/actions/user_roles.action.inc	39daea6d62c60e5884f6edff83e9741c
+M	includes/og.admin.inc	2cf12d4331593b1dbcddfd7f88448969
+M	includes/og.info.inc	f2b46019626a8973e760346fec67d8a9
+M	includes/og.views.inc	34eefb07fafcd1a0e1263dd7edca1420
+M	includes/og.views_default.inc	4b6517cac8a971f76d08a68d090c331f
+D	includes/views/og_handler_argument_group_audience_gid.inc	
+M	includes/views/og_handler_field_prerender_list.inc	84ed192ea94ca010ce818c175b063654
+M	includes/views/og_handler_field_user_roles.inc	066ca7a34b51a8c34a8426e4634ffd72
+D	includes/views/og_handler_filter_group_roles.inc	
+D	includes/views/og_handler_filter_group_state.inc	
+M	includes/views/og_plugin_argument_default_user_groups.inc	3aa805f6bbd6ae4d4b199e9bffe7d0b8
+M	includes/views/og_plugin_argument_validate_group.inc	a8808143ba84af1b5e1a54e65b796591
+M	og.api.php	acba36a8f5d9ababf9fe30308512c11d
+D	og.devel_generate.inc	
+D	og.field.inc	
+M	og.info	8a712f6312bcb50400f98c411e2a8f53
+M	og.install	95b29885b82e00c246103f3b1192ca51
+M	og.module	33ba75be4d08fcb49a6cfbe080594ea7
+M	og.rules.inc	077d11310252a96d6119ac49750734e2
+M	og.rules_defaults.inc	bfc1c8f6386f856dc7414b80a98e68f1
+M	og.test	de46f5e734bdc5aa094732e389e0ae32
+M	og_access/og_access.info	fde82d35e61ff022305a28c983c09b66
+M	og_access/og_access.install	9401c19231eb0d7c20ff60f81d0f68d0
+M	og_access/og_access.module	aa2e1e6eee03abcb58355e335ec43eee
+M	og_access/og_access.test	9727c09e5295ebbf79b307f6178b831c
+M	og_context/includes/views/og_context_plugin_access_og_perm.inc	d1b1eb64376072e5d33c3aa900d91b24
+M	og_context/includes/views/og_context_plugin_argument_default_group_context.inc	2018067fc5eb3fc71d66a5d18ab028ac
+M	og_context/og_context.admin.inc	7f20bb53c2c6975ca5ecd71d3d8908e7
+M	og_context/og_context.api.php	5696332c26a1aab2c38fba9a04c058e0
+M	og_context/og_context.info	f361011f837649d2e98d7922b81fce50
+M	og_context/og_context.module	79165ccb347151b7e228e0ae890c3612
+M	og_example/og_example.features.field.inc	cbbe600fa9bbbdde343c9147744bf484
+M	og_example/og_example.features.inc	40f1faaa1e5d5208949074680f7bd4a4
+M	og_example/og_example.info	7662389b6b6a2ef5dda140070dc235d4
+A	og_example/og_example.install	9be2fb0f9f37eea3cc68c7419418a200
+M	og_example/og_example.pages_default.inc	0c811b0e1c3c5b9442a65f53b2889440
+A	og_example/og_example.rules_defaults.inc	cf481043c276a53ed74ea47c7f84b059
+M	og_field_access/og_field_access.info	20a24f053507b7b36c63e42c1f9fa553
+M	og_field_access/og_field_access.module	7858e52abbf9858a67d1be79629e9a8f
+M	og_field_access/og_field_access.test	cab7f295ee08239b1ae2dcc21576c524
+M	og_migrate/og_migrate.info	469bf6b7326f14416bf4c13c28c003c2
+M	og_migrate/og_migrate.module	9747adfecce6c201580be3e71efb5475
+D	og_migrate/og_migrate.test	
+D	og_migrate/plugins/og_migrate/upgrade_group.inc	
+D	og_migrate/plugins/og_migrate/upgrade_group_content.inc	
+D	og_migrate/plugins/og_migrate/upgrade_group_description.inc	
+D	og_migrate/plugins/og_migrate/upgrade_user.inc	
+M	og_register/og_register.info	07e64fcc01159c38a76f1326ce2483f5
+M	og_register/og_register.module	c87adc94aed486a66e95c30f275c4f33
+A	og_ui/css/og_ui-rtl.css	4f1197a3233a8dbfa9d414f647bf09cd
+M	og_ui/css/og_ui.css	51d217be2b6c2cbe8ccc665dc5c5cbc2
+A	og_ui/includes/views/og_ui.views.inc	97fa95a1997ad6c0eb473876bb7e92a0
+A	og_ui/includes/views/og_ui.views_default.inc	9b229ed83505314cde5c138341714146
+A	og_ui/includes/views/og_ui_handler_area_og_membership_overview.inc	8444caebfaeacd43fadbb4ab55cb4fce
+M	og_ui/og_ui.admin.inc	26c23d448afc7bf9c523e95e50003c22
+M	og_ui/og_ui.api.php	c184e89a7947f2e0f190e166d9197a67
+M	og_ui/og_ui.info	21306fb69ad86026675937a1d9bcaf74
+M	og_ui/og_ui.install	64b71ddc470cc1b4255c8fc48aa8f857
+M	og_ui/og_ui.module	7ec116b74120ce48dd9c79bc5f1cffbc
+M	og_ui/og_ui.pages.inc	28e90370c1d6c3eac8d13f2ca5beccbc
+M	og_ui/og_ui.test	1c6e7557d602ae9102322a042f0630e0
+A	og_ui/plugins/content_types/membership_links/membership_links.inc	0263d6309ca6a15a555e5a011ca8a328
+A	og_ui/plugins/og_migrate/7000/og_ui_7000_group_visibility.inc	b05746fd37d5e35b26aa74624ed5315f
+D	og_ui/plugins/og_migrate/upgrade_group_visibility.inc	
+M	plugins/access/og_is_node_group.inc	f578b10ebaaa0fcf71c7ac9fb190c0a4
+M	plugins/access/og_member.inc	1f54d8001590cb3a8161f87c197987c3
+M	plugins/access/og_perm.inc	640c0133bc93a639c5a35afea1a1d3fa
+M	plugins/content_types/node_create_links/node_create_links.inc	407fdd87641d275dcd58793f01d2dfca
+A	plugins/entityreference/behavior/OgBehaviorHandler.class.php	ba77b4c70584a262ed0229e2e49e1fde
+A	plugins/entityreference/behavior/og_behavior.inc	ad24e97244da80ab254de2429e8a5d34
+A	plugins/entityreference/selection/OgSelectionHandler.class.php	d6a81ccadd1843352ed036d01f539438
+A	plugins/entityreference/selection/og.inc	903cc81af258a8f9e0322b6e40e283aa
+A	plugins/og_migrate/7000/og_7000_group.inc	e363f54b572ee3e728e452f72c11d712
+A	plugins/og_migrate/7000/og_7000_group_content.inc	1508b79f4a58c68c22b43a2654d3adb5
+A	plugins/og_migrate/7000/og_7000_group_description.inc	7c7e97ec4a305e5608043c5ca6b07dc4
+A	plugins/og_migrate/7000/og_7000_user.inc	5e2a855a81f74ba011883807d73f4a7d
+A	plugins/og_migrate/7200/og_7200_og_membership.inc	c9aab1eb66d4eedc995a88e480021add
+A	plugins/og_migrate/7200/og_7200_ogur.inc	9e3fa2946b59bcb76565fa5b1db84ad8
+A	plugins/og_migrate/7200/og_7200_remove_global_roles.inc	596f4430eef1efae109999bee45d86e5
+A	plugins/og_migrate/7200/og_7200_roles.inc	3884cff459c54c70fb0c93a3e56bca65
+A	plugins/og_migrate/7200/og_7200_user_roles.inc	a10f82205c7d0afba7176e288e656e56
+D	plugins/og_migrate/group_membership.inc	
+D	plugins/relationships/og_group_from_node.inc	
+D	plugins/relationships/og_membership_from_group.inc	
+A	plugins/relationships/og_membership_from_group_and_user.inc	e7cdd1b4b324f429e802838429ee7436
+D	plugins/relationships/og_node_from_group.inc	
+M	tests/drupal-7.og.update_7001.database.php	4db1bb28b167ec64f59914216b0febce
+M	tests/og_test.info	84d8701d7a3aa4ce12ef28589c5fa943
+M	tests/og_test.module	5a092874859e899fc219a4232e94626a

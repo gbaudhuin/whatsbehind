@@ -1,0 +1,17 @@
+M	plugins/accordion/views_bootstrap_accordion_plugin_style.inc	86f8efcd30af138a5fbb7c6ab2017634
+M	plugins/media/views_bootstrap_media_plugin_style.inc	a3ee8db6e88243e1bed810efe625c2f2
+M	plugins/tab/views_bootstrap_tab_plugin_style.inc	b68abb80569be50f27504cde6c108811
+M	templates/accordion/theme.inc	5094a0886484781153e63279afa75854
+M	templates/accordion/views-bootstrap-accordion-plugin-style.tpl.php	cc3d1382c43a1cf1647ffcf06b8b0d85
+M	templates/carousel/theme.inc	802d06efd0f540e2ef59571580f3c8b0
+M	templates/carousel/views-bootstrap-carousel-plugin-style.tpl.php	b71d2b87329e403a70c287a99657de62
+M	templates/grid/views-bootstrap-grid-plugin-style.tpl.php	5d2f89adc0e824f061cf1aafe5161bae
+M	templates/media/theme.inc	5feca697156db573e45daffbe490804c
+M	templates/media/views-bootstrap-media-plugin-style.tpl.php	0a4d12184bd31a5cd7ae31564b290bdb
+M	templates/tab/theme.inc	c19d855e994db9eb6fe907e9de2e088c
+M	templates/tab/views-bootstrap-tab-plugin-style.tpl.php	ac3358746618fe00f163520789e8b75f
+M	templates/table/views-bootstrap-table-plugin-style.tpl.php	76240a02642e665d9fd8c49ae94e7639
+M	templates/thumbnail/views-bootstrap-thumbnail-plugin-rows.tpl.php	a9c850081caae80c2aa04a7f3c62defc
+M	templates/thumbnail/views-bootstrap-thumbnail-plugin-style.tpl.php	db541dc7716d849286d6f129037740cc
+M	views_bootstrap.info	908fca6f980cc025c261f68b28548f12
+M	views_bootstrap.views.inc	28e323c2f3b1a32feb37879d5d4b5b09

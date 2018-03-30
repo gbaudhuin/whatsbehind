@@ -1,0 +1,8 @@
+M	layout_plugin.info.yml	705eb4066b783ddc0b4121f787e8805c
+M	modules/block_page_layout/block_page_layout.info.yml	ee3b2be15c0c1469406a3cbb0e0e57de
+M	modules/layout_plugin_example/layout_plugin_example.info.yml	1657e380acc23392548745aa0e0119ff
+M	modules/layout_plugin_example/layout_plugin_example.layouts.yml	8a8a8dae69cf5935f279c5186c528f19
+A	modules/layout_plugin_example/layout_plugin_example.libraries.yml	ce5acddee6987cf934f4b8a0ff59ed9f
+M	src/Annotation/Layout.php	0677206787138cdb6db58daabd289229
+M	src/Plugin/Layout/LayoutBase.php	3cd12171eb13231ecee53f392bcda68d
+M	src/Plugin/Layout/LayoutInterface.php	487416799bea1ada03407e97b04e9b53

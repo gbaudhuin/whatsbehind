@@ -1,0 +1,7 @@
+M	override_node_options.info.yml	02af92b3cdc74128e7149e4f78833d40
+M	override_node_options.module	fc2c7a6b549346c331e05e5982addba3
+M	src/Form/OverrideNodeOptionsNodeForm.php	49767654cac618436d13d53ad35d92f2
+M	src/Permission/OverrideNodeOptionsPermissions.php	45e9a97d66eb5ac0cf34ce9ce1c99d72
+D	src/Tests/OverrideNodeOptionsTest.php	
+A	tests/src/Functional/BulkFormTest.php	cd90e2440b157370c05c90eb18717e0c
+A	tests/src/Functional/OverrideNodeOptionsTest.php	b1b8f82eaad537b3ebfed4904e31bdbd

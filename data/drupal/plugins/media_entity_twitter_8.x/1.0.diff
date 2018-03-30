@@ -1,0 +1,4 @@
+M	js/twitter.js	4855bda29138eabe61386a36ae81f315
+M	media_entity_twitter.info.yml	717880a46a04eb2e8be0541cd93aaf68
+M	media_entity_twitter.libraries.yml	c2542a60247b56036f92fa87f6b456fa
+M	src/Plugin/MediaEntity/Type/Twitter.php	4b711fcbb9039a8bfd665221528419f1

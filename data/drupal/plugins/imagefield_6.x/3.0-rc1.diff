@@ -1,0 +1,8 @@
+M	imagefield.css	a1225f6223eb4162408105a4f56ccc12
+M	imagefield.info	e6d31abd2ae93bc52fe13a6d68798cd9
+M	imagefield.install	033ec627b4a8716e3591190b47f429b8
+M	imagefield.module	056488d0a76d9dc6685ef8b2a4a4ebc1
+M	imagefield_file.inc	e55a584b8fb7c5ae9315b0c8fbb9800f
+M	imagefield_formatter.inc	92d7ec301f4cc3147eb1a5b95a6baea0
+M	imagefield_widget.inc	e09258dba34614916fb1049db9d83de2
+A	tests/imagefield.test	ec97c40add972c94bedb7a9b8d52def0

@@ -1,0 +1,6 @@
+M	README.md	3066698f3710ab23e24428dbaa771bee
+M	addtocalendar.info.yml	3e402dc9c518bf9d13cd64142f41c17d
+A	config/install/addtocalendar.settings.yml	e559002b989f7ab40f675a9503f42d54
+A	config/schema/addtocalendar.schema.yml	6b70925fc262f0cc9b0b2ceba68306b8
+M	includes/addtocalendar.build.inc	009a280197e8fa85979b79d02ae69689
+M	includes/addtocalendar.form.inc	4bad6d4678b84829e2d99524bbbe5315

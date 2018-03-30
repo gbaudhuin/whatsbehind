@@ -1,0 +1,9 @@
+M	README.txt	67ccf75bcb867fd6ced1d95d654c12be
+A	checklistapi.drush.inc	585b0c9c50062868255e74741915f213
+M	checklistapi.info	24f7b411946ef25946a7b8f2188331f3
+M	checklistapi.js	0e92dcf8a3f526354da42752d6bc9b36
+M	checklistapi_example/checklistapi_example.info	d88975eec4183f856dc9132a9fd14a28
+M	checklistapi_example/checklistapi_example.module	007400f6c43e4d5aeaad1eba554cc15c
+A	run-tests.sh	982a28c602b3d0e94cfe174af30c05b0
+M	tests/checklistapi.test	4709fb6d54d71501e671479c5962e41a
+M	tests/modules/checklistapi_test/checklistapi_test.info	1e3c5ff20eb185fe4689b8f49f4751bf

@@ -1,0 +1,12 @@
+M	modules/rh_file/rh_file.info.yml	f6f4db36ff2c4a7b72cd131feb95ffbc
+M	modules/rh_node/rh_node.info.yml	ae63a3ee4e06ccf8b76be25e4c1d21f6
+M	modules/rh_taxonomy/rh_taxonomy.info.yml	9320d1396c653950958281590733a777
+M	modules/rh_taxonomy/src/Plugin/RabbitHoleEntityPlugin/Taxonomy.php	84a6f92ad6a77ef1f8d38edca7c338ba
+M	modules/rh_user/rh_user.info.yml	59a328b4f2a672b663f6962685f0419f
+M	rabbit_hole.info.yml	5f4749bfd9c651ff7ab93808b380c2ac
+M	src/BehaviorSettingsManager.php	02ef8979a6046f4d246e091d6cc54dd9
+M	src/FormManglerService.php	5301368b55e2325338b59a9905858090
+M	src/Plugin/RabbitHoleBehaviorPlugin/PageRedirect.php	19f246988ad4805ad1512524f7de429c
+M	src/Plugin/RabbitHoleEntityPluginBase.php	34f6d04a339590537fe30ecde3c5fad1
+M	src/Plugin/RabbitHoleEntityPluginInterface.php	737eb607d750305c61bc5e9706b64569
+M	src/Plugin/RabbitHoleEntityPluginManager.php	32cebdddc0333f8b0393287b47435589

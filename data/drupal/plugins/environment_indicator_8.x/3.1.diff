@@ -1,0 +1,5 @@
+M	environment_indicator.info.yml	ae780226b17a3c466e9d1509aa1415b8
+A	modules/environment_indicator_ui/environment_indicator_ui.info.yml	25bba16cc829a1d827315cfdc16ec482
+A	modules/environment_indicator_ui/environment_indicator_ui.links.task.yml	9da8672fdb18bc96a5e1969e7369cec3
+A	modules/environment_indicator_ui/environment_indicator_ui.routing.yml	3a87a547c5749ae74617c6d042c38ba2
+A	modules/environment_indicator_ui/src/Form/EnvironmentIndicatorUISettingsForm.php	6ae7b2412e98ba21fef163affe872eab

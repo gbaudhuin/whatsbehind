@@ -1,0 +1,20 @@
+M	.travis.yml	0a2720f5be333821548b979de61c6b07
+A	CHANGELOG.md	67b9fd171eaa0ea44cc8db975d6b2c34
+M	lightning_media.info.yml	066b0c0674fb54f447714da3077df7ca
+M	modules/lightning_media_bulk_upload/lightning_media_bulk_upload.info.yml	18e78b92ba0d161912bbb631ee14c039
+M	modules/lightning_media_document/lightning_media_document.info.yml	4c27446b001f88606bc972f42c5426c2
+M	modules/lightning_media_image/lightning_media_image.info.yml	cc54b0751d61e0f844df377a963fb714
+D	modules/lightning_media_image/src/Update/Update218.php	
+M	modules/lightning_media_instagram/lightning_media_instagram.info.yml	f3e5c98a42269304c19c3b0883d8235e
+M	modules/lightning_media_twitter/lightning_media_twitter.info.yml	90cb149f22ea7f887af45cd9323fe366
+M	modules/lightning_media_video/lightning_media_video.info.yml	7f226382c4fd525d8e323adf218f9828
+D	src/Update/Update218.php	
+D	src/Update/Update224.php	
+D	tests/fixtures/1.0.0-rc1.sql.gz	
+A	tests/fixtures/1.0.0-rc2.sql.gz	a8629107041355a97e8f47c5445b7a08
+M	tests/modules/test_10a21ffe/test_10a21ffe.info.yml	8418b00a602bbaca42f3e8a436722507
+M	tests/modules/test_2d0a5254/test_2d0a5254.info.yml	283309fe38195f65aee5ffbc35e41968
+M	tests/modules/test_2f72f4a4/test_2f72f4a4.info.yml	7392c748fa763fa31c0366e11fb1d838
+M	tests/modules/test_c0a74801/test_c0a74801.info.yml	a8d19f2c03313a98982c006acb26a12c
+M	tests/modules/test_c74eadd0/test_c74eadd0.info.yml	de586cc2902793b51a9499a62a190f6b
+M	tests/modules/test_ced013a5/test_ced013a5.info.yml	8c8e70b73105fe0bc1da507565a863bf

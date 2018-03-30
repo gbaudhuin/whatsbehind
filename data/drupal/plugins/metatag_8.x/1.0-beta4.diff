@@ -1,0 +1,85 @@
+M	CHANGELOG.txt	90365f937aa2863d2575a969d14c8749
+M	README.txt	e3ba24f793fc676bc09cb8e7f856d440
+M	config/schema/metatag.metatag_defaults.schema.yml	b7502e11a6714d06d68d2fe7f429dea4
+M	config/schema/metatag.metatag_tag.schema.yml	06abacc961663238492c7bffcfcdce63
+M	config/translations/console.en.yml	d4279fadc45ba65b0db04114b8170cff
+M	metatag.info.yml	0937713ed85c5f3a107ce7b30103ffdb
+M	metatag.install	6b116f46e91079aba8f69f079c05f043
+M	metatag.links.action.yml	2e191d83e150c9685c05bf7081c19b1c
+M	metatag.links.menu.yml	ff3d0044b807b366ab5bd953850fa4f2
+M	metatag.module	71679322389a48644a15b2286d1aedaf
+M	metatag.routing.yml	9a66af4e4a969522c410dc90c24d1429
+A	metatag_open_graph/metatag_open_graph.info.yml	01ffaf4df89ae72e21ef5ed4a120f007
+A	metatag_open_graph/src/Plugin/metatag/Group/OpenGraph.php	fc68b159993dec6506086a407138afcb
+A	metatag_open_graph/src/Plugin/metatag/Tag/OgCountryName.php	c0debe2d84a3fb3139c3d010d21ce57a
+A	metatag_open_graph/src/Plugin/metatag/Tag/OgDescription.php	15d12e967b27abdf045bca136af8c723
+A	metatag_open_graph/src/Plugin/metatag/Tag/OgDeterminer.php	a50e9c3187e98e48a8a379659fe5d7ac
+A	metatag_open_graph/src/Plugin/metatag/Tag/OgEmail.php	8723f0bb5c7d0550e01b774a98512cf6
+A	metatag_open_graph/src/Plugin/metatag/Tag/OgFaxNumber.php	187e1df0787034c18fff9e756161b3ab
+A	metatag_open_graph/src/Plugin/metatag/Tag/OgImage.php	3a5410a49c4ae02de4a880518faacb13
+A	metatag_open_graph/src/Plugin/metatag/Tag/OgImageHeight.php	877b91baca0ec66fd82b82969f43a5d2
+A	metatag_open_graph/src/Plugin/metatag/Tag/OgImageSecureUrl.php	1e3ab9a3d868d7d92590ea9b658759fb
+A	metatag_open_graph/src/Plugin/metatag/Tag/OgImageType.php	8be8aed90a16702bc45bb2bede999ed9
+A	metatag_open_graph/src/Plugin/metatag/Tag/OgImageUrl.php	7af6b1b4fd0de795edef2d0eeb686be5
+A	metatag_open_graph/src/Plugin/metatag/Tag/OgImageWidth.php	5efec67f8bbf773283e24be8d5238498
+A	metatag_open_graph/src/Plugin/metatag/Tag/OgLatitude.php	f5eae25462a0b56e5d61ef260fc9cec2
+A	metatag_open_graph/src/Plugin/metatag/Tag/OgLocale.php	da07895f359fe980ff1fe963c03e3862
+A	metatag_open_graph/src/Plugin/metatag/Tag/OgLocaleAlternative.php	6edcbf24aee8e70eddfa6a59426775db
+A	metatag_open_graph/src/Plugin/metatag/Tag/OgLocality.php	ca41ea580dc001e41a6617716c54b226
+A	metatag_open_graph/src/Plugin/metatag/Tag/OgLongitude.php	2dbcb1b1f0ef7d1153a4f4d823593235
+A	metatag_open_graph/src/Plugin/metatag/Tag/OgPhoneNumber.php	d782848422176fa7f866e193c95b2048
+A	metatag_open_graph/src/Plugin/metatag/Tag/OgPostalCode.php	bdf6ee708f7e3d16f5596dfbf274397d
+A	metatag_open_graph/src/Plugin/metatag/Tag/OgRegion.php	c23ab37a97f1ab01c68a7fd8e3cd9a56
+A	metatag_open_graph/src/Plugin/metatag/Tag/OgSeeAlso.php	28473ff97c2326d49f2e9024fb5cfb64
+A	metatag_open_graph/src/Plugin/metatag/Tag/OgSiteName.php	3a016f24ce6830e329cfb561ab056f39
+A	metatag_open_graph/src/Plugin/metatag/Tag/OgStreetAddress.php	2df1933b47db49a4705dd40335281014
+A	metatag_open_graph/src/Plugin/metatag/Tag/OgTitle.php	cd11ff8c9c413c03438316fb58358323
+A	metatag_open_graph/src/Plugin/metatag/Tag/OgType.php	6ca7cae8681c47fd699b7729858e5ae7
+A	metatag_open_graph/src/Plugin/metatag/Tag/OgUpdatedTime.php	cdc00a956f350d8f81e08c077b1c36be
+A	metatag_open_graph/src/Plugin/metatag/Tag/OgUrl.php	56ee9694ded6a165d7196f1d12a4bd58
+M	src/Annotation/MetatagTag.php	91a2a0f2ba43ec27cef3619cb12b0038
+M	src/Command/GenerateTagCommand.php	ebbca674ae16c2b8f4862a2065c2e0a4
+M	src/Entity/MetatagDefaults.php	a026e80dc19ca132bce49ee1fa8e35d6
+M	src/Form/MetatagDefaultsForm.php	00626ed24c524ff28973cb11c09ae087
+M	src/Generator/MetatagTagGenerator.php	010e4779af614b4b16ece6b743865868
+M	src/MetatagDefaultsListBuilder.php	f8895963abe2a5db3643d3e2a91ec4d5
+M	src/MetatagManager.php	a03c7b76c6b04f0bfa3054e1faff096a
+M	src/MetatagToken.php	83a6ad3843c9b0d4af9a967939a4438a
+M	src/Plugin/Field/FieldType/MetatagFieldItem.php	94ab42234e41a0abd4b0b82cd8f6a635
+M	src/Plugin/Field/FieldWidget/MetatagFirehose.php	f37a985c6761ace7ce075608bfc9bcd7
+D	src/Plugin/metatag/Group/OpenGraph.php	
+M	src/Plugin/metatag/Tag/AbstractTag.php	f8abc0a3af2d11664f1dea39adbd918e
+M	src/Plugin/metatag/Tag/CanonicalUrl.php	0522ed057981ced59079b1695ccb16fd
+M	src/Plugin/metatag/Tag/ContentLanguage.php	7b1163eba4dfecb41b058ff1a0f6b6dc
+M	src/Plugin/metatag/Tag/Description.php	ee8f1674a3adb8bbb07ca60c4322c68a
+M	src/Plugin/metatag/Tag/FbAdmins.php	0224137071aed0cdbbd75ca1fbfde97d
+M	src/Plugin/metatag/Tag/FbAppId.php	f1e098686120051bb223f4bcc9dbf4f1
+M	src/Plugin/metatag/Tag/Generator.php	5b1045e586b158fe98c429c77639260f
+M	src/Plugin/metatag/Tag/ImageSrc.php	52b3c437f9ea528a884a88c6b702330c
+M	src/Plugin/metatag/Tag/Keywords.php	7ebfa8189abc9c75a5e656ce9e69f9e8
+M	src/Plugin/metatag/Tag/LinkRelBase.php	9d642b60e4ac7724c8eb4a750feabdb5
+M	src/Plugin/metatag/Tag/MetaHttpEquivBase.php	c2c7eb973840fcf4234868c8ad8f14bb
+M	src/Plugin/metatag/Tag/MetaPropertyBase.php	37a8291a4b84a5393ec5d5de5251c8d8
+M	src/Plugin/metatag/Tag/NewsKeywords.php	4c6b96e61389743996eaa4b7f0805a1d
+D	src/Plugin/metatag/Tag/OgDescription.php	
+D	src/Plugin/metatag/Tag/OgImage.php	
+D	src/Plugin/metatag/Tag/OgImageSecureUrl.php	
+D	src/Plugin/metatag/Tag/OgImageUrl.php	
+D	src/Plugin/metatag/Tag/OgSiteName.php	
+D	src/Plugin/metatag/Tag/OgTitle.php	
+D	src/Plugin/metatag/Tag/OgType.php	
+D	src/Plugin/metatag/Tag/OgUrl.php	
+M	src/Plugin/metatag/Tag/OriginalSource.php	25e8bbd755cb41ca05a3945e05e25a53
+M	src/Plugin/metatag/Tag/Rights.php	72925ae896af90c1c3eeb68ecf132683
+M	src/Plugin/metatag/Tag/Robots.php	c1a4f2e1912d9a128cdd4e4b775a4a6d
+M	src/Plugin/metatag/Tag/ShortLink.php	718a3511b6248c686257c04d9e156504
+M	src/Plugin/metatag/Tag/Standout.php	ae2247da15659e3787c732c6780cd6ca
+M	src/Plugin/metatag/Tag/Title.php	53e28b414f7f5dfd6cb4ff91b9b637a3
+M	src/Tests/MetatagAdminTest.php	f8f3efe3141df93d3afda6a4c6f05ea0
+A	src/Tests/MetatagConfigTranslationTest.php	7667d5454044cf381a7318389a23b9e6
+M	src/Tests/MetatagFieldTest.php	78344022015ceca6b6e8d99549094df0
+M	templates/tag.php.twig	312de1e60fa0a3f39b07446ed072deff
+A	tests/modules/metatag_test/metatag_test.info.yml	c208e54e59e2be74ffe7a55b5fa5b7ce
+A	tests/modules/metatag_test/metatag_test.metatag_tag.schema.yml	fbe588e98155fdc3df64d0ffb420ab3d
+A	tests/modules/metatag_test/metatag_test.module	ce407ff5715c837d02b1aba7975bf512
+A	tests/modules/metatag_test/src/Plugin/metatag/Tag/MetatagTestTag.php	30f00e862b1a41fe3f0f4b78b5c78162

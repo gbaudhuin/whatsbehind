@@ -1,0 +1,11 @@
+M	.travis.yml	52e48729c214253fe07792763ab0c554
+D	.travis/drupal-8.2.x.make.yml	
+A	.travis/drupal-8.5.x.make.yml	053e4b40321e93f8037089a112dd2608
+M	multiversion.info.yml	6d15135dd8db9ed0e741107e73cebe70
+M	multiversion.install	caa05034fee3f758a14887ea92c567d1
+M	multiversion.services.yml	d6354a97584289830f396f8d20748d02
+M	src/Entity/Storage/ContentEntityStorageTrait.php	2d98e25a5daa777c3fd899441b07e14a
+M	src/MultiversionManager.php	dcbad7617478c794aa501cfe4603487d
+A	src/Normalizer/EntityReferenceItemNormalizer.php	1c1568b1657b8e6747f64d3cca8a69cc
+M	tests/modules/multiversion_test_paragraphs/multiversion_test_paragraphs.info.yml	a516446e052cf8c1f9624b6812825397
+M	tests/modules/multiversion_test_views/multiversion_test_views.info.yml	15b3136b12e11f55f97ba0c3b095695f

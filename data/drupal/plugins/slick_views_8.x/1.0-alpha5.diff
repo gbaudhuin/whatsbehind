@@ -1,0 +1,4 @@
+M	CHANGELOG.txt	30cac30885c6a3d0ad34024d477e7b2a
+M	config/schema/slick.views.schema.yml	88a47d720227408603d29cd291c73f80
+M	slick_views.info.yml	dd8f47b0c2acabaaa5b020fa3fa97edc
+M	src/Plugin/views/style/SlickViews.php	75004b725b4dc40735bc1271eca34c15

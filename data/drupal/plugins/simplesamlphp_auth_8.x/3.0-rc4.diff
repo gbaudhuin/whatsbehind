@@ -1,0 +1,6 @@
+M	config/schema/simplesamlphp_auth.schema.yml	a620bb8a26610a392fb6185f72c37ce3
+M	simplesamlphp_auth.info.yml	f26121c80a8c9bb1fd630c7246ebf5e4
+M	simplesamlphp_auth.install	1bf9360de1047cd92b2e4531c114f6ec
+M	simplesamlphp_auth.routing.yml	867e32a625c5a4f5231dc14d4645c9bd
+M	tests/simplesamlphp_auth_test/simplesamlphp_auth_test.info.yml	3727194833edf27a4579caf9ef5a4167
+M	tests/src/Unit/Service/SimplesamlphpAuthManagerTest.php	2b3bce9f4c50c4663708c9a88ef7e494

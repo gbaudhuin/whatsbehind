@@ -1,0 +1,12 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	1605b9e8e4886da69e29902f45dec464
+A	composer.json	97883d339672776f467dec0d0122c762
+A	src/Plugin/Field/FieldFormatter/ViewfieldFormatterDefault.php	992b500e97711e2035a13121c5f55cdc
+A	src/Plugin/Field/FieldType/ViewfieldItem.php	4ac24c7e8b71d404ecdf084b931a7aac
+A	src/Plugin/Field/FieldWidget/ViewfieldWidgetSelect.php	8c7444d89060e5e06f843de164ff7cde
+A	templates/viewfield-item.html.twig	d0e94f6f59321dc07134e4bb287ae1e0
+A	templates/viewfield.html.twig	9dcb7d19020bcffd4428d03540e64a18
+A	viewfield.info.yml	56b47d8a292288e3a1931f4b58537765
+A	viewfield.install	172f7183348aebf3d049ce0e3ad6a7ae
+A	viewfield.links.contextual.yml	f71ae06afe5956aec38669b8f2dc920c
+A	viewfield.module	0fddc46d3064814ddb7efe9409cbf528

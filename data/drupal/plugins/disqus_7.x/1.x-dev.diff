@@ -1,0 +1,15 @@
+M	CHANGELOG.txt	fa2afad0b94d9e5b6bf70e42ce16481f
+M	README.txt	2fc87220d707b2902cd12b7353143f42
+D	disqus-node-form.js	
+M	disqus.admin.inc	112f87e4ae798b81042facd89200a17b
+M	disqus.info	9ed5e2da034a0e03deff01019c0ba93a
+M	disqus.install	54fcdeb55094d32959a289c20d8c6d6b
+D	disqus.js	
+M	disqus.module	3a708330cde80e875d13101fa99a894c
+A	disqus.variable.inc	45889270f5b188a2a4d298f0ebf29587
+M	disqus.views.inc	df8e9e713698dadd090e6a69b945b232
+M	disqus_ds/disqus_ds.info	dedac8939f8eefa9ab47c90d2740323a
+M	disqus_ds/disqus_ds.module	f1cfc841a78a0f340d46caea676dbb9c
+A	js/disqus-node-form.js	5f6a61aabb07f0f2e5de181a9a5a5d95
+A	js/disqus.js	118284df0a309822378880b9d35c1769
+A	js/disqus_ga.js	5901665cf37c49a9f877c3c83f3aae9e

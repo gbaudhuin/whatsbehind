@@ -1,0 +1,3 @@
+M	src/Controller/ViewsAutocompleteFiltersController.php	7a3610a8c112b6c9ee6581f042256e36
+M	src/Plugin/views/filter/ViewsAutocompleteFiltersCombine.php	c77cacb501fe91db51620e8e9d7515aa
+M	views_autocomplete_filters.info.yml	0930bf60cf0477f5139f57ed533f44c2

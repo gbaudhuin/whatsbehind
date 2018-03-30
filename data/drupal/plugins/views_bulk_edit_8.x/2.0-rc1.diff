@@ -1,0 +1,7 @@
+A	README.txt	f279659ee3667885a71b1f2047bd3bcf
+M	composer.json	dfb6cb4432b467b802e51e42967bf6e0
+M	src/Plugin/Action/ModifyEntityValues.php	9949d1183fe9794df3ef72a5dfb808c2
+A	tests/src/Functional/ViewsBulkEditModifyEntityValuesTest.php	da588c846dc08afa7a97c71bda345e5c
+A	tests/src/Kernel/ViewsBulkEditActionTest.php	07f2dac9e2978edad42162163de57205
+M	views_bulk_edit.info.yml	9efc036f77f02b06dfd0a01d377838f3
+A	views_bulk_edit.module	2ca12f5cc568ef4cd647ec48fd4d9209

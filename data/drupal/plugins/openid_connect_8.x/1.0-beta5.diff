@@ -1,0 +1,10 @@
+M	config/install/openid_connect.settings.yml	aee4b64ca45046eb1d089324065199fb
+M	config/schema/openid_connect.schema.yml	58bd10d095633258d879b476fff4210f
+A	openid_connect.api.php	5d6f849d2e546af9426800c54c8d3d74
+M	openid_connect.info.yml	e37e3ac20c4aabb4a99a5cdbe6323b31
+M	openid_connect.install	ea52c57758115eefff6ec0a741fa5e41
+M	openid_connect.module	37c0310575c4e8764cc602e475206c45
+M	src/Form/SettingsForm.php	a2a143707c2a480b37db09ae9bbeaa23
+M	src/Plugin/OpenIDConnectClient/Facebook.php	6ea21b4d6ae82f2db870deb9a0cb3fb2
+M	src/Plugin/OpenIDConnectClient/Github.php	99c0b280a1ecafefbd9430cecf58366e
+M	src/Plugin/OpenIDConnectClient/Linkedin.php	7a097728d5e0ecf31184bca3cd5bc9ac

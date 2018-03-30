@@ -1,0 +1,15 @@
+M	.travis.yml	abf1e431d7df3531b1380a058553dea7
+M	README.md	51aa6f192007684e9ad769012c62f133
+M	composer.json	bfe240a41b77ff8dfb48580fb6e0ee04
+M	config_filter.info.yml	86a57141708b75804e2c8fa61f94c69d
+M	config_filter.services.yml	a4c00a8f8c312f8fc2cad706ea4918d8
+M	src/ConfigFilterManagerInterface.php	2f42ab2c5ebb5de707436539617f8f52
+M	src/ConfigFilterStorageFactory.php	5c967597f4bf58dcb66412a8231fe3e0
+M	src/Plugin/ConfigFilterPluginManager.php	11e43230d6a4942bbde1866f8831dc33
+M	src/Tests/FilteredStorageTest.php	a67c204aa1c2c84c71b6780a8300f116
+M	src/Tests/ReadonlyStorageTest.php	30e88370cea03fdd034b97773680f000
+M	tests/composer.json	cde0ce31b717f2e8994096b52c0dbfa8
+M	tests/modules/config_filter_split_test/config_filter_split_test.info.yml	8994366c88a23442f8fc7982a9127d1e
+M	tests/modules/config_filter_test/config_filter_test.info.yml	c9a703c212e7b19a1de9e9b7a5963437
+D	tests/scripts/pre-push.sh	
+M	tests/src/Kernel/ConfigFilterStorageFactoryTest.php	884b49545a7cabe4203d00fcc0a98052

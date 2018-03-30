@@ -1,0 +1,16 @@
+M	README.txt	5c87236336e6d1d6b63a0754f1cd890f
+M	css/quicktabs-admin.css	57f8c30fb5261e620acf66ed501d1d15
+M	js/quicktabs.js	6401b281beec8ee74f3d86b941e84934
+M	plugins/QuickAccordion.inc	bde5fc6fec55ed4d4971a854da60f6e1
+M	plugins/QuickBlockContent.inc	047d4bafa7ffa75df10bdf28168b74a7
+A	plugins/QuickCallbackContent.inc	463b62e89d66c2ebcf62c00989feb8da
+M	plugins/QuickNodeContent.inc	417f8f6914a40093121c4abc625cfeae
+M	plugins/QuickQtabsContent.inc	b4772de3067aed9a28ce5a8b9981b927
+M	plugins/QuickQuicktabs.inc	12020e120d73f69467897022bb473886
+M	plugins/QuickViewContent.inc	f321ccb534da73dbbb1758f247f9f60e
+M	quicktabs.admin.inc	cab2addaba9a43a1267069d418715fd9
+M	quicktabs.classes.inc	bded0151704d5ae548858c5f89a8f64e
+M	quicktabs.info	11fda677bf145113dc0f741eb32a18ac
+M	quicktabs.install	2986fc0ab11ee2c211ce63090c196ff3
+M	quicktabs.module	21c19700812d174490eb16bdea71881f
+M	quicktabs_tabstyles/quicktabs_tabstyles.info	2907fdc86b0901aa919f04400e1d1d9c

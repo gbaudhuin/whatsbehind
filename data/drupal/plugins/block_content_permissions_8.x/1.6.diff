@@ -1,0 +1,4 @@
+M	block_content_permissions.info.yml	416417a713fa0a1c776eab6f577d5d57
+M	block_content_permissions.module	312cd197013e628a0ad0f12c3881fd57
+M	src/AccessControlHandler.php	6377b5b6b5bdee31dc03f311dab7ccc3
+M	src/Routing/RouteSubscriber.php	f70e3f9274ed3e9a592cb09e351cf97a

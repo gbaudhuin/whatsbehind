@@ -1,0 +1,11 @@
+M	.travis.yml	3d19dbc1f08767136573f2d267b83a93
+A	.travis/drupal-8.2.x.make.yml	fa677d8a48b46e5e89d2cd2333552ee5
+A	.travis/drupal-8.3.x.make.yml	115b6fa44a818e934040d3f386457bdd
+D	.travis/drupal.make.yml	
+M	relaxed.info.yml	bc265bafcb6551e1f6fbfbe168bbde37
+M	src/Controller/ResourceController.php	96ad5001b435eb056d3c489c25b7b5e6
+M	src/CouchdbReplicator.php	82fc54e7d3b045729be0446ddfff6216
+M	src/Entity/Remote.php	578f7c4384b898ef7ca6d0f703358a74
+M	src/Entity/RemoteListBuilder.php	87980c111a617716c14e038910f2fea9
+M	src/Form/RemoteForm.php	612f738fd5984a99fb622c33d65a74f5
+M	tests/modules/relaxed_test/relaxed_test.info.yml	73e49adb1299a2097b37276b45b44586

@@ -1,0 +1,13 @@
+M	bootstrap_paragraphs.info.yml	1521c93c317d2e0b7d872f73d9065d21
+M	bootstrap_paragraphs.install	7aeef50f4559d77f75104b117dd65618
+A	config/install/core.entity_form_display.paragraph.bp_column_wrapper.default.yml	aebae21171f9b27f903bdfd5c58523db
+A	config/install/core.entity_view_display.paragraph.bp_column_wrapper.default.yml	99387a36f1737de6f52abaefe1afb6d1
+M	config/install/field.field.paragraph.bp_carousel.bp_slide_content.yml	f60d849dc69f4eb311a9d44d1d1c39ef
+A	config/install/field.field.paragraph.bp_column_wrapper.bp_column_content_w.yml	1a8b1ac51cc048fb346568f8e289e2f9
+M	config/install/field.field.paragraph.bp_columns.bp_column_content.yml	4afe361f52f219402a13eb493d9cab5e
+M	config/install/field.field.paragraph.bp_columns_three_uneven.bp_column_content_3.yml	1cfb30066c3d9561e0cd4fe4e910a5f0
+M	config/install/field.field.paragraph.bp_columns_two_uneven.bp_column_content_2.yml	aa7add8ac0e9837c6e908edb79295ae6
+A	config/install/field.storage.paragraph.bp_column_content_w.yml	a2631ba504535688e18d85de9f8fcad8
+A	config/install/paragraphs.paragraphs_type.bp_column_wrapper.yml	7c282400e1ef8f1e959226bc7ea3e3e8
+M	css/bootstrap-paragraphs.css	745c6ba5ce48cb1657668bcb0b4ef5c9
+M	less/bootstrap-paragraphs.less	9f3c5ae5cb25909b3dff6903e06e80f2

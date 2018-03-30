@@ -1,0 +1,4 @@
+M	simple_oauth.info.yml	acb835a36c80d780245af1d00912f47d
+M	simple_oauth_extras/simple_oauth_extras.info.yml	27fdaef5806e5bbfb3c91ce61928838a
+M	simple_oauth_extras/tests/simple_oauth_extras_test/simple_oauth_extras_test.info.yml	02ec150d9bf95552b7152540965bea47
+M	simple_oauth_extras/tests/src/Functional/ImplicitFunctionalTest.php	5857fc5071957de8f43cba0ab2ef1258

@@ -1,0 +1,7 @@
+A	README.txt	bbbae6b2c641e29568b2ee9acfc28cd5
+M	fieldable_panels_panes.info	4071aa2ea8d47c20d8369e9dcab27390
+M	fieldable_panels_panes.install	32e1dec35d805f5fd52cfe3e676551fa
+M	fieldable_panels_panes.module	2d24474a015612a510ea52c0ea718daf
+M	includes/PanelsPaneController.class.php	8746d6ffe0f1826ed8562192af550581
+M	includes/admin.inc	22692261d46e241437e42c85441af5c3
+M	plugins/content_types/fieldable_panels_pane.inc	630961729857b6a9930cd6967cae6f9a

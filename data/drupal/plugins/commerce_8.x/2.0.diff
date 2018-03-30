@@ -1,0 +1,88 @@
+M	.travis.yml	c05d3f8911e8d080cb5143ccd13b8124
+M	commerce.info.yml	401799fbadb19ef4e81d26747a3196aa
+M	commerce.module	d7804e9b9992e63c964fbffb99c8f516
+M	commerce.services.yml	587b017ab78d251aab9d6cec4b81c751
+M	modules/cart/commerce_cart.info.yml	50564d4e36c555ef3aca4c672c0be943
+M	modules/cart/commerce_cart.module	725747ee7bf6d276ebfe9943b17e2c9b
+M	modules/cart/commerce_cart.services.yml	e6447a45387aecad296d6ef14eb27518
+A	modules/cart/src/EventSubscriber/CartEventSubscriber.php	b7753e95a089312826fc13d44498ddc7
+M	modules/cart/src/Form/AddToCartForm.php	37dd2bdf8ad73d48a2127db4c1fb8948
+M	modules/cart/src/Plugin/views/Field/EditQuantity.php	0946089d23a6c4a306769b1ec7e7895c
+M	modules/cart/tests/modules/commerce_cart_big_pipe/commerce_cart_big_pipe.info.yml	22da18995aafa2b735742e3a3461ee37
+M	modules/cart/tests/modules/commerce_cart_test/commerce_cart_test.info.yml	afb115e133af52b243e6fcef3e42075b
+M	modules/cart/tests/src/Functional/CartTest.php	8287fa82e3b819b3dcb96bb21c17b5a0
+M	modules/cart/tests/src/FunctionalJavascript/AddToCartMultiAttributeTest.php	a537fd4583465b4e7c8c52279498f47d
+M	modules/checkout/commerce_checkout.info.yml	98c37c62ac25fd6a1062072a8e8aaa08
+M	modules/log/commerce_log.info.yml	26776b2322e880f650a617a178500f0a
+M	modules/log/src/LogStorage.php	3895122fbfa04bdf0da309e6ee7a7c7e
+M	modules/log/src/LogStorageInterface.php	7be831c2ca24d9ac90de24313c699e43
+M	modules/log/tests/module/commerce_log_test.info.yml	cd4fa6d22f5eca5fce3bdd61e3a96c17
+M	modules/log/tests/src/Kernel/CartIntegrationTest.php	d6e3ce99fe99be065d3ad048e388eb1a
+M	modules/log/tests/src/Kernel/OrderIntegrationTest.php	f5eb3dbac8ef541c9c09c2a3a5b9f8ab
+M	modules/order/commerce_order.info.yml	258d352a7e0d7d1d6905a501ab5054a0
+M	modules/order/config/schema/commerce_order.schema.yml	71b66564f98a6bdd32bd2574443b45f7
+A	modules/order/src/Plugin/Commerce/Condition/OrderEmail.php	6372b279a2ab725ad58dd186f4d8c78a
+M	modules/order/tests/modules/commerce_order_test/commerce_order_test.info.yml	587a4f177f0638afbc5bea3c8797c0da
+A	modules/order/tests/src/Unit/Plugin/Commerce/Condition/OrderEmailTest.php	2509c726808ee1f0d1648fdd8e5e8326
+M	modules/payment/commerce_payment.info.yml	ee98269dcfae7d4acbe7042c00a486c7
+M	modules/payment/tests/modules/commerce_payment_test/commerce_payment_test.info.yml	8f85a453f1b9beec8ad9439485361b41
+M	modules/payment_example/commerce_payment_example.info.yml	0545f4460229bcdd28bceafdc948e2e9
+M	modules/price/commerce_price.info.yml	74eb612e8dc51ee2392cfbaf41a8f046
+M	modules/price/commerce_price.install	6e56127e64f97c871afc1f0efbf2ec82
+M	modules/price/tests/modules/commerce_price_test/commerce_price_test.info.yml	af011c526a1cbebd5346c7c813e1273d
+M	modules/price/tests/src/Functional/CurrencyTest.php	83f500bfa001de7dd557490b655a32cd
+A	modules/price/tests/src/Kernel/PriceEqualsTest.php	8b24131432c8914eac4c6940c6a04c06
+M	modules/product/commerce_product.info.yml	ee9f01628e8120f1553c9f9ee9cf6afd
+M	modules/product/commerce_product.install	122d76ae0d361533bbbfb828a4f2ac2f
+M	modules/product/commerce_product.module	c7f0e6f2d0a6970675c791d95cb9f24c
+M	modules/product/src/Entity/ProductAttribute.php	b8d2ba8e656b75f7814c7fd17922176b
+M	modules/product/src/Entity/ProductVariation.php	74c2131877d653a583a713f61f30576e
+M	modules/product/src/ProductAttributeValueStorage.php	9211a0d26f984a20226e292488fb9f75
+M	modules/product/src/ProductAttributeValueStorageInterface.php	738004b0b32579f6cfc93196ecf10814
+M	modules/product/src/ProductVariationStorage.php	36d380bfbdfc37fba7d12bcfd6082ff7
+A	modules/product/tests/modules/commerce_product_access_test/commerce_product_access_test.info.yml	e5c165ea4db70180893d5b205668ef2c
+A	modules/product/tests/modules/commerce_product_access_test/commerce_product_access_test.module	b21bbe05b4cb195205289cc5cfaad905
+M	modules/product/tests/src/Functional/ProductBrowserTestBase.php	f8d45a2c6a72107488e25eaa9dee0e69
+M	modules/product/tests/src/Functional/ProductVariationFieldInjectionTest.php	dedd95c13a77525b0521d8a3a52719a1
+M	modules/product/tests/src/Kernel/ProductAttributeValueStorageTest.php	72eaadd46ae0cdd7364b882a732673bf
+A	modules/product/tests/src/Kernel/ProductVariationAccessTest.php	2b373d69fccb300813365447f595a60b
+M	modules/product/tests/src/Kernel/ProductVariationFieldRendererTest.php	dc44fbf3db70e131e1e7e741322ba999
+M	modules/promotion/commerce_promotion.info.yml	3e3dad0c1f93cfeab05fc98f2c1c746e
+M	modules/promotion/src/CouponStorage.php	127302b1b11cd53cd2f66eefa7d779a3
+M	modules/promotion/src/CouponStorageInterface.php	d84bb1929dbb13968b311bb1a7dc62b3
+M	modules/promotion/src/Element/CouponRedemptionForm.php	ff128f87177112135c973c7cbb5fec09
+M	modules/promotion/src/Entity/Promotion.php	33a022094d6abc31ef877619007b0eda
+M	modules/promotion/src/Entity/PromotionInterface.php	21e1a351c637a5815f0ba4e81a98f528
+M	modules/promotion/src/PromotionOrderProcessor.php	8885e8e81ca57467309599dc9f737e9e
+M	modules/promotion/src/PromotionStorage.php	c89cfd6f1b0ca0c1cbdf2010eeb9d677
+M	modules/promotion/src/PromotionStorageInterface.php	ab854a06855ab448bcda0e0c7eb3677b
+M	modules/promotion/tests/modules/commerce_promotion_test/commerce_promotion_test.info.yml	e3bf4b6902bf47113882b2b02bc0b8cc
+M	modules/promotion/tests/src/Kernel/CouponStorageTest.php	8fd473cf49ff03258f66c84a908c23f7
+M	modules/promotion/tests/src/Kernel/PromotionStorageTest.php	b3b44ed04dae20eaca5d6615dabfa572
+M	modules/promotion/tests/src/Kernel/UsageTest.php	0055c9fd3e9e9a4c3a6af06bbe192be9
+M	modules/store/commerce_store.info.yml	74f1b8f63d66ecc1651bba30fbdea8fb
+A	modules/store/console.services.yml	a2844059878ac5a5ea302555bb72826f
+A	modules/store/console/translations/en/commerce.create.store.yml	61be0cfe4e0527fb5d15cffc2c9d13f6
+M	modules/store/src/Command/CreateStoreCommand.php	66cf07d94755cedb34a1e168956958e6
+M	modules/tax/commerce_tax.info.yml	e11a12a1bf61c2e4c76648adfb43cb38
+A	modules/tax/src/Plugin/Commerce/TaxType/NorwegianVat.php	c72272024f368e9b0077863b78d61c14
+A	modules/tax/tests/src/Kernel/Plugin/Commerce/TaxType/NorwegianVatTest.php	717de4d02458994fa83f6de7e836b4cf
+M	src/BundleFieldDefinition.php	b37cab3e115ae15211e8443f946027ec
+D	src/BundlePluginHandler.php	
+D	src/BundlePluginHandlerInterface.php	
+D	src/BundlePluginInstaller.php	
+D	src/BundlePluginInstallerInterface.php	
+M	src/BundlePluginInterface.php	a21da1f9ba6b48e137c0d383b3f674b6
+M	src/EntityAccessControlHandler.php	ba7390aa0dbc5a154e34521267c57c35
+D	tests/modules/commerce_bundle_plugin_test/commerce_bundle_plugin_test.info.yml	
+D	tests/modules/commerce_bundle_plugin_test/commerce_bundle_plugin_test.services.yml	
+D	tests/modules/commerce_bundle_plugin_test/src/Annotation/BundlePluginTest.php	
+D	tests/modules/commerce_bundle_plugin_test/src/BundlePluginTestManager.php	
+D	tests/modules/commerce_bundle_plugin_test/src/Entity/EntityTestBundlePlugin.php	
+D	tests/modules/commerce_bundle_plugin_test/src/Plugin/BundlePluginTest/BundlePluginTestInterface.php	
+D	tests/modules/commerce_bundle_plugin_test/src/Plugin/BundlePluginTest/First.php	
+D	tests/modules/commerce_bundle_plugin_test/src/Plugin/BundlePluginTest/Second.php	
+M	tests/modules/commerce_test/commerce_test.info.yml	73ab0f3b2c72453768856cb3d1dc3081
+M	tests/modules/commerce_update_test/commerce_update_test.info.yml	186b1e4ed9cfd25c1c8acecab78aad5f
+M	tests/src/Functional/CommerceBrowserTestBase.php	72e388294f32ce2a0e88e484d0a8bf23
+D	tests/src/Kernel/BundlePluginTest.php	

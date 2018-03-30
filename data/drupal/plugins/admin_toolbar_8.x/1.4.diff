@@ -1,0 +1,13 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	admin_toolbar.info.yml	1bb17f1509eee640ffaa2f62ef9fd008
+A	admin_toolbar.libraries.yml	e3be7ca8f23dc8772fb5dfc5c77763c0
+A	admin_toolbar.module	0532e6df45ee19233467e19893ef9a8f
+A	admin_toolbar_tools/admin_toolbar_tools.info.yml	ac068a2aa2f0e034905c9722524c0a7d
+A	admin_toolbar_tools/admin_toolbar_tools.libraries.yml	93f9552ca9b3231adf087bd43da6db4f
+A	admin_toolbar_tools/admin_toolbar_tools.links.menu.yml	467eb586822d59f7bd13a3a28ae87885
+A	admin_toolbar_tools/admin_toolbar_tools.module	975a2e9aaa4007c2527f00c2673588e2
+A	admin_toolbar_tools/admin_toolbar_tools.routing.yml	b1271fb35f7a6676f7140207a57154b4
+A	admin_toolbar_tools/css/tools.css	923811955368ed94f911a29071eff755
+A	admin_toolbar_tools/misc/icons/ffffff/d8-item.svg	e0289baf7d3a49a6610a3cb4258ef9f9
+A	admin_toolbar_tools/src/Controller/ToolbarController.php	de821854bab5b92c3f172eb85348f9e7
+A	css/admin.toolbar.css	17226f37f0d38f94cbe6fd4546798428

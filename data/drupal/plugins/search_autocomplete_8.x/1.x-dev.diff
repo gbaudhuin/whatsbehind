@@ -1,0 +1,10 @@
+M	search_autocomplete.info.yml	2cf0eff706acc94423f5d98203f7c25d
+M	src/Controller/AutocompletionConfigurationListBuilder.php	a34b312d2fc547f28d4e3a6a2541c473
+M	src/Form/AutocompletionConfigurationDeleteForm.php	a55f8f4d61c192f903eca215b1a5cdb0
+M	src/Form/AutocompletionConfigurationEditForm.php	e2903e87e95597fb4545f14e6211972a
+M	src/Plugin/views/style/CallbackSerializer.php	4a3296963fc65db47959af74e3381545
+M	src/Tests/Entity/BasicCRUDConfigTest.php	c34fcbef0d4c1774bda91b22fe96f4a4
+M	src/Tests/Entity/EditableDeletableConfigTest.php	157515537d8758fcfd934500430289e3
+M	src/Tests/Entity/NoSelectorConfigTest.php	8684555c070564c28ba67329e0de9048
+M	src/Tests/Entity/UnicityConfigTest.php	8692190591346192e45dda1a8d20e632
+M	src/Tests/SettingsTest.php	88c88bce1cf5afc0212eca981fdaf189

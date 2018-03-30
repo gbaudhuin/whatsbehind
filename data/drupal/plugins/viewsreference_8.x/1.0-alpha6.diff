@@ -1,0 +1,7 @@
+M	.gitignore	b67d8b2b252543c01bd803ee4d3128ec
+M	CHANGELOG.md	44feee150fb897ac525b70d55aff61f6
+A	composer.json	b30a4d67a93a4ca968dfa2bc585a94a3
+M	src/Plugin/Field/FieldFormatter/ViewsReferenceFieldFormatter.php	abc79b9e280905cf128be07257e2c377
+A	src/Plugin/Field/FieldWidget/ViewsReferenceSelectWidget.php	66d30755f2dea09910af12136b30ad2d
+M	src/Plugin/Field/FieldWidget/ViewsReferenceWidget.php	842343e1417fe97e9a95c4c322783394
+M	viewsreference.info.yml	a9337c37850baf54a1a4ef3736b4af72

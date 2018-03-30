@@ -1,0 +1,5 @@
+A	.gitignore	e8a346051f935e6cb104e1dc40998a91
+A	config/schema/eva.display.schema.yml	6955e62533f201b923cc45d4388c7c06
+M	eva.info.yml	ff53b33b148b265773761de352921fea
+M	eva.module	b8bc486b06a86fd87c91a32bcd7086c6
+M	src/Plugin/views/display/Eva.php	34587b8c90055d1c4b39c1e363aa8948

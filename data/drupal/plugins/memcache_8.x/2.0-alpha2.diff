@@ -1,0 +1,19 @@
+M	README.txt	f386da407aff83926e8311a5e8dfb7fa
+M	memcache.info.yml	05c8d31a1244cbc468e30fc3905cdd8f
+M	memcache.install	5e9f00a8e7d8f7cd405be0324a91e918
+M	memcache.module	d23f0e79f081ff92564b684bcfc93e23
+M	memcache.services.yml	d6086e12da05fadbe7496a5195b735ff
+M	src/DrupalMemcache.php	4e0e98f5addd12585402fc5325b66c6b
+M	src/DrupalMemcacheBase.php	8a5b19f8627edb3b4e7669fc503fd2d2
+M	src/DrupalMemcacheFactory.php	dbff1c1a0d3f8f180f6f7e4ee8a23ab8
+M	src/DrupalMemcacheInterface.php	ce52452fcdf7c49d90345374d62cb54a
+M	src/DrupalMemcached.php	1bad9b14e431f4bc2c522b64652e7daf
+A	src/Lock/MemcacheLockBackend.php	96d674b1b40dcb40acc71c8a4a07f9f3
+A	src/Lock/MemcacheLockFactory.php	b6f9227815e020a822e39fe8bb985019
+A	src/Lock/PersistentMemcacheLockBackend.php	f2010a76c210a60502ca8f9a33c60f50
+M	src/MemcacheBackend.php	995860147e092c5a9c50c8d594eaf2f2
+A	src/MemcacheException.php	fe586e7aa00190f15414888b5d292c60
+D	src/MemcacheLockBackend.php	
+A	src/Tests/MemcacheLockFunctionalTest.php	1e079967902d106640ff31af8898e349
+A	tests/modules/memcache_test/memcache_test.info.yml	348f2347024cb431fe2bf85f50b3fa3d
+A	tests/modules/memcache_test/src/MemcacheTestServiceProvider.php	8edbf9ccff7b613b90c5ed27204f5000

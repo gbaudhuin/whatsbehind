@@ -1,0 +1,12 @@
+A	src/Plugin/migrate/process/EntityGenerate.php	7f11f325e10d57c17b054d98dcecb9df
+A	src/Plugin/migrate/process/EntityLookup.php	7201e3841370ad2a0c52bc3011100e2d
+A	src/Plugin/migrate/process/FileBlob.php	1cce12f90cff8395847f27c69bc4e533
+A	src/Plugin/migrate/process/FileCopy.php	e067346ed0c81820f70bd4b566040f96
+A	src/Plugin/migrate/process/Merge.php	93cf5a74f27ecc95d2226ad0874f8aa5
+A	src/Plugin/migrate/process/SkipOnValue.php	410b06c73de034363d39870a16b5803d
+D	src/Plugin/migrate_process/EntityGenerate.php	
+D	src/Plugin/migrate_process/EntityLookup.php	
+D	src/Plugin/migrate_process/FileBlob.php	
+D	src/Plugin/migrate_process/FileCopy.php	
+D	src/Plugin/migrate_process/Merge.php	
+D	src/Plugin/migrate_process/SkipOnValue.php	

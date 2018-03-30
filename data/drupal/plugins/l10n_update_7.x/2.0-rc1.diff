@@ -1,0 +1,62 @@
+M	README.txt	e7d9e0956da4f09521f8c9c370dffad8
+M	css/l10n_update.admin-rtl.css	e3a94709dc3880b1f47f375c6daefc8f
+M	css/l10n_update.admin.css	afc4e1ff040b28b02d24a530ae196427
+A	includes/gettext/PoHeader.php	8a86f4aab67448990e89b152da51e75c
+A	includes/gettext/PoItem.php	991f91b363f7736cbdb6b78c19316a29
+A	includes/gettext/PoMemoryWriter.php	a5880948870b4ef2381ab6b363582584
+A	includes/gettext/PoMetadataInterface.php	18d918634fb95a88d81707006d6f8736
+A	includes/gettext/PoReaderInterface.php	1427ffd4b4ac57da84be95c08ef4d6e3
+A	includes/gettext/PoStreamInterface.php	f6f829971e3066ca3fc96ce3972904c4
+A	includes/gettext/PoStreamReader.php	9c0008ce942c07ca20ca02af29e3e2dd
+A	includes/gettext/PoStreamWriter.php	27348cab1cb11799de087012da3c1c96
+A	includes/gettext/PoWriterInterface.php	f3be204911eac4c8b7ab3ff6614f5b0c
+A	includes/locale/Gettext.php	1cd4d8cbd631b514624429492935e947
+A	includes/locale/PoDatabaseReader.php	28251d2881a77091b59a6a9c74160dd6
+A	includes/locale/PoDatabaseWriter.php	61485943e7a6a7146917d04c469fbd36
+A	includes/locale/SourceString.php	738f8eb5876e6ead620a89d3054898dd
+A	includes/locale/StringBase.php	4cb4aa853f8411a4e21f951bcf0981b0
+A	includes/locale/StringDatabaseStorage.php	d26256e7e116c594848ed9f8fff1411d
+A	includes/locale/StringInterface.php	ab049553afc62ce104f3e9ca514ae568
+A	includes/locale/StringStorageException.php	85f5a6ee885dbf08219956267aca7f42
+A	includes/locale/StringStorageInterface.php	bb9090a1c057e32437807312bbd40bea
+A	includes/locale/TranslationString.php	6062e2d6c446fe3e47481153be900462
+A	includes/locale/TranslationsStreamWrapper.php	ecd9272a46a74f6c4105d7fb330eef58
+A	js/l10n_update.admin.js	8b649745a9f0cb2be47f6e404e565d42
+D	js/l10n_update.js	
+D	l10n_update-not_compatible_with_drupal_core_db_field_length-2559367-2-7.x.patch	
+D	l10n_update-not_compatible_with_drupal_core_db_field_length-2559367-7-7.x.patch	
+D	l10n_update-plural-handling-fix-2501315-6-D7.patch	
+A	l10n_update-translation-last-check.tpl.php	44780b54b33139f5db514be5b54a1bcf
+A	l10n_update-translation-update-info.tpl.php	42f3cfb5207aa7fbf6aa4552ad30259b
+D	l10n_update-unable-to-download-translations-updates-216758-29.patch	
+D	l10n_update-update-files-directory-2544892-1.patch	
+M	l10n_update.admin.inc	14d246cb62fe29bbea010300ad941e56
+M	l10n_update.api.php	5c6294dd01789daaf612cec91729c138
+M	l10n_update.batch.inc	4c2624ba62ad1e5746c6e1a240463ec2
+A	l10n_update.bulk.inc	d9ee5807e132e082019410d3f51a6734
+D	l10n_update.check.inc	
+A	l10n_update.compare.inc	3f8c28ce94a105fa2025ebd4d745c65f
+M	l10n_update.drush.inc	5b37e3ae78bf27c49269719b157143e4
+A	l10n_update.fetch.inc	3f25309bc7f230a9be7ef594549cb150
+A	l10n_update.http.inc	86fc750441b3b5ccf75f7580da4ada05
+D	l10n_update.inc	
+M	l10n_update.info	623453891aa5e00c2e34870e63e4ffe3
+M	l10n_update.install	0ce94a13dd094f92237ea6054753a77d
+D	l10n_update.locale.inc	
+M	l10n_update.module	568ad7f235c5c3da1d2bfd07d29c647a
+D	l10n_update.parser.inc	
+D	l10n_update.project.inc	
+A	l10n_update.translation.inc	e733a433e88b15e81056e138f5a391dd
+A	tests/L10nUpdateCronTest.test	d35beae6b2f0675e73cc847b4b645d1e
+A	tests/L10nUpdateInterfaceTest.test	5d19df8136db0eb2fc33c80f567f947c
+A	tests/L10nUpdateTest.test	0abbce0092bb8a8b6986eb0807fc9790
+A	tests/L10nUpdateTestBase.test	d6b368b69a74d04ee9707c7050a119d4
+A	tests/modules/l10n_update_test/l10n_update_test.info	d6f19d718045ca4414735dd1c3207003
+A	tests/modules/l10n_update_test/l10n_update_test.install	ba458b7d8891a049d9dd59352e2b5140
+A	tests/modules/l10n_update_test/l10n_update_test.module	db08af0701dfddf88b8bdf5f43fce0e2
+A	tests/modules/l10n_update_test_translate/l10n_update_test_translate.info	fa309412bf685e3e787df1786fc25574
+A	tests/modules/l10n_update_test_translate/l10n_update_test_translate.module	d523973510ea41f39447b09b2cfafc64
+A	tests/modules/l10n_update_test_translate/translations/l10n_update_test_translate.de.po	6af9680c6a8be25d529868e8d5526592
+A	tests/modules/l10n_update_test_translate/translations/l10n_update_test_translate.nl.po	bfea8014537f24de19afa91daad3b1bd
+A	tests/modules/l10n_update_test_translate/translations/l10n_update_test_translate.xx.po	4074ad7a297a886465e9c9149942ed56
+A	tests/test.de.po	928dcc4b1b6a0dc79251ebdeb85bdcf0

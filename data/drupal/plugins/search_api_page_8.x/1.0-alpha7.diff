@@ -1,0 +1,7 @@
+M	search_api_page.info.yml	2fefa51846d1645c753ac0248218d8d8
+M	search_api_page.routing.yml	2a70498aa74977c9248f7b057e3e0c76
+M	src/Entity/SearchApiPage.php	7a54cecc7e9de3c976902fe8dfb0629f
+M	src/Form/SearchApiPageBlockForm.php	26c4c104481641182a835ed32ede8523
+M	src/Form/SearchApiPageDeleteForm.php	631fae8cdf457df24776336c86063307
+M	src/Plugin/facets/facet_source/SearchApiPage.php	8b730980a9d5ed93eddff677154cd92e
+A	src/Tests/SearchApiPage.php	a831bfd972b3036990467ae122254f41

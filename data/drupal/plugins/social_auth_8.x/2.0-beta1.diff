@@ -1,0 +1,17 @@
+M	README.txt	b79cb41ff44ca6d3f0937fc65e13a5e3
+A	composer.json	416b104c570dc6be1f01b8a04a12d7c7
+M	config/install/social_auth.settings.yml	d9ea32b7eedea04bd7e03a32a4e12df1
+M	config/schema/social_auth.schema.yml	10a8ba73ca70089713d3b2f0ae0af99e
+M	social_auth.info.yml	ac25273ae7c5bed1da1e1101155291bd
+M	social_auth.install	b188b2ebc43e68fd7dd106a8fd600176
+M	social_auth.module	a301f1f8a495cc85b4967f7b78c32634
+M	social_auth.routing.yml	8478b8b1989fef2cf76bf7c9b3d10960
+M	social_auth.services.yml	a2bf5a398bd0ae8b595f80035a93d6d6
+M	src/AuthManager/OAuth2Manager.php	ef7530ccd26dda031c8e7ba636d49edf
+M	src/AuthManager/OAuth2ManagerInterface.php	8d894ea6c3bab592256af66d0566c5a8
+M	src/Controller/SocialAuthController.php	08646960ec2fa9a70a41a2e39018788f
+A	src/Entity/SocialAuth.php	143642a4d2059e6850f051fa28e8431d
+M	src/Form/SocialAuthSettingsForm.php	6b379300db4ba8ce9b5ea4e203c487c3
+M	src/Plugin/Block/SocialAuthLoginBlock.php	ddac28c3e8521775ced078741e714b25
+A	src/SocialAuthDataHandler.php	ff74df24079468ed4b4c050e33dc62d7
+M	src/SocialAuthUserManager.php	8cd3f070713563105233ee15bdf69dc2

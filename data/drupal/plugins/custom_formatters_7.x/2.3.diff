@@ -1,0 +1,7 @@
+M	CHANGELOG.txt	2f06224a0ace60c9a938f9575afe3a12
+M	custom_formatters.info	8373ef5f79f0fce53ace21d46a6303aa
+M	custom_formatters.module	e3a8181ca8f3f1131ef8b1b200c23a20
+M	engines/formatter_preset.inc	88c4c407b6b5d4750659ab34d0b8a0ff
+M	engines/php.inc	b5e41f8f6f4f8aa67bc0a0a4f5cdecc2
+M	engines/token.inc	4a0f3c64773f1e01ba75ad4f66b73328
+M	plugins/export_ui/custom_formatters.inc	91582c89d51b4c416cd1909432010d49

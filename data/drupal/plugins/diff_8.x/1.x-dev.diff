@@ -1,0 +1,17 @@
+M	diff.info.yml	c944dd29e6f1f5b2174e3182460aeba5
+M	diff.services.yml	7117e0691d5a253c1bdd1faf18d6089c
+M	src/Controller/PluginRevisionController.php	b1283cd57814f355b2d45cd6f52482d7
+M	src/DiffEntityComparison.php	99e1d6a4fb36d54a7a46f25d49710850
+M	src/DiffLayoutBase.php	ed926f6587ce1155fe8bd7c1b1103cbe
+M	src/Form/RevisionOverviewForm.php	895a2e97ec0a02bccba09221e84cdec7
+M	src/Tests/DiffAdminFormsTest.php	cea795ae1dda55aea8b9ce221519b612
+M	src/Tests/DiffLocaleTest.php	ff6367f9fa3ff1a12fe1eef3bbe95d36
+M	src/Tests/DiffPluginEntityTest.php	68cebdd7a363d131ae4cb72eef435548
+M	src/Tests/DiffPluginFileTest.php	ff513d0e8fd1c56b6d2a0227626e547d
+M	src/Tests/DiffPluginTest.php	a42cf0735a9b73fde58ee0e885f4f4b8
+M	src/Tests/DiffPluginVariousTest.php	6bbae11d5442e3decdad31cce9a0e8db
+A	src/Tests/DiffRevisionContentModerationTest.php	0641c9d25a284b641ef5551866140c71
+M	src/Tests/DiffRevisionTest.php	5120bed191cfc7fa6562abbbe4b7bd7a
+M	src/Tests/DiffViewModeTest.php	6e7f2b4015546c98544eeb71ae2d14f3
+M	tests/modules/diff_test/diff_test.info.yml	079ddbd980321ec074cba4c167dfb6e6
+A	tests/src/Functional/CoreVersionUiTestTrait.php	afda4f4a931b36bb69abbba40cde55cd

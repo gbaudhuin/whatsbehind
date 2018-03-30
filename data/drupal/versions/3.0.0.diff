@@ -1,0 +1,131 @@
+M	.htaccess	0767bcbc7216e7b948fa92c536dcd5fe
+M	CHANGELOG	608c4a3e514ee8bedada83d2b057dbcf
+D	CREDITS	
+M	INSTALL	e3a1e33a4db5d7349f65ebed3e562a87
+M	account.php	c59a751f3fa576b409578757e89bde36
+M	admin.php	021cd821625b31779f288cd6bc3e0e26
+M	cron.php	591d10b872ac18db817cd2236a2febef
+M	database/database.mysql	6e80e7f1a5c61f3f30ed1279180670b0
+M	error.php	1dcfb605cd8372202348b8d42e4e2a68
+D	export	
+D	includes/ban.inc	
+M	includes/comment.inc	0a367852e3959b69c822ef630ae041cf
+M	includes/common.inc	7676414b87c576a1e446187059acf005
+A	includes/conf.php	7120759eccbdf2bd00675a78a12db3c9
+M	includes/database.inc	febdb94271e8ea498ddd78fc71eafbf1
+D	includes/function.inc	
+D	includes/hostname.conf	
+M	includes/locale.inc	3cae5693740e96d6eb66caf08a7ce36c
+M	includes/module.inc	cd024a8c9ab209fef712cf2a5b278764
+A	includes/node.inc	683a82ad69b08a5e5d6b6c6b533b879d
+M	includes/search.inc	1ae762c2b581f03743cbc67f1dd6b1d9
+D	includes/section.inc	
+D	includes/story.inc	
+M	includes/theme.inc	0c29d9995b4256d58d7baf34ad843276
+D	includes/timer.inc	
+M	includes/user.inc	2691eaca3cd8aea44d3e16b9f698abcf
+A	includes/variable.inc	466e6dff7c060ef8189d464b6f217ef4
+D	includes/watchdog.inc	
+M	index.php	d2df8964df37746d9196812445cd4663
+A	misc/blog.gif	ba7a9c95e675ca9b72299de5ee1c1f88
+A	misc/xml.gif	e67c90a18c89f8d05125c045b2978dcf
+M	module.php	e820f75b8d368ba455172413f1fb5ea0
+A	modules/access.module	4149c100819e8411da01a98373e9c3a7
+M	modules/account.module	df83c0e928b024920da270a8c83eeb53
+D	modules/affiliate-site.module	
+D	modules/backend.class	
+D	modules/ban.module	
+M	modules/block.module	c764d1bdde14dd5aaa6e7750a1eb242f
+D	modules/block/block.module	
+A	modules/blog.module	daf594f985331d4904a6f607a71674ed
+A	modules/book.module	7887f29ca0c49cceeb1a75ab5e60970e
+M	modules/box.module	f783a3caa5c76c8b0d74bef6c3e3196f
+D	modules/calendar.class	
+M	modules/calendar.module	fc3869a985192d16edefc3c750d173de
+A	modules/cloud.module	239b704fecda21f0aa6397982daf7253
+M	modules/comment.module	92c6d764931138762f6087afdb641a9b
+D	modules/comment/comment.module	
+D	modules/cron.module	
+A	modules/cvs.module	316df30fb360559f08dca35059350ce7
+D	modules/diary.module	
+D	modules/documentation.module	
+D	modules/drupal-site.module	
+D	modules/drupal.module	
+D	modules/drupal/drupal.module	
+D	modules/faq.module	
+A	modules/forum.module	f7db66adee78a54302a55970791dddea
+D	modules/headline.module	
+A	modules/help.module	8e7635a13503142a351815209ccdcb96
+A	modules/import.module	8861b86fde3107f0e5ae13b12d61778e
+M	modules/locale.module	364520f4c8956cff668bf1fdde08b27e
+D	modules/locale/locale.module	
+A	modules/meta.module	31909f63220f20595daed0c5f8c507f3
+D	modules/module.module	
+A	modules/node.module	6bf2a42dad5f3bcfbc09b3daad75e49f
+A	modules/page.module	60445b59ec718f3048af47ac35d5ec46
+A	modules/poll.module	65e9ed05d652e4997a09ee55140e0253
+A	modules/queue.module	c64f558459970e8f0c4c271e5cf7f86f
+M	modules/rating.module	3e7c1fffaa8457b2cf4893e29f13b8a9
+A	modules/search.module	eaec68e7bc029bdb9a0d881d65db862a
+D	modules/section.module	
+A	modules/statistics.module	6c793b24198d387af52d39427b592a7d
+M	modules/story.module	7ffa39ec15bb95988346f6bd9037b926
+D	modules/story/story.module	
+D	modules/submission.module	
+A	modules/system.module	c70e6c3e3bb06089af59ab6fc5c6d76f
+M	modules/watchdog.module	d85ef4702162532391943c9bc4a28fb2
+D	modules/watchdog/watchdog.module	
+D	modules/wishlist.module	
+A	node.php	0a5a3989c36d04270dd5d1f188041550
+A	scripts/cvs-to-sql.pl	401daac03a89e585af826ed157c3d732
+M	scripts/php-backup	86a7787004945e65808ad518125d4bf3
+D	search.php	
+D	story.php	
+M	submit.php	66bf04e5780dd5aeae66f59a100a69b8
+M	themes/example/example.theme	afc98c28690a48c52e26255565864af2
+A	themes/goofy/goofy.theme	c9f2f1d048e211e8ec1f3c11ad446f77
+A	themes/goofy/images/drupal.png	0508ff347f388c234b3d682115b6d77e
+A	themes/goofy/images/gr-d.png	2897c2d9e85fd3a7026f49432249f08a
+A	themes/goofy/images/gr-dl.png	de76587f28f4cd7d5d5a7b8896008369
+A	themes/goofy/images/gr-dr.png	4bea56f21cd4fa936e059fd5957fc747
+A	themes/goofy/images/gr-l.png	2c97a3b4ec18db3c2e4cb6f1f3cbb349
+A	themes/goofy/images/gr-r.png	5be529ef7a2bfbd14c835a0e2bcac695
+A	themes/goofy/images/gr-u.png	7b41b6607cb53db4a680b96f44074d95
+A	themes/goofy/images/gr-ul.png	83f1c71b704d5806f0458a941e5a5e84
+A	themes/goofy/images/gr-ur.png	29f9a68357930d1899ff7d4cb1e9730f
+A	themes/goofy/images/lg-d.png	e1decf545068c3ff0c9919923ce55fbd
+A	themes/goofy/images/lg-dl.png	638ab3a4901151ab08e5102a672bd329
+A	themes/goofy/images/lg-dr.png	8b39ccc5241bfc3548d1a020bbdadb57
+A	themes/goofy/images/lg-l.png	9ce3bad22633b96baa549c633f6ce91c
+A	themes/goofy/images/lg-r.png	688bf5facf0e6d26df1f29e7964c5d3c
+A	themes/goofy/images/lg-u.png	7a4c589975eae0b119d0e85119a3e4b3
+A	themes/goofy/images/lg-ul.png	6b27596543a0243d4d7705ac2231c856
+A	themes/goofy/images/lg-ur.png	4128fc3dc76dc6452e08d2156c484277
+A	themes/goofy/images/logo.png	7903e0906b56d3bf328723e7b0460dd1
+A	themes/goofy/images/null.gif	eb9e8dd3ccd400e1859f184cdc9fd466
+A	themes/goofy/images/or-d.png	d146825cbcef43df0408f70143a322ac
+A	themes/goofy/images/or-dl.png	31ea8c931c8ce59f8d741eb30d7a9eb0
+A	themes/goofy/images/or-dr.png	7480345a46770930f56254c841ca4be4
+A	themes/goofy/images/or-l.png	edfde6d81c5220ce1c9471b8728abfa4
+A	themes/goofy/images/or-r.png	f3a78a209ec0110681218038c477d23d
+A	themes/goofy/images/or-u.png	8ea739ced8d493488b78832a69eacd47
+A	themes/goofy/images/or-ul.png	678c32844039d532fc0150a705923a79
+A	themes/goofy/images/or-ur.png	15947d841fc4237d5c5691132487d70e
+M	themes/jeroen/jeroen.theme	61896535c5776540f66728d024ac1019
+M	themes/marvin/images/logo.gif	dc2d7e3be19fb0f91a6a5a44d3b77990
+M	themes/marvin/marvin.theme	c065062127294440b95a8b00668471cf
+M	themes/unconed/images/logo.gif	f36140129255aa8ff33a7041f3891f3d
+M	themes/unconed/unconed.theme	2d2c453ac52b2bbfe5ef81076388d47c
+A	themes/yaroon/images/pixel.gif	84231d04ae6cacc6ed16c33dafd41060
+A	themes/yaroon/images/square.gif	66780a0ca21a6239cdc73393b3432bf5
+A	themes/yaroon/images/square2.gif	c93d0afcbb4b20c9e4ad04a0178d03d3
+A	themes/yaroon/images/square3.gif	ee6ac179bb82820a2498949cd82d88ca
+A	themes/yaroon/images/square4.gif	1fffe875f2c71d28f76fe27d85e9cf12
+A	themes/yaroon/images/square5.gif	7007441336795c620584d0cc5570ab42
+A	themes/yaroon/images/square6.gif	bb8f5d3d296072aa0a37d45b14acc8ad
+A	themes/yaroon/images/square7.gif	880c89848c79d2d6819c08e937a5df4e
+A	themes/yaroon/images/square8.gif	3f406b5d06ad65399dcf5a4fe47797da
+A	themes/yaroon/yaroon.theme	52980bad56a15db1d3a973506593644c
+D	updates/1.00-to-2.00	
+A	updates/1.00-to-2.00.sql	3de05d53e682d3fb7edd516450715cbf
+A	updates/2.00-to-3.00.sql	49352b56104598e980811c470104925c

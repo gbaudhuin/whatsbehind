@@ -1,0 +1,122 @@
+M	.travis.yml	8a69bcca48d7c1834d28cbb53689743d
+M	.travis/drupal.make.yml	bc3e9fed9739063024bedf5ec29e757c
+M	composer.json	dec33020a7e0eea124ea03139810f820
+M	relaxed.info.yml	95cc8f2b4deada7f12e4ae316eb2a978
+M	relaxed.install	b2f3bdc758eccc8c1c9e67422c4d0d82
+A	relaxed.links.action.yml	eb816a024e2895d09ca1ed803103d852
+M	relaxed.links.menu.yml	ee525cbc2f63c5f4793f44b1aaf355e5
+M	relaxed.module	c958577eb3745715e3d5c76588822bf0
+M	relaxed.routing.yml	70fd60baedad60290276c43ad023b451
+M	relaxed.services.yml	6a907d1f2f57d8c4d0715bc1322807e0
+D	src/AllDocs/AllDocs.php	
+D	src/AllDocs/AllDocsInterface.php	
+D	src/Annotation/Endpoint.php	
+D	src/Annotation/EndpointCheck.php	
+A	src/Annotation/RemoteCheck.php	29c7ab5f13aa8839203ffa85669bb85f
+D	src/BulkDocs/BulkDocs.php	
+D	src/BulkDocs/BulkDocsInterface.php	
+D	src/Changes/Changes.php	
+D	src/Changes/ChangesInterface.php	
+M	src/Controller/ResourceController.php	7ba5a27827d00b1f67acaa3202193387
+A	src/CouchdbReplicator.php	7161b9fe0978e0828a4144174381ec8e
+D	src/Encoder/StreamEncoder.php	
+D	src/EndpointPluginCollection.php	
+D	src/Entity/Endpoint.php	
+D	src/Entity/EndpointInterface.php	
+D	src/Entity/EndpointListBuilder.php	
+A	src/Entity/Remote.php	bc5f4e2d12f236d501c46a84929977a2
+A	src/Entity/RemoteInterface.php	b57148b98e290dbc5e69ec18d7b6d253
+A	src/Entity/RemoteListBuilder.php	e5b805f95e10b0655537632708d69222
+D	src/Entity/ReplicationLog.php	
+D	src/Entity/ReplicationLogAccessControlHandler.php	
+D	src/Entity/ReplicationLogInterface.php	
+D	src/Form/EndpointAddForm.php	
+D	src/Form/EndpointDeleteForm.php	
+D	src/Form/EndpointForm.php	
+D	src/Form/EndpointSetupForm.php	
+A	src/Form/RemoteDeleteForm.php	aa59b3a60323067e8f78274b581e0e19
+A	src/Form/RemoteForm.php	5d8c60fd7ceee790e5f030d86ac17de0
+A	src/Form/SettingsForm.php	075a27c1ceccaa3b533ace9e3b2543ff
+D	src/Normalizer/AllDocsNormalizer.php	
+D	src/Normalizer/AttachmentNormalizer.php	
+D	src/Normalizer/BulkDocsNormalizer.php	
+D	src/Normalizer/ChangesNormalizer.php	
+D	src/Normalizer/CommentItemNormalizer.php	
+D	src/Normalizer/ContentEntityNormalizer.php	
+D	src/Normalizer/DeletedFlagItemListNormalizer.php	
+D	src/Normalizer/EntityReferenceItemNormalizer.php	
+D	src/Normalizer/FileItemNormalizer.php	
+D	src/Normalizer/LocalSequenceItemListNormalizer.php	
+D	src/Normalizer/ReplicationLogNormalizer.php	
+D	src/Normalizer/RevisionInfoItemListNormalizer.php	
+D	src/Normalizer/RevsDiffNormalizer.php	
+D	src/Normalizer/WorkspaceNormalizer.php	
+M	src/ParamConverter/DbConverter.php	e3f98f699128ef2a05c4c6468546bc4c
+M	src/ParamConverter/DocIdConverter.php	71b33458bf9e808b7f6d8e701f06b8fb
+D	src/Plugin/Deriver/WorkspaceDeriver.php	
+D	src/Plugin/Endpoint/ExternalEndpoint.php	
+D	src/Plugin/Endpoint/WorkspaceEndpoint.php	
+D	src/Plugin/EndpointBase.php	
+D	src/Plugin/EndpointCheck/Ping.php	
+D	src/Plugin/EndpointCheckBase.php	
+D	src/Plugin/EndpointCheckInterface.php	
+D	src/Plugin/EndpointCheckManager.php	
+D	src/Plugin/EndpointInterface.php	
+D	src/Plugin/EndpointManager.php	
+D	src/Plugin/Field/FieldType/ReplicationHistoryItem.php	
+D	src/Plugin/Field/FieldType/ReplicationHistoryItemList.php	
+A	src/Plugin/RemoteCheck/Ping.php	2ed48b44799d08f5419131a6674a20cb
+A	src/Plugin/RemoteCheck/ValidRemote.php	824d5abb97531f084a54977655363a29
+A	src/Plugin/RemoteCheckBase.php	f8ef9021b9861d2956d2fbe9eeeee9e7
+A	src/Plugin/RemoteCheckInterface.php	e1544f49b62fdf22789136db9a33e354
+A	src/Plugin/RemoteCheckManager.php	712dfb828701bc91503a98b7bbbf2b7c
+M	src/Plugin/rest/resource/AllDocsResource.php	34d4b56e0593804ef45fe9caabb8449b
+M	src/Plugin/rest/resource/AttachmentResource.php	b35a9e69a5ffc9ebf5c667c10892cd0b
+M	src/Plugin/rest/resource/BulkDocsResource.php	357db3cc4d1616bae7670c4cafc2ee51
+M	src/Plugin/rest/resource/ChangesResource.php	35e76dbc8721be419eb92dbc254293d6
+M	src/Plugin/rest/resource/DbResource.php	578b9a3062351e63edead6428630741e
+M	src/Plugin/rest/resource/DocResource.php	ec291e018629cec24f8318a5e5148c91
+M	src/Plugin/rest/resource/EnsureFullCommitResource.php	ae0051beeafae2b19c1b60dd6427bd4e
+M	src/Plugin/rest/resource/LocalDocResource.php	317fe186a2b1a21fc04daf8210abcde4
+M	src/Plugin/rest/resource/RevsDiffResource.php	e280a00ef87c5024de623ae5f5f3fccd
+A	src/RemotePointer.php	90b36ca5896233b1d6f5b1476ff55bc1
+A	src/RemotePointerInterface.php	5e5c92c38df41a5a02bed26d361c13d8
+D	src/RevisionDiff/RevisionDiff.php	
+D	src/RevisionDiff/RevisionDiffInterface.php	
+M	src/Tests/AllDbsResourceTest.php	ee7851b2128ecadad12207e27dca58db
+M	src/Tests/AllDocsResourceTest.php	8ac7bfe3af76f9b111c2db8b9784ed6f
+M	src/Tests/AttachmentResourceTest.php	a4dbb32ea50063addaf09d031968fab8
+M	src/Tests/BulkDocsResourceTest.php	a5333de2c14a837f9b0b2928ab0a70f2
+M	src/Tests/ChangesResourceTest.php	5dd6ad75c8e2ad91b76ff788784f01dc
+M	src/Tests/DocResourceTest.php	a893c8e18e8e8a301b0ee2c1d442ccef
+D	src/Tests/EndpointCheckTest.php	
+D	src/Tests/EndpointConfigurationTest.php	
+M	src/Tests/LocalDocResourceTest.php	61e3b0891d28c5b8341b2ee1accfcffc
+A	src/Tests/RemoteConfigurationTest.php	6efa62041bbfed3a07b33544e63ebabc
+D	src/Tests/ReplicationLogTest.php	
+M	src/Tests/ResourceTestBase.php	d80ee2941d7b4c9c3ff352b2ebef644d
+M	src/Tests/RevsDiffResourceTest.php	a7b3b66aa49e22af5d763bd7049cdca6
+M	src/Workspace/RelaxedWorkspaceNegotiator.php	fcc1d7394d2db851d566ff02f38c26d8
+M	tests/bin/couchdb-to-drupal.sh	85ffc089238533fa41ab5cfa065cb0c7
+M	tests/bin/drupal-to-couchdb.sh	d081568dbef38b0677160983e56d8628
+M	tests/bin/drupal-to-drupal.sh	576096157c0a33071381e69e2262c10a
+M	tests/bin/php-replicator.sh	19c5205e4d1d1c778b478b70fb79db2a
+M	tests/fixtures/documents.txt	d6a0ccd057b12adcf98d69533f5e210c
+M	tests/fixtures/generate.php	c95807c76f4a4d93c8c7bafb4875473d
+M	tests/modules/relaxed_test/relaxed_test.info.yml	f94ae80733d4aa83fab2b99638260d12
+M	tests/modules/relaxed_test/relaxed_test.install	146da1fbff13fe0ec74bc10db19e1198
+D	tests/php-client/.gitignore	
+D	tests/php-client/composer.json	
+D	tests/php-client/replicate.php	
+M	tests/pouchdb/test.js	c0563b2811ca649896b3d8c1cca9bf8c
+D	tests/src/Unit/Encoder/StreamEncoderTest.php	
+D	tests/src/Unit/EndpointPluginTest.php	
+D	tests/src/Unit/Normalizer/AllDocsNormalizerTest.php	
+D	tests/src/Unit/Normalizer/AttachmentNormalizerTest.php	
+D	tests/src/Unit/Normalizer/BulkDocsNormalizerTest.php	
+D	tests/src/Unit/Normalizer/ContentEntityNormalizerTest.php	
+D	tests/src/Unit/Normalizer/FileItemNormalizerTest.php	
+D	tests/src/Unit/Normalizer/NormalizerTestBase.php	
+D	tests/src/Unit/Normalizer/ReplicationLogNormalizerTest.php	
+D	tests/src/Unit/Normalizer/WorkspaceNormalizerTest.php	
+A	tests/src/Unit/RemoteTest.php	0291eae28f772ca23e7d15a4894d32f3

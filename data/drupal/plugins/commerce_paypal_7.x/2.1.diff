@@ -1,0 +1,9 @@
+M	commerce_paypal.info	9ca40fec58523042bc9f92693bc5ec5c
+M	modules/ec/commerce_paypal_ec.info	21a4c7c036221c24b1f92dd50836ddfc
+A	modules/ec/commerce_paypal_ec.install	6a519a1d4d779919dfe8ad4aab733eb2
+M	modules/ec/commerce_paypal_ec.module	8d43af585fb040e9b71ad0b6e0b4f39d
+A	modules/ec/theme/commerce_paypal_ec.popin.js	be37be57a7368161079ee59d23b82c43
+M	modules/ec/theme/commerce_paypal_ec.theme.css	54cde5e0b999ecc99bc6983ee4a44151
+M	modules/payflow/commerce_payflow.info	9a6bf8d77a6e404147c260bc7ff2734d
+M	modules/wpp/commerce_paypal_wpp.info	e5585e54df5d429e50dacb136ea47f33
+M	modules/wps/commerce_paypal_wps.info	48cdee70abb24af1e17d5c059241e1e7

@@ -1,0 +1,30 @@
+M	README.md	6dbd97ee0ea6b48b1e915f322a9f3267
+M	composer.json	3fa9d39773acbeaaffa32c523ccc7e43
+M	config_split.drush.inc	2d58f35628b70c43fca64ba624f020b7
+M	config_split.info.yml	3a8e9a79441789617ebe516845513376
+A	config_split.install	6b0f3d060910167edba150af4bacdf0f
+M	config_split.module	8c7fc6c8854e884d73cbc06d47f2242f
+M	config_split.services.yml	df8111196a22a98cd2f2024ac1eb8490
+M	console/translations/en/config_split.export.yml	1a025dcb20a9f492666ff27121ab0f15
+M	console/translations/en/config_split.import.yml	1117621a1d92e848726c88ea7c9aa2bf
+D	src/Command/ExportCommand.old.php	
+A	src/Command/ExportCommand.php	445b47e34c8ac6e0f7cd160083ca732c
+D	src/Command/ImportCommand.old.php	
+A	src/Command/ImportCommand.php	673c2f8c686034c4eca7c3a1762ed5ab
+A	src/Command/SplitCommandBase.php	4bca1f0ffc171459e2940c7b12496832
+D	src/Config/ConfigSplitStorageInterface.php	
+A	src/Config/GhostStorage.php	aff9a6458c51811fa9b329639d7ac108
+D	src/Config/SplitFilter.php	
+D	src/Config/StorageFilterBase.php	
+D	src/Config/StorageFilterInterface.php	
+D	src/Config/StorageWrapper.php	
+M	src/ConfigSplitCliService.php	2bc02a66d717ff1e5c3708d08109bd10
+D	src/ConfigSplitManager.php	
+D	src/ConfigSplitManagerInterface.php	
+M	src/Entity/ConfigSplitEntity.php	a1673e64a6f43ed459edf6d587e6f3f7
+M	src/Form/ConfigSplitEntityForm.php	1e430d7d76abc415c3c4fe7ef4216974
+A	src/Plugin/ConfigFilter/SplitFilter.php	480eff1f80b63d4a173ff70b6699a974
+A	src/Plugin/Derivative/SplitFilter.php	32a0ad396dbc2f74973c1d62675ea6b8
+M	src/Tests/SplitFilterTest.php	ffdba3076335a9e5d290ccd0a858624e
+D	src/Tests/StorageWrapperTest.php	
+M	tests/src/Kernel/ConfigSplitCliServiceTest.php	c1222ebc29980b365f0da0d0c5729fee

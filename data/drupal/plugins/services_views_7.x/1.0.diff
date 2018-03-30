@@ -1,0 +1,5 @@
+M	includes/views/views_plugin_display_services.inc	71828a0582a84aea1726b1e2d5be766a
+A	services_views.api.php	235088119f203874a2ef3f1b7d9eaf92
+M	services_views.info	08ce1c2f95173a6d8a1118952779ec0f
+M	services_views.module	f8044f73e6e629384fb96518e0e7b381
+M	services_views.resource.inc	cbb3ac39c90d2397cfdb48bbf0e5d1e4

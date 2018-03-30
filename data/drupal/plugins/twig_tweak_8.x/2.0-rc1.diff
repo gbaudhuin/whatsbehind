@@ -1,0 +1,5 @@
+M	src/TwigExtension.php	e199b57c83442be3a7c78ccbf6b19293
+M	tests/src/Functional/TwigTweakTest.php	4aed019794486d2b316a20cc1403f412
+M	tests/twig_tweak_test/templates/twig-tweak-test.html.twig	af407c4120d353ca8cedf6195d79757a
+M	tests/twig_tweak_test/twig_tweak_test.info.yml	b44335edbcf4463de0bb0fd2b722df8e
+M	twig_tweak.info.yml	69985e16cb150040af3f447a9468bf44

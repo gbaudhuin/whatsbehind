@@ -1,0 +1,19 @@
+M	README.txt	91aa5652b7bc7128336da54e65198e9e
+M	css/lightbox-rtl.css	eb8ffc95eecc4da666f6b1cbd6a9c1f7
+M	css/lightbox.css	71bc128269c0dfb826c51f9048bc437f
+M	css/lightbox_alt.css	9535e6c347a0d1674bb09e84f6aa5f31
+M	css/lightbox_lite-rtl.css	29b52dd3c4fd0f9308ab0d579f0cb14f
+M	css/lightbox_lite.css	5f7f122f0447716c8f561b76e2201696
+A	images/pause.png	7c689cee74ab8283b983c2f8ecb51a41
+A	images/play.png	45d4fdcfc5d114ca0af98d3e83cfbc0c
+A	js/auto_image_handling.js	9f6ca4f1c32bab6b66597a20d4557017
+D	js/image_nodes.js	
+M	js/lightbox.js	60481b49caf790e8d56922c6db03ef59
+M	js/lightbox2.js	d43af2d671a211843d748e252bf26d11
+M	js/lightbox_lite.js	70ba83cf488d710c1ee75ebab7866e4d
+A	js/lightbox_video.js	3028f62b6a4680d54443587084e38d51
+M	lightbox2.info	0d99802067f530cbaf531f1ad20b05ed
+M	lightbox2.install	f3a56d8c2d97e27dae276b4bc1a9ddfe
+M	lightbox2.module	edc8b31eadc867cf659b7586d9aab237
+M	translations/ja.po	9730a3ec66e90ff371adfbf58e3d38e0
+M	translations/lightbox2-module.pot	5bcc85b7fdd9158f64e3c2930f52b0b2

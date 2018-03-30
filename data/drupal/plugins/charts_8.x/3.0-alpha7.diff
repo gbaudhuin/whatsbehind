@@ -1,0 +1,22 @@
+M	charts.info.yml	10a22a866a45e5e305d212a5f65df203
+M	charts.module	2eeef3670f612b68feb44fa7ce71115c
+M	includes/charts.pages.inc	6aee2fa22ea5434063ffb000ca93eb0b
+M	modules/charts_api_example/charts_api_example.info.yml	fe97e72676d68fb959306336df37bfb5
+M	modules/charts_api_example/charts_api_example.module	9a80d3ce625a764a6f6b20a9976c4b66
+M	modules/charts_c3/charts_c3.info.yml	4fd66b63a7f51ec4e76e08757ce87484
+M	modules/charts_c3/src/Charts/C3ChartsRender.php	b9fb1ffcbac6efc3bbe7f7d0a79131e0
+M	modules/charts_google/charts_google.info.yml	6ac178d33c148e02474fb59efd776938
+M	modules/charts_google/js/charts_google.js	bacbad742df48c3ad8d0143fa3007e86
+M	modules/charts_google/src/Charts/GoogleChartsRender.php	b10f35d74809d7ba01285b6c47215842
+M	modules/charts_google/src/Settings/Google/ChartArea.php	4ea24e4c8233fa9aa46207301594e7f0
+M	modules/charts_google/src/Settings/Google/GoogleOptions.php	921972166659866b342e2f3d1c793963
+M	modules/charts_google/src/Settings/Google/HorizontalAxis.php	eebc5a5c76d07754c2fdbd78ecbb256f
+M	modules/charts_google/src/Settings/Google/VerticalAxis.php	e6c31e19a7cac52415afd395e9d4b791
+M	modules/charts_highcharts/charts_highcharts.info.yml	b5d58ba37bd2f11f0f8a6df550b7b1cb
+M	modules/charts_highcharts/charts_highcharts.libraries.yml	3cfe3e82a7072159fcabe4965f9cec1a
+M	modules/charts_highcharts/composer.json	3a6921f5cc1c775ccece12ddc52964b8
+M	modules/charts_highcharts/src/Charts/HighchartsChartsRender.php	245a032ff8c30bc7f12ff6faeb4d7dff
+A	modules/charts_highcharts/src/Settings/Highcharts/Chart.php	458cd626e45bab91dd7a9ae3fa00e249
+D	modules/charts_highcharts/src/Settings/Highcharts/ChartType.php	
+M	src/Form/ChartsConfigForm.php	c2466d3689734f72358ca9cd6fe8d0d2
+M	src/Plugin/views/style/ChartsPluginStyleChart.php	f8bc9473e79756987e04713972f4f159

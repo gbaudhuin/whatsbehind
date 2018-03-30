@@ -1,0 +1,14 @@
+A	.gitignore	7a8b085dbf273de1bb2cb0b44c858f33
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	df87044f5a51ddd3eacd7ff3a8fca019
+A	composer.json	8c32379486fd9ef6f3f0f033b818791f
+A	config/install/responsive_favicons.settings.yml	86b2ac54f275b90d13bb4922a2539b18
+A	responsive_favicons.info.yml	d161ffb0c9d684e74fff4f3eeb82dee0
+A	responsive_favicons.install	fc1910ff0bf1bec7217d6065c12cab56
+A	responsive_favicons.links.menu.yml	e36cd07e121e5c638061e70215d15835
+A	responsive_favicons.module	618a66adea232ed264787cc4588de6b5
+A	responsive_favicons.permissions.yml	e0b9c9b19b13ae7de2e98a8cc90e20fb
+A	responsive_favicons.routing.yml	e8f9999156cbaa21b0a36e262805c87a
+A	src/Controller/GetFile.php	9c04bee5579f9c6bd62d25b3f3468acf
+A	src/Form/ResponsiveFaviconsAdmin.php	7bf3377d5a5b4ae589c00daf31a85185
+A	src/Routing/DefaultFavicons.php	1ae8053fdfa92597a40059e92f977f3c

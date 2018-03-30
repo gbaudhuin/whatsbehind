@@ -1,0 +1,13 @@
+A	sitemap.admin.js	f9106bad07c839513370c1adc94cc2a5
+M	sitemap.info.yml	3e72aaedc64dbd2bcafb2f2ab15009cf
+M	sitemap.libraries.yml	31b4b6a6d4069723c20e823f70e9a80f
+M	sitemap.module	edb5d111b91038bcd189e2c01bd6d0d7
+M	sitemap.theme.inc	1672ee5fdc349b65e6674d033c1019bf
+M	src/Form/SitemapSettingsForm.php	253a642f6a1bb536d29b275159092ffe
+M	src/Menu/MenuLinkTree.php	282ed611176badfa74a104ca3b4f8f66
+M	src/Plugin/Block/SitemapSyndicateBlock.php	6ceaa2e6de5b9e37e855d4b7a937e4cd
+M	src/SitemapHelper.php	d8de78605216b13c9586c9ab76b43b68
+M	src/Tests/SitemapContentTest.php	717a150b0a8686baaca25e0834a53bf3
+M	src/Tests/SitemapMenuTest.php	c150f49204103d68acdbf2fd6019c270
+M	src/Tests/SitemapRssTest.php	144be2c5555e168e865bf74c6ec714ae
+M	src/Tests/SitemapTestBase.php	04a80865ceb1b376726e2b49151202f2

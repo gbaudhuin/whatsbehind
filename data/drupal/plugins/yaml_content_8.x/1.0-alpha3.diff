@@ -1,0 +1,13 @@
+A	composer.json	1802bfaaed836579664d7b385397b481
+M	src/ContentLoader/ContentLoader.php	ceeba9488088d7097d7dc229d19b6866
+A	src/Event/ContentParsedEvent.php	60dcec2bab82c67327932b2e9c65bd51
+A	src/Event/DataImportEvent.php	afd1061bded5a9a3aa63dee9eee437d0
+A	src/Event/EntityImportEvent.php	0610e79b4fa3de200624cacb2a845e75
+A	src/Event/EntityPostSaveEvent.php	edfe62a2c747413b9f3fb8084351cce4
+A	src/Event/EntityPreSaveEvent.php	5977b5df07ea7e05cd73a7619b15d9c4
+A	src/Event/EventBase.php	2cc0ca59fbd431a6ba9ba1736b24a30e
+A	src/Event/FieldImportEvent.php	299d21695cf123431028df07b39e823c
+A	src/Event/YamlContentEvents.php	fcad06aae2f053639cb504e0b1b51f22
+A	tests/src/Unit/ContentLoaderTest.php	7f33625a06eed2eb2839d6b342c1024c
+M	yaml_content.info.yml	5c031f6a2bc0e0ccee3da81b7ce105ce
+M	yaml_content.services.yml	353eca25cacbfef39fc02db509574bb2

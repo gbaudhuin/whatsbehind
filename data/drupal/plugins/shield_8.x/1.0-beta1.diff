@@ -1,0 +1,11 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	12b6c3493a16f4e875970984ac9a6bd2
+A	config/install/shield.settings.yml	ece42b0c102e60141a8f5729e416acd4
+A	config/schema/shield.schema.yml	da3e251039a69802b8a216e2d4068a15
+A	shield.info.yml	61e6510f192f0976054f221a563c83de
+A	shield.links.menu.yml	c33e46d50c73f200cb742def931748e7
+A	shield.permissions.yml	6d20dc7527667846533d682740e38516
+A	shield.routing.yml	9929198ec71e479e7c8791fd882b67e9
+A	shield.services.yml	2fe504ac93eb07206d43756a6376938b
+A	src/Form/ShieldSettingsForm.php	d0cb7be1ad9f81b5d55064b814aaf086
+A	src/ShieldMiddleware.php	fb28718e2a8edd152b2d4591c23f8436

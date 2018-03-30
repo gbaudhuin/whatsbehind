@@ -1,0 +1,11 @@
+M	jsonapi.info.yml	1f547c067c0a9d57b89dffc899e715fa
+M	jsonapi.module	d84bcad7349fa05a2d7723e7440b0b42
+M	jsonapi.services.yml	9e76f575b6c57d4dd96805ca4e261657
+M	src/Context/FieldResolver.php	18547f6ef521205adb8fe1687c5cf23f
+M	src/Field/FileDownloadUrl.php	a949820094ca44b771dfa1bed400d70d
+M	src/LinkManager/LinkManager.php	93a6e42cd75475f9471f22d0aa4c388e
+M	src/Normalizer/EntityNormalizer.php	e99e74298438b356a74e713f058c8909
+M	src/Normalizer/JsonApiDocumentTopLevelNormalizer.php	a48f4ee926f505b38fef63c7bfa39dfb
+M	src/ResourceType/ResourceType.php	2f783f2f2315e38d41715f316c8750c9
+M	tests/src/Kernel/Field/FileDownloadUrlTest.php	cbd9d1b4cafcfaa488b5ca2c269d4339
+M	tests/src/Unit/Normalizer/JsonApiDocumentTopLevelNormalizerTest.php	97fe5a7ed53ab66b921604afc782357d

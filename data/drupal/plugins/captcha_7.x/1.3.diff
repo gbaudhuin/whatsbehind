@@ -1,0 +1,11 @@
+A	.gitignore	cf6600f4d0ca01755ef6cc2a6616bfec
+M	captcha.admin.inc	35d29e42efa0d2a803faecc2f0bd0ca1
+M	captcha.inc	318672dd571930374e35975c1133c35b
+M	captcha.info	097f2316cdf2f8efe4c868974a0847d7
+M	captcha.install	8cb2d83827f9d6df3a27a7feb3e926b0
+M	captcha.module	eb6829f82865fa6b9e8a3c2960ee8dc8
+M	captcha_api.txt	e2f8e657ee3704b0962ab5d4e1ee7f67
+M	image_captcha/fonts/README.txt	fa8bfa2b8d98ae079953a15df2d5717b
+M	image_captcha/image_captcha.css	6ee160a27b9232f83a250929fc17be60
+M	image_captcha/image_captcha.info	8867d7307542af4d6f8368fde60bfdd1
+M	image_captcha/image_captcha.module	0b6a3f710b5f1107944300a2fe1a19d9

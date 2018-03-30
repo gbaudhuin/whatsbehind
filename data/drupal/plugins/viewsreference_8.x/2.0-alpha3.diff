@@ -1,0 +1,5 @@
+M	js/viewsreference.js	aa5d0ce23121dcedd57de088e918edcb
+M	src/Plugin/Field/FieldFormatter/ViewsReferenceFieldFormatter.php	ddc69a55f12c84909445774337221326
+M	src/Plugin/Field/FieldWidget/ViewsReferenceTrait.php	7a09d4e415f197f7efb0cdd230a60167
+M	viewsreference.info.yml	cff097d7e8b9d8e3b58c7d78c0d54460
+M	viewsreference.module	6048079e9696a8146ff7a5f706a1e4e1

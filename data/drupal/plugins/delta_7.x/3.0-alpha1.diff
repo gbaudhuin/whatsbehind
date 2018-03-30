@@ -1,0 +1,14 @@
+D	.cvsignore	
+M	CHANGELOG.txt	70581f363b0f004d691ad3e49b55796e
+M	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+M	delta.info	f1bf94116a562f730fd921a01f0c10dd
+M	delta.install	533c558c24baa2a3c709ea7928212cb5
+M	delta.module	a338db241292be844e436f5de29bcab8
+D	delta_ui.admin.inc	
+D	delta_ui.info	
+D	delta_ui.js	
+D	delta_ui.module	
+A	delta_ui/delta_ui.admin.inc	0e0c812b397184b9a153897d728f0840
+A	delta_ui/delta_ui.info	5d966fb4e64200b94069342670be929a
+A	delta_ui/delta_ui.module	9231786aab239dbee8caf86dd1ca91d9
+M	plugins/context_reaction_delta.inc	9870c0c2eb64bc65317d746163ea6f55

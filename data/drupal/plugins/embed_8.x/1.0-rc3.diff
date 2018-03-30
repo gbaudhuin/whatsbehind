@@ -1,0 +1,8 @@
+M	embed.info.yml	14cfa0c2222beadddea32806717066f9
+M	src/Controller/EmbedController.php	d19352271647a8b67090b597f8a425a8
+D	src/Tests/IconFileUsageTest.php	
+M	tests/embed_test/embed_test.info.yml	c8144078cfa70ce458491a683d705d8f
+M	tests/embed_test/embed_test.module	d2e2b5f281040334829d05fd6aeaa809
+A	tests/embed_test/src/Plugin/Filter/EntityEmbedByID.php	8d3f1edc477eb6f9aab899a2dbdce129
+A	tests/src/Functional/EmbedPreviewTest.php	78bb223ac651dd3e8ef8e928f457e0bf
+A	tests/src/Kernel/IconFileUsageTest.php	aafec7ee20b4bbba4005e0ac2b96c0d2

@@ -1,0 +1,29 @@
+A	composer.json	e4f29be2377e345371c09dd925046bde
+M	relaxed.info.yml	3d87d5bf6fca1bc1c620e6defdd98530
+M	relaxed.services.yml	c642b786bab1d78d5c26398185bfb2d8
+D	src/Access/CSRFAccessCheck.php	
+M	src/Controller/ResourceController.php	afd4c8a0a90528ae09d09cdc08c7f182
+M	src/Normalizer/WorkspaceNormalizer.php	86ceebc00d2637cd48966aa3386f7985
+M	src/ParamConverter/DbConverter.php	013742d38fc14094449373f6c7628a25
+M	src/Plugin/Deriver/WorkspaceDeriver.php	6a0b1c43089b183c0783e8bf3d187d36
+M	src/Plugin/rest/resource/AllDbsResource.php	f6c57a6333de26f886551aa40633559d
+M	src/Plugin/rest/resource/DbResource.php	45bc4ede87acd404e5a7f12a80e8cd99
+M	src/RelaxedServiceProvider.php	ffc0ee5598312b49613c8402f53753c9
+M	src/Tests/AllDbsResourceTest.php	f1801490547fc239895ea25fa259edcf
+M	src/Tests/AllDocsResourceTest.php	66c6b1b90cba33fa8bf587b60989b162
+M	src/Tests/AttachmentResourceTest.php	24f78c944cbe69fdef972c2268f91159
+M	src/Tests/BulkDocsResourceTest.php	9348fc68e0819f2928ca4eb26d97fb73
+M	src/Tests/ChangesResourceTest.php	abac2595f62ef53021787d2f6764c639
+M	src/Tests/DbResourceTest.php	ad98cf6166827ec608c1057b8a33e70f
+M	src/Tests/DocResourceTest.php	670bf1f1f6f2b2256265528b7077c808
+M	src/Tests/EnsureFullCommitResourceTest.php	a2a90815f537fd57031c6c67974911f4
+M	src/Tests/LocalDocResourceTest.php	420d03ac4438119e860fb59163f73041
+M	src/Tests/ResourceTestBase.php	5d6f2625e9cfac94e6881edd3b9df23c
+M	src/Tests/RevsDiffResourceTest.php	2340d215872d88a9a40fd16a6a80d3a1
+M	src/Workspace/RelaxedWorkspaceNegotiator.php	b224bc245d6187aa26bf75d069b31e78
+M	tests/bin/drupal.sh	00477dfd9dc5ff8587b265d6e0f836b0
+D	tests/fixtures/no-attachments-documents.txt	
+M	tests/modules/relaxed_test/relaxed_test.info.yml	18f7371939cbec8d597ff64eae69434d
+M	tests/src/Unit/EndpointPluginTest.php	b22035a845a8c725e23a32fb989666a8
+M	tests/src/Unit/Normalizer/NormalizerTestBase.php	eba25bb9eb5b181be6f66ee4173d6f55
+M	tests/src/Unit/Normalizer/WorkspaceNormalizerTest.php	ebb2a6225e75c4d197f2a24f1bce327a

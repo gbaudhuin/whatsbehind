@@ -1,0 +1,9 @@
+M	contrib/file_styles/file_styles.info	55b820559a78254d743dcfffa4a37154
+M	contrib/file_styles/file_styles.module	95dc0450c2c99a5fca90a1f1584f6def
+A	contrib/file_styles/includes/file_styles.variables.inc	20f3427f7c2929ac52f420248281cea7
+M	contrib/file_styles/includes/themes/file_styles.theme.inc	b98f9f0255419d94662d32809da1d411
+M	contrib/styles_ui/styles_ui.admin.inc	710dddb140c351d37bf2f3c5842cb48d
+M	contrib/styles_ui/styles_ui.info	f326453aed4c819a7be2ea35022cbdc5
+M	styles.info	0245dbd3933e7d2922086fe24b443b53
+M	styles.install	2bb55bafd95845b70dd42dde2d681e5f
+M	styles.module	b03d3a0f26e126d911be44a9015154f4

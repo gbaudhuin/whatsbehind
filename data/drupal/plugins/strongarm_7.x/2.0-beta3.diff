@@ -1,0 +1,9 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	README.txt	7fb2eaeb2e05b7e68640781eb8c786c2
+M	strongarm.admin.inc	dae392d5c09b2aabc3cf3596e8928b4a
+M	strongarm.css	20a881be7654ee82e2722777f6bbdd52
+A	strongarm.drush.inc	7a6859b65426cf0037e96e6b1a87e066
+M	strongarm.info	db89806c1cf5706246bd9e399d3d4f2e
+M	strongarm.install	8ea6dfc89750bb0cbdcb2dcf3e799712
+M	strongarm.module	2f24ae5255c91cf9c1815ba467cb3b95
+D	translations/de.po	

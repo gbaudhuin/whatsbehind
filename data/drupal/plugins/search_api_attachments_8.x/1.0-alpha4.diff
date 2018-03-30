@@ -1,0 +1,22 @@
+M	README.txt	d5ae5cd6f60f9ce130340b1e753b191d
+M	config/schema/search_api_attachments.schema.yml	9f50dac9e4d7893310c565ab115b8f53
+A	search_api_attachments.api.php	2a986080ee3f0d7111da9e3642b56f39
+M	search_api_attachments.info.yml	d8efa2e99caec074b0c214e7b6c5d14d
+M	search_api_attachments.links.menu.yml	f1919b5fef0829a1acd3038b5dc09d2a
+M	search_api_attachments.routing.yml	250e4dfcb0e58420506048a0d872abbf
+M	search_api_attachments.services.yml	e1067d908d4d4fb9e8a56877178ea257
+M	src/Annotation/SearchApiAttachmentsTextExtractor.php	16255077c11195f1db61dd119a789d60
+M	src/Form/TextExtractorFormSettings.php	39e2a990636ee3b4c0416d1b606c56ec
+D	src/Plugin/SearchApiAttachmentsTextExtractor/PdftotextExtractor.php	
+D	src/Plugin/SearchApiAttachmentsTextExtractor/PythonPdf2txtExtractor.php	
+D	src/Plugin/SearchApiAttachmentsTextExtractor/SolrExtractor.php	
+D	src/Plugin/SearchApiAttachmentsTextExtractor/TikaExtractor.php	
+A	src/Plugin/search_api/processor/FilesExtrator.php	73ebdd98b29ece7601c8513da6eb50df
+D	src/Plugin/search_api/processor/FilesFieldsProcessorPlugin.php	
+A	src/Plugin/search_api_attachments/PdftotextExtractor.php	591b3a0324c8467c70bf74ac3cdcd1da
+A	src/Plugin/search_api_attachments/PythonPdf2txtExtractor.php	fda8fe12b3143f7c49cb536c246bfc70
+A	src/Plugin/search_api_attachments/SolrExtractor.php	cb5dce148641b05db91de69690b07e09
+A	src/Plugin/search_api_attachments/TikaExtractor.php	e2ccfa8542794bec9c515d9384b04db9
+M	src/TextExtractorPluginBase.php	e723ec25fa32c15383188aedb165343a
+M	src/TextExtractorPluginInterface.php	fc9ce539623b78f69c0f3539a7ed6312
+M	src/TextExtractorPluginManager.php	039e284652428215bb55b2f005d1293c

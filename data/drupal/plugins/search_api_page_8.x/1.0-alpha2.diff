@@ -1,0 +1,13 @@
+M	config/schema/search_api_page.schema.yml	649f80e60db49be314d78f1b6f32158d
+M	search_api_page.info.yml	17db9856e04c6ab0c2df23fe35d5b84b
+A	search_api_page.module	8c150bec7550172b1b7270d808f04084
+M	search_api_page.permissions.yml	0041fcc431d7fdefdb25ba50b5137712
+M	src/Controller/SearchApiPageController.php	75f0c023aa99c27dde94a3c3fcbf44e9
+M	src/Entity/SearchApiPage.php	9738f7b3b4de575ca9c7c5f63298ce9f
+M	src/Form/SearchApiPageBlockForm.php	8f461c3e9a24dc2869890a49457a7658
+M	src/Form/SearchApiPageForm.php	dcdd40f98b687aa829eea946b37ff206
+M	src/Plugin/facetapi/facet_source/SearchApiPage.php	6eca22915bcd9f51737ab0b4403ab734
+M	src/Routing/SearchApiPageRoutes.php	cfaba3ca6049a1569ae537d9073c6b3a
+M	src/SearchApiPageInterface.php	2705c53053e96c0d94d1728d3fc6de4f
+M	src/SearchApiPageListBuilder.php	690b26d0066149076f314cbf1ff1a416
+A	templates/search-api-page.html.twig	45614305845803342b949ab2381e4a2d

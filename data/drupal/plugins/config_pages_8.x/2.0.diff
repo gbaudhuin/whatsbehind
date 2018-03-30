@@ -1,0 +1,5 @@
+M	config_pages.info.yml	766bd3aa72b8152dc2be2142f6d3c59d
+M	config_pages.module	83cb3d8070c5f192bb8913e8d53f21f3
+M	src/ConfigPagesForm.php	d25c7f2c009b91df6db4c5244afa3535
+M	src/ConfigPagesTypeForm.php	cf1b2dc4ac9691c95c76e8c155f4b27e
+M	src/ConfigPagesViewsData.php	dd3dcd2704fc8524bcdc0bc7e9832744

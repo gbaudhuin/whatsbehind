@@ -1,0 +1,9 @@
+A	README.txt	6dd660a0fa6f73ff0cad491eb9a18080
+M	autologout.info.yml	958096d0186a1fddc45c5872167bd191
+M	autologout.module	5101de002e9c6e8c61ab13a3e6c510cf
+M	js/autologout.js	52786854d268181a31789d0c5da8d200
+M	src/EventSubscriber/AutologoutSubscriber.php	33fec9ddf2467de51aeef4255dc0a774
+M	src/Form/AutologoutSettingsForm.php	be9761058d00dfdfa5587a5f14f7f379
+M	src/Plugin/Block/AutologoutWarningBlock.php	d43ddf025874a193d32a37026acb20fd
+M	src/Tests/AutologoutSessionCleanupOnLoginTest.php	40a94c24f82dcb5e8a0a52bb68b1b97a
+M	src/Tests/AutologoutTest.php	5024df5d4326aac0cb2d4944b5a00d81

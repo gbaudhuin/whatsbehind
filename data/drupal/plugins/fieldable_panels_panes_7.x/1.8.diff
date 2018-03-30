@@ -1,0 +1,14 @@
+M	CHANGELOG.txt	996cb49c578908f35f7b4be9bd355357
+M	README.txt	80788414658d62b7f78a26ebe7845c3d
+M	fieldable_panels_panes.info	b0ed36c763894c6699fd33168720dca2
+M	fieldable_panels_panes.module	96734d6a3dc2ef88c515959953c1b1a6
+M	includes/FieldablePanelsPaneInlineEntityFormController.class.php	11002fcb581bfb38d717eb218d40f500
+M	includes/PanelsPaneController.class.php	647b54ba300ba59cc5d5c3c9738bbd00
+M	plugins/content_types/fieldable_panels_pane.inc	0128160131af937387df8636b50fee61
+M	plugins/export_ui/fieldable_panels_pane.class.php	fd9b0c754e123e817615018d8f88b93b
+M	plugins/export_ui/fieldable_panels_pane.inc	57e7573a349bffcfa8e64deda556c369
+M	plugins/views/fieldable_panels_panes.views_default.inc	f0e55cbd229b6e05e931a6900754d1b2
+A	plugins/views/fieldable_panels_panes_access_plugin.inc	7ee81ea6c31e6727b0a8ee7d6c77a8d7
+A	tests/fpp.file_access.test	db19b6923ab011d77e28a2e443a07c60
+A	tests/fpp.helper.test	47d6d60f472a341536fe4f8094f1818b
+A	tests/fpp.permissions.test	f5700046eb0c6835c7dc49b7af14d0ce

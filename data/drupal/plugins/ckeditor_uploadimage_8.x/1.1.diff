@@ -1,0 +1,15 @@
+M	ckeditor_uploadimage.info.yml	5f3f08df73eb5e49b70516496dbe1ab2
+A	js/plugins/drupaluploadimage/plugin.js	b4d1606ff18fead40b97d7f6513b3e03
+M	src/Controller/CKEditorUploadImageController.php	7866d7bd5f8310028881d146e03e77d9
+D	src/Plugin/CKEditorPlugin/Clipboard.php	
+D	src/Plugin/CKEditorPlugin/Dialog.php	
+D	src/Plugin/CKEditorPlugin/DialogUserInterface.php	
+A	src/Plugin/CKEditorPlugin/DrupalUploadImage.php	0e9d8b465ca86a7a58a352693861d0f6
+D	src/Plugin/CKEditorPlugin/EditorToolbar.php	
+D	src/Plugin/CKEditorPlugin/LineUtilities.php	
+M	src/Plugin/CKEditorPlugin/Notification.php	e3ff4dd3bcc4f9694a12386634983afa
+M	src/Plugin/CKEditorPlugin/NotificationAggregator.php	c9c34492b0c56f0132d186e55cf51daf
+D	src/Plugin/CKEditorPlugin/UiButton.php	
+M	src/Plugin/CKEditorPlugin/UploadImage.php	dab8473dcf6ba7750d1b3e3fe5acb5f4
+M	src/Plugin/CKEditorPlugin/UploadWidget.php	d57689b14579e070b425418f6b20d505
+D	src/Plugin/CKEditorPlugin/Widget.php	

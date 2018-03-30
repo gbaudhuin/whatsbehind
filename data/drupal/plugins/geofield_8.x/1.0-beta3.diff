@@ -1,0 +1,5 @@
+M	composer.json	d73247a48d87d74b62412a3df367268f
+M	geofield.info.yml	49f43cbb2034fe4f08f7a592c0e2b493
+M	src/DmsConverter.php	fe2979ce731386849fdefccbc14ccdc2
+M	src/Plugin/Field/FieldWidget/GeofieldLatLonWidget.php	86714a4a2be11a6aea5b600ed5a57fca
+M	tests/src/Functional/GeofieldWidgetTest.php	002c78df0ead430bbda48b98dca167d0

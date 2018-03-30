@@ -1,0 +1,22 @@
+M	.travis-before-script.sh	ae6cf938628887cdc0c7c4bebfb56799
+M	.travis.yml	f0cd6609e1d58c1946ab5e7a347c99e5
+M	README.md	e6bb306e6b2be47017cc55feeb7691bc
+M	address.info.yml	eb549f88254f34f74569aba677147c2d
+M	src/AddressFormatStorage.php	63284c30aef1aaa2f1d10c0842307591
+M	src/Form/ZoneForm.php	3dccc0c5ec930285ce65ce1448efba77
+M	src/LabelHelper.php	3fb33b56cc585bab1f1378175758ebf6
+M	src/Plugin/Field/FieldType/AddressItem.php	4816192421d5d66f1328c328147c98ef
+M	src/Plugin/Field/FieldWidget/AddressDefaultWidget.php	079e4e759b7b805e60894b296d03c37c
+M	src/Plugin/Validation/Constraint/AddressFormatConstraint.php	a6de8f7f3c6f13043faa1af14255f3a3
+M	src/Repository/CountryRepository.php	47b1f3a1aadc7ce05de90b71ec5df9b5
+M	src/Repository/SubdivisionRepository.php	0ed3814c27b52ee408301d087c6042ea
+D	src/Tests/AddressFormatTest.php	
+D	src/Tests/Formatter/DefaultFormatterTest.php	
+D	src/Tests/Formatter/PlainFormatterTest.php	
+D	src/Tests/ZoneTest.php	
+M	tests/modules/address_test/address_test.info.yml	f3b00ceca16cc410ffd8955389935687
+M	tests/modules/address_test/src/EventSubscriber/AddressTestEventSubscriber.php	0269f124357f857d86dce7f1e4f8def1
+A	tests/src/Functional/AddressFormatTest.php	86c1877bcaab24a3adf4fbdd69d9d109
+A	tests/src/FunctionalJavascript/ZoneTest.php	875d700f8a86b7d54392c526460626f7
+A	tests/src/Kernel/Formatter/DefaultFormatterTest.php	59827615035b925f354c07c07216e619
+A	tests/src/Kernel/Formatter/PlainFormatterTest.php	fedb137d2a57f7e06de9ef2b8bff3531

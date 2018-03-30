@@ -1,0 +1,17 @@
+M	CHANGELOG.txt	8b8a791694630e39adf0a49f3856fdf7
+M	export/taxonomy_csv.export.admin.inc	4f2f316465d283ea7f294fe481d509af
+M	export/taxonomy_csv.export.api.inc	f4a06f701cd2f6e050452930d584b6dd
+M	export/taxonomy_csv.export.result.inc	edf683712582a034cadd16662b33a84c
+M	import/taxonomy_csv.import.admin.inc	4edeffb4ef6a757b742734c9791b296a
+M	import/taxonomy_csv.import.api.inc	1121962cf2f19baf6dff79a4fba46d70
+M	import/taxonomy_csv.import.line.api.inc	f1015d88353523ce185408ddc2758544
+M	import/taxonomy_csv.import.parser.api.inc	2ee838c63962c11970095f79807f9c8a
+M	import/taxonomy_csv.import.result.inc	1a1907bddcd31ada149c0559557c87dd
+M	taxonomy_csv.api.inc	a77109291129238d77d84b6e3aed7c7d
+M	taxonomy_csv.info	4f0160ab358a7091b9efdca03d1ece53
+M	taxonomy_csv.install	eb51893db84acd4e6f4ec695b20b9b6c
+M	taxonomy_csv.module	c85587e5d9823a9eb15f59e20cfd3d27
+M	taxonomy_csv.term.api.inc	6077ad7209417f2be992c1ea4a601b53
+M	taxonomy_csv.vocabulary.api.inc	a2e17a1c1bc078193988369821c2489a
+M	translations/taxonomy_csv.fr.po	110a05769d1d232e4f0fcb5ea4768b9b
+M	translations/taxonomy_csv.pot	cec9904e1d16fbce02d554daf03564e4

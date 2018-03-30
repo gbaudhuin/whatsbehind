@@ -1,0 +1,10 @@
+M	README.txt	81a37cc23b579ed975db34cf5bafd298
+M	fasttoggle.admin.inc	dfc3ee32e1757fc43bff54289a564f2d
+A	fasttoggle.inc	9f8736d10be9b5dd5077c306e03416b8
+M	fasttoggle.info	72963fc534b87c1be7a341e28f2b2f1a
+M	fasttoggle.module	6d88bec779659fe6b0e4d9c5fe37db3e
+M	fasttoggle.toggle.inc	f078e7d9819a7d2cb1edf38a8ef0ddc5
+M	views/fasttoggle.views.inc	72009a740337f1678ea3d2701a9b6c63
+M	views/fasttoggle_views_handler_field_comment_link.inc	1f5522a2469e56dcdb479cde80491dd1
+M	views/fasttoggle_views_handler_field_node_link.inc	27e1e905bfbfb1eda08d6766acaed3f3
+M	views/fasttoggle_views_handler_field_user_link.inc	23de91279cdb03bd94e32778a3e401b9

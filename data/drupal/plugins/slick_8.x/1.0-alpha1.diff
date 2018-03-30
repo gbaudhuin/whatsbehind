@@ -1,0 +1,11 @@
+A	.gitignore	d41d8cd98f00b204e9800998ecf8427e
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	css/layout/slick.module.css	11fed1053d3a0dfe8877730190d63322
+A	js/slick.load.js	48ea058766cb4e955b0e5e3f1ef82e26
+A	js/slick.load.min.js	fc840b8df8bd5896f81d1cf701ab425a
+A	slick.info.yml	ae04ef3a5a60ab16ab139cc8817e7862
+A	slick.libraries.yml	2aa6a16dc294f74ff8218f6f42083cbb
+A	slick.module	0063a696836ec9845029f9aedd26caa4
+A	templates/slick-slide.html.twig	7f911d85495f50efc09e64a3829589d9
+A	templates/slick.html.twig	9df085467e2b34c83ef210e5258941ab
+A	templates/slick.theme.inc	dd91177f1c5ed593dd1d267e27a2cec3

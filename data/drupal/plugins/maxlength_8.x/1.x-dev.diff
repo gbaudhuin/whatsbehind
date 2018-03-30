@@ -1,0 +1,16 @@
+M	README.txt	aa3116eda05b7c17ea968ad4bae4f907
+M	config/schema/maxlength.schema.yml	7e25e90c7fba0f41f6c395582c959052
+M	js/maxlength.js	60402d821b1fa6ed51460ddac9358242
+A	maxlength.api.php	3860aec7637853797e24976ba5aab648
+M	maxlength.info.yml	5df716a4e04e9a90c11241312dd5b566
+M	maxlength.libraries.yml	20157490dfb7d1b6569bdc58fc93ea32
+M	maxlength.module	4a46c3166d6b5bfe512c380fdd53c39d
+M	maxlength.test	cdd638cde77b37eee73ea6e16e6033ac
+A	phpcs.xml.dist	bd0bc7631b09c39bab7128e71cb09952
+M	src/WidgetSettings.php	51b66587a8a32429123ae00454765bcc
+A	tests/modules/maxlength_custom_widget_test/config/schema/maxlength_custom_widget_test.schema.yml	340bfbaa593606eebc1fd075cf8e1d16
+A	tests/modules/maxlength_custom_widget_test/maxlength_custom_widget_test.info.yml	ee34146c77ddf9112126c3d4c1ce5b01
+A	tests/modules/maxlength_custom_widget_test/maxlength_custom_widget_test.module	a8d980acd45dae11c755410247fc9db6
+A	tests/modules/maxlength_custom_widget_test/src/Plugin/Field/FieldWidget/TextareaCustomWidget.php	65ccc238ba011367a060fb76581f8a02
+A	tests/src/FunctionalJavascript/MaxlengthCustomWidgetTest.php	0f32344fd4cd2c8b6ba4685bc6cf766d
+A	tests/src/FunctionalJavascript/MaxlengthJavascriptTest.php	c8864354d5f7e0eb00f0e3f97e7a97ba

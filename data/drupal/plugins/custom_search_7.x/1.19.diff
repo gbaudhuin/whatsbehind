@@ -1,0 +1,9 @@
+M	custom_search.admin.inc	62b69a9a2829b36ebd0cfc62ce08e040
+M	custom_search.info	1efdf4de4cc5449e872c968ce97e0237
+M	custom_search.module	5e1bd8fec2046ede3ca80ce6d684bb6c
+M	includes/apachesolr_search.inc	1defbc7ad7efc9ec2b94d0bbdcf40c68
+M	includes/forms.inc	9f8af4597e936924feeeed9d259de68d
+M	js/custom_search.js	ff00a2a0eea9d618a218e66471e4b5af
+M	modules/custom_search_blocks/custom_search_blocks.info	5194b51e12b94fee09325d9f3a6ce9f9
+M	modules/custom_search_i18n/custom_search_i18n.info	aabbc62206f314af0aa625ab093367b7
+M	modules/custom_search_taxonomy/custom_search_taxonomy.info	c2669914d9e2d90fadc431b8d87a83c6

@@ -1,0 +1,15 @@
+M	README.md	fb6acd0eab6611949df35ff1caec6094
+M	audiofield.info.yml	665cbc7f775390999d42ece8cba00678
+M	composer.json	8276278a74276acdbc8c3bbba10a7abb
+A	drush.services.yml	64b66f4b42235956f9ecb326b6cc257e
+M	js/wavesurfer.builder.es6.js	ceeb9a61090a3c08d37dcac7332b4647
+M	js/wavesurfer.builder.js	a194495bfa43e4b38f8f7bb88748d999
+M	src/AudioFieldPluginBase.php	923dac1f731b64f8022ccac6e3e5bc75
+A	src/Commands/AudiofieldCommands.php	ee2124885eaeda599fd471e3f37fd5e8
+M	templates/audiofield-download-links.html.twig	cf2ccb798732007702dddf25a3b75fdb
+M	templates/audioplayer--jplayer--jplayer-circle.html.twig	0dd5491067383f16469be7149b387d7f
+M	templates/audioplayer--jplayer.html.twig	f85d83794a1fedd5657eace6d5887817
+M	templates/audioplayer--mediaelement.html.twig	f6ed34ceb4178a640bfe2bc6cb48448c
+M	templates/audioplayer--projekktor.html.twig	aa526f745b422ba47f706b0b9626698a
+M	templates/audioplayer--soundmanager--barui.html.twig	9e7520eeaf1395c17f1d5ac30d21a026
+M	templates/audioplayer.html.twig	dbf7c9502538cd7918378db720a9e986

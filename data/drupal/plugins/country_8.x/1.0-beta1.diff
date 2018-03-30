@@ -1,0 +1,11 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	country.info.yml	a5895bde822fb732456ff1400109e857
+A	country.module	c5240b0b84bf003cbae6007a8167f574
+A	country.routing.yml	ffd6f651522eed5104a4db571c7b7866
+A	country.services.yml	1724a8218f9753933ef2fcc4c9b20b08
+A	src/Controller/CountryAutocompleteController.php	fb116f786bf2236fb358721da0e06fd5
+A	src/CountryManager.php	ed73e0d69a2cdde63f9406194fcb2410
+A	src/Plugin/Field/FieldFormatter/CountryDefaultFormatter.php	661dac8ff07d6019dcbc9827c2f7f37b
+A	src/Plugin/Field/FieldType/CountryItem.php	b4b0695503049bc849c29ea37d9ced0d
+A	src/Plugin/Field/FieldWidget/CountryAutocompleteWidget.php	db3eeef61597ffea9d118ba04bd532b6
+A	src/Plugin/Field/FieldWidget/CountryDefaultWidget.php	7f4aa6af3ff9d2c80b7161d978737441

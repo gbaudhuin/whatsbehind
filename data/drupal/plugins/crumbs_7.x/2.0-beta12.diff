@@ -1,0 +1,11 @@
+M	admin/crumbs.admin.inc	00cd193c4dd51deec9acbb4474dfbd44
+M	crumbs.info	2f3838ca2c571f08da9e6c09750aff91
+M	crumbs.module	e8fae57809bef8a6ba52d51fcd4f0bd2
+M	example/crumbs_example.info	0e3a200b47a6292ad69ea2c35ea67a6b
+M	example/crumbs_example.module	45799a2f03cc81551d8e4eb820a89b9f
+M	labs/crumbs_labs.info	b1d355c0ec3201bef4471d07c4e530a7
+M	lib/CallbackRestoration.php	9371ae06ef1769c02b886d2fccd5b8d1
+A	lib/EntityPlugin/Callback.php	705eb250342fe74177868d33fcf23c18
+M	lib/InjectedAPI/hookCrumbsPlugins.php	b7ac5c64211f1a99218ad8a54a803a5d
+M	lib/MonoPlugin/ParentPathCallback.php	08619bb6252446b4c1c050b777e60bdb
+A	lib/MonoPlugin/TitleCallback.php	a4517c5eb6f919060f944ddd1e8c14fd

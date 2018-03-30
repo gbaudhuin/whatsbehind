@@ -1,0 +1,21 @@
+A	.travis.yml	fd9d82bca8338e6bda42909c755c55fe
+M	CHANGELOG.txt	78c69ba5fcbc291a833eb643c53ffd32
+A	README.md	60dedf364766bf6e7ab1fd204c1b3897
+D	README.txt	
+M	filefield_paths.drush.inc	0cf974a3317d3ecebc242c5bc8e70f37
+M	filefield_paths.info	6278c625b97d0fc35d5cc64106edffef
+M	filefield_paths.install	e454a49d63d59db4ff3caacea6aee1f3
+M	filefield_paths.module	43abd514f0406d8e62c20f0be552851b
+A	filefield_paths.tokens.inc	7f7aeaa2dada3fa149b3a33792fe9c45
+M	modules/features.inc	98faf72c2fb84f2a871583f0d282025e
+M	modules/file.inc	2b25253212c39e006743b2098e8e54db
+M	modules/filefield_paths.inc	cfb6068601b512a02c2804b2179cb601
+M	modules/image.inc	ee77c8f3a150c2382e98d1d45ce83119
+D	modules/token.inc	
+M	modules/video.inc	9b2b4f7d252cd244254601f5e6200a57
+A	tests/filefield_paths.test	20744b64032b247d85a2e418fecee490
+A	tests/filefield_paths_test.info	ee79018ff4ba47d14b351c4abce38876
+A	tests/filefield_paths_test.module	f35e9495693382ff910d2d74dbc99fc9
+A	tests/pathauto.test	1b585fc5a8e71150ea5f4c6d6df3935b
+A	tests/redirect.test	45d79bad8f9c770fb7ad3aee3f6b8f90
+A	tests/transliteration.test	6115dd390aa0d30a06cf1dac82898524

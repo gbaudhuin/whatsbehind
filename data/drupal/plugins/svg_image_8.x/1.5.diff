@@ -1,0 +1,5 @@
+M	README.txt	edf89f4ee8f8372a9977dee168812c6f
+M	src/Plugin/Field/FieldFormatter/SvgImageFormatter.php	273798c40098dac6344fc226133ac1dd
+M	src/Plugin/Field/FieldWidget/SvgImageWidget.php	68490a6bd20c2f3765362b489bfb30ce
+M	svg_image.info.yml	f920b3810e228cb6497b7b58e9c22539
+M	svg_image.module	507112020e249ac8d11786f07ae6db69

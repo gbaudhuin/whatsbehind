@@ -1,0 +1,11 @@
+M	.gitignore	91d9fac78002bcf7a3a7503218bdf62d
+M	.travis.yml	4aefad421f4be456547d824d2e78227a
+M	CHANGELOG.md	1e132bcc06c74f95b79a5240bb9d2ab1
+M	composer.json	aa7f928404c8c04a871f4ed14c0b9191
+M	lightning_workflow.info.yml	ac5c695aaf90632e07ccbb32bac5c8c0
+M	modules/lightning_scheduler/lightning_scheduler.info.yml	a7e4969bb62b8436506e04ec01e35c0b
+D	src/Update/Update218.php	
+D	src/Update/Update221.php	
+D	src/Update/Update224.php	
+D	tests/fixtures/1.0.0-rc1.sql.gz	
+A	tests/fixtures/1.0.0-rc2.sql.gz	f9a52a2613bd294571c7fb397d26e49d

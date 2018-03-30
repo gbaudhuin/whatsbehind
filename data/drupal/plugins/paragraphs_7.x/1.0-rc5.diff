@@ -1,0 +1,7 @@
+M	modules/paragraphs_bundle_permissions/paragraphs_bundle_permissions.info	dd313f2c78145087c975081e0809633c
+M	modules/paragraphs_i18n/paragraphs_i18n.info	519a3f2c001a0f592a35571b86a5b423
+M	paragraphs.admin.inc	407b97afa66dee0d1fdc908139d9d95d
+M	paragraphs.field_widget.inc	13da2b8516c682f3dca3e54dd803de82
+M	paragraphs.info	5f65391cd0449ce0be02ec59c932cb11
+M	paragraphs.module	4c04f92edce6565e3588347dea4509a3
+M	tests/paragraphs_test/paragraphs_test.info	392b195bc7e931a396c02177ab5c4e66

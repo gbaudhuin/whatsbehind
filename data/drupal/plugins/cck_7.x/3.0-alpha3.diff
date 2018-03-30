@@ -1,0 +1,11 @@
+M	cck.info	1b57744d31c1757e775a7a7d97287bc4
+M	modules/content_migrate/content_migrate.info	cc86e3d2ef882e322a00a15db79bff61
+M	modules/content_migrate/content_migrate.module	04989272c9b5ec170e1a0e7d4e04cfd0
+M	modules/content_migrate/includes/content_migrate.admin.inc	eb725d262f7a10d2f92515c54d625d1e
+M	modules/content_migrate/includes/content_migrate.values.inc	410fb21aefbeeecea1561fd6ee0237f8
+A	modules/content_migrate/modules/content_migrate.file.inc	d14ed4ad87c8b743ee45733fbc49d35a
+D	modules/content_migrate/modules/content_migrate.filefield.inc	
+M	modules/content_migrate/modules/content_migrate.number.inc	5c834f897cc728794d436e571ed47d72
+A	modules/content_migrate/modules/content_migrate.options.inc	8abb1133a53616daea977124c9a91c1e
+D	modules/content_migrate/modules/content_migrate.optionwidgets.inc	
+M	modules/content_migrate/modules/content_migrate.text.inc	5b1388efd246c1e529558f7cdedf9d7a

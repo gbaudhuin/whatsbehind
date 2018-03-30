@@ -1,0 +1,14 @@
+M	core/core.services.yml	9cb17794c0ebdfa2f64b94490d3aee7e
+M	core/includes/file.inc	9643ab7057c08e3e6c1350166757b089
+M	core/lib/Drupal/Core/File/MimeType/ExtensionMimeTypeGuesser.php	6ebab15a60be4c9a629969a14a41dbdd
+M	core/lib/Drupal/Core/File/MimeType/MimeTypeGuesser.php	09f35738dc3ceb6355a1e0da862b0d5d
+M	core/modules/file/file.module	e882f8c21b5e4f87c1c0d5453b09813d
+M	core/modules/file/src/Entity/File.php	6f308f715046025aab6532c85cec4a44
+M	core/modules/file/src/Tests/FileManagedUnitTestBase.php	79c2fd4167bfee85634eea18a424396d
+M	core/modules/file/src/Tests/SaveDataTest.php	6ca2e652292998352cb6b85825c60fa4
+M	core/modules/file/tests/file_test/file_test.module	fa3ef3699ab2834d43da694aef42b605
+M	core/modules/system/file.api.php	cf41212f0a3898fff09554340fe6762b
+M	core/modules/system/src/Form/ThemeSettingsForm.php	5d699841f17234f14c83ec0f61d63d5e
+A	core/modules/system/src/Tests/File/MimeTypeTest.php	71ab8fe4e2ac530b55aedc45dedaeb86
+D	core/tests/Drupal/Tests/Core/File/ExtensionMimeTypeGuesserTest.php	
+M	core/tests/Drupal/Tests/Core/File/MimeTypeGuesserTest.php	5ee3dfea8f1b45655f0ac47cfb3a62ef

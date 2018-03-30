@@ -1,0 +1,8 @@
+M	config/schema/responsive_preview.schema.yml	d8f095f958e84cd5285caadafb3e53dd
+M	js/responsive-preview.js	71154f72e0be875cb78a9a74a83f842b
+M	responsive_preview.info.yml	19ed2b5f87be2a6a0f948d8713ef1cbe
+M	responsive_preview.libraries.yml	26d92454a85e79d30a9329d71bb976ec
+M	responsive_preview.module	e881eba55b5ccb1b70c237211b5ec861
+M	src/Plugin/Block/ResponsivePreviewBlock.php	68ef50bb9d4d452b02334e4526cf0851
+M	src/ResponsivePreview.php	3c12d6e66f17693865bf16d104a52984
+A	src/ResponsivePreviewHandler.php	b2d92affbe6207059dae573b0e4ee00e

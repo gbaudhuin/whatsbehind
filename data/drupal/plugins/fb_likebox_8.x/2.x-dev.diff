@@ -1,0 +1,6 @@
+M	config/schema/fb_likebox.schema.yml	6876c7805046fbeed38bf51bcc1c2207
+M	fb_likebox.info.yml	bbe012999b87ba2431edd7d50d9e6f1b
+M	fb_likebox.js	cd66328daefcda64a83acf3955cd8e16
+M	fb_likebox.module	5b67bfd6bf542590d8771f7e34e78c4a
+M	src/Plugin/Block/FBLikeboxBlock.php	d3eabdc98fa2ab3b768d4595b27382ea
+A	src/Tests/FBLikeboxBlockTest.php	5b0422b50baab35b0c2e64ebe8560711

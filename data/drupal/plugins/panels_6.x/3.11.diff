@@ -1,0 +1,16 @@
+M	README.txt	80c3d7469216fb5911ff6b3aa41b6a0e
+M	includes/display-edit.inc	8fe41fa3ab480a6cd020370e8c3da652
+M	js/display_editor.js	46948f8eb4d456221d1bc2c926e59bfe
+M	panels.info	acc4f7d4358810d41dac83e1757ba2a6
+M	panels.install	6eae97f2462e5c6a68d95b5d9fa058cd
+M	panels.module	d37e38d858ae12ce6f8f6fd703114dbc
+M	panels_ipe/css/panels_ipe.css	96851d0c7f623e1d760a4ed7262cfa52
+M	panels_ipe/panels_ipe.info	a85615b1b4b71d482a3b120c1c64bdc0
+M	panels_ipe/plugins/display_renderers/panels_renderer_ipe.class.php	cadb872ce5f0d33c9a71fa939685baeb
+M	panels_mini/panels_mini.info	374883d0c18fb692ca711be0a0582da5
+M	panels_node/panels_node.info	f109d0d12dd2eaa63de350034211ceee
+M	plugins/cache/simple.inc	9817b118dda821338324ed8ca64791fb
+M	plugins/display_renderers/panels_renderer_legacy.class.php	1254f6cd69a8808df53019516a627974
+M	plugins/display_renderers/panels_renderer_simple.class.php	6150583241502afafbeb6a490a338ccc
+M	plugins/display_renderers/panels_renderer_standard.class.php	0fe2261378b2514a763d2e8ce9e90677
+M	plugins/views/panels_views_plugin_row_fields.inc	ef4139e3480e08ffbddd600d1faa96ff

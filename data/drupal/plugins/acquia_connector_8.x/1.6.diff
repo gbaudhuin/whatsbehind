@@ -1,0 +1,7 @@
+M	acquia_connector.info.yml	091fb743cb492b10152e5dccf0b52791
+M	acquia_search/acquia_search.info.yml	34621fd6464b72d3c2fac755aa4109e8
+M	acquia_search/config/install/search_api.server.acquia_search_server.yml	052559790a11bb779b10001d4c92be87
+A	acquia_search/src/Plugin/SolrConnector/SearchApiSolrAcquiaConnector.php	5fe9e53a79139b96581db70e8e4a61e5
+D	acquia_search/src/Plugin/search_api/backend/SearchApiSolrAcquiaBackend.php	
+M	acquia_search/tests/src/Unit/AcquiaSearchTest.php	73dbee5b5ab3b845d1679d5da827ea2f
+M	tests/modules/acquia_connector_test.info.yml	f4c33bcdf9177aa8cd62f3e364111ba2

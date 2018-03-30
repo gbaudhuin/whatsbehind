@@ -1,0 +1,7 @@
+M	CHANGELOG.txt	cfbc37e55851318c3471467f0caf9d09
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	forum_access.admin.inc	c3d040d5f103e2a598428f0f5591b292
+M	forum_access.info	5cb1e42bec4ddb79d467e9217761107b
+M	forum_access.module	ce4967fa81cabc2f00db9173e7d7da2f
+M	tests/forum_access.test	7be0f2580a67c1b6b37f8dd2f035382a
+M	tests/forum_access_test_base.php	f4072abe959bd7b35583bc839326bb8e

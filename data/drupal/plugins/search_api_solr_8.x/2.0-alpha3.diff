@@ -1,0 +1,216 @@
+M	.travis.yml	0cba11094f6e67901c302c3970356a3a
+M	INSTALL.txt	1dbfdd7f9e3b4b21a9004a67abfaf8a3
+M	composer.json	dabe09c115cdd146b5367cc2121c3f92
+D	config/install/search_api_solr.solr_field_type.m_text_und_5_2_0.yml	
+A	config/install/search_api_solr.solr_field_type.m_text_und_6_0_0.yml	4de1047f5e8f0779152ed3d214ff1492
+A	config/install/search_api_solr.solr_field_type.text_phonetic_und_7_0_0.yml	d191b31e8aac0f34f56b4f5b09d567f1
+D	config/install/search_api_solr.solr_field_type.text_und_4_5_0.yml	
+A	config/install/search_api_solr.solr_field_type.text_und_6_0_0.yml	ea60a117c29faf18ed4a741f93b91a5a
+M	config/install/search_api_solr.solr_field_type.text_und_7_0_0.yml	98a03f69108c1fa70a1a138bff69baeb
+M	config/install/search_api_solr.standard_highlighter.yml	5a225e022a30dfed5a388a32879ab76d
+D	config/optional/search_api_solr.solr_field_type.m_text_de_5_2_0.yml	
+A	config/optional/search_api_solr.solr_field_type.m_text_de_6_0_0.yml	eb0d718b4b01860987a85f6ba11fe249
+M	config/optional/search_api_solr.solr_field_type.m_text_de_7_0_0.yml	49c8e778cb4389a575f9aa1c4a450501
+D	config/optional/search_api_solr.solr_field_type.m_text_en_5_2_0.yml	
+A	config/optional/search_api_solr.solr_field_type.m_text_en_6_0_0.yml	a39e0209ebcb9a4803605dca4206a6a8
+M	config/optional/search_api_solr.solr_field_type.m_text_en_7_0_0.yml	fe228595f9ac44be0039c8e25e52d00a
+D	config/optional/search_api_solr.solr_field_type.m_text_nl_5_2_0.yml	
+A	config/optional/search_api_solr.solr_field_type.m_text_nl_6_0_0.yml	944322de5148c1a479cd2aac8795723d
+M	config/optional/search_api_solr.solr_field_type.m_text_nl_7_0_0.yml	e0435c79db06e7c76c4f0569188d3bd5
+D	config/optional/search_api_solr.solr_field_type.text_cs_5_0_0.yml	
+A	config/optional/search_api_solr.solr_field_type.text_cs_6_0_0.yml	c4ee59c1b323b908cc6329f969528dca
+M	config/optional/search_api_solr.solr_field_type.text_cs_7_0_0.yml	90232f7ce92594399b8049ad5d607e7f
+A	config/optional/search_api_solr.solr_field_type.text_da_7_0_0.yml	3c4c4aa04b28c8648bdc5d0dd2d4533e
+D	config/optional/search_api_solr.solr_field_type.text_de_5_0_0.yml	
+A	config/optional/search_api_solr.solr_field_type.text_de_6_0_0.yml	2ea9ad9bd38c99ed68df702a8bedd217
+M	config/optional/search_api_solr.solr_field_type.text_de_7_0_0.yml	29c21b3a5e9def21876fc447f9f14fb9
+D	config/optional/search_api_solr.solr_field_type.text_de_scientific_5_0_0.yml	
+A	config/optional/search_api_solr.solr_field_type.text_de_scientific_6_0_0.yml	c5681f3079f71d9764ea65af48bb070c
+M	config/optional/search_api_solr.solr_field_type.text_de_scientific_7_0_0.yml	b5838e1d001cf8dd79784dc583d3be63
+D	config/optional/search_api_solr.solr_field_type.text_el_4_5_0.yml	
+A	config/optional/search_api_solr.solr_field_type.text_el_6_0_0.yml	4b7403ec3e9ce6f2baa87fdbee38e5b5
+M	config/optional/search_api_solr.solr_field_type.text_el_7_0_0.yml	e23b91e98ad31b68e3c6b27e470c7ebd
+D	config/optional/search_api_solr.solr_field_type.text_en_4_5_0.yml	
+A	config/optional/search_api_solr.solr_field_type.text_en_6_0_0.yml	f000abeceae308e2dbf049a28aa4e0af
+M	config/optional/search_api_solr.solr_field_type.text_en_7_0_0.yml	29ffc295af48b2deeddd8cd051fc4a91
+D	config/optional/search_api_solr.solr_field_type.text_es_4_5_0.yml	
+A	config/optional/search_api_solr.solr_field_type.text_es_6_0_0.yml	fb7aff1e6246395c79eca56caf49611c
+M	config/optional/search_api_solr.solr_field_type.text_es_7_0_0.yml	9108e78f7a76247abba79dc09885c4d5
+D	config/optional/search_api_solr.solr_field_type.text_fi_4_5_0.yml	
+A	config/optional/search_api_solr.solr_field_type.text_fi_6_0_0.yml	de85ae2beac599e7aba1b6dc92ba328d
+M	config/optional/search_api_solr.solr_field_type.text_fi_7_0_0.yml	47f15532e2f777636f171a5326f816f8
+D	config/optional/search_api_solr.solr_field_type.text_fr_4_5_0.yml	
+A	config/optional/search_api_solr.solr_field_type.text_fr_6_0_0.yml	db9babb98cad6b63c0065bb0ac7ee14c
+M	config/optional/search_api_solr.solr_field_type.text_fr_7_0_0.yml	2b796a0ce70b777c05357dcfd8fe2769
+D	config/optional/search_api_solr.solr_field_type.text_it_4_5_0.yml	
+A	config/optional/search_api_solr.solr_field_type.text_it_6_0_0.yml	96c294f8f82a72bf056b50f316ce8440
+M	config/optional/search_api_solr.solr_field_type.text_it_7_0_0.yml	84a1a993b923abc5a4249527c5e2f143
+D	config/optional/search_api_solr.solr_field_type.text_nl_4_5_0.yml	
+A	config/optional/search_api_solr.solr_field_type.text_nl_6_0_0.yml	768f091437763fb0fb312a7807172a33
+M	config/optional/search_api_solr.solr_field_type.text_nl_7_0_0.yml	c12971a8e26e6a7f8ee5a66c0b0518c5
+A	config/optional/search_api_solr.solr_field_type.text_phonetic_de_7_0_0.yml	965198816b54e240c9c8e3a800473dd2
+A	config/optional/search_api_solr.solr_field_type.text_phonetic_el_7_0_0.yml	5e59524167f6ee5b10f76271f400dcf6
+A	config/optional/search_api_solr.solr_field_type.text_phonetic_en_7_0_0.yml	8e0319809dc45a78b060d7cd96e0ab1a
+A	config/optional/search_api_solr.solr_field_type.text_phonetic_es_7_0_0.yml	7e52499c7282e9a2fe345c4160f4cd4a
+A	config/optional/search_api_solr.solr_field_type.text_phonetic_fr_7_0_0.yml	742ab3e56cd98c2508b5f0bd8e4e1b2c
+A	config/optional/search_api_solr.solr_field_type.text_phonetic_it_7_0_0.yml	084473e616aad39100f30f855cab661b
+A	config/optional/search_api_solr.solr_field_type.text_phonetic_pl_7_0_0.yml	f63157c82aaf71bf942828e1370fc742
+A	config/optional/search_api_solr.solr_field_type.text_phonetic_ru_7_0_0.yml	84a99760a1f34dfe8d68772cc7ba4c0e
+A	config/optional/search_api_solr.solr_field_type.text_phonetic_uk_7_0_0.yml	5259fb46a6e65a633d15a7368cc978ad
+M	config/optional/search_api_solr.solr_field_type.text_pl_7_0_0.yml	519b637e29dab60c8d5879309b059017
+D	config/optional/search_api_solr.solr_field_type.text_ru_4_5_0.yml	
+A	config/optional/search_api_solr.solr_field_type.text_ru_6_0_0.yml	0feaff497a75eef17687f096847b43fa
+M	config/optional/search_api_solr.solr_field_type.text_ru_7_0_0.yml	a4fd8be5e401b8cf7e0d5cba7ffe0d46
+D	config/optional/search_api_solr.solr_field_type.text_uk_4_5_0.yml	
+A	config/optional/search_api_solr.solr_field_type.text_uk_6_0_0.yml	5425a6745e3f64ab6b43c4a6814c8af9
+M	config/optional/search_api_solr.solr_field_type.text_uk_7_0_0.yml	273954904a4cbaba5521f5a9c6311473
+M	config/schema/search_api_solr.backend.schema.yml	13b307a2ee285aa776f921e3b354579e
+M	config/schema/search_api_solr.schema.yml	70f27d61f942c6caf772f39b3d7b329b
+M	config/schema/solr_field_type.schema.yml	f6c3569ff2c26a64f84c3a1116eca73b
+M	docker-compose.yml	522d63c02ad462297cbcc725782e8501
+A	drush.services.yml	3f71b5a6cb62e0a83883e398879a1226
+M	search_api_solr.api.php	34ad3dbd2495b46fa243f01ffde4784d
+M	search_api_solr.drush.inc	5aa6aef330ee8f297e27184447c50a31
+M	search_api_solr.info.yml	d8ed574ce53c6e7a645c970397cc28ed
+M	search_api_solr.install	09f30701c88872f47c91d4e9ea908a31
+M	search_api_solr.links.task.yml	e563c34c8cd9570001150056f9bb4682
+M	search_api_solr.module	73f20c93b3273f99c774971d2014ae95
+M	search_api_solr.post_update.php	ad95225d1b4155108ee9b00e3a2b6ef0
+M	search_api_solr.routing.yml	c3432615e67434477b52a98edc825249
+M	search_api_solr.services.yml	8433c923f30b164ce3a11e5652d31c9d
+M	search_api_solr_defaults/config/optional/search_api.server.default_solr_server.yml	d3366ecea75d287dc5925f3b5270bfd6
+M	search_api_solr_defaults/search_api_solr_defaults.info.yml	32d3ef58212786ba3ddd193c7dfc9e01
+M	search_api_solr_defaults/search_api_solr_defaults.install	639a5a0b8bba4625de2759bf670faf26
+M	search_api_solr_defaults/src/Tests/IntegrationTest.php	bc0499b4038836e539a6bf5873861efb
+M	search_api_solr_devel/search_api_solr_devel.info.yml	d078f28c99d2ee2cf856a804d30c40cd
+M	search_api_solr_devel/search_api_solr_devel.links.task.yml	106d0f7f9a3f11de31ed68432bd57f4b
+M	search_api_solr_devel/src/Controller/DevelController.php	b8558e2f7983c39827fbd9466c176895
+M	search_api_solr_devel/src/Logging/SolariumRequestLogger.php	0d8260b5d50429f8c9a7ba12eb49a0b4
+M	search_api_solr_devel/src/Plugin/Derivative/DevelLocalTask.php	edffa50c2f75c55465c029c6482f8b36
+M	search_api_solr_devel/src/Routing/DevelRouteSubscriber.php	7bac46cb741c230fc7223e5a21deba01
+M	solr-conf/6.x/schema.xml	c2849d3db4c7c3a67e74a7c372de7a85
+M	solr-conf/6.x/schema_extra_fields.xml	78945084c8ec5399b53c9296e38804c8
+M	solr-conf/6.x/schema_extra_types.xml	dfac72b4190b7cca1ff228ec591a1315
+M	solr-conf/6.x/solrconfig.xml	7d90b076236c9edb7987555ca00e7049
+M	solr-conf/6.x/solrconfig_extra.xml	47959f71c9c89e27e0a6785f72bf42d1
+M	solr-conf/7.x/schema.xml	62ea1d6a5e66af58433737b5c76b66a4
+M	solr-conf/7.x/schema_extra_fields.xml	78945084c8ec5399b53c9296e38804c8
+M	solr-conf/7.x/schema_extra_types.xml	96e92902a79a84a1a54765b3431e4cff
+M	solr-conf/7.x/solrconfig.xml	df22cb9eaff9633ee75c4d6b5543d946
+M	solr-conf/7.x/solrconfig_extra.xml	47959f71c9c89e27e0a6785f72bf42d1
+M	solr-conf/7.x/solrcore.properties	4584000a88434d968fad083ff68a7428
+A	src/Commands/SearchApiSolrCommands.php	8d6844ca577063a516dca146ab252ad4
+M	src/Controller/SolrFieldTypeListBuilder.php	51be7b0e5ce7f80d1d7d9780c195b32f
+M	src/Entity/SolrFieldType.php	01e3b5a056c12746434945ec57dfdeee
+M	src/EventSubscriber/ConfigSubscriber.php	438eab4096b98ef90a347f1c55e70a20
+M	src/Form/SolrConfigForm.php	1de5ef0542098b3e27b51ab14f36c06d
+M	src/Form/SolrFieldTypeDeleteForm.php	6f57f9bbad33f84e87ec8c09138203c5
+M	src/Form/SolrFieldTypeExportForm.php	f12f1e625d3d3cf693138ea574038e3a
+M	src/Form/SolrFieldTypeForm.php	f25ddca43426a7215b15158c157cbde7
+A	src/Plugin/Derivative/CustomTextDataType.php	aab93a528b0e010e71edf0fed09fbc12
+M	src/Plugin/SolrConnector/BasicAuthSolrConnector.php	6dc1d4776198483cc9a8cd7365a43f5f
+M	src/Plugin/search_api/backend/AbstractSearchApiSolrMultilingualBackend.php	261cae0f9607d69a1694438fda055112
+M	src/Plugin/search_api/backend/SearchApiSolrAnySchemaBackend.php	ca64ca4499d6028705e1df158f6e619b
+M	src/Plugin/search_api/backend/SearchApiSolrBackend.php	7fbac466bb3008362bf4ae3db4439e7f
+A	src/Plugin/search_api/data_type/CustomTextDataType.php	2dc8349ba49c3a68ea247163bd91dec9
+A	src/Plugin/search_api/data_type/SuggesterTextDataType.php	525dfbd97e5c37d115b3a6a7ce1bd6c7
+A	src/Plugin/search_api_autocomplete/suggester/Spellcheck.php	e1d2f95d3ea4ffb6ab92a967c1f77260
+A	src/Plugin/search_api_autocomplete/suggester/Suggester.php	c25a7fd76ff85cc292a13a200c37f64a
+A	src/Plugin/search_api_autocomplete/suggester/Terms.php	0bddc52f9469a3d9786b5a49c85dd524
+A	src/Solarium/Autocomplete/Query.php	57c3c14ee966460b101a1c0f854eadcc
+A	src/Solarium/Autocomplete/RequestBuilder.php	1bbf879ec4e6003d8a5e45cc0caee2a4
+A	src/Solarium/Autocomplete/ResponseParser.php	278fc70b25d6bcdfcb0c6b30d4020199
+A	src/Solarium/Autocomplete/Result.php	7891a33c9c0847e5580541a41dbaebde
+A	src/SolrAutocompleteInterface.php	275b75aecefc09e483c04b3f1ab650b8
+M	src/SolrBackendInterface.php	2715632442460b85fa5c29c285eb175c
+M	src/SolrConnector/SolrConnectorPluginBase.php	561ff5b707a5085c39a1f9cbf41216fa
+M	src/SolrConnectorInterface.php	e3479e6f8b72291bb5616e0419223314
+M	src/SolrFieldManager.php	d628401df6b0db8dd0aae3ab3faf33ad
+M	src/SolrFieldTypeInterface.php	eaecee1c310524ee5f8ceb6db280ace0
+M	src/SolrMultilingualBackendInterface.php	1f87d238a9a848da72b18fce6dcb67c3
+A	src/Utility/CommandHelper.php	5b1be073742694046a49b2e8ed1c8434
+M	src/Utility/Utility.php	c6c164a12238896234d678d7cdf9b7e1
+M	tests/modules/search_api_solr_multilingual_test/config/install/search_api.server.solr_multilingual_search_server.yml	b3316281b0a010838cb78bbdbc584c99
+M	tests/modules/search_api_solr_multilingual_test/search_api_solr_multilingual_test.info.yml	d38335069036a65cbb87c35557afb9ad
+M	tests/modules/search_api_solr_techproducts_test/config/install/search_api.server.techproducts.yml	4a4b674a125d1acd92db25ecfac7d73a
+M	tests/modules/search_api_solr_techproducts_test/search_api_solr_techproducts_test.info.yml	3f0b252a1b168f2468932dcb4430033f
+M	tests/modules/search_api_solr_test/config/install/search_api.index.solr_search_index.yml	0aabdb95903ae7501ce31512bfe975c3
+M	tests/modules/search_api_solr_test/config/install/search_api.server.solr_search_server.yml	837697d3ff1d7a294fe61d312e2c2a6c
+M	tests/modules/search_api_solr_test/search_api_solr_test.info.yml	6042502bd0e9cbfa5109e2d29e05ec73
+M	tests/modules/search_api_solr_test/src/Logger/InMemoryLogger.php	7aec503065fca264b96759b42725a2ea
+M	tests/modules/search_api_solr_test_facets/search_api_solr_test_facets.info.yml	94524a42a3f600a5b85227583262c1b8
+D	tests/solr-conf/6.x/accents_de.txt	
+D	tests/solr-conf/6.x/accents_en.txt	
+D	tests/solr-conf/6.x/accents_und.txt	
+D	tests/solr-conf/6.x/elevate.xml	
+D	tests/solr-conf/6.x/mapping-ISOLatin1Accent.txt	
+D	tests/solr-conf/6.x/nouns_de.txt	
+D	tests/solr-conf/6.x/protwords.txt	
+D	tests/solr-conf/6.x/protwords_de.txt	
+D	tests/solr-conf/6.x/protwords_en.txt	
+D	tests/solr-conf/6.x/protwords_und.txt	
+D	tests/solr-conf/6.x/schema.xml	
+D	tests/solr-conf/6.x/schema_extra_fields.xml	
+D	tests/solr-conf/6.x/schema_extra_types.xml	
+D	tests/solr-conf/6.x/schema_legacy_fields.xml	
+D	tests/solr-conf/6.x/schema_legacy_types.xml	
+D	tests/solr-conf/6.x/solrconfig.xml	
+D	tests/solr-conf/6.x/solrconfig_spellcheck.xml	
+D	tests/solr-conf/6.x/solrcore.properties	
+D	tests/solr-conf/6.x/stopwords.txt	
+D	tests/solr-conf/6.x/stopwords_de.txt	
+D	tests/solr-conf/6.x/stopwords_en.txt	
+D	tests/solr-conf/6.x/stopwords_und.txt	
+D	tests/solr-conf/6.x/synonyms.txt	
+D	tests/solr-conf/6.x/synonyms_de.txt	
+D	tests/solr-conf/6.x/synonyms_en.txt	
+D	tests/solr-conf/6.x/synonyms_und.txt	
+A	tests/solr-conf/7.x/accents_de.txt	c77319c02f57fc0a53164f1c4459fbf9
+A	tests/solr-conf/7.x/accents_en.txt	3b2f5034315ea9cc2598326dca53ca96
+A	tests/solr-conf/7.x/accents_und.txt	3b2f5034315ea9cc2598326dca53ca96
+A	tests/solr-conf/7.x/elevate.xml	3e4bfa176527872e20a6a221ef89cbf8
+A	tests/solr-conf/7.x/mapping-ISOLatin1Accent.txt	287f86277b9c667f4a21985d73602ce4
+A	tests/solr-conf/7.x/nouns_de.txt	d72ce9832d4265f810a7c7b2078a6e32
+A	tests/solr-conf/7.x/nouns_phonetic_de.txt	d72ce9832d4265f810a7c7b2078a6e32
+A	tests/solr-conf/7.x/protwords.txt	5efcd6eedb6b60f385fd9f80fe61ea74
+A	tests/solr-conf/7.x/protwords_de.txt	68b329da9893e34099c7d8ad5cb9c940
+A	tests/solr-conf/7.x/protwords_en.txt	68b329da9893e34099c7d8ad5cb9c940
+A	tests/solr-conf/7.x/protwords_phonetic_de.txt	68b329da9893e34099c7d8ad5cb9c940
+A	tests/solr-conf/7.x/protwords_phonetic_en.txt	d41d8cd98f00b204e9800998ecf8427e
+A	tests/solr-conf/7.x/protwords_phonetic_und.txt	d41d8cd98f00b204e9800998ecf8427e
+A	tests/solr-conf/7.x/protwords_und.txt	68b329da9893e34099c7d8ad5cb9c940
+A	tests/solr-conf/7.x/schema.xml	bc27d16024e7ef4fb080c19ab11cb568
+A	tests/solr-conf/7.x/schema_extra_fields.xml	887773e1edea137870e404f95809206a
+A	tests/solr-conf/7.x/schema_extra_types.xml	6d468664780b2aa85eb51dddd8552bcc
+A	tests/solr-conf/7.x/solrconfig.xml	df22cb9eaff9633ee75c4d6b5543d946
+A	tests/solr-conf/7.x/solrconfig_extra.xml	d14d6fd2006e211c62d142f31e3982af
+A	tests/solr-conf/7.x/solrconfig_spellcheck.xml	d75ace35651a4d770cc9dc99f456645a
+A	tests/solr-conf/7.x/solrcore.properties	4d3020d8ee23145db55cd8acac6ac385
+A	tests/solr-conf/7.x/stopwords.txt	d1e4617aedb57410383d606606a436e4
+A	tests/solr-conf/7.x/stopwords_de.txt	9243f33a62d8d1535cd741950fc3970c
+A	tests/solr-conf/7.x/stopwords_en.txt	bf9d753a432d82256481cf28181a46e5
+A	tests/solr-conf/7.x/stopwords_phonetic_de.txt	9243f33a62d8d1535cd741950fc3970c
+A	tests/solr-conf/7.x/stopwords_phonetic_en.txt	bf9d753a432d82256481cf28181a46e5
+A	tests/solr-conf/7.x/stopwords_phonetic_und.txt	bf9d753a432d82256481cf28181a46e5
+A	tests/solr-conf/7.x/stopwords_und.txt	bf9d753a432d82256481cf28181a46e5
+A	tests/solr-conf/7.x/synonyms.txt	d3bae0cf7df2ff6f3c8dc1b5b025e875
+A	tests/solr-conf/7.x/synonyms_de.txt	5234b6ede72ccd61cdfbea9367198cdb
+A	tests/solr-conf/7.x/synonyms_en.txt	5234b6ede72ccd61cdfbea9367198cdb
+A	tests/solr-conf/7.x/synonyms_und.txt	5234b6ede72ccd61cdfbea9367198cdb
+M	tests/src/Functional/FacetsTest.php	ad15a92ff43e791a56ff54ce736daf19
+M	tests/src/Functional/IntegrationTest.php	b744a0495868317449af9bfed1758344
+M	tests/src/Functional/MultilingualViewsTest.php	beafd5aa5181508b3163c23c617f65e0
+M	tests/src/Functional/ViewsTest.php	06dfc7b26e3f7cb65083f89819ef85ec
+M	tests/src/Kernel/Processor/MultilingualContentAccessTest.php	641a7e4b7b290f8d940c3ffb62c38640
+M	tests/src/Kernel/Processor/SolrBackendTrait.php	863a5354ffb8ec1523dac4de99b154a4
+M	tests/src/Kernel/SearchApiSolrExtractionTest.php	e810d0855c6cfcdbc2df387ed683ee56
+M	tests/src/Kernel/SearchApiSolrMultilingualLocationTest.php	5a502bddc833fc6a5370b76a894b8f74
+M	tests/src/Kernel/SearchApiSolrMultilingualTest.php	93c24d7df9d2390f50e0ab9cc11e8481
+M	tests/src/Kernel/SearchApiSolrTechproductsTest.php	9f354f6c94e73e8799ad2746c4150744
+M	tests/src/Kernel/SearchApiSolrTest.php	00c212c8a846dc4f4ae20bd6c794a9da
+M	tests/src/Kernel/SolrBackendTestBase.php	0445cb73a51c9fa241a3b684a91dfaa8
+M	tests/src/Kernel/SolrFieldNamesTest.php	b1102d20ed42168491b132f9cb4a8f95
+M	tests/src/Kernel/UtilitiesTest.php	b3a6d6faac59ce14812865e30622cc83
+M	tests/src/Traits/InvokeMethodTrait.php	f9b675100ca2454eb06b1ceb10facace
+M	tests/src/Unit/SearchApiBackendUnitTest.php	e115b09ccf320f9eeca21a48eb1df538
+D	travis-solr.sh	

@@ -1,0 +1,6 @@
+M	README.md	939d8280eb4659294a164c9036db4be6
+M	address.info.yml	a03913c84b4d965f69631f2125f40102
+M	src/Plugin/migrate/cckfield/AddressField.php	4dabb250efa656f82563ea3bb9ad0a84
+A	src/Plugin/migrate/field/AddressField.php	af204bb8d95631dc4eda82cd895881b5
+M	tests/modules/address_test/address_test.info.yml	5f7e1c177519b51be18f8f3c3c2c3846
+A	tests/src/Kernel/Plugin/migrate/field/AddressFieldTest.php	9c01e8c30c29c64a25624ffd20e7d436

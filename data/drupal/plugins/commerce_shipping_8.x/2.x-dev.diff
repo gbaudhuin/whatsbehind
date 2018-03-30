@@ -1,0 +1,14 @@
+M	commerce_shipping.commerce_adjustment_types.yml	ccda933ee67b1c6e6250f6d7ed63a08f
+M	commerce_shipping.info.yml	e416aa0d815ead7e681685733f44ffce
+M	commerce_shipping.links.menu.yml	6984c1cb0bff7545a74a9bae96d1e6da
+M	src/Entity/Shipment.php	9cb93381e1ea9a966dbc2f5827292894
+M	src/Entity/ShippingMethod.php	f21b41b81ad428a63dd9b96a58552da1
+M	src/EventSubscriber/ReferenceablePluginTypesSubscriber.php	5b9a0af88566d162e9fdab3c25509b2a
+M	src/Plugin/Commerce/CheckoutPane/ShippingInformation.php	c3eae28e6d98e20f80609531c725555b
+M	src/Plugin/Commerce/Condition/ShipmentAddress.php	fae457a04f2be112773a3976b8bb2e6c
+M	src/Plugin/Commerce/EntityTrait/PurchasableEntityDimensions.php	2921187a950ea393cb3f038306576d24
+M	src/Plugin/Commerce/EntityTrait/PurchasableEntityShippable.php	4fe7ed850d35961c8081806b8e8bbd47
+M	src/ShippingMethodListBuilder.php	d9cd2651a7afb899f43bcabac419f40d
+M	tests/modules/commerce_shipping_test/commerce_shipping_test.info.yml	4ecfead91070b45907b49e31332019b1
+M	tests/src/Kernel/Entity/ShipmentTest.php	d49846f02a2ad1a9bf74fda451fcb5b9
+M	tests/src/Unit/Plugin/Commerce/Condition/ShipmentAddressTest.php	5b8cc7b7eb7dea20de5ac3c5e2409bed

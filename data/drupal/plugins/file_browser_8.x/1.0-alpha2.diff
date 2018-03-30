@@ -1,0 +1,8 @@
+M	config/install/entity_browser.browser.browse_files.yml	1ec6c8114ce84e94595eca480def1b01
+M	config/install/entity_browser.browser.browse_files_modal.yml	edac137b3e2b1a2b834b083589561aae
+A	config/install/views.view.file_entity_browser.yml	cec090a8e8739a1618e7e66237c03222
+D	config/install/views.view.files_entity_browser.yml	
+M	file_browser.info.yml	9ef06754df19c5807efa3e75929b8126
+M	file_browser.install	34702018263b7d1c96351191fd0e95b8
+M	file_browser.module	3a43039dc470dbbd2ed0e52ee5238aa8
+M	modules/file_browser_example/file_browser_example.info.yml	54f1a1f6131c71089f4f16abb0c29efc

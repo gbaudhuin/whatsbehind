@@ -1,0 +1,9 @@
+M	CHANGELOG.txt	6e92af031f070c875a5afd46346e7178
+M	node_reference/node_reference.info	5b6f195b0efae47d6d3d4a1a73fa9e3c
+A	node_reference/node_reference.install	4e3cc9cd0c3f2e5f66fd38982fa00842
+M	node_reference/node_reference.module	aa5cb95ae7f8609a719c6f2a51ded351
+M	node_reference/node_reference.test	7ee083dc375094534c91fe494c2087cd
+M	references.info	f99f4661f11430ea844d4ee9e5283837
+M	user_reference/user_reference.info	267c09515b12d08f26478caca714573c
+A	user_reference/user_reference.install	e801273e9d9e2e12e0fa604332ed2258
+M	user_reference/user_reference.module	f6db93b0e5f26e83c6ccdfa516c7a029

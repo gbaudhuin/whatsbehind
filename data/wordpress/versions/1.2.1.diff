@@ -1,0 +1,29 @@
+D	b2rdf.php	
+D	b2rss.php	
+D	b2rss2.php	
+M	readme.html	6c3c457ed408be44244edc121cada9a2
+M	wp-admin/admin-footer.php	b17711aabe0801d259b6778fe822a68b
+M	wp-admin/admin-functions.php	976c8c603a26b7421f9060f0adb09c47
+M	wp-admin/admin-header.php	ea386abcf202f7bc09ae066b60c7287b
+M	wp-admin/bookmarklet.php	d48e09e8fc746953c444cb1759bcad71
+M	wp-admin/categories.php	d2d525a1da4f5b9d3e84c8510a347849
+M	wp-admin/edit.php	192bb5d9b907736b3a953e68ca53b6a6
+M	wp-admin/options.php	45efcd66c9e9130f705e90b3748823b5
+M	wp-admin/post.php	a46e282bf1aa7a066ecd7a42db7e6d8d
+M	wp-admin/setup-config.php	d1d1b39e57275e50a242ca1aa5b9a8f1
+M	wp-admin/wp-admin.css	c4a70611c37e423cc22892fd58c48ef2
+M	wp-blog-header.php	9a43d73946fd414b24d6d5744fbf3ba4
+M	wp-comments-post.php	9059fff25a2ea5107ed781aff3320e4c
+M	wp-config-sample.php	c1f97651c91a7533e5c8731aac6b92f5
+M	wp-content/plugins/hello.php	c3de7128be060b56c02c68b4f5371091
+M	wp-images/wp-favicon.png	b8e308c594171cb691807867733648a6
+M	wp-includes/class-xmlrpc.php	1cb7f52069c47b57bd0d87468b0d1bf3
+M	wp-includes/functions-formatting.php	191e509c6a72c7020789cd14c1640fec
+M	wp-includes/functions.php	5c59f018a3dff306b8b0956f3c153e91
+M	wp-includes/template-functions-category.php	bbf20cca11fce7a5fcf0fd8b9789594d
+M	wp-includes/version.php	9188a6fdcbc67a8179227b8d0f9af063
+M	wp-includes/wp-l10n.php	9d7f49e243669ed2de066602fe00aa25
+M	wp-login.php	28db88aabddd4ab438cd4fe20698eedf
+M	wp-rss.php	5821b96e0d1cbc26008dd4ebd380417b
+M	wp-rss2.php	ddb517ee2bf3eff9041d5ca3e0607f3d
+D	xmlrpc.php	

@@ -1,0 +1,14 @@
+D	config/install/system.action.node_bulk_edit.yml	
+D	config/install/views_bulk_edit.settings.yml	
+D	config/schema/views_bulk_edit.schema.yml	
+D	css/edit-form.css	
+A	css/edit_form.css	816e99e0060d71a95a7389924bc72783
+D	src/Form/BulkEditForm.php	
+D	src/Plugin/Action/BulkEdit.php	
+A	src/Plugin/Action/ModifyEntityValues.php	a1ec3f166521f9d46e64e84e5f43e751
+D	src/Plugin/Derivative/BulkEditDeriver.php	
+D	tests/src/Functional/ViewsBulkEditTest.php	
+M	views_bulk_edit.info.yml	c47282720f4a28802ba2d730c5a0242e
+M	views_bulk_edit.libraries.yml	412b3020de7f7eb42839a8d9d91919d5
+D	views_bulk_edit.permissions.yml	
+D	views_bulk_edit.routing.yml	

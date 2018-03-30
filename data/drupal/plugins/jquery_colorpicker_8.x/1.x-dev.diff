@@ -1,0 +1,7 @@
+M	README.txt	86b42bb8d3266cfe8adbb9f165459f57
+A	config/schema/jquery_colorpicker.schema.yml	81eafeb02765c002b5923971771a3c44
+M	jquery_colorpicker.info.yml	c1bbc8e0186cba307e1217843cd550c4
+M	src/Element/JQueryColorpicker.php	32be61330b4d8407d8dd0d85446e269a
+M	src/Plugin/Field/FieldFormatter/JQueryColorpickerColorDisplayFormatter.php	a24614894004e7d7f64c1fdb52b5f8d6
+M	src/Plugin/Field/FieldFormatter/JQueryColorpickerTextDisplayFormatter.php	320c9d5a2088325491aa21ea79de07c0
+M	src/Plugin/Field/FieldWidget/JQueryColorpickerDefaultWidget.php	775b81a9b00969af5cba8758e5a3c229

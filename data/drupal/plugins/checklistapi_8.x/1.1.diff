@@ -1,0 +1,17 @@
+M	checklistapi.info.yml	b74b7aacf474c2d92ce8ec36638598ea
+M	checklistapi.routing.yml	d3ef5cfbb81e7eddac807fac4fce272d
+M	checklistapi.services.yml	fbd5cee530749f48ca433c68edeed4c3
+M	checklistapiexample/checklistapiexample.info.yml	5b6c92fc0c3882c689a36c7887b0cc45
+A	checklistapiexample/checklistapiexample.install	82c62aa5fc2b23a99c7fd5eff16ceb37
+M	checklistapiexample/checklistapiexample.module	5b7a757ca39f6c6ca7d10dafa50eedf1
+A	checklistapiexample/checklistapiexample.routing.yml	9f895be1744f868990ba7411341133f7
+M	src/Access/ChecklistapiAccessCheck.php	b8c457df9ea6d668774eddd4e116f85d
+M	src/ChecklistapiChecklist.php	beadd6f178b92f9bc1cd882d0249f3a1
+M	src/ChecklistapiPermissions.php	81ce3e6e16e6c80cfd83cf1952c4c634
+M	src/Controller/ChecklistapiController.php	6c77acacc943acb0fe6e1c07fe8f3c32
+M	src/Form/ChecklistapiChecklistClearForm.php	bd3f084661813599f792cca3df1a8e77
+M	src/Form/ChecklistapiChecklistForm.php	d732aea4fab4ea0f9962f6c04829f29a
+D	src/Routing/ChecklistapiRouteSubscriber.php	
+A	src/Routing/ChecklistapiRoutes.php	e05adb946d811da4017363d8329f2f71
+M	src/Tests/ChecklistapiTest.php	fe0771bbc2b9a1d81a3d218645add31a
+M	tests/src/Unit/ChecklistapiModuleTest.php	c9d33afa532a7e96157a04a0d3ccce8a

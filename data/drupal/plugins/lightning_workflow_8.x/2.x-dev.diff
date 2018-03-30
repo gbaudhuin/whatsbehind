@@ -1,0 +1,14 @@
+M	.travis.yml	3a5edb02beeb7c3e359cf3a3091fa343
+M	lightning_workflow.info.yml	9324e544548bb3cc3b6f1da0d024d06e
+M	lightning_workflow.module	d98268cdcb64ea2a42e97ba338b84c1d
+M	modules/lightning_scheduler/css/component.css	5a5c3fe5f42b33bb2dd86feead965650
+M	modules/lightning_scheduler/js/TransitionSet.js	0f607c7ca50d24c3354529eb292a3822
+M	modules/lightning_scheduler/js/dist/index.js	32dfb877abc865dc76794d9cecf54863
+M	modules/lightning_scheduler/js/index.js	04eb942e1c1a11ca72964216ae7c1b41
+M	modules/lightning_scheduler/lightning_scheduler.info.yml	7fda1b20d9e2c9104d0e23bc3a91549d
+M	modules/lightning_scheduler/lightning_scheduler.module	66c08c819762c6d0aa1062f988e75164
+M	modules/lightning_scheduler/tests/contexts/TimeElementContext.behat.inc	cdcb5336961e73a7a3745c08b7a30c30
+M	modules/lightning_scheduler/tests/features/transitions.feature	fa419f78ae08edf30204551f26f9e0a2
+M	modules/lightning_scheduler/tests/features/ui.feature	7cd513f4d497cdcb19bbdb1252fb46c0
+A	modules/lightning_scheduler/tests/src/Functional/ScheduledTransitionTest.php	700e878d0975ce9f0a3d8946948b62f2
+M	tests/features/moderation_states.feature	e462513bbc80fac455d5e73895eb14dc

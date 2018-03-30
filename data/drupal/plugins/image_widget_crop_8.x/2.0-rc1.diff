@@ -1,0 +1,7 @@
+M	image_widget_crop.info.yml	5f9ca6d12b889c412aaa3c890e66b272
+M	image_widget_crop.libraries.yml	fbd872f2f88f49caa68de3e5659efc61
+A	js/ImageWidgetCropType.js	115dbaf827e4436b8363354be649fa4f
+M	js/imageWidgetCrop.js	5748dc94795a9613076ff7451f420e49
+A	js/iwc.behaviors.js	1826a024bbc5891f6e90b6975ffd4801
+M	modules/image_widget_crop_examples/image_widget_crop_examples.info.yml	8fc2fc3dbcfbb867350a5f97f248aeb9
+M	src/Element/ImageCrop.php	fea54870adee03f296de9bec1348de5e

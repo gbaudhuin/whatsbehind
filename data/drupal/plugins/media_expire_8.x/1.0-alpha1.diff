@@ -1,0 +1,8 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	aec2a1772c77183d652b2f2d54fd5667
+A	config/schema/media_expire.schema.yml	63cffefb2893862aa75969513b5b7563
+A	drush/media_expire.drush.inc	83676ad6a67dbc2d744d7b99d5d9d941
+A	media_expire.info.yml	a7bbf0c6ebb7165a3fb9698548367d86
+A	media_expire.module	ccce8d077a703476d740e060e79c830b
+A	media_expire.services.yml	6a16a962bed27ec50199d3ea9b7ea196
+A	src/MediaExpireService.php	bfb082bea76ef296d7ba6ba153c11c5f

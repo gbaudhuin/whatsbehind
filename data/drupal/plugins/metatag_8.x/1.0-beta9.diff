@@ -1,0 +1,8 @@
+M	CHANGELOG.txt	5ca479b51b72f3015f4d806aaeb5b0b9
+M	metatag.info.yml	3d4dc08dd01360fef89a0e7a0dcf8a2e
+M	metatag.module	8a48d13e2fdb496c24f33bf29e4c08d3
+M	metatag_google_plus/metatag_google_plus.info.yml	ff9ac890c5c3e6989c924bd1c54cb80b
+M	metatag_open_graph/metatag_open_graph.info.yml	c2c653765858d1209cfa44deddfb9c11
+M	metatag_twitter_cards/metatag_twitter_cards.info.yml	2f7dbedd2f9607822116d9c48fd34f1c
+M	metatag_verification/metatag_verification.info.yml	a0771e82f9634cb5882300bbe77627bf
+M	tests/modules/metatag_test/metatag_test.info.yml	ca6d7b552d4784ef30207fea3c73fc75

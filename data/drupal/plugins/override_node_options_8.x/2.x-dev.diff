@@ -1,0 +1,9 @@
+A	README.txt	8aa1f01900368d18e2da4a33a352ee5e
+M	override_node_options.info.yml	618508165be159b60dbdadc26bf849f0
+M	override_node_options.module	b2d242d6b73e89445e3fffc6b7bfb06a
+M	override_node_options.permissions.yml	dc5784f89f6a6767c861fd6632cc72ba
+M	src/Form/SettingsForm.php	5098e6934094fd055a686b60014d21a8
+A	src/NodePermissions.php	59d9ccc901a3809acdc9b4a3763af19f
+D	src/Permission/OverrideNodeOptionsPermissions.php	
+M	tests/src/Functional/BulkFormTest.php	78dd95f5719232681e3f29a85032d3d7
+M	tests/src/Functional/NodeFormTest.php	37fd5c746f6de204d631fc25dcabbc93

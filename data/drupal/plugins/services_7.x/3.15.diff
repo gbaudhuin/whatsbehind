@@ -1,0 +1,9 @@
+M	auth/services_oauth/services_oauth.info	9bfd2764214160bfa891f573e5e8019b
+M	resources/node_resource.inc	999e276de851d581d3c45655ea203777
+M	resources/user_resource.inc	65783618e0f5c008182fff6d88142379
+M	servers/rest_server/includes/ServicesFormatter.inc	26693827ed9d47eb90974837ff635e92
+M	servers/rest_server/rest_server.info	dca7287b7690f8376d7c76843475cdf5
+M	servers/xmlrpc_server/xmlrpc_server.info	ea4f4a42ea77b6fe18fb698eebee7f11
+M	services.info	504855ff12a322ff1281501d1b49cf3f
+M	services.install	32035b1865253aa20c461ba19537e51b
+M	tests/services_test_resource/services_test_resource.info	445c627f24e77f3c7beac463998a0c68

@@ -1,0 +1,8 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	simple_fb_connect.info.yml	9929f5656ee83270d049fcbf6273e90d
+A	simple_fb_connect.links.menu.yml	eb7599f05c8ddc320f3a5bb0b194f912
+A	simple_fb_connect.module	7342f235a8b6ddb3c65753e6c955f10d
+A	simple_fb_connect.permissions.yml	ce5306963cc0d893e6f7bde28cffdda2
+A	simple_fb_connect.routing.yml	011ab1f28b3e744b88a71f71e7742ba6
+A	src/Controller/SimpleFBConnectController.php	923d56e436e52af741e7092788b1bf85
+A	src/Form/SimpleFBConnectAdmin.php	ee8574e641053d45c63363e5999cd9b3

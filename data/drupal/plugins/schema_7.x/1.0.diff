@@ -1,0 +1,9 @@
+M	engines/mysql.inc	598ff14eac1058458cf831bafaedc3d8
+M	engines/pgsql.inc	97243d0bfebfbfdd7725fbac16eaeabd
+A	schema.api.php	33222904cc30ccb3441cf7ab5a18909f
+M	schema.info	b48b4bed8061057ef6e73c991fdbad94
+M	schema.module	6a316e9e6b150ddd9a7279355a620e42
+M	tests/schema_regression.test	881c4962a3bc52004736f107c06bed70
+A	tests/schema_test/schema_test.info	1457af2692c2b051487f859f7f6519e6
+A	tests/schema_test/schema_test.install	5bcbe59326f75feeba8e82747af865b4
+A	tests/schema_test/schema_test.module	3beefb00777a6bd04265b7d33c23efa9

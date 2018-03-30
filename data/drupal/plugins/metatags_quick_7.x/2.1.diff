@@ -1,0 +1,15 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	README.txt	f64218a46580c44bba4a5c63adb3e7ae
+M	known_tags.inc	29d81b57f46a04c2a556dfd81047850e
+M	metatags_quick.admin.inc	2cc5405e042841f25deb4399011aefb9
+A	metatags_quick.drush.inc	779fcbc5918a88e34fca8d9e2bf5d54d
+M	metatags_quick.info	3e4130c9a86a26b1d0e6d80bf3323dbc
+M	metatags_quick.install	39dd12b1465ab9382aabde7ee6fe94cd
+M	metatags_quick.module	74096378a92376b525c6da715dd8dd5b
+A	metatags_quick_extra.admin.inc	183090138393f5fdef3a45adf1f9c10d
+A	metatags_quick_extra.info	3a7b2632a5a29775b530ba7acfe41efa
+A	metatags_quick_extra.module	9641e036ea755e518e40b851d700658a
+A	metatags_quick_import.admin.inc	015abdfc5f9a13d272f9702b4d0963e3
+A	metatags_quick_import.info	5424e8e47b7751bc3a476eb1f1350e6c
+A	metatags_quick_import.module	c4c08d30d08997418b9d70e962aa0b0d
+D	nodewords_upgrade.inc	

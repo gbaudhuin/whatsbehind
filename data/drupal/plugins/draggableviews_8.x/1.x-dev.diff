@@ -1,0 +1,14 @@
+A	README.md	ca29c539ed4ee66338b56db320326d04
+A	composer.json	902936c810624c98e3c54ee9bba7e3d2
+M	draggableviews.info.yml	209bf77e460c092b6537593ed310fcc3
+M	draggableviews.install	b60425b6c95f11ce103a59fe7bc988cf
+M	draggableviews.module	8f4f17de44dae2b4197decf9d65cedd0
+M	draggableviews.permissions.yml	798f2195c14e63c705f28df74965f7b2
+A	modules/draggableviews_demo/config/install/node.type.draggableviews_demo.yml	658cbce687f6893d324bc7e52d371503
+A	modules/draggableviews_demo/config/install/views.view.draggableviews_demo.yml	9bf0d7f0fcb84c9e5cfd05a6a121580b
+A	modules/draggableviews_demo/draggableviews_demo.info.yml	5ccfed71972d89b3b1cd605294379685
+A	modules/draggableviews_demo/draggableviews_demo.install	537a0b7820a20feffe2a5f0a119c9536
+M	src/DraggableViews.php	9f44c10eab7212469db9059d65f7848c
+M	src/Plugin/migrate/destination/DraggableViews.php	d310a9b1a1a5be9b0573f381f83eb6b9
+M	src/Plugin/views/field/DraggableViewsField.php	fb8f117aaf391c45ceafa5bbf8786831
+A	tests/src/Functional/DraggableviewsTest.php	9bf804bf5a7019a7f8867998d8b2e9fa

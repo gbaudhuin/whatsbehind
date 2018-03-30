@@ -1,0 +1,6 @@
+M	config/schema/file_entity.schema.yml	4c9862e3a7bbc42ec61e4b5011362dc6
+M	file_entity.info.yml	004da863ab840aa4b584662f2d3cadac
+M	file_entity.install	2af8044390955f76a4ac539e2cb8ae6e
+D	src/Plugin/Field/FieldWidget/FileEntityBrowser.php	
+M	src/Tests/FileEntityAdminTest.php	76c94e1107eb4f5c73f1e39b3ac0a503
+M	src/Tests/FileEntityServicesTest.php	c821c67e81e5b1cead8856220aee325f

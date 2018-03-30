@@ -1,0 +1,6 @@
+A	.travis.yml	3e1d9702cdd622a27603c118d4aa604c
+A	tests/lib/BasicIntegrityTest.php	1bea4ed1643dd2788f611db410420be9
+M	tests/test_1/xautoload_test_1.info	335ad034b63ea70e446ee4e3bd9f58b5
+M	tests/test_2/xautoload_test_2.info	fbc9850e37dd0970358824b2a778301d
+M	tests/test_3/xautoload_test_3.info	19fa63b66324cae46115ced54f0b1f51
+M	xautoload.info	9800726a594c55da9fe8f350502bdbbe

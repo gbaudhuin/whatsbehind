@@ -1,0 +1,5 @@
+M	includes/gettext/PoStreamReader.php	8300d2065b28152e632c6094e343fc21
+M	l10n_update.info	7417a1b004541d5302bba595f9486de2
+M	tests/L10nUpdateTest.test	a5ce0fb489323d091d314b046260925e
+M	tests/modules/l10n_update_test/l10n_update_test.info	e68133028da924e4fdd593e476d674c0
+M	tests/modules/l10n_update_test_translate/l10n_update_test_translate.info	6d1c7c0fb072075c3d8b17a5d659b2e2

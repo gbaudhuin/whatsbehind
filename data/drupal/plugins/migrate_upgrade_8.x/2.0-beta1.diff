@@ -1,0 +1,15 @@
+A	README.txt	450820fdfdaa0005d19b567e1b37f60b
+M	migrate_upgrade.drush.inc	988b564e2356843a165d23ecf69287f7
+M	migrate_upgrade.info.yml	80bd805a6319922d63b729c885a211d8
+D	migrate_upgrade.install	
+D	migrate_upgrade.module	
+D	migrate_upgrade.routing.yml	
+D	src/Controller/MigrateController.php	
+D	src/Form/MigrateUpgradeForm.php	
+D	src/MigrateMessageCapture.php	
+M	src/MigrateUpgradeDrushRunner.php	6fdac7492a2ce42730347d30d065fb88
+D	src/MigrateUpgradeRunBatch.php	
+D	src/MigrationCreationTrait.php	
+D	src/Tests/MigrateUpgradeTestBase.php	
+D	src/Tests/d6/MigrateUpgrade6Test.php	
+D	src/Tests/d7/MigrateUpgrade7Test.php	

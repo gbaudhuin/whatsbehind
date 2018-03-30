@@ -1,0 +1,13 @@
+A	2811273-10.patch	b74258548bcf0aef8718f34db0543bc5
+M	includes/juicebox.admin.inc	d0f145d5719315f4b8a98112d6d9388d
+M	js/juicebox_load.js	80067089f2604b54b2c8e3f62080fd07
+M	juicebox.info	1e5a0999b5a38b663d7a62dc9adc6ef7
+M	tests/JuiceboxBaseCase.test	985b501a1e10aad77fb307142c8c8370
+M	tests/JuiceboxConfCase.test	82790e5876af8894ad85e928192e49be
+M	tests/JuiceboxConfGlobalCase.test	5d9d373a61324e4a5b4c68cede0455cd
+M	tests/JuiceboxFieldFormatterCase.test	8a438965758b3ace6d41f6a668229843
+M	tests/JuiceboxFileCase.test	3488aa4d74df677820f54f6de0b73502
+M	tests/JuiceboxFileEntityCase.test	cca03bcee1cf7adf1dadf3bc822f1e42
+M	tests/JuiceboxSubRequestCase.test	b86fe45af2082735f2208d339120240a
+M	tests/JuiceboxViewsCase.test	d34d308eb67f1a719d2464059cae8aae
+M	tests/views/juicebox_views_test.info	f58884a59955cf2aadb195623040978b

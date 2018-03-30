@@ -1,0 +1,11 @@
+M	CHANGELOG.txt	340552462d79578c72d8d2c9fccffb72
+M	calendar.info	4270b688443241da95d921ce8b400426
+M	calendar.install	a128fc6b8e99f9d7f45dd7fed522edfb
+M	calendar.module	6288afa3b22e4b20a8fb515e9228577e
+M	calendar_ical/calendar_ical.info	7d6ea3332b7413427d62efb8f96af859
+M	calendar_ical/calendar_plugin_style_ical.inc	caec5d7abe19ed1bff1cd5656c1a922b
+M	includes/calendar.inc	4da4cbe098647e4c98266529e6af750e
+M	includes/calendar_plugin_display_attachment.inc	b01c5e3a8dd90b532433f53ec58016b6
+M	includes/calendar_plugin_style.inc	60f620239ccb003e88d03c6dff00eb8c
+M	jcalendar/jcalendar.info	47de2eeed8aa229aa95a32da8dc16f98
+M	theme/theme.inc	7f54386363bdf599c65162c1c177fed7

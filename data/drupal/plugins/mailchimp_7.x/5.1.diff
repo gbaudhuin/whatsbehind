@@ -1,0 +1,10 @@
+M	includes/mailchimp.admin.inc	dec3414064e0c7b5e63272a6db9abc25
+M	mailchimp.info	3555a43739c25f747548885e79cb6492
+M	mailchimp.module	0ba2ba16ad6cc7d947fe765ec7fd1792
+M	modules/mailchimp_activity/mailchimp_activity.info	a3dd81f22ba5dba62e50b1ac71ab9dc7
+M	modules/mailchimp_automations/mailchimp_automations.info	8c1ff13ebb130619b3193ec9b9cb97e2
+M	modules/mailchimp_campaign/mailchimp_campaign.info	a861b83bd85220d24ecbec7d74d9b96b
+M	modules/mailchimp_i18n/mailchimp_i18n.info	62e370671534cf1961c88bd7f5a2aa5a
+M	modules/mailchimp_lists/includes/mailchimp_lists.field.inc	0362ed3decc03aa40df993b89e4e7642
+M	modules/mailchimp_lists/mailchimp_lists.info	0ea7b4fc996e8103d56adaae1ec402d0
+M	modules/mailchimp_signup/mailchimp_signup.info	90b7c9aaa3fb6f0803a8d83d80ff27b7

@@ -1,0 +1,4 @@
+M	dropdown_language.info.yml	3c55827eeaf17559ac59bdb0560907f5
+M	src/Form/DropdownLanguageSettings.php	3932c3867565ee9c6638a4e37ff08030
+M	src/Plugin/Block/DropdownLanguage.php	6520524f96079dca6a4a609520002c9f
+A	src/Plugin/Derivative/DropdownLanguage.php	ec5f0c4bc5825a1cc98909db300749fd

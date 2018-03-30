@@ -1,0 +1,9 @@
+M	engines/mysql.inc	586a65a6169953b81f67a4b93519f8a4
+M	schema.drush.inc	a0cf6aad3fe7cf455844d1130799ff0b
+M	schema.info	5e74ebe788202dd2cd39386192da9fc4
+M	schema.install	d362df70567e37c38546db25725d0658
+M	schema.module	571aad990dc33423f5de5b008b143457
+M	schema.pages.inc	79c0082c0df4998becafedce3bca647a
+M	tests/schema_regression.test	c58db3d7219b8306ed17232605c6d65f
+M	tests/schema_test/schema_test.info	63b50e6527cc8d0b7356389d26b9583f
+M	tests/schema_test/schema_test.module	163c4a5853192ca80e6db36070a3d28b

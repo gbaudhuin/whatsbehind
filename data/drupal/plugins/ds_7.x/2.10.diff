@@ -1,0 +1,10 @@
+M	ds.info	5e795e864b349831381f65a0814eb5ce
+M	modules/ds_devel/ds_devel.info	b6c857a592df2312657cb965a6292e61
+M	modules/ds_extras/ds_extras.info	21640fb3c7329d9c0f912c585efcd2b9
+M	modules/ds_format/ds_format.info	dd68580c2f390c7f5c8a5a6969c5e06b
+M	modules/ds_forms/ds_forms.info	0f8b6eaa5a1e643d538c671e68f71731
+M	modules/ds_search/ds_search.info	7ddf7105e011eca1efe8f01b2185a7cc
+M	modules/ds_search/ds_search.module	4bce9bd2a2ed2442895a43f0d5e23064
+M	modules/ds_ui/ds_ui.info	caaeca29d29fc6c805f10d120500e4a2
+M	tests/ds_exportables_test/ds_exportables_test.info	771c622569d847640c8eff55eaabb5f7
+M	tests/ds_test.info	2ef5143b452462cd7b627b32a9cefccf

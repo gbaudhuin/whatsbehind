@@ -1,0 +1,13 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	e8ef17a6042419bbbe17086192336878
+A	config/install/tvi.settings.yml	3339f11305359dfc66a80895815c04cf
+A	includes/tvi.admin.inc	5a600180df2321d505b03967d94d7f82
+A	includes/tvi.query.inc	b4a07ab7fd8d65c1a314a3dd7ce27a5e
+A	src/Form/TaxonomyViewsIntegratorSettingsForm.php	1669113371932ba06daf93219478b9ba
+A	src/TaxonomyViewsIntegratorPermissions.php	50c74d36395f3772d32a1a643e48a01b
+A	tvi.info.yml	4199fae80b0ee486f144f6db678c34be
+A	tvi.install	44df9a3a32f1c316dc5a55582ea0b82b
+A	tvi.links.menu.yml	97f7f4628d2e122659499f51ef78cb9f
+A	tvi.module	6b35fb3cf359b5307617f116a2cf9580
+A	tvi.permissions.yml	87cafc5141760b4978b64fe372b0d3f8
+A	tvi.routing.yml	580918e1a6c96264e060860efa64441e

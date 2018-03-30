@@ -1,0 +1,15 @@
+M	README.txt	9d50b06dd1c76dfc8edba6ec757a5114
+M	delta.info	59d1b2688740da73c73556f805e201be
+M	delta.install	9db99eda01427629daa0a2e2a21ffd89
+M	delta.module	a2eb4b9da9c44a73b88212d8ddcf6244
+M	delta_blocks/delta_blocks.info	05de76d21f9cddac2d3191fe93d705f6
+A	delta_color/delta_color.info	a322824a6a23e1f9d88b9a0da00d83f3
+A	delta_color/delta_color.module	0da8fb6eec2341096bee9046376fae49
+A	delta_color/plugins/delta_injection_color.inc	d79305dfccce9bcb79ac855e045cad70
+M	delta_ui/delta_ui.admin.inc	25d50806a16b64b599f07576ff05cf80
+M	delta_ui/delta_ui.info	c02ef5829cad3e3e691cc5456723d0a7
+M	delta_ui/export_ui/delta_export_ui.class.php	23f3b9d5f3851e9b9c7fbe525493e03b
+A	plugins/context/context_reaction_delta.inc	0c3c90db161ebfa26fbda9ee840de5d2
+D	plugins/context_reaction_delta.inc	
+A	plugins/delta/delta_injection.inc	852c2f1cb2971327fbf94b53b924dd87
+A	plugins/delta/delta_injection_theme_settings.inc	82fdbe5a00b50a8ecacfb6ddd31dd0ab

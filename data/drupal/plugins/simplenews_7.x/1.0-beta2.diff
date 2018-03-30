@@ -1,0 +1,15 @@
+M	README.txt	2503cac4a0e7dfbce9b14d8511c0b028
+M	includes/simplenews.admin.inc	ea99c7deed992af87e248b909eca1bd2
+M	includes/simplenews.mail.inc	7afbc4f96b3b8961fc6083acb15f125f
+M	includes/simplenews.source.inc	9b804bd5de9b169cb5ff9c5541d0c706
+M	includes/simplenews.subscription.inc	551284e23f08558ea83b998065cfba8b
+A	includes/views/handlers/simplenews_handler_field_newsletter_send.inc	a1868bf40db3e9f14e862bb9e870eed2
+M	includes/views/simplenews.views.inc	6ead479b6bc961516e22e8fd1e3bce84
+A	simplenews.drush.inc	0f05734c99f1e38104aaecffe1249981
+M	simplenews.info	b03a75030a4d34b2ce3478a5b52c5f79
+M	simplenews.install	34aee1321633e8c9b4efb3cca1863abb
+M	simplenews.module	79d757ff6b3014d87318e2f2df3c43d7
+M	simplenews_rules/simplenews_rules.info	d7448171ec10e6d8baa30f5648d3ab94
+M	tests/simplenews.test	5e6a828d5baedc5cd20db24ac943f5de
+M	theme/simplenews-newsletter-body.tpl.php	a5f365185228dd188ce45cfdac0bcf32
+M	theme/simplenews-newsletter-footer.tpl.php	928ef59ce5a2ed33269174d9b5d9fa37

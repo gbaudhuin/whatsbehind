@@ -1,0 +1,16 @@
+M	config/schema/video_embed_field.schema.yml	240f0085451414af7e3f259dd12d2b83
+A	css/video_embed_field.responsive-video.css	2efa64d799cc78a11b838d9934c2714b
+M	src/Plugin/Field/FieldFormatter/Video.php	58de20c7ba0556345b5952f10653a6eb
+M	src/Plugin/video_embed_field/Provider/Vimeo.php	31c4bad2cf6530ba7d80af3214c28260
+M	src/Plugin/video_embed_field/Provider/YouTube.php	b424afc1d673db995a80671b3743474b
+M	src/ProviderPluginBase.php	6ec8ae6e631100529fe11b15e98939fc
+A	src/Tests/AutoplayPermissionTest.php	0bd8f771592c92b0d4f215f31a2e0cc1
+D	src/Tests/EmbedFieldTest.php	
+A	src/Tests/FieldOutputTest.php	f05e8c1989f1c85bab82d5c09c2ed745
+D	src/Tests/VideoEmbedFieldWidgetTest.php	
+A	src/Tests/WebTestBase.php	54f52aae6b2f4835364ded620f4a7b4d
+A	src/Tests/WidgetTest.php	d51f646d47dfb1149483050e8b155038
+M	tests/src/Unit/ProviderUrlParseTest.php	3d0692ab7a9dc0116188e41dc571f96a
+M	video_embed_field.info.yml	1ff945ea5c036c4699e29ba5ba29c61e
+M	video_embed_field.libraries.yml	54d6217e428501095ef653bcf33c0400
+A	video_embed_field.permissions.yml	99dc42c71a89d7ca455b586e3c0c4248

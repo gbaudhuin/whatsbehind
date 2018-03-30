@@ -1,0 +1,7 @@
+A	date_validation/README.txt	9b67c8725e1b6b14348538745c11f73a
+A	date_validation/date_validation.info	b6ccf624a1f7a1c9da8e1babc2d20608
+A	date_validation/date_validation.module	26ebe92db1b5014bcb51f45e8aa1b5e5
+A	date_validation/date_validation.validators.inc	c79c0133b02bf42433b526a4610a274a
+M	field_validation.info	52157467b5edbf49e18ed58bdacb1e62
+M	field_validation.module	40d79c1a42ef6d83319ed59ccf5cdad7
+M	field_validation.validators.inc	ee29ead1039f799cb0c4068ad428ff13

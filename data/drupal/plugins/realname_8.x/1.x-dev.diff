@@ -1,0 +1,6 @@
+M	README.txt	c90e47201ebb0161baa3f42b0891ec4b
+M	migration_templates/d6_realname_settings.yml	224e08bcc56bbce16f5ba5eac0b96bfe
+M	migration_templates/d7_realname_settings.yml	41a2f4e74391793a64657e544291de78
+M	realname.info.yml	b40b365e3f5e4e0181d763a802c4bd5d
+M	realname.module	728b9f8fa8a67c62da4047aa13b4b4b5
+M	src/Tests/RealnameBasicTest.php	aa16891036f4ce9eea8b572d667e7fae

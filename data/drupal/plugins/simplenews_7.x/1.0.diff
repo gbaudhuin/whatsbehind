@@ -1,0 +1,12 @@
+M	includes/simplenews.admin.inc	fb9d63ab5ddf8c1492fe3b596d201e63
+M	includes/simplenews.mail.inc	7674b8e6eb926cdeee50a95b2713b3cd
+M	includes/simplenews.source.inc	d7806ebf7f4a79787d486c3c257d9a12
+M	includes/simplenews.subscription.inc	2e53efbb5f6df339704b36d04c90db29
+M	simplenews.api.php	a9a823b69755f5fbfe1fc81671e12271
+M	simplenews.info	1c68e1d4a79faf7441dd40252b02eea8
+M	simplenews.install	40ad17b3dc127fe84860aaeaa94ecb96
+M	simplenews.module	a57a77a51b77173a15996f7f161595a8
+A	simplenews.tokens.inc	1311dc2b7043200b817a4c9adf8d5416
+M	simplenews_rules/simplenews_rules.info	c66a4f9ea8ce21a6b0b69e42cf994c5c
+M	simplenews_rules/simplenews_rules.rules.inc	c6c767bf81e20e31df4d353d186b67c6
+M	tests/simplenews.test	006f1b276d6d9553a845d5ebf2f1942b

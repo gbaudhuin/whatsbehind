@@ -1,0 +1,8 @@
+M	README.txt	a2f2ef8834ea551a45236c36a06e70a1
+M	composer.json	3e8cd19ccfed7723dcb1844f760629d6
+M	config/install/social_auth.settings.yml	2d0c74e2981d30d08dc2a8a987f30ddd
+M	social_auth.info.yml	dc366f7e730fcf068e33c15ee9a0687e
+M	social_auth.install	99e7e6ea613fba2080167575b311ebc9
+M	social_auth.module	0868ad0f5c47f2a95cf01cb4386943aa
+M	src/Entity/SocialAuth.php	863a1e4bef29f92bb9a9a8e8a8812c52
+M	templates/login-with.html.twig	93e78ec28ba6b2c2de7d402f304c5b66

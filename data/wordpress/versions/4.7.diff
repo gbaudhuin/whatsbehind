@@ -1,0 +1,10 @@
+M	wp-admin/about.php	4bbabf3da61fb4882a387b3ac8cf73dd
+M	wp-admin/includes/update-core.php	72420e616456b4b3ebc857931d52aa8d
+D	wp-content/themes/twentysixteen/.gitattributes	
+D	wp-content/themes/twentysixteen/.jscsrc	
+D	wp-content/themes/twentysixteen/.jshintignore	
+D	wp-content/themes/twentysixteen/.travis.yml	
+D	wp-content/themes/twentysixteen/CONTRIBUTING.md	
+D	wp-content/themes/twentysixteen/CONTRIBUTORS.md	
+D	wp-content/themes/twentysixteen/codesniffer.ruleset.xml	
+M	wp-includes/version.php	e70a942af574dbb2df5bb64780bc4e16

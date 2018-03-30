@@ -1,0 +1,8 @@
+A	README.txt	fa05664cf9774f65e2529ed6eb0d6c80
+M	geocoder.admin.js	dba9e236d1c4cbc2d4b74f335a8ed338
+M	geocoder.info	b09bbb8288c97d8bc5261b70a711de24
+M	geocoder.services.inc	e1e8d6967576f218cecd75b940ab9ddf
+M	geocoder.widget.inc	98b70991f10e212ece4ee12c0cfa4f8d
+M	plugins/geocoder_handler/google.inc	97fbe8722c7a545b001a905ba24ece0e
+M	plugins/geocoder_handler/yahoo.inc	7d6ac0457121316616445f6b14257989
+M	plugins/geocoder_handler/yandex.inc	74d970ca3c2833de824a597147504ca3

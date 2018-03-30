@@ -1,0 +1,17 @@
+M	INSTALL.txt	1c600ac01c2c00236b50d418cb4a39b8
+M	README.txt	049468665bd65d85f863e9008c79b946
+M	composer.json	428d8a7bcbf72050e2d5193b1ad6babf
+M	config/install/search_api_solr.settings.yml	6e61bb094c33753a6bde14df47333d7e
+M	config/schema/search_api_solr.schema.yml	cd30b3c43854ce76167e8955dcbe2335
+M	search_api_solr.api.php	3e78d3f5154074aac8868667b567bb62
+M	search_api_solr.info.yml	85ea86e22eaa9fb436b9a08e51f434ee
+M	search_api_solr.install	fba87132c4fd9ca361182b4a487451e1
+M	search_api_solr_defaults/search_api_solr_defaults.info.yml	c8f4c0bda44c47dd46aa015b4a7ffbcf
+M	solr-conf/4.x/solrconfig.xml	9d97f98983554d4aec6a91cedef35239
+M	solr-conf/5.x/solrconfig.xml	25d3e04e764bf737c38338d9c3a8d2f4
+M	solr-conf/6.x/solrconfig.xml	7596f94f7b6eb76684207e6c6b60f298
+M	src/Plugin/search_api/backend/SearchApiSolrBackend.php	317b1474c235a080617e0394e56c083b
+M	src/SolrConnector/SolrConnectorPluginBase.php	3956d3c8e673e06cfa232f43276f3bc9
+M	src/SolrConnectorInterface.php	990ebea2328dc27dffcf225005b1fe2f
+M	tests/modules/search_api_solr_test/search_api_solr_test.info.yml	31a77999c06273bd314e3fc0d7445b5b
+M	tests/modules/search_api_solr_test_facets/search_api_solr_test_facets.info.yml	912e5e136909ef741b1637c89e47ccc6

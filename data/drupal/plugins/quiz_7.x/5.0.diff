@@ -1,0 +1,19 @@
+A	CHANGELOG.md	3fb723f2a4040301b5c78ec01469cc6e
+D	CHANGELOG.txt	
+M	DEVELOPER.md	deb328a6923a849b839093f3e867cf52
+M	INSTALL.md	c29a896fff8617bb0e404a30b5f998f8
+M	README.md	e550c4b20b06425c4ce7ff6d9f11e95a
+A	UPGRADING.md	44a3a23f902d0a145052561a0515e32f
+M	modules/ajax_quiz/ajax_quiz.info	2a180bc7d0c22c271f0244d16aa8913c
+M	modules/quiz_stats/quiz_stats.info	c7da0d4a1226f5016c1162b3ecb75fd8
+M	question_types/long_answer/long_answer.info	bc1882294db5c4476b80286f4b20f69f
+M	question_types/matching/matching.info	43d20b77492e48362fea39efd9371178
+M	question_types/multichoice/multichoice.info	a96fef7bd8374a3053d780c71ae81bdb
+M	question_types/quiz_directions/quiz_directions.info	96a5530b0ddc6ae7650a320e46690f5e
+M	question_types/quiz_page/quiz_page.info	65e9fd9e17dfc9f923529957b163c502
+M	question_types/quiz_question/quiz_question.info	3e01146e217d5ab59de9f97b9822add8
+M	question_types/scale/scale.info	4e8ae365b24b94ed3b010d208e27ff95
+M	question_types/short_answer/short_answer.info	102cca17d9ed7117e90417804d60c3d1
+M	question_types/truefalse/truefalse.info	c5feecc116a725d20844e0375c40d066
+M	quiz.info	a439a196d6ca472ea9df1f4e39af322d
+M	tests/quiz_test/quiz_test.info	83c5e726e3a66a4facaa12dcc8d44883

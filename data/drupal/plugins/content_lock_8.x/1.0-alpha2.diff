@@ -1,0 +1,17 @@
+M	content_lock.info.yml	67ea3775872784bd8f854c350e375b66
+M	content_lock.install	63bbfcc8a5c1d278fdc571742674e0a5
+M	content_lock.module	e695f69b28829f175e516d183e9f9c2e
+M	modules/content_lock_timeout/content_lock_timeout.info.yml	ca058ca30df3d5273e61f82a39c7d704
+M	modules/content_lock_timeout/content_lock_timeout.install	3791c33daa882e2fdac0e1501b954fb5
+M	modules/content_lock_timeout/content_lock_timeout.module	1736b73c9ac0f01fd5877eafc7ac8ca3
+M	modules/content_lock_timeout/content_lock_timeout.routing.yml	f54dfd76afdd5aa99cc3d73c4e9f5adc
+M	src/ContentLock/ContentLock.php	76707473cd953f5b9c25e9b63e0f936e
+M	src/Form/BreakLockBlockContentForm.php	0d2f8b6a31c31ede6ee91a2f833cd5b8
+M	src/Form/BreakLockFormBase.php	8558edb291fef52f0f2be928932f9701
+M	src/Form/BreakLockNodeForm.php	85cd3d343a1cf35a32083affc84c78ba
+M	src/Form/BreakLockTermForm.php	88ee346bc9348eba23b085cf67c347b0
+M	src/Form/ContentLockSettingsForm.php	b3b0c82d0d081afadfc32aae8600d289
+M	src/Plugin/Views/Field/ContentLockField.php	996bdf894d8c0a3a3b9cf19817295ca2
+M	src/Plugin/Views/Filter/ContentLockFilter.php	0cff3606bf11c16f94ff4ac8c872651e
+M	src/Plugin/Views/Sort/ContentLockSort.php	b5ce88efdf46975583248e426d6c8f2e
+M	src/Tests/ContentLockTestBase.php	de13d90969e9e9ff12d0d9b434334d9d

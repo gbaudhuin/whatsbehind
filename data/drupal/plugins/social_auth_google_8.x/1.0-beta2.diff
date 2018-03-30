@@ -1,0 +1,4 @@
+M	social_auth_google.info.yml	ff3de53268896cb81121248b000862a2
+M	social_auth_google.services.yml	34f8e79da2e086ca48c95647e335b95f
+M	src/Controller/GoogleAuthController.php	a9af444bff395b8caafd90c77fd46617
+M	src/GoogleAuthManager.php	c712f8c4ac537531b25b7a5bfcca0776

@@ -1,0 +1,100 @@
+M	CHANGELOG.txt	798c5de0ded827962cfb6ab19b1188c1
+A	css/panels-dashboard.css	af9764425e6ef170786229697a2cf16f
+M	css/panels_admin.css	97fa07004b82f5fd2d9762969e65f1e9
+M	css/panels_dnd.css	1fb1b24fac406be06087f33190dc5a96
+A	help/panels.help.ini	df992248e87ccdeb0a28e0c55a7ec609
+A	images/arrow-active.png	ffa7afc3a81b8c33311f53eee62033bd
+A	images/bg-content-modal.png	2cff16158d9087a73669806021184854
+M	includes/callbacks.inc	86b4540df17318b07c4da19be9968c80
+M	includes/common.inc	2d06bd342a836131f2567cb8df1a0abc
+M	includes/display-edit.inc	f944e517c58c2190745bd1c298cd6c5f
+M	includes/display-layout.inc	943aa8ccfc35048db943db7a308cfe1d
+M	includes/display-render.inc	7b79672f18e347417d09082c14173023
+M	includes/plugins.inc	9e1870a84fe4ddd750f52c41d1cc9c72
+M	js/display_editor.js	1a964d5efd4dd74b717902a9dde52559
+M	js/layout.js	0e568cd42a65738813e40bcd93238d04
+M	panels.info	207e2138068b1c6fe24ee3e8f5bd01b5
+M	panels.install	50679e9336896b14593b49ef1d80ee51
+M	panels.module	54d437c6b031f8170bb6f69b9fa8281d
+M	panels_export/panels_export.info	40e42a8c901ef7be85bb6355309a28e0
+M	panels_export/panels_export.module	c643d431c5510ff470d12ff67c8f3612
+M	panels_mini/panels_mini.admin.inc	ee004cb1cfc9a98f075244c95ca33699
+M	panels_mini/panels_mini.info	a141521a89903711bb6406312260908d
+M	panels_mini/panels_mini.install	e5e848625fca3e0449e4503b8d1c01ab
+M	panels_mini/panels_mini.module	14055cf32274698044e717c54a0ffda4
+A	panels_mini/plugins/content_types/icon_panels_mini.png	57a0e35d3a2a51621782eb52fd6e4d85
+M	panels_mini/plugins/content_types/panels_mini.inc	163e7781b2ae6b8b71f675f1b249ec9b
+M	panels_node/panels_node.info	7241c8f1bc78c916cd99eb40049c2cbc
+M	panels_node/panels_node.module	c898ae62a5000b5613e9cbe064868d1f
+D	panels_node_content/panels_node_content.info	
+D	panels_node_content/panels_node_content.module	
+D	panels_node_content/plugins/content_types/node.inc	
+D	panels_page/panels_page.info	
+D	panels_page/panels_page.module	
+D	panels_simple_cache/panels_simple_cache.info	
+D	panels_simple_cache/panels_simple_cache.module	
+D	panels_views/icon_views_block_legacy.png	
+D	panels_views/icon_views_page.png	
+D	panels_views/icon_views_page_legacy.png	
+D	panels_views/panels_plugin_display_panel_pane.inc	
+D	panels_views/panels_views.admin.inc	
+D	panels_views/panels_views.info	
+D	panels_views/panels_views.module	
+D	panels_views/panels_views.views.inc	
+A	plugins/cache/simple.inc	4b847b4f9c41145795d03a45d2bb2d5e
+D	plugins/content_types/block.inc	
+D	plugins/content_types/block/icon_contrib_block.png	
+D	plugins/content_types/block/icon_contrib_block_empty.png	
+D	plugins/content_types/block/icon_contrib_menu.png	
+D	plugins/content_types/block/icon_contrib_page.png	
+D	plugins/content_types/block/icon_core_activeforumtopics.png	
+D	plugins/content_types/block/icon_core_authorinformation.png	
+D	plugins/content_types/block/icon_core_block.png	
+D	plugins/content_types/block/icon_core_block_empty.png	
+D	plugins/content_types/block/icon_core_block_menu.png	
+D	plugins/content_types/block/icon_core_booknavigation.png	
+D	plugins/content_types/block/icon_core_navigation.png	
+D	plugins/content_types/block/icon_core_newforumtopics.png	
+D	plugins/content_types/block/icon_core_page.png	
+D	plugins/content_types/block/icon_core_primarylinks.png	
+D	plugins/content_types/block/icon_core_recentblogposts.png	
+D	plugins/content_types/block/icon_core_recentcomments.png	
+D	plugins/content_types/block/icon_core_recentpoll.png	
+D	plugins/content_types/block/icon_core_searchform.png	
+D	plugins/content_types/block/icon_core_syndicate.png	
+D	plugins/content_types/block/icon_core_userlogin.png	
+D	plugins/content_types/block/icon_core_whosnew.png	
+D	plugins/content_types/block/icon_core_whosonline.png	
+D	plugins/content_types/custom.inc	
+D	plugins/content_types/custom/icon_block_custom.png	
+D	plugins/content_types/custom_php.inc	
+D	plugins/content_types/form.inc	
+D	plugins/content_types/node.inc	
+D	plugins/content_types/node/icon_node.png	
+D	plugins/content_types/node_attachments.inc	
+D	plugins/content_types/node_book_nav.inc	
+D	plugins/content_types/node_comment_form.inc	
+D	plugins/content_types/node_comments.inc	
+D	plugins/content_types/node_content.inc	
+D	plugins/content_types/node_form.inc	
+D	plugins/content_types/node_type_desc.inc	
+D	plugins/content_types/profile_fields.inc	
+D	plugins/content_types/profile_fields_pane.tpl.php	
+D	plugins/content_types/term_description.inc	
+D	plugins/content_types/term_list.inc	
+D	plugins/content_types/user/icon_user.png	
+D	plugins/content_types/user_picture.inc	
+D	plugins/content_types/user_profile.inc	
+D	plugins/content_types/views.inc	
+D	plugins/content_types/vocabulary_terms.inc	
+M	plugins/layouts/flexible/flexible-admin.css	da65ad8b357cf04872bb9536da3816ff
+M	plugins/layouts/flexible/flexible.inc	479db0e5b1e5ba39543d260cdbb81abc
+A	plugins/layouts/flexible/grippie-vertical.png	1d42ab1ff5cb101a9e0d2e7e10a56d5a
+M	plugins/layouts/threecol_25_50_25/threecol_25_50_25.inc	874161e86989be42a14b1e130130f1d7
+M	plugins/layouts/threecol_33_34_33/panels-threecol-33-34-33.tpl.php	9c44f4524fec658bc32873ddc0205a22
+M	plugins/styles/block.inc	14895166345427772286b2c6cc4051ca
+M	plugins/styles/corners/panels-rounded-corners-box.tpl.php	8c6f590acabade39eff925324ef681e7
+M	plugins/styles/corners/rounded_corners.inc	55322d09edd5ca1a517850a33332261c
+M	plugins/task_handlers/panel_context.inc	1ddddc9273f52278f7b38ada44856b58
+A	plugins/tasks/panel_page.inc	90ad4544558659383ee29307490f022d
+A	templates/panels-dashboard.tpl.php	fc46258ba6440935c2d6ec7643d64004

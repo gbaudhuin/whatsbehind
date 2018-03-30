@@ -1,0 +1,11 @@
+M	CHANGELOG.txt	b19e6cfd4e184c628108b3820c80af64
+M	css/module_filter.css	4ecd00d68a0dd671386a3cab8d1ae883
+M	css/module_filter_tab.css	fc1cc8b9ca142bf4c54bd5ae7da8b779
+D	js/dynamic_position.js	
+M	js/module_filter.js	48d7197ac0dfd52de54551f02f2fa0aa
+M	js/module_filter_tab.js	80af7f6ba41e34c6e2aaa87c941f4fe8
+M	module_filter.admin.inc	1b760c9e651a148c0719142c8c1e0eb2
+M	module_filter.info	ede9f5142dee1f400641cac868c14c94
+M	module_filter.install	27969a4a4e30c40b4a39fa6c759a117e
+M	module_filter.module	8c1bd2aadc02d257186ff989ef831177
+M	module_filter.theme.inc	6823d49ad81c96c8c7dd89a484dc4b40

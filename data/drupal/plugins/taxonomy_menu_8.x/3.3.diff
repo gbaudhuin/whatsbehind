@@ -1,0 +1,12 @@
+M	composer.json	9828028e9d46037bf39fd2d0af9558e8
+M	config/schema/taxonomy_menu.schema.yml	8f0f2305543d592d5ac594d70d93a197
+M	src/Controller/TaxonomyMenu.php	6cb655b93d326618662e4bda62d2e3b0
+M	src/Controller/TaxonomyMenuListBuilder.php	882f36dd496ea839d0f584f65422abed
+M	src/Entity/TaxonomyMenu.php	c50ed5a6db76ea5811c51fbfefe88fe4
+M	src/Form/TaxonomyMenuForm.php	0852d5181431a01536a5601a64b14d9c
+M	src/Plugin/Menu/TaxonomyMenuMenuLink.php	f2109d1b8c9645753b58b6139ab9b535
+M	src/TaxonomyMenuInterface.php	d9a87655bec90a4334e11b33d8703487
+M	src/Tests/TaxonomyMenuOperations.php	a4db117cbd5024d6d6edbd7f76da33c0
+M	taxonomy_menu.info.yml	92a8b3d3463c72652205b6d1127b3864
+M	taxonomy_menu.links.action.yml	a2c5646ccc037946d1eeac1e42bb9ec9
+M	taxonomy_menu.routing.yml	d502216b4fa1e92c6e735f804b75e0f1

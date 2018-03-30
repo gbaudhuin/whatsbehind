@@ -1,0 +1,26 @@
+M	README.txt	c22bf57ea8b27ae6aa8cafda63981cac
+M	auth/services_oauth/services_oauth.info	253dd8640fdace4cdd5c317be26f3130
+M	resources/comment_resource.inc	5624cfd832493b86a87668a307aa2442
+M	resources/file_resource.inc	1b6e3c9d719e462849a05d8549eb6271
+M	resources/node_resource.inc	d1c486ac77668fa85c001d7a163861d0
+M	resources/taxonomy_resource.inc	12fbfe7fe24e2a3e0a05407cfafe9e61
+M	resources/user_resource.inc	45c936e9d3ef10b2f5d07aa19164e554
+M	servers/rest_server/formats/xcal_format.info	80e8fb64f79483a24bb8e05a8fc9b722
+M	servers/rest_server/includes/RESTServer.inc	d49d5393286caf4eaa724732061245c3
+M	servers/rest_server/includes/rest_server.views.inc	fc2fa48a6eff757002e99b6f10e10fce
+M	servers/rest_server/lib/mimeparse.php	fe9db8a21087dcdd31ea60454fbed87d
+D	servers/rest_server/lib/spyc.php	
+M	servers/rest_server/rest_server.info	f1e3ed012011fbb8b80f364d00bd7093
+A	servers/rest_server/rest_server.install	aef6a95ae0591927c8c8efa1cf7e933f
+M	servers/rest_server/rest_server.module	e1215264a01ebdfeeae8d849aeff25bb
+M	servers/xmlrpc_server/xmlrpc_server.info	ea9dd63f7c9d7c17bd1c02cceeb83419
+M	servers/xmlrpc_server/xmlrpc_server.module	fcb2b9abd4403f1d76ab3d0d3114a4cb
+M	services.authentication.api.php	da6f004b05e4130b0731b969e26f4538
+M	services.info	67aa48f277798df472560b54fd6ff54b
+M	services.module	5dfe76fb964844a3bcb87fb818dcc77e
+M	services.resource_build.inc	09efe24c065a4cb2083971e88e2e335d
+M	services.runtime.inc	8bb6b9a7a770486acae1556f34faae82
+M	tests/functional/ServicesResourceNodeTests.test	1951dbf2784e566d94fe299aee38ade7
+M	tests/functional/ServicesResourceUserTests.test	97b147df0a35afb3aa19c48c013d4d9e
+M	tests/services_test_resource/services_test_resource.info	7f60538a8b429ff234988f2a007b0728
+M	tests/unit/TestServicesModule.test	db0c245156e88f8e5e6ceea5ee826c23

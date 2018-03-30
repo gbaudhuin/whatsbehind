@@ -1,0 +1,30 @@
+M	.travis.yml	a9ed690da0dd98685c3cab7a79f9a932
+M	.travis/drupal-8.1.x.make.yml	bb66239f9968f181be6c0261cffecc53
+M	.travis/drupal-8.2.x.make.yml	fcc76e051d9fe163903ed8d06941073c
+M	README.md	70954eb7082882f69a4ccb81dc5eb59a
+M	composer.json	fe97b9b7283d7427163a12834e3e9dba
+A	multiversion.drush.inc	44802ff6bcea15363647e359c7a38a71
+M	multiversion.info.yml	4e9caeddcd516c1df69aed57b0adb677
+D	multiversion.links.menu.yml	
+D	multiversion.links.task.yml	
+M	multiversion.module	ca3ced73f02249893814f537933c4005
+D	multiversion.routing.yml	
+M	multiversion.services.yml	99af241180d42aa990634f2fb977f44d
+A	src/Entity/Index/ComplexLcaResolver.php	cb038cef8ab151b7e7bd084140d4a163
+M	src/Entity/Index/RevisionTreeIndex.php	4e260b3ef56f2329bf8cc8bfa7de643e
+M	src/Entity/Index/RevisionTreeIndexInterface.php	80453d73bb9b51f234037f4a40f19a7e
+M	src/Entity/Storage/ContentEntityStorageTrait.php	c7e2fd7fe53168aa4179c2b022b13fff
+M	src/Entity/Workspace.php	ba2429e94a2c5d8b43708e0286db5343
+A	src/EntityReferenceFieldTrait.php	8c0eb0acf337b111efa4b481be9e913d
+M	src/EntityReferenceItem.php	c7c191d208259dfcf4c040ce3c164d70
+A	src/FileItem.php	f848c2f2885c2dd2165ae70e445a96cb
+D	src/Form/MultiversionUninstallForm.php	
+A	src/ImageItem.php	d23ee1e9df21b37de6e67a12bd2f1124
+M	src/MenuTreeStorage.php	86607e6d989ddf7e007c09e87c5541c9
+M	src/MultiversionManager.php	f8014c8317705949ca73e123d4e93468
+M	src/MultiversionMigration.php	b77d480e5fa937cbcbee9669c690dd42
+M	src/MultiversionMigrationInterface.php	135796f22253c973ba33afa16a5a6ac1
+A	src/Tests/ComplexLcaResolverTest.php	656e0a886a394272bf27e5ca4289ad77
+A	src/Tests/GraphCreationTest.php	eb117accef5d960972f460fd0e69b993
+M	tests/modules/multiversion_test_views/multiversion_test_views.info.yml	46595d16b9f920d20a763a372470ac77
+A	tests/src/Functional/ViewsUiTest.php	e6497e34673270805f72f0dbce6c22c0

@@ -1,0 +1,63 @@
+M	README.md	7111e37c15470067853022d67e7d88be
+M	address.info.yml	94107199d37ca1830b661516fffc9bb2
+M	address.install	60e2ca014a7a4d049cd7fd8d142cb078
+D	address.links.action.yml	
+D	address.links.menu.yml	
+D	address.permissions.yml	
+D	address.plugin_type.yml	
+M	address.post_update.php	a357542965f6924d059df23398a65c81
+D	address.routing.yml	
+M	address.services.yml	33522fc91169561c7adfb6780e6f15bc
+M	address.views.inc	a94524bce85d95f4f6b5274aa883952e
+M	composer.json	e16f55ad76ba88d1404ba504740402a0
+M	config/schema/address.schema.yml	3a4c70f71006eedb6cef508c787b2317
+D	src/AddressServiceProvider.php	
+D	src/Annotation/ZoneMember.php	
+M	src/Element/Address.php	622e1c1a4f43d510133557bc07187549
+A	src/Element/Country.php	180068c5b20dcdc9f8eb789c70eac1a5
+A	src/Element/Zone.php	014bcab7fcf9386f117ff5fb1fd4a986
+A	src/Element/ZoneTerritory.php	07a81051d9ddc76964b674441cb61f0d
+D	src/Entity/Zone.php	
+D	src/Entity/ZoneInterface.php	
+D	src/Form/ZoneForm.php	
+D	src/Plugin/EntityReferenceSelection/ZoneSelection.php	
+A	src/Plugin/Field/FieldFormatter/CountryDefaultFormatter.php	2db869db6a99a00ae784a9e046aa0935
+M	src/Plugin/Field/FieldType/AddressItem.php	651f097d2922115394c20b13337fcc63
+A	src/Plugin/Field/FieldType/AvailableCountriesTrait.php	8ba0cbbc7f0c17c18ee18bb0ebec6e25
+A	src/Plugin/Field/FieldType/CountryItem.php	e7ebafb268ae6eb056b43940f5070ce0
+A	src/Plugin/Field/FieldType/ZoneItem.php	533a3e92da175e2655a5f3b86bc9e4d4
+A	src/Plugin/Field/FieldType/ZoneItemList.php	59a2a47e1a12dd93b49222e632bdb4c8
+M	src/Plugin/Field/FieldWidget/AddressDefaultWidget.php	eda9311da5b4f1b561df4fb50f618ac8
+A	src/Plugin/Field/FieldWidget/CountryDefaultWidget.php	155e9c296a48777d70115efe52a630ab
+A	src/Plugin/Field/FieldWidget/ZoneDefaultWidget.php	1780243dcdb3f3495195bed051ea691e
+M	src/Plugin/Validation/Constraint/CountryConstraint.php	d799ce75021d402070b00222b34ee04e
+M	src/Plugin/Validation/Constraint/CountryConstraintValidator.php	fd9d8e9f5542a4de1701855451191507
+D	src/Plugin/ZoneMember/ZoneMemberBase.php	
+D	src/Plugin/ZoneMember/ZoneMemberCountry.php	
+D	src/Plugin/ZoneMember/ZoneMemberEu.php	
+D	src/Plugin/ZoneMember/ZoneMemberInterface.php	
+D	src/Plugin/ZoneMember/ZoneMemberZone.php	
+A	src/Plugin/views/filter/AdministrativeArea.php	b5eafb825d01c85be033d82ba587ca5a
+A	src/Plugin/views/filter/CountryAwareInOperatorBase.php	4d2b4bf6b92aef3d9de74bf77deec616
+M	src/Plugin/views/filter/CountryCode.php	4861f80f5872a01b1f52b60642e92247
+D	src/PluginDefinition/ZoneMemberPluginDefinitionDecorator.php	
+M	src/Repository/CountryRepository.php	e9e22ef50e3db2483f0f13347e272df7
+D	src/Repository/ZoneRepository.php	
+D	src/ZoneListBuilder.php	
+D	src/ZoneMemberManager.php	
+D	src/ZoneMemberPluginCollection.php	
+M	tests/modules/address_test/address_test.info.yml	8c21a1b086aa7555588a83047681de2c
+A	tests/modules/address_test/config/install/field.field.node.address_test.field_address_test.yml	e749e010c7eeba9ce54ffdc19d43b077
+A	tests/modules/address_test/config/install/field.storage.node.field_address_test.yml	775178b4373f153f11c4b8e430e36e71
+A	tests/modules/address_test/config/install/node.type.address_test.yml	3258bd02d47c13b2535d4f9d225b9adb
+A	tests/modules/address_test/config/optional/views.view.address_test_filter_administrative_area.yml	8ace04f704b1983ae73f803250d3d442
+A	tests/src/Functional/Views/AdministrativeAreaFilterTest.php	be7032b28f730da52a5d39bd27a0f3be
+D	tests/src/FunctionalJavascript/ZoneTest.php	
+A	tests/src/Kernel/Formatter/AddressDefaultFormatterTest.php	e536ccc9d31e26b6907bac05474252f5
+A	tests/src/Kernel/Formatter/AddressPlainFormatterTest.php	f47ac73dd32ba258c54a0235bb50086c
+A	tests/src/Kernel/Formatter/CountryDefaultFormatterTest.php	5d6322fed9db26d482ffd89f03ffccc8
+D	tests/src/Kernel/Formatter/DefaultFormatterTest.php	
+A	tests/src/Kernel/Formatter/FormatterTestBase.php	3043a0963ede583aa522f5888bc6ad94
+D	tests/src/Kernel/Formatter/PlainFormatterTest.php	
+A	tests/src/Kernel/ZoneItemTest.php	a01707844ebd36a0cb4e2e49c0c53beb
+M	tests/src/Unit/Plugin/Validation/Constraint/CountryConstraintValidatorTest.php	d0baa34bf9b96dfa850ff325d6d3c7b3

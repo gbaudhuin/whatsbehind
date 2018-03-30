@@ -1,0 +1,9 @@
+M	entity_browser.info.yml	a9dc640ad5e204052de5e591dd74d746
+M	modules/entity_form/entity_browser_entity_form.info.yml	52172e8f7c0ce09e1c8a3f50ffa0f062
+M	modules/entity_form/entity_browser_entity_form.module	693cdd3f82bb087f9d4d0e8552d3006f
+M	modules/entity_form/tests/modules/entity_browser_entity_form_test/entity_browser_entity_form_test.info.yml	90288107accb471b2dc8cca903c83865
+M	modules/example/entity_browser_example.info.yml	1d14cd9819757a0c9b77d17ba56ef9fa
+M	src/Controllers/EntityBrowserController.php	44413ffabfea833a379c49adf74837b1
+M	src/Plugin/EntityBrowser/WidgetValidation/Cardinality.php	c013592831c3582b83d89fde669c0ae0
+M	src/Plugin/Field/FieldWidget/FileBrowserWidget.php	d46d17bd6c2154a642b96995bb9bf475
+M	tests/modules/entity_browser_test/entity_browser_test.info.yml	ea3bd3e40d9b07436dc47f3c7aed05b8

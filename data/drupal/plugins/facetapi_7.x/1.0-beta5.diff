@@ -1,0 +1,16 @@
+M	facetapi.admin.inc	9a93a3c366dd4ea91c07aff30172c585
+M	facetapi.api.php	9b0ecdb5f602d9ac04a99fcdc8cd0ee0
+M	facetapi.block.inc	4ddd84fd92db43efec9be86e7cd0b210
+M	facetapi.date.inc	378f6eb44adc51be39a56b7888d33ed9
+M	facetapi.info	f624118c8955c2c3c2d018495bc61ebb
+M	facetapi.install	3fcdb623e0f7341d86e9efc04b25f972
+M	facetapi.module	c34aade10c160563a8ad76d58a0f96b1
+A	facetapi.requirements.inc	046da74a5ca8256efc69baf5e6395bf7
+M	plugins/facetapi/adapter.inc	b2ae9f96fa29d88ec8d9d5af325d61a3
+M	plugins/facetapi/dependency_bundle.inc	eb052491a66d940968408549c1249807
+A	plugins/facetapi/filter.inc	9d0751c365e818aa2f13bc36f5257a21
+M	plugins/facetapi/query_type.inc	c065bbfda7e42b04f4db34d272021b2d
+A	tests/facetapi.test	d3acc5277a06fa28de9a958ff3521026
+A	tests/facetapi_test.info	fa8d9b227fd57351484c0a157fc4c0b7
+A	tests/facetapi_test.module	d7817209796992577e39482242dd4a96
+A	tests/facetapi_test.plugins.inc	2ddd869068a1ec5cc540bd26fa0a52e4

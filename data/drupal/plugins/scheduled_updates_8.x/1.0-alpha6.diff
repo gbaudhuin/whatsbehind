@@ -1,0 +1,16 @@
+A	README.txt	1dbd7d37d859206e93dcf0d03007f707
+D	composer.json	
+M	scheduled_updates.info.yml	464ef052de751d94e3adc52de68949af
+M	scheduled_updates.permissions.yml	5360df9381b476b493f5313728986676
+M	src/Entity/Form/ScheduledUpdateForm.php	6d43a0e10e231827650f307d1ff55b0e
+M	src/Entity/ScheduledUpdate.php	733ef5d6d9f5952d327764edb310a45b
+M	src/Entity/ScheduledUpdateType.php	e8b6fad12cd485a4fd60c01515881f33
+M	src/Form/ScheduledUpdateTypeBaseForm.php	a5481b4d0584f1e0e2f28423c2c1235a
+M	src/Form/ScheduledUpdateTypeForm.php	6ef0ec564450187ec2c271e549d22958
+M	src/Plugin/BaseUpdateRunner.php	3321fee7bbdf07e2320634c2f9c7ebd1
+M	src/ScheduledUpdateAccessControlHandler.php	d7179b52e0216d05e03bfd412095fedb
+M	src/Tests/EmbeddedScheduledUpdateTypeTestBase.php	c62f04f12022af8f45b9ab919ccfbcd6
+M	src/Tests/IndependentScheduledUpdateTypeTest.php	5c6b3f3ff26cba944a00a62cb4f3be7a
+M	src/Tests/ScheduledUpdatesTestBase.php	2f3805ec99ba547a49a38298552d9567
+M	src/Tests/WebTestExtended.php	85d2352e3935033836aa9f8625f518e5
+M	src/UpdateUtils.php	ab56fd4b380e3ff595aecde4a76cb940

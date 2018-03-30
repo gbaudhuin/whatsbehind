@@ -1,0 +1,4 @@
+M	README.txt	cd4c2bedb9559aa7a8c171d90f669239
+M	image_style_quality.info.yml	da7fc5742b834a4229d39ad6ea133354
+D	lib/Drupal/image_style_quality/Plugin/ImageEffect/ImageStyleQualityImageEffect.php	
+A	src/Plugin/ImageEffect/ImageStyleQualityImageEffect.php	302494930570aa5fa06955869ec316cf

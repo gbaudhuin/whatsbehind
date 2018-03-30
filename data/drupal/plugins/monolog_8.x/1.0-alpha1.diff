@@ -1,0 +1,16 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	composer.json	4d0059431b641bdc0cd8f2a557d98f18
+A	monolog.info.yml	c5c2859f205b2838f86037bf46068a1b
+A	monolog.install	aed5b152035bad2ca514657c59f3176b
+A	monolog.routing.yml	c073b29f42453896083c94a1741ee8d5
+A	monolog.services.yml	31c71f7a3123df720d2527ea4209fdaa
+A	src/Logger/Logger.php	7bb0bafcfb25557bf6ba2f20c159f5bc
+A	src/Logger/MonologLogLevel.php	0e88687ceef7b428ea7a68a16031f228
+A	src/Logger/MonologLoggerChannelFactory.php	5f1b15d6a77bc9fd9e377835e70bf814
+A	src/Logger/Processor/AbstractRequestProcessor.php	014ffa44660a39a80fbe2c230ca3ce43
+A	src/Logger/Processor/CurrentUserProcessor.php	7b609b94c88aefae6e23fdeb862ad7b3
+A	src/Logger/Processor/IpProcessor.php	ad36f4835987c42b960e2d110d28d2c8
+A	src/Logger/Processor/MessagePlaceholderProcessor.php	c435e49b8289802727db78a8c372adf9
+A	src/Logger/Processor/RefererProcessor.php	cc5d9b1a3df55fa818debb747fc8c2eb
+A	src/Logger/Processor/RequestUriProcessor.php	f0507c55944b98c08d6b469d69de3b6f
+A	src/MonologServiceProvider.php	2c0e6e1d608a48d27d6ed4099e8b5859

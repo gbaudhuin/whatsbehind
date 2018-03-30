@@ -1,0 +1,8 @@
+M	CHANGELOG.txt	da8062b9cad6d835190f74f4c19b5fef
+D	po/de.po	
+D	po/themesettingsapi.pot	
+A	themesettingsapi.admin.inc	4e328e59353e9126275d1268a23fd25b
+M	themesettingsapi.info	3cabfbf21476f2232f3ed5951d5d18d2
+M	themesettingsapi.module	2cff21de9cfc79d588258a23c2ad0bee
+A	translations/de.po	fd50af607a9d71fca59190ca7efba403
+A	translations/themesettingsapi.pot	d9ba6b9ac67568ab76381f9e3584f34c

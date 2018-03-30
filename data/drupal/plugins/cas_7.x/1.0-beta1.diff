@@ -1,0 +1,10 @@
+M	cas.api.php	4fa5e4f01d0067db06924340411f1d9c
+M	cas.css	c27d4db1908e9b677e0aede9bba12834
+M	cas.info	2d6d23b356730548dc9517d32f0e1a59
+M	cas.js	e7ac32f0e75c5a451f549fb9aed936b8
+M	cas.module	f0df6f0cea9c80b0f9ea32e58e5eef52
+M	cas.test	b25d18a19124b02744bef3725358e85d
+A	cas.tokens.inc	79528996317c7e6ce907fb3bf3a30570
+M	cas_server.info	109f13ee4d2eb20dcd1e39adb91c6883
+M	tests/cas_test.info	3333dcea9aecc14b04e6af58d1369790
+M	tests/cas_test.module	c2f052c4a0a6cbdee44220517dc7190e

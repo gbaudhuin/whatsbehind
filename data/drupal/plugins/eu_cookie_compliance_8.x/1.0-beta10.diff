@@ -1,0 +1,13 @@
+M	README.txt	e2ed7645db00ae19edcafefb19e1231d
+M	config/install/eu_cookie_compliance.settings.yml	844d35d8a8d61dc50d2687f37e26d88f
+M	config/schema/eu_cookie_compliance.schema.yml	94c41aa1db139bee398b8ce3ed64de73
+A	css/eu_cookie_compliance.bare.css	93508f7de58582662f6f308986c18e79
+M	css/eu_cookie_compliance.css	735662f5d5a3fa7ab7f5092be66eb621
+M	eu_cookie_compliance.info.yml	8b1365d1f29eabf1b488e6b439091bb6
+M	eu_cookie_compliance.install	8d6c962f884183fbc39de5a38d20a413
+M	eu_cookie_compliance.module	f0a43d82ea1493f6656c602aa2151a12
+M	eu_cookie_compliance.routing.yml	5bf0d5d7b589c4317862b03ceefc2a77
+M	js/eu_cookie_compliance.js	5010f058ed8a913c4cd89550a0cef2de
+A	src/Controller/CheckIfEuCountryJsController.php	a085408ab2c737c3e349740ae538cccd
+M	src/Form/EuCookieComplianceConfigForm.php	44a85b9cb06c7dabc0428cd2cc83b260
+A	src/Routing/CheckIfEuCountryJs.php	0e72eb586d96ba41388711a390c5a1a4

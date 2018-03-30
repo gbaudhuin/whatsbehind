@@ -1,0 +1,7 @@
+A	config/install/email_registration.settings.yml	a9ca56b58b6d7f93fd4d3e0393f5df47
+A	config/schema/email_registration.schema.yml	eca6a382e349b243501d343e4dbd1f65
+M	email_registration.info.yml	5f33e1ad2e078991093e0610ba2226f0
+M	email_registration.install	82e9da26fc5f2bad2e89dd170079ca4a
+M	email_registration.module	a75e3b7ee84a2527a1d623c67cff79e8
+D	src/Tests/EmailRegistrationTestCase.php	
+A	tests/src/Functional/EmailRegistrationTestCase.php	4ab849aecdd3c7ba86318c4dbbdf840e

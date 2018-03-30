@@ -1,0 +1,31 @@
+D	.travis.yml	
+M	encrypt.info.yml	7351f4e7e0c2279cdec31e5570f5942e
+A	encrypt.install	00eb21b8bb5d1a5e62b35867f31c608c
+M	encrypt.services.yml	777af92a0155d56dda09bd4b2dab1a72
+M	src/Annotation/EncryptionMethod.php	f43b74c5d800855f52d32fdf9921ee4f
+M	src/Controller/EncryptionProfileListBuilder.php	11fc97551094e181c6f6cd12db3b808a
+M	src/EncryptService.php	fb69c66ce039a61559ce52507b6df9ed
+M	src/EncryptServiceInterface.php	ecdb8d00da85445434a50de4b6a46c56
+M	src/EncryptUninstallValidator.php	ebf7f957b0bf0a0fe65c0999f730ae63
+M	src/EncryptionMethodInterface.php	49478ec43aa417f37177a84bfb039bf2
+M	src/EncryptionMethodManager.php	85900d0cc735f49e3970ae7e8776df17
+M	src/EncryptionMethodPluginCollection.php	d2d65252278274a1179964e840be022d
+M	src/EncryptionProfileInterface.php	ea5dba7af6fe199c081b2f4788d83c31
+M	src/EncryptionProfileManager.php	ef4ac66b67c3a3379cd9e86bcb9783a7
+M	src/EncryptionProfileManagerInterface.php	9a9f176d6623a4d52a15bf227785f33a
+M	src/Entity/EncryptionProfile.php	40a6ce0da728a2d64224ba310a5fad32
+M	src/Exception/EncryptException.php	43ca1c0a7f18dca455e7fbcee697f961
+M	src/Form/EncryptSettingsForm.php	f09bb787b8e2407161f0d9b2f0e22e4a
+M	src/Form/EncryptionProfileDeleteForm.php	889542066c14680f4c775b72b0c5f7d8
+M	src/Form/EncryptionProfileForm.php	4c31b48027c74e3d2e8a687452accbfd
+M	src/Form/EncryptionProfileTestForm.php	fca2297ecc739ce1a2371d506975949b
+M	src/Plugin/EncryptionMethod/EncryptionMethodBase.php	d40bdda1c5b2466d34f4f8afc97658f5
+M	src/Plugin/EncryptionMethodPluginFormInterface.php	d31a5003f4c162195c5939205b798b1f
+D	src/Plugin/KeyType/AESEncryptionKeyType.php	
+M	src/ProxyClass/EncryptUninstallValidator.php	b8673e7f2d6738cf0e5847427354c8c4
+M	src/Tests/EncryptTest.php	7df279b2c97f33449a1d6dae3d95fd9f
+A	src/Tests/EncryptTestBase.php	a79600643d49d1572da9e54a8750994e
+D	tests/drupal_ti/after/before_script.sh	
+D	tests/drupal_ti/before/before_script.sh	
+M	tests/modules/encrypt_test/encrypt_test.info.yml	f4fac9446dd7feb4529eb588124b9235
+M	tests/src/Unit/EncryptServiceTest.php	5ae5b74732759962c498f6df7f677928

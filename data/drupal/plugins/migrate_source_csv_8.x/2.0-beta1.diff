@@ -1,0 +1,4 @@
+M	composer.json	72dc4018b9ae1612002f9fd604d2b48b
+M	migrate_source_csv.info.yml	4927f1a15a6ef2fdd5574c8eda0292fa
+M	src/Plugin/migrate/source/CSV.php	2ab87df25bc68afa91af30aa535348ec
+M	tests/src/Unit/Plugin/migrate/source/CSVTest.php	fd3a526135e372dbb55c07d7bbf4a05c

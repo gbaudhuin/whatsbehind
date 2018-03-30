@@ -1,0 +1,26 @@
+M	CHANGELOG.txt	2f37e0a591bdc0037af08273b0d7a6d8
+M	calendar.css	dff044e0d6827b205b91e6ad5a480169
+M	calendar.inc	1bdd24a676570edc873316970180f7d4
+M	calendar.info	f19b880cf5e411c7095b9d98f81a45e9
+M	calendar.install	662dbf16d70496e0924ad64a6ee2a6bb
+M	calendar.module	d5b5d8f099a9d76e69dcfd6063c6cdf4
+M	calendar.views.inc	4694542d77f835f5f467b7041c70698d
+M	calendar.views_default.inc	e017af4476548c6491c10c1b9880f42e
+M	calendar_ical.info	86f6fb2b8a5b38a94cdcea686abe2725
+M	calendar_ical.module	745a26e9e9c85def6545bad67f053f47
+M	calendar_ical.views.inc	324bceacea7178eca2dd0ff50e121273
+M	calendar_ical_admin.inc	f2405bd7d6b04a6652493ef2845941bb
+D	calendarblock.js	
+A	jcalendar/Readme.txt	dfc605e8e9235ce203820f94735eda08
+A	jcalendar/images/cross.png	42492684e24356a4081134894eabeb9e
+A	jcalendar/images/throbber.gif	c33734a1bf58bec328ffa27872e96ae1
+A	jcalendar/jcalendar.css	11d828cccb52c531cfd0763a370eaf7f
+A	jcalendar/jcalendar.info	56b77bb0fb1f4ca8b9c396a4ef9532fb
+A	jcalendar/jcalendar.js	f4d1f6b3a6ce8df523a14940caf800c4
+A	jcalendar/jcalendar.module	3ccbe572bc74afa06c40e622cd15c0e0
+M	theme/calendar-day-node.tpl.php	c955aae461dd3e5a7edd6fcb68ca3631
+M	theme/calendar-month-node.tpl.php	8da283dbc19545340b778fffea969ec8
+M	theme/calendar-month.tpl.php	a2ba7bbbb75c7807216f077647d2a673
+M	theme/calendar-week-node.tpl.php	b51315402fa24bf4976bcebf1b39e2e8
+M	theme/calendar-year.tpl.php	b5413ac4261530a99a1f7fb2f8d9a014
+M	theme/theme.inc	844c9142d21f4035407019d3b1e904a5

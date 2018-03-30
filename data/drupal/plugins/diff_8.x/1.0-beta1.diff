@@ -1,0 +1,24 @@
+M	config/install/diff.settings.yml	476115cc4aa817755d75c63d8b61c3c2
+M	css/diff.general.css	f35c061fcc9a557061b55bb809422bac
+M	css/diff.single-column.css	564e688d288283776f612f58ff44ac66
+M	diff.info.yml	1bb82b3b649ac71f033790f5a18c33f4
+M	diff.install	d2055724169f715a824601b17af0fe2d
+M	diff.services.yml	faf63f28406306df9eed7c6c2a2078df
+M	src/Controller/PluginRevisionController.php	228316d1b6c38e233473bf65abf94b95
+M	src/DiffEntityComparison.php	7fb4ec5d44f3cf5ebf6afd1201fb3ebc
+M	src/DiffLayoutBase.php	b281c10739b894bbca160ee3cb877c75
+M	src/DiffLayoutManager.php	5ecfdab8d9ade6f2bce38d01339970e7
+M	src/Form/RevisionOverviewForm.php	e5ddeef8bd0562afc3a14f35d25fd318
+D	src/Plugin/diff/Layout/ClassicDiffLayout.php	
+D	src/Plugin/diff/Layout/HTMLDiffLayout.php	
+D	src/Plugin/diff/Layout/SingleColumnDiffLayout.php	
+A	src/Plugin/diff/Layout/SplitFieldsDiffLayout.php	d134d719ffa8daac9d9e663e3486494a
+A	src/Plugin/diff/Layout/UnifiedFieldsDiffLayout.php	caa7f20b18081f163e9e1a9339b9fe05
+A	src/Plugin/diff/Layout/VisualInlineDiffLayout.php	d6773574418b920c3ccba4b42a079294
+M	src/Routing/DiffRouteProvider.php	5c84fb1cc3826ef7308442ad238cc6cd
+M	src/Tests/AdminFormsTest.php	68bdae8f88ce84025bf77aaeb8ddd885
+M	src/Tests/DiffLocaleTest.php	a608883eafedc2ad3cf6c0fc5c7fb270
+M	src/Tests/DiffPluginTest.php	ea2a13a69d4457f3107054eb693c7091
+M	src/Tests/DiffRevisionTest.php	e8bb8d84563518e6bdb0a338cc379172
+M	src/Tests/DiffViewsTest.php	a340ac9f48a9bb4b7b38623da60e4e3c
+M	tests/modules/diff_test/diff_test.info.yml	78a64b855e01b3656527fe9b62fbbc50

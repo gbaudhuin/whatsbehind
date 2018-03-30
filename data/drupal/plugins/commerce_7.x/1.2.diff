@@ -1,0 +1,147 @@
+M	commerce.api.php	12be34bcc03740ff00ba1838b9a46d73
+M	commerce.info	77471dce87a3425d2cca75eef56d6829
+M	commerce.install	8721af118dce07f84a05e54c34efe806
+M	commerce.module	3d8acef407e10179a6527356387358b6
+M	commerce_ui.info	7671a1470266fb15446c4632f699c934
+M	commerce_ui.module	e6b6c50fd60baf780587a34f0c49b093
+M	includes/commerce.controller.inc	20647121f78569a557e0587921048d23
+M	includes/commerce.currency.inc	827a583faf2ecdd33e831bea3d40580c
+M	modules/cart/commerce_cart.api.php	baae65a52a7cc9d24560ae8bb4a9268d
+M	modules/cart/commerce_cart.info	88b22e406db8484f2df698d5fdce8c36
+M	modules/cart/commerce_cart.module	c6dae99661dd34757e3ceea11d01addc
+M	modules/cart/includes/commerce_cart.checkout_pane.inc	10bdb5beafc994ed6b0f12e252dadce6
+M	modules/cart/includes/commerce_cart.pages.inc	bc115c69699393546f27fcb6d5f2d7dc
+M	modules/cart/includes/views/commerce_cart.views_default.inc	6cdcaa91459b52fcf93949a43d975fa7
+D	modules/cart/theme/commerce_cart.css	
+A	modules/cart/theme/commerce_cart.theme.css	5eb1a23ecb670f1ceffd5585c63cd899
+M	modules/checkout/commerce_checkout.api.php	6315ced16ad860ddc6c3965bc4694eed
+M	modules/checkout/commerce_checkout.info	313a3b524c2c088f97b3441cfd64e738
+M	modules/checkout/commerce_checkout.module	7c8c35a4b23e1d4bd63b3cbc0b1ca996
+M	modules/checkout/commerce_checkout.rules_defaults.inc	19cb9da55e1ba17d1909b37352e9dca1
+M	modules/checkout/includes/commerce_checkout.admin.inc	8efa7e2c43eb82a95fcc80fff1bde33f
+M	modules/checkout/includes/commerce_checkout.pages.inc	c799447f3d0b1902491b5615b1d97581
+D	modules/checkout/includes/views/commerce_checkout.views_default.inc	
+A	modules/checkout/theme/commerce_checkout.admin.css	c9f8dff74250407c8e534fd60c23fffe
+A	modules/checkout/theme/commerce_checkout.base.css	ee78003900163d91a780e036f7126c95
+D	modules/checkout/theme/commerce_checkout.css	
+A	modules/checkout/theme/commerce_checkout.theme.css	71fb6206ae43d04a3701a44b26daa45b
+D	modules/checkout/theme/commerce_checkout_admin.css	
+M	modules/customer/commerce_customer.api.php	cd06f6e7dafb268cb68bb415df5b465b
+M	modules/customer/commerce_customer.info	58c60adba5145dac8256021d07b8f59d
+M	modules/customer/commerce_customer.info.inc	ac175731c15dd5f629bb617a28eeac90
+M	modules/customer/commerce_customer.install	4701120de11ec6746ca8e7248170b98b
+M	modules/customer/commerce_customer.module	359caf60fa1b6a9bb5edefd17e9c25cd
+M	modules/customer/commerce_customer_ui.info	f5747f61d75df95bf290306e2d526698
+M	modules/customer/commerce_customer_ui.module	538291b89d37dd3e9ef843a51f9e2bb5
+M	modules/customer/includes/commerce_customer_ui.profile_types.inc	fe94a9eb76d9dc658d0b13d2070da7a0
+M	modules/customer/includes/views/commerce_customer.views.inc	f71dd2c1181fb1b5bde7d408d3583904
+M	modules/customer/includes/views/commerce_customer_ui.views_default.inc	0edaba62a21cc0408227fb6602259360
+A	modules/customer/includes/views/handlers/commerce_customer_handler_area_empty_text.inc	39814ba182013e8fe49c4d65ed8bcdae
+M	modules/customer/tests/commerce_customer_profile_dummy_type.info	b9f626f2557dacfa3a3f1b5a6a31e5e8
+A	modules/customer/theme/commerce_customer.admin.css	6aa0a6e0add1d3c38f8a99e87e86242d
+D	modules/customer/theme/commerce_customer_ui.profile_types.css	
+M	modules/line_item/commerce_line_item.info	a0aeae53f5eed94df5b58a40d08d8554
+M	modules/line_item/commerce_line_item.install	917f96639a80ffff1cfa0fbda2954003
+M	modules/line_item/commerce_line_item.module	55a642e0de4a690831feda032ed5e8a4
+M	modules/line_item/commerce_line_item.rules.inc	5d7f33ce0c1c00000183ecf2d2499fa9
+M	modules/line_item/commerce_line_item_ui.info	05289754b1da7ef123aef62e28dc7a02
+M	modules/line_item/commerce_line_item_ui.module	bdd151f35a1b2c35aa10a6dfcf75a145
+M	modules/line_item/includes/commerce_line_item_ui.types.inc	43abdc3b5b98a00e9d1f790d175feb76
+M	modules/line_item/includes/views/commerce_line_item.views_default.inc	0ed64794f8e36dfd817d9c13aa19e591
+M	modules/line_item/includes/views/handlers/commerce_line_item_handler_area_line_item_summary.inc	5809ec0860f8d70fc97fca47d4599085
+A	modules/line_item/theme/commerce_line_item.admin.css	958bf9938efb69eadb0c64a362e0333c
+D	modules/line_item/theme/commerce_line_item.manager.css	
+A	modules/line_item/theme/commerce_line_item.theme.css	7b6a0d429ef34b39975235c89d7562c0
+D	modules/line_item/theme/commerce_line_item_summary.css	
+D	modules/line_item/theme/commerce_line_item_ui.types.css	
+D	modules/line_item/theme/commerce_line_item_views_form.css	
+M	modules/order/commerce_order.api.php	35591057c655435b90ba82ada13351c1
+M	modules/order/commerce_order.info	f3630f57c4067f07b5b1e8fb3947857c
+M	modules/order/commerce_order.info.inc	66e6d443824eac0d105029a4529d9872
+M	modules/order/commerce_order.install	a48e14f8b4f2acab89c43aa0300e7cef
+M	modules/order/commerce_order.module	257f24f97319478141a1b89730ca83ab
+M	modules/order/commerce_order_ui.info	b4b69799f9cb4c4ce50203a21418ae23
+M	modules/order/commerce_order_ui.module	21c9039e7fbe56fb1677947418cc643b
+M	modules/order/commerce_order_ui.tokens.inc	4cefa8bc2498b778c8bc1c7f1b5356e7
+M	modules/order/includes/commerce_order.controller.inc	1d0ecdc876a85270c7a9ca4848cdef98
+M	modules/order/includes/commerce_order.forms.inc	47063393c6e852d3c7820afac08d0ef9
+M	modules/order/includes/views/commerce_order.views.inc	4b6c21bac5ccbd7bbd4f3a2edbefc46e
+A	modules/order/includes/views/commerce_order_ui.views.inc	0cb4cd44bb80d60ab84cb446f9562eb9
+M	modules/order/includes/views/commerce_order_ui.views_default.inc	ce1d8b2234dd96c2cd9a38f1cacd1497
+A	modules/order/includes/views/handlers/commerce_order_handler_area_empty_text.inc	6c69e6d1ca5e085bf48cf8a92edaa5bc
+M	modules/order/includes/views/handlers/commerce_order_handler_field_order_operations.inc	445bf59956dfc97a0dab48e1905dbe98
+A	modules/order/includes/views/handlers/commerce_order_ui_handler_area_view_order_form.inc	e99d93c7fb7e3ae5010fea21e635081c
+A	modules/order/tests/commerce_order.test	ee06ca9ba5a24474ed103bb0b43f8bad
+M	modules/order/tests/commerce_order_ui.test	1e9d3df7452fb3371e407acc39327209
+A	modules/order/theme/commerce_order.admin.css	4f333d390f8092ddf6a5509ba67e9bc3
+D	modules/order/theme/commerce_order.css	
+A	modules/order/theme/commerce_order.theme.css	235667506a052d7dc753fdadfd146fcb
+D	modules/order/theme/commerce_order_views.css	
+M	modules/payment/commerce_payment.api.php	b78b6cfbd51d9359ef797e7c1e3e7523
+M	modules/payment/commerce_payment.info	9f42c343db14220a08d0a61f628ba3c1
+M	modules/payment/commerce_payment.install	0b08ff235f409fc770ddb2d1907609c5
+M	modules/payment/commerce_payment.module	c509ab467f5c08aad970c5ec17d4f5a8
+M	modules/payment/commerce_payment.rules.inc	bf97e309d0242e1bb15d84d955d6fd92
+M	modules/payment/commerce_payment_ui.info	2d258c1948331aef9c049b4c6b697916
+M	modules/payment/includes/commerce_payment.credit_card.inc	0f4c1f8e052eaf818ce08c0483fae9ea
+M	modules/payment/includes/commerce_payment_transaction.controller.inc	bd652c4627261a9fc2df4c8eeaab57a7
+M	modules/payment/includes/views/commerce_payment_ui.views_default.inc	6a1e1d3c7b82cfd679b0f6404426dffd
+M	modules/payment/includes/views/handlers/commerce_payment_handler_field_amount.inc	5d170b97e821046f0c055ce4a20fe572
+M	modules/payment/includes/views/handlers/commerce_payment_handler_field_payment_transaction_operations.inc	067c2b36ae83ae6dea7b775c0bdcf536
+M	modules/payment/modules/commerce_payment_example.info	595b1b5423fc5a2142196fd0ae72374d
+M	modules/payment/tests/commerce_payment_dummy_offsite.info	35aa8e3819e6427714d065db7a07bb49
+M	modules/payment/tests/commerce_payment_ui.test	6209dfac534b48826deecacdb6398713
+A	modules/payment/theme/commerce_payment.admin.css	9ebb308d9fd9945ae69f3343a0fc5eb0
+D	modules/payment/theme/commerce_payment.credit_card.css	
+D	modules/payment/theme/commerce_payment.css	
+A	modules/payment/theme/commerce_payment.theme.css	3b717daa9d711adabec5407bae35ff15
+M	modules/price/commerce_price.api.php	b98cd8c2a2ce9100686b4bb5b326eac7
+M	modules/price/commerce_price.info	4574c8097d52fcd2fb58cf89cfe3191a
+M	modules/price/commerce_price.install	78545b500aa902825d95742f0a672783
+M	modules/price/commerce_price.module	ce5289138095867c7735f208106a48ef
+M	modules/price/commerce_price.rules.inc	9a94e3d5d4c5318ee6d64a4e25ff3462
+A	modules/price/includes/views/commerce_price.views.inc	6970f8a4acaad51e8a0c81062620e313
+A	modules/price/includes/views/handlers/commerce_price_handler_filter_commerce_price_amount.inc	3a278aeda0ce8597adefaaf10cd8668e
+D	modules/price/theme/commerce_price.css	
+A	modules/price/theme/commerce_price.theme.css	c34e05b101170bc0e9855a9b5f13d441
+M	modules/product/commerce_product.api.php	6b7d01b14f8791333ecbbac6a352629d
+M	modules/product/commerce_product.info	3b2fd3659dd8b698a6749e5111e8e321
+M	modules/product/commerce_product.info.inc	d8e81e9fbd2a951d001599308c0d6acb
+M	modules/product/commerce_product.install	fff0fda596bc0407505af5d4d450a265
+M	modules/product/commerce_product.module	d3d6f4a40a5f11a830a6a70779af01a5
+M	modules/product/commerce_product_ui.info	f290e8789f98f85c187355016d5f7991
+M	modules/product/commerce_product_ui.install	eddfbe156562b5e96e203e691b9e5397
+M	modules/product/commerce_product_ui.module	7bdf5ca44cc1cd5c3ce76493c87f6ca8
+M	modules/product/includes/commerce_product.controller.inc	e3b64ad2fd9d63b14ab8ee10102d056e
+M	modules/product/includes/commerce_product.forms.inc	17ebc602e041c9d350d343aeebc467c9
+M	modules/product/includes/commerce_product_ui.forms.inc	8439fcd17ff30dd1c531d7704d5fd6ef
+M	modules/product/includes/commerce_product_ui.types.inc	db4d50e4bc8bd873884cf13da13343a2
+M	modules/product/includes/views/commerce_product.views.inc	57a28944af406bc4dba422f1f4c72788
+M	modules/product/includes/views/commerce_product_ui.views_default.inc	d5fe8551f8c110cab73e5108be0be5e3
+A	modules/product/includes/views/handlers/commerce_product_handler_area_empty_text.inc	f821c734eeff9e9c936f0cd0671171e7
+M	modules/product/includes/views/handlers/commerce_product_handler_field_product_operations.inc	094034d302359fa0adacc98a4aa1e921
+M	modules/product/includes/views/handlers/commerce_product_handler_field_product_type.inc	89618f604392f83b9ec061afc76f0870
+M	modules/product/tests/commerce_product.test	78436485984bfab4529d34f8ea0f2f5a
+M	modules/product/tests/commerce_product_ui.test	8691759ee27175821ebe5fdf6dbd88d0
+A	modules/product/theme/commerce_product.admin.css	1e1a77e9b9a56ccfdc572636e8d6e05f
+D	modules/product/theme/commerce_product.css	
+A	modules/product/theme/commerce_product.theme.css	a7a0bd3e0660bed133e4967382710dee
+D	modules/product/theme/commerce_product_ui.types.css	
+D	modules/product/theme/commerce_product_views.css	
+M	modules/product_pricing/commerce_product_pricing.info	65a14cf66a6a9e06349c2cbedb974335
+M	modules/product_pricing/commerce_product_pricing_ui.info	cbe36e0a3a2d07a86f2bb806a0427ea3
+M	modules/product_pricing/includes/commerce_product_pricing_ui.admin.inc	9e279207f271e88dfa8608554895825f
+M	modules/product_reference/commerce_product_reference.info	d059f21df9ca21aa32ec572c9c9e9d56
+M	modules/product_reference/commerce_product_reference.install	30ab898043222cfcc99dedfb5a33ab29
+M	modules/product_reference/commerce_product_reference.module	34cc0a698738d21b8bbd8b0386efcd25
+M	modules/tax/commerce_tax.api.php	b0a6d8ac5c0adcbc3351b3915014c5a8
+M	modules/tax/commerce_tax.info	7967ec0e121f298a0ca6a4ca1d2de6fc
+M	modules/tax/commerce_tax.module	88946b82e508e6eb6685783fd58b01c0
+M	modules/tax/commerce_tax_ui.info	cdfa11cbd80e4a7fe86ca7a54732c4d3
+M	modules/tax/commerce_tax_ui.module	2ea69bea98aea6039fbbd5db99b4d7f0
+M	modules/tax/includes/commerce_tax_ui.admin.inc	05c408a705f51f296f1c4d8ee022ac02
+A	modules/tax/theme/commerce_tax.admin.css	0656615cf52e8cea0088322e814ac778
+D	modules/tax/theme/commerce_tax.css	
+A	modules/tax/theme/commerce_tax.theme.css	783a831663415868120014db10da416f
+D	modules/tax/theme/commerce_tax_ui.css	
+M	tests/commerce_base.test	60b3d88c6e4d879f7c690c5ad334637d

@@ -1,0 +1,6 @@
+M	js/infinite-scroll.js	8027958a41f82c33f3bd35bca423a5b1
+M	src/Tests/IntegrationSmokeTest.php	339a16e0ae1756926bf7bd64797709ce
+M	templates/views-infinite-scroll-pager.html.twig	3b94d5e35fefb5b83777433d12c9d61b
+M	views_infinite_scroll.info.yml	9efb3a3869c3e9d9fc68302f911d2de9
+M	views_infinite_scroll.libraries.yml	80d453346dd3ec2e5a4d78efe4d77277
+M	views_infinite_scroll.module	b1ae9c1d7dd0dba0a8b01992950b2e5e

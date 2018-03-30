@@ -1,0 +1,6 @@
+M	README.txt	d6441284308865fe224f481b86baeb0f
+A	docker-compose.yml	848b9ffec2c30283245846d235dc583f
+M	honeypot.info.yml	b07d8de8104e7f7fb9c0d3ef3b0b2f68
+M	honeypot.install	c404e38e7ed98aa03913f69ec9cc67a9
+M	honeypot.module	4252dec6bdf5149804961e60dcdd45e4
+M	tests/modules/honeypot_test/honeypot_test.info.yml	a8d1e0366516b7942789b44d1494f905

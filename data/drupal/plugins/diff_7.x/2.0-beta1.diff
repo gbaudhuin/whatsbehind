@@ -1,0 +1,21 @@
+A	DiffEngine.php	571c825125c17c005c722eafe5fb60ec
+M	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+M	diff.css	23ed3dfa19b597ca269a538408d37348
+D	diff.engine.inc	
+M	diff.info	80d1854dcfa9b3b48491648d2b9362f4
+M	diff.module	bca94d9f99233e407d578dc9c833cf9f
+A	diff.pages.inc	a812623eaeeffde9e0de86da341a734e
+A	diff.theme.inc	9a27b221aa599c640b83393d942f1fe7
+A	includes/node.inc	3bdd02a2be95fb9c7603e6d4ccaebbde
+D	node.inc	
+M	readme.txt	1348f729b4b894892f0db4ccf5ae110e
+D	taxonomy.inc	
+A	translations/de.po	2265b1e0b484638fcb2ea41aee64c2cf
+A	translations/diff.pot	9ac62b37ec5a7b0bf5c45ba05e88a0e9
+A	translations/diff.sv.po	6a7fabbbd62efffb4c6c6d501f66f7d5
+A	translations/hu.po	4564ceb5b75f8540421ecbbe446ebc60
+A	translations/ja.po	51b33e4e12ea0e83b2ac8f97b3e89a12
+A	translations/ru.po	14825647ea3799654e04cce2e89d0b78
+A	translations/uk-ua.po	88ff7bb2f32dfd25897a01eec30952ec
+A	translations/uk.po	88ff7bb2f32dfd25897a01eec30952ec
+D	upload.inc	

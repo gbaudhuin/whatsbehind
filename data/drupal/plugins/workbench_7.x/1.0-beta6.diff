@@ -1,0 +1,9 @@
+A	css/workbench.block.css	ef9b588e262f6441bc2a78bc1929f697
+A	css/workbench.my-workbench.css	c84e03758c1dbfb7dabea49850d8fc77
+M	views/workbench_current_user.view.inc	9e6665f9e375f8e00b19e6a17fd8d36d
+M	views/workbench_edited.view.inc	806d7c7cb8010ed5f80fc7048bd94002
+M	views/workbench_recent_content.view.inc	1fabbc447efab62fdaaeb224f1f8b95d
+M	workbench.api.php	3f60567faf126afba333aad27132ff22
+M	workbench.info	5ed078ed94d62adb9aa79f474765443f
+M	workbench.module	80bce76cece95821aba67052feae227e
+M	workbench.pages.inc	8d272d3e58bbf5795f1a4889811d6105

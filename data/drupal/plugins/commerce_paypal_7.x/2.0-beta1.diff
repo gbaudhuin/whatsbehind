@@ -1,0 +1,21 @@
+M	commerce_paypal.api.php	fad4eb88d3d52a69cc33c9c1533d31d5
+M	commerce_paypal.info	c3a819ca7b84c5105e4a6589e32f2547
+M	commerce_paypal.module	724f441bbc19069f95413f6ff7dcf900
+A	modules/ec/commerce_paypal_ec.info	1eada8c719f7447aa68499217d81f38a
+A	modules/ec/commerce_paypal_ec.module	9cf0da536a8478fa78609eee798281a3
+A	modules/ec/images/paypal-ec-logo.gif	5143122b603c5fec0eb92992abb9609d
+A	modules/ec/includes/commerce_paypal_ec.admin.inc	8164534e7df26b889b6fe3187d278c7a
+A	modules/ec/includes/commerce_paypal_ec.checkout_pane.inc	1aa7091584d4a691aa810fd2762da957
+A	modules/ec/theme/commerce_paypal_ec.theme.css	cfea279288e8ea34b93e93e916d7e4fd
+A	modules/payflow/commerce_payflow.info	9732f9efb6d4be1bc1b26b6edafca8a5
+A	modules/payflow/commerce_payflow.js	f06b4c81829d645b61cc3a78ddcc452c
+A	modules/payflow/commerce_payflow.module	c04045de89cf077814be3f04c22b5d60
+A	modules/payflow/includes/commerce_payflow.admin.inc	dce7fd50a51ea8e4277095ed99ee2f83
+A	modules/payflow/theme/commerce_payflow.theme.css	76780fae1e8d1df58d1206f5354b560c
+D	modules/wpp/commerce_paypal_wpp.api.php	
+M	modules/wpp/commerce_paypal_wpp.info	d8a19181d41d8a4b5bba312d7be11dab
+M	modules/wpp/commerce_paypal_wpp.module	ff25463ee52d6e0fed92b5d65f7f4b4b
+M	modules/wpp/includes/commerce_paypal_wpp.admin.inc	63942071cdb49adb2afdf7a8849d3b79
+M	modules/wps/commerce_paypal_wps.api.php	27c6f797280052350d8e1097735b90e6
+M	modules/wps/commerce_paypal_wps.info	e69b60fd07e820b24adc1d6d90ba17b6
+M	modules/wps/commerce_paypal_wps.module	2bd8844962ab730d380a56520c494316

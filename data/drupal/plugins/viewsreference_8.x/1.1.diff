@@ -1,0 +1,4 @@
+M	CHANGELOG.md	1e1a9dd68dfa510e934f7caba14f4589
+M	src/Plugin/Field/FieldFormatter/ViewsReferenceFieldFormatter.php	3b5d6e017a1bc281655fd17026376c68
+M	src/Plugin/Field/FieldWidget/ViewsReferenceTrait.php	d46b69ee3a7a42601f8a8359bc4b5a06
+M	viewsreference.info.yml	ce43a3d7de0bba05b60c1f23e09c0b63

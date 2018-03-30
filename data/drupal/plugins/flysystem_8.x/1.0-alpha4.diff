@@ -1,0 +1,7 @@
+M	README.md	c8c45d5647992eaf23048775907675ca
+M	flysystem.info.yml	18c555241761eb28f19ee41934973571
+M	flysystem.module	3e9dfa44df5b661ca0232ae2942d5b51
+A	src/EditorFileReference.php	127764b5359f8e91b519bb871a2af6b7
+M	src/FlysystemBridge.php	cb9c65bd4088c00a821ed7d090b55e39
+M	src/FlysystemFactory.php	e8e680e72dad58f64b5ad20305e571a5
+M	tests/src/Unit/FlysystemBridgeTest.php	e9712629ed67bc0c486a68bf0a58c98a

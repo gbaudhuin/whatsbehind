@@ -1,0 +1,11 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	modernizr.admin.inc	cd13b44eb2d0b7b7245355892e9e5a3f
+A	modernizr.inc	4f5ceb49f51390605f53a695d5785bee
+M	modernizr.info	04c4ca18b5aa6111e43402f204e8ec8b
+M	modernizr.install	45c473104388c05106afd5d02a8d4eab
+M	modernizr.module	360b0b2009cc056ce9f778157c21d715
+A	modernizr_forceredirect.info	601b66ce3a3fe0349fc3f92b025a2528
+A	modernizr_forceredirect.install	366fc15bfed1c76d74f6ae1b3b7a6888
+A	modernizr_forceredirect.js	956ceb00f47afff5b65734ba1699a0de
+A	modernizr_forceredirect.module	c0c3f2466eac2185b8067f5656d95175
+M	modernizr_loader.js	2ce634520a43f32e8d0e74b28af2e36d

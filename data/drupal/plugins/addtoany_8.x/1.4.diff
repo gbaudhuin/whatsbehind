@@ -1,0 +1,8 @@
+A	README.txt	2fb3f2822f1a6e4077e82ace70792cae
+M	addtoany.info.yml	efa048545fe56a99cf0ea0357a4171f8
+M	addtoany.module	63edc30e444ec021504564415913284e
+A	addtoany.views.inc	ffd4eab8885ca98b41be3fab12e6eea3
+M	src/Plugin/Block/AddToAnyBlock.php	e0e076d9e18acf2a3df9f436f4d658e6
+M	src/Plugin/DsField/AddToAnyField.php	97b8aff1c18c6a7e5a740459665a75ba
+A	src/Plugin/views/field/NodeAddToAnyShare.php	f25a11f807574f2a2aef4266dbdbd299
+D	views/addtoany.views.inc	

@@ -1,0 +1,12 @@
+M	acsf.info.yml	8946d669607e0e52ff6adfa82e89abe0
+M	acsf_duplication/acsf_duplication.info.yml	47855b4ed65e4885dfeafed16f080a2a
+M	acsf_init/acsf_init.drush.inc	67831e801f4680b84d02e1cf075744d4
+M	acsf_init/lib/cloud_hooks/README.md	329ccb6266051d10077a818841b5abe5
+M	acsf_init/lib/cloud_hooks/samples/acquia-cloud-site-factory-post-db.sh	c863d7171e4c2265081850cbb629e67b
+D	acsf_init/lib/cloud_hooks/samples/post-code-deploy.tmpl	
+M	acsf_init/lib/sites/g/settings.php	2912c240f1497e2b999195fd3a8f3ce0
+M	acsf_sso/acsf_sso.info.yml	a99d3dd0bbfc51bda9c5ec719dfbe2ee
+M	acsf_theme/acsf_theme.info.yml	178ddee35c12bec350107f23a7a1b20c
+M	acsf_variables/acsf_variables.info.yml	bb094dcfbe7d4b17325ba0efc579d5aa
+M	build_info	73db80e5246fe7ae6e54eb61d3b5caeb
+M	src/Event/AcsfDuplicationScrubConfigurationHandler.php	9c47d398990bea9fceeaca2e07581e3b

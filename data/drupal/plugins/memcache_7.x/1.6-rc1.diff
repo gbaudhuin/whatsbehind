@@ -1,0 +1,14 @@
+M	README.txt	04ad8289acaeba31dd3f527e8e5e5e04
+M	dmemcache.inc	947205951fdc68906793b0c688f124ff
+M	memcache-lock-code.inc	88450ef14acfc207f6f35e27f73ac122
+A	memcache.drush.inc	a9619dd2ecb87c0439bd4e26a02699cf
+M	memcache.inc	61496c3637d2adb3c3613950000f2252
+M	memcache.info	2631ad4cbcf72879b7bd8422385dec28
+M	memcache.install	14b67bd4384d70358552231c5c0e792a
+M	memcache_admin/memcache_admin.info	0d95dc437439489953d9cb66bfdf1934
+M	memcache_admin/memcache_admin.module	60146713245f010cb1ba5b52928d4c33
+D	tests/memcache-session.test	
+M	tests/memcache.test	9ddb6b3d2ce54b8fd2ec9daba7cb9eaf
+M	tests/memcache_test.info	ff6e34ae898e86f1ad8ec7e0d5f93fa1
+M	tests/memcache_test.module	585369dc75b3082b1d877c7b908b607f
+D	unstable/memcache-session.inc	

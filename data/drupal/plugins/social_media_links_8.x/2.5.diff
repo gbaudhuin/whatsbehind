@@ -1,0 +1,11 @@
+M	modules/social_media_links_field/social_media_links_field.info.yml	12b9b65ccbd8af79d6eeb61569f1b24d
+M	modules/social_media_links_field/src/Plugin/Field/FieldFormatter/SocialMediaLinksFieldDefaultFormatter.php	c24d2f81890c0aa2ebea70399cf2b851
+M	modules/social_media_links_field/src/Plugin/Field/FieldType/SocialMediaLinksFieldItem.php	cfde2f568051300a67a03a094cc8c9a0
+M	social_media_links.info.yml	16a0352571c4fba0533d22002f361110
+M	src/Plugin/SocialMediaLinks/Platform/Instagram.php	1117bfdac8fdc0d9233485ccb95cfd97
+M	src/Plugin/SocialMediaLinks/Platform/Linkedin.php	50e87a3d56207a83222c7ac36500cd3a
+M	src/Plugin/SocialMediaLinks/Platform/Pinterest.php	b0a0c55c5ee4a9c65f05578867aee5ec
+M	src/Plugin/SocialMediaLinks/Platform/Slideshare.php	a2c2041c326e3d4b8ab163b18eb221a8
+M	src/Plugin/SocialMediaLinks/Platform/Vimeo.php	2ce6ca2223b81f333b5d02678456b6cf
+M	src/Plugin/SocialMediaLinks/Platform/Youtube.php	ccc7103e73b8cd46dd3741a1ab4701e0
+M	src/Plugin/SocialMediaLinks/Platform/YoutubeChannel.php	d8d47242e179da9d91cb7876bf802c25

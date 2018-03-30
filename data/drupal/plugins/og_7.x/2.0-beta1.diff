@@ -1,0 +1,60 @@
+M	README.txt	a96d10d564cd183969d79bca97f15f6a
+A	includes/og.exception.inc	bfce75fee002786d33e2d5acaea3895b
+D	includes/og.info.inc	
+A	includes/og.membership.inc	2b408b5d955ac0ba496dd825ff8d1ebc
+A	includes/og.membership_type.inc	eb916f418b6f3b72952d1cc47c92d70e
+D	includes/og.views.inc	
+D	includes/og.views_default.inc	
+A	includes/views/handlers/og_handler_field_group_audience_state.inc	7b3281736fc8c871adada96e9771a34c
+A	includes/views/handlers/og_handler_field_group_permissions.inc	46259d0872ef6432d299013d35e0ce1d
+A	includes/views/handlers/og_handler_field_prerender_list.inc	84ed192ea94ca010ce818c175b063654
+A	includes/views/handlers/og_handler_field_user_roles.inc	066ca7a34b51a8c34a8426e4634ffd72
+A	includes/views/handlers/og_handler_filter_group_audience_state.inc	45b8f2aad0a175a1fafb30d054bf4324
+A	includes/views/handlers/og_handler_relationship.inc	3d61faf528eb75602a2a5bc75e9d461f
+A	includes/views/handlers/og_plugin_argument_default_user_groups.inc	3aa805f6bbd6ae4d4b199e9bffe7d0b8
+A	includes/views/handlers/og_plugin_argument_validate_group.inc	a8808143ba84af1b5e1a54e65b796591
+A	includes/views/og.views.inc	1a1b1f59fa8f3e3550539525cadaad45
+A	includes/views/og.views_default.inc	4b6517cac8a971f76d08a68d090c331f
+D	includes/views/og_handler_field_group_audience_state.inc	
+D	includes/views/og_handler_field_group_permissions.inc	
+D	includes/views/og_handler_field_prerender_list.inc	
+D	includes/views/og_handler_field_user_roles.inc	
+D	includes/views/og_handler_filter_group_audience_state.inc	
+D	includes/views/og_handler_relationship.inc	
+D	includes/views/og_plugin_argument_default_user_groups.inc	
+D	includes/views/og_plugin_argument_validate_group.inc	
+M	og.info	3bc3f589088a6978294f4afbc229b1e9
+A	og.info.inc	f2b46019626a8973e760346fec67d8a9
+M	og.install	df58f7115af5161908da898dfc07b9b0
+M	og.module	0ce566cec3b24f4ded3105a28c0e442f
+M	og.test	e5e342ca11a503d53acf29e4c727550b
+M	og_access/og_access.info	bc7dc492445e66109c1fbd10dfdefe7c
+D	og_context/includes/og_context.views.inc	
+A	og_context/includes/views/handlers/og_context_plugin_access_og_perm.inc	d1b1eb64376072e5d33c3aa900d91b24
+A	og_context/includes/views/handlers/og_context_plugin_argument_default_group_context.inc	2018067fc5eb3fc71d66a5d18ab028ac
+A	og_context/includes/views/og_context.views.inc	6892f2dfe3144fbab3327edc9e22d322
+D	og_context/includes/views/og_context_plugin_access_og_perm.inc	
+D	og_context/includes/views/og_context_plugin_argument_default_group_context.inc	
+M	og_context/og_context.info	ad6c677c027fce280d9a2561ba95837e
+M	og_context/og_context.module	73a89eca515b90ce7673ce05b2a21aee
+M	og_example/og_example.info	87774e3d247f124186e199bb245a4852
+M	og_field_access/og_field_access.info	0e40862e032b8b5dc2647bb940eda285
+M	og_field_access/og_field_access.module	d11ec3343330da1c86b690f64552e70b
+M	og_migrate/og_migrate.info	3f6da273b8f843290af19b2602d1146c
+M	og_migrate/og_migrate.module	9bf3a7552e1c7cb2c24cc8aa4e5a1164
+M	og_register/og_register.info	28ccc498bdc131599bb158f99c0e4c8a
+A	og_ui/includes/views/handlers/og_ui_handler_area_og_membership_overview.inc	8444caebfaeacd43fadbb4ab55cb4fce
+D	og_ui/includes/views/og_ui_handler_area_og_membership_overview.inc	
+M	og_ui/og_ui.admin.inc	509457dda9bafc280fe101db6027135f
+M	og_ui/og_ui.info	052e7d43b8180eaee4b5666ff1c3a24d
+M	og_ui/og_ui.module	a2eefd4607ba0e3e09c0a8ea57475561
+M	og_ui/og_ui.test	70273b9157c401b6a7e98689424fbf43
+M	plugins/og_migrate/7000/og_7000_group.inc	0118e600e421a7fc0b90b89f4e6dd356
+M	plugins/og_migrate/7000/og_7000_group_content.inc	a65a25a71f9ca4a2f2295b687f4d2f23
+M	plugins/og_migrate/7000/og_7000_group_description.inc	cda7d8f547ba1f437340a49c2b15b2bb
+M	plugins/og_migrate/7000/og_7000_user.inc	fb1cd27c02801df524b16e19ea7b358d
+M	plugins/og_migrate/7200/og_7200_ogur.inc	d7821ffd83171e2280494afd95108e10
+A	plugins/og_migrate/7200/og_7200_ogur_permissions.inc	e2966bdc93b9dac0b6e835d2e6c5810c
+M	plugins/og_migrate/7200/og_7200_roles.inc	44943888651414f530a437fc2d921d2b
+M	plugins/og_migrate/7200/og_7200_user_roles.inc	41c779df17abf201b7a2d9f916f96891
+M	tests/og_test.info	ed4a34a9b3217c5d5f502ec30bdabaaa

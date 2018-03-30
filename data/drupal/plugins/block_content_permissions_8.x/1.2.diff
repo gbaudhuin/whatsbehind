@@ -1,0 +1,6 @@
+M	README.txt	e21a21fff5986d4192e2786ae82ab32e
+M	block_content_permissions.info.yml	9638c46ac53d2d61b30b7ea5278b5592
+M	block_content_permissions.module	cd07e82134fa9accf521f1ba32de116d
+M	block_content_permissions.permissions.yml	6e4fd148453884b3287fc9490d85118e
+M	src/AccessControlHandler.php	68b03c708034740572f52fc95f28e590
+M	src/Routing/RouteSubscriber.php	fb0cc521061b7983e4232e39693085af

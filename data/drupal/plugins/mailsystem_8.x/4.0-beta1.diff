@@ -1,0 +1,7 @@
+M	mailsystem.info.yml	19a12298f5111929bd553f7d9e814eb2
+D	mailsystem.services.yml	
+M	src/MailsystemManager.php	f31dacafdb7e0dd0b951958fb9f5c90f
+M	src/MailsystemServiceProvider.php	5ee0c2f385f9b285594091dafe603286
+M	tests/modules/mailsystem_test/mailsystem_test.info.yml	474a34b1072560df5271de41ceccdf22
+M	tests/modules/mailsystem_test/src/Controller/MailsystemTestController.php	a901b12c8c2afc0a3c2170c1b0e0c810
+M	tests/themes/mailsystem_test_theme/mailsystem_test_theme.info.yml	0588d0986cf94ad452fbe339b6f7bebe

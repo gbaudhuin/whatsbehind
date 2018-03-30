@@ -1,0 +1,16 @@
+M	README.txt	e02bdce10499b6fe255df8b8b0182b43
+M	features.admin.inc	50010fb838712bbb085055fcba4db9d1
+M	features.api.php	01755b8e7294a26f619a05c472dad9eb
+M	features.css	1a778cd98e9a73fd0987299ad887914a
+M	features.drush.inc	8971a6909e33e21446e1a91d999acf54
+M	features.export.inc	d2c908335bcc2b641da80ba4d9f4b7ff
+M	features.info	786537f27e06e55a946a137f792e2614
+M	features.install	59909adfe1ff9ff6571c9fff0fc2f082
+M	features.js	207dd5ee429ebe16e5a3add406369c4a
+M	features.module	847404520d05010e6567566474bf716a
+M	includes/features.features.inc	b94fce40b6a66cd6f73209a708217733
+M	includes/features.field.inc	abb32b0f010b1269111e29eeabeb60f6
+M	includes/features.menu.inc	7c1f53e8d3728b17937ff07eb3763c3f
+M	tests/features.test	0b63be9d3df0fd238a3bda20bea489c7
+M	tests/features_test/features_test.info	291cf57a81cce3c966f9b0ff0ffe9e82
+M	tests/features_test/features_test.module	a11aa3bfa444c8fb221935d693d5f4a3

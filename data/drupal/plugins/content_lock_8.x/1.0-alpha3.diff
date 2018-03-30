@@ -1,0 +1,18 @@
+M	config/install/content_lock.settings.yml	5b8f2c90b66328e39c4ac41eb2ecea3d
+M	config/schema/content_lock.schema.yml	6c772be98e856754160eca45360bac67
+M	config/schema/content_lock.views.schema.yml	15cda6043de9e3508317604e72992380
+M	content_lock.info.yml	2fb92895bbad3a259743a5c0bbc6dbad
+M	content_lock.links.menu.yml	e6076eb792ab8f2d7b390b7f85163445
+M	content_lock.module	e179ffa70c975bad8bdaa46c7a68347b
+M	content_lock.routing.yml	7e6dd8b9123d82da69b0586a48c96869
+M	modules/content_lock_timeout/content_lock_timeout.info.yml	5fb706d210862121ac5803e659ab8991
+M	src/ContentLock/ContentLock.php	2c3f9c3bab809e071b56755d24cd4f29
+D	src/Form/BreakLockBlockContentForm.php	
+D	src/Form/BreakLockFormBase.php	
+D	src/Form/BreakLockNodeForm.php	
+D	src/Form/BreakLockTermForm.php	
+M	src/Form/ContentLockSettingsForm.php	f2c8fa37fb895c6c78870051524e8258
+A	src/Form/EntityBreakLockForm.php	50819b3b258a2fb587da7c9ec500ef61
+M	src/Plugin/Views/Field/ContentLockBreak.php	4641e1859ff43e7ce125052476934083
+A	src/Routing/BreakLockRoutes.php	4adc2466b24f5e889a9fa91114555d78
+M	src/Tests/ContentLockTestBase.php	66c17cb8f6d59f6db2cc31fecf5528b5

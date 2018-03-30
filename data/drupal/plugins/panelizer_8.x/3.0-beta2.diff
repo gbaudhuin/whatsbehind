@@ -1,0 +1,14 @@
+A	.codeclimate.yml	08d3d75d1d39afda55756e701388de80
+A	.csslintrc	2af627fe5e2424e1141a23bcb486b686
+A	.eslintignore	62cc41b5260d3bc58d728911729b3f08
+A	.eslintrc	9fa48a530b6bc9710af3f76779abb0d2
+M	CHANGELOG.txt	518c7b4c4075f77e414850921acc4bc9
+A	composer.json	46bad91be534fe04126d78206cb9dcf0
+M	js/panels_ipe/panels_ipe.js	84940e90bee08a21fca4f9a640ac5454
+M	panelizer.info.yml	11c08ec7b1459f0170e0770f8b6aa497
+M	panelizer.module	4bb4ea3398fdfd77f2ac6955c90ed251
+M	panelizer_quickedit/panelizer_quickedit.info.yml	7db72980c685ca0ce8d9ed20be060326
+M	src/Panelizer.php	73ed4685d891d3a8994be2e0be8e9777
+M	src/Tests/PanelizerDefaultsTest.php	91b1337757ddae0f9b8771432ae1a70e
+A	src/Tests/PanelizerIpeTest.php	ec77db9d9f7c229f8884ee4ecdae2478
+M	tests/modules/panelizer_test/panelizer_test.info.yml	75fc84aa0396c8dee48f9dd5d8446209

@@ -1,0 +1,18 @@
+M	README.txt	d60cfa02c6c2bdabf3e085443427d1da
+M	binaries/advdef.inc	7247101ecb8772e4305a31c6d01163e5
+M	binaries/advpng.inc	a8b9c1905075b0a88866853aa01eb05e
+M	binaries/jfifremove.inc	dc6172e7c57c2e59992cdad9e9b09554
+M	binaries/jpegoptim.inc	616c0498c0e7ad1be297c3e78c921ac5
+M	binaries/jpegtran.inc	789a2870350d2639f988bd83a67cf700
+M	binaries/optipng.inc	55b5cba47b48a4011a5f1abbdb9b5855
+M	binaries/pngcrush.inc	9a563083c597242dee9a563b4469cd0d
+M	binaries/pngout.inc	577d8716c7ceff1b1afd532fdaf435ab
+M	binaries/pngquant.inc	920a864855f9d0840dc1e160c7af5add
+A	imageapi_optimize.imageapi_optimize.inc	8449694fa4482aaa1bdbaf4746b99454
+M	imageapi_optimize.info	058f74d126be9b1d3fea1f97fca343cd
+M	imageapi_optimize.install	af02e8b56f2b9775b0b487b4a2ce7398
+M	imageapi_optimize.module	9ca6013e2b9298b674b565ec1ebf28ec
+D	includes/imageapi_optimize.inc	
+M	services/internal.inc	7c47f9018a4eb75b51d4c27343ced485
+M	services/resmushit.inc	0ad266a2347691bfe883ae7e4aa7588f
+A	services/tinypng.inc	fbf9b9bfd7fc7dc0756e7a2b966640ba

@@ -1,0 +1,125 @@
+D	help/api.html	
+D	help/panels.help.ini	
+D	help/plugins-layout.html	
+D	i18n_panels/README.txt	
+D	i18n_panels/i18n_panels.i18n.inc	
+D	i18n_panels/i18n_panels.info	
+D	i18n_panels/i18n_panels.install	
+D	i18n_panels/i18n_panels.module	
+D	includes/common.inc	
+D	includes/display-edit.inc	
+D	includes/display-layout.inc	
+D	includes/page-wizard.inc	
+D	includes/panels.pipelines.inc	
+D	includes/plugins.inc	
+A	layouts/layout_onecol/layout_onecol.png	1aebbdf8d9c0a8e8151ecddecbd6be5f
+A	layouts/layout_threecol_25_50_25/layout_threecol_25_50_25.png	872c8d39b8a7a5e1758bffc1d51b821a
+A	layouts/layout_threecol_33_34_33/layout_threecol_33_34_33.png	b4084c32bc02367026665fb5219d0f20
+A	layouts/layout_twocol/layout_twocol.png	124ceee143b69ef5423f508b28b0f325
+A	layouts/layout_twocol_bricks/layout_twocol_bricks.png	45d0bcf805f369c49cca06b586c0d737
+A	layouts/no-layout-preview.png	e8d8862444b69eff654761e53241ec8e
+M	panels.info.yml	385275fc4219684cb5f44368b79e9376
+A	panels.install	56e64de65f025a7aec4bee6ad4c83e36
+M	panels.module	cc445ba5c97c6ca98a9e0599245ac250
+M	panels_ipe/css/panels_ipe.css	6dcf6f92cffb54ee749c4b855546634f
+M	panels_ipe/fonts/ipeicons.woff	efa61c5216352805749d20e52f1b95e6
+M	panels_ipe/fonts/selection.json	5ab18bba2a66aaa83fe6a95afc628a68
+M	panels_ipe/js/models/AppModel.js	6c98da218c4b73f6f510fd3b87716dac
+M	panels_ipe/js/panels_ipe.js	f2a3e4fa115578cb343dd527ec3d9116
+M	panels_ipe/js/views/AppView.js	35fef558ee68a420eaecbe3e51c8a53d
+M	panels_ipe/panels_ipe.info.yml	f8c22c6f8e4e459d5cc4d8186ff66a11
+M	panels_ipe/src/Annotation/IPEAccess.php	485dda846add7183bd685ba034c2b40e
+M	panels_ipe/src/Controller/PanelsIPEPageController.php	239c0a43b194bb74f4e2580668bc90c6
+M	panels_ipe/src/Exception/EmptyRequestContentException.php	0f52d6e0e13546e9d306999c78b910d1
+M	panels_ipe/src/Form/PanelsIPEBlockContentForm.php	ad2848e9ce71d3270a95f77e9c7aafc0
+M	panels_ipe/src/Form/PanelsIPEBlockPluginForm.php	317cbdc5719c215d1ada0e54e6193540
+M	panels_ipe/src/Form/PanelsIPELayoutForm.php	d875a4b86c9752c94263ed59d0a09a2c
+M	panels_ipe/src/Helpers/RemoveBlockRequestHandler.php	4673005e3fd03239636a334fc4e1e1bc
+M	panels_ipe/src/Helpers/RequestHandlerBase.php	50dcbe0f163fc2a9963271a6ba66b615
+M	panels_ipe/src/Helpers/RequestHandlerInterface.php	d82a2bef700ebcd566fdb36223e66fdc
+M	panels_ipe/src/Helpers/UpdateLayoutRequestHandler.php	a1a330b8d9d0ef8efe6cf2acccb3251f
+M	panels_ipe/src/PanelsIPEBlockRendererTrait.php	9f105f3f8c2dfd40ec2ebb63e379b24e
+M	panels_ipe/src/Plugin/DisplayBuilder/InPlaceEditorDisplayBuilder.php	cd86627e1af596a875edbd2030e80105
+M	panels_ipe/src/Plugin/IPEAccessBase.php	4dae60411949b3ee7e9c81b2cf131c8e
+M	panels_ipe/src/Plugin/IPEAccessInterface.php	c966f5e961648502cc8f41c6008ee000
+M	panels_ipe/src/Plugin/IPEAccessManager.php	0d15c6981bed98ff45854fab0493a417
+M	panels_ipe/src/Plugin/IPEAccessManagerInterface.php	2c080245ce94c1cca3d9bddbe6350f9e
+M	panels_ipe/tests/modules/panels_ipe_page_manager_test_config/panels_ipe_page_manager_test_config.info.yml	e175204b2656ee6b04f09305326814bf
+M	panels_ipe/tests/src/FunctionalJavascript/PageManagerIntegrationTest.php	71c1ce5d217b06963ec5fbf0174b2db2
+M	panels_ipe/tests/src/FunctionalJavascript/PanelsIPETestBase.php	bdd8d0e82741b9bcc5575bd6ace28ad2
+M	panels_ipe/tests/src/FunctionalJavascript/PanelsIPETestTrait.php	4a5530270698ee0e7c4ee6cf69505dd9
+D	panels_mini/panels_mini.info	
+D	panels_mini/panels_mini.install	
+D	panels_mini/panels_mini.module	
+D	panels_mini/plugins/content_types/icon_panels_mini.png	
+D	panels_mini/plugins/content_types/panels_mini.inc	
+D	panels_mini/plugins/export_ui/panels_mini.inc	
+D	panels_mini/plugins/export_ui/panels_mini_ui.class.php	
+D	plugins/style_bases/pane/pane_plain_box/icon.png	
+D	plugins/style_bases/pane/pane_plain_box/pane-plain-box.css	
+D	plugins/style_bases/pane/pane_plain_box/pane-plain-box.tpl.php	
+D	plugins/style_bases/pane/pane_plain_box/pane_plain_box.inc	
+D	plugins/style_bases/pane/pane_rounded_shadow/box-color.png	
+D	plugins/style_bases/pane/pane_rounded_shadow/box-shadow.png	
+D	plugins/style_bases/pane/pane_rounded_shadow/icon.png	
+D	plugins/style_bases/pane/pane_rounded_shadow/pane-rounded-shadow.css	
+D	plugins/style_bases/pane/pane_rounded_shadow/pane-rounded-shadow.tpl.php	
+D	plugins/style_bases/pane/pane_rounded_shadow/pane_rounded_shadow.inc	
+D	plugins/style_bases/region/region_plain_box/icon.png	
+D	plugins/style_bases/region/region_plain_box/region-plain-box.css	
+D	plugins/style_bases/region/region_plain_box/region-plain-box.tpl.php	
+D	plugins/style_bases/region/region_plain_box/region_plain_box.inc	
+D	plugins/style_bases/region/region_rounded_shadow/box-color.png	
+D	plugins/style_bases/region/region_rounded_shadow/box-shadow.png	
+D	plugins/style_bases/region/region_rounded_shadow/icon.png	
+D	plugins/style_bases/region/region_rounded_shadow/region-rounded-shadow.css	
+D	plugins/style_bases/region/region_rounded_shadow/region-rounded-shadow.tpl.php	
+D	plugins/style_bases/region/region_rounded_shadow/region_rounded_shadow.inc	
+D	plugins/styles/block.inc	
+D	plugins/styles/corners/corner-bits.png	
+D	plugins/styles/corners/panels-rounded-corners-box.tpl.php	
+D	plugins/styles/corners/rounded_corners.inc	
+D	plugins/styles/corners/shadow-b.png	
+D	plugins/styles/corners/shadow-l.png	
+D	plugins/styles/corners/shadow-r.png	
+D	plugins/styles/corners/shadow-t.png	
+D	plugins/styles/default.inc	
+D	plugins/styles/list.inc	
+D	plugins/styles/naked.inc	
+D	plugins/styles/stylizer.inc	
+M	src/Annotation/DisplayBuilder.php	6085f423f236377763ae9d172e5ab09a
+M	src/Annotation/PanelsPattern.php	552c56392c0e14719e3421b359fc267c
+M	src/Annotation/PanelsStorage.php	a9b8e4d7454294ec3c6a8521d504aecf
+M	src/CachedValuesGetterTrait.php	d4f5b70a0d026f74dc2d9fe8eedac3fd
+M	src/Controller/Panels.php	29b498ac5596fa9f1b0ed28ece639479
+M	src/Form/PanelsAddBlockForm.php	64e7544a17f8775eba3a9842bc8ef8ea
+M	src/Form/PanelsBlockConfigureFormBase.php	091671d5d7088a4194dfd88ec718306d
+M	src/Form/PanelsDeleteBlockForm.php	b1a341dd9e3e6941769b7446562fc1c9
+M	src/Form/PanelsEditBlockForm.php	a014274fe4663fd3f339ee5fde32f708
+M	src/PanelsDisplayManager.php	577110faab879ead4d80ded7f1d74a1b
+M	src/PanelsDisplayManagerInterface.php	85de282e2a021bb3cae7c41c72a2f96b
+M	src/PanelsPatternManager.php	c9bba07ed8c7a6d21ed7b8252797f30c
+M	src/Plugin/DisplayBuilder/DisplayBuilderBase.php	bdcdc988797072bc79c61e91cffd08dd
+M	src/Plugin/DisplayBuilder/DisplayBuilderInterface.php	284586fc119c8f315645f5861720ce58
+M	src/Plugin/DisplayBuilder/DisplayBuilderManager.php	cd460c5aa14f13320fd1c09bd12160fe
+M	src/Plugin/DisplayBuilder/DisplayBuilderManagerInterface.php	2877f2309779e5155ecedf6a0dbd83c3
+M	src/Plugin/DisplayBuilder/StandardDisplayBuilder.php	62c74494311e06e29815322d8979b5f6
+M	src/Plugin/DisplayVariant/PanelsDisplayVariant.php	cf7e9ac631b0cde599d7c3b9f530d058
+M	src/Plugin/PanelsPattern/DefaultPattern.php	803e66557d396b8db43a5fd0a703197f
+M	src/Plugin/PanelsPattern/PanelsPatternInterface.php	f1b108eea146e5c9f1f3f919d7913dce
+M	src/Plugin/PanelsStorage/PageManagerPanelsStorage.php	1a2f3ef3bb569b86d7271f488683b9ea
+M	src/Storage/PanelsStorageAccess.php	904ff58160c1597051d60efac7935b88
+M	src/Storage/PanelsStorageBase.php	6c384f78e0dea3005200a568c8e6942d
+M	src/Storage/PanelsStorageInterface.php	d4817c24864f37f6912741ddf2a96654
+M	src/Storage/PanelsStorageManager.php	81172f97059cf530ba42b3fa50c6d52f
+M	src/Storage/PanelsStorageManagerInterface.php	7cd7234ae9db5cd88aa613c5b714c653
+M	src/Tests/PageManagerPanelsStorageIntegrationTest.php	074f012ca24d18df84458e7e51fdca57
+M	src/Tests/PanelsConfigSchemaTest.php	da3c7141eb4f202c620a092c93c7e2b6
+M	src/Tests/PanelsTest.php	dc42015301a3260af237ee219d4d11b2
+M	tests/modules/panels_test/panels_test.info.yml	d257cb21b97e4d519f156b6c4b4e63d9
+M	tests/src/Unit/PanelsDisplayVariantTest.php	0137462160206792517eaf206be718df
+M	tests/src/Unit/PanelsStorageTest.php	fe5b48de0efdd4cee09e94892d5c5a8c
+M	tests/src/Unit/StandardDisplayBuilderTest.php	676bd9210ee192c87709029227259cb9
+M	tests/src/Unit/panels_ipe/RemoveBlockRequestHandlerTest.php	ec6acccd1c8ff82b2d53cc135a5134bd
+M	tests/src/Unit/panels_ipe/RequestHandlerTestBase.php	96320e2e8641ae1292edb788bfe3ef55
+M	tests/src/Unit/panels_ipe/UpdateLayoutRequestHandlerTest.php	c745b6d51911b1e3d2d315bf862ae762

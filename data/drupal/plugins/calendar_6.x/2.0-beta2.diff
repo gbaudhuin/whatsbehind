@@ -1,0 +1,14 @@
+M	CHANGELOG.txt	c5bde7600b1d77794547cc13df938d64
+M	calendar.inc	4b474aedfcdec6b5fb133d0a0e87e6cb
+M	calendar.info	67ff73a222f19c2ae1db8fc81bc86ff4
+M	calendar.module	47c4c5035526f04608d9a5534938fe83
+M	calendar.views.inc	117898679f46b45e84a72b8b22778350
+M	calendar.views_default.inc	6f521f01609dfcb0af51122ccb5a3876
+M	calendar_ical.info	06726221a251a8048da0a6543b7d2a3d
+M	calendar_ical.module	8d44e71e92bffc06fb145f587b01b3fe
+M	theme/calendar-datebox.tpl.php	7108189fe5f018a1901ff352d8450074
+M	theme/calendar-main.tpl.php	ed91b1cd92fa378c02039845b358c322
+M	theme/calendar-mini.tpl.php	a1d23c4dd26ed729bfc4b0edaaaabe1b
+M	theme/calendar-month.tpl.php	bf507b1c5217c48c18a1d8ec7e5d6115
+M	theme/calendar-week.tpl.php	8fee14a794da5e090c4aa102313e3e40
+M	theme/theme.inc	c5f521abab448a45b2b5791dd308b399

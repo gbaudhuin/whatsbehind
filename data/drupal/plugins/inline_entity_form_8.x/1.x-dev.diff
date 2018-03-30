@@ -1,0 +1,7 @@
+M	config/schema/inline_entity_form.schema.yml	31dd3282ce7352efe287238524732fbf
+M	inline_entity_form.info.yml	a9ea2004ce97e1ada602ddb07cce8636
+M	inline_entity_form.module	9c01bd1fdb05b3ed3b2c7c0ff0f17d79
+M	src/Plugin/Field/FieldWidget/InlineEntityFormBase.php	3399386e4f5c4491c91ee171faa5533d
+M	src/Plugin/Field/FieldWidget/InlineEntityFormComplex.php	8bde4e9343d7e40dc053543dc3053787
+M	src/Plugin/Field/FieldWidget/InlineEntityFormSimple.php	5fbadf538a1953b0528e8bb040ef7d12
+M	tests/modules/inline_entity_form_test/inline_entity_form_test.info.yml	6fc1a6156a268cde7c7ba2f4dc1a0e4e

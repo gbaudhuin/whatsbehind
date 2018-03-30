@@ -1,0 +1,8 @@
+M	javascript/jssor_view.js	e7aa318e4bb930afc6c884f08c9cf039
+A	jssor.drush.inc	238a71653f4dc4ee415e870fdec2e471
+A	jssor.drush.php	95aea63e136af069190cba9ba7e9da86
+A	jssor.drush.yml	79dcb82cd75704f7e297a177b782a3a2
+M	jssor.info.yml	2ae1ea0ea23d81d046fe813680dc4168
+M	jssor.theme.inc	929b0ca7da47f21df6293bb3215fe8d8
+M	jssor_example/jssor_example.info.yml	d4af8ecd37cd3fffeafa92fa9723ec63
+M	src/Plugin/Field/FieldFormatter/JssorFieldFormatter.php	41d4019485d75aea95d2cd4330f15fcd

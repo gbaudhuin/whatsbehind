@@ -1,0 +1,7 @@
+M	README.txt	a058a731205b24a1f994f8ccb4949e2b
+M	config/schema/cookieconsent.schema.yml	70f86c8c9ca4d05e07192982689d0878
+M	cookieconsent.info.yml	4719439d1aa7e86350ee0b83ac3b22b1
+A	cookieconsent.links.task.yml	78ca68cd276ecbefb2bd06eeedb9c17d
+M	cookieconsent.module	adc3e8e4cbca8fc2cf72875b69f27e7f
+M	cookieconsent.permissions.yml	8d6b5c8fc585253d500782d2401739cc
+M	src/Form/SettingsForm.php	3c78425402ae87d6d1de234df6f68fdc

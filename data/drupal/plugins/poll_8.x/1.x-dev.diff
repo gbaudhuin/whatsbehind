@@ -1,0 +1,14 @@
+M	config/install/views.view.poll_admin.yml	bb1e3bbc8641df37544f6eaa9d499071
+M	poll.info.yml	3d4bc2de8df1f9184fb196ff4f6ba176
+M	poll.module	eab11115b7ce9f7f01a2bcb17b831ed4
+M	poll.permissions.yml	29f0217c19652e2ca3656f459799ebfe
+M	src/Form/PollViewForm.php	9038efa6f4220b11044ca5b006c05297
+M	src/Plugin/views/field/PollTotalVotes.php	8832429f525fbcc25d9049c9c2e5b39d
+M	src/PollAccessControlHandler.php	091171fb75ca2de74823eaf2876fe77e
+M	src/Tests/PollCreateTest.php	7e01acb700950c3efc0ce9674d401897
+M	src/Tests/PollDeleteChoiceTest.php	910309dc7b7d02f9c4fe74570ff573bd
+M	src/Tests/PollListTest.php	6f1da39e849679202a23322e140a2cc4
+M	src/Tests/PollTestBase.php	0b356bc64d9dcf1291adf43cd2015fa0
+M	src/Tests/PollViewTest.php	a103c3fc58be00d225721a655a1ec215
+M	src/Tests/PollVoteCheckHostnameTest.php	c22cc96c94b4dcfaa1dbf399da4a0f1a
+M	tests/src/FunctionalJavascript/PollVoteJavascriptTest.php	c9ade8f825eb353d81c7e61d24690a9f

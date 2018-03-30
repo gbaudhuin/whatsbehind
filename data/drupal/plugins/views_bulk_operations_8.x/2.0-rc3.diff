@@ -1,0 +1,7 @@
+M	js/frontUi.js	6dffe365c4ce02aec12213102df5e5eb
+M	modules/actions_permissions/actions_permissions.info.yml	0912a47cae4a8c772595803ab948cb4f
+M	modules/views_bulk_operations_example/views_bulk_operations_example.info.yml	8efee3cc46fc9b8a1d93b4a30ec7a867
+M	src/Plugin/views/field/ViewsBulkOperationsBulkForm.php	2e619bf443845e5d10af767ef4a4b885
+M	src/Service/ViewsBulkOperationsActionProcessor.php	ed6eb3e2260ec41fd9549a365d4c96ad
+M	tests/views_bulk_operations_test/views_bulk_operations_test.info.yml	56fa2cfc2af1a71960125aa878cbc266
+M	views_bulk_operations.info.yml	97533d2109b8e4031462cb83b58d5cea

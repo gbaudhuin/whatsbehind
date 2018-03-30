@@ -1,0 +1,27 @@
+M	classes/commerce_coupon.inc	c3646ccd45fe0dbb58e85375e00f38e0
+D	classes/commerce_coupon_log.inc	
+M	commerce_coupon.info	12443b12a0eb388babdc82110fba16b9
+M	commerce_coupon.info.inc	d399a343b0dc5c31e418b6c9b20d4c7f
+M	commerce_coupon.install	232dae9f67204294cfb82243d5ea3148
+M	commerce_coupon.module	a46cf4eacf187175b95022c8df814bb0
+M	commerce_coupon.rules.inc	fd01a8974ebdbbb60ec12af32577490f
+A	commerce_coupon.rules_defaults.inc	6ade6329340c90a5adf803e1617a7164
+M	commerce_coupon_ui.info	5e14a28c615ce3bc6499940d8ad4eb63
+M	commerce_coupon_ui.module	c1ff0e310f1a12d3a7ba7dbc51ee58a5
+D	includes/FeedsCommerceCouponProcessor.inc	
+M	includes/commerce_coupon.checkout_pane.inc	504928d5a9801b686f81376be5a0aa36
+M	includes/commerce_coupon_ui.forms.inc	ce8d6902dab309032e262be0f347a5ce
+M	includes/commerce_coupon_ui.settings.inc	286c65553ef033661e0933d13115dfcb
+M	includes/views/commerce_coupon.views.inc	537c3905767e42c68251b318cb9c74ac
+M	includes/views/commerce_coupon_ui.views_default.inc	c0be9a25022cc11509f32c35c1a80244
+A	includes/views/handlers/commerce_coupon_handler_field_coupon_granted_amount.inc	773a108c835510922d0f4248b2b25e35
+M	includes/views/handlers/commerce_coupon_handler_field_coupon_operations.inc	ff308154d18d94c99d91eb6d62bf777b
+D	modules/basic/commerce_coupon_basic.info	
+D	modules/basic/commerce_coupon_basic.install	
+D	modules/basic/commerce_coupon_basic.module	
+D	modules/basic/commerce_coupon_basic.rules.inc	
+D	modules/basic/commerce_coupon_basic.rules_defaults.inc	
+D	modules/batch/commerce_coupon_batch.info	
+D	modules/batch/commerce_coupon_batch.module	
+D	modules/batch/includes/commerce_coupon_batch.form.inc	
+A	plugins/selection/base.inc	3b5acd74256bf757c78edcf7d5452fe5

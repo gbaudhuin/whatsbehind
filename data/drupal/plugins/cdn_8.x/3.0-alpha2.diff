@@ -1,0 +1,15 @@
+M	README.txt	841cb53157c672233c0b17780e01dce0
+M	cdn.admin.inc	e4881afc0bce51ae226095821167970c
+M	cdn.constants.inc	d0fac320ca94fcef118b3667598dea12
+M	cdn.info.yml	bf0fec6dca71ce7e915ef52703f12e52
+M	cdn.module	0567049550ea90076601468594e945de
+M	cdn.services.yml	729ed6286ac89a3bc2b925566728fa07
+M	cdn_ui/cdn_ui.info.yml	43950affe702d380370791a1b08a07a6
+M	cdn_ui/src/Form/CdnSettingsForm.php	af9141b0fb3777822c9770572e61d3b8
+D	help/admin-other-seo.html	
+A	src/CdnServiceProvider.php	8b34ec9f2596b2193220842f9014a2a1
+M	src/EventSubscriber/ConfigSubscriber.php	0ce2f5ab55982c22d201ad1b6d7df036
+A	src/StackMiddleware/DuplicateContentPreventionMiddleware.php	4a2ba8ac4c2de4dbcb7866e56db87470
+M	tests/cdn.test	07aec84e9a2388caed3a18985df60637
+D	tests/css/orig/url.css	
+A	tests/src/Unit/StackMiddleware/DuplicateContentPreventionMiddlewareTest.php	017808f4e0464bea0ea984994cfa4c7d

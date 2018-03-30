@@ -1,0 +1,15 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	config/schema/varnish_purger.data_types.schema.yml	243a912d01903208e0210609783a6507
+A	config/schema/varnish_purger.schema.yml	60ff927fc296cd32a55c1e697330c59b
+A	src/Entity/VarnishPurgerSettings.php	517d744206c6ae89748d5a3d88d87227
+A	src/Form/VarnishBundledPurgerForm.php	ceb335747a313503c95a3495ebdab9c4
+A	src/Form/VarnishPurgerForm.php	6188abb58c9c53d917cac758223ba9bc
+A	src/Form/VarnishPurgerFormBase.php	02b4e0cbde828938f67de28d932c3ca2
+A	src/Plugin/Purge/DiagnosticCheck/ConfigurationCheck.php	919fa6387f3fc84e4c96aafc4630db40
+A	src/Plugin/Purge/Purger/VarnishBundledPurger.php	114f9a55961017ac767351091bb7a007
+A	src/Plugin/Purge/Purger/VarnishPurger.php	7db8b02786e4816ef84834fda833ba89
+A	src/Plugin/Purge/Purger/VarnishPurgerBase.php	a51e3c08b5090dddf30c10429b1e0611
+A	src/Tests/VarnishBundledPurgerFormTest.php	4e6c1abd3d6d447ca13235ce074b0ae9
+A	src/Tests/VarnishPurgerFormTest.php	fe9a08d5ad8593f5f6d4664826e54d32
+A	src/Tests/VarnishPurgerFormTestBase.php	89201ac43701702f5a74701b22a74203
+A	varnish_purger.info.yml	d31643bbecd82ead661468d742c88b5a

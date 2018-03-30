@@ -1,0 +1,11 @@
+A	CHANGELOG	5e10b6dcd38a019e62443343285c5f98
+A	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+A	README	0f415a9006697662e4f639a7baae3d4c
+A	http_client.info	6867c8d05cc92279dc29853136b5c09c
+A	http_client.module	0067905d06485c02cadd705a71cb077a
+A	http_client_oauth.info	26952a4d48e7f69768fdbff30456b7c0
+A	http_client_oauth.module	ead7c0f9d237a341531e645c7fde0d08
+A	includes/HttpClient.inc	735eae1fcd9dd5178559619fd0e90147
+A	includes/HttpClientCurlDelegate.inc	d7183a7597ebc19d12a16754564d3efc
+A	includes/HttpClientOAuth.inc	7e12fa93c59e45f63c9b995a045ef7ca
+A	includes/HttpClientXMLFormatter.inc	3ffe8312019bab18b775707cb963229b

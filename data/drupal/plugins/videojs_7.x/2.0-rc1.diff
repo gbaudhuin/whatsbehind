@@ -1,0 +1,12 @@
+M	includes/videojs.admin.inc	65eef6d61ea049399ce1a0f76cae00a6
+M	includes/videojs.theme.inc	b99a61db367dd882465fc9113d49945e
+D	includes/videojs_style_plugin.inc	
+D	theme/hu.css	
+D	theme/tube.css	
+D	theme/videojs.css	
+M	theme/videojs.js	4d90e0a382b12a1000887752f6a40777
+M	theme/videojs.tpl.php	71ff0a60c368e5130f6f8cf62433dc3b
+D	theme/vim.css	
+M	videojs.info	38946a1d24c7402c40e22dce34253670
+M	videojs.install	75a361bd17149f76abf7e59b3c4f8ae6
+M	videojs.module	db0d7c6c4df72aa98b11079247b51d26

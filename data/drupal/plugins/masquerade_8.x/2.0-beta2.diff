@@ -1,0 +1,17 @@
+M	README.txt	14a55b72b3e3dc21131dd1d2a5b42f70
+M	composer.json	16e9aad42192008f257b4d4a27a9e388
+M	masquerade.info.yml	f45478b0094a8e4a8e566d1c9700f4db
+M	masquerade.module	ebe86043b7b865393618e2c2cc045418
+M	src/Controller/SwitchController.php	bff2f6b74ae83354f916851d9d949e03
+M	src/Form/MasqueradeForm.php	f476ddaa76d3da6d7ef8854b7118fb46
+M	src/Masquerade.php	4d3019e70a3ba95c6a2e537c37446615
+M	src/MasqueradePermissions.php	56a7e829d1b19d7ec78b703a6fa2448f
+M	src/Plugin/Block/MasqueradeBlock.php	c6259813d4b4e56e7a01076a25428ca2
+D	src/Tests/MasqueradeAccessTest.php	
+D	src/Tests/MasqueradeCacheTest.php	
+D	src/Tests/MasqueradeTest.php	
+D	src/Tests/MasqueradeWebTestBase.php	
+A	tests/src/Functional/MasqueradeAccessTest.php	6e1afc4108486591adc251447b6a087c
+A	tests/src/Functional/MasqueradeCacheTest.php	57c4234c138794823a6c4d2234cacf86
+A	tests/src/Functional/MasqueradeTest.php	b10e559cb92d12dfb27e75840233b744
+A	tests/src/Functional/MasqueradeWebTestBase.php	10d4f138b9bc42aa4e1fbe4f719adec5

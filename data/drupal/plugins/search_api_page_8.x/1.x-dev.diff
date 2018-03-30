@@ -1,0 +1,24 @@
+M	README.txt	54270bb6f6b3bd0e883439dc08f4fb2e
+M	config/schema/search_api_page.schema.yml	0ecf36ba7a840886eff19448ee6361ad
+M	search_api_page.api.php	dfcb724d0c76150026cf1e61038568ad
+M	search_api_page.info.yml	e525f2b554643f189266eb10569f287e
+M	search_api_page.links.action.yml	0cdd7a0d8109119247e17fb99874e634
+M	search_api_page.links.menu.yml	4a92eefd0f36a3c80956c89189a8c316
+M	search_api_page.module	faf5c9904965ff8ba3d3460756c34726
+M	src/Controller/SearchApiPageController.php	19f29f18348dc66b96022162e416ded8
+M	src/Entity/SearchApiPage.php	ecc215e7dcaad1230694afc5111ce848
+M	src/Form/SearchApiPageBlockForm.php	e14c2ef47645e4dc88d823d58c140a2f
+M	src/Form/SearchApiPageDeleteForm.php	ce88e77272661b5c1dd366292dfe74a2
+M	src/Form/SearchApiPageForm.php	e365537b337d5a31d236295d40386165
+M	src/Plugin/Block/SearchApiPageBlock.php	fe226eb611c48500d40f8de6dee6c1b3
+D	src/Plugin/facets/facet_source/SearchApiPage.php	
+D	src/Plugin/facets/facet_source/SearchApiPageDeriver.php	
+A	src/Plugin/search_api/display/SearchApiPage.php	a16e61fa60e83c89f949182890b6e646
+A	src/Plugin/search_api/display/SearchApiPageDeriver.php	590c1944fb2056ea04a6312ede4a6eb5
+M	src/Routing/SearchApiPageRoutes.php	6213168c12a9bc40071ed5d2b3fbd94f
+M	src/SearchApiPageInterface.php	ec82aad3aeb505260a058f50de192282
+M	src/SearchApiPageListBuilder.php	970774228da3f5b33a33fcf39979486c
+D	src/Tests/SearchApiPage.php	
+A	tests/src/Functional/FacetsIntegrationTest.php	c37faa5e9b26999475aeaf02aa4e67ef
+A	tests/src/Functional/FunctionalTestBase.php	b830c40fa0d6df226063cecf7688165e
+A	tests/src/Functional/IntegrationTest.php	cc3f2d4523303062c46a3c4693c57fe9

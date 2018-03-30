@@ -1,0 +1,10 @@
+M	sitemap.info.yml	ebab9088d95dced010768c6f72334bfd
+M	src/Form/SitemapSettingsForm.php	11921be326e0fabc1eed378d21bc7415
+M	src/SitemapHelper.php	00ed5ca8e689c22fb2fc249035cc76b0
+D	src/Tests/SitemapCategoriesTest.php	
+M	src/Tests/SitemapContentTest.php	45599aedbae1bb5dcd476ca4cd3abd22
+M	src/Tests/SitemapCssTest.php	b863b4ce5626b6a6f77728badfcf6ed8
+A	src/Tests/SitemapMenuTest.php	0a537c6a5f4a99cdc9d7aebd9587a634
+M	src/Tests/SitemapRssTest.php	80de9e257d9ae0990e421e3067892796
+A	src/Tests/SitemapTaxonomyTest.php	5991814d0bde71fa2258fc679ce79626
+M	src/Tests/SitemapTestBase.php	77fb47eb8555943c7de5a2dc4a4cf694

@@ -1,0 +1,85 @@
+M	CHANGELOG.txt	2e1f80c66297ee81dbc34ddb5671845b
+M	README.txt	23e16f9fa45c02c07216666ca149758c
+M	feeds.api.php	7429940731d78190daef7f57c4d9649c
+M	feeds.info	49bf047d4bcded275d0982f4a62e845c
+M	feeds.install	c96a3b39b08c078d17f645f6236a6fc6
+M	feeds.module	8ba9ecb9928d63ae5182c77ff2891b09
+M	feeds.pages.inc	3caf5c197e591c99a68c8da490935554
+M	feeds.plugins.inc	e493b3cc09b40c517b5120babac3cfec
+M	feeds_import/feeds_import.feeds_importer_default.inc	c1da8b586da5b88e3af8c4f933d36688
+M	feeds_import/feeds_import.info	caec6db4db9b98e56f098ac7ab04342d
+M	feeds_import/feeds_import.test	367650f49ad33e49cbc3d1ae6c78b587
+A	feeds_news/feeds_news.features.field.inc	dbcfe7089508e7a44299b88e535effff
+M	feeds_news/feeds_news.feeds_importer_default.inc	475d3ef89a87a01a99eb9afe3df0f46d
+M	feeds_news/feeds_news.info	257e6f5c9dbe6d21070fdb7110b5e135
+M	feeds_news/feeds_news.test	3578ba4fd93264b04067476cf3d596eb
+M	feeds_news/feeds_news.views_default.inc	74c561c31f2fe5b0121cdf15e6adc4d9
+M	feeds_ui/feeds_ui.admin.inc	80c476febff9b8222455d24a060b0197
+M	feeds_ui/feeds_ui.info	e68664aa4739c02b9b1771c62bae4e00
+M	feeds_ui/feeds_ui.module	9742b032b71ab7e37a86e34698d28650
+M	feeds_ui/tests/feeds_ui.test	564681e10309a922c81ff300f636d778
+M	includes/FeedsConfigurable.inc	0ab3488e2359ce10ecdf0e54f4a8d8d3
+M	includes/FeedsImporter.inc	cefac0df3a047cac1895690b6b714817
+M	includes/FeedsSource.inc	090d0c1f1817724976adf4e682c3c6ef
+M	libraries/http_request.inc	6e3a862a2c195b66f13170ad63cbc14a
+M	mappers/date.inc	58e16d4eacd94cf49e91a91e79e3f3b7
+D	mappers/emfield.inc	
+M	mappers/field.inc	3f45d45838021e94ddee456482404a90
+M	mappers/file.inc	b9eacb71d16ad9dcfedaf6b36988c086
+M	mappers/link.inc	518ccd98e68354158ccb0339912cf3f2
+D	mappers/locale.inc	
+D	mappers/og.inc	
+D	mappers/profile.inc	
+M	mappers/taxonomy.inc	b2c144c4f56245d45afc0f2c4e60b7fd
+M	plugins/FeedsCSVParser.inc	86219f0a1366f57119fd8e286aa0d187
+D	plugins/FeedsFeedNodeProcessor.inc	
+M	plugins/FeedsFetcher.inc	3efe4d6b820d4ef78a93e4d229989401
+M	plugins/FeedsFileFetcher.inc	78c9b8df5c8f0726a53d7e496db8dc77
+M	plugins/FeedsHTTPFetcher.inc	b4c751e4ae21a073d0dd026d87a41745
+M	plugins/FeedsNodeProcessor.inc	dac966196809c542adddf0b082f2108a
+M	plugins/FeedsOPMLParser.inc	d57554d5e338d8131e0a0524be62eb40
+M	plugins/FeedsParser.inc	975d6e92aa7e946c03cffa201f6d3720
+M	plugins/FeedsProcessor.inc	5c6153dae185b1c8f1a2f34b1713e863
+M	plugins/FeedsSimplePieParser.inc	59d1cf6c431156c02bd7ee3b1157bc3a
+M	plugins/FeedsSitemapParser.inc	da4183db5dc7c04df34b804649a3fe79
+M	plugins/FeedsSyndicationParser.inc	3d100ac6e202d265e5af6e8aec8ff677
+M	plugins/FeedsTermProcessor.inc	0487c103169c42c838701eeb12484b6b
+M	plugins/FeedsUserProcessor.inc	59ef7b78fa49ddc00669d986954e68b5
+M	tests/feeds.test.inc	d73b86b059ea2f4abcedb4dc264968f0
+A	tests/feeds/assets/attersee.jpeg	9e92b2de0904fedf228a642392d2f1f2
+A	tests/feeds/assets/foosball.jpeg	b61af7478d794cd24a7be2611d913754
+A	tests/feeds/assets/hstreet.jpeg	53b4e0003f7adcbe354465131ccad1c7
+A	tests/feeds/assets/tubing.jpeg	32ff5e8bdd26d12cc813c05fab151f8e
+D	tests/feeds/emfield.csv	
+A	tests/feeds/feeds-tests-files.tpl.php	4dc637ddfd020332f102ed935354874d
+A	tests/feeds/feeds-tests-flickr.tpl.php	a9860c0d08b7b051700f8f5d9010f902
+D	tests/feeds/flickr.xml	
+D	tests/feeds/many_items.rss2	
+D	tests/feeds/profile.csv	
+M	tests/feeds_fetcher_file.test	fe3cfe31c87d73ef8f7a18a514f60be8
+M	tests/feeds_mapper_date.test	f676bb73b284609f82840a3c5a2cefa0
+D	tests/feeds_mapper_emfield.test	
+M	tests/feeds_mapper_field.test	29f3acc5fd8caad5debb544c22e0a7a6
+A	tests/feeds_mapper_file.test	9dfc9d76df22577444b4826d8ebd9200
+D	tests/feeds_mapper_filefield.test	
+M	tests/feeds_mapper_link.test	5cff1302fe42a35c814da4902ca1908a
+D	tests/feeds_mapper_locale.test	
+D	tests/feeds_mapper_og.test	
+D	tests/feeds_mapper_profile.test	
+M	tests/feeds_mapper_taxonomy.test	0be0dba1d85f7b93308f9d93faf58f72
+M	tests/feeds_mapper_test.inc	d83bf6d5bdf338704611735188918804
+M	tests/feeds_parser_sitemap.test	87f784ed62d143e952c3a113a6a1e326
+M	tests/feeds_parser_syndication.test	61e060010bf7d3b956ee7d463ba89219
+M	tests/feeds_processor_node.test	5118585623ccb2ea3dd6250f363c4115
+M	tests/feeds_processor_term.test	afafbdad4ee2153a2e77a598ebd388df
+M	tests/feeds_processor_user.test	2eba685fc1693abd64d8431ce612b798
+M	tests/feeds_scheduler.test	3afbd2e6a33eb90b9c6b7b7bd6e5f597
+A	tests/feeds_tests.info	478bab9b6a24c85603ecbdda1b709520
+A	tests/feeds_tests.module	6ac0c068d7f39319657653afbe1c7de2
+M	views/feeds.views.inc	eee634227e33247dab0c27d12309b1f1
+A	views/feeds.views_default.inc	01853c435518b44c9ebc0e5c3419a592
+A	views/feeds_views_handler_argument_importer_id.inc	1ecf1967335eb6f655677ad2d24224c8
+A	views/feeds_views_handler_field_importer_name.inc	20d1d1398d7a17b5f1c437f00d4d1fc5
+A	views/feeds_views_handler_field_log_message.inc	c155c7bb6fe5c9d02e9001e523eabcd3
+A	views/feeds_views_handler_field_severity.inc	13f698ea541382f095ae1c42b51e5f0f
+A	views/feeds_views_handler_filter_severity.inc	34532a98d29c7f7cedd9015f6b25e34b

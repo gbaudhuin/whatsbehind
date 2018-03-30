@@ -1,0 +1,27 @@
+A	README.txt	7faf2e950a107a2a19079ba575fe5ab7
+M	bootstrap_layouts.info.yml	72751516e113640b3f34d683c0490dab
+M	bootstrap_layouts.layouts.yml	79e7b186860cbf47367b8f870f7d8eb6
+D	templates/bootstrap-6-6-bricks.html.twig	
+D	templates/bootstrap-6-6-stacked.html.twig	
+A	templates/bricks/bootstrap-6-6-bricks/bootstrap-6-6-bricks.html.twig	e891ae9abcdba27176af6502df32c9e2
+A	templates/bricks/bootstrap-6-6-bricks/bootstrap_twocol_6_6_bricks.png	acffde735f32f2fe5f0162887b62974d
+A	templates/one-column/bootstrap-12/bootstrap_onecol_12.png	f36c6bb90a8d9e86f9f4c8ff92c61b9b
+A	templates/stacked/bootstrap-6-6-stacked/bootstrap-6-6-stacked.html.twig	78fa8434007e0a33431aef5160c04851
+A	templates/stacked/bootstrap-6-6-stacked/bootstrap_twocol_6_6_stacked.png	f2df246136f98848a85f0beae9b6371c
+A	templates/three-columns/bootstrap-2-2-8/bootstrap_threecol_2_2_8.png	bddfdd831ebe48c71b3bc2dd02800719
+A	templates/three-columns/bootstrap-2-8-2/bootstrap_threecol_2_8_2.png	59e8b7d6057661e66b2c1faf60f39140
+A	templates/three-columns/bootstrap-3-6-3/bootstrap_threecol_3_6_3.png	372ab166fa89c23ca7b7e04dcbfeca7c
+A	templates/three-columns/bootstrap-4-4-4/bootstrap_threecol_4_4_4.png	51593e2a5a1b07d1622d8cd599e7eb19
+A	templates/three-columns/bootstrap-5-5-2/bootstrap_threecol_5_5_2.png	c267aab3dc4b542013a2232b7ab2a1e3
+A	templates/three-columns/bootstrap-8-2-2/bootstrap_threecol_8_2_2.png	2f5ac75028fe64787e15dc698b918136
+A	templates/two-columns/bootstrap-1-11/bootstrap_twocol_1_11.png	94435c2db503fef57c24d875602b1d87
+A	templates/two-columns/bootstrap-10-2/bootstrap_twocol_10_2.png	4a51f62a8480b94986c3cd841cdfd13d
+A	templates/two-columns/bootstrap-11-1/bootstrap_twocol_11_1.png	edcd27655bfcd39a8aa5b2d0faef8f33
+A	templates/two-columns/bootstrap-2-10/bootstrap_twocol_2_10.png	63b56546dbd309b9f946061e27508a7d
+A	templates/two-columns/bootstrap-3-9/bootstrap_twocol_3_9.png	55e55b59dd61aa878f7f0cdaad126117
+A	templates/two-columns/bootstrap-4-8/bootstrap_twocol_4_8.png	87e9f26c7b79e70d41bb70760a6a2e05
+A	templates/two-columns/bootstrap-5-7/bootstrap_twocol_5_7.png	245b6349cc1c14d182d7a8c309e2d0c5
+A	templates/two-columns/bootstrap-6-6/bootstrap_twocol_6_6.png	01f0fc4a51bfa21895e2ad8435bf0c09
+A	templates/two-columns/bootstrap-7-5/bootstrap_twocol_7_5.png	ed4b808647de19c079742cb03b4e8af4
+A	templates/two-columns/bootstrap-8-4/bootstrap_twocol_8_4.png	cc72968be370a18f7aefa41962974ee9
+A	templates/two-columns/bootstrap-9-3/bootstrap_twocol_9_3.png	591802b2129b6af0c7de6cfbd14b34ac

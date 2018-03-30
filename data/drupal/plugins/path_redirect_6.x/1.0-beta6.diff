@@ -1,0 +1,18 @@
+D	CHANGELOG.txt	
+M	README.txt	94788a95f651f535ee2274df5b81b384
+A	generate/path_redirect_generate.drush.inc	18e7b26e0aa9c269ae168e5223901523
+A	generate/path_redirect_generate.info	75ddcd481b7e00c2167b396b929eea42
+A	generate/path_redirect_generate.module	0d5675594c45aa273dcf301f6939afa7
+M	path_redirect.admin.inc	d4853b1caa598296967fada4bc31fe21
+M	path_redirect.info	de4c2605baf64d7aecb8eef127217107
+M	path_redirect.install	094af78567b134c1d6673978de2d9ce5
+A	path_redirect.js	47060ccdc399fda4e18768a689cd0e31
+M	path_redirect.module	33990f323f0a63120255a320825b4652
+M	path_redirect.test	06d847bc6b4d7c19ddc1c67eb1366723
+D	path_redirect.vertical_tabs.node_form.js	
+D	translations/da.po	
+D	translations/de.po	
+D	translations/es.po	
+D	translations/fr.po	
+D	translations/it.po	
+D	translations/path_redirect.pot	

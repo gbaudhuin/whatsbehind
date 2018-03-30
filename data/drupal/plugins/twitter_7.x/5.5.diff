@@ -1,0 +1,8 @@
+M	tests/twitter_mock.info	64c864bb0453789db1642976228492d8
+M	twitter.info	2580b27b97814ede57d8f604a0deef7f
+M	twitter.module	772f5fde8d67acad00e6a50cf93f8bfb
+M	twitter_actions/twitter_actions.info	098fd7fd54b38e0040e7a1a4a00c7495
+M	twitter_actions/twitter_actions.module	cd4bf1597888a034c150761e50cf2ac3
+M	twitter_actions/twitter_actions.rules.inc	cba3180c3e88935c843369036244b1ff
+M	twitter_post/twitter_post.info	0c115e911e7a4834887efb359c79b296
+M	twitter_signin/twitter_signin.info	8c603f49dd95745d703ff26e9975e9b8

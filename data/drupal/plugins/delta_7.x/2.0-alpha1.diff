@@ -1,0 +1,22 @@
+M	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+D	assets/popup_skin/delta_popups.css	
+D	assets/popup_skin/popup-icon.png	
+D	conditions/contexts.info	
+D	conditions/contexts.module	
+D	conditions/node_type.info	
+D	conditions/node_type.module	
+D	conditions/paths.info	
+D	conditions/paths.module	
+D	delta-override-form.tpl.php	
+D	delta-settings.inc	
+D	delta.css	
+M	delta.info	b4d2471dfba50b7df53436a686fa3c84
+M	delta.install	0a9a32d7aad3dbcbf3bcf2581b482b59
+D	delta.js	
+M	delta.module	98b2b0f4f30ec1870824b5fa406df595
+A	delta_ui.admin.inc	62f9177cbb5e5432b0cb2a759045e150
+A	delta_ui.info	94b8844467f21d2082d8922597a10982
+A	delta_ui.js	b69b0d09fe4ee4b2168663d313c2f8db
+A	delta_ui.module	c4701cbd1aa14ef28680ec580b0bb168
+A	plugins/context_reaction_delta.inc	23ca25a3bdad8a2a5e8184e042a60e1a
+D	theme-functions.inc	

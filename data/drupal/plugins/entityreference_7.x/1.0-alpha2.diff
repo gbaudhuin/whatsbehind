@@ -1,0 +1,9 @@
+A	entityreference.devel_generate.inc	d4cec56fee1d5fe58173bd5099199f88
+A	entityreference.handler.inc	2c37308836506ac61d319d1d2f65ba27
+M	entityreference.info	3479f520b9451a1dd4eadc7c7691ede7
+M	entityreference.install	1b36b583e5b87841b66addd47f910e50
+A	entityreference.migrate.inc	d9fb949b080c1b112de87be44216b051
+M	entityreference.module	df6007829e5515096c40a150d64cdc02
+A	handler/base.inc	f42f8c2f32f87de9c7a9ed6bbb7ce9fb
+A	tests/entityreference.handlers.test	aff92bfc2c63f56e2acb6efc895c8b52
+A	views/entityreference.views.inc	8bfc374bf3be0ea286b3a8308ac889de

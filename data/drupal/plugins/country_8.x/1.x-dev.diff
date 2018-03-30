@@ -1,0 +1,9 @@
+M	country.info.yml	1e09c92915bd1d9f175492dab5ecb7a4
+M	country.module	eeeedbfebed7d904a9ee29d12a6a6325
+M	src/Controller/CountryAutocompleteController.php	78c83644731a630f024b76f71b353173
+M	src/CountryManager.php	c7f9557d0913372c8e40fbae5bda057d
+M	src/Plugin/Field/FieldFormatter/CountryDefaultFormatter.php	e398f4aedf5e6f326f882e6ca82482a6
+M	src/Plugin/Field/FieldType/CountryItem.php	4b63148076e54917639ba7bf8b41069d
+M	src/Plugin/Field/FieldWidget/CountryAutocompleteWidget.php	9625dbde0bdeba0fd5c1277fed5d99f4
+M	src/Plugin/Field/FieldWidget/CountryDefaultWidget.php	6fe39da9ab33c00246393a0159791a04
+M	src/Plugin/views/filter/CountryItem.php	63f18a7f521e369ccd8931e2c599584e

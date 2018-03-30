@@ -1,0 +1,9 @@
+A	.editorconfig	79bd34511e61689ed49e2b74f4b4cd4b
+M	.gitignore	89f3d4a1788c23b190205a5633b4f28f
+A	.php_cs.dist	2f63cc4cba7911002f04c7b2b1e9505c
+M	bg_image_formatter.info.yml	1514929ef52c197241995976a78e380b
+A	composer.json	6ee5e5a0eb836ae62e42aa86a40b0dca
+A	grumphp.yml.dist	5ba2379f377a9714df41e7556d784b29
+M	modules/responsive_bg_image_formatter/responsive_bg_image_formatter.info.yml	ada9239185a76e57c4ad7a841a59cd9a
+M	modules/responsive_bg_image_formatter/src/Plugin/Field/FieldFormatter/ResponsiveBgImageFormatter.php	c8c128af34d62ed338a2e1b7b48d15c8
+M	src/Plugin/Field/FieldFormatter/BgImageFormatter.php	d2a41c639c16fa2b8508db6c41ec8ce8

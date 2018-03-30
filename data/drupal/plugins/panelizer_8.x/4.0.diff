@@ -1,0 +1,9 @@
+M	CHANGELOG.txt	a63326ec113350e53d75be3aa246ed4f
+M	js/panels_ipe/panels_ipe.js	09158dd6ed59dd2f3d7aba8cb7d0bf98
+M	panelizer.info.yml	994883af1e21ded760e12c7a4f9f159d
+M	panelizer.install	96772ca3f91bbbce3eb9e1e211fce17e
+M	panelizer.post_update.php	ee341490e857673d16b36600478cfbef
+M	panelizer_quickedit/panelizer_quickedit.info.yml	4968857f0bbd85b29e038a7c129db553
+A	src/Tests/Update/PanelizerLayoutIDUpdateTest.php	286b043e1c2fec59e5ebf26c9be58b49
+A	tests/fixtures/update/drupal-8.panelizer.minimal.php.gz	30fa27f624405ac4cd391bf522970a1a
+M	tests/modules/panelizer_test/panelizer_test.info.yml	0beb86a671edcec27779af7c053f8b62

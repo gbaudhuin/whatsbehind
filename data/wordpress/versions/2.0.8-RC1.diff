@@ -1,0 +1,16 @@
+M	readme.html	ec9a2ffad38a3f0185aa6d9c0b8d6673
+M	wp-admin/edit-form-advanced.php	0601ae9b61e5ada35a55a0381e99fe35
+M	wp-admin/link-categories.php	4576f8353fb4f2853052020a906b04aa
+M	wp-admin/link-import.php	6d27d45864e09f6d9fb3a136fb32e6cb
+M	wp-admin/options-permalink.php	a694d2838cd7f95654f4b7a757b4f861
+M	wp-admin/user-edit.php	58e7e62a89535e99362fff98f8c70df1
+M	wp-content/plugins/akismet/akismet.php	29fd82092ca191b34bbf728efc52db05
+M	wp-includes/cache.php	eb093033ea7414a17b2629f83710bfa3
+M	wp-includes/classes.php	9294836690d4722aecf78f3d385e138e
+M	wp-includes/functions.php	8fae58edb98b85a0665084b04f73c425
+D	wp-includes/js/tinymce/plugins/inlinepopups/editor_plugin.js	
+D	wp-includes/js/tinymce/plugins/inlinepopups/editor_plugin_src.js	
+D	wp-includes/js/tinymce/plugins/inlinepopups/readme.txt	
+M	wp-includes/rss-functions.php	f0aef3650741dafa5d3051eb7ef4328d
+M	wp-includes/version.php	1f82909e64cd6c436721d06033a48df2
+M	wp-includes/wp-db.php	99a081921d82a2696df7d8c0b912fdd5

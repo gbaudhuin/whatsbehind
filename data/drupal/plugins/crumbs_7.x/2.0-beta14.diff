@@ -1,0 +1,88 @@
+M	admin/crumbs.admin.inc	00e5c783c9ecfdb354526027c519a52c
+M	admin/crumbs.debug.inc	4d7395bb7a8758eb448b784378901cf0
+M	admin/crumbs.entity_parent.inc	50701d51b706deb53f31b610ae813901
+M	admin/crumbs.expansible.inc	095cd410c798406798fa039fa24471ba
+M	crumbs.api.php	09fb7e3f9af9b32d067f0fbf2f3e2e41
+A	crumbs.block.inc	beeeecf373d01c673428aa2e83920d7a
+A	crumbs.form.inc	0151a06e41862f559922f32cd228ec97
+A	crumbs.help.inc	771d4e67971e7b706d5f233d238b0cba
+M	crumbs.info	3a5c2b1f11fdc97d2590be912fa6e9af
+A	crumbs.info.inc	89f7a2f87eae8efb79a7770d8f3c0153
+M	crumbs.module	813ecdbb9a7cd7e118b2a610d5ebe5bc
+A	crumbs.theme.inc	2e3a4b8e1344a2c42dbb66cf2ec352a4
+M	example/crumbs_example.info	4de684f2f2ce553303d6928877e2370b
+M	example/lib/CrumbsMultiPlugin/ListOfNews.php	d4d246a0ab0c652689e4b9c0c1119e16
+A	includes/crumbs.callbacks.inc	aa3ac54dfeb3fbbc0ac5230f38195fb0
+M	labs/crumbs_labs.info	de16e5f9c254936aa932b78d6560bca0
+A	lib/Admin/DebugTable.php	6ef6aba99f22c6481b644a0584f541d2
+M	lib/Admin/ElementObject/WeightsAbstract.php	07cfb70042e3626f5793c4f23717178c
+M	lib/Admin/ElementObject/WeightsExpansible.php	c93c91f9ddd643b5e03c1727a2e877ad
+M	lib/Admin/ElementObject/WeightsTabledrag.php	aef5e166a85af71a0465f8420f2b9565
+M	lib/Admin/ElementObject/WeightsTextual.php	ac166341e1667c74f4119bcd3e727665
+M	lib/Admin/WeightsTable.php	e76efb4092ea849239009e380f16f9d4
+M	lib/BreadcrumbBuilder.php	8a09e08fd5be97380b2bb123efd35a24
+M	lib/CallbackRestoration.php	0fd9cfccaf9f76fb71bd07ba2ce81838
+A	lib/Container/AbstractLazyData.php	a33cb8700ccf2b736e1186142264f295
+A	lib/Container/AbstractLazyDataCached.php	d336e7bc6e6b18910ebf445b7bf19f72
+D	lib/Container/CachedLazyPluginInfo.php	
+D	lib/Container/LazyData.php	
+D	lib/Container/LazyDataByPath.php	
+D	lib/Container/LazyPageData.php	
+D	lib/Container/LazyServices.php	
+M	lib/Container/MultiWildcardData.php	af909794e5e665c165cab1c11e61ae50
+M	lib/Container/MultiWildcardDataOffset.php	be1e68745bfbc9cdcdd6ff2d0ba966b2
+A	lib/Container/WeightMap.php	c097fee0c7d5fa6c6d93f3ec460ce363
+M	lib/Container/WildcardData.php	5296a419d14a0a90ac12764c65b417df
+D	lib/Container/WildcardDataSorted.php	
+M	lib/CrumbsEntityPlugin/TokenDisabled.php	9ccfc18e97f5d13012299be60387f948
+M	lib/CrumbsEntityPlugin/TokenEnabled.php	c9ef2ba2c956920f53e44a3d4e77e2e3
+M	lib/CurrentPageInfo.php	8712acb00bf6687192ce8004002cbe94
+A	lib/DIC/AbstractServiceContainer.php	7c29bb609bb6998485ddeaafe31279fc
+A	lib/DIC/ServiceContainer.php	f5b39af466c35ada8dc6823a190a54ff
+M	lib/EntityPlugin/Callback.php	0a9bfe447d8e24890a91b3ca1e19d18c
+M	lib/EntityPlugin/Field/Abstract.php	b80f4abb563a6288bf2ae403bb5f2e3f
+M	lib/EntityPlugin/Field/EntityReference.php	5a1fafd97e1f42b60868011bea7df084
+M	lib/EntityPlugin/Field/TermReference.php	8ca483a8de3a017affe7c37731ad40a6
+M	lib/EntityPlugin/Field/Text.php	29762797b32041a565fdc1cfdd1c33bd
+A	lib/InjectedAPI/Collection/CallbackCollection.php	0226e86994102a0747bb45c2044120dd
+A	lib/InjectedAPI/Collection/CollectionResult.php	291ff17e1de55d11ccc5baccb92ec121
+A	lib/InjectedAPI/Collection/DefaultValueCollection.php	65d48b21e1074f5c4a2b172bf2dba5eb
+A	lib/InjectedAPI/Collection/EntityPluginCollection.php	678bd4b32f0f4dee47f91ede66e55fa2
+A	lib/InjectedAPI/Collection/PluginCollection.php	eb897a4d3fee560e207e4951e405a84d
+M	lib/InjectedAPI/describeMultiPlugin.php	f0eda7f6e31bddd7c506e73bdece6af2
+M	lib/InjectedAPI/hookCrumbsPlugins.php	afb19b2bd90fa062e36af6de7aa4e230
+M	lib/MonoPlugin.php	42d7bc411cf6ddc532e76bfa8b4dc848
+A	lib/MonoPlugin/LegacyWrapper.php	5f73f87b2d37ba2079ca81eef1ba8f22
+M	lib/MonoPlugin/ParentPathCallback.php	1ece90bbb0c8ca4e2fa7b20938be06b5
+M	lib/MonoPlugin/TitleCallback.php	06de0979a553dd72f6d7c8a797d62e03
+M	lib/MultiPlugin/EntityFindSomething.php	63a937b6d31223e0f4009447470b5df8
+M	lib/MultiPlugin/FindTitleInterface.php	b7e81da6d09a9b8a08f3d84137b25b1c
+A	lib/MultiPlugin/LegacyWrapper.php	b04c654f51ceccd67d988a16c0b71573
+M	lib/ParentFinder.php	f7ed2a20ae1eafc58803fbd14e724acd
+D	lib/PluginEngine.php	
+D	lib/PluginInfo.php	
+M	lib/PluginOperation/describe.php	8a90aa0dab534a822c5477b1f6b9daa4
+A	lib/PluginSystem/PluginBag.php	3a59464be56233c0f008a659daa492e8
+A	lib/PluginSystem/PluginEngine.php	69a9b0e6a6baa848943e1ed3691e75ca
+A	lib/PluginSystem/PluginInfo.php	04b56e17721d2f5dfdd1522226fab67c
+A	lib/PluginSystem/PluginMethodIterator.php	071a5bbcbfad92b0fdc522960b7212c5
+A	lib/PluginSystem/PluginMethodIteratorPosition.php	fffffb3d9adec1036213c685aafe62b2
+M	lib/Router.php	f7368fd8f92ac0130e25562d23da0b24
+D	lib/ServiceFactory.php	
+A	lib/TrailCache.php	42f210bcbdd3e21b2d83f6bc6f81db45
+M	lib/TrailFinder.php	9b4fad42f6869e67835609b8fc209576
+A	lib/UI/Table.php	77363699315bdb1dd380cfb03a7d103b
+A	lib/UI/TableColumns.php	b69c631d315810d1623cd00d48cd69a3
+A	lib/UI/TableSection.php	3c339cb487d05025b86582da7626668b
+M	lib/Util.php	d45f2d70342cc5e304de7b084ca2bcd4
+M	plugins/crumbs.blog.inc	2f971c40b103386433963a7079665664
+M	plugins/crumbs.comment.inc	c49440b813225372da81a38dea3d3597
+M	plugins/crumbs.commerce_checkout.inc	3181b79448f39c65f7a207585562b95f
+M	plugins/crumbs.crumbs.inc	9e9bb3c2f16cffb367e86de00e9a1e5a
+M	plugins/crumbs.entityreference_prepopulate.inc	f68275a2d9ed3a423dbba03bbc434ca9
+M	plugins/crumbs.forum.inc	00fe23892312eb444b105d7198963131
+M	plugins/crumbs.menu.inc	38e65d66c8d41d6d8816cf6abc8b9a6d
+M	plugins/crumbs.og.2.inc	b3c46b0ebcb4a4f71c9ff9fe9ebd02c4
+M	plugins/crumbs.og.inc	cf612e9bf174443fb5584a0f859e2b86
+M	plugins/crumbs.path.inc	97e1670b606069782bff0acaac89e669
+M	plugins/crumbs.taxonomy.inc	d6915a2e7323d8496a0a2a843968c973

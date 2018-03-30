@@ -1,0 +1,11 @@
+A	.gitignore	b84c511376e26513b623632b24980b25
+A	CHANGELOG.md	a8e10efbc9d4e2cf66ce636bd51170f8
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	d41d8cd98f00b204e9800998ecf8427e
+A	js/viewsreference.js	fdf71ef846fd9563770a043d4ab91812
+A	src/Plugin/Field/FieldFormatter/ViewsReferenceFieldFormatter.php	d5ab43a5bba6c583bf429958c3ed744f
+A	src/Plugin/Field/FieldType/ViewsReferenceItem.php	21261517b7e3c78b4c2f5a88a75444e9
+A	src/Plugin/Field/FieldWidget/ViewsReferenceWidget.php	b73fb8ae8ce7f845145f26cd4cd42165
+A	viewsreference.info.yml	b0681ea9005b93e834fc6a4fa24a9ebd
+A	viewsreference.install	ccb6da3536ef2c81fb1d2f0b577a2bd6
+A	viewsreference.libraries.yml	6ee53eefac023d5a82c8a0c1ff9babdb

@@ -1,0 +1,9 @@
+M	ckeditor_uploadimage.info.yml	894e38cdf49cd2ebd1d2282a2c8d1700
+M	ckeditor_uploadimage.install	b7fb1204e3bb4078eb88c96d07280f70
+M	src/Plugin/CKEditorPlugin/DrupalUploadImage.php	04d0edc3af016954f0b8e01714071867
+M	src/Plugin/CKEditorPlugin/DrupalUploadImageImce.php	c6a092bd204f2bc33a27d707b7f8c4d1
+M	src/Plugin/CKEditorPlugin/FileTools.php	ff07f89617f2c7413c0186161cbda72b
+M	src/Plugin/CKEditorPlugin/Notification.php	571133227a4252e2966018b7860b7cec
+M	src/Plugin/CKEditorPlugin/NotificationAggregator.php	aec947c645f2be123658e38724b1d2c6
+M	src/Plugin/CKEditorPlugin/UploadImage.php	f88de950f4519ecc56268d03fb89cce4
+M	src/Plugin/CKEditorPlugin/UploadWidget.php	b173f5399789603af63dc04cee9b17f8

@@ -1,0 +1,16 @@
+M	CHANGELOG.txt	d9d539ac6ed09938dd6223b9997e829a
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	scripts/admin/smileys-admin.css	c91d56b3ef3d31576f9d957a521cfb44
+M	scripts/admin/smileys-admin.js	81589836bbc5e2dd1c0f2113f147d1bd
+M	scripts/smileys.css	b0369c8af6d0d49274f2f2d29e853a54
+M	scripts/smileys.js	05878302310c925fdc94d4583670e21b
+M	smileys.admin.inc	73f388a949b3bc0a4581e0c65c87c4c5
+M	smileys.info	956741f792a5b050008fa11bfb53c3fd
+M	smileys.install	03e7235448dd91bc2d6b1e33e82812ac
+M	smileys.module	145393aa03cffee11ad5286c74149830
+M	smileys_import.info	31fb5d2847b49409b36f02416d7c95b1
+M	smileys_import.module	d7514490d76badc7df779f5cf32875da
+D	translations/smileys.de.po	
+D	translations/smileys.es.po	
+D	translations/smileys.pot	
+D	translations/smileys.ru.po	

@@ -1,0 +1,10 @@
+M	.travis.yml	1329334b47b91a2ab29cc73f46417f88
+D	.travis/apache-vhost.conf	
+A	.travis/drupal.make.yml	af496242e72a56beb668dfadc7b2dd8e
+A	.travis/nginx.conf	e6215f14c52a3d52e19b00761d6189bf
+A	.travis/php-fpm.conf	0c169fb5ca222f9719e0b33915245aac
+A	.travis/php.ini	803f1fa8fa8de96d2cd8995f02563164
+M	key_value.info.yml	f3154cb6fc512d8600687cad69c62a5b
+M	src/Tests/DatabaseStorageListTest.php	0471400d36b9cf26012f0f7c342a3c32
+M	src/Tests/DatabaseStorageSortedSetTest.php	b10d6d5c60d8c9d9fbcd2190e67920ac
+M	src/Tests/DatabaseStorageSortedTestBase.php	3539bc8cd01d141755276d8c72468c64

@@ -1,0 +1,8 @@
+M	README.md	f3705161bada8aa759bf1fcb08ec0a5f
+M	quick_node_clone.info.yml	3bb56357f95d2295eba41c81cbab8eb4
+M	quick_node_clone.module	384c9d7646fe657ca7d0508e74d8287d
+M	quick_node_clone.permissions.yml	36e9b266e2d4fa2195ce8bb181c5407f
+M	quick_node_clone.routing.yml	a7e377126fbf8aa9852f14b7ece01030
+A	src/Controller/QuickNodeCloneNodeAccess.php	d9a96003b577cb6b23d9a57a2330ca38
+M	src/Entity/QuickNodeCloneEntityFormBuilder.php	a706463703a77430bc9be1de27df535e
+A	src/QuickNodeClonePermissions.php	1ca47dc37a066019967e6e1d0570c247

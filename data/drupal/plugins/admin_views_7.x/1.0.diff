@@ -1,0 +1,15 @@
+M	admin_views.info	79d5b162b1d70edf7ea31c649ab04c00
+M	admin_views.views.inc	9def669b45f4a2e6c49ffc9a7b997faa
+M	admin_views.views_default.inc	e0a56f4b7d2c6201e6394c27c69e0dcf
+A	admin_views_default/book.admin-content-book.inc	2f40df54b012534f3f342ff63cff23ce
+A	admin_views_default/comment.admin-content-comment.inc	48c9ca49a2c7c7f487451279af8d3d06
+A	admin_views_default/node.admin-content.inc	92d76a0c7abb0bc7421e3cef56cc8335
+A	admin_views_default/taxonomy.admin-content-taxonomy.inc	b1270041b9f77ef089f2018bb633f656
+A	admin_views_default/user.admin-people.inc	8864d8d773ebfe52d89fd0feba192d64
+A	plugins/views_plugin_access_menu.inc	b5ee4790a39a6201a53878851dad23db
+M	plugins/views_plugin_display_system.inc	081bf8d0d013c7f10f413e16f565fc2f
+A	tests/admin_views.test	6e77b2ff030ad532c168ffa2d9fbc25e
+D	views_default/admin_content_comment.inc	
+D	views_default/admin_content_node.inc	
+D	views_default/admin_content_taxonomy.inc	
+D	views_default/admin_user_user.inc	

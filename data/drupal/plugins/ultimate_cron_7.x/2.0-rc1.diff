@@ -1,0 +1,10 @@
+M	CronRule.class.php	2190907ddb1dbaeb38071d3a81a4af6d
+M	plugins/ctools/export_ui/ultimate_cron_job_ctools_export_ui.class.php	be1b6dde153671048226fe19bf58f5c3
+M	plugins/ultimate_cron/logger/database.class.php	093c911590d2172d7b546354f2f3e106
+M	plugins/ultimate_cron/scheduler/crontab.class.php	83a42ed130d6f27f37683e5d838e5287
+M	plugins/ultimate_cron/scheduler/simple.class.php	f00556bb71cdc3e41099f0795127e0c1
+M	plugins/ultimate_cron/settings/general.class.php	69983bc0d8a16c6424415feffaed65e5
+M	plugins/ultimate_cron/settings/queue.class.php	0f1118e2b2c12f001d5f726df06bd7db
+M	tests/rules.test	996d2630d7c9e9aac058dbade8de2321
+M	ultimate_cron.info	3b7f1da365b81f1751c11192c458537e
+M	ultimate_cron.module	1c2b70b785e10d453b358b64a1a2df5c

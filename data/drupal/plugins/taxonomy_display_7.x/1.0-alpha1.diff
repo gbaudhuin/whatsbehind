@@ -1,0 +1,16 @@
+A	.gitignore	78c6a61972500a4b6e7a65e30c35803f
+A	CHANGELOG.txt	d8a62f648b2e19dde07d2b49781ead07
+A	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+A	classes/associated_display.inc	6ed4b2810c13deb4113bd29b57779ff3
+A	classes/handler_form.inc	12d5f188db5ede8d68c4994591bcdf90
+A	classes/term_display.inc	d0d7ab581a46b3a9b8897f25468861cd
+A	handlers/associated/core.inc	f38999d6efccffbb354e44478ed5247b
+A	handlers/associated/hidden.inc	9be558cb9edb4013b7c7f965a3981c6f
+A	handlers/associated/views.inc	784cf7f802c57a4cb73ca2c6cc8b46c0
+A	handlers/term/core.inc	8aec5cc5abff03d59daed27441cb3ce9
+A	handlers/term/hidden.inc	1241cc3685daa943bab080e710787c7a
+A	taxonomy_display.admin.inc	6631633af7ae99a70d4f93d18e08a048
+A	taxonomy_display.api.php	1936ade0dc1ff706b63e82dc143fce10
+A	taxonomy_display.info	b883af7069606f37b864f59a3be8a371
+A	taxonomy_display.install	4834f8dd2189d8f6417d0661eea82774
+A	taxonomy_display.module	c0c985726610c31603de143e33b60065

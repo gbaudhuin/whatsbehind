@@ -1,0 +1,9 @@
+M	README.txt	28b99b6206304aee7a6210f70160d9bc
+M	field_slideshow.css	cfa12a8077061b367f0036231e83e9f4
+M	field_slideshow.info	751db6e3395a10acfa2b518c29ba8caa
+M	field_slideshow.install	cd7d0ef00a1e1a367da8ec5ee2a94789
+M	field_slideshow.js	2d545826cec4ada8801882891d4318cd
+M	field_slideshow.module	b3d72dc7e8451380782636b234357328
+M	field_slideshow.tpl.php	94e82da4ec6ab052c3a40547b55b6397
+A	field_slideshow_controls.tpl.php	96db342d572aaa33f1a95a3a38f3b55c
+A	field_slideshow_pager.tpl.php	99d7e0f08a77351abb9a7f6772f65cc5

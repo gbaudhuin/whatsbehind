@@ -1,0 +1,11 @@
+M	README.md	07018e0e16c9c2b227517799cc770a2a
+M	composer_manager.drush.inc	ff5793d8dc5b33b735197290e3640841
+M	composer_manager.info.yml	65106c7207e30330bebf147a27506a38
+M	composer_manager.module	6f93bfb0e7e75874306fd8a20a6d4a92
+D	modules/guzzle_dependency/guzzle_dependency.info.yml	
+D	modules/guzzle_dependency/guzzle_dependency.module	
+M	modules/symfony_dependency/symfony_dependency.info.yml	da92272e33a00134a8192489fdcbfeab
+M	modules/zendframework_dependency/zendframework_dependency.info.yml	16785e7973a359f0523830cd7c6de570
+M	src/ComposerPackages.php	9bc9db563ac4c17286bbb91d736e7f8c
+M	src/ComposerPackagesInterface.php	32b1c957cf3dcec201f132feb5b226c5
+M	src/Form/RebuildForm.php	b0a032ca12e1374304339a2ab4e2a998

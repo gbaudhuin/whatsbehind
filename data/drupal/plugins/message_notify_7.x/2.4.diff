@@ -1,0 +1,12 @@
+M	message_notify.info	3c953bcb20bfcb06e31e736c34057362
+M	message_notify.module	91e9111b3f07154270c06682765dbe1a
+M	message_notify.rules.inc	153a12dcb74aa0c523d6abefef53dd51
+M	message_notify_example/message_notify_example.info	4411b13e03ebc482aabb3505e7f8f3dd
+M	plugins/notifier/abstract.inc	8261d21ac783449867c7695ac9128c44
+M	plugins/notifier/email/MessageNotifierEmail.class.php	56dbba25372419fe39ed72fcf981c02f
+M	plugins/notifier/email/email.inc	3ab01dd664beb5aac69b06955a4af54f
+A	plugins/notifier/sms/MessageNotifierSMS.class.php	6018604352ed9becf839c0376ad4a9e7
+A	plugins/notifier/sms/sms.inc	90e8eb89b37af7577349368441b25563
+M	tests/message_notify_test.info	e470f6db4316a2dea503c7ea8a155cfe
+M	tests/plugins/notifier/MessageNotifierTest.class.php	0403adc1e40ca7b1a5270c9f6c4d1886
+M	tests/plugins/notifier/test.inc	a2c8846e9311a6c37a68a227132ae96b

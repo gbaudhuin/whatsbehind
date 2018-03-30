@@ -1,0 +1,18 @@
+M	charts.info.yml	ca49f6ed5ce19e70a896a5fd65e3bc74
+M	charts.install	886760881e34f2dbb3a9c7f46b291c28
+M	charts.module	4ce0a108976db2dba94e9fb4ece27931
+M	charts.permissions.yml	d6f8dd1846811f40d697c4a250296754
+M	modules/charts_api_example/charts_api_example.info.yml	b57b74efd9e5d10c83711903c3b53572
+M	modules/charts_api_example/src/Controller/ChartsApiExample.php	948cbbff6e8258295db1ce9c7a3dac23
+M	modules/charts_c3/charts_c3.info.yml	187ad6907184ad759080520dd10fbe85
+M	modules/charts_c3/src/Charts/C3ChartsRender.php	1bdbeb9d889bbda0a91c1a05f5606056
+D	modules/charts_google/charts_google.inc	
+M	modules/charts_google/charts_google.info.yml	bfcfdb11afb798bbe6f7d8970d712ca1
+M	modules/charts_google/src/Charts/GoogleChartsRender.php	5f7d8f4dbfa3013e45bcbc82754d2131
+D	modules/charts_highcharts/charts_highcharts.inc	
+M	modules/charts_highcharts/charts_highcharts.info.yml	322f6a9bdc814a8b8e63df124300e200
+M	src/Charts/ModuleSelector.php	f50c1f161b3cf22186fc91b0cb716df1
+M	src/Form/ChartsConfigForm.php	c79a9e28fd054d353eb6c927a0ea8d43
+M	src/Plugin/views/display/ChartsPluginDisplayChart.php	9edcb20b7a85e1dfeb4e4a1089e22b52
+M	src/Plugin/views/style/ChartsPluginStyleChart.php	65b87c983e3d7fd9c4f7ae6e7340dac7
+M	src/Util/Util.php	23011c096ffeaf52430aaed6d77a4743

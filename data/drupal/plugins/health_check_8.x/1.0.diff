@@ -1,0 +1,7 @@
+A	.gitignore	7a8b085dbf273de1bb2cb0b44c858f33
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	2f3b35f7a2a1e2195e046906d579c11c
+A	composer.json	7fe124c87f9dd2f3d7183d60d6b8b2ed
+A	health_check.info.yml	314eeb49e43f4d33224d993534bf85b5
+A	health_check.routing.yml	66453ef098f30aa2b94abb438cc0b91d
+A	src/Controller/HealthController.php	c95032a383d642bb6f67b57da1f29000

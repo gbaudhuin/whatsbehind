@@ -1,0 +1,14 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	0b12d5bf16347c51624c8608c3a0f3a1
+A	css/toolbar_menu.module.css	d6c6402d48b8ab2d3a1d1105cdb000dd
+A	src/Form/ToolbarMenuForm.php	b7f420a9c5001fdd866707d45247058c
+A	src/ToolbarMenuManager.php	167219d5fdc9943f35426c8ea9662053
+A	src/ToolbarMenuPermissions.php	a944a4a3c56b475b5da317334159800e
+A	toolbar_menu.info.yml	ae474a453a7eb9dc8dbb2a0b224c6c2f
+A	toolbar_menu.libraries.yml	b7dcf5d790cd90833f7a76082c7c44d4
+A	toolbar_menu.links.menu.yml	d2d72552b2ea0a50aa9aa3c67c92311c
+A	toolbar_menu.links.task.yml	ded87a407e9a09fffa80ff6936319e42
+A	toolbar_menu.module	27e10e664727b7db89eedb0e4219fb8c
+A	toolbar_menu.permissions.yml	20690806dc8aa5cf984230fc3019ac74
+A	toolbar_menu.routing.yml	7f46e2784566aba0a0baf138e9156c3d
+A	toolbar_menu.services.yml	9a3ef51b3e95b4e684622d23a115a2a2

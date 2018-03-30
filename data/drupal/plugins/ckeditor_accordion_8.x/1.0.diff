@@ -1,0 +1,11 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	241bae6913901869b45a901f4b95f6e2
+A	ckeditor_accordion.info.yml	6644d8bff86e20c3992d0e117e5601e9
+A	ckeditor_accordion.libraries.yml	ad76dd814d744c820e9db16d228c5121
+A	ckeditor_accordion.module	f1804fbf016ee1c7e4a6c0e933e604ad
+A	css/ckeditor-accordion.css	40dc8390a7b8adaa3e92acd9abdde504
+A	js/ckeditor-accordion.js	a3092d49d6881b149e36700133f9cf71
+A	js/plugins/accordion/accordion.css	3e867bab493ff6b9defc5ca4d2de84b6
+A	js/plugins/accordion/icons/accordion.png	a5f4b1453bc6bf3c0253b9150bd9f010
+A	js/plugins/accordion/plugin.js	16b2bb910957593e606f455a3b3d6cf9
+A	src/Plugin/CKEditorPlugin/CKEditorAccordion.php	5a3dfc8a00ada254b89aafcf590a0adb

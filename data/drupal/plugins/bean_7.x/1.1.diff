@@ -1,0 +1,16 @@
+M	CHANGELOG.TXT	6beba1909d63557d9026e5be61ecb3fa
+M	bean.info	0701717f7e070cf0f8383dd1d150217d
+M	bean.module	081c922a6c76b9217cc80986799acd82
+M	bean.test	6d87ceafa8eaf85a8f0ddf3c796bb002
+M	bean_admin_ui/bean_admin_ui.admin.inc	428f94142a4ef4290ddac383fae881b7
+M	bean_admin_ui/bean_admin_ui.info	a88634d538b7e1acdf75d039812ffc18
+M	bean_all/bean_all.info	1d026a3e17b14c574b8ce78aaa9fa8cc
+M	bean_usage/bean_usage.info	83bef4653576c159311ee353dd4a1343
+M	bean_uuid/bean_uuid.info	42097433756404ae4aa6f516be4c74ca
+M	includes/bean.core.inc	b96bc860c46142162685299fd9ff4138
+M	includes/bean.pages.inc	7a86cae0cc740a89a5ba337dab4a84d3
+M	tests/bean_test.info	fe76edda0901281c3dc12e09f9af108d
+M	views/bean.views.inc	c5886bbe2ee6c53467342fc52476be9c
+A	views/views_handler_field_bean_delete_link.inc	23fc292ac6ea340408441ad3a64177a7
+A	views/views_handler_field_bean_edit_link.inc	cac1d6bbd683b2b887de405160596ed4
+A	views/views_handler_field_bean_type.inc	4196fb69132d68c83b68f298c78d6673

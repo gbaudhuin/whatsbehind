@@ -1,0 +1,6 @@
+M	src/Controller/TaxonomyViewsIntegratorTermPageController.php	ff7f5e0ac4f098a85bbad866e2c37dd6
+M	src/Form/TaxonomyViewsIntegratorSettingsForm.php	07d8171dd8da5d6d8e09cb743a05bc00
+A	src/Service/TaxonomyViewsIntegratorManager.php	4a92fd57cbd5ae51c2be547b7a23e0f1
+M	tvi.info.yml	682606f1d3cd5ca52e69c46ff645f957
+M	tvi.module	5b57807b84aa37ebe0ffb8851b2efa45
+M	tvi.services.yml	0e6bb994c96e467b2a0c563e368f3df5

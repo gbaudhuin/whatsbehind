@@ -1,0 +1,8 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	11f2881f04584497983f6bb09b4911cf
+A	config/install/dropdown_language.setting.yml	7ea04491479e2ff873533935e9e30e09
+A	dropdown_language.info.yml	28d365dd745520bc981aa5cfee8b22c8
+A	dropdown_language.links.menu.yml	23b48503d70e876bd87b068508da9367
+A	dropdown_language.routing.yml	46af6487f5416b9781ff772cbadd1145
+A	src/Form/DropdownLanguageSettings.php	bf97ec74260621acbe9959432016e88c
+A	src/Plugin/Block/DropdownLanguage.php	2cabcac708c34f42e7a283232f0c42ee

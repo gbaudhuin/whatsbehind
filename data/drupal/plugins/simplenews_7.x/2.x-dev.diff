@@ -1,0 +1,43 @@
+M	README.txt	c74d147ea387eb4f4dc84dd0e2ab1f57
+A	images/sn-cron.png	e6c703a4075db527aaefad9d0abbae0c
+A	images/sn-saved.png	6a0036cd64d9ed8cdd4a907681693f96
+A	images/sn-sent.png	077313b48edd321f8f3d865356519074
+A	images/sn-term.png	e0172b10112cea652bf2d0e386b6e825
+M	includes/simplenews.admin.inc	d0a1bf0e2ec50a30352a44f79328d234
+A	includes/simplenews.controller.inc	c60052b516a04ba077199e97b05665aa
+A	includes/simplenews.entity.inc	557aa5edde9d1e973523b22cd01d7d99
+A	includes/simplenews.info.inc	548b2ad5006fe1f7718f179f88581757
+M	includes/simplenews.mail.inc	f71cf054579be3976fb63bcaf7af50d3
+A	includes/simplenews.recipient_handlers.inc	218895933b226ea085631838f78f8fe7
+M	includes/simplenews.source.inc	0cb10641f8908b33ac256cf87b9b05d3
+M	includes/simplenews.subscription.inc	608d47d03aab2f3c49ae8962ffd965b9
+D	includes/views/handlers/simplenews_handler_field_category_hyperlinks.inc	
+D	includes/views/handlers/simplenews_handler_field_category_new_account.inc	
+D	includes/views/handlers/simplenews_handler_field_category_opt_inout.inc	
+D	includes/views/handlers/simplenews_handler_field_newsletter_priority.inc	
+D	includes/views/handlers/simplenews_handler_field_newsletter_send.inc	
+D	includes/views/handlers/simplenews_handler_field_newsletter_status.inc	
+D	includes/views/handlers/simplenews_handler_filter_category_hyperlinks.inc	
+D	includes/views/handlers/simplenews_handler_filter_category_new_account.inc	
+D	includes/views/handlers/simplenews_handler_filter_category_opt_inout.inc	
+D	includes/views/handlers/simplenews_handler_filter_newsletter_priority.inc	
+D	includes/views/handlers/simplenews_handler_filter_newsletter_status.inc	
+M	includes/views/simplenews.views.inc	f308eb68d479634d03cd9f7715aa13bf
+A	includes/views/simplenews.views_default.inc	9549589dc7c15a9ad9a54f3d47906d97
+A	plugins/recipient_handlers/simplenews_subscription.inc	8773e17ba831da299c9a611c5ca7d7d1
+M	simplenews.api.php	80fd63059dba1775d4687fb943bfd500
+M	simplenews.info	0121647d96f732feabadead33604c74a
+M	simplenews.install	c7d5befd12c79911c7b7656c012093d9
+M	simplenews.module	66c7e521ebf0acbbf672ec3f4b35780b
+M	simplenews.tokens.inc	3e1d7dc46d93e4a4e43c7614c6e991d3
+M	simplenews_rules/simplenews_rules.info	2237c859d24793c4788a2b8fc9b06280
+M	simplenews_rules/simplenews_rules.module	625a7c87825467c802e08028bafb09d5
+M	simplenews_rules/simplenews_rules.rules.inc	371bee801b0f9c64627ffaf2feff4d0a
+D	sn-cron.png	
+D	sn-saved.png	
+D	sn-sent.png	
+D	sn-term.png	
+M	tests/simplenews.test	7c468740e33eaae4b52ccd2cea241a91
+M	theme/simplenews-block.tpl.php	26a5eb633c6fef80b456164389ca9e9b
+M	theme/simplenews-multi-block.tpl.php	b6a3f1f2949b417d305baa1819cd823c
+M	theme/simplenews-newsletter-footer.tpl.php	73f2be909d4584a3c8b3b8c092dd6d0c

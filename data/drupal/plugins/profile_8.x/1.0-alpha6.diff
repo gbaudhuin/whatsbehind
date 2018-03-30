@@ -1,0 +1,47 @@
+D	profile.api.php	
+M	profile.info.yml	4b920ad47df46cba7550e77fb6e66c17
+M	profile.module	bc554b84937a92b09f47106c40ea122e
+M	profile.permissions.yml	c89db3bde822719122fecb305083b3f4
+M	profile.routing.yml	10614cbb9a248679fcddd4b73f463497
+M	src/Access/ProfileAccessCheck.php	71d0d2792fe1f801ada3039163d74767
+M	src/Entity/Profile.php	7259d153d4a22910d6a96d63f61c6e78
+M	src/Entity/ProfileInterface.php	6b8a2b8123d435b7114ae544f9c71b05
+M	src/Entity/ProfileType.php	824a2d6b3a78b4fcfb500bee5e58d4a3
+A	src/Event/ProfileEvents.php	e57881a05e871ef2c7c340d8ca84679c
+A	src/Event/ProfileLabelEvent.php	b1df4343fb7d5239ad500e9d0dc9ee6b
+M	src/Form/DeleteMultiple.php	a174b09bbcca45f26f6f6057512a5eca
+M	src/Form/ProfileDeleteForm.php	b412c523a4a5444032615e365fdf28e5
+M	src/Form/ProfileForm.php	04c765a0747163d99d20ce10658dc408
+M	src/Form/ProfileTypeForm.php	40c5a293146426969f2c77b88f19e8d4
+M	src/Plugin/views/field/ProfileBulkForm.php	ccb309937d49b973cf07de5f884b5a91
+M	src/ProfileAccessControlHandler.php	2b6b59fbccce7348c1c00fe349209447
+M	src/ProfileListBuilder.php	2317a5d4531bfcd73de12a4e6751295d
+A	src/ProfilePermissionProvider.php	f25b2261b07dd41c5ce954d6e911fb7a
+M	src/ProfileStorage.php	ade5455b85afdefbe642971208a0dc2a
+A	src/ProfileTestTrait.php	d82a54371f6d207941bf212f3acba169
+M	src/ProfileTypeListBuilder.php	ec420b7e9b6db0f05e66deb28082ddf3
+M	src/ProfileViewsData.php	8f64f21cdb728a0b7acfe08e0eb83c2c
+D	src/Tests/ProfileAccessTest.php	
+D	src/Tests/ProfileAttachTest.php	
+D	src/Tests/ProfileCRUDTest.php	
+D	src/Tests/ProfileDefaultTest.php	
+D	src/Tests/ProfileFieldAccessTest.php	
+D	src/Tests/ProfileRoleAccessTest.php	
+D	src/Tests/ProfileTabTest.php	
+D	src/Tests/ProfileTestBase.php	
+D	src/Tests/ProfileTestTrait.php	
+D	src/Tests/ProfileTypeCRUDTest.php	
+D	src/Tests/ProfileTypeMultipleTest.php	
+M	tests/profile_test/profile_test.info.yml	0f6ebbf61f5849d67ed2cf70718e0940
+A	tests/src/Functional/ProfileDefaultTest.php	4f7e9181ad2df63235333d2598f21529
+A	tests/src/Functional/ProfileFieldAccessTest.php	f43a64d4996d657ca3d5abecce709394
+A	tests/src/Functional/ProfileHelpTest.php	b734cabe0ccfaf292f2f2aa9e3bb1bc7
+A	tests/src/Functional/ProfileRegisterFormTest.php	1176d692a7cf3fd81e50abf21af83c9b
+A	tests/src/Functional/ProfileTabTest.php	089fcd39a7d08789fbc02ca1283d6126
+A	tests/src/Functional/ProfileTest.php	1b4b9b4049eec0bfc66284d96c2421e8
+A	tests/src/Functional/ProfileTestBase.php	84376ab12daa7fa9c9d21f4ecde5e843
+A	tests/src/Functional/ProfileTypeCRUDTest.php	d6f3e9aadad43cfd7610479ba4441126
+A	tests/src/Kernel/ProfileAccessTest.php	478224533a1ba684e8e695163d2bd55e
+A	tests/src/Kernel/ProfileRoleAccessTest.php	d01184598a006f562bc564c176a9d338
+A	tests/src/Kernel/ProfileTest.php	170f96a67eb64e3106bab37b19043778
+M	tests/src/Kernel/ProfileViewTest.php	83dba43dd9c13a5d7171a9c4f86b959f

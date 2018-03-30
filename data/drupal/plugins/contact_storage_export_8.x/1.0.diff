@@ -1,0 +1,10 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	3adde38ec5044270790cbbfd5fe955aa
+A	composer.json	1d3ea277254513042f2a548b49575aa0
+A	contact_storage_export.info.yml	45e3d1af395aa6de1e6b0b03c8086960
+A	contact_storage_export.links.task.yml	ae8896d7802ba45efe47ed5f1c8790bb
+A	contact_storage_export.module	b68903d82a5aed6cb75e6578f69e7263
+A	contact_storage_export.permissions.yml	11b41dbfc8c584e7cade658682a5cd6b
+A	contact_storage_export.routing.yml	f597a05c3bd9b8caa46f0fd54059c237
+A	src/ContactStorageExportBatches.php	7dcb3fad95195c406003753364d51e5c
+A	src/Form/ContactStorageExportForm.php	f6f6ccfcd10dc19bdf9dc9c45fbcd209

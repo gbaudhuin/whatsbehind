@@ -1,0 +1,8 @@
+M	antibot.info.yml	d3150079e40b73d5001d53f38bc35b4e
+M	antibot.module	0b1f5289698e7c9407c188c5eda5a31a
+A	antibot.permissions.yml	8eec31170cade81d41a4fb2d4888a5aa
+M	antibot.routing.yml	717025bfbb5f81b8fea73cf1bf09d78b
+M	js/antibot.js	65b8de9883d8a40f38f6fad4d2fe200b
+M	src/Controller/AntibotPage.php	f9df1595952bd26e59986cdb87433d3e
+M	src/Form/AntibotSettings.php	09d1abc53a59e4342784b7a6a7f6f48f
+A	templates/antibot-no-js.html.twig	0813db00e59adb3c6aff3829038a44c5

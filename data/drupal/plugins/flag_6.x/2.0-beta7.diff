@@ -1,0 +1,21 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	flag.inc	27cd876635084c27708e2010b64e452d
+M	flag.info	0768fc31ab967cb8160725607a74a656
+M	flag.install	ccf46efdc6aac8770b5572c4ea8adb7d
+M	flag.module	37c9c2fe2b455639b6fdf9ccc300991f
+M	flag_actions.info	96406b0d95b2aedd8d0d0269a056088f
+M	flag_actions.module	568fac1ab8c05cd2b3cdd413769b5191
+M	includes/flag.actions.inc	3eb89b8d9bd35374d21dac61fb075e83
+M	includes/flag.admin.inc	cba1d11d9cee39c5af93b90f1730716b
+M	includes/flag.export.inc	c7bcfced17833b51f0e8a980a81f84c5
+M	includes/flag.features.inc	94f50733671ee6aa58244b1732b918b7
+M	includes/flag.rules.inc	c66e7977f9ef48a07c402dc47610d0c1
+M	includes/flag.rules_forms.inc	0e2c24b8d9d8c3bf4b5a6b7fe794a509
+D	includes/flag.services.inc	
+M	includes/flag.views.inc	2ee7f7fbd73823cc084e969fd4a17531
+M	includes/flag.views_convert.inc	526de361f24aadc14e47f1ece8654719
+M	includes/flag.views_default.inc	53ef30a0f825f133b7025edb9a3a59f5
+M	includes/flag_handler_relationships.inc	7b5d66f15675e562147562d14831ac27
+M	includes/flag_plugin_argument_validate_flaggability.inc	4923f13891272e3e7e008ec82fd58850
+M	tests/flag.test	28e76e6cade34382345ab376d75fa541
+M	theme/flag.css	ad98e5db61e548f13435cda905874124

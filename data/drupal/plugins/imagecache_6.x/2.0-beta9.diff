@@ -1,0 +1,8 @@
+M	imagecache.info	ddf1a441d764c810fcb15d51c42889c8
+M	imagecache.module	fbfbe4a3c9f0ec509d3ff89a3eb7e8f4
+M	imagecache_actions.inc	46ed8ef85d1624e46c552c2ae89e8833
+M	imagecache_ui.info	f9238e66214d5630265f6d6cb34706eb
+M	imagecache_ui.module	101e58622b11fdd0d646c0dc2127c8e7
+A	imagecache_ui.pages.inc	cd3112433b671f113b95f626b92ca632
+A	translations/de.po	a333fde1d95948bbe87ccc855b6ffb7b
+A	translations/fr.po	edca5c032e7e18dfb5c520dc69cc410a

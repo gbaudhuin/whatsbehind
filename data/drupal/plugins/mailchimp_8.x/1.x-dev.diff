@@ -1,0 +1,7 @@
+M	mailchimp.info.yml	0a483ca0b24d26077cb660b4d2b74d8d
+M	modules/mailchimp_campaign/mailchimp_campaign.info.yml	02a49ef244050929ca67c09aaa03c542
+M	modules/mailchimp_campaign/tests/modules/mailchimp_campaign_test/mailchimp_campaign_test.info.yml	d2b0b0c657c89825a47f4bb84e1cbede
+M	modules/mailchimp_lists/mailchimp_lists.info.yml	caf9300d6ea59f7055693599ad201829
+M	modules/mailchimp_lists/tests/modules/mailchimp_lists_test/mailchimp_lists_test.info.yml	30d99c46099dff2f9cf773ead64ace0f
+M	modules/mailchimp_signup/mailchimp_signup.info.yml	8e65bbc9f9e6b38f5c3fb5db60e330b0
+M	tests/modules/mailchimp_test/mailchimp_test.info.yml	ff4d2a64e5bfb31bfd96af9a393584a9

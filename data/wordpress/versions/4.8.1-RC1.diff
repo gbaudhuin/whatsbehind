@@ -1,0 +1,10 @@
+M	wp-admin/js/widgets/text-widgets.js	2eda0fba7c33c68b92a25d71e49f24f7
+M	wp-admin/js/widgets/text-widgets.min.js	3651b41fcb718e55e0de3a29212d71ea
+M	wp-includes/default-widgets.php	af558d50e47d01c05d131322856aed05
+M	wp-includes/js/tinymce/skins/wordpress/wp-content.css	012706854c5bf037e8234aab32868fc8
+M	wp-includes/js/wp-api.js	9c031b4273a40cc1ff0b80be3d4723ca
+M	wp-includes/js/wp-api.min.js	8ef51dc05352b2544201b31f7e2c2aa3
+M	wp-includes/rest-api.php	8fbf81b776e0de6a756e9a00adaad26b
+M	wp-includes/theme.php	416ec5c6d770cd3f9968ee6ae65e7dc4
+M	wp-includes/version.php	d3a1a4605416329c7765d2a8d9dc06b5
+M	wp-includes/widgets/class-wp-widget-text.php	5e502cafae5b7a79757c41907c2c4db9

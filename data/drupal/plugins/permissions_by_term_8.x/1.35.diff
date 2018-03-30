@@ -1,0 +1,8 @@
+M	.gitignore	8b46840034ab8a8df9cf2b837b8c33b5
+M	modules/permissions_by_entity/permissions_by_entity.info.yml	48be33248062413726b8a35d2f48d4db
+M	permissions_by_term.info.yml	2c83782a12377a9cdf40c76987933a9b
+M	permissions_by_term.install	c0017b185f729b636b084cf4c62d47ac
+M	permissions_by_term.module	a96774a3020ef49080ad50852162e899
+M	src/Service/AccessStorage.php	3172afc7dc7758155d72f07540c1cba5
+M	src/Service/NodeAccess.php	171e51b48331a6d585a8deb8a0184a87
+M	tests/src/Behat/Context/PermissionsByTermContext.php	fd380c7344e7fce93b79839696b5672b

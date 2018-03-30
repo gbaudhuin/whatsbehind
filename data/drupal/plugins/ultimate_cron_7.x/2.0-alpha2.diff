@@ -1,0 +1,89 @@
+M	CronRule.class.php	965ad2cd2941cd510915b55f99d5d654
+M	README.txt	982b1ede777ed65abc5f88febca33b3e
+M	css/ultimate_cron.admin.css	e6c0781119d5e03627813d783a8e103a
+A	help/about.html	2a70206460d13d260ecb341d0575536a
+D	help/catch_up.html	
+D	help/cleanup_log.html	
+D	help/easy_hooks.html	
+D	help/hook_cron.html	
+D	help/hook_cron_alter.html	
+D	help/hook_cron_post_execute.html	
+D	help/hook_cron_post_execute_function.html	
+D	help/hook_cron_pre_execute.html	
+D	help/hook_cron_pre_execute_function.html	
+D	help/hook_cron_schedule_alter.html	
+D	help/hook_cronapi.html	
+D	help/hook_daily.html	
+D	help/hook_hourly.html	
+D	help/hook_monthly.html	
+D	help/hook_weekly.html	
+D	help/hook_yearly.html	
+M	help/hooks.html	def96fabc6553d37ac678e09dd21d85a
+A	help/launchers-background-process.html	2a70206460d13d260ecb341d0575536a
+A	help/launchers-create.html	2a70206460d13d260ecb341d0575536a
+A	help/launchers-serial.html	2a70206460d13d260ecb341d0575536a
+A	help/launchers.html	2a70206460d13d260ecb341d0575536a
+A	help/loggers-cache.html	2a70206460d13d260ecb341d0575536a
+A	help/loggers-create.html	2a70206460d13d260ecb341d0575536a
+A	help/loggers-database.html	2a70206460d13d260ecb341d0575536a
+A	help/loggers.html	2a70206460d13d260ecb341d0575536a
+A	help/plugins.html	2a70206460d13d260ecb341d0575536a
+D	help/polling_latency.html	
+D	help/poorman.html	
+M	help/rules.html	03de2791089de434c174d00361a75689
+A	help/schedulers-create.html	2a70206460d13d260ecb341d0575536a
+A	help/schedulers-crontab.html	2a70206460d13d260ecb341d0575536a
+A	help/schedulers-simple.html	2a70206460d13d260ecb341d0575536a
+A	help/schedulers.html	2a70206460d13d260ecb341d0575536a
+D	help/service_group.html	
+A	help/settings-create.html	2a70206460d13d260ecb341d0575536a
+A	help/settings-general.html	2a70206460d13d260ecb341d0575536a
+A	help/settings-queue.html	2a70206460d13d260ecb341d0575536a
+M	help/settings.html	b410c116c298491f4cfb535a2f226f9b
+D	help/simultaneous_connections.html	
+M	help/ultimate_cron.help.ini	0e6453fa9a78b000f56481550657d9fd
+A	icons/hourglass_go.png	e80b3157168d734a741244319f9be636
+A	includes/nicejson.php	06aa90e23596b45fca2e1aa612674c1c
+A	js/jquery.tablesorter.js	91fcfc31766802977831ea4c9c883871
+D	js/nodejs.ultimate_cron.js	
+A	js/ultimate_cron.job.js	59a277df3ea5bf217b0841487dc4e64f
+M	js/ultimate_cron.js	b432a2adf54db1d6757806769dd2561a
+A	js/ultimate_cron.nodejs.js	3052621a63495e704771f4bc430fe378
+A	plugins/ctools/export_ui/ultimate_cron_job_ctools_export_ui.class.php	c79066110e6411fcb50b0f7875fa9cbd
+A	plugins/ctools/export_ui/ultimate_cron_job_ctools_export_ui.inc	6c44482029ae6ae698d016b28b1e7f5c
+A	plugins/ultimate_cron/launcher/background_process_legacy.class.php	e7d4e7bb29c82c7741edfdc9883ad100
+A	plugins/ultimate_cron/launcher/background_process_legacy.inc	5c5dea7f994c8475325f95f3b9046206
+A	plugins/ultimate_cron/launcher/serial.class.php	cc7b12d4acd99537ad3afc5decf4acb6
+A	plugins/ultimate_cron/launcher/serial.inc	6e4857feda09d53621bdbe7a8d6ba43d
+A	plugins/ultimate_cron/logger/cache.class.php	344a0991047d447bad0ee04f9dfd03c3
+A	plugins/ultimate_cron/logger/cache.inc	d74145635d5cb92691c46263c6e9148a
+A	plugins/ultimate_cron/logger/database.class.php	42b0e4511b04ef2d9378b199e94a90dc
+A	plugins/ultimate_cron/logger/database.inc	00011c7eec4e936e4c8e25b95f55bcbe
+A	plugins/ultimate_cron/scheduler/crontab.class.php	3f97bea43b31f04887086ed82f763f87
+A	plugins/ultimate_cron/scheduler/crontab.inc	ac4c18e9645d1dd9a0c26fcd883297eb
+A	plugins/ultimate_cron/scheduler/simple.class.php	5971caa881ab556811fc548423721f2f
+A	plugins/ultimate_cron/scheduler/simple.inc	9f42a7bb1e99cfd04e56fdc768d9b356
+A	plugins/ultimate_cron/settings/general.class.php	bceec9cebd917e2ce75dd19a19bc6244
+A	plugins/ultimate_cron/settings/general.inc	823033d770290774adc567de04b3e75d
+A	plugins/ultimate_cron/settings/poorman.class.php	14c90bfbd193a34e9952dbd40ac213a9
+A	plugins/ultimate_cron/settings/poorman.inc	b51103f60acf7802475447e05bf87966
+A	plugins/ultimate_cron/settings/queue.class.php	b72d732dbbc0a4bddc12b2bbedd7ecdb
+A	plugins/ultimate_cron/settings/queue.inc	1e205dc41142cf023066a40566a04d19
+M	tests/rules.test	95f966d3256773fb77b0039a46827f6d
+M	ultimate_cron.admin.inc	9aed03f66c3907989cfa013e4f86e74f
+A	ultimate_cron.api.php	8e2130978daf9f5a852208f8a5b74054
+A	ultimate_cron.background_process_legacy.inc	9508b92869d4866cadaaeb07deaef8e3
+A	ultimate_cron.cache-signal.inc	e53e8f05ab850cf0f09582de94746590
+M	ultimate_cron.drush.inc	417e80e171f728b3be5e7afbf2508649
+M	ultimate_cron.info	e0ded1b149a3524d9f41c75a5a4f67b4
+M	ultimate_cron.install	e24185acb0234997980d1cf6a1e1e0ab
+A	ultimate_cron.job.inc	72814ed1c133543cbe33f5fd07ccc36d
+A	ultimate_cron.lock.inc	a52b005eb4b8cde60c1cd1576ab52d4e
+A	ultimate_cron.memcache-lock.inc	be829f5e1142afefd46ceacf59131508
+A	ultimate_cron.memcache-progress.inc	298dcf0ef39c1eb9a602e22b37af85e6
+M	ultimate_cron.module	76591e59982d221b927d8ad800ee3bbe
+M	ultimate_cron.nagios.inc	905ab9b07c0f234b280915edafcdc973
+A	ultimate_cron.plugin.inc	076621c750f3eb3244609b68d4bdfd59
+A	ultimate_cron.poorman.inc	53e669e8e0ee9e0f6f6bff3380173904
+A	ultimate_cron.progress.inc	4d25d1fd69f7a0b0a28b1c2d439f42a2
+A	ultimate_cron.signal.inc	9ca6b8a365571f4673e8c8c1d25991df

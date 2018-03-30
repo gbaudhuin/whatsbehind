@@ -1,0 +1,13 @@
+D	.gitignore	
+D	INSTALLATION.txt	
+M	README.txt	5ce2fbc928955661bcf8c43309dc4e10
+M	dmemcache.inc	d8a8ee6ea68e7a4e9ad5e2ba3907c563
+M	memcache-lock-code.inc	fb9933481c7aa37ebbae963639ea6f27
+M	memcache.inc	0658c0f67d2a89245da3c6cc966c53e8
+M	memcache.info	9715f0324bb433626766f2e06c44d61a
+M	memcache_admin/memcache_admin.info	451729475ec66c15c55dbc4843cd9527
+M	memcache_admin/memcache_admin.install	dd87e650fec802eb4df015c147c51fb4
+M	memcache_admin/memcache_admin.module	092ec98fb14e3953e7ff20a26058bf9f
+M	tests/memcache.test	778711b20132a8e79e57cc21450843e6
+M	tests/memcache_test.info	db92c76f381a79e962a5acea07347c7b
+M	unstable/memcache-session.inc	bdd09dc9138855b4a463f060af77fc74

@@ -1,0 +1,20 @@
+M	README.md	92e809e483fde6854766027f315f2516
+M	composer.json	b3bfdc732cf7378d48ddb06011ddc6b4
+M	config/schema/config_split.schema.yml	81870cb096d481df04eaff0223ec8eaf
+M	config_split.info.yml	3adbc33bdf7e22f2b517f2a39f72b371
+M	config_split.links.menu.yml	e7cdf50be21d1d95dd6aa278cf9830f8
+M	config_split.module	5e33eeb09ae390e02bbdc0c333eb06f4
+M	config_split.services.yml	eb20b72169aa17026a0dd070a409abad
+M	src/Command/ExportCommand.php	cdda4b3eb53598626a08385f1aba9722
+M	src/Command/ImportCommand.php	05a620ef121e72f34d04e7168222fd93
+D	src/Config/StorageWrapper.php	
+M	src/ConfigSplitCliService.php	2622ecdd767e19ed00c4903751ef02d0
+D	src/ConfigSplitManager.php	
+D	src/ConfigSplitServiceProvider.php	
+M	src/Form/ConfigSplitEntityForm.php	14f9210b308db2f2fa043f951379f7a4
+M	src/Plugin/ConfigFilter/SplitFilter.php	2714294aed460b8c97fb996a990f4fde
+A	src/Plugin/ConfigFilter/SplitFilterDeriver.php	c4b9c47c68b5ea2451ec1049ada1422f
+D	src/Plugin/Derivative/SplitFilter.php	
+M	src/Tests/GhostStorageTest.php	8c0585830e096cebfb8e08ca0c3f7d66
+M	tests/src/Kernel/ConfigSplitCliServiceTest.php	ca59d56e28ea5d2389f4b20ebdbd4adb
+M	tests/src/Kernel/ConfigSplitKernelTest.php	a245a2d3f584d9f38207c31ada3ddf21

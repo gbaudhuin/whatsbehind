@@ -1,0 +1,14 @@
+M	CHANGELOG.txt	39b148af227819cc9e781e957d85dd2c
+M	calendar.info	97a46cdda4a9c453067fb7cb766e9559
+M	calendar_ical/calendar_ical.info	bf32d0e959456927051561a947f7045c
+M	calendar_ical/calendar_plugin_style_ical.inc	72c828cc847ab55b29817756b12e0407
+A	calendar_ical/translations/calendar_ical.sv.po	8598bd54ea0cfb6c495a7268ca063715
+M	includes/calendar.inc	b9d72bc55b3c0746b980319b3ff6eab9
+M	includes/calendar_plugin_display_page.inc	cbd914a522f919f2cb11d550f880645e
+M	includes/calendar_plugin_style.inc	936b33e280445ba3fbf9b7a1dd984295
+M	jcalendar/jcalendar.info	1e653feee975da05753d487cba19075f
+M	jcalendar/jcalendar.module	f52011c3bbf32ebd4db39e0ae86070d3
+A	jcalendar/translations/jcalendar.sv.po	8631dd145bbe3d7e4140c40fb7843e4d
+M	theme/calendar-day.tpl.php	2353638d4ec1b0c02a9ce331f6c0d514
+M	theme/theme.inc	062f7c2051a2bee6d39971171da9c603
+A	translations/calendar.sv.po	598f4bb904858edfcc84a1a25b698bfc

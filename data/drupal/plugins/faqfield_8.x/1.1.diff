@@ -1,0 +1,13 @@
+A	composer.json	dd37c1c7591f203d5c491329dd29d8d3
+M	faqfield.info.yml	5da664b15b86eda9a62415ac7e826cd9
+M	faqfield.module	3a2943d9721bfa7fcfa1b8f408e96300
+M	src/Plugin/Field/FieldFormatter/FaqFieldAccordionFormatter.php	6a7ac4986f30593e47bb8a9b4a0937ae
+M	src/Plugin/Field/FieldFormatter/FaqFieldAnchorListFormatter.php	9642192acfbf2c05c787357c275ddb53
+M	src/Plugin/Field/FieldFormatter/FaqFieldDefinitionListFormatter.php	3ea0e831980b6a982af1b5182df396f8
+M	src/Plugin/Field/FieldFormatter/FaqFieldSimpleTextFormatter.php	117ec66f1f49dfc76d4b4a4c60922ad1
+M	src/Plugin/Field/FieldType/FaqFieldItem.php	58374ada3dcc1405ad07f200a26d8f7a
+M	src/Plugin/Field/FieldWidget/FaqFieldDefaultWidget.php	be7b0faf5ab9bb197929f6476aa0c2eb
+M	templates/faqfield-anchor-list-formatter.html.twig	0c70445660cd8e126b211b30e5c8d484
+M	templates/faqfield-definition-list-formatter.html.twig	1bac0b493e8d0f6f6919af060bb4cbc9
+M	templates/faqfield-jquery-accordion-formatter.html.twig	08a1d77b3e1f38278f0857ff729d89a1
+M	templates/faqfield-simple-text-formatter.html.twig	15f8682a8f3132bcd2a71414420a6a9d

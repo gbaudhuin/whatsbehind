@@ -1,0 +1,14 @@
+M	README.txt	10cc6c5f57dbf3ece9a0bc2c8f9a4249
+M	ds.info	279676056673ad7ff6e8953fc82f6947
+M	ds.module	69373dbf9114bc68198c88f822d5f39f
+M	includes/ds.field_ui.inc	56897af1cce8abc6ab44833ddd01af21
+M	modules/ds_devel/ds_devel.info	4659906a9fb7b9e377d035fd25aa534a
+M	modules/ds_extras/ds_extras.info	ee8dc69d50fbc828f697141dfeeff969
+M	modules/ds_extras/ds_extras.install	2e286c387216ef7ca2fb274b9e767d85
+M	modules/ds_extras/includes/ds_extras.admin.inc	4ba1bfef78ccbec267d2a0e5c9351af2
+M	modules/ds_format/ds_format.info	a8d96ef86937c8f8bce055a9cc627cc9
+M	modules/ds_forms/ds_forms.info	95298dcb656ea5d327c61cea485e0b5b
+M	modules/ds_search/ds_search.info	d024a58c8219cdc9fae2ba06388bb928
+M	modules/ds_ui/ds_ui.info	84ae0fb595e06d1752ae8b26d736e651
+M	tests/ds_exportables_test/ds_exportables_test.info	66600fd25b08c17058c2aa05fbbdbc90
+M	tests/ds_test.info	acf156c6a7c32168935a8c696f9bf853

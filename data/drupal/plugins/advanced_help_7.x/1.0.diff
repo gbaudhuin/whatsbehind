@@ -1,0 +1,27 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	advanced-help-popup.tpl.php	e563c4915b87a9974570146ee9b7f8e1
+M	advanced_help.info	b649c5866b139b7b45dd9b2ce746c898
+M	advanced_help.install	e7f3312c97de91421457a2e236b5b9ad
+M	advanced_help.module	7b7d68953ed739e51bd7671a73c03314
+M	help-icon.css	87b65c18dd3f3b4dd7ab70f1c98ffefb
+M	help-popup.css	f06ac1cac08bbb3f10df8b6dce0dc900
+M	help.css	5af8a6c8a723c5f5902e4d0ecb6c9a80
+M	help/advanced_help.help.ini	a06aee4e9476d46522260798830c76e5
+M	help/ini-file.html	74fb416649c39141ad2ca6a34d8e7e94
+M	help/translation.html	a1f36c0aef93628951509eb74cce8549
+M	help/using-advanced-help.html	0eb664e907e31c0ce1709ae66e492b2a
+M	help_example/help_example.info	c395470f6326ef0f4c5fe1365241b1bf
+M	help_example/help_example.module	a3600d46e16a4f2dc8d68734914b2fb0
+D	help_example/translations/help_example.de.po	
+D	help_example/translations/help_example.pot	
+D	translations/advanced_help.da.po	
+D	translations/advanced_help.de.po	
+D	translations/advanced_help.es.po	
+D	translations/advanced_help.hu.po	
+D	translations/advanced_help.pot	
+D	translations/fr.po	
+D	translations/help/de/advanced_help.help.ini	
+D	translations/help/de/ini-file.html	
+D	translations/help/de/translation.html	
+D	translations/help/de/using-advanced-help.html	
+D	translations/help/de/why-advanced-help.html	

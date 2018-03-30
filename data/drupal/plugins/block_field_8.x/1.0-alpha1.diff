@@ -1,0 +1,17 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	NOTES.md	1e88f3fa54a35d882ff7ae0b4a317fd5
+A	README.md	cc3398346f9749907aeab0177ab98005
+A	block_field.info.yml	5543d552ec7cf8f03b35a9410e76b060
+A	src/BlockFieldItemInterface.php	aa2ef3038e087350f84f2da7371332ed
+A	src/Plugin/Field/FieldFormatter/BlockFieldFormatter.php	973b133e7205288027a5a9cbcf0d3c4c
+A	src/Plugin/Field/FieldType/BlockFieldItem.php	b15d3748f4dc0e0a53f61c6fe7206ee6
+A	src/Plugin/Field/FieldWidget/BlockFieldWidget.php	5c49b7aac5cb32701e236fd383766690
+A	tests/modules/block_field_test/block_field_test.features.yml	6d615476d686ea014f7ea5ef9cf9b316
+A	tests/modules/block_field_test/block_field_test.info.yml	5b751b83608fbe032bc5a51be2ec41bc
+A	tests/modules/block_field_test/config/install/core.entity_form_display.node.block_field_test.default.yml	407be522dc6f1611667d330aa56c9560
+A	tests/modules/block_field_test/config/install/core.entity_view_display.node.block_field_test.default.yml	4a69273ab0341c8ce303d1d3a15aa840
+A	tests/modules/block_field_test/config/install/core.entity_view_display.node.block_field_test.teaser.yml	5d4f0fe57a9e0bc8735c40bf310885f9
+A	tests/modules/block_field_test/config/install/field.field.node.block_field_test.field_block_field_test.yml	19f3ee24f12f19b6f5a7deec7d1c1802
+A	tests/modules/block_field_test/config/install/field.storage.node.field_block_field_test.yml	16006f734dee5cc2e342d63304d0e6ab
+A	tests/modules/block_field_test/config/install/node.type.block_field_test.yml	3205ce04a9b79c0d70423794464d8e62
+A	tests/modules/block_field_test/src/Plugin/Block/BlockFieldTestBlock.php	401eeb764d29edee169baf167bb5fc41

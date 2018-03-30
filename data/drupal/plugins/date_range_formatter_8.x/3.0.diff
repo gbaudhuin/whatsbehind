@@ -1,0 +1,4 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	date_range_formatter.info.yml	036c2c274099124fb583e57bfcab5202
+A	date_range_formatter.module	feabe5cc691b088d6ade3e04d6b120fc
+A	src/Plugin/Field/FieldFormatter/DateRangeFormatterRangeFormatter.php	c9c972163d2f4b33827237b6637d5ad2

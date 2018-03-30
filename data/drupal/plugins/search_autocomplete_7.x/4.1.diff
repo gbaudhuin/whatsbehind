@@ -1,0 +1,27 @@
+M	README.txt	02f6ec46b75d8c2daaf600de4c61b882
+M	css/search_autocomplete.admin.css	ef780a11f22ad35903d1f1490f145e1f
+M	css/themes/MAKE YOUR THEME.css_	00a056f0ae3f14a949783b3661f5246d
+M	css/themes/basic-blue.css	03310a911a3690a7ae5151843d2032ad
+M	css/themes/basic-brown.css	e4bd1eed1451a5a0b352c1f7a25f32de
+M	css/themes/basic-green.css	bf2cb6ed2d8909f1c6b617ffe5f60397
+M	css/themes/basic-grey.css	a350f9884eb7f6d9bfbd0887cc40f949
+M	css/themes/basic-orange.css	c319f6b250110c5c24c9817adbbe6498
+M	css/themes/basic-pink.css	e3dad5ac19627e46f5760d2f729a8a5a
+M	css/themes/basic-red.css	b4ae6165ee9b33899edf3efbb767e099
+A	css/themes/minimal.css	33269416e40dcc72df069d101f0fa27a
+M	css/themes/user-blue.css	b04fcb7c299cd9728a0336b7ec91aa16
+M	js/jquery.autocomplete.js	2892b272b587fda8c3f0ce5fcb5ed3f4
+M	js/search_autocomplete.admin.js	8a0ecd07606e419b2373d7c29567c7c1
+M	search_autocomplete.admin.inc	d8fcfb73b5017d18020634ec323aaed2
+M	search_autocomplete.autocomplete.inc	eaf3cf083be356e03f64ef3a60bbeca7
+A	search_autocomplete.features.inc	b9d15c8c6a8e29c5492f821e0602aeac
+M	search_autocomplete.form.add.inc	250792b0cbda1e6b7db627fc6a043eaf
+M	search_autocomplete.form.configure.inc	57a6bd160e84b8f279898316a36b8e89
+M	search_autocomplete.form.treelist.inc	6095d3378aa49f6d35dab0feb62c6fd5
+M	search_autocomplete.info	ed714492b9398c8484889d51b086486b
+M	search_autocomplete.install	5830a31ad7f3342e207550761f9db0d0
+M	search_autocomplete.module	df68eb3fbd6f0ade559b17704e55d06d
+M	search_autocomplete.view_autocomplete.inc	e51064b36005b75099b56c213a292db8
+M	views/plugins/search_autocomplete.views_plugin_style.inc	59d7f25212058e77dc20fc05cd0f5cbe
+M	views/theme/views-search-autocomplete-style.tpl.php	d945053865cc5455466c1a644e9cf0c0
+M	views/theme/views_search_autocomplete_style.theme.inc	0993e1432097fdd421166aa4bb323c59

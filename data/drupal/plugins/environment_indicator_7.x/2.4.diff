@@ -1,0 +1,13 @@
+M	environment_indicator.admin.inc	c7a6da41469458961ed353d23507ee66
+M	environment_indicator.css	c66d604c1b2cb0fb441a5a4eecc2f934
+M	environment_indicator.info	aad4be71f2f60e22bc9f9469cf1335b7
+M	environment_indicator.install	2388ca5cc5f02aef8041872f11078ddf
+M	environment_indicator.js	699f5ce9bdba4b362830095ea655cddb
+M	environment_indicator.module	c9ae6181fc2c31d985d2e2d373bbe6b5
+M	environment_indicator.theme.inc	dc4662fbd4794a0f3d2cdcc9b2a8ff3a
+M	environment_indicator.variable.inc	0b008d73f6f5351990dd4772340086f9
+M	environment_indicator_variable/environment_indicator_variable.info	af95369d6973d3b1ed9bb683c035579e
+A	images/env-bebebe.png	4fe8c6336db6c78f3022500111c1978a
+A	images/env-bebebe.svg	045b8c6a0a4d173f0de5349359bb89cb
+A	images/env-ffffff.png	3c551f6811327a228846d8afe5bf3ab6
+A	images/env-ffffff.svg	9a51b2f113a1d383a5c7c686dc24d307

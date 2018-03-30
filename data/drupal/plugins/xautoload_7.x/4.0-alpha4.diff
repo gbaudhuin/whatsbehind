@@ -1,0 +1,145 @@
+A	legacy/lib/FinderPlugin/CheckIncludePath.php	65256ca3736e10bcde7d162d56b204a3
+A	legacy/lib/FinderPlugin/Interface.php	003217eb0de1df1135c9536ee5a45c32
+A	legacy/lib/InjectedAPI/hookXautoload.php	f3d4a0f7e1c19930f8196bbc232843d1
+A	lib/Adapter/ClassFinderAdapter.php	d3e692e9adf34dd620b5dc3f91ee02d1
+A	lib/Adapter/ClassFinderAdapterInterface.php	9c69b4bbcb7361085c987fb0391c209b
+A	lib/Adapter/DrupalExtensionAdapter.php	324a8141492151ae841b9655d6d83778
+A	lib/Adapter/LocalDirectoryAdapter.php	639fa011771a9b4c4cf7eb16f81ab1e5
+D	lib/ApcKeyManager/Disabled.php	
+D	lib/ApcKeyManager/Enabled.php	
+D	lib/ApcKeyManager/Interface.php	
+D	lib/BootSchedule/Default.php	
+D	lib/BootSchedule/Helper/Base.php	
+D	lib/BootSchedule/Helper/Interface.php	
+D	lib/BootSchedule/Helper/PHP52.php	
+D	lib/BootSchedule/Helper/PHP53.php	
+D	lib/BootSchedule/Interface.php	
+D	lib/BootSchedule/Proxy.php	
+A	lib/CacheManager/CacheManager.php	4c68dc6566b3def3ee167ab93e3009be
+A	lib/CacheManager/CacheManagerObserverInterface.php	7a061724f9967dc745723637d1b6ee16
+A	lib/ClassFinder/ClassFinder.php	defe79e836f6c31d2c26e65612cb4723
+A	lib/ClassFinder/ClassFinderInterface.php	820660a86946cafe19454338e90d97ef
+A	lib/ClassFinder/CommonRegistrationInterface.php	9aea81b0b4d0aeeb57d3eb1a72e2a9fe
+A	lib/ClassFinder/ExtendedClassFinderInterface.php	f9bd7f512ae88093d18475176657943a
+A	lib/ClassFinder/GenericPrefixMap.php	737f34adac8cf66e548e4d8c355e4d76
+D	lib/ClassFinder/Helper/Map.php	
+A	lib/ClassFinder/InjectedApi/AbstractInjectedApi.php	fe8b8be02cc7fa3ca460ed1846a67825
+A	lib/ClassFinder/InjectedApi/CollectFilesInjectedApi.php	13c30a1d7898c3d0c911756b39c47922
+A	lib/ClassFinder/InjectedApi/FindFileInjectedApi.php	9caaf9b3ee42b52ff28b7bc1d36e28d7
+A	lib/ClassFinder/InjectedApi/InjectedApiInterface.php	0e3d35c5c87cd2b82b81e25c92184d95
+A	lib/ClassFinder/InjectedApi/LoadClassGetFileInjectedApi.php	e6394a32ebc8628179ae25bbdf916684
+A	lib/ClassFinder/InjectedApi/LoadClassInjectedAPI.php	b0469ac00f9350ad3619f1b2549e7c21
+D	lib/ClassFinder/Interface.php	
+D	lib/ClassFinder/NamespaceOrPrefix.php	
+A	lib/ClassFinder/Plugin/DrupalExtensionNamespaceFinderPlugin.php	c46ebd52c9a72e31550ba4976e2d8fdf
+A	lib/ClassFinder/Plugin/DrupalExtensionUnderscoreFinderPlugin.php	8174b250712d1f6764d0431125ab7502
+A	lib/ClassFinder/Plugin/FinderPluginInterface.php	094643cc3a7efa36d3ff34264c85d34f
+A	lib/ClassFinder/Plugin/Psr4FinderPlugin.php	f611a680fb91fd448b891c896bf29be7
+D	lib/ClassFinder/Prefix.php	
+D	lib/ClassFinder/Proxy.php	
+A	lib/ClassFinder/ProxyClassFinder.php	48dd2c2a91f1fc951cffe8f0f258cdc3
+A	lib/ClassLoader/AbstractCachedClassLoader.php	71eb80527f855fd39db5a81a24f04076
+A	lib/ClassLoader/AbstractClassLoader.php	4a582bd04f2646d52c01e20532a6ff35
+A	lib/ClassLoader/AbstractClassLoaderDecorator.php	87d886310527483a37ab58d7b7fcf8e7
+D	lib/ClassLoader/ApcAggressive.php	
+D	lib/ClassLoader/ApcCache.php	
+A	lib/ClassLoader/ApcClassLoader.php	e828ca01ebc6bea47cac07c331bf6470
+A	lib/ClassLoader/CacheNotSupportedException.php	06866e5bea8ebdcdfe869a07de95b4c9
+A	lib/ClassLoader/ClassLoaderInterface.php	f0e18bd751c339d5337f5c8402bf102b
+D	lib/ClassLoader/Interface.php	
+D	lib/ClassLoader/NoCache.php	
+A	lib/ClassLoader/WinCacheClassLoader.php	a29dae46f5b64476b75051ebaf1c259c
+A	lib/ClassLoader/XCacheClassLoader.php	7eeaef4612b9d81e3f122d0a6a8ac18e
+D	lib/Container/ContainerProxyObject.php	
+D	lib/Container/Identity.php	
+D	lib/Container/IdentityProxyObject.php	
+D	lib/Container/LazyServices.php	
+D	lib/Container/MagicGet.php	
+D	lib/Container/ProxyObject.php	
+A	lib/DIC/ServiceContainer.php	c33f6da12a7558e446670ce04bd57df0
+A	lib/DIC/ServiceContainerInterface.php	f0ff5764114a4037013e1a1b90e0d87c
+A	lib/DIC/ServiceFactory.php	d191b1f84d4a4b79159ca6610d489ba7
+A	lib/DirectoryBehavior/DefaultDirectoryBehavior.php	6abb3fc7aa57e4a170d08ca8d9a980e2
+A	lib/DirectoryBehavior/DirectoryBehaviorInterface.php	d1c8b469028283a1151f1eb6fdde2195
+A	lib/DirectoryBehavior/Psr0DirectoryBehavior.php	a688f28accf5ccc394a81940800d86ea
+A	lib/Discovery/CachedClassMapGenerator.php	b361bee796995f52feaaa8f5f2677324
+A	lib/Discovery/ClassMapGenerator.php	99f7f97e182a8faaa20ab5c791ef24ad
+A	lib/Discovery/ClassMapGeneratorInterface.php	3e147057ed847372884b0feb87246fb2
+A	lib/Discovery/ComposerDir.php	4677a6b208805aa12b9254e3240d5efe
+A	lib/Discovery/ComposerJson.php	afd92acea8597d6c771037097c14ede2
+A	lib/Discovery/ComposerJsonTargetDir.php	3e27c9f60e704dc9d9d12b3b305eea21
+D	lib/Discovery/DirScanner.php	
+A	lib/Discovery/FileInspector.php	5b49b9ae9ef33b39bf54f25de2d3e0b5
+A	lib/Discovery/WildcardFileFinder.php	af9a90b63855ca6180a307f660ef1de1
+A	lib/Drupal/xautoload/Tests/EnvironmentSnapshotMaker.php	5d5335720b06285d6ef9a6846dc292b5
+M	lib/Drupal/xautoload/Tests/XAutoloadUnitTestCase.php	bf4385526760a31458892c18a64bf48d
+M	lib/Drupal/xautoload/Tests/XAutoloadWebTestCase.php	73ff652aea09f27e09c566afc17977cd
+A	lib/DrupalSystem/DrupalSystem.php	2aa975775c16ccbfdbaa471aa6a6262d
+A	lib/DrupalSystem/DrupalSystemInterface.php	39ee8c2dcf526d855bdbbbfd73e483e2
+A	lib/DrupalSystem/MockDrupalSystem.php	7af324a7831d88f0ac8978338086e05a
+A	lib/FinderOperation/FinderOperationInterface.php	77c0c65334a154bc08bfd166e7fd21cd
+A	lib/FinderOperation/HookXautoloadOperation.php	b87092e30953b3e2293dc6315c9da283
+A	lib/FinderOperation/LoaderSetFinderOperation.php	b684443cd738cbd8324427b3122f965e
+A	lib/FinderOperation/RegisterActiveExtensionsOperation.php	bcb8a683b6c3f0ce8b5e7db2ed2c0792
+A	lib/FinderOperation/RegisterExtensionsByInfoOperation.php	0bbb461e4736e030dfa85847010a582b
+A	lib/FinderOperation/RegisterExtensionsByNameOperation.php	82ef17484a18970b48c5a27fbff27502
+D	lib/FinderPlugin/CheckIncludePath.php	
+D	lib/FinderPlugin/Interface.php	
+D	lib/FinderPlugin/SkipModuleExists.php	
+D	lib/FinderPlugin/WithKillswitch.php	
+D	lib/InjectedAPI/findFile.php	
+D	lib/InjectedAPI/hookXautoload.php	
+D	lib/LoaderFactory.php	
+D	lib/LoaderManager.php	
+M	lib/Main.php	f5f4b55c17473bda1a0c7617cee41902
+D	lib/MissingDirPlugin/DrupalExtensionAbstract.php	
+D	lib/MissingDirPlugin/DrupalExtensionNamespace.php	
+D	lib/MissingDirPlugin/DrupalExtensionPrefix.php	
+D	lib/Mock/InjectedAPI/findFile.php	
+D	lib/RegistryWildcard/RecursiveScan.php	
+D	lib/ServiceFactory.php	
+M	lib/Util.php	5b72456c41a32e3dc56564d4393da865
+A	phpunit.xml.dist	d71504eee0db71852ccc3a2f7bfc906b
+A	tests/bootstrap.php	004608db7608bfb2c1d7d4bc142980b0
+A	tests/fixtures/WildcardFileFinder/handlers/bar.inc	ce407ff5715c837d02b1aba7975bf512
+A	tests/fixtures/WildcardFileFinder/handlers/bar.php	ce407ff5715c837d02b1aba7975bf512
+A	tests/fixtures/WildcardFileFinder/handlers/foo.inc	ce407ff5715c837d02b1aba7975bf512
+A	tests/fixtures/WildcardFileFinder/handlers/sub/foo.inc	ce407ff5715c837d02b1aba7975bf512
+A	tests/fixtures/WildcardFileFinder/misc/abc	d41d8cd98f00b204e9800998ecf8427e
+A	tests/fixtures/WildcardFileFinder/misc/foo.bar	d41d8cd98f00b204e9800998ecf8427e
+A	tests/fixtures/WildcardFileFinder/misc/sub/xyz	d41d8cd98f00b204e9800998ecf8427e
+A	tests/fixtures/WildcardFileFinder/modules/foo.inc	ce407ff5715c837d02b1aba7975bf512
+A	tests/fixtures/WildcardFileFinder/modules/sub/foo.inc	ce407ff5715c837d02b1aba7975bf512
+A	tests/fixtures/WildcardFileFinder/modules/sub/sub/foo.inc	ce407ff5715c837d02b1aba7975bf512
+A	tests/fixtures/WildcardFileFinder/modules/sub/sub/sub/foo.inc	ce407ff5715c837d02b1aba7975bf512
+A	tests/fixtures/WildcardFileFinder/tests/foo.inc	ce407ff5715c837d02b1aba7975bf512
+A	tests/fixtures/WildcardFileFinder/tests/foo.test	ce407ff5715c837d02b1aba7975bf512
+A	tests/fixtures/WildcardFileFinder/tests/sub/foo.test	ce407ff5715c837d02b1aba7975bf512
+A	tests/fixtures/WildcardFileFinder/tests/sub/sub/foo.test	ce407ff5715c837d02b1aba7975bf512
+A	tests/fixtures/WildcardFileFinder/tests/sub/sub/sub/foo.test	ce407ff5715c837d02b1aba7975bf512
+A	tests/lib/ClassFinderAdapterTest.php	506dee4edf1be77765da29f026f1958c
+A	tests/lib/ClassLoaderTest.php	9688889ffafba44366526869c6df239a
+A	tests/lib/DiscoveryTest.php	663ca811442c969c58af1839d0c5ff40
+A	tests/lib/DrupalBootTest.php	ee7c06125b38c51c30f0af3629c6aa27
+A	tests/lib/Filesystem/StreamWrapper.php	43e9b7c659008972635c077fd0e5c2ff
+A	tests/lib/Filesystem/VirtualFilesystem.php	b312cefb63693d1c98709f49d3cea415
+A	tests/lib/FinderOperation/BootPhase.php	34a8f31d28fa627d4e6d6348bc43ddb4
+A	tests/lib/FinderOperation/MainPhase.php	035c50dff63020b7c5a469bbd8ff5160
+A	tests/scripts/drupal-apc.php	359f6814f574ab87556f2c92a33fd567
+D	tests/test_1/lib/ExampleClass.php	
+M	tests/test_1/xautoload_test_1.info	f2a283c2f4105322c812a5c2fd177189
+M	tests/test_1/xautoload_test_1.module	b80467a685c7eceace331a8193e389ba
+D	tests/test_2/lib/Drupal/xautoload_test_2/ExampleClass.php	
+M	tests/test_2/xautoload_test_2.info	2faf2cc98e535201126c5697795b5d10
+M	tests/test_2/xautoload_test_2.module	88c04419ade0bc03819b3c014e89e6e1
+A	tests/test_3/lib/ExampleClass.php	b84e5faa0ec43b61d6216fd174849319
+A	tests/test_3/xautoload_test_3.info	b76d2fd86bf7dd22d7e37eadee7278df
+A	tests/test_3/xautoload_test_3.module	c04612849516ee6283d612c17f5da1d5
+M	xautoload.api.php	1d49cfce21ef1380af05fb0fd1764b9a
+M	xautoload.early.inc	980b7f9b75147bc7637384d22330052a
+A	xautoload.early.lib.inc	766e98a3bcb5c61c62be8edc1547f556
+M	xautoload.info	be98e710632e8f72924032c658b6a479
+M	xautoload.install	41565cec6f2a728744a3166fded84d06
+M	xautoload.module	894f967c31b3f142f36f32bfe2580158
+A	xautoload.system.inc	208313dc55a4e6a449b13e5dac1139ed
+A	xautoload.ui.inc	45d87b93f15c6262a95c62042624a5b6

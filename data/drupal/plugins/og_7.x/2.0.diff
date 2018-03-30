@@ -1,0 +1,15 @@
+M	includes/og.field.inc	eac0a3e8cb5f273a5a4b9ea54b434f59
+A	includes/views/handlers/og_handler_filter_user_roles.inc	13c586da4665d52730744618f591aaa5
+M	includes/views/og.views.inc	d9b91a2609cb3fdd4b1266e9214a3554
+M	og.info	e7235047f0647682a4614e1d180f4321
+M	og.module	f0dc5c14e5c93d5e718013fea586a23b
+M	og.test	12aa307fedde685c30e23d53e2832f27
+M	og_access/og_access.info	30c213672b8eb8b472abc9b3e2544e7f
+M	og_context/og_context.info	bd9c0ddf63e42aa16353bd278e322295
+M	og_example/og_example.info	55b8e24c27a2f7c608979568b3fccc71
+M	og_field_access/og_field_access.info	e9b5b2696a037a8508a210e6263ec2b5
+M	og_register/og_register.info	507d2a1ff568b1cc71df9854c6f41c28
+M	og_ui/og_ui.admin.inc	9e23c61024dcc48cf234163410b3231e
+M	og_ui/og_ui.info	cede33eb4fb909652273439e152adb83
+M	tests/og_test.info	39de21b83b5421461fd1b51f93c8d5fc
+M	tests/og_test.module	61342643013e985253ca2ce24f81b5ab

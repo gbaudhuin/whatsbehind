@@ -1,0 +1,12 @@
+A	.cvsignore	61e0bdf7e1b43c5c93d9488b22e04170
+A	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+A	README.txt	26cc329e17bf38d9b1fc65188044855a
+A	includes/views-ticker-view.tpl.php	401257bbd9eaa8d7196a9d7c7cc4ae47
+A	includes/views_ticker.views.inc	062b4cbf50b180e4a7b30e55a10c7024
+A	includes/views_ticker_style_plugin.inc	cd61b36363b953fde04a2e4b162b80da
+A	js/views.ticker.bbc.js	b25bde99949b6ec3157ed16f7e823e82
+A	js/views.ticker.fade.js	868e5b0c01ffc556423b12cc04822b06
+A	js/views.ticker.scroller.js	47f0661a63dbaa3ad1d199065e7010c6
+A	views.ticker.scroller.css	1cc6b783fcfe1da81af48e75815f4e23
+A	views_ticker.info	f0ba30b344de74b0b6f9de9c7a25e7bc
+A	views_ticker.module	73161053ddc2bb57c7dd1ff09cd4dfba

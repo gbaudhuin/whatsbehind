@@ -1,0 +1,11 @@
+M	acquia_connector.info.yml	ad83d620a759e61c644d9b69ef7188ff
+M	acquia_connector.install	e677344b9aa66fee4088ad1f41a8876f
+M	acquia_search/acquia_search.info.yml	7820b49ffdd28d53f277d50c8a0fc288
+M	acquia_search/src/EventSubscriber/SearchSubscriber.php	e8ae78e20f90e8a8415c66ea4a8f6e66
+M	config/install/acquia_connector.settings.yml	44051732a194bd2ee0a4e30180fa3b17
+M	drush/acquia_connector.drush.inc	3c6ade1bca6482d3cf69354224023138
+M	src/Controller/SecurityReviewController.php	7c47feb9233b677333a5fb8c7b1e9dff
+M	src/Controller/SpiController.php	22a53d81a8a6bad3224dfa807b44d9e1
+M	src/Controller/VariablesController.php	5e863e3504ff1b6d690bf432898cc106
+M	src/Migration.php	8a6d8449e9f834d5dbd02436f6f7bb89
+M	tests/modules/acquia_connector_test.info.yml	36a7a22c00e0b3f2f91a2b2dc2d542c3

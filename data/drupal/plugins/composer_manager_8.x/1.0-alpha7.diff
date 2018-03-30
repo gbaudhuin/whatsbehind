@@ -1,0 +1,12 @@
+M	composer_manager.info.yml	2b67e713fad3fb2a69740f6f391f70f9
+A	composer_manager.links.menu.yml	f00c5244866f03acd7c1872729b0c66a
+A	composer_manager.links.task.yml	724a42a4852c65c46eb035b242c6dbd8
+D	composer_manager.local_tasks.yml	
+D	composer_manager.menu_links.yml	
+M	modules/symfony_dependency/symfony_dependency.info.yml	9b2ad2214ca37e67139cdcbef5d82c99
+M	modules/zendframework_dependency/zendframework_dependency.info.yml	d7a68e2cb6fb6f64dc799b68fc1ab16e
+M	src/AutoloaderSubscriber.php	e59543c42d450b05fe080f7733725e97
+M	src/ComposerFile.php	ff2e12a19a971365eecc50e19e90b6f2
+M	src/ComposerManager.php	bd1ce7743607a1e90971fcfecc08811e
+M	src/Controller/Packages.php	ca974dc6d128344ba627af12d5fe0b2e
+M	src/Form/SettingsForm.php	f4e1b7ddf07aa9c4c54cb50bba333e93

@@ -1,0 +1,5 @@
+A	media.migrate.inc	fa8d24430a1a71a79f75892db1726478
+M	migrate_extras.info	a59c41559e83288b00c3019a342be56d
+D	migrate_extras.install	
+M	migrate_extras.module	e1468cf1e633bfcb8287126a8d861a92
+A	rules.migrate.inc	0caa5a2b964c5a7c214879b570714826

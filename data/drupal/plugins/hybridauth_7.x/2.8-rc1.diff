@@ -1,0 +1,15 @@
+M	hybridauth.admin.inc	4528b68631c8721ff606e53274405e18
+A	hybridauth.api.php	82eb4d90a4fd253ae3eaa3ccb56c416d
+M	hybridauth.info	254e1f0538db1ab58bdddc22bfe57ae0
+M	hybridauth.install	0a72b469b9de138b82a61cca9205ec67
+M	hybridauth.module	958b899d74e828b88f5df9701fb6fad7
+M	hybridauth.pages.inc	47d8d44d4d12f0d0fb2fce84548e4d7f
+M	hybridauth.rules.inc	63edde039748937cca5884fbbecccdb7
+M	hybridauth.theme.inc	a0666d2dd531e713f0d445e6485e3af2
+M	hybridauth.tokens.inc	1d83b39b3cc3b1ca9b6c0c9fdf3a6ea5
+M	hybridauth_bonus/hybridauth_bonus.info	7d4aeff65bb970d83109746dcfc662e7
+M	hybridauth_bonus/hybridauth_bonus.install	227cfe7b7ec662aa0473d60d6ae63f62
+M	hybridauth_bonus/hybridauth_bonus.module	92f48fd254f3dd2fc5b13801558c753b
+M	hybridauth_ulogin/hybridauth_ulogin.info	7486563b0fb9741b5e5f732eebbcd2ee
+M	js/hybridauth.admin.js	bca9788b481d48bd1e41eef17eeb3b1b
+M	templates/hybridauth_widget.tpl.php	794fa894a42329e7bc3dc147e5466569

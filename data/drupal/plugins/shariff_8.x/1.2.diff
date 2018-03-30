@@ -1,0 +1,6 @@
+A	config/schema/shariff.schema.yml	6303399900d3f23d63dd265e3b906b44
+M	shariff.info.yml	e90e2e57098b1ece2ebfd38232a2ef2a
+M	shariff.libraries.yml	2d55b41804adce08ccfe15265327fa47
+M	shariff.module	254c48b83142b45fb3e78953ab534a5d
+M	src/Form/ShariffSettingsForm.php	502cf1a9253230a0c5cdff1a7aa0d650
+M	src/Plugin/Block/ShariffBlock.php	8f0d8309bb6096ba125d59450bb47726

@@ -1,0 +1,20 @@
+M	CHANGELOG.txt	a97f1d0d70f6b48900e6423f1551f439
+M	css/panels-dashboard.css	1a28182fbb77d608f6c3026002010889
+M	includes/callbacks.inc	70ea5cb52ae855b19f2ba2e71e91a84b
+M	includes/display-edit.inc	13d6c11415297a6acf673db43b2e9f7f
+M	panels.info	24dfc763f7251c6552796cc78f5bd7d3
+M	panels.install	c7edbf80bcc2b43ff9bf47c8defeb6b8
+M	panels.module	00e8a8fad8906e876389f0175746d500
+D	panels_export/panels_export.css	
+D	panels_export/panels_export.info	
+M	panels_export/panels_export.module	d41d8cd98f00b204e9800998ecf8427e
+M	panels_mini/panels_mini.admin.inc	57cfdd9245e1f4129ebcec1d29a360a0
+M	panels_mini/panels_mini.info	81c3a90842b7e46c0664486a17584497
+M	panels_mini/panels_mini.install	91255dc1dd1308cf4d2d9fdf9ae975b7
+M	panels_mini/panels_mini.module	c5f345dd710fa34a33712a60bb25af3f
+M	panels_mini/plugins/content_types/panels_mini.inc	81cdc6318ad05aca9cc948314c7e63b9
+M	panels_node/panels_node.info	6689689bedbf1632387515fad506f79a
+M	plugins/styles/corners/rounded_corners.inc	704f6b96bf5a47090775f0fccc124f41
+M	plugins/task_handlers/panel_context.inc	60e833ae00dc3acccc470ad14e1171b4
+D	plugins/tasks/panel_page.inc	
+M	templates/panels-dashboard.tpl.php	fa72bfdd83e017b4c4337b20166c7c83

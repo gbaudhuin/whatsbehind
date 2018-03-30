@@ -1,0 +1,8 @@
+M	CHANGELOG.txt	26de3b4518166e33ace0e8eebc7121b2
+M	fences.admin.inc	c3b70cd49a76266ca2670167abbdcae3
+M	fences.api.php	fe8bfd740ee77cb33e63bc247ffe215e
+M	fences.fences.inc	eb7536e630bb6d0f66fd37652b08aaa0
+M	fences.info	93edc3da988b9f889d82a8e79fb95009
+M	fences.module	14a349dc7011b75bc527d2cd2c6ce8cd
+A	templates/field--fences-div-div-div.tpl.php	8c60e8f2d44b789c244fceb58ddf1f49
+M	templates/field--fences-figcaption.tpl.php	133901587cad1757a71e8a46b38cd719

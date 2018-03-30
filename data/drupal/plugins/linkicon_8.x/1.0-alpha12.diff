@@ -1,0 +1,8 @@
+M	css/linkicon.css	1149762f0b1f0d9a0640b515ca99e19e
+D	lib/Drupal/linkicon/Plugin/Field/FieldFormatter/LinkIconFormatter.php	
+D	lib/Drupal/linkicon/Plugin/Field/FieldType/LinkIconItem.php	
+D	lib/Drupal/linkicon/Plugin/Field/FieldWidget/LinkIconWidget.php	
+M	linkicon.module	1fa825d99cc7e8a123c825aed203ce10
+A	src/Plugin/Field/FieldFormatter/LinkIconFormatter.php	b541c8c06057cc4800aa1c56759232a6
+A	src/Plugin/Field/FieldType/LinkIconItem.php	4609b52eb08721f6577773625aa13078
+A	src/Plugin/Field/FieldWidget/LinkIconWidget.php	baab903fffe597b08d624eb74143037f

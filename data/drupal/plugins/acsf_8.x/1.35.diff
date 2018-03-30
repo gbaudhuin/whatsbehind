@@ -1,0 +1,13 @@
+M	acsf.drush.inc	019ac80bd41800bf0f116116103c0c6b
+M	acsf.info.yml	c61bd044cf6999460af17f2a59b94cae
+M	acsf_duplication/acsf_duplication.info.yml	67db04f2e951ce0f313f1a19ccd326cf
+M	acsf_init/lib/cloud_hooks/common/post-db-copy/000-acquia_required_scrub.php	13161d146d7ee51f6cc19ba72dc56eab
+M	acsf_sso/acsf_sso.info.yml	454a7df67c42f24a747a50a6738176b0
+M	acsf_sso/acsf_sso.install	17d487b6ca11e1f6244a09448e3fa3c3
+A	acsf_sso/acsf_sso.services.yml	153ec670c86c4068e67a7f83b69a339e
+A	acsf_sso/src/EventSubscriber/SamlauthUserSyncSubscriber.php	c326489f97f168bf84ed6d889d747b5c
+M	acsf_theme/acsf_theme.info.yml	96580ca3e4a11e3287894e51710fff51
+M	acsf_variables/acsf_variables.info.yml	77d39f1d81096221079d82df30df63db
+M	build_info	29bb6fc1df5bc60e1ea6080b55b1e3c5
+M	src/AcsfConfig.php	c90b43edb8b481fb1205bb6953061ed2
+M	src/AcsfConfigDefault.php	2474ba776cbbfd1eaf8b47397b2c5550

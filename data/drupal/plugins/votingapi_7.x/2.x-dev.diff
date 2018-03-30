@@ -1,0 +1,6 @@
+M	views/votingapi.views_default.inc	a3847affd4e783fb46da1a30d811fed7
+M	votingapi.admin.inc	3e6289633f83528e0fa3becff269034f
+M	votingapi.api.php	b4ce3fcdb00565fe8554adbf90b0d25a
+M	votingapi.info	0fec23bf6da8376f74979d91fe7613ef
+A	votingapi.migrate.inc	d50cde1537653d400dd76460c39de9f2
+M	votingapi.module	20233a16b7aca3e6a905f12d2033fc69

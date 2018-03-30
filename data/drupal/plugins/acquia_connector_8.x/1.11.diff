@@ -1,0 +1,8 @@
+M	acquia_connector.info.yml	cec5b2efa1f5aa5732e7f52bd13f70d4
+M	acquia_search/acquia_search.info.yml	358b50cac7c97e84b73aaa1c5cc76126
+M	acquia_search/acquia_search.module	9eaee816b2d986e8fb7a6dedc968acbf
+M	acquia_search/config/optional/views.view.acquia_search.yml	312b017c4320d1e46d0a4c22edaaadaf
+M	acquia_search/src/EventSubscriber/SearchSubscriber.php	171263dabad3960b7490973ccc2aabd4
+M	acquia_search/src/Plugin/SolrConnector/SearchApiSolrAcquiaConnector.php	68ef2d2c672f0505f099f19f392160bc
+M	acquia_search/tests/modules/acquia_search_test/acquia_search_test.info.yml	cbaad4d7cf20163fc050526cce2f806a
+M	tests/modules/acquia_connector_test.info.yml	0bcaf2cbdb45b863889df9775c34c130

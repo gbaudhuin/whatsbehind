@@ -1,0 +1,20 @@
+M	.travis.yml	7164ff5d6e4781e09cab0effa93679ab
+M	acquia_connector.info.yml	c74aa9725de6429e2e275a9965abc455
+M	acquia_connector.install	21d6568e9da592120036d862d1f79e99
+M	acquia_connector.module	93550c785c7e8b441ddc795c0ff24db6
+M	acquia_connector.routing.yml	7af1da07b7cd7409a0bdf184e1427936
+M	acquia_search/acquia_search.info.yml	f4e2cda9827a975fbd59052095e41c66
+M	acquia_search/tests/modules/acquia_search_test/acquia_search_test.info.yml	9304aa5e195a10f4fb6f540c5ef10610
+M	config/install/acquia_connector.settings.yml	54d84e9b8dd400d46275b502e4325ecf
+M	config/schema/acquia_connector.schema.yml	2d81d906cf384f4207d2aee05aba8897
+D	src/Controller/MigrateController.php	
+M	src/Controller/SpiController.php	e626cb53fe216b38d6f218c7d488c52d
+D	src/Form/MigrateForm.php	
+M	src/Form/SettingsForm.php	eab303caed99117be2c02413a2c9af25
+M	src/Form/SpiChangeForm.php	2a5b901442d7dd5efe658726d04f8fa1
+D	src/Migration.php	
+M	src/Tests/AcquiaConnectorModuleTest.php	9f464682653d2ef4df3a0c363fdfd827
+M	src/Tests/AcquiaConnectorSpiTest.php	bbf56a474105dcb83ce89b28da2fbf51
+M	tests/modules/acquia_connector_test.info.yml	e4dae057effc89e08a6667dd895853ce
+M	tests/modules/acquia_connector_test.routing.yml	006b2e11748d2810e01944d8934c4bca
+M	tests/modules/src/Controller/NspiController.php	5d079e1a51d08ca1eca477b2d67689a6

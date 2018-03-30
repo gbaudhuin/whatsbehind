@@ -1,0 +1,12 @@
+M	README.txt	660d129f01f0251e45aecc33f7f16a94
+M	commerce_stock.info	6034ffce641540645d0bd3fff1261bbd
+M	commerce_stock.module	9224f7ce2f86bce8cd576965dd5c2482
+M	commerce_stock_ui.info	90be8eacfbae8cf9c1ffe55f920a97da
+M	commerce_stock_ui.module	3974a5fe750986dcb604d2f656ad5d8e
+M	modules/commerce_sdf/commerce_sdf.info	d0504eaf7fbe127e7de426132caeee3b
+M	modules/commerce_ss/commerce_ss.info	a068ebb3b14027b88e0976bd7dc6c2de
+A	modules/commerce_ss/commerce_ss.install	5d586daabb3ad38d8f80639f5d347d16
+M	modules/commerce_ss/commerce_ss.module	8e39f3fb5c64795b2c4f5efb11b5d732
+M	modules/commerce_ss/commerce_ss.rules_defaults.inc	736098d76c3304cf2331a33b2a7e722c
+M	modules/commerce_ssr/commerce_ssr.info	00902523146cf21eaabd2eaad11ee7cf
+M	modules/commerce_ssr/commerce_ssr.rules_defaults.inc	017d219a2d3c3d56d879a830ef2f7d90

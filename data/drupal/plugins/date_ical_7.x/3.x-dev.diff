@@ -1,0 +1,7 @@
+M	README.txt	2d95aaf5a2a6badd8d850e60e914c304
+M	date_ical.info	39f6f293a13acf8b6c958f4e11b821fe
+M	date_ical.module	7d5b2e19c7fb0a0bce4b0e82f40d7c7d
+M	date_ical.utils.inc	9d7f98045b925e47dad3f8f0c98f6225
+M	includes/date_ical_plugin_row_ical_fields.inc	e24980f947b19731ba2517da3074c6a4
+M	includes/date_ical_plugin_style_ical_feed.inc	f509d13d7637bacbb3eac07bf9e43d23
+M	libraries/ParserVcalendar.inc	1b33c827279da5b0faa06a26c79ce0a9

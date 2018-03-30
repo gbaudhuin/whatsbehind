@@ -1,0 +1,24 @@
+M	backup_migrate.info.yml	6ac80d1a3bbf835ac5f2a2276b741be2
+M	src/Config/DrupalConfigHelper.php	a86d017eb22e394c1832d908e80bbd5f
+M	src/Controller/ScheduleListBuilder.php	d41b9e93675d229b029643c3b481ce51
+M	src/Entity/WrapperEntityBase.php	b8456b8679c0ea60464daee10f12da1e
+M	src/Filter/DrupalUtils.php	79822cfc2bf3d045be7c4b1350ffd931
+M	src/Form/BackupMigrateQuickBackupForm.php	50202ca320948ca91eba538bc4408a34
+M	src/Form/BackupMigrateRestoreForm.php	cf576e4600bedb446c30c684c0d7ad56
+M	vendor/autoload.php	ec1e42e172fdcc6323cf104b0102c60b
+A	vendor/backupmigrate/core/.gitignore	a1155c508134e9bda943ae266aee1819
+M	vendor/backupmigrate/core/src/Destination/BrowserDownloadDestination.php	369f60e40bbb04b521a77576913e5a1b
+M	vendor/backupmigrate/core/src/Destination/DirectoryDestination.php	a335b08b6274719b025b71b23b6c0ada
+M	vendor/backupmigrate/core/src/Destination/SidecarMetadataDestinationTrait.php	37f66634195cf9a2e4550486b5a1ca20
+M	vendor/backupmigrate/core/src/Filter/CompressionFilter.php	ea8bc56f8f30933538ccb4d5ee553886
+M	vendor/backupmigrate/core/src/Filter/MetadataWriter.php	a4aed53820aaae9b29644571d92d043a
+M	vendor/backupmigrate/core/src/Main/BackupMigrate.php	195925493fe0d055e004c0969c44fea8
+D	vendor/backupmigrate/core/src/Service/ServiceLocator.php	
+D	vendor/backupmigrate/core/src/Service/ServiceLocatorInterface.php	
+M	vendor/backupmigrate/core/src/Source/MySQLiSource.php	cec6d87f67bdf15c3309e045bd0c2ce6
+M	vendor/backupmigrate/core/tests/Source/MySQLiSourceTest.php	4a172e54d1521976ade8871a3e6b155b
+M	vendor/composer/ClassLoader.php	8f6f3670ec1f76302ca180d0b92b424b
+A	vendor/composer/LICENSE	9b01fc9e0129adc080344653fbcbbc0f
+M	vendor/composer/autoload_real.php	3cbe68527359c095271aeb7a5aa2d04c
+A	vendor/composer/autoload_static.php	362a7a93d8bce235fc01c81789e314e0
+M	vendor/composer/installed.json	238e68fe75aa3b46fdf48d4a1ff11cb6

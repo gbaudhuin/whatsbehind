@@ -1,0 +1,14 @@
+A	README.md	61b5d1eab34e8edc48ca3869fbb28995
+D	README.txt	
+M	includes/registration.field.inc	faeae1746ef3f8f107b930fb34f4cc33
+M	includes/registration.forms.inc	cdc7c04465c2c1cd498cc694732a7a1d
+M	lib/registration.entity.inc	ced068880fb9305c7ab722c4792b81f7
+A	lib/registration_type.controller.inc	0dfed8b8d61274b332ad748a5e447e10
+M	modules/registration_entity_access/registration_entity_access.info	7d8248fdd5e41450863f3830b1e39a2d
+M	modules/registration_views/registration_views.info	c90982024718c920bde6e04156ab73f6
+M	modules/registration_waitlist/registration_waitlist.info	b2eec737f2eccdfd87f254a6c7da4930
+M	modules/registration_waitlist/registration_waitlist.module	ab8f74181a0feeab2198f1d33f42edba
+M	registration.info	6e291e727477c853d7b4d606eb3a47fb
+M	registration.install	c4ae64338d0a521a963c90ebc5150e30
+M	registration.module	55b487a2535727e34a5ed3dfb6b98f13
+M	tests/registration_test_api/registration_test_api.info	792334f44f7bbbbf9b45496bbf55274f

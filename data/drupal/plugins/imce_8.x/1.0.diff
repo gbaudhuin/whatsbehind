@@ -1,0 +1,8 @@
+M	imce.info.yml	d87404a7c1287deddc356eb116350eca
+M	js/plugins/ckeditor/imce.ckeditor.js	d05ffcc94f4f7ffe9790d71dd7b3d20c
+M	src/Controller/ImceController.php	6aa9f71d333c2f53588348f09e45759e
+M	src/Form/ImceSettingsForm.php	f4de36b18e84c6fe1ec5b96c7099db6f
+M	src/Imce.php	84df7506070b97ad4c392990a1a755dc
+M	src/ImceProfileListBuilder.php	2609b5688ba292c67d34e65d6b1a695d
+M	src/Plugin/CKEditorPlugin/Imce.php	3efefc801631dafab71df461302c08c4
+M	src/Plugin/ImcePlugin/Resize.php	64c1c214d230402fe28b78c0a567b617

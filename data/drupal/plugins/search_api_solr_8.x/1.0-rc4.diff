@@ -1,0 +1,6 @@
+M	.travis.yml	4e256ff6bd0fded1ac14aeb44f48e269
+M	search_api_solr.info.yml	d188f0d3fa6ef93e0d6318e0e0b78f86
+M	search_api_solr_defaults/search_api_solr_defaults.info.yml	19f82d9c6f7f758859aadebdc78a178d
+M	src/Plugin/search_api/backend/SearchApiSolrBackend.php	17e03ff2c5412f87bb7490d3d9bfc345
+M	tests/modules/search_api_solr_test/search_api_solr_test.info.yml	45fe6980cc7d35489a609616cd9295bc
+M	tests/modules/search_api_solr_test_facets/search_api_solr_test_facets.info.yml	dde2b49ca0386dc02c58c39a3fd16861

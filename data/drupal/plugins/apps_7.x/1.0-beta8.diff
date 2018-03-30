@@ -1,0 +1,20 @@
+M	README.txt	84e052f1ed2855c38985cd73155e3ea4
+M	apps.api.php	11be4f70b1ef18948e40223755619a52
+M	apps.drush.inc	4d83f25867dd7b0373cc39075b2a96b3
+M	apps.info	a4907f52b8a6c80af103940078ad3669
+M	apps.install	e83ff61b2793475bc0e6e81cea183523
+M	apps.installer.inc	a56fe00a20f182310164146eea96d246
+M	apps.manifest.inc	433e3a2260e473911c61f1d30022081d
+M	apps.module	0edda709b2dc186c5861db551fdef7ba
+M	apps.pages.inc	9d8b083e398f29430d437c891c44e0b1
+M	apps.profile.inc	d27c03ae7f9a08925432aa33f9ab5009
+D	apps.register.inc	
+M	apps.updater.inc	f3b1b8c70db7d86b34572d0fbdec8c60
+M	apps.voting.inc	8fea69762db4b35d553359ca12c61f3f
+M	theme/apps-app-featured.tpl.php	9f4298d9cd207d413bd25ccbeffe90c7
+M	theme/apps-app-page.tpl.php	108b5864827713e4e520d03cd8bca532
+M	theme/apps-app-teaser.tpl.php	ba20133d93879cacda6c5c04a2537a7c
+M	theme/apps-install-page.tpl.php	614a93c34f403701244895d79c4e1478
+A	theme/apps-market-page.tpl.php	97991133824affadeab9de4299840508
+A	theme/apps-server-item.tpl.php	ac789e5e5641c6455f7ddc810d917c49
+M	theme/apps.theme.inc	36888bea0e28b8f3408278149d2e748d

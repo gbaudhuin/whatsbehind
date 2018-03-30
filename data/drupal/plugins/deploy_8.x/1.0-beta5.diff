@@ -1,0 +1,14 @@
+M	README.md	4af884f982fded27c093885f9512c622
+M	css/deploy.toolbar.css	ad6e77e436bb4f34dc3f2337b246c0db
+M	deploy.info.yml	bd6bcc20735017a4c8b5448f6b4b638c
+M	deploy.links.task.yml	0a75764edca1d7336985c977e1e64a59
+M	deploy.module	5f157f2dbd252e31b0b90e14c3ef066a
+M	deploy.routing.yml	2bdd6d24be94c4b0e6014543e327d85c
+M	src/Entity/Form/ReplicationDeleteForm.php	41d66bae704b451b2c9f438b4b7b881e
+M	src/Entity/Form/ReplicationForm.php	dabef499b1048f9c6de0f1fb1ef6fcfd
+M	src/Entity/ReplicationViewBuilder.php	bb100b6b1a97d010f8fad2021a08a4d8
+M	src/Entity/ReplicationViewsData.php	8a6cae3e1c3dc243b3dda906b4ddacc4
+M	src/Form/ReplicationActionForm.php	2239ec1979a4d36f1033780d1cc37c49
+M	src/ReplicationAccessControlHandler.php	845e24a4ab19432601d4479fae25ed85
+M	src/Tests/ReplicationEntityTest.php	17fb595e043e193a09f5d0b7a8dc370e
+M	tests/src/Functional/WorkspaceConflictReportingTest.php	052096c426a81abf749f57618baca4eb

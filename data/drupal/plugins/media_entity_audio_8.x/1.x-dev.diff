@@ -1,0 +1,6 @@
+M	media_entity_audio.info.yml	7a4aeb3aeba1a94b61fae00388d1ae6b
+M	media_entity_audio.module	6c833e34c8e55a03a1682681c038fad6
+M	src/Plugin/EntityBrowser/Widget/Upload.php	024e02015b816dc3d3a2f7f92ac9245c
+M	src/Plugin/Field/FieldFormatter/AudioPlayerHTML5.php	7b9e6b97195baa421247d9b6dfce2e10
+A	templates/media-audio-file-formatter.html.twig	aa10a8c5194e4eef59f67a8951373617
+D	templates/media-file-formatter.html.twig	

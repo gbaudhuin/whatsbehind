@@ -1,0 +1,12 @@
+M	monolog.info.yml	99e8ca134bfc1fea87f1f3dbee3fa1e3
+D	monolog.routing.yml	
+M	src/Logger/Logger.php	d9a3f406f77bf5f78572f85c04e51b1d
+M	src/Logger/MonologLoggerChannelFactory.php	b1fce47e51ebd72dc7b530e39804f789
+M	src/Logger/Processor/AbstractRequestProcessor.php	9e2978e31d7eeee78ea45468804e731a
+M	src/Logger/Processor/CurrentUserProcessor.php	9ec0ab0a4ff4865986c6973ea9568e33
+M	src/Logger/Processor/IpProcessor.php	3b4a0e3c2de5d843e375573ef9af9952
+M	src/Logger/Processor/MessagePlaceholderProcessor.php	1284228a37118b20c7572b7717e7fe5d
+M	src/Logger/Processor/RefererProcessor.php	54ddbbc6660819c1aa4df37d2481c95e
+M	src/Logger/Processor/RequestUriProcessor.php	69f0cf0e30f83f06e8cd8a4aabe1e352
+M	src/MonologServiceProvider.php	663de6ebcf0e3d5c9f6549c0784c7e02
+A	tests/src/Unit/Logger/LoggerTest.php	36c8c99170cfd2c51c9fc1f4af152bc6

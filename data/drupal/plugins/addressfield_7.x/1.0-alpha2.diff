@@ -1,0 +1,11 @@
+M	addressfield.info	884be5f529cfa53ef4ff4b7d35a6b16e
+M	addressfield.module	4b6d467c702fd3dc9731abd3f9c01ec1
+M	includes/addressfield_form.inc	2811f3b7226ea21d88f9b1a369c8bba7
+A	includes/addressfield_form_br.inc	e9fd0de3dfa86f45a859be0f32695b1b
+M	includes/addressfield_form_default.inc	82ad2077cee4c34f1a954dba7ac2bdff
+A	includes/addressfield_form_gb.inc	b3fefdb1de898c39c2e578bb477cfb3e
+M	includes/addressfield_form_us.inc	742498c08fe1b90bba7ff20762e3b6ee
+A	theme/addressfield-formatter--BR.tpl.php	7642479681171de1355d8d15db688467
+A	theme/addressfield-formatter--GB.tpl.php	d9445e64a2a59e4e17208065bb869472
+M	theme/addressfield-formatter--US.tpl.php	e1664ae09954b80fdb2fcb23c82f6f0d
+M	theme/addressfield-formatter.tpl.php	c1e6d84a4be1e89d62c466b82aac2702

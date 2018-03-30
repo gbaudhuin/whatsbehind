@@ -1,0 +1,64 @@
+M	CHANGELOG.txt	1aabc12e6bffbdf05e783afdb067d867
+M	README.txt	c749974b3e008dd67467b10885e724a4
+M	feeds.api.php	c0537d0f24de7f69a80eafa135abc72e
+M	feeds.info	9720845d1ff580070f18b64d2dafb022
+M	feeds.install	741706fbc83c6073f9208d31288c1499
+M	feeds.module	ae1f6f8d3b83735fc618468a00e3b980
+M	feeds.pages.inc	e69d9d92d5888e79d4cf4b8ce176c6bb
+D	feeds_fast_news/feeds_fast_news.data_default.inc	
+D	feeds_fast_news/feeds_fast_news.features.inc	
+D	feeds_fast_news/feeds_fast_news.feeds_importer_default.inc	
+D	feeds_fast_news/feeds_fast_news.info	
+D	feeds_fast_news/feeds_fast_news.install	
+D	feeds_fast_news/feeds_fast_news.module	
+D	feeds_fast_news/feeds_fast_news.test	
+M	feeds_import/feeds_import.info	fcb8e33408c3ef22376fd2a5aea0815b
+M	feeds_import/feeds_import.test	6d880382ebb84ab593b4705a85da0c9e
+M	feeds_news/feeds_news.info	5489cdcb4505a45ca39e0ca92f0c2ae1
+M	feeds_ui/feeds_ui.admin.inc	5f22d3a149280a7c725c43b8e6d775e0
+M	feeds_ui/feeds_ui.info	ff4f7d591630d21fc0d545f33ed20553
+D	includes/FeedsBatch.inc	
+M	includes/FeedsConfigurable.inc	ac178f8a944d9258a000b138f89e00cc
+M	includes/FeedsImporter.inc	ef6276c7512255e36817087fe7786fb6
+M	includes/FeedsSource.inc	6ffc0bfefc9518596ffdaa354ffa0c80
+M	libraries/http_request.inc	e6c5374df992a51623a4072ba14df5b0
+M	mappers/date.inc	8676a8aecd9a7beda62041ce1fd2b559
+M	mappers/field.inc	da628b6d5276820ec695bba7cbf1344e
+M	mappers/file.inc	7dea7d26ede896f32bed95c2d6f84d2c
+M	mappers/locale.inc	ab5c31fa9c22973acc9e32bbf6bfdfef
+M	mappers/og.inc	3fff117bfa66f470048dd9ec5284a7b3
+M	mappers/taxonomy.inc	77ebf75ff91d045af4af362da2a84267
+M	plugins/FeedsCSVParser.inc	988accbdd99ea5bdea605f01d53f63ab
+M	plugins/FeedsFeedNodeProcessor.inc	f15901e5b180562a4110f11e4fafc0f9
+M	plugins/FeedsFetcher.inc	edabe764325470375fff7fa34e49db2f
+M	plugins/FeedsFileFetcher.inc	28d7f196b16c03b71353d88d4b4c7bba
+M	plugins/FeedsHTTPFetcher.inc	3df19817c20d265ce77eb552467f2ee1
+M	plugins/FeedsNodeProcessor.inc	3f04c1cf72acb4d36423e5f5e0a2f6de
+M	plugins/FeedsOPMLParser.inc	7bd0f07b11df79ed59c4ad5a0fcc24dc
+M	plugins/FeedsParser.inc	e58d3853c0fd5c0a02f5fb9b0414cae9
+M	plugins/FeedsPlugin.inc	d30fd0475b617e3bb3b764a3ff85b375
+M	plugins/FeedsProcessor.inc	48848bc7626aaad7e1d5d7e43b3942fb
+M	plugins/FeedsSimplePieParser.inc	aa407e13167dae9d552454899a072e69
+M	plugins/FeedsSitemapParser.inc	06f99587816bd804e6920b7e795840da
+M	plugins/FeedsSyndicationParser.inc	e4d1242198144f498ef16480320b5ba3
+M	plugins/FeedsTermProcessor.inc	05ea0b1e81c810c95df1b3def97f7aeb
+M	plugins/FeedsUserProcessor.inc	6a407ebaaae2b1ed28df2e63901352f7
+M	tests/feeds.test.inc	46238dca05e4eaae0a6c7fd8912fbb37
+A	tests/feeds/batch/nodes1.csv	ed216fa13b48d34baf9f20ad3ab703f9
+A	tests/feeds/batch/nodes2.csv	b170d50d32078fda89d7a26693c8c1b8
+A	tests/feeds/batch/nodes3.csv	c51b3026c5afba3bece0210c2156c062
+A	tests/feeds/batch/nodes4.csv	b4e689ed80ee93ae546c52908f44df16
+A	tests/feeds/batch/nodes5.csv	33f4ed896727e97c95f1be17580e3758
+M	tests/feeds/users.csv	eacc2a05561383e612c78503cce05752
+A	tests/feeds_date_time.test	11b62db41529255872c00d8d5d1f61a5
+A	tests/feeds_fetcher_file.test	9200b9a9308aacb215fc0c8c493c0378
+D	tests/feeds_mapper_content.test	
+M	tests/feeds_mapper_date.test	ecab620ccf91436b469bba5207ee4545
+A	tests/feeds_mapper_field.test	f1525e90a5d7354719082707686abc32
+M	tests/feeds_mapper_link.test	2238a76eb088313fcca22387eff313fe
+M	tests/feeds_mapper_test.inc	01a6f0427e0f1b41e1086a2441a1141f
+M	tests/feeds_processor_node.test	0a0e5975e57848fd8233d88794bba72e
+M	tests/feeds_processor_term.test	ff0eb15a4f37ba19cdc3cd3a45997f42
+M	tests/feeds_processor_user.test	30f6ea0ab23edf1f4a1044149ab63c69
+M	tests/feeds_scheduler.test	99953e5b147aae9d421b9bc7f3031080
+M	tests/parser_csv.test	c15421cc969ef8966e3d89a3f53aecae

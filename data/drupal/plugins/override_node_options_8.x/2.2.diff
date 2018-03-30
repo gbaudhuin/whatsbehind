@@ -1,0 +1,13 @@
+A	config/install/override_node_options.settings.yml	cdf0754812d206c26ecf33f9398459c4
+A	config/schema/override_node_options.schema.yml	a836ab7c8bacc2e3bff0e7995e387dea
+M	override_node_options.info.yml	14572c21daaed51d42359850023094df
+A	override_node_options.links.menu.yml	bb1cd266bbb8de5ab83126a52623e0ba
+M	override_node_options.module	77d0bcd0c4fb1122c7594bba7bcbb168
+A	override_node_options.routing.yml	34711549473e809c752b155b82036473
+A	src/Form/NodeForm.php	cd2ba2baba0d349286c3603e0aa07dc3
+D	src/Form/OverrideNodeOptionsNodeForm.php	
+A	src/Form/SettingsForm.php	e6bc9960c311487df0064659672cf067
+M	src/Permission/OverrideNodeOptionsPermissions.php	cb898948e84c3fe0316ce182f39dd9da
+M	tests/src/Functional/BulkFormTest.php	cf8859dbfee284344dba3d6c51ed24ee
+A	tests/src/Functional/NodeFormTest.php	35d8387d1cfa86068b1c4c629377e0a8
+D	tests/src/Functional/OverrideNodeOptionsTest.php	

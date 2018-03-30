@@ -1,0 +1,9 @@
+M	entity.info	d23f7db930f81c628927476b91c2c6e2
+M	entity.module	838f43bf8a8db07d34151eb51d84a081
+M	entity_token.info	a5b8108abd5c272a69e5fc9ddc97c8a2
+M	includes/entity.wrapper.inc	e40894f9b83716008d0bb8d354680f80
+M	modules/callbacks.inc	157a781b8dcbf83d2129b24b300721ad
+M	tests/entity_feature.info	331a650fe475a7e27823067b2efd6083
+M	tests/entity_test.info	d67442e379bf69fb35000d6e87866408
+M	tests/entity_test_i18n.info	6beea95162ca2d153e9b86f368115ff2
+M	views/handlers/entity_views_handler_area_entity.inc	c1978e156d67c470be6254b601cdec3d

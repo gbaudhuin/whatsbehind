@@ -1,0 +1,14 @@
+M	README.txt	9ecaac2f7a2a060f8d94ae899e166eeb
+M	geofield.apachesolr.inc	4cf80754b6c8680844d6b0f47d883651
+M	geofield.info	e5682373aefb068c01156219a0ca57c8
+M	geofield.install	65e98a350f15cfea9448fd5b40e84f85
+M	geofield.module	8ecc396a5469f3e7ec43a11288161f1c
+M	geofield.widgets.inc	b98e8bfc3cb1d2065f6e1e771b1a7ee8
+M	modules/geofield_map/geofield_map.info	eb952233fa7b10d5f015336d264603bc
+M	modules/geofield_map/js/geofield_map.js	456fa2c183fb8321c71d891511da731a
+M	tests/geofield.test	29af3c65e1dd5b4090c49c78fc1d1e00
+M	tests/geofield_openlayers_test.info	4426684f20f78e8285f34933ddb603eb
+M	tests/geofield_test.info	5d1e9afb96ef3af943cd5ed81ae62004
+M	views/handlers/geofield_handler_field.inc	2d4eff681676cd55f06983c00b054859
+M	views/handlers/geofield_handler_sort.inc	644b77be806439de5bdd6b5f611b627a
+M	views/proximity_plugins/geofieldProximityManual.inc	2fe6b71c51b90062edf7701ffea2ead1

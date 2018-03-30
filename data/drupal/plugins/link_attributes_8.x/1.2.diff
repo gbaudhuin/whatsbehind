@@ -1,0 +1,8 @@
+M	link_attributes.info.yml	efe76f717458482d51b031cd2d0a90ac
+M	src/LinkAttributesManager.php	c3321a2fd1c6bea1be76535601345207
+M	src/Plugin/Field/FieldWidget/LinkWithAttributesWidget.php	8761ada0bfcff140408306d34fc22522
+A	tests/modules/link_attributes_test_alteinfo/link_attributes_test_alterinfo.info.yml	ebb748aa451f09d02a8a6413d5c206e1
+A	tests/modules/link_attributes_test_alteinfo/link_attributes_test_alterinfo.module	1cd216e527d2e9be4f627f6011fa66bb
+A	tests/src/Functional/LinkAttributesFieldTest.php	16eb21220ba4ddbd9445343004accfe7
+M	tests/src/Functional/LinkAttributesTest.php	92410d57af8879945e9adc017af99032
+A	tests/src/Kernel/InfoAlterTest.php	a8debc9995c9d2aa4cf89aa4edf039b3

@@ -1,0 +1,21 @@
+M	CHANGELOG.txt	f97f5ae3159d1a6eee96f8a8d691c816
+A	README.txt	7b26c682cb315ef2dc3092f4953b2d9e
+A	includes/views/manualcrop.views.inc	7b2341bb35bea2bfed53e61574154730
+D	jquery.imagesloaded/jquery.imagesloaded.min.js	
+D	jquery.imgareaselect/GPL-LICENSE.txt	
+D	jquery.imgareaselect/MIT-LICENSE.txt	
+D	jquery.imgareaselect/css/border-anim-h.gif	
+D	jquery.imgareaselect/css/border-anim-v.gif	
+D	jquery.imgareaselect/css/border-h.gif	
+D	jquery.imgareaselect/css/border-v.gif	
+D	jquery.imgareaselect/css/imgareaselect-animated.css	
+D	jquery.imgareaselect/scripts/jquery.imgareaselect.pack.js	
+M	manualcrop.admin.inc	4eba8f28d2d2d9830d396b8f59d98ebd
+A	manualcrop.api.php	a7dd933499ba21bf8a776692196fa8be
+M	manualcrop.css	e3674b8099bc074c49cb841ae92809aa
+M	manualcrop.helpers.inc	deb8fd0984056ec26adf70b5de9e392e
+M	manualcrop.info	df751c75ca31c3e84a6153eb0d129d2f
+M	manualcrop.install	1492852cde7fce92e94a6eb68d29a6ee
+M	manualcrop.js	01633ff0631073f941a510e137686f55
+A	manualcrop.make.example	8abc6f45a578693250f5dfbe72138989
+M	manualcrop.module	e09f89901e4d1cf12cd3afcbc5c25f2f

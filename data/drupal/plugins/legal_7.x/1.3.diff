@@ -1,0 +1,10 @@
+M	legal.admin.inc	7c9eacd0fa540ba33d38752e55a4e1a6
+M	legal.info	8fabf2f45864ec6c6f55f6c07580b678
+M	legal.install	add6b436f4e9cf38571883dd989c5df9
+M	legal.module	79512b085830356427e59190b4471379
+M	legal.pages.inc	45bb4f18a3dfc13a18d595cd99c54326
+M	legal.test	e73e3a839a8814de70ab921eb9cccc75
+M	views/legal.views.inc	6410edb64085a56cade3f8392f679643
+M	views/legal.views_default.inc	90ae5e4dd269ffd5fb136c364fd1d679
+M	views/legal_views_handler_field_exploded_list.inc	a1e7ab3128492c315ea9169cfebe8481
+M	views/legal_views_handler_field_unserialized_list.inc	979e3e66c7049079dd7f237b303bc553

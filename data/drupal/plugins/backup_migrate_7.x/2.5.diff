@@ -1,0 +1,9 @@
+M	README.txt	2578a316437e5912e3a042e3fd3d0042
+M	backup_migrate.info	8d0317542a2e53b5425992544d0504c6
+M	backup_migrate.install	f9eee882765551bf408239fde642e09f
+D	includes/db.inc	
+D	includes/db.mysql.inc	
+M	includes/destinations.file.inc	cbf926743105537dc196a435396b093a
+M	includes/destinations.inc	0f0d0f9e5703ddbfef0844cfb74cf371
+M	includes/files.inc	1628b601b5b3804aacadf96e3ea24b38
+M	includes/profiles.inc	abaa5a6ff07266e670916c099ef6bf6e

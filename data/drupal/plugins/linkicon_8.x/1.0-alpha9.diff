@@ -1,0 +1,10 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	42f586ff5cbb5a9e8a2d2774b876bb9c
+A	config/schema/linkicon.schema.yml	0ea99f7f3ba13cbb4f9b95939338f6d6
+A	css/linkicon.css	5360568497a959b6f065cd90f6800834
+A	css/linkicon.field_ui.css	5f3c22f164738c739aa971f90d69c652
+A	lib/Drupal/linkicon/Plugin/Field/FieldFormatter/LinkIconFormatter.php	98083b9d606393bdf110eed6a9f23d09
+A	lib/Drupal/linkicon/Plugin/Field/FieldType/LinkIconItem.php	ceb677392953a7120be0bf8f24f1959a
+A	lib/Drupal/linkicon/Plugin/Field/FieldWidget/LinkIconWidget.php	c285cb967665347a24470d9efe21db7f
+A	linkicon.info.yml	e537691fe5bbe0508a7c31f086436ae4
+A	linkicon.module	8b54f5477179a03e219137638a976546

@@ -1,0 +1,13 @@
+M	shortcode.info.yml	45ddcecc12cd0c950aa0ee33f17a52e8
+M	shortcode_example/shortcode_example.info.yml	2ded1bf783452ac2901ae03539d31f8d
+M	shortcode_example/src/Plugin/Shortcode/BootstrapColumnShortcode.php	3daa4c72f8ebb47ac54a9de3edaa8162
+M	src/Plugin/Filter/Shortcode.php	d76e75608e490968c4ea09e57e88827f
+M	src/Plugin/Shortcode/ClearShortcode.php	bac084d548afa122687bdca79bc2c98e
+M	src/Plugin/Shortcode/DropcapShortcode.php	bf8661c09af334564029e0e5132d1f9f
+M	src/Plugin/Shortcode/HighlightShortcode.php	a41755ae8038e431d1ba823bd1492cce
+M	src/Plugin/Shortcode/ImageShortcode.php	1f50356df11b8e865148a8f591096687
+M	src/Plugin/Shortcode/ItemShortcode.php	77a2a9841682a6a5aa4b4fb61e5847d3
+M	src/Plugin/Shortcode/LinkShortcode.php	2f6c7a712cb9ecab69b73a7f4607107e
+M	src/Plugin/Shortcode/QuoteShortcode.php	65115128539138f782539416b1458c54
+M	src/Plugin/Shortcode/RandomShortcode.php	b97ada876d265559bb80b1fe023d1a18
+M	src/Shortcode/ShortcodeService.php	85b871fed56255413746a3037cd10b8d

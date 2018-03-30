@@ -1,0 +1,7 @@
+M	README.txt	f3cf65bffbcbb2c842597e8e393d9d17
+A	select_or_other.api.php	e17e1fe1515c202c1e5cc0d5e7cc034e
+M	select_or_other.field_widget.inc	7089f3a5fc0bad9da71157d9adfe1eac
+M	select_or_other.info	c4d8b9987f9f48184a637c0717455deb
+M	select_or_other.module	5a1b1c3efd9d669e5dcb0112bda01a15
+D	tests/select_or_other_admin.test	
+A	tests/select_or_other_taxonomy.test	97117600c3d0d6714a231b39c271df75

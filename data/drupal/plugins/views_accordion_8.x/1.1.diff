@@ -1,0 +1,9 @@
+M	README.txt	f6d8d815d5af511a268bced6b82ffbf5
+A	config/schema/views.style.views_accordion.schema.yml	7231dadea92c633020542d3cc9d04867
+M	src/Plugin/views/style/ViewsAccordion.php	a5175345ed9a7e743193ac0da65fe693
+A	tests/modules/views_accordion_test/config/install/views.view.views_accordion_test.yml	9165256b2267c660d1c9ae79a4ea3c8a
+A	tests/modules/views_accordion_test/views_accordion_test.info.yml	eb5c5efbef2624b77b661fb7a532c6b2
+A	tests/src/Functional/ViewsAccordionTest.php	d009f379f05a6f49e800205808cef116
+A	tests/src/FunctionalJavascript/ViewsAccordionTest.php	1b7073d6ff492b862ef49447b08c7c30
+M	views_accordion.info.yml	4beb034e2d198e18d974b9161ceea62f
+M	views_accordion.module	5a14878e27b35555a4480d606bb2b73b

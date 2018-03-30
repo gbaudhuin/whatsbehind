@@ -1,0 +1,17 @@
+M	config/schema/crop.schema.yml	de0dc8c12d83dc1b01b6fc855aa627f6
+M	crop.info.yml	ba89f799947294bf73b020d9c7d01b28
+M	crop.install	451a96481105880c2bff218a7af8f83b
+M	crop.module	6ec21a2d6d579c4a3abeb2a62ad61c0d
+M	modules/crop_media_entity/crop_media_entity.info.yml	d0f1c572547061c91e49fc0dc03e3bd1
+M	modules/crop_media_entity/crop_media_entity.module	73cc3e8fbdaa447bf88dcfaa69659c1e
+A	modules/crop_media_entity/src/Plugin/Crop/EntityProvider/MediaEntity.php	046a5581db0f310d6799c1a802dcb960
+M	src/CropInterface.php	cf0c7e236fcd40b81ca76c6b78ea89a8
+M	src/CropStorage.php	cf1ebfc38e8131954a0db63ce902037c
+M	src/CropStorageInterface.php	e88aa38373ad24d0c7138d8b94e11576
+M	src/Entity/Crop.php	5a41c75c340d49dd5fb61f6578f70d64
+M	src/Form/CropTypeDeleteForm.php	3f8e30776a6b6a790ea33cd2bcac8583
+M	src/Form/CropTypeForm.php	2ac22984fd7bd90376b4e6fd6f4518ab
+D	src/Plugin/Crop/EntityProvider/Media.php	
+M	src/Plugin/ImageEffect/CropEffect.php	9da34f58b474d7eee9741ab3ff4cc5de
+A	src/Tests/CropFunctionalTest.php	d024f8b0f84f572989920222ae235825
+D	tests/src/Functional/CropFunctionalTest.php	

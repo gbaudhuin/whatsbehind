@@ -1,0 +1,14 @@
+D	asset_injector.css	
+M	asset_injector.info.yml	4908a0d1e4deb24a83c3b0615dbeb277
+M	asset_injector.install	12a12c38e64f3748297c08d87d3cb388
+D	asset_injector.js	
+M	asset_injector.libraries.yml	b3b87685ca6621c30642e571e6b472d2
+M	asset_injector.routing.yml	f5c35d95456c74a9ab572bc01b39dc62
+A	css/asset_injector.css	efcf0470a227e08afe61352132020dc4
+A	js/asset_injector.ace_editor.js	9dcfa1d53eddd1a6f31728e556aa7aac
+M	src/AssetInjectorListBuilder.php	2a5f47bf727ba3f0f3971f9b27e8a1d4
+M	src/Entity/AssetInjectorCss.php	38e4a680299dc74a8d78d57c7af8dce0
+M	src/Entity/AssetInjectorJs.php	353d8d697090020b563bf4e8dff0a0b6
+M	src/Form/AssetInjectorFormBase.php	ce50b02434acf3905c6bbbc5026a686b
+M	tests/src/Functional/AssetInjectorCssTest.php	3f316f40b4de39e82d2706c7d4b000a5
+M	tests/src/Functional/AssetInjectorJsTest.php	285a77a71b3dabe837efafd108f8e247

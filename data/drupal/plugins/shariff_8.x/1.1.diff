@@ -1,0 +1,8 @@
+M	shariff.info.yml	0885ef6f4beceda71fc4d3769b603a71
+M	shariff.install	98974e60644171e577a76ef0b3cf04a9
+M	shariff.module	1f6252e6029584da6d46714186ba010b
+M	src/Form/ShariffSettingsForm.php	5e0b8d81731c67f64a8357f41a00fc80
+M	src/Plugin/Block/ShariffBlock.php	7cfb67ea604f8bc98597e3a600011785
+D	templates/block--shariff.html.twig	
+A	templates/shariff--help.html.twig	adfa8ad20a5b51fc7a21b62308891f9c
+A	templates/shariff.html.twig	9d8d4c9807ab341e96d17efa45d31a41

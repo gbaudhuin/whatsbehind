@@ -1,0 +1,5 @@
+A	CHANGELOG.md	59061a731dd2427e60b6af62eb173312
+M	config/optional/views.view.workbench_edited.yml	d02c32cac8aba4ff0c3264819123aff5
+M	src/Controller/WorkbenchContentController.php	7e5ec8f9cd15e1c4725b7ec4c38556d2
+M	workbench.info.yml	3c969209a9458afba6faa7298ebb4f94
+M	workbench.module	de1640977e66d7c2f431eb9eae5ee01e

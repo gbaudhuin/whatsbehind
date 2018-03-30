@@ -1,0 +1,3 @@
+M	media_entity_instagram.info.yml	f4bac51c7345da786a3f8210c3f367b1
+M	src/Plugin/Field/FieldFormatter/InstagramEmbedFormatter.php	23f55b2518340e809341c85687692879
+M	src/Plugin/MediaEntity/Type/Instagram.php	413ce0ac440ef011b496da53766820c8

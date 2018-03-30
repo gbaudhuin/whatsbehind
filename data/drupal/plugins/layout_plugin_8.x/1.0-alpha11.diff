@@ -1,0 +1,18 @@
+M	layout_plugin.drush.inc	66379f977be17fb0d7a4e20334f77818
+M	layout_plugin.info.yml	f8f6b03be16b384f4dd848402735a1c1
+A	layout_plugin.module	5cb4858e31b13cbd29eb364b00a80879
+M	modules/block_page_layout/block_page_layout.info.yml	42882c6b0299c1289b5a5fdc03b0876d
+M	modules/block_page_layout/src/Plugin/DisplayVariant/BlockPageLayoutVariant.php	f3d61eadecf4f7b528493cd9228048f5
+M	modules/layout_plugin_example/layout_plugin_example.info.yml	da29eaf7241862efd0de21cad200656e
+M	modules/layout_plugin_example/layout_plugin_example.layouts.yml	1bf3ec259715e75a8ba2b211e273c206
+D	modules/layout_plugin_example/layout_plugin_example.libraries.yml	
+D	modules/layout_plugin_example/layout_plugin_example.module	
+M	modules/layout_plugin_example/src/Plugin/Layout/LayoutExampleTest.php	98783f7be35ae85bff78240cdd1c86e2
+M	src/Annotation/Layout.php	bdaf38c59b8eb73af7bce46d56749fc9
+M	src/Layout.php	864c45955eafdfdffb09330a19008224
+M	src/Plugin/Layout/LayoutBase.php	a545322c7c7e07a055d29fd07363c7ad
+M	src/Plugin/Layout/LayoutInterface.php	dea25e8f125559f61c17cdd527047ecd
+M	src/Plugin/Layout/LayoutPluginManager.php	4b417ab67c8054f476d17bdf4e5b7401
+A	src/Plugin/Layout/LayoutPluginManagerInterface.php	976083c0f5ed4a953d8c8a323d9fc334
+A	tests/src/Unit/LayoutTest.php	10f6a79fbea64b4e9c2cdc848d93cedd
+A	tests/src/Unit/PluginManagerTest.php	c7435089c602314e4f95af752dee03c1

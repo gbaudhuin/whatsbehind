@@ -1,0 +1,17 @@
+M	CHANGELOG.txt	f58dbdd9226dccfc70d4c44aa334bf19
+M	INSTALL.txt	7b0eccf0cb09e3fdd0629b89ba19d400
+M	README.txt	e7d7485bb0d85a880925effa9e21be63
+D	schema.xml	
+M	search_api_solr.info	89020ef7be899395273f7158acbc5918
+M	search_api_solr.install	254e353adffcac30810e4497e4e64ba3
+M	search_api_solr.module	6e9f99ac71d7c8ce4aa98fbd3835a5f7
+M	service.inc	2a67e5ca308d8ecb6cad5381646d4e73
+A	solr-conf/1.4/protwords.txt	5efcd6eedb6b60f385fd9f80fe61ea74
+A	solr-conf/1.4/schema.xml	b02c72be3b034d5a83e50615d2ca493c
+A	solr-conf/1.4/solrconfig.xml	032fcea903c5f8ef1425f3ddfe33dd0c
+A	solr-conf/1.4/solrcore.properties	1cb36801493bcd6ab41afafdfb01c022
+A	solr-conf/3.x/protwords.txt	5efcd6eedb6b60f385fd9f80fe61ea74
+A	solr-conf/3.x/schema.xml	80c2b6db844c20f9c0dc4de08613e2d7
+A	solr-conf/3.x/solrconfig.xml	0e90127bc567faec8f62dad87d420588
+A	solr-conf/3.x/solrcore.properties	caaa4d5040d37a9957de8f7a906e6014
+D	solrconfig.xml	

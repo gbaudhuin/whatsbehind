@@ -1,0 +1,9 @@
+D	INSTALL.txt.txt	
+M	addtoany.admin.inc	924f199b1284358f730d6a50f2bb183b
+M	addtoany.info	ffc62b977fe4bc9b293016597aeaf88d
+M	addtoany.module	4627a9ba0931e229ed3e84f70e595d06
+D	translations/addtoany.pot	
+D	translations/fr.po	
+D	translations/uk.po	
+M	views/addtoany.views.inc	08c50eba2bee9cd6f2eaecdd67cf7668
+M	views/addtoany_handler_field_addtoany_link.inc	19524e9f03bf826cb11505ed8baed312

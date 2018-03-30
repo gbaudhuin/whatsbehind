@@ -1,0 +1,15 @@
+M	checklistapi.admin.inc	ae0b5af5a633e5b3593de4134b7459b7
+M	checklistapi.api.php	1fae95f82c53b424174b5ec5b54eea60
+M	checklistapi.info	88ed0c087b064b8d82e1753e5065968f
+M	checklistapi.js	5635102331f6e6b385aed2261f25f9e8
+M	checklistapi.module	f375f930540fc52d89695f46a6714352
+M	checklistapi.pages.inc	2a88ebab953c1f51b23a99c55d9d44e0
+D	checklistapi.test	
+M	checklistapi_example/checklistapi_example.info	18aeadcfb1e3bf1b01f8fb3718e66bd4
+A	checklistapi_example/checklistapi_example.install	bc56c7e8b528b0607b63bc5f75f9ba46
+M	checklistapi_example/checklistapi_example.module	a5036c00eda872746e8500e6c1076abe
+D	lib/ChecklistapiChecklist.php	
+A	lib/Drupal/checklistapi/ChecklistapiChecklist.php	cdda60fa49891187aa868f26cea19582
+A	tests/checklistapi.test	8fd862744d3191d6476ca312ab10f9c2
+A	tests/modules/checklistapi_test/checklistapi_test.info	a29b465c3cf1202454745ba6ba04da14
+A	tests/modules/checklistapi_test/checklistapi_test.module	a4253387ae13fa24b2b881f6ee033854

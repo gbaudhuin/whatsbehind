@@ -1,0 +1,32 @@
+M	config/schema/plugin.schema.yml	5454d65dbbe8ac5144260ecd0c768d58
+M	phpunit.xml.dist	b5a895b9b699a78caf296d38857bc347
+M	plugin.info.yml	07a74c6c0d860f5048d9f9ad2d4ba1fd
+M	src/Plugin/Field/FieldWidget/PluginSelector.php	2135fc75499d85331db6c2e59fe25684
+M	src/Plugin/Plugin/PluginSelector/AdvancedPluginSelectorBase.php	04ca5086794f3bdb46186d74a53c82e5
+M	src/PluginDefinition/ArrayPluginDefinitionDecorator.php	b0b79d6b8f148d657d2b5ceb63e60267
+M	src/PluginType/PluginTypeManager.php	044f002d9526c1069fe7e5791cb6e6cc
+D	src/Tests/Plugin/PluginSelector/PluginSelector/RadiosWebTest.php	
+D	src/Tests/Plugin/PluginSelector/PluginSelector/SelectListWebTest.php	
+M	tests/modules/plugin_test_helper/plugin_test_helper.info.yml	e1f0c6dcb028e8df3f610ef833927bb4
+M	tests/modules/plugin_test_helper/plugin_test_helper.routing.yml	9b350b3787d14accaf06f55d1c5c9447
+M	tests/modules/plugin_test_helper/src/AdvancedPluginSelectorBasePluginSelectorForm.php	c2c53cda6dc1dbc8379a7d96de5a9c4a
+M	tests/modules/plugin_test_mvpbf/plugin_test_mvpbf.info.yml	8c4a2e4b952874a14a32639b0a33eb8e
+M	tests/modules/plugin_test_pcf/config/install/views.view.plugin_test_pcf.yml	da7e0a3bb9d45912cb4dbfb5db8e5a24
+M	tests/modules/plugin_test_pcf/plugin_test_pcf.info.yml	951597e194223d774434b5ec663ef58e
+M	tests/modules/plugin_test_svpbf/plugin_test_svpbf.info.yml	900d6db60a7b6055759aad2cc86e4b8e
+A	tests/src/Functional/Plugin/Plugin/PluginSelector/RadiosTest.php	52525022474216a3d63f68121744bbe3
+A	tests/src/Functional/Plugin/Plugin/PluginSelector/SelectListTest.php	33ddf84775f153c00c1bee46270921ae
+D	tests/src/TranslationMock.php	
+M	tests/src/Unit/Controller/ListPluginTypesTest.php	546c7540c5e84171db4712f93f3a683d
+M	tests/src/Unit/DefaultPluginResolver/EventBasedDefaultPluginResolverTest.php	e1bcc16c4235781c8c1ad9744ab45771
+M	tests/src/Unit/Event/ResolveDefaultPluginTest.php	4a4e313b3981018a53334b19d22aa73d
+M	tests/src/Unit/Plugin/Plugin/PluginSelector/AdvancedPluginSelectorBaseTest.php	44fcb79777aaddf9df43c372dac9c42e
+M	tests/src/Unit/Plugin/Plugin/PluginSelector/PluginSelectorBaseTest.php	b058cfe30f02c829cc047c459727c23f
+M	tests/src/Unit/Plugin/Plugin/PluginSelector/PluginSelectorManagerTest.php	56e705e0cda8b6c9727054619f502a3c
+M	tests/src/Unit/PluginDefinition/ArrayPluginDefinitionDecoratorTest.php	bb4dc5f5934a2c209021f3187b3e7680
+M	tests/src/Unit/PluginDefinition/PluginDefinitionValidatorTest.php	d6c8765c996f58acd08f8cad04a3f8c0
+M	tests/src/Unit/PluginDiscovery/LimitedPluginDiscoveryDecoratorTest.php	4b0b7e7f70936758e13728b88685c423
+M	tests/src/Unit/PluginDiscovery/PluginDiscoveryDecoratorTest.php	51f53e5271eb453450abd4efc68f8916
+M	tests/src/Unit/PluginDiscovery/TypedDefinitionEnsuringPluginDiscoveryDecoratorTest.php	47939819a2db3a50424c7a1804f2b642
+M	tests/src/Unit/PluginType/PluginTypeManagerTest.php	3b22396faf1c04b8eefed9ba0b42fb13
+A	tests/src/Unit/TranslationMock.php	f523df0c238648850003214373e1aeca

@@ -1,0 +1,74 @@
+A	CHANGELOG.txt	a2a70daca2ede1d3d0a5d0d6fc198fbc
+M	README.txt	9013205aa2c31ad0d0b200ff41893009
+A	config/install/search_api_autocomplete.settings.yml	339326407c5a6e6c42fe5c4ea27897ae
+M	config/schema/search_api_autocomplete.schema.yml	8f6a2ec488ccae6958cf6e4220645e90
+M	css/search_api_autocomplete.css	84ea927fb75a00174982b245417c6b48
+M	js/search_api_autocomplete.js	bbe0998f0ead57bd5f1571519e2881d7
+A	phpcs.xml	6b73831d16aa433d6acae9cdb3a0c89d
+M	search_api_autocomplete.api.php	6574b58ee453503cd96c59770638ae01
+M	search_api_autocomplete.info.yml	a536f79352f4734089d1614bff826e11
+M	search_api_autocomplete.module	bf077916b20a86cca3e0d30bcee47560
+M	search_api_autocomplete.plugin_type.yml	3265f47397edc9d68f63da82eb428cdf
+M	search_api_autocomplete.routing.yml	ce3e9f6fbdf5b71f30c88525a49b6935
+M	search_api_autocomplete.services.yml	fe3f19d5d88c1775adf7e294beb809f6
+A	src/Annotation/SearchApiAutocompleteSearch.php	add1d0e2e1dcd53a8a47068ae50e6836
+D	src/Annotation/SearchapiAutocompleteType.php	
+M	src/AutocompleteBackendInterface.php	c1c8f601e6c5c2bbd1b41af321faf8af
+D	src/AutocompleteFormUtility.php	
+M	src/Controller/AutocompleteController.php	5541335e6ee3c1503045f664ef1e5313
+M	src/Element/SearchApiAutocomplete.php	2d9743fa89ad5f47786d00c1aae6a485
+M	src/Entity/Search.php	f3c64ff38cd671b2054975d1f6b15e39
+M	src/Entity/SearchStorage.php	faf889c0e64eac1de63800d29760dad1
+M	src/Form/IndexOverviewForm.php	1c1625a7d82914f5913a0b85615fc299
+M	src/Form/SearchEditForm.php	ad158df235fc236f1fa57f1aadd1a0a2
+A	src/Plugin/PluginBase.php	f4eb5f957286d824f7bc71aca518eef8
+A	src/Plugin/PluginInterface.php	8b78a7903ca442c91696a4037847916b
+D	src/Plugin/SearchPluginBase.php	
+D	src/Plugin/SearchPluginInterface.php	
+A	src/Plugin/search_api_autocomplete/search/Page.php	44a4237e61e6fc8352da01c30d9ca5ff
+A	src/Plugin/search_api_autocomplete/search/PageDeriver.php	23f239a68e8a09c714caa5e9d9d9862c
+A	src/Plugin/search_api_autocomplete/search/Views.php	fc1a40abe5374d8abb756bf0b2acb7f9
+A	src/Plugin/search_api_autocomplete/search/ViewsDeriver.php	a6780e3ad7aaea7a6b6381c09754e171
+A	src/Plugin/search_api_autocomplete/suggester/CustomScript.php	c05764bef9af7a1a497b89d62f9fe66d
+M	src/Plugin/search_api_autocomplete/suggester/Server.php	545ca0fccf0a39dcd3471fe6f097ff0b
+D	src/Plugin/search_api_autocomplete/type/Page.php	
+D	src/Plugin/search_api_autocomplete/type/PageDeriver.php	
+D	src/Plugin/search_api_autocomplete/type/Views.php	
+D	src/Plugin/search_api_autocomplete/type/ViewsDeriver.php	
+A	src/Search/SearchPluginBase.php	a69f34363fa88f34c7a1007500a6e3d8
+A	src/Search/SearchPluginDeriverBase.php	2a0601fd61e7ebe519446eedcf81f483
+A	src/Search/SearchPluginInterface.php	7003ba78d5d4d4362b17ffda5090d358
+A	src/Search/SearchPluginManager.php	31f0b90ded4156fa55c427203252580b
+M	src/SearchInterface.php	c77248c30503437632657ca0ea1d1851
+M	src/Suggester/SuggesterInterface.php	ae8d8f52de2a4d6b65bbb4b3601d3d1c
+M	src/Suggester/SuggesterManager.php	2f66b5bdec98f1f505871f34c7b74ef6
+M	src/Suggester/SuggesterPluginBase.php	80dad4486e548b53356dae2f4900aa3b
+D	src/Suggestion.php	
+A	src/Suggestion/Suggestion.php	d955bec669f9dfefc228fa180c5f6847
+A	src/Suggestion/SuggestionFactory.php	19fffd2a2b7b7c86d1f62312ac2a10ce
+A	src/Suggestion/SuggestionInterface.php	b6052d59ab33e2d9a05ce9acb6f82968
+D	src/SuggestionInterface.php	
+M	src/Tests/TestsHelper.php	fa9dc2eddc568289ba9326a5d29ee1d1
+D	src/Type/TypeDeriverBase.php	
+D	src/Type/TypeInterface.php	
+D	src/Type/TypeManager.php	
+D	src/Type/TypePluginBase.php	
+A	src/Utility/AutocompleteHelper.php	e697169b192eb019d0e4fd5a33ff90cf
+A	src/Utility/AutocompleteHelperInterface.php	d7eebc0caad50a743d7acc7187c73561
+M	src/Utility/PluginHelper.php	5d22a5e60b0dc6247c77183e27e3f60a
+M	src/Utility/PluginHelperInterface.php	9c7a6788300be3d405bcbc1e352ee6c6
+M	templates/search-api-autocomplete-suggestion.html.twig	55ba436bb27998bbe39d9852929f758e
+M	tests/search_api_autocomplete_test/config/schema/search_api_autocomplete_test.schema.yml	f6904bc6cbf067b6971bbd95af282fc0
+A	tests/search_api_autocomplete_test/core/custom_autocomplete_script.php	99c9c61672fe9c57ebc2a76d9c7fa14d
+M	tests/search_api_autocomplete_test/search_api_autocomplete_test.info.yml	0037777616c371126342a1ec1528f083
+A	tests/search_api_autocomplete_test/src/Plugin/search_api_autocomplete/search/TestSearch.php	0d397692768cd7fe3e5d81e83e768530
+M	tests/search_api_autocomplete_test/src/Plugin/search_api_autocomplete/suggester/TestSuggester.php	295946e1cb352fbd0dbaca418ad974d5
+D	tests/search_api_autocomplete_test/src/Plugin/search_api_autocomplete/type/TestType.php	
+A	tests/search_api_autocomplete_test_hooks/search_api_autocomplete_test_hooks.info.yml	e36d144a541511a4a1772881dfb9f5a4
+A	tests/search_api_autocomplete_test_hooks/search_api_autocomplete_test_hooks.search_api_autocomplete.inc	f34eb62a724e7687915926ff5fd52043
+M	tests/src/FunctionalJavascript/IntegrationTest.php	481991ea5db362425d11ab6f8759c503
+M	tests/src/Kernel/SearchCrudTest.php	082609cfe2db4d85661107b5d3d90131
+A	tests/src/Kernel/ViewsTest.php	afeddd2e7d4cc6d0dad011a8bb103e76
+M	tests/src/Unit/AccessTest.php	c3a98f42d1ec192b5ae722ee944861f6
+M	tests/src/Unit/AutocompleteFormUtilityTest.php	9f88c775d64184ebcd873127b5284542
+A	tests/src/Unit/SuggestionFactoryTest.php	acb867ef610b3638d85a7606777693d4

@@ -1,0 +1,8 @@
+M	CHANGELOG	3263f162accd6de3928bd9969b4bdbb3
+M	includes/DrupalOAuthDataStore.inc	3b08bf1882375c61b4fa70779a2f28ed
+M	includes/DrupalOAuthToken.inc	d32640fae4c4df8f814514977980d630
+M	lib/OAuth.php	16155d941689d3d6bce49d6d7be88728
+M	oauth_common.info	85e867c534e848b79343e609800a1f88
+M	oauth_common.install	5ba69227b042b36185be1b65ef7097af
+M	oauth_common.pages.inc	b76f3edf0317a45a1c58fd90d9bc9b16
+M	oauth_common_providerui.info	3c3742906f2490d3555e1ba4745fa99c

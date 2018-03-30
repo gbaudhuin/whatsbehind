@@ -1,0 +1,13 @@
+M	date_ical.info	aaa7f1d7da89ad14f26004ab264a4783
+M	date_ical.install	9735407208528fea4add357e41861872
+M	date_ical.module	daf137ccc5212efef1dc2b89e818b6c7
+M	includes/DateIcalIcalcreatorParser.inc	b9e5b77f2a47b086c3edc6c1da865371
+M	includes/date_ical_plugin_row_ical_entity.inc	dc0ecb5a6cbb3274571edad55e913916
+M	includes/date_ical_plugin_row_ical_fields.inc	30625c0bedd8c5fd84ba912dbfc77921
+M	includes/date_ical_plugin_style_ical_feed.inc	a47e9dee8a1e27d7c07411773b74cda7
+A	tests/basic_tests.ics	8d8d41d7d46534b524a757d787a2a8c2
+A	tests/date_type_tests.ics	da24bff3e158642b9b0d45a7a4987e33
+A	tests/no_dtstart.ics	4ed1bac34c7581373b35f402714edf1e
+A	tests/no_timezone_tests.ics	c6b7418a1a9c900750f7358a551ec182
+A	tests/rrule_tests.ics	ee51a35429b0a7e1d28a8f631aa84a0c
+A	tests/vtimezone_test.ics	b80d684f6ae7c1be617cd8546422d6d2

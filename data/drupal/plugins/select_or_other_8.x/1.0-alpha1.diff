@@ -1,0 +1,17 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	config/schema/select_or_other.schema.yml	4a5a000c06689bd16c1f2b2fbe6d6705
+A	js/MultipleSelectStatesHack.js	5c0206942cd60c5f066d79fb8b00310d
+A	select_or_other.info.yml	78c6969a526a454e6062d2bf62c32a0c
+A	select_or_other.libraries.yml	92a86d959edc69873020e333642b8622
+A	src/Element/Buttons.php	5711ae1edf40eaab487ebb004a2a3153
+A	src/Element/ElementBase.php	b2ae9a465c27240bb0f4fefc447d47b3
+A	src/Element/Select.php	74e609dcf1bea71012a54d3a5afca955
+A	src/Plugin/Field/FieldWidget/EntityReference/ReferenceWidget.php	661c6e43d3798bd2849a034bb636d6e2
+A	src/Plugin/Field/FieldWidget/SelectOrOtherWidgetBase.php	7999d660b1c41bd18b74c7038011b6b2
+A	src/Tests/ReferenceTest.php	92dda096dfe40710dc4c8a23b9c89b03
+A	src/Tests/TestBase.php	7a08c8e3aeba44b99f293feb3db2cdb2
+A	tests/src/Unit/ButtonsElementTest.php	a76d41d918c70e0f66fcc5dcae58f2c4
+A	tests/src/Unit/ElementsTest.php	9f2382921722d07049a06be144df3c88
+A	tests/src/Unit/ReferenceWidgetTest.php	d05d0384b00d2361223f494b427e7443
+A	tests/src/Unit/SelectElementTest.php	cb59585b3d2ba8715c319f7e9102c4c4
+A	tests/src/Unit/SelectOrOtherWidgetBaseTest.php	1c3e5d63b4718c113d3ff3da934b2666

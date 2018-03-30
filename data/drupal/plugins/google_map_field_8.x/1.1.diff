@@ -1,0 +1,14 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	css/google-map-field-renderer.css	798bab8a9a64f803db19a4b957b2bd30
+A	css/google-map-field-widget-renderer.css	475c91674ae8965b6fcf36df7f71f832
+A	google_map_field.info.yml	17b59bca9ee0b55a1f83c2dd20e6c479
+A	google_map_field.libraries.yml	b081f3b04816d1f5a315649412d80eb1
+A	google_map_field.module	f4c512bcd58d1379e207f72fcc0ac823
+A	js/google-map-field-renderer.js	dba63600c4fbe87ead6b3b66275160b7
+A	js/google-map-field-widget-renderer-previews.js	846ffa94de9de6a7658037906de9ef72
+A	js/google-map-field-widget-renderer-setter.js	de734508fcf0d510d18a4f80e66e44bf
+A	js/google-map-field-widget-renderer.js	a1905a0652e82972eded1a5684991431
+A	src/Plugin/Field/FieldFormatter/GoogleMapFieldDefaultFormatter.php	033fb476ec08327facd8c13308b0fd00
+A	src/Plugin/Field/FieldType/GoogleMapFieldType.php	5f733ef660bd305ad6cc09ae5c00a1a3
+A	src/Plugin/Field/FieldWidget/GoogleMapFieldDefaultWidget.php	5f816e01c5869122294bc8304930af2a
+A	templates/google_map_field.html.twig	329e24b8a73cd6372cb086a2bc63fdfb

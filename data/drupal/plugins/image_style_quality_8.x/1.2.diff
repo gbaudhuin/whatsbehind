@@ -1,0 +1,7 @@
+A	config/schema/image_style_quality.schema.yml	a2dc32e06a96fa2b12dda59ebf43d1c9
+M	image_style_quality.info.yml	c52862514e06f9e09df637f33e289507
+A	src/Tests/ImageQuality.php	715b6610e5f18f8daa46d383b454145c
+A	tests/modules/image_style_quality_test/config/install/image.style.high_quality.yml	9c6b2eab635ebbc93ff851b752deefca
+A	tests/modules/image_style_quality_test/config/install/image.style.low_quality.yml	8e19ba9fa797801b0644581af8cb783b
+A	tests/modules/image_style_quality_test/image_style_quality_test.info.yml	6e690d7ee2cfa3a3372c99244f6d70ba
+A	tests/modules/image_style_quality_test/images/original.jpg	8ab0643092fdfed04ba99cd140ef6d2a

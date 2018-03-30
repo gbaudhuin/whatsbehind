@@ -1,0 +1,13 @@
+M	README.txt	d8ddc6ac082a6906c7c980cd3fbb7525
+M	config/install/social_media.settings.yml	17639649ab4a1c4e8d4844a6e1b8e578
+A	icons/google_plus.svg	03e6b2ab6e8cdbe50fd8c5ec446b303e
+M	social_media.info.yml	705baded96322e73f504041728c107ce
+M	social_media.module	6a01d5936b1780558b0ac35cadf082af
+M	social_media.routing.yml	4610aa67efab7027496b5519bd98e47e
+A	src/Form/ForwardEmailForm.php	bd174ad2a236bd4edc51894c3a522135
+M	src/Form/SocialMediaAdminForm.php	2c8cdce0ee626c12b31339704acdb594
+M	src/Plugin/Block/SocialSharingBlock.php	75164fb9f0d20e4dbd7e256cbfd43b6d
+A	src/Plugin/Field/FieldFormatter/SocialMediaFormatter.php	2537f444b501aa78f7fddbafc9f782c2
+A	src/Plugin/Field/FieldType/SocialMediaItem.php	8221c5fb62734532639c8825823cab9c
+A	src/Plugin/Field/FieldWidget/SocialMediaWidget.php	ce7bfa24b33d3cf2a5dcd93c385fb252
+M	templates/social-media-links.html.twig	8f6d09a6c48310ba74f1d2690c223d5a

@@ -1,0 +1,24 @@
+M	composer.json	2223f6581c4c56d7c84a6b0b14fe5596
+M	composer_manager.api.php	02292e829155ba91c8997e5d258233cd
+M	composer_manager.drush.inc	ca485f15640d20f4c4838a413b009411
+M	composer_manager.info.yml	41fd6abef4be03068f09270baf4bb4a4
+M	composer_manager.install	c53062b63eaeadd2d0802356a564a2e2
+M	composer_manager.module	112b7b057df2f6f6659b71c61e93073c
+M	composer_manager.routing.yml	89a933c764df4128ad12fc713ad55da8
+M	composer_manager.services.yml	d1d500db5d5fe10b30b3c31641c2172d
+A	config/schema/composer_manager.schema.yml	697590eacb00a1e0981f24032e81a05a
+D	modules/symfony_dependency/symfony_dependency.info.yml	
+D	modules/symfony_dependency/symfony_dependency.module	
+D	modules/zendframework_dependency/zendframework_dependency.info.yml	
+D	modules/zendframework_dependency/zendframework_dependency.module	
+M	src/AutoloaderSubscriber.php	99dbc4c60c0669bead3885e22dfaca2b
+M	src/ComposerFile.php	fdf3d1189df5d3f564f77e41c51e6d2b
+M	src/ComposerJsonMerger.php	a87f694696fb452f54d595878b5c9093
+M	src/ComposerManager.php	db7e704a7f6f3da85101b872607e9b42
+M	src/ComposerManagerInterface.php	9d2d0ec1b2bc5fe90fe68753ba798d2e
+M	src/ComposerPackages.php	ade61c795e4ffc5c7eebbd72f0805bcd
+M	src/ComposerPackagesInterface.php	66bb6994b2ff4a5500d782d7966b0ced
+A	src/Controller/PackageController.php	5701a5d07b7922f6d38b6cd87fd7fcf2
+D	src/Controller/Packages.php	
+M	src/Form/RebuildForm.php	87524948699fb1a6ad6f0b7a9f298704
+M	src/Form/SettingsForm.php	aa40e1a30a6c38c178ab7beab61a5406

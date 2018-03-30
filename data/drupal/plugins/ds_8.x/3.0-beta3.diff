@@ -1,0 +1,10 @@
+M	ds.info.yml	f255f70731a77530e64626bba357b90e
+M	modules/ds_devel/ds_devel.info.yml	b16c2ae3269df501c006fd7784a5ba17
+M	modules/ds_extras/ds_extras.info.yml	136c7c3aa69ca416601311b7ef3ac5ea
+M	modules/ds_switch_view_mode/ds_switch_view_mode.info.yml	fa8913d870d16b1bfb41549eb0a0e36e
+M	src/Ds.php	d2d5d12fb534041fe30b0c522b6b0b8c
+M	tests/modules/ds_exportables_test/ds_exportables_test.info.yml	a59171ec4b1d3e3784a2f37068f7cec1
+M	tests/modules/ds_test/ds_test.info.yml	7663cac5e737a6acd19b505f90350a9c
+M	tests/modules/ds_test_rdf/ds_test_rdf.info.yml	4fdf361967b3d69e17fe60026361e51e
+A	tests/src/Unit/DsServiceTest.php	60c6f3dce57cf9c41ec71d2cf6ad7ba3
+M	tests/themes/ds_test_layout_theme/ds_test_layout_theme.info.yml	7a6e0fa3c3d19216555e943be66545ee

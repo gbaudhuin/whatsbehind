@@ -1,0 +1,12 @@
+M	search_api_page.info.yml	626510f315688caee94e24caea2e4081
+M	search_api_page.module	20fd0b065aa346a4846c24ea7155bdce
+M	src/Controller/SearchApiPageController.php	9adfced99fe527d6356c4d4c372c5146
+M	src/Entity/SearchApiPage.php	a69931f3748184f25aff008ae153272d
+M	src/Form/SearchApiPageBlockForm.php	fe5bbfbb57e767db3e5c5b38d17d0498
+M	src/Form/SearchApiPageForm.php	f79ef30da94e4e2ca8ae0b4e2030b99b
+M	src/Plugin/Block/SearchApiPageBlock.php	e7f46a78a6cd266128c2d47bf278417b
+M	src/Plugin/facetapi/facet_source/SearchApiPage.php	2e7b2083dcb31840da240460d57967ea
+M	src/Plugin/facetapi/facet_source/SearchApiPageDeriver.php	efde1ab5e6724c250fc2e0006bef777b
+M	src/Routing/SearchApiPageRoutes.php	eb7d035b1960dcc07d1d0dde04a3b1e0
+M	src/SearchApiPageInterface.php	6e0464c1037002fa188286a2761490da
+M	src/SearchApiPageListBuilder.php	07aea8de88ca9e3cbc9a6fb32dd8fad6

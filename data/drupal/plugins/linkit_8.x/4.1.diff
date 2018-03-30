@@ -1,0 +1,6 @@
+M	linkit.info.yml	95bbd1dad74b9733ce5bf865927fa284
+M	linkit.libraries.yml	4c44f8f65adac30cfc67b1d5814e352e
+M	linkit.routing.yml	01031d19efc27ec2aecbebc4e5c71305
+M	src/Plugin/CKEditorPlugin/Linkit.php	ba1462f8c8b6687ce7d06a7ae22b4900
+M	src/Plugin/Linkit/Matcher/FileMatcher.php	24120ea86c6fb92d6748038c1afcca24
+M	tests/linkit_test/linkit_test.info.yml	2c8ae70dd48e1e63289989cdc84bca55

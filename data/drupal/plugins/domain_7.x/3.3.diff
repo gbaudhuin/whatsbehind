@@ -1,0 +1,12 @@
+M	CHANGELOG.txt	e3efd40ac228ab1c67fbe7f3df37a598
+M	domain.info	c5af317254287d4f5d933353f5d1aca8
+M	domain.module	72961ea595cd29ce811b4fad462d2936
+M	domain_alias/domain_alias.info	0f27135e24f3e486f014b08513d02325
+M	domain_conf/domain_conf.info	43674cd50368eb5d3e511a0694a2abb6
+M	domain_content/domain_content.info	9f8f4ed463eb1899cf8a37de3863c70f
+M	domain_nav/domain_nav.info	501fb5294b237604ab2b35c282ffe555
+M	domain_settings/domain_settings.info	ebd459fd8b0a5c9978ea676075bf6c0d
+M	domain_source/domain_source.info	7690f81db8d3a277f25e441256c2fe51
+M	domain_strict/domain_strict.info	0d2a32ecfae68ca62f96e3b08140bcd5
+M	domain_theme/domain_theme.info	7fa3b3a3e11e5b8935ac2c23800bb731
+M	tests/domain_test.info	44475ccaed436a35c1bc6f9bcfa2715d

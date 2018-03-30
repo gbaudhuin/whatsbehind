@@ -1,0 +1,8 @@
+A	CHANGELOG.txt	54c1fe1fb083e54fad5aa89533bc9f8a
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	98b2aa7dc0de1c2a8f221d4314434b02
+A	config/fb_likebox.settings	89ccdbe480821ce0f5af77c328bba7ca
+A	fb_likebox.info.yml	cf2571d6952115ab8f8680273c60d400
+A	fb_likebox.module	bfb292503ddff8d1646bfbdb57a10752
+A	lib/Drupal/fb_likebox/Plugin/Block/FBLikeboxBlock.php	06ab294c3b42f15f6e26d6c2b9898e54
+A	templates/fb_likebox_block.html.twig	7e51c5674ef0cd3365bea06cc634a6b0

@@ -1,0 +1,15 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	iframe.css	8d4264895feac62a451f5caf3cac2795
+A	iframe.info.yml	9e2039250da9b30e179afbc16f703cbb
+A	iframe.js	a52d804e27cc32040d5b9737b687118d
+A	iframe.libraries.yml	e27ee37f68e1d5444e9cb35b6b9bb2aa
+A	iframe.module	967bafb6ea05a5000d9bc164c5458be1
+A	src/Plugin/Field/FieldFormatter/IframeAsurlFormatter.php	31553012b36fe42dda59a3f9ca75ce09
+A	src/Plugin/Field/FieldFormatter/IframeAsurlwithuriFormatter.php	82c1aa08aaefecd1108126825f2c6f89
+A	src/Plugin/Field/FieldFormatter/IframeDefaultFormatter.php	37d9f8792e9a1309de4a4da438a8bbad
+A	src/Plugin/Field/FieldFormatter/IframeOnlyFormatter.php	49d98dac7652e752261d845fdaed4d8d
+A	src/Plugin/Field/FieldType/IframeItem.php	776ebdc1e0af7e5c033a590bfaaae627
+A	src/Plugin/Field/FieldWidget/IframeUrlWidget.php	4042ea2b50c11a2d4f5666fb658e89f9
+A	src/Plugin/Field/FieldWidget/IframeUrlheightWidget.php	1a16fae290c6720ee3a58f2117643f7d
+A	src/Plugin/Field/FieldWidget/IframeUrlwidthheightWidget.php	c9d53037058162aa5445e2d5fa39c8b7
+A	upgrade-info.html	806da52ec0e618d5907833d32a70847c

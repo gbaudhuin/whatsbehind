@@ -1,0 +1,11 @@
+A	composer.json	bec98129801cb85f1f017297d16fe512
+A	config/install/custom_search.settings.yml	b3001831fb88257df5650973f5a533c7
+D	config/install/custom_search.yml	
+D	config/schema/custom_search.schema.yml	
+A	config/schema/custom_search.settings.schema.yml	0526bf4cf36a7730bacf8ce6f1c3667e
+M	custom_search.info.yml	b13c4ca505828ec95e3de265063e1e09
+M	custom_search.install	f035b9cc9cdeb32c3916aaaf60b2e4c7
+M	custom_search.module	dc9475723d0cbfb63fb5fb5271faf4cc
+M	custom_search.pages.inc	0e1755b5241866feb45fe5cbbdfd35be
+M	src/Form/CustomSearchBlockForm.php	a52808c6dcbff7ab4f15c8f06a59fe2f
+M	src/Plugin/Block/CustomSearchBlock.php	3a265cd58cbefa73a174891d2363bd0f

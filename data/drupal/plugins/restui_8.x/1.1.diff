@@ -1,0 +1,5 @@
+M	lib/Drupal/restui/Controller/RestUIController.php	4e301e2098ea525181bb1f98a0e3ad85
+M	lib/Drupal/restui/Form/RestUIForm.php	9e94ae0d28e326d4d653c64ca13e3edf
+M	restui.module	8e386a5b851ee19facd25322ee74cb7f
+M	restui.routing.yml	fa6f851b5dbee412996b140359b7a707
+A	templates/restui-resource-info.html.twig	07efd68855e6adde078f38ccc97fc257

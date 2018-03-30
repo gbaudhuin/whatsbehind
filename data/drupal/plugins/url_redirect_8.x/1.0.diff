@@ -1,0 +1,12 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	5708733a67bd851fef20c61391a40ef6
+A	src/Form/AddRedirect.php	d8f008b696293a7d8d7d879e8acad38a
+A	src/Form/DeleteRedirect.php	5bd38aaf7c4ed2d052e380ff3cacde58
+A	src/Form/EditRedirect.php	839fdd11a4d861bef78f933902aa2b6f
+A	src/Form/ListRedirect.php	28d3959edc85c4d4a5112185dccf8517
+A	url_redirect.info.yml	31e23d1ef2d00aa3ca29d9b511982435
+A	url_redirect.install	200974a625250b4bf9f0a733234715d9
+A	url_redirect.links.menu.yml	83007cf03b52b1242592ddf2b2b26714
+A	url_redirect.module	704140caaafa3112a2630dfb9b22571d
+A	url_redirect.permissions.yml	0beb63dce7e7c14f90c1b74993ec9739
+A	url_redirect.routing.yml	c6b4a5d5217012106d7caba3254b97db

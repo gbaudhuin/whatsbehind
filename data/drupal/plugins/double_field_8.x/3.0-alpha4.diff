@@ -1,0 +1,25 @@
+M	double_field.info.yml	43eb2e3ec65c80f8b28cad8dd95fd0d1
+M	double_field.libraries.yml	af98d5cc3ad2a5d8c6c39850995a0a58
+M	double_field.module	29c336b6a277824c2af9f39208920c48
+A	js/accordion.js	9c3f8c4a1e3715b612177dac7ef33b20
+D	js/dialog.js	
+A	js/tabs.js	1c36823366f8e98bf347fcc6aa867b7b
+M	src/Plugin/Field/FieldFormatter/Accordion.php	376bd26b2cc76a7b0135a39eecdcb6ca
+M	src/Plugin/Field/FieldFormatter/Base.php	ed78957ae0a43f68c07f6367c026e945
+M	src/Plugin/Field/FieldFormatter/Details.php	b127fefe44ee6ab4384156b6fbf7e8fa
+M	src/Plugin/Field/FieldFormatter/HtmlList.php	8bcfd206e89fbe957f3acee7822bbc63
+M	src/Plugin/Field/FieldFormatter/ListBase.php	82563d2b75b48f9b52c91989accb1eea
+M	src/Plugin/Field/FieldFormatter/Table.php	f9b37e04728aa4ab486c4d5cba922299
+M	src/Plugin/Field/FieldFormatter/Tabs.php	1b10a4cf5f93782b28d3fe5a78740c1c
+M	src/Plugin/Field/FieldFormatter/UnformattedList.php	cf938544f5d25f51cefdae57a246cfb7
+M	src/Plugin/Field/FieldType/DoubleField.php	6bd1e415aeb3e4ba3995674e845c19f8
+M	src/Plugin/Field/FieldWidget/DoubleField.php	40449c7fbfa83b15fa2c6764d4d46c3c
+M	src/Tests/FieldTypeTest.php	47b47f55adca7988aa90b8e2d59b0cd0
+A	src/Tests/FormatterTest.php	1086b2155b450efd8fd4bc655f701c3c
+M	src/Tests/TestBase.php	67a187b2b881ed90a7d7af7a7b62ee22
+M	src/Tests/WidgetTest.php	281650e72d13e1331b7633377564989e
+M	templates/double-field-accordion.html.twig	ddc313e3086fad8e3114cf850f289cbf
+M	templates/double-field-definition-list.html.twig	ccd1a7a83859097c12081226a21fe92d
+M	templates/double-field-item.html.twig	620159c173f1578827cb871cdba77bb8
+A	templates/double-field-subfield.html.twig	f3cc25896ef1059fc1e6768368df4f62
+M	templates/double-field-tabs.html.twig	2ebbd872ffcdce4a6a10e7a5c4e7d979

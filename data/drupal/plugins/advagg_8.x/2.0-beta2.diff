@@ -1,0 +1,45 @@
+M	advagg.advagg.inc	6c94740b976313d95f497c57875027e3
+M	advagg.info.yml	0990ff04492be7c9c8e997e644867d4b
+M	advagg.install	1be5c7b397adc184a7253b6eeb8151e8
+M	advagg_bundler/advagg_bundler.advagg.inc	21a66f56a18074deeabc2925b949f300
+M	advagg_bundler/advagg_bundler.info.yml	8fd7377c0172e1dc4651325d63397c83
+A	advagg_bundler/advagg_bundler.install	d1a652d4ab4f43bc6e15c38afd121e43
+M	advagg_bundler/config/install/advagg_bundler.settings.yml	ee55d59346078ddb4cf5a92fb7128479
+M	advagg_bundler/config/schema/advagg_bundler.schema.yml	722a985add898792b3d96f1f5ed24ae1
+M	advagg_bundler/src/Form/SettingsForm.php	6c5609fad4824990a620dd350a417309
+A	advagg_bundler/src/Tests/BundlerPagesTest.php	bfaf31859f978983a96317fdc27bba19
+M	advagg_cdn/advagg_cdn.info.yml	2b9b82d523ca0aeb8e35091bd264d9c5
+M	advagg_cdn/config/schema/advagg_cdn.schema.yml	ab71cac6e0ee6cee4546e0e287a30099
+A	advagg_cdn/src/Tests/CdnPagesTest.php	2f1dc3c4bab9755f399e760b132b5076
+M	advagg_css_minify/advagg_css_minify.info.yml	58405812236b66b65d178b6b59922b7d
+M	advagg_css_minify/config/schema/advagg_css_minify.schema.yml	7304144826f30b538c9adab43faf5bee
+A	advagg_css_minify/src/Tests/CssMinifyPagesTest.php	98fa060268a8230f256413134a016cbe
+M	advagg_ext_minify/advagg_ext_minify.info.yml	f2d9e8c855ec7d3db7598140d3a73a0d
+M	advagg_ext_minify/config/schema/advagg_ext_minify.schema.yml	bddab4cad761ae83024015c312a28310
+A	advagg_ext_minify/src/Tests/ExtMinifyPagesTest.php	78edd6f3a87ecc52f16d543e0fc20748
+M	advagg_js_minify/advagg_js_minify.info.yml	c968be06e3c1e232750509dc06b561e0
+M	advagg_js_minify/config/schema/advagg_js_minify.schema.yml	ae065c331d199234cc495c97007f8423
+M	advagg_js_minify/src/Asset/JsOptimizer.php	e051947401366c12aec3935093efac91
+A	advagg_js_minify/src/Tests/JsMinifyPagesTest.php	62db3d3c86207da31595f11e282b7b2d
+M	advagg_mod/advagg_mod.info.yml	07c264d2e165ab168d97d6f75c6b9016
+A	advagg_mod/advagg_mod.install	10d544ebce4e5d5334d655d82e0869d8
+M	advagg_mod/advagg_mod.module	afa08a77381c198ffd7a0a855aa41343
+M	advagg_mod/config/install/advagg_mod.settings.yml	bb49872de37405858a15e15099c39e77
+M	advagg_mod/config/schema/advagg_mod.schema.yml	0623ef7c09c1ee2686c227f14e81105d
+M	advagg_mod/src/Form/SettingsForm.php	a637c700dcc46af06f44fd9da9c0330f
+A	advagg_mod/src/Tests/ModifierPagesTest.php	f11028f369ff1d5e03511381e01ae68a
+M	advagg_validator/advagg_validator.info.yml	bc826176de791ea48e6aa132e7575248
+M	advagg_validator/config/schema/advagg_validator.schema.yml	3b230a5493c00e1c5eafa142fe139f97
+M	advagg_validator/src/Form/CssW3Form.php	de9294298ea356f583c2cfbe986afff7
+A	advagg_validator/src/Tests/ValidatorPagesTest.php	bfae578f287b108e1ffbf93d59c74826
+M	config/schema/advagg.schema.yml	a52ae825b9a773ec20475d0ac2c119f3
+D	src/AdvAggCascadingStylesheetsTestCase.php	
+D	src/AdvAggJavaScriptTestCase.php	
+D	src/AdvAggThemeTestCase.php	
+M	src/Asset/AssetResolver.php	0076bb0b170d5fea03732192076bfada
+M	src/Render/HtmlResponseAttachmentsProcessor.php	2e39428f0fa451e210bc1ec9d8a0a025
+A	src/Tests/AdminPagesTest.php	285ac02d85189c816f327cf5e230c8e2
+D	src/Tests/AdvAggCascadingStylesheetsTestCase.php	
+D	src/Tests/AdvAggJavaScriptTestCase.php	
+D	src/Tests/AdvAggThemeTestCase.php	
+A	src/Tests/AdvaggTestBase.php	978bfe53720d04d7c04718caf1f7221c

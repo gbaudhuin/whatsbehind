@@ -1,0 +1,5 @@
+M	engines/mysql.inc	a5f73fba1715a12053b3f1e4a2d628a2
+M	engines/pgsql.inc	7489598ba31aa51d0b1a8cb356f1a819
+M	schema.info	a69509334e6c56f23f3b2b016e3bc40c
+M	schema.module	e1794c49bb88135b6c3dc4f7dd101261
+M	tests/schema_test/schema_test.info	8f0674fe2d32f39542dc7fde13066ba7

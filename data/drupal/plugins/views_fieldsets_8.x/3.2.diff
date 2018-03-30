@@ -1,0 +1,7 @@
+M	src/Plugin/views/field/Fieldset.php	5476447514a935da8eff6f73387396d7
+M	src/RowFieldset.php	49eede57a45fef7459d2ab452fba5213
+M	views-fieldsets-details.html.twig	5ebe8b03fe53aff3fd0487049b2c181f
+M	views-fieldsets-fieldset.html.twig	f1098c90447edc914568d72c3de53b7d
+M	views_fieldsets.admin.css	e9dc853bf605351daf2b8c59dde06b66
+M	views_fieldsets.info.yml	5161cc05e0a25f6921eed2daa5b20148
+M	views_fieldsets.module	9c95f3bbd245a3c9f009613b7e2ee0e6

@@ -1,0 +1,8 @@
+M	config/install/simplesamlphp_auth.settings.yml	8b5df54082633df060924e6f4ee959e0
+M	config/schema/simplesamlphp_auth.schema.yml	c6d89c339f64a9f516bf790fb13ab5c8
+M	simplesamlphp_auth.info.yml	f11380c69d697be6aba8af7c13997b7c
+M	simplesamlphp_auth.install	cd56676f9f1fd8144f0cde1e783f5f04
+M	src/Controller/SimplesamlphpAuthController.php	4f8673d119bfe67ea168c047dfe46ca4
+M	src/Form/BasicSettingsForm.php	30e2360795c892157aa05313ee2a07fe
+M	src/Service/SimplesamlphpDrupalAuth.php	8193885a6bdbedbc28bcd36370f4a94f
+M	tests/simplesamlphp_auth_test/simplesamlphp_auth_test.info.yml	a531772446dc10318052335de4ae0f49

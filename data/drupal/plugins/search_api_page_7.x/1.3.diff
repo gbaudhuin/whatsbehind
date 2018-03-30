@@ -1,0 +1,8 @@
+M	CHANGELOG.txt	7e0fe5c69657889b31d1a37e9d003ffa
+A	plugins/content_types/search_api_page_result.inc	c8c8e6d8da29780a42d1049467509d11
+A	plugins/tasks/search_api_page.inc	69b36da163a63b84ee9ceb60d4ccdcc7
+A	search-api-page-full-page.tpl.php	05b2741545f22fa0f456765d9f46b4f3
+M	search-api-page-result.tpl.php	44bb3730e161d5083f92b60964c54a7a
+M	search_api_page.info	541319bffa4f0ac64b932836b5328535
+M	search_api_page.module	478d040349c1537c3d2d4d04bd4bdcf8
+M	search_api_page.pages.inc	af6b3413e93d8f7bf5ce1393f6834765

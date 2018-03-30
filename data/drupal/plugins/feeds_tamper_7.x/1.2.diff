@@ -1,0 +1,10 @@
+M	feeds_tamper.inc	6c94eca736499da8b131b1039c4e747a
+M	feeds_tamper.info	9513093529abb83bfe8081fd200d6fa1
+M	feeds_tamper_ui/feeds_tamper_ui.info	432845f9019bda62ff804c0028e8eeeb
+M	feeds_tamper_ui/feeds_tamper_ui.module	dde898bcddddf4222bd301fd8e7cd338
+M	plugins/default_value.inc	031a7ffe4d1d9533ab4e41a718b20910
+A	plugins/encode.inc	4bcb16c4a823dbfd76e0c00a15fd6525
+M	plugins/sprintf.inc	198dd68d62dcadbcd4f3aef50afb6bf8
+M	tests/feeds_tamper.test	c647e5336c5c975b31144c94432110db
+M	tests/feeds_tamper_plugins.test	3f2a3dfece231f509b8d2fb2b1791fd8
+A	tests/temporary_target.test	85b0ae23f31959e6e724af7bf0a4186a

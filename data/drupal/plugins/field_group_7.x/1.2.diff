@@ -1,0 +1,17 @@
+M	README.txt	7589aebdf70700a07592fd5601eb206f
+A	field_group-rtl.css	5ae37ac4890da16246ecb3eaa7f2eb81
+M	field_group.api.php	9b89c2de42bfc571f70224ff1641e01f
+M	field_group.css	9dc4c0964815ff8e9f1cd097e8bb1cd6
+M	field_group.features.inc	9ecc6119ffc057473427d9b2a9e72a3b
+M	field_group.field_ui.inc	b1b0b0e041ce1aadb2b7e5e99b6fc3da
+M	field_group.info	7b2fce5396e858d22a909fa405b269b7
+M	field_group.install	10bc63a475e6bcd6887db00b1a1266e9
+M	field_group.js	f436e768da02a3bcd4c01d6d699894a1
+M	field_group.module	0610d616ed468e5475ee12b80b333a26
+M	field_group.test	21e0a78ca79af59fa93b4db8401fa026
+A	horizontal-tabs/horizontal-tabs-rtl.css	75de9b65f6de4a4ba9ed3d151d08699f
+M	horizontal-tabs/horizontal-tabs.css	961928764ac0d3c22ed1e61fe19af877
+M	horizontal-tabs/horizontal-tabs.js	ce41a7def4ca7f960e318a23784326ed
+A	multipage/multipage-rtl.css	42b1b44b81933473695fbe81dd4c664b
+M	multipage/multipage.css	dbe247c42ab74db9d0ea1ee5002126b9
+M	multipage/multipage.js	02d7de35ce49faaaf6f94f09dcdce334

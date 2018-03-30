@@ -1,0 +1,6 @@
+M	config/install/editor.editor.basic_html.yml	70fb1e3bb4964e7002712dde335e9e78
+M	config/install/editor.editor.full_html.yml	6f74c6d18bd1f7eca588c1c8518b0606
+A	config/install/editor.editor.restricted_html.yml	06405b599706025786924500d001174d
+M	config/install/filter.format.restricted_html.yml	a7c1a24fcea4c907c5850b33db56b5b0
+M	varbase_editor.info.yml	7bf1c8ae9dd80f331cb40410904c9799
+M	varbase_editor.make	b03b0907e956ad922f2658bc4321e838

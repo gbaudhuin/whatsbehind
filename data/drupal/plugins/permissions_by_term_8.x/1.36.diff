@@ -1,0 +1,8 @@
+M	js/node-form.js	91513c0ba1a7551eb17bc33f3e50f8f6
+M	modules/permissions_by_entity/permissions_by_entity.info.yml	ad9a7661d2137a7c996d906635b7c731
+M	permissions_by_term.info.yml	8dcf209ff1fd4d3b47a1313ea32f21b4
+M	permissions_by_term.module	127543b2dba8ae950c8e38034fc91db5
+M	src/Form/SettingsForm.php	5ab6bd4b8aa3dbe08359cea076e3e191
+M	src/Service/AccessCheck.php	5dc1a76190f57d596943c1d8a915906f
+M	src/Service/AccessStorage.php	f48dadc348f4566ea40be2cdc5be2371
+M	tests/src/Kernel/PBTKernelTestBase.php	8d43e0b3ea09aa6f48a0e7590861ceb6

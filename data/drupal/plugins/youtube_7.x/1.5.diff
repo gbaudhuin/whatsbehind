@@ -1,0 +1,23 @@
+M	README.txt	7e5d4dfb8219fd9addb4a472fb456854
+D	config/install/youtube.settings.yml	
+D	config/schema/youtube.schema.yml	
+A	modules/youtube_colorbox/README.txt	b6ba03df198dbc98ef2a92c60ace8760
+A	modules/youtube_colorbox/youtube_colorbox.info	39e00297be2cba265b67763d357be497
+A	modules/youtube_colorbox/youtube_colorbox.module	0935b14467a3a35d2ad8a1ad62d85cc0
+D	src/Form/YoutubeSettingsForm.php	
+D	src/Plugin/Field/FieldFormatter/YouTubeFormatter.php	
+D	src/Plugin/Field/FieldFormatter/YouTubeThumbFormatter.php	
+D	src/Plugin/Field/FieldType/YouTubeItem.php	
+D	src/Plugin/Field/FieldWidget/YouTubeDefaultWidget.php	
+D	src/Tests/YouTubeTest.php	
+A	youtube.inc	3cc7220e11a3fdea580d9701e46f07b6
+A	youtube.info	433dad99b7a140160df989b55a815ffa
+D	youtube.info.yml	
+A	youtube.install	a6304b74dfea0a8c78a1490a2c853e8e
+D	youtube.libraries.yml	
+D	youtube.links.menu.yml	
+A	youtube.migrate.inc	3f0f75063b30f15101f95ca4297d6d9d
+M	youtube.module	464b0d08bcb5eca8f7535fc8f0477941
+D	youtube.permissions.yml	
+D	youtube.routing.yml	
+A	youtube.theme.inc	33481e93356d4964670329a109d89560

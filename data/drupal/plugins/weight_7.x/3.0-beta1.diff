@@ -1,0 +1,12 @@
+M	README.txt	f6a0403b85e079f47941b86a1209f08b
+A	views/views_handler_weight_selector.inc	48c1ac0df53a27e8bc890d3454d063d9
+M	views/weight.views.inc	dff892c071fc071742b33cd61ce25cf1
+D	views/weight.views_default.inc	
+D	views/weight_handler_field_weight.inc	
+D	views/weight_handler_filter_weight_enabled.inc	
+D	weight.features.inc	
+M	weight.info	88d364a24ee4331933360bd5056c29fd
+M	weight.install	c545a6cf18bad6b94432223539ac1468
+D	weight.js	
+D	weight.migrate.inc	
+M	weight.module	1721ff7cd28b88ec3b9610fe232b1412

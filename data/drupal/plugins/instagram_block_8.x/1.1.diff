@@ -1,0 +1,6 @@
+A	config/instagram_block.settings.yml	c933394641dbea71dbf9ae3aae2d58ca
+M	css/block.css	448e22a78d9139dcd888dc40dfe7e1cd
+M	instagram_block.routing.yml	a8abb5bd0ed42ef7373a48335498b410
+M	lib/Drupal/instagram_block/Form/InstagramBlockForm.php	ef8f2a9d2a6f4dae1491849b2021471b
+M	lib/Drupal/instagram_block/Plugin/Block/InstagramBlockBlock.php	acce63a39b5b6b489ef40649cbf7c667
+M	templates/instagram-block-image.html.twig	7aaed02cefacd6a531e8e377325f52ef

@@ -1,0 +1,7 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	4c24771e491e66874ff888449f276d7e
+A	ckeditor_bidi.info.yml	7ffd1fbafba91277328be10a8006751e
+A	ckeditor_bidi.install	c95354c1f9fc525258fb46e42a897381
+A	ckeditor_bidi.module	f9de10c5a69325fd53fd50e0233e9fdc
+A	composer.json	b151534fb28169788728b7fd1b162418
+A	src/Plugin/CKEditorPlugin/BidiCKEditorButton.php	7c286cd53a57e67b3dd91702874b7c16

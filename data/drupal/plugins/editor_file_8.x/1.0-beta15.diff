@@ -1,0 +1,11 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	config/schema/editor_file.schema.yml	54eb3c4ff92ef24ff108a003bdbd642e
+A	editor_file.admin.inc	4362bbea9613dc25e3f25a8623e0dd07
+A	editor_file.info.yml	7e593e994ce07fd807f229b977b1db41
+A	editor_file.libraries.yml	255e2d66a6bd316288c6ad9734e74d24
+A	editor_file.routing.yml	c432b65b49d1951cd03e97014bdbd513
+A	js/ckeditor.drupalfile.admin.js	0031c7fe297caa6ee85628121ec2dadd
+A	js/plugins/drupalfile/file.png	df29e2163303cfd635d54069c0d75adb
+A	js/plugins/drupalfile/plugin.js	cbe3fbaa4516f7cd694b66cf02d0edd8
+A	src/Form/EditorFileDialog.php	d4db7e3e62f3e7a0bea67a325977c71f
+A	src/Plugin/CKEditorPlugin/DrupalFile.php	62f9ad5be5312872f4ca4e9b9af349d2

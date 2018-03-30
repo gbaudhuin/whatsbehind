@@ -1,0 +1,11 @@
+M	README.txt	f15778318a0ed919c946f8275e500cfd
+A	field-collection-item.tpl.php	eae85319010e0a6304e9f36b683b37c0
+M	field_collection.admin.inc	3ad014f341ef9e1c908d72174329adda
+M	field_collection.info	d1bd87249a5cc391d405116ec4cf8de8
+M	field_collection.info.inc	9be6bee659d13ca5aed0f713114694b1
+M	field_collection.install	e0b91960a51e467d096bb005f88c061a
+M	field_collection.module	ca47c7ad39dd393b601bc2c4696410ca
+M	field_collection.pages.inc	d6be4b61acccf35aee3eeb864a6ffbb0
+M	field_collection.test	43b3359f0163f262879faab937d1c02d
+D	field_collection_item.tpl.php	
+A	views/field_collection.views.inc	552f5627511656c10f2811067f44751e

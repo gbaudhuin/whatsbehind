@@ -1,0 +1,14 @@
+M	includes/locale.variable.inc	417f9691a17fe1dfe60fee403d097d09
+M	includes/system.variable.inc	00ea930a2483de2efd62d9c31471f5f0
+M	includes/user.variable.inc	b972d1a5cf9f211dea1a06d0013835c3
+M	variable.api.php	42890431d9f49c32425df14e404d3c16
+M	variable.form.inc	ce4aaba5f3fcaf30be46d7e08c4a0f24
+M	variable.info	33b32cbc9ee77e8ec0dab98f96821f99
+M	variable.module	67ad4627673b2d2ba528bb01568e37f4
+M	variable_admin/variable_admin.info	4a64afffd4cf3af4c777625d7055b399
+A	variable_advanced/variable_advanced.info	c776fde419e8177cc22ab760e29a6f31
+A	variable_advanced/variable_advanced.module	6c4c8525a959966f0b38ab023c9a9f24
+A	variable_advanced/variable_advanced.variable.inc	a64b53108c3562b8f4d6fd5d1be9a1f2
+M	variable_realm/variable_realm.info	5d3e82db7630409134e987d6c11deea5
+M	variable_store/variable_store.info	73f2c9dc6d185a0e83ad7f681f78e89e
+M	variable_store/variable_store.module	e8bfa834af501ac612e9fb2fb4579c51

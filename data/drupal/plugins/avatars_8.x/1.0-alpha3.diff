@@ -1,0 +1,86 @@
+D	ak.info.yml	
+D	ak.install	
+D	ak.links.menu.yml	
+D	ak.module	
+D	ak.permissions.yml	
+D	ak.routing.yml	
+D	ak.services.yml	
+D	ak_adorable/README.md	
+D	ak_adorable/ak_adorable.info.yml	
+D	ak_adorable/src/Adorable.php	
+D	ak_adorable/src/AdorableInterface.php	
+D	ak_adorable/src/Plugin/AvatarGenerator/Adorable.php	
+D	ak_gravatar/README.md	
+D	ak_gravatar/ak_gravatar.info.yml	
+D	ak_gravatar/ak_gravatar.routing.yml	
+D	ak_gravatar/composer.json	
+D	ak_gravatar/src/Gravatar.php	
+D	ak_gravatar/src/GravatarInterface.php	
+D	ak_gravatar/src/Plugin/AvatarGenerator/Gravatar.php	
+D	ak_gravatar/src/Plugin/AvatarGenerator/Identicon.php	
+D	ak_gravatar/src/Plugin/AvatarGenerator/Monsterid.php	
+D	ak_gravatar/src/Plugin/AvatarGenerator/Retro.php	
+D	ak_gravatar/src/Plugin/AvatarGenerator/Wavatar.php	
+D	ak_robohash/README.md	
+D	ak_robohash/ak_robohash.info.yml	
+D	ak_robohash/composer.json	
+D	ak_robohash/src/Plugin/AvatarGenerator/Robohash.php	
+D	ak_robohash/src/Plugin/AvatarGenerator/RobohashHeads.php	
+D	ak_robohash/src/Plugin/AvatarGenerator/RobohashMonsters.php	
+D	ak_robohash/src/Robohash.php	
+D	ak_robohash/src/RobohashInterface.php	
+A	avatars.info.yml	90dd9e69e94fa2760e54755832581e9d
+A	avatars.install	158b7b4abcff1c6109c1593f70ef1e7c
+A	avatars.links.menu.yml	7a7393d18134e64c65a9e11a972cedc4
+A	avatars.module	d8d9ea75dcc9b9c128eeb9dca91769c1
+A	avatars.permissions.yml	d7fff5c6ee6cd347dfd8ee18edf8464c
+A	avatars.routing.yml	23abc9ce82ffbab707537a9ccefcf556
+A	avatars.services.yml	c723715c3a02bee7dc3580a6d8064cb5
+A	avatars_adorable/README.md	ec11d9ad72c8f7b885927a1b3b2a5ed0
+A	avatars_adorable/avatars_adorable.info.yml	d8b17b7d1b8ee1fbd6742baf3565af1a
+A	avatars_adorable/src/Adorable.php	978f5d8e31a9e36abe8a6467fae57d2f
+A	avatars_adorable/src/AdorableInterface.php	645e644ce3bdd39c080706ce2b191f96
+A	avatars_adorable/src/Plugin/AvatarGenerator/Adorable.php	9f1da2c226b6a6da5b860a39e7d5f2d6
+A	avatars_gravatar/README.md	d12ab6560446795f991bee6648ac4522
+A	avatars_gravatar/avatars_gravatar.info.yml	479537214d6bd8ece87d69de871ae49f
+A	avatars_gravatar/avatars_gravatar.routing.yml	d41d8cd98f00b204e9800998ecf8427e
+A	avatars_gravatar/composer.json	24b0da9ac77be6a6c3c92d57e6939bcb
+A	avatars_gravatar/src/Gravatar.php	d94de174b2e9ce836191e4f5e4665d80
+A	avatars_gravatar/src/GravatarInterface.php	347a7adcc07981488c741c92d9047051
+A	avatars_gravatar/src/Plugin/AvatarGenerator/Gravatar.php	34db3d95953f953b81197636dc4d7d1a
+A	avatars_gravatar/src/Plugin/AvatarGenerator/Identicon.php	b4c41fb0a7304a2a774403bbd55b897e
+A	avatars_gravatar/src/Plugin/AvatarGenerator/Monsterid.php	0fe5a7f271f487b844321c4f476db7d2
+A	avatars_gravatar/src/Plugin/AvatarGenerator/Retro.php	29751044db196437975060f511a7aff7
+A	avatars_gravatar/src/Plugin/AvatarGenerator/Wavatar.php	1b4fa37def1214127f8d5441bccad0f8
+A	avatars_robohash/README.md	9d8b762f7d4a600fd5ab39fce0a7a7d1
+A	avatars_robohash/avatars_robohash.info.yml	3b66c6ae9ab10427c21a4f7bf1f7c0cb
+A	avatars_robohash/composer.json	6d60d409b47aae6fbc154575d400559b
+A	avatars_robohash/src/Plugin/AvatarGenerator/Robohash.php	7fa975bc63861267f087fc3b9d5b7ec8
+A	avatars_robohash/src/Plugin/AvatarGenerator/RobohashHeads.php	0f7c26fb5aef7fb34ade0ef95a527f92
+A	avatars_robohash/src/Plugin/AvatarGenerator/RobohashMonsters.php	e020ce431de54ea3c2d7e6ed1ee65750
+A	avatars_robohash/src/Robohash.php	726d0e60b0a15ccec287c747e6ef2ea4
+A	avatars_robohash/src/RobohashInterface.php	97cb7f59c004e290b9ad9baf89c9f8ad
+D	config/install/ak.settings.yml	
+A	config/install/avatars.settings.yml	7c51ffb0e0819b980f389c1b0f08cf2e
+D	config/install/field.field.user.user.ak_avatar_generator.yml	
+A	config/install/field.field.user.user.avatars_avatar_generator.yml	f9cfb3d9a257c534a58cb6a09244f0db
+D	config/install/field.storage.user.ak_avatar_generator.yml	
+A	config/install/field.storage.user.avatars_avatar_generator.yml	c3d99a1c91cadb1a4c13af08a7da03bd
+D	config/schema/ak.schema.yml	
+A	config/schema/avatars.schema.yml	8ee2c15376608881ff02a62d54fdf1cc
+M	src/Annotation/AvatarGenerator.php	cda3f6471fab89061f6020e4d53f2176
+M	src/AvatarBase.php	37b0121fd27f0f0a7b73a74d8c96af6c
+M	src/AvatarBaseInterface.php	7184663d6012ec1230019a205eccb968
+M	src/AvatarGeneratorPluginManager.php	939bd68ba9868bd99884fdf61152e77a
+M	src/AvatarGeneratorPluginManagerInterface.php	59630543fa7bdd2050fc6f05fa798f12
+M	src/AvatarManager.php	8c3a474ba44c0ddfd514eeb24ee39573
+M	src/AvatarManagerInterface.php	41fe4a98ed16859b9135fe5d2ca55bef
+M	src/AvatarPreviewInterface.php	3e3042925bf6960364b993ef28708287
+M	src/Entity/AvatarPreview.php	a21648435cc17ff4b2e7bfa2cb4d6872
+M	src/Exception/AvatarException.php	b53b08ad8a183b57ac1054d38db678cf
+M	src/Form/Settings.php	1b43e59035bd65ee179ef26b32cdd63f
+M	src/Permissions.php	bc01eef2a172fac27474e661c6e111f4
+M	src/Plugin/AvatarGenerator/AvatarGeneratorBase.php	45b6a0fddf1f2b84bb431dd1168b6abd
+M	src/Plugin/AvatarGenerator/AvatarGeneratorPluginInterface.php	1c89cf62acd0b23bb1f9d1359794e5a5
+M	src/Plugin/AvatarGenerator/Broken.php	96f3b8dd300eb5a4ab9174099e4b4562
+M	src/Plugin/AvatarGenerator/User.php	df17447eec041bafe500f45374059b69

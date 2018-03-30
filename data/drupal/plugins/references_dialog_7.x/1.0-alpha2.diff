@@ -1,0 +1,10 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	js/references-dialog-child.js	0d6ee779a9979245cc01dfdb6a502416
+M	js/references-dialog.js	f01a9ea208ba4b665d03ea9073877f68
+M	js/search-reference.js	6ccb54ee7fcec0bbb68ee5f3a77d9b17
+M	references-dialog-page.tpl.php	85262b0eb6deec23a971419d5e1d54d5
+A	references_dialog.api.php	94e42e2cab35e580932fcdb75516c8ce
+M	references_dialog.dialog_widgets.inc	d37a1d0b618ce23af1725f35b7ddf046
+M	references_dialog.info	3a9577a9a0dc16380927399b1a5b1baa
+M	references_dialog.module	79cc32a176db53c76b98062e3c57c5de
+M	views/references_dialog_plugin_display.inc	e429fd063b938b502343c67c5d32225c

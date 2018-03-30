@@ -1,0 +1,8 @@
+M	l10n_update.admin.inc	62dcd19cc3cb2b80c10833cfe07fd7cb
+M	l10n_update.api.php	41608f694585c3927b29aa21e99915b8
+M	l10n_update.drush.inc	c33e1db11eb0beac8f7ea0fce826ff59
+M	l10n_update.info	ee15afcf592c7a6dbbbae8e1c72f7803
+M	l10n_update.install	751971c05da102d5a894497d42ae83aa
+M	l10n_update.module	04d964808b9e96bd0d0169d0f0356816
+M	tests/modules/l10n_update_test/l10n_update_test.info	85c09776fddd70558e9da835bd51d82a
+M	tests/modules/l10n_update_test_translate/l10n_update_test_translate.info	56f8c0f2c32fc6ca0ec0a4bfc266c9bd

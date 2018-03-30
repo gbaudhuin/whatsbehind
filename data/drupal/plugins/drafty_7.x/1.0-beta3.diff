@@ -1,0 +1,9 @@
+A	.travis-before-script.sh	e4d76af0e1fd6d535b3a37fe515676a4
+A	.travis.yml	406c5a6a59d3c9c85055faf51e2eb625
+M	drafty.info	cbd1330b8aacb76a6d56acb8af542021
+M	drafty.module	f8b184ae446a548c327dca9748b85076
+M	drafty.test	6587e1107769cc7095c37ddcf820aeca
+M	modules/drafty_1992010/drafty_1992010.info	cce895dcb5fb4a35b74963b61f107393
+M	modules/drafty_1992010/drafty_1992010.test	679742d687ce71afd0adf10fbf88261b
+M	modules/drafty_enforce/drafty_enforce.info	0ea7edc9a142face680945b0091cb04b
+M	modules/drafty_enforce/drafty_enforce.module	b227efd9754c243edc023ed171f9bb69

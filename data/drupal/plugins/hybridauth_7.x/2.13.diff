@@ -1,0 +1,15 @@
+M	README.txt	9dfc62cb3d8ce4df3958a6075a8281e4
+M	hybridauth.admin.inc	84d87423590959a7a88f4e202e276e2d
+M	hybridauth.info	c0abbcb643472329f894d7f496b32ba9
+M	hybridauth.install	a25c129f15906bada7e6f04362bc440f
+M	hybridauth.module	1d3f20b086e5910d0bcc41219240d359
+M	hybridauth.pages.inc	7582d94f3cef857888f2a0949f58accd
+M	hybridauth.theme.inc	9872724debb7797f237ff1b0986335a4
+M	hybridauth_bonus/hybridauth_bonus.info	ecc80b21e361ce46427f0595087762b3
+M	hybridauth_ulogin/hybridauth_ulogin.info	b8ce075d1964c6d2b3df67df0ac7c343
+M	js/hybridauth.admin.js	e7b5382dc92591d773cab8bcc5b50d70
+A	plugins/provider/Disqus/Disqus.inc	02b91aec6aa7799d4c417be2bbd2108b
+M	plugins/provider/Facebook/Facebook.inc	309f1204b06b4a702b8cd8f3ecfd538a
+A	plugins/provider/WarGaming/WarGaming.inc	510bb49ce93f74b1e5a0deefd35cfd60
+A	plugins/provider/WarGaming/icons/wargaming.png	e865ca217b0969a672fc47f3a083c278
+A	plugins/provider/WarGaming/wargaming.css	4606c6eb58158bebc31fd91e9f9374b2

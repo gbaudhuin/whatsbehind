@@ -1,0 +1,16 @@
+A	menu_token.admin.inc	cef22f53d61e71590a820238111232af
+M	menu_token.info	a1de189b188bdc75fe3ca87de07c52e8
+M	menu_token.install	65ffa5324cabb274365281fb59d8f537
+M	menu_token.module	a39c4da8c5b5dbdea695e74143242ae2
+A	plugins/menu_token_entity_context.inc	82ddbe1aeb42c1aac744d65c308a6308
+A	plugins/menu_token_entity_random.inc	bb16d1ff1b36cd5c00220da9172db8c3
+A	plugins/menu_token_entity_user_defined.inc	c9a2191c26e42326b99d236398f77e67
+D	plugins/menu_token_node_context.inc	
+D	plugins/menu_token_node_random.inc	
+D	plugins/menu_token_node_user_defined.inc	
+D	plugins/menu_token_term_context.inc	
+D	plugins/menu_token_term_random.inc	
+D	plugins/menu_token_term_user_defined.inc	
+D	plugins/menu_token_user_context.inc	
+D	plugins/menu_token_user_random.inc	
+D	plugins/menu_token_user_user_defined.inc	

@@ -1,0 +1,3 @@
+A	drush.services.yml	b2d0caffc13133e222e09dd9cf5ee730
+A	src/Commands/StructureSyncCommands.php	f5644569b119e30f86a1b03d337174a2
+M	structure_sync.info.yml	196243fec8721527499bc7ff6d4c587a

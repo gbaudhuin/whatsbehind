@@ -1,0 +1,22 @@
+M	.travis/drupal.make.yml	a423b0f0b20543da330929b3e6ce4325
+M	config/install/relaxed.settings.yml	ae73e1a9a1a28125474ab85e5970a8e6
+A	config/optional/rest.resource.relaxed.all_dbs.yml	548f6023f4236fe9a9acde677f82f372
+A	config/optional/rest.resource.relaxed.all_docs.yml	4517dcc881dd62fa3692e069dd60f22b
+A	config/optional/rest.resource.relaxed.attachment.yml	cc879f2fcaab386d295fc6439caaaae7
+A	config/optional/rest.resource.relaxed.bulk_docs.yml	430ea8f2d26f1cf8030c7e7bf3e63fc0
+A	config/optional/rest.resource.relaxed.changes.yml	bcd40115d7d1d9c091fc0546639b2b9c
+A	config/optional/rest.resource.relaxed.db.yml	5fd60b17a97b5cbd137a1bec2b1ea38f
+A	config/optional/rest.resource.relaxed.doc.yml	320d801f172d2adea61bc2d85a6f870f
+A	config/optional/rest.resource.relaxed.ensure_full_commit.yml	27b833b4f455c4c94dfbb60829527813
+A	config/optional/rest.resource.relaxed.local.doc.yml	43b1d4cbefebf444771e42209ff200f3
+A	config/optional/rest.resource.relaxed.replicate.yml	097365658dfe86f460646fc8af1d9695
+A	config/optional/rest.resource.relaxed.revs_diff.yml	93d4fd3087f2ebdb4f44913cddc4c129
+A	config/optional/rest.resource.relaxed.root.yml	89a6a0cb1846b8782272311ff5999ebe
+A	config/optional/rest.resource.relaxed.session.yml	bcc4d3124537a32757f1d8f3550c183e
+M	config/schema/relaxed.schema.yml	f541a450aa11254d9532f7bf62e240a2
+M	relaxed.info.yml	0fd753b97900ae06f4491eb3dc97ae3e
+M	relaxed.install	2140cd5e4eef3ba2aa3a0ded04d54862
+M	relaxed.module	e50e4cc8974447a5edb460a891a73d3c
+A	src/Entity/RestResourceConfig.php	887495074c49abe1d898db50db6f1d0c
+D	src/Tests/InstallUninstallTest.php	
+M	tests/modules/relaxed_test/relaxed_test.info.yml	d8e73f382e2f43d9a462a81ffee883ab

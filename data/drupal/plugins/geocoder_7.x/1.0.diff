@@ -1,0 +1,15 @@
+M	geocoder.admin.inc	d740d339a3f3ef439d3ef1fdf4582f78
+M	geocoder.admin.js	ce39b98cdc6d06f7675d3f309dcacaf8
+A	geocoder.drush.inc	4f8182b88e83a2fd95803e3a1426f04e
+M	geocoder.info	0e9e142c88ff3ba81ddd6b484618c254
+M	geocoder.module	fcd0af7dc68fb16cca57db21d25f4858
+A	geocoder.services.inc	45643883e1f980d80e24bbbc9ac3f6a4
+A	geocoder.widget.inc	43f8667b22fd79a7c61ad01cb9e1329b
+M	plugins/geocoder_handler/exif.inc	c93bd411daf9477fecc601cd1ed87796
+M	plugins/geocoder_handler/google.inc	02d0dc58f81ed24e9da1c919c504b4ac
+M	plugins/geocoder_handler/gpx.inc	b1ae49ff91c4f9319d5e6d5ebeed2204
+M	plugins/geocoder_handler/json.inc	7a3dd65e56e8a87eb6d96ceba6c42eeb
+M	plugins/geocoder_handler/kml.inc	386f9028c309fb8c9edbebee0af28786
+M	plugins/geocoder_handler/wkt.inc	d9f22c956f6d0ce00784dd6d286178a6
+M	plugins/geocoder_handler/yahoo.inc	1bb7abf45795f4b4baa861aa29f44f48
+A	plugins/geocoder_handler/yandex.inc	c6d3a04d80c46c78ed120d1c9b11bed5

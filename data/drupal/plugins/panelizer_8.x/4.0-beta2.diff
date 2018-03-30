@@ -1,0 +1,6 @@
+M	CHANGELOG.txt	f76ed69c2bf87ed8d7b905fe51182361
+M	composer.json	9d3fae9cac093d2f84870ba885547206
+M	panelizer.info.yml	ecdf9dd633547fb06802eea90d64546f
+M	panelizer_quickedit/panelizer_quickedit.info.yml	f7a25c9c0aaaea00ed89399dc2fb9726
+M	tests/modules/panelizer_test/panelizer_test.info.yml	2df0f4ad24a8c72ce9547dc8118a8d0f
+A	tests/src/FunctionalJavascript/PanelizerIntegrationTest.php	a33b3a5f1d4e7aaf56aff5a87f5dff76

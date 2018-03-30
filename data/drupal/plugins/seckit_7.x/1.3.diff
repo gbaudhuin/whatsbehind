@@ -1,0 +1,11 @@
+M	CHANGELOG.txt	785e1e5b1ed78b165794a160ac16da06
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	0ed332aade695f8953d85d292cf9608c
+D	README.txt	
+D	css/seckit.override_style.css	
+M	includes/seckit.form.inc	5d996b8bcbab718f487de5188f12844f
+M	js/seckit.listener.js	4febd89923dbdefd77deb4b9f533d8fc
+M	seckit.info	dae9d5b74948f474709a67b118974686
+M	seckit.install	3b2fa12de4a9e6194ff76e21bdc60d66
+M	seckit.module	88567b295a1aed3ee92b054107cb21fd
+M	seckit.test	1b318a20c84bc764e75b6d84ad4f3762

@@ -1,0 +1,7 @@
+M	.travis.yml	169e64a216435526198756a5847c1e57
+M	CHANGELOG.md	92db36309e7a0ba184f566df92986fe3
+M	README.md	c051f55c7e940c13a8a23bc5eb9a41d4
+M	composer.json	f7752b48f93cbdd71362d0597b62e49e
+M	lightning_layout.info.yml	281550543b8d012ea89147458ec78486
+M	modules/lightning_landing_page/lightning_landing_page.info.yml	8782504e8bf4f538c5b30ea2a6693042
+A	tests/fixtures/1.0.0.sql.gz	53d9801d462afcdf8e80aae53a90cc6c

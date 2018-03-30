@@ -1,0 +1,3 @@
+M	social_auth.info.yml	490f1253a81985e6b63c80f8d719b7d6
+M	src/AuthManager/OAuth2ManagerInterface.php	398ba88745b156a12030587793916c50
+M	src/SocialAuthUserManager.php	bf03b0b5becd64db729db8303e288f4f

@@ -1,0 +1,14 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	config_provider.info.yml	2e7c153627f17d2a62545a8d4f3fafda
+A	config_provider.services.yml	0cb18d5d693cda8526470aa21e513786
+A	src/Annotation/ConfigProvider.php	72ac09a848b7950dbf4c8f4a00977931
+A	src/ConfigProviderConfigInstaller.php	09b734a6fc05a1f34846580bc4002780
+A	src/ConfigProviderServiceProvider.php	5a20d61da16602eabba8082aa1588d25
+A	src/Plugin/ConfigCollector.php	1fac436497025d05b6972ff88b626b04
+A	src/Plugin/ConfigCollectorInterface.php	fe76aecdd1ce35a6535686fce06eadc7
+A	src/Plugin/ConfigProvider/ConfigProviderInstall.php	c0422747dc1f4600a2716b90e0203c4f
+A	src/Plugin/ConfigProvider/ConfigProviderOptional.php	1419162d526d75bc7e2152cb0a4d8a8b
+A	src/Plugin/ConfigProviderBase.php	0c728e4c9db9166d1f27fbaf01df604b
+A	src/Plugin/ConfigProviderInterface.php	cd898ed03fe58b603e4c58727d2b01b4
+A	src/Plugin/ConfigProviderManager.php	f4caa0952ef70e4b746e4f63f3242f00
+A	src/ProxyClass/ConfigProviderConfigInstaller.php	88efd54e4269536f201a07f74842a339

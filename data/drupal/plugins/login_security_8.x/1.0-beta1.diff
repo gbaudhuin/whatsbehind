@@ -1,0 +1,15 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	4a88464d3a202a52a83000540a8afc55
+A	config/install/login_security.settings.yml	54968006c3493c5ecc434569fb87f8a0
+A	config/schema/login_security.schema.yml	eb3bb888395d9bbb02f78da7eabd2d6d
+A	login_security.info.yml	e9f34224cd832a433ef207d1a076e8c8
+A	login_security.install	126a437034021bd945ab18a8ed3a996c
+A	login_security.links.menu.yml	46942e3d8233fa3412bc0cf320eb2865
+A	login_security.module	c423046f2c2cbed53ce5a0c7c8d3b130
+A	login_security.routing.yml	7ef53d793608a2e6f9bb069179e5a71d
+A	src/Form/LoginSecurityAdminSettings.php	5a57994d868c84401321d7b3aeb120ce
+A	src/Tests/LoginSecurityEmailTest.php	f2d6ab99aaca73f0afe414b8e83c1262
+A	src/Tests/LoginSecurityInterfaceTest.php	a65966f897b5724de2398fa2cf6151bd
+A	src/Tests/LoginSecuritySoftBlockTest.php	a035e6a92ae4f96e228b40a89cda0def
+A	src/Tests/LoginSecurityTestBase.php	5c850c014d27e8dca031ba53847b3dd8
+A	src/Tests/LoginSecurityUserBlockingTest.php	e2959c1c697cbcce5afbf17d7b9bfbe2

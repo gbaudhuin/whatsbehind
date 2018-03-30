@@ -1,0 +1,15 @@
+M	README.txt	fad226de0236987088eec66817e535ef
+M	admin_toolbar.info.yml	5a4ac7f30ab486c352af17479de38fbb
+M	admin_toolbar.libraries.yml	285db53f51b3f052ffb205da4915a10f
+M	admin_toolbar.module	885c1f9ab0b39189c07734452bf05387
+M	admin_toolbar_tools/admin_toolbar_tools.info.yml	347019a85686fb6d847520c4e8e41e0e
+M	admin_toolbar_tools/admin_toolbar_tools.libraries.yml	f23854cb75ba0f1965e3e9766f557873
+M	admin_toolbar_tools/admin_toolbar_tools.links.menu.yml	e0cd06585970a642d33f174323b8fae2
+M	admin_toolbar_tools/admin_toolbar_tools.module	6486de9b265b6de6a251c4cf632ba252
+M	admin_toolbar_tools/admin_toolbar_tools.routing.yml	79d270b8dd358b667f8e0687258bed2d
+M	admin_toolbar_tools/css/tools.css	0c492aa255d956d0276f4ecd154442bc
+M	admin_toolbar_tools/misc/icons/ffffff/d8-item.svg	2d35f90f2a0a4288d6876678cd745c26
+M	admin_toolbar_tools/src/Controller/ToolbarController.php	ead28a937121f985c65cedd5ae07a703
+M	css/admin.toolbar.css	6a99c7d20ec8450d3c88045908930c14
+A	misc/icons/0074bd/chevron-left.svg	7f8781c3ff3812930208fa7a6f75df39
+A	misc/icons/0074bd/chevron-right.svg	a20a73a8c65a8215527b829ce9f57737

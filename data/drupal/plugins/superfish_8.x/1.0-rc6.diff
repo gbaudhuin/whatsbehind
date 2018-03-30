@@ -1,0 +1,7 @@
+M	README.txt	fdff88b970dc813e62dc2e096d0e1018
+M	composer.json	1837289e10f45a19520be539bd23119d
+M	src/Plugin/Block/SuperfishBlock.php	78634018bd7747418a9c2deb034a769f
+M	superfish.info.yml	03a6504264ab4130f4e95fcc0459d971
+M	superfish.module	824a1bd28712e4453aba2719f3ba9572
+M	superfish.theme.inc	93782acb2c687687aa7962e414557d9b
+A	templates/superfish--help.html.twig	c54f2312f6a262241b1c8023b335a6b6

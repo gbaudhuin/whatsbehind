@@ -1,0 +1,13 @@
+A	README.txt	ad8ef304d9fe52e543492b8608c2001f
+M	config/install/instagram_block.settings.yml	4dfadd15ac1461db6291c36b53cee3a5
+M	config/schema/instagram_block.schema.yml	a240b96dea066f7646dac67608779a52
+M	instagram_block.info.yml	3b27c8fd85405182ae5fe9e948bf940a
+A	instagram_block.post_update.php	be642987c2e0f2b058638777a34c4971
+M	src/Form/InstagramBlockConfigForm.php	c998477134ae6579ff63d95d2e8a7ef8
+M	src/Plugin/Block/InstagramBlockBlock.php	2a47449529600548a94214ed7cec663c
+A	src/Tests/InstagramBlockConfigFormTest.php	5856d022e06ded53c135cee6f5ccab20
+A	src/Tests/InstagramBlockPlaceBlockTest.php	aa0399607ff7b9b245aa51ce6632713a
+A	src/Tests/Update/InstagramBlockUpdatePathTest.php	a5b37e67b89d399d89f012b3a6dcc1de
+A	tests/fixtures/update/block.block.testuseridmove.yml	74ff7645028d1ee999d12354ee644820
+A	tests/fixtures/update/drupal-8.instagram-block-2778667.add-block.php	61e6ac0c5b3aa843ec4ea78e8c189de8
+A	tests/fixtures/update/drupal-8.instagram-block-2778667.site-with-instagram-block.php.gz	456c9e3c4208625f879db78b9e9098d2

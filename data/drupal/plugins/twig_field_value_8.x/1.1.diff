@@ -1,0 +1,7 @@
+M	README.txt	0e03876e0794d89889e5a401015b27d5
+M	src/Twig/Extension/FieldValueExtension.php	d0c3b54e95d14e9b2113b1965f45a8a7
+D	tests/Unit/FieldValue/FieldValueTest.php	
+A	tests/src/Unit/FieldValue/FieldRawValueTest.php	ebf018f7c39513c66e33c0552c3a6619
+A	tests/src/Unit/FieldValue/FieldTargetEntityTest.php	4e6145101d194d92cbc212e43dfafff1
+A	tests/src/Unit/FieldValue/FieldValueTest.php	8d2efd9e179d6a1315b98b8175f42fce
+M	twig_field_value.info.yml	9d42af0d0f28d1c6dec520ecc73cc60e

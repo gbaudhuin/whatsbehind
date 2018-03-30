@@ -1,0 +1,13 @@
+M	panels.info.yml	48d64c60ad6cb8874c5464eabd91e74e
+M	panels_ipe/js/views/CategoryView.js	52899e4311fbc8f950705034492b9a3e
+M	panels_ipe/js/views/LayoutView.js	e3caa8769a7edbd9a555022d9911f6a9
+M	panels_ipe/panels_ipe.api.php	10855d4940ea25d9005fec3753aad43f
+M	panels_ipe/panels_ipe.info.yml	30dca5bf165ffe20f158e24d73ee6b93
+M	panels_ipe/src/Controller/PanelsIPEPageController.php	21592c31c51d8c7b447cb91ea821e27c
+M	panels_ipe/src/Form/PanelsIPEBlockContentForm.php	bf20887d7230d598e8ec6ab3359ae18c
+M	panels_ipe/src/Plugin/DisplayBuilder/InPlaceEditorDisplayBuilder.php	30dac6661bd49cf179fb4ab804ddbf1f
+M	panels_ipe/tests/modules/panels_ipe_page_manager_test_config/panels_ipe_page_manager_test_config.info.yml	ab9fe4c6bae2d1e24a56fb1e707fe261
+M	src/Form/PanelsAddBlockForm.php	3d2bc840e46b2efce65f9a7dd3abf5ce
+M	src/Plugin/DisplayBuilder/StandardDisplayBuilder.php	a4a9ec3e5f81672382eb6eca8c8184a7
+M	tests/modules/panels_test/panels_test.info.yml	a7ea9e95e4c4449ddebe0ee1e45c0611
+M	tests/src/Unit/StandardDisplayBuilderTest.php	99f79080f983d3f0ca5659c3d3ec7926

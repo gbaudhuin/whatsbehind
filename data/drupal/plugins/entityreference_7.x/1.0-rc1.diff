@@ -1,0 +1,5 @@
+M	entityreference.info	e3952876224d91e407b4b3fe1064befa
+M	entityreference.module	900d5115a25997b0a6742af4d3caa916
+M	examples/entityreference_behavior_example/entityreference_behavior_example.info	19b4c2ea4149d11ad576d38fd3128434
+M	plugins/behavior/abstract.inc	308bc06daebed20dbf8e3b2cd2484d25
+M	plugins/selection/EntityReference_SelectionHandler_Generic.class.php	cbea956e215af75efaf96cb74804919e

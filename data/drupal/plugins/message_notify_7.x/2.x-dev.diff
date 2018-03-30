@@ -1,0 +1,9 @@
+A	.travis.yml	95766b7c8ab0506942bbc2b723398e7a
+A	README.md	b351792a8e32e2751b5e86d4c622180d
+D	README.txt	
+M	message_notify.info	837bad2ff409e58fdd70bd8d9ab870f6
+M	message_notify.module	ab78accde3a83d11cbedfae3baf441f6
+M	message_notify.rules.inc	ebe4489712c8ecf92f667e81fba3d267
+M	message_notify_example/message_notify_example.info	3139f18f2b7a7fed2caa4b974804384e
+M	plugins/notifier/abstract.inc	492fa079f9f180fc4c607e60e61bf234
+M	tests/message_notify_test.info	3c33a13a34d3a1337b3f62cce52abdd4

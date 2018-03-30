@@ -1,0 +1,19 @@
+D	.gitignore	
+M	CHANGELOG.txt	914f575f37f098d17d1329d75ac1a68a
+M	ckeditor.api.php	4694e274f07e256cc15d66e07de45ba1
+A	ckeditor.ckeditor.inc	029cc448823db562e95e390aafa38351
+M	ckeditor.config.js	7349a2dcba22471b77b08cf2f3476c5e
+M	ckeditor.info	a31b200c301dd541e0c16efc902ac81b
+M	ckeditor.install	d5fd93b3b37a67385e6e09e68a949dc9
+M	ckeditor.module	1d97d7f98b88e4c7f2db2b4e0910c801
+M	css/ckeditor.admin.css	3b3cff12c75bbe0784717c2867a0db33
+M	includes/ckeditor.admin.inc	81617092e4637f33d5b811e73c78266d
+M	includes/ckeditor.admin.js	99e7deca817417ea326ebe5549793fe3
+M	includes/ckeditor.lib.inc	9df80ff309bb6acea9017d0fda9d3fc3
+M	includes/ckeditor.page.inc	5517c5dfdbe402b0db82ebc5b5c8f380
+M	includes/ckeditor.utils.js	74e10bb388304eba2519a9712da6f7af
+M	includes/jqueryUI/sort.js	79c8e16ec4bd7abdc40bdef28ce216ac
+D	plugins/media/images/icon.gif	
+D	plugins/media/library.js	
+D	plugins/media/plugin.js	
+M	plugins/mediaembed/plugin.js	3fc1a13a2c6842bc4fb32de72004ac3a

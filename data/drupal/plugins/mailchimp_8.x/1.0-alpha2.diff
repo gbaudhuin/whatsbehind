@@ -1,0 +1,12 @@
+M	mailchimp.info.yml	142124f5c6fbbce6d282e66bc7ca1ba3
+M	mailchimp.module	06b1d2525550c4cc97ea8a4f009c372d
+M	mailchimp.services.yml	37bbaf5bc7d958ff6caefa4d39da470c
+M	modules/mailchimp_campaign/mailchimp_campaign.info.yml	aa2208d00bf1aeac557a69be90f215c4
+M	modules/mailchimp_campaign/src/Entity/MailchimpCampaign.php	543085dbfaaa01fcae642adeed9e5709
+M	modules/mailchimp_campaign/tests/modules/mailchimp_campaign_test/mailchimp_campaign_test.info.yml	5e9d43ec87a34812b861157f1f0c3802
+M	modules/mailchimp_lists/mailchimp_lists.info.yml	173a7a9ebc8bcf55a2eaa0e3e4fdaae1
+M	modules/mailchimp_lists/tests/modules/mailchimp_lists_test/mailchimp_lists_test.info.yml	7d02dbcfc6daad572cdafdde989240b9
+M	modules/mailchimp_signup/mailchimp_signup.info.yml	8dfbe0558dbcfcf4c43862953d855229
+M	modules/mailchimp_signup/src/Entity/MailchimpSignup.php	e8e167523a9328a50a4cb050d8521aad
+M	src/Access/MailchimpConfigurationAccessCheck.php	1e8c96e5a155341e3c3170f1d7793e97
+M	tests/modules/mailchimp_test/mailchimp_test.info.yml	66a065e1eaafd39f4a904c9ecfcd2e86

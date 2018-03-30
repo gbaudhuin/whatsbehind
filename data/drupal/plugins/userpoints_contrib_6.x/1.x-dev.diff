@@ -1,0 +1,80 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+D	translations/userpoints_contrib.de.po	
+D	translations/userpoints_contrib.pot	
+D	user2userpoints/translations/user2userpoints.de.po	
+D	user2userpoints/translations/user2userpoints.pot	
+M	user2userpoints/user2userpoints.info	263437397cce82f1b09fdc03776e65de
+M	user2userpoints/user2userpoints.module	b7c60fd7579ac9b2aaaad405e66c3348
+D	userpoints_admin_email/translations/de.po	
+D	userpoints_admin_email/translations/userpoints_admin_email.pot	
+M	userpoints_admin_email/userpoints_admin_email.info	15dbf9dd0f098721568fc36bd34ffd93
+M	userpoints_admin_email/userpoints_admin_email.module	bfb945f0d7b6344723b67ed75e899dd2
+D	userpoints_badges/translations/de.po	
+D	userpoints_badges/translations/userpoints_badges.pot	
+M	userpoints_badges/userpoints_badges.info	27792c758ce7257ba30309a0b8a7a213
+M	userpoints_badges/userpoints_badges.install	80342664dce9e5183984fa67ad28846d
+M	userpoints_badges/userpoints_badges.module	ad47e16b80a191931880aec7316c3c12
+D	userpoints_cap/translations/de.po	
+D	userpoints_cap/translations/userpoints_cap.pot	
+M	userpoints_cap/userpoints_cap.info	54b42a75ec105009c53bd21df1f0760b
+D	userpoints_commentspertype/translations/de.po	
+D	userpoints_commentspertype/translations/userpoints_commentspertype.pot	
+M	userpoints_commentspertype/userpoints_commentspertype.info	f3594a5fec1fa73cf74fe14167a72850
+M	userpoints_commentspertype/userpoints_commentspertype.module	7ad830539add6d10706b4c5ee9f7ecaa
+M	userpoints_download/userpoints_download.info	d0ede2d4b4aea7882dd58259d8e10a57
+M	userpoints_download/userpoints_download.module	1683648d2290dbe8f759072f02669f36
+D	userpoints_flag/translations/de.po	
+D	userpoints_flag/translations/userpoints_flag.pot	
+M	userpoints_flag/userpoints_flag.info	beeb38bca71aca4f9689be0689e52877
+M	userpoints_flag/userpoints_flag.module	f2c1b1aafca1edd383b98f220a2c55be
+D	userpoints_invite/translations/de.po	
+D	userpoints_invite/translations/userpoints_invite.pot	
+D	userpoints_invite/userpoints_invite.info	
+D	userpoints_invite/userpoints_invite.install	
+D	userpoints_invite/userpoints_invite.module	
+D	userpoints_modr8/translations/de.po	
+D	userpoints_modr8/translations/userpoints_modr8.pot	
+M	userpoints_modr8/userpoints_modr8.info	a579014cd9c67457e4293283fda2cc57
+M	userpoints_modr8/userpoints_modr8.module	fc3bd83ff414ebe92590eaf81fffc7ad
+D	userpoints_no_negative/translations/de.po	
+D	userpoints_no_negative/translations/userpoints_no_negative.pot	
+M	userpoints_no_negative/userpoints_no_negative.info	895e9c050ed81255aa6f44f212919404
+M	userpoints_no_negative/userpoints_no_negative.module	69a6da263fab370e46b50071753b3b9d
+D	userpoints_nodelimit/translations/de.po	
+D	userpoints_nodelimit/translations/userpoints_nodelimit.pot	
+M	userpoints_nodelimit/userpoints_nodelimit.info	aba9f4ac83648d2cccf4624cfc0a5d7e
+M	userpoints_nodelimit/userpoints_nodelimit.module	b1e1c1c9b58bd2db887c3cf41584fd5d
+D	userpoints_pageviews/translations/de.po	
+D	userpoints_pageviews/translations/userpoints_pageviews.pot	
+M	userpoints_pageviews/userpoints_pageviews.info	f7954d917e381691b466bf301e83c783
+M	userpoints_pageviews/userpoints_pageviews.install	29a28a132dfdc8681b1843c27b9d2b62
+M	userpoints_pageviews/userpoints_pageviews.module	5f4546d4723e7f0cc2fb47236400d9c2
+D	userpoints_register/translations/de.po	
+D	userpoints_register/translations/userpoints_register.pot	
+M	userpoints_register/userpoints_register.info	3b50641824e7310147af71effc671362
+M	userpoints_register/userpoints_register.module	7bbef3feddaea3c838bc99d7a2d7d1a8
+D	userpoints_reset/translations/de.po	
+D	userpoints_reset/translations/userpoints_reset.pot	
+M	userpoints_reset/userpoints_reset.info	f587bc12ecfe9547d3e9dbc5f25dcdfb
+M	userpoints_reset/userpoints_reset.module	2e06aef156fb6c5c261d0cde0208d17d
+D	userpoints_retroactive/translations/de.po	
+D	userpoints_retroactive/translations/userpoints_retroactive.pot	
+M	userpoints_retroactive/userpoints_retroactive.info	6637164e7add8618acc9367813d7fa87
+M	userpoints_retroactive/userpoints_retroactive.module	64c5e3147f8f1f3fc6db673a8c3f4cbe
+M	userpoints_revision/userpoints_revision.info	bb4986c6a2a42036fee2987f462c6549
+D	userpoints_role/translations/de.po	
+D	userpoints_role/translations/userpoints_role.pot	
+M	userpoints_role/userpoints_role.info	e6e305c29113b4d140d1e4944cbdb57d
+M	userpoints_role/userpoints_role.install	714bc17fe6f59bb3576335a357cdbf7b
+M	userpoints_role/userpoints_role.module	2f845ebe1b6b89e57d751d24cc7fa0d2
+D	userpoints_role_exempt/translations/de.po	
+D	userpoints_role_exempt/translations/userpoints_role_exempt.pot	
+M	userpoints_role_exempt/userpoints_role_exempt.info	7a7b4f2772ffe3c2f42cc4401db544ba
+M	userpoints_role_exempt/userpoints_role_exempt.module	8ef8f22aee191438e75ea875b80008bd
+M	votingpoints/README.txt	7b0cefdfbf06e0be67a9a317329223a8
+D	votingpoints/translations/de.po	
+D	votingpoints/translations/votingpoints.pot	
+M	votingpoints/votingpoints.info	412e75101e9208391ecab72d9949926c
+M	votingpoints/votingpoints.module	07bbfcf79864c3bc1d7e7d2489b353b3
+M	votingpoints/votingpoints.rules.inc	fd0c64828643d3fb1ea6f540146bef2c
+M	votingpoints/votingpoints.rules_sample.inc	22e4fa210e8164c89b3c880a03e15d5c

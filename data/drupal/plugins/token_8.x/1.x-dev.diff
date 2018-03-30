@@ -1,0 +1,11 @@
+M	src/Tests/TokenBlockTest.php	18340c6b686fb7c30a12037f6844676c
+M	src/Tests/TokenCurrentPageTest.php	8aa36ed4569da2c895a90d55ad1950ca
+M	src/Tests/TokenMenuTest.php	81f12d5ca216d0ae7498576baa76a781
+M	src/Tests/TokenUserTest.php	713e7586a763fea8ba76871464953c60
+M	tests/modules/token_module_test/token_module_test.info.yml	cfc1543f82eab4730e9f97425e90fafa
+M	tests/modules/token_user_picture/token_user_picture.info.yml	6416cda8648cf8b23a6fd01ae63050c7
+A	tests/src/Functional/UrlTest.php	2e5d21af2f9a36c69711003173078ce2
+M	tests/src/Kernel/CommentTest.php	22ec904a7af20154c244316369eea904
+M	tests/src/Kernel/EntityTest.php	bd87cd857d32db3832b9bc1e8f89c6a6
+M	token.info.yml	a828a6f60e8129535b40f8297a48b5f3
+M	token.tokens.inc	23eeb661cc505b18e53b024c60050aa1

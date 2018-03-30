@@ -1,0 +1,8 @@
+M	CHANGELOG.txt	04f4376e3615e6a921d87d5af7d58a04
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	handlers/breadcrumb/core.inc	c21ae0fa53fff821cada4aa9a4e195d2
+A	plugins/content_types/term_context/icon_term.png	a91416f5e51db6aa243a1dfb1700970d
+A	plugins/content_types/term_context/term_page_display.inc	3864963aae3f6caf0f837fec38805bcc
+M	taxonomy_display.api.php	44936c33e1312bde3b9e89c98cecd93f
+M	taxonomy_display.info	5c24729bcd14f0435780bcad2dcbf993
+M	taxonomy_display.module	27bfdfe7dbb9bc3f175172b7887ff40a

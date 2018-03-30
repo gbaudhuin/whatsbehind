@@ -1,0 +1,13 @@
+M	fontyourface.info.yml	bceb41a8fa688d35d321039b54111675
+M	fontyourface.install	55ad22f90d3cc6eb12d7cf90b385a0ff
+M	fontyourface.module	d24acac4f3846d3de7850f77ec630130
+M	modules/adobe_edge_fonts/adobe_edge_fonts.info.yml	a5a4e0f3554409ebb1f5be6f95647296
+M	modules/fontscom_api/fontscom_api.info.yml	59868578d37925574bcfaf04eb4974cd
+M	modules/fontsquirrel_api/fontsquirrel_api.info.yml	aa235d83efc4738105119505692a1971
+M	modules/google_fonts_api/google_fonts_api.info.yml	ef84d34adbbe054dec4f5d1b900c2d86
+M	modules/local_fonts/local_fonts.info.yml	d47a0f314c04ed60f687049917d014a9
+M	modules/typekit_api/typekit_api.info.yml	37f23494924f8c80d3eb7d5685612dc8
+M	src/Form/FontDisplayDeleteForm.php	57fd042c731ddfe917f0942378c8995e
+M	src/Form/FontDisplayForm.php	3d828ab331df9aa62e85af60a5808cbd
+M	tests/src/Functional/FontYourFaceFontDisplayTest.php	d8bbb4c421b56f9254651f7ff94206f5
+M	tests/websafe_fonts_test/websafe_fonts_test.info.yml	ff4a6db5e7d21be68e8f0e6942b3685e

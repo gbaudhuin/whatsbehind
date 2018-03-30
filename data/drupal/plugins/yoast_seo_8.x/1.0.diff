@@ -1,0 +1,29 @@
+M	config/yoast_seo.yml	38e37c5e73e090c01d8601fdc43f37b1
+M	css/yoast_seo.css	d70fb6ede3d5074f64e5bd4aeccf8e85
+D	css/yoast_seo_score.css	
+D	js/inc/form/snippet_element.js	
+D	js/inc/model/status.js	
+D	js/inc/widget/focus_keyword.js	
+D	js/inc/widget/status.js	
+D	js/inc/yoast_analyser.js	
+D	js/inc/yoast_analyser_edit_node.js	
+A	js/js-text-analysis/yoast-seo.min.js	923a4d1f689be9a839f323351dbc9309
+D	js/lib/backbone_form/form.js	
+D	js/lib/yoast/yoast-seo.min.js	
+D	js/yoast_seo.edit_node.js	
+A	js/yoast_seo.js	836ac7c1a7c2b27cb51c39376bd43b8b
+M	src/Controller/YoastseoController.php	0c6f73c80d63b6df26de46fbcd8f69e5
+M	src/Form/YoastSeoConfigForm.php	028ace07f75d900c9169002b94d181ae
+M	src/Plugin/Field/FieldFormatter/YoastSeoFormatter.php	cd2dd6b41a692ff81158616a82fe0c17
+M	src/Plugin/Field/FieldType/YoastSeoItem.php	664e8813cf8b65ca38a063a089fe95a8
+M	src/Plugin/Field/FieldWidget/YoastSeoWidget.php	04b93a1466342fe5d36a5e41d9e3ad4d
+M	src/Tests/YoastSeoTest.php	1953db0911faa8ad65bbab16520cc633
+M	src/YoastSeoFieldManager.php	5ed165988abf69c24db9f6753c0fd650
+M	src/YoastSeoManager.php	f9419cddb6af66dd2a1d6065bb42d0ed
+D	templates/newsletter.html.twig	
+M	templates/overall_score.html.twig	87b11ec80bf85e4887596e25962f3dd7
+D	templates/snippet.html.twig	
+A	templates/yoast-snippet.html.twig	2b901e45edfd2f515f890c9de6275726
+M	yoast_seo.info.yml	c10cfb82d1c49b7ae36b765a61712de7
+M	yoast_seo.libraries.yml	f39259ef023785bb87b9783c696a8bb7
+M	yoast_seo.module	09fe0ed0ef97ed3848b4fb4512ca538b

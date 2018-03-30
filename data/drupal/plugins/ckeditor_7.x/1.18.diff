@@ -1,0 +1,10 @@
+M	ckeditor.api.php	02d8f18a84d56ec9fe405a99871d723b
+M	ckeditor.ckeditor.inc	a4692a778fee00798bce9517461be829
+M	ckeditor.info	6239f26e498f65b605652dbd24376b6a
+M	includes/ckeditor.admin.inc	3c29567edf2b1535ac102bfe0c15cc9e
+M	includes/ckeditor.features.inc	32a1929cd69cf9e2dbb63b694f640050
+M	includes/ckeditor.lib.inc	8e2f139029dde9754f92b9a069ddaab0
+M	includes/ckeditor.page.inc	1c1a698da063ac2c287751310a227c77
+M	includes/filemanager.config.php	23e9c21688d188fc1f9db889606a42a8
+M	plugins/imce/plugin.js	3c5c9f14377f7ebbd56aa653bf0c7604
+A	tests/ckeditor.test	93a98198b7e1abcc8e2527ac50d70bc5

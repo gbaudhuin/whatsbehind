@@ -1,0 +1,11 @@
+M	includes/js/owlcarousel.settings.js	e560818f59dcb444acc2458b576e66ad
+M	modules/fields/owlcarousel_fields.info	0707461a90dab2e63356e9b0026fd84e
+M	modules/fields/owlcarousel_fields.module	24cea2e0a13ce101da4f85ee3d27e28a
+M	modules/ui/owlcarousel_ui.info	8f55b8725e6a40e62acda89d43b3920d
+M	modules/views/owlcarousel_views.info	c63a8b2c9c754429c34eb36dfb154475
+M	modules/views/owlcarousel_views_plugin_style_owlcarousel.inc	8ec54beef468521a59bc1838c54b5eb3
+M	modules/views/theme/owlcarousel_views.theme.inc	f5242cd8ac79eeeea099916333004979
+M	owlcarousel.info	6cfd6534dae32d2283341bf806edd085
+M	owlcarousel.module	da97a3c4b80e0265d3fa751f237b08f5
+M	theme/owlcarousel.theme.inc	43e2a1345f9603fbcbda0a263f718dda
+D	theme/owlcarousel.tpl.php	

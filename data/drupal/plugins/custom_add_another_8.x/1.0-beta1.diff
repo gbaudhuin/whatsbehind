@@ -1,0 +1,7 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	ebd50ddc6b0fa050e6af7afacf5f3765
+A	config/schema/custom_add_another.schema.yml	51ef0e13c5af9115826e48741bf29f54
+A	custom_add_another.info.yml	642bd8539f33dddffbe1e74af26daaef
+A	custom_add_another.module	d00216c1ec68c2a56d301e18e961c519
+A	src/Tests/AddAnotherItemButtonTest.php	9eef31425afba4092b56c023ee799497
+A	src/Tests/RemoveButtonTest.php	97c5f29ab5474cb3d550edf791dfd466

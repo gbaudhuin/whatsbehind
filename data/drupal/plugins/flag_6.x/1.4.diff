@@ -1,0 +1,31 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	README.txt	214e80ac2888f5fc3f651ad072eca40f
+M	flag.inc	a4c792d013d87b6387441f325cc86349
+M	flag.info	78749b7d4373c3e707033cd4a89f4c06
+M	flag.install	8b7a7469d8238eb28762f756fd8dad68
+M	flag.module	e96a9fdf87cd4c94183a02129229eaef
+M	flag_actions.info	c3cb8ac7b29ee8fee9289cc845cc0f6a
+M	flag_actions.install	9d698a3b2db0af50f73cdd4151226423
+M	flag_actions.module	fb9ce65affa4b376c097b939752b93fd
+M	includes/flag.actions.inc	4f3568c055a23e790b353f25550d68b5
+M	includes/flag.admin.inc	2cd402d9a643873408c1916f8e14a4e6
+M	includes/flag.rules.inc	216cc5399a9f5ce48adcb76dbaeb2570
+M	includes/flag.rules_forms.inc	a80b69b792e7094dd1bc071b678d47a3
+M	includes/flag.token.inc	9bf378018d24d1a26465d287d73fb8ac
+M	includes/flag.views.inc	faf6a425703130402b7a38a69afe3062
+M	includes/flag.views_bookmark.inc	b57f6e25d480576f4a51b139c64cf90a
+M	includes/flag.views_convert.inc	f2447df3dc8ac55f0577e573e597ac63
+M	includes/flag.views_default.inc	5f1c6d00c9109efbfb4e8b59cc13cffb
+M	includes/flag_handler_argument_content_id.inc	d3c69f1b9279d4599a4519850e2be17d
+M	includes/flag_handler_field_ops.inc	9b814ab5f6b59cafa869ed3fe75a247d
+M	includes/flag_handler_filter_flagged.inc	31849483fb14d62d80f7d92052345a3c
+M	includes/flag_handler_relationships.inc	c28f8fb8df78c982fd4d2af752494715
+M	includes/flag_plugin_argument_validate_flaggability.inc	bcfa2a82fda75201266b39e6beae8883
+M	tests/flag.test	9b6d9c108b38d301d6d811b2f2e10f60
+M	theme/README.txt	b73d154cc22575ac4d967ff3bd518ad8
+M	theme/flag.css	5fd85edd066a17f9702c2856f6fc42b4
+M	theme/flag.js	6564fe3cbad68a84c133a8afda7abbdc
+M	theme/flag.tpl.php	595bbd64b4845e30a6c03049dc46184b
+D	translations/da.po	
+D	translations/de.po	
+D	translations/fr.po	

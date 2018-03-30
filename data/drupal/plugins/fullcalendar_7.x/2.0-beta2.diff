@@ -1,0 +1,19 @@
+M	fullcalendar.info	0a597672505d850a4f13601605a2b49c
+D	fullcalendar_colors/css/fullcalendar_colors.admin.css	
+D	fullcalendar_colors/fullcalendar_colors.api.php	
+M	fullcalendar_colors/fullcalendar_colors.info	bc7b55b85163d34a5eee502e324114d1
+M	fullcalendar_colors/fullcalendar_colors.install	a3b550c8632c71a6da8d82732f702a5e
+M	fullcalendar_colors/fullcalendar_colors.module	61d5c0a264f6e0d4b742c20729eae7c7
+D	fullcalendar_colors/includes/fullcalendar_colors.admin.inc	
+D	fullcalendar_colors/modules/node.fullcalendar_colors.inc	
+D	fullcalendar_colors/modules/og.fullcalendar_colors.inc	
+D	fullcalendar_colors/modules/taxonomy.fullcalendar_colors.inc	
+D	fullcalendar_colors/modules/user.fullcalendar_colors.inc	
+M	fullcalendar_legend/fullcalendar_legend.info	e16b6ceb75f9680a95237df570e3ff63
+M	fullcalendar_legend/theme/theme.inc	028714ceca600716fbf91a0264bb3fd8
+M	fullcalendar_options/fullcalendar_options.info	bd40f4fbf7113661910961c92f2bd504
+M	fullcalendar_options/js/colorbox.fullcalendar.js	59bd4868d360e0fc2f21ffd51452b4a0
+M	includes/fullcalendar.fullcalendar.inc	e509b3b934f3e36d9b6e07e3aac17caa
+M	js/fullcalendar.library.js	7339edbc246817f86839b8612838fb55
+M	js/fullcalendar.views.js	70ab0f9de7b411794289b8cd550f03c5
+M	theme/theme.inc	856ac00a6810df86e8bca3e7106f7bfa

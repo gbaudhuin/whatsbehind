@@ -1,0 +1,91 @@
+A	README.md	42886f34063ffd2a3f2c8e9955fb4155
+D	README.txt	
+A	bootstrap_layouts.api.php	1f854efcc1962d0d14fb66d4eed77b83
+M	bootstrap_layouts.info.yml	164cd0d913d5c6b921309ed1d37ad9e8
+A	bootstrap_layouts.install	9c338a1a7a31d5490e9957a0509d65e2
+M	bootstrap_layouts.layouts.yml	ef085c900ad56ec85d4db0c1c4dda7fc
+M	bootstrap_layouts.module	f217acdcb5a674a1af96fefbb0424cb9
+A	bootstrap_layouts.services.yml	055bc799d18b2ab808aa09f5ab474b61
+A	images/1col-stacked.png	8465ed90a76479bbf09b08a8ec070b6a
+A	images/1col.png	25cdb3f4d183b14c5026c900b83e9a0a
+A	images/2col-bricked.png	aad885562a6c3110233bef8cf26f1b8f
+A	images/2col-stacked.png	7440e7e60c4bb9ff33e7b9fbedc709cc
+A	images/2col.png	4e1767a7dc03fd027c67b5b6ad7836b3
+A	images/3col-bricked.png	7399c8971574bb6edb810803a12c49b2
+A	images/3col-stacked.png	d39626d2fd8efe1e2fc7cd3c459e5ffc
+A	images/3col.png	5baa639330bbde67871cf3c4f9966ebd
+A	images/4col-bricked.png	9a6e61c1aac424619c6e4691209c413b
+A	images/4col-stacked.png	cfbbdf8b6ddad6f5274f32e8fd888fef
+A	images/4col.png	6f0939f76f5bb7a574728d1a889384f2
+A	src/Annotation/BootstrapLayoutsHandler.php	c78434b4fa0fdf32010ef70b5d7749d8
+A	src/Annotation/BootstrapLayoutsUpdate.php	f82f43220bb2cccb87d76025aae4148e
+A	src/BootstrapLayout.php	f6aba436c4ae934b8b99115b91c4b454
+A	src/BootstrapLayoutsManager.php	1c91a55f2b923a33b762349fece40e87
+A	src/BootstrapLayoutsPluginManager.php	580ede3a3cc6ce3d5bcfd61bac1863e5
+A	src/BootstrapLayoutsUpdateManager.php	6ed9adf5393a972f93f384ccab0112f8
+A	src/Plugin/BootstrapLayouts/BootstrapLayoutsHandlerBase.php	d428898bbd88b2dbc4a89617ca448358
+A	src/Plugin/BootstrapLayouts/BootstrapLayoutsHandlerInterface.php	27b229d9c66a6cc27db371601698705d
+A	src/Plugin/BootstrapLayouts/BootstrapLayoutsUpdateBase.php	29ea1bc012129d9f2a07677e5e73f402
+A	src/Plugin/BootstrapLayouts/BootstrapLayoutsUpdateInterface.php	78274e31e7f57a191f04e067ce2781b3
+A	src/Plugin/BootstrapLayouts/Ds.php	fc7eb998bb8dd0a9a8d55d3ee24b9b49
+A	src/Plugin/BootstrapLayouts/PageManager.php	12145b56e0bbd78db00e95a9ea3f4385
+A	src/Plugin/BootstrapLayouts/Updates/BootstrapLayoutsUpdate8401.php	148ab572f38ed38d90c496e4e5d22737
+A	src/Plugin/BootstrapLayouts/Updates/bootstrap_layouts.update.8401.yml	44b44cbf9c27502c6042c15f817e67fa
+A	src/Plugin/Layout/BootstrapLayoutsBase.php	0e1823379fa96bcfa2f1ad5f7e440045
+A	templates/3.0.0/bs-1col-stacked.html.twig	c0c0e395548a614b3abe5c0a8d65a971
+A	templates/3.0.0/bs-1col.html.twig	8049bcd636aee1b3de7b097be9f61f72
+A	templates/3.0.0/bs-2col-bricked.html.twig	fa9a5f51932850cb196c4921239fc8dc
+A	templates/3.0.0/bs-2col-stacked.html.twig	aa0df64c55fa07b1216df974f4e12985
+A	templates/3.0.0/bs-2col.html.twig	60791eb0c5630db9171831d4e7f8a899
+A	templates/3.0.0/bs-3col-bricked.html.twig	9034ac88e078279b485a35fcb967ba4a
+A	templates/3.0.0/bs-3col-stacked.html.twig	bdeb08a85bfd4c3f9ec25d40a0ac012d
+A	templates/3.0.0/bs-3col.html.twig	7a0d8ce13c6e2563be5ace235a1f2ee3
+A	templates/3.0.0/bs-4col-bricked.html.twig	1f3d948796f4a7b24fa70043fc91e47b
+A	templates/3.0.0/bs-4col-stacked.html.twig	f047c8840bccb264541527498a1c257a
+A	templates/3.0.0/bs-4col.html.twig	34864effbd8648d59d199d1ad6b40959
+D	templates/bricks/bootstrap-3-3-3-3-bricks/bootstrap-3-3-3-3-bricks.html.twig	
+D	templates/bricks/bootstrap-3-3-3-3-bricks/bootstrap_fourcol_3_3_3_3_bricks.png	
+D	templates/bricks/bootstrap-6-6-bricks/bootstrap-6-6-bricks.html.twig	
+D	templates/bricks/bootstrap-6-6-bricks/bootstrap_twocol_6_6_bricks.png	
+D	templates/four-columns/bootstrap-3-3-3-3/bootstrap-3-3-3-3.html.twig	
+D	templates/four-columns/bootstrap-3-3-3-3/bootstrap_fourcol_3_3_3_3.png	
+D	templates/one-column/bootstrap-12/bootstrap-12.html.twig	
+D	templates/one-column/bootstrap-12/bootstrap_onecol_12.png	
+D	templates/stacked/bootstrap-4-4-4-stacked/bootstrap-4-4-4-stacked.html.twig	
+D	templates/stacked/bootstrap-4-4-4-stacked/bootstrap_threecol_4_4_4_stacked.png	
+D	templates/stacked/bootstrap-6-6-stacked/bootstrap-6-6-stacked.html.twig	
+D	templates/stacked/bootstrap-6-6-stacked/bootstrap_twocol_6_6_stacked.png	
+D	templates/three-columns/bootstrap-2-2-8/bootstrap-2-2-8.html.twig	
+D	templates/three-columns/bootstrap-2-2-8/bootstrap_threecol_2_2_8.png	
+D	templates/three-columns/bootstrap-2-8-2/bootstrap-2-8-2.html.twig	
+D	templates/three-columns/bootstrap-2-8-2/bootstrap_threecol_2_8_2.png	
+D	templates/three-columns/bootstrap-3-6-3/bootstrap-3-6-3.html.twig	
+D	templates/three-columns/bootstrap-3-6-3/bootstrap_threecol_3_6_3.png	
+D	templates/three-columns/bootstrap-4-4-4/bootstrap-4-4-4.html.twig	
+D	templates/three-columns/bootstrap-4-4-4/bootstrap_threecol_4_4_4.png	
+D	templates/three-columns/bootstrap-5-5-2/bootstrap-5-5-2.html.twig	
+D	templates/three-columns/bootstrap-5-5-2/bootstrap_threecol_5_5_2.png	
+D	templates/three-columns/bootstrap-8-2-2/bootstrap-2-2-8.html.twig	
+D	templates/three-columns/bootstrap-8-2-2/bootstrap_threecol_8_2_2.png	
+D	templates/two-columns/bootstrap-1-11/bootstrap-1-11.html.twig	
+D	templates/two-columns/bootstrap-1-11/bootstrap_twocol_1_11.png	
+D	templates/two-columns/bootstrap-10-2/bootstrap-10-2.html.twig	
+D	templates/two-columns/bootstrap-10-2/bootstrap_twocol_10_2.png	
+D	templates/two-columns/bootstrap-11-1/bootstrap-11-1.html.twig	
+D	templates/two-columns/bootstrap-11-1/bootstrap_twocol_11_1.png	
+D	templates/two-columns/bootstrap-2-10/bootstrap-2-10.html.twig	
+D	templates/two-columns/bootstrap-2-10/bootstrap_twocol_2_10.png	
+D	templates/two-columns/bootstrap-3-9/bootstrap-3-9.html.twig	
+D	templates/two-columns/bootstrap-3-9/bootstrap_twocol_3_9.png	
+D	templates/two-columns/bootstrap-4-8/bootstrap-4-8.html.twig	
+D	templates/two-columns/bootstrap-4-8/bootstrap_twocol_4_8.png	
+D	templates/two-columns/bootstrap-5-7/bootstrap-5-7.html.twig	
+D	templates/two-columns/bootstrap-5-7/bootstrap_twocol_5_7.png	
+D	templates/two-columns/bootstrap-6-6/bootstrap-6-6.html.twig	
+D	templates/two-columns/bootstrap-6-6/bootstrap_twocol_6_6.png	
+D	templates/two-columns/bootstrap-7-5/bootstrap-7-5.html.twig	
+D	templates/two-columns/bootstrap-7-5/bootstrap_twocol_7_5.png	
+D	templates/two-columns/bootstrap-8-4/bootstrap-8-4.html.twig	
+D	templates/two-columns/bootstrap-8-4/bootstrap_twocol_8_4.png	
+D	templates/two-columns/bootstrap-9-3/bootstrap-9-3.html.twig	
+D	templates/two-columns/bootstrap-9-3/bootstrap_twocol_9_3.png	

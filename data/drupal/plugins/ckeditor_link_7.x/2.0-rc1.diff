@@ -1,0 +1,13 @@
+M	README.txt	f141a58f812177f12409d175b794a91c
+A	ckeditor_link.admin.inc	55cbb14fe423e10c74593d353a2ef182
+A	ckeditor_link.api.php	973e79e9559bf223c48d43c47496e1ce
+M	ckeditor_link.css	afa99dafc3df3150fcf9594beca3d484
+M	ckeditor_link.info	2c3ccc046d1a27b4dd911a98d94038ef
+M	ckeditor_link.install	40425434c94ba30ad8430e548d74b0a2
+M	ckeditor_link.module	441fcdf9bae7d8265bb87970669fe1ce
+A	includes/ckeditor_link.i18n_menu.inc	4c4de093dda6fbbfd420e1a8e9a1414a
+A	includes/ckeditor_link.i18n_taxonomy.inc	a96d2a61f3caf9ff8aa5ef3ec05d9b1a
+A	includes/ckeditor_link.menu.inc	777e928508067b0915f8caf0818fd638
+A	includes/ckeditor_link.node.inc	d78f687902137c92b9e0ccf23e81f9e7
+A	includes/ckeditor_link.taxonomy.inc	c1fd5ae732a788fcf4d59a953c8ea084
+M	plugins/link/plugin.js	3a635a57f3aecf5240b5d1125a81231b

@@ -1,0 +1,4 @@
+M	computed_field.info.yml	afc9e6e3ba2cf162099bba0e1d28dc31
+M	computed_field_example_formatter/computed_field_example_formatter.info.yml	6ff37214c01334dfd2e7feb0ca54521a
+M	computed_field_php_formatter/computed_field_php_formatter.info.yml	e5e6aed6b5c27ca562be9f34bea63773
+M	src/Plugin/Field/FieldType/ComputedFieldItemTrait.php	8228f423d10f25a7d9f959c8331bc4e4

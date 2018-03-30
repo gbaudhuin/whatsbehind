@@ -1,0 +1,17 @@
+M	CHANGELOG.txt	1fd3211283fb16ea5a93a8b756cf66ca
+M	README.txt	8558641a0f7f22e2b6d45e4e02a3ddd9
+M	css/theme/slick.theme--asnavfor.css	920d713fd5a8e637d2aa498a27f680d7
+M	css/theme/slick.theme.css	bf4c9deec4cec0b3a053171b85398027
+M	slick.api.php	0e54fdcfee719fb0288825952701110e
+M	slick.info.yml	7f0488649da0522af62f191d39279018
+A	slick.install	9ca9a2d15767734967e81046624a6b04
+M	slick.libraries.yml	d50d8c30524287ace827496e9e2af3b7
+M	slick_ui/slick_ui.info.yml	b634a46bbb7ca5e23cd53f6813c440ad
+M	src/Form/SlickAdmin.php	63ece3802688a0a4739346db4af824d7
+M	src/Plugin/Field/FieldFormatter/SlickImageFormatter.php	ebc75b42cecb549c591f3f775f841098
+M	src/Plugin/Field/FieldFormatter/SlickTextFormatter.php	458f15d934ab00acff8c7c218da09fc8
+M	src/SlickFormatter.php	92b3df399e1b3e2a20daf0c41f99fab6
+M	src/SlickManager.php	2ccc487b48d03d3304fc88880673d78d
+M	src/SlickSkin.php	b77b1b8150a2713595558566987f5925
+M	templates/slick-grid.html.twig	12a5bf7bf4e45e03f4b4b40a7c203277
+M	templates/slick-slide.html.twig	d190b537ba0e148d1b2d47a931582a69

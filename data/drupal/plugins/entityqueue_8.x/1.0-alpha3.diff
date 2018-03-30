@@ -1,0 +1,15 @@
+M	README.txt	8a599691bab1d9bc07d6a87fe18bd665
+M	config/schema/entityqueue.schema.yml	b9cfac5b67fe24c95a41dda400f246f9
+M	entityqueue.info.yml	302b53ad57a2183c9ca7140b945e9ccf
+A	entityqueue.install	3b0ce36600d0bfadfbd6f6fa95252ba2
+M	entityqueue.routing.yml	071668894fd66cff263620925c9c262f
+M	entityqueue.views.inc	9cb60b81b01006cefddfd8a3004365fb
+M	src/Controller/EntityQueueUIController.php	13e211e5c21e944149f8f24eefaa33ed
+M	src/Entity/EntityQueue.php	ac4a0e6f5176f74dcab6fcea4dbb7328
+M	src/Entity/EntitySubqueue.php	65810cba0ff3eea0e89686505c28c316
+M	src/EntityQueueHandlerBase.php	9fb9624320ca0c42569b3b1f777d7d4b
+M	src/EntityQueueInterface.php	74f7759e8f2c044dd8006dd827269daf
+M	src/EntityQueueListBuilder.php	ce6a9c612f961b1906b2ef7c3b7dc628
+M	src/Form/EntityQueueForm.php	59c5981a35efc7891e2b28e6761a00a7
+M	src/Form/EntitySubqueueForm.php	e36fb1838dca096f1008e48f73114dae
+M	src/Plugin/EntityQueueHandler/Multiple.php	9bf1ec0b96ab2833af1963b476bae3a9

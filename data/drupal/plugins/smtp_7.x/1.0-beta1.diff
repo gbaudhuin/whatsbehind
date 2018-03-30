@@ -1,0 +1,10 @@
+A	CHANGELOG.txt	15009cd22bbaa2594469b9b70ec7fcfc
+A	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+A	README.txt	8f3b5353555df783ce6c9d23f8fcc379
+A	smtp.admin.inc	480b11bf0a5b663efd04750b5595b2ce
+A	smtp.info	8aa1759fb257673655c39ec646feec06
+A	smtp.install	6bc1f28cb5d44a4552bdeb13eb124750
+A	smtp.mail.inc	2d892992603a848cdc1d597317c34c8a
+A	smtp.module	a20180ff5d000ffb5c5621e72f6d3313
+A	smtp.phpmailer.inc	ce197d76697f727de683569bf148b567
+A	smtp.transport.inc	861339880f4f6daa8be12c62ed10e2ee

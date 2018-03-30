@@ -1,0 +1,10 @@
+M	shortcode.info.yml	23a3baae9945df50518cacc14e94dca9
+M	shortcode_example/shortcode_example.info.yml	61561cbe4f0cbb5f1a5e0d300d24d87a
+M	src/Annotation/Shortcode.php	a89d113f23db7a1b11a5e013919f98be
+M	src/Plugin/Filter/Shortcode.php	6109b93ca8dd66db4528c9ae0ccbd839
+M	src/Plugin/Filter/ShortcodeCorrector.php	79f05a6fe6af304643e5344f127f5d1d
+M	src/Plugin/ShortcodeBase.php	cb7714c95ea5fdd59731d2bcb5b27dde
+M	src/Plugin/ShortcodeInterface.php	eae7dfcd8585f83f308d6c9191a98fda
+M	src/Shortcode/ShortcodePluginManager.php	e68c760ec9508e3aaf99ae5b5b8b6902
+M	src/Shortcode/ShortcodeService.php	5d3b7b0048e20007f1d891ac12e7a47b
+M	src/Tests/ShortcodeTest.php	7f364bbac0f00b1de9953838914ad347

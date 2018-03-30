@@ -1,0 +1,31 @@
+M	modules/workflow_access/workflow_access.info.yml	6f0b10e73a73a88f0f748e87704071d4
+M	modules/workflow_access/workflow_access.module	c55da40b1e04e5ed13098e8a35ff2f1e
+M	modules/workflow_cleanup/workflow_cleanup.info.yml	fcedb6d381fcb62dddc67eacffd09137
+M	modules/workflow_devel/workflow_devel.info.yml	6a8cdb621d8376caf20827836e832e5e
+D	modules/workflow_field/README.txt	
+D	modules/workflow_field/src/Plugin/Field/FieldFormatter/WorkflowDefaultFormatter.php	
+D	modules/workflow_field/src/Plugin/Field/FieldType/WorkflowItem.php	
+D	modules/workflow_field/src/Plugin/Field/FieldWidget/WorkflowDefaultWidget.php	
+D	modules/workflow_field/src/Plugin/Validation/Constraint/WorkflowFieldConstraint.php	
+D	modules/workflow_field/src/Plugin/Validation/Constraint/WorkflowFieldConstraintValidator.php	
+D	modules/workflow_field/workflowfield.info.yml	
+M	modules/workflow_operations/workflow_operations.info.yml	a5612bfc9f2a80ff7f9882bfdd7151f2
+D	modules/workflow_ui/src/Controller/WorkflowConfigTransitionListBuilder.php	
+M	modules/workflow_ui/workflow_ui.info.yml	ce1d38276f1e9c02185a7946fd0730c4
+M	modules/workflow_ui/workflow_ui.routing.yml	4b3420ddd60c50592fb5e29a31e77869
+M	src/Element/WorkflowTransitionElement.php	e1e7f50c262424d4beca8e31fb5045fd
+M	src/Entity/WorkflowConfigTransition.php	49d3836bb4f8f232467f11490040f435
+M	src/Entity/WorkflowManager.php	a280ccca623ebb0c9f0ff446cce097bb
+M	src/Entity/WorkflowManagerInterface.php	bed8d365e8f5a36d19946d6823fc4598
+M	src/Entity/WorkflowState.php	c6aed38913829150ca34c91b19e9715a
+M	src/Entity/WorkflowTransition.php	cb62dd303f6158b6252f3cdf4bcaac64
+A	src/Plugin/Field/FieldFormatter/WorkflowDefaultFormatter.php	cf1823e0dd9299baeb80e3db3a7c3400
+A	src/Plugin/Field/FieldType/WorkflowItem.php	7850ef36f5dcb43267fab069ecbe5428
+A	src/Plugin/Field/FieldWidget/WorkflowDefaultWidget.php	1115a9bca44f8100b7affa0e14b3d92d
+A	src/Plugin/Validation/Constraint/WorkflowFieldConstraint.php	5e954cc44999c8a82bacb84b3939f113
+A	src/Plugin/Validation/Constraint/WorkflowFieldConstraintValidator.php	b082820b6771b258869be7373ecdaff7
+M	workflow.field.inc	3af86baab89852f51d70321faceeaccd
+M	workflow.form.inc	950b6ed8332adc60006423bdd9986775
+M	workflow.info.yml	775a180c26468026057b01e8770d598d
+M	workflow.module	f5034035f3b0460675cab8a37422d6b4
+M	workflow.routing.yml	c06d91de16b4b70a94fc9d648d3188a4

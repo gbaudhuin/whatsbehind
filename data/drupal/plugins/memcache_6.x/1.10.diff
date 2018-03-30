@@ -1,0 +1,7 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	dmemcache.inc	0e90dad62189f1f30e498e271ebb301a
+M	memcache.inc	5d236c3f77d957ac2e067ed0f4cf7fc1
+M	memcache.info	83cb400387268dc3d9b97a026e2c1858
+M	memcache_admin/memcache_admin.info	0e3ef00a4d7de74b8f55bed726067d7c
+M	memcache_admin/memcache_admin.module	372adff2d25aca4ef309bd9817817d10
+M	tests/memcache_test.info	7c79a04f04f1449086427b2e2a16c422

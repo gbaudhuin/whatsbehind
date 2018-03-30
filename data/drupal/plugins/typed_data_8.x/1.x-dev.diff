@@ -1,0 +1,47 @@
+A	.gitignore	0c0ef7b9a3271d2fbfa0aca4d0bb61eb
+M	.travis.yml	e69ad319553e196ee9d94d84862977e0
+M	README.md	19116f3b8fe32fef76299d36cd1d1e6d
+M	composer.json	02ad753e1d0969770424be44af0c66e1
+A	composer.lock	fe824624567471a5a3e6e0f164c247ce
+M	phpcs.xml.dist	25ce778fd234473693e93274d71ecf52
+A	src/Annotation/TypedDataFormWidget.php	835004e3f7c6ccb7bd05a39377d60273
+A	src/Context/AnnotatedClassDiscovery.php	b5520c327637ce7c94a4164dcda6d3c4
+A	src/Context/Annotation/ContextDefinition.php	115c83c11a65d32aca04112feacbfe3b
+A	src/Context/ContextDefinition.php	69308f53624955112b8915b4b029e5af
+A	src/Context/ContextDefinitionInterface.php	beaaf36957bf7ead24918a0e743d5f9d
+M	src/DataFetcher.php	d6e18adcea5b7554ee5c4c52dc1fb07e
+M	src/DataFetcherInterface.php	0c8bb23d42a51b1093cab53e8fd20d45
+M	src/DataFetcherTrait.php	07cf402fc6a3822345b58d08295325c6
+A	src/Form/SubformState.php	2cd1d973ff793949879b78f294f367b7
+A	src/PlaceholderResolverTrait.php	656905bf9dd38d929dc6d6a0627ada3b
+A	src/Plugin/TypedDataFilter/EntityUrlFilter.php	74599b5ba7f0f7bfd25f9e7a4577880f
+M	src/Plugin/TypedDataFilter/FormatDateFilter.php	2853b5f207d27ba63783627e0debce6d
+A	src/Plugin/TypedDataFilter/StripTagsFilter.php	1ed9b976db62206c56288b03ecd80504
+A	src/Plugin/TypedDataFormWidget/SelectWidget.php	2a3d675586976f320257833b7d03388e
+A	src/Plugin/TypedDataFormWidget/TextInputWidget.php	a66cf3452c4034d95b6f59f5b746a913
+A	src/Plugin/TypedDataFormWidget/TextareaWidget.php	05801bc7ca99888e26962c00a0886004
+A	src/Util/StateTrait.php	964c3b433c7e256dfcbe6a9f2c271982
+A	src/Widget/FormWidgetBase.php	916d3ecf0a1da5166818eb4316ce0c61
+A	src/Widget/FormWidgetInterface.php	815e436bf8b205d6694ca3412fd92262
+A	src/Widget/FormWidgetManager.php	d9a1631be4ebde656f5ac9a4bf237c2c
+A	src/Widget/FormWidgetManagerInterface.php	5a97f72dd8e791d228b4b207ea837797
+A	src/Widget/FormWidgetManagerTrait.php	ca677bd4bc3716a6faf9bcb866bb4c3d
+D	tests/Kernel/DataDefinitionFetcherTest.php	
+D	tests/Kernel/DataFetcherTest.php	
+D	tests/Kernel/DataFilterTest.php	
+D	tests/Kernel/PlaceholderResolverTest.php	
+A	tests/modules/typed_data_widget_test/src/FormWidgetExampleController.php	38ca84946d3bcd2eb917dbeae98f1875
+A	tests/modules/typed_data_widget_test/src/FormWidgetExampleForm.php	6cdba83bbd8dd32d1be98b28d4861743
+A	tests/modules/typed_data_widget_test/typed_data_widget_test.info.yml	d68e3af660ec4536dc8a65f8497fa22d
+A	tests/modules/typed_data_widget_test/typed_data_widget_test.links.menu.yml	502784952aa86f64de1a5b9680660ed5
+A	tests/modules/typed_data_widget_test/typed_data_widget_test.routing.yml	cc2bba934f66b36a04fd994ed897f59d
+A	tests/src/Functional/TypedDataFormWidget/SelectWidgetTest.php	3087d1db91f09f5c5e00364c9defa727
+A	tests/src/Functional/TypedDataFormWidget/TextInputWidgetTest.php	5e3a3d26bd5a348e06a76ebb0f0318aa
+A	tests/src/Functional/TypedDataFormWidget/TextareaWidgetTest.php	c59f86d6d78460d1e90f1bfc734c03a5
+A	tests/src/Kernel/DataDefinitionFetcherTest.php	5e89329861452adb0a2cbce7ce298b96
+A	tests/src/Kernel/DataFetcherTest.php	00658a4c581be2aa48a1664c2d68eda0
+A	tests/src/Kernel/DataFilterTest.php	3bc4798b61addcb42f786f52f30c3467
+A	tests/src/Kernel/PlaceholderResolverTest.php	d1081aca8088d956cd2e6430159ed735
+A	tests/src/Traits/BrowserTestHelpersTrait.php	fe75e11ec3292a32f5fc4285385ff106
+M	typed_data.info.yml	71a0814f70a648f3f54b9d03c01ef8b9
+M	typed_data.services.yml	a1a66bf9ddb8e15022017a3321de3541

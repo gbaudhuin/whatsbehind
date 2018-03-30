@@ -1,0 +1,13 @@
+M	includes/rules.core.inc	ff0ebe00daf78cc89501c405cd97ccd0
+M	includes/rules.plugins.inc	162858b92b87ad8f415a754845482393
+M	rules.info	8a088b37239527eb24afc1296b797269
+M	rules.install	9ac5294039a82a3a78ad3e363646ba37
+M	rules.module	89e8a854af2814bd566e417a16374150
+M	rules_admin/rules_admin.info	59da1d0a792a829f1ad076d792a5602c
+M	rules_i18n/rules_i18n.info	e628c848edba2792e52eebe79155a40c
+M	rules_scheduler/rules_scheduler.info	96056563d58131d67a05e623f25eb39a
+M	rules_scheduler/tests/rules_scheduler_test.info	c60d89ea1752444a9b02a46236c54e38
+M	tests/rules.test	e2f10a1476aeefa662ebf0bf648dbe97
+M	tests/rules_test.info	3291fbdfac03bfd09cc229f04e23c8fb
+A	tests/rules_test_invocation.info	aed1a3ade2137ec84879ec8f6e3018f2
+A	tests/rules_test_invocation.module	1445677d27cc0d4efc797c85c4b7aeca

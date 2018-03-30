@@ -1,0 +1,21 @@
+M	config/schema/key.schema.yml	d0832c69373bc6018a8a46b41c0631b5
+M	key.info.yml	bc14f83ff5747abda27402237ce0e282
+M	src/Controller/KeyListBuilder.php	eceee46ea599e0ce6646d635e64f3cb3
+M	src/Element/KeySelect.php	6e4c42b973cda9bde83626e02cd74e37
+M	src/Entity/Key.php	25e19fd934c2a4cb23945e558b863459
+M	src/Form/KeyEditForm.php	ced1a789983540711cfa5b9eb9d6ab3b
+M	src/Form/KeyFormBase.php	70f63f1af84031208d5ad09291b7e1ca
+M	src/KeyInterface.php	4d0491b33d293fd8f8a54b6400bbcb62
+M	src/KeyRepositoryInterface.php	21b1026609dd05c5c1430eb56c4e465e
+M	src/Plugin/KeyPluginManager.php	3d97950e89efbe3502f8f99aa9ade561
+M	src/Plugin/KeyProviderBase.php	41c36689842a0480d23edbc818c1ec6d
+M	src/Plugin/KeyProviderInterface.php	927279d193a3085c0e5ce2a28a21fdec
+D	src/Plugin/KeyType/AesEncryptionKeyType.php	
+M	src/Plugin/KeyType/AuthenticationKeyType.php	e002211dffa902fc481419fdcf5c8633
+A	src/Plugin/KeyType/EncryptionKeyType.php	2084de4f40007073f581fc77f59806c0
+M	src/Plugin/KeyTypeBase.php	e20a56cc0b92f23181b343b1c051404f
+M	src/Plugin/KeyTypeInterface.php	2ac1281a1000ef575c5205b35364a917
+M	src/Tests/KeyListBuilderTest.php	558e88577afbd0c93c2641814cc33512
+M	src/Tests/KeyServiceTest.php	92b17bd54fe5a419d9b50acc6bca66c2
+M	tests/disabled/KeyRepositoryTest.php	57b3f4f5e8081fc1581cf42726915d3c
+M	tests/src/Unit/Entity/KeyEntityTest.php	bcc9a3207ff70295a41233512f63e062

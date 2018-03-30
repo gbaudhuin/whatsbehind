@@ -1,0 +1,3 @@
+M	simple_fb_connect.info.yml	4d97ff3208f7b1e932766788f59c41f1
+M	simple_fb_connect.services.yml	7f5862fc5b2bef919b6f82511e71978f
+A	src/Plugin/Condition/UserHasFacebookAccessToken.php	8f5df3df4f437c7bdeddc13934fad5f4

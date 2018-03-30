@@ -1,0 +1,7 @@
+A	composer.json	c5caf7ce9cebb0ed71839ec204d9e315
+M	geolocation.info.yml	03731bec2c86362b6272e50b6cdafdc9
+M	js/geolocation.js	182402c466997b757e9799b69bfd12f2
+M	src/Plugin/Field/FieldFormatter/GeolocationGoogleMapFormatter.php	3257c201a8b1eb25f171ac36efd1c30f
+M	src/Plugin/Field/FieldFormatter/GeolocationLatlngFormatter.php	30441769ccb3f654706595426b740b4e
+M	src/Plugin/Field/FieldWidget/GeolocationGooglegeocoderWidget.php	ab76de49c340c39428f83e592b8cd903
+M	src/Tests/GeolocationItemTest.php	540e1d49b544f562c8e6aa24f9b7246a

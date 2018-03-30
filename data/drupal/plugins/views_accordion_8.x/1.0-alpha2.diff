@@ -1,0 +1,5 @@
+M	src/Plugin/views/style/ViewsAccordion.php	7ee99c5005004f2512e5973be696de5f
+A	templates/views-accordion-view.html.twig	5e467cec45199dc21016aae98f535d5f
+M	views-accordion.js	18cbccdf0f235d0966504eba41072c4d
+M	views_accordion.info.yml	3dbbae588fe640600dd4149044b8f561
+M	views_accordion.module	58fc2320f6e865d1eb20013a3bedc30b

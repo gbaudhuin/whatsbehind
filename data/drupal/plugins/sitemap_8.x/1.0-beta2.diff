@@ -1,0 +1,10 @@
+M	README.txt	97ef6b5defc3bcbf9eb06293df7810d4
+D	images/feed-small-comment.png	
+M	sitemap.info.yml	ad26eaa6231bbaf3f5ba82cbb09428d0
+M	sitemap.module	bcd772049f09282918a7aacdb98ce2b9
+M	sitemap.theme.inc	0e6eaff43eae6c785cd11940a1f971a7
+M	src/Form/SitemapSettingsForm.php	2741fcdc404951bb3468bccdbc0d9b86
+M	src/SitemapHelper.php	93ee0b8bfb2fa1424d400e8cd7dea7ac
+A	src/Tests/SitemapBookTest.php	76fb178aaa6c207a6b96439c7bcce8d8
+D	templates/sitemap-box.html.twig	
+M	templates/sitemap.html.twig	49851e72052e850f594c53bff8e7f58c

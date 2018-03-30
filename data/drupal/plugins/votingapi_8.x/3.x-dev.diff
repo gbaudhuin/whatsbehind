@@ -1,0 +1,6 @@
+A	src/Entity/VoteResultViewsData.php	7ca34ceff199d01f8e82c5b52d563a1f
+M	tests/modules/votingapi_test/votingapi_test.info.yml	bb8fa8a2077009df28fa2390f15ccfc3
+M	votingapi.info.yml	47100e5e5e9ad5833c7c6affdf099811
+A	votingapi.links.action.yml	cb5f14f1beb450962883632c5a245e71
+M	votingapi.module	6fb9f114ddfb0e8d9cb59a98c8941b6a
+A	votingapi.views.inc	95c02426a61c423f29edf02f97dc428d

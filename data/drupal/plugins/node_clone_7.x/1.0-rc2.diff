@@ -1,0 +1,9 @@
+M	README.txt	64fe25426d91415d26fe9cf7243f01fa
+M	clone.api.php	333b134969cc1a5574b2c0e2f6053ec6
+M	clone.info	396a6a75bdbc2c68277b342e2a71e920
+M	clone.install	2e8e395bb821dc07140a24adbd47de6f
+M	clone.module	ec8d17bca93734fd923692afc471f0a9
+M	clone.pages.inc	1ccd32843f19c70b5af3bc7e080632e3
+A	clone.rules.inc	1f3a5cb5c9ac337dad5c26ac2a4ae639
+M	views/clone.views.inc	e50305c1a320ef2f8ae3f4f41e41bae1
+M	views/views_handler_field_node_link_clone.inc	75936719e9efa2fdfa8f1277ace1c0cc

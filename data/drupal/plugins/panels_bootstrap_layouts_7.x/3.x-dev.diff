@@ -1,0 +1,6 @@
+M	panels_bootstrap_layouts.info	a24923a0db9d967ef9e7db9fa914a88d
+M	plugins/layouts/bootstrap_threecol_stacked/bootstrap-threecol-stacked.tpl.php	bae03984990d842433c0d44ea112e836
+M	plugins/layouts/bootstrap_twocol_stacked/bootstrap-twocol-stacked.tpl.php	957182fac2cc053b37725df862c1ca99
+M	plugins/styles/bootstrap_region.inc	8c76745ad63535290a04fc1f13e869d0
+A	plugins/styles/panes/bootstrap_panel_pane/bootstrap_panel_pane.inc	c3eb9374b25c196b660c3bd90a555666
+A	plugins/styles/panes/bootstrap_panel_pane/panels-bootstrap-layouts-panel-pane.tpl.php	00959e6460e1eac3bd0d9efa1f05bb5d

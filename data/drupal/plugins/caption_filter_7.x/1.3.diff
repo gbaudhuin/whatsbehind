@@ -1,0 +1,11 @@
+M	README.txt	723553bc13f283120324e2fd5e1d4d7d
+M	caption-filter.css	26885e710e6542edd05c504d0a331435
+M	caption_filter.info	0478b0fca42c29759a9e4c158a1ba156
+M	caption_filter.module	552c6bdac14b7c4d35022f63b49eeb87
+A	js/caption-filter-tinymce-button.js	dce0dd205e115306219ba850dc6e4868
+A	js/caption-filter-tinymce-button.tpl.php	b48f5a3ba95104675028e83320d6b954
+M	js/caption-filter-tinymce.js	557cc78dc4751dd89ff4ee530be92927
+A	js/caption-filter.gif	d49cc819fda2bca6f7d02971aafaf2a4
+M	js/caption-filter.js	3a98b7cfe05efa62a2ee83c9d4e1f61c
+A	js/langs/en.js	188ce671093056e183b9149194bef02e
+A	js/langs/fr.js	7190f0f194fbbc968b0aa0e5d8e38525

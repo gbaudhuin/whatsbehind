@@ -1,0 +1,13 @@
+A	.gitignore	c0e56c40929f67da2c02fa52ff3ecde1
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	c751c5264c1f36c236a12f912f83d25b
+A	config.rb	09f0775ce4adef023ff471aa7fcbee37
+A	css/jssor-skin.css	9af30a865530e6c3a48bb35a9fdb723f
+A	js/jssor_view.js	7d9576f227ddccb1281395fe8cc0c5c8
+A	jssor.info.yml	ffc65a5acc7f4ab7c01e2d5ebf061455
+A	jssor.libraries.yml	d76f42e50270ccc3b033c4bd4b1e87c6
+A	jssor.module	351271cbe4cd6c1e64d1ae0f60ddd17e
+A	jssor.theme.inc	f87f1cd2f0bab16bc10abc32c42b23ab
+A	sass/jssor-skin.scss	1007d45b00f2c9b6e43edc46dc4a4be1
+A	src/Plugin/views/style/Jssor.php	dc4e18641df5899406d3ac3aebedfc5c
+A	templates/jssor.html.twig	aaced01f1044ef301bce7dacabc7d004

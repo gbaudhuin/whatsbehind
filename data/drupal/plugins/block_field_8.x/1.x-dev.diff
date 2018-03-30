@@ -1,0 +1,4 @@
+M	block_field.info.yml	499078714f7c4e52537ffa9760fcbd3d
+M	src/Plugin/Field/FieldWidget/BlockFieldWidget.php	f4a648bbb3db49ff7ca47145016fb2cc
+M	tests/modules/block_field_test/block_field_test.info.yml	5c78f462b90488d0d6516e48c5e8a322
+M	tests/modules/block_field_widget_test/block_field_widget_test.info.yml	47aaca6cd8a1025fc7fb715c1bdba157

@@ -1,0 +1,16 @@
+M	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+M	README.txt	84f1262e592ee26b4600698e395b127c
+M	googleanalytics.admin.inc	7b4134cd7f428efccc071d912c03506c
+M	googleanalytics.info	29d8a2b11ba980e8c9caaf9efedc490b
+M	googleanalytics.install	6d35a78ebe908f4461cc48f6b397cf56
+M	googleanalytics.js	9e0eb31b74da032a2579cc8374fae580
+M	googleanalytics.module	949e751c42c943d811aa2ed7d499c8e4
+M	tests/googleanalytics_basic.test	96ac09bab91b22588d44f8f752dc18ff
+A	translations/de.po	85337d47143b63d81d535a9a7cb006fa
+A	translations/el.po	b450e081ec9388602d64e6f71cad101c
+A	translations/fr.po	9d3c2e2c3b3327b0e4c15d6fe75eb851
+A	translations/googleanalytics.pot	d09f6729044ea7406613d1d091f69f7f
+A	translations/hu.po	af417b2d6f02c165f54995364f3183ab
+A	translations/ja.po	734b48849a4add8f42f8bc87bc8f9713
+A	translations/pl.po	1cb5b53b28b5b505f25176c9ed181a5c
+A	translations/sk.po	584b74dda697088bf40015ce29925a3a

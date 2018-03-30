@@ -1,0 +1,5 @@
+M	README.txt	757e67cdb4010478762a25b61444ffe1
+A	composer.json	e702018b4fffe23e10419ecf6661dbe2
+M	migrate_upgrade.info.yml	29775e282c9d2eabaa4bf7a84423874a
+A	phpcs.xml	e72ed53b3192990055945f88966a776c
+M	src/MigrateUpgradeDrushRunner.php	d7004be657746b8de1f7bb8668a3ee52

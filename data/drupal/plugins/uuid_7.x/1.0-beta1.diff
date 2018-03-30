@@ -1,0 +1,13 @@
+M	uuid.api.php	0e79fce227ede8ae5c70a10231e6c308
+M	uuid.core.inc	87a1a78d09a083c5f04b19e7571f5e49
+M	uuid.entity.inc	d475fbc53b705e25027464b199791518
+M	uuid.features.inc	daa4569e78c6c5f17e1f936c293e7e9d
+M	uuid.inc	cc88fc81f0199f47a1157abb109c24e9
+M	uuid.info	4956a0df9037a7f5c55f82e31944cf4c
+M	uuid.install	405426c88ede1599940db7ece0100afa
+M	uuid.module	5aa66c137ca67df12638183a12760db0
+M	uuid_path/uuid_path.info	0384af49a682f294d32f04da2bcd6f3f
+D	uuid_services/resources/field_collection.resource.inc	
+M	uuid_services/uuid_services.info	c7afb93c34d86081e882eae1ac85c7dc
+M	uuid_services/uuid_services.module	9a925527e6d80c546175645766158c8e
+M	uuid_services_example/uuid_services_example.info	b37f4ab17b0931c79c8e1b6dd69d4c6f

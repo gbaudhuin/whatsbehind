@@ -1,0 +1,8 @@
+M	config_provider.info.yml	b6836667c924def21ae0ce1d2f2c5351
+A	src/InMemoryStorage.php	508868f4304ee5a6905979bae7c0419e
+M	src/Plugin/ConfigCollector.php	0e64cb3bdf8520f2e7ddb760ebbccf37
+M	src/Plugin/ConfigCollectorInterface.php	80be0f01253a7231a4e1971cce957eca
+M	src/Plugin/ConfigProvider/ConfigProviderInstall.php	30aff1ca467a4f4dfa100ba94c3c59cc
+M	src/Plugin/ConfigProvider/ConfigProviderOptional.php	1c2fbaaa1be908190526176ae66f4a4c
+M	src/Plugin/ConfigProviderBase.php	3eeaf73036be8303116cdc659c7dc8ec
+M	src/Plugin/ConfigProviderInterface.php	5f48e6315245b568e8df652d062e3464

@@ -1,0 +1,7 @@
+M	better_exposed_filters.info.yml	968b6d8119e53e0f5f8533360d8418e4
+M	better_exposed_filters.module	8c7a12bd890f9f05c9a48bc10e0e7b26
+M	config/schema/better_exposed_filters.exposed_form.schema.yml	8d65e536305ebf2b4bf21c2eb40e8d2a
+M	js/bef_select_all_none.js	81b6fb4e546aa56b7110d8bb7ff6623a
+M	src/Plugin/views/exposed_form/BetterExposedFilters.php	a067fbb3f6dd1b85ecb10fc9769660ed
+M	tests/bef_test/bef_test.info.yml	9d4ee2b7c80b6db678b266c19f993632
+M	tests/src/Unit/BetterExposedFiltersTest.php	1b1d1244e44ac0e019a8c4a5b22be162

@@ -1,0 +1,11 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	91b9526c89d13f2da49bb91b24316eb3
+A	composer.json	2111dcf60d72ec516ee194dc0d264125
+A	includes/phpmailer.class.inc	4d1f8b83839a487375a56ea1ac9601ff
+A	includes/phpmailer.drupal.inc	f818440cdd825bb9251c5ebe6a645774
+A	includes/phpmailer.mimemail.inc	f9ff0289998e9030913559428038fcea
+A	phpmailer.admin.inc	58e9bbed7e45ed5e1195ae003494c2bd
+A	phpmailer.info	6aa3ec1ff297c179c62c33b84c3fe4d2
+A	phpmailer.install	f4bbfaab36759f4f18659dccb2bf9f03
+A	phpmailer.module	a47a126f290a77d8756ce19871dbee9e
+A	tests/phpmailer.test	9c70f4835139830b5812dd0da446dbce

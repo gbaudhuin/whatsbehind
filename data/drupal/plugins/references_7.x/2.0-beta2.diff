@@ -1,0 +1,16 @@
+A	CHANGELOG.txt	758c5b2780265c21d865f411a13c4b45
+D	HEAD_IS_EMPTY_USE_7.x-2.x_BRANCH.txt	
+M	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+A	README.txt	c63309045193e3ba97b8b8a0e4c3a0dd
+A	node_reference/node_reference.info	ce868922003aca810018738e5941b33e
+A	node_reference/node_reference.module	a96fecccb646c04533f9f857b190d473
+A	node_reference/node_reference.test	5a82f698c84aea7c60e3f4d376ede9a2
+A	references.info	8b984df0720dc5dd095be2f208367065
+A	references.module	d6df794b9b39702a18bb0da877b31149
+A	user_reference/user_reference.info	fb3f91e370a749a879ccdd975e5f5dd8
+A	user_reference/user_reference.module	79797f31436cedb796d84d521aa8e75f
+A	user_reference/user_reference.test	6d7162e4404130d07d89c8829001aa3c
+A	views/references_handler_argument.inc	035639eefdbd7651ba788587a84e3c8c
+A	views/references_handler_relationship.inc	2d7c90ff2d3154fbb09723c476996b99
+A	views/references_plugin_display.inc	dabe74d4a610b24d01132da33882bca8
+A	views/references_plugin_style.inc	6868916ae2a7eb7ebf91b35900ad6e18

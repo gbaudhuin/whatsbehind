@@ -1,0 +1,8 @@
+M	multiversion.info.yml	ad6d066f863f116bd212bb4a603f2ceb
+M	multiversion.services.yml	b78b1b829a7160b44f265f5cc7655aee
+M	src/Entity/Index/RevisionTreeIndex.php	4cf00875b0d0b37a334e00ae2d6f7aea
+D	src/Tests/RevisionTreeIndexTest.php	
+M	src/Workspace/WorkspaceManager.php	6e30a7ae1d6c2a7cde8670b640587235
+M	tests/modules/multiversion_test_paragraphs/multiversion_test_paragraphs.info.yml	9607db30cfe60ddc403ddafb814ed3fc
+M	tests/modules/multiversion_test_views/multiversion_test_views.info.yml	be7b86a4e733fe3ccd5e1fed0714f0d4
+A	tests/src/Functional/RevisionTreeIndexTest.php	bba28cc5985326a226c5e7ff99d2dd51

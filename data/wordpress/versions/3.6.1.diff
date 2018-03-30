@@ -1,0 +1,26 @@
+M	readme.html	e82f4fe7d3c1166afb4c00856b875f16
+M	wp-admin/about.php	bbc98e7aa41b973492103e1b01007851
+M	wp-admin/includes/post.php	f26ac81dd051c2c5203796c4d9537a74
+M	wp-admin/includes/template.php	eea8574822b326fe5e90b6acf3aab6a0
+M	wp-admin/includes/update-core.php	06623918249085771bcd83fc44375abe
+D	wp-admin/js/categories.js	
+D	wp-admin/js/categories.min.js	
+M	wp-admin/js/common.js	03eaffeef39119f0523a49c7f9767f3b
+M	wp-admin/js/common.min.js	b45d244b6669aef59434fc30265f01f9
+D	wp-admin/js/custom-fields.js	
+D	wp-admin/js/custom-fields.min.js	
+M	wp-admin/nav-menus.php	966c4a80f7698f0819d568fc6f6fba78
+M	wp-admin/network/upgrade.php	37c6a2104d904ba7ee3dd3b1fb3ab7b3
+M	wp-includes/class-http.php	349da80d3bfc1bbb664743e0663528a2
+M	wp-includes/comment-template.php	9a5ebdaa3fb85dfd38921719a31d0ac6
+M	wp-includes/functions.php	3c85295a2a401a21903a6d6f9847f2e4
+M	wp-includes/js/jquery/jquery.js	92c9ccfa9216499d48ecc11e6d9887d5
+M	wp-includes/js/tinymce/plugins/wordpress/editor_plugin.js	a3d703f0f3b6c2171edea4410ec478b5
+M	wp-includes/js/tinymce/plugins/wordpress/editor_plugin_src.js	a7d139d6d9506e005e7aee90d5c7918b
+M	wp-includes/js/tinymce/wp-tinymce.js.gz	cf4bbd562430a9bcbe735062be851be1
+M	wp-includes/link-template.php	7d2b3bfd0beae336a5bd47f61e747c94
+M	wp-includes/ms-functions.php	006cf13ed4cbaaae0aa3c550d90e283d
+M	wp-includes/pluggable.php	6fc5e1db67002b0d24af3beafd62c5c0
+M	wp-includes/post-template.php	b3a5e6b017178b1116b6d0c3f153a276
+M	wp-includes/theme.php	3929087a27011d9f7d95e2827dff639c
+M	wp-includes/version.php	d7896543b45ee954fa300bd89f24680c

@@ -1,0 +1,8 @@
+M	flag.flag.inc	34dca4ceecaccd3f1ffadf813a8a8476
+M	flag.info	1d245d364d6f71c217442a49974e5d1a
+M	flag.module	32aa52cec9018e5e37d5dce2fef77807
+M	flag_actions.info	c2876ebe80b9d4decdae86fff1c9a8eb
+M	flag_bookmark/flag_bookmark.info	b914c972f0ce447dbc646e0f7fef8997
+M	includes/flag.admin.inc	38993ae422f62cf1a47f322a4f6fdcb8
+A	plugins/access/flag_is_flagged/flag_is_flagged.inc	813792df435e8c3ad3dad4976df83359
+A	plugins/content_types/flag_link/flag_link.inc	3b656891b49dd290ed33125e31034b7b

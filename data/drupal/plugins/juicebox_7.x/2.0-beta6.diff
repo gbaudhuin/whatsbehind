@@ -1,0 +1,27 @@
+A	css/admin_styles.css	d082cddd3d1f5dd71cbdfc132e610923
+D	css/placeholder_styles.css	
+M	includes/JuiceboxGallery.inc	9ecd183ce02fbb79ade510690a63cd27
+M	includes/JuiceboxGalleryDecorator.inc	18450efea106d486b0b4104cc3dc8725
+M	includes/JuiceboxGalleryDrupal.inc	5582ab77fc4522840ef8352930045d58
+M	includes/JuiceboxGalleryDrupalInterface.inc	0182849b883d98171aa1389109180103
+M	includes/JuiceboxGalleryInterface.inc	3ce6d6be29eb9e00452c49dee61a1f83
+M	juicebox.admin.inc	3a1bf3fc4108b19b5b173461b5e2c281
+M	juicebox.api.php	2743ea56561026cea5335bada5f6dd9e
+M	juicebox.field.inc	937514c9d500312df96c827534c7fc5b
+M	juicebox.info	68907c70cc0ea98281a7d0f5604f1234
+M	juicebox.install	16908dd8c6dc11165f9112bc698ddc2b
+M	juicebox.module	8e05134f0a2e2c2043165b13ec85e577
+M	plugins/JuiceboxFormatterViewsStyle.inc	2c7183d70bf4010d2a0cab66db9b2014
+M	plugins/JuiceboxXmlField.inc	a8f7e1ca13918f417a5435e1eb6a0801
+A	tests/JuiceboxBaseCase.test	18e2bb855e41c2dd44ee6cc5111fe6d5
+A	tests/JuiceboxConfCase.test	fb254db38fd6cb94efdf4fce8e0a4bcb
+A	tests/JuiceboxConfGlobalCase.test	8a0e21f47c23ea414409882b3dd389f0
+A	tests/JuiceboxFieldFormatterCase.test	76e1fc1f68c9f54709c51f8b910b35a4
+A	tests/JuiceboxFileCase.test	c0fd08103c0d8479d34312362f23c490
+A	tests/JuiceboxFileEntityCase.test	fafa9772f794c7b01b565e113a6c5cf9
+A	tests/JuiceboxViewsCase.test	07ec60f6565f4cefb545697599adad74
+A	tests/views/default_views/test_file_base.view	db37a4f25635d4c84ff6830e7ed700d2
+A	tests/views/default_views/test_node_base.view	63a713af1c17a6af1b84eb6a8c045942
+A	tests/views/juicebox_views_test.info	47d321b7cf7f22a50e064ffe48974733
+A	tests/views/juicebox_views_test.module	13f6d32066c82f9a60871e3ff901a808
+M	themes/juicebox.theme.inc	ab7810b5fdabdb86ce4e154a829701a5

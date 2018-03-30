@@ -1,0 +1,18 @@
+M	.gitignore	2fcbed8053f51c79945d0f64980b6424
+A	.travis.yml	5c4b2a82dbe9606f12b6b7bc46a546cf
+A	CHANGELOG.md	f27c43f589641803c8b6e046e1d0d7f6
+M	composer.json	da74cb03c8cd210ebf4d468160671785
+D	composer.lock	
+D	config/install/views.view.moderation_history.yml	
+A	config/optional/views.view.moderation_history.yml	2283a124844c9a92936055e11e7b93d9
+M	lightning_workflow.info.yml	beaa4959fa6ae7ab24eabeafe5b6e29a
+M	lightning_workflow.module	82b056c37ff2e2df2973ca572f78f090
+M	modules/lightning_scheduler/lightning_scheduler.info.yml	c13db6ddda554333b36fa2b2a7f9dffc
+A	tests/behat.partial.yml	0b117554c2d56e94aff838c1c14c77d4
+A	tests/contexts/DiffContext.behat.inc	f1d98644d976e33678751cc08eb12208
+A	tests/contexts/QuickEditContext.behat.inc	7446881fa6c101780147271a890e8772
+A	tests/features/diff.feature	9be69cc23cf426a5507d2bb65c91a20b
+A	tests/features/moderation_states.feature	4221e03fa8a071a65dc42388b27397a2
+A	tests/features/quickedit.feature	38cc9116c6b3b618d880df1ef670787d
+A	tests/features/scheduled_updates.feature	bb6a88f49dc497887fb0fc16e18e2f80
+A	tests/fixtures/1.0.0-rc1.sql.gz	c183b5c633fc2bfea53301726d421ade

@@ -1,0 +1,5 @@
+M	config_perms.info.yml	3a57f51d8baf6e385f08c30b2b4020eb
+M	src/CustomPermissions.php	8eaa5cd1223fc224acdd51be013442ea
+M	src/Form/ConfigPermListForm.php	e9be6c5e72dbb6b01d0cb9f58263a1fd
+M	src/Form/CustomPermsEntityDeleteForm.php	83f77c2e39da69f6c014790bbe91936f
+M	src/Routing/RouteSubscriber.php	547e731d7d65c4b523aac6e337bf4095

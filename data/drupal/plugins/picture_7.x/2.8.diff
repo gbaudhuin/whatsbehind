@@ -1,0 +1,14 @@
+M	ckeditor/plugins/plugin.js	5935aa7a698cefb4b0b5199c5876e30e
+M	flexslider_picture/flexslider_picture.info	b21eae84e44b25c1b7cc1f281ce95425
+M	flexslider_picture/flexslider_picture.install	dd13b12b2fbdacd56319183221ff930b
+M	flexslider_picture/flexslider_picture.module	4687fe2eb8b3005583cc1d56e7f1741e
+M	flexslider_picture/theme/flexslider_picture.theme.inc	6dcd2168adfaf6aad9e333a60175cdc3
+M	includes/PictureMapping.php	560d79166255b54b6656b013716a6b08
+M	picture.admin.inc	93a7b883b1db873b9d747bea7d2f3fe5
+M	picture.file_entity_1.inc	0fdcc499f15422007f9363ff2d8c789e
+M	picture.info	73f5701ec458474c66290f8f38c61e20
+M	picture.install	719d48a0a2aed4baad9baa89b84eb29a
+M	picture.js	95515b7da8f1fd2b7fcd837d416f3ba1
+A	picture.min.js	fc0a5e7ed023c57caa548e0462f1b870
+M	picture.module	1f35f2e1654594e5ea6b609ee0b73c89
+A	picturefill2/picturefill.min.js	30463dd3499826ad60599cdbb8b9a40d

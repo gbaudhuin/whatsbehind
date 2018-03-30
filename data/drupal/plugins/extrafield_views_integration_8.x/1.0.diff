@@ -1,0 +1,6 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	c4a8c2ea8c0feb10490711f86faf93cf
+A	extrafield_views_integration.info.yml	a8e552f2500ad182cd368c253fc9b2e0
+A	extrafield_views_integration.views.inc	5b73b68f72c5388db56d109c0f85d36a
+A	src/Plugin/views/field/ExtrafieldViewsIntegration.php	a147e9fbf96e9cd12473ff3afea30951
+A	src/lib/ExtrafieldRenderClassInterface.php	64bc4ee79dc42184270445db918c0ce2

@@ -1,0 +1,13 @@
+M	INSTALL.txt	59672dbc42363a9abdba702b26c988ed
+A	README.md	01047d7abb88f3bc1bfc6ef51d23e300
+M	config/install/stage_file_proxy.settings.yml	fc33335269a88add00d98a9942b4d8ca
+A	config/schema/stage_file_proxy.schema.yml	7f8fd16e4170910db2e70b499ea6711a
+D	config/stage_file_proxy.schema.yml	
+M	src/EventDispatcher/AlterExcludedPathsEvent.php	ca6828b96c068a83f92650959161e398
+M	src/EventSubscriber/ProxySubscriber.php	aea2a7694b4f25f23d7c54821361de49
+M	src/FetchManager.php	34a8ebcfd8b9e146d14f4196ad13bfa0
+M	src/FetchManagerInterface.php	28f9b9e2beebea434927a5eac16c4e73
+M	src/Form/SettingsForm.php	eafa47f26f1594e807319e1eb54cb4dc
+M	stage_file_proxy.info.yml	44b3aac3720e9dd1eb8cec5c76e9c980
+A	stage_file_proxy.install	30d972c944625c05822379dc3e430508
+M	stage_file_proxy.services.yml	4133a58bd774b4600ce34c6717b0e42c

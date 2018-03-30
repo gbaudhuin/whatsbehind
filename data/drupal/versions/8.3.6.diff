@@ -1,0 +1,22 @@
+M	core/MAINTAINERS.txt	1e255ce11ecb7e13c1f4140c03df2622
+M	core/core.api.php	ce4fb03f10680a78929f8d5a3afbe3e3
+M	core/includes/entity.inc	08cb6e74bd12ddff79eec6d0771eb595
+M	core/lib/Drupal.php	c86afb8109e3f6ded620303774dccb3b
+M	core/lib/Drupal/Core/Cache/CacheCollector.php	0d07edb22be621a80d3b8492b62ea5c2
+M	core/lib/Drupal/Core/Field/FieldConfigBase.php	b2462de07b11f3f97e706169e80f8559
+M	core/modules/field/tests/modules/field_test/field_test.module	709ee05c8fe18a7b9f468d59b71c0e7d
+M	core/modules/field/tests/src/Kernel/FieldCrudTest.php	b73060f6d3df0d581f7ee15db1a63494
+M	core/modules/locale/tests/src/Functional/LocaleTranslationUiTest.php	3e3858977773e7e20956db31c4c19141
+M	core/modules/migrate_drupal/src/Plugin/MigrateCckFieldPluginManagerInterface.php	ee152b8a679716511fce663370277e2c
+M	core/modules/outside_in/css/outside_in.motion.css	660381054da2a7713af2b3903a8f4a60
+M	core/modules/outside_in/css/outside_in.theme.css	f2ab88d90319600c4e8919b26b19c7fb
+M	core/modules/outside_in/src/Block/BlockEntityOffCanvasForm.php	2ee13d546b7ee3097cb954d30922856c
+M	core/modules/outside_in/templates/outside-in-page-wrapper.html.twig	5ee6f750352ed59c5bcf49790846a82d
+M	core/modules/outside_in/tests/src/FunctionalJavascript/OutsideInBlockFormTest.php	f19d48088831cb353ed31d777459b93a
+M	core/modules/outside_in/tests/src/FunctionalJavascript/OutsideInJavascriptTestBase.php	7c3a433ef1bc0f46152cafe8e4a3a4c5
+A	core/modules/simpletest/tests/src/Unit/TestDiscoveryTest.php	1f7e9ff3570069d9dd8bc41b1d23a1f5
+D	core/modules/simpletest/tests/src/Unit/TestInfoParsingTest.php	
+M	core/modules/views_ui/src/Tests/ViewEditTest.php	0f8f572d5057414f5e77dd65a3185abe
+M	core/modules/views_ui/src/ViewEditForm.php	a779642b4a729ad07618e440efacc463
+M	core/tests/Drupal/KernelTests/Core/Path/AliasTest.php	60146dfc621d9e699dcf932c8a9cf9b9
+M	core/tests/Drupal/Tests/Core/Cache/CacheCollectorTest.php	db1caa0406943d4ee525c8bd170cc024

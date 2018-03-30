@@ -1,0 +1,16 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	20a500fbcbb05f39efc3926558b4f6da
+A	consumers.api.php	87a732bc9e3acb442b3de07d84d229ed
+A	consumers.info.yml	740da3f26c92ee098da3bf318c96c9b0
+A	consumers.links.action.yml	f8007ac48d831c289ef61e96ec594df7
+A	consumers.links.menu.yml	3821503e979b211577e3b1a99a4493e1
+A	consumers.module	77be40b15771b78140115ae7583e55bc
+A	consumers.permissions.yml	044a556fc2baed231cadb14d65e41c08
+A	consumers.routing.yml	ef0f2b8548b5e069f8c9a5beaba83d4a
+A	consumers.services.yml	12e4271632b075d7a7fe2b3c9f8eac52
+A	src/AccessControlHandler.php	f1147154baa318e838aee5b47a13745e
+A	src/ConsumerListBuilder.php	d3cb6433b57052dac15cd302ce0f6984
+A	src/Entity/Consumer.php	8d70f473ec6cd0bfeac0ee14a783a34e
+A	src/Entity/Form/ConsumerForm.php	f4d023518b6a24a430215024ba0a23ac
+A	src/Negotiator.php	5c5f82acd13ad1d9eca2fb73d441bd69
+A	templates/consumer.html.twig	3b36079249a4d72b5f2cc05ec9e4fb2e

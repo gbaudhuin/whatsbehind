@@ -1,0 +1,11 @@
+M	includes/admin.inc	a4eb87ac5dcc8de1add0658c2dfe6474
+M	includes/export.inc	d56676d0aa4d163836a407f4f1824f3c
+M	includes/import.inc	b46388045a99873d9139a13c5ced5aec
+M	menu_import.info	e272e6d66f10ea8066abb66765b5478e
+M	menu_import.module	84aa1e1334dae54b2946bf3d5cb4bacc
+M	menu_import.test	5df770a88b6c8f03aaa2cafdca70ebb9
+M	tests/aliases.txt	807a183a58ac9d3cc840d043eba55ff4
+M	tests/complex.txt	025891d4ba0d527789f54263f13ed34f
+M	tests/links_3levels.txt	64bf6ec2e98f0e381284d4d77c497cce
+M	tests/nolinks_3levels.txt	0ec958af10de9d59e3adf050e21d40fe
+M	tests/urls.txt	51771d5af34d7d15da42957f8d4fe3a7

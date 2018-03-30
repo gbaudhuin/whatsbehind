@@ -1,0 +1,6 @@
+M	block_content_permissions.info.yml	b0b45d982575e1daf9c0cd3ada1fe147
+M	block_content_permissions.module	2f8ec5cd42b7ce11d4b90ff9a54bc341
+M	block_content_permissions.permissions.yml	22e557fda68f4574a10ceb863686db17
+M	src/AccessControlHandler.php	a07113445cc2eeb44114dc98d9f4e261
+A	src/Controller/BlockContentPermissionsAddPageController.php	374ab735c76e417ea328c1b79328914d
+M	src/Routing/RouteSubscriber.php	48488bfe1bfa9f1af39bba9de7fe75cc

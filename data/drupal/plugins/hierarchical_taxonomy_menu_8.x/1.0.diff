@@ -1,0 +1,9 @@
+A	.gitignore	8c106a6b2ff174c65c2712f7c7db3732
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	838811e889d4ac426b1545e7267a7b8f
+A	hierarchical_taxonomy_menu.info.yml	d81f7cf411a6765503cb1ba2f57e67ca
+A	hierarchical_taxonomy_menu.libraries.yml	190e6951ec97ad0df2e748e5e7c59730
+A	hierarchical_taxonomy_menu.module	66bb7b5300f4a624600db6742c75cb39
+A	js/hierarchical-taxonomy-menu.js	5b4441e671ff87b514827f673310129c
+A	src/Plugin/Block/HierarchicalTaxonomyMenuBlock.php	da032a4a1838ae40e9280fc9c5195d5c
+A	templates/hierarchical-taxonomy-menu.html.twig	aa76f51367e979f5ae3e8160242b6f5f

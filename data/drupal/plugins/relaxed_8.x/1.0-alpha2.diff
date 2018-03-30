@@ -1,0 +1,76 @@
+M	.travis.yml	db1667cf187b773512c282d136a67f38
+M	config/schema/relaxed.schema.yml	16d0a900b1536bc8a2f55a1d88ad0f79
+M	relaxed.info.yml	8627b8f3fbd9bacb4dbbd998fe5b9d61
+M	relaxed.install	86b42e34ba2e84afccab2408e11b45bd
+A	relaxed.links.menu.yml	73355edcc154bea22a3db6b97a58f3f6
+M	relaxed.module	26acd81a8b1e8744358304fa2af9cd49
+A	relaxed.routing.yml	5a9ae3906c90d7100a5265f2d263c4a7
+M	relaxed.services.yml	c774f266fc6eeccc68b81f28c07d6212
+M	src/AllDocs/AllDocs.php	f035ae77e960277cc2898e1172bb7569
+A	src/Annotation/Endpoint.php	f2bb8e9cd857be3dd6cbfe85bc2ffa5e
+M	src/BulkDocs/BulkDocs.php	1cc969e8ace4681f6b8b07f7fbf931a3
+M	src/Changes/Changes.php	d1739d6595a477f24a5984b003260795
+M	src/Controller/ResourceController.php	a6fa34a30e972b59e58ad34e5c1d8713
+A	src/EndpointPluginCollection.php	ef6697dd664eb491a95702a65cf2b913
+A	src/Entity/Endpoint.php	f92290a290b8f70469dcf181d0ff5295
+A	src/Entity/EndpointInterface.php	426da8281f6dd5bb683e8e4dd3acb381
+A	src/Entity/EndpointListBuilder.php	78ce341dead46ca4382a93f5bb8b9af6
+A	src/Form/EndpointAddForm.php	eaaf1211b62506eb60f6cb7e9f302fa0
+A	src/Form/EndpointDeleteForm.php	a1946ce83248661116a5fef307cfc340
+A	src/Form/EndpointForm.php	dc60a811b9b1675e60ac1e8d406dcc4e
+A	src/Form/EndpointSetupForm.php	02d395db8d10d81be695b5221d3503e0
+M	src/HttpMultipart/ResourceMultipartResponse.php	e1e42bc2ef38b3bd5dc30d47602056f6
+A	src/Normalizer/CommentItemNormalizer.php	f40ec1ab76a4688e0a58ac94eafef5bc
+M	src/Normalizer/ContentEntityNormalizer.php	976fc71d88fb8e30690af4a77152c181
+M	src/Normalizer/EntityReferenceItemNormalizer.php	da8ddac2b5de82819a0a7515aa8afa02
+M	src/Normalizer/WorkspaceNormalizer.php	94f50aaa8541c3d57f7a733361a41031
+M	src/ParamConverter/DocIdConverter.php	b7373b6ec2bb079862be53287e18627a
+A	src/Plugin/Deriver/WorkspaceDeriver.php	847c1807bcbbdfd51a73e796d0d5d520
+A	src/Plugin/Endpoint/ExternalEndpoint.php	f7700546bffa057e8d45b8c255e2c5e9
+A	src/Plugin/Endpoint/WorkspaceEndpoint.php	828030693c916c4b79620ba188d125bd
+A	src/Plugin/EndpointBase.php	9609ce4b31458e05aeb9cf54b9fb71a1
+A	src/Plugin/EndpointInterface.php	351dd1f1a203f515034bd802df037db2
+A	src/Plugin/EndpointManager.php	079dace3441476a3e31e17b96bfdc738
+A	src/Plugin/EntityReferenceSelection/UserSelection.php	ac653a93913b468d77009246f80d936b
+M	src/Plugin/rest/resource/AttachmentResource.php	034537b70847ac9090e5ef6517f167c0
+M	src/Plugin/rest/resource/DbResource.php	9e992faf75d2e84fb063b14136a363e5
+M	src/Plugin/rest/resource/DocResource.php	6290276c0a30ffac4434f4768c20a27b
+M	src/Plugin/rest/resource/LocalDocResource.php	47487af915197069b183ad9529ccf6de
+M	src/RevisionDiff/RevisionDiff.php	64c0e6809742710861555c8e0bea44a3
+D	src/StubEntityProcessor/StubEntityProcessor.php	
+D	src/StubEntityProcessor/StubEntityProcessorInterface.php	
+M	src/Tests/DocResourceTest.php	4ec262f37c757426c93ea66495963e55
+D	src/Tests/Encoder/StreamEncoderTest.php	
+A	src/Tests/EndpointConfigurationTest.php	f1f6910a07b8ba6eaeafdf6e44582d15
+D	src/Tests/Normalizer/AllDocsNormalizerTest.php	
+D	src/Tests/Normalizer/AttachmentNormalizerTest.php	
+D	src/Tests/Normalizer/BulkDocsNormalizerTest.php	
+D	src/Tests/Normalizer/ContentEntityNormalizerTest.php	
+D	src/Tests/Normalizer/FileItemNormalizerTest.php	
+D	src/Tests/Normalizer/NormalizerTestBase.php	
+D	src/Tests/Normalizer/ReplicationLogNormalizerTest.php	
+D	src/Tests/Normalizer/WorkspaceNormalizerTest.php	
+M	src/Tests/ResourceTestBase.php	40b7ea86d26cc936a3997d12d1d2447d
+A	src/Tests/StubTest.php	feb85968e24553390fb231e297f87bf5
+M	tests/bin/couchdb-to-drupal.sh	5aff1eabbb6af04db358b404a82b8d03
+M	tests/bin/drupal-to-couchdb.sh	e779f0652aad29d08d9589765701fd4b
+M	tests/bin/drupal-to-drupal.sh	7717243fa7e8f5167d4975d71e292189
+M	tests/bin/drupal.sh	a459adba615efa2738e345ce7e7e3e9e
+M	tests/bin/php-replicator.sh	28cf16c61c31baed53a7023ae49c29af
+M	tests/bin/pouchdb.sh	db873ceb37309d82afe585fc9b163a4c
+M	tests/fixtures/documents.txt	3102dc0ffc365473b594273d0362fc71
+A	tests/fixtures/file1.txt	6f5902ac237024bdd0c176cb93063dc4
+A	tests/fixtures/generate.php	863ed2f83d06a1ed18f57b8a3eb55557
+M	tests/modules/relaxed_test/relaxed_test.info.yml	fa6cfbad1365f4272d487ff4795f11d4
+M	tests/modules/relaxed_test/relaxed_test.install	78df851d4219bac5a3601f4e3125c3a9
+M	tests/pouchdb/test.js	51fdd9acaa5d19ae0656f90f94202010
+A	tests/src/Unit/Encoder/StreamEncoderTest.php	f8eafd143c454a8abbeba1c376d1d2c7
+A	tests/src/Unit/EndpointPluginTest.php	3430a2c198c7fb226ac85dae99e8e879
+A	tests/src/Unit/Normalizer/AllDocsNormalizerTest.php	21d9b55a06fb8e81042c07638c525731
+A	tests/src/Unit/Normalizer/AttachmentNormalizerTest.php	fe2a9c8a7d235f1ceb3ae95deb74dc3a
+A	tests/src/Unit/Normalizer/BulkDocsNormalizerTest.php	da835b8fea9851abb16938e03b02a7e4
+A	tests/src/Unit/Normalizer/ContentEntityNormalizerTest.php	cb735bd44b84465e1426f2bacd2d606a
+A	tests/src/Unit/Normalizer/FileItemNormalizerTest.php	23dc91aff798c8ffa93788b10ed7e54d
+A	tests/src/Unit/Normalizer/NormalizerTestBase.php	24175a9e170018acd323550cff596ca4
+A	tests/src/Unit/Normalizer/ReplicationLogNormalizerTest.php	b3215a96d7e6aed1c4b615108f731f5e
+A	tests/src/Unit/Normalizer/WorkspaceNormalizerTest.php	37724bd24cbc2be40a63596037489558

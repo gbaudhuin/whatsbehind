@@ -1,0 +1,5 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	config/schema/menu_block.schema.yml	f40adf4426d7045fff78fa82e32b60f8
+A	menu_block.info.yml	729b52818025bc87f6c1b6b43e05a5a4
+A	src/Plugin/Block/MenuBlock.php	7733f0929595b47d81109041266a7c5b
+A	src/Plugin/Derivative/MenuBlock.php	4bb5199b73c351e3545ec57b75cfdbc4

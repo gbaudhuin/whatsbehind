@@ -1,0 +1,6 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	fieldblock.info.yml	f922ac8c03e241467ce2536802b4a170
+A	fieldblock.install	1f3435ffa4cfae41b9d0efff6172fa38
+A	fieldblock.module	6b0f6feb15fe018c8186d6c1f5a92690
+A	src/Plugin/Block/FieldBlock.php	97a71a4a531b693b2c245fd9695b4818
+A	src/Plugin/Derivative/FieldBlock.php	6fd9614a69f18e2f7f27d9feb0c9d1fb

@@ -1,0 +1,8 @@
+M	double_field.info.yml	a728b07750890ad3152a2e611e8f3f86
+M	double_field.module	ad45392be57ef532062d96b23a2e3170
+M	src/Plugin/Field/FieldType/DoubleField.php	2574445f01ea959e472b721881fe213b
+M	src/Plugin/Field/FieldWidget/DoubleField.php	df098247e22cb330ccfd52682127b432
+D	src/Tests/FieldTestBase.php	
+M	src/Tests/FieldTypeTest.php	cf9599c33265a6da1b749d3d7a39006d
+A	src/Tests/TestBase.php	655488b76b6c32a9547f34062d932497
+A	src/Tests/WidgetTest.php	8effb1d3cf3179b30e2842aaa7918b14

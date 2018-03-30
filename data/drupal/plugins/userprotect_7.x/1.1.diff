@@ -1,0 +1,18 @@
+M	INSTALL.txt	e6706c9e385eeb9f571102a36ccdb7f0
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	README.txt	975a819a814a8daecbfd20b6d82acc05
+A	tests/UserProtectBypassWebTest.test	3b79f6ba44550d41302ea6bc2e0fba63
+A	tests/UserProtectModuleInstallUninstallWebTest.test	58f527e937492f097b1aa9c9b07f4a60
+A	tests/UserProtectPermissionsWebTest.test	3506bc8efad55f0339dc91120309a987
+A	tests/UserProtectProtectionWebTest.test	d12c963715c1f5b85b2ed69e38ac8d52
+A	tests/UserProtectViewsBulkOperationsWebTest.test	a93c76c87968c521ef65a0b4ece6c5ca
+A	tests/UserProtectWebTestBase.test	cbde8026873500d3cf622b27f945eece
+A	tests/userprotect_test.info	32dd20ea67c75c768d66e188a3952aa8
+A	tests/userprotect_test.module	9b7467dc36aa099b1590af04d8772837
+A	tests/userprotect_test.views_default.inc	6bcb7ac6302eece1b6db9b14ccdc6a7f
+D	translations/nl.po	
+D	translations/userprotect.pot	
+M	userprotect.admin.inc	cfd67c7c84d4494e83bfe403a31b1a7b
+M	userprotect.info	8052709af3c957e048d666d220dff902
+M	userprotect.install	cb5f26a01b7ad21b9b8f8cf6a711a2d0
+M	userprotect.module	fbe30615048f49733b95c6e853127d5c

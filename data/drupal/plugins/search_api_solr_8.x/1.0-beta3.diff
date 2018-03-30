@@ -1,0 +1,12 @@
+M	README.txt	08ce93f6570d12c1a1743ac3e4e8bb66
+M	search_api_solr.info.yml	b19d49e5fd12da26ba6a6ca4bc5300f0
+M	search_api_solr.install	b103f827f2e59d24b241371644b5466d
+M	search_api_solr_defaults/search_api_solr_defaults.info.yml	42872586e2156c144314ae0063f446ee
+M	src/Controller/DevelController.php	dbf3948460aa18f79e79fe139a6a9ead
+M	src/Plugin/search_api/backend/SearchApiSolrBackend.php	215ca336160a0e2e5b72db65f19cb95e
+M	src/SolrBackendInterface.php	e7f73371c84ac06c5a75ad5e5e885b1d
+M	src/SolrConnector/SolrConnectorPluginBase.php	e85d41f20b5ab6cf025f98d550c894db
+M	src/SolrConnectorInterface.php	9597b74bf22bd988c0c7e901316bade9
+M	tests/modules/search_api_solr_test/search_api_solr_test.info.yml	5f3a3b1b217470493cc30f57dbd264d5
+M	tests/modules/search_api_solr_test_facets/search_api_solr_test_facets.info.yml	c72455b98bb2d798a42fcd7ec78e096f
+M	tests/src/Kernel/SearchApiSolrTest.php	bd02090f427373892e68f3fb82e6139e

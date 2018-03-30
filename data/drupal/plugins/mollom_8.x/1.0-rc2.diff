@@ -1,0 +1,9 @@
+D	config/install/system.action.mollom_comment_unpublish_action.yml	
+D	config/install/system.action.mollom_node_unpublish_action.yml	
+A	config/optional/system.action.mollom_comment_unpublish_action.yml	8160a2838e1c8c1290e27163895f4a01
+A	config/optional/system.action.mollom_node_unpublish_action.yml	f5727042a665f44b467e6259a955aa73
+M	mollom.info.yml	e1031178d0cc90494367a991edd33140
+M	src/Form/FormFormBase.php	6d12d39758ba2480b9fce0a205443b8c
+M	src/Utility/Logger.php	5999a3fefc4da51c4bc4164f62c993e2
+M	tests/modules/mollom_test/mollom_test.info.yml	ca57a43e0fa5ec82303755f8f4318f5b
+M	tests/modules/mollom_test_server/mollom_test_server.info.yml	5821e5d5515df6d04b2a34c170c79625

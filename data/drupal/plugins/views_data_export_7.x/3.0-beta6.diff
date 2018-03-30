@@ -1,0 +1,9 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+D	README.md	
+A	README.txt	0ec6820a588cfe6c4db0bb4ac0155fb1
+M	plugins/views_data_export_plugin_display_export.inc	ede8cf60d8bf3147c6684c6bd7a7eab9
+M	views_data_export.drush.inc	5b01f97065a2d0b660592ac19c5f2a8f
+M	views_data_export.info	7c08c4560bfba12a35aa8b3da82dfb92
+M	views_data_export.install	6a6929d490e113cbdc2f21366024154f
+M	views_data_export.module	b44aa4f20d74df1f94d5802d40a7dc61
+M	views_data_export.views.inc	e645647fadb52347b16c2353b9e0c2ad

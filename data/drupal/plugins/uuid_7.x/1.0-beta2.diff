@@ -1,0 +1,25 @@
+A	.travis.yml	ac270d33c72bf6155dd05a141e7138b3
+M	README.txt	0787f8ad4ca5aabe1b36ff85468673d4
+M	plugins/arguments/entity_uuid.inc	509efc90a36b66bad85f969008981ad5
+M	uuid.admin.inc	10325763fbfbb12f7b9c457a442c4abb
+M	uuid.api.php	98ead6850b1b4b9973d4c72e51bf0c41
+M	uuid.core.inc	6e801b09ceb5a8b600194d5fc69d3546
+M	uuid.drush.inc	db4d1ca54288cd8cf24b7eb627ebbdf4
+M	uuid.entity.inc	46cf418c07ad5b1224de65478a0aeb8b
+M	uuid.features.inc	518470081623f24a5f47dc7224ffe0f6
+M	uuid.inc	4dce653e1b5b78638d234d56d72ba341
+M	uuid.info	0a29115784d71b492480093aead18c7d
+M	uuid.install	49d23737ba0112e824122670295fb538
+M	uuid.module	dad4d0b5ed0e86ff9d7d4939ac311bd1
+M	uuid.test	be7fe41f713ffc703be971890419631b
+M	uuid.views.inc	61f926ea80d8f5256269e5a72cabf5c0
+M	uuid_path/uuid_path.info	2d80b6c35a501918cec065fe4cec68cf
+M	uuid_path/uuid_path.module	3354164344490e1b3849611d5a476ce5
+A	uuid_services/uuid_services.admin.inc	1c4cc77262b19323601a6ed61d869b34
+M	uuid_services/uuid_services.info	5e2f5e9bbc775874c4717670f288a9bc
+M	uuid_services/uuid_services.module	192abdfacba575930fb04076334f4b1f
+M	uuid_services_example/uuid_services_example.features.inc	a47b5c09b20e874750687be3d05c3f44
+M	uuid_services_example/uuid_services_example.info	613c933c56a393c46df735ca311ce8ad
+M	uuid_services_example/uuid_services_example.module	d785acc4aed2497c08912e40fcbca807
+M	uuid_services_example/uuid_services_example.services.inc	bc0c29efc8a6edc1ee5de0bf75f608af
+D	uuid_services_uuid_services.admin.inc	

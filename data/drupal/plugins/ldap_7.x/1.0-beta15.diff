@@ -1,0 +1,23 @@
+M	ldap_authentication/ldap_authentication.info	665aae2227a57b6ef4532618c984dcf8
+M	ldap_authentication/tests/ldap_authentication.test	966349a07f4edfaec4ffeb85b32dffaa
+M	ldap_authorization/ldap_authorization.info	bc5e0236f663b8e655ec28e5e5e10dfb
+M	ldap_authorization/ldap_authorization_drupal_role/ldap_authorization_drupal_role.info	4f44a93127642e6c6e5ebab821d80889
+M	ldap_authorization/ldap_authorization_og/ldap_authorization_og.info	10af1a57870fcb26c41cf70cbb77d857
+M	ldap_authorization/tests/BasicTests/BasicTests.test	7dcc3db1973382115630f4da7c34ca83
+M	ldap_authorization/tests/DeriveFromAttr/DeriveFromAttr.test	e6a67ba1047b8d8ccbc9d9d79f658314
+M	ldap_authorization/tests/DeriveFromDN/DeriveFromDN.test	fd4f7f8002a5adc88dd4c7b66842c966
+D	ldap_authorization/tests/Og/Og.test	
+M	ldap_authorization/tests/Og/Og2.test	8f9eb970f7c2c587c993abb8f26a7aa2
+M	ldap_authorization/tests/Other/Other.test	3c9464c6a398db2358a4322d51c48b3b
+M	ldap_feeds/ldap_feeds.info	5fc0233a5b608e8a983c956bb98b06bf
+M	ldap_help/ldap_help.info	4dcac8049befe052b92d49cfa9e3e1b1
+M	ldap_profile/ldap_profile.info	8da456f6d49fea57e1579f4b30621c4b
+M	ldap_query/ldap_query.info	7d4f3c37ad2eabecbb2d268b88d3675d
+M	ldap_servers/LdapServerAdmin.class.php	11908f9e1e9eb0ee50801ae6421d7d06
+M	ldap_servers/ldap_servers.functions.inc	ed7b98ba63fb8b8d02b7b9fa5dbcf3d6
+M	ldap_servers/ldap_servers.info	63552d26b15ef2e37aadd0d994bcf91b
+D	ldap_sso/MSTMG.notes.txt	
+D	ldap_sso/README.txt	
+D	ldap_sso/ldap_sso.info	
+D	ldap_sso/ldap_sso.module	
+M	ldap_views/ldap_views.info	12ab22fb76546bc4ef6e86d124c3e46b

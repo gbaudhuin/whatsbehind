@@ -1,0 +1,9 @@
+M	spamspan.info.yml	6ea9db60978a5bf23a701922a986937e
+M	spamspan.module	4ef6c01f5cb7646725e58d5c346875a8
+A	spamspan.services.yml	f3294550f168fa6fa601a9d03c397187
+M	src/Form/SpamSpanTestForm.php	d810b3368c5e59f30ffdd4bb8fc2bcd5
+M	src/Plugin/Field/FieldFormatter/EmailSpamspanFormatter.php	a725840f3fd0d6d6e58ee0f1d5c09ec6
+M	src/Plugin/Filter/FilterSpamspan.php	77231ad533d2c3f7184d1e1e8132de44
+M	src/Plugin/SpamspanSettingsFormTrait.php	c989b9963ce335b1543c1b50c621d864
+M	src/Tests/FilterSpamspanUnitTest.php	dec5fce3fd0c36e757a711d2d4f4cecb
+A	src/TwigExtension/SpamSpanExtension.php	4acbef425e2025ed1accc7eeb6f010f2

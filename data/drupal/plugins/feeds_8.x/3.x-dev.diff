@@ -1,0 +1,420 @@
+D	CHANGELOG.txt	
+D	README.txt	
+A	composer.json	a29438d00300abb86beb78c67504ad4f
+A	config/install/system.action.feeds_feed_delete_action.yml	9df054f9e609d9353f724ce2f2fbd6d3
+A	config/optional/views.view.feeds_feed.yml	b3f065a31525d52321eb58df9bb5c873
+A	config/schema/feeds.schema.yml	8f0f7ea0ea2e2e4086821418e3b14fa2
+D	feeds.api.php	
+M	feeds.css	633f442ffad95e001c624dc3da1b0cbd
+M	feeds.info.yml	ae4430fbde2cb5150e28e9f361d29764
+M	feeds.install	ae89ed5e5190a3ab8d97960b459b1c2b
+A	feeds.js	9791bd5a3ddbf93dec5a01e4aaa5ac8f
+A	feeds.libraries.yml	25b8b15d4b22b6f20066d44cc2e7eb2c
+A	feeds.links.action.yml	d32d0b75ff904fa41c9d01e064506c4a
+A	feeds.links.menu.yml	e9b35b4bb6f3212bb4ecdb73deffb0fa
+A	feeds.links.task.yml	5ea9b412ff30f1beac91d8e9d5458408
+M	feeds.module	eef768c52bd9b52a598ff7c5a8f7f9a5
+D	feeds.pages.inc	
+A	feeds.permissions.yml	c4c2fcd93d41103f79ba25063e5b4cdb
+D	feeds.plugins.inc	
+A	feeds.routing.yml	e0b2db70afe4073b9e80fd2053be6440
+D	feeds.rules.inc	
+M	feeds.services.yml	293b83677931aa23727e6b6e0148788d
+A	feeds.theme.inc	de7bce1417361f6ebe23b2a097189a52
+D	feeds.tokens.inc	
+A	feeds.ui.css	5ece5a0ab1d3ff1e6e8635fd8fce5d3b
+D	feeds_import/feeds_import.features.inc	
+D	feeds_import/feeds_import.feeds_importer_default.inc	
+D	feeds_import/feeds_import.info	
+D	feeds_import/feeds_import.module	
+D	feeds_import/feeds_import.test	
+D	feeds_news/feeds_news.features.field.inc	
+D	feeds_news/feeds_news.features.inc	
+D	feeds_news/feeds_news.feeds_importer_default.inc	
+D	feeds_news/feeds_news.info	
+D	feeds_news/feeds_news.module	
+D	feeds_news/feeds_news.test	
+D	feeds_news/feeds_news.views_default.inc	
+D	feeds_ui/feeds_ui.admin.inc	
+D	feeds_ui/feeds_ui.css	
+D	feeds_ui/feeds_ui.info.yml	
+D	feeds_ui/feeds_ui.install	
+D	feeds_ui/feeds_ui.module	
+D	feeds_ui/feeds_ui.test	
+D	lib/Drupal/feeds/FeedsAccessException.php	
+D	lib/Drupal/feeds/FeedsDateTime.php	
+D	lib/Drupal/feeds/FeedsDateTimeElement.php	
+D	lib/Drupal/feeds/FeedsElement.php	
+D	lib/Drupal/feeds/FeedsEnclosure.php	
+D	lib/Drupal/feeds/FeedsFetcherResult.php	
+D	lib/Drupal/feeds/FeedsFileFetcherResult.php	
+D	lib/Drupal/feeds/FeedsGeoTermElement.php	
+D	lib/Drupal/feeds/FeedsHTTPFetcherResult.php	
+D	lib/Drupal/feeds/FeedsImporter.php	
+D	lib/Drupal/feeds/FeedsLockException.php	
+D	lib/Drupal/feeds/FeedsParserResult.php	
+D	lib/Drupal/feeds/FeedsResult.php	
+D	lib/Drupal/feeds/FeedsSimplePieEnclosure.php	
+D	lib/Drupal/feeds/FeedsSource.php	
+D	lib/Drupal/feeds/FeedsSourceInterface.php	
+D	lib/Drupal/feeds/FeedsState.php	
+D	lib/Drupal/feeds/FeedsTermElement.php	
+D	lib/Drupal/feeds/FeedsValidationException.php	
+D	lib/Drupal/feeds/ParserCSV.php	
+D	lib/Drupal/feeds/ParserCSVIterator.php	
+D	lib/Drupal/feeds/Plugin/FeedsConfigurable.php	
+D	lib/Drupal/feeds/Plugin/FeedsFetcher.php	
+D	lib/Drupal/feeds/Plugin/FeedsParser.php	
+D	lib/Drupal/feeds/Plugin/FeedsPlugin.php	
+D	lib/Drupal/feeds/Plugin/FeedsPluginManager.php	
+D	lib/Drupal/feeds/Plugin/FeedsProcessor.php	
+D	lib/Drupal/feeds/Plugin/feeds/fetcher/FeedsFileFetcher.php	
+D	lib/Drupal/feeds/Plugin/feeds/fetcher/FeedsHTTPFetcher.php	
+D	lib/Drupal/feeds/Plugin/feeds/parser/FeedsCSVParser.php	
+D	lib/Drupal/feeds/Plugin/feeds/parser/FeedsOPMLParser.php	
+D	lib/Drupal/feeds/Plugin/feeds/parser/FeedsSimplePieParser.php	
+D	lib/Drupal/feeds/Plugin/feeds/parser/FeedsSitemapParser.php	
+D	lib/Drupal/feeds/Plugin/feeds/parser/FeedsSyndicationParser.php	
+D	lib/Drupal/feeds/Plugin/feeds/processor/FeedsNodeProcessor.php	
+D	lib/Drupal/feeds/Plugin/feeds/processor/FeedsTermProcessor.php	
+D	lib/Drupal/feeds/Plugin/feeds/processor/FeedsUserProcessor.php	
+D	lib/Drupal/feeds/PuSHEnvironment.php	
+D	lib/Drupal/feeds/PuSHSubscriber.php	
+D	lib/Drupal/feeds/PuSHSubscription.php	
+D	lib/Drupal/feeds/Tests/CommonSyndicationParserTest.php	
+D	lib/Drupal/feeds/Tests/FeedsCSVtoUsersTest.php	
+D	lib/Drupal/feeds/Tests/FeedsDateTimeTest.php	
+D	lib/Drupal/feeds/Tests/FeedsFileFetcherTest.php	
+D	lib/Drupal/feeds/Tests/FeedsMapperConfigTest.php	
+D	lib/Drupal/feeds/Tests/FeedsMapperDateMultipleTest.php	
+D	lib/Drupal/feeds/Tests/FeedsMapperDateTest.php	
+D	lib/Drupal/feeds/Tests/FeedsMapperFieldTest.php	
+D	lib/Drupal/feeds/Tests/FeedsMapperFileTest.php	
+D	lib/Drupal/feeds/Tests/FeedsMapperLinkTest.php	
+D	lib/Drupal/feeds/Tests/FeedsMapperPathTest.php	
+D	lib/Drupal/feeds/Tests/FeedsMapperTaxonomyTest.php	
+D	lib/Drupal/feeds/Tests/FeedsMapperTestBase.php	
+D	lib/Drupal/feeds/Tests/FeedsProcessorTaxonomyTermTest.php	
+D	lib/Drupal/feeds/Tests/FeedsRSStoNodesTest.php	
+D	lib/Drupal/feeds/Tests/FeedsSchedulerTest.php	
+D	lib/Drupal/feeds/Tests/FeedsSitemapParserTest.php	
+D	lib/Drupal/feeds/Tests/FeedsSyndicationParserTest.php	
+D	lib/Drupal/feeds/Tests/FeedsUnitTestBase.php	
+D	lib/Drupal/feeds/Tests/FeedsWebTestBase.php	
+D	lib/Drupal/feeds/Tests/ParserCSVTest.php	
+D	libraries/common_syndication_parser.inc	
+D	libraries/http_request.inc	
+D	libraries/opml_parser.inc	
+D	mappers/datetime.inc	
+D	mappers/file.inc	
+D	mappers/link.inc	
+D	mappers/number.inc	
+D	mappers/path.inc	
+D	mappers/taxonomy.inc	
+D	mappers/text.inc	
+A	phpunit.xml.dist	856aeaad8166650dfd068b32310ce0c1
+A	src/Access/FeedAddAccessCheck.php	f03b997bc76a7cbdea72c457b50da209
+A	src/Ajax/SetHashCommand.php	29ada480814b6b31011d58d199eba901
+A	src/Annotation/FeedsBase.php	f46c3778922d0c1c983b6e5f68f000a6
+A	src/Annotation/FeedsFetcher.php	638ca537df7dd26607fce7e8fb8b0a3c
+A	src/Annotation/FeedsParser.php	c74b63bfa0e5aab49115c84f0c4a0436
+A	src/Annotation/FeedsProcessor.php	166e45a0909db3c37f4f63f64f0cc718
+A	src/Annotation/FeedsSource.php	b21e88cfa3354e70db140a31de9817ff
+A	src/Annotation/FeedsTarget.php	f084cff1973979ea1b8024df6f25ef28
+A	src/Component/CsvParser.php	bbfb8611766e6a468e475ac76af749a0
+A	src/Component/GenericOpmlParser.php	bbac916e86aae5a0e6ad89beb3f507bb
+A	src/Component/HttpHelpers.php	497e211c41de748ed7523309fe30c946
+A	src/Component/XmlParserTrait.php	f759807dbcf9dbb0e181a76d40a4635a
+A	src/Controller/ItemListController.php	1be41addc010f393a8acfc907ee87d3e
+A	src/Controller/SubscriptionController.php	6bd1c4474322004be257c062438a679f
+A	src/Element/Uri.php	69aea251fd2ac4d46ac56b284e87c4ee
+A	src/Entity/Feed.php	4a0f69b623278cc74af86a989dc8815b
+A	src/Entity/FeedType.php	e6eb792698af2d83442f37aee7348a54
+A	src/Entity/Subscription.php	dd8e9652af25fbd8a17bfd9be3623b83
+A	src/Event/CleanEvent.php	e2574f5b37b3ab86b72e3d8355502e26
+A	src/Event/ClearEvent.php	ca89a14ee014e2a37de6038ff92ab6fc
+A	src/Event/DeleteFeedsEvent.php	558dc4fdeee3ea2988ee5f09f2e0f041
+A	src/Event/EventBase.php	6d7dfd7aaedf247403218dad59b94e05
+A	src/Event/EventDispatcherTrait.php	354392d547c09e4fff5ebae08037fb76
+A	src/Event/ExpireEvent.php	a6dd3be64c2b7353569fda22334d4da1
+A	src/Event/FeedsEvents.php	d4514b42c3051e11343851aa21aed6e9
+A	src/Event/FetchEvent.php	1ede022c597289542c61ff7ca15c1659
+A	src/Event/InitEvent.php	301cf6424fce798d8b0963c90c12df9a
+A	src/Event/ParseEvent.php	38b17595540e7a4a9317c5b98955e54d
+A	src/Event/ProcessEvent.php	cc47c07cc4ddeca40bd627e04f1124c7
+A	src/EventSubscriber/LazySubscriber.php	3842ac2718e32d3b0252c8dbe4179cba
+A	src/EventSubscriber/PubSubHubbub.php	170d13749a3ad40b7c8065a34572a35a
+A	src/Exception/EmptyFeedException.php	bd3fe3a5028729f17bdd2a4a90a977b9
+A	src/Exception/EntityAccessException.php	6541b42e295a588cbacb6434cb5e9761
+A	src/Exception/FeedsRuntimeException.php	dfb3ec0b6a7d8dcce9bb83c5e9de1b4f
+A	src/Exception/LockException.php	d6366bfd5d7550cd423d362d90af619e
+A	src/Exception/NotModifiedException.php	fe1f0a88b6aca6f39e1d1ad4f49e38f6
+A	src/Exception/TargetValidationException.php	286d825fcd9fb00dd37e9fa829bbd8a1
+A	src/Exception/ValidationException.php	af424dc5af03a530e47468253d4f16f7
+A	src/FeedAccessControlHandler.php	a7975f326bf20121b7eca1f47e89fda3
+A	src/FeedClearHandler.php	9f5f102b5367c48c1f8af6d6d232a24d
+A	src/FeedExpireHandler.php	746eafc1c1212d49e483412fe30455c4
+A	src/FeedForm.php	c93d16590d771e9d5cb1a4e2370b86e9
+A	src/FeedHandlerBase.php	3dc4b3770dd6087494802c6bbb20195a
+A	src/FeedImportHandler.php	487e50907ed5e0133bba617567d61199
+A	src/FeedInterface.php	bca13d21e38af7c5fceec5540f30925d
+A	src/FeedListBuilder.php	266b4532fb26737b1ea6bf5d56171b4b
+A	src/FeedStorage.php	f56b1d0fd54e15a554c98dde01554baa
+A	src/FeedStorageInterface.php	79079081b8c59e3960a2557bdde2f744
+A	src/FeedTypeAccessControlHandler.php	e4d459e8e87d96b073126c4a2dc9c7e9
+A	src/FeedTypeForm.php	7581c49a5199e8ea48873ce3c6ca4596
+A	src/FeedTypeInterface.php	841c6f75b0d9a302aecdcd21df0b5a95
+A	src/FeedTypeListBuilder.php	4696078acbfb72acd36ffe81e86556f0
+A	src/FeedViewBuilder.php	ea69daeaaf73c88f408150123a7f6c8b
+A	src/FeedViewsData.php	aca1af9555414fa0c19f6a27899ffe86
+A	src/Feeds/FeedsSingleLazyPluginCollection.php	66bfa1a7a1d6e585cc450d09b7e6faa4
+A	src/Feeds/Fetcher/DirectoryFetcher.php	8895b6a1c2f695223688f9fc5531ea8d
+A	src/Feeds/Fetcher/Form/DirectoryFetcherFeedForm.php	2944adb01981c22df49e52220d2c697a
+A	src/Feeds/Fetcher/Form/DirectoryFetcherForm.php	4bf55a11ae69babdb4c2fb0238bf464c
+A	src/Feeds/Fetcher/Form/HttpFetcherFeedForm.php	30f73e9699083b3e650e53f486ba7ad2
+A	src/Feeds/Fetcher/Form/HttpFetcherForm.php	ce3219b343110a7d30985d4c756055d1
+A	src/Feeds/Fetcher/Form/UploadFetcherFeedForm.php	be6084ab7e8fb786f2aefa1cc3098666
+A	src/Feeds/Fetcher/Form/UploadFetcherForm.php	7b14f612289ada721004baeec51a5229
+A	src/Feeds/Fetcher/HttpFetcher.php	11a053418e3cd29dc1da77b7688ebd9c
+A	src/Feeds/Fetcher/UploadFetcher.php	1443f81348d22f5142d410d6aca98edb
+A	src/Feeds/Item/BaseItem.php	0d5c05c7072b7cb4dc2d7d24acc3ed43
+A	src/Feeds/Item/DynamicItem.php	416d910ee436846799f37944c341c76f
+A	src/Feeds/Item/ItemInterface.php	26182d93909116aaae78f0bd60984463
+A	src/Feeds/Item/OpmlItem.php	46bdb539c1bd14775750b5176e8f1fe4
+A	src/Feeds/Item/SitemapItem.php	a29c0ab7fb5340af6a9e7d8b9d15513c
+A	src/Feeds/Item/SyndicationItem.php	ea6bf536d73337369e34f716f457a6e7
+A	src/Feeds/Parser/CsvParser.php	2feeb6a2bb1368f9c263f8c3bde198ee
+A	src/Feeds/Parser/Form/CsvParserFeedForm.php	5d7dce876b1ffbd4acc7da41c6e43b27
+A	src/Feeds/Parser/Form/CsvParserForm.php	de50c34a5228eead42e47e34b156305d
+A	src/Feeds/Parser/OpmlParser.php	c086e9f22b8ad404f5b0203f0a248ddd
+A	src/Feeds/Parser/SitemapParser.php	b3ffa3781d14eb8716256bc537fdad3d
+A	src/Feeds/Parser/SyndicationParser.php	6c8d1a2f5bf2e160c5a4f89e59886b25
+A	src/Feeds/Processor/EntityProcessorBase.php	bd71df003691642f0fb498299467f64d
+A	src/Feeds/Processor/Form/DefaultEntityProcessorForm.php	db5fdb57a80e9ce75ade63aa688e4596
+A	src/Feeds/Processor/Form/EntityProcessorOptionForm.php	49d3eb60b4dddb7fee6cf5cca06814e1
+A	src/Feeds/Processor/NodeProcessor.php	20d0f456f429fb4add4cbe136fc0f38a
+A	src/Feeds/Processor/ProcessorBase.php	27b3a46cdc14472285755ef2ec06015f
+A	src/Feeds/Processor/TermProcessor.php	e3efd9a1d73f239de7792642c379b3fb
+A	src/Feeds/Processor/UserProcessor.php	dfeb8ffb0baab1504117438c49a5e499
+A	src/Feeds/Source/BasicFieldSource.php	bc6d7f71f1af24a711574f68cc0e628c
+A	src/Feeds/State/CleanState.php	d6a55ff4f1a5e68324e3a51e5cce14e1
+A	src/Feeds/State/CleanStateInterface.php	d8df7d18a9aae825bea9606f7f983d2d
+A	src/Feeds/Target/Boolean.php	8b76fe2eba0cd96d8d75d8809f3b699b
+A	src/Feeds/Target/DateRange.php	72ea830a3808bae5349248b9b986aafd
+A	src/Feeds/Target/DateTime.php	006a1043f0b02cb270a3c2a7b2ee6574
+A	src/Feeds/Target/Email.php	9542302019a3d4664f3abd58882fc950
+A	src/Feeds/Target/EntityReference.php	9c3ff8633746cfc995cd8b33bf63942f
+A	src/Feeds/Target/FeedsItem.php	6d75af0d23391418ebf9310a2d043a65
+A	src/Feeds/Target/File.php	2eb57971d10965404e30d02e1cf737c5
+A	src/Feeds/Target/Image.php	7d82a1c2e1eb986e15872b0e2cce224b
+A	src/Feeds/Target/Integer.php	bc3a3e595f2a66dfbf9d47c853331c03
+A	src/Feeds/Target/Link.php	8c2ec09921e9d3fca8f00b11a14a1ee9
+A	src/Feeds/Target/Number.php	8b8997cfdbda49a4ba3cbb5bc30c1862
+A	src/Feeds/Target/Path.php	6a12ba54f25ff3d5240d02e8eda79923
+A	src/Feeds/Target/StringTarget.php	19e88f2ee5d3675a2c7f3b0b42d504d7
+A	src/Feeds/Target/Text.php	6e4f3c3e87d08dcd4ee31fdefbecac3f
+A	src/Feeds/Target/Timestamp.php	51ade140ea68a7bdb7f830eae92e267a
+A	src/Feeds/Target/Uri.php	a0591b94a1857b57118968bc1120ae9b
+A	src/FeedsEnclosure.php	1b9e1d6744a1ba8d91570249e0d309d9
+A	src/FeedsPermissions.php	d545308730a411f17669b420482d65ec
+A	src/FieldTargetDefinition.php	90406bddf83e7b80c5975dc1c70939bc
+A	src/Form/DeleteMultiple.php	d5d4f5d2476a22a22af6d7c3cf054d78
+A	src/Form/FeedClearForm.php	cb795e9184f7123190a1da99dd78025c
+A	src/Form/FeedDeleteForm.php	0a21368430c7540b71cb7399d9325e1a
+A	src/Form/FeedImportForm.php	778cdf1a3d992c803c3702ea572ed24b
+A	src/Form/FeedTypeDeleteForm.php	f807c34d09e8c3b5e452521eace373ce
+A	src/Form/FeedUnlockForm.php	54cf7bec2631d8005f03ac4c44c9bb2f
+A	src/Form/MappingForm.php	1c69574e6b21aa599620aea01308a7ef
+A	src/Plugin/Action/DeleteFeed.php	96d29b79da55a840070c36b7bd1e9e23
+A	src/Plugin/Derivative/FeedQueueWorker.php	36ef689e932c8b93be989df2a3dbfb33
+A	src/Plugin/Field/FieldFormatter/FeedsUriLinkFormatter.php	c235c9aedb5c4ed005c676d76293bc46
+A	src/Plugin/Field/FieldType/FeedsItem.php	e994ad08c0593cc6f071beef1abfab29
+A	src/Plugin/PluginAwareInterface.php	2503e022f11c8957cd1aa94368f6e7bc
+A	src/Plugin/PluginFormFactory.php	9568dc01442e2619833a9e4e69e6add2
+A	src/Plugin/QueueWorker/FeedQueueWorkerBase.php	0569831cafdc017fc1e352d36fcd6304
+A	src/Plugin/QueueWorker/FeedRefresh.php	8115d011da77a097d18d250be4f117b2
+A	src/Plugin/Type/CleanableInterface.php	1f14587c5fe65127ba8d07f547b351b5
+A	src/Plugin/Type/ClearableInterface.php	8775cb64e8a4491a332259bcd70b0744
+A	src/Plugin/Type/ConfigurablePluginBase.php	aac407633a6724dc3fce4c4aa53e69e9
+A	src/Plugin/Type/ExternalPluginFormBase.php	6aa2d00daa1ef4df9e6137627becca76
+A	src/Plugin/Type/ExternalPluginFormInterface.php	a9489a4ba48febfe0a64a438de223931
+A	src/Plugin/Type/FeedsAnnotationFactory.php	91ccc4682f519e36699f8c742ac2edbc
+A	src/Plugin/Type/FeedsPluginInterface.php	275d836cf329a602736c5cf4a7f3ee2f
+A	src/Plugin/Type/FeedsPluginManager.php	b3dae45177bce4cc342d2ca88033b2b2
+A	src/Plugin/Type/Fetcher/FetcherInterface.php	e33a923163d1b2630afe3da88f28d27f
+A	src/Plugin/Type/LockableInterface.php	2553552fa9698839e05e824a73fa21af
+A	src/Plugin/Type/Parser/ParserInterface.php	3ad63cdd22ba62915aef8cf04551ad1b
+A	src/Plugin/Type/PluginBase.php	b7f5e231b2e77928aa4f72a8f2eef3a2
+A	src/Plugin/Type/Processor/EntityProcessorInterface.php	691b48220e8bd57ccc77baa609a36b44
+A	src/Plugin/Type/Processor/ProcessorInterface.php	d88722223e4882f2707403666479a50f
+A	src/Plugin/Type/Source/SourceInterface.php	9f3952dcdce24de3e8f6dd0be3672abb
+A	src/Plugin/Type/Target/ConfigurableTargetInterface.php	b4d4607104d9c472a399b8e331519ed2
+A	src/Plugin/Type/Target/FieldTargetBase.php	c355bd47f128575454bc42bb198c9692
+A	src/Plugin/Type/Target/TargetBase.php	50c199696c34019c69307c8c9fbcd1ec
+A	src/Plugin/Type/Target/TargetInterface.php	84b0d7ea49a01147c53540f1c9b0c17a
+A	src/Result/FetcherResult.php	14f6e04c9b7a2702451e49abe62bb0e1
+A	src/Result/FetcherResultInterface.php	0eec16f03d6efca843b82b9346446de2
+A	src/Result/HttpFetcherResult.php	1e7924eb0baedccbc7fb60813c268515
+A	src/Result/HttpFetcherResultInterface.php	ef5b752e2adadb274105c6fc95f01344
+A	src/Result/ParserResult.php	848bd1d9326740c30235dd86e9c3efd3
+A	src/Result/ParserResultInterface.php	68535b3a16f8dbe6fe6638ca5d2a1c23
+A	src/Result/RawFetcherResult.php	831b4c8c08f5a7d80f14db9a1cab594c
+A	src/State.php	a99e8504f17aff7873ab5ec0e9740d0f
+A	src/StateInterface.php	cae14c11566d84b34d2486cf74e37f71
+A	src/SubscriptionInterface.php	d9296548fb9f99b1f86536f5fa753756
+A	src/TargetDefinition.php	99b5d413493453e56db7c2178fe3eaa0
+A	src/TargetDefinitionInterface.php	94e991d6ea36a5cd2f439f031d5d831b
+A	src/Tests/Feeds/RssNodeImport.php	510c0a4a1de5418de8de9632d3f9134e
+A	src/Tests/PrivateFileTest.php	0f2a278fdc9b44d693538f17789b3b4e
+A	src/Utility/Feed.php	a80cad7ac11f8d261327a38466d3780c
+A	src/Utility/File.php	4fc8fafb320fab1715129eefc77550b3
+A	src/Zend/Extension/Georss/Entry.php	63606d58442f1f07016b696f2f879f52
+A	templates/feeds_feed.html.twig	a768c9d8ed6bb3003b3f093429823836
+A	tests/bootstrap.php	3b979d155c3d6008fec5cbec557909e2
+D	tests/feeds/assets/attersee.jpeg	
+D	tests/feeds/assets/foosball.jpeg	
+D	tests/feeds/assets/hstreet.jpeg	
+D	tests/feeds/assets/la fayette.jpeg	
+D	tests/feeds/assets/tubing.jpeg	
+D	tests/feeds/batch/nodes1.csv	
+D	tests/feeds/batch/nodes2.csv	
+D	tests/feeds/batch/nodes3.csv	
+D	tests/feeds/batch/nodes4.csv	
+D	tests/feeds/batch/nodes5.csv	
+D	tests/feeds/content.csv	
+D	tests/feeds/developmentseed.rss2	
+D	tests/feeds/developmentseed_changes.rss2	
+D	tests/feeds/drupalplanet.rss2	
+D	tests/feeds/earthquake-georss.atom	
+D	tests/feeds/feed_without_guid.rss2	
+D	tests/feeds/feeds-tests-files.tpl.php	
+D	tests/feeds/feeds-tests-flickr.tpl.php	
+D	tests/feeds/googlenewstz.rss2	
+D	tests/feeds/magento.rss1	
+D	tests/feeds/many_nodes.csv	
+D	tests/feeds/multi-date.xml	
+D	tests/feeds/nodes.csv	
+D	tests/feeds/nodes.csv.php	
+D	tests/feeds/nodes.tsv	
+D	tests/feeds/nodes_changes.csv	
+D	tests/feeds/nodes_comma.csv	
+D	tests/feeds/nodes_pipe.csv	
+D	tests/feeds/nodes_plus.csv	
+D	tests/feeds/nodes_semicolon.csv	
+D	tests/feeds/nodes_tab.csv	
+D	tests/feeds/path_alias.csv	
+D	tests/feeds/profile.csv	
+D	tests/feeds/sitemap-example.xml	
+D	tests/feeds/users.csv	
+D	tests/feeds_tests.info.yml	
+D	tests/feeds_tests.module	
+A	tests/resources/csv-parser-component-files/csv/comma_in_quotes.csv	7e6f045435360f7c9b46a0be6133efb6
+A	tests/resources/csv-parser-component-files/csv/empty.csv	fcd8069f762656143ef16418c4ac452f
+A	tests/resources/csv-parser-component-files/csv/empty_crlf.csv	0fa4fa039bd3d01b3e033c6ea7f17903
+A	tests/resources/csv-parser-component-files/csv/escaped_quotes.csv	b5d3990bcef56cc9a9dd88d92845cd56
+A	tests/resources/csv-parser-component-files/csv/json.csv	a06aa699f025021945209d8926656e44
+A	tests/resources/csv-parser-component-files/csv/newlines.csv	0d58af92454a3578afec1961c89e6186
+A	tests/resources/csv-parser-component-files/csv/newlines_crlf.csv	023912ac0bbf8505ff54e13eee9e61e8
+A	tests/resources/csv-parser-component-files/csv/quotes_and_newlines.csv	876b9b49b761ecfc38821ac041d77fb7
+A	tests/resources/csv-parser-component-files/csv/simple.csv	b282d9f61f8444d101d92c50705aa1bd
+A	tests/resources/csv-parser-component-files/csv/simple_crlf.csv	3d5c8ed1c98b07a239bbe940c3a97bb2
+A	tests/resources/csv-parser-component-files/csv/utf8.csv	4cb4c0b2b801b49d3a3494ef9b034ed9
+A	tests/resources/csv-parser-component-files/json/comma_in_quotes.json	e294aed42d358070e45b8c74bb89d694
+A	tests/resources/csv-parser-component-files/json/empty.json	9e8c7506cee7664de35f6e255a41f9b6
+A	tests/resources/csv-parser-component-files/json/empty_crlf.json	9e8c7506cee7664de35f6e255a41f9b6
+A	tests/resources/csv-parser-component-files/json/escaped_quotes.json	9ce72694f1c746b3be1983e615ca4477
+A	tests/resources/csv-parser-component-files/json/json.json	39ff72fb3fcc853e46d26f075eebc34e
+A	tests/resources/csv-parser-component-files/json/newlines.json	98ae64a558556333a25bf940447194fc
+A	tests/resources/csv-parser-component-files/json/newlines_crlf.json	7dac8a23c6bce3c6425ebf62165ab956
+A	tests/resources/csv-parser-component-files/json/quotes_and_newlines.json	4daacc0d3ef9dbeacf845874e1df7f33
+A	tests/resources/csv-parser-component-files/json/simple.json	7004984a0ff102a83b599e2d29a4671e
+A	tests/resources/csv-parser-component-files/json/simple_crlf.json	7004984a0ff102a83b599e2d29a4671e
+A	tests/resources/csv-parser-component-files/json/utf8.json	4f3775bd72cfb309ce95f3e1c76fc1db
+A	tests/resources/csv/content.csv	cf784aa44d7719a3b1ce723ecc4e5a10
+A	tests/resources/csv/content_updated.csv	70d4b8fd67bd07f025023a0c840c0036
+A	tests/resources/csv/example.csv	4b6f321b1a0ad64a5791109e7e91c5d2
+A	tests/resources/opml-example.xml	925f88abcabb24bcdec8a0df97e96686
+A	tests/resources/rss/googlenewstz.rss2	045bb9ec77b9995331d4f6834c0854e6
+A	tests/resources/rss/googlenewstz_missing.rss2	d3befa45ac1880246fedd95c398eae42
+A	tests/resources/sitemap-example.xml	74a6bd22da654a55155233c193a4225d
+A	tests/src/Functional/FeedsBrowserTestBase.php	0281b786d7be19e2ff1c23a901bbc819
+A	tests/src/Functional/FeedsInstallTest.php	e84d8d5704f361a8bc17c59c5b533cc7
+A	tests/src/Functional/FeedsUninstallTest.php	11ada8a1213e7c5dfe0555008904f722
+A	tests/src/Functional/UpdateNonExistentTest.php	e557004b05d1dba5a8fbf9da578e1c87
+A	tests/src/Kernel/Entity/FeedTest.php	42c919b873cf9ded829f3b05c3309139
+A	tests/src/Kernel/Feeds/Fetcher/DirectoryFetcherTest.php	ae6a1c5dbba37103b8503602feded418
+A	tests/src/Kernel/Feeds/Processor/EntityProcessorBaseTest.php	72b4c7468a46f6ade428382e657c7e04
+A	tests/src/Kernel/FeedsItemTest.php	27b5a6dcd674accc551136d768303a9e
+A	tests/src/Kernel/FeedsKernelTestBase.php	6e2f54538f52f7a6e55f80c29f7f5c66
+A	tests/src/Kernel/UpdateNonExistentTest.php	341e1a0754e8d3e03ddcb24adca615d5
+A	tests/src/Traits/FeedCreationTrait.php	7fce4f60e3b241d7eabbb46e331e3237
+A	tests/src/Traits/FeedsCommonTrait.php	82a48ca708c20df304d2f7094307f653
+A	tests/src/Traits/FeedsReflectionTrait.php	af9e689767277c6beeaee69f813f71cd
+A	tests/src/Unit/Component/CsvParserTest.php	3531f6a2845dbdff6ba67a86842f0cb5
+A	tests/src/Unit/Component/GenericOpmlParserTest.php	8ea700e98a93c44292a6f9e10b9cf594
+A	tests/src/Unit/Component/HttpHelpersTest.php	80244f13a3b359a788f0ee5ac8a295fd
+A	tests/src/Unit/Component/XmlParserTraitTest.php	cc9486fd7bf312fe40759c38c8d64332
+A	tests/src/Unit/Controller/SubscriptionControllerTest.php	a78cdb4faef037b86bb1818c8d7f4b08
+A	tests/src/Unit/Element/UriTest.php	ce68a8aacc531efe1c5d3a6865441c72
+A	tests/src/Unit/Entity/FeedTypeTest.php	9b4655672746ceeaefabf4e8382954dd
+A	tests/src/Unit/Event/DeleteFeedsEventTest.php	f01563bcffc5d240e44dfae9e5ea73a5
+A	tests/src/Unit/Event/EventBaseTest.php	36c02f392e7620a74bdff4ff3779e4e0
+A	tests/src/Unit/Event/EventDispatcherTraitTest.php	91b968c6a27a7220c2122f6118b8cde8
+A	tests/src/Unit/Event/FetchEventTest.php	52a83253450b58ff6677a59a5a667942
+A	tests/src/Unit/Event/ParseEventTest.php	0c92c4983e857db89200bf07048fb3e3
+A	tests/src/Unit/Event/ProcessEventTest.php	8b09a39dafe6ac53c7b92c89a55d267b
+A	tests/src/Unit/EventSubscriber/LazySubscriberTest.php	3cf4e9bd54a05a77712a8c64848b65e4
+A	tests/src/Unit/FeedAccessControlHandlerTest.php	00af89a87e481e1a10bf0bb3dbc58cdc
+A	tests/src/Unit/FeedClearHandlerTest.php	f231a6178e3231432a7ee6824372b85f
+A	tests/src/Unit/FeedExpireHandlerTest.php	0199fe85feafca3db0b147d2b212956c
+A	tests/src/Unit/FeedHandlerBaseTest.php	58e05f431cdb5448e6434023fab48fd5
+A	tests/src/Unit/FeedImportHandlerTest.php	6dc2e5f36a3f37c11b3d1a7d1500680e
+A	tests/src/Unit/FeedTypeAccessControlHandlerTest.php	4a41c02e827e86f92615779ea44d16c2
+A	tests/src/Unit/Feeds/Fetcher/DirectoryFetcherTest.php	336bb820b7860cdc3dfe4f0b1201b875
+A	tests/src/Unit/Feeds/Fetcher/Form/DirectoryFetcherFeedFormTest.php	cc7e38575358d843056f7a87956ca6db
+A	tests/src/Unit/Feeds/Fetcher/Form/DirectoryFetcherFormTest.php	37129eb627677389c973ed49f6261fff
+A	tests/src/Unit/Feeds/Fetcher/Form/HttpFetcherFormTest.php	f5f384315e14325622c4a185ca0c0032
+A	tests/src/Unit/Feeds/Fetcher/Form/UploadFetcherFeedFormTest.php	c1c8b5c6d4d09541d806fc3b8a487b57
+A	tests/src/Unit/Feeds/Fetcher/Form/UploadFetcherFormTest.php	ded907033e3806e0e2ed56d467469f54
+A	tests/src/Unit/Feeds/Fetcher/HttpFetcherTest.php	d9dcb57e8513eb02774e2f4fa00bdf78
+A	tests/src/Unit/Feeds/Fetcher/UploadFetcherTest.php	83018b4277f4049b343487460aab7198
+A	tests/src/Unit/Feeds/Item/BaseItemTest.php	e21603a816b842d2a47ef39aaa77243d
+A	tests/src/Unit/Feeds/Item/DynamicItemTest.php	c6924ad8def0ee85bf7a1955c4f8ac38
+A	tests/src/Unit/Feeds/Item/ItemTestBase.php	d61fda47f24f1a49b0d1e1b9c3c055b6
+A	tests/src/Unit/Feeds/Parser/CsvParserTest.php	b01bec2cc09f663be4a80a9da0e72dff
+A	tests/src/Unit/Feeds/Parser/Form/CsvParserFeedFormTest.php	ea961f64a02c56bbff694324c3af6338
+A	tests/src/Unit/Feeds/Parser/Form/CsvParserFormTest.php	0af059d815e2d852c8c847145ca7c9b9
+A	tests/src/Unit/Feeds/Parser/OpmlParserTest.php	22a3e07e5843c0dc1150ab3ae2315412
+A	tests/src/Unit/Feeds/Parser/SitemapParserTest.php	e7597f5fd7a1c9bd2e1d2aebad51860a
+A	tests/src/Unit/Feeds/Parser/SyndicationParserTest.php	66fa473efbb68bb8221b6d3f028c8265
+A	tests/src/Unit/Feeds/Target/BooleanTest.php	270e8b93dab43d36ba27d8e2bc18e327
+A	tests/src/Unit/Feeds/Target/DateRangeTest.php	5c47505ae7859d75b4e6708f915212e4
+A	tests/src/Unit/Feeds/Target/DateTimeTest.php	b794206d97b66238a25ade67271290b6
+A	tests/src/Unit/Feeds/Target/EmailTest.php	1a1f32b26e5f16536461caaa87535cbd
+A	tests/src/Unit/Feeds/Target/EntityReferenceTest.php	ea8b52dd8ab66b8cef9186732728f46c
+A	tests/src/Unit/Feeds/Target/FileTest.php	8083e08321fbc1e9614ea010c4a459c2
+A	tests/src/Unit/Feeds/Target/IntegerTest.php	763d589157cd38181b531daa6fc8b251
+A	tests/src/Unit/Feeds/Target/LinkTest.php	c624e120ffd05656a6e9ff690e5495a1
+A	tests/src/Unit/Feeds/Target/NumberTest.php	b8450e52ac48be587a7857df91ad6e44
+A	tests/src/Unit/Feeds/Target/PathTest.php	9e2e6ca6956c797beac83ec26464b126
+A	tests/src/Unit/Feeds/Target/StringTargetTest.php	4b493da9e1fb8b3e19096cd908ac6cdc
+A	tests/src/Unit/Feeds/Target/TextTest.php	b004b007531f2854840895b26926ca1a
+A	tests/src/Unit/Feeds/Target/TimestampTest.php	9b4e4d0478069c1c6dc7c11b70beefd9
+A	tests/src/Unit/Feeds/Target/UriTest.php	41c2e34d3f14d304ac156d58832b4136
+A	tests/src/Unit/FeedsUnitTestCase.php	9b90e0b1ca527cf03e7de10a3f74c8fb
+A	tests/src/Unit/Plugin/QueueWorker/FeedQueueWorkerBaseTest.php	4c066638fc609b88d9e4be519046fa24
+A	tests/src/Unit/Plugin/QueueWorker/FeedRefreshTest.php	0956bec70daedf92782bdaf9f83c77f1
+A	tests/src/Unit/Result/FetcherResultTest.php	841a0962e1377463ed1ae4972216e765
+A	tests/src/Unit/Result/ParserResultTest.php	1410709103b7773326d861f6ace10fce
+A	tests/src/Unit/Result/RawFetcherResultTest.php	66dfa3534c46e0bd3437139da9327cca
+A	tests/src/Unit/StateTest.php	4b1678dffc6929c6470c6b51be0324a4
+A	tests/src/Unit/TargetDefinitionTest.php	bfcb207c1e863ac3ec1a37a4b22e7d2c
+A	tests/src/Unit/Zend/Extension/Georss/EntryTest.php	fcbed0a21b1aaca1322587320cd4aa35
+D	views/feeds.views.inc	
+D	views/feeds.views_default.inc	
+D	views/feeds_views_handler_argument_importer_id.inc	
+D	views/feeds_views_handler_field_importer_name.inc	
+D	views/feeds_views_handler_field_log_message.inc	
+D	views/feeds_views_handler_field_severity.inc	
+D	views/feeds_views_handler_field_source.inc	
+D	views/feeds_views_handler_filter_severity.inc	

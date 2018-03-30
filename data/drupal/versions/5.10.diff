@@ -1,0 +1,11 @@
+M	CHANGELOG.txt	0b5e5a526154c93b740bb3ceec2dc774
+M	includes/file.inc	37d0159dabc4663d4b77b45a489a77ae
+M	includes/form.inc	8bb0a2bbfa883c31cf6bbf574bba74d7
+M	includes/xmlrpc.inc	e80ea34b5126604405f55b23c6941f11
+M	misc/drupal.js	74dd386ea3c3b640ce582993a57b3e4f
+A	modules/blogapi/blogapi.install	541f0c719654ebe271bf3156218824c7
+M	modules/blogapi/blogapi.module	ceca2c9168c30e991e8d3c98f1308e6f
+M	modules/filter/filter.module	366e99e9c1fe95340ec51808622d0a0e
+M	modules/system/system.module	7bf7b94262a3065cd9175a4184344bb2
+M	modules/user/user.module	db57f91a6f578aaec8aa20e75072a8ad
+M	themes/engines/phptemplate/phptemplate.engine	b540b8d5469d8e3fa24bb89588a644be

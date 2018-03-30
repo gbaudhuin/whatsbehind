@@ -1,0 +1,16 @@
+M	CHANGELOG.txt	82abbc19f30144702216fe2607c21292
+M	database/database.pgsql	e5f0599e2ad8a92ebeda153b242667d8
+M	includes/common.inc	8248a60d181930a2077a51acfecc7bde
+M	includes/image.inc	ebf0c846aec03db33c7254463fc85318
+M	includes/menu.inc	c89fb6fe64bb14e2eed2e997f0aca50b
+M	includes/theme.inc	9d49d069b842d2eb500b4f761aff1edb
+M	includes/xmlrpc.inc	d39183c0f50a7e2c040b254f712ca39d
+M	includes/xmlrpcs.inc	2a48d8edd582e63cd73e59b387c658d6
+M	modules/blogapi.module	ad21c7ac1283990c4007ba462618ef62
+M	modules/book.module	50b3e098a0689d1192ada22a0ef7ff7a
+M	modules/comment.module	753b2218efb4a6aa77f22cff39633a19
+M	modules/filter.module	5b1f43c02e270d209f196591f7463fd0
+M	modules/forum.module	d99b9bc3e68d0ad43be74eb42f0fff40
+M	modules/node.module	93bd603c7d954271618d8ebc9df74d24
+M	modules/path.module	214289a47ff777cea14f619483bf95ff
+M	themes/chameleon/chameleon.theme	a8d9269722339389fb282999d9cdad7b

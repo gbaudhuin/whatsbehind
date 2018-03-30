@@ -1,0 +1,7 @@
+M	menu_trail_by_path.info	4c667d038ed89e38d42e2d75366dbd62
+M	menu_trail_by_path.module	69fb12f7645af7b767bae54d640bcc4a
+M	src/MenutrailbypathActivetrail.inc	0b54a0b4de3f934eee34a85356ff50b3
+M	src/MenutrailbypathBreadcrumb.inc	f964e11bb39f52785d845c85d2b56362
+M	src/MenutrailbypathMenuHelper.inc	1f595eab4d3708d52c4d3ab26bb9f1c7
+M	src/MenutrailbypathPathHelper.inc	531c508739a14a2a0f4c40f605b8e7c5
+A	src/MenutrailbypathUrlHelper.inc	df1646619e68433868376aee75690d49

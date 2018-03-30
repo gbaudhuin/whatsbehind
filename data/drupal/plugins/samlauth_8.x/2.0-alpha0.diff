@@ -1,0 +1,8 @@
+M	samlauth.info.yml	b0d840009f5fc22a57444b2b7a6cf4bd
+M	samlauth.module	8dfa0557c0b2143f282051eca0294e11
+M	samlauth.services.yml	3d3297df8971a4d47ed3bbdedb8e397c
+M	src/Controller/SamlController.php	9b5e4660cb54506bd4281dd68dfbbbf7
+A	src/EventSubscriber/SamlauthEventSubscriber.php	14a5ce4076d212e8826164c7404682f2
+M	src/Form/SamlauthConfigureForm.php	395641204c397f982458df7571557eab
+M	src/SamlService.php	389ee3cf8383df0b711ffd1fa6b5e74b
+D	src/SamlUserService.php	

@@ -1,0 +1,10 @@
+M	CHANGELOG.txt	daa59bae0788a783b1602c35cc2d241e
+M	tests/title.test	e92a8d9d5dbe7bc30e4cdeabde248c0c
+M	tests/title_test.info	cc501b5863b64967199fa5c7def2f761
+M	tests/title_test.module	904b2b8c570f23963a036dca94afda5e
+M	title.admin.inc	6c0c1c27860ba59c3915fedba6425469
+M	title.core.inc	c4a68b4cdb5dd307a1b763a691e18a16
+A	title.field.inc	7ca35a8224a2f53022e28d6981f25af6
+M	title.info	33ace45d7976ff25bec848223ebc8c78
+M	title.install	4b0c4bc6b14f94f250e44aaed111471c
+M	title.module	fd0dbb4d4953a6230fcfd87f2ebbabc9

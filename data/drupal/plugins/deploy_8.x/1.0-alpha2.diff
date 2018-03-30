@@ -1,0 +1,12 @@
+M	.travis.yml	7e1d66da2e4a8ecaa923d52f7b05c84a
+M	.travis/drupal.make.yml	324ecc15c436731b74493baac3d3feb9
+M	deploy.info.yml	4f67e2822f2141bd68f4da4b0d307605
+M	deploy.links.menu.yml	c0b52004d4a77dac83073d91c0e10619
+A	deploy.links.task.yml	088596437247d68dc372a63b4ff9aa2e
+M	deploy.routing.yml	4db65d0f23afe7db758fb458dedddb52
+M	deploy.services.yml	51d27ce5764c5fb566051c4f50efd13c
+M	src/Deploy.php	e59a4d6d38270ea3ff279a17149e57d0
+M	src/DeployInterface.php	079979eb9e8cfff6b8c610e3255f9297
+M	src/Form/PushForm.php	81fd9d18972d44a0d249084ed0be83e0
+M	src/Tests/DeployTest.php	9687b7430f70e2c0e6157c5af9e370a9
+A	tests/src/Unit/DeployUnitTest.php	2a1be1c83203ebc532f3c9034677e35e

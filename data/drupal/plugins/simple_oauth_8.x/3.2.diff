@@ -1,0 +1,4 @@
+M	simple_oauth.info.yml	72e442dbb6a25fbe2676a1102120d24d
+M	simple_oauth_extras/simple_oauth_extras.info.yml	251ac7ba67ee4af43ec0882b3f97902f
+M	simple_oauth_extras/tests/simple_oauth_extras_test/simple_oauth_extras_test.info.yml	e16d2eb43e678e360109df356bcd148e
+M	src/Service/Filesystem/Filesystem.php	cc498073e86d6c83a3d6ebd99fc4ded6

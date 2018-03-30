@@ -1,0 +1,5 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	allowed_formats.info.yml	2205f8ca32cb8f26015b7adc856e049c
+A	allowed_formats.module	2a62bdd810b5ef6b5df633285a2c4ceb
+A	config/schema/allowed_formats.schema.yml	9843cb2d9db7d6cb69963aefd0696e85
+A	src/Tests/AllowedFormatsTest.php	bedbc24e5ffc4d3a56c279ff20e1315a

@@ -1,0 +1,11 @@
+M	CHANGELOG.txt	cfcead73c866418a6f194ad8e7bbda80
+A	README.txt	164f49041fe4330088432dcbed0bfad4
+M	handlers/associated/core.inc	757f4315ab85f60f62c385ea40c687c0
+M	handlers/associated/views.inc	4a3ffe6ed6e90434e3fc6330203b3ac8
+M	handlers/breadcrumb/core.inc	5faae34b5c72f141d6618d0a1813c241
+A	handlers/breadcrumb/ignore.inc	b8bedd1dcdf96fe633c428d543d72c5b
+M	plugins/content_types/term_context/term_page_display.inc	d87c01bc472b43869188d33c2d58725d
+M	taxonomy_display.admin.inc	88c51858dcebf785c2673c0550ea0ec3
+M	taxonomy_display.info	5d0d1275aca79c57aa40453367f8bde0
+M	taxonomy_display.install	c9763b7117b12a88c0ba1e66b9d7ac87
+M	taxonomy_display.module	c63d66214e88e56bb0196e1b2d1640a1

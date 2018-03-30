@@ -1,0 +1,11 @@
+M	cas.admin.inc	e4ba7c0551f6d7c052a01068a0ffc673
+A	cas.batch.inc	510fb4fcb5959b397a4940c8b7c9f045
+M	cas.info	2c3c983b3dfba541c4eddbdb9e48bf23
+M	cas.install	4077999f3d7e47a63f0dea3bf9185980
+M	cas.module	6189f036c640d58535a483155d9d10da
+M	cas.test	a11436396ff3bae6a7819a58f3915cf5
+M	cas.user.inc	a03aacc00aab821a41d9387d0514a845
+M	cas_server.info	25fe78db16fd5f6ee528cff2ad18daf7
+M	cas_server.install	c32c7b2cb975900cebc3334451e00e99
+M	tests/cas_test.info	5f8d04a997c71fe6095c81ca4bcefba2
+M	tests/cas_test.module	a98aa68351f10079fd001a642fc15a96

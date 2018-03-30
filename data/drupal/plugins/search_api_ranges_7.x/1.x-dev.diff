@@ -1,0 +1,9 @@
+M	README.txt	dec23480b8bb4517628f5594fd2c2138
+M	includes/callback_search_api_ranges.inc	72f48e5fbd7e0a15ace07f61b733f7e8
+M	plugins/facetapi/widget_links.inc	db51434136ef245c82a1b7a4c873d97b
+M	plugins/facetapi/widget_select.inc	7c5126dbef2f8aaf87560fb8118878b6
+M	plugins/facetapi/widget_slider.inc	1729ccd6483322e915b29de1fb7fbe7d
+M	search-api-ranges-block-slider-view-form.tpl.php	a33a1bf65bd8a4e7e4cfc1402c44ed59
+M	search_api_ranges.info	92600e21919f785d65e5dfc801388155
+M	search_api_ranges.js	eeacfd2fc92e15c2c872a68b3a2d6670
+M	search_api_ranges.module	7f395467f465c9beb9cb992aef975572

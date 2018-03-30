@@ -1,0 +1,17 @@
+M	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+M	README.txt	55c4123767b94834b476af809fe5efc9
+A	site-map.tpl.php	d845ea0600f1b3f2d42dc254eb8073e7
+M	site_map.admin.inc	2acfb15c0cd7c7cf13759aa6b3f104e7
+M	site_map.css	1c3e9a029da4f0cabe376df90a799a9b
+M	site_map.info	d7d04fb6a6050f8bbea227f2c6e06cda
+M	site_map.install	8fa066757e9356f6145d65e0798153ef
+M	site_map.module	8f2cb88dbfccdaf00a27ae9d67c0a505
+A	site_map.theme.inc	c66e68a13c2f965f398aa105fde3f6e0
+A	translations/ca.po	f92ea291523a7337466a893a8f6817ea
+A	translations/de.po	5c44acce920d54e6c85e59797f20e37a
+A	translations/es.po	e0e67c69dd2f9aedb31e79c705b90902
+A	translations/fr.po	b3824c9645b06386cee7564826c63e78
+A	translations/it.po	3779ba33427b763d946eea2f1057e4f4
+A	translations/ru.po	8466f1720738c153fbddebdaa931f944
+A	translations/site_map.pot	5eb7dfc8aea8bf7122eac66cc6a0b85a
+A	translations/sk.po	90c2ce1e3bd935fca626f212644132a5

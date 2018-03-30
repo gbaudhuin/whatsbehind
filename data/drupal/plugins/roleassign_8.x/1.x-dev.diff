@@ -1,0 +1,9 @@
+M	CHANGELOG.txt	06a8f43f5bbe1d422195fabf3aab59cc
+M	README.txt	08e8da3062caabc8ea209e1ad9e1b4e9
+M	roleassign.info.yml	57255ffe79d40605f053093d7209cde9
+M	roleassign.module	b305b26b6dcfe55a5d34f39042f6c2f9
+M	src/Form/RoleAssignAdminForm.php	000ac32ca26c596a8890b6d5b24cbb6c
+M	src/Plugin/views/field/RoleAssignUserBulkForm.php	f91c6626d6a236b5565cee2d5ccaa4f9
+M	src/ProxyClass/RoleAssignUninstallValidator.php	292a29bb224d3e223e66dba4c329ce74
+M	src/RoleAssignUninstallValidator.php	18f262fd5fe5546df2062f20624b9010
+M	src/Tests/RoleAssignPermissionTest.php	fae516ae06f2b919d457e8f50f1b8afa

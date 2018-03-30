@@ -1,0 +1,4 @@
+M	config/schema/focal_point.schema.yml	bf6b46c19184f1dd8b38565dd9a6d2eb
+M	focal_point.info.yml	f018b1ecc128e819bff526766af211eb
+M	js/focal_point.js	6c08e285ceb5249423fa456870e7b392
+M	src/Plugin/Field/FieldWidget/FocalPointImageWidget.php	e0dd0fc50b4d1af04c2ab8d868f9c750

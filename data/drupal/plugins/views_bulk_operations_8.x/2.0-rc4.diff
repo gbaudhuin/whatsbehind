@@ -1,0 +1,10 @@
+M	composer.json	5d7dabe5190db0bdc236c64f51c77ed2
+A	drush.services.yml	9cd27351f428375460266a5ee5e9fa22
+M	js/frontUi.js	c6e6b1633837631ca83652565697c392
+M	modules/actions_permissions/actions_permissions.info.yml	1fa27340e6035c22a533db62181de3a0
+M	modules/views_bulk_operations_example/views_bulk_operations_example.info.yml	e937f429ec278ce1da0f015d68c87418
+A	src/Commands/ViewsBulkOperationsCommands.php	42eb01765fdbd205bc124f0c26e4676a
+M	src/Plugin/views/field/ViewsBulkOperationsBulkForm.php	b856943e6bfa1b4dd42ca97915ba04a6
+M	src/Service/ViewsBulkOperationsActionProcessor.php	bb18b2d55129e07a970aa80bb524ad13
+M	tests/views_bulk_operations_test/views_bulk_operations_test.info.yml	5724f65f6f9de5a9e660c5aae1435fc5
+M	views_bulk_operations.info.yml	82268588b3fcb2848f03da7fc7864bca

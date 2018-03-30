@@ -1,0 +1,12 @@
+A	.travis.yml	b7c4dc5d392797f9a8860525312d7115
+A	CHANGELOG.txt	1aca4462a2de3b678b1e692c4434b6cf
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	readme.md	65b0bf552fdd4995d5dec3fc750d589b
+A	test/casperjs/test1.js	5f2e53887e5170c2bb35ad14c5ca4093
+A	test/ci/drupal_setup.sh	e74850f769bc257c7b34d603bba7901f
+A	test/ci/run_build.sh	677da3bdd8fbd16d4b8917a9fe0f6f89
+M	views_load_more.info	912360b5d6abdce15559deda2b993b41
+M	views_load_more.js	e89e5f60842262b41ad6ed6cdba85291
+M	views_load_more.module	8d4244685383eb9d7eeec4107f7bb17e
+M	views_load_more.views.inc	63de4942279f286ab2b70a9f090c2b89
+M	views_plugin_pager_load_more.inc	df53f2021bf9ed5563aca45e0a39b75d

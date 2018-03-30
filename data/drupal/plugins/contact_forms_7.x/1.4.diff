@@ -1,0 +1,9 @@
+M	README.txt	32ebee288e5223058937e59fb10b9b0a
+M	contact_forms.info	633e9acef6bf4435f1ff5259ff0c0674
+M	contact_forms.module	b860caa0f9a8b6f5ee4773b5fd9063cd
+A	contact_forms.pot	f7151b495241ea94c3ce0ebd2d8b933f
+A	contact_forms_int/README.txt	fa59deef864d3bca75bd6754a99e583e
+A	contact_forms_int/contact_forms_int.info	c7f909e9dc8ad8016d62da6cb53aeb2d
+A	contact_forms_int/contact_forms_int.install	1822e3efad785c7dfa8ef882b4029944
+A	contact_forms_int/contact_forms_int.module	4a46562fabc7b9ed91ff4d0e63277d5b
+A	contact_forms_int/contact_forms_int.pot	47122f5b690f702b247f93d16836f55e

@@ -1,0 +1,7 @@
+M	js/module_filter.modules.js	1afc4d89ba23d40180bfbe0915ce2406
+M	module_filter.info.yml	f69043fa8397ec5b60f6038b6b82f41c
+M	module_filter.install	7a664736c974db64e65883354843231f
+A	module_filter.links.menu.yml	bc8bc47c32665c232e98727ede1ba2f8
+M	module_filter.module	37a7b67af76fbd465e2446a696188891
+M	src/Form/ModuleFilterSettingsForm.php	1be6b98ef70db98289df1e714fee9df1
+M	src/Form/ModuleFilterUpdateStatusForm.php	600d831a1aa5a88543cb73a940851560

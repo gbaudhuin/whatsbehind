@@ -1,0 +1,28 @@
+M	README.txt	350357d95411166ee2ae995e4b47d923
+M	captcha.admin.inc	6151ff4d8d5270f9ca8950918c5ca9fa
+M	captcha.info	a36a0decbb9215118fa5261d6ea2e1a3
+M	captcha.install	00f0e6db484afe63deab2a4da42b7a6e
+M	captcha.module	f0adfa430a688c4b0c0d32387dee3ca5
+A	captcha.pages.inc	354f25e035b274c2216dea45f4331454
+M	image_captcha/image_captcha.admin.inc	0bbcc37db26381acb81c6bb58ca45432
+M	image_captcha/image_captcha.info	614b1aecf3ec9e25c21fa36ba290d8b5
+M	image_captcha/image_captcha.install	bd7d69069267174fe6a767b6f07c3314
+M	image_captcha/image_captcha.module	6d6fad29fa71cb5529860cd5483fb0c0
+M	image_captcha/image_captcha.user.inc	6463de269b0c38d8f4335cc02291ec8e
+A	po/it.po	4ba10e085a5ae94ae294a7c83bc6e880
+A	tests/captcha.admin.test	68758a9bb08b1d1476630ab81aa32ad2
+A	tests/captcha.pages.test	13dd1fd23548f922fb356124b065c654
+D	text_captcha/text_captcha.admin.inc	
+D	text_captcha/text_captcha.info	
+D	text_captcha/text_captcha.install	
+D	text_captcha/text_captcha.module	
+D	text_captcha/text_captcha.user.inc	
+M	translations/captcha-module.pot	ee6f07b93b87278003a4c16016257cb9
+D	translations/cs.po	
+D	translations/de.po	
+D	translations/el.po	
+A	translations/it.po	4ba10e085a5ae94ae294a7c83bc6e880
+D	translations/nb.po	
+D	translations/nl.po	
+A	translations/pl.po	9229e91bd7aa0185fa186298bba8a418
+D	translations/ru.po	

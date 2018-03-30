@@ -1,0 +1,15 @@
+M	wp-admin/import/wordpress.php	16d9a8eca75e7672b2b3a2e17e726899
+M	wp-admin/link-import.php	9f1a34eba6858e737ee25fd3e5c67544
+M	wp-admin/link-manager.php	2d34757f81db420b8e4f95ab3c65463e
+M	wp-admin/upgrade-functions.php	d43fe5f2612fef742a4fa730d1c6e82e
+M	wp-admin/widgets.php	6215cd676d96751d4a419687a418d501
+M	wp-blog-header.php	f100680628473729525ddbf446def7c7
+M	wp-content/plugins/akismet/akismet.php	bfc5b8a4d44464341e96352269b00e5b
+M	wp-includes/default-filters.php	61e9ea8bc4f30293518be9f09cac7c05
+M	wp-includes/functions.php	12401da307e2410fc59d6f781be9bdbc
+M	wp-includes/general-template.php	a928b406fcc678c83bae850a554d24e2
+M	wp-includes/pluggable.php	64aceecdf4adfae20679130ff656d0c6
+M	wp-includes/post.php	9bf5f493e0e1287720abc69495d0d632
+M	wp-includes/version.php	ad5f876fc3dbeaf3e1f9ca0c5d4b9303
+M	wp-includes/widgets.php	d4b1fdf47986c05f40c3a6b32e1b370b
+M	xmlrpc.php	bbb941b27796b251ea0226cc60af4b5f

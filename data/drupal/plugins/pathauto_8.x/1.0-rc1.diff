@@ -1,0 +1,15 @@
+M	pathauto.info.yml	92eb7e6064314b75ce30c3339aaca4c8
+M	pathauto.module	f213114af6e811cea749406b43789d40
+M	src/AliasStorageHelper.php	97eb420ab518f115d4956011f8fcdfaa
+M	src/AliasTypeBatchUpdateInterface.php	d11f54b9377a816cfe6def126ab579f2
+M	src/Form/PathautoAdminDelete.php	367fc563cc05e48e86b258cdfdd7e314
+M	src/PathautoGenerator.php	e4af36d547a5c4330a472996b513e18e
+M	src/PathautoWidget.php	9b25e86b48b26c3f0b7ae14bdb9e2cdf
+M	src/Plugin/pathauto/AliasType/EntityAliasTypeBase.php	81c9de419ae37b6dcf5fb4a3bab1f88a
+M	src/Plugin/pathauto/AliasType/ForumAliasType.php	cf25c4858370619ba69b999cdb81b2eb
+M	src/Tests/PathautoBulkUpdateTest.php	dd6cadb66d65d8ac008d3c8c50434e4d
+M	src/Tests/PathautoMassDeleteTest.php	9a9504677ba56d0bfac7b415f2dde72d
+M	src/Tests/PathautoNodeWebTest.php	c2ffa710d6e903b81a09959e9f8d92fb
+M	src/Tests/PathautoTestHelperTrait.php	fed524e7f161af957e42f9b1f995c692
+M	tests/modules/pathauto_views_test/pathauto_views_test.info.yml	5844de47fff431c9ceb7bac8f266db93
+M	tests/src/Kernel/PathautoKernelTest.php	12230ccd6e0c5ce8ab06daef676f4438

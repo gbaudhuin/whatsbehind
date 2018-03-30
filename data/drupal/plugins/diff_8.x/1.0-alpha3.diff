@@ -1,0 +1,27 @@
+D	config/install/diff.plugins.yml	
+M	config/install/diff.settings.yml	fa814ac6037d7727e75f6a6fea5b5f83
+M	config/schema/diff.schema.yml	d2b7c89776fe3b7dfd04c04e2996c61d
+M	diff.info.yml	71fdce604ddf4aa705527d7c2871ed38
+A	diff.install	6ce5a7765df5c6b73edd456431939856
+M	diff.links.task.yml	dbbc8e5a18b5f333e713b9158595fdee
+M	diff.module	a1247d65c812e0b32853bbbb6fe36264
+M	diff.routing.yml	f12b3c615955f69748dbf61bc9efe50e
+M	diff.services.yml	a348c4309bccbc914d91feffd5e2735b
+A	src/Controller/GenericRevisionController.php	d9e2e7fb4657b77cdba3e334a6d5049c
+M	src/Controller/NodeRevisionController.php	df630f0bca1d09823365331a78547d7f
+M	src/DiffBuilderManager.php	350bad8dbadc6a51028981954f9a22ae
+M	src/DiffEntityParser.php	f41527fc3f3d64d79e469c9900e9d697
+M	src/EntityComparisonBase.php	3e2509b2d4c2f3a58f6f07c769240dd8
+M	src/FieldDiffBuilderBase.php	ec831a90a16c6a63335205a385c968aa
+D	src/Form/FieldTypesSettingsForm.php	
+A	src/Form/FieldsSettingsForm.php	edd8b7c0544d3db48a9909697728d64b
+D	src/Form/NodeEntitySettingsForm.php	
+M	src/Form/RevisionOverviewForm.php	b0c3ed0ee6a27e999e24c1fd72a79c77
+A	src/Routing/DiffRouteProvider.php	107c642417b42fcb06801a0e08f472e7
+M	src/Tests/AdminFormsTest.php	fb568cf8109a17844c0d5b2ae333b9ef
+M	src/Tests/DiffLocaleTest.php	b556f2783cbec51c98ace85c63b26116
+M	src/Tests/DiffPluginTest.php	ac76c4737c695949bc4db65697ef1e93
+M	src/Tests/DiffRevisionTest.php	deb6e930165eaeaa10d23dac0f1f2e0e
+M	tests/modules/diff_test/diff_test.info.yml	22fefc6993032969aacc9f4ee1041bbb
+M	tests/modules/diff_test/diff_test.module	d08fee3d9b7363a54024217c73643fa5
+A	tests/src/Kernel/DiffControllerTest.php	bd3b25a0c32006af3d8e6aafe1f8f7ae

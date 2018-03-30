@@ -1,0 +1,16 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	cck.info	b22e88f7ae79cfa1f9e014a3cc4358bc
+A	cck.install	ece8e2b7a021505b0b50cb7578f6512b
+A	cck.module	9c415b154a8cbbed9e6ea3518472fb89
+A	modules/content_migrate/content_migrate.api.php	9ba1ff7bc1ef0ad1abe611584e96fde6
+A	modules/content_migrate/content_migrate.info	465868b1d5bdb114720a099817a3729f
+A	modules/content_migrate/content_migrate.install	33986e017c7428215ad86e2dc9f97175
+A	modules/content_migrate/content_migrate.module	54f786693e0060536381ae38592516c6
+A	modules/content_migrate/includes/content_migrate.admin.inc	20010071d2fe03ffe39f9045202c5da9
+A	modules/content_migrate/includes/content_migrate.drush.inc	db4cbc2c0c4c9e64a66bcc58a5948319
+A	modules/content_migrate/includes/content_migrate.values.inc	ee3d6c1246a0a378830b23e967e5e45e
+A	modules/content_migrate/modules/content_migrate.filefield.inc	062bbf1f076f89e8a35612af1ace7cc6
+A	modules/content_migrate/modules/content_migrate.number.inc	52dbfb9bc653fbc41b0076edcc03b7fc
+A	modules/content_migrate/modules/content_migrate.optionwidgets.inc	a6017be07e36ec988ca8b0336f88dbb1
+A	modules/content_migrate/modules/content_migrate.text.inc	1aa3272987b12b28afcb984f09bf089b
+A	modules/content_migrate/tests/content_migrate.test	05c7d47664671cf85324a9ab5c79afbd

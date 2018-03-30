@@ -1,0 +1,43 @@
+M	config/install/search_autocomplete.autocompletion_configuration.search_block.yml	dc5d0a0571543936eb20758d0f02b2d1
+A	config/install/search_autocomplete.autocompletion_configuration.search_form_content.yml	99d88db879e85fe68c8b78cbe907d181
+A	config/install/search_autocomplete.autocompletion_configuration.search_form_users.yml	53d6442555bd25734dc828674b2207ef
+D	config/install/views.view.nodes_autocomplete_callback.yml	
+A	config/optional/views.view.autocompletion_callbacks_nodes.yml	fa4d60f0eae06b60dcb0fe9323229341
+A	config/optional/views.view.autocompletion_callbacks_users.yml	3944598abf9d86e22d269d6be77298c9
+A	config/optional/views.view.autocompletion_callbacks_words.yml	ca023d8a474a1cf5ff092aeeb28c626e
+M	config/schema/search_autocomplete.schema.yml	71eec93ce576d7d50b4bce1df91f31d1
+A	config/schema/search_autocomplete.views.schema.yml	fb79a8942d4c7484362713c024505027
+A	css/admin_helpers/input.png	d4b3432f37345748301fc0693335f24b
+A	css/admin_helpers/search_autocomplete.admin.css	40ea0ece1b25e94636b02e13f328e9e2
+M	css/themes/MAKE YOUR THEME.css_	623d9ec26163db7713119d4ca31fee57
+M	css/themes/basic-blue.css	a2b63fb6502c149a3f29cedfc0265417
+M	css/themes/minimal.css	668c849b072338768697d184bfddb46b
+M	js/jquery.autocomplete.js	066f70d6754f8c20a5686ef0a7b8fcf2
+A	js/search_autocomplete.admin.js	10cbaf53e516867d4cdea4b6ef1b0c71
+M	search_autocomplete.info.yml	3335aef66032269e6c4a944ad904d2a4
+A	search_autocomplete.libraries.yml	8126a0bc1893bf7be2c155b4f0deecd5
+M	search_autocomplete.module	0eb511fb429f6afe80f1439d9fcd4777
+M	src/AutocompletionConfigurationAccessControlHandler.php	0606e3e3c9970bff9681b76de0714a6a
+M	src/AutocompletionConfigurationInterface.php	99ac9e1c08a1b85cdfe2c3fa9bb68879
+M	src/Controller/AutocompletionConfigurationListBuilder.php	06cb74dbd91f86b22cefc57c396e1ad3
+M	src/Entity/AutocompletionConfiguration.php	e31b61144d6815c40f30c12577f9cee4
+M	src/Form/AutocompletionConfigurationAddForm.php	a049aab66075dfa8819a1b518ff9c979
+M	src/Form/AutocompletionConfigurationDeleteForm.php	09de80104021763459d4c75dad171e36
+M	src/Form/AutocompletionConfigurationEditForm.php	759807d0480f8a1a1599584caf566f74
+M	src/Form/AutocompletionConfigurationFormBase.php	4b1290c449ba7defbfe67b4d9ad9462a
+M	src/Plugin/views/display/AutocompletionCallback.php	9f479e8c4925e8af6029a94bcc124142
+A	src/Plugin/views/row/CallbackFieldRow.php	bebc025c16a05cdd1c9d925e401cfe92
+D	src/Plugin/views/row/DataEntityRow.php	
+D	src/Plugin/views/row/DataFieldRow.php	
+A	src/Plugin/views/style/CallbackSerializer.php	5ba9dd50b618c822bcb787ac88947f93
+D	src/Plugin/views/style/Serializer.php	
+D	src/Tests/Entity/BasicCRUDConfigEntityTest.php	
+A	src/Tests/Entity/BasicCRUDConfigTest.php	ff992159bc2432a20501561e95d53410
+D	src/Tests/Entity/DefaultConfigEntityTest.php	
+A	src/Tests/Entity/DefaultConfigTest.php	92110a203385971df7151ff1309cba5d
+A	src/Tests/Entity/EditableDeletableConfigTest.php	0b6cea031764534408e2fa10cb4012f3
+A	src/Tests/Entity/NoSelectorConfigTest.php	693d2334542d5d83eab2699a57d11db2
+A	src/Tests/Entity/UnicityConfigTest.php	2274d93a0c9f7c5409f04987e7d60152
+M	src/Tests/InstallTest.php	acd87a9915bddd6932a742cbb07d194d
+M	src/Tests/SettingsTest.php	bb33c7f19de31a31823e660221f51991
+A	src/Tests/Views/CallbackViewsTest.php	66f1514fc53170583eb75b0636eadc3d

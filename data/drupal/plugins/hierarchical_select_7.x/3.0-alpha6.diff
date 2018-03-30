@@ -1,0 +1,15 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	hierarchical_select.features.inc	9686ada8da018eeff72719e57618f5ce
+M	hierarchical_select.info	5f5a2de7563aff36ce7ddb5331cfaf9a
+M	hierarchical_select.js	a5f675633e5f262cc90d383bc9621ca2
+M	hierarchical_select.module	36d4b318cc5225a1a6172ad32ce270e1
+M	includes/theme.inc	b53a707d62684f421abad0136f3e0609
+M	modules/hs_flatlist.info	8e23ab0e817d4bef5abfeb6df0073b69
+M	modules/hs_menu.info	ac02f88c8b460fa2bff70c93538aaf83
+M	modules/hs_menu.module	031abdc771f6b2401a06bf4efc4ef6a4
+M	modules/hs_smallhierarchy.info	cb2588d05c8f2f50d98114187838702f
+M	modules/hs_taxonomy.info	318061b122442f69fc47900a90b305f4
+M	modules/hs_taxonomy.install	859b6faade2708b1a3a4091885eb043c
+M	modules/hs_taxonomy.module	4d5ca6f57d8c2990ef131ba39e8aef37
+M	modules/hs_taxonomy_views.info	49fae3ea67203c3dbf6ac1ae059b9039
+M	modules/hs_taxonomy_views.module	03a3cfeedc9ab6ef68960e00a4faed39

@@ -1,0 +1,17 @@
+A	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+A	README.txt	ba52abf8cce5a0857e5a6b2317a72053
+A	includes/jcarousel.views.inc	946ce1a67fac7147e6241e8e210e8036
+A	includes/jcarousel_style_plugin.inc	94b8cea0d2f94c874d208d7cfa16eeeb
+A	jcarousel-view.tpl.php	6abbfcfb064c396c8474fc8ae81af983
+A	jcarousel.info	b213a11f3f934bf1f8732bba597e2c22
+A	jcarousel.module	cd5b831b5e5a2c06966c8e8364350272
+A	js/jcarousel.js	b05bcbba0401826c5b1b6afa58baea27
+A	js/jquery.jcarousel.js	91c234e9763d56fef9a43b064feeebba
+A	js/jquery.jcarousel.min.js	c2703824c8d68c14aa5cecc6d9e1a95c
+A	skins/default/arrows.png	8ada4dbd64130e4c26a32923f2dce24b
+A	skins/default/arrows.svg	4b2cf163101a78569b7fdcfedebe93a7
+A	skins/default/jcarousel-default.css	6f5ac14022d6e7d44af39f36e204eeb0
+A	skins/default/throbber.gif	7b9776076d5fceef4993b55c9383dedd
+A	skins/tango/arrows.png	41f6f2c8be670eb3a6e017f8e23d4454
+A	skins/tango/jcarousel-tango.css	7524967911dc63ed689e2adff5b5912a
+A	skins/tango/throbber.gif	7b9776076d5fceef4993b55c9383dedd

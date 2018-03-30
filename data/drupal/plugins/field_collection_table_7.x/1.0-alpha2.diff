@@ -1,0 +1,5 @@
+M	field_collection_table.info	b4c2390beb0b066e00102d6b418371f3
+A	field_collection_table.install	d7d8071bd59d3a8bbfce1742334365ae
+M	field_collection_table.module	f9399fce6d347969e2dcffc9c250eb47
+A	includes/field_collection_table.admin.inc	bc4fbb741a29b94d5a22d9e50ff9a24a
+A	theme/theme.inc	a7cb6e81c7026d0ba9680966b5d4a147

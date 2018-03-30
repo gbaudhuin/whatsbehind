@@ -1,0 +1,14 @@
+M	imagefield.info	23502c7adfa066d085ad9945973aa497
+M	imagefield.install	d3953554bbd1fd486b40f2584689d6a8
+M	imagefield.module	902af380c19d1880fccdd1fa7e96f7bd
+M	imagefield_file.inc	d0120c2508c7dddc13b1c63a1f55e717
+M	imagefield_widget.inc	fc20291e27e08ffee681e3a3f2d67015
+M	tests/imagefield.test	7f31ef70ec4e5d41c8baa72fafc0009e
+M	translations/de.po	10157390b97d4c3e9bb5128aa62ec87a
+A	translations/hu.po	8d2363eda031d4cfefbc19136c673773
+M	translations/imagefield.pot	009a19be1861803bc723e298e57ae1d5
+M	translations/ja.po	0ecaf73714073c7a7361426c9a71946a
+M	translations/nl.po	e9abee6b9332eaa0c2d790fee5c49bbf
+M	translations/sv.po	d8a3267758ffce5b6101ac380c1ab76e
+M	translations/uk-ua.po	b5ce5ffa2a958f57b6cd8cc1832c8d9d
+M	translations/uk.po	b5ce5ffa2a958f57b6cd8cc1832c8d9d

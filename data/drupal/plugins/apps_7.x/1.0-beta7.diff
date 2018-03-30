@@ -1,0 +1,12 @@
+M	README.txt	61effa8b8022c985953ca3474e7cb342
+M	apps.api.php	1cdd22012e58a86e3357535bdbe10e13
+M	apps.info	b5e00c584aa19d9ff88616687279ccaa
+A	apps.install	1cbfd5b159294c33f5c8c6e41496d950
+M	apps.installer.inc	d2d2adebcfeb72f81e77d170ce187522
+M	apps.manifest.inc	c31009ce7499df6c6d6f7ed8b4a2a46d
+M	apps.module	adc3b6e0a19d8e2ef318200ad1a50a68
+M	apps.pages.inc	2ee7b981cc7cc349be4f25a1c33b6086
+M	apps.profile.inc	9559ea5aea88c3f856ce2fbcca44ff1e
+M	apps.register.inc	a1a381d24455611d5aec60394fd61d04
+M	theme/apps-install-page.tpl.php	188bfdee2e48a4da33bec91a3dc88044
+M	theme/css/apps.css	ed3c9319cee34aab0962d93ed4fc2598

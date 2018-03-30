@@ -1,0 +1,9 @@
+M	CHANGELOG.txt	42fe92f314cdf557996f78a215721c61
+M	database/updates.inc	e9c6608742a8a7de5e43380ecc0403ac
+M	includes/common.inc	2a6dc9dcac4210495a955b5962f8d490
+M	includes/database.mysql.inc	de556d339a117ad713d6fb9e04c68bd7
+M	includes/database.pgsql.inc	989303c294111bbe84f52157889b2def
+M	includes/file.inc	7e15c1236109f0d8006dca7f95712494
+M	modules/aggregator.module	7c9514230d396b0a717702b3f2245e60
+M	modules/filter.module	8162c6fbf0af3470c2d068d251204c13
+M	modules/search.module	59a9564e20b042f3c5b14c7adee61d21

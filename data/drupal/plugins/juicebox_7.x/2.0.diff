@@ -1,0 +1,13 @@
+M	includes/JuiceboxGalleryDecorator.inc	d2a4ec119a8c30a64f0fc1773e3986f6
+M	includes/JuiceboxGalleryDrupal.inc	444db973a118e666771bb7f318b749cb
+M	includes/JuiceboxGalleryDrupalInterface.inc	622611f6c09124d869c64bab0a641b33
+A	includes/juicebox.admin.inc	3742945ffc92792c109b74ad71bf6f1d
+A	includes/juicebox.field.inc	020f65c91a5dee0acb605326e87e8d20
+D	juicebox.admin.inc	
+M	juicebox.api.php	20fbbbd1234644ff3deb486482ecda27
+D	juicebox.field.inc	
+M	juicebox.info	bc17af69e3b3960f127ea15db0d527dc
+M	juicebox.module	c553db4c65c81fa8295ed5c4e4c5fab7
+M	plugins/JuiceboxFormatterViewsStyle.inc	5d0bfcb0ffcd0500680d3c7f245b3101
+M	plugins/JuiceboxXmlField.inc	84b719033405b75f6cb551145e4866ba
+M	tests/views/juicebox_views_test.info	caa2639184ef7c72cdce83f844b7d1d3

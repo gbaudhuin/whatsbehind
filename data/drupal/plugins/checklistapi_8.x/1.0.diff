@@ -1,0 +1,15 @@
+M	checklistapi.api.php	bffdb663e2feab9ae6dc60486f9b9bfe
+M	checklistapi.drush.inc	490ec0896a5f09a0377549328e2a627e
+M	checklistapi.info.yml	43bbc9e751ea753ab934ef737c9d25a6
+M	checklistapi.module	422aed6c9974ef4851d191c8c6d1db5c
+M	checklistapiexample/checklistapiexample.info.yml	b317a1656f645d682780d64389f4e6a9
+M	checklistapiexample/checklistapiexample.module	785d30f6db95223e61c82aab5c92ef3e
+M	src/ChecklistapiChecklist.php	b30fcf187c40fd0506f387aef99b6e58
+M	src/ChecklistapiPermissions.php	816e088d23cc92b5539877f0aa55442a
+M	src/Controller/ChecklistapiController.php	4f266d1cae748fa8b3d7ef89f45f6402
+M	src/Form/ChecklistapiChecklistClearForm.php	473b646ea2d09eff7c920abf3d60c36d
+M	src/Form/ChecklistapiChecklistForm.php	bb578c63dd80abde57fb15d4c0542138
+M	src/Routing/ChecklistapiRouteSubscriber.php	40045f26ca8a8ce34bb16f0bdf4b3253
+M	src/Tests/ChecklistapiTest.php	5b3cb8e681bc27545690754eb696cc5b
+M	templates/checklistapi-progress-bar.html.twig	c6d0a9d6a7a7f418a86ac820fee9a56a
+M	tests/src/Unit/ChecklistapiModuleTest.php	97229ea127cf67a3dc65075d0b82a995

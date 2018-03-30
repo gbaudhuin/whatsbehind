@@ -1,0 +1,8 @@
+M	CHANGELOG.txt	3cedd331b876ec30980aa595964b647c
+M	includes/common.inc	7ba61a5b64d941c090adb724122a6f7c
+M	includes/form.inc	f64f9812fcc436203df6783ac312f158
+M	includes/mail.inc	96f53198d41152012a250edfae6549c0
+M	modules/openid/openid.install	be59b614bed0594a1523a53ba825b39b
+M	modules/openid/openid.module	b58678c2cb85788612b0146747cdc44f
+M	modules/system/system.install	2f65ae66fbeaf14fc632dbc37b5aefa4
+M	modules/system/system.module	bc7263340b83a7976b20db7d18779e25

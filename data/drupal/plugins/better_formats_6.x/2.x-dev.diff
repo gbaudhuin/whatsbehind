@@ -1,0 +1,11 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	README.txt	89190632cc96bddb9468feb32133a5be
+M	better-formats-defaults-admin-form.tpl.php	3151f8e01be0a066a49a0cb0ae172d47
+M	better_formats.info	2b6b6e60a11940da3ba449747bedfe18
+M	better_formats.install	d6309b932f1ab8c1ab2d3994128d2e93
+M	better_formats.module	595153685caa31826a04c1f18ae4fe38
+M	better_formats_defaults.admin.inc	e3224252f0a86d19e3c0be46e18a730e
+M	better_formats_node_type_form.js	86b78ab7bc40305a7f542dc0df6881be
+M	better_formats_settings.admin.inc	0a618f88529d14dbebcc1051dc8faa6b
+M	tests/better_formats_anonymous_user.test	a2e46762d9c2103658820ed711579413
+D	translations/uk.po	

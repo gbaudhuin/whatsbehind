@@ -1,0 +1,11 @@
+M	dropzonejs.info.yml	efcdc073020949ca9164732ecfce1a01
+M	dropzonejs.module	b2de881d745cddb1a29f2a26d84231d5
+M	modules/eb_widget/config/schema/dropzonejs_eb_widget.schema.yml	c7555701659084ec9e03778558614293
+M	modules/eb_widget/dropzonejs_eb_widget.info.yml	4a99d599a92828f8b55ccf79d0732581
+M	modules/eb_widget/dropzonejs_eb_widget.install	05e0b502e5d2595cc711dadbe19678f1
+M	modules/eb_widget/src/Plugin/EntityBrowser/Widget/DropzoneJsEbWidget.php	1672644d1f092907dba459ba87e2e847
+M	modules/eb_widget/src/Plugin/EntityBrowser/Widget/InlineEntityFormMediaWidget.php	3965ba21f01515dad066b95043c63153
+M	modules/eb_widget/src/Plugin/EntityBrowser/Widget/MediaEntityDropzoneJsEbWidget.php	52755ff841fdad5a92ee16303ba4f103
+M	src/Element/DropzoneJs.php	f34d9b2db36cda93229659b6ae464ed2
+M	src/Events/DropzoneMediaEntityCreateEvent.php	a88fc40bf5b5b7936754e5017e538a70
+M	tests/modules/dropzonejs_test/dropzonejs_test.info.yml	fd8a348763a569857ccacd06f7230aaa

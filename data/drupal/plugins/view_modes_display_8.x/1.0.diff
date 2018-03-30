@@ -1,0 +1,9 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	cedbbacfac8e0f225c7fa0ab1d262dc7
+A	composer.json	65e6614603baa1171fd1ace961007dd0
+A	src/Controller/DefaultController.php	6b5289d3a1e43fec1f339e9784f80203
+A	view_modes_display.info.yml	9e1156a62ad5061a3bde16dd60acab47
+A	view_modes_display.links.task.yml	867ca72ea88d6f269727ce27597b04f8
+A	view_modes_display.module	cb622b573217326d34897dd52d9f24ce
+A	view_modes_display.permissions.yml	b1d51064debea09d4a870ef0a7a24d0d
+A	view_modes_display.routing.yml	548d34eac9e43dd31f9b6941c91beb5c

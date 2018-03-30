@@ -1,0 +1,16 @@
+M	README.txt	7e20705821eeea8e1c7ad5e3c8b935e7
+M	flag.info	fad0eb39952c3cc6326a120dad41408e
+M	flag.module	d087ad22901ce8431d9413b39c3c4482
+M	flag.rules.inc	df4619b65c8b2ad6c5a54be4717f242e
+M	flag.tokens.inc	84a8d0bd9401528598b749a318bf5df2
+M	flag_actions.info	e8c692616c1922c1510c52adff77720f
+M	flag_bookmark/flag_bookmark.info	97877607203e3ae49332ee558c29b57c
+M	includes/flag/flag_entity.inc	8776743521ae40669b3832a7df296b39
+M	includes/flag/flag_flag.inc	e6c2534a8f38e79d1ac4fea27ea339ec
+M	includes/flag/flag_node.inc	7b78e2dc8892b95da7e6e3a17f0a0676
+M	plugins/access/flag_is_flagged/flag_is_flagged.inc	af29795a4662da99b30713c991357db5
+M	plugins/content_types/flag_link/flag_link.inc	8bf9b5a9ee3d4c5c6e4cd9a0188497b8
+M	tests/flag.test	a00799a0b17f037195c7ca6e45afb4dd
+A	tests/flag_hook_test/flag_hook_test.info	bda6b153bcfab4ebd306d55fecd3c1c5
+A	tests/flag_hook_test/flag_hook_test.module	0c6cf7d42c823a62a2b966c5d6f341b9
+M	tests/flagaccesstest/flagaccesstest.info	45f97315ea703c1b31319f3745a08ae6

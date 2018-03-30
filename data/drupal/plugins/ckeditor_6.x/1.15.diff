@@ -1,0 +1,10 @@
+M	CHANGELOG.txt	2b63c798a230b12b26810f84df7f66dd
+M	README.txt	73e15612aa9f0ef43f0f17adde9de7bd
+D	TROUBLESHOOTING.txt	
+M	ckeditor.api.php	5281a28a70f213394ba4958a48f7eacd
+M	ckeditor.info	a32b233546e57ba1129e4b4ea77e57be
+M	ckeditor.module	107b2ca6ca6bb4c3edc1ab36ab5656f2
+M	includes/ckeditor.admin.inc	e6add1dbef79eafd1588d0f5cc926374
+M	includes/ckeditor.page.inc	c970c3f2f7502c28d41a48e850ff2f48
+M	includes/ckeditor.utils.js	1e434e4974943736506731b67edc1e04
+M	plugins/mediaembed/plugin.js	9279b83c58a88bbf45bcdd3aaf732fa5

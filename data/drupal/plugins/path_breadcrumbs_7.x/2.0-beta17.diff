@@ -1,0 +1,7 @@
+M	path_breadcrumbs.info	1aa71741458768cac68d67edb36eab29
+M	path_breadcrumbs.install	fb83d53981315f4624cc85e99437bb0d
+M	path_breadcrumbs.module	bc56eee766b481fe7ed2a97ce378fd14
+D	path_breadcrumbs_fields/path_breadcrumbs_fields.info	
+D	path_breadcrumbs_fields/path_breadcrumbs_fields.module	
+M	path_breadcrumbs_ui/path_breadcrumbs_ui.info	61df565423eb6a06a01a8b2432237242
+M	path_breadcrumbs_ui/path_breadcrumbs_ui.module	eadd6de38f1fe0ff7bab42cafdcb0026

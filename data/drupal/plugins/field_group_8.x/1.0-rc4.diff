@@ -1,0 +1,7 @@
+M	contrib/field_group_migrate/field_group_migrate.info.yml	d34063e568626e83b519714c6bb643b1
+M	field_group.info.yml	5707b4140d16778536d4ea6a0e0d5ea3
+M	field_group.libraries.yml	1bed1ab3f77822ea9d47b4222c80ba3b
+M	field_group.module	75d5a341e3004c3d442f2d91151179a5
+M	src/Plugin/field_group/FieldGroupFormatter/Fieldset.php	ee1369c8e2c872cf86d6ff76b1637122
+M	src/Tests/FieldGroupTestTrait.php	1a3996b56c8bf9fa6e2917d25e9d61a2
+M	tests/modules/field_group_test/field_group_test.info.yml	df64e5a39c157a251f7afae47afc518d

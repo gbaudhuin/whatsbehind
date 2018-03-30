@@ -1,0 +1,8 @@
+M	CHANGELOG.txt	ff913ef74bb7451dbd956b5d41d28f32
+A	nodeaccess.admin.inc	f466d5902b7ac97e5f4e53ec80924cac
+A	nodeaccess.api.php	01d5c53b5c52e90d4d991eacdf9f89d3
+M	nodeaccess.info	6ed79b17d6a1517c7cd9daa49203ebde
+M	nodeaccess.module	f196fdd0a791342805094c9992b0fe07
+A	tests/nodeaccess_grant.test	0cb907057cd45bd1694738a359294737
+A	tests/nodeaccess_publish.test	7bafaf882c0189d0c2c418e805417b97
+A	tests/nodeaccess_role.test	53b3324e5f8f0ffce3e6fa3b9aac4f31

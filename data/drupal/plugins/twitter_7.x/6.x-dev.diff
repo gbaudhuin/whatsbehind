@@ -1,0 +1,17 @@
+M	CHANGELOG.txt	994d5e42eb31353b7029302f4ffe84a6
+M	README.txt	e406f242f798ff592fa64429971dd5d4
+M	tests/twitter_mock.info	cebe14c5610d89644a5c26252dd55fe9
+M	twitter.inc	64c6c50b7e36c61d20e4d1ffa628386b
+M	twitter.info	9c64fe7b2df2815549bec781f86d2c9f
+M	twitter.install	b5aa31c3cacca28509fe6bebaa398e2f
+M	twitter.lib.php	072eacabb37c14276907a4b56fc0a176
+M	twitter.module	09dd8ce6deb8d96cf578c1a6667b7ddd
+M	twitter.pages.inc	f2cf70f67de569321c4594623673524d
+M	twitter.views.inc	c639f60dd62c5bdbe9ad0aad6651b40e
+M	twitter_actions/twitter_actions.info	1e426efd1aaa1705732858f4331258e6
+M	twitter_last_tweet_field/twitter_last_tweet_field.info	443ca527b8d0189bed0c3f4e802ece5d
+M	twitter_post/twitter_post.field.inc	11ab08a901c9ef43c0394ada6d2b9de5
+M	twitter_post/twitter_post.info	c2e7e09b2a0fe18851e1e09fbd53ca3f
+M	twitter_post/twitter_post.module	c8f5eceacbb867f62ad0d25cb0e49d60
+M	twitter_signin/twitter_signin.info	8a5eae3dc0ff4ce7ece90c489770a229
+M	twitter_views_field_handlers.inc	e8d970aee09bbeb77633c6537a2d80b3

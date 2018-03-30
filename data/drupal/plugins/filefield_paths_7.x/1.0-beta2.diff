@@ -1,0 +1,10 @@
+A	CHANGELOG.txt	18b7cd8a968a3a49606fb884d764a164
+A	README.txt	84a773305e28ab931e140088fe477a73
+M	filefield_paths.info	5295ea861d931a782f617f1fb1b20397
+M	filefield_paths.module	c28f6306ff1bf6fa0ffa17524b74ea75
+M	modules/features.inc	6efb0609d87013d97fb15378fb25bd98
+M	modules/file.inc	48fd91c3d04f00282d1cfb404e3a2d28
+A	modules/filefield_paths.drush.inc	f9e428ee23fe3218d90f76bcbf96f579
+M	modules/filefield_paths.inc	5604c7583ccd9cac5afb59e5804626ed
+M	modules/image.inc	e365347471b039fa6a4ad3cdcf145f31
+A	modules/video.inc	5e29780dfc0dd382112c02cfc61a7543

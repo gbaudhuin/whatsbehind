@@ -1,0 +1,10 @@
+A	config/schema/media_entity_audio.schema.yml	4f0f7a69e8d67fb887a0717793425cf7
+A	images/icons/image.png	d14310fa77438402640f91fb6fee0ae5
+A	media_entity_audio.info.yml	9d8fc8d652e1d7504c544913dfb18643
+A	media_entity_audio.install	279d1e641b5c8687a8dcb882cb5e2085
+A	media_entity_audio.module	ecf93910053f84c150c23310de484bd3
+A	src/Plugin/EntityBrowser/Widget/Upload.php	54e24416e2ef15269ce4ac41705ea0fd
+A	src/Plugin/Field/FieldFormatter/AudioPlayerBase.php	028cbab3580797a4e0957db290792114
+A	src/Plugin/Field/FieldFormatter/AudioPlayerHTML5.php	203909987f305980076e5606099d4618
+A	src/Plugin/MediaEntity/Type/Audio.php	6e625ebb1cf49606a2a324c85eb1266f
+A	templates/media-file-formatter.html.twig	b88da1a8a9515e5097cab357ab9a1982

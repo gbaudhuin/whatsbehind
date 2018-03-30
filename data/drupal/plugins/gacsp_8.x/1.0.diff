@@ -1,0 +1,9 @@
+A	composer.json	cd6d29a8597e903c8f7d01605e079a75
+M	config/install/gacsp.settings.yml	f95a29d26508822ed0bc620902564b56
+M	config/schema/gacsp.schema.yml	439fe8655de57f481104408c98d25a02
+M	gacsp.info.yml	7c6ecfe400b09061815ebdc14819768c
+M	gacsp.install	994cfbe6f8269d3b698b59486a5816ac
+M	gacsp.services.yml	493f49e00f911b59cb30e76c4304044d
+M	readme.md	56c78793f0e5469dddb3cf3e367c3fd4
+M	src/EventSubscriber/DefaultCommandSubscriber.php	03e941189f13d869ff5a7f2ea7ee2667
+M	src/Form/AdminSettingsForm.php	acbe0b3c243df039845fb790b69f9a8e

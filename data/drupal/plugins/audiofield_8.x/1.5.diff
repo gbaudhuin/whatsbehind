@@ -1,0 +1,15 @@
+M	README.md	59384f05da2e9faf264f5833257bc658
+M	audiofield.info.yml	cde3dd17df0be9069b77569cce91183e
+M	audiofield.install	67959975af0b6737949fa711337c0b43
+M	audiofield.libraries.yml	b709829667b53682e0350a1230374ec2
+M	audiofield.module	25b2ea132131f3d80ae11247d0974a8d
+M	drush/audiofield.drush.inc	196f86b2eb287b99405d7302ebe35395
+M	src/AudioFieldPluginBase.php	16c2275f6e822554cee87a7bced1eb85
+M	src/Plugin/AudioPlayer/DefaultMp3Player.php	06d1a0484bc09e24cdf7d9dff9d7fa05
+M	src/Plugin/AudioPlayer/JPlayerAudioPlayer.php	e14822b2da2f328743f914a9285e4a5d
+M	src/Plugin/AudioPlayer/MediaElementAudioPlayer.php	8cec4d5fd3e8b51248a991cdb05d674e
+M	src/Plugin/AudioPlayer/ProjekktorAudioPlayer.php	7c78dfa7e7c30a73776c26c752926ba7
+M	src/Plugin/AudioPlayer/SoundManagerAudioPlayer.php	8b9e2c47151ffa8546ac6a2a1cabd094
+M	src/Plugin/AudioPlayer/WavesurferAudioPlayer.php	38d87b22f10a08330e76e67d92dfafe9
+M	src/Plugin/AudioPlayer/WordPressAudioPlayer.php	1a500b01fe29c4a09b667a1ffaccc698
+M	src/Plugin/Field/FieldFormatter/AudioFieldFieldFormatter.php	0c9eabc63415b5aa5723300c69ce0af7

@@ -1,0 +1,20 @@
+M	README.txt	5888e788317d44f7fdc1d0dcd091f43c
+M	css/lightbox-rtl.css	96e8e60bb83fe343d67ce05e84b79a3e
+M	css/lightbox.css	0b6925f4a1914e9ae7f0ab62230b936d
+M	css/lightbox_alt.css	6b09d28206963a730cc9b5849dded775
+M	css/lightbox_lite-rtl.css	5f58bbc221ce4130ea7cece49de7bfd0
+M	css/lightbox_lite.css	f325fa9c1af4db75be4536e2552c8644
+M	js/auto_image_handling.js	085b01a97975aed2f94e21394870c142
+M	js/lightbox.js	215cbd32c782af89c2a4b62bc510aef5
+M	js/lightbox2.js	77f8f14c84109d76f0fe614ec81bba43
+M	js/lightbox_lite.js	4744fb9ee251a734b7ecbe70a2e86989
+D	js/lightbox_login.js	
+A	js/lightbox_modal.js	63a5e6d56a23c5e3a10b85db056b3953
+M	js/lightbox_video.js	5d31d9543ce4a2f2eae99d28894d944c
+M	lightbox2.admin.inc	9d52ddab3af5f67e54b1c37ad91f1127
+A	lightbox2.formatter.inc	6e41cfccfd63fa4b11ff506d39c6650b
+M	lightbox2.info	786976b33037b27462a376f659f0af76
+M	lightbox2.install	068b3e38c822d3b3214137671775160c
+M	lightbox2.module	5a00830bca698d2b78270cd3707587ce
+M	translations/de.po	bcd4f42e41c039e2fd39537b36bb8838
+M	translations/lightbox2-module.pot	d6eba04eba29c483a29d0b9a543ccc11

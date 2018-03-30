@@ -1,0 +1,16 @@
+M	.travis.yml	447d04f5bc27a8877af416504e58b970
+A	.travis/drupal-8.1.x.make.yml	034cc5852d9cd80085c35e06aec0d85c
+A	.travis/drupal-8.2.x.make.yml	937c9b064bcb3afb1e010fa3437660af
+A	.travis/drupal-8.3.x.make.yml	5c748ff7c8c37011172b9d5507a93653
+D	.travis/drupal.make.yml	
+M	composer.json	a49708107a981d0474385328cfaedb79
+M	key_value.info.yml	ea12ba5f92f2c3e84f2821fb943b0f68
+M	key_value.install	bbebe19b143aaf15ac939e51bac0fe29
+M	src/KeyValueStore/DatabaseStorageList.php	1fd287accf69313140e0f901e7484d90
+M	src/KeyValueStore/DatabaseStorageSortedBase.php	e3421bcfe5206e042e4277064b3ba1b7
+M	src/KeyValueStore/DatabaseStorageSortedSet.php	84fcc14ab28ca1f38e914654400b3527
+M	src/KeyValueStore/KeyValueStoreSortedInterface.php	ccbfafcc43fb30be2956f7514118f3b1
+M	src/KeyValueStore/KeyValueStoreSortedSetInterface.php	65991a8715bfd8a1f298f9d214285f01
+M	src/Tests/DatabaseStorageListTest.php	d2779ac800246cb729c870e0ecb5c1e7
+M	src/Tests/DatabaseStorageSortedSetTest.php	8b32abf86718bb800d22b9bca6413f91
+M	src/Tests/DatabaseStorageSortedTestBase.php	29ee99b1f5a615e723970734782ca441

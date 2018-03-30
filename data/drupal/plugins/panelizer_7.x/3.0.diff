@@ -1,0 +1,17 @@
+A	css/panelizer-ipe.css	d41d8cd98f00b204e9800998ecf8427e
+A	docs.php	427c36c81094bbc8d3080b8a53f9b7d1
+M	includes/admin.inc	dc4f6c91978a11651547f8aebc07154f
+M	includes/common.inc	c935c0c002132cec1a23f2a10b80bbef
+A	js/panelizer-ipe.js	b67920abb87d2b2c3bc85fef4ad62ac9
+M	panelizer.info	7be8af88fdb03f86d1f157c064bacff6
+M	panelizer.install	cacf871528aed088b57291b50356f01c
+M	panelizer.module	a3358fffe88952d8f86edc86dcee078c
+M	plugins/content_types/panelizer_form/panelizer_form_default.inc	91796a176f4fdb0cddc613384fe8b41a
+M	plugins/entity/PanelizerEntityDefault.class.php	02c7802e2cc40903efb4d7b9921db290
+M	plugins/entity/PanelizerEntityNode.class.php	38ce0316f34d2fc148f679da463eaa75
+M	plugins/entity/PanelizerEntityTaxonomyTerm.class.php	a63dfe7b9e4b74680fe23cf6c5aa77ba
+M	plugins/entity/PanelizerEntityUser.class.php	911de1b34e0f48d5362ff8d732d8c5cd
+M	plugins/entity/taxonomy_term.inc	ddfe41513d34cedc9c1bdc67d0114f7c
+M	plugins/export_ui/panelizer_defaults.inc	96f4b045d3a930afe32eceed8e9f881d
+M	plugins/export_ui/panelizer_defaults_ui.class.php	bc00fef1996f5994ae19101a3255fc83
+M	plugins/task_handlers/panelizer_node.inc	d1afacc4900410290bc2ff35dc2cad6a

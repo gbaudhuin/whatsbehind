@@ -1,0 +1,8 @@
+M	simplesamlphp_auth.info.yml	3ffbb6d189f055847cb3126d9766b925
+M	simplesamlphp_auth.install	0d59a18b2d522d8fbefdc1e7d2daf2bd
+M	src/Plugin/Block/SimplesamlphpAuthBlock.php	97aa1d888afe733e6fbe1f13f7735659
+A	src/Tests/SimplesamlphpAuthTest.php	798aba70a667dc8e52a834d581cf83f0
+A	tests/simplesamlphp_auth_test/simplesamlphp_auth_test.info.yml	65ddca466bc753b6c14d788d87008b9b
+A	tests/simplesamlphp_auth_test/src/SimplesamlphpAuthTestManager.php	9cfb85a9ab991e8ab71e0e3420ef93e7
+A	tests/simplesamlphp_auth_test/src/SimplesamlphpAuthTestServiceProvider.php	05689df23b416b64caf9d710a21d6b74
+M	tests/src/Unit/Service/SimplesamlphpDrupalAuthTest.php	8589ff421886fb168dd2fa8990192669

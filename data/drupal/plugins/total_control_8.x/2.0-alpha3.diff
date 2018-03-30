@@ -1,0 +1,6 @@
+M	composer.json	bf4b1b9533dad2b8cd9ff4f65c3b2b80
+M	config/install/page_manager.page_variant.total_control_dashboard-http_status_code-0.yml	39834957dbf251fa1658946c749027a4
+M	src/Plugin/Block/AdministerPanelPages.php	9c2e63fbcdd30ee92f78a0fbf87c155c
+M	src/Plugin/Block/CreateContent.php	1da175d1bff7650abeb285e2a1972c28
+M	src/Plugin/Block/TotalControlDashboard.php	654a424534963cf5ae7e3da131c010b8
+M	total_control.info.yml	c6d6ceb3a12f943e0e811d58fe87d4f2

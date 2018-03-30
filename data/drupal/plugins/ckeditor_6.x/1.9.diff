@@ -1,0 +1,33 @@
+M	CHANGELOG.txt	7357dcc970adab38ec0711e7747906eb
+M	README.txt	d84584cb13dd4362d67f702abbc632ae
+M	ckeditor.api.php	c34f564f0532c18aab96e716c4c94ce8
+M	ckeditor.config.js	f21416acfe1eb4d35d63cdf0593d7a3d
+M	ckeditor.css	f8a62c52e23a9fa6e90ff92ef513006f
+M	ckeditor.info	aa0fd6078d6d3e3255db75adf844e345
+M	ckeditor.install	b52b1bfef137e8607822aa0419e1a61e
+M	ckeditor.module	58bbae9b6d1fa289fc1c7a22e02e61da
+M	ckeditor.styles.js	1e98467431d610f8d5367b2b7acf4a9b
+M	includes/ckeditor.admin.inc	6a068685facc51dac00b00f18c40428c
+M	includes/ckeditor.admin.js	75e341c5d31d334f1e1189332075d8a2
+M	includes/ckeditor.drush.inc	270b3d77d4bcc65f1f14b0f01f83739c
+M	includes/ckeditor.features.inc	9dcbd4f13d6bf73e89c4618c4f312579
+M	includes/ckeditor.lib.inc	09c4b1ac6c8a04eef1fa9367ee819710
+M	includes/ckeditor.page.inc	cb8676189a89715daf0dc8ca80bef1ba
+M	includes/ckeditor.popup.html	a91a60d83fb33191b18e4714a60cf47c
+M	includes/ckeditor.user.inc	d7f7ace0265b32ed25a1939d06298148
+M	includes/ckeditor.utils.js	85acaebf6984ef31324a5c58cb06898b
+M	includes/filemanager.config.php	4874a2255f6f3dec2eb4d7d5cdd8d5b9
+D	includes/jqueryUI/jquery-ui.js	
+A	includes/jqueryUI/jquery-ui.min.js	9437c5f272e511ee7835f307a210eae0
+D	includes/jqueryUI/jquery.ui.sortable.js	
+A	includes/jqueryUI/jquery.ui.sortable.min.js	a8028f7b79584c14f5a092ed63affd4d
+D	includes/jqueryUI/jquery.ui.widget.js	
+A	includes/jqueryUI/jquery.ui.widget.min.js	0b4c5afffc6ba25e76716562a9c40a75
+M	includes/jqueryUI/sort.js	91c2732549f0610a99312922aa0af2ba
+M	plugins/drupalbreaks/plugin.js	5ec3de2486dd6a809eeaae4ea248451b
+M	plugins/imce/plugin.js	0d805d4b3ca58146bf37de40ca75eec7
+M	plugins/linktomenu/dialogs/link.js	3ab1b2558460b97b508ea50f2a640cc6
+M	plugins/linktomenu/plugin.js	2341c0ff7742b65357562c9a58d09dd0
+M	plugins/linktonode/dialogs/link.js	2f6184ec0c781004ea0c1c92b69f5640
+M	plugins/linktonode/plugin.js	943ae82736da51f82d20399a2f3e40b6
+M	plugins/mediaembed/plugin.js	4e78fe08abecb795424570d36a042e40

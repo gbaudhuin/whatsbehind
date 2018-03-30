@@ -1,0 +1,34 @@
+D	config/install/migrate.migration.disqus_comment_import.yml	
+M	disqus.info.yml	8ee604c45c68b9631fa55634df8bc5fe
+M	disqus.module	417a13177340a6afdfd2f965335233ff
+M	disqus.services.yml	16608bdebcb17a6626d7b1407b48e1e4
+D	js/disqus-node-form.js	
+A	migration_templates/d7_disqus_comment_status.yml	a28d644bf3c174750a77b6345b57f635
+A	migration_templates/d7_disqus_entity_display.yml	5f10248c0aa6cfe597e6f0a21ef5e1ef
+A	migration_templates/d7_disqus_entity_form_display.yml	f04fc90c7551073c5174504a44798cb4
+A	migration_templates/d7_disqus_field.yml	abe9770e7026ee346a4d7c0e5a55f443
+A	migration_templates/d7_disqus_field_storage.yml	b07611cd254779d70a9fd4393fc7a6e8
+A	migration_templates/d7_disqus_settings.yml	9e1d066b43f0e3a250a7ec69fae16c87
+A	migration_templates/disqus_comment_import.yml	3542cd0e10c197c2cc9cf1ebdee80b62
+M	src/Controller/DisqusController.php	0a8a951b8cb058c33bf1b0f4babacee4
+M	src/DisqusCommentManager.php	c71f3672b840e0f803b4e36b50148e99
+M	src/DisqusCommentManagerInterface.php	58a20516c1e4ba49d923fd4c06ed0c22
+M	src/Element/Disqus.php	d3adcee5c9722295bf81046a723c036d
+M	src/Form/DisqusSettingsForm.php	580756ca10e4abc7fc8d41d19f02b42a
+M	src/Plugin/Block/DisqusBaseBlock.php	0860ee185d4fc9bff496608ec1b74761
+M	src/Plugin/Block/DisqusCombinationWidgetBlock.php	94882231890f853a460a65f5c71b0e01
+D	src/Plugin/Block/DisqusCommentsBlock.php	
+M	src/Plugin/Block/DisqusPopularThreadsBlock.php	32800f3762297666aa04425f9502f6ce
+M	src/Plugin/Block/DisqusRecentCommentBlock.php	da20d34b1570fdddd72a04d20a9a2527
+M	src/Plugin/Block/DisqusTopCommentersBlock.php	1688b8b8756fd81067b372246f6419e4
+M	src/Plugin/Field/FieldFormatter/DisqusFormatter.php	9002cefe436bdb499345075a9c1f1ae0
+M	src/Plugin/Field/FieldType/DisqusItem.php	33907d07f4346868cfe2f61438accd2c
+M	src/Plugin/Field/FieldWidget/DisqusWidget.php	9b40819041b7d8f105c76ad87b247a33
+M	src/Plugin/migrate/destination/DisqusComment.php	4d7a9971f07472ad539b8e6f540e8961
+M	src/Plugin/migrate/process/DisqusEntityId.php	1d64350513b7fe2d874bb092dbaf5cc2
+M	src/Plugin/migrate/process/DisqusEntityType.php	3c9457251781d38a300979cdef3176fb
+M	src/Plugin/migrate/source/DisqusComment.php	1d69fde4e765d65d402d03507e4bd31b
+A	src/Plugin/migrate/source/DisqusCommentsStatus.php	0ca5f51475155e5284d9a0712af2c392
+A	src/Plugin/migrate/source/DisqusEnabledNodeTypes.php	8c797b89bcce84e99ebbc5283b61b4da
+M	src/Plugin/views/field/DisqusCommentCount.php	890bdfc22aa7ebe1c0a4ee99e4aba0c6
+M	templates/disqus-noscript.html.twig	8f43eab804f5d76b78f6fec50e7dfa60

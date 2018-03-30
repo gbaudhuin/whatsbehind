@@ -1,0 +1,17 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	assets/popup_skin/delta_popups.css	846a6bbe413152c61934f93c3f2885c7
+A	assets/popup_skin/popup-icon.png	9b00a98ff20e4bebd2dd4fe0c1f86a85
+A	conditions/contexts.info	e48b720470099f9cfd75a3d643d550b2
+A	conditions/contexts.module	ce407ff5715c837d02b1aba7975bf512
+A	conditions/node_type.info	27e7d699fb5400467b85b08bae39efa0
+A	conditions/node_type.module	ce407ff5715c837d02b1aba7975bf512
+A	conditions/paths.info	041d12f65f77c290b4785b28f487fc33
+A	conditions/paths.module	ce407ff5715c837d02b1aba7975bf512
+A	delta-override-form.tpl.php	dd53e9863af03a9bf816ed6895f83cd8
+A	delta-settings.inc	40382f553ee4f5680f182501d552e8de
+A	delta.css	ef4ca395645f4e50b333f9ad701bf25a
+A	delta.info	6b22397d3e95e66e97beded78170ff52
+A	delta.install	b3fbf727b7d292f3ddc9fe4416a42cf1
+A	delta.js	bf61ab5261e2355379db91a577c8afbe
+A	delta.module	39ba715accdd3dca837ecda893a9de94
+A	theme-functions.inc	8a2730873dc0e57fdd2bb24b47d0ebe8

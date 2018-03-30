@@ -1,0 +1,18 @@
+M	CHANGELOG.txt	c9d666e2c871812f242de21c54587835
+M	README.txt	9d1d0e44e3b9d56ef647f4092cea79fb
+M	apachesolr.info	053150bb48b7eba49772aca665f3cfc5
+M	apachesolr_access/apachesolr_access.info	7d8e43b0cc41efed7c99f2e6a4d16746
+M	apachesolr_search.info	33d32c0f05090bdff8d6686777ad9054
+D	solr-conf/protwords.txt	
+D	solr-conf/schema-solr3x.xml	
+D	solr-conf/schema.xml	
+A	solr-conf/solr-1.4/protwords.txt	037c7721c6eaf925911b4fdac29c6242
+A	solr-conf/solr-1.4/schema.xml	1c88e5e922934838cd5364273a7f13bd
+A	solr-conf/solr-1.4/solrconfig.xml	a4465df23bbea4094f8fc1572ddcaa71
+A	solr-conf/solr-3.x/protwords.txt	037c7721c6eaf925911b4fdac29c6242
+A	solr-conf/solr-3.x/schema.xml	c9264e3615ba67cbca62e98e5fe68b78
+A	solr-conf/solr-3.x/solrconfig.xml	25a3dbc851c0a3cf445e63d6c62598f4
+D	solr-conf/solrconfig-solr3x.xml	
+D	solr-conf/solrconfig.xml	
+M	tests/apachesolr_test/apachesolr_test.info	4c7095619d81516ea985bd2e43567c96
+M	tests/solr_index_and_search.test	34f5be2cdc6184bff8874dc35dea22b0

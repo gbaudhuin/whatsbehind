@@ -1,0 +1,4 @@
+M	config_ignore.info.yml	edd6a203c32f9ef74aad99c70e7562c1
+M	src/ConfigImporterIgnore.php	ba11f28c25b6ec6bfcd4c1fbe58e077b
+M	src/Form/Settings.php	4b3adae0b9245ad0a32313fa8865c298
+M	src/Tests/ConfigIgnoreTest.php	eb712da1ab78cfd1e25a24b62ce7eda2

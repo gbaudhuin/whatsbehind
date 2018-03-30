@@ -1,0 +1,3 @@
+M	s3fs.info.yml	4b30980c256df733388d9636471ed3ea
+M	src/S3fsServiceProvider.php	d04f60f338a0884bdc4cac3594e9810a
+M	src/StreamWrapper/S3fsStream.php	1e150c792206b6ba41bd6eb297d9437e

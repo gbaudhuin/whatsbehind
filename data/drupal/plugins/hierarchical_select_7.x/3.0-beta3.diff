@@ -1,0 +1,19 @@
+M	hierarchical_select-rtl.css	b4e1db3d0dd091f10589447c445b5691
+M	hierarchical_select.admin.inc	5e579ce92ede785c95c78bf29601a021
+M	hierarchical_select.css	997535a7340b7e459012f163f4016287
+M	hierarchical_select.info	0d1bb1f5fd18a0c50e8efd07bf7a52cc
+M	hierarchical_select.js	63cfd1fddb35947d16420a4213c22284
+M	hierarchical_select.module	11d40dd8f21915681c01d5b41720b65f
+M	includes/common.inc	2b238552616876418d5c8a51ad79eecb
+M	includes/theme.inc	2d99b81749428b6db2586946e1135f30
+M	modules/hs_flatlist.info	ace19a872c451a97022d67218b994121
+M	modules/hs_menu.info	3d5025d3f7fbfac598470ad7d970adcf
+M	modules/hs_menu.module	5bbb811e12077a74931896817d5bd6f5
+M	modules/hs_smallhierarchy.info	311c046a5d6de31b2461369ce84ff965
+M	modules/hs_taxonomy.info	ea0bae725acbadb60222aa5ddee95cc9
+M	modules/hs_taxonomy.module	c7a444448f86392e99ed9593a1dfb174
+D	modules/hs_taxonomy_views.info	
+D	modules/hs_taxonomy_views.install	
+D	modules/hs_taxonomy_views.module	
+D	modules/hs_taxonomy_views_handler_filter_term_node_tid.inc	
+M	modules/hser/hser.info	04d63517115cd3c891d3fd25462b3211

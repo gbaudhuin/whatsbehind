@@ -1,0 +1,11 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	6edce2eb221b5f5d0954c5f5430ffb0e
+A	config/install/hotjar.settings.yml	b3a47eab42d4b4cda4a7bb0e1ecae270
+A	config/schema/hotjar.schema.yml	814850bd63140b4f8d4fc210f20b8d72
+A	hotjar.info.yml	a3d8279fd51e33dfbea0eeffe69cdd9e
+A	hotjar.install	bd323d61b6579d80d53f9b9353a3d471
+A	hotjar.links.menu.yml	a385c309f6be55ca4545c41dfcb95a76
+A	hotjar.module	1c28d9d07d0992ed2c1bb420d44a2c8c
+A	hotjar.permissions.yml	21c058f729918342f6f7fafb58ba3c23
+A	hotjar.routing.yml	067a737f5df38195ec6fc3c5fd5a1c06
+A	src/Form/HotjarAdminSettingsForm.php	c14a4582a374981bcec7cbc49b8a7e25

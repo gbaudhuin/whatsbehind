@@ -1,0 +1,17 @@
+M	README.txt	96e6a283d3a89bf3157a3f1f53828c9e
+M	WIDGETAPI.txt	241c82c2c95677c451095c78ef5f15a5
+A	hook_vud.php	9182a09f989877619511e4f83cd97649
+M	vud.info	3c5fe665977a9acc5d22ab3998b02382
+M	vud.theme.inc	6978e449e05944eaa42a88096e85f163
+A	vud_comment/views/vud_comment.views.inc	82df4dd36de140c71a6f482d6b25b9ab
+A	vud_comment/views/vud_comment_handler_field_widget.inc	bd0ed83495a59a7b38ba344e650e9770
+M	vud_comment/vud_comment.info	5b569a875192806f620644c3598eee76
+M	vud_comment/vud_comment.module	fa84e0dd8b085837190ab57e82da646f
+A	vud_node/views/vud_node.views.inc	03631ec7aaeb4effbf0e200676c1b572
+A	vud_node/views/vud_node_handler_field_widget.inc	cef040a096d1fea2486c3cec0f8ee984
+M	vud_node/vud_node.info	10eb677e3d55a67ed6e497f8f353c244
+M	vud_node/vud_node.module	d89a4a2dbae41035f977f0e9e4e90617
+A	vud_term/views/vud_term.views.inc	bea413f66e00ce34044cdc2d3fce0d24
+A	vud_term/views/vud_term_handler_field_widget.inc	10da045c77920ae6762684f58d9150d7
+M	vud_term/vud_term.info	9312b6ecf3cbf363a3ee917f8566b4d6
+M	vud_term/vud_term.module	80970071b439993e07ad527fdcc342c0

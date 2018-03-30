@@ -1,0 +1,17 @@
+M	CHANGELOG.txt	cbdbd20fe0933b142f5bc379def79c68
+M	better-autocomplete/better-autocomplete.css	c5c40fc36949a8115d372b1a5fded4e0
+M	js/linkit.dialog.js	1bd75865ba68e346ce8b87a9b2ab8a55
+A	js/linkit.field.js	7275775f40b5816b1fee9e0bd72da6c8
+M	js/linkit.js	903fe9c780e85ba0bc2353d8592b3e56
+A	js/linkitFieldDialog.js	aae5c6e45e8fd267c0f4f37976ea950e
+A	linkit.field.inc	a5855ab1e1b871adb5689fd725f85e47
+M	linkit.info	4f0d8cbd92fa665bc26790b5642682c3
+M	linkit.install	9fb9317d1688c8a53ac563e7659449fa
+M	linkit.module	1063feee8e65e41988d7c5ddb7dcb120
+M	plugins/export_ui/linkit_profiles_ui.class.php	08484e69657a51ac4a7c4772fa9ee41b
+A	plugins/linkit_insert/html_link/html_link.inc	2fdaee6d3652c4097097013f771e5668
+A	plugins/linkit_insert/html_link/html_link.js	b98ada8ae3e8864f02ff05b708651447
+A	plugins/linkit_insert/markdown/markdown.inc	8c97e9dca41377d8bd8014a05c2db4c5
+A	plugins/linkit_insert/markdown/markdown.js	316fa8979d789927553e7504c32f931c
+A	plugins/linkit_insert/raw_url/raw_url.inc	ea47fbf9a8c69cd72c0b06f8a88000d2
+A	plugins/linkit_insert/raw_url/raw_url.js	6e26507ebc98f9babf32f5315c3f75f8

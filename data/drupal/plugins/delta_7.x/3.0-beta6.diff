@@ -1,0 +1,13 @@
+M	delta.info	776b8d000be81b4216db5b0070d0f5a9
+M	delta.module	66648e8219ab7dc27b243005cebfe86f
+M	delta_blocks/delta_blocks.info	6bdac9b4a69177d80c9214edb6005190
+M	delta_blocks/delta_blocks.module	e5fc6a7245088e4389b0d4f8d1e446a6
+M	delta_color/delta_color.info	597b55b287f60f1c2163d858b783bab0
+M	delta_color/plugins/delta_injection_color.inc	41077e4a0c3debd8bb21557b06ca3216
+M	delta_ui/delta_ui.admin.inc	bf496412967fc2f97e3f211ed24c6f0f
+M	delta_ui/delta_ui.info	246b64c39fa7097355c749bc763cc9a7
+M	delta_ui/export_ui/delta.inc	bbf0c163bb39ca431d465d2b43e6670c
+M	delta_ui/export_ui/delta_export_ui.class.php	823f081fabaae0f856bdb357e9ae6c6c
+M	plugins/context/context_reaction_delta.inc	a02ffe4b9112aab7a423c5ebfbc1e018
+M	plugins/delta/delta_injection.inc	e2f6d9213e9e11cbad6c2527b12d3821
+M	plugins/delta/delta_injection_theme_settings.inc	bf5b6e001bbf6b9f74983f5d40b2a899

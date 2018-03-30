@@ -1,0 +1,4 @@
+A	field_permissions.api.php	c89141ba88bb548991052a0657cb4fdc
+M	field_permissions.info.yml	cfbeba94ce295f068a57718af4ef8812
+M	src/Plugin/FieldPermissionType/Manager.php	6e653e6d27e01392e1b17fa28063c17e
+M	tests/modules/field_permissions_test/field_permissions_test.info.yml	91d0d78f5bdba13e226f37ca40928fc3

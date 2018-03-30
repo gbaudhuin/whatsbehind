@@ -1,0 +1,6 @@
+M	config/install/simple_fb_connect.settings.yml	ae3f216831af44ca9a8bb853d6136118
+M	simple_fb_connect.info.yml	6e78e5f1a9f8f8f37655abfaabbaae33
+M	src/Controller/SimpleFBConnectController.php	39cdad1650ae29f15a84436e66a64a46
+M	src/Form/SimpleFbConnectSettingsForm.php	5ede56d35be4980d73d5ffda9e4a687c
+M	src/SimpleFbConnectFbManager.php	c7f0a90bd8396f5a43cc3c458472cd8c
+M	src/SimpleFbConnectUserManager.php	97732e2a740e060cf600e22a8c840a73

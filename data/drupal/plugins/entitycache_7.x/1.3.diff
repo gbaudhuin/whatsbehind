@@ -1,0 +1,13 @@
+D	entitycache.comment.inc	
+A	entitycache.drush.inc	6d1b5368f41bbdf50fb661bacefc4ba5
+M	entitycache.info	35b9c274845d3991069560b5b2957546
+M	entitycache.install	8af7f916104844c75d20903c6ab2dd20
+M	entitycache.module	22b4477ec7c869e165829f688ef6c454
+D	entitycache.taxonomy.inc	
+M	entitycache.test	b7eebb62e836b85c6140ac5f8304fdf8
+A	includes/entitycache.comment.inc	acb76981c13681d23aa8958081637e58
+A	includes/entitycache.defaultentitycontroller.inc	4f3e5c5661acdcb88532d17c978f537e
+A	includes/entitycache.entitycachecontrollerhelper.inc	7f11a0d79c684c7ef6a690a2fa6144d1
+A	includes/entitycache.node.inc	dc53725e29a9c516d1c89150a7edb90a
+A	includes/entitycache.taxonomy.inc	be00584246fa89bec451673e0b1ce067
+A	includes/entitycache.user.inc	5d54801f683569935491993855822d27

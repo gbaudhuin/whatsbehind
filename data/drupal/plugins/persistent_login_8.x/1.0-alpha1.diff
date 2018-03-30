@@ -1,0 +1,8 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	4802b7a8b0b83f9bb12ace429f43a7b6
+A	persistent_login.info.yml	e4a469005086424c52b3d3d9c3a01f97
+A	persistent_login.install	03c866eaaa76c747086ec4353f6ea8a1
+A	persistent_login.module	ff3d058b8e85aa6336e83ef262176d76
+A	persistent_login.services.yml	5ce172013ea511f04364644e83a02d8d
+A	src/EventSubscriber/TokenManager.php	c5b421b870b81b5d119d3310f6e95986
+A	src/PersistentToken.php	f16ef4a955c8132d047c7f267072c510

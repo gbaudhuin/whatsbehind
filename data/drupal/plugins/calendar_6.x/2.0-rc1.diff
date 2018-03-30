@@ -1,0 +1,14 @@
+M	CHANGELOG.txt	779a721c6a8a2f598e68886cbcb28355
+M	calendar.css	5a964eaf09722c8e41a37994d2d66d09
+M	calendar.inc	7c7b6fb5387ae3a1ed7539f77c5482a1
+M	calendar.info	56d713fb88f017d8a291f2a1379ae4f0
+M	calendar.module	a65a6d7a41a84a757f3cef970ac7aa83
+M	calendar.views.inc	23b6629ed641d5f5f1996f31d51c0b8e
+M	calendar_ical.info	5f3db7d1d1bcc453f08f747f292e4b3a
+M	calendar_ical.module	c3411894edf856f41b94670e4e720118
+M	jcalendar/jcalendar.info	d7d95e1ceb4316bb91b6154e052662f4
+M	jcalendar/jcalendar.js	7a199b5230645911116819b90835fc90
+M	jcalendar/jcalendar.module	6d5fd727fb6e7903d6d814f6a520e1e1
+M	theme/calendar-day-node.tpl.php	f61a0356d4469e03f8cf393ff64f78f5
+M	theme/calendar-day.tpl.php	a370c9aed9c02cc558c755df900a8a22
+M	theme/theme.inc	58403cd9e6ace3064534430b785e18ae

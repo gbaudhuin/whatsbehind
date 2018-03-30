@@ -1,0 +1,15 @@
+M	composer.json	981ab17747bbcbae4014322fa2de7d2b
+M	config/schema/views_slideshow.data_types.schema.yml	ec09f50f1cb1de713484ad09980268a4
+M	modules/views_slideshow_cycle/views_slideshow_cycle.info.yml	b75b378eb6e8b344f626c260b5cb82c5
+M	src/Plugin/ViewsSlideshowWidgetType/Controls.php	183e7a7009f38737b2ce7cf299cf0417
+M	src/Plugin/ViewsSlideshowWidgetType/Pager.php	e83546a8c45601db4a7134c4d85f5dd5
+M	src/Plugin/views/style/Slideshow.php	b6c3f7c469fed08645a474ae66b0fd9d
+M	src/Tests/Plugin/StyleSlideshowTest.php	22c0a17e8324ac3f481df97efff8dcd8
+M	src/ViewsSlideshowWidgetTypeBase.php	2c025c995837be22db640f9d8091b23f
+M	templates/views-slideshow-pager-field-field.html.twig	d6e9380030a8d374ed2def408bb715b9
+M	tests/modules/views_slideshow_test/views_slideshow_test.info.yml	caa2283d27532596cf6099c4eb3efabe
+M	views_slideshow.info.yml	cdba235fa5ffe5724109d2839b77d60c
+M	views_slideshow.libraries.yml	55c5c28352d46e3c9f2a889000bb89c6
+M	views_slideshow.module	52f8f77561a51344eca89b9745b83f61
+M	views_slideshow.services.yml	3ee4200e4326486cd45fe65c81e010ea
+M	views_slideshow.theme.inc	f7e45759ebf2a89f53f269d1d3e2a454

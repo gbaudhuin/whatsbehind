@@ -1,0 +1,15 @@
+M	CHANGELOG.txt	c2ab4fb633469080c7588782a64c7600
+M	README.txt	1a5a5e7580ffc49d5df256670af16bf9
+A	ckeditor.api.php	8b112300b893f6b09ddb69ee97f984cd
+M	ckeditor.config.js	b36881f68c6492a35f984dbcb8cc8feb
+M	ckeditor.css	7655a4f11862e2177c623c2bfedc1ae6
+M	ckeditor.info	c28ec27f5275fc42c187add677898063
+M	ckeditor.install	4cb1e1b0a7a2df69e83d80888ae82cdc
+D	ckeditor.make	
+A	ckeditor.make.example	d5c7d57820d92263ea20357b4f2cb207
+M	ckeditor.module	1e7c7456f9b28dbefab1ed12fbfc0f6a
+M	includes/ckeditor.admin.inc	4c52e70fd1da72bf29218e8949258044
+M	includes/ckeditor.admin.js	81a39088cfcd21ff9bbee7d8e26fead4
+M	includes/ckeditor.lib.inc	5d987016363916ed002b8c4a39fd74e1
+M	includes/ckeditor.page.inc	fab9e9e484a385515cf8fece428cf853
+M	includes/ckeditor.utils.js	2d7f03ad20f6395cf53db2e15a7f988a

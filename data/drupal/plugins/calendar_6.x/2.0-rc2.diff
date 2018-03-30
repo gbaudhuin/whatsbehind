@@ -1,0 +1,36 @@
+M	CHANGELOG.txt	dec2d9d1ea35296380958c7df53b2c5d
+M	calendar.css	f5d1b791733d3f9a5d52cb272142e554
+D	calendar.inc	
+M	calendar.info	ad02ddca0fb4b372f9374fa2b32dfb26
+M	calendar.install	5f8621fb0b2e86930f5fcde3c35cfe48
+M	calendar.module	99292916dc55478151d841fce28edceb
+D	calendar.views.inc	
+D	calendar.views_default.inc	
+D	calendar_ical.info	
+D	calendar_ical.install	
+D	calendar_ical.module	
+D	calendar_ical.views.inc	
+A	calendar_ical/calendar-view-ical.tpl.php	df8cbb851a71594c3eb27d58655424eb
+A	calendar_ical/calendar_ical.info	fcad1d59a291ad2c28946e437e53a719
+A	calendar_ical/calendar_ical.install	975179d8c78aea81a9482534909687b2
+A	calendar_ical/calendar_ical.module	daa69cfeea2f164bf82739dfe4f64f7e
+A	calendar_ical/calendar_ical.views.inc	71ae56bf4f14d1dff11b5a1ffa8c5089
+A	calendar_ical/calendar_ical_admin.inc	4a69940c5a356e5e8528762e621d16a2
+A	calendar_ical/calendar_plugin_display_ical.inc	12f29cfac876ed724b1ae124143096a4
+A	calendar_ical/calendar_plugin_style_ical.inc	dd6f60a922d31c463aae448fe2cb87bd
+A	calendar_ical/theme.inc	cfccdecc1fcedb8cc959f4c965190988
+A	calendar_ical/translations/calendar_ical.pot	cc5d3ae174986c0c7c125cafd88dc1d8
+D	calendar_ical_admin.inc	
+A	includes/calendar.inc	d677ec90f17e5245387e45aedb2db4ce
+A	includes/calendar.views.inc	d71ad70f49d549b44843b1a90798f7e6
+A	includes/calendar.views_default.inc	4921a1289ba18104ef1514b7c8645eff
+A	includes/calendar_plugin_display_attachment.inc	30c573bfab73b74528921b46939677bb
+A	includes/calendar_plugin_display_block.inc	0c108c0c2b2feb29c7f169eaf0a591e6
+A	includes/calendar_plugin_display_page.inc	384e2c8ed026ef9cfa15f241ed255135
+A	includes/calendar_plugin_style.inc	8397f63a6edb37df313cc963fe2135fd
+A	includes/calendar_view_plugin_style.inc	6ae0467f70e91d20727193c33937ca98
+M	jcalendar/jcalendar.css	7477c079d755b7802280618cd350c367
+M	jcalendar/jcalendar.info	8246a902dbbf1ffe1cb5e29bfd446797
+M	jcalendar/jcalendar.js	091b74cbb55642b55bb47362c53aa667
+D	theme/calendar-view-ical.tpl.php	
+M	theme/theme.inc	9273de4bc2cc57a6121e7206b8317e2e

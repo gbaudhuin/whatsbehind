@@ -1,0 +1,13 @@
+M	fieldblock.info.yml	f9389cf380961cd6df9fdab25b57a0a0
+M	fieldblock.install	d41d8cd98f00b204e9800998ecf8427e
+A	fieldblock.links.menu.yml	c1fb86f9be3e22be4037266153b9a52d
+M	fieldblock.module	d41d8cd98f00b204e9800998ecf8427e
+A	fieldblock.routing.yml	cca66caf68944adedf6fdb9accc2d733
+A	fieldblock.services.yml	497b59cb0b2bdcdaafccb4b7037dfcd7
+A	schema/fieldblock.schema.yml	e1753826fd72578d2881dc745e9f26fb
+A	src/BlockEntityStorage.php	99cdd5c4d8c455a92d834f11e98a8c34
+A	src/Controller/FieldBlockController.php	0d55619ac7dfd69ceaeb7e6bf5adda79
+A	src/Form/FieldBlockConfigForm.php	66f9da39d415a4889112833e59e26b8c
+M	src/Plugin/Block/FieldBlock.php	b980ee22ee4ce408fcbd164c3da1b6de
+D	src/Plugin/Derivative/FieldBlock.php	
+A	src/Plugin/Derivative/FieldBlockDeriver.php	c9d3589afd93be95074a1df19104b793

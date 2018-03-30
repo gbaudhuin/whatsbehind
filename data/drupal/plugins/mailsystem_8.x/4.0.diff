@@ -1,0 +1,6 @@
+M	mailsystem.info.yml	158bdcb8c0cca40ef47b24f2bb6e350e
+M	src/Form/AdminForm.php	893ef63bf391e9026f6cb40803cfe83d
+M	src/Tests/AdminFormSettingsTest.php	b0b70b3ebaee5dfc5275bde4e0719dad
+M	tests/modules/mailsystem_test/mailsystem_test.info.yml	496ae36a047fe8f21fc66d5722aec094
+D	tests/src/Unit/AdminFormTest.php	
+M	tests/themes/mailsystem_test_theme/mailsystem_test_theme.info.yml	0119055d64b3720c2d838ea601b53230

@@ -1,0 +1,9 @@
+D	css/juicebox_drupal.css	
+A	juicebox.api.php	7e379e2a923604ca623e0a52d51b1bca
+M	juicebox.info.yml	8252fc1b8b0b077cca2b2c5bf4ed2710
+M	juicebox.module	4c1b1eb1428a51eaf17f5df30295fafb
+M	src/Controller/JuiceboxXmlControllerField.php	1aad640dabf584124c842e45db9573ee
+M	src/JuiceboxGallery.php	3a47676dc557668749eeaa4c00316fac
+M	src/JuiceboxGalleryDecorator.php	951489ee7b86c49ed745f54f1fad4560
+M	src/JuiceboxGalleryDrupal.php	a778831fcfbb44e89c3d05ad25950550
+M	src/JuiceboxGalleryInterface.php	751416986ab16608f9eb9ef6788ab2f0

@@ -1,0 +1,11 @@
+M	backup_migrate.info	8125f44a7148ad5cfcd0e98d33a19efa
+M	backup_migrate.install	547e84210a98d31f0ffc254eab35b278
+M	backup_migrate.module	11ae183582bdd533d3faab5fe0fa9fa0
+M	includes/crud.inc	a90e0a5eb1623d1e469a8e301cd1d9c2
+M	includes/destinations.inc	9bf062dccbe503c4a84b8b7f6fbd6eee
+M	includes/files.inc	9962cba0a5b8be38d511d27a25c36856
+M	includes/filters.backup_restore.inc	542f291508ed458c98ae80594ae2f919
+M	includes/filters.compression.inc	75698ec39bd34cd7cb945e8df8e7c8e5
+M	includes/filters.encryption.inc	7777dbfcac7a30db9a96e71c69286b5f
+M	includes/filters.inc	b6ae09c97ed15523cf701969cb91c537
+M	includes/schedules.inc	9202b40c479c8ce91d1f3b0b7448c7c6

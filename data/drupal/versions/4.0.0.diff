@@ -1,0 +1,133 @@
+M	.htaccess	59be21505a6c3ceb68b66093fd94169e
+M	CHANGELOG	2c3e1ff0e3776e6c2be3ae1fc249262f
+M	INSTALL	e736df5d8f289aaa64743ef8e4ed2a0a
+A	MAINTAINERS	1b359909d6dbadff0382f054f481b24f
+D	account.php	
+M	admin.php	a535f7c78b235abacf581f2d74c5cbc2
+M	cron.php	4ca0a9c1e25e0bb727612560b85fb28f
+M	database/database.mysql	e6eada93494564b01c044e9ffd68352c
+A	database/database.pgsql	287df8f68afe87e00f7e256dc68f6318
+M	error.php	cae50b9e257c12ba3c31321255a65b49
+D	includes/comment.inc	
+M	includes/common.inc	daf508b1b1e372addbf206aabec19fc0
+M	includes/conf.php	268a9158b9e42f155bf0a44924060e47
+M	includes/database.inc	223c9366586aeb13a6012fa359c6caa7
+A	includes/database.mysql.inc	d9c20ad949e1a01c9dd03a44bc739658
+A	includes/database.pear.inc	54d7753a38b97f97f833c7b06d9b28c6
+D	includes/locale.inc	
+M	includes/module.inc	e0e223b3a3f419a465222c99a9f9d4b7
+D	includes/node.inc	
+D	includes/search.inc	
+M	includes/theme.inc	0e577014dc2c694c516b7ec9f2d51a01
+D	includes/user.inc	
+D	includes/variable.inc	
+A	includes/xmlrpc.inc	6e4bce61b4bb28a351a10b5476f4f182
+A	includes/xmlrpcs.inc	f6f2662e397505a4feedadc773e00ad4
+M	index.php	62ed932fe9ba7f2769ac1839907b505e
+A	misc/druplicon.png	b58395edf8dd78a21fc6d9e170fec88a
+A	misc/druplicon.psp	e0cc2ebd4bebcbb5801590b79330b732
+A	misc/druplicon.txt	72af77e75d8d62b75014852e87af87f6
+M	misc/linux-font-test.html	6ede753468bdfa6e5983222b5b55b0ff
+A	misc/powered-by-drupal.png	e07c91ad8ffed5030f493f4a62ee7a39
+D	misc/poweredbydrupal.png	
+M	module.php	cb22e113c9f762e9f9ad9d83ba1c5351
+D	modules/access.module	
+D	modules/account.module	
+A	modules/archive.module	5e3d399e7e311759153451d17a185804
+M	modules/block.module	da7e6a01baa4c360658b2281653a774b
+M	modules/blog.module	3080a3af90c6ecbaf685a6455e80e1b7
+A	modules/bloggerapi.module	41723577cd8489b6e78edbd84e4d43f4
+M	modules/book.module	24d348cfa760ee0f832b236e5392069b
+D	modules/box.module	
+D	modules/calendar.module	
+M	modules/cloud.module	5bdfb0ddc804413c45388c1ec3755cb9
+M	modules/comment.module	d5429e5300424a358fd7dcd2eeff8e4e
+D	modules/cvs.module	
+A	modules/drupal.module	98252b479f319bbab7669a4320df53df
+M	modules/forum.module	2a5bc0399232bdd3782eede6f94f5812
+M	modules/help.module	c963ff8c6a1765ea8e8e4adb5047965b
+M	modules/import.module	5170ad20c22c2064b9a73d40581719ce
+A	modules/jabber.module	667dfcf2599203150c04014d501a10fa
+M	modules/locale.module	f7b29fbb6e480566de0cbc2c6ca50adc
+D	modules/meta.module	
+M	modules/node.module	21ba7d5428e2a7c918de4a91aa1e7fb7
+M	modules/page.module	ab2034a16daed72c1e628e89fa74cde9
+M	modules/poll.module	52595cdb724c1a39eff61cf77cdee738
+M	modules/queue.module	8f1773d65a8a1bceeed47704e429f7b7
+M	modules/rating.module	b6dc2e0344b6cea192791ed5a45cbaed
+M	modules/search.module	d27766652d85dddcbb348f254fdee9e6
+M	modules/statistics.module	bb8403edaab0a662e3fc1df144db6530
+M	modules/story.module	a4d06fbc43e796e0effdddbc581045ca
+M	modules/system.module	5eb8139f580f2bb188f0492d0e1b1fc3
+A	modules/taxonomy.module	a21cfdcdcc276e6f20bab748ce978712
+A	modules/tracker.module	1934f5ae671994b8158ba5c0e2e28c9a
+A	modules/user.module	fcd1010527ee551c55ef78aebe09b821
+M	modules/watchdog.module	7352f63868766584d332986a05deba73
+A	modules/weblogs.module	c168184057f5451204e37d719187d5f5
+M	node.php	30ab253ba2798476b0db5c385f3960e6
+D	robots.txt	
+A	scripts/code-clean.sh	db1fc1041d07f54f1036ed0cb9b42fae
+A	scripts/code-size.sh	60dd1031aca0471afde9395745a21569
+A	scripts/code-style.pl	9c55b78ef0b1d87c0a213f11cfd8205a
+D	scripts/cron-lynx	
+A	scripts/cron-lynx.sh	7275f017308061ed1c71b8e84f699a74
+D	scripts/cvs-build.pl	
+A	scripts/cvs-build.sh	0ad61183803e0b5cf5b563238d5f64a3
+D	scripts/cvs-to-sql.pl	
+A	scripts/mail-to-sql.php	6ef88cdd4de7134c77a5a4530a92bead
+D	scripts/php-backup	
+D	scripts/php-clean	
+D	scripts/php-count	
+D	scripts/sql-backup	
+D	submit.php	
+M	themes/example/example.theme	071c31c2b9deace390f7d0dc0496a6e2
+M	themes/goofy/goofy.theme	14130167385354e3a05196153f1c0b77
+M	themes/goofy/images/logo.png	6ebda70270670025aebd20d5d1d7e976
+D	themes/jeroen/images/background.gif	
+D	themes/jeroen/images/boxbottom.gif	
+D	themes/jeroen/images/boxbottomleft.gif	
+D	themes/jeroen/images/boxbottomright1.gif	
+D	themes/jeroen/images/boxbottomright2.gif	
+D	themes/jeroen/images/boxleft.gif	
+D	themes/jeroen/images/boxright.gif	
+D	themes/jeroen/images/boxtop.gif	
+D	themes/jeroen/images/boxtopleft.gif	
+D	themes/jeroen/images/boxtopleftside1.gif	
+D	themes/jeroen/images/boxtopleftside2.gif	
+D	themes/jeroen/images/boxtopmiddle.gif	
+D	themes/jeroen/images/boxtopright.gif	
+D	themes/jeroen/images/boxtoprightside.gif	
+D	themes/jeroen/images/footer.gif	
+D	themes/jeroen/images/footerleft.gif	
+D	themes/jeroen/images/footerright.gif	
+D	themes/jeroen/images/logo.gif	
+D	themes/jeroen/images/logo2.gif	
+D	themes/jeroen/images/menutitle.gif	
+D	themes/jeroen/images/news1.gif	
+D	themes/jeroen/images/news2.gif	
+D	themes/jeroen/images/news3.gif	
+D	themes/jeroen/images/news4.gif	
+D	themes/jeroen/images/news5.gif	
+D	themes/jeroen/images/newsmiddle.gif	
+D	themes/jeroen/images/sketch.gif	
+D	themes/jeroen/jeroen.theme	
+D	themes/marvin/images/logo.gif	
+A	themes/marvin/images/logo.png	6ebda70270670025aebd20d5d1d7e976
+M	themes/marvin/marvin.theme	7fdc9f97a5d165bb7fc1ef2ba8cd8134
+D	themes/unconed/images/logo.gif	
+A	themes/unconed/images/logo.png	6ebda70270670025aebd20d5d1d7e976
+M	themes/unconed/unconed.theme	3b78bf80508eb21bd6864907a2fe045f
+D	themes/yaroon/images/pixel.gif	
+D	themes/yaroon/images/square.gif	
+D	themes/yaroon/images/square2.gif	
+D	themes/yaroon/images/square3.gif	
+D	themes/yaroon/images/square4.gif	
+D	themes/yaroon/images/square5.gif	
+D	themes/yaroon/images/square6.gif	
+D	themes/yaroon/images/square7.gif	
+D	themes/yaroon/images/square8.gif	
+D	themes/yaroon/yaroon.theme	
+A	update.php	2746f8770042fb119282833189851689
+D	updates/1.00-to-2.00.sql	
+D	updates/2.00-to-3.00.sql	
+A	xmlrpc.php	8b174ffcfa3e1333658e6470821fa761

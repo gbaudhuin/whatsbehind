@@ -1,0 +1,4 @@
+M	default_content_extra.info.yml	800b9d3d359d4e993f607bcfb8032b68
+M	default_content_extra.services.yml	bcbd9d677d17375c2b9fb1c510757646
+A	src/EventSubscriber/DefaultContentImportSubscriber.php	2a557ee49e55a961e79d9497c0ecd28c
+M	src/Normalizer/NodeEntityNormalizer.php	f1d9f9bc71cdc545ffbea80f27023555

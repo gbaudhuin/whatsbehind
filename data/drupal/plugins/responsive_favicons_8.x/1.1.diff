@@ -1,0 +1,6 @@
+M	README.txt	2c32cc6195a49cb512be4154ddb930a6
+M	responsive_favicons.info.yml	41a627c40b83b7053d1cd77744f285c8
+M	responsive_favicons.install	e4cf6f8c09b099250659a6b91d22728d
+M	responsive_favicons.module	ca06868f5b637244689bca4dd7c6b3cc
+M	src/Form/ResponsiveFaviconsAdmin.php	fbc4879c4cc4ba47a782752165ad2984
+M	src/Routing/DefaultFavicons.php	3978e7a9f346ee581a305a241e778b65

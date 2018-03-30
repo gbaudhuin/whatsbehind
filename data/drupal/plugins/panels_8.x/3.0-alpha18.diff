@@ -1,0 +1,16 @@
+M	i18n_panels/i18n_panels.info	c99e82b587976349e1925f50f775cf0c
+M	panels.info.yml	7fcc573a27304eb3aa443deee217ecc8
+A	panels.services.yml	49cb829b2c7fcbfdf644c3641d0f006b
+M	panels_ipe/panels_ipe.info	3efdf06317402e2acdba3475c7ff6bee
+M	panels_mini/panels_mini.info	8e6741bda599481358f8e3acf3d878f4
+M	panels_node/panels_node.info	6b7907620428ccaec99e749fe0dd88c6
+A	src/Annotation/DisplayBuilder.php	525617b0aa523a6f22daacd7675edbc6
+A	src/Plugin/DisplayBuilder/DisplayBuilderBase.php	dbc9faef8be94dd71612a2fe489ab30c
+A	src/Plugin/DisplayBuilder/DisplayBuilderInterface.php	3f1576137c64ef9d1d29a852eac7bf31
+A	src/Plugin/DisplayBuilder/DisplayBuilderManager.php	81913a5a8f52458a2e8f6f3bbfb386ed
+A	src/Plugin/DisplayBuilder/DisplayBuilderManagerInterface.php	52e6d09c73364e98f8a9821df8f77975
+A	src/Plugin/DisplayBuilder/EditorDisplayBuilder.php	f19245ec5607f9b39ab48378aad34dd9
+A	src/Plugin/DisplayBuilder/StandardDisplayBuilder.php	b942389147cb56a3961389ffecbf81fd
+M	src/Plugin/DisplayVariant/PanelsDisplayVariant.php	9ca054e022b550bf7df032f82c427e0a
+M	tests/src/Unit/PanelsDisplayVariantTest.php	69e0da6fe2e3bf583c84437394e48749
+A	tests/src/Unit/StandardDisplayBuilderTest.php	b586bdc2ef0c1cd1369b3c62981896ef

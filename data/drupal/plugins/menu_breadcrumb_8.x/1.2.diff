@@ -1,0 +1,5 @@
+M	config/schema/menu_breadcrumb.schema.yml	9712a1d79023439f37ded1966a589ee6
+M	menu_breadcrumb.info.yml	841f0be0d921207d847b9c2c557a37e0
+M	menu_breadcrumb.module	e9cb2241b6778997e8715d35bbcd6d90
+M	src/Form/SettingsForm.php	3674e8ff1a47e83e9662757f1e962901
+M	src/MenuBasedBreadcrumbBuilder.php	a3c51ce3fa2dfe8ca9691f151a6d5ea3

@@ -1,0 +1,17 @@
+M	CHANGELOG.txt	c9c37bfae82ac421af7f2ee5cccebd08
+M	README.txt	27ae47e0cf59908843cf015cef1e4ddf
+M	TODO.txt	e3ad4ff4bea28c394c89145077750cf4
+M	addthis.admin.css	b850ad566804cc32b718ec0abe786097
+M	addthis.api.php	dca09f404edefb79e0366e5664efe027
+M	addthis.info	d6d38b90be1badc543c6546d39fa35c0
+M	addthis.install	01df59f724d3dfbb3354b765ce2af335
+M	addthis.js	26f273f6da9e70d08414cdabab9d94b6
+M	addthis.module	b46168162b165e9da40dd7f545a84eda
+M	addthis.test	a3b2738bb5a7156e3bbaa6360f1db140
+M	addthis_displays/addthis_displays.addthis.inc	159beb183625f36fa6454eef94bb6445
+M	addthis_displays/addthis_displays.field.inc	ac62ca8b6a467cfb7863247ddbbe7d9e
+M	addthis_displays/addthis_displays.info	848cecdf65e1f24904215697564b396b
+M	classes/AddThis.php	418df057c615b9e30856279e3eb5827b
+M	classes/AddThisWidgetJs.php	658fdba14a135a1b147791c5b6fa8195
+M	includes/addthis.admin.inc	b41eea9ba62de44ed310b69f001f17a0
+M	includes/addthis.block.inc	cdf4e1887d07be8275549351d503b6f1

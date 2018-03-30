@@ -1,0 +1,19 @@
+M	README.txt	eb3f4e2f9e0cf39454b229c2fdc3ed11
+M	googleanalytics.admin.inc	e33bfc409300e61d43dc098967a56f37
+M	googleanalytics.info	9f48743d6f5e2e512af0a499f4a51095
+M	googleanalytics.install	6cc5f15e926baaf74464c3a24cf5bd31
+M	googleanalytics.js	2b73a90085200fdfc0dd8e888016a6bb
+M	googleanalytics.module	c63929a2ca03e271db0cea37fbf123a5
+M	tests/googleanalytics_basic.test	dfb41cd57ff83333477d32863f48018b
+D	translations/ca.po	
+M	translations/de.po	9a004f02d91251bdcabb12ba681150b7
+D	translations/el.po	
+D	translations/es.po	
+M	translations/fr.po	6ff6c381da84b4a4626ea0d7f6e1eb92
+M	translations/googleanalytics.pot	e456e441ef268157fc38bc0db8081f2f
+D	translations/it.po	
+M	translations/ja.po	c2e350710b6f6bdc1a85b1f45684a53d
+M	translations/pl.po	dde93d1f19f99b75ae3fc43e1ea6c42b
+D	translations/pt.po	
+D	translations/ru.po	
+M	translations/sk.po	584b74dda697088bf40015ce29925a3a

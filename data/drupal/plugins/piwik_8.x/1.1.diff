@@ -1,0 +1,17 @@
+M	js/piwik.admin.js	a8d64193ee46b74a93b65a0ed902d6b0
+M	piwik.info.yml	80b1cdec1b6576201e1f57560f640330
+M	piwik.module	9e3d202c73f4ff730a25bf0cc6e09041
+M	piwik.permissions.yml	2cf0e4a3bc2a061e598fa54054a897d0
+M	src/Form/PiwikAdminSettingsForm.php	3a8efab52cff92c293f7304235f1873c
+M	src/Plugin/migrate/process/PiwikCustomVars.php	12c3d8f39453213bdc738a8370967c50
+M	src/Plugin/migrate/process/PiwikSkipRowIfNotSet.php	bab8c3b909a270b74bd6d7791716017a
+M	src/Plugin/migrate/process/PiwikVisibilityPages.php	6841602b69444020cfd40f3493e514e6
+M	src/Plugin/migrate/process/PiwikVisibilityRoles.php	6777e319ed3dfd33d2cc1fcd00ff00b7
+M	src/Tests/PiwikBasicTest.php	b93d9d95f1c29e81a9121edf39d66a62
+M	src/Tests/PiwikCustomVariablesTest.php	2b2afc0019149165a500d9de94614f22
+M	src/Tests/PiwikPhpFilterTest.php.php	b82c5c53cfae183f3aedd742950faf93
+M	src/Tests/PiwikRolesTest.php	1f62fd2910bdf922bba35bb1c71089b8
+M	src/Tests/PiwikSearchTest.php	6ea1096f22bb1fc30b0c246006f675a7
+M	src/Tests/PiwikStatusMessagesTest.php	af337b9d1ded8db657700e43b1611b44
+M	src/Tests/PiwikUninstallTest.php	32d107c2e91037d3c3020136500572c1
+A	src/Tests/PiwikUserFieldsTest.php	603f88adc1b077a51edc7a587cfd1143

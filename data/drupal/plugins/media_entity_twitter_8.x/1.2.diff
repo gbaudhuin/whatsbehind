@@ -1,0 +1,4 @@
+M	composer.json	95504d9af21f9f05f5f3a1b047c376ce
+M	js/twitter.js	cd17d9730acc5a21a571f0422a601210
+M	media_entity_twitter.info.yml	d16960f46832cf45ebc177a4fbe588b2
+M	src/Plugin/MediaEntity/Type/Twitter.php	25f583848bb4b67f83a8226f483a6fd5

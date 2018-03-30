@@ -1,0 +1,4 @@
+M	composer.json	0394ea498f0f56419c277aba1c317b86
+M	social_api.info.yml	5b6efc2145fa033b40172339ba615913
+A	src/AuthManager/OAuth2Manager.php	ec349a7fe410a36f33519b13a8676c7d
+A	src/AuthManager/OAuth2ManagerInterface.php	8212185b07f5675cf3bc79907ce16223

@@ -1,0 +1,9 @@
+M	CHANGELOG.md	65c229198f95d92581e522226b701c7c
+M	composer.json	89328347eb1463103a56ad61d20d7568
+M	src/Plugin/Field/FieldFormatter/ViewsReferenceFieldFormatter.php	b0afadda4b1efa2bb289f6764eeff792
+M	src/Plugin/Field/FieldType/ViewsReferenceItem.php	38ed3b200752d472e543f03b4e61d678
+M	src/Plugin/Field/FieldWidget/ViewsReferenceSelectWidget.php	3f78a0bd2176471d0f095ddf52899c01
+A	src/Plugin/Field/FieldWidget/ViewsReferenceTrait.php	829f55dbf7b70624551a16d7f7f60490
+M	src/Plugin/Field/FieldWidget/ViewsReferenceWidget.php	fa619d707a0309432475d38c61e0e3b5
+M	viewsreference.info.yml	36c46e32a28a550e758145dcf433868d
+A	viewsreference.module	fdb6b961e64ed8e30722a50b040b142d

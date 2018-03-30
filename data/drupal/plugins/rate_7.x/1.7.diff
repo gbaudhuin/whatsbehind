@@ -1,0 +1,19 @@
+M	expiration/rate_expiration.info	c478dfcab6866988155027bfffefcb21
+M	expiration/rate_expiration.module	504a45b5fc7b092c334d0f9992bab358
+A	plugins/content_types/rate_widget.inc	c8083894cb66058057d5f3daf26491a2
+M	rate.info	d351574dd9c5f164e122a2bc980f2e20
+M	rate.js	51207d71e839368bd9adf673eeaa1193
+M	rate.module	6d3858ca5adfb34911b5f295555fa6f0
+M	slider/rate_slider.info	873e5bf4b940c67fc5134e8ad9e377da
+D	templates/emotion/emotion.tpl.php	
+A	templates/emotion/rate-template-emotion.tpl.php	7798c545da6d61fc21fc8bd9f0f43c93
+D	templates/fivestar/fivestar.tpl.php	
+A	templates/fivestar/rate-template-fivestar.tpl.php	f408bc0130d4e18f20fbeb6051f73be7
+D	templates/number-up-down/number-up-down.tpl.php	
+A	templates/number-up-down/rate-template-number-up-down.tpl.php	2bfb73a80aa49657213ffeebc76b2d22
+A	templates/thumbs-up-down/rate-template-thumbs-up-down.tpl.php	19be1e2373bc4299c70c3e08f9fae6aa
+D	templates/thumbs-up-down/thumbs-up-down.tpl.php	
+A	templates/thumbs-up/rate-template-thumbs-up.tpl.php	2ab35a454dd6f6f98b867fed93bebe0f
+D	templates/thumbs-up/thumbs-up.tpl.php	
+A	templates/yesno/rate-template-yesno.tpl.php	c055f49c6ec04d1bb52919e093839b7d
+D	templates/yesno/yesno.tpl.php	

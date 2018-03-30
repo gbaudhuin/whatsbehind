@@ -1,0 +1,8 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	d591fec2c7f40b69acfdbf1b8c8bcdc3
+A	composer.json	3b0f489627cd33813cce6ff2cd5fe212
+A	config/schema/twitter_block.schema.yml	6778ba9f1d815f02b0ad1c329a43318f
+A	src/Plugin/Block/TwitterBlock.php	212023fe93ac49edc58d2190d74bb3f3
+A	twitter_block.info.yml	61e40f7e52b8a1af6c49cf48861ecf98
+A	twitter_block.libraries.yml	d383b5aceb59a425111cdcf7a5aee939
+A	twitter_block.module	83b27d5f1c66f913db07b6fa1ba9e54f

@@ -1,0 +1,10 @@
+M	ds.api.php	4068dbb367320408657bb7c59186f904
+M	ds.info	78adfefd948e39509128325edf568676
+M	ds.module	8e859263ac43735b3cb6344f9d74591e
+M	modules/ds_extras/ds_extras.info	50362ea6cfe6ce665da5e11ead6a6fdd
+M	modules/ds_extras/ds_extras.module	0a1c46c6276f8d6af3e3750e00bd3e9a
+M	modules/ds_forms/ds_forms.info	d7a1de661a34bdabd8378c64b60be539
+M	modules/ds_search/ds_search.info	1de5c618efe74f2576435fdd6871897e
+M	modules/ds_search/ds_search.module	d4e944fffad239035a057e3abd1ab749
+M	tests/ds_exportables_test/ds_exportables_test.info	614010e9f871f7e2e48fc9134653a57a
+M	tests/ds_test.info	562c3efe08820063053fc7b0b5be733a

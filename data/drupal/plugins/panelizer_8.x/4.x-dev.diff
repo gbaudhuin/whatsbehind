@@ -1,0 +1,11 @@
+M	CHANGELOG.txt	5251fccb4a0bd148a64d149e3bad0286
+M	js/panels_ipe/views/SaveTabView.js	61a3055de43b17e03eedf706d36ea502
+M	panelizer.info.yml	20f13cbfaa1dc8794c81d61686186775
+M	panelizer.post_update.php	43b7e8c0b8c31c9f2c6def3809e75727
+M	panelizer_quickedit/panelizer_quickedit.info.yml	05d434de0a39fb67d9aa3128f3995cfe
+M	src/Plugin/Field/FieldWidget/PanelizerWidget.php	4ad23d37982ec1f5383dd7885ba7d7cd
+M	src/Tests/Update/PanelizerLayoutIDUpdateTest.php	5fd1c35f22b38dbb78465ae833517d29
+M	tests/modules/panelizer_test/panelizer_test.info.yml	4c27f7a1bd74a19a217fd956f5ff7254
+M	tests/src/Functional/PanelizerDefaultsTest.php	15eaef44027360b8a30e711750a247e8
+M	tests/src/Functional/PanelizerTestTrait.php	813f3b39058cbe5d077f1099a4413194
+M	tests/src/FunctionalJavascript/PanelizerIntegrationTest.php	4564b808a418295b199472f7bc4be7bc

@@ -1,0 +1,13 @@
+M	i18n_panels/i18n_panels.info	96ecab6c2385bbc3823da20b1fd2b5e7
+M	panels.info.yml	981fa8b81d479b3d53123921e4c44af1
+M	panels.services.yml	e7801b8eb5056f7d41892ea1485fe56f
+M	panels_ipe/panels_ipe.info.yml	3fdbed5ac45beddd57625492e9b9401d
+M	panels_ipe/src/Controller/PanelsIPEPageController.php	bff344c3fd73626f9b91800e224b9bcf
+M	panels_mini/panels_mini.info	272721cefb526570a892128e6320ae58
+A	src/Annotation/PanelsStorage.php	becc5718af35a43971d79609495c1d55
+M	src/Plugin/DisplayVariant/PanelsDisplayVariant.php	0e406c70b025bcfb207f2287a45e45ec
+A	src/Storage/PanelsStorageBase.php	d35ba56ea1470230bca33c2839c2f3a7
+M	src/Storage/PanelsStorageInterface.php	cc74768304972fefe780c896985040d8
+M	src/Storage/PanelsStorageManager.php	675a40799d245940b0aff1c1c6b747e8
+M	src/Storage/PanelsStorageManagerInterface.php	55f9abe1fe718e1b3dbed76f07a50539
+M	tests/modules/panels_test/panels_test.info.yml	781e76b562bd4306cbe888959f3cbbc7

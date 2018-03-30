@@ -1,0 +1,30 @@
+A	README.txt	29a8264e7e4c7bc1d64c8921e0f0442e
+A	composer.json	c12bd6cf78f1a5c2fe770021c4929a07
+A	config/schema/migrate_plus.data_types.schema.yml	6b14fe8f6ea147ffbbca51da31d7b94f
+A	config/schema/migrate_plus.destination.schema.yml	d5fe20f325f08f611e10b6c5dd60584e
+A	config/schema/migrate_plus.process.schema.yml	81b2227bb61edcce60b4bf0816a234aa
+M	config/schema/migrate_plus.schema.yml	b156458d153d6640d38cfa324bda7fbb
+A	config/schema/migrate_plus.source.schema.yml	9877a1b8c71dac851933a4ff99954dcc
+D	migrate_example/config/install/migrate.migration.beer_comment.yml	
+D	migrate_example/config/install/migrate.migration.beer_node.yml	
+D	migrate_example/config/install/migrate.migration.beer_term.yml	
+D	migrate_example/config/install/migrate.migration.beer_user.yml	
+A	migrate_example/config/install/migrate_plus.migration.beer_comment.yml	13c35046bd925f7a7db93bf86e70de1c
+A	migrate_example/config/install/migrate_plus.migration.beer_node.yml	cbb16e22d04b0230d71cd3c9da001c9f
+A	migrate_example/config/install/migrate_plus.migration.beer_term.yml	23c87092104687762a2937f994ac217d
+A	migrate_example/config/install/migrate_plus.migration.beer_user.yml	b1b2903b9b85cec0fa4103148d282453
+M	migrate_example/migrate_example.info.yml	a9656431f4e84652ae41999d7fe80bb2
+M	migrate_example/migrate_example_setup/migrate_example_setup.info.yml	e45fb08e3de247b17cae055797684051
+M	migrate_example_advanced/migrate_example_advanced.info.yml	28b8ad855c0a3025dc99cd5e325aca03
+M	migrate_example_advanced/migrate_example_advanced_setup/migrate_example_advanced_setup.info.yml	5fbeef9ab43c9a0efd87ba09cfe0fc59
+M	migrate_plus.info.yml	a9450fde6f76a629d97642818e24b742
+A	migrate_plus.install	0cd24866e162e90c9b2c368e15a682b0
+M	migrate_plus.module	18b49df04d971f1e8339bd327531c70c
+M	migrate_plus.services.yml	c707b986e3284d8e867505b3dab9d078
+A	src/Entity/Migration.php	ff382ef8ce95047998a95494feb6da9c
+M	src/Entity/MigrationGroup.php	5cf49a572beab1f35d37e5dc615a2a6e
+A	src/Entity/MigrationInterface.php	c3aa09c1a0a463c37824d9595e2ade3b
+M	src/Event/MigratePrepareRowEvent.php	0e9d55e2ce0c5dff8b8ca6e1e44cef26
+A	src/Plugin/Discovery/ConfigEntityDiscovery.php	50d65e65fd659b1a0c89448ff5c411c9
+A	src/Plugin/MigrationConfigEntityPluginManager.php	7e32b94e2fdcb47f500b1c6b1584511b
+M	src/Tests/MigrationGroupTest.php	4060174c9d5917dff7fca7130ef12257

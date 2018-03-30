@@ -1,0 +1,8 @@
+D	.idea/modules.xml	
+D	.idea/msh_svg_image.iml	
+D	.idea/workspace.xml	
+M	README.txt	edf89f4ee8f8372a9977dee168812c6f
+M	src/Plugin/Field/FieldFormatter/SvgImageFormatter.php	544bad544ab72d0465d7839165775c45
+M	src/Plugin/Field/FieldWidget/SvgImageWidget.php	55a156ed666bee76026e82a93f141637
+M	svg_image.info.yml	1b7a2097b3f599bda66fbf62b7808e68
+M	svg_image.module	ff6364833767e88dfe953de6a69c7e35

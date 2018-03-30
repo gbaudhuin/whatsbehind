@@ -1,0 +1,5 @@
+A	.gitignore	4118924bac872f113dbf5b21473da45f
+M	composer.json	4ef35ad12a761ffa173609a358c20afc
+A	composer.lock	d1485feb1a582a5642c0f03b2f2dd1a5
+M	lightning_layout.info.yml	509dcf3decf115ef2797aed7a92af805
+M	modules/lightning_landing_page/lightning_landing_page.info.yml	1bc43887b2f6e7df38c2fe671c44218b

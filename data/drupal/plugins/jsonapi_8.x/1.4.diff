@@ -1,0 +1,63 @@
+M	jsonapi.info.yml	ecdb09f11987fdbb6a71a306c1fb1eff
+M	jsonapi.module	897b9a3615aa9a71b3efd6f801d33ce7
+M	jsonapi.services.yml	a5300cd2c20164e9e797293fb4f8c04b
+M	src/Context/FieldResolver.php	288205ed2538707e263d2c96b06a0ec8
+M	src/Controller/EntityResource.php	565864dd3a2341a7baad988ee1939000
+M	src/Controller/RequestHandler.php	f213798afb7fdff7cfc28fdbadec8811
+M	src/EventSubscriber/ResourceResponseSubscriber.php	4c08bfe6186bc68f1f3950b205354c37
+M	src/Field/FileDownloadUrl.php	5cd89e21b2201a706f487e227cddd8c1
+M	src/LinkManager/LinkManager.php	e2b998e6164398be6f08d1dc0dd6026c
+A	src/Normalizer/EntityConditionGroupNormalizer.php	da984ac192c33dfbcc2d535738828a5c
+A	src/Normalizer/EntityConditionNormalizer.php	6c6a11accc189e842f390b862ddd7c4c
+A	src/Normalizer/FilterNormalizer.php	ac02a32043ddaa5b8a9749c62c399432
+M	src/Normalizer/JsonApiDocumentTopLevelNormalizer.php	4a40649d4a3c91c89d59f8856b521c12
+A	src/Normalizer/OffsetPageNormalizer.php	d5c1a555a62c928d5a846ffe72316f09
+M	src/Normalizer/RelationshipItemNormalizer.php	65c181f33c8886d7c210eb443d1e12e1
+A	src/Normalizer/SortNormalizer.php	f27cc8815ece306296dd99d0f1266e35
+M	src/Normalizer/Value/FieldNormalizerValue.php	b238d9ae0890790abfadbf20cfb62bda
+D	src/Query/ConditionOption.php	
+A	src/Query/EntityCondition.php	562f9ea88a386fd1b3d6748a424ff6a1
+A	src/Query/EntityConditionGroup.php	fa5a0ae55022d278d799e168ed216662
+A	src/Query/Filter.php	3f5d8c88abcdeb859dcd1d8c0615c8df
+D	src/Query/GroupOption.php	
+A	src/Query/OffsetPage.php	d3a39d3a9c5ceba6214acf63364b658c
+D	src/Query/OffsetPagerOption.php	
+D	src/Query/QueryBuilder.php	
+D	src/Query/QueryOptionInterface.php	
+D	src/Query/QueryOptionTreeItemInterface.php	
+A	src/Query/Sort.php	f4fa1ef79177e808c06be62a50cd5236
+D	src/Query/SortOption.php	
+M	src/ResourceType/ResourceTypeRepositoryInterface.php	b908f510790fde8f0ab7500a65297ea0
+M	src/Routing/JsonApiParamEnhancer.php	42327e5bd620fd05c2c009336adc9de5
+D	src/Routing/Param/Filter.php	
+D	src/Routing/Param/JsonApiParamBase.php	
+D	src/Routing/Param/JsonApiParamInterface.php	
+D	src/Routing/Param/OffsetPage.php	
+D	src/Routing/Param/Sort.php	
+M	tests/src/Functional/JsonApiFunctionalMultilingualTest.php	5dd7be767d331b031fd4780e595e7222
+M	tests/src/Functional/JsonApiFunctionalTest.php	4f7c512142ca26d67b3ac03f575d21f6
+M	tests/src/Functional/RestJsonApiUnsupported.php	2b95b62b8bcf70977dd4326c28eda00b
+M	tests/src/Kernel/Context/FieldResolverTest.php	1a470259cef14675d0db66ecdad8d87a
+M	tests/src/Kernel/Controller/EntityResourceTest.php	64a1854aae1aaf4e5714f0e6edea0473
+M	tests/src/Kernel/Controller/EntryPointTest.php	e581a3299517fb86fb8b5e4b0486bade
+M	tests/src/Kernel/EntityToJsonApiTest.php	9add6f08c71d29158483f64904b39e9d
+M	tests/src/Kernel/Field/FileDownloadUrlTest.php	bc7a88cf62b575428d78d44aa900c271
+M	tests/src/Kernel/JsonapiKernelTestBase.php	03937cb46fd2c8cb93a1349693f3880a
+A	tests/src/Kernel/Normalizer/EntityConditionGroupNormalizerTest.php	f28c165cb6f801fdb161179575e62337
+A	tests/src/Kernel/Normalizer/EntityConditionNormalizerTest.php	1b3ff2e9a37a83e560a646161b8ee85c
+A	tests/src/Kernel/Normalizer/FilterNormalizerTest.php	bb6fc0aa90a37f8eda3c3ef06e400377
+M	tests/src/Kernel/Normalizer/JsonApiDocumentTopLevelNormalizerTest.php	7301f878fb4f7e4c790c6d05a7bbd561
+A	tests/src/Kernel/Normalizer/OffsetPageNormalizerTest.php	8956dd0a41017b3a9c907e1007b5c809
+A	tests/src/Kernel/Normalizer/SortNormalizerTest.php	d970994edcb60d923ddeb19e3f476cc6
+A	tests/src/Kernel/Query/FilterTest.php	7994d1272669626f8f32a788e6f7f406
+M	tests/src/Kernel/ResourceType/ResourceTypeRepositoryTest.php	cec9e79bc3e50ada1cfb12b97948895a
+M	tests/src/Unit/Access/CustomQueryParameterNamesAccessCheckTest.php	f5edb4ded6ff3b186f2478f844a0d471
+M	tests/src/Unit/Context/CurrentContextTest.php	32554a12e09759fc27e8788cd5f9e9ee
+M	tests/src/Unit/Controller/RequestHandlerTest.php	9845428b3ca4ecc6af3eee037cf865c4
+M	tests/src/Unit/JsonApiSpecTest.php	a01faa8d336c165ebf4623f44f29101c
+M	tests/src/Unit/LinkManager/LinkManagerTest.php	6d2eefec78b2d08813e3b341168392fb
+M	tests/src/Unit/Normalizer/JsonApiDocumentTopLevelNormalizerTest.php	dd6afd6d140acd920e1c318fd96c4b18
+M	tests/src/Unit/Routing/JsonApiParamEnhancerTest.php	d6c060121e63ff5cc42f6ca389b85ae2
+D	tests/src/Unit/Routing/Param/FilterTest.php	
+D	tests/src/Unit/Routing/Param/OffsetPageTest.php	
+D	tests/src/Unit/Routing/Param/SortTest.php	

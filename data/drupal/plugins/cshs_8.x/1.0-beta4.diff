@@ -1,0 +1,14 @@
+M	cshs.info.yml	ccdabbd507c95dafdd51ec534073b43e
+M	cshs.module	a2e8b997f31f8cbffd3b01505b54d725
+M	cshs.views.inc	883eddeb42afbe0737e206092d1d75a5
+M	js/libs/jquery.simpler-select.js	9a912b7b92eefbc94c5e83127879054d
+M	src/CshsOptionsFromHelper.php	ceec5207ea9c8cfbd0cc2ff62ec6eeac
+M	src/Element/CshsElement.php	b0aa104c78e6b344eb48b12b93357621
+M	src/Plugin/Field/FieldFormatter/CshsFlexibleHierarchyFormatter.php	b7625e9c5925286282dd7713e1dd83a0
+M	src/Plugin/Field/FieldFormatter/CshsFormatterBase.php	bc704183896fad1327e23352c8833f02
+M	src/Plugin/Field/FieldFormatter/CshsFullHierarchyFormatter.php	13813825da88196d4a2e18957864e8d3
+M	src/Plugin/Field/FieldFormatter/CshsGroupByRootFormatter.php	b576bbec7f1e7a71af6d56c571d93134
+M	src/Plugin/Field/FieldWidget/CshsWidget.php	10955feb8251e832cff878ea01c18364
+A	src/Plugin/views/filter/CshsTaxonomyIndex.php	c9204f41850d1d9e71377ba7bf982e12
+M	src/Plugin/views/filter/CshsTaxonomyIndexTid.php	2c950aae0739d639af032169b6b6f6ba
+A	src/Plugin/views/filter/CshsTaxonomyIndexTidDepth.php	11f688acc277ea66be56ae7533f8a009

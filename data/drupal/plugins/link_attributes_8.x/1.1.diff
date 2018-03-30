@@ -1,0 +1,5 @@
+M	link_attributes.info.yml	46407f7c0fc98151c9b6765024cb4252
+A	link_attributes.link_attributes.yml	2b7997666b53b31592b22584a9bbf03b
+A	link_attributes.services.yml	269506fb415768d8fb4d9296c4f16857
+A	src/LinkAttributesManager.php	22d8e6df3af020eea41ff799664eabb0
+M	src/Plugin/Field/FieldWidget/LinkWithAttributesWidget.php	456b3dcda327d7509aa48035dbfc8b1e

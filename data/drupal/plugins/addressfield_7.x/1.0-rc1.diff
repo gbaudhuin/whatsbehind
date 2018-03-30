@@ -1,0 +1,19 @@
+A	addressfield.address_formats.inc	f40bc04f0c6070add2a4c62f8ca98d78
+A	addressfield.administrative_areas.inc	020de5aca268dc01749f8f9a8a620fc9
+M	addressfield.api.php	2e41653980a05c3d0bd7434b32ea1efe
+M	addressfield.css	a95ceeb88adf59c4dc1d0fa8978c0e7b
+M	addressfield.devel_generate.inc	6b8234da503599f84205a78eda7cbb62
+M	addressfield.info	05929ee864b18024cbc76f20d30a798d
+M	addressfield.module	d68cbc91a63a65e1e9cbd6b6055dd906
+M	addressfield.tokens.inc	5f5f4e29398f05a9cceb757b26004ee8
+M	example/addressfield_example.info	c03eb480ae184529b51e02a6480deca8
+A	example/plugins/format/address-ch-example.inc	d111ba2fbac1a87e4512f3c10a2be9dc
+D	example/plugins/format/addressfield-example.inc	
+M	plugins/format/address-hide-country.inc	d1f08cba3d5e5c154d6a966fe710039a
+A	plugins/format/address-hide-postal-code.inc	2c4171987da9385535f719c738b70cfa
+A	plugins/format/address-hide-street.inc	19ad4d7df389e034e58c356677e9b4cd
+M	plugins/format/address.inc	f589ab5c87baa329780a7f8b5944a0ab
+M	plugins/format/name-full.inc	285c47de650a6f8978d37181934bc8a1
+M	plugins/format/name-oneline.inc	3be09c239d4261f6585844133001e382
+M	plugins/format/organisation.inc	c8dac6319f93566a5b0d946bda114076
+M	views/addressfield.views.inc	bc19231ad18204b0e0ba9dd721192488

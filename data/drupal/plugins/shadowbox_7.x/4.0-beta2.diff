@@ -1,0 +1,10 @@
+M	file_shadowbox/file_shadowbox.info	7e3b162a0ea60683441be5d1fa9ad7ed
+M	image_shadowbox/image_shadowbox.info	3a9d7e582e6701c1caafa8de3a310537
+A	login_shadowbox/css/login_shadowbox.css	a377a876d57bf56b9665f98b75a0d049
+A	login_shadowbox/login_shadowbox.admin.inc	baf9144a8483b95b0451007639508767
+A	login_shadowbox/login_shadowbox.info	8f819253b3ce499824379072b3032403
+A	login_shadowbox/login_shadowbox.install	f0ebfba0dd9b7f02292ae3f14809cfd9
+A	login_shadowbox/login_shadowbox.module	51a4b8b8b707ae86df27191b95ada12a
+A	login_shadowbox/scripts/login_shadowbox.js	b465b963b325a59a4a088631922ee8c2
+M	shadowbox.admin.inc	ce0d59893c334d076ff632550e4ca526
+M	shadowbox.info	52198bd4dad3183671e25244e3c9a7fb

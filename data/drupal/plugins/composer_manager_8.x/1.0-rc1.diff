@@ -1,0 +1,16 @@
+M	README.txt	b279a600040c867d54b2a61c2008471b
+M	composer_manager.drush.inc	400d75c774b37d09571a092f502c7720
+M	composer_manager.info.yml	57e58e7b5956ac2564bf104bf46128ce
+M	composer_manager.install	89d3846b2bc5fabbe45983584dd927c1
+M	composer_manager.module	ec6a7108776c9225759e45c91433fcc1
+M	composer_manager.services.yml	0a0dfdf77dd97dff8f5e94c03c730d90
+M	scripts/init.php	7d5c78c4072757596374f790966cfb07
+M	src/Composer/Command.php	92eccc5872f858f8a8278292dd5965bc
+M	src/ExtensionDiscovery.php	df5030cc5bf6f94507bdcec2863fec41
+M	src/PackageManager.php	59e79bb3a8eb3f3c5fe88148f180d860
+M	src/PackageManagerInterface.php	72140b72aee4fdcf7f89793950289745
+D	src/RootPackageBuilder.php	
+D	src/RootPackageBuilderInterface.php	
+M	tests/src/Unit/ExtensionDiscoveryTest.php	2dbe924b5f781c4d8a41417defa65fdc
+M	tests/src/Unit/PackageManagerTest.php	47b8c3b5e8e2519e47555113b9776531
+D	tests/src/Unit/RootPackageBuilderTest.php	

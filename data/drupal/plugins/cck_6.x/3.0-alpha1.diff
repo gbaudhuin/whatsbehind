@@ -1,0 +1,223 @@
+M	CHANGELOG.txt	035a28ba341e58ccae14080aa80d10d7
+M	DEVELOPER.txt	bee3ebf4f03835894118521335f5ff27
+M	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+M	README.txt	8d4cb74e62c8c6ea9a68fb4ad46004b4
+M	UPGRADE.txt	ff2eaf51124a19adc2e55859ff2bd0e1
+M	content.info	b8d3304b8c7320e0482b33bc5ec2d7f8
+M	content.install	2f68bdad3f987c6059c898f04d5396fe
+D	content.js	
+M	content.module	610f613dab524a026ab21c3baf719593
+M	help/add-existing-field.html	c742d61011101be79a54e623990e2dc3
+M	help/add-new-field.html	c43d99ac526d1ea864222d7cdaa2b70f
+M	help/add-new-group.html	f5eb65b02d7053cf6144cee401c9c4ec
+M	help/add.html	32e71616e0e1ad3a0ad3a35e0dbfcb97
+M	help/content.help.ini	7b35b69d4a222aca677c5782198a8b10
+M	help/manage-fields.html	bebad5568cccdd6639f745be74f19ba1
+M	help/rearrange.html	808687d04f443a7b26b3a7bcb3a95ec1
+M	help/remove.html	e582ebb461595fc7287d37af8227022e
+M	help/theme-field-templates.html	462f783368ae32cd9449f7b66608f916
+M	help/theme-formatters.html	aa3c311811b0b572a40b223159a3f501
+M	help/theme-node-templates.html	f1280b04161b90b54b6d04ece660b0cb
+M	help/theme.html	879f227f197a09004e6a2301729a3a51
+A	images/remove.png	1cc71ab91a39efba1c53d22f47fcd48e
+M	includes/content.admin.inc	f54dfab49a9932a4358d37b7a99a40ca
+M	includes/content.crud.inc	e30e699a2812014da11fee51d272f8ef
+M	includes/content.devel.inc	834c061a49699c37cee4367a04653d0e
+M	includes/content.diff.inc	0664fa747cc0ef40b043d9858d35e45d
+M	includes/content.node_form.inc	bbb7de108a3ac866cc5043941c23322c
+M	includes/content.rules.inc	99b3d11ea6c771e1bcae59c8a6d63e25
+M	includes/content.token.inc	f5315c46caa7e03e8780ecd6cd40445b
+M	includes/panels/content_types/content_field.inc	cbba67e8a4127b06bd041346af863b5f
+A	includes/panels/content_types/translations/includes-panels-content_types.de.po	bd3a6b97cd165faccf94d271c3ba40d4
+A	includes/translations/includes.de.po	87cdc90199312c3c6515b9af15ba79b7
+M	includes/views/content.views.inc	2bfc00a3a58cac15f1ec31c9c638f567
+M	includes/views/content.views_convert.inc	96720a9dd7894cf7a3cc909d778cdfb0
+M	includes/views/handlers/content_handler_argument.inc	a83d82e4dcf807fc8d6a27ac6aeeac13
+M	includes/views/handlers/content_handler_argument_many_to_one.inc	ceb2f99d869413080970ba5f2e54ce8d
+M	includes/views/handlers/content_handler_argument_numeric.inc	8006b7e21bf95128427ad4d795c4bdb4
+M	includes/views/handlers/content_handler_argument_reference.inc	ebc6640c948e5c3fa18fcafe823d33f6
+M	includes/views/handlers/content_handler_argument_string.inc	0d563fa32c69c073cb00aba78dd1fa8d
+M	includes/views/handlers/content_handler_field.inc	34ee95e71daf5be844327e3b4582580d
+M	includes/views/handlers/content_handler_field_multiple.inc	331021072a0f10e5acdab77733a52432
+M	includes/views/handlers/content_handler_filter_float.inc	78e69d9a7c368b3e2c79004d5f4c5200
+M	includes/views/handlers/content_handler_filter_many_to_one.inc	14cc9df9db1ca9435202ba0d6a1dbdcc
+M	includes/views/handlers/content_handler_filter_numeric.inc	79238e77b4392b62aaf708dc958027c8
+M	includes/views/handlers/content_handler_filter_string.inc	58b0135e027e54e2f935eb2b3a06106c
+M	includes/views/handlers/content_handler_relationship.inc	8a1af0851679c97c1d2e2eeb54776fe3
+M	includes/views/handlers/content_handler_sort.inc	262237b69e06ff8c3c2e516e06ecb3e0
+M	includes/views/handlers/content_plugin_display_simple.inc	819fc799e27ba5122a95aace0da188fc
+M	includes/views/handlers/content_plugin_style_php_array_ac.inc	d06243baf23a3c111d1b7fa74d6aef91
+A	includes/views/handlers/translations/includes-views-handlers.de.po	a2c0b5c8a57f34f32ce6265c3dda6608
+A	includes/views/translations/includes-views.de.po	8f39bb2d6eec0d646e7f23e5b573fe72
+A	js/content.admin.js	79d2515669a9f835dcc998793d013c14
+A	js/content.node_form.js	ada9de16d89da0e2465f1cf16e71da69
+A	js/translations/de.po	047ca66abbff1c64c240cc24f9c06651
+M	modules/content_copy/content_copy.info	042e6beffe4dede0870e2192d95a0b73
+M	modules/content_copy/content_copy.module	afc16fb0f656a84619611e1351407c11
+M	modules/content_copy/content_copy_export_form.tpl.php	fb88a3002242663d2b94aeb530ddf1d2
+M	modules/content_copy/translations/modules-content_copy.de.po	84373e273305e2b9cff79635da7041b9
+M	modules/content_copy/translations/modules-content_copy.nl.po	bed32475135f01c0a404aec1ec925ea3
+M	modules/content_copy/translations/modules-content_copy.pot	f2e9bd759d589d16da27872253af7895
+D	modules/content_copy/translations/modules-content_copy.sv.po	
+M	modules/content_multigroup/README.txt	60954cfe170f71aa88a678b447d196d9
+A	modules/content_multigroup/content_multigroup.admin.inc	8454025b4c1afcd989ab6ecfd23310c1
+A	modules/content_multigroup/content_multigroup.css	f9c82b41f76fccf6627a5d305a4a6b93
+A	modules/content_multigroup/content_multigroup.info	c1e1dc54c76a249b76047a63f7e55ce4
+A	modules/content_multigroup/content_multigroup.install	6273ed0c86d3fa61a941ec9db0c8b617
+A	modules/content_multigroup/content_multigroup.module	1c51179908048e287c3c6f5014dd1a9b
+A	modules/content_multigroup/content_multigroup.node_form.inc	9a0a0cbf8e4894a71c8b91802372a8c1
+A	modules/content_multigroup/content_multigroup.node_view.inc	4e121ebabbc282ba0ac7b905faa564e1
+A	modules/content_multigroup/panels/content_types/content_multigroup.inc	4fcf49dcd7ceeb2112e0e5092ec1c3c4
+A	modules/content_multigroup/panels/content_types/icon_cck_field_group.png	c8753402cda2d86db734a0892ca74a35
+A	modules/content_multigroup/panels/content_types/translations/de.po	a05db219df75d2b220e0974e08ec6132
+A	modules/content_multigroup/translations/modules-content_multigroup.de.po	92c517c464b4d4fbb71cec24b9402ca8
+A	modules/content_multigroup/views/content_multigroup.views.inc	37ce4585052ce714943d71a562414546
+A	modules/content_multigroup/views/handlers/content_multigroup_handler_filter.inc	639305045a2f395bc4d83b762e852458
+A	modules/content_multigroup/views/handlers/translations/modules-content_multigroup-views-handlers.de.po	da7823a6ac51b970bb32e76b4683ed45
+A	modules/content_multigroup/views/translations/modules-content_multigroup-views.de.po	3a4537214bd91fb64edae41464cef821
+M	modules/content_permissions/content_permissions.info	806589d38ff5f13ec889741a4564c5f3
+M	modules/content_permissions/content_permissions.install	e948dffc6145875f801b7c654f23b0e4
+M	modules/content_permissions/content_permissions.module	6050723886c90fe6f20f528fef8ed2cc
+M	modules/content_permissions/translations/modules-content_permissions.de.po	51e87586c14164fbf6a0c789e62bd7df
+M	modules/content_permissions/translations/modules-content_permissions.nl.po	fbc4262b408b2ff72c538a36ac3a25ee
+M	modules/content_permissions/translations/modules-content_permissions.pot	bb367073059737a31f5f4aa1b03e06b1
+D	modules/content_permissions/translations/modules-content_permissions.sv.po	
+M	modules/fieldgroup/fieldgroup-rtl.css	9cbb8377e7aefb568b92ac314198be2d
+M	modules/fieldgroup/fieldgroup-simple.tpl.php	ca2cb4c79fb11212512ed69d611d443e
+M	modules/fieldgroup/fieldgroup.css	62e9202e8332dafb550e835ab2cce77b
+M	modules/fieldgroup/fieldgroup.info	a752641d3fc77c085cd533ac3459428e
+M	modules/fieldgroup/fieldgroup.install	2e3b12edc10efe656497259152900879
+M	modules/fieldgroup/fieldgroup.module	cb0aabcd1ee55a0b956dd1ea42ee1de7
+M	modules/fieldgroup/panels/content_types/content_fieldgroup.inc	d1dcab4a5ccc85d9bb94ee9b074de1c0
+A	modules/fieldgroup/panels/content_types/translations/modules-fieldgroup-panels-content_types.de.po	107ee65e2e27f775f8d14ac6293e6fa4
+D	modules/fieldgroup/translations/modules-fieldgroup-panels-content_types.de.po	
+D	modules/fieldgroup/translations/modules-fieldgroup-panels-content_types.pot	
+M	modules/fieldgroup/translations/modules-fieldgroup.de.po	b8384bbe1b306e4574387811390d9279
+M	modules/fieldgroup/translations/modules-fieldgroup.nl.po	256b7619e910560b4f10176933ad1c39
+M	modules/fieldgroup/translations/modules-fieldgroup.pot	63b05d9b63ff69e166a0a8a4253af627
+D	modules/fieldgroup/translations/modules-fieldgroup.sv.po	
+M	modules/nodereference/help/nodereference.help.ini	3680e1728650d0867b6823dda7e84c59
+M	modules/nodereference/nodereference.info	9f69b566926709fbef8c40ab7d2a43c7
+M	modules/nodereference/nodereference.install	ee3cb60f660a10f2d4ad71893e8343a6
+M	modules/nodereference/nodereference.module	11a5570bdbe1a886f69cc3b5865ba746
+M	modules/nodereference/nodereference.rules.inc	c36124e3167d5859ff6cd3ed7881db6c
+M	modules/nodereference/panels/relationships/node_from_noderef.inc	61ea972c87753a302a6458ba57a9f646
+A	modules/nodereference/panels/relationships/translations/modules-nodereference-panels-relationships.de.po	99f5b30b21dddd3ecbfc2409376b55f8
+D	modules/nodereference/translations/modules-nodereference-panels-relationships.de.po	
+D	modules/nodereference/translations/modules-nodereference-panels-relationships.pot	
+M	modules/nodereference/translations/modules-nodereference.de.po	1329e6ba27f56d4a67717266bfdecfef
+M	modules/nodereference/translations/modules-nodereference.nl.po	af89f478150b16507fbaa1dd2de67c42
+M	modules/nodereference/translations/modules-nodereference.pot	55ed48890a8107df5c6e45612a88a4b2
+D	modules/nodereference/translations/modules-nodereference.sv.po	
+M	modules/number/help/number.help.ini	860d3629eb4b8cd7b27280269d0148c7
+M	modules/number/number.info	69557d907671d2ae418b1e99c2e197a0
+M	modules/number/number.install	1fd7ea36c832d348a89aaaae53bd1868
+M	modules/number/number.module	7fb5ac553423e0e573332187ff07d765
+M	modules/number/translations/modules-number.de.po	5d74a8deb0067f93fef258aa1a8cf626
+M	modules/number/translations/modules-number.nl.po	2f1a2e9d19a936c1aa31da72515dccd2
+M	modules/number/translations/modules-number.pot	bc0dd7505357359285c6188075ba3faa
+D	modules/number/translations/modules-number.sv.po	
+M	modules/optionwidgets/help/optionwidgets.help.ini	95ed0abf2a7dcfdeaa94e8e86730b7d2
+M	modules/optionwidgets/optionwidgets.info	8fa000c571e2ad7b54b7544d0479bf19
+M	modules/optionwidgets/optionwidgets.install	8fd80304cd18bfa0b8e4c457ea5b531d
+M	modules/optionwidgets/optionwidgets.module	d57ceb1d5b72b54e1996bb90477c57c8
+M	modules/optionwidgets/translations/modules-optionwidgets.de.po	3641209887a5accb092a4a264df8d1d3
+M	modules/optionwidgets/translations/modules-optionwidgets.nl.po	42c39bd90b3fb15def51e02764963f65
+M	modules/optionwidgets/translations/modules-optionwidgets.pot	1f51fe67208a1e1dc935d203adb8a7d0
+M	modules/optionwidgets/translations/modules-optionwidgets.sv.po	b0ffd4eae1fda25fd49a33f600f892ff
+M	modules/text/help/text.help.ini	aef410eaed47aa7c847a8267a4269494
+M	modules/text/text.info	ba64d8129fb2ba8b0f41d934807d0740
+M	modules/text/text.install	c6754c3d531576611593569ed6547e71
+M	modules/text/text.module	8689f099329ae92570dafca205f7d5ce
+M	modules/text/translations/modules-text.de.po	520ac9963d86e26ac00b911afa1e554f
+M	modules/text/translations/modules-text.nl.po	9a5a09419b157e0f20308a51587ef2b2
+M	modules/text/translations/modules-text.pot	808f46ad93fe952c4e58388452072d01
+D	modules/text/translations/modules-text.sv.po	
+M	modules/userreference/help/userreference.help.ini	365a581d368f4f1c0bdaeeff608b7c4a
+A	modules/userreference/panels/relationships/translations/modules-userreference-panels-relationships.de.po	21ea91b6b41c9f51e473023a3bc1bf25
+M	modules/userreference/panels/relationships/user_from_userref.inc	5d3f713b2fceb0854ba6e9e6c8e9e4d1
+D	modules/userreference/translations/modules-userreference-panels-relationships.de.po	
+D	modules/userreference/translations/modules-userreference-panels-relationships.pot	
+M	modules/userreference/translations/modules-userreference.de.po	55fe40bc70f56d3fd135afbe605b8a40
+M	modules/userreference/translations/modules-userreference.nl.po	3fc4ea6b627701d9714a5c8ae72cb224
+M	modules/userreference/translations/modules-userreference.pot	0d2c0810d61fd8e8be98067e16e1f2bd
+D	modules/userreference/translations/modules-userreference.sv.po	
+M	modules/userreference/userreference.info	590ea75c27ee47469d3693a180649e3e
+M	modules/userreference/userreference.install	d0635efbcdca647c3dfd9d44d6ae3eb6
+M	modules/userreference/userreference.module	80ec4eaf334eead945b3f11534ea3d7a
+M	modules/userreference/userreference.rules.inc	3dd42ad701c9e818460852318ce85e56
+M	tests/content.crud.test	c0326a29bacb515573a0f217e559d86c
+A	tests/fieldgroup.test	74884a04f561e72970874102a51e7c9b
+M	theme/content-admin-display-overview-form.tpl.php	1ea6f6851d1088c8dc974b2ad1981ba3
+M	theme/content-admin-field-overview-form.tpl.php	adedeb0839cc4173b09bff7df55c7505
+M	theme/content-field.tpl.php	229f9300d539d3f3796f75c024e27203
+M	theme/content-module-rtl.css	dcc9179c9b66b65988209c1c84f94eef
+M	theme/content-module.css	fba99098bc383921c939b06dcaec775f
+M	theme/theme.inc	b37064b3432ce66f9958c39737c932a4
+M	translations/content.de.po	4e169a6b037d14c1c9d715f6ab4fdb4a
+M	translations/content.pot	23b36d7a20d51031c985107117b56818
+D	translations/content.sv.po	
+M	translations/es.po	d6c80e6a1146c41994f4d501a4876d61
+M	translations/fr.po	742a844b4ee41e73cd8b6227634e0318
+M	translations/general.de.po	20234531578d54405e6c8bd8cc0808bf
+M	translations/general.pot	4b1514e2b0a0b10d0dc6129a8d6e65a5
+D	translations/general.sv.po	
+M	translations/help/de/add-existing-field.html	98b7b5397843c55d93392c2723e69084
+M	translations/help/de/add-new-field.html	30200268918f2d6f835feeacc1924c5a
+M	translations/help/de/add-new-group.html	470996fde39490f1654db9ef0f5f979d
+M	translations/help/de/add.html	1dbd1b5a4ff8de94d1a1e217a50f4ef1
+M	translations/help/de/content.help.ini	1bbb2ac251ac1b4c8c1f1db60212f0a8
+M	translations/help/de/manage-fields.html	5cc5ed342cd64c630620f364a2e8d42e
+M	translations/help/de/rearrange.html	1927109defccb4fa45dfc7093b40aa8e
+M	translations/help/de/remove.html	85497136d167810bac0a08dcef75ead8
+M	translations/help/de/theme-formatters.html	f2129a93e9acbaf73a06232b9183f723
+M	translations/help/de/theme.html	c872c73354e52b598723827203f8d0aa
+M	translations/hu.po	df9643acbf5fd1e2c269dad31148d56b
+M	translations/includes-panels-content_types.de.po	252b87b86db359c63229ff6c3dd51f03
+M	translations/includes-panels-content_types.pot	f5a49a262fa6c56abd7397d6ee6a2f52
+M	translations/includes-views-handlers.de.po	7e3437ea1b1b38cbe478d7bc82c6ae92
+M	translations/includes-views-handlers.pot	a01e20f8d6a860200a382a0c32156bcb
+D	translations/includes-views-handlers.sv.po	
+M	translations/includes-views.de.po	c25478510f8f9515119aa659242e4bad
+M	translations/includes-views.pot	2b95a7a30d95da236179320e07ccdbb5
+D	translations/includes-views.sv.po	
+M	translations/includes.de.po	09a0fd3c5626644b777e4cb6a6d88a58
+M	translations/includes.pot	eb34325bed6c4ca805103f05b03bc82b
+D	translations/includes.sv.po	
+A	translations/installer.de.po	0cf653214b9afbd0390488dbddf837f6
+A	translations/installer.pot	124157efb89481e7c0c09f6d9ac561d7
+M	translations/it.po	0c26a7b3eaf956bdc0eb33b75dd37703
+M	translations/ja.po	389af58c595c12068e9a780987c31609
+A	translations/modules-content_copy.de.po	81c45c32c85124760199ac229a6cd1e6
+A	translations/modules-content_copy.pot	c2678375a7ff6f807a5d3f03e984fad5
+A	translations/modules-content_permissions.de.po	2f3494d8c9882e112964fc04f40d2776
+A	translations/modules-content_permissions.pot	a6746a9f5e1bc6d530149923f585555d
+A	translations/modules-fieldgroup-panels-content_types.de.po	ccfaad5eacc56bce4ee32c548cd54238
+A	translations/modules-fieldgroup-panels-content_types.pot	cf08a926a67fc7eaa0b74a4941c999cc
+A	translations/modules-fieldgroup.de.po	833d6586a8dbb95a4b2e80123b1dc53e
+A	translations/modules-fieldgroup.pot	8f1d4cf8479544ee8aef30356f8f8d6f
+A	translations/modules-nodereference-panels-relationships.de.po	d88241ec2f8feccd88ec65ad2614cdca
+A	translations/modules-nodereference-panels-relationships.pot	0e51dbb3a7f672ac5a41bf12f506a5e0
+A	translations/modules-nodereference.de.po	ef77b31e1ce78c59148d260bcf89adc8
+A	translations/modules-nodereference.pot	7bc1f04febc4c9fc5489268751d96d62
+A	translations/modules-number.de.po	f119f6bad89544ec0f91d441c17a4f52
+A	translations/modules-number.pot	86a86cefef0c39bd493647c4fa6bb859
+A	translations/modules-optionwidgets.de.po	44130215c797e3d198c3edd352147db4
+A	translations/modules-optionwidgets.pot	035cec90e030635ac05eab3f91794e88
+A	translations/modules-text.de.po	1cace815fb89f5544826c1c33c2c1286
+A	translations/modules-text.pot	8e35d5331c537a18d54f97c439ee28f4
+A	translations/modules-userreference-panels-relationships.de.po	549a445e18aa762f483a6d4e3cdff100
+A	translations/modules-userreference-panels-relationships.pot	14ff0ab7da5995f7b144fea9501f050e
+A	translations/modules-userreference.de.po	f9b8327a1ccc4398a19362040bd97a1a
+A	translations/modules-userreference.pot	e62a7212fb1a1fe9d46f592326041e76
+M	translations/nl.po	a887ae9736fcfca71b22efee9e00000d
+D	translations/pt-br.po	
+M	translations/pt.po	6e1a8c13fe438e37d117cd4737303b94
+A	translations/root.de.po	97c49583cfaec13f1496c48fcf6cb154
+M	translations/ru.po	052050378ffd7e919b6482826da33bc7
+M	translations/theme.de.po	0f5ea3b4317e9bc5a6c38f9ae27ae401
+M	translations/theme.pot	2ef3f0d91d3cc255245a1b3230c96faf
+D	translations/theme.sv.po	
+M	translations/uk-ua.po	1266ead0bb9863f270c54625ac8c2e8d
+M	translations/uk.po	675b4300cbf948b498d309cb6d6926e8
+M	translations/vi.po	339d8cf259bbc17177ea57cb6d7e4dc2

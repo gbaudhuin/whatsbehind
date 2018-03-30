@@ -1,0 +1,16 @@
+M	CHANGELOG.txt	ad4c3cca8181b68f3cfacbe2aea87b4e
+M	README.txt	f9207d3025f5c9e4bc679e1f04e28bad
+D	field_group.admin.inc	
+A	field_group.api.php	d9745e3018d53cbf1736c151406eed40
+M	field_group.css	2cb36131bd666e4f97bdca5635e2e7f5
+D	field_group.features.inc	
+M	field_group.field_ui.css	53f6e0d3eeb355470a0644cfd1eda2e5
+M	field_group.field_ui.inc	9109c16d3a81eabf7a24c751854d4496
+M	field_group.field_ui.js	4fa77c06ae0b04ffe03c97c07c810943
+M	field_group.info	53895a80037051c537d45664f0effc4b
+M	field_group.install	b9392dc8c83fef75237f63de8e6e3a03
+M	field_group.js	53cde341cbec74e5b2d0a3b9824685e0
+M	field_group.module	6c56a2bd98ceb124e949255cdce7bf08
+M	field_group.test	d21dfee2990afcb6a35fccb955ed10d8
+M	horizontal-tabs/horizontal-tabs.css	888d892f574d5218c691f236829c296a
+M	horizontal-tabs/horizontal-tabs.js	631374005b7896e7226a8974ec67e215

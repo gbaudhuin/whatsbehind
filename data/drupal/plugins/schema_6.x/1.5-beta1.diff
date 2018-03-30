@@ -1,0 +1,5 @@
+M	engines/schema_mysql.inc	4f40b5ffa69eb148e1cf17b167f33704
+M	engines/schema_pgsql.inc	bce0c01c68fa3c78f1cfff1653953247
+M	schema.info	bfbc22554bf221b9c3e5faa0c5b73e67
+M	schema.module	ac52ad5d1684519e5eae94d7e1ee9c13
+A	tests/schema_regression.test	fdea0469227ee3283a12d618ec2aa479

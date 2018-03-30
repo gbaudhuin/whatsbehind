@@ -1,0 +1,6 @@
+M	README.txt	86cbaef134ede4551e22565eccd960b9
+M	session_limit.info	9f10b5176a020b8f1f8bc653db7e92d6
+M	session_limit.install	79564d074680e38afca61f029ad99a07
+M	session_limit.module	3520c6d49d4ca780a26951e83aa313a1
+A	session_limit.rules.inc	33eb24a27a4bc1a93b78b1c4f27af97f
+A	tests/session_limit.test	1ea031018880c67ce9b4bdda3d22e936

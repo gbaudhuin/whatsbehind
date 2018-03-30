@@ -1,0 +1,6 @@
+M	src/Entity/TaxonomyMenu.php	f3686b0cfc466e3dd65b4ff95f913e1d
+M	src/Plugin/Menu/TaxonomyMenuMenuLink.php	c5acd14b8b8e8969070226951fd0ba60
+M	src/TaxonomyMenuHelper.php	98200ff93032b3ddba94028e274b2e2a
+M	taxonomy_menu.info.yml	a69d32ea48da5d7080b2951993f9c650
+M	taxonomy_menu.module	4c623ef4b2c490ebc6ff2ad9a8c71f06
+M	taxonomy_menu.routing.yml	a949275cd0cf2616e427586b62499659

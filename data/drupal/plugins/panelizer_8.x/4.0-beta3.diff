@@ -1,0 +1,34 @@
+M	CHANGELOG.txt	c4075e4433ff22569c18420ea28a38e3
+M	js/panels_ipe/views/SaveTabView.js	33a1fd9753825022eb36236a1ed3d717
+M	panelizer.api.php	a9bf14e621eb81bbccf9cd62c27d72de
+M	panelizer.info.yml	8a5517dd9fad0e17fd04fc1b430d89b4
+M	panelizer.module	eb7e821c69a586a2b13acb61a00a8a56
+A	panelizer.post_update.php	4c6b1f44b2afa2e54cfe4df5f599e79d
+M	panelizer.routing.yml	63a6154191c9c3d5df846d593537637d
+M	panelizer_quickedit/panelizer_quickedit.info.yml	f2be533317086d58e362560f6c68f6b8
+M	panelizer_quickedit/tests/src/FunctionalJavascript/PanelizerQuickEditTest.php	be516e528d8e21a3a38c84ffc7591c06
+M	src/Form/PanelizerWizardGeneralForm.php	3922e09425ad6a7c9878b249194dc57c
+M	src/PanelizerEntityViewBuilder.php	5bbe2fa18e4b448c1f112a46d66abdef
+M	src/Plugin/PanelsPattern/PanelizerPattern.php	8c467b767fc4fd4ffb67ce171479054c
+M	src/Plugin/PanelsStorage/PanelizerDefaultPanelsStorage.php	df316c847f98af4f1286a2b1996b7731
+M	src/Plugin/PanelsStorage/PanelizerFieldPanelsStorage.php	64b6f3c36b95292ef4c54d8ce2e96888
+D	src/Tests/PanelizerAddDefaultLinkTest.php	
+D	src/Tests/PanelizerDefaultsTest.php	
+D	src/Tests/PanelizerIpeTest.php	
+D	src/Tests/PanelizerNodeFunctionalTest.php	
+D	src/Tests/PanelizerTermFunctionalTest.php	
+D	src/Tests/PanelizerTestTrait.php	
+D	src/Tests/PanelizerUserFunctionalTest.php	
+M	tests/modules/panelizer_test/panelizer_test.info.yml	4742797967ce102b4b2695ed0f7b45ab
+A	tests/src/Functional/PanelizerAddDefaultLinkTest.php	1f257a65adb6528dafca4d1bb932d0a6
+A	tests/src/Functional/PanelizerDefaultsTest.php	8e6407c6a91db235560c2224899fa24f
+A	tests/src/Functional/PanelizerIpeTest.php	17306c8d8165309fd8aaf03acfe81533
+A	tests/src/Functional/PanelizerNodeFunctionalTest.php	1eaf98b823586f4749c65edf2e2e1da8
+A	tests/src/Functional/PanelizerNodeTranslationsTest.php	5de7e0f4e5f0c75ce06cac554269d8ab
+A	tests/src/Functional/PanelizerTermFunctionalTest.php	d2384be1a9edc354edd3821c2ddc1367
+A	tests/src/Functional/PanelizerTestTrait.php	ecb79e32cf3393f86093e133d698a5c7
+A	tests/src/Functional/PanelizerUserFunctionalTest.php	682b323a9a04957e2b1f7f14063edeb9
+M	tests/src/FunctionalJavascript/PanelizerIntegrationTest.php	c9bc18d09c075053616c651e18329dad
+M	tests/src/Unit/PanelizerDefaultPanelsStorageTest.php	3a51d571d0898b464bc622704a1b9330
+M	tests/src/Unit/PanelizerEntityViewBuilderTest.php	a3b3cbdfabc9e4730a7db7ba82ed73ec
+M	tests/src/Unit/PanelizerFieldPanelsStorageTest.php	447384261cfd394275bcf6eee00bafa2

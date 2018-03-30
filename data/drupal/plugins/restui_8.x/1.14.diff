@@ -1,0 +1,12 @@
+A	.gitignore	95b55b1e3a304f4e340394a679893575
+M	README.txt	0c8ed0f661b192e5e275c06f80574c7a
+D	composer.json	
+M	restui.info.yml	d23b53af533f19a9eadab9b3406599a6
+M	restui.module	dda0026559aabd6c4abd5e23b6454d8b
+D	restui.permissions.yml	
+A	restui.post_update.php	83c4e6aa36e7ed23b96e928174e7013a
+M	src/Controller/RestUIController.php	31dac9cb85330cb29c619510644072f1
+M	src/Form/RestUIForm.php	9e7850d308e50ebeddf4e86364cd2066
+D	src/Tests/RestUITest.php	
+M	templates/restui-resource-info.html.twig	963bddde303c83a31628480de6a71deb
+A	tests/src/Functional/RestUITest.php	54b5e9ab7cbf0b39690c1d71b0d2fc2d

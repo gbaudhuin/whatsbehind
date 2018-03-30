@@ -1,0 +1,26 @@
+M	config/install/sitemap.settings.yml	e8a8b948e6212f3a4a1966c96d490c6c
+M	config/schema/sitemap.schema.yml	0ed1b489d63fdf887dc213ce151f2105
+M	sitemap.info.yml	6640a87fcbb33d6f21f445fe46e9e34f
+M	sitemap.install	a429e1b1bc0ca5d880312b00f870255e
+A	sitemap.links.task.yml	89a1f92294c4e7ff208c82654df8885c
+M	sitemap.module	b634639e4f8eb3fc51fb2b0434856ca0
+M	sitemap.theme.inc	fe0051daa0815c1ddcd711e68a7704d2
+M	src/Controller/SitemapController.php	f1165d8ee0b8e5dfe47ace8142e91daf
+M	src/Form/SitemapSettingsForm.php	41957d5e1b6ae0dd0908fa612be8e977
+M	src/Menu/MenuLinkTree.php	606bf76dc7cc3bc4c59df8528ae53a25
+M	src/Plugin/Block/SitemapSyndicateBlock.php	e8cef65966fe6f876d4332f0f14ab957
+M	src/SitemapHelper.php	06e78a03254689e28424b9cc65e57e58
+M	src/SitemapServiceProvider.php	5b10bb14b3392f2ebf14342603406f71
+M	src/Tests/SitemapBookTest.php	efc11af978eb7cc2fc0cf5ba5a4e0925
+M	src/Tests/SitemapContentTest.php	c6d9a69395d72bfe4e2b4f99239f656c
+M	src/Tests/SitemapCssTest.php	69b3a5c4a3b31479724384b3927eea48
+A	src/Tests/SitemapMenuCustomTitleTest.php	91b141247092419404c2ffa704477721
+M	src/Tests/SitemapMenuTest.php	82586634058760af81ef7e99fefd3643
+A	src/Tests/SitemapMenuTestBase.php	36b951ed630ec804821f9d98404637c4
+M	src/Tests/SitemapRssTest.php	63e594aabedc79ca7cb0cdffe68e9d42
+A	src/Tests/SitemapTaxonomyTermsRssTest.php	a9061099a6f4cc287f37d3e09101ab5f
+A	src/Tests/SitemapTaxonomyTermsTest.php	b37146e1883e1bdb5a29e09436ca4d42
+M	src/Tests/SitemapTaxonomyTest.php	c51cc0d408b3e2a6ab6bc8928cdc8dec
+A	src/Tests/SitemapTaxonomyTestBase.php	e7bd898361cdc5704115a97933a5914a
+D	src/Tests/SitemapTestBase.php	
+M	templates/sitemap.html.twig	8c93da28da5d874a3abcc0ccd6ffbc58

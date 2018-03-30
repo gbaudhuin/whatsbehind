@@ -1,0 +1,6 @@
+M	modules/social_media_links_field/social_media_links_field.info.yml	8703a260b1250b7c7e0cf7753ef9db26
+M	modules/social_media_links_field/src/Plugin/Field/FieldFormatter/SocialMediaLinksFieldDefaultFormatter.php	8803c3a62896806147f83a0e4e86685a
+M	social_media_links.info.yml	c41d6a70b63488cf587c66f5604ad9b5
+M	src/Plugin/Block/SocialMediaLinksBlock.php	3b2543ef066afdc747e3440886677591
+A	src/Plugin/SocialMediaLinks/Platform/Flickr.php	08e38d1998ccdafeb086132460e18d48
+A	src/Plugin/SocialMediaLinks/Platform/VKontakte.php	38ed868f3100e3c9f3e4744fc6c822f2

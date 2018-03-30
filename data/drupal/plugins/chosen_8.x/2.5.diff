@@ -1,0 +1,9 @@
+M	README.txt	b90bcffd74bf60508a160cbb0b13af9f
+M	chosen.info.yml	7d3f88c9cfe8a7625ffd7225f488dff1
+M	css/chosen-drupal.css	8fac99858fb023e62bc6c926425ec70d
+M	modules/chosen_field/chosen_field.info.yml	6483c43bc730e2a2982329531f18fc8c
+M	modules/chosen_lib/chosen_lib.info.yml	0545fbb23e859a2c1f1a9d5a803d6f58
+M	modules/chosen_lib/chosen_lib.libraries.yml	0b750e3ecff2ddaad5bdb7e63f31b9f9
+M	modules/chosen_lib/drush/chosen_lib.drush.inc	978bc600d8dc273ef12ae116e91a4b62
+M	src/Form/ChosenConfigForm.php	1e483e7bd66bf3a66fa045fe41bf0e4f
+M	tests/modules/chosen_test/chosen_test.info.yml	d744b8ff2775bb108624f689335646a8

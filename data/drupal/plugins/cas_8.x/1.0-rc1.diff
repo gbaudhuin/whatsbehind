@@ -1,0 +1,12 @@
+M	cas.info.yml	0c6c7e31eb38d47f8c7f24d7629a8068
+M	src/CasRedirectData.php	90eaca9b784e4a47eb6f3b4dbbcd4552
+M	src/Form/CasSettings.php	96936257d65ee4d2a75e45aa248d6f70
+M	src/Service/CasHelper.php	3bc40b19da2db763cc40bad40d8ccfa0
+M	src/Service/CasValidator.php	9da6c1e1baf330a57c296194c68f9758
+M	tests/modules/cas_test/cas_test.info.yml	804876e0e521135e6817741ae014955e
+M	tests/src/Functional/CasForcedLoginControllerTest.php	c749c0ec63973060acbbf04f5694f019
+M	tests/src/Functional/CasLoginFormTest.php	7e06483a79d4f74967d55369cfb07399
+M	tests/src/Functional/CasSubscriberTest.php	3c277f0a84a7d0e3cf310f86fcf3d184
+M	tests/src/Functional/CasUserFormFieldTest.php	7092d378713ddcb68ddcc9cff63005ac
+M	tests/src/Unit/Service/CasRedirectorTest.php	8ea5b84eae6ec15676b96bd273ad0d83
+M	tests/src/Unit/Subscriber/CasSubscriberTest.php	c63a7076500fce9042c83ad2a6424ec8

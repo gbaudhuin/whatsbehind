@@ -1,0 +1,17 @@
+M	src/Adapter/LocalDirectoryAdapter.php	4947fbad3e9938578e49d790b81b38c5
+M	src/Discovery/ComposerJson.php	2a5b0ac75a6d9e29e228ff127fc47c1d
+M	src/Discovery/ComposerJsonTargetDir.php	ddd7343c113619105d915802a176a4df
+A	tests/fixtures/.libraries/ComposerTargetDirTestLib/Foo.php	a6cfcf371519ccb75b04dfd9f5a7726f
+A	tests/fixtures/.libraries/ComposerTargetDirTestLib/composer.json	ab9e16268c4e68c73c54bb25dddfc39e
+A	tests/fixtures/.libraries/ComposerTestLib/composer.json	7be0432555cc8e6b9721b814582f36ba
+A	tests/fixtures/.libraries/ComposerTestLib/other/Foo.php	ef99e43b4ce5973b28f827773930048c
+A	tests/fixtures/.libraries/ComposerTestLib/psr4/Foo.php	660e3c7ba9e266263c75ce69074d065a
+M	tests/fixtures/.modules/testmod/testmod.module	126e40ad4495b21f1a8841aff2c48533
+A	tests/src/ComposerJsonTest.php	46fed9d8cf693171fd02bfb34a2c0201
+M	tests/src/DiscoveryTest.php	103fad9b8762f787d7252af916e2b19c
+M	tests/test_1/xautoload_test_1.info	9aa5d6e7624a974fe47ecc162cf3f56f
+M	tests/test_2/xautoload_test_2.info	469b627928805d32101ab90c4c9fe3f9
+M	tests/test_3/xautoload_test_3.info	5abc9a685c8bc3ff13ffc3b571078b04
+M	tests/test_4/xautoload_test_4.info	029e7fc2ea3edcdd344eb1621ab720f9
+M	tests/test_5/xautoload_test_5.info	0a61581d342f32f8131be63ad73d27b8
+M	xautoload.info	57b2aa4e332fc623bbf026b6bec83c0b

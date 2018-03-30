@@ -1,0 +1,11 @@
+M	audiofield.info.yml	75539a943be61f8bff05031aa7d47c29
+M	audiofield.module	93fbe0e7839925ed2aa7055aed22dc23
+A	composer.json	20f50976e391f4fe884bf3773b4dc88d
+M	js/jplayer.builder.es6.js	df506d8bac2c71c96a0f238874d88c1a
+M	js/jplayer.builder.js	b4ad566f0f35ff393472553e3bf14ad6
+M	src/Plugin/AudioPlayer/JPlayerAudioPlayer.php	5db12229ff073119ebaea1f8635b5255
+M	src/Plugin/Field/FieldFormatter/AudioFieldFieldFormatter.php	b579bb3f9b12d74c038ed3e2fa769a5c
+M	templates/audioplayer--audiojs.html.twig	3195f06313b0544a2d3baa7b4bed4de6
+M	templates/audioplayer--mediaelement.html.twig	a3629b2f0ea01ae3ad82a3b983815cbb
+M	templates/audioplayer--projekktor.html.twig	5194056833a33d53d846b756079c5b17
+M	templates/audioplayer.html.twig	3bec34b9519aab4856b72bd9f441e74e

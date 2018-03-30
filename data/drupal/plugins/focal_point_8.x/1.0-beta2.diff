@@ -1,0 +1,23 @@
+A	config/install/focal_point.preview.yml	ef69a6c10b36b0e45b27b21dc1deecd6
+M	config/install/focal_point.settings.yml	364cbbbb0cd46daeddcbe5e1438af6c7
+M	config/schema/focal_point.schema.yml	f434e7bd9c1cc7ebb38bb3c9071d1e6b
+M	css/focal_point.css	46d6eacac5a61259cec9c2785c425115
+A	css/focal_point_preview.css	ed6cf20128668fd3fdc0e07b9c8fe6ff
+M	focal_point.info.yml	c32b8d469bb0883b1edaf1ec2e8630d1
+M	focal_point.install	874bf976edc23beed43c7d151b82c480
+M	focal_point.libraries.yml	13c6a79cd4f28f7e21157916e441ce59
+M	focal_point.module	7550494bf1f9921fbc6940aa8b890726
+A	focal_point.routing.yml	6635e2c36ee39a52d1d7c40826e7dc23
+M	js/focal_point.js	a9f1297b7bcf76dce5b5f01246754324
+A	js/focal_point_preview.js	93d29a57d36af199e6fc4e538882d276
+A	src/Controller/FocalPointPreviewController.php	ecfa96725f5a66c0aa81f37786291fb6
+M	src/FocalPointEffectBase.php	5b6c6cd39c7683f5bba1376d6bbfdd0e
+M	src/Plugin/Field/FieldWidget/FocalPointImageWidget.php	d754de91fd9c63f9ac3804224d5f4061
+M	src/Plugin/ImageEffect/FocalPointCropImageEffect.php	827875fef9bcfec120e0a5d542a67445
+M	src/Plugin/ImageEffect/FocalPointScaleAndCropImageEffect.php	2dee49af32780e234ea25f82edc1806f
+A	templates/focal-point-preview-page.html.twig	9be04adf81b176989d52dbb772403310
+M	tests/src/Unit/Effects/FocalPointEffectsTest.php	a19c63865c13db14957bedb036753d1b
+A	tests/src/Unit/FieldWidgets/FocalPointFieldWidgetTest.php	7f1fc5c628be7f2da4209e25794ac638
+A	tests/src/Unit/FocalPointManagerTest.php	4c7daad79b616274659046ef07bfd3cb
+D	tests/src/Unit/FocalPointTest.php	
+A	tests/src/Unit/FocalPointUnitTestCase.php	a2e39155249bf5f16b1dc969c40dce95

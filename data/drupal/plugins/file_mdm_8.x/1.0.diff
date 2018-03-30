@@ -1,0 +1,8 @@
+M	composer.json	e0ce3fc5e1a7b82154ee646251f3bc7d
+M	file_mdm.info.yml	af46679e8c9a492029e2244f16232f68
+M	file_mdm_exif/file_mdm_exif.info.yml	bf26befebede0de28e9e4cc15db205e4
+M	file_mdm_font/file_mdm_font.info.yml	91a12df6932ee19b987f285351d5dff8
+M	file_mdm_font/src/Plugin/FileMetadata/Font.php	12e7d2df31e84e7b31ffb9aee90fb2c4
+M	src/FileMetadata.php	5641072beeeadce9075112ca628edd0b
+M	src/FileMetadataManager.php	6234c4824ee51a09182c580650e6eafa
+M	tests/src/Kernel/FileMetadataManagerTest.php	9fb2033afffdfa62f952e126d27666ab

@@ -1,0 +1,10 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	bootstrap_library.info.yml	8a14739cb84901bf008b9896a4e415e3
+A	bootstrap_library.install	4fdad8ea28746f7e41844b412ba59cbc
+A	bootstrap_library.libraries.yml	9b90def79ee67f4ad8dfeef028e13c32
+A	bootstrap_library.links.menu.yml	7128bb13c8b4a0d955fd4e5c495d0288
+A	bootstrap_library.module	7cbd22350ccf3c9da58305f94fcb9f88
+A	bootstrap_library.routing.yml	333878b753b65ba44b97dedf5e86cd3e
+A	config/install/bootstrap_library.settings.yml	d148e5465db952c42b95e0ff46167fc5
+A	config/schema/bootstrap_library.schema.yml	b9fbb319b932dd703a3b458533559e2b
+A	src/BootstrapLibrarySettingsForm.php	56a92a48655488493c81ec8cecf34393

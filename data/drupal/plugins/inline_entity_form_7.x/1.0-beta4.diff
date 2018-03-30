@@ -1,0 +1,8 @@
+M	includes/commerce_product.inline_entity_form.inc	4831223d58be6cd1fb9ee26dc1d30d5b
+M	includes/entity.inline_entity_form.inc	616bf1a3e073fa99474a0a64786d716c
+A	includes/node.inline_entity_form.inc	6e63bc4a4aaf623e7e46d6b1a713b4ec
+M	inline_entity_form.info	81e080443e37cf4807873db278f12495
+M	inline_entity_form.module	835f186a65709d56fd53eabd680830b0
+M	theme/commerce-product.css	86a87ec78b0803d0b2b515235d74de6e
+M	theme/inline_entity_form.css	229834fc202554d97ef5f02414a07785
+M	theme/inline_entity_form.seven.css	a7198407af22076aed29b30696d89ff0

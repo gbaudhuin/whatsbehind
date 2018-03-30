@@ -1,0 +1,5 @@
+M	CHANGELOG.txt	9f9cde0a8c8e28488a21e2cc00b56588
+M	config/schema/slick_media.schema.yml	6a10fb76403618c14d9fdfc2ae5035df
+M	slick_media.info.yml	80af3f4f659895bbf415c13edacd4550
+M	slick_media.module	32f75d7205ae30e830774ef0fc3564e5
+M	src/Plugin/Field/FieldFormatter/SlickMediaFormatter.php	3473e0d883fae37f9c3f7fe5255dd74f

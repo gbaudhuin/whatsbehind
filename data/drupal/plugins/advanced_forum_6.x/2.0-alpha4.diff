@@ -1,0 +1,384 @@
+M	CHANGELOG.txt	70f5bdcac14b839c5c7aa857b84fb113
+M	README.txt	2c788389e0aa5def838c944636c1f344
+M	advanced_forum.info	de32793606fb7aba2db17b186b68dd7e
+M	advanced_forum.install	9a1ffc69b890b22c49cb245e2bd73a58
+M	advanced_forum.module	7b48e24e20ed63adfe80136f5d7349ef
+M	includes/advanced_forum_preprocess_comment.inc	fb4038d929721ed647d995eade49dcae
+M	includes/advanced_forum_preprocess_forum_list.inc	9287efbc9fe4b4041451129ac25b63ce
+D	includes/advanced_forum_preprocess_forum_topic_list.inc	
+M	includes/advanced_forum_preprocess_forums.inc	a4dfa9a84a45e96fbfac394959b27ea4
+M	includes/advanced_forum_preprocess_node.inc	4ef9753775818a2b0ac131a44efd2b46
+M	includes/core-overrides.inc	f6876b3fc8280bb439ae8daeca11f272
+A	includes/mark-read.inc	3372f6009a55b685f9b6f719cc683325
+M	includes/panels/advanced_forum.pages_default.inc	22048eaae6a302a693e53c2f0ab4043a
+M	includes/panels/forum_panel_context_container.handler	05c6b648f0fa632706a480e23bd1f312
+M	includes/panels/forum_panel_context_forum.handler	225c4415753fb2c2874bbe11129c7feb
+M	includes/panels/forum_panel_context_top.handler	50be162a79a28a4605a5f3e9ecd7438c
+M	includes/plugins.inc	4464ef8c91ab18a8d0247a4cb716abbb
+M	includes/settings.inc	568660f4fe8fb4507530ee6603654c30
+M	includes/style.inc	391c0fa3ff04edacac85bebe2e8e2662
+M	includes/template_preprocess_advanced_forum_topic_list_view.inc	27a638d5f3f660477e19d639288e4904
+M	includes/theme.inc	dd61a6bd4dca67a15c9d453705a35edb
+M	includes/views/advanced_forum.views.inc	ccbeac8eca9463aacafd513a4e10c60b
+M	includes/views/advanced_forum_active_topics.view	b1d4931d651e43b550a37edd5b7dc793
+M	includes/views/advanced_forum_group_topic_list.view	953de3aa14ff021557cfd211acd11928
+M	includes/views/advanced_forum_handler_field_node_topic_icon.inc	8be8f98d917d56facb8e15154df0e7ed
+M	includes/views/advanced_forum_handler_field_node_topic_pager.inc	582eb60b1012bdd4e4908917ad6d7494
+M	includes/views/advanced_forum_new_topics.view	4f9d594d9b72da3e5fe2ea1a7f5d8b94
+M	includes/views/advanced_forum_plugin_style_forum_topic_list.inc	d6b4d5e10b2b8ea06b6c56c56b440b2c
+M	includes/views/advanced_forum_search.view	b5fae1d9d2329d991749c0a16bddf32b
+M	includes/views/advanced_forum_search_topic.view	198d40217125127a8104bd26727c297a
+M	includes/views/advanced_forum_topic_list.view	b64ad7f1435e895c45d46c5121918063
+M	includes/views/advanced_forum_unanswered_topics.view	3a0e73c84762a523db1df428a4822c92
+M	includes/views/advanced_forum_user_posts.view	dba251284911735ac9ef6fc65e7d8246
+A	js/advanced_forum.js	04b21e04326a95bf05e68fa902747b56
+M	plugins/access/forum_container.inc	23ee8ad14394dc63fdecf12f26d42daf
+M	plugins/access/forum_id.inc	debfc3c252a8b0b7fc4c0664134311c9
+M	plugins/arguments/forum_id.inc	3f9ba2a3f6e6cce5c7a42eda09ceb76f
+M	plugins/content_types/forum_legend.inc	83d987072b0aa4faddfb851e8135ce4e
+M	plugins/content_types/forum_list.inc	4bce1bcd24e286cff1beccfc33e2e7b4
+M	plugins/content_types/forum_mark_read.inc	4b61793b64392855d7f85d83056042b8
+M	plugins/content_types/forum_most_active_poster.inc	ff33353423451d0098c642e833a828fa
+A	plugins/content_types/forum_node_create_list.inc	3c2c7357fcc053165503d2082e6c697b
+D	plugins/content_types/forum_primary_links.inc	
+M	plugins/content_types/forum_search.inc	33e3f0681eaeedae91ceb2f25845ce82
+D	plugins/content_types/forum_secondary_links.inc	
+M	plugins/content_types/forum_statistics.inc	22edf48514e6bcaabcf14b419e7eec29
+A	plugins/content_types/forum_tools.inc	6800ec69e86fe2fa3d086707239acb0a
+M	plugins/content_types/forum_topic_legend.inc	54ec4cfbaa21aef298d1f8689f5f3995
+M	plugins/content_types/forum_topic_list.inc	2e6247bd66cbb427ac1cfd9a2fcdeb2d
+M	plugins/content_types/forum_topic_list_sort.inc	7475cb9c91d06476174d1ad8c8b8586e
+M	plugins/contexts/forum.inc	24ae8f587bbb36793d5ddaedacabc1f8
+M	plugins/tasks/forum.inc	47990428b4e2715df8d3d59228713f82
+M	styles/blue_lagoon/advanced_forum.blue_lagoon.images.css	d3a87dc5c8b047872fa0e0da380e1957
+M	styles/blue_lagoon/advanced_forum.blue_lagoon.style.css	e3e4de20d1511405b9aca8070609686a
+M	styles/blue_lagoon/blue_lagoon.info	71e9bc2776178e3b511cbfbee1b6eaee
+A	styles/blue_lagoon/images/add_poll.png	01a3dea8c56eff8401f710f3134653b4
+A	styles/blue_lagoon/images/add_topic.png	83296d9c73da42011a78242464865ef6
+A	styles/blue_lagoon/images/ap_contact_add.png	4bd847d4fff2da5fe28097b281f03533
+A	styles/blue_lagoon/images/ap_contact_remove.png	590345568a0ec23b68126c0c45c787d3
+A	styles/blue_lagoon/images/ap_email.png	9d549b5255851565bee90c07dcaa5cc6
+A	styles/blue_lagoon/images/ap_private_message.png	67a71cd252455105c9f252f8ba94bad7
+A	styles/blue_lagoon/images/ap_user_offline.png	d1ae4ddc5d5deaf5a11af99b4296d8a1
+A	styles/blue_lagoon/images/ap_user_online.png	340a1975a9bcf34c68d1cee114d3172e
+D	styles/blue_lagoon/images/author-pane/buddy-add.png	
+D	styles/blue_lagoon/images/author-pane/buddy-remove.png	
+D	styles/blue_lagoon/images/author-pane/contact.png	
+D	styles/blue_lagoon/images/author-pane/private-message.png	
+D	styles/blue_lagoon/images/author-pane/user-offline.png	
+D	styles/blue_lagoon/images/author-pane/user-online.png	
+D	styles/blue_lagoon/images/blanks/blank.png	
+D	styles/blue_lagoon/images/blanks/blank_lock.png	
+D	styles/blue_lagoon/images/blanks/blank_note.png	
+D	styles/blue_lagoon/images/blanks/blank_small.png	
+D	styles/blue_lagoon/images/de/de_delete.png	
+D	styles/blue_lagoon/images/de/de_edit.png	
+D	styles/blue_lagoon/images/de/de_locked-topic.png	
+D	styles/blue_lagoon/images/de/de_new-poll.png	
+D	styles/blue_lagoon/images/de/de_new-topic.png	
+D	styles/blue_lagoon/images/de/de_post-reply.png	
+D	styles/blue_lagoon/images/de/de_quote.png	
+D	styles/blue_lagoon/images/de/de_reply.png	
+D	styles/blue_lagoon/images/el/el_delete.png	
+D	styles/blue_lagoon/images/el/el_edit.png	
+D	styles/blue_lagoon/images/el/el_locked-topic.png	
+D	styles/blue_lagoon/images/el/el_new-poll.png	
+D	styles/blue_lagoon/images/el/el_new-topic.png	
+D	styles/blue_lagoon/images/el/el_post-reply.png	
+D	styles/blue_lagoon/images/el/el_quote.png	
+D	styles/blue_lagoon/images/el/el_reply.png	
+D	styles/blue_lagoon/images/en/delete.png	
+D	styles/blue_lagoon/images/en/edit.png	
+D	styles/blue_lagoon/images/en/locked-topic.png	
+D	styles/blue_lagoon/images/en/new-poll.png	
+D	styles/blue_lagoon/images/en/new-topic.png	
+D	styles/blue_lagoon/images/en/post-reply.png	
+D	styles/blue_lagoon/images/en/quote.png	
+D	styles/blue_lagoon/images/en/reply.png	
+D	styles/blue_lagoon/images/forum-folder-locked.png	
+D	styles/blue_lagoon/images/forum-folder-new-posts.png	
+D	styles/blue_lagoon/images/forum-folder.png	
+A	styles/blue_lagoon/images/forum_list_default.png	69ad71f2b95e265998589627198bf194
+A	styles/blue_lagoon/images/forum_list_locked.png	4d84a8a0ebca272599a32a5003c4ebfb
+A	styles/blue_lagoon/images/forum_list_new_posts.png	4c46221471d3608a1371325c7083fb0e
+D	styles/blue_lagoon/images/fr/fr_delete.png	
+D	styles/blue_lagoon/images/fr/fr_edit.png	
+D	styles/blue_lagoon/images/fr/fr_locked-topic.png	
+D	styles/blue_lagoon/images/fr/fr_new-topic.png	
+D	styles/blue_lagoon/images/fr/fr_post-reply.png	
+D	styles/blue_lagoon/images/fr/fr_quote.png	
+D	styles/blue_lagoon/images/fr/fr_reply.png	
+D	styles/blue_lagoon/images/pager-bg.png	
+A	styles/blue_lagoon/images/pager_bg.png	ec38bfc6501a9e6c2651a5e810657eac
+A	styles/blue_lagoon/images/post_delete.png	399093a0579f99b2ddeceb185d5e1fbb
+A	styles/blue_lagoon/images/post_edit.png	617e15fef04d2d29c084c76d219a35e5
+A	styles/blue_lagoon/images/post_quote.png	628564020bf9e746cf5dbcff61e30be6
+A	styles/blue_lagoon/images/post_reply.png	3ae1883cbdc1690eb41aec9c5166d85f
+D	styles/blue_lagoon/images/sv/sv_delete.png	
+D	styles/blue_lagoon/images/sv/sv_edit.png	
+D	styles/blue_lagoon/images/sv/sv_locked-topic.png	
+D	styles/blue_lagoon/images/sv/sv_new-poll.png	
+D	styles/blue_lagoon/images/sv/sv_new-topic.png	
+D	styles/blue_lagoon/images/sv/sv_post-reply.png	
+D	styles/blue_lagoon/images/sv/sv_quote.png	
+D	styles/blue_lagoon/images/sv/sv_reply.png	
+D	styles/blue_lagoon/images/topic-closed.png	
+D	styles/blue_lagoon/images/topic-default.png	
+D	styles/blue_lagoon/images/topic-hot-new.png	
+D	styles/blue_lagoon/images/topic-hot.png	
+D	styles/blue_lagoon/images/topic-new.png	
+D	styles/blue_lagoon/images/topic-sticky.png	
+A	styles/blue_lagoon/images/topic_first_unread_post.png	d07fb0fa34212d7bc701bccdff3572d0
+A	styles/blue_lagoon/images/topic_last_post.png	d07fb0fa34212d7bc701bccdff3572d0
+A	styles/blue_lagoon/images/topic_list_closed.png	f1427220697138a2ad5f139df3e7c88c
+A	styles/blue_lagoon/images/topic_list_default.png	bc6fbbffa77946d22582b4fcb651fafb
+A	styles/blue_lagoon/images/topic_list_hot.png	a32d31df4e5254df30edfcadbfe8939a
+A	styles/blue_lagoon/images/topic_list_hot_new.png	38406f5cdbd5a2df5f3480fe510a5bc6
+A	styles/blue_lagoon/images/topic_list_new.png	898427bd26038a035ab986627d6578db
+A	styles/blue_lagoon/images/topic_list_sticky.png	6c0cf1cb1a0c9c93c8afbbec4a9742fd
+A	styles/blue_lagoon/images/topic_locked.png	515c0e4b218b341a2a307b891488c150
+A	styles/blue_lagoon/images/topic_reply.png	83296d9c73da42011a78242464865ef6
+A	styles/blue_lagoon/images/topic_top.png	9cfd167ee50146eed414bc5387468967
+M	styles/blue_lagoon_stacked/advanced_forum.blue_lagoon_stacked.style.css	5696c1da7f752c9d1937cf282c6d3137
+M	styles/blue_lagoon_stacked/blue_lagoon_stacked.info	76c5e46dd6fe445ad17e98c6ac84aeac
+D	styles/boxy/advanced_forum.boxy.images.css	
+D	styles/boxy/advanced_forum.boxy.style.css	
+D	styles/boxy/boxy.info	
+D	styles/boxy/images/author-pane/buddy-add.png	
+D	styles/boxy/images/author-pane/buddy-remove.png	
+D	styles/boxy/images/author-pane/contact.png	
+D	styles/boxy/images/author-pane/private-message.png	
+D	styles/boxy/images/author-pane/user-offline.png	
+D	styles/boxy/images/author-pane/user-online.png	
+D	styles/boxy/images/blanks/blank.png	
+D	styles/boxy/images/blanks/blank_lock.png	
+D	styles/boxy/images/blanks/blank_note.png	
+D	styles/boxy/images/blanks/blank_small.png	
+D	styles/boxy/images/en/delete.png	
+D	styles/boxy/images/en/edit.png	
+D	styles/boxy/images/en/locked-topic.png	
+D	styles/boxy/images/en/new-poll.png	
+D	styles/boxy/images/en/new-topic.png	
+D	styles/boxy/images/en/post-reply.png	
+D	styles/boxy/images/en/quote.png	
+D	styles/boxy/images/en/reply.png	
+D	styles/boxy/images/en/top.png	
+D	styles/boxy/images/forum-folder-locked.png	
+D	styles/boxy/images/forum-folder-new-posts.png	
+D	styles/boxy/images/forum-folder.png	
+D	styles/boxy/images/fr/fr_delete.png	
+D	styles/boxy/images/fr/fr_edit.png	
+D	styles/boxy/images/fr/fr_locked-topic.png	
+D	styles/boxy/images/fr/fr_new-topic.png	
+D	styles/boxy/images/fr/fr_post-reply.png	
+D	styles/boxy/images/fr/fr_quote.png	
+D	styles/boxy/images/fr/fr_reply.png	
+D	styles/boxy/images/sv/sv_delete.png	
+D	styles/boxy/images/sv/sv_edit.png	
+D	styles/boxy/images/sv/sv_locked-topic.png	
+D	styles/boxy/images/sv/sv_new-poll.png	
+D	styles/boxy/images/sv/sv_new-topic.png	
+D	styles/boxy/images/sv/sv_post-reply.png	
+D	styles/boxy/images/sv/sv_quote.png	
+D	styles/boxy/images/sv/sv_reply.png	
+D	styles/boxy/images/topic-closed.png	
+D	styles/boxy/images/topic-default.png	
+D	styles/boxy/images/topic-hot-new.png	
+D	styles/boxy/images/topic-hot.png	
+D	styles/boxy/images/topic-new.png	
+D	styles/boxy/images/topic-sticky.png	
+D	styles/boxy_stacked/boxy_stacked.info	
+M	styles/cloudless_day/advanced_forum.cloudless_day.images.css	2c5e3f304b3d3dfb14c33d26f11c7f1c
+M	styles/cloudless_day/advanced_forum.cloudless_day.style.css	7ead21f042ca4651648d9cf9c5cc5779
+M	styles/cloudless_day/cloudless_day.info	ad958440ba86cdbb1453c57dd3a3917c
+D	styles/cloudless_day/images/author-pane/buddy-add.png	
+D	styles/cloudless_day/images/author-pane/buddy-remove.png	
+D	styles/cloudless_day/images/author-pane/contact.png	
+D	styles/cloudless_day/images/author-pane/private-message.png	
+D	styles/cloudless_day/images/author-pane/user-offline.png	
+D	styles/cloudless_day/images/author-pane/user-online.png	
+D	styles/cloudless_day/images/blanks/blank.png	
+D	styles/cloudless_day/images/blanks/blank_lock.png	
+D	styles/cloudless_day/images/blanks/blank_note.png	
+D	styles/cloudless_day/images/blanks/blank_small.png	
+D	styles/cloudless_day/images/de/de_delete.png	
+D	styles/cloudless_day/images/de/de_edit.png	
+D	styles/cloudless_day/images/de/de_locked-topic.png	
+D	styles/cloudless_day/images/de/de_new-poll.png	
+D	styles/cloudless_day/images/de/de_new-topic.png	
+D	styles/cloudless_day/images/de/de_post-reply.png	
+D	styles/cloudless_day/images/de/de_quote.png	
+D	styles/cloudless_day/images/de/de_reply.png	
+D	styles/cloudless_day/images/el/el_delete.png	
+D	styles/cloudless_day/images/el/el_edit.png	
+D	styles/cloudless_day/images/el/el_locked-topic.png	
+D	styles/cloudless_day/images/el/el_new-poll.png	
+D	styles/cloudless_day/images/el/el_new-topic.png	
+D	styles/cloudless_day/images/el/el_post-reply.png	
+D	styles/cloudless_day/images/el/el_quote.png	
+D	styles/cloudless_day/images/el/el_reply.png	
+D	styles/cloudless_day/images/en/delete.png	
+D	styles/cloudless_day/images/en/edit.png	
+D	styles/cloudless_day/images/en/locked-topic.png	
+D	styles/cloudless_day/images/en/new-poll.png	
+D	styles/cloudless_day/images/en/new-topic.png	
+D	styles/cloudless_day/images/en/post-reply.png	
+D	styles/cloudless_day/images/en/quote.png	
+D	styles/cloudless_day/images/en/reply.png	
+D	styles/cloudless_day/images/forum-folder-locked.png	
+D	styles/cloudless_day/images/forum-folder-new-posts.png	
+D	styles/cloudless_day/images/forum-folder.png	
+A	styles/cloudless_day/images/forum_list_default.png	9bb57d5c72e4cb3d792a1feb7b031770
+A	styles/cloudless_day/images/forum_list_new_posts.png	05eb5f796c989c2792aa662bfdf85477
+D	styles/cloudless_day/images/fr/fr_delete.png	
+D	styles/cloudless_day/images/fr/fr_edit.png	
+D	styles/cloudless_day/images/fr/fr_locked-topic.png	
+D	styles/cloudless_day/images/fr/fr_new-topic.png	
+D	styles/cloudless_day/images/fr/fr_post-reply.png	
+D	styles/cloudless_day/images/fr/fr_quote.png	
+D	styles/cloudless_day/images/fr/fr_reply.png	
+D	styles/cloudless_day/images/pager-bg.png	
+D	styles/cloudless_day/images/sv/sv_delete.png	
+D	styles/cloudless_day/images/sv/sv_edit.png	
+D	styles/cloudless_day/images/sv/sv_locked-topic.png	
+D	styles/cloudless_day/images/sv/sv_new-poll.png	
+D	styles/cloudless_day/images/sv/sv_new-topic.png	
+D	styles/cloudless_day/images/sv/sv_post-reply.png	
+D	styles/cloudless_day/images/sv/sv_quote.png	
+D	styles/cloudless_day/images/sv/sv_reply.png	
+D	styles/cloudless_day/images/topic-closed.png	
+D	styles/cloudless_day/images/topic-default.png	
+D	styles/cloudless_day/images/topic-hot-new.png	
+D	styles/cloudless_day/images/topic-hot.png	
+D	styles/cloudless_day/images/topic-new.png	
+D	styles/cloudless_day/images/topic-sticky.png	
+M	styles/cloudless_day_stacked/advanced_forum.cloudless_day_stacked.style.css	05b310b2ed94bd9f70716dc9526893b0
+M	styles/cloudless_day_stacked/cloudless_day_stacked.info	8ce92fcfc8b5ea110077ee9947f5d89e
+M	styles/naked/advanced_forum.naked.active-poster.tpl.php	2ae5304cd507ebab3d4e7de2830056d0
+M	styles/naked/advanced_forum.naked.author-pane.tpl.php	bbd6f68c8f9c4a54b72a5465a0857848
+M	styles/naked/advanced_forum.naked.comment-wrapper.tpl.php	162fb728d5991d9e731ad202b2713a65
+M	styles/naked/advanced_forum.naked.forum-legend.tpl.php	6fa54d84d9fa41f6c5adba5bc111db7a
+M	styles/naked/advanced_forum.naked.forum-list.tpl.php	5f11bbf6c2d4cbe585ef8b5105ce5bf4
+M	styles/naked/advanced_forum.naked.forums.tpl.php	74aade61fd69d6fa0d73a4797e7a392f
+M	styles/naked/advanced_forum.naked.group-topic-list-outer-view.tpl.php	87a0bd067fa8437e4d323ed87cc94799
+M	styles/naked/advanced_forum.naked.images.css	b60a5c4c1fc4b98630b41b8828f794ea
+M	styles/naked/advanced_forum.naked.post-preview.tpl.php	1f09ee3baab93e749febcdc73195759a
+M	styles/naked/advanced_forum.naked.post-repeated.tpl.php	26eb3d9e3f7a9e729c288247e14a1803
+A	styles/naked/advanced_forum.naked.post-teaser.tpl.php	1f09ee3baab93e749febcdc73195759a
+M	styles/naked/advanced_forum.naked.post.tpl.php	ba52b59be979ce73d115e9a39b896821
+M	styles/naked/advanced_forum.naked.search-forum.tpl.php	cfd10f0fff5b026b58787a753d277143
+M	styles/naked/advanced_forum.naked.search-result.tpl.php	8cf3a8791fde2ec7da0bea621eb1d0a9
+M	styles/naked/advanced_forum.naked.search-topic.tpl.php	6e5b65075abe204e68df5777aa169d47
+M	styles/naked/advanced_forum.naked.statistics.tpl.php	955db620bfaec82105f684680bdcbc54
+M	styles/naked/advanced_forum.naked.structure.css	015581ef39069129954d4f65ec6a9695
+M	styles/naked/advanced_forum.naked.submitted.tpl.php	ad7658ee5d00de1cf9f7c66f2ea98dbb
+M	styles/naked/advanced_forum.naked.topic-header.tpl.php	6595565d967ee8f0965e31be04354ec3
+M	styles/naked/advanced_forum.naked.topic-icon.tpl.php	58737c27c686688cd182bc8131bb88e6
+M	styles/naked/advanced_forum.naked.topic-legend.tpl.php	5f8e40200f6da821c5b653afa0ca688e
+M	styles/naked/advanced_forum.naked.topic-list-outer-view.tpl.php	8f2dc90a910974a516472e56decc418a
+M	styles/naked/advanced_forum.naked.topic-list-view.tpl.php	52e10a504e42f6aa39b3de83145cc2b6
+D	styles/naked/advanced_forum.naked.topic-list.tpl.php	
+M	styles/naked/advanced_forum.naked.topic-navigation.tpl.php	369b531bf56712f15ee89bcaefe8e4a7
+D	styles/naked/images/author-pane/buddy-add.png	
+D	styles/naked/images/author-pane/buddy-remove.png	
+D	styles/naked/images/author-pane/contact.png	
+D	styles/naked/images/author-pane/private-message.png	
+D	styles/naked/images/author-pane/user-offline.png	
+D	styles/naked/images/author-pane/user-online.png	
+D	styles/naked/images/blanks/blank.png	
+D	styles/naked/images/blanks/blank_lock.png	
+D	styles/naked/images/blanks/blank_note.png	
+D	styles/naked/images/blanks/blank_small.png	
+A	styles/naked/images/container_collapse.png	f3dc6733c832f8c86d615be7834c41b6
+A	styles/naked/images/container_expand.png	d9d8cfe100194a05a42c2bf141a57726
+D	styles/naked/images/en/delete.png	
+D	styles/naked/images/en/edit.png	
+D	styles/naked/images/en/locked-topic.png	
+D	styles/naked/images/en/new-poll.png	
+D	styles/naked/images/en/new-topic.png	
+D	styles/naked/images/en/post-reply.png	
+D	styles/naked/images/en/quote.png	
+D	styles/naked/images/en/reply.png	
+D	styles/naked/images/en/top.png	
+D	styles/naked/images/forum-folder-locked.png	
+D	styles/naked/images/forum-folder-new-posts.png	
+D	styles/naked/images/forum-folder.png	
+A	styles/naked/images/forum_list_default.png	dbaa7cef2ddef803bf65f64e853d4906
+A	styles/naked/images/forum_list_locked.png	ff74a1bcc69820a7c64b76b9c2d48bb0
+A	styles/naked/images/forum_list_new_posts.png	40f7c818f0b5e26a26493754aa7192b9
+D	styles/naked/images/fr/fr_delete.png	
+D	styles/naked/images/fr/fr_edit.png	
+D	styles/naked/images/fr/fr_locked-topic.png	
+D	styles/naked/images/fr/fr_new-topic.png	
+D	styles/naked/images/fr/fr_post-reply.png	
+D	styles/naked/images/fr/fr_quote.png	
+D	styles/naked/images/fr/fr_reply.png	
+D	styles/naked/images/sv/sv_delete.png	
+D	styles/naked/images/sv/sv_edit.png	
+D	styles/naked/images/sv/sv_locked-topic.png	
+D	styles/naked/images/sv/sv_new-poll.png	
+D	styles/naked/images/sv/sv_new-topic.png	
+D	styles/naked/images/sv/sv_post-reply.png	
+D	styles/naked/images/sv/sv_quote.png	
+D	styles/naked/images/sv/sv_reply.png	
+D	styles/naked/images/topic-closed.png	
+D	styles/naked/images/topic-default.png	
+D	styles/naked/images/topic-hot-new.png	
+D	styles/naked/images/topic-hot.png	
+D	styles/naked/images/topic-new.png	
+D	styles/naked/images/topic-sticky.png	
+A	styles/naked/images/topic_list_closed.png	f1427220697138a2ad5f139df3e7c88c
+A	styles/naked/images/topic_list_default.png	bc6fbbffa77946d22582b4fcb651fafb
+A	styles/naked/images/topic_list_hot.png	a32d31df4e5254df30edfcadbfe8939a
+A	styles/naked/images/topic_list_hot_new.png	38406f5cdbd5a2df5f3480fe510a5bc6
+A	styles/naked/images/topic_list_new.png	898427bd26038a035ab986627d6578db
+A	styles/naked/images/topic_list_sticky.png	6c0cf1cb1a0c9c93c8afbbec4a9742fd
+M	styles/naked/naked.info	187b7c7a82a5f26806ca8f79bfb7f86c
+M	styles/naked_stacked/advanced_forum.naked_stacked.author-pane.tpl.php	13b36026e927ae5639b045b71bd938b9
+M	styles/naked_stacked/advanced_forum.naked_stacked.structure.css	b23a912ea534b0ef19eb293c8b9aabe0
+M	styles/naked_stacked/naked_stacked.info	f35f0d7ee581f5dca0dc6b71b2725aea
+A	styles/silver_bells/advanced_forum.silver_bells.images.css	559e298a6f86baad5ef821a1d968d45d
+A	styles/silver_bells/advanced_forum.silver_bells.style.css	3b76339557525eade48f16efa15579f5
+A	styles/silver_bells/images/add_poll.png	01a3dea8c56eff8401f710f3134653b4
+A	styles/silver_bells/images/add_topic.png	83296d9c73da42011a78242464865ef6
+A	styles/silver_bells/images/ap_contact_add.png	4bd847d4fff2da5fe28097b281f03533
+A	styles/silver_bells/images/ap_contact_remove.png	590345568a0ec23b68126c0c45c787d3
+A	styles/silver_bells/images/ap_email.png	9d549b5255851565bee90c07dcaa5cc6
+A	styles/silver_bells/images/ap_private_message.png	67a71cd252455105c9f252f8ba94bad7
+A	styles/silver_bells/images/ap_user_offline.png	d1ae4ddc5d5deaf5a11af99b4296d8a1
+A	styles/silver_bells/images/ap_user_online.png	340a1975a9bcf34c68d1cee114d3172e
+A	styles/silver_bells/images/forum_list_default.png	9be4eb6134645371b73c50117944fd8c
+A	styles/silver_bells/images/forum_list_locked.png	ff74a1bcc69820a7c64b76b9c2d48bb0
+A	styles/silver_bells/images/forum_list_new_posts.png	06d9743186335a01051a0d4f8814903a
+A	styles/silver_bells/images/pager_bg.png	ec38bfc6501a9e6c2651a5e810657eac
+A	styles/silver_bells/images/post_delete.png	399093a0579f99b2ddeceb185d5e1fbb
+A	styles/silver_bells/images/post_edit.png	617e15fef04d2d29c084c76d219a35e5
+A	styles/silver_bells/images/post_quote.png	628564020bf9e746cf5dbcff61e30be6
+A	styles/silver_bells/images/post_reply.png	3ae1883cbdc1690eb41aec9c5166d85f
+A	styles/silver_bells/images/topic_first_unread_post.png	d07fb0fa34212d7bc701bccdff3572d0
+A	styles/silver_bells/images/topic_last_post.png	d07fb0fa34212d7bc701bccdff3572d0
+A	styles/silver_bells/images/topic_list_closed.png	f1427220697138a2ad5f139df3e7c88c
+A	styles/silver_bells/images/topic_list_default.png	bc6fbbffa77946d22582b4fcb651fafb
+A	styles/silver_bells/images/topic_list_hot.png	a32d31df4e5254df30edfcadbfe8939a
+A	styles/silver_bells/images/topic_list_hot_new.png	38406f5cdbd5a2df5f3480fe510a5bc6
+A	styles/silver_bells/images/topic_list_new.png	898427bd26038a035ab986627d6578db
+A	styles/silver_bells/images/topic_list_sticky.png	6c0cf1cb1a0c9c93c8afbbec4a9742fd
+A	styles/silver_bells/images/topic_locked.png	515c0e4b218b341a2a307b891488c150
+A	styles/silver_bells/images/topic_reply.png	83296d9c73da42011a78242464865ef6
+A	styles/silver_bells/images/topic_top.png	9cfd167ee50146eed414bc5387468967
+A	styles/silver_bells/silver_bells.info	d4e66f3b145180500f32610d9f4f04f7
+A	styles/silver_bells_stacked/advanced_forum.silver_bells_stacked.style.css	47f7e801c480eee2ea60a177c5922f99
+A	styles/silver_bells_stacked/silver_bells_stacked.info	7c991e79899b5f1651f61683683e00f0
+D	translations/advanced_forum.pot	
+D	translations/cs.po	
+D	translations/de.po	
+D	translations/el.po	
+D	translations/es.po	
+D	translations/fr.po	
+D	translations/hu.po	
+D	translations/ja.po	
+D	translations/nl.po	
+D	translations/ru.po	
+D	translations/sv.po	
+D	translations/uk-ua.po	
+D	translations/uk.po	

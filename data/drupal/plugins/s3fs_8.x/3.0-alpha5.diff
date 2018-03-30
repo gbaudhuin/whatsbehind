@@ -1,0 +1,7 @@
+M	config/install/s3fs.settings.yml	7e4ba26781fabb9d00cd4aacbcb1ab0f
+M	config/schema/s3fs.schema.yml	510d0249773d176c0c59876f656e76d5
+M	s3fs.info.yml	b2d60545c41c803a483db37003e452b9
+M	s3fs.install	14774e8750bb0d58adb06766d405a43c
+M	src/Controller/S3fsImageStyleDownloadController.php	72604e8a479e9f8f53f49b65586ae2b7
+M	src/Form/SettingsForm.php	fca3be0a5a609642382facea7b5f017b
+M	src/S3fsService.php	7522d36a957a8a5f6a81050c0a9e111c

@@ -1,0 +1,14 @@
+D	.cvsignore	
+M	CHANGELOG.txt	1d5f91152f2c67c6f3108937456c89f4
+M	README.txt	2d5de143e34858b6c7a723158b9a1087
+M	ckeditor.config.js	e6d3cdc1592cf060a938d4a605e4eb2b
+M	ckeditor.info	635168db0ccdd7775601098fd621b754
+M	ckeditor.install	a8f365e5f29d60bd205a6831821ee64f
+M	ckeditor.module	1a5469068297f810d4345042f0396a7c
+M	includes/ckeditor.admin.inc	451b568c3d37f629067b8fb373a6ddc7
+M	includes/ckeditor.admin.js	33051dd31a30f5ce73547acdf7601c0c
+M	includes/ckeditor.lib.inc	86593cde36a48340d7982f536b989c28
+M	includes/ckeditor.utils.js	c4a62945bfca5ecb5a2e8c6e42f445f6
+A	plugins/media/images/icon.gif	72ee02878384be9e2119d8bfdb6a430f
+A	plugins/media/library.js	2d0b92da3035038f4c88b670b223aeff
+A	plugins/media/plugin.js	1657b025bd874376faf860484e8b85b3

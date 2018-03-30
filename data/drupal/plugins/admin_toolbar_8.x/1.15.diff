@@ -1,0 +1,13 @@
+M	admin_toolbar.info.yml	b7813b6a9c194e8833feca9a175b4933
+M	admin_toolbar.module	d4294a58424a359e1efb8cef8c57a9f2
+M	admin_toolbar_tools/admin_toolbar_tools.info.yml	a195f727631f76481204dd20510e134e
+M	admin_toolbar_tools/admin_toolbar_tools.libraries.yml	b97fbc723f6e65132bb76829add45501
+M	admin_toolbar_tools/admin_toolbar_tools.links.menu.yml	f8ff0390d439d6010f9f27e59d4a419d
+M	admin_toolbar_tools/admin_toolbar_tools.module	2a6875616bfb570f829b954a0eb3a539
+D	admin_toolbar_tools/misc/icons/ffffff/chevron-left.svg	
+D	admin_toolbar_tools/misc/icons/ffffff/chevron-right.svg	
+M	admin_toolbar_tools/src/Controller/ToolbarController.php	16302c9456e0ed8103ab2befeb727ad5
+M	admin_toolbar_tools/src/Tests/AdminToolbarToolsAlterTest.php	79916b47b5b7bdd67f3b0907bc611206
+M	css/admin.toolbar.css	50f25ffa6596b6325b0ed30f1e4ddff2
+A	misc/icons/ffffff/chevron-right.svg	a20a73a8c65a8215527b829ce9f57737
+M	src/Tests/AdminToolbarAlterTest.php	160b1478f2941b4dc69fed09758c2c8f

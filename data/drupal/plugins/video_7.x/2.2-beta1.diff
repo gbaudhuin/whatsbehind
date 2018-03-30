@@ -1,0 +1,12 @@
+M	css/video.css	bc57902827d84d8cb05ab119601819fb
+M	includes/VideoHelper.inc	d23ad1c6280d7a5b23e6ce0998f43528
+A	js/video_wysiwyg.js	10511aa85abfa60fc0f8e757792dc1cc
+M	modules/video_ui/video_ui.info	0570b64c6c556ec3c64a6ec8f9eb7a5d
+A	templates/video-dialog-page.tpl.php	152060f0fdf5c766a79911b47a625581
+M	theme/video-play-html5.tpl.php	60bf25d727fe8a8987b8100bf051dc63
+M	video.info	8d35b9782cca9ba586e23fbda70507c3
+M	video.module	eda67d132c172cb5cb496aec6383c540
+M	video.theme.inc	2018162103e3a1c0ebcbf95299f0fac4
+M	video.utility.inc	dcc60c4411a533b9280fc6ddc130c0ba
+M	wysiwyg_plugins/video.inc	24e420ebd4710266f5583384d14598ec
+M	wysiwyg_plugins/video/video.js	cd0ed49041b5b415cda41d20a2be0f32

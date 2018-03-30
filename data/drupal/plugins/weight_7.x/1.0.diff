@@ -1,0 +1,10 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	httpRequest.js	c41d6914539172ab10885b7d6189c77c
+M	weight-view-weight-form.tpl.php	b2c19b176b221e3815291b8fbfd509cb
+M	weight.admin.inc	102954b40018e25ced2b04bfe0ed5408
+M	weight.info	edb348cc0c765ee139c06833657c798b
+M	weight.module	901827f893729bc8dc495d89cf833358
+M	weight.views.inc	5937a33ee35dd47d84cbce4e5a4b204f
+M	weight_handler_field_sticky.inc	24fe5da137866c21f66c8b274b10eb39
+A	weight_handler_filter_sticky.inc	39e4129c194ce8120666e13d08812d40
+A	weight_handler_filter_weight.inc	fee855e04eff4fa6610ba055828615e6

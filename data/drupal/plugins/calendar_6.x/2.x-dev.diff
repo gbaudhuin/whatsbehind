@@ -1,0 +1,86 @@
+M	CHANGELOG.txt	768d7f0e817b1b8a7f9c2c8aea2cda45
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	calendar.css	f6d59bd4de6c38b912e535e621de3d2b
+M	calendar.info	8ba776ef15e3a8deada2a9fae3b91971
+M	calendar.install	f3a9dbba96da2bb53bf72ce23254b08f
+M	calendar.module	4932bb68a0318706d9f27d3dc2c58664
+M	calendar_ical/calendar-view-ical.tpl.php	84568e275fdd9f03d61a10e4fbe72536
+M	calendar_ical/calendar_ical.info	fbd4739f771935c0c19156df82b45fb7
+M	calendar_ical/calendar_ical.install	05f370f34a21f609c255251682c2f928
+M	calendar_ical/calendar_ical.module	2f303edf6daac50e685e462cb481a83b
+M	calendar_ical/calendar_ical.views.inc	b955a044617d074ccd3b702b668d1c93
+M	calendar_ical/calendar_ical_admin.inc	ba675f0c94f128b75e9e2d41fff05ca0
+M	calendar_ical/calendar_plugin_display_ical.inc	d355dc0b7c37d7eeaceed40f7193e2e6
+M	calendar_ical/calendar_plugin_style_ical.inc	0abb7424428c82b1a6679ca15f623b16
+M	calendar_ical/theme.inc	78c7bff8749a462972317212fc9b1ed6
+D	calendar_ical/translations/calendar_ical.cs.po	
+D	calendar_ical/translations/calendar_ical.hu.po	
+D	calendar_ical/translations/calendar_ical.pot	
+M	calendar_multiday/calendar-overlap.css	4efdab04536ee726c46851c9e0e334a5
+M	calendar_multiday/calendar_multiday.css	f48233ef21a7fcddcc1e5125b9327fc1
+M	calendar_multiday/calendar_multiday.info	2c0113ad21c2cbb8c3a85f6d278bb6f7
+M	calendar_multiday/calendar_multiday.module	af2bd00c3b5551f1fb06add9d9315760
+M	calendar_multiday/calendar_overlap.js	e6d700cfab74073af926e443f128933c
+M	calendar_multiday/includes/calendar.inc	0afdc1d185a14e06a45fb8eac67e731d
+M	calendar_multiday/theme/calendar-datebox.tpl.php	8c482268ceec2a9a83e101a33586556f
+M	calendar_multiday/theme/calendar-day-node.tpl.php	51b3723a3d158c9396209d2afcc344da
+M	calendar_multiday/theme/calendar-day-overlap.tpl.php	3a5024e944c6cca65a3ed7af9be60111
+M	calendar_multiday/theme/calendar-day.tpl.php	7a491a660919a08c8d8e3b0ee0a870e9
+M	calendar_multiday/theme/calendar-main.tpl.php	7e88a40233962c8daf4674f279ecf6f9
+M	calendar_multiday/theme/calendar-mini.tpl.php	f93759699ae1d74b52b7654c14c7a1fd
+M	calendar_multiday/theme/calendar-month-col.tpl.php	dedd182eca8641cb2cfff8ea7232b4d2
+M	calendar_multiday/theme/calendar-month-multiple-node.tpl.php	ffcd3b2a7938582509ff422846f1ff2e
+M	calendar_multiday/theme/calendar-month-node.tpl.php	3690c48b4cc59b9f32f175a236e3e35a
+M	calendar_multiday/theme/calendar-month-row.tpl.php	e5eaee8640758a6c1c6fabaeb77c3007
+M	calendar_multiday/theme/calendar-month.tpl.php	c13facf56b9947998fe413f8c0fa473f
+M	calendar_multiday/theme/calendar-week-multiple-node.tpl.php	7d0ae8c8bbeab4d156d89b3ba0fd2e4f
+M	calendar_multiday/theme/calendar-week-node.tpl.php	b95bd17400bac815a65c067466469635
+M	calendar_multiday/theme/calendar-week-overlap.tpl.php	3d860dfb5be8bb085f71cdddadc429a2
+M	calendar_multiday/theme/calendar-week.tpl.php	dd9cb55faccea644564aeb3040899b63
+M	calendar_multiday/theme/calendar-year.tpl.php	1b9b66d271d9703fadacd5a3003fd375
+M	calendar_multiday/theme/theme.inc	9c5f71442ed0bc67b43a7226e65db0c7
+M	help/calendar.help.ini	2c84022f15c1d53cb3c7816ca35d17ec
+M	help/getting-started.html	0983f1801210cd06dd3a6be6a48262dc
+M	help/overview.html	e4a0bc95b149c3d8ab266755c324e026
+M	includes/calendar.inc	4968c4b22beeec1fc3dc7b3c527d2f2b
+M	includes/calendar.views.inc	bae827b56a6e3d623f5db1d315d098e3
+M	includes/calendar.views_default.inc	61d471511c22514a0a4973f69f240e6a
+M	includes/calendar_plugin_display_attachment.inc	a3c760867ebbb07f024b6965ee3f95f1
+M	includes/calendar_plugin_display_block.inc	b89e84043456cde8999c54830d2d1b11
+M	includes/calendar_plugin_display_page.inc	b3a7e5d0efd14f6a98c33658d2637368
+M	includes/calendar_plugin_style.inc	df87eea089e19cb4f5cf63278670c85f
+M	includes/calendar_view_plugin_style.inc	272632cedca6c8b9edb1c58f41121b05
+D	includes/translations/includes.cs.po	
+M	jcalendar/jcalendar.css	3669cdbdece79a622358f24c42540564
+M	jcalendar/jcalendar.info	4d3342f50e980eca273d36b660b8cea9
+M	jcalendar/jcalendar.js	577a51bd0f9465fb960e1aafcc424fa6
+M	jcalendar/jcalendar.module	51e9f152eb3f69557cb8340d0b17434c
+D	jcalendar/translations/jcalendar.cs.po	
+D	jcalendar/translations/jcalendar.hu.po	
+D	jcalendar/translations/jcalendar.pot	
+M	js/calendar_colorpicker.js	c79eff07f13742852277d22f41671942
+M	readme.txt	1795d1af4aed1f2690347be2148c1836
+M	theme/calendar-datebox.tpl.php	5cf0861d4d32393663802307cb8c82ff
+M	theme/calendar-day-node.tpl.php	1493abfc230285c33d2738eeaa64e1f3
+M	theme/calendar-day.tpl.php	a580cd41e9ac65cce9216248cb718dd8
+M	theme/calendar-main.tpl.php	7e88a40233962c8daf4674f279ecf6f9
+M	theme/calendar-mini.tpl.php	31e53056c5ed810d261f383058ca5036
+M	theme/calendar-month-multiple-node.tpl.php	1fe0a0fbc985843ff0ad0fac70df88f6
+M	theme/calendar-month-node.tpl.php	44922ae3077fc27160ee1ac217f1bf4d
+M	theme/calendar-month.tpl.php	230bc7b52ab90510f71ccfda83dcd9d0
+M	theme/calendar-week-multiple-node.tpl.php	6ff198ad544df34871dd66082ebbb463
+M	theme/calendar-week-node.tpl.php	902a659d0f8952e482140b4e5d7f1337
+M	theme/calendar-week.tpl.php	85824887bbe6cf1afcc67255e8d3c1b2
+M	theme/calendar-year.tpl.php	1b9b66d271d9703fadacd5a3003fd375
+M	theme/theme.inc	0ae6c2ef843c08e8132c32348c8b5ffc
+D	theme/translations/theme.cs.po	
+D	translations/calendar.pot	
+D	translations/de.po	
+D	translations/general.cs.po	
+D	translations/general.hu.po	
+D	translations/includes.hu.po	
+D	translations/installer.cs.po	
+D	translations/installer.hu.po	
+D	translations/root.cs.po	
+D	translations/root.hu.po	
+D	translations/theme.hu.po	

@@ -1,0 +1,21 @@
+M	README.txt	1d3bca6eca188b089bd75568212099e6
+A	ReCAPTCHA/LICENSE	85d051225ef63cb5e5bba300961adf8e
+A	ReCAPTCHA/README.md	0e21a1392a25e6697f42348719ea17d9
+A	ReCAPTCHA/php/example-captcha.php	55aa7c158e3bc3096a14a2136efb938f
+A	ReCAPTCHA/php/recaptchalib.php	530db9c69364da873754fc8f50cdb8c1
+D	recaptcha-php-1.11/LICENSE	
+D	recaptcha-php-1.11/README	
+D	recaptcha-php-1.11/example-captcha.php	
+D	recaptcha-php-1.11/example-mailhide.php	
+D	recaptcha-php-1.11/recaptchalib.php	
+M	recaptcha.admin.inc	d6bccddec86630d99e969cfeb8059aac
+M	recaptcha.info	e173f68449984d319896d736c56ec2be
+M	recaptcha.install	512c9c51cb7b8b871ac2b52ace941a44
+D	recaptcha.js	
+M	recaptcha.module	eb5d362d1288fad2df75f82e7485f3c8
+D	recaptcha_mailhide/recaptcha_mailhide.info	
+D	recaptcha_mailhide/recaptcha_mailhide.install	
+D	recaptcha_mailhide/recaptcha_mailhide.module	
+D	tests/recaptcha_base.test	
+D	tests/recaptcha_server_status.test	
+D	tests/recaptcha_ui.test	

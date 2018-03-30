@@ -1,0 +1,18 @@
+M	README.txt	6dfea9cb4b1a4d2f583123387966e4df
+M	date_ical.info	db521ad34c77306ef16757a572ac6837
+M	date_ical.install	54e98b561a68556de0309cdf0900aa45
+A	date_ical.make	e46c31104dfcc15f609bac3176afcee7
+M	date_ical.module	89e129c3c7d7d0968bc02118a23168ca
+M	includes/DateIcalIcalcreatorParser.inc	8188922fed083ded16f72677cef34f0c
+M	includes/date_ical_plugin_style_ical_feed.inc	2b2c4fce9df6690685eb625fd26c9e69
+D	tests/date_ical_parser.test	
+D	tests/date_ical_parser_categories.test	
+D	tests/date_ical_parser_date.test	
+D	tests/date_ical_parser_link.test	
+D	tests/date_ical_parser_location.test	
+D	tests/date_ical_parser_text.test	
+D	tests/feeds/basic.ics	
+D	tests/feeds/categories.ics	
+D	tests/feeds/date.ics	
+D	tests/feeds/location.ics	
+D	tests/feeds/timezone.ics	

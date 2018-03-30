@@ -1,0 +1,13 @@
+M	config/schema/config_devel.schema.yml	158c36b765b7b5282f64dd1f04e739c4
+M	config_devel.info.yml	2303d4e3df4aaa22d82c21db7abe7699
+A	config_devel.links.menu.yml	3351df46aaadb75a09e406f2f85d5fa4
+D	config_devel.menu_links.yml	
+M	config_devel.routing.yml	300942a66ba36633e9dd5a63bbb829c8
+M	src/EventSubscriber/ConfigDevelAutoExportSubscriber.php	587353cc00d827898934ca7e1658c422
+M	src/EventSubscriber/ConfigDevelAutoImportSubscriber.php	cb5c7263a884c808dbaedddd8f1a7fe4
+M	src/EventSubscriber/ConfigDevelSubscriberBase.php	b5d33fbbb328c38cd9e47f30ee3c3116
+M	src/Form/ConfigDevelSettingsForm.php	c1cc9ef5623ad2496d1de69a145e5cf7
+M	src/Tests/ConfigDevelSubscriberEntityTest.php	6d0b50a9bf7d5dc75340f1b4f67240b8
+M	src/Tests/ConfigDevelSubscriberTestBase.php	46ae6ba15e7d5457492d777dff7483d2
+A	tests/src/ConfigDevelAutoExportSubscriberTest.php	65c856a05340809789083252f40cc249
+A	tests/src/ConfigDevelTestBase.php	948ed822adfa719a99b686c54a39edd2

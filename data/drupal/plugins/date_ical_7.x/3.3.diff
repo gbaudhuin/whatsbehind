@@ -1,0 +1,7 @@
+M	date_ical.api.php	a8b58941adbea844f1c8bb0ecb211ac6
+M	date_ical.info	743a7ff3ce168bbbca8145ccaba1216c
+M	date_ical.module	d0f3bda3f073eb76dc5f008f5e2fc6d3
+M	includes/DateIcalFeedsParser.inc	b2b02e55b4fd2c294e53156033b275b8
+M	includes/date_ical_plugin_row_ical_entity.inc	2558849fff915fb03d72cd3cd6bc307a
+M	includes/date_ical_plugin_row_ical_fields.inc	ae816a1503dba66d245ef1bc3344b5cc
+M	libraries/ParserVcalendar.inc	ea568a8f733dbd6aa0e8a7f2a022699b

@@ -1,0 +1,11 @@
+M	back_to_top.admin.inc	710c805d29e1a2e6e3f2799dfbe320cb
+D	back_to_top.css	
+M	back_to_top.info	f74a224175a509b9dd8ee5e27960b7d7
+D	back_to_top.js	
+M	back_to_top.module	97c4df0326ef12d9bac50d44900dc5fe
+D	back_to_top_text.css	
+A	css/back_to_top.admin.css	e80444c077033aa9ea9e7ccd4861e179
+A	css/back_to_top.css	176a83062b8504ed8646b640498578cf
+A	css/back_to_top_text.css	57914e5e9cd06ed626f2579d8b04523a
+A	js/back_to_top.admin.js	ac4c994c569b464310cf19316cead13c
+A	js/back_to_top.js	76b2fe7a152572c4ffb87399b79bd50c

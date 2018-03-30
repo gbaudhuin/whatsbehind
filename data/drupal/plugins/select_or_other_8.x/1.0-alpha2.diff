@@ -1,0 +1,19 @@
+M	config/schema/select_or_other.schema.yml	fa72a6af952712184a647628bcd862ca
+M	select_or_other.info.yml	ecbf7cfcd86a23ced289b798308eed92
+A	select_or_other.module	1eb704fb490bf54b553fc7c767693d08
+D	src/Plugin/Field/FieldWidget/EntityReference/ReferenceWidget.php	
+A	src/Plugin/Field/FieldWidget/ListWidget.php	ca0e5fdffd223616aae5f8f14ab7ae8d
+A	src/Plugin/Field/FieldWidget/ReferenceWidget.php	9d32de54dafbc54fdf20a7b57af88e52
+D	src/Plugin/Field/FieldWidget/SelectOrOtherWidgetBase.php	
+A	src/Plugin/Field/FieldWidget/WidgetBase.php	c3bf5e88279f30a79accca1e402bfa0f
+A	src/Plugin/Validation/AllowedValuesConstraint.php	3c75960b92ce01ab4314e377f081caff
+A	src/Plugin/Validation/AllowedValuesConstraintValidator.php	a110e671cbd44ffa292ebd3bfd67555a
+A	src/Tests/ListTest.php	67e1be93ae94ae0621a676428fb9cfbe
+M	src/Tests/ReferenceTest.php	f908705ecc5e0fdcfc3bea4daff54002
+M	src/Tests/TestBase.php	52262f86c3d4d112bcc43fb21f079af6
+M	tests/src/Unit/ElementsTest.php	341a37a0ba46a79684ba4275dac7f66c
+A	tests/src/Unit/ListWidgetTest.php	b68dc50d014762be17b94ae83e5e7984
+M	tests/src/Unit/ReferenceWidgetTest.php	2be1ae5380dc3a00d42e9c03165f3e2f
+D	tests/src/Unit/SelectOrOtherWidgetBaseTest.php	
+A	tests/src/Unit/UnitTestBase.php	a97c5ab647fde2c5b5d39521dcfb44b7
+A	tests/src/Unit/WidgetBaseTest.php	aebfd18f189f21529e6443cfc88e2df3

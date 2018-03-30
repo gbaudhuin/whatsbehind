@@ -1,0 +1,4 @@
+M	config/schema/contact_ajax.schema.yml	495eb9ac5b0d75ed84ded4f112d3dd63
+M	contact_ajax.info.yml	79ba3561c98827955fdf4bd243690f8a
+M	contact_ajax.module	557ba50d978987d8d5c2de361af6c4e9
+M	src/Tests/ContactAjaxTest.php	aaa476e7008019bc0c84d7a7000656c0

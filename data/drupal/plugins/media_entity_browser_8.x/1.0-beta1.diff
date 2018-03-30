@@ -1,0 +1,15 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	config/install/entity_browser.browser.media_entity_browser.yml	81eb40014d89a6cd33788e89acc80566
+A	config/install/image.style.media_entity_browser_thumbnail.yml	d72a563c13dd1a87c00bd85d60725d1b
+A	config/install/views.view.media_entity_browser.yml	eb4b94028fc3afb2c572660060e72136
+A	config/optional/embed.button.media_entity_embed.yml	2fd871a0eaa4e98e037f3ef47092e9c8
+A	css/media_entity_browser.view.css	5d81d59bbe352075a721e576cf0afa09
+A	images/image.svg	245a916583084f25d7aac78d35766b1b
+A	images/twitter.svg	b1cdfa34cb455a1b446cd5ec7648da82
+A	images/video.svg	c3e22d343f6a213696422c7d075aa61d
+A	js/media_entity_browser.entity_embed.js	2c4f04095c09633824b15c0203fdbcb4
+A	js/media_entity_browser.view.js	3c93545dcf5ab017cc013f67a9528cbf
+A	media_entity_browser.info.yml	dcdd11a49b29051b79cb6236839f28de
+A	media_entity_browser.libraries.yml	ba49282b47ea3ddcfab815aae02e1268
+A	media_entity_browser.module	171cd37ff6a0ee8933f1ca52363baff3
+A	tests/src/FunctionalJavascript/MediaEntityBrowserTest.php	5b3a3429d50ed61a2a2926bff23652df

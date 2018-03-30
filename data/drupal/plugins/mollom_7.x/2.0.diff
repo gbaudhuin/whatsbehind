@@ -1,0 +1,11 @@
+M	includes/mollom.class.inc	713eecdcb621f3a8325de4906eb667a0
+M	mollom.admin.inc	3a893dcd9f98ea88445b1d9025e97094
+M	mollom.api.php	9824629f9894e9ea6612f954808b1aef
+M	mollom.drupal.inc	85b006b33971f6a5c30324c3d968a381
+M	mollom.info	173097bd23f056d93f865cf465940b63
+M	mollom.install	ee1cc861542e0a7fbc2ca466b4ce1fff
+M	mollom.module	e47c5a22e874cfd37dab10827de75155
+M	tests/mollom.test	f7542f98ee053ba5a4d565a26bc1b471
+M	tests/mollom_test.info	274ecacfd3475864b3a40738f1b1f35d
+M	tests/mollom_test.module	578ca23066165a6adfe3dd8be3c73b60
+M	tests/mollom_test_server.info	38656dacec48472cf75a44076c89e02d

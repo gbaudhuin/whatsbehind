@@ -1,0 +1,5 @@
+M	modules/actions_permissions/actions_permissions.info.yml	f0154616e28798547c7662fb633ac674
+M	modules/views_bulk_operations_example/views_bulk_operations_example.info.yml	29541f106ff8246c08ccffab0cce0671
+M	src/Plugin/views/field/ViewsBulkOperationsBulkForm.php	d02b16e80735eae9538a423499a60147
+M	tests/views_bulk_operations_test/views_bulk_operations_test.info.yml	52adca2b58e12adbe3863db269eba112
+M	views_bulk_operations.info.yml	dd58b65f45cb110838987f92e0a073e7

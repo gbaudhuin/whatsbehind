@@ -1,0 +1,6 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	config_devel.info.yml	321f490b71e0edd17b9038b795056465
+A	config_devel.install	cab809b75f8326bbadb0741671f96bcd
+A	config_devel.services.yml	f9f29c41f657ab53cd4565dbf46c954f
+A	lib/Drupal/config_devel/Config/FileStorageFactory.php	cb36b76cb678418c0365ff1f3f511325
+A	lib/Drupal/config_devel/EventSubscriber/ConfigDevelFileStorageSubscriber.php	6463b656eeb6967a87f5b5ca81ffc14c

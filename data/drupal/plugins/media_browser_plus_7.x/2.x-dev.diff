@@ -1,0 +1,14 @@
+M	README	805d4d9aa40a3b93d37e1dd75657fb81
+M	css/media_browser_plus.admin.css	d634238a3a80e830e0434c48623d307d
+A	includes/MediaBrowserPlusLibrary.inc	92f52fd30d20d1be7029fadeb6a067ee
+A	includes/file_entity.admin.inc	809efe6562d388de92764aa562814a8b
+D	includes/media_browser_plus.admin.inc	
+M	includes/media_browser_plus.folders.inc	f5488ce09ca405226a6f7e48948c277c
+M	includes/media_browser_plus.pages.inc	9bf8d876575cb7723ef25a4a17af0eb1
+M	js/media_browser_plus.admin.js	ac56f94a63df67049a428a81dc86ec1f
+M	js/media_browser_plus.admin.menu.js	1af4036f572586ee650fc5291358328e
+M	js/media_browser_plus.library.js	6166b2c5d9e1bc22297ddeb6d3ececc2
+M	media_browser_plus.info	5834115c4fe8602876f3d4bfc884ed17
+M	media_browser_plus.install	8e96d9e75ac9af9e6d0e81043f69821c
+M	media_browser_plus.module	94de4e2e5b0f5004a3f9ce90b1961e30
+A	tests/media_browser_plus.test	a967dd7678a800d764f9f4e9630353c8

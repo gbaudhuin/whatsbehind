@@ -1,0 +1,25 @@
+M	config/schema/inline_entity_form.schema.yml	05801d64c27fd6b00f5733724acbb7d8
+M	inline_entity_form.api.php	254e77311e123787b11e03ed5b8cd20f
+M	inline_entity_form.info.yml	158c4ea35bcf84c93c9803ca742232c0
+M	inline_entity_form.module	95144362ce5a9969de6279cf462bc56d
+M	src/Element/InlineEntityForm.php	929f8d6339854adf5ff737148f656258
+A	src/ElementSubmit.php	6947df34e7b849d5bec2256d29260d9e
+M	src/Form/EntityInlineForm.php	8bf42828c70916018c10997fcfadea4d
+M	src/Form/NodeInlineForm.php	e940a40f5d7ae5a998300b63260361b0
+M	src/InlineFormInterface.php	d61ffa90095ed4699568ea19771fa229
+M	src/Plugin/Field/FieldWidget/InlineEntityFormBase.php	b6f269741b1ad4180d713cd915f61788
+M	src/Plugin/Field/FieldWidget/InlineEntityFormComplex.php	65c52bc75a6059473b803f5629720b77
+M	src/Plugin/Field/FieldWidget/InlineEntityFormSimple.php	7435d819ffcc95d05062f60393ce770c
+M	src/Tests/InlineEntityFormComplexWebTest.php	f844e6aee319706bdf3b38415f8a0d3c
+M	src/Tests/InlineEntityFormElementWebTest.php	403d4867c3e834af9dab9084d57b0d4b
+M	src/Tests/InlineEntityFormSimpleWebTest.php	6cf86be3e978e92d6a4983ef079543a1
+M	src/Tests/InlineEntityFormTestBase.php	0469d065601c73bd44f8c8e87a743580
+A	src/WidgetSubmit.php	2d876bc27e9991e9ad97b2d59d7f6380
+D	tests/Unit/EntityInlineFormTest.php	
+A	tests/modules/inline_entity_form_test/config/install/core.entity_form_display.node.ief_test_custom.inline.yml	1bba52b5d2c6aac194458700a1a707cc
+A	tests/modules/inline_entity_form_test/config/install/core.entity_form_mode.node.inline.yml	60977a201ea439fdf3c2094ce9f4dfc8
+M	tests/modules/inline_entity_form_test/inline_entity_form_test.info.yml	d92b4136e31d5e1c1f629d447007c44f
+D	tests/modules/inline_entity_form_test/inline_entity_form_test.info.yml.orig	
+M	tests/modules/inline_entity_form_test/inline_entity_form_test.routing.yml	1697699c453052644ad9d78b0e1139ed
+M	tests/modules/inline_entity_form_test/src/IefEditTest.php	235baf796292de2ddd7cd5d68dbde404
+M	tests/modules/inline_entity_form_test/src/IefTest.php	5cc86b593851ea93df84af25321719ed

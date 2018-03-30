@@ -1,0 +1,18 @@
+M	layout_plugin.info.yml	5c0c133625fd94c5bb45f014367cd1cf
+M	layout_plugin.module	607b8773ffb64aaf7a804c57a75d97bb
+M	modules/block_page_layout/block_page_layout.info.yml	0e68425e7d6685766272e4c11fab62f9
+M	modules/block_page_layout/config/schema/block_page_layout.schema.yml	23e55957504b86ef4073963a73525b59
+M	modules/block_page_layout/src/Plugin/DisplayVariant/BlockPageLayoutVariant.php	408b57aab344b518eba480e5b0e5cac0
+A	modules/block_page_layout/src/Tests/BlockPageLayoutTest.php	f050d883aea9463ab8c566cc8f64349c
+A	modules/layout_plugin_example/config/schema/layout_plugin_example.schema.yml	821c43654a1a22aedf33fba060d4fbe9
+M	modules/layout_plugin_example/layout_plugin_example.info.yml	83af24afbe2355e844bb48cd3ae59777
+M	modules/layout_plugin_example/src/Plugin/Layout/LayoutExampleTest.php	b31f20404090bd00b616149efe8104d5
+A	modules/layout_plugin_example/templates/layout-example-test.html.twig	014378ed9baf17b932f81e911585f612
+M	src/Annotation/Layout.php	d8b0da51b458d0dc7db2d0a01c13757a
+M	src/Layout.php	083641f39f6d2afd35a2217c981b6619
+M	src/Plugin/Layout/LayoutBase.php	0ce56e75bac584370b19ec235f91d4bb
+M	src/Plugin/Layout/LayoutInterface.php	e74129587a0aeecdd2bf731ab5e08256
+M	src/Plugin/Layout/LayoutPluginManager.php	e7ab3660ea997515e193eb1d0a1e29a3
+M	src/Plugin/Layout/LayoutPluginManagerInterface.php	5d5ba3ff3fbcd0f3bb57c4c50ca7c582
+D	tests/src/Unit/LayoutTest.php	
+M	tests/src/Unit/PluginManagerTest.php	0b948de25d43620bf037507f1b416ccd

@@ -1,0 +1,7 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	e834a338781feccf3c36819d0116645d
+A	entityreference_prepopulate.info	1e781301ed432bb5b4a1a145e84ea4da
+A	entityreference_prepopulate.module	6eb8a96e21610d55e98c6dfa49a3eb95
+A	plugins/behavior/EntityReferencePrepopulateInstanceBehavior.class.php	f5b0f31b16cfec54780f49711cc71c1b
+A	plugins/behavior/prepopulate.inc	724e1b703d56cfe3d338826e0cc2f370
+A	plugins/content_types/node_prepopulate.inc	425995114100f0a108ef50822a2b0694

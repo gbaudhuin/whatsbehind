@@ -1,0 +1,7 @@
+M	css/workspace.toolbar.css	8aab2c3ae2d21526d576b345e495e05a
+A	icons/bebebe/changes.svg	c3246c60f2d1b3151ae3b99afa992c0a
+A	icons/ffffff/changes.svg	7a8f4fe59854d7939e65482c7d07c2c4
+M	src/Controller/ChangesListController.php	071ca3d3730d4f898876bdd0ad742968
+M	src/Form/UpdateForm.php	59789839de09031a8fa14779be541ddb
+M	src/Toolbar.php	4ebc72e39f60d87b3a33b9b22bed67af
+M	workspace.info.yml	353c3c73fd2340bc0bfa4ced503ec45d

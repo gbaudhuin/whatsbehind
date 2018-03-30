@@ -1,0 +1,8 @@
+M	CHANGELOG.txt	a4cab3b0c149753f1a8c38e6cc844b28
+M	forum_access.admin.inc	12bfab8e57a14c85a142e84a0d12a8b6
+M	forum_access.info	226c88e23bc7cb751cf81bb2897f542d
+M	forum_access.install	ff17d8636f2291304cd27b8ff188292f
+M	forum_access.module	4bd78dc2c098ada87c72f9ae4a7e516a
+M	forum_access.node.inc	00a0b2db3b2db0db629bdffb70216e0d
+M	tests/forum_access.test	a9ceb5fbb2cd07a543c31d81473342f7
+M	tests/forum_access_test_base.php	5d853ea7024b611574cc58ef4021d207

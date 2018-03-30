@@ -1,0 +1,15 @@
+M	mailsystem.info.yml	f15135df8231565ad2cfcc8a2745081e
+M	src/Adapter.php	b2e4cefdfeb17b5c70cd4f56e9b4c022
+M	src/Form/AdminForm.php	9a74442df1c369a5831ff7328845098a
+M	src/MailsystemManager.php	6af6ed6be33962c1d3819e6f283a000e
+M	src/MailsystemServiceProvider.php	ee7e23ea7dd72f82b7b5bc986b25e168
+M	src/Tests/AdminFormSettingsTest.php	e205fb4608c91cd8cb1b057a75bb27ae
+M	src/Tests/MailsystemTestThemeTest.php	7edb6d37d027f572b7e84ffbc71f80c4
+M	tests/modules/mailsystem_test/mailsystem_test.info.yml	6025d7becdd5ff65f62ea65cbcb8b486
+M	tests/modules/mailsystem_test/src/Controller/MailsystemTestController.php	2eaefd1f566e2742bc2b21e18922fc59
+M	tests/modules/mailsystem_test/src/Plugin/Mail/Dummy.php	033b27c75bc9ef6cace98f111ee79dc4
+M	tests/modules/mailsystem_test/src/Plugin/Mail/DummyFormatter.php	540c4c84e996f5e263d5d79c1337f097
+M	tests/modules/mailsystem_test/src/Plugin/Mail/DummySender.php	62ac8bfecb626761c4d05567937b7460
+M	tests/src/Unit/AdapterTest.php	1bd9f30529e9ba2af343342f5b93f31e
+M	tests/src/Unit/MailsystemManagerTest.php	dedcfa6fa505dc13ac040d75a2af3f3f
+M	tests/themes/mailsystem_test_theme/mailsystem_test_theme.info.yml	94e04a08394a4012f150603c23dfb459

@@ -1,0 +1,4 @@
+M	migrate_upgrade.drush.inc	046479b9aa27aed5a254b46195d975b2
+M	migrate_upgrade.info.yml	d2df0d33b51c7cab002367d116b108dd
+M	src/DrushLogMigrateMessage.php	e9a88f8d56d296b621c22b16fbd4139e
+M	src/MigrateUpgradeDrushRunner.php	bcea7fc3b70c3d823bfaae9c46c54792

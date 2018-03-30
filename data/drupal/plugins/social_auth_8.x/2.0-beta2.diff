@@ -1,0 +1,5 @@
+M	social_auth.info.yml	a0277506b4c8da3e93078224526a56b5
+M	social_auth.services.yml	a399a7dea14afb56bcd603786b08130f
+M	src/Entity/SocialAuth.php	0e12548caec20d127f6fed8efecbb286
+M	src/Event/SocialAuthUserEvent.php	6271ee71f5cdece15ab9a8dd900d18a3
+M	src/SocialAuthUserManager.php	9e005420736babba489ff65fb3af3230

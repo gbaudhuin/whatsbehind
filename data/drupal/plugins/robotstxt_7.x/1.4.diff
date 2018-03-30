@@ -1,0 +1,9 @@
+M	README.txt	24b7c6275922e928b27bc64acaf113ea
+M	robots.txt	301f7ecc36e969e649a9152bc9e24172
+M	robotstxt.api.php	d23564c9aab281bfc12bf3ac0dca5d58
+M	robotstxt.info	aa881ea635a8f6acab50aafac015aaf4
+M	robotstxt.install	0a6a25e75f34f74cbf32aff500f745f1
+M	robotstxt.module	6c8b25747f0982f3dea62189bed53293
+A	robotstxt.test	ee05a82453ad0ecb8654856ba2e53381
+A	tests/robotstxt_test.info	c1be5784c9960921f65110dc2d1059cb
+A	tests/robotstxt_test.module	903f4195dc2f1358587e952d25f4af49

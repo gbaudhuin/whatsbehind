@@ -1,0 +1,29 @@
+M	CronRule.class.php	68bc5c80d15eeda4d40970778de235d6
+M	js/ultimate_cron.nodejs.js	cb717e05dee0507248cd81d68eecc0a5
+M	plugins/ctools/export_ui/ultimate_cron_job_ctools_export_ui.class.php	b1b8a4f0137c6cb13d00ec862d6661a5
+M	plugins/ultimate_cron/launcher/background_process_legacy.class.php	aedbf6363df0fd3900730282844b7c0e
+M	plugins/ultimate_cron/launcher/serial.class.php	11975d6696685aa1df65c5b2438d1fc4
+M	plugins/ultimate_cron/logger/cache.class.php	03520b7d6ae0a23d70dde49c4cfb223b
+M	plugins/ultimate_cron/logger/database.class.php	344a8a56a6d6ef796294e782e277c799
+M	plugins/ultimate_cron/scheduler/crontab.class.php	cfdbb7f34da1c9cb3418633a7dcae90c
+M	plugins/ultimate_cron/scheduler/simple.class.php	b1ef1c1f60dd53afb5ddab600617f1a2
+M	plugins/ultimate_cron/settings/poorman.class.php	cf92f5012de23d54d67af11b2b004be2
+M	plugins/ultimate_cron/settings/queue.class.php	441cc2c870291bd363b6596a77dd23b1
+D	templates/page-admin-settings-cron-log.tpl.php	
+M	ultimate_cron.admin.inc	e77d2a3de7b9a1bd90f7677848bf2825
+M	ultimate_cron.api.php	029813038332dc24a318e60bcc25e521
+A	ultimate_cron.background_process.inc	ca72aaf69ac303955234336a1709828c
+D	ultimate_cron.background_process_legacy.inc	
+M	ultimate_cron.cache-signal.inc	c67c7f8e83d37fde3f06b1d97f8c14e4
+A	ultimate_cron.cron.inc	fafaace887da030758311c1a78ae5c8d
+M	ultimate_cron.drush.inc	451b9209ecee08ab6f790b67411e6624
+M	ultimate_cron.info	7856f9c347dc798287f8fcc0ef2da8c7
+M	ultimate_cron.install	a299b9a65b30f4e0274e55a202640ff7
+M	ultimate_cron.job.inc	b6c259778e0858fef78957ff3c8bf426
+M	ultimate_cron.lock.inc	65ba427c70c551c12871ee5a755b5e37
+M	ultimate_cron.memcache-lock.inc	bcd36e6fe8de8ff68a850c095f65bc4c
+M	ultimate_cron.module	c794524b6dfaba78ec00b51eadf04e13
+D	ultimate_cron.nagios.inc	
+M	ultimate_cron.plugin.inc	aef82d19d5e89457c0e726a174350121
+M	ultimate_cron.poorman.inc	d286b405b20fe8ad010e93be0ec56b00
+M	ultimate_cron.signal.inc	d6ce78ab142c42494a98cb8f384271fb

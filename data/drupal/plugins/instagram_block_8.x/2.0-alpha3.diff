@@ -1,0 +1,10 @@
+A	config/schema/instagram_block.schema.yml	1e92baede39249ad21ac73e8827837f1
+A	instagram_block.config_translation.yml	8748b1b2e81d63b15108a5c02e85767b
+M	instagram_block.info.yml	57053951603f15600c73ecda786c78a4
+M	instagram_block.module	8db5cbd584fd481517d28902b3166308
+A	instagram_block.permissions.yml	872502bc9e01018eea422f65b54aeb16
+M	instagram_block.routing.yml	ea057e70462647dbf42d6db8d6b686f7
+A	src/Form/InstagramBlockConfigForm.php	9bcd68890f5881008b7ae4485f1a75f5
+D	src/Form/InstagramBlockForm.php	
+M	src/Plugin/Block/InstagramBlockBlock.php	9d1975967cce4c0e07ff2a3034214cfa
+M	templates/instagram-block-image.html.twig	06656511353981897ef0035ab502d381

@@ -1,0 +1,13 @@
+M	CHANGELOG.TXT	0064b6d33e026c665d2f22a06abe98dd
+M	bean.info	cdd1d5aae420fed1642a2918cee44b7d
+M	bean.module	067328394a8a64775351224fd002566d
+M	bean_admin_ui/bean_admin_ui.info	bf2fceb10479221db7b2f7c524cc29d2
+M	bean_admin_ui/bean_admin_ui.install	4eefe25de82ed2435ba86c84bdefae83
+M	bean_admin_ui/bean_admin_ui.module	5068898f45792a09b11a157da14371fd
+A	bean_uuid/bean_uuid.info	581d01a4a003011e82641bf9a7978121
+A	bean_uuid/bean_uuid.install	214d4f44497fba378c7c0b62630443e9
+A	bean_uuid/bean_uuid.module	d25c4e6aed5123d645303afd20f6dae0
+M	includes/bean.core.inc	d2398cb0085ee657a5343ad2d42a2a1e
+M	includes/bean.pages.inc	557baadb6f5f60229e1049d22a029e5b
+M	plugins/base.inc	40dc1f7fed51018458c5b8cfcc6d2dab
+M	tests/bean_test.info	cf2098a5e8be7884d4e3df0c5e27472d

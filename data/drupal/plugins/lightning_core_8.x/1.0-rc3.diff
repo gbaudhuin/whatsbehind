@@ -1,0 +1,13 @@
+M	.travis.yml	958194ab5527fc2adf6d0c2573cd5bfe
+M	CHANGELOG.md	2529e91dc49ad2388954b7930a7d01e6
+M	lightning_core.info.yml	076b6f267b5d839885ab8b39211f95cf
+M	lightning_core.install	0bd1200383676ef4757cd54f6d13e618
+M	modules/lightning_contact_form/lightning_contact_form.info.yml	c60c5a5c32e618b39b37c2e37f97a5b8
+M	modules/lightning_page/lightning_page.info.yml	2c87176e575552ecae2a1809894389cc
+M	modules/lightning_roles/lightning_roles.info.yml	7c1c05940814611a5d5dcb4466742ba3
+M	modules/lightning_search/lightning_search.info.yml	3e410afe910b388234180037a6228abf
+M	modules/lightning_test/lightning_test.info.yml	04a7deee8918c6f68e6c32866da4366b
+A	tests/fixtures/1.0.0-rc2.sql.gz	80a5db5bab95a9c079f1e1bed4b5f88f
+A	tests/fixtures/1.0.0-rc3.sql.gz	0c4aa46c4875beb845a660b02a0f94c3
+A	tests/fixtures/Update8006Test.php.gz	b8393cba314fee32035d5561bef6c0e9
+A	tests/src/Functional/Update/Update8006Test.php	da6f2e19fbf8d9282c447b3130edfbf9

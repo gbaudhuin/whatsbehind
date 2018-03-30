@@ -1,0 +1,21 @@
+M	README.txt	786015b45f9148135c120efdac9e8ccf
+A	composer.json	bfce283c3115075109281da450b66df7
+A	config/install/imagemagick.file_metadata_plugin.imagemagick_identify.yml	ae6a40576d61d99030941cce0ca4b5c1
+M	config/schema/imagemagick.schema.yml	5b290dbc93f64975dc9fc670cd84f95e
+M	imagemagick.api.php	92d33f15f6c1c03db2a8ff33b8080602
+M	imagemagick.info.yml	8bf607548a98b2dfbbc15fc5f5a50b45
+M	imagemagick.install	c6424ec1f0b33bcbf844da0b644a2776
+M	imagemagick.module	20fbd85bb87eeb4400eb54cf7942355b
+M	imagemagick.services.yml	e080b353811201057165f18ee18cf764
+A	src/ImagemagickExecArguments.php	611d0ae8f0fb03bccf326b18433b26ce
+A	src/ImagemagickExecManager.php	35fb91ef8692067fe5f2107ddc82be86
+A	src/ImagemagickExecManagerInterface.php	824a6c3f4aaea73269dfa82edc282353
+M	src/ImagemagickFormatMapper.php	8ebcb2ad67f3b6672f67f23ac8ca7f9a
+A	src/ImagemagickMimeTypeMapper.php	02d7deccfd0ecbecd8f02f70e6b6078a
+A	src/Plugin/FileMetadata/ImagemagickIdentify.php	5dff237e2709c39f7eca3c39356473ca
+M	src/Plugin/ImageToolkit/ImagemagickToolkit.php	30b1867ca02b499f74eb7255ee3b8af4
+M	src/Plugin/ImageToolkit/Operation/imagemagick/Convert.php	e0ccbebf06ae1e552cabbe489dffaea5
+M	src/Plugin/ImageToolkit/Operation/imagemagick/CreateNew.php	449a850a4303b67238157a0f7451fcd4
+D	src/Todo2311679.php	
+A	tests/src/Functional/ToolkitImagemagickFileMetadataTest.php	1d68731cfa8d249738ec9104795431a7
+M	tests/src/Functional/ToolkitImagemagickTest.php	232efcc9172abc11c814b13d79f05826

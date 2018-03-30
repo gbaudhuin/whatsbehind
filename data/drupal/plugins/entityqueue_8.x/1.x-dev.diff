@@ -1,0 +1,36 @@
+A	composer.json	bd4c2dc9a876d833d5876d15623554b6
+M	config/schema/entityqueue.schema.yml	3ce0d22703ddd653c5e27c18c57be10e
+M	entityqueue.info.yml	71a4bf89cea37e49ca6e3e5ea7ccefab
+A	entityqueue.links.task.yml	cb68904ce19b1c9a84c5b330d65383a5
+M	entityqueue.module	ebe43a5e0006eccadf0aa46f82b0b856
+M	entityqueue.routing.yml	29b46859654da6c4a9ad037b240b003f
+M	entityqueue.services.yml	c60ad711670f8dd6919e9b90b249ce00
+M	entityqueue.views.inc	abcaba0e8b0a29b13eb199877128f2bb
+D	plugins/entityreference/selection/EntityReference_SelectionHandler_EntityQueue.class.php	
+D	plugins/entityreference/selection/entityqueue.inc	
+M	src/Controller/EntityQueueUIController.php	525fbaf6d2d3bdad3bc9ff00ce2a1ec2
+M	src/Entity/EntityQueue.php	93795484a40965d38e1837c6e24d539e
+M	src/Entity/EntitySubqueue.php	4772e61d458ab1ab145767b6874dad23
+M	src/EntityQueueHandlerBase.php	da01f57385fb998f8787bc611b9f92b9
+M	src/EntityQueueHandlerInterface.php	a9918fb0ed5ca79d4e2052a749831f43
+M	src/EntityQueueInterface.php	bd27e61eb66da5849621e2738fff3ef0
+M	src/EntityQueueListBuilder.php	96a38deefaa5d29e65fe35eb97c2017a
+M	src/EntityQueuePermissions.php	999471020fd293e7125ef6e438778d4b
+M	src/EntitySubqueueInterface.php	bf17e6b5bf0c90b280aec9abf526a458
+M	src/Form/EntityQueueForm.php	c16ed1def230d6bef63164935ac25784
+M	src/Form/EntitySubqueueDeleteForm.php	61ed825db038bc25c0223f4edf1037bb
+M	src/Form/EntitySubqueueForm.php	b0e7b09ec7f685e4c6792524437061ca
+A	src/Plugin/Derivative/EntityqueueLocalTask.php	51dcbb8490d289b5423c08a32b545d3c
+M	src/Plugin/Field/FieldWidget/EntityqueueDragtableWidget.php	5ace542144a9e9d3b289e2c9289de3da
+M	src/Plugin/Validation/Constraint/QueueSizeConstraintValidator.php	ab8895380added6d649dbc3653e051b2
+M	src/Plugin/views/relationship/EntityQueueRelationship.php	2f1b7e3e7ba04e52c8b9db4da518fc68
+A	src/Routing/RouteSubscriber.php	bcaa6e59079465a3bf395fb5817a6e46
+A	tests/modules/entityqueue_test/config/install/entityqueue.entity_queue.simple_queue.yml	2b02db6069a20d4629de66dacdc40fad
+A	tests/modules/entityqueue_test/config/install/entityqueue.entity_queue.test.yml	41b6838b42b40b6df06843d8690637e8
+A	tests/modules/entityqueue_test/config/install/views.view.entityqueue_test.yml	6eca9206492d63e3665fc6beecbd8b1d
+A	tests/modules/entityqueue_test/config/install/views.view.simple_queue_listing.yml	a25d56ca89251edbde6f1f1713397699
+A	tests/modules/entityqueue_test/config/schema/entityqueue_test.schema.yml	a39270569fae27398bdd9eb8cdc2a825
+A	tests/modules/entityqueue_test/entityqueue_test.info.yml	adffe3dea45a8fc5cff26f8b6b7c19de
+A	tests/modules/entityqueue_test/src/Plugin/EntityQueueHandler/Test.php	40a852c724d3c84b52ad7d0b40216024
+A	tests/src/Functional/EntityQueueUiTest.php	5d4c70daebca1555d588ef8e0e67f819
+A	tests/src/Kernel/EntityQueueCacheTagsTest.php	8b306c7f36914fb66dc914e7c78f23ea

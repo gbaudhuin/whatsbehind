@@ -1,0 +1,15 @@
+A	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+A	README.txt	206cb2b803bd0b475a8deb2ffd4fe4b4
+A	includes/file.inc	df69f1a34fab84a9156e073b483bc851
+A	includes/image.inc	af1951dc1e5cd7aa431344a3ae6995fe
+A	includes/insert.inc	a29fad696b5ba1373101d31af1657441
+A	insert.info	538e91b646a8b09b2f503b9013d53599
+A	insert.install	fec0bfb512e7a65a67313e1a0f1b9325
+A	insert.js	6775f9f0f90d65153f3bb21f7ae9eca7
+A	insert.module	f4a24028d64e64a76a25c85920f1d31d
+A	templates/image-insert-image.tpl.php	027bc8bd6a9e6f41e834802cecbb1b3c
+A	templates/insert-image.tpl.php	59b4c723845e3f49ab99e64a67099ee4
+A	templates/insert-link.tpl.php	f867bed7cf110ba8d3701e7c7d1a9031
+A	templates/insert-widget.tpl.php	f87d83587f50b98d42edae08c95ea878
+A	translations/hu.po	b992910e50b8de7658ac7fc9894a8d20
+A	translations/sv.po	4b378835aad6be4bb99397f0205a2b32

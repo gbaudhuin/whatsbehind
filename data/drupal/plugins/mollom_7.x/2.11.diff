@@ -1,0 +1,12 @@
+M	mollom.admin.inc	84b43155b57c9d0b0bdc4730faa444e5
+M	mollom.admin.js	e27e9ae23415815cd5b847f57fbf3e30
+M	mollom.api.php	6e916a15f5d0f82d73f6d60f097fb48a
+M	mollom.captcha.audio.tpl.php	f2ab174c08bc48d8a980505018396cf8
+M	mollom.captcha.image.tpl.php	5b961b79f89102a67f7af7d66039170f
+M	mollom.flag.inc	680db76f4e05985dd6600ca58112c0f0
+M	mollom.info	9ff816c8762e91c8f12110b884bb30c8
+M	mollom.install	d23534b231d1d7f6aa2168098d85e9fb
+M	mollom.module	51175758468ca8ef9e7b88417c93a7ea
+M	tests/mollom.test	04fed4bf58eb0d76a6945fa9e8179407
+M	tests/mollom_test.info	c3417a64516fe6625fd8c1903005d51a
+M	tests/mollom_test_server.info	6e3903487339fc3e25bf7810da38220f

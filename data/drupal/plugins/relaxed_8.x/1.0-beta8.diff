@@ -1,0 +1,15 @@
+M	relaxed.info.yml	e0e4d173dfdf42eebca957e5505951c4
+M	src/Plugin/rest/resource/AllDbsResource.php	7063c7acdcd951e5c44389e2158d271b
+M	src/Plugin/rest/resource/AllDocsResource.php	2c66d47d0b614127fa56cd024c5f633c
+M	src/Plugin/rest/resource/AttachmentResource.php	0427f74a385e98c85be64e7210abd0ff
+M	src/Plugin/rest/resource/BulkDocsResource.php	67fb4530e990e6e71e0980bb8efdccfd
+M	src/Plugin/rest/resource/ChangesResource.php	d864628a40f68fc406424a9a710b6f3d
+M	src/Plugin/rest/resource/DbResource.php	b2d956a4bdf895c0848057ccd2deee45
+M	src/Plugin/rest/resource/DocResource.php	e0c158edc0de67b5437b9af957e4f5a3
+M	src/Plugin/rest/resource/EnsureFullCommitResource.php	ca7d9232ddb61a9b36fa2c1fa4b30058
+M	src/Plugin/rest/resource/LocalDocResource.php	f6a653fc405afdc13026540689cc42f9
+M	src/Plugin/rest/resource/ResourceBase.php	68ce27f02fc37856e50f6eee3fd4c919
+M	src/Plugin/rest/resource/RevsDiffResource.php	db0d8c4ff3772bb64e1b999fe4e036ce
+M	src/Tests/AllDbsResourceTest.php	ae05281c08abfdbf8a59335e9ea469af
+M	src/Tests/DbResourceTest.php	5811e391e2ee724285ac105c9b12cea7
+M	tests/modules/relaxed_test/relaxed_test.info.yml	0445c09f2faeed00f283244982706abb

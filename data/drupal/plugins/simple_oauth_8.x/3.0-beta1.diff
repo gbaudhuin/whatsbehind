@@ -1,0 +1,27 @@
+M	README.md	269f3ebeca4717a60bdbfd163b9d513e
+M	simple_oauth.info.yml	a57e41ebd6ac2354d1e0c514a19f7dd8
+A	simple_oauth.install	54f690eb58a01073026ddcfefda0492e
+M	simple_oauth.links.action.yml	4df67c8cfeb965e69097be18c9a4801c
+M	simple_oauth.links.task.yml	ac96d55a95fdad1a17211a69cbcdf90a
+M	simple_oauth.module	ec131ca4c5ee6e4aa0ec0e8b3f14e405
+M	simple_oauth.routing.yml	e392db7baa20012640e1f243e14c5064
+M	simple_oauth_extras/simple_oauth_extras.info.yml	c40055060a17000fd9ab6257451b36b8
+M	simple_oauth_extras/simple_oauth_extras.module	1c12e1ae2b7b2a5c2dfe4cd2707ab98d
+M	simple_oauth_extras/src/Controller/Oauth2AuthorizeForm.php	27530ecdd30d795c8f17d8078098c466
+D	simple_oauth_extras/templates/oauth2-client.html.twig	
+M	simple_oauth_extras/tests/simple_oauth_extras_test/simple_oauth_extras_test.info.yml	b30ff540607b2ffcfa8302ec39ec4004
+M	simple_oauth_extras/tests/src/Functional/RolesNegotiationFunctionalTest.php	8456a60c006280366af6e1ccb0f37231
+M	src/AccessTokenAccessControlHandler.php	e979eac05aac66a1785cec9d7ce169a1
+M	src/Authentication/TokenAuthUser.php	60a1c7e12f98cab3a6cf050c34a20587
+M	src/Entities/ClientEntity.php	048ea75169b77535f4a6a075ed7819ec
+M	src/Entities/ClientEntityInterface.php	bccc5f0628bc935391277a97babe91a3
+D	src/Entity/Form/Oauth2ClientForm.php	
+D	src/Entity/Oauth2Client.php	
+D	src/Entity/Oauth2ClientInterface.php	
+M	src/Entity/Oauth2Token.php	005e05dee5a9f242cbfd1e486d7858d5
+M	src/ExpiredCollector.php	c4df27ae8f8c071dd59600b640eb62c6
+D	src/Oauth2ClientListBuilder.php	
+M	src/Repositories/ClientRepository.php	2ce3d13029fe3a6bf1ebfa724eed2874
+M	src/Repositories/ScopeRepository.php	cb074ebe8e79f51d0a7b500d61cfc3d0
+M	tests/src/Functional/TokenBearerFunctionalTestBase.php	8498ea71968bb4bee539b87b9086197b
+M	tests/src/Unit/EntityCollectorTest.php	16387f36432d9313511f5c13f7f580e2

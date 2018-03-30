@@ -1,0 +1,3 @@
+M	config/schema/shield.schema.yml	763cddebdfd853fac888fb6f85084c20
+M	shield.info.yml	ec900d2c9ce3b38aacce900da05f8e61
+M	src/ShieldMiddleware.php	60cadaf2a3309e1b68ab7dd39bc9fcde

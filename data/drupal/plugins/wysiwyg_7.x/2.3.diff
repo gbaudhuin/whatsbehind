@@ -1,0 +1,44 @@
+M	CHANGELOG.txt	a6b5cf21502b265ba139ed43743f1625
+M	README.txt	a34e576d7527c581b09d53eebba8d4f6
+M	editors/ckeditor.inc	c77d19fb22734253e1a133b13f842fda
+D	editors/css/openwysiwyg.css	
+D	editors/css/tinymce-2.css	
+A	editors/css/tinymce-4.css	e644f357bf3e23064a2f5bab50291b1a
+M	editors/epiceditor.inc	b110316a6f5fb159ffa10a227141a38b
+M	editors/fckeditor.inc	a467defb459dae99ca076f4767331e93
+M	editors/js/ckeditor-3.0.js	181ca56846dd63d2d3a13be8515bc236
+M	editors/js/epiceditor.js	b48457ab714fde36815d8ddea7461f1b
+M	editors/js/fckeditor-2.6.js	0c1d16116114aec66faf9f9723a195b1
+M	editors/js/fckeditor.config.js	23518709405c68e3ff1a7d2dafebe0b2
+M	editors/js/jwysiwyg.js	2848524e590dc537f34b7bbb3c979594
+M	editors/js/markitup.js	f6cb9641b6d0679ee9855802cf176818
+M	editors/js/nicedit.js	a733da8bcb64116c0e42887a875f100f
+M	editors/js/none.js	804dd56367cd844613ed82dc8e2d1018
+D	editors/js/openwysiwyg.js	
+D	editors/js/tinymce-2.js	
+M	editors/js/tinymce-3.js	1a18b09cbc16f990a044f946a60d50b2
+A	editors/js/tinymce-4.js	0fb2668164f0bb8d97e813046de24b4b
+M	editors/js/whizzywig-56.js	6f5e25fbc757f03182167caecc6ed256
+M	editors/js/whizzywig-60.js	8609004ef792a2510f76984193d84dcd
+M	editors/js/whizzywig.js	a2ee3d81c95746f3c4078d872f7d34c6
+M	editors/js/wymeditor.js	41b3619df9d936d18870743dc19d5542
+M	editors/js/yui.js	c93b370de85d2eb5ac8d216df51304ac
+M	editors/jwysiwyg.inc	8738d286d51d42a38213d3bd2eda11f2
+M	editors/markitup.inc	c61539b4cbf73efb46c9e7568bf2070d
+M	editors/nicedit.inc	824262e3b2342a6578d4ba4416956b5e
+D	editors/openwysiwyg.inc	
+M	editors/tinymce.inc	197021decd3297b8064c9fa26480fe55
+M	editors/whizzywig.inc	dfd36926245f4ed2b7c1cddba98838c7
+M	editors/wymeditor.inc	8e93434e5ef6969bcdfa4b5da249566b
+M	editors/yui.inc	cbebca3747e4536feab0ffe249ad70d7
+A	includes/styling.inc	9e0ad4eacc85e511e2afdaeb26025804
+M	tests/wysiwyg_test.info	deadafea652d23fcd7c1e28b1df65853
+M	wysiwyg.admin.inc	f1e0cfd92a8b6ae1586b6779c505b8df
+M	wysiwyg.api.js	38d13c12fa4cb5a4bef26625d444ea73
+M	wysiwyg.api.php	5bd8048178374f04689d08472a6d9b2e
+M	wysiwyg.features.inc	9315d5cf5cf4ed6f338e1b7f9e648306
+M	wysiwyg.info	76568db16f1c30d0edb5ee08e76d5a55
+M	wysiwyg.init.js	4e6d7d193c809df68b21d468297aa3cf
+M	wysiwyg.install	c1c417583008a0849985d0ec629d92ae
+M	wysiwyg.js	74aa879a11060b3f71b12381ccc342b3
+M	wysiwyg.module	1d2a1caf5bb2681e309502d37cd8b3a3

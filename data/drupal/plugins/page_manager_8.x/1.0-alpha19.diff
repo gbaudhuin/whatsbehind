@@ -1,0 +1,27 @@
+A	config/install/page_manager.page.node_view.yml	fd429d3e4581fb60da2d5bc07d0594a3
+D	config/page_manager.settings.yml	
+M	page_manager.info.yml	739d8c992aace25a94fba79431398133
+M	src/Controller/PageManagerController.php	e92f2b98fb071d5e831261fa57c5538a
+M	src/Entity/Page.php	df0e029c15a2b474275db151f39e5553
+M	src/Entity/PageAccess.php	1bb270e205308f17aa9ba5f553c690c9
+M	src/EventSubscriber/RouteParamContext.php	4df40e3088720bddd4db98cc40c6cadb
+M	src/Form/AccessConditionDeleteForm.php	5afef1f07c63422c459851233315aae1
+M	src/Form/AccessConditionFormBase.php	b2287610440a72131a321018ef13ea4c
+M	src/Form/PageEditForm.php	119e8dd42c7ef79419f74f9f1594331f
+M	src/Form/PageVariantAddForm.php	9952566b82ab5144d8f772cb9a833e29
+M	src/Form/SelectionConditionDeleteForm.php	80643a9aa8ca14e218472e4795b61988
+M	src/Form/SelectionConditionFormBase.php	c0660e74df65155b8ff12c7f0e136393
+M	src/Form/StaticContextDeleteForm.php	c5c12670cba4bcd2ea3d8078b4d2f29c
+M	src/Form/StaticContextFormBase.php	c7132e9bd2ab746500f49b6a73151d1e
+M	src/Form/VariantPluginConfigureBlockFormBase.php	e5493ea5b17ecb27bd3d57d088e79493
+M	src/Form/VariantPluginDeleteBlockForm.php	aa36dd42cea6cc1bd29acddedbc54445
+M	src/PageInterface.php	313d895189424782098322bedfedc5d5
+D	src/PageManagerServiceProvider.php	
+M	src/Routing/PageManagerRoutes.php	9fc98bd87d78a7db8cc9506702e35f7c
+D	src/Routing/ParamConversionEnhancer.php	
+M	src/Tests/PageConfigSchemaTest.php	238fe2167900cd462e62176150d066c6
+M	src/Tests/PageManagerAdminTest.php	ac8534c8df77f678a35aa7eee6db15ce
+M	tests/modules/page_manager_test/page_manager_test.info.yml	902eb46a49de6fd47fb1096af5960ede
+M	tests/src/Unit/PageAccessTest.php	cd2865df725302398193d12867144fa5
+M	tests/src/Unit/PageManagerRoutesTest.php	075a1912462e0f8ad3f98eaea38bf8c5
+M	tests/src/Unit/PageTest.php	cbdcfa057fabf2e34ad27d3a89232d1c

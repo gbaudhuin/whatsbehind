@@ -1,0 +1,13 @@
+A	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+A	README.txt	477048cfb485d2c23138bf37a6772b61
+A	includes/admin.inc	797a9acd6b802c366c5eeb3ee57ad4b9
+A	includes/import.inc	7efd7f5c477ed739f045a1689ed6fc6c
+A	menu_import.info	9c19ee68995f99715fd2e37092965c85
+A	menu_import.module	9fd6215b75a5f44dbf3d2edb9147a33b
+A	menu_import.test	0613134bd87dfda50f8146ac78ae612a
+A	menu_samples/aliases.txt	7d55ebc0cbf65fffa33fbca4a6c69f35
+A	menu_samples/simple.txt	1e45bfbc7696fe261862da298c687bc2
+A	menu_samples/urls.txt	7d696fd4a85689f2e46756402965fa3e
+A	tests/links_3levels.txt	0e438f52a39ed8e1715a01ce392bd89f
+A	tests/nolinks_3levels.txt	8ddaa8624e40f9d488bffd63f334c902
+A	tests/nolinks_3levels_reordered.txt	ee851cceaced36ede61d6b8c80a2fba1

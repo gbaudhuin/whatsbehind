@@ -1,0 +1,25 @@
+A	example.htaccess	194e5ef5e9fcfffb5ad172c3c6338ce4
+A	index-smarty.php	65cbb0782628727e1273ec48d4aa9c54
+M	index.php	b0dfb756bfe02d7e9da938268fb66ca5
+M	readme.html	613b5eca59267b5b62b6e81dd9536b1b
+M	wp-admin/bookmarklet.php	07d8495a1c56abe9277c2e382c7c873a
+M	wp-admin/edit-form-advanced.php	34f6b7c249c35f8995e1c7acc162ab24
+M	wp-admin/edit-form.php	40f5ac3922d1466fa3326f22bccfbc07
+D	wp-admin/import-mt.php	
+M	wp-admin/optionhandler.php	ec43de14a1549f6210f5342a35aa9cb1
+M	wp-admin/post.php	c87217a4783bd32f1c81dfc265701094
+M	wp-admin/sidebar.php	8b3e97b22d7c6c3ed8158da0a65d42bf
+M	wp-admin/upgrade-functions.php	8aca0fcbe6f470a3cd52a2c18714218a
+M	wp-admin/wp-admin.css	6f79896336dbbf9f5bfb2deda1694a43
+A	wp-blogs/readme.html	b9798e5603172dae2058d7bde2bf3d2c
+A	wp-images/bgbookmarklet.png	f0e41f1bed9a4c21d1dc545e5d3c158a
+A	wp-images/bgbookmarklet1.gif	3a09dfc3d0fe15f0690bfccb8e85830e
+A	wp-images/bgbookmarklet3.gif	686f31ec275bfa7652a4f290e9a77307
+M	wp-includes/functions.php	dd4e19ec0f15d305be6f6876327a7f79
+M	wp-includes/template-functions.php	7306e994b823a38e646b3988d860a711
+A	wp-plugins/readme.html	57904d9d26981b5c7c502a717f906cfa
+M	wp-settings.php	6d270191357f79b81cd9bdc62fd56394
+A	wp-sitetemplates/main/templates/end.html	5b2378f2a2b5afca1f58112db1f5fbf3
+A	wp-sitetemplates/main/templates/post.html	6d39fca6450c3591f285e23e536b0a5c
+A	wp-sitetemplates/main/templates/top.html	120ca99e1b816915e0f27152b7d24a75
+A	wp-sitetemplates/readme.html	59e1477e0fb81e63dee0a73fa55684a7

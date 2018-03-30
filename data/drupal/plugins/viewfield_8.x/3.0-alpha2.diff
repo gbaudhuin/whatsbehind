@@ -1,0 +1,5 @@
+M	src/Plugin/Field/FieldFormatter/ViewfieldFormatterDefault.php	763c9c3ee550d04023663458c8e8751f
+M	src/Plugin/Field/FieldType/ViewfieldItem.php	1e0eb3c7675c4e56c6e4856eacb372a3
+M	viewfield.info.yml	8976b5ae94d6958b8a4ac6d735888dfc
+M	viewfield.install	f744224088c7886e1aa08f153b174483
+M	viewfield.module	b3cf1d4fbf8b68a5add3d5b2e5ae2b69

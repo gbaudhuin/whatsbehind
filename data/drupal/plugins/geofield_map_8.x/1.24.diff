@@ -1,0 +1,5 @@
+M	geofield_map.info.yml	c0991ac4b190d416946639e67a07f9dd
+M	js/geofield_google_map.js	d3ac6a44a783ec26740a70d64c18c767
+M	src/GeofieldMapFieldTrait.php	5d6bbbee0ea617a20e232c2a6bf27f13
+M	src/Plugin/Field/FieldFormatter/GeofieldGoogleMapFormatter.php	3d7ad0d6c54c8f68950902e2ca8fb672
+M	src/Plugin/views/style/GeofieldGoogleMapViewStyle.php	022ec1e7f0aa4eb667093187a3a8a850

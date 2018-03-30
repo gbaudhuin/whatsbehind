@@ -1,0 +1,14 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	config/install/views.view.contact_messages.yml	4dcf09d8cc680e708ea726f9732acc1c
+A	config/schema/contact_storage.schema.yml	b884d366e0f358018f97171dcd0adfc6
+A	config/schema/contact_storage.views.schema.yml	4be2c8c3e9ba19dc57220bdf56ef4f88
+A	contact_storage.info.yml	95bc5623d6ad0e0dcf9f02027e8241b3
+A	contact_storage.install	4d011d3d6e8813de103976503ef08acb
+A	contact_storage.links.task.yml	ca9f5ffd4fb9ece20120f427c5c38507
+A	contact_storage.module	f1953b89f741bc094616dbab7b367847
+A	contact_storage.routing.yml	3eb9cecfd1f0c4e798dcbc2661e0e8da
+A	src/Form/MessageDeleteForm.php	f56b8d845931bcf6dbf599a8629bc614
+A	src/MessageEditForm.php	a2b4609e1048edbcbf7f04d6089a8248
+A	src/MessageViewsData.php	2c874dcbddef080473a3d02617dadd36
+A	src/Plugin/views/field/ContactForm.php	5f8c578c53e1c3966c220b122d5163b6
+A	src/Tests/ContactStorageTest.php	c8a01ed363e89e0d364c941b4189574f

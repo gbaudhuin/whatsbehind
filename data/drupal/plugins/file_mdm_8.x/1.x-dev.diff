@@ -1,0 +1,10 @@
+M	composer.json	e1990e49176954222053139589994e7d
+M	file_mdm.info.yml	baf2739276710150095168bc8863c8d9
+M	file_mdm.module	4ba91c2e9d1f186d71eafeaf707cf5ed
+M	file_mdm_exif/file_mdm_exif.info.yml	ed10cede21b7b620bb7d11f2e83907dc
+M	file_mdm_font/file_mdm_font.info.yml	311e70a7e4c3cb7bc2c031dcb5509111
+M	phpcs.xml.dist	1bbf8adb094e1e25178d35e175abbe25
+M	src/Element/FileMetadataCaching.php	3099995b2c5e2c0d78582a215fcde728
+M	src/Form/SettingsForm.php	75979d0349f8c6be5ff006a18103387e
+M	src/Plugin/FileMetadataPluginManager.php	b164b1e12bb9211415121cde2391b0b5
+M	tests/src/Kernel/FileMetadataManagerTest.php	3c53e4c935445b0bc77af0641a664dd3

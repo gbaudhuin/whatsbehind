@@ -1,0 +1,14 @@
+D	content.migrate.inc	
+D	content_profile.migrate.inc	
+A	date.inc	937af300230f3815168cc58eb74f4ca8
+D	email_registration.migrate.inc	
+D	filefield.migrate.inc	
+D	location.migrate.inc	
+A	media.inc	1a280efc9291bfd6eff202b7b00fd439
+D	media.migrate.inc	
+M	migrate_extras.info	111b9a36e295607821212495d0a0a482
+A	pathauto.inc	6511f4b93b44eb70aaf956097abb1201
+D	pathauto.migrate.inc	
+D	privatemsg.migrate.inc	
+A	rules.inc	949cc50156b673d64033d0f5b027739e
+D	rules.migrate.inc	

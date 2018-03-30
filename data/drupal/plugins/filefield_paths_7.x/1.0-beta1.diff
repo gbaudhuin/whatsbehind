@@ -1,0 +1,9 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	filefield_paths.info	85fa23a25112c84083123766100ae5e3
+M	filefield_paths.install	cbe453e8939ec46ea178cf9a56f03e75
+M	filefield_paths.module	81763289549c1d6eb68d08974ff01b2d
+A	modules/features.inc	5443fddeac754477cc38628b3e82c2e8
+M	modules/file.inc	5585ae12563edb349ab3c237868dfc1c
+A	modules/filefield_paths.inc	afb350b2843b5b429eb8123b7f076557
+M	modules/image.inc	1f5fb8ba50f3fe9b79d9b7b8ec05b683
+A	modules/token.inc	292618c377d37009a124a5f43e52bb5d

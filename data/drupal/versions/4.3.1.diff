@@ -1,0 +1,15 @@
+M	CHANGELOG	b8b501e6b6c43009711928dba804b620
+M	includes/xmlrpcs.inc	891f2fd254d6875eabe404dd83fead63
+M	modules/archive.module	653f4e9a319b47b786370ed001dff4c7
+M	modules/book.module	1ee38b2a32b0ac4375b56bf95dc6ef64
+M	modules/cloud.module	cdc692be9e8ff5b23af72c9106f09594
+M	modules/comment.module	66e88aa4ab84aa409f1c12444f4cef31
+M	modules/forum.module	e7c1a007f650bd6c59dd1f3f7e4e7116
+M	modules/locale.module	6cfaf2b150436f4e41473f3bb4fcd2ad
+M	modules/path.module	98064129ca97d186906f5237d822b0bb
+M	modules/ping.module	386451a593a5cc0228f96eb19c352d1e
+M	modules/statistics.module	704a59819cb8a9673b3e40adbfdb2ec8
+M	modules/story.module	72c746aeb32f67e206b917dcd40222e3
+M	modules/system.module	6899a20d9fbae2ef33467c20e5978eb8
+M	modules/user.module	9ef2878f36d97440e214e8b6557880c5
+M	modules/watchdog.module	9bb7852f49be102fbf61ca2a6ba86c83

@@ -1,0 +1,5 @@
+M	lib/Adapter/DrupalExtensionAdapter.php	bc7626feecee622f5c7ac02055745a02
+M	tests/test_1/xautoload_test_1.info	1275c68653fd4e1aa29988a162121fa3
+M	tests/test_2/xautoload_test_2.info	3b34749a30c8bc16fc40daf77312edcf
+M	tests/test_3/xautoload_test_3.info	635df811bdfd23aa1313cf42432b76b3
+M	xautoload.info	3b6fea071f3cf576d5fab0888f1be293

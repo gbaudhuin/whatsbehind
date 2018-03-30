@@ -1,0 +1,9 @@
+M	config/schema/video_embed_field.schema.yml	6fe719d88473ae736329a05cc7774c82
+A	modules/video_embed_media/config/schema/video_embed_media.schema.yml	743eaecb83b9337bd4447b944c27159c
+M	modules/video_embed_media/src/Tests/BundleTest.php	4806e94a56473ef8f5aab7afac93ac38
+M	modules/video_embed_media/src/Tests/UpgradePathTest.php	321555e4ed366998e0919972de80f11b
+M	modules/video_embed_media/video_embed_media.info.yml	90544babb902025bb0ddd603a0cb99e0
+M	modules/video_embed_wysiwyg/src/Tests/TextFormatConfigurationTest.php	9a4d1e997a2c7fc22bd0db20d0cbb619
+M	modules/video_embed_wysiwyg/video_embed_wysiwyg.info.yml	1ef0079883e5257bd71cd68ac6940646
+M	src/Plugin/Field/FieldFormatter/Thumbnail.php	8d977150d54d96bf526573f450d1444d
+M	video_embed_field.info.yml	a2bb735c6b55bc0b208b46f137ffb9ee

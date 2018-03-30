@@ -1,0 +1,8 @@
+M	plugins/views_content_cache/base.inc	c47522ac726c5cf4f6ac20b62aab5b2c
+M	plugins/views_content_cache/comment.inc	170bf71a509f571582d2e9b6464c94c3
+M	plugins/views_content_cache/node.inc	702093beddc375517186b4fc13cc8668
+M	plugins/views_content_cache/node_only.inc	0782da01a482f1d7c1868d8472fd1730
+M	plugins/views_content_cache/og.inc	8ea46fa05652bbc35ef68fdfc2e5daac
+M	plugins/views_content_cache/votingapi.inc	c71d02af742860c17d9e07c164c366a8
+M	views/views_content_cache_plugin_cache.inc	1e4e3917301c25315055a05f923af55e
+M	views_content_cache.info	fe84eaf6a0c171a612b0c8638a574ecf

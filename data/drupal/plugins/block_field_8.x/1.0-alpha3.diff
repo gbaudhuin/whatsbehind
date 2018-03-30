@@ -1,0 +1,12 @@
+M	README.md	036f9b9b7530fa84e70f584aca0965fd
+M	block_field.info.yml	f957e8fcca1a531d1af1caf198e84fa4
+A	config/schema/block_field.yml	6b0eae1f99d8f7ea8c2853b896cae1ac
+M	src/Plugin/Field/FieldFormatter/BlockFieldFormatter.php	f882a331dbaf58ac3cbd689c885bd64c
+M	src/Plugin/Field/FieldWidget/BlockFieldWidget.php	e653d908108ddb2668781fc679f481a5
+A	src/Tests/BlockFieldTest.php	0af64f032cacec95efd9b8942709e40b
+M	tests/modules/block_field_test/block_field_test.info.yml	4c03674b22bd8f2191e686ce051b3386
+M	tests/modules/block_field_test/config/install/core.entity_form_display.node.block_field_test.default.yml	5f61e8f180a1f370fd0f90664c7374a7
+M	tests/modules/block_field_test/config/install/core.entity_view_display.node.block_field_test.default.yml	b97ef713effdff1aebe180c4f4c7e98f
+M	tests/modules/block_field_test/src/Plugin/Block/BlockFieldTestAuthenticatedBlock.php	8a94bc8870443d88e91cea7b5e64bba9
+M	tests/modules/block_field_test/src/Plugin/Block/BlockFieldTestContentBlock.php	044b2591ab3d96d30ea3ff73c4f34aaa
+M	tests/modules/block_field_test/src/Plugin/Block/BlockFieldTestTimeBlock.php	c8be4f2f48395af2ef6e2c2e0560c976

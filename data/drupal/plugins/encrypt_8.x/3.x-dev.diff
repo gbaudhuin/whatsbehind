@@ -1,0 +1,4 @@
+A	drush.services.yml	054ed674b0689a3fa746b23e3846327e
+M	encrypt.info.yml	7a5c7b5ecb39a27a29d9e55d6b8b56a7
+A	src/Commands/EncryptCommands.php	3640b6df4a6fd0e9a23990bf00b26949
+M	tests/modules/encrypt_test/encrypt_test.info.yml	8ca5d0719d49a100897739766f008009

@@ -1,0 +1,6 @@
+A	README.txt	7b77e39832006dae76db24e8936325d9
+M	colorbox_load.info.yml	d4c13c17a6ed6c39d4188e695df31237
+A	composer.json	b08dbe7501aceade3e8cdb0f10118716
+M	js/colorbox_load.js	583dcef44cfceb2fbaa85a89bc835d3b
+M	src/OpenCommand.php	9c4f7cee939d024b6732329b62768638
+M	src/Renderer.php	5d7f1fe01424394951cba153545a5110

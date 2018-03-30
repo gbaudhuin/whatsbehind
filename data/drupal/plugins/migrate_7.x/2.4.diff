@@ -1,0 +1,12 @@
+M	CHANGELOG.txt	96bb64d46c4b5367882edd895a6581ca
+M	includes/base.inc	c4feca96c952c87ecc751a84daad9ef3
+M	migrate.info	e978b6624e781f72c6361ebd54b5c13b
+M	migrate.module	b588985e840a3aa60c54c0aa4373572b
+M	migrate_example/migrate_example.info	a84947727cd0a602301fa5f787f73989
+M	migrate_example/migrate_example_oracle/migrate_example_oracle.info	7420aa7b3438c4c9aee75b2ffc12945e
+M	migrate_example_baseball/migrate_example_baseball.info	9c88c246051dee81c4e7d71000d60378
+M	migrate_example_baseball/migrate_example_baseball.install	40e4874c11d8513e68097af03bacaee4
+M	migrate_ui/migrate_ui.info	7048624a451cc41e94469b87c8d63249
+M	plugins/destinations/file.inc	08840b3fa192a009a6fb133ff6a78167
+M	plugins/sources/list.inc	d0ef1fcc120bd2841db3a02ceb6dd332
+M	plugins/sources/xml.inc	02a6fa0397945ead96b215e5af737659

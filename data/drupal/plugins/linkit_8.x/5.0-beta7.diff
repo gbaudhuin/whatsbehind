@@ -1,0 +1,19 @@
+M	css/linkit.autocomplete.css	3f113ca4ef9689927840e7feafd4ae0a
+A	images/throbber-active.gif	a2c6e0d4ff053271a88e322137db8a89
+A	images/throbber-inactive.png	0d4c0578faca1334d2c6eab4ed4d9d03
+M	js/autocomplete.js	9244e80c7529ec5f96a4aa6b35e1de5b
+M	linkit.info.yml	587118e66862867ffdd6c408f6dbd62b
+M	linkit.routing.yml	bcb6d3ec12cb58d11bb9f0ddc301eabf
+M	src/MatcherCollection.php	c26bc2dbde179ae6119a90767862b91a
+M	src/Plugin/Filter/LinkitFilter.php	b5b78e13d4760ad0ea7a9f41af865337
+M	src/Plugin/Linkit/Matcher/EntityMatcher.php	4bddf9aa953938c81f08a44d2ff98cd9
+M	src/Plugin/Linkit/Substitution/Media.php	06b964551f11343e408e301cbb6edd4c
+D	tests/linkit_media_test/config/schema/linkit_media_test.schema.yml	
+D	tests/linkit_media_test/config/schema/linkit_test.schema.yml	
+D	tests/linkit_media_test/linkit_media_test.info.yml	
+D	tests/linkit_media_test/src/Plugin/MediaEntity/Type/TestType.php	
+M	tests/linkit_test/linkit_test.info.yml	9df9ae135db25dd1ca2c58450c4c6227
+M	tests/src/FunctionalJavascript/LinkitDialogTest.php	5d55a3f2653c133031b857691bce82c9
+M	tests/src/Kernel/LinkitFilterEntityTest.php	08b20120947541b5e8e7ab801b71066e
+M	tests/src/Kernel/Matchers/FileMatcherTest.php	7dc18b4f0cfca5d0e1757caa83f8dd56
+M	tests/src/Kernel/SubstitutionPluginTest.php	e5e7d0f62222b5e930f4ed511136fd21

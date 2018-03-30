@@ -1,0 +1,16 @@
+M	CHANGELOG.txt	02261a2b1b4f00788fd11a87e360ef60
+M	includes/common.inc	2680ac29654b379215a7136fbc133909
+M	includes/tablesort.inc	946937dec89c8cf45e84d9e02018e29c
+M	includes/theme.inc	6cdf101e411658e468f8922eb72ecef8
+M	modules/aggregator.module	ba692fe07df2865d729afa738e67cb54
+M	modules/block.module	ede7a1383cd89cd83332d64b41e3db6f
+M	modules/blog.module	368a8839b8b1cbbe9db278d089b01cb4
+M	modules/blogapi.module	2dc57264b5a6bd50d8140eb440749e99
+M	modules/comment.module	a2a5ecc19c6b1240f44ca44282723559
+M	modules/drupal.module	d6a00ad3715a11f11a8b95675183ab0c
+M	modules/filter.module	8ce41065a19dbf8bf3a8125df27cdb56
+M	modules/forum.module	72098578e18eaf6ff2fe5895fe7f1a3f
+M	modules/node.module	81b4a5aaf7a9c3d7f20a234f1df70764
+M	modules/queue.module	c96ff63fa010e5c9718577c13d0eb3e4
+M	modules/taxonomy.module	5802ccddfbfe82a67d74168920a6c773
+M	modules/user.module	9ee024c4bcc6748bf8c1cbe6f7fa0de6

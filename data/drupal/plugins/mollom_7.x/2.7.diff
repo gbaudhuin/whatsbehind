@@ -1,0 +1,15 @@
+D	INSTALL.txt	
+A	README.txt	119a285aecff34a32689cd3ed0e2e7a4
+M	includes/CHANGELOG.md	2a69c3bf59ff84807378ada7670185ce
+M	includes/LICENSE-GPL.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	includes/README.md	75d84bf78fff7e56f4ef4b8e476efea1
+M	includes/mollom.class.inc	4df7b8016269bf209e5c8de92a922a70
+M	mollom.admin.inc	61b2ff2659874ab325076dcdafbdc06f
+M	mollom.admin.js	9ccdf7ab14a419f6085292ec4100281d
+M	mollom.drupal.inc	8503fefb6ad64862bf1769d1d4f96f81
+M	mollom.info	fd2c8c845fbb2b9002afc7003aad18df
+M	mollom.module	83d2db93e1877aa1462d41b80de86f17
+M	tests/mollom.test	f0ddb3b394bbb0e594cc5fe056529856
+M	tests/mollom_test.info	45b50af368b5a61dc57d94e36e4b67fc
+M	tests/mollom_test.module	bc766c7340969f26985e1456f931f206
+M	tests/mollom_test_server.info	d0dde70211d8c158466af331be150a06

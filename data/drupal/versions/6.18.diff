@@ -1,0 +1,8 @@
+M	CHANGELOG.txt	1634f849518bdd4565a5a266205fffb9
+M	includes/actions.inc	8aa2b14a393e5f9cf31043f6fcfd9271
+M	modules/comment/comment.module	af4ec79c6475d20f80425b425202a2fb
+M	modules/openid/openid.install	d3e3fe8c1128103abe451125500236f7
+M	modules/openid/openid.module	c9cfc8c7a99510e41150f75dac299ff5
+M	modules/system/system.module	e09d1602e646c250fdccfdaaf68e42cb
+M	modules/trigger/trigger.admin.inc	2802e0654dd6abe75a8cfddb47064455
+M	modules/upload/upload.module	c804c6acccce20b894646621e4abd524

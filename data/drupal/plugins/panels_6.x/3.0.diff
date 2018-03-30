@@ -1,0 +1,18 @@
+M	CHANGELOG.txt	63fe0eb1cb43b3958b1039f5a3129a21
+M	css/panels_dnd.css	f82f1b959bf35202ea9f0aa17e3c95ed
+M	includes/display-edit.inc	2ebd3ac941bb2498fba4897480515fef
+M	includes/plugins.inc	bdd9641ac851c48a860de494b3b501c1
+M	js/display_editor.js	288fde3137a5658b6dc1d154192331e2
+M	panels.info	529af7a7a8dc0dceb7e673cb61b66958
+M	panels.module	7343c5b919782ac7918b2892dc935400
+M	panels_mini/panels_mini.admin.inc	6421ab7f19df36c8419b9f4b2829f148
+M	panels_mini/panels_mini.info	a66cf15d6e7dfbb6f59c212faef83f0a
+M	panels_mini/panels_mini.module	60767c4b3553810f45c600ceed36200e
+M	panels_node/panels_node.info	62dc1db42934625d19fac373c4ff2199
+M	panels_node/panels_node.module	e10d0e191516b1fb6acac42e9effdf3c
+M	plugins/layouts/flexible/flexible.inc	dc0f066dcab2e1bb6ef284d1abed792b
+M	plugins/task_handlers/panel_context.inc	4b0ad1bb2c6f12129dc39b0d71e433db
+M	templates/panels-dashboard.tpl.php	6aa54944cefbe7a180e4c857e0c5c63e
+D	translations/de.po	
+A	translations/panels.de.po	517c1d4844e26a08b1ef83e7f4277786
+M	translations/panels.pot	e400e2083cbe26cd7a52b6be70abadf9

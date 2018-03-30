@@ -1,0 +1,7 @@
+M	ctools.info.yml	083bec73342be25364a2739fd4912c14
+M	modules/ctools_block/ctools_block.info.yml	9f6835b6f17a95b00a9163c1b296f162
+M	modules/ctools_block/tests/modules/ctools_block_field_test/ctools_block_field_test.info.yml	901295eb056030f3539f188248adb125
+M	modules/ctools_views/ctools_views.info.yml	43df90408360ae30ff67a9edf7a5e017
+M	modules/ctools_views/tests/modules/ctools_views_test_views/ctools_views_test_views.info.yml	2700e01e0df4a563113dcd4781d84b5a
+M	src/Plugin/DisplayVariant/BlockDisplayVariant.php	b2dfaf4b0699a38c5178ca96ff32dfc8
+M	tests/modules/ctools_wizard_test/ctools_wizard_test.info.yml	cb9a61236a221214abca00a721bebed9

@@ -1,0 +1,103 @@
+M	composer.json	51c614a1e51c6a310d64fc4834a6526a
+M	config/install/page_manager.page.node_view.yml	33b2bb07b4347e0a7892aee628088e14
+M	config/schema/page_manager.schema.yml	ceca9ea6c62a9b481b9b30f8afc3a7e8
+M	page_manager.info.yml	b0158fe12c1910e3a77ee1dea9302310
+A	page_manager.install	29eba7aa37c4fc5a35d938529d40bebc
+D	page_manager.links.action.yml	
+D	page_manager.links.menu.yml	
+D	page_manager.links.task.yml	
+D	page_manager.routing.yml	
+M	page_manager.services.yml	fce72ac89ecb11e90567f2bb9cbdc330
+A	page_manager_ui/page_manager_ui.info.yml	3da567e75a13b76affec5a60e2c1e2f8
+A	page_manager_ui/page_manager_ui.links.action.yml	29370081a692e0622f6ebf0ee68af69e
+A	page_manager_ui/page_manager_ui.links.menu.yml	7e82416385de1f51c1a2fb466811740c
+A	page_manager_ui/page_manager_ui.links.task.yml	8278a52f21dd662d4d06e0a90c3b059f
+A	page_manager_ui/page_manager_ui.module	3d9aeb37f3da974596883be6b7f9d9a0
+A	page_manager_ui/page_manager_ui.routing.yml	e4770e13c44bb79268c033de089f1149
+A	page_manager_ui/src/Controller/PageManagerController.php	e848c10424b0ae473d89423c965bc3e9
+A	page_manager_ui/src/Entity/PageListBuilder.php	6cb318e724f51885b9731632abc4751b
+A	page_manager_ui/src/Form/AccessConditionAddForm.php	249f2ab711d783dfddd6dfbec52475fb
+A	page_manager_ui/src/Form/AccessConditionDeleteForm.php	64f67eac48b02698fb03693fdc0c1c96
+A	page_manager_ui/src/Form/AccessConditionEditForm.php	d1e64b8796311a856d45769b36976627
+A	page_manager_ui/src/Form/AccessConditionFormBase.php	c2859678776032e43d6d9ddb51945a18
+A	page_manager_ui/src/Form/ConditionFormBase.php	25706b9c7931297bc8a15850a5bc9f7c
+A	page_manager_ui/src/Form/PageAddForm.php	2663af583b4274929d12a9370335bdf3
+A	page_manager_ui/src/Form/PageDeleteForm.php	4807438eaff8773aa559a6cea45a28fe
+A	page_manager_ui/src/Form/PageEditForm.php	f470694927a796e8f35a22218e0bbd9b
+A	page_manager_ui/src/Form/PageFormBase.php	564548823aa99146adcc322768b76716
+A	page_manager_ui/src/Form/PageVariantAddForm.php	63fe24d17e8d6c52eeb3bc6a746a98ee
+A	page_manager_ui/src/Form/PageVariantDeleteForm.php	302ce5d365739170547bfa20507e61ac
+A	page_manager_ui/src/Form/PageVariantEditForm.php	ffe7dcfb437e43515be12604e2fde15e
+A	page_manager_ui/src/Form/PageVariantFormBase.php	2521e99675c239b5b6ba3914440d32cc
+A	page_manager_ui/src/Form/ParameterEditForm.php	bfb56355e638de53a0ac8d5bb3bfbb53
+A	page_manager_ui/src/Form/SelectionConditionAddForm.php	1759ee7afc717fc99f7afb64173c6385
+A	page_manager_ui/src/Form/SelectionConditionDeleteForm.php	7cd1c7489f04e45758362b6cba112c33
+A	page_manager_ui/src/Form/SelectionConditionEditForm.php	4dd74528a7f0aa9417acee96fdd2a626
+A	page_manager_ui/src/Form/SelectionConditionFormBase.php	7b8b160aad8df399e572b369f14b7377
+A	page_manager_ui/src/Form/StaticContextAddForm.php	33f6514367cc4cda420098cb2a69e614
+A	page_manager_ui/src/Form/StaticContextDeleteForm.php	3ca9b50a7b6f426d39f95ba869c114b6
+A	page_manager_ui/src/Form/StaticContextEditForm.php	8946c7aacb5cd11bd24e17ab783c747a
+A	page_manager_ui/src/Form/StaticContextFormBase.php	96adf4dafb008dc2b46d1444962d84c7
+A	page_manager_ui/src/Form/VariantPluginAddBlockForm.php	c14b750446ec7f912d0851f2e3e5edb0
+A	page_manager_ui/src/Form/VariantPluginConfigureBlockFormBase.php	f46a38128a92a9ad00a44c363344fa93
+A	page_manager_ui/src/Form/VariantPluginDeleteBlockForm.php	60cb5624d27410700796178f18f74911
+A	page_manager_ui/src/Form/VariantPluginEditBlockForm.php	0e60b2d4aff0f600740df3f3a1a7777c
+A	page_manager_ui/src/Tests/PageManagerAdminTest.php	22070baf298fe27fa1e30e714e784aea
+M	src/Context/EntityLazyLoadContext.php	0fb28d3df44dab962bcc426f516b415f
+M	src/ContextMapperInterface.php	c24353c7223feb6f8c3c0b1a6b5242c8
+D	src/Controller/PageManagerController.php	
+M	src/Entity/Page.php	eb8b16cb2be866b3d09962eb094fb9e0
+M	src/Entity/PageAccess.php	a95b89804bcd5b6147722bb7ea220824
+A	src/Entity/PageAccessCheck.php	c5de7352b791ad5698aaf106093e7e4f
+D	src/Entity/PageListBuilder.php	
+M	src/Entity/PageVariant.php	c3bd4aafdd52dc95dc2562add32e2bae
+M	src/Entity/PageVariantAccess.php	dc3c2fb615b64d45d544c083ebb94495
+M	src/EventSubscriber/RouteParamContext.php	5fe40f3053a981811b9480dbc9c98e95
+D	src/Form/AccessConditionAddForm.php	
+D	src/Form/AccessConditionDeleteForm.php	
+D	src/Form/AccessConditionEditForm.php	
+D	src/Form/AccessConditionFormBase.php	
+D	src/Form/ConditionFormBase.php	
+D	src/Form/PageAddForm.php	
+D	src/Form/PageDeleteForm.php	
+D	src/Form/PageEditForm.php	
+D	src/Form/PageFormBase.php	
+D	src/Form/PageVariantAddForm.php	
+D	src/Form/PageVariantDeleteForm.php	
+D	src/Form/PageVariantEditForm.php	
+D	src/Form/PageVariantFormBase.php	
+D	src/Form/SelectionConditionAddForm.php	
+D	src/Form/SelectionConditionDeleteForm.php	
+D	src/Form/SelectionConditionEditForm.php	
+D	src/Form/SelectionConditionFormBase.php	
+D	src/Form/StaticContextAddForm.php	
+D	src/Form/StaticContextDeleteForm.php	
+D	src/Form/StaticContextEditForm.php	
+D	src/Form/StaticContextFormBase.php	
+D	src/Form/VariantPluginAddBlockForm.php	
+D	src/Form/VariantPluginConfigureBlockFormBase.php	
+D	src/Form/VariantPluginDeleteBlockForm.php	
+D	src/Form/VariantPluginEditBlockForm.php	
+M	src/PageInterface.php	96ed35243c4b8aad9e60d051b44b8930
+M	src/PageVariantInterface.php	96a3cd612d7e02d570845d4391751c66
+M	src/Plugin/DisplayVariant/HttpStatusCodeDisplayVariant.php	708dda6dde833dc75e9bae9528e0f160
+M	src/Plugin/DisplayVariant/PageBlockDisplayVariant.php	54d796b904f6f70c4faaca06948a44ca
+D	src/Plugin/PanelsStorage/PageManagerPanelsStorage.php	
+M	src/Routing/PageManagerRoutes.php	3dc8e1c50ac71da26ea98e72d1c64a44
+M	src/Routing/RouteEnhancerCollectorTrait.php	69cd22f90b6a0b1d412cc48ad3a02d5e
+M	src/Routing/VariantRouteFilter.php	e938eb54286a2e966dee16278706b893
+D	src/Tests/PageManagerAdminTest.php	
+M	src/Tests/PageManagerTranslationIntegrationTest.php	c0d73f92352bd53ee24a66dc93ecc88f
+A	src/Tests/PageNodeAccessTest.php	346a40039b2dcab1ae1fabb58b18bef0
+M	src/Tests/PageNodeSelectionTest.php	b2fa6f2f7ab9757989ffb830075bf5d5
+M	src/Tests/PagePlaceholderTest.php	71b935f008d3e2dd5cf8640b1f206207
+A	src/Tests/PageTestHelperTrait.php	2239cbfdf3cb9eeb8c1a250e84e0ab7c
+M	src/Tests/StaticContextTest.php	fcce7161c47b1cef49f8f2fa92e5ca96
+M	tests/modules/page_manager_test/page_manager_test.info.yml	0409e30a9920bcc8fd5a69090e7541f5
+M	tests/modules/page_manager_test/src/Plugin/Block/TestBlock.php	83e4e6cd6fa0be3914380c92e2f650e6
+M	tests/src/Unit/PageBlockDisplayVariantTest.php	f74e81c308ba04c4c076eb5ac58442cc
+M	tests/src/Unit/PageContextTestBase.php	8e7291d5b028443c6193d879266880c8
+M	tests/src/Unit/PageManagerRoutesTest.php	78a2677c34845eab8b66af58201ee059
+M	tests/src/Unit/PageTest.php	e392525066e9147ff049738445faf106
+D	tests/src/Unit/PanelsStorageTest.php	
+M	tests/src/Unit/RouteParamContextTest.php	10c8772f764181df6173293d940332d4

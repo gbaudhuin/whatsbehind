@@ -1,0 +1,165 @@
+M	CHANGELOG.txt	3a48067b36073d6feb02edf3b894e521
+M	INSTALL.txt	8def8204061a388520b537a4b87e5407
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	README.txt	b45022f8126d4add6cd3ef29748b045c
+M	date/date.info	b497063ce71d63609f4b9d8ded380650
+M	date/date.install	dee5ab9db00768e5f8323653dc91dc82
+M	date/date.module	a5eb42b900d39ef60833d8a624ac9bb4
+M	date/date.theme	f19475efd6e37f09a5c905fc7221c7f6
+M	date/date.views.inc	4c3ee20381b96b69cb2fbcae1642ae56
+M	date/date.views_convert.inc	4d37bd81a68c43977083a42a55b589f0
+M	date/date_admin.inc	bc2f291e17848e75237e480f959e9bb4
+M	date/date_content_generate.inc	aba59d446e9626011616469199e6a2a6
+M	date/date_elements.inc	1bc248440e916c613ba5fcc8eb9c3bc8
+M	date/date_handler_field_multiple.inc	ac1b589bd920759f87c867871cbe8e82
+M	date/date_repeat.inc	964d13111c52ffa99dbc2c436fc7bcf8
+M	date/date_token.inc	d3f410eabc354ba4f57a1a3cdfddbe60
+D	date/translations/date.de.po	
+D	date/translations/date.es.po	
+D	date/translations/date.fr.po	
+D	date/translations/date.hu.po	
+D	date/translations/date.pot	
+M	date_api.admin.inc	70c46b4265425acb726d5b114b8fc24b
+M	date_api.info	43450222f4763ad1ad2ffaa46d946d17
+M	date_api.install	1000fe7f01e22a082f48c09517bd3c6f
+M	date_api.module	b472b08355aaf651fce69172656fc91d
+M	date_api_elements.inc	ec6474e5ef4a4ff7a0a15089b280af76
+M	date_api_formats_list.inc	5affa5ed0584420c54d5da532c9a7f97
+M	date_api_ical.inc	0a153320c2a9bc3e7583361d710d95e9
+M	date_api_sql.inc	ab2fe0d4ebf0c8480d1cf7515ece2a84
+M	date_locale/date_locale.info	3bf9bdc548a865b5692c95c12ea80514
+M	date_locale/date_locale.module	2926225595c4ebab98903a18f78251fe
+D	date_locale/translations/date_locale.de.po	
+D	date_locale/translations/date_locale.es.po	
+D	date_locale/translations/date_locale.hu.po	
+D	date_locale/translations/date_locale.pot	
+M	date_php4/date_php4.inc	cceabf42bc8d754326bb4115c5ae64b0
+M	date_php4/date_php4.info	cb344880b54f0d5d92bbae659ef36b65
+M	date_php4/date_php4.install	c167911d22e003f8ac5e456d365a4783
+M	date_php4/date_php4.module	b9f4e45ad4dc12ceacbcbffd6940317b
+M	date_php4/date_php4_calc.inc	f6474422551c3a598365d46311bdd6d3
+M	date_php4/date_php4_lib.inc	216bf4d3015db09c3f3206d16860fe73
+M	date_php4/date_php4_tz_abbreviations_list.inc	1d014898ae6ab011d10595d29442d5fc
+M	date_php4/date_php4_tz_create.inc	09020289b532e9db82ef3e3f1ed14c8e
+M	date_php4/date_php4_tz_identifiers.inc	e5df74d843cf17093fc8c42d474ee53e
+M	date_php4/date_php4_tz_map.inc	8ad607802ee27ffac405fdc3c9ae065b
+D	date_php4/translations/date_php4.de.po	
+D	date_php4/translations/date_php4.es.po	
+D	date_php4/translations/date_php4.fr.po	
+D	date_php4/translations/date_php4.hu.po	
+D	date_php4/translations/date_php4.pot	
+M	date_popup/date_popup.info	081c57e4f035479626ecd9482bafdad8
+M	date_popup/date_popup.install	37d514cae6bcd433963bc83bb21995b9
+M	date_popup/date_popup.js	df6bb25ad1d57b81fa14f0d0b7b4ea4b
+M	date_popup/date_popup.module	ab320fae39a6464bcc0912d8c6e7ac2b
+M	date_popup/themes/datepicker.1.7.css	7903ea3fbd23037f9b7877914e31943c
+D	date_popup/translations/date_popup.de.po	
+D	date_popup/translations/date_popup.es.po	
+D	date_popup/translations/date_popup.fr.po	
+D	date_popup/translations/date_popup.hu.po	
+D	date_popup/translations/date_popup.pot	
+M	date_repeat/date_repeat.info	2b3ce173c57da87893ff4198ab3aed31
+M	date_repeat/date_repeat.install	fd605f51bdfcb744492c1d9c91bf5478
+M	date_repeat/date_repeat.module	ff8a14ebfd5840b0c964df7b08586285
+M	date_repeat/date_repeat_calc.inc	f460035b1a3b5a6c2ea6c3b278ca2725
+M	date_repeat/date_repeat_form.inc	c7e25f38ec357f768ff89b0e6ad73b58
+D	date_repeat/translations/date_repeat.de.po	
+D	date_repeat/translations/date_repeat.es.po	
+D	date_repeat/translations/date_repeat.fr.po	
+D	date_repeat/translations/date_repeat.hu.po	
+D	date_repeat/translations/date_repeat.pot	
+M	date_timezone/date_timezone.info	ab4d62796359dda9a67cd8356e8b3c55
+M	date_timezone/date_timezone.install	4dd10b6eed567c46e2f576a03408adc0
+M	date_timezone/date_timezone.js	ef9f4b7cda7baa028358f772c7ae0146
+M	date_timezone/date_timezone.module	44030768ae11be98da23839c5a818ec7
+D	date_timezone/translations/date_timezone.de.po	
+D	date_timezone/translations/date_timezone.es.po	
+D	date_timezone/translations/date_timezone.fr.po	
+D	date_timezone/translations/date_timezone.hu.po	
+D	date_timezone/translations/date_timezone.pot	
+M	date_tools/date_tools.change_type.inc	1f6aa974c68f245ca3971bfe58aa2358
+M	date_tools/date_tools.event.inc	0b70e7bcf1834bc0a455647fa0f360be
+M	date_tools/date_tools.info	5d8be0c35898851ee654e5f77e23071b
+M	date_tools/date_tools.module	524d2f09f14cf470fb5e1c6afcc20108
+M	date_tools/date_tools.wizard.inc	d56cdf70cb106e1028996b1fe361ee51
+D	date_tools/translations/date_tools.de.po	
+D	date_tools/translations/date_tools.es.po	
+D	date_tools/translations/date_tools.fr.po	
+D	date_tools/translations/date_tools.hu.po	
+D	date_tools/translations/date_tools.pot	
+M	help/date-argument.html	c4102d3d191a0b40c4a65622c72ac2c6
+M	help/date-filter.html	f90220eeb8b2951d9e8f099833d7aff1
+M	help/date-views-dates.html	d69ca0e872deade178240b2e99b857a0
+M	help/date_api.help.ini	bb74c9009eb7477d8f9a6cb1ed44febd
+M	help/form-elements.html	b55fea0f7cbedc950ea803f8e8fa82c1
+M	help/overview.html	9f249f8481ea56dac21dc283ccb804d8
+M	includes/date_api.views.inc	cfd840d6ba542a3ab507d732c85c1051
+M	includes/date_api.views_default.inc	4ae7665ebd5c416d3f2cfedb44caf93c
+M	includes/date_api_argument_handler.inc	f44f88f890c719671366e6fd755aa3fa
+M	includes/date_api_fields.inc	e5fcdc3bd4065e1a587f891ac34ec707
+M	includes/date_api_filter_handler.inc	2910b6037dd2240ee04de626d3839018
+M	includes/date_navigation_plugin_style.inc	cd7b239dcacd810701bfa42c826c389a
+M	includes/date_plugin_display_attachment.inc	ee56810639c6b58d98a0e25943dc2b84
+M	tests/README.txt	47c089ee48ae8da8a428fb4897425b7b
+M	tests/date.test	cdb06648ec6c3420c0f9747f468c329b
+M	tests/date_api.test	dde897c670fdc788408ded601245c0aa
+M	tests/date_repeat.test	7a34a720f16f9b8cd195b2abca54cf71
+M	theme/date-navigation.tpl.php	9812d91baac7c23bcae079ef8a2a158a
+M	theme/date-valarm.tpl.php	d4167713e655876a11647c322514a941
+M	theme/date-vcalendar.tpl.php	d37831bcb1f1c9f11b96135620643f91
+M	theme/date-vevent.tpl.php	fb71d0d3d3bb9d20366795831cfe6a5e
+M	theme/date-views-filter-form.tpl.php	43279cad677459a87cf88cf030da2343
+M	theme/theme.inc	73ff84493046b55fde2f932c51e1678d
+D	translations/date.cs.po	
+D	translations/date.sv.po	
+D	translations/date_api.da.po	
+D	translations/date_api.de.po	
+D	translations/date_api.es.po	
+D	translations/date_api.fr.po	
+D	translations/date_api.he.po	
+D	translations/date_api.it.po	
+D	translations/date_api.nl.po	
+D	translations/date_api.pot	
+D	translations/date_api.pt-br.po	
+D	translations/date_locale.cs.po	
+D	translations/date_php4.cs.po	
+D	translations/date_popup.cs.po	
+D	translations/date_repeat.cs.po	
+D	translations/date_timezone.cs.po	
+D	translations/date_tools.cs.po	
+D	translations/general.cs.po	
+D	translations/general.de.po	
+D	translations/general.es.po	
+D	translations/general.fr.po	
+D	translations/general.he.po	
+D	translations/general.hu.po	
+D	translations/general.it.po	
+D	translations/general.nl.po	
+D	translations/general.pot	
+D	translations/general.pt-br.po	
+D	translations/includes.cs.po	
+D	translations/includes.de.po	
+D	translations/includes.es.po	
+D	translations/includes.fr.po	
+D	translations/includes.he.po	
+D	translations/includes.hu.po	
+D	translations/includes.it.po	
+D	translations/includes.nl.po	
+D	translations/includes.pot	
+D	translations/includes.pt-br.po	
+D	translations/installer.hu.po	
+D	translations/root.cs.po	
+D	translations/root.hu.po	
+D	translations/theme.cs.po	
+D	translations/theme.de.po	
+D	translations/theme.es.po	
+D	translations/theme.fr.po	
+D	translations/theme.he.po	
+D	translations/theme.hu.po	
+D	translations/theme.it.po	
+D	translations/theme.nl.po	
+D	translations/theme.pot	
+D	translations/theme.pt-br.po	
+D	translations/theme.se.po	
+D	translations/uk-ua.po	
+D	translations/uk.po	

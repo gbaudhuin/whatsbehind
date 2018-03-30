@@ -1,0 +1,91 @@
+A	.travis.yml	852c75cfb085bd50935aa580281cb45f
+A	README.md	968511c372260f6f2dac92a53d1514ee
+A	docs/setup__enable_module.jpg	ddd86eef60df4c0fbc775c85b3d53b18
+A	docs/setup__forked_repository.jpg	436d81baafc8816dec8b0b03152312a4
+A	docs/setup__original_repository.jpg	97c8aaf053f26a2f2b412c52034ccb94
+D	lib/Drupal/rules/Annotation/RulesElement.php	
+D	lib/Drupal/rules/Plugin/RulesPluginManager.php	
+D	lib/Drupal/rules/Plugin/rules/Rule.php	
+D	lib/Drupal/rules/Plugin/rules/RulesAnd.php	
+D	lib/Drupal/rules/Plugin/rules/RulesConditionContainer.php	
+D	lib/Drupal/rules/Plugin/rules/RulesOr.php	
+D	lib/Drupal/rules/RulesConditionInterface.php	
+D	lib/Drupal/rules/RulesLog.php	
+D	lib/Drupal/rules/Tests/RulesEngineTest.php	
+D	rules.module	
+M	rules.services.yml	e07a0ab469aed7d2f3b0366084d5de84
+A	src/Annotation/RulesExpression.php	476ce7a9b45a7f2c6220aee4076cce5b
+A	src/Context/Context.php	ee58e28478f8849d84f17160a95eedea
+A	src/Context/ContextAwarePluginBase.php	9be60ef74a7cc5da8d783fddea3bcdce
+A	src/Context/ContextAwarePluginInterface.php	b9938c4cabe0ebabfd2616307add6ada
+A	src/Context/ContextDefinition.php	4b221e5f0fb211a479d1b772cd0976d8
+A	src/Context/ContextDefinitionInterface.php	3811ec6a3e2c7e6b867e44800e05b011
+A	src/Context/ContextInterface.php	217029c4e96ea986fdc27d1d2aa0fba9
+A	src/Engine/RulesActionBase.php	cdf9f972286ed337f05711cc76d70432
+A	src/Engine/RulesActionContainerInterface.php	8ef4d9dda71aba7f610d77c021c38d93
+A	src/Engine/RulesActionInterface.php	036fe407a7ddb5c9942b92b0e95171dc
+A	src/Engine/RulesConditionBase.php	9c9f9d09cbb73d4be9dd902131500870
+A	src/Engine/RulesConditionContainer.php	3558d6b0f3a78a5d6aa69dc84e1f8650
+A	src/Engine/RulesConditionContainerInterface.php	72049520e15e4eed5d6e2a538ce4aa63
+A	src/Engine/RulesConditionInterface.php	399e3b1673da066c63695842bc16bf3e
+A	src/Engine/RulesExpressionInterface.php	3b46b39c3714c2367792015e98bb6c22
+A	src/Engine/RulesLog.php	7ac967ffe51c0c9c1079a514ce5dddd1
+A	src/Plugin/Action/DrupalMessage.php	3221e6e76086d7836d76ba89986b7c81
+A	src/Plugin/Condition/EntityHasField.php	cd308c34e0b16f3fefa58c6777e0be10
+A	src/Plugin/Condition/EntityIsOfBundle.php	efff924047efcb278893a0a371daef14
+A	src/Plugin/Condition/EntityIsOfType.php	5d317f41f6bf5a91da1468e0cf95fe72
+A	src/Plugin/Condition/NodeIsOfType.php	54070c894e0b1f2a1759f2609c5502f4
+A	src/Plugin/Condition/NodeIsPromoted.php	ec0f340b48c7fc84c3a64529079e2bde
+A	src/Plugin/Condition/NodeIsPublished.php	e1906c29607c452cc4de3a8fbfc94a76
+A	src/Plugin/Condition/NodeIsSticky.php	9ba868b911561d7e1530aea6e40e0db0
+A	src/Plugin/Condition/PathAliasExists.php	f3595b4690546f785929cf9b5f042ec7
+A	src/Plugin/Condition/PathHasAlias.php	0be455e8244b80d7eea5a6d54f335b58
+A	src/Plugin/Condition/UserHasEntityFieldAccess.php	ec8b3a38b2e5440018182c15d8587c68
+A	src/Plugin/Condition/UserHasRole.php	fe17329a38c8b7c27cad8c10fc7000b6
+A	src/Plugin/Condition/UserIsBlocked.php	8ce7a886f825454f8f7b3a766709dfe4
+A	src/Plugin/RulesExpression/ActionSet.php	5b0ae51f7d7ef842cffd6d1169e83c36
+A	src/Plugin/RulesExpression/Rule.php	d167c3050f0c46dda9d09e5d3f05301a
+A	src/Plugin/RulesExpression/RuleInterface.php	506ddee418bef8bdaa844edb0640b627
+A	src/Plugin/RulesExpression/RulesAction.php	5974bbe07acd88e91afbab4b9c084a1f
+A	src/Plugin/RulesExpression/RulesAnd.php	ed1da57011b8b4c5ef31a15b876737f5
+A	src/Plugin/RulesExpression/RulesCondition.php	b715b2d2ebc32ff5d8d47c405f170ff5
+A	src/Plugin/RulesExpression/RulesOr.php	090756ac5a0256cd7170f10feb0a1e4a
+A	src/Plugin/RulesExpressionPluginManager.php	65eaacee9e9802dd1ecd3a5b4636ff41
+A	src/RulesExpressionTrait.php	04f82ed739713c322259198db7529787
+A	src/Tests/Action/DrupalMessageTest.php	3c0765111669ad44ff124d79e3fac36b
+A	src/Tests/RulesDrupalTestBase.php	89b47e1eab60ee0cbc250272deee4e54
+A	src/Tests/RulesEngineTest.php	ab63fd8d1d24305bff4c8259fcec2774
+D	tests/Drupal/rules/tests/RuleTest.php	
+D	tests/Drupal/rules/tests/RulesAndTest.php	
+D	tests/Drupal/rules/tests/RulesOrTest.php	
+D	tests/Drupal/rules/tests/RulesTestBase.php	
+D	tests/modules/lib/Drupal/rules_test/Plugin/Action/TestAction.php	
+D	tests/modules/lib/Drupal/rules_test/Plugin/Condition/TestConditionFalse.php	
+D	tests/modules/lib/Drupal/rules_test/Plugin/Condition/TestConditionTrue.php	
+D	tests/modules/rules_test.info.yml	
+D	tests/modules/rules_test.module	
+A	tests/modules/rules_test/rules_test.info.yml	c466ae75c9cadba6d0ec24c5461d7826
+A	tests/modules/rules_test/src/Plugin/Action/TestAction.php	6c5aaa6405c30ed5ce5330bab0839731
+A	tests/modules/rules_test/src/Plugin/Condition/TestConditionFalse.php	d8a0e2ef93cc3b706cbffa0135482746
+A	tests/modules/rules_test/src/Plugin/Condition/TestConditionTrue.php	c1f46787becabd7408f141b904d0bb25
+A	tests/src/ActionSetTest.php	d047ca124d723cec43885c989ac61541
+A	tests/src/Condition/ConditionTestBase.php	65abd3a49aeaf8a7f3f85e4fcfc6f6e8
+A	tests/src/Condition/EntityHasFieldTest.php	ec702af4452eea28dee9f82f2caec186
+A	tests/src/Condition/EntityIsOfBundleTest.php	3079661ba5e8a6d980478fff700356e9
+A	tests/src/Condition/EntityIsOfTypeTest.php	10d1da47605a9f1cbee6853e4dfd07c1
+A	tests/src/Condition/NodeIsOfTypeTest.php	37e217131824ec335bea997dfe5911bd
+A	tests/src/Condition/NodeIsPromotedTest.php	449bef37d9c90bff83034f9fb1bf0c79
+A	tests/src/Condition/NodeIsPublishedTest.php	14d48a6d8a8accc9c452a1dd7605515b
+A	tests/src/Condition/NodeIsStickyTest.php	c7a88b4a41f8072db98962d925677747
+A	tests/src/Condition/PathAliasExistsTest.php	4f42834ae7145700fc9aa1a8818fe00e
+A	tests/src/Condition/PathHasAliasTest.php	8a4c9806321edb493db5e5e88ae6e123
+A	tests/src/Condition/UserHasEntityFieldAccessTest.php	6530a8f599ffaa10f123039fc728918f
+A	tests/src/Condition/UserHasRoleTest.php	867879898f37eceae8bc91acb528f032
+A	tests/src/Condition/UserIsBlockedTest.php	ef3b85e2795508e05d9c174f8376a2cb
+A	tests/src/RuleTest.php	8315555522f5dbf749a3a990aefa9232
+A	tests/src/RulesAndTest.php	1bf3861cb2ff4e9d047bf5e76b3a7f19
+A	tests/src/RulesConditionContainerTest.php	d180d58cf6b256b6b49025f68106f323
+A	tests/src/RulesConditionTest.php	94b225d8ef9edb5adb97bed02c8b5698
+A	tests/src/RulesExpressionTraitTest.php	0018f5a2095a4dcafc3e4e2456f02fdd
+A	tests/src/RulesOrTest.php	feb555f1e4611b979b2dcdcde8c27b6f
+A	tests/src/RulesTestBase.php	d510dd80c1d4cd0f6bff5a9420b66922

@@ -1,0 +1,12 @@
+M	config/install/openid_connect.settings.yml	aa2c6bbe8cb695604e369962a3ca8a04
+M	config/schema/openid_connect.schema.yml	d934415d6b806b680660c5bb6713ae76
+M	openid_connect.info.yml	8e8c07d9bc28f94d1af88c6903c20ae8
+M	openid_connect.module	2cec24dc3ce8382a80472c6446704b02
+M	src/Authmap.php	854770e5d95a6ccdd2e31df2a7db7cc6
+M	src/Claims.php	e13292ecc3946beddf161c94cce184aa
+M	src/Controller/RedirectController.php	e30ec2712cf1f873d249378f7a4b32b0
+M	src/Form/AccountsForm.php	f6415bf1786c809122d1e887c496489d
+M	src/Form/SettingsForm.php	bcf3c1e0605c0738a22fb02874da5b73
+M	src/Plugin/OpenIDConnectClientBase.php	9accc5a7f030f5c9dfbcf4a7541e5f32
+M	src/Plugin/OpenIDConnectClientManager.php	acec55aef57eb0318cae41583560a9b0
+M	src/Tests/SettingsFormTest.php	fbad5c8761d620082870eb8a36168168

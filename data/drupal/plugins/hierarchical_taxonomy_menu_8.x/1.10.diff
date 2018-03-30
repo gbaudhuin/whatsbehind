@@ -1,0 +1,6 @@
+A	.editorconfig	be390fc3feabfda60f10dfd94453f78c
+M	.gitignore	7a8b085dbf273de1bb2cb0b44c858f33
+M	README.md	28915fb19968b9a8774797210a6d237c
+M	composer.json	e985590cbe60ad259237a003a387aab8
+M	hierarchical_taxonomy_menu.info.yml	8422ae2e7f4eab6dd95eae93df5ab2e8
+M	src/Plugin/Block/HierarchicalTaxonomyMenuBlock.php	535f453a853e2a59769a04f88104a7bb

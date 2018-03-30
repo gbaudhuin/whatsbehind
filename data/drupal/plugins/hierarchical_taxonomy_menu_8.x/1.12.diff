@@ -1,0 +1,4 @@
+M	hierarchical_taxonomy_menu.info.yml	4cc27a3143191498fa468b8ca6fec42c
+M	hierarchical_taxonomy_menu.module	02e7f4a9b55dbd2aadf587602aca4dd3
+M	src/Plugin/Block/HierarchicalTaxonomyMenuBlock.php	32d804a277f644615484defb010b7016
+M	templates/hierarchical-taxonomy-menu.html.twig	7281959e6cebd28d42b6b71badcd88d0

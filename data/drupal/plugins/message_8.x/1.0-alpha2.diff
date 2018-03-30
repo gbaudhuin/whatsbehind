@@ -1,0 +1,7 @@
+M	message.info.yml	b1ab2d3917a289a1c42004c24d7c55e7
+M	modules/message_example/message_example.info.yml	18d4a1c8d1e7003b7e07245b25259a6b
+M	src/Entity/Message.php	dcf637d2774328fa10e3f6a718af5d1a
+M	src/FormElement/MessageTemplateMultipleTextField.php	92fa77683439fbc99a353470bde7d35b
+M	src/MessageInterface.php	dcd40a2db69f8c4d9d302b93793b234d
+A	src/Tests/MessageCreateTest.php	b6c176948612cb1fe62a00a21910378c
+A	tests/src/Kernel/MessageTest.php	32c32eb7bf001e859f384f67cf92657a

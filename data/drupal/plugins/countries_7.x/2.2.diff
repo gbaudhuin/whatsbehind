@@ -1,0 +1,17 @@
+M	README.txt	173ce348875ebc8814758f5802b26ea7
+M	countries.admin.inc	bd7e98a561b491d5b834f29f4c0a0327
+M	countries.csv	ab5021b6cb5d4255d4f6b585b8c51f59
+A	countries.devel_generate.inc	580911b66f269b7c33ddebfe087d6e98
+M	countries.fields.inc	3092c5c3bfd8ecf934371a61c1a46d6f
+M	countries.info	d7021e32332bf811efc75c6d0e6d00f5
+A	countries.info.inc	42b480563348996a27e15b2489bbdf66
+M	countries.install	95737385164a6ecc1cdf863d2b3f8523
+M	countries.module	f603e4f97a0a8e0e6ff4321097e1031c
+M	modules/countries_configuration/countries_configuration.info	8b676067b970606a8a5a790f7d3c3054
+M	modules/countries_example/countries_example.info	a20eeffaebe8bee04868d4e5ea4d9a54
+M	modules/countries_i18n/countries_i18n.info	e2ec8247f4a283dd663e9782f8747909
+A	plugins/arguments/country_code.inc	221c392867379e9e25af582e257b9d26
+M	tests/countries.test	20417e3c7717e1cd4d87baff4c5bbed4
+M	views/countries.views.inc	2ba317057e5218d7eb5769614108fb75
+A	views/views_handler_argument_countries_country.inc	83ece7ebc6877813857fc188da3eed49
+M	views/views_handler_filter_countries_list.inc	95105fb147da23f295ca70675fcab7e1

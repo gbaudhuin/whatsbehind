@@ -1,0 +1,8 @@
+M	fieldable-panels-pane.tpl.php	fcdc0daf4c8271c8dd71623aec4eb362
+M	fieldable_panels_panes.info	16a1ed2efec50488fd92d1d9e793c523
+M	fieldable_panels_panes.module	84c7a739256658901a4632da240d2a9e
+M	includes/PanelsPaneController.class.php	7cbe8e1038d9f1e1f8d8ef1d2e145eb8
+M	includes/admin.inc	ce71fbbe1dea86d907011ec0b24cc871
+M	includes/translation.handler.fieldable_panels_pane.inc	32b4f24dcc5bfe92477247fd64e631e2
+M	plugins/content_types/fieldable_panels_pane.inc	d3acef19c1550b91538a489591dabf38
+M	plugins/views/fieldable_panels_panes.views_default.inc	a5aaa897e898380efbee0443929ad90c

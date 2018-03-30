@@ -1,0 +1,14 @@
+M	contrib/location_addanother/location_addanother.info	8f174a11439ac44c1e5277bd14100a59
+M	contrib/location_cck/location_cck.info	37aafdeb0a41103e9501b6e45d5a1a99
+M	contrib/location_email/location_email.info	61f2547d486da868d1a705b0355438d7
+M	contrib/location_entity/location_entity.info	8c709459a1b602ea5c7dc37e213c6b17
+M	contrib/location_fax/location_fax.info	9c77ad4f6bd4f8217e75bf1b489b40cd
+M	contrib/location_generate/location_generate.info	3fbfac381bfa434c927b2415ca36655b
+M	contrib/location_phone/location_phone.info	ff3ee8660cac98dd7482e2a92e5cb332
+M	contrib/location_search/location_search.info	5aa6d32c517a24ef929e47eeea1693ad
+M	contrib/location_taxonomy/location_taxonomy.info	c2cbec5be4bdac7876953490efbdcc44
+M	location.info	bdc142420c0abb7078f3b823e2632190
+M	location_node.info	c36ff2ce6adf122fe5d89e297dd2d047
+M	location_user.info	bf765e901c3da3ab095f4bd481c42129
+M	supported/location.cn.inc	9f712b0c63c44be2e7757153ee838f99
+M	supported/location.us.inc	563b61589f95616ba6aca9c7faa13a67

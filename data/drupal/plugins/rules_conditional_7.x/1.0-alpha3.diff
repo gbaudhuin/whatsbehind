@@ -1,0 +1,11 @@
+M	includes/rules_conditional.plugin.inc	8ad5c75c08952292e1de5598b78acf06
+M	includes/rules_conditional.ui.inc	50ebe1b98de28db42529e4a92d4cc976
+M	rules_conditional.info	a5c2e75cbea253b184e81079dccfb89d
+A	rules_conditional.install	6df69fd42da65dbc655d9fd49b9f8b41
+M	rules_conditional.module	f8d655ae9fd378a3185fa3cd1d0378c9
+M	rules_conditional.rules.inc	5164a3ae0bf2f65c738257deb7b7e89d
+A	tests/conditional_test_export.txt	eaa4b237cc15cd2abc7154ee49890b6f
+M	tests/rules_conditional.test	4382312e2fae7c2446519c447679576a
+M	tests/rules_conditional_test.info	2c94b51ddb6d131ae3ce700022d362b0
+A	tests/switch_test_export.txt	5a7fdb2b4a5a6d291f93d1be6939edab
+A	tests/while_test_export.txt	5600bc9cec9178caf6c3fbe87b5b9a3b

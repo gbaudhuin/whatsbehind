@@ -1,0 +1,9 @@
+A	composer.json	6516e7848a17c47b9749dbbd152fa5d1
+M	dropzonejs.info.yml	96871ca3d3be1e3ad1cfed56e7eee848
+M	modules/eb_widget/config/schema/dropzonejs_eb_widget.schema.yml	9d8923a2fee34a8a757e577a5b084c2f
+M	modules/eb_widget/dropzonejs_eb_widget.info.yml	dc3ea7dff9d036a8de0f7af6ab122f87
+M	modules/eb_widget/src/Plugin/EntityBrowser/Widget/DropzoneJsEbWidget.php	1672644d1f092907dba459ba87e2e847
+M	src/DropzoneJsUploadSave.php	b3cb2d3216ece305f535ee21a658a2a8
+M	src/Element/DropzoneJs.php	962e9bce310a20fac8cb3a7b9ef8e440
+M	src/UploadHandler.php	246bc5c39ac69e4bb16dfc3ca0b99afc
+M	tests/modules/dropzonejs_test/dropzonejs_test.info.yml	c0904c2e682d5a3125532beb022ad022

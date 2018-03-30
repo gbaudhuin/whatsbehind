@@ -1,0 +1,11 @@
+M	config/install/multiversion.settings.yml	94c6fd5a0f5ae771cf8fe6ebd25453a5
+M	multiversion.drush.inc	a601c1a618f03a8834237172d3bb7cdf
+M	multiversion.info.yml	55e8b26c50318e41cd3c654d5f357f45
+M	multiversion.module	d7d79f1977275d5a9e4be8b9f6a7e104
+M	src/Entity/Storage/ContentEntityStorageTrait.php	4372642d77ec166920bb44470fbc6ee3
+A	src/Entity/Storage/Sql/CropStorage.php	656cd9e2bd5714ef6ab87546440ebec8
+M	src/MultiversionMigration.php	e627b40dcdc543a3b6ae915de5c2a17e
+M	src/Tests/MigrationTest.php	ce4f4d6aed1e6ef1d0486e04c8dfd94d
+M	src/Tests/UninstallTest.php	9192dcd37a8ce9104b19bfd437118062
+M	tests/modules/multiversion_test_paragraphs/multiversion_test_paragraphs.info.yml	4262e7741098feeb8eccf23d48934179
+M	tests/modules/multiversion_test_views/multiversion_test_views.info.yml	b55e2b8a2dbf4795996e19c63eb12523

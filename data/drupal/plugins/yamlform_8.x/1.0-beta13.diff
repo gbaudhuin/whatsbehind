@@ -1,0 +1,13 @@
+M	modules/yamlform_devel/yamlform_devel.info.yml	fa75ae4f658b892e0696d1fb07c6199b
+M	modules/yamlform_examples/yamlform_examples.info.yml	0894f4fcb572fa3b79721175aec4ddfa
+M	modules/yamlform_node/yamlform_node.info.yml	8b7f2a810ebd3c24db07f1d79b966c18
+M	modules/yamlform_templates/yamlform_templates.info.yml	03d0d7c63d09625f8d56350d4017469f
+M	modules/yamlform_ui/yamlform_ui.info.yml	558c879998fe8827792ac97edc9e5a4d
+M	src/Element/YamlFormCompositeBase.php	9a6d36a6ebc355d61ef8029b1fac996e
+M	src/Element/YamlFormRating.php	74af5aaeada0ef92361b400db0dd8991
+M	src/Element/YamlFormToggle.php	af556d04efe956dda9e5a3b872985d85
+M	src/Plugin/YamlFormElement/TextFormat.php	55b288768cf89438dbab8d3b4e601183
+M	tests/modules/yamlform_test/yamlform_test.info.yml	6928afddca9c170ec199f1245ae8a5b3
+M	tests/modules/yamlform_test_third_party_settings/yamlform_test_third_party_settings.info.yml	11569c882ba14dc87f1dd6cf85ee804c
+M	tests/modules/yamlform_translation_test/yamlform_translation_test.info.yml	abd3fb55b355f720f4b0cd40b3fa0c86
+M	yamlform.info.yml	5b13a11e9c98ee4a770744c47502e58d

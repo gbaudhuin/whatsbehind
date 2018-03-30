@@ -1,0 +1,10 @@
+M	CHANGELOG.txt	2d4e025fa2ae6c428201bd03ab51480d
+D	field_group.css	
+M	field_group.field_ui.inc	4bd5d075af1c7b659f033d0dad0d42c5
+M	field_group.info	7eed34af29a2c1f1ad7fbb696756a91d
+M	field_group.install	a306a7e080f7f14ff7f4fe472370d4a6
+M	field_group.js	49d073869c83b15ad31878359acce956
+M	field_group.module	37bddc209655c414e2e8b89c7fe72271
+M	multipage/multipage.js	4da0e54e47db6a457c3db8f9a4aa6d60
+M	tests/field_group.display.test	7663b567ff7f68de4cdd0fc4ce2baae9
+M	tests/field_group_test.info	37d29caaaa870e4ba9824eebf41c3778

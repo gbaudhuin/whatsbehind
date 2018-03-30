@@ -1,0 +1,7 @@
+M	config/install/core.entity_view_display.media.image.varbase_media_hero_slider.yml	79501e8f8f9ef0acfd83e538f2a8f396
+M	config/install/core.entity_view_display.media.video.varbase_media_hero_slider.yml	e272e5c744f6f9d8a708df6fabdaa85d
+M	config/install/core.entity_view_display.node.varbase_heroslider_media.default.yml	0e1bf98383ea7e35150be86b935a3021
+D	config/install/image.style.varbase_media_hero_slider.yml	
+M	config/install/views.view.varbase_heroslider_media.yml	c80d18905a112bfc467ef379915a2f90
+M	config/install/views.view.varbase_heroslider_media_browser.yml	53400b8031323f43465c353489acca15
+M	varbase_heroslider_media.info.yml	e65a9403dd534c1b27b93f4e5d0d6f0b

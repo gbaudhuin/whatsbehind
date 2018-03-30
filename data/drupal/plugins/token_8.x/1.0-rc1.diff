@@ -1,0 +1,9 @@
+M	README.md	08b5012c26bf9f9970b5f0a3bd6ab5aa
+M	src/Tests/TokenBlockTest.php	e95480222738ce14d5bffd5ceb3254d0
+M	tests/modules/token_module_test/token_module_test.info.yml	39508afd690383035fe8ee172e37e7fc
+M	tests/modules/token_user_picture/token_user_picture.info.yml	1023e23863a9c13d823e74cfc9ef7106
+A	tests/src/Kernel/BookTest.php	9208533777305197b2d19c6f2a54fbcd
+M	tests/src/Kernel/FieldTest.php	6e642040d96c21553e886e0cedc264e9
+M	token.info.yml	3db222c7f994cd28f2e41a1655e68889
+M	token.module	fc9803ea78a6a6de082d4bb2585be779
+M	token.tokens.inc	aad4d119bb0a35438be49aac9d44edbe

@@ -1,0 +1,11 @@
+M	drush/features.drush.inc	c6811139375f13dcdf9cc6c06972f55b
+M	features.info.yml	c7a889c2eb4b173526b27c66f2ae73dd
+M	features.services.yml	18ef7c710fd579fee43a3be3830dc470
+M	modules/features_ui/features_ui.info.yml	7f6708998ed3b78c9f51d870cb003b6b
+M	src/FeaturesInstallStorage.php	7385a71582428b56783d7df3a2aeb30a
+M	src/FeaturesManager.php	1a9b66c506a0d33f37c0040ad08b7a6a
+M	src/FeaturesManagerInterface.php	08130c1d282eab734168a2201bea6dce
+M	tests/modules/test_feature/test_feature.info.yml	c0798edf0294d64ea0f60b6ba076db27
+M	tests/modules/test_mybundle_core/test_mybundle_core.info.yml	c5d2cb853c8605936d86b5f74e88d9c5
+M	tests/src/Kernel/FeaturesAssignTest.php	a34f470f4ccb72bec0d170b6c5a191f3
+M	tests/src/Unit/FeaturesManagerTest.php	7d418180fc72b7ce67d6c656ba742e8a

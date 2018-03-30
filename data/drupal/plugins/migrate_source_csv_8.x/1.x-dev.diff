@@ -1,0 +1,11 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	composer.json	114fb11969801ad3244733f14bd58f08
+A	config/schema/migrate_source_csv.source.schema.yml	70899ffa57fe6b058026f563bad3fd93
+A	migrate_source_csv.info.yml	640f8f544512a47c6bff727cbf7a025d
+A	phpunit.xml.dist	59a894cb4bbd2904a725b5672895c8e9
+A	src/CSVFileObject.php	46f7115599591afac293df51acb8f93d
+A	src/Plugin/migrate/source/CSV.php	d9830ef891440d30822fedc9960b0b6c
+A	tests/bootstrap.php	3b979d155c3d6008fec5cbec557909e2
+A	tests/src/Unit/CSVFileObjectTest.php	bd803ed690381ce5bf91c3eb8667b5ea
+A	tests/src/Unit/CSVUnitTestCase.php	c851cd57fae370183cce3f5cadc13010
+A	tests/src/Unit/Plugin/migrate/source/CSVTest.php	e2b4749f82bd43324560b532e296a56c

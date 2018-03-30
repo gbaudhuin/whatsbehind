@@ -1,0 +1,15 @@
+M	API.txt	f620a7c4d9cbd50db63d842730d589c8
+M	hierarchical_select.admin.inc	8b1a33b650f97a7050daa8b44b920cd1
+M	hierarchical_select.info	7f89e120df9872778b8c76414f6a345b
+M	hierarchical_select.module	a006354fc0c27c5696dbbb0326ecb105
+M	includes/common.inc	b353cf10a6baf8499f09792dd5aec132
+M	includes/common_config_form.js	49094b87a833fa9fc98f60950fec621b
+M	modules/hs_flatlist.info	5e4ee5fa86d839d9a6ffe0f70d48b671
+M	modules/hs_menu.info	2b7a9cc5709bd4cd85da6c1030f726fa
+M	modules/hs_menu.module	3d27150107b7eb0763be9385e42732ff
+M	modules/hs_smallhierarchy.info	19a225598b5754e90a3806cb94fc2609
+M	modules/hs_taxonomy.info	c6a3a85823ee40e603258f8b35617b31
+M	modules/hs_taxonomy.module	60c59dbc3e91329fafa7f8874b3ee371
+M	modules/hser/hser.info	8ae9840605c316601d2f3c227c4bcaf4
+M	modules/hser/hser.module	c995bf549ab5e69ac58138a005cae4e9
+M	tests/internals.test	a1a454439d82d308f82220eb98894e90

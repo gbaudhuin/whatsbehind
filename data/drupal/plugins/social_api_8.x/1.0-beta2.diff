@@ -1,0 +1,12 @@
+M	composer.json	1d7322134bb8d162a0e986010a3a7784
+M	social_api.info.yml	29e05895f2c3b6bbc1ed0a5cce065f0c
+M	social_api.module	f59f9d11649e25d9153f5c9a83388b64
+M	src/Annotation/Network.php	627c0b6b6c3887f5480effe88fe80518
+M	src/Controller/SocialApiController.php	eded10254906d8f32cdcabeadd8269d8
+M	src/Plugin/NetworkBase.php	39aa8a5e09c0d143c10dd3959e62010c
+M	src/Plugin/NetworkInterface.php	436c1c0f9c1cc7abdcd3fa103234ebeb
+M	src/Plugin/NetworkManager.php	b1337133ea86e91aaa26ab998b75d5e1
+M	src/Settings/SettingsBase.php	63a85ada435c484c357445002eef886e
+M	src/Settings/SettingsInterface.php	d7d01b4e4f07325eeb871fb42fa6ca2c
+M	src/SocialApiException.php	bd170f45cccab700cb3b4f6077e5c5ca
+A	src/Utility/SocialApiImplementerInstaller.php	bcb81f52867bb2f01a8858527623bc8a

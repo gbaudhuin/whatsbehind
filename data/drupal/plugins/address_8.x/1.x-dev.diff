@@ -1,0 +1,5 @@
+M	address.info.yml	88d72047efeb8bd63f91791ab6b7388f
+M	ludwig.json	370a14fb61a7a52e9f7a70b5c02ada9b
+M	src/Plugin/Field/FieldType/CountryItem.php	2dcc9c4cbd5359b4bc8edeb3de110b75
+M	tests/modules/address_test/address_test.info.yml	1c39c06f0181c5e1efe0430af47c7dbb
+M	tests/src/FunctionalJavascript/AddressDefaultWidgetTest.php	c8eddeaa81992d8e054b4b566c0b741b

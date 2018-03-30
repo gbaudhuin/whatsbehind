@@ -1,0 +1,16 @@
+D	README.txt	
+A	config/install/varnish.settings.yml	de707d52a6b0d118c559bfa960d7806e
+A	src/Cache/VarnishBackend.php	021204d815f2a9b6efa1089345f948d8
+A	src/Cache/VarnishBackendFactory.php	eae272ccd4dd526a78885334d84ab53e
+A	src/Form/VarnishAdminForm.php	fe87f7fc53188782cfe13356b19b7e27
+D	varnish.admin.inc	
+D	varnish.cache.inc	
+D	varnish.drush.inc	
+D	varnish.info	
+A	varnish.info.yml	6b161359d7a88d2d6afc53ff1fb66ce5
+M	varnish.install	5d175f5c9a370610bee2502932862b33
+A	varnish.links.menu.yml	1ba02d74b89f66a45250167573b944cc
+M	varnish.module	3084770e502ce3cea329a59583ee7ed6
+A	varnish.routing.yml	ad14f93120b16a98b9fa3fe88f003321
+A	varnish.services.yml	3b5dab2280acd492dc3b472017157b2f
+D	varnish.test	

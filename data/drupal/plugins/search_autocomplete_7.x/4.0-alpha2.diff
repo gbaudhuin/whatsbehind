@@ -1,0 +1,20 @@
+M	README.txt	af0907d049a986c25f4ef2c1ea0511d4
+M	css/classic.css	0e5beb33924df376e8c96d87f1649565
+D	css/facebook like.css	
+A	css/facebook-like.css	c9544f812e61d9713bfc182f2abf08c0
+M	css/full paper brown.css	0e889bcad52fa030f07d4ce9ed7d0700
+M	css/nice black.css	1bd1397073af2f08c0615552722e2a5a
+M	css/nice blue.css	43fcfd4e1120b8dd146d671ec0db5a5d
+M	css/nice green.css	78f0e65f23b2db901ca391625557c865
+M	css/nice orange.css	e0a3025b945464e5694a88ae3cff986c
+A	css/tripadvisor-like.css	f93cbfe96657f1c151eb03aba7412334
+M	js/jquery.autocomplete.js	8947db1302c92f0d8d38da73c53b7174
+M	search_autocomplete.admin.inc	498eece2f4437a9eb283bca5b61e3bc6
+A	search_autocomplete.autocomplete.inc	e375d16aa6b8e9cfe3adad5ec6e7fb1c
+M	search_autocomplete.form.configure.inc	9a7d32ec8e296de2eabaf1efbf3d66d1
+M	search_autocomplete.info	0796040eeda6e8aafbeced94d384a021
+M	search_autocomplete.install	4836b3ebe23b2ef3bf9ca1071bfc29c6
+M	search_autocomplete.module	554edc3ab0234f28b29cb7c5dc01b423
+M	search_autocomplete.view_autocomplete.inc	595d32fa53ac304f712f12b8fc3a98fc
+M	views/plugins/search_autocomplete.views_plugin_style.inc	064dd3570de15fca9525bfbdc7fbab15
+M	views/theme/views_search_autocomplete_style.theme.inc	c7b1c03d3822c72953db412e7d9af813

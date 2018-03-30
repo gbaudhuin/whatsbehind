@@ -1,0 +1,12 @@
+M	css/toolbar-anti-flicker.css	9ad58b467cc891185565a149a63b94f6
+A	css/toolbar/toolbar.module.css	6f9fcb281db899e54a86a743fd829f49
+D	js/toolbar-anti-flicker.js	
+A	js/toolbar/js/escapeAdmin.js	d3adb9a334c6640df244b8496adcd6d2
+A	js/toolbar/js/models/ToolbarModel.js	7cd06109691610ae074a296da1a664e1
+A	js/toolbar/js/toolbar.js	7f4575523ed23da20547d99499c5187e
+A	js/toolbar/js/views/BodyVisualView.js	f3cbd5e49eef07a868800b3960708972
+A	js/toolbar/js/views/ToolbarVisualView.js	12637a76fd4dbf9ae536fe9919e79eff
+M	toolbar_anti_flicker.info.yml	024a2625ed72e0db4ad57dc4993ca81c
+A	toolbar_anti_flicker.install	0ad9ad332646cdd0eb203d58d518e1c7
+M	toolbar_anti_flicker.libraries.yml	983fb8c7b6a38188d827d8d5090daa8b
+M	toolbar_anti_flicker.module	02457354d4c37b37c1b19bd41856fb54

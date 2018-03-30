@@ -1,0 +1,9 @@
+M	empty_fields.info.yml	9e083bb2d5ef4e7663722615eb82b4ef
+M	empty_fields.module	8dbc5ad470eaf295a970915c5969b9bf
+A	empty_fields.services.yml	b9703acb6acffa7c4cd3e641a382e369
+A	src/Annotation/EmptyField.php	df5ed18fac7a2517c3432be1d5f7fbba
+A	src/EmptyFieldPluginBase.php	4426c0e2025063789f383e11485f9a93
+A	src/EmptyFieldPluginInterface.php	dba65eca3a7bef01605ee0e5e999ddcb
+A	src/EmptyFieldsPluginManager.php	da629570086bf44a89c219c1b95da51d
+A	src/Plugin/EmptyFields/EmptyFieldNbsp.php	502b09f39876417a328933f73a9d1bc1
+A	src/Plugin/EmptyFields/EmptyFieldText.php	60214192cfee24e7b3597acf6f11ebe6

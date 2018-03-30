@@ -1,0 +1,6 @@
+M	CHANGELOG.txt	ad2968774051eb5479dc709ce87ba7e2
+M	includes/bootstrap.inc	a0d3fa25546b6ebdd7a4733327fa0bd8
+M	includes/install.core.inc	6ab88880a1d2a7f8d14c60c7de9029f5
+M	modules/openid/openid.inc	02dc5add57dded2a3cfd114a953719d3
+M	modules/openid/openid.test	bec61accffc8f328fd5434bc6b2aaf12
+M	modules/openid/tests/openid_test.module	4410a3cb6b855027f4561d2ab969a480

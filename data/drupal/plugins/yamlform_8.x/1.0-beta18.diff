@@ -1,0 +1,12 @@
+M	docs/developers/roadmap.md	81c6189e725b8b713438c97f7c4f1c8a
+M	modules/yamlform_devel/yamlform_devel.info.yml	d0e5822525a0f6a190e1a80ccafce31c
+M	modules/yamlform_examples/yamlform_examples.info.yml	1dfb654f9bd2741a1f19d55dd679908b
+M	modules/yamlform_node/yamlform_node.info.yml	9d9f52a29288e0f630a0078e46fb8734
+M	modules/yamlform_templates/yamlform_templates.info.yml	77af097dd992851e4e56303342e27984
+M	modules/yamlform_ui/yamlform_ui.info.yml	55bfd49dc7909b7fb691d8333924ba8f
+M	src/Plugin/YamlFormElement/ManagedFile.php	4cbb1dd4acabcde16608648f372cdf76
+M	tests/modules/yamlform_test/config/install/yamlform.yamlform.test_form_states_triggers.yml	e468dce43c27f5cff04ffa036598a557
+M	tests/modules/yamlform_test/yamlform_test.info.yml	63394d5edd77c91ad47cdf48bb17ad71
+M	tests/modules/yamlform_test_third_party_settings/yamlform_test_third_party_settings.info.yml	8638e9d89453c94543c85913496636a9
+M	tests/modules/yamlform_translation_test/yamlform_translation_test.info.yml	f4408a1abfc3020ce87db07d489baac0
+M	yamlform.info.yml	ba4981294ef13a934804add74a976cf2

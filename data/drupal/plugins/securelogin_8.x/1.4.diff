@@ -1,0 +1,12 @@
+M	securelogin.info.yml	05f478590792decdd85c0cadb5d1d651
+M	src/Form/SecureLoginConfigForm.php	986022715ace7ac537aa84cc9cc38f32
+M	src/SecureLoginCacheContext.php	2e3377402f220c324f67c88654806b14
+M	src/SecureLoginCacheableDependency.php	aa962712a6ec59ff2b305e017a0cb3ae
+M	src/SecureLoginManager.php	6be0d0be8a01fb7c8feb5c684a7061be
+M	src/SecureLoginPathProcessor.php	1afa5608e52998b5ef6bf35d73744ea6
+M	src/SecureLoginResponseSubscriber.php	a63019c007e08f4bc9a2e67f09dad879
+M	src/Tests/SecureLoginTest.php	cabe2cb3d9a087ddcb51b662dd496a06
+M	src/Tests/SecureLoginTestBase.php	c4e43b1c38d469897b6e8d50ce0c1543
+M	src/Tests/SecureLoginTestBlock.php	96d1ff3f40ce3e1f6cab1c50c7209e08
+M	src/Tests/SecureLoginTestBlockCache.php	25dc5db583eee8547a56beac62419d08
+A	src/Tests/SecureLoginTestConfig.php	f9511feaa1005b0fc0a6f4aa872afaee

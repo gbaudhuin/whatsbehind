@@ -1,0 +1,21 @@
+M	.gitignore	304bb8d91c85b96c38797d865c605fe5
+A	.travis.yml	5a87e58d7961df56760d58bfe50f3b2e
+A	CHANGELOG.md	8430ec6d5dc2de96751f16c639df0f47
+M	composer.json	9f914d497481a577cfde34941753e70c
+D	composer.lock	
+M	config/optional/user.role.layout_manager.yml	a53a67e9bcd2b01703472a53b400d7da
+M	lightning_layout.info.yml	2bd709c427a29263933c23bacff88093
+M	lightning_layout.install	4b1940222dfefedd6fa88724c6d6c115
+M	lightning_layout.module	a48b692b9e1dab3d53655b9320410a11
+M	modules/lightning_landing_page/config/install/node.type.landing_page.yml	97e9033efad847b7424048f74b8edc34
+M	modules/lightning_landing_page/lightning_landing_page.info.yml	a0b4e464fa4b9bc9700ea7784f7879e8
+A	tests/behat.partial.yml	0b117554c2d56e94aff838c1c14c77d4
+A	tests/contexts/PanelizerContext.behat.inc	3da13644097bd2197e978b1772e7947a
+A	tests/contexts/PanelsIPEContext.behat.inc	38036269395b26b3222a4c386aadaf0d
+A	tests/features/panelizer.feature	bac5874f227caceddb852efc7124ac8d
+A	tests/features/panelizer_wizard.feature	0a655a20dc5e265ca300d22c7144058d
+A	tests/features/panels_ipe.feature	b6b48c1d835d2c9414661150af1c9188
+A	tests/fixtures/1.0.0-rc1.sql.gz	7020f32817227ae6ae307b139a5b4251
+A	tests/src/Functional/EntityBlockTest.php	7a31e976648b516f49a84d1893475c6b
+A	tests/src/Functional/ViewModeCustomizationTest.php	972424c317d490fbcd8df9680d82fb01
+A	tests/src/Functional/ViewModeDescriptionTest.php	aa595347f6a6815e3c2831d5a9395ee4

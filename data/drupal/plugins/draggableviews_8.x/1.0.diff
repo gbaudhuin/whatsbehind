@@ -1,0 +1,8 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	draggableviews.info.yml	224a8afeeb26760da74986fd24520a89
+A	draggableviews.install	5690ce4d9e8f6ee2a33a5398d766dfa2
+A	draggableviews.module	0fc7a2ecf00a485a56cb233edd0d2795
+A	draggableviews.permissions.yml	0b12e63d6274abff1c6ff7bc25e4127f
+A	src/DraggableViews.php	8d393f4672fc0ef5ee4fefed5750239c
+A	src/Plugin/migrate/destination/DraggableViews.php	ca99454870a2954c9b0ac1b545de7251
+A	src/Plugin/views/field/DraggableViewsField.php	819af09cca7a3197da124b0fb1143fca

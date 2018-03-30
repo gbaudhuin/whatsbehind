@@ -1,0 +1,10 @@
+M	acsf.drush.inc	bea0e1989d47a3c2f9efa2c3381bd32f
+M	acsf.info.yml	a92215b96a45d0f3b6ffc45a578477bb
+M	acsf_duplication/acsf_duplication.info.yml	9cdd3196e5e64a75f4a9cd55757caea6
+M	acsf_init/lib/sites/g/settings.php	e0a88780000fef9f5d1e4909780b95c9
+A	acsf_sso/acsf_sso.info.yml	ff0292fc4b727dd69a882293ab4c21ff
+A	acsf_sso/acsf_sso.install	0a23c47fdaa62e501a4d8665c276559d
+M	acsf_theme/acsf_theme.info.yml	a7fe60c0f6e78d23eb35e2cf886c5e46
+M	acsf_variables/acsf_variables.info.yml	e1592135c440c012c9d156e138a0cccd
+M	build_info	b5edada1b6b5d66a328afe211d74f412
+M	composer.json	c9399f65c85e987dc920e9d6f5006e01

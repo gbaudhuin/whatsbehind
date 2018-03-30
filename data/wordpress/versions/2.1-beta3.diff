@@ -1,0 +1,31 @@
+M	readme.html	1808e8f88b490dffdfe0e3ea0a951e86
+M	wp-admin/admin-functions.php	b01a0b42290b70fc2fe687b1b93def65
+M	wp-admin/install.php	4c7eba8ec0605b044f7d228cde23a444
+M	wp-admin/link-import.php	56fc45dd4677c124891d8cf0dfb06a9e
+M	wp-admin/options-discussion.php	640841080039c5e42294af6846a5e622
+M	wp-admin/upgrade-functions.php	63644c640ba665aaea13e08a2f61b13b
+M	wp-admin/upload-functions.php	f1e98a5d5010485ba136b344c05769fa
+M	wp-admin/upload-js.php	0700e88f11ec2acc1a6ef694de33afb9
+M	wp-blog-header.php	b0056b43270bfa9f04aa23a375ae6ba6
+M	wp-content/plugins/akismet/akismet.php	5a8ed6ab428aca17cd6e170746804378
+M	wp-includes/category.php	3b8db20247c997610190c452e4be0087
+M	wp-includes/classes.php	8921c18c17c75173b04941dcf3d828fc
+M	wp-includes/deprecated.php	ff5b4a0c0b1c982b7cb25acde051a20f
+M	wp-includes/functions.php	a32eecde7e30b0507ab8cde8cd935761
+M	wp-includes/gettext.php	0888e9f46c054b54fd8c8baa0284eb72
+D	wp-includes/js/tinymce/plugins/autosave/langs/cs.js	
+D	wp-includes/js/tinymce/plugins/autosave/langs/sv.js	
+M	wp-includes/js/tinymce/plugins/inlinepopups/editor_plugin.js	d2fdd7ee581e86820a4c57389464bd21
+D	wp-includes/js/tinymce/plugins/inlinepopups/editor_plugin_src.js	
+D	wp-includes/js/tinymce/plugins/inlinepopups/readme.txt	
+M	wp-includes/js/tinymce/tiny_mce.js	4f04728cb4631a553c4266c14b9846aa
+M	wp-includes/js/tinymce/wp-mce-help.php	7b26d93c9fb0039a1f5f1c09a8940e53
+M	wp-includes/link-template.php	ae5e47b453f85ddc924573da9fd5fed5
+M	wp-includes/post-template.php	7c5c5384c90bcae15c2a5c8af57edc24
+M	wp-includes/post.php	63beb62f2ad4e2cb3e4ce96a4f029ac8
+A	wp-includes/registration-functions.php	d99235e81a82adb2f73d4949758abb70
+A	wp-includes/rss-functions.php	8507442d81a632e33058058e66a6e89a
+M	wp-includes/rss.php	e1e54376586fd338a667221ef8751882
+M	wp-includes/version.php	2f2aa803c22c1616bd3b17c6469809c8
+M	wp-includes/wp-db.php	6a5161d3177f595420db27cc0e8b9f7d
+M	wp-settings.php	d667542dda748e8511922238aa6ddc8a

@@ -1,0 +1,6 @@
+M	auto_entitylabel.info.yml	bbabce49238994962171470c572f90fc
+M	auto_entitylabel.module	7f0207d2dd9f267e876217287bff4e5f
+A	config/schema/auto_entitylabel.schema.yml	9fa091337adc1ee5489f492945981703
+M	src/AutoEntityLabelManager.php	6aa2d3c987f8a2f96363f62b74cdf383
+M	src/Form/AutoEntityLabelForm.php	937fcdf541e6ee6e4f88b4e12efcfb62
+M	src/Plugin/Derivative/AutoEntityLabelConfigTask.php	dbb9919dd1f839c91461dab0945343ff

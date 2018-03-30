@@ -1,0 +1,5 @@
+M	schema.info	0606c149a68a31ebb9de0ca507d65cc1
+M	schema.module	484bcc79df99b024b9ed53455c883a1f
+A	tests/schema.test	0fc71242ab287be80588db4c4726b14c
+A	tests/schema_test/SchemaTestDatabaseConnection.php	d359997e9d0e1baf0336b75aa2c891c0
+M	tests/schema_test/schema_test.info	01e491c11dc58bf2144115a7f35d45af

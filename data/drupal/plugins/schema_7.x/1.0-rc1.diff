@@ -1,0 +1,9 @@
+M	engines/mysql.inc	0d839c38afa5870521bdab5c63bb7df7
+M	engines/pgsql.inc	7753e0a4ef90b00936a5f81b6bca14e1
+A	schema.admin.inc	281e0fb7662283f09482196a91b775e6
+M	schema.drush.inc	90108ca92cbfb4870e0b0d38fcd3c1e3
+M	schema.info	48173660b3dd7dc997789a6eecf2e63e
+M	schema.install	301f864d2d04d14b47ae3a5069cf9945
+M	schema.module	8fe1b06ea9e6eaa0d309c9c494777a71
+A	schema.pages.inc	1aebd82c03defdf52861bba8a95ca914
+M	tests/schema_regression.test	8ef5aef91ad950a663b98a14e89ce6d8

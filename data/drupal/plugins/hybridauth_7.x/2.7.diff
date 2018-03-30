@@ -1,0 +1,30 @@
+M	README.txt	f687798dad3f64cb0b91b170b2d96b21
+M	hybridauth.admin.inc	7986043ec6d44ae11f98c97af9ec7a43
+M	hybridauth.info	b68ec71b42a1d1ef7cac58505f9ca001
+M	hybridauth.install	f72bb44cfed1f8e55050262c880f9412
+M	hybridauth.module	6738dd79d7a80c11673b592d00342e0e
+M	hybridauth.pages.inc	3aff0ac96e32ddfc984b70528bfbeadf
+M	hybridauth.rules.inc	1f5c3fabf957ad7d4ebfa7f04ccd2565
+M	hybridauth.theme.inc	5f39c7fb6e8c20a9f49ea3b674c8c2f8
+M	hybridauth.tokens.inc	34a1b559b5e4a694f90f3a8c568a700e
+A	hybridauth_bonus/hybridauth_bonus.info	1056ee730b004fa0d481e8a2cb14324e
+A	hybridauth_bonus/hybridauth_bonus.install	0b59f9f7a909b600c3337c929b6f71b1
+A	hybridauth_bonus/hybridauth_bonus.module	460d5d533d055ad44ec239e2a2fe2be8
+M	hybridauth_ulogin/hybridauth_ulogin.admin.inc	5281a92de64bdca66e2a53887080ee8e
+M	hybridauth_ulogin/hybridauth_ulogin.info	d76a2a9107a8908a7f6d9df3f9d75855
+M	hybridauth_ulogin/hybridauth_ulogin.module	f637b32fb09c86544bf5a3d9310930cb
+M	js/hybridauth.admin.js	cbbc54cb983eca54cfd62123b958b4dd
+M	js/hybridauth.js	59c3cb604f281b6d8b0ef113ec9f781f
+M	plugins/icon_pack/hybridauth_16/hybridauth_16.css	fa35aecde9f0b4da43f9786d6e043dd7
+M	plugins/icon_pack/hybridauth_16/hybridauth_16.inc	685ef633b4075e2244c8cbd55267977f
+D	plugins/icon_pack/hybridauth_16/icons/gowalla.png	
+M	plugins/icon_pack/hybridauth_24/hybridauth_24.css	84dc673c1d81394ac415eb1fbf1d70be
+M	plugins/icon_pack/hybridauth_24/hybridauth_24.inc	d79ab372e1fcf9c89dfb78d4262bcb54
+D	plugins/icon_pack/hybridauth_24/icons/gowalla.png	
+M	plugins/icon_pack/hybridauth_32/hybridauth_32.css	6c6eb31d4afa6b4c2608673530cb8aeb
+M	plugins/icon_pack/hybridauth_32/hybridauth_32.inc	d2fb28bdb49a31eba3bd6b14b4843792
+D	plugins/icon_pack/hybridauth_32/icons/gowalla.png	
+M	plugins/icon_pack/hybridauth_48/hybridauth_48.css	d186de7d87f529c00b286109a73affdb
+M	plugins/icon_pack/hybridauth_48/hybridauth_48.inc	a438579a9754bbb1b07a33830130561d
+D	plugins/icon_pack/hybridauth_48/icons/gowalla.png	
+M	templates/hybridauth_provider_icon.tpl.php	84fbfff630fdc06fbb8a2656bc6425e5

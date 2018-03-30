@@ -1,0 +1,15 @@
+M	cdn.info.yml	e220d87626a0a6f056f4fe0ebd305815
+A	cdn.install	27c99ab4836596df198be57771a1283b
+M	cdn.module	2fdcbdbad4810e2ab5af5a0167294daa
+M	cdn_ui/cdn_ui.info.yml	d442c33f1a1032f4e90d853b75b3397f
+M	cdn_ui/js/summaries.js	39dc252d0dc95707a914153a4f97d3ce
+M	cdn_ui/src/Form/CdnSettingsForm.php	d99ff1767de3b76c148f76406a9fa322
+M	config/install/cdn.settings.yml	4f9ed97af19fc13134cd76a7aaae8f43
+M	config/schema/cdn.conditions.schema.yml	a9b598c13c9842d0086a095f1643b485
+M	config/schema/cdn.data_types.schema.yml	df1f359edeae8e3c8c10544a9a34b25d
+M	src/CdnSettings.php	d6f6b338abf94d1f19c0971bdae5b912
+M	src/EventSubscriber/ConfigSubscriber.php	9fed98649fda5d83d3c531ca4d204788
+M	src/File/FileUrlGenerator.php	fb937676b1b3d165546a4c27141cdba5
+A	tests/fixtures/update/drupal-8.cdn-cdn_update_8001.php	15d97a0817d294abb8a37f5859065555
+A	tests/src/Functional/Update/CdnDefaultSettingsUpdateTest.php	f824b0cfb96aabe3651c666504343d57
+M	tests/src/Unit/CdnSettingsTest.php	d86590f974bfc8e307759718ab113d7b

@@ -1,0 +1,12 @@
+M	README.txt	ae7dacb49f36dc96fcdc9e19f4b85b22
+A	scheduler.admin.inc	451a77e739c7056a97c49c91dc59ee84
+A	scheduler.cron.inc	b694291fd1c300e38274337be7fa5321
+A	scheduler.edit.inc	9f424d13234b90ba1f928109e686ad06
+M	scheduler.info	67582c26d37941b17035728995741263
+M	scheduler.install	0dc011013d7ce9d9910e8378ce95be77
+M	scheduler.module	4f125138ffc87f75ff1f6be6a28f3323
+M	scheduler.rules.inc	a13c70ad2fd6b0c90c2448a36572d1b7
+M	scheduler.rules_defaults.inc	e47d73debcf54d4d17bb44b74cf8e5fd
+M	scheduler.test	08852cba999cfb75db18a929219269e1
+M	scheduler.views.inc	555883895b5f48e299b0d75c54d7911b
+M	tests/scheduler_test.info	4d2371cbe4878540ccced104864f6fbf

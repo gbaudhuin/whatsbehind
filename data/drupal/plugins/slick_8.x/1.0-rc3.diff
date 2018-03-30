@@ -1,0 +1,15 @@
+M	CHANGELOG.txt	b2985bfc3dd04b39568eab471697f168
+M	composer.json	7992caf9c93246c43d3d7cd539cd59fe
+M	css/theme/slick.theme--asnavfor.css	092a872d01e3bbc3176d86a0a1640044
+M	js/slick.load.js	44e6f7206175f4eae6b49284585435e1
+M	js/slick.load.min.js	4b3dc201f4ca7d649c9f361e94d33f7e
+M	slick.info.yml	f59df610a67bcd252ea0229b9fdd7d1e
+M	slick.libraries.yml	aade3a7c22733bbe5347d5497d948982
+M	slick.module	82c47ce5595a55438c6a60a8739ede12
+M	slick_ui/slick_ui.info.yml	30125609d3841fe40c2be34146462993
+M	slick_ui/slick_ui.module	6c08ef018cd484878d4b2df19d475920
+M	slick_ui/src/Controller/SlickListBuilder.php	742de13a9e65dbdf4e24f75c117859ae
+M	slick_ui/src/Form/SlickForm.php	54f8179c1f5977456499b9ab9d607344
+M	slick_ui/src/Form/SlickFormBase.php	2d67937b901c696eaef5f485dfc17fc9
+M	src/Form/SlickAdmin.php	76b344a1e7d28d66769d7c7ae7dbe942
+M	src/SlickManager.php	d92eda8460f8ed53ab69eaeda4a25df6

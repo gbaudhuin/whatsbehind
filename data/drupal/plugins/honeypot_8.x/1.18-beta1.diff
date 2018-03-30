@@ -1,0 +1,5 @@
+M	honeypot.info.yml	04bc0fdb54673e6aba2e9257c3a822ed
+M	honeypot.install	26685c19df4ec1585a2f91754a485c6b
+M	honeypot.routing.yml	78b23ecc956778dec6fb80c3819779ca
+A	src/Controller/HoneypotSettingsController.php	ec28c8c4eff7b6a3add29e7e2792cc0b
+D	src/HoneypotSettingsController.php	

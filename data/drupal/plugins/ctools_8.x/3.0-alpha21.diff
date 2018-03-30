@@ -1,0 +1,22 @@
+M	config/schema/ctools.schema.yml	064bb6965041ef8ea7fa37cf9fd98d99
+M	ctools.info.yml	c947d1d448d2d858c685f93f9fa6b002
+M	ctools.services.yml	679324d7765c2be1c479ef9cd17989a7
+A	src/Access/AccessInterface.php	f8ba1d897b410b29a7483cbf54b368a9
+A	src/Access/TempstoreAccess.php	adc3ffbb1e1f72c95033a2a2870abaf7
+M	src/Form/ConditionDelete.php	e59a9188ee758730f1efdf5f0293ccb8
+M	src/Form/ManageConditions.php	324962578d46967635d39c169a388bad
+M	src/Form/ManageContext.php	5048c11d6f9d8c1d4806f3c0af0e75c7
+M	src/Form/RelationshipConfigure.php	9099670d4287bed85c76ad6ab7723f99
+A	src/ParamConverter/TempstoreConverter.php	3fe104c31462363f9732175e6fab3653
+M	src/Plugin/Block/EntityView.php	5e080dc2f3ad6600a1a7c04ac5cf8205
+M	src/Plugin/BlockVariantTrait.php	b6c01899a94f522b81e678c33956c50f
+D	src/Plugin/ConditionVariantInterface.php	
+D	src/Plugin/ConditionVariantTrait.php	
+M	src/Plugin/DisplayVariant/BlockDisplayVariant.php	6d816b64990134ed775f5721967033aa
+D	src/TypeResolver/DefaultTypeResolver.php	
+D	src/TypeResolver/EntityReferenceTypeResolver.php	
+D	src/TypeResolverInterface.php	
+M	src/TypedDataResolver.php	d9fefd384df7a1bce93a5ebfbfa783f9
+M	tests/modules/ctools_wizard_test/ctools_wizard_test.info.yml	ef9efde87559423abd9c46e943b3075d
+A	tests/src/KernelTests/TypedDataResolverTest.php	c19e80673ab031d316667e22e878687e
+M	tests/src/Unit/BlockDisplayVariantTest.php	685001ddbc21aec20ec16ec23cd8d782

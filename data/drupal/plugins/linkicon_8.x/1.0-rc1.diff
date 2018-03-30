@@ -1,0 +1,13 @@
+M	CHANGELOG.txt	bbe93a7ea6d1d962a8c906915218b260
+M	README.txt	e17a4a91dde40dbf4e51eeacb3f582a7
+M	config/schema/linkicon.schema.yml	3f6460e549d88fd3db695623cf59103c
+M	css/linkicon.admin.css	8dd0f6c9a1653dedf314daa4fe4c6864
+M	css/linkicon.css	01f2a0919db075e7754ee677a13272d3
+M	linkicon.info.yml	6d8c6c2e0c424a3862ce15562ec300b8
+M	linkicon.module	37ebe549bb0c498d196b3c70f62adfeb
+M	linkicon.theme.inc	d5ee0fe543fbc7821d6b05df7fe1c963
+M	src/LinkIconItem.php	79612ec0f7e81794f386084cf660352a
+M	src/LinkIconManagerInterface.php	c60d436765c53c2c3c53d1b3d0116377
+M	src/LinkiconSettingsForm.php	cfca0808be13f5afc8b8f9ea1dbce427
+M	src/Plugin/Field/FieldFormatter/LinkIconFormatter.php	cfadfd960ae46d598a561f903935f4a1
+M	templates/linkicon-item.html.twig	2805f3882de890c0cd4fecbdb89f58d5

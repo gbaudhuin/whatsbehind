@@ -1,0 +1,16 @@
+M	CHANGELOG.txt	1ea78be946de3dbc97ced0c9dcf54dfc
+M	fieldable_panels_panes.api.php	bf8e179d528e1bcdb21a33a6f1258c21
+M	fieldable_panels_panes.info	76944e0421595dc73b553d32b8385ba7
+M	fieldable_panels_panes.install	4689908048eca80ed8426dfe660f362c
+M	fieldable_panels_panes.module	c38c5e6de0b860d9d55db19d22142611
+M	includes/PanelsPaneController.class.php	433953513d81af2f1739f05de97998cc
+M	includes/admin.inc	36e2f2f5376beab1fb9db8bd49c49769
+M	includes/fieldable_panels_pane.migrate.inc	15b8917d2087b2c743e782c19c9405a2
+M	plugins/content_types/fieldable_panels_pane.inc	b10f0cc3afca05a7b34c2fa672de3244
+M	plugins/export_ui/fieldable_panels_pane.class.php	a6fec6d1a75069e921a3aba7ba25d562
+M	tests/fpp.entity_form.test	05d04c2546faa7d5bf6df39254a0678b
+M	tests/fpp.helper.test	e4b2ce89a1acd8bac319cd0b3531eb34
+M	tests/fpp.permissions.test	48321901faa221d68ffec396a0ca7f29
+M	tests/fpp.with_panels.test	f9ecaf1687a2ed9eac13e22a298463a8
+A	tests/fpp.with_pathauto.test	a1853dac3914e358a32f0d2ff5bca75c
+M	tests/fpp_with_panels_test.info	406fac6c175c95719782492214eff7ec

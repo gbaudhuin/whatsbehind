@@ -1,0 +1,4 @@
+M	src/Form/TemplateDeleteForm.php	7dfe277428a12e9c09c633abdb4e5573
+M	src/Plugin/QueueWorker/WorkbenchEmailProcessor.php	560011d87cec9e258ecdfdc984054545
+M	tests/src/Functional/WorkbenchTransitionEmailTest.php	57b0e2734c7fdaf07360bf918e631ca9
+M	workbench_email.info.yml	adc6e36c75e87aeae802beea2635400a

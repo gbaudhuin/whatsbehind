@@ -1,0 +1,378 @@
+D	.gitignore	
+A	.travis.yml	405dec0a6ae9ace090df83ff3a7a33d8
+A	README.md	a99897c294c589c5511b26f35089c655
+D	git-changes.sh	
+M	includes/openlayers.default_openlayers_components.inc	877df920c6bdf7e8df16c23719811d10
+M	includes/openlayers.default_openlayers_controls.inc	ce05b958d672b6d689e83d11cf34d85c
+M	includes/openlayers.default_openlayers_interactions.inc	10668522d29b5c69077d83e4d0fa7827
+M	includes/openlayers.default_openlayers_layers.inc	b92d3830d6bee9720b86ec9be9fa7f07
+M	includes/openlayers.default_openlayers_maps.inc	7f45c72d9fc03ea0bfed246a2e3150be
+M	includes/openlayers.default_openlayers_sources.inc	ade533d96e2ec6f35bf0d539fdddc6a2
+M	includes/openlayers.default_openlayers_styles.inc	0db1ad5f69644fce1abb61814126cc75
+M	js/openlayers.js	c88e82f161fb1f2d7d709867ea8a6e25
+M	js/openlayers.pluginManager.js	4cd55545985b40fc46f22e10039a7b6b
+M	modules/openlayers_block/openlayers_block.info	fb583804c9a8dc2ceea48a708aab22a9
+M	modules/openlayers_block/openlayers_block.module	263c118932fb7d434b9e628886516c2d
+M	modules/openlayers_block_switcher/openlayers_block_switcher.info	4479f0792e55f62cfd7548cd5f098b24
+M	modules/openlayers_block_switcher/openlayers_block_switcher.module	c2e9329a7869b10ffa0b81b46bdc38f0
+M	modules/openlayers_contextual_links/openlayers_contextual_links.info	b76ee02f1eaa2905029652da3ececa54
+M	modules/openlayers_examples/includes/openlayers_examples.default_openlayers_components.inc	4d1348c275a8c9d67b76104ed7783324
+M	modules/openlayers_examples/includes/openlayers_examples.default_openlayers_controls.inc	daf75499f98df199d190df786b109ec6
+M	modules/openlayers_examples/includes/openlayers_examples.default_openlayers_layers.inc	ae3d72c8cc30d100742dae7a97116236
+M	modules/openlayers_examples/includes/openlayers_examples.default_openlayers_maps.inc	e0c60f39243a30dce3afdb54c3556490
+M	modules/openlayers_examples/includes/openlayers_examples.default_openlayers_sources.inc	25d083f848cf7ed766585124089b4efc
+M	modules/openlayers_examples/includes/openlayers_examples.default_openlayers_styles.inc	e2107c4190ae7c98123660ce1905ea81
+M	modules/openlayers_examples/openlayers_examples.info	b8584e5682bb30345bbec9886b5b3e89
+M	modules/openlayers_examples/openlayers_examples.module	acb2369a12952a433ec8d7bc76078a77
+D	modules/openlayers_examples/src/Openlayers/Component/BlockLayerSwitcher/BlockLayerSwitcher.php	
+D	modules/openlayers_examples/src/Openlayers/Component/BlockLayerSwitcher/js/blocklayerswitcher.js	
+D	modules/openlayers_examples/src/Openlayers/Component/Geolocation/Geolocation.php	
+D	modules/openlayers_examples/src/Openlayers/Component/Geolocation/js/geolocation.js	
+A	modules/openlayers_examples/src/Plugins/Component/BlockLayerSwitcher/BlockLayerSwitcher.php	4eb15bd95ab9d6d4dfc790ccd57fd186
+A	modules/openlayers_examples/src/Plugins/Component/BlockLayerSwitcher/js/blocklayerswitcher.js	20c83606a6a9df31ebc8c97800407dbd
+A	modules/openlayers_examples/src/Plugins/Component/Geolocation/Geolocation.php	a3935b2c53a0f697d12d44918e05b3f6
+A	modules/openlayers_examples/src/Plugins/Component/Geolocation/js/geolocation.js	95ffc952b63e4c89ee987559271c45bb
+M	modules/openlayers_geofield/includes/openlayers_geofield.default_openlayers_components.inc	1758a3a1efbe7e1e5784058b16cf0065
+M	modules/openlayers_geofield/includes/openlayers_geofield.default_openlayers_layers.inc	674eab3f09f2cb3ab80ecafdcf8753fc
+M	modules/openlayers_geofield/includes/openlayers_geofield.default_openlayers_maps.inc	256299fb9017bb279e0edbafbb9f00d2
+M	modules/openlayers_geofield/includes/openlayers_geofield.default_openlayers_sources.inc	c7c6fd5a5b0719e01e04c4116054d892
+M	modules/openlayers_geofield/openlayers_geofield.info	6ef53d0acaadc1788401011c6d1a9da7
+M	modules/openlayers_geofield/openlayers_geofield.module	f586689ebcf7e244ac2768233f54e005
+D	modules/openlayers_geofield/src/Openlayers/Component/Geofield/Geofield.php	
+D	modules/openlayers_geofield/src/Openlayers/Component/Geofield/js/geofield.js	
+D	modules/openlayers_geofield/src/Openlayers/Layer/Geofield/Geofield.php	
+D	modules/openlayers_geofield/src/Openlayers/Layer/Geofield/js/geofield.js	
+D	modules/openlayers_geofield/src/Openlayers/Source/Geofield/Geofield.php	
+D	modules/openlayers_geofield/src/Openlayers/Source/Geofield/js/geofield.js	
+A	modules/openlayers_geofield/src/Plugins/Component/Geofield/Geofield.php	3e253688e208723d3d96c5ae4b7afe80
+A	modules/openlayers_geofield/src/Plugins/Component/Geofield/js/Geofield.js	2c7ae708a2ef02c31faa581839504f88
+A	modules/openlayers_geofield/src/Plugins/Layer/Geofield/Geofield.php	612489469a98d05f3f8153438383c144
+A	modules/openlayers_geofield/src/Plugins/Layer/Geofield/js/Geofield.js	450c750fbefe7475dea109f65aced189
+A	modules/openlayers_geofield/src/Plugins/Source/Geofield/Geofield.php	d09f38a0045648b4dd3ea6e227bfb14d
+A	modules/openlayers_geofield/src/Plugins/Source/Geofield/js/Geofield.js	56e15aa3784cd5d4740f4c0acd9e5483
+M	modules/openlayers_services/openlayers_services.info	51184550522eee0a9ccc57609ca2f4ef
+M	modules/openlayers_services/openlayers_services.module	e7126e532f2c520adbe89b7c4f24e5b1
+M	modules/openlayers_ui/includes/openlayers_ui.admin.inc	190b9ef6087e972346c0d059e759bb91
+M	modules/openlayers_ui/includes/openlayers_ui.default_openlayers_maps.inc	f2bf2ec76e5d3306cfe9652cceb0aeb4
+M	modules/openlayers_ui/openlayers_ui.info	1268bfa1cfb60801e4365f3c680212de
+M	modules/openlayers_ui/openlayers_ui.module	3cbee1d77a962fee086e56c100171ebc
+M	modules/openlayers_ui/src/Plugin/export_ui/OpenlayersComponents.inc	6d222b317e893c4e4e9ea73775d52d3d
+M	modules/openlayers_ui/src/Plugin/export_ui/OpenlayersControls.inc	49e28a34ab0575a67a21dd26b1798839
+M	modules/openlayers_ui/src/Plugin/export_ui/OpenlayersControls.php	8da6cc481ce4067568bb94269d931d85
+M	modules/openlayers_ui/src/Plugin/export_ui/OpenlayersInteractions.inc	b3e5995b6624dc101e08b46523f82cbe
+M	modules/openlayers_ui/src/Plugin/export_ui/OpenlayersInteractions.php	4bd429445340dbfd113f125f95fa2a22
+M	modules/openlayers_ui/src/Plugin/export_ui/OpenlayersLayers.inc	5a74f019f8f9fa3d7a298ec4ea3a4f38
+M	modules/openlayers_ui/src/Plugin/export_ui/OpenlayersMaps.inc	2bd029ec8e1d25bd1d5056ab605dd9ea
+M	modules/openlayers_ui/src/Plugin/export_ui/OpenlayersMaps.php	9ad5151ce0b4feb9ae93b53734f7d29a
+M	modules/openlayers_ui/src/Plugin/export_ui/OpenlayersObjects.php	bcb2d516738f10d826b0392810a807fd
+M	modules/openlayers_ui/src/Plugin/export_ui/OpenlayersSources.inc	9079e7d8ffdf00fef881ab2cc3634d2b
+M	modules/openlayers_views/includes/openlayers_views.default_openlayers_layers.inc	75ea842452206e35f4808f140f7aa2a0
+M	modules/openlayers_views/includes/openlayers_views.default_openlayers_maps.inc	62902d5fc93cbad3fb68699d979297c5
+M	modules/openlayers_views/includes/openlayers_views.default_openlayers_sources.inc	8d950e9d09ed44735bed03f96dcc69cb
+M	modules/openlayers_views/openlayers_views.info	1e065e11f9203c8277bebfad43d5c47f
+M	modules/openlayers_views/openlayers_views.module	1325ede350c555a5e241f3963ab8b129
+D	modules/openlayers_views/src/Plugin/Map/Views/Views.php	
+D	modules/openlayers_views/src/Plugin/Map/Views/js/views.js	
+A	modules/openlayers_views/src/Plugins/Map/Views/Views.php	827b26a5a751e25f34270cd21cd41fae
+A	modules/openlayers_views/src/Plugins/Map/Views/js/Views.js	cac3d6967946c3bdcf1af22a48a3ec41
+M	openlayers.info	44efcc1229dee12d3569c548a6349146
+M	openlayers.install	821eb962513358e252fb69a0adaef194
+M	openlayers.module	c83f9f2df6febd9d6d60fc965c397122
+A	openlayers.services.yml	0b33046ad90e2e1085a211bae9e69d7b
+A	plugins/content_types/openlayers.inc	e16f45091714eb64445d155d5eb40dc9
+A	plugins/content_types/openlayers.png	11163fb3dc4418765545ebd878d036a4
+M	src/Config.php	12f50f5a367c29bf1b6edb2a5db5b1bc
+M	src/Openlayers.php	823bb852c4e94f8e2fab4669c2c0de98
+D	src/Openlayers/Component/Autopopup/Autopopup.php	
+D	src/Openlayers/Component/Autopopup/css/autopopup.css	
+D	src/Openlayers/Component/Autopopup/js/autopopup.js	
+D	src/Openlayers/Component/BootstrapjsAlert/BootstrapjsAlert.php	
+D	src/Openlayers/Component/BootstrapjsAlert/js/bootstrapjsAlert.js	
+D	src/Openlayers/Component/BootstrapjsPopup/BootstrapjsPopup.php	
+D	src/Openlayers/Component/BootstrapjsPopup/js/bootstrapjsPopup.js	
+D	src/Openlayers/Component/Graticule/Graticule.php	
+D	src/Openlayers/Component/Graticule/js/graticule.js	
+D	src/Openlayers/Component/InlineJS/InlineJS.php	
+D	src/Openlayers/Component/InlineJS/js/inlineJS.js	
+D	src/Openlayers/Component/LazyProcessing/LazyProcessing.php	
+D	src/Openlayers/Component/LazyProcessing/js/lazyprocessing.js	
+D	src/Openlayers/Component/Popup/Popup.php	
+D	src/Openlayers/Component/Popup/css/popup.css	
+D	src/Openlayers/Component/Popup/js/popup.js	
+D	src/Openlayers/Component/SetValues/SetValues.php	
+D	src/Openlayers/Component/SetValues/js/setvalues.js	
+D	src/Openlayers/Component/Tooltip/Tooltip.php	
+D	src/Openlayers/Component/Tooltip/css/tooltip.css	
+D	src/Openlayers/Component/Tooltip/js/tooltip.js	
+D	src/Openlayers/Component/ZoomToSource/ZoomToSource.php	
+D	src/Openlayers/Component/ZoomToSource/js/zoomtosource.js	
+D	src/Openlayers/Control/Attribution/Attribution.php	
+D	src/Openlayers/Control/Attribution/js/attribution.js	
+D	src/Openlayers/Control/FullScreen/FullScreen.php	
+D	src/Openlayers/Control/FullScreen/js/fullscreen.js	
+D	src/Openlayers/Control/InlineJS/InlineJS.php	
+D	src/Openlayers/Control/InlineJS/js/inlineJS.js	
+D	src/Openlayers/Control/LayerSwitcher/LayerSwitcher.php	
+D	src/Openlayers/Control/LayerSwitcher/css/LayerSwitcher.css	
+D	src/Openlayers/Control/LayerSwitcher/js/LayerSwitcher.js	
+D	src/Openlayers/Control/MousePosition/MousePosition.php	
+D	src/Openlayers/Control/MousePosition/js/mouseposition.js	
+D	src/Openlayers/Control/Rotate/Rotate.php	
+D	src/Openlayers/Control/Rotate/css/rotate.css	
+D	src/Openlayers/Control/Rotate/js/rotate.js	
+D	src/Openlayers/Control/ScaleLine/ScaleLine.php	
+D	src/Openlayers/Control/ScaleLine/js/scaleline.js	
+D	src/Openlayers/Control/Zoom/Zoom.php	
+D	src/Openlayers/Control/Zoom/js/zoom.js	
+D	src/Openlayers/Control/ZoomSlider/ZoomSlider.php	
+D	src/Openlayers/Control/ZoomSlider/js/zoomslider.js	
+D	src/Openlayers/Control/ZoomToExtent/ZoomToExtent.php	
+D	src/Openlayers/Control/ZoomToExtent/js/zoomtoextent.js	
+D	src/Openlayers/Interaction/DoubleClickZoom/DoubleClickZoom.php	
+D	src/Openlayers/Interaction/DoubleClickZoom/js/doubleclickzoom.js	
+D	src/Openlayers/Interaction/DragAndDrop/DragAndDrop.php	
+D	src/Openlayers/Interaction/DragAndDrop/js/draganddrop.js	
+D	src/Openlayers/Interaction/DragBox/DragBox.php	
+D	src/Openlayers/Interaction/DragBox/js/dragbox.js	
+D	src/Openlayers/Interaction/DragPan/DragPan.php	
+D	src/Openlayers/Interaction/DragPan/js/dragpan.js	
+D	src/Openlayers/Interaction/DragRotate/DragRotate.php	
+D	src/Openlayers/Interaction/DragRotate/js/dragrotate.js	
+D	src/Openlayers/Interaction/DragRotateAndZoom/DragRotateAndZoom.php	
+D	src/Openlayers/Interaction/DragRotateAndZoom/js/dragrotateandzoom.js	
+D	src/Openlayers/Interaction/DragZoom/DragZoom.php	
+D	src/Openlayers/Interaction/DragZoom/js/dragzoom.js	
+D	src/Openlayers/Interaction/Draw/Draw.php	
+D	src/Openlayers/Interaction/Draw/js/draw.js	
+D	src/Openlayers/Interaction/InlineJS/InlineJS.php	
+D	src/Openlayers/Interaction/InlineJS/js/inlineJS.js	
+D	src/Openlayers/Interaction/KeyboardPan/KeyboardPan.php	
+D	src/Openlayers/Interaction/KeyboardPan/js/keyboardpan.js	
+D	src/Openlayers/Interaction/KeyboardZoom/KeyboardZoom.php	
+D	src/Openlayers/Interaction/KeyboardZoom/js/keyboardzoom.js	
+D	src/Openlayers/Interaction/Modify/Modify.php	
+D	src/Openlayers/Interaction/Modify/js/modify.js	
+D	src/Openlayers/Interaction/MouseWheelZoom/MouseWheelZoom.php	
+D	src/Openlayers/Interaction/MouseWheelZoom/js/mousewheelzoom.js	
+D	src/Openlayers/Interaction/PinchRotate/PinchRotate.php	
+D	src/Openlayers/Interaction/PinchRotate/js/pinchrotate.js	
+D	src/Openlayers/Interaction/PinchZoom/PinchZoom.php	
+D	src/Openlayers/Interaction/PinchZoom/js/pinchzoom.js	
+D	src/Openlayers/Interaction/Pointer/Pointer.php	
+D	src/Openlayers/Interaction/Pointer/js/pointer.js	
+D	src/Openlayers/Interaction/Select/Select.php	
+D	src/Openlayers/Interaction/Select/js/select.js	
+D	src/Openlayers/Layer/Heatmap/Heatmap.php	
+D	src/Openlayers/Layer/Heatmap/js/heatmap.js	
+D	src/Openlayers/Layer/Image/Image.php	
+D	src/Openlayers/Layer/Image/js/image.js	
+D	src/Openlayers/Layer/InlineJS/InlineJS.php	
+D	src/Openlayers/Layer/InlineJS/js/inlineJS.js	
+D	src/Openlayers/Layer/Tile/Tile.php	
+D	src/Openlayers/Layer/Tile/js/tile.js	
+D	src/Openlayers/Layer/Vector/Vector.php	
+D	src/Openlayers/Layer/Vector/js/vector.js	
+D	src/Openlayers/Map/OLMap/OLMap.php	
+D	src/Openlayers/Map/OLMap/js/olmap.js	
+D	src/Openlayers/Source/BingMaps/BingMaps.php	
+D	src/Openlayers/Source/BingMaps/js/bingmaps.js	
+D	src/Openlayers/Source/Cluster/Cluster.php	
+D	src/Openlayers/Source/Cluster/js/cluster.js	
+D	src/Openlayers/Source/GeoJSON/GeoJSON.php	
+D	src/Openlayers/Source/GeoJSON/js/geojson.js	
+D	src/Openlayers/Source/GoogleMaps/GoogleMaps.php	
+D	src/Openlayers/Source/GoogleMaps/js/googlemaps.js	
+D	src/Openlayers/Source/ImageStatic/ImageStatic.php	
+D	src/Openlayers/Source/ImageStatic/js/imagestatic.js	
+D	src/Openlayers/Source/ImageVector/ImageVector.php	
+D	src/Openlayers/Source/ImageVector/js/imagevector.js	
+D	src/Openlayers/Source/InlineJS/InlineJS.php	
+D	src/Openlayers/Source/InlineJS/js/inlineJS.js	
+D	src/Openlayers/Source/KML/KML.php	
+D	src/Openlayers/Source/KML/js/kml.js	
+D	src/Openlayers/Source/MapQuest/MapQuest.php	
+D	src/Openlayers/Source/MapQuest/js/mapquest.js	
+D	src/Openlayers/Source/OSM/OSM.php	
+D	src/Openlayers/Source/OSM/js/osm.js	
+D	src/Openlayers/Source/Stamen/Stamen.php	
+D	src/Openlayers/Source/Stamen/js/stamen.js	
+D	src/Openlayers/Source/TileDebug/TileDebug.php	
+D	src/Openlayers/Source/TileDebug/js/tiledebug.js	
+D	src/Openlayers/Source/TileJSON/TileJSON.php	
+D	src/Openlayers/Source/TileJSON/js/tilejson.js	
+D	src/Openlayers/Source/TileUTFGrid/TileUTFGrid.php	
+D	src/Openlayers/Source/TileUTFGrid/js/TileUTFGrid.js	
+D	src/Openlayers/Source/Vector/Vector.php	
+D	src/Openlayers/Source/Vector/js/vector.js	
+D	src/Openlayers/Source/XYZ/XYZ.php	
+D	src/Openlayers/Source/XYZ/js/xyz.js	
+D	src/Openlayers/Style/InlineJS/InlineJS.php	
+D	src/Openlayers/Style/InlineJS/js/inlineJS.js	
+D	src/Openlayers/Style/OLStyle/OLStyle.php	
+D	src/Openlayers/Style/OLStyle/js/olstyle.js	
+A	src/Plugins/Component/Autopopup/Autopopup.php	4f5e3303635de71cc9622faf91c593f0
+A	src/Plugins/Component/Autopopup/css/autopopup.css	17aaf172a01975853ce02e4021c9791a
+A	src/Plugins/Component/Autopopup/js/autopopup.js	b225a872828a6438abde1f5dfcc93471
+A	src/Plugins/Component/BootstrapjsAlert/BootstrapjsAlert.php	d9f792e0a62d7f10725af38bf1212de7
+A	src/Plugins/Component/BootstrapjsAlert/js/bootstrapjsAlert.js	0e8510a115c9123c8fbb0d07634c7c4e
+A	src/Plugins/Component/BootstrapjsPopup/BootstrapjsPopup.php	64584b9dddf4009b920f6bcf5c8ae256
+A	src/Plugins/Component/BootstrapjsPopup/js/bootstrapjsPopup.js	c422f9f38e1279fe127a77fb2af04aa2
+A	src/Plugins/Component/Graticule/Graticule.php	e48794018f3a76f33692b820c9ace44c
+A	src/Plugins/Component/Graticule/js/graticule.js	1a414805465548dd792df0b836af4395
+A	src/Plugins/Component/InlineJS/InlineJS.php	b5ce941c354d4399a14ed26e537f0513
+A	src/Plugins/Component/InlineJS/js/inlineJS.js	490696fde1e7f30fe7f891a5c2eec68a
+A	src/Plugins/Component/LazyProcessing/LazyProcessing.php	4cb5661b81ab450889534aef342b8c7b
+A	src/Plugins/Component/LazyProcessing/js/lazyprocessing.js	2d5d5c26c8476b587fe6712f3ba05ce7
+A	src/Plugins/Component/Popup/Popup.php	9979231b091117abfb8d03a5889f85aa
+A	src/Plugins/Component/Popup/css/popup.css	17aaf172a01975853ce02e4021c9791a
+A	src/Plugins/Component/Popup/js/popup.js	d0eaeb43a2f8c16734761207acfedb96
+A	src/Plugins/Component/SetValues/SetValues.php	e05cf9419068be8a26e9ec3ae00e0d9b
+A	src/Plugins/Component/SetValues/js/setvalues.js	6b8871912febe7dfac7fec083c9e723f
+A	src/Plugins/Component/Tooltip/Tooltip.php	02d3cd76a843ff2df541cd85a6fe1038
+A	src/Plugins/Component/Tooltip/css/tooltip.css	da21628767159cf4a087ed2d67807b05
+A	src/Plugins/Component/Tooltip/js/tooltip.js	15202ed78b0391185583e78bbab3eea4
+A	src/Plugins/Component/ZoomToSource/ZoomToSource.php	505e6809e7fe4503fb5762acb99533ee
+A	src/Plugins/Component/ZoomToSource/js/zoomtosource.js	e310c3f2d911fe8badb028f12aff6a11
+A	src/Plugins/Control/Attribution/Attribution.php	14c1cc591076a1e05e28c832eeea9de3
+A	src/Plugins/Control/Attribution/js/attribution.js	e517b9341fd2461399eaa65f4de59200
+A	src/Plugins/Control/FullScreen/FullScreen.php	8286b5f58d412f6afca4340b04585c28
+A	src/Plugins/Control/FullScreen/js/fullscreen.js	a1a0cce5de483e74e9cd33034c632897
+A	src/Plugins/Control/InlineJS/InlineJS.php	e353f6cff821bf678ddc0578460daeb8
+A	src/Plugins/Control/InlineJS/js/inlineJS.js	014395f1285c0fad290a49d09831cdcd
+A	src/Plugins/Control/LayerSwitcher/LayerSwitcher.php	8461c627420d86df769e9ea8162260ca
+A	src/Plugins/Control/LayerSwitcher/css/LayerSwitcher.css	7765b2c26e6f209ec3c4d55fa3e200cb
+A	src/Plugins/Control/LayerSwitcher/js/LayerSwitcher.js	cf5722142575a1d942ad48ec7675f4af
+A	src/Plugins/Control/MousePosition/MousePosition.php	27ae26d0cd37b2bb16a6ff3542907cec
+A	src/Plugins/Control/MousePosition/js/mouseposition.js	6d978864c0ebf2043c949c3f426642c3
+A	src/Plugins/Control/Rotate/Rotate.php	caad278c4cc44394031a2abc6552690b
+A	src/Plugins/Control/Rotate/css/rotate.css	5d6f00a9bdec43732f337b33594bb974
+A	src/Plugins/Control/Rotate/js/rotate.js	6b8d7c9f1bb09525630b1e75ddb27268
+A	src/Plugins/Control/ScaleLine/ScaleLine.php	50be753e175ca573fb1e7039033c72c8
+A	src/Plugins/Control/ScaleLine/js/scaleline.js	26116b7327f105c31057410020242d9c
+A	src/Plugins/Control/Zoom/Zoom.php	07fb197f585d3684d6afe6b302339ebe
+A	src/Plugins/Control/Zoom/js/zoom.js	5691216c878d563edc32650d8eca3582
+A	src/Plugins/Control/ZoomSlider/ZoomSlider.php	c7e14b97d069c8738f6a4f5cc642d151
+A	src/Plugins/Control/ZoomSlider/js/zoomslider.js	a979d8a2b0743d928eed6babf792c63f
+A	src/Plugins/Control/ZoomToExtent/ZoomToExtent.php	9d7ba0984f6d257136922fca050a8b7c
+A	src/Plugins/Control/ZoomToExtent/js/zoomtoextent.js	003f9ab19fc5639d9401f07655a4b808
+A	src/Plugins/Interaction/DoubleClickZoom/DoubleClickZoom.php	44e501f6ac63281f016e3c82b7a96c5f
+A	src/Plugins/Interaction/DoubleClickZoom/js/doubleclickzoom.js	f87d4bbff5b7f96d39df1d73554dc5f5
+A	src/Plugins/Interaction/DragAndDrop/DragAndDrop.php	1197574aea44a878d2cb4d96f1e5203c
+A	src/Plugins/Interaction/DragAndDrop/js/draganddrop.js	07ad05b096f4e4ba1879347d4f1b0c2f
+A	src/Plugins/Interaction/DragBox/DragBox.php	ec03c42336ca594589f29f6df5255a08
+A	src/Plugins/Interaction/DragBox/js/dragbox.js	37b450a9a8a7f3c5262eec3f43c10d47
+A	src/Plugins/Interaction/DragPan/DragPan.php	585c0f1405a3250eb643d1430a1ea1fd
+A	src/Plugins/Interaction/DragPan/js/dragpan.js	70ab7fba02bd56ba5f06a9e9db81afea
+A	src/Plugins/Interaction/DragRotate/DragRotate.php	b3015c670d152286fb89bc234df44eaa
+A	src/Plugins/Interaction/DragRotate/js/dragrotate.js	dea03e8623876808b72edbee503d3296
+A	src/Plugins/Interaction/DragRotateAndZoom/DragRotateAndZoom.php	31ce3cd066f167adb3a7029a10a7551f
+A	src/Plugins/Interaction/DragRotateAndZoom/js/dragrotateandzoom.js	927d3088a150515d52d3252a94553585
+A	src/Plugins/Interaction/DragZoom/DragZoom.php	1299645b2fabc96b9c5ee997e421c3f0
+A	src/Plugins/Interaction/DragZoom/js/dragzoom.js	4449e559b0220ece8967d76efb861813
+A	src/Plugins/Interaction/Draw/Draw.php	9cb25b3808b3f545bf219b8ee710149b
+A	src/Plugins/Interaction/Draw/js/draw.js	3ddb0627c5f263715cad1734db58d157
+A	src/Plugins/Interaction/InlineJS/InlineJS.php	aa6fc07c48aa3095efa1d9bf7f9cb4eb
+A	src/Plugins/Interaction/InlineJS/js/inlineJS.js	2d46b9cc3b700c4bfb1daea38bae69bb
+A	src/Plugins/Interaction/KeyboardPan/KeyboardPan.php	bb8285bc46999a6ea90d718905772f1c
+A	src/Plugins/Interaction/KeyboardPan/js/keyboardpan.js	db9cb19eb01f42325665acdcd0951fea
+A	src/Plugins/Interaction/KeyboardZoom/KeyboardZoom.php	38d61549ab74bb822e14185612880966
+A	src/Plugins/Interaction/KeyboardZoom/js/keyboardzoom.js	441a4b9735a7826ac8816cb62fbf2194
+A	src/Plugins/Interaction/Modify/Modify.php	7224328a4ecce31971d23fae79365108
+A	src/Plugins/Interaction/Modify/js/modify.js	bb34aeaeee372153f9cdf50409feb897
+A	src/Plugins/Interaction/MouseWheelZoom/MouseWheelZoom.php	e94d25c8e7f20491a750482b29d2fd89
+A	src/Plugins/Interaction/MouseWheelZoom/js/mousewheelzoom.js	d9fd5e67512e27aefae626a0b6bbe6de
+A	src/Plugins/Interaction/PinchRotate/PinchRotate.php	faa1b598bcfbe53e9fadcebf1c304df0
+A	src/Plugins/Interaction/PinchRotate/js/pinchrotate.js	7bbc768bbdd0bf9f342a6f5bd99915cb
+A	src/Plugins/Interaction/PinchZoom/PinchZoom.php	876f5fede6739d28af4080adbc923bdc
+A	src/Plugins/Interaction/PinchZoom/js/pinchzoom.js	058bb56fea8e67335aee599fd62e188d
+A	src/Plugins/Interaction/Pointer/Pointer.php	8d041131a0ae21b11679ed0baf3905f9
+A	src/Plugins/Interaction/Pointer/js/pointer.js	8d12444f4c7674b0de853102e509c48f
+A	src/Plugins/Interaction/Select/Select.php	7f24a2065063ee2f54d91a5467f9f0c2
+A	src/Plugins/Interaction/Select/js/select.js	a403fd9baf00891bcefce1ab31ee1004
+A	src/Plugins/Interaction/Snap/Snap.php	d04a47b6724bdc3775a7a0c4574a0e16
+A	src/Plugins/Interaction/Snap/js/snap.js	089d7e790ee0f6cce69b32275cb2f361
+A	src/Plugins/Layer/Heatmap/Heatmap.php	e78dcb98f5ecae704a9df9de74516aaa
+A	src/Plugins/Layer/Heatmap/js/heatmap.js	caeb05e33526c6e29567cc0361de2594
+A	src/Plugins/Layer/Image/Image.php	2aebafb7eb7160e974cd90013ccbc225
+A	src/Plugins/Layer/Image/js/image.js	032ff0b4268479b85480a8af35246791
+A	src/Plugins/Layer/InlineJS/InlineJS.php	6b08cf122022664e1814de50378fbfac
+A	src/Plugins/Layer/InlineJS/js/inlineJS.js	17e9673ed020f6548736426d146558fd
+A	src/Plugins/Layer/Tile/Tile.php	8f28e94bb0f62008ec4c2f3472085ad1
+A	src/Plugins/Layer/Tile/js/tile.js	3e8c8c8e6df25b299794ed82c2e036e3
+A	src/Plugins/Layer/Vector/Vector.php	5e9a1097c1533728747421551ce64353
+A	src/Plugins/Layer/Vector/js/vector.js	5a36e16da8abb65d6cc36e738a665782
+A	src/Plugins/Map/OLMap/OLMap.php	a8a62a636905a49d842d4b706810ba16
+A	src/Plugins/Map/OLMap/js/olmap.js	6c275b886a76cca315a53f01b0483cea
+A	src/Plugins/Source/BingMaps/BingMaps.php	8b5a117dd714ab4145cae7c6d66c9731
+A	src/Plugins/Source/BingMaps/js/bingmaps.js	f9c693b8109182cff6c56608fad50d81
+A	src/Plugins/Source/Cluster/Cluster.php	b4268ea84b10183d7aab55180ce89724
+A	src/Plugins/Source/Cluster/js/cluster.js	16d776ea752ceeafe661be417477b5fb
+A	src/Plugins/Source/GeoJSON/GeoJSON.php	c8b0563267f258ee90daa395056c75cc
+A	src/Plugins/Source/GeoJSON/css/geojson_dev.css	9776e8a36d68d10758035c567e5312f3
+A	src/Plugins/Source/GeoJSON/js/geojson.js	674f79819ee43749fcdf714cb33853cd
+A	src/Plugins/Source/GeoJSON/js/geojson_dev.js	163c6eeb6a6b256eee60a19b16e46218
+A	src/Plugins/Source/GoogleMaps/GoogleMaps.php	7cfd4763ff29a0221854e3fee5590a77
+A	src/Plugins/Source/GoogleMaps/js/googlemaps.js	298d076c6c53bb198fedde0f1b25bd6b
+A	src/Plugins/Source/ImageStatic/ImageStatic.php	ff05f25fcc86f7aa78f311cea200b9f5
+A	src/Plugins/Source/ImageStatic/js/imagestatic.js	75fb5de40c7bdf800836b92c64ec3069
+A	src/Plugins/Source/ImageVector/ImageVector.php	5473851ab57b482cafa111946d8b58dd
+A	src/Plugins/Source/ImageVector/js/imagevector.js	3a1de139e6953a7c006250df7f7979ef
+A	src/Plugins/Source/InlineJS/InlineJS.php	b8672fc0c9f8845291a37869628d31df
+A	src/Plugins/Source/InlineJS/js/inlineJS.js	128f27ff38a8ea80471d205a0da7e9ff
+A	src/Plugins/Source/KML/KML.php	8d70f446c76f5de1569c0389a5c12c2d
+A	src/Plugins/Source/KML/js/kml.js	84f62a0ff53ef80b343d2ef4e3ca0e62
+A	src/Plugins/Source/MapQuest/MapQuest.php	e42fe8b416d44f12ef11e84ab68d1ef4
+A	src/Plugins/Source/MapQuest/js/mapquest.js	73f6c2bb7f37ba3f6f477ce38e4eee53
+A	src/Plugins/Source/OSM/OSM.php	abc045f2fdac6e0907dfb954e3bee582
+A	src/Plugins/Source/OSM/js/osm.js	1ef3f3a589febec33a4e75fd16a90747
+A	src/Plugins/Source/Stamen/Stamen.php	1a43d1f0b327a72d50e1567ce4f7589a
+A	src/Plugins/Source/Stamen/js/stamen.js	d47d513c41ee8ee2f42e203f901d4be8
+A	src/Plugins/Source/TileDebug/TileDebug.php	61b07c992a8c6247014d60a2196ca5ce
+A	src/Plugins/Source/TileDebug/js/tiledebug.js	1226b81408e2c07ec7b8b6b543ae1c7c
+A	src/Plugins/Source/TileJSON/TileJSON.php	e7f7120bbdadca8b1524e1da8f09ac3e
+A	src/Plugins/Source/TileJSON/js/tilejson.js	ed88eee695f9b8871da9a227661bf492
+A	src/Plugins/Source/TileUTFGrid/TileUTFGrid.php	5a735e70b83603830c1e25a53d0b8b26
+A	src/Plugins/Source/TileUTFGrid/js/TileUTFGrid.js	ba8288e6a8e00bae70ec9ccb939dbcc6
+A	src/Plugins/Source/Vector/Vector.php	01b8ea007c04c1cafd0830a13c443a35
+A	src/Plugins/Source/Vector/js/vector.js	f56edca70654442a7dfa805813a27fa2
+A	src/Plugins/Source/XYZ/XYZ.php	d492b18c4038de65e621f91a85e35b04
+A	src/Plugins/Source/XYZ/js/xyz.js	77c467eed8959737951c167cdf677de3
+A	src/Plugins/Style/ClusterStyle/ClusterStyle.php	65897f0c231f1869704618d47d38e3f2
+A	src/Plugins/Style/ClusterStyle/js/clusterstyle.js	a042a5106bbf9cbc04b4f1d9e74df350
+A	src/Plugins/Style/InlineJS/InlineJS.php	63f9ea5fd489af4b3a5174b01c596b15
+A	src/Plugins/Style/InlineJS/js/inlineJS.js	f7691a651a0554135f2857e94df0a1db
+A	src/Plugins/Style/OLStyle/OLStyle.php	4a95f55be50e41f16eb3b24edd3afa08
+A	src/Plugins/Style/OLStyle/js/olstyle.js	cf92bcf50c16766278ec695a078c647c
+D	src/ServiceContainer/ServiceProvider/OpenlayersServiceProvider.inc	
+D	src/ServiceContainer/ServiceProvider/OpenlayersServiceProvider.php	
+M	src/Types/Collection.php	76aa348b7b4cac019a04122be00f7fee
+M	src/Types/Component.php	08c01c8ab903f47b148da55dd50642e3
+M	src/Types/ComponentInterface.php	cce118037c6db4599348ad5fa6530df6
+M	src/Types/Control.php	40e7efdcb4d13c2b18c0565e66c730db
+M	src/Types/ControlInterface.php	da9bc902572a4259c00ea51c75766efb
+M	src/Types/Error.php	2a569c933af6b684ade7e8709af2228a
+M	src/Types/Interaction.php	27ac5beb20a4158997a468f127485c27
+M	src/Types/InteractionInterface.php	e8b910fe8ed0fdd1246fc11ff9df91b7
+M	src/Types/Layer.php	2771e06d2e3e046a8176756bd18f4f91
+M	src/Types/LayerInterface.php	50c3d24ce8112fec752e235eaf26bdb2
+M	src/Types/Map.php	bf79254b4e0fe03d02a66adbf3ef5585
+M	src/Types/MapInterface.php	996a0aa129350334962899b4e2f3d91e
+M	src/Types/Object.php	963d967958e21d28fb8e3d1c5e519e6f
+M	src/Types/ObjectInterface.php	df94bf887632939eb9ced13cb3157dc5
+M	src/Types/Projection.php	5b709d197ce090868f9574f1edd4626d
+M	src/Types/ProjectionInterface.php	3acf6a673d9220c13804b21caffd116c
+M	src/Types/Source.php	a33061469431f3ae5d42d6611fdeb671
+M	src/Types/SourceInterface.php	dd8da9e91d619f70e922630cd5423770
+M	src/Types/Style.php	aa7ca1cf0f9c969a52e02ca5faf0ecf1
+M	src/Types/StyleInterface.php	f9c52cddfbf96b73faa4867ad9cb9949
+A	tests/.coveralls.yml	af49ed13c7233cdd96b12953fab681dc
+A	tests/.gitignore	0c3f95f34370baa88f9fd9a671fea305
+A	tests/README.md	a32c7f2dfd3b74971887fc3e8eb6c556
+A	tests/composer.json	8d7f2ad7b1df1ee9744b3dfcb553202d
+A	tests/composer.lock	c101bb51377fa2485b0e0763620837ef
+A	tests/install.sh	6ba0fccfb7edf01f758fd294dd7a42a1
+A	tests/phpunit.xml.dist	96ceaf5b4c6f49399492337f1217759a
+A	tests/run-coverage.sh	7fd8e11eb5320200c4c883e4192731d2
+A	tests/run-simpletests.sh	d652cdb3bee2c073499518797a12abca
+A	tests/run-tests.sh	18e754cbfe0d66c91b55a982ccc2d151
+A	tests/src/Openlayers/Interaction/InlineJS/InlineJSTest.php	466d6649c75912122edef920bd3183fc

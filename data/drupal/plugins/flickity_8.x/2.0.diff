@@ -1,0 +1,7 @@
+M	flickity.info.yml	2b50d931ad140856fdd4bf0e94531b43
+M	flickity.libraries.yml	c7a038c16626728500936493dfa0d96b
+M	modules/fields/flickity_fields.info.yml	019f9a87b31c0ccaf5fbd99da5654eb0
+M	modules/views/flickity_views.info.yml	85c673aa46bceeb835506de4abc28e8f
+D	vendor/flickity/flickity.css	
+A	vendor/flickity/flickity.min.css	bd9258caa5f49231d0ec4cdd3877f9d4
+M	vendor/flickity/flickity.pkgd.min.js	ca357ff55ab2239f8693e3d22ed7d23d

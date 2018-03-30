@@ -1,0 +1,12 @@
+M	.travis.yml	cec78c0609ed76294ad9c9f5e5654782
+M	search_api_solr.info.yml	ebfbddcf908d28a56bf00ee6853a18ec
+M	search_api_solr_defaults/search_api_solr_defaults.info.yml	9369bda9e6b8814b5044cc8c9de59968
+M	src/Plugin/search_api/backend/SearchApiSolrBackend.php	4a90866999525b5df45e33be12f1c42e
+M	tests/modules/search_api_solr_test/search_api_solr_test.info.yml	f4c48ddd648aedc9a3c7371c4f13aa09
+M	tests/modules/search_api_solr_test_facets/search_api_solr_test_facets.info.yml	522c0ed84e13955f5844c325188d2f8b
+D	tests/src/Kernel/InvokeMethodTrait.php	
+M	tests/src/Kernel/SearchApiSolrLocationTest.php	1277f1be372d869ff5d3d8e6fee439f3
+M	tests/src/Kernel/SearchApiSolrTest.php	85b5774574a6f363325e0a62d80cb8ec
+M	tests/src/Kernel/SolrFieldNamesTest.php	0da7a6709db62cfd4de0f3fcacb4ff6d
+A	tests/src/Traits/InvokeMethodTrait.php	1a9bd87a6ea5c0e63225b899d141b92c
+A	tests/src/Unit/SearchApiBackendUnitTest.php	eff1c3e879fa96becf867bc0f9ee6ae1

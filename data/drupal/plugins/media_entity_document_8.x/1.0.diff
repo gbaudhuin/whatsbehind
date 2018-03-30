@@ -1,0 +1,8 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	config/schema/media_entity_document.schema.yml	813f8dd705da6869894e6a041ca60cfc
+A	images/icons/document.png	80c465cbfc9eb35a94c67ae2bada355e
+A	media_entity_document.info.yml	c464b8102c0a90a52395dd9c815271d6
+A	media_entity_document.install	4cf1f305b6930891d3a3a9f28372bb35
+A	media_entity_document.module	ce407ff5715c837d02b1aba7975bf512
+A	src/Plugin/EntityBrowser/Widget/Upload.php	1a6d4a5fea353881138793c93503e27c
+A	src/Plugin/MediaEntity/Type/Document.php	cb8fa7c40e51ef2b60c9e592909f2454

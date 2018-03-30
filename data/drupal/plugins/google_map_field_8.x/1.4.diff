@@ -1,0 +1,10 @@
+M	google_map_field.info.yml	5ef9bff267ee5806aefcd9e361ec3740
+M	google_map_field.install	d6c7dd9b5b8741ff69be28b22aba2fe4
+M	google_map_field.module	2b11e66ff9c45905012c308dd55abf2a
+M	js/google-map-field-renderer.js	f283aa754dfca348e285b1bfa87cce80
+M	js/google-map-field-widget-renderer-setter.js	34998d5d219ad37ea6c734a45bbae846
+M	src/Form/GmapFieldSettingsForm.php	15ee9d67c76ce767341cbf9af4ab0c19
+M	src/Plugin/Field/FieldFormatter/GoogleMapFieldDefaultFormatter.php	fc7e738719eb97f32d04f93268132dc4
+M	src/Plugin/Field/FieldType/GoogleMapFieldType.php	dc2c5d8c7e974afc48cb761cc6d56285
+M	src/Plugin/Field/FieldWidget/GoogleMapFieldDefaultWidget.php	d03ffb34e5fbf848134253c43768d997
+M	templates/google_map_field.html.twig	ae284c6874656fb5af5531506477340f

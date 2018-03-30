@@ -1,0 +1,12 @@
+M	variable.form.inc	a625d23e4f578283c904ee82f92f785f
+M	variable.info	3b7925e6d825292306273aa906a64564
+M	variable.module	8e2d03b160b8947cd5f019959cc12ebd
+M	variable_admin/variable_admin.info	a239ef5a873b6b2a539ab6dad6a1bbfb
+D	variable_advanced/variable_advanced.info	
+D	variable_advanced/variable_advanced.module	
+D	variable_advanced/variable_advanced.variable.inc	
+M	variable_example/variable_example.info	31144967be5093973a935d0100ba71f4
+M	variable_realm/variable_realm.form.inc	c3232c4bb9857aa76827b5f525f8038d
+M	variable_realm/variable_realm.info	c7de70dbeebb94493dc725b3c9ac6bac
+M	variable_store/variable_store.info	6579fec00aed4eec15229435224f4e6e
+M	variable_views/variable_views.info	d9902ab94ee0b2813fb91456043563c4

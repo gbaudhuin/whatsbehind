@@ -1,0 +1,8 @@
+M	geocoder.info	fd0e7c61e937a36b61dd5165bf8e9933
+M	geocoder.module	38203eace73d58067f7c2e7cd782c024
+M	geocoder.widget.inc	a8f1096bfabf26b643f17d0e15bc6166
+M	plugins/geocoder_handler/google.inc	935635835d9234e4d6b0882c1d1dfe4c
+A	plugins/geocoder_handler/latlon.inc	477b7d8185b5e20df9c8a178b50617b6
+A	plugins/geocoder_handler/mapquest_nominatim.inc	166a92193e0c77cf8e038ba95c23b1c2
+M	plugins/geocoder_handler/yahoo.inc	d256bec28dfb36cad934b5152cb37eeb
+M	plugins/geocoder_handler/yandex.inc	bb01ba3b44458be27836cc7ac4623bbc

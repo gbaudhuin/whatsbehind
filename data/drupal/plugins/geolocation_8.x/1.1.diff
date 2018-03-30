@@ -1,0 +1,7 @@
+A	css/geolocation-html5-widget.css	1cd22a5ee1c7c8cdad8e632c94acc5a6
+M	geolocation.info.yml	a04706c073f683bdcb79f9d9603c438f
+M	js/geolocation-googlegeocoder-widget.js	3d0be4acc1e3bdcc9a936b6c54353772
+A	js/geolocation-html5-widget.js	903436e74dceac9e525419089efaaf70
+M	src/Plugin/Field/FieldWidget/GeolocationGooglegeocoderWidget.php	6932d599be787d9f9047d7650fd9495f
+A	src/Plugin/Field/FieldWidget/GeolocationHTML5Widget.php	bd7272341600c5097a2914bdcb6bdc48
+M	src/Plugin/Field/FieldWidget/GeolocationLatlngWidget.php	b3237ee529d4a6d32850e9c4d7c213a9

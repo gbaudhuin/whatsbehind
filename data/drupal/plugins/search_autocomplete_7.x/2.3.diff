@@ -1,0 +1,16 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	1a662def9bdba64862be840e12dbbf4c
+A	css/help.png	48552cd3deea99972233fa537040df43
+A	css/jquery.autocomplete.css	ed0b7d7e23bcb06bf3d4b4a8ebc91a84
+A	css/throbber.gif	ae6ffc909fc0deb781b3775e4cf517e7
+A	js/jquery.autocomplete.js	2cb4dcf631696c2af3c82eb67b1f7e3e
+A	search_autocomplete.admin.inc	62c4a6f8c0fc987f4c7fe62d4c960566
+A	search_autocomplete.form.add.inc	89c27ba49ab31a722a832ec8fbb390d3
+A	search_autocomplete.form.configure.inc	d3b3844b0e9b478afb3119581907590a
+A	search_autocomplete.form.delete.inc	b97c4fa4ed7ae5386c69691f0697ae9f
+A	search_autocomplete.form.treelist.inc	0334ba5c4d33dca427e758c8efc7cdc4
+A	search_autocomplete.info	8c8f697320669f5ec4f654c278df3729
+A	search_autocomplete.install	328f91a7498e16cdb3617b619e9de7ec
+A	search_autocomplete.module	13e72dacf7e512f6c908f60fa8b76a7c
+A	search_autocomplete.suggestion.configure.inc	e1140f7075e5471a95620c97ddf0eade
+A	search_autocomplete.suggestion.delete.inc	3e36fac44b75ac87f4f00799b7877a06

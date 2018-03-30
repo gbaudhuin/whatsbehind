@@ -1,0 +1,18 @@
+A	.travis.yml	32d44805975d0982d1d5d0559ff7a103
+M	acquia_agent/acquia_agent.info	4fcab489cec10a7e0f9037c432b4a449
+M	acquia_agent/acquia_agent.install	bff3b54e0d10293f0b149191dd1b41dc
+D	acquia_agent/acquia_agent.migrate.inc	
+M	acquia_agent/acquia_agent.module	9aec203d5925eec680437d722106d06a
+M	acquia_agent/acquia_agent.pages.inc	3d1c666eeaa02caae3bc0cea6ed13f4d
+M	acquia_agent/tests/acquia_agent.test	406bb145c3eef58b63e72b6a1325d2d5
+M	acquia_agent/tests/acquia_connector_test.info	a537557abb7d39afd7f03820fd89af0f
+M	acquia_agent/tests/acquia_connector_test.module	657e5de26bba35bb581ffa833bb23c7d
+M	acquia_search/Acquia_Search_Service.php	1aab211fae8ffd893677f20e2ef6ede3
+M	acquia_search/acquia_search.info	1d2096dd7921da220263676e354c21a7
+M	acquia_search/tests/acquia_search.test	6dd374c0d148413f00796d8e7e782bc6
+M	acquia_spi/acquia_spi.info	43a6654b870ce91e1212941fb02b136c
+M	acquia_spi/acquia_spi.install	8de6d4fcdd5150397e3d3a333d895d33
+M	acquia_spi/acquia_spi.module	3fb5d79b658a682aed471b08698a40ca
+M	acquia_spi/acquia_spi.pages.inc	92683a0f6126d27d4bdcfd1a0679bbb7
+M	acquia_spi/tests/acquia_spi.test	337fc99eed908184046518143bbf3215
+A	scripts/travis/vhost.txt	76317eecc57a0bc7a3e4f52958551f2e

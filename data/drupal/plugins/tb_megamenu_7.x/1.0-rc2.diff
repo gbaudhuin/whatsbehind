@@ -1,0 +1,33 @@
+M	css/admin.css	0273ed72f2fa374b84043a6379ffb3a6
+M	css/base.css	9efa520d93ddf8a7a442d2c597aa1137
+M	css/bootstrap.css	bdcbbf5a41fe13cc05db907870bf4d0c
+D	css/chosen/chosen-sprite.png	
+D	css/chosen/chosen-sprite@2x.png	
+D	css/chosen/chosen.min.css	
+M	css/default.css	214770b9180511615aa20eaaf77fa607
+M	css/styles/black.css	85a144b86eb46c32de92e491fa8917c1
+M	css/styles/blue.css	63a687d6587674243f090d063b564d50
+M	css/styles/green.css	6c186e306bdb1e66e1a23b8e9ece4bb6
+D	images/search-invert.png	
+D	images/search.png	
+D	images/system/sort_asc.png	
+D	images/system/sort_desc.png	
+D	img/glyphicons-halflings-white.png	
+D	img/glyphicons-halflings.png	
+D	js/chosen/chosen.jquery.min.js	
+M	js/tb-megamenu-object.js	f7c7c4e8b3adad8820dd57f4d4352f83
+D	patches/issue-2053875-33.patch	
+D	patches/issue-2053875-rev2.patch	
+D	patches/menu-translations-dont-work-2055429-11.patch	
+D	patches/menu-translations-dont-work-2055429-23.patch	
+D	patches/tb_mega_menu-add-active-trail-class-2329323-3.patch	
+M	tb_megamenu.admin.inc	026f4f314941094c778655b3b5c68b8f
+M	tb_megamenu.functions.inc	306ec821111f3a6ed0f1fb5285eb51c8
+M	tb_megamenu.info	f50aab62d5ff698ae9d30c8260003668
+M	tb_megamenu.install	8aa6400ffda8cb2c9c6e0a4bb327e0ad
+M	tb_megamenu.module	b0458391234051482daa50137b8624e1
+M	tb_megamenu.themes.inc	c93114c3cfb6eba39dba9c30fafef838
+M	templates/backend/tb-megamenu-backend.tpl.php	7d82040c13dbe8d9b29ddd56ef4e47de
+M	templates/backend/tb-megamenu-column-toolbox.tpl.php	6bbd97b7ab80b8dd0c4c09822ca08320
+M	templates/backend/tb-megamenu-item-toolbox.tpl.php	d7ca000f70fe373ea20075aa8dd0fee9
+M	templates/backend/tb-megamenu-submenu-toolbox.tpl.php	dcd126d5f0958bebcdd8eadba759e08d

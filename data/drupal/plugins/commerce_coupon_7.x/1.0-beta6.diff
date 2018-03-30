@@ -1,0 +1,9 @@
+A	README.txt	82e9433ef0ff20c1981da57d711eb2ec
+M	commerce_coupon.info	6c4681ac6c40d2d2d1c734c1858f939f
+M	commerce_coupon.info.inc	17243901295688a3756b24fbd227bec2
+M	commerce_coupon.module	0e0bfb7edaf75bc9c9c8fa88a381684e
+M	commerce_coupon_ui.info	47824cfec657b62ce6600c6d1837631c
+M	includes/commerce_coupon.checkout_pane.inc	df1c9776bc8e36c8a16a1df501c6a3ba
+M	includes/views/commerce_coupon.views.inc	41e7c66dd26540a6ca5dfeb24225dcd3
+M	includes/views/commerce_coupon_ui.views_default.inc	1a4bb07f49d814cb94f252f2d67795c4
+A	includes/views/handlers/commerce_coupon_handler_field_times_used.inc	e4642b3430e33732bee1ff454f360d46

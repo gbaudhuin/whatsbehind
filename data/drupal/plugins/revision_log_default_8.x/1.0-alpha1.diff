@@ -1,0 +1,4 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	revision_log_default.info.yml	4c32d2e7d7f6ea5fb3ad6b17a072e357
+A	revision_log_default.module	bbeaa0dd3123d168739c250bf08117f5
+A	tests/src/Kernel/RevisionLogDefaultTest.php	d5b15c1a45f01c53ee7b79303b92f7a3

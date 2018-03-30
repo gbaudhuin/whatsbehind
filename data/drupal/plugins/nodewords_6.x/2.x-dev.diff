@@ -1,0 +1,15 @@
+M	CHANGELOG.txt	88b963a30c6fc3e9f321d90b926b8f0e
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+D	nodewords-descriptions.tpl.php	
+D	nodewords-edit-attributes.tpl.php	
+D	nodewords-edit-defaults.tpl.php	
+D	nodewords-list.tpl.php	
+D	nodewords.inc	
+M	nodewords.info	d1fa0bf705a7928828e72648c28331a7
+M	nodewords_admin/nodewords_admin.info	5642b1ebf0c3d588dfebe8b49213d378
+M	nodewords_basic/nodewords_basic.info	83a01dab5525ff3c497e1ae8f8fe8b37
+M	nodewords_custom_pages/nodewords_custom_pages.info	b8a73903c9d0f8cc556eb4e89a6c87c8
+M	nodewords_extra/nodewords_extra.info	0e4c40ef49128fd58ebf7455f53d597a
+M	nodewords_tokens/nodewords_tokens.info	a2f4d81267560f960916e6090d3ec134
+M	nodewords_ui/nodewords_ui.info	087a8f6c0b83a6a6f470f339b4e0579c
+M	nodewords_verification_tags/nodewords_verification_tags.info	f117ff8b5e81ebc4449901e2a15e9a5c

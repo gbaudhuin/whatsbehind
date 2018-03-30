@@ -1,0 +1,4 @@
+A	composer.json	8e47bb496d3a4381f00c22b91c70e996
+M	media_entity_video.info.yml	1c45b96f46e9c4b180c6f99648cb0d53
+M	src/Plugin/MediaEntity/Type/Video.php	395fb305348a9a857a6263e75e09e616
+M	templates/media-video-file-formatter.html.twig	aa19bb74a328ad4e2f2f2d1360cd3cb4

@@ -1,0 +1,21 @@
+A	README.txt	51e1cd5a9a93f9d3a695bac7cf943106
+M	config/install/image.style.juicebox_large.yml	d2194bd510de2da7666366953f55854f
+M	config/install/image.style.juicebox_medium.yml	55ab05ac809830166fecba10ed0ac9a8
+M	config/install/image.style.juicebox_small.yml	aa90766755bb617abcc9a498b12334e2
+M	config/install/image.style.juicebox_square_thumb.yml	0da57c26e43ffd63879a33b98aaf4bef
+M	config/schema/juicebox.schema.yml	d2fab407f76cb6bd8c713e4be6f5c59c
+M	js/juicebox_load.js	6816962d8d326fd87889be66f386e06b
+M	juicebox.info.yml	7e2bc4e1237958b3f5a632306e701342
+M	juicebox.module	6815248780d73ac213942bf8080e4b86
+M	src/Plugin/Views/Style/JuiceboxDisplayStyle.php	bdfd9a11bf46bc5ff3e6eb6a1f5746da
+M	src/Tests/JuiceboxSubRequestCase.php	547f94dc6eca75d91101fd1bffe7ee40
+A	src/Tests/JuiceboxViewsCase.php	5048a83a53670fc3b5567a1897ec2a83
+A	templates/field--juicebox-relative-width.html.twig	c18eca903f983c4057c35aa0dca31080
+M	tests/modules/juicebox_mimic_article/config/install/core.entity_form_display.node.article.default.yml	d952480c81f3b72e78ea5c26b1cfae74
+M	tests/modules/juicebox_mimic_article/juicebox_mimic_article.info.yml	843265b5f3ed70f1745881459b0f9e26
+A	tests/modules/juicebox_test_views/config/install/filter.format.basic_html.yml	60c2ef5a004c989510dbcb70454c2eb3
+A	tests/modules/juicebox_test_views/config/install/views.view.juicebox_test_row_formatter.yml	92cc59df4496d386fc6a6a3c1561194b
+A	tests/modules/juicebox_test_views/config/install/views.view.juicebox_views_file_test.yml	acfaafb0dff32fd17fdb6d81fce4eb05
+A	tests/modules/juicebox_test_views/config/install/views.view.juicebox_views_test.yml	c1e3b396d7e7f92ef9abed7957b76551
+M	tests/modules/juicebox_test_views/juicebox_test_views.info.yml	1b6079d1d9b93b94efdee3824c3c379a
+D	tests/modules/juicebox_test_views/test_views/views.view.juicebox_test_row_formatter.yml	

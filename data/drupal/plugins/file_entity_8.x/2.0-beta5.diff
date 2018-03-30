@@ -1,0 +1,10 @@
+M	config/install/core.entity_view_mode.file.thumbnail.yml	38f2a206c60320457ea0b30d3e5f9201
+M	file_entity.info.yml	2a994a7eb64028b902b70d467c54dc3b
+M	file_entity.install	fece305124c6acd21c08acc1b5459195
+M	file_entity.module	82752faea397782d542d1c4bc8347bd3
+D	src/FileEntityStorageSchema.php	
+M	src/Form/FileDeleteMultipleForm.php	64b7329e63ca0e7e45f563781f918e10
+M	src/Plugin/Action/FileDelete.php	495ff43a90a4eda9b84a11dbcda0a32a
+M	src/Plugin/Field/FieldFormatter/FileImageFormatter.php	b748a0947e214d3d27de43d11419f5fc
+A	src/Plugin/Field/FieldFormatter/FileImageResponsiveFormatter.php	cdc37bb910ea970d1e042a113f3125ee
+M	src/Tests/FileEntityFileTypeClassificationTest.php	33ef9001fee075b764eda98072f2f10c

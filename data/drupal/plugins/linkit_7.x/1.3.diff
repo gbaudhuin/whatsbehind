@@ -1,0 +1,15 @@
+M	CHANGELOG.txt	e3f53893a1b2a6b4f4f23394a8509030
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	README.txt	582241d0405471488ee3be92eed81141
+D	editors/ckeditor/README.txt	
+M	editors/ckeditor/linkitDialog.js	aa68e68ac108466378a5d1f53fb7feb2
+M	editors/ckeditor/plugin.js	03b6c0ce7274a8a451f3726769ed5884
+M	editors/tinymce/linkit.js	925130340231067819855c27b1a9dbbc
+M	linkit.info	b0d22ae6f24ce7ce7cf83e9d182802fd
+M	linkit.module	4e572e0f3d124768dba5048c4360c778
+M	plugins/linkit_file/linkit_file.info	ef8aa301dc24b06c9afaa8cb72c57b0c
+M	plugins/linkit_node/linkit_node.info	25ce305ead587528601ff48a503a5886
+M	plugins/linkit_node/linkit_node.module	1bf57e06d754223b9a8b12409b9666de
+M	plugins/linkit_permissions/linkit_permissions.info	2274558e0c072a04ded4b43f9c7ccfc2
+M	plugins/linkit_taxonomy/linkit_taxonomy.info	3cdb0ae0a04476005134fd7d35e904f2
+M	plugins/linkit_user/linkit_user.info	c620ab3dde64ba6b59a1c57bad9ce7f8

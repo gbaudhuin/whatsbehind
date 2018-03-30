@@ -1,0 +1,7 @@
+M	README.md	128b49512c7b7851ce6c0f8c9c2b6312
+M	ckeditor_uploadimage.info.yml	8a64dcba7cf5f3ac30d53610a704de08
+M	ckeditor_uploadimage.install	4374d48496474adce3011d7aa53f13ce
+A	ckeditor_uploadimage.permissions.yml	2ae64dacb664cd9c9f85f7565d2163da
+M	ckeditor_uploadimage.routing.yml	017b6583c1c7b3b8660d51354652b4a0
+M	src/Plugin/CKEditorPlugin/DrupalUploadImage.php	d8190fb72ab529ba92fbedca7e71be5e
+M	src/Plugin/CKEditorPlugin/DrupalUploadImageImce.php	b616cc4085a57b0f37ed3a66e894204b

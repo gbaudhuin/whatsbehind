@@ -1,0 +1,12 @@
+M	README.txt	651cf1d0848f74fe43fe1e53b1f30b59
+M	colorbox.info.yml	279700cc0687a795aea49ad539e77026
+M	colorbox.module	694a502fb0366a1de1f433a9cf75dd84
+M	colorbox.theme.inc	2ee4383cb23d55884043d73a5f1f351a
+M	composer.json	f1e62015c4994aacf8154e25bbd3c790
+M	drush/colorbox.drush.inc	cdfede234db25bb159046a196d26c930
+M	src/ActivationCheckInterface.php	115fa34ad2fc3c7f05de74ffa0e02f69
+M	src/ColorboxAttachment.php	08b3fcbf279dfbf356f9a4759a50ad3a
+M	src/Form/ColorboxSettingsForm.php	f2432c8b4d914740d23341712bd83364
+M	src/Plugin/Field/FieldFormatter/ColorboxFormatter.php	5c1edf793812173198d6056773712a06
+M	tests/modules/colorbox_library_test/colorbox_library_test.info.yml	151ae0d4e7849070968f8fa9dc702012
+M	tests/src/FunctionalJavascript/ColorboxJavascriptTest.php	24ef6b936ce307ae06084a739f7b0bcd

@@ -1,0 +1,44 @@
+D	css/newsletter.admin.css	
+M	includes/newsletter.admin.inc	c1759d400ea44d7e2b5575ccfb5bbc0d
+A	includes/newsletter.controller.inc	ca5b2bbbbbba7e1c43a7696c500701a9
+D	includes/newsletter.list.controller.inc	
+M	includes/newsletter.mail.inc	12bfbe87b4b17d4266bd84a104a15023
+D	includes/newsletter.newsletter.controller.inc	
+D	includes/newsletter.pages.inc	
+D	includes/newsletter.subscriber.controller.inc	
+D	includes/newsletter.template.controller.inc	
+D	includes/views/handlers/newsletter_handler_field_datetime.inc	
+M	includes/views/newsletter.views.inc	3a92b8f0db39b0d9516e65afc7f729dc
+D	js/newsletter.js	
+A	modules/list/includes/newsletter_list.admin.inc	bcb60c170153fbd6153b6d0aa6cb94b7
+A	modules/list/includes/newsletter_list.controller.inc	cea0885a423fbfa88f74f743435d80ab
+A	modules/list/includes/views/newsletter_list.views.inc	7b801e282d264d22d238787ab0ceb230
+A	modules/list/newsletter_list.info	5818df3546bc5a9943db6f81cc443ec4
+A	modules/list/newsletter_list.install	b4ab76c9214a692d68a9552d797d8d1e
+A	modules/list/newsletter_list.module	3e8017f8cbdab09a002d6f74e8c2eb97
+A	modules/statistics/css/newsletter_statistics.admin.css	50b0055f8147ce97129c1b849474bb01
+A	modules/statistics/includes/newsletter_statistics.admin.inc	5f366b888008342aff10633ffd36e7e1
+A	modules/statistics/includes/newsletter_statistics.pages.inc	328fbe4eba5b1f6aead06c8fa9a300eb
+A	modules/statistics/includes/views/newsletter_statistics.views.inc	554210b29b8b33055035cfca259cc9b8
+A	modules/statistics/newsletter_statistics.info	d2250f9b57245420ad990180381a6b0a
+A	modules/statistics/newsletter_statistics.module	5208a1b5e6ef757bb0ac3c30bad68666
+A	modules/subscriber/includes/newsletter_subscriber.admin.inc	88dd00551fef20738f91375eaf04e960
+A	modules/subscriber/includes/newsletter_subscriber.controller.inc	6f7b7f35c4e7ee4d8b6934087c5bd156
+A	modules/subscriber/includes/newsletter_subscriber.pages.inc	719d8be23524b845a16c1756db76a1d9
+A	modules/subscriber/includes/newsletter_subscriber.ui.controller.inc	bf901414e4de7974b0b72638c323026f
+A	modules/subscriber/includes/views/handlers/newsletter_subscriber_handler_subscriber_operations_field.inc	123e5741662f5e031c7004649abc247c
+A	modules/subscriber/includes/views/newsletter_subscriber.views.inc	85dfc56fb795efe2db8ea0d29953276e
+A	modules/subscriber/js/newsletter_subscriber.js	ff7ffe25251f65fdae51dd4fb1dee278
+A	modules/subscriber/newsletter_subscriber.info	d7dfcaf2bdc6fd456b5fa2ed58eb385d
+A	modules/subscriber/newsletter_subscriber.install	f7340d62338d2425a76741bc2a3ef8d3
+A	modules/subscriber/newsletter_subscriber.module	679cbb3fa70bf8389caaaa077f3881a8
+A	modules/template/includes/newsletter_template.admin.inc	225b94af36acd3f0eba1b9518a4cc227
+A	modules/template/includes/newsletter_template.controller.inc	04e090f8a1b9504228ce9545f9bddd87
+A	modules/template/includes/newsletter_template.ui.controller.inc	035d364215dc40887810cc708956d3f4
+A	modules/template/includes/views/newsletter_template.views.inc	daf28b1970744f49b8a48fafbde4e14b
+A	modules/template/newsletter_template.info	71ff1f65aa631491196b6084dca7eafe
+A	modules/template/newsletter_template.install	9ce7e6e5352aa55c9baac257888ba8a4
+A	modules/template/newsletter_template.module	70784011f9ffb98d9c0d48a7af90c65d
+M	newsletter.info	506633f0853d27c71e5b5a71a8128bea
+M	newsletter.install	622b23b2faad492f83d09a55b4dfe9ce
+M	newsletter.module	00f7975335a9cddae9c17569ca148ffb

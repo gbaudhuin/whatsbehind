@@ -1,0 +1,3 @@
+M	src/Plugin/video_embed_field/Provider/Facebook.php	4b0f1ae94d4075269fa8dd2f00ce7ce0
+M	tests/src/Unit/ProviderUrlParseTest.php	4c1ce0ec6bb4c40e45b6292feec2c534
+M	video_embed_facebook.info.yml	8bc0ad04ef1da185d3e9a3b8b57dc919

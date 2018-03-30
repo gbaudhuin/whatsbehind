@@ -1,0 +1,11 @@
+A	access_unpublished.drush8.inc	290e81abc5fdb0844e6ab36fbc92e000
+M	access_unpublished.info.yml	f3789a8d99b472c85e71fde19b4315cb
+M	access_unpublished.links.menu.yml	21a7a37629a96b68d106bca097ec1f24
+M	access_unpublished.module	22f9828ef825066cba8127b50b7e89ba
+M	access_unpublished.routing.yml	d5ce6ed545a2f00d1ad144d043bec2dd
+M	src/AccessUnpublishedPermissions.php	1a9752cf9de54db7511c6e3657903fad
+D	src/Controller/AccessTokenController.php	
+M	src/Entity/AccessToken.php	e1a27e9dea091314d4b0cfd8e329579b
+A	src/Form/AccessUnpublishedForm.php	b85ab20f763117e9b328a138fc7e5bd4
+M	src/Form/SettingsForm.php	df3c723b56f72ef1175ebddbd0db5719
+M	tests/src/FunctionalJavascript/AccessTest.php	97745805764cddba1b46aa8d2c935b15

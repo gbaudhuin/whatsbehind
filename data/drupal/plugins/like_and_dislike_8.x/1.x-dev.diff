@@ -1,0 +1,11 @@
+A	CHANGELOG.txt	93d792b4d45fba8f4278d4562f3086a3
+M	css/like_and_dislike.icons.css	335074923afd330e9bc1fbf3fe3c4cce
+M	like_and_dislike.info.yml	c5765cd5ee378aa65a75f1057bf611aa
+M	like_and_dislike.links.menu.yml	969c61b17c675fa1f648015e012c4213
+M	like_and_dislike.module	bede1a14cf48908fc552992456728d92
+M	like_and_dislike.services.yml	146f89abc0d49944ce6089a7e1b5ea3f
+M	src/Controller/VoteController.php	06e25c2689988a2ffe6ff72e65a44a38
+M	src/Form/SettingsForm.php	3290cb99b81bda556ed68036dfc22ec1
+M	src/LikeDislikePermissions.php	1179f6429d7d9e01f05693b5d179ec27
+M	src/LikeDislikeVoteBuilder.php	9350021623277062f1668862dea4f152
+M	src/Tests/LikeAndDislikeTest.php	4dfc5afe5077dc57f52138a4b2846e22

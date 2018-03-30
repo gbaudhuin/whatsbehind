@@ -1,0 +1,5 @@
+M	composer.json	9461646dafd0116166b2b0d318a1f6a2
+M	modules/vbp_text_and_image/vbp_text_and_image.info.yml	10f271a842c0c22ce614c520c7efc137
+M	src/Form/VarbaseBootstrapParagraphsSettingsForm.php	57bcd4f7aa56da21bb74486a8f107fa5
+M	varbase_bootstrap_paragraphs.info.yml	3ea9b2431ca2f9d9205679a67dd1c1f5
+M	varbase_bootstrap_paragraphs.module	68e0e098892eec94cf325a8d1363f419

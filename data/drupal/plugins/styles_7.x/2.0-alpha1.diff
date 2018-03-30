@@ -1,0 +1,28 @@
+M	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+M	README.txt	bfd5fb2469e676b0b75bb11521dbcc85
+M	contrib/file_styles/README.txt	3aaa51f6d3fbb9fbf4eb19fd07b0ba06
+M	contrib/file_styles/file_styles.admin.inc	b99aa5e43767497140d004085caccbbf
+M	contrib/file_styles/file_styles.effects.inc	0935ba425498cfbffe39038ada7596ab
+M	contrib/file_styles/file_styles.info	6bd86e6b5df7de6b9f9c4f8fdd4bd70e
+M	contrib/file_styles/file_styles.install	8b25141c5d7521c93043f125cc518cd8
+M	contrib/file_styles/file_styles.module	d17c3684c98eac46f38454b9d23a1add
+M	contrib/file_styles/file_styles.theme.inc	98fb9246d972374ef8e52d509d1e7393
+A	contrib/file_styles/includes/styles/FileStyles.inc	87cdc27b6c180cf3abe02fe7337078e0
+A	contrib/file_styles/includes/styles/file_styles.styles.inc	0f4d37f947379f73e555f7f953fa1980
+M	contrib/styles_ui/README.txt	93dce4316f0048d794dfd59f0917e3bc
+M	contrib/styles_ui/styles_ui.admin.inc	3ca5fb79ecec54e669f0b842924a1e75
+M	contrib/styles_ui/styles_ui.info	1ccb16912efa2fad80d52a6bdf50e7c4
+A	contrib/styles_ui/styles_ui.install	475af366a7623e41a55b60b8fd583fc2
+M	contrib/styles_ui/styles_ui.js	5f2414ac550502b3117fc27866f0f584
+M	contrib/styles_ui/styles_ui.module	42e3037bcc6bb7c92ded491e2cc41917
+A	includes/Styles.inc	34fc15ca35971f9986c093a7dd94f7bc
+A	includes/php/get_called_class.inc	16656709f1cb015ff1292dc87a328f87
+A	includes/styles.api.php	8a2857dc04c0a5227d4fb102c7abcbc5
+A	includes/styles.variables.inc	e630ab4688dd85df706644f6dca1ba73
+D	styles.api.php	
+M	styles.info	dc1e1a961cc41aa80233e0867dfd9ad2
+M	styles.install	11f317bc0652f4545b0cc5ac756a8335
+M	styles.module	fbf1876ce85b9c3857ea8fb5e08b3e76
+D	styles.tpl.php	
+A	themes/styles.theme.inc	f6d238861d6129bb29cdb3d4c1b5a938
+A	themes/styles.tpl.php	f50009d9c8846b1f3c6e10baf8bd4a5c

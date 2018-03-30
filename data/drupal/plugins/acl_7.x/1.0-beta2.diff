@@ -1,0 +1,8 @@
+M	CHANGELOG.txt	adc52950164561964f037a947cc01857
+M	acl.info	ae128663f69c9249de5fe1617c6dd9fc
+M	acl.module	938d735463a4579f966afa356e42eaf3
+A	tests/acl_node_test.info	a7bc8526dc1000e3544995ab600da15e
+A	tests/acl_node_test.module	54fd2882c9d1cef7dfb7c29174bdcfc8
+A	translations/acl.pot	0e75767d4645257fd3b0fa764eb1c8c2
+A	translations/de.po	8ed10d599158aedc8b331d243af732f6
+A	translations/sv.po	ba0f54cb83288ce9cfc3c847ccbf427f

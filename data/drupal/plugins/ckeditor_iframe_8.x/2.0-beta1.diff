@@ -1,0 +1,6 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	799b41b7ddd91d9687bcf9dc5b78e234
+A	ckeditor_iframe.info.yml	2cdbe9db1b8f47fd8a104f0d82f6a978
+A	ckeditor_iframe.install	d3e77ff59c1424571fb36da11d351a02
+A	composer.json	3c69c29b39405dbdae4a62b144080f45
+A	src/Plugin/CKEditorPlugin/IFrame.php	9cd30a98b87421fb6f255a6b1a1e7f89

@@ -1,0 +1,4 @@
+M	config/schema/migrate_source_csv.source.schema.yml	d1cccf0f6e249ba5f303015ad6aee427
+M	migrate_source_csv.info.yml	e3eeffe5cec88fbc40f3b901487a3c23
+M	src/Plugin/migrate/source/CSV.php	95a3fff74dd06b1f632117f7b88651fd
+M	tests/src/Unit/Plugin/migrate/source/CSVUnitTest.php	74518c207096a80bee28c737bdbe0fa1

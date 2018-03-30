@@ -1,0 +1,11 @@
+M	composer.json	b67bfbfa9e6cf8a9b01162d8d923aed8
+A	config/install/video_embed_html5.config.yml	aab32418e3a3aa0ffac1ce012909f889
+A	img/placeholder.png	4676a1f515a9281f62d16e0320ffd28e
+M	js/video-embed-html5-thumbnails.js	62781024a6128960db5a762af5b0916f
+A	src/Form/VideoEmbedHtml5ConfigForm.php	1a2fadd249a6f2a015af05740b4576fc
+M	src/Plugin/video_embed_field/Provider/Html5.php	b37e63c0d0db31966dc5924889ca58f4
+M	video_embed_html5.info.yml	0ad8191053e6ad62110499938e7691b7
+A	video_embed_html5.install	84aed97666bdd542f510d74d5c127b0e
+A	video_embed_html5.links.menu.yml	45c6b9bf96fdd8c76755bb9839128e0c
+A	video_embed_html5.permissions.yml	56dda10a1e6e26be58c22287cb46455b
+A	video_embed_html5.routing.yml	0d9a6e7ac4ae42571d8bf8a074a6d404

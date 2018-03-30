@@ -1,0 +1,64 @@
+A	includes/migrate/7000/og_add_fields.inc	b343ecfa12bff954896e2892aedff86a
+A	includes/migrate/7000/og_content.inc	fc175c6662856201704f3cef743d0890
+A	includes/migrate/7000/og_group.inc	06d11e60e7a06a2c69a64d4aced618ae
+A	includes/migrate/7000/og_user.inc	7fc095f222bb78dfe57bf967b196f4d1
+A	includes/migrate/7200/og_group_audience.migrate.inc	7ee4ea3b4c7c00122fd5494a09f562b8
+A	includes/migrate/7200/og_og_membership.migrate.inc	aa6fd2fef16c1223b0b6d9e7ea5fbd5a
+A	includes/migrate/7200/og_ogur.migrate.inc	bdec49b638fd6386fdb6d94a24b39f8a
+A	includes/migrate/7200/og_ogur_permissions.migrate.inc	eea79f8cb5b915d3c46b3b017f2be9d8
+A	includes/migrate/7200/og_roles.migrate.inc	876ad68e5b39bc27cc98ff977de6f6a2
+A	includes/migrate/7200/og_user_roles.migrate.inc	bcbf71f02c365b86f4ba7811e38f84fd
+A	includes/migrate/og.migrate.inc	f48dc10a8d1833f68838145b18ebc9cc
+A	includes/migrate/plugins/destinations/og_membership.inc	f2c0b5dd25223d5e2a30cdfdd8fb2862
+A	includes/og.field.inc	bf7db96b47be35c4e950bb9fcf05a8e2
+M	includes/og.membership.inc	b9a85cf597b62182c7191b9ccd267629
+M	includes/og.membership_type.inc	2b408b5d955ac0ba496dd825ff8d1ebc
+A	includes/og_features_permission.features.inc	e49d9f2212d755b9766196cfd5d68422
+A	includes/og_features_role.features.inc	545940750e9cdce9356a581da7f35dfb
+M	includes/views/og.views_default.inc	59c6e407e9f42abaacab90b7bbbf979e
+M	og.api.php	e0e4edfec70c55160d264209cf4ce811
+M	og.info	a90d87deae2e337172625cbe1a5e67c9
+M	og.info.inc	37b7651f4239828c83c20a5f6124da96
+M	og.install	c7292098a0c0c57b6ffe6d50929bbd00
+M	og.module	ce906fb5cc5645eedb63135a617dd4de
+M	og.rules_defaults.inc	ca806e0f10c6c523b81eb55e57290214
+M	og.test	230ba4cd1273f1425ff75ed0c402e19d
+M	og_access/og_access.info	2fc66e58cd3697fb8a6cad29bbeb1bc7
+M	og_context/includes/views/handlers/og_context_plugin_access_og_perm.inc	5daabf30920caad1b72d497d782ed152
+M	og_context/og_context.info	396cb2dc10a4161805f50fceb9c238b8
+M	og_context/og_context.module	a0a97f6e64af1547776152a9f7c1b38e
+M	og_example/og_example.info	e6695d0c4c25c0a466d9497a8e224d82
+M	og_example/og_example.install	91a1d56f68ba8629e79ae7698a5dc96a
+M	og_field_access/og_field_access.info	2b8b36ac36dba6d1c6c07cb950b81878
+M	og_field_access/og_field_access.module	779cd420840eb4533193607ea77ee5a3
+D	og_migrate/og_migrate.info	
+D	og_migrate/og_migrate.install	
+D	og_migrate/og_migrate.module	
+D	og_migrate/tests/drupal-6.og.database.php	
+M	og_register/og_register.info	ff80e1b54ea3d71ca0e92b3cf3996c28
+M	og_register/og_register.module	42d4feaf7d8160fc5e8b1ec777a93d0d
+A	og_ui/includes/migrate/7000/add_field.inc	9bf1bbbdeffa808a694ff8d44a784796
+A	og_ui/includes/migrate/7000/populate_field.inc	ad115f76824bd8775183bf37dca6b9eb
+A	og_ui/includes/migrate/7000/set_roles.inc	a3b6c798ec5d773ae21d3dc7c49f3bb5
+M	og_ui/includes/views/og_ui.views_default.inc	0634ffae88a96e9b9e67b1708b6ebedd
+M	og_ui/og_ui.admin.inc	d6beab4f12c8fbdf237a8b160e9c0028
+M	og_ui/og_ui.info	336e5bc60e3dc4009e6ea4ad87997c6d
+M	og_ui/og_ui.install	610a04b69978df9cdb3aae01e383b515
+M	og_ui/og_ui.module	0baa54372fe78245c205ff4ba3023792
+M	og_ui/og_ui.test	e6fde28da80a9f20ed9835459b19e596
+D	og_ui/plugins/og_migrate/7000/og_ui_7000_group_visibility.inc	
+M	plugins/entityreference/behavior/OgBehaviorHandler.class.php	857e247b72649339f268c789c1761543
+A	plugins/entityreference/behavior/OgWidgetHandler.class.php	7f95273aff8d19bf08568cca84b65d14
+A	plugins/entityreference/behavior/og_widget.inc	06422e07eb502503d9ff3b7fdf9fc45d
+M	plugins/entityreference/selection/OgSelectionHandler.class.php	ecf3debcaf6b249688309cd67a6ae3ca
+D	plugins/og_migrate/7200/og_7200_og_membership.inc	
+D	plugins/og_migrate/7200/og_7200_ogur.inc	
+D	plugins/og_migrate/7200/og_7200_ogur_permissions.inc	
+D	plugins/og_migrate/7200/og_7200_remove_global_roles.inc	
+M	plugins/og_migrate/7200/og_7200_roles.inc	9a9e1c00976d3de28cf857afc9040c0f
+M	plugins/og_migrate/7200/og_7200_user_roles.inc	7e1fdf16d955f5d4a32bf58215f240d3
+D	tests/drupal-7.og.update_7001.database.php	
+A	tests/og-7.x-1.x.database.php	486c1f6fd809eec93bc6c8e91e4a5a0a
+D	tests/og_test.info	
+D	tests/og_test.module	
+D	tests/upgrade/og.upgrade.test	

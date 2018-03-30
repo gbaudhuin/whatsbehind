@@ -1,0 +1,7 @@
+A	INSTALL.txt	4d73800540de0862071313b7d9336065
+D	README.md	
+A	README.txt	5d18fc5fa1fdc8dd62c3f6cc2e113d58
+M	search_api_algolia.info.yml	30686da8e3a8da3fa8d73eea4f8bc437
+M	search_api_algolia.install	69de328c260be8294672074929d06299
+M	search_api_algolia.module	11b95f697319008b6f80c7eacf75c555
+M	src/Plugin/search_api/backend/SearchApiAlgoliaBackend.php	27f0097460135e07ae56689abf24bbb8

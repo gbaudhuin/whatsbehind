@@ -1,0 +1,16 @@
+A	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+A	README.txt	1cfd99dc27ad77328c7adf3a1bcf0857
+A	l10n_update.admin.inc	5d49d877b098e6744cc27062c6e3a49b
+A	l10n_update.api.php	170991736454a52ed9027cdc0a49b324
+A	l10n_update.batch.inc	62b83428f093cff87581631b42fc50fc
+A	l10n_update.check.inc	240ede34972f7e5a9bdd9032f54e8dcf
+A	l10n_update.drush.inc	95507c8df30f8dad0d9717813863d897
+A	l10n_update.inc	6b3641065836223276c414f76931bca6
+A	l10n_update.info	18a88805e2adba625925e2e562a5a301
+A	l10n_update.install	69b2571c39f42dd06578b515dd80b622
+A	l10n_update.locale.inc	0410eef62562010156915a3f61afc1f3
+A	l10n_update.module	882f7570f091330b9d228ff59af9b429
+A	l10n_update.parser.inc	1aff4145f2002b6dffe75ff9f6cb02e0
+A	l10n_update.project.inc	eafac43babcd473bfb855e9a9fb5ec18
+A	translations/cs.po	1a97bcfc53daa6acd629ac44f5dd9b23
+A	translations/hu.po	418b93a14bc3dea8516147e660946a5c

@@ -1,0 +1,13 @@
+M	CHANGELOG.txt	db5011a9681a7e2c861225851daaf2a7
+M	contrib/search_api_facetapi/plugins/facetapi/adapter.inc	c89d32f1c9a537d764739f9fb7eb3c78
+M	contrib/search_api_facetapi/plugins/facetapi/query_type_date.inc	fd43f3300ee1ecec1c4a000675960fd7
+M	contrib/search_api_facetapi/search_api_facetapi.info	1a79c0461097f5995f619045162739d2
+M	contrib/search_api_views/includes/handler_filter_date.inc	ea14ff4d1a792d45fc5ceb22fbbd7f4b
+M	contrib/search_api_views/includes/query.inc	7b886be76d62d05fe12797bff7265f85
+M	contrib/search_api_views/search_api_views.info	2c826b6fd77fb7c6095852493a16154e
+M	search_api.admin.inc	3760a4dfc72cde9c1577badb3d3d674b
+M	search_api.drush.inc	ab7e430f14e16d1eb2bae0538177bf10
+M	search_api.info	6798827925a3787affd42d191ced0a0e
+M	search_api.install	82a015f2b5ae2a8ac5b94092de77a0be
+M	search_api.module	9a98c3d42acfb8c0b5bbbdd33d4c2a3b
+M	tests/search_api_test.info	2ba9ad2147f8ddfabe7284f823ba73c2

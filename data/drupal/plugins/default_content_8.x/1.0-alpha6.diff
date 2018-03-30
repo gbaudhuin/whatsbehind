@@ -1,0 +1,25 @@
+M	composer.json	a8754e3bbee256c467a2b415d00df4ff
+M	default_content.info.yml	cae633920204b21e6dd0d97db07969df
+M	default_content.module	d0fa07c3466f0cefb5143db3edbdd458
+M	default_content.services.yml	ac306f981a22c0aaa4176012e20c08a2
+M	drush/default_content.drush.inc	74a4c749ea4ba63872fcadb03a1fa5ae
+A	src/Config/DefaultContentConfigSubscriber.php	7eb384be3ede91b2a486059ea49d06f5
+D	src/DefaultContentManager.php	
+D	src/DefaultContentManagerInterface.php	
+D	src/DefaultContentScanner.php	
+M	src/DefaultContentServiceProvider.php	dd76008e4c1498faea6ba6f675ff7cda
+A	src/Exporter.php	9c96ec91da677dd0c2aa74dd3f892931
+A	src/ExporterInterface.php	07fdac36b6841378b9f9ffb67ccdb58c
+A	src/Importer.php	a7315ffc92f266b28706f6ac83ff526d
+A	src/ImporterInterface.php	52467cae063bfaa0493279a25dd22f5f
+M	src/Normalizer/TermEntityNormalizer.php	ee440817190e0c3bb58178a3abbc30eb
+A	src/Scanner.php	18f7d4235a1287ad073c77a1d18b1fce
+A	src/ScannerInterface.php	01fa9953d2dc0ff1df8db80172dbc554
+M	tests/modules/default_content_export_test/default_content_export_test.info.yml	142adde6e68cd1ab2fe88b62e1816aef
+M	tests/modules/default_content_test/content/node/imported.json	d1b3d42e19bde60417d0b75dc574ddc7
+A	tests/modules/default_content_test/content/node/user_1.json	3403d427e3ec73433bcaf4eee476be4c
+A	tests/modules/default_content_test/content/node/user_does_not_exist.json	8053d5376211d3fe67107ed19f2f721e
+M	tests/modules/default_content_test/default_content_test.info.yml	a6a074b377c5c4a338ff9595135f69fd
+M	tests/src/Functional/DefaultContentTest.php	1a7a06bbce4df282c83c074793d2220e
+D	tests/src/Kernel/DefaultContentManagerIntegrationTest.php	
+A	tests/src/Kernel/ExporterIntegrationTest.php	2005289d4bd3cdb3535770ba5a7b1d1e

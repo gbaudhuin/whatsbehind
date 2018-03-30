@@ -1,0 +1,17 @@
+M	actions/archive.action.inc	c8b1229d77f55230c8a4fe77201a6670
+M	actions/argument_selector.action.inc	847cb88e08d43ea98c4ea71beddfa5c9
+M	actions/delete.action.inc	5069f997f70e594b41662816084c6fb4
+M	actions/modify.action.inc	0e0952c7d7929b07aaa4a6bca6c7c8cc
+M	actions/script.action.inc	b21ef790ad23cf88d89ae0f97af6e8fa
+M	actions/user_roles.action.inc	130b67232f0c8e46b2fd7e8f75a74764
+M	actions_permissions.info	a4c3f940d4821a589c609044de525c48
+M	actions_permissions.module	63c6c097741217f1eb0b23f33fd7135b
+M	plugins/operation_types/action.inc	2ecf7e9f24542bd673c688e2ec459956
+M	plugins/operation_types/base.class.php	afb3e752a0e200d5162e1bae719d8f40
+M	plugins/operation_types/rules_component.class.php	ab4f37a1c3e72825244e16f067cd56e2
+M	plugins/operation_types/rules_component.inc	b411acdcc797b77e3afa388c58c7f839
+D	views/views_bulk_operations.views_default.inc	
+M	views/views_bulk_operations_handler_field_operations.inc	2dc827152b0cf1fb17f06057df9137be
+M	views_bulk_operations.drush.inc	1a79b3894f179a3fb4ffb05842681f54
+M	views_bulk_operations.info	37dea6f34a449f4d2fef57c35355b4f8
+M	views_bulk_operations.module	4bf4b74c9c9a48df545b63e1cdb8baa6

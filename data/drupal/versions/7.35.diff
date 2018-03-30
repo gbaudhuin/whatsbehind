@@ -1,0 +1,11 @@
+M	CHANGELOG.txt	0ec14c07158a08aab9dda25d1893ab34
+M	includes/bootstrap.inc	5dc2af2d8068f9b35aa8cccb5eb98f81
+M	includes/common.inc	4f1eae20669d0d5b1348251fc83f31f9
+M	modules/simpletest/tests/bootstrap.test	1db78416e32abbe9feb7cbd5ff228bae
+M	modules/simpletest/tests/common.test	a06a34551e6c872aaab8ca036985a698
+M	modules/simpletest/tests/system_test.module	e673b8cf32c545f8ae105d822f314c95
+M	modules/statistics/statistics.test	02a8b2a90c8263e3715503594c776b66
+M	modules/system/system.test	b133852efc4c279a057fd00383aaee5d
+M	modules/user/user.module	0b87f7aa0a9990ae92f23e990cb32b3a
+M	modules/user/user.pages.inc	c71abcb4fcea4d7a2b3f3af0bf177e9a
+M	modules/user/user.test	74a659f9aee18bbd5fe5e2a34ea79646

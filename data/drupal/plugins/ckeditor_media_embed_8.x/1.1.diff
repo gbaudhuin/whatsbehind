@@ -1,0 +1,6 @@
+M	ckeditor_media_embed.info.yml	177cccbc4e0563246cc9700a5db9b872
+M	ckeditor_media_embed.install	699f2d64bb19718a83215b443e1424f2
+M	ckeditor_media_embed.services.yml	2f7039971a7614d2db42ddb64fcd05a2
+M	src/AssetManager.php	f369da0288cc9c9162449bbbbf252519
+M	src/Command/InstallCommand.php	4f5f6963131bf2d82725e96fdd2e1656
+M	tests/src/Unit/AssetManagerTest.php	726e5e9679eafa3cf9ee8528e7f385c6

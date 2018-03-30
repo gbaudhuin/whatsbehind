@@ -1,0 +1,17 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	bad78e660676f1edf3ac99a4bbe0e4ea
+A	config/schema/workbench_email.schema.yml	860e16b99fd17143b40d5f26d9efc9e5
+A	src/Entity/Template.php	85bf48bd6c4703ac6b06efc222c1bb6b
+A	src/EventSubscriber/WorkbenchTransitionEventSubscriber.php	df4c9b5405c99b56eadde03cc17afd8c
+A	src/Form/TemplateDeleteForm.php	327d07e4b0cacee6490d86a2fa35a0a5
+A	src/Form/TemplateForm.php	3df83d47493439a7ce70d538627e386e
+A	src/TemplateHtmlRouteProvider.php	6d7d8dfb2ba5830b0c9c6cd1814add28
+A	src/TemplateInterface.php	e986ddb370951e33ab9f49e047d77171
+A	src/TemplateListBuilder.php	5f0cc8aee14375d1390e4f84f5e4f2a0
+A	tests/src/Functional/WorkbenchTransitionEmailTest.php	809065b52ca48701267b6b9035faf54e
+A	workbench_email.info.yml	15ac649dc0c6cf46919c23ae40319f4f
+A	workbench_email.links.action.yml	8e526ccd440cdc5dab6bc12fbc87372e
+A	workbench_email.links.menu.yml	c137a2524887cc238148a43ab0a04309
+A	workbench_email.module	fe753aab7f5543419bce23e6de54e977
+A	workbench_email.permissions.yml	47cb51fa1d5caeb49a2f48852e185954
+A	workbench_email.services.yml	df9f30984e11c40b6083ff01306d9353

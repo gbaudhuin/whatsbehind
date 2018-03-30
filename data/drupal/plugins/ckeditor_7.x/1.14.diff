@@ -1,0 +1,123 @@
+A	.gitignore	7a8b085dbf273de1bb2cb0b44c858f33
+M	CHANGELOG.txt	a9b204d7b2f3faf69cfdc0a7203c4957
+M	README.txt	aafe4fcafa8c21ebfb3a33cdf0ec27c2
+D	TROUBLESHOOTING.txt	
+D	UPGRADE.txt	
+D	ckeditor-rtl.css	
+M	ckeditor.api.php	29d54f251a16afd0cf6500b842d3a6d0
+M	ckeditor.config.js	bb772bf0a57b9e1dcf5a0540f9c22c31
+D	ckeditor.css	
+M	ckeditor.info	ab5f46f0bda82757f5f5950930419474
+M	ckeditor.install	052dbb21d7983d257211e68a1de58c03
+A	ckeditor.make	eaaa1c8ef842cb518cfcf140cd5d95dd
+M	ckeditor.module	2ecbedd88ece81203d5f675e1f6e3b87
+A	css/ckeditor-rtl.css	3a87ff4cd70f9113aa95173fdfa12a81
+A	css/ckeditor.admin.css	e5980a6269c6b37dfb9acfa05132dfed
+A	css/ckeditor.css	ea5336b4064e6edb916b3da3c8f8a0be
+A	css/ckeditor.editor.css	80c45c10628c1e62cd1a8aba21be98f7
+M	images/buttons/about.png	20e8096a0c96d4d714a8c7b0812df9ec
+M	images/buttons/anchor.png	22925cbc2dff31926cd9465a2981f8f3
+D	images/buttons/backgroundColor.png	
+A	images/buttons/bgcolor.png	406082d01ab1415f333b23bceecb9e2c
+D	images/buttons/bidiLeft.png	
+D	images/buttons/bidiRight.png	
+A	images/buttons/bidiltr.png	a5b115effaf63469aacc14b2f367d3e6
+A	images/buttons/bidirtl.png	86e1b26fb22425ba2e5c88d450ebe4c2
+D	images/buttons/blockJustify.png	
+M	images/buttons/blockQuote.png	47f605252aadd95c22ed142487fda3e7
+M	images/buttons/bold.png	83c4afa5a7847671031e28e86833add2
+M	images/buttons/bulletedList.png	6104899503d5d45f216a16d791cdc09a
+M	images/buttons/button.png	e689320fd984d21795a04255fbb7dc72
+D	images/buttons/centerJustify.png	
+D	images/buttons/checkSpelling.png	
+M	images/buttons/checkbox.png	54a2d2266bd12c7fc1e7734af9f1dc2f
+A	images/buttons/codesnippet.png	eaba91547ab32adf0088f1fcb19220d1
+M	images/buttons/copy.png	016f786cfe21feb1af8ef4139fff7b90
+D	images/buttons/createDivContainer.png	
+A	images/buttons/creatediv.png	ae55a1eefe734127c79202bade1c9bf3
+M	images/buttons/cut.png	a73b8885237ec16124ec960c5ec5af11
+D	images/buttons/decreaseIndent.png	
+A	images/buttons/docprops.png	2cce235caa33c04fd83060e28d8fa356
+M	images/buttons/find.png	08e157806b9d8deceea99c99f1f63c1a
+M	images/buttons/flash.png	5b53952452eab634c20b3f6949f58807
+M	images/buttons/font.png	d718d60eb9e92ceff348521548a54acc
+D	images/buttons/fontSize.png	
+M	images/buttons/form.png	45e670edcafe630482b368aae3c6c35a
+M	images/buttons/format.png	2e5a9da54e1b5099203592a5400cd29c
+M	images/buttons/hiddenField.png	5b4053803e467cbb0478b65635a4e5ea
+D	images/buttons/horizontalLine.png	
+A	images/buttons/horizontalrule.png	8515eb9ce71bacc468ecdbb2dc766578
+M	images/buttons/iframe.png	cf68254069073f12a201863b736e5943
+M	images/buttons/image.png	f63ef04a501398c9ea62416285a49ba3
+M	images/buttons/imageButton.png	2a3b6994a34aa08e1498614ce0e10819
+D	images/buttons/increaseIndent.png	
+A	images/buttons/indent.png	e186a374ae736b0a383642251246a03d
+M	images/buttons/italic.png	441c1e7d8779e39d3ddd5a21ef184cdb
+A	images/buttons/justifyblock.png	8a873d673c98970c8e7a1a583ad3bf69
+A	images/buttons/justifycenter.png	d3411df3119a34813c2843d410542e6d
+A	images/buttons/justifyleft.png	f92e5160709f56509dc816e483a1d13c
+A	images/buttons/justifyright.png	adba5f2e8aea36ae13491de788d3cd29
+A	images/buttons/language.png	c834d231620c7df3f385c3a49a6b3d46
+D	images/buttons/leftJustify.png	
+M	images/buttons/link.png	f2999d6a0d2a72f23ba2a011b0846a51
+A	images/buttons/mathjax.png	e0603abbf5dfc69f553503dd7f95efba
+M	images/buttons/maximize.png	f1d0fbc57f779f34414f4f0849c51b17
+M	images/buttons/newPage.png	8a46d92eab527b57b421805b53b35193
+M	images/buttons/numberedList.png	49888cb47623a90b671b82c07bfd7755
+A	images/buttons/outdent.png	39c21946426cba4b60723422377e42a4
+D	images/buttons/pageBreakPrinting.png	
+A	images/buttons/pagebreak.png	625acbfb79ef0ef7c548312fad2026c8
+M	images/buttons/paste.png	d033e4f6d584e6c005ab98b75cfdc791
+D	images/buttons/pastePlainText.png	
+D	images/buttons/pasteWord.png	
+A	images/buttons/pastefromword.png	426f07c0798e1505ba9e971f2dd47313
+A	images/buttons/pastetext.png	bc35a09be3c5f9a7107b2b011cda6e7a
+A	images/buttons/placeholder.png	a1a8d051d4ad3c622cac0f8faf5a42af
+M	images/buttons/preview.png	8cc8278179fbb415e3f30b98c5e8b4fc
+M	images/buttons/print.png	80e05442985a4013b2513e3a4a89731f
+A	images/buttons/radio.png	bbbde17b0f3619486ef63a60f42632ca
+D	images/buttons/radioButton.png	
+M	images/buttons/redo.png	4d8b00e613dc9a2e4a4ffe3d485aa7d8
+M	images/buttons/removeFormat.png	f07c4c80135c24e1767c97e892dd91d1
+M	images/buttons/replace.png	5c4a2600c7b5e80fed83112a6a594d4a
+D	images/buttons/rightJustify.png	
+M	images/buttons/save.png	ca4f96b00022fc21773cdc793807b331
+A	images/buttons/scayt.png	254df5a7ff156ec65a3997a119999809
+A	images/buttons/select.png	b91fc1fcf228706e250e51d10220e10a
+M	images/buttons/selectAll.png	c4d652a582af1421eb9a0b1f99c6d250
+D	images/buttons/selectionField.png	
+M	images/buttons/showBlocks.png	133ff41644a3702f60d7a2c6bf429c5f
+A	images/buttons/size.png	4817e804919406e05dd19231ef2a46c1
+M	images/buttons/smiley.png	1a40d00a1e7269a80e45923f67e9f5a8
+M	images/buttons/source.png	a58e595ddf165baa3098f33784833dab
+A	images/buttons/sourcedialog.png	a58e595ddf165baa3098f33784833dab
+D	images/buttons/specialCharacter.png	
+A	images/buttons/specialchar.png	ffc48f1ffde7924a1adc4be3e85f96bf
+A	images/buttons/spellchecker.png	254df5a7ff156ec65a3997a119999809
+M	images/buttons/strike.png	abf053577f529a4fdca7ae577e6cdb90
+M	images/buttons/styles.png	3752184e2c91cbe7ecdbeecf5fd1903e
+M	images/buttons/subscript.png	68617e25f0ec7dd701dd59a5656d9434
+M	images/buttons/superscript.png	64aa12fb017e3a9b0bfc5a49fd73f8fb
+M	images/buttons/table.png	04a3847804af946c34ed58e4a9d3eded
+M	images/buttons/templates.png	c36af72113ccee4cf0e556b877ff094c
+M	images/buttons/textColor.png	6cd8f5c9f1717ee73ceba5683d9a8a8e
+M	images/buttons/textField.png	a58a10e05b789f241187b1006369699b
+M	images/buttons/textarea.png	cf8960630fd8d5d8a0dbfe3cc1cee4e9
+A	images/buttons/uicolor.png	0dd65c0d9809e01afc725d12f87dd1ad
+M	images/buttons/underline.png	ec0e0682c767499a01f763530606916f
+M	images/buttons/undo.png	57b267688a0a287fbef73fa98384f51f
+M	images/buttons/unlink.png	1b82e756cead981f5cdc488918e11fa1
+M	includes/ckeditor.admin.inc	e984f6e259217d2b5e781ce9fcfa451c
+M	includes/ckeditor.admin.js	4d5c795eb8748cbe27713117ef2c221a
+M	includes/ckeditor.drush.inc	a2ad35171783982f899f10a55bd2bbcd
+M	includes/ckeditor.features.inc	46495dd7c8e90969e81873e71799f854
+M	includes/ckeditor.lib.inc	0cff48ebd5a8bc078fa860588d5c4256
+M	includes/ckeditor.page.inc	cb88a08b1beca876567cc98ed70ab0e4
+M	includes/ckeditor.utils.js	cb53224968bec0ddca72c04d7abe93ed
+M	includes/filemanager.config.php	2d91c6a4657cb03fa10cf87a3a2442cc
+D	includes/jqueryUI/jquery-ui.min.js	
+D	includes/jqueryUI/jquery.ui.sortable.min.js	
+D	includes/jqueryUI/jquery.ui.widget.min.js	
+M	plugins/imce/plugin.js	d3e9154b753d2d27b1e089a8b092e67d
+M	plugins/media/plugin.js	0b42428e3a5f25890749b3d2cd35f3ac
+M	plugins/mediaembed/plugin.js	9279b83c58a88bbf45bcdd3aaf732fa5

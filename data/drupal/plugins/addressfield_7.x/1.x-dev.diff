@@ -1,0 +1,12 @@
+M	addressfield.address_formats.inc	57302cc6ff96cf1332c9219bac735670
+M	addressfield.administrative_areas.inc	c0be84fcf47031d69d75107a9c9bffd9
+M	addressfield.devel_generate.inc	d6d72c6722833885e8759dc7b5e12a84
+M	addressfield.feeds.inc	e467a9307b2f1e602e36770e3c1695fb
+M	addressfield.info	e84c07e97e24d146031bed0180954585
+M	addressfield.migrate.inc	5881bb270e68e9e4cb15d88c3e8c3ba5
+M	addressfield.module	0ebcc9e79dbdb25621be1168acebae89
+M	addressfield.tokens.inc	d12460e852937a75f30678ca523d3214
+M	example/addressfield_example.info	b012b36327ea783571561a85377a8ad2
+A	plugins/format/address-hide-administrative-area.inc	fb575b01d3819f216ed3ca355b61e57d
+M	plugins/format/address-hide-country.inc	4b561ad4961dc5d57710f146616d498b
+A	plugins/format/address-hide-locality.inc	5be01b635a2d28a6c0b6daf8a930a461

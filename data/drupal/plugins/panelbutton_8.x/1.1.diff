@@ -1,0 +1,3 @@
+M	panelbutton.info.yml	7cd5395f509de4b72132d84362ff741f
+A	panelbutton.install	2b3163e658bfa3a403f82b5ddea735d3
+M	src/Plugin/CKEditorPlugin/PanelButton.php	8e43686965fcb7542182226b1dfa153d

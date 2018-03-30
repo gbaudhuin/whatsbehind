@@ -1,0 +1,5 @@
+M	default_content.info.yml	0f3747854f5d10fbd9ca011070d4d1a0
+A	drush.services.yml	466c6036bad9a92629ea90fda6a345f1
+A	src/Commands/DefaultContentCommands.php	7f4e84ce3961963f328ec22640b6336c
+M	tests/modules/default_content_export_test/default_content_export_test.info.yml	3c5fe6df301a59fb9a5680cf17b7fbe1
+M	tests/modules/default_content_test/default_content_test.info.yml	76d8adec84e087a4be9664ab624f3a57

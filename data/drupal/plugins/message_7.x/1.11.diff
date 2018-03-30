@@ -1,0 +1,7 @@
+M	includes/message.admin.inc	33c655efe336252c527ace58276511ab
+M	includes/message.message_type.inc	b090f4cdfd0398c5f34be1f282205230
+M	includes/views/handlers/message_handler_field_message_render.inc	9a3251510ccd64a0ff2d6b4a3bdac8bb
+M	message.info	32ae0ee2c3c591d95b4708341829067f
+M	message.module	acb5a98b04a69a7a0a3143b9505e02e8
+M	message_example/message_example.info	5fc83f740d352bf59a5127d54dadcc1d
+M	message_og_example/message_og_example.info	3ef4583e774b0a921183e0c1f0cfe59c

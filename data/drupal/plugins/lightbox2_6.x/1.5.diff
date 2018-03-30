@@ -1,0 +1,13 @@
+M	js/image_nodes.js	fa05820fa2bb08fadcc10467042718f0
+M	js/lightbox.js	5925d990807973aa77474155c4f558ee
+M	js/lightbox2.js	b6f12c0e9d30639d4ab7f75e52f87919
+M	js/lightbox_lite.js	87326e99f5be7f6dd51028ec7ac2bea8
+M	lightbox2.info	56a634d380d9f5e9cec5d95bff04c64a
+M	lightbox2.install	f85e6a7f289286acf94237edf65d58d4
+M	lightbox2.module	f08bc7640d7864ab4d8d373511c02c08
+D	po/de.po	
+D	po/ja.po	
+D	po/lightbox2-module.pot	
+A	translations/de.po	fd3213f3f6689148a8546048aef62d80
+A	translations/ja.po	d0df61a06bf3fb8481978aeb2a678c04
+A	translations/lightbox2-module.pot	02fc0325ca732e4985290bc26d16c5ae

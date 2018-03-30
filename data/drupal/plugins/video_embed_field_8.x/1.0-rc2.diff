@@ -1,0 +1,11 @@
+A	js/video-embed-field.colorbox.js	41fe2157b4a6351986bfed340576fb64
+A	src/Plugin/Field/FieldFormatter/Colorbox.php	735e379083d5fd60ca0189baebcc574e
+M	src/Plugin/Field/FieldType/VideoEmbedField.php	946ac4364ecdaa269c1b33c252a0adec
+M	src/Plugin/video_embed_field/Provider/Vimeo.php	a1f77efb3c9abe73b0299c93de4fd8d9
+M	src/Plugin/video_embed_field/Provider/YouTube.php	8ec01e43e263c4da3ea9faa4d3447d6e
+M	src/ProviderPluginBase.php	97d2cf59aaafb7093d76a30d8e8e1d27
+M	src/Tests/EmbedFieldTest.php	0fba16b18f96efd2e6b32a379a649371
+M	src/Tests/VideoEmbedFieldWidgetTest.php	cc632feacbf97634e3401ca65be5404f
+M	tests/src/Unit/ProviderUrlParseTest.php	afcff5983b04dfc14a3444d5f9dcbcff
+M	video_embed_field.info.yml	a55461fd690a76c4ca45bcb983992ed0
+A	video_embed_field.libraries.yml	91b799e66bb6de6d0716acb2d8037597

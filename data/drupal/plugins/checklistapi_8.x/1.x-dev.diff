@@ -1,0 +1,10 @@
+M	checklistapi.drush.inc	dcdea7f882462525ffec05629fe314c0
+M	checklistapi.info.yml	af152343098d109386feb288b618c018
+M	checklistapi.install	3860d1fa082480b9da10792eaaf07fb2
+M	checklistapi.js	d848f10159407a9c9481294864d4c3a5
+M	checklistapi.module	c9c2d17585064e315cbf435f80e5fa83
+M	checklistapiexample/checklistapiexample.info.yml	407081b62078a2ab456bf5d3acac8531
+M	src/ChecklistapiChecklist.php	7e1a0e7ab01404bd23a2261a9002de28
+M	src/Controller/ChecklistapiController.php	1d8ef90bf66ba33eff4bcb16b9342354
+M	src/Form/ChecklistapiChecklistClearForm.php	5740a02f92e63ea7285055566de89ac1
+M	src/Form/ChecklistapiChecklistForm.php	283b33874e751712755bce858bf8b82c

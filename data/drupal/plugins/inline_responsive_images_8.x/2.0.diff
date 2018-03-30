@@ -1,0 +1,18 @@
+A	README.txt	8163dae16a4fd38eef4362331619815a
+D	css/plugins/drupalimagestyle/ckeditor.drupalimagestyle.css	
+D	inline_responsive_image.info.yml	
+D	inline_responsive_image.libraries.yml	
+D	inline_responsive_image.module	
+A	inline_responsive_images.info.yml	9b5faf917bd379100710773ee50286b2
+A	inline_responsive_images.module	a218d0102da344f4f7509f0208c0ee08
+A	inline_responsive_images.services.yml	99a6414bfb1b607cda2b87ad78236c47
+M	js/plugins/drupalimagestyle/plugin.js	2de93200321c2ffe21a32cc3c47c61bf
+A	js/plugins/drupalresponsiveimagestyle/plugin.js	c5ae5fcc29c9c23f392ad8cd532ecf69
+A	src/Form/ResponsiveEditorImageDialog.php	ddb40506a66ef43c2cdb269847c192b7
+M	src/Plugin/CKEditorPlugin/DrupalImageStyle.php	a7ee08dd5598a72f24cded51e9a5542c
+A	src/Plugin/CKEditorPlugin/DrupalResponsiveImageStyle.php	acc0323111f0adc68d5ec1dc02454f48
+A	src/Plugin/Filter/FilterImageStyle.php	c98aa4430bd71c5a6117fd0652b326eb
+A	src/Plugin/Filter/FilterResponsiveImageStyle.php	5ad91a3442a6f178383f5845bd7dde7f
+D	src/Plugin/Filter/InlineResponsiveImage.php	
+A	src/Routing/RouteSubscriber.php	45e78fdeca87031e49641dac635f3d73
+D	templates/inline-responsive-image.html.twig	

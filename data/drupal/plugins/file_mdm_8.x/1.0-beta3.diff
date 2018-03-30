@@ -1,0 +1,5 @@
+M	file_mdm.info.yml	842bff014771c8401d3e86a120c45751
+M	src/Element/FileMetadataCaching.php	881e6a9854a41a46dcdba34c1e70e7f5
+M	src/Form/SettingsForm.php	cbfbbf821a0e2c13219b0e216ab8e325
+M	src/Plugin/FileMetadata/FileMetadataPluginBase.php	f56d0c234f5e0e92b993e8e478bc96f9
+M	src/Plugin/FileMetadataPluginInterface.php	18447c753c897e117fa9b753bf544191

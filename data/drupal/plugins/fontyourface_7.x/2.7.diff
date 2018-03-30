@@ -1,0 +1,26 @@
+M	drush/fontyourface.drush.inc	8d256203c4d002630cd858b88d8fff1d
+M	fontyourface.info	659a51e427a3410d935aea229f30391f
+M	fontyourface.install	56c77e5452fef55ca7e02ca94c2dcdfb
+M	fontyourface.module	089452b02eed7de1f79805f191058693
+M	modules/edge_fonts/README.txt	cfcac43ad48903c23bae159d011117ef
+M	modules/edge_fonts/edge_fonts.info	57691bbc0ded8700227f9e7c39c8fb9d
+M	modules/edge_fonts/edge_fonts.list.inc	02f730d7ab2df490b2e55c0646cfd486
+M	modules/edge_fonts/edge_fonts.module	b706132fa6c25a7943fca75915cb8148
+D	modules/edge_fonts/ef_scraper/edge_fonts_scraper.info	
+D	modules/edge_fonts/ef_scraper/edge_fonts_scraper.module	
+M	modules/font_reference/font_reference.info	1a916b6db1c307ae0a168c2c9ffd7cd1
+M	modules/fontdeck/fontdeck.info	4896a52a61274f11db397be2380e97b3
+M	modules/fonts_com/api.inc	cb439dda844396c954a51ee4b3d1b8f5
+M	modules/fonts_com/fonts_com.info	e5b5995c09f20723922ba60cd4687651
+M	modules/fonts_com/fonts_com.module	744cf3b81f4576d25821f2a7ecc9b8a2
+M	modules/fontsquirrel/fontsquirrel.info	a7555d4097d42664d3cebe76c1f2dfd9
+M	modules/fontsquirrel/fontsquirrel.module	2401a8f5cd652d9f30c2ec603911de0f
+M	modules/fontyourface_ui/fontyourface_ui.info	73c7f802012fd7d2ec516cda1163f7ad
+M	modules/fontyourface_ui/fontyourface_ui.module	29dd31fc61f3ed2e91519668f6fb7265
+M	modules/fontyourface_ui/js/apply.js	56f69046d4c4109373ac85267219f06e
+M	modules/fontyourface_wysiwyg/fontyourface_wysiwyg.info	42660131630b4720d67c9726ae72a670
+M	modules/google_fonts_api/google_fonts_api.info	4233b3ad447774cffaaa96c2bdf7598b
+M	modules/google_fonts_api/google_fonts_api.module	87fba2900d83868d110642679552627b
+M	modules/local_fonts/local_fonts.info	a140f6ce474342ff511e2edbcede15a3
+M	modules/typekit_api/typekit_api.info	ef3229743f6247d12f110a24fc265aa5
+M	modules/typekit_api/typekit_api.module	0c11d562864a622b2f04466c1fd9ca84

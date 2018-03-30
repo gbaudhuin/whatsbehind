@@ -1,0 +1,9 @@
+M	README.txt	057762678a5c92e5029a598800fc686c
+A	config/schema/custom_search.schema.yml	72ebbcea1c186bed99cfc46f51827b3e
+M	custom_search.info.yml	445fd738d7e9d4b35bc9c96a56d769e1
+M	custom_search.module	d50bf4c4d66f47afe2da15ad24c4248f
+M	custom_search.pages.inc	5ce597f51122c094d9cc9007b9e1ca83
+A	custom_search.post_update.php	a92b25411563df12124f5d088c74f079
+M	src/Form/CustomSearchBlockForm.php	a997238abc61ee143a4632bc63e43a40
+M	src/Plugin/Block/CustomSearchBlock.php	15ac5a0ff3a9e841fd9620e2fbfd756a
+M	templates/custom_search-results.html.twig	d9a72b38f0f04853b462cac59238b0e5

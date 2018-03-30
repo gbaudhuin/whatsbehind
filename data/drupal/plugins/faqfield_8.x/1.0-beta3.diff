@@ -1,0 +1,9 @@
+M	config/schema/faqfield.schema.yml	1cde8af13ffc158da9d70b2148b6dbd6
+M	faqfield.info.yml	ce31ccd892458a039ce4003503120856
+M	faqfield.module	82f92006039b5569be9168f9b5b8b706
+M	src/Plugin/Field/FieldFormatter/FaqFieldAccordionFormatter.php	e30864e45b87330962ae2e2319d1bd9d
+M	src/Plugin/Field/FieldFormatter/FaqFieldAnchorListFormatter.php	ba3e9a08a7bdc01f1ef5c7b6e1a602b6
+M	src/Plugin/Field/FieldFormatter/FaqFieldDefinitionListFormatter.php	d88d4d73655df63c4dd2e9ebfd8b4e88
+M	src/Plugin/Field/FieldFormatter/FaqFieldSimpleTextFormatter.php	d511798b4b52008c1123a0c3354dd985
+M	src/Plugin/Field/FieldType/FaqFieldItem.php	e4905e43efdee3fcadf8127410949e2b
+M	src/Plugin/Field/FieldWidget/FaqFieldDefaultWidget.php	76e99bcdf3a264537167ab0f948839a1

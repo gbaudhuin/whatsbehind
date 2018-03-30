@@ -1,0 +1,38 @@
+M	entity_browser.info.yml	e0f8e83911ff8e9d99a9615cf73c0775
+M	entity_browser.install	f46ebbdbd5f625c9b2f64551429c3843
+M	entity_browser.module	17cb95366126184f8aea4289822da90e
+M	modules/entity_form/entity_browser_entity_form.info.yml	169c4e34056f4fa91dbfbf579ce149c2
+M	modules/entity_form/entity_browser_entity_form.module	693cdd3f82bb087f9d4d0e8552d3006f
+M	modules/entity_form/tests/modules/entity_browser_entity_form_test/entity_browser_entity_form_test.info.yml	3b33f6f7104fa8c9fcbdc6e5f1135d2b
+M	modules/example/entity_browser_example.info.yml	fec1719d88b1b2b9e3ca96fb4c3edd12
+M	src/Entity/EntityBrowser.php	3b18289a804acbbbc8936b78c9ec93aa
+M	src/Permissions.php	0adb948552dd495951b4773808888033
+M	src/Plugin/EntityBrowser/Display/Modal.php	f87b7b5016cbb5e5ff8111c62634b74f
+M	src/Plugin/EntityBrowser/SelectionDisplay/MultiStepDisplay.php	19142ff224fd92e22a995d19281b289b
+M	src/Plugin/EntityBrowser/SelectionDisplay/NoDisplay.php	ac5b8199a84b8d96bfa04eebe2c47285
+M	src/Plugin/EntityBrowser/SelectionDisplay/View.php	6030054eed41e32250457ae45ebacef7
+A	src/Plugin/EntityBrowser/Widget/MediaImageUpload.php	aadd2472c16a22919d7000a49c156a0e
+M	src/Plugin/EntityBrowser/Widget/View.php	0ed2e6064d261f03da3149d927f505a0
+M	src/Plugin/EntityBrowser/WidgetSelector/DropDown.php	8f7546b236ec3ff83f31eca797bb693d
+M	src/Plugin/EntityBrowser/WidgetSelector/Single.php	2c76c73f7750556672b9e26c0b110bdf
+M	src/Plugin/EntityBrowser/WidgetSelector/Tabs.php	4f3d387b0a187355d1f4bdad14b15414
+M	src/Plugin/Field/FieldWidget/EntityReferenceBrowserWidget.php	dbc476d58ddf330ba58a061e4a3bf2f1
+M	src/RouteSubscriber.php	80dd39ebc0b1126eff30164030f0cfe1
+M	src/WidgetManager.php	7f7754f7c50409332c4ad5d4875cf101
+D	tests/modules/entity_browser_ief_test/config/install/core.entity_form_display.media.ief_media_bundle.default.yml	
+A	tests/modules/entity_browser_ief_test/config/install/core.entity_form_display.media.ief_media_type.default.yml	76df9d33794a5fcd2a04a863cfd14187
+D	tests/modules/entity_browser_ief_test/config/install/core.entity_view_display.media.ief_media_bundle.default.yml	
+A	tests/modules/entity_browser_ief_test/config/install/core.entity_view_display.media.ief_media_type.default.yml	b87feac852c16783c1e3c527c0da35f4
+D	tests/modules/entity_browser_ief_test/config/install/field.field.media.ief_media_bundle.ief_media_bundle_file_field.yml	
+A	tests/modules/entity_browser_ief_test/config/install/field.field.media.ief_media_type.ief_media_type_file_field.yml	1e9edfe9fbbc0e05ab3c0ea3be352ec1
+M	tests/modules/entity_browser_ief_test/config/install/field.field.node.ief_content.ief_media_field.yml	f2f4d6bb74fabe12b4f9f0566a9c803b
+D	tests/modules/entity_browser_ief_test/config/install/field.storage.media.ief_media_bundle_file_field.yml	
+A	tests/modules/entity_browser_ief_test/config/install/field.storage.media.ief_media_type_file_field.yml	391a7e028549514e37c648bc427e2d73
+M	tests/modules/entity_browser_ief_test/config/install/field.storage.node.ief_media_field.yml	9b08584a3092e29be35d30f3425c88d8
+A	tests/modules/entity_browser_ief_test/config/install/media.type.ief_media_type.yml	80fcf2d206200f0945f44093a2a6abe1
+D	tests/modules/entity_browser_ief_test/config/install/media_entity.bundle.ief_media_bundle.yml	
+M	tests/modules/entity_browser_ief_test/entity_browser_ief_test.info.yml	b52d8d9c502ab71e083575121e2fcfa0
+M	tests/modules/entity_browser_test/entity_browser_test.info.yml	9c7591bafeb8e5247fc80f237a4d7c1f
+M	tests/modules/entity_browser_test_paragraphs/entity_browser_test_paragraphs.info.yml	0f0c44ebab4c5430e8805a667339fede
+M	tests/src/FunctionalJavascript/InlineEntityFormTest.php	eeea1dfc1fc79d20e6d80df2c4264cce
+M	tests/src/Kernel/Extension/EntityBrowserTest.php	31fd63352734e8fc0aae49c0c05b3fac

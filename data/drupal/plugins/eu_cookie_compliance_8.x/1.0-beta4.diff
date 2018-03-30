@@ -1,0 +1,10 @@
+M	README.txt	b856f18d7febbf547c6f8bab7419fb16
+A	config/install/eu_cookie_compliance.settings.yml	358799d7b60ab6c0985f3475d27e815e
+A	config/schema/eu_cookie_compliance.schema.yml	874aa6d1d79c2461b27a6c60840d41da
+A	eu_cookie_compliance.config_translation.yml	c334a81e35d7b8d8d60905adfb657add
+M	eu_cookie_compliance.info.yml	bf9e52c0fe50f8bf5aaccba8d8826752
+M	eu_cookie_compliance.install	fd44ff963bb387e2b1ef9933273024e6
+A	eu_cookie_compliance.links.task.yml	ca2dbe91b5deb5bbe413f812817c0037
+M	eu_cookie_compliance.module	bdbdddf07b1c089348053e89c178de0d
+M	js/eu_cookie_compliance.js	77115bc325ca2fe5e97b5993a3f09fa5
+M	src/Form/EuCookieComplianceAdminForm.php	f66162145811ce546e22cd5a2b82c4c0

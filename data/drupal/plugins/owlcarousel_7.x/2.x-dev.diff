@@ -1,0 +1,26 @@
+M	README.txt	c2183c3fefc0edbc365448168b91814d
+M	includes/js/owlcarousel.settings.js	9b56fd21b7f7af0d01f53447973803d0
+D	modules/colorbox/README.txt	
+D	modules/colorbox/owlcarousel_colorbox.info	
+D	modules/colorbox/owlcarousel_colorbox.module	
+D	modules/colorbox/owlcarousel_colorbox.variable.inc	
+M	modules/fields/owlcarousel_fields.info	2a1ec4ffce81381110a0a3dca84ba306
+M	modules/fields/owlcarousel_fields.module	9623f5cfbb630269741b3fbb2f99c86a
+M	modules/ui/owlcarousel_ui.admin.inc	88be37f7c2ffcb9eaebd13fde069411e
+M	modules/ui/owlcarousel_ui.info	55c6aab94a36b11b94513efef571fb8e
+M	modules/ui/owlcarousel_ui.module	ff1087eda26c4b4cbd120d2945048f55
+D	modules/views/css/owlcarousel.views.css	
+D	modules/views/js/owlcarousel.views.js	
+M	modules/views/owlcarousel_views.info	0dd5b9652d3c2db97ab38a34f487bc28
+M	modules/views/owlcarousel_views.module	edc08fd99f32205a4cec02932eb7d73c
+M	modules/views/owlcarousel_views.views.inc	3d97dc11ad2d357c4f72bf85414efc8a
+D	modules/views/owlcarousel_views_plugin_pager_owlcarousel.inc	
+M	modules/views/owlcarousel_views_plugin_style_owlcarousel.inc	d5558e4bd1d46189c06c233ec0dacafb
+D	modules/views/theme/owlcarousel-views.tpl.php	
+M	modules/views/theme/owlcarousel_views.theme.inc	6413a482a3ebc971d6cec46a126301b5
+M	owlcarousel.api.php	bf57f6511b689d00d9c393c11005dcae
+M	owlcarousel.info	e0a294ad836a3fb3bf2be38d8077ef5f
+M	owlcarousel.install	4aaf0385f81d6ccf913bbca6a9c5bfc6
+M	owlcarousel.module	7c1d748e3dc0340c639cffbe59012ce2
+M	owlcarousel.variable.inc	8ffabf878599f91ed53483b3d34fbdaf
+M	theme/owlcarousel.theme.inc	91b7a85f5e7e23abe1293dd2c27bc446

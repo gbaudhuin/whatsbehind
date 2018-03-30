@@ -1,0 +1,6 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	5c787bab32c57dc261c8c66f9fd0237c
+A	config_readonly.info.yml	7a306c32b68197cdb8ebd3c1f6f89a76
+A	config_readonly.module	b706f014d4c586b5f7d87a6716ff8857
+A	src/Config/ConfigReadonlyStorage.php	c0c7bb3246c7fb6e137dd1b133cb0e92
+A	src/ConfigReadonlyServiceProvider.php	64f12c90361d91ab3255265ebed7bfad

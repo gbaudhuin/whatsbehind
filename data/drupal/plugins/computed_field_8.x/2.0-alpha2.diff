@@ -1,0 +1,13 @@
+M	computed_field.info.yml	b40cf69306085fee70c54c08fb70e04f
+M	computed_field_example_formatter/computed_field_example_formatter.info.yml	3d6234f87214d3eb4cdd3dc25e060144
+M	computed_field_php_formatter/computed_field_php_formatter.info.yml	7389419db6d2846c9b36a580ea23ff33
+M	src/Plugin/Field/FieldFormatter/ComputedCacheFormatterTrait.php	93e026c5337adf48f25ebad9af22547f
+M	src/Plugin/Field/FieldFormatter/ComputedPhpFormatterBase.php	b48c3589cde5a4a3f0c79875237595d6
+M	src/Plugin/Field/FieldType/ComputedDecimalItem.php	3a2893e21b087e8f495f86c46d42c24d
+A	src/Plugin/Field/FieldType/ComputedFieldItemBase.php	5facc91fc1fb5078db21e7384ae547d0
+A	src/Plugin/Field/FieldType/ComputedFieldItemTrait.php	0a6357ea2bb5183dc97307c2ebc7eb05
+M	src/Plugin/Field/FieldType/ComputedFloatItem.php	2f6b3f69ac5c8121454d1b4fbd9d45bb
+M	src/Plugin/Field/FieldType/ComputedIntegerItem.php	9da3159cea1bc45ddcddeb7d3960263e
+M	src/Plugin/Field/FieldType/ComputedStringItem.php	cd1ed3cb63bdb9d93f3f811b3d347f6c
+A	src/Plugin/Field/FieldType/ComputedStringItemBase.php	f250c110655fce8c736a2341255ae40d
+M	src/Plugin/Field/FieldType/ComputedStringLongItem.php	1a394dbaa56c6149a8729b78576b7699

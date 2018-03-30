@@ -1,0 +1,8 @@
+A	README.txt	d4df4f6467c097292281d54a34df3947
+M	social_auth.info.yml	5cb1449fd88bc27c607146ec430ef147
+M	social_auth.module	1a944be06e1ce7a356b2ce320cd554cf
+M	src/Controller/SocialAuthController.php	5ac4c84d83f21ff6a64f04330c50af21
+M	src/Plugin/Block/SocialAuthLoginBlock.php	7e6a612ef00752f5d7e6e42074a7d90c
+A	src/Plugin/Network/SocialAuthNetwork.php	a0936d974abb77e963756ed0a1de415a
+A	src/Plugin/Network/SocialAuthNetworkInterface.php	e4d679f26ed0a3c5af7c06571a59e9f3
+M	src/SocialAuthUserManager.php	08e267c78205863c2214e3cb52e05b47

@@ -1,0 +1,5 @@
+M	crop.info.yml	a1f5d758e4642af5b1b593d29efe4408
+M	crop.module	4a6fbc9166f3705a0b6f485dfbc3c517
+M	modules/crop_media_entity/crop_media_entity.info.yml	c6b0f4f51e161f2769d68b853e426d7d
+M	src/Plugin/ImageEffect/CropEffect.php	70af0b050462a7250d79d5f73422620f
+M	src/Tests/CropFunctionalTest.php	b381e7a69e67b5e1e624595d359e62ba

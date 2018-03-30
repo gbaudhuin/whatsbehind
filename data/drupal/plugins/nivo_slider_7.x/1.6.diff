@@ -1,0 +1,12 @@
+A	includes/nivo_slider_slider.inc	f6678989234a9a3da8fb9dccb437aeaf
+M	js/nivo_slider.js	888a9a190a0897d548b2b59e3ed1e0f0
+M	nivo_slider.api.php	c0fc8dfdd7188b97388cc19e509c2088
+M	nivo_slider.info	aea993c4d887730d2ab6291a61f9bc02
+M	nivo_slider.install	0abb24114179b3e22c99d884d46b7830
+M	nivo_slider.module	ab2b3c69b3119cca1580dc5db2206784
+D	nivo_slider.test	
+M	nivo_slider_options.admin.inc	50b8b17b77b1dfeb3206e4480fa2c499
+M	nivo_slider_slides.admin.inc	754550bf14824af029a7540d36b95846
+D	slider.inc	
+A	tests/nivo_slider.test	4efdc0c92a894f8b355eed4955bd7324
+M	themes/nivo_slider.theme.inc	7ef18f637edd39585048575659ee9eff

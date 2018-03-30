@@ -1,0 +1,14 @@
+M	README.txt	6b5cd6e4f981c609f0b5aae17d358dd2
+M	assets/css/flexslider_img.css	d2fce001243b9839bdea161f39417160
+M	flexslider.admin.inc	ce33f66c4aa944d22d0a5e4b6175f39e
+A	flexslider.api.php	b13872a3f4df877bfb7cea02636b5826
+M	flexslider.info	657390e1e56bf2290629f0b16f38f1b4
+M	flexslider.make	ca8afd24039bc92a8a90fb3938749513
+M	flexslider.module	6cd58bbea0f54ef6dbc9fc5f50bbe463
+M	flexslider_fields/flexslider_fields.info	9e70c6a36d98d90c346e604f723b78ee
+M	flexslider_views/flexslider_views.info	d139727e5468ada09a7f1046ed1b4b5e
+M	flexslider_views/flexslider_views_plugin_style_flexslider.inc	06406a9206a1b3696d1f91e799209c81
+M	flexslider_views/theme/flexslider_views.theme.inc	8511d2d478c8f02fd5daeab17e84c412
+M	flexslider_views_slideshow/flexslider_views_slideshow.info	984d92b1d8134f631b0b5ce6456eedf9
+M	theme/flexslider-container.tpl.php	b282c73b53d707566dbc4b8ad7a3cdbd
+M	theme/flexslider.theme.inc	6d136d29ab958a8f1abebffb9cdd81a7

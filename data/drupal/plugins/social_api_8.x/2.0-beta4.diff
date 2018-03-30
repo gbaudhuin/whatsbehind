@@ -1,0 +1,5 @@
+M	social_api.info.yml	5fc14c852152d8977653fd11a50adcb8
+M	social_api.routing.yml	744b24745cc98f054cf4ad900d8319db
+M	social_api.services.yml	cf18bea2c1c57812a96a35779b8b8586
+M	src/AuthManager/OAuth2Manager.php	0a04fd8a01ac421e89b8822a5a44ee74
+M	src/AuthManager/OAuth2ManagerInterface.php	86958f329e794e6698056c9edbcabeb5

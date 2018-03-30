@@ -1,0 +1,17 @@
+M	readme.html	db5c7b4f7bab8f481dbc78262bb92c2b
+M	wp-admin/about.php	4530ce8f18143a86946fd2ab1e7a3992
+A	wp-content/plugins/akismet/LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	wp-content/plugins/akismet/_inc/akismet.css	c8e7914736523e594837705d2c0e2714
+M	wp-content/plugins/akismet/_inc/akismet.js	09c02c732a401323bce97f3fc2b1e637
+M	wp-content/plugins/akismet/akismet.php	c8a110c01b916aed48ca3fa41674d57d
+M	wp-content/plugins/akismet/class.akismet-admin.php	1ea640fc01c689987bb35a11a6f8f885
+M	wp-content/plugins/akismet/class.akismet.php	dedbe439abb24d15e7ee6a967c16b91a
+M	wp-content/plugins/akismet/readme.txt	6c971cb404551dfcc03a063d9b209852
+M	wp-content/plugins/akismet/views/config.php	8571cc76976d930a6e53abe8e90c6db9
+M	wp-content/plugins/akismet/views/get.php	7ba85bb5bdca316f6bd7a1d01b21d7d6
+M	wp-content/plugins/akismet/views/notice.php	1e864b2ce92a5735317c49704a001a39
+M	wp-content/plugins/akismet/views/start.php	52d19694ec16d382f7a0acecb7bf8c9a
+M	wp-content/plugins/akismet/views/strict.php	c74eba0324f8a62b9b1ef94355861fb1
+M	wp-includes/class-wp-theme.php	212e3899c1ff3ebf59c7f2b773743c24
+M	wp-includes/update.php	dfa8e29fa7fe9aea95ece922f7560b2c
+M	wp-includes/version.php	989ac91743542c9d4444e8c540596123

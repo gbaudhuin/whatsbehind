@@ -1,0 +1,13 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+D	image.gif	
+M	spamspan.info	946b31a9dcdcef41f593db0fef734952
+M	spamspan.module	ffeb664b6f8d1a4d2238f9bae8789dde
+D	spamspan.test	
+A	spamspan_admin.php	5ba8f54dab0a373eb09456aac976fcf9
+A	spamspan_function_usage.txt	d99c2d551bfb45e1ebde9a78b9ff80cd
+A	test/spamspan_test.inc	8d0ce180ce3df5a317048b154065b667
+D	translations/de.po	
+D	translations/el.po	
+D	translations/hu.po	
+D	translations/nb.po	
+D	translations/ru.po	

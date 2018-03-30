@@ -1,0 +1,15 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	322d74188954a4b713642eb5b137b0c0
+A	config/install/fitvids.settings.yml	2cc9ba38af8aaf9a4cd3f8ade4eecf94
+A	fitvids.css	62c601a55e1a17236dbac60cc2113e42
+A	fitvids.info.yml	ea60310f1b13dcec6faeb87bb8733721
+A	fitvids.install	5d61e28bd80da07c1b8df591c7cb8543
+A	fitvids.libraries.yml	ffa2829e7c8c3e12499132b34c80fe77
+A	fitvids.links.menu.yml	ccd948288b0013dbe959e66faa083a16
+A	fitvids.make.example	e3bc7fc2b88e069d25e60020098258a1
+A	fitvids.module	41ccc56d980875468cf707bcea6f5641
+A	fitvids.permissions.yml	e6af936947751c6f415e70ca3d3c8eee
+A	fitvids.routing.yml	f7878aaae775d5575f3fa379511374c5
+A	js/init-fitvids.js	b766a1d39031a5a23b2e46a13633c7b6
+A	js/jquery.fitvids.js	3fde640beffaca6853692c3a8399837f
+A	src/Form/FitvidsAdminSettingsForm.php	bc0753482b73bec260986b2d1f4fee8d

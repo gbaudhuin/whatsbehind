@@ -1,0 +1,7 @@
+A	.gitignore	9328ad231dc2718bdf3c8f4768032484
+A	composer.json	0b9c11475e54c3baa7770721baba13f5
+A	src/Plugin/Validation/Constraint/TaxonomyUnique.php	4f707ba7ce126062eaae22272f9d9040
+A	src/Plugin/Validation/Constraint/TaxonomyUniqueValidator.php	d779385e5e56803231522a46ca9e5c3c
+M	taxonomy_unique.info.yml	21bd82dbadf898540a733a18f2431b01
+M	taxonomy_unique.module	d6df747b6cb9a6ae2277a77cee4d959f
+A	tests/src/Kernel/TaxonomyUniqueTest.php	e14be6fd9114a3ff3c2ea935aae1a600

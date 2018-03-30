@@ -1,0 +1,108 @@
+M	CHANGELOG.txt	da1dd7da5093f1865438586a30879da4
+M	config/schema/search_api.index.schema.yml	21c2bb36196a06d58913169ecd02ee89
+M	config/schema/search_api.processor.schema.yml	ff59f96bf8710f7a3514ff111c93daf2
+M	config/schema/search_api.views.schema.yml	ffc69d8bf9d639bbd22d32b3d1d7ca52
+M	modules/search_api_db/search_api_db.info.yml	9b862b81e2bc93f18e3c9f15a61eed66
+M	modules/search_api_db/search_api_db_defaults/config/optional/search_api.index.default_index.yml	043071852e39b66e36416040019b906b
+M	modules/search_api_db/search_api_db_defaults/search_api_db_defaults.info.yml	87a8039645cafd42d0a65af3406eac89
+D	modules/search_api_db/search_api_db_defaults/src/Tests/IntegrationTest.php	
+A	modules/search_api_db/search_api_db_defaults/tests/src/Functional/IntegrationTest.php	f71726925e550fb20a1771dde90026ec
+M	modules/search_api_db/src/Plugin/search_api/backend/Database.php	15cbc862fcda5151abf5067d7c365ef3
+D	modules/search_api_db/src/Tests/IntegrationTest.php	
+A	modules/search_api_db/tests/src/FunctionalJavascript/IntegrationTest.php	b7e181eb2fb1f91070d07fc572d6f787
+M	modules/search_api_views_taxonomy/search_api_views_taxonomy.info.yml	b7196f0d99c976f64a3ddeadd7eace1e
+M	search_api.api.php	dab3c05221782240a4d9cc52a2bbf9fc
+M	search_api.info.yml	375e42c2fca17ca3993633e93a9dd242
+M	search_api.install	dfc94efb4a3fdc945df3070e726f30ed
+M	search_api.module	058e854a0e29e8f5f730a28828e73258
+M	search_api.views.inc	7b64d9a2c46b3cecc2c4a4446f7f4e5f
+M	src/Display/DisplayInterface.php	345f1322f8347f986d33e43bbdbca432
+M	src/Display/DisplayPluginBase.php	87dd7cd5704faaf3c53bf59589dea682
+M	src/Display/DisplayPluginManager.php	b3049c7060d6ec6049023985ecfccea1
+M	src/Entity/Index.php	9e7cf7f6a620d9620d60dedc66ed319c
+M	src/Form/IndexStatusForm.php	3500b368541154bad8eb2d99cffad248
+M	src/Plugin/search_api/datasource/ContentEntity.php	bc2a40c9acb2c156e88997d0841ec929
+M	src/Plugin/search_api/display/ViewsBlockDisplay.php	cc4f6f2c8fd2367f6f18e6e1231cbf87
+A	src/Plugin/search_api/display/ViewsDisplayBase.php	e0c632c709632843198632fc791448af
+M	src/Plugin/search_api/display/ViewsPageDisplay.php	5d543502389cec33d754e2caf6793f33
+M	src/Plugin/search_api/display/ViewsRestDisplay.php	ad53e588fcb55a0f4cbdd7028a86fa42
+M	src/Plugin/search_api/processor/Highlight.php	972de147583f0a9beaf4dcd93400b457
+M	src/Plugin/search_api/processor/HtmlFilter.php	0aba99d8f929c45924c9b2535ec6d165
+M	src/Plugin/search_api/processor/IgnoreCharacters.php	a2a63ac3ffcad431635a61a86995bf42
+M	src/Plugin/search_api/processor/RenderedItem.php	8e0100dede8d44abe6493779b67fb053
+A	src/Plugin/search_api/processor/Resources/Porter2.php	a69c375ce8b04da73b08f93ffda1246a
+M	src/Plugin/search_api/processor/RoleFilter.php	ff479e5dffec3f7c42c4c03dd3b79681
+A	src/Plugin/search_api/processor/Stemmer.php	22bdd04a1d76add94bca69b71e67fb6c
+M	src/Plugin/search_api/processor/Stopwords.php	8fb210b9a186c20efe113d5c39724968
+M	src/Plugin/search_api/processor/Tokenizer.php	aa0817f146cd780bc5f12253be6bf8bf
+M	src/Plugin/search_api/tracker/Basic.php	aef96e1c6e6b687923f30d306d9937c2
+M	src/Plugin/views/EntityFieldRenderer.php	866157b350698595d0b1792a8933db7c
+M	src/Plugin/views/field/SearchApiFieldTrait.php	b9cd9cb509dd34c6204ce28bfa9482af
+M	src/Plugin/views/query/SearchApiQuery.php	1e7be0f6185d061459d75f119a747d4d
+M	src/Plugin/views/relationship/SearchApiRelationship.php	823778ac07300a3ec2d9878465d159f7
+M	src/Processor/FieldsProcessorPluginBase.php	83bd00792accce4991fa5484a5c52134
+M	src/Processor/ProcessorPluginBase.php	a0f7dde9294637c5bdae44dcbb522aae
+M	src/Query/ConditionGroup.php	b34ed41293cdedfa365ebf33611b8e6d
+M	src/Query/Query.php	3c4b55f8a7b8228afe01a47bcfe0b8ac
+M	src/Task/IndexTaskManager.php	03e300ff81bc14f07408430103834a0e
+M	src/Task/TaskManager.php	7900e62dd95b9278b81fcb24923e9179
+D	src/Tests/CacheabilityTest.php	
+D	src/Tests/ExampleContentTrait.php	
+D	src/Tests/HooksTest.php	
+D	src/Tests/IntegrationTest.php	
+D	src/Tests/LanguageIntegrationTest.php	
+D	src/Tests/LocalActionsWebTest.php	
+D	src/Tests/OverviewPageTest.php	
+D	src/Tests/ProcessorIntegrationTest.php	
+D	src/Tests/ViewsTest.php	
+D	src/Tests/WebTestBase.php	
+M	tests/search_api_test/search_api_test.info.yml	d81b9499aaefba27ca4209b1a77bf469
+M	tests/search_api_test_db/config/install/search_api.index.database_search_index.yml	1a9fbe4033b7bc49c2e56e1f53f112b5
+M	tests/search_api_test_db/search_api_test_db.info.yml	f9483035c95351982188e72fe97fbead
+A	tests/search_api_test_example_content/config/install/field.field.entity_test_mulrev_changed.entity_test_mulrev_changed.body.yml	2e9882ead5b2eaf5f01ac7738e1b4bdb
+A	tests/search_api_test_example_content/config/install/field.field.entity_test_mulrev_changed.entity_test_mulrev_changed.category.yml	8f8cc53faef1d1dff8f46a58760eb01a
+A	tests/search_api_test_example_content/config/install/field.field.entity_test_mulrev_changed.entity_test_mulrev_changed.keywords.yml	531d9fc30728b1615fb75c1b5bcc1e9b
+A	tests/search_api_test_example_content/config/install/field.field.entity_test_mulrev_changed.entity_test_mulrev_changed.width.yml	c2cf733c98f149d070e0cc94250abcca
+M	tests/search_api_test_example_content/search_api_test_example_content.info.yml	63e4366d049021c8716aae27c03dccc4
+M	tests/search_api_test_extraction/search_api_test_extraction.info.yml	90e13b69ad08524032d455a4030a0b30
+M	tests/search_api_test_hooks/search_api_test_hooks.info.yml	79c1f8cb5ec0ce3ba9d170158c4409c9
+M	tests/search_api_test_hooks/search_api_test_hooks.module	6177d32bd83f895887c21c637292e833
+M	tests/search_api_test_tasks/search_api_test_tasks.info.yml	0ec90b809b593861af8d7716e26ee66c
+M	tests/search_api_test_views/search_api_test_views.info.yml	3af119b4e5748cedfd7846dca499bb24
+A	tests/src/Functional/CacheabilityTest.php	9321b3646bcd66b403ae87397033fdbb
+A	tests/src/Functional/ExampleContentTrait.php	3b6399e34623ceefef859946f47cad42
+A	tests/src/Functional/FieldIntegrationTest.php	4212a1072a3479f16fc7bbe29203a34e
+A	tests/src/Functional/HooksTest.php	0c0d2b052061d8c4dee9edae25d95f87
+A	tests/src/Functional/IntegrationTest.php	d136948f543788a47429161b48256947
+A	tests/src/Functional/LanguageIntegrationTest.php	66f3e9233fec021427efb205b96efa65
+A	tests/src/Functional/OverviewPageTest.php	c980f162ff41d6625785b18f47c9187d
+A	tests/src/Functional/ProcessorIntegrationTest.php	3b838cff8ae57548c4d6450035bdba17
+A	tests/src/Functional/SearchApiBrowserTestBase.php	579c1b576d56fb079487f096ae95ff3d
+A	tests/src/Functional/ViewsTest.php	20d9f43362a06f41ec49f72a0ead6380
+M	tests/src/Kernel/BackendTestBase.php	ac606b2c48dce4fc9422f8a1f5958287
+M	tests/src/Kernel/BundlelessEntityTest.php	88e9f20e6d0e856c369c8abf1177da30
+M	tests/src/Kernel/CliTest.php	7a9309783f2f4f63baa293eaed2b6adc
+A	tests/src/Kernel/ContentEntityDatasourceTest.php	103eef95eebf48e2da695d7afedb3f9c
+M	tests/src/Kernel/CustomDataTypesTest.php	754cd39003f6ff5f766a93e1f7e71ffd
+M	tests/src/Kernel/DatasourceTaskTest.php	753ff0ce899fd4f25596b5eb6ade3f90
+M	tests/src/Kernel/DependencyRemovalTest.php	505319cb71238d93f02fc0a520489f5a
+M	tests/src/Kernel/EntityStringIdTest.php	6940876a93cf3699d821ac6180a85d7c
+M	tests/src/Kernel/FieldValuesExtractionTest.php	5f95254ae5076fd644aafaaf32c3812e
+M	tests/src/Kernel/IndexChangesTest.php	93036fd14a10ebfff6f364cd82f0ed84
+M	tests/src/Kernel/IndexImportTest.php	55044eeff395a82067d2f6f6d00b7f2c
+M	tests/src/Kernel/IndexLoadItemsTest.php	fc925e2441bd572a5ea0a5ebe50be225
+M	tests/src/Kernel/LanguageKernelTest.php	a25b25850dbc44c50a30efd9644f69e5
+M	tests/src/Kernel/Processor/AddHierarchyTest.php	54d40034ab2814daaa8a4452a6b69f6f
+M	tests/src/Kernel/Processor/ContentAccessTest.php	04653da72ffff72260d605f5c9f24008
+M	tests/src/Kernel/Processor/ProcessorTestBase.php	71e23e846f4a55f89e02363051a8c31e
+M	tests/src/Kernel/Processor/RenderedItemTest.php	9741850d1f60533a76cc77a8dca14202
+M	tests/src/Kernel/QueryTest.php	125a8afaec4ba65d400e25a483aebfc7
+M	tests/src/Kernel/ServerChangesTest.php	56e00a5c3d407dfdc96cae17000ead28
+M	tests/src/Kernel/ServerTaskTest.php	eada464fdb077be357e7de44bda1332a
+M	tests/src/Kernel/TaskTest.php	7e571a187a9f84799f1eee0d39eaa1ae
+M	tests/src/Kernel/ViewsDisplayTest.php	18eabb0330b32f43bafc1d1e2424fa65
+M	tests/src/Unit/Plugin/Processor/AggregatedFieldsTest.php	31aab85cc77da1dea89559b71957057e
+M	tests/src/Unit/Plugin/Processor/FieldsProcessorPluginBaseTest.php	3b15acf15230954573ded1196f10bd91
+M	tests/src/Unit/Plugin/Processor/HighlightTest.php	d5e311f720b3162d361f62c1f5994a2b
+M	tests/src/Unit/Plugin/Processor/HtmlFilterTest.php	295cc55a2e5ab34189e06fef20e9e84c
+A	tests/src/Unit/Plugin/Processor/StemmerTest.php	f58527a9bfab263198042dc653616f13

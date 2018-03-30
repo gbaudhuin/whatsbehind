@@ -1,0 +1,12 @@
+M	src/Entity/VarnishPurgerSettings.php	6352ff89a4816e3fad6cb45032f9900d
+M	src/Form/VarnishBundledPurgerForm.php	5a88b32c3cda7ac22f026ec8fec7148e
+M	src/Form/VarnishPurgerForm.php	45ed3d5b84f27c5e6ab41a217e711314
+M	src/Form/VarnishPurgerFormBase.php	16614ec414bc275533ddd1bdf0ef1eb3
+M	src/Plugin/Purge/DiagnosticCheck/ConfigurationCheck.php	95508dafdc40928afc57952d72fcc75d
+M	src/Plugin/Purge/Purger/VarnishBundledPurger.php	601858fd066eedea9c64ae8e87988e2b
+M	src/Plugin/Purge/Purger/VarnishPurger.php	e7e85ecb4e377ebe9cc0b56c92568fbd
+M	src/Plugin/Purge/Purger/VarnishPurgerBase.php	564c70101c72828533bffc8e609f35e4
+M	src/Tests/VarnishBundledPurgerFormTest.php	dcf3410cddd29622159405b187dc96e8
+M	src/Tests/VarnishPurgerFormTest.php	88554236c5170fa47939681c783410db
+M	src/Tests/VarnishPurgerFormTestBase.php	8f4fdb60b92cc1677c2ec785f708be6a
+M	varnish_purger.info.yml	b15af83cd5fb4d339a9570448aa70959

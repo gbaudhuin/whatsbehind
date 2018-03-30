@@ -1,0 +1,78 @@
+M	README.md	16782bbbc835f74b574c18903b3bce99
+M	config/install/core.entity_form_display.paragraph.bp_accordion.default.yml	be028671062c6076a7103d03ab8243d8
+M	config/install/core.entity_form_display.paragraph.bp_block.default.yml	5b91d2c94dcf2872a6d46d742ba46f9e
+M	config/install/core.entity_form_display.paragraph.bp_carousel.default.yml	301978d8df3c445a3581c1f4643cc53e
+M	config/install/core.entity_form_display.paragraph.bp_columns.default.yml	62a5c16eec13eb8da0001345621a3d91
+M	config/install/core.entity_form_display.paragraph.bp_columns_three_uneven.default.yml	10629e11aed2179b7766f7d5fc989a8f
+M	config/install/core.entity_form_display.paragraph.bp_columns_two_uneven.default.yml	d6311e7c0a4976b2d83804ae1a0319c3
+M	config/install/core.entity_form_display.paragraph.bp_image.default.yml	9f5f32e00c2a0e042758921c8fc4d9b0
+M	config/install/core.entity_form_display.paragraph.bp_modal.default.yml	c867f05fc080ea7bdb9e17443747d317
+M	config/install/core.entity_form_display.paragraph.bp_simple.default.yml	625bc6eab426c459d3bac56175f46270
+M	config/install/core.entity_form_display.paragraph.bp_tabs.default.yml	05a4e7ecde56e98a17d35fa3e646e142
+M	config/install/core.entity_form_display.paragraph.bp_view.default.yml	9792fc44cdf5bc0bede2115971084f3e
+M	config/install/core.entity_form_display.paragraph.bp_webform.default.yml	feca3d1c27bd29151da7d7d8ce824b68
+M	config/install/core.entity_view_display.paragraph.bp_accordion.default.yml	e141df343f73103fed9e028baa55bef5
+M	config/install/core.entity_view_display.paragraph.bp_image.default.yml	434c369c3ba50fc0ab7ec2e85862aba9
+M	config/install/core.entity_view_display.paragraph.bp_modal.default.yml	dfe6dba67f5aab8aba311f1818d9b746
+M	config/install/core.entity_view_display.paragraph.bp_webform.default.yml	7d5d165fc3b0c8b08b1098afb060c35e
+A	config/install/field.field.paragraph.bp_modal.bp_image_field.yml	0667b17cc58fa5854cab8ec30e604b19
+A	config/install/field.field.paragraph.bp_webform.bp_background.yml	907302d409f609c5dc78535454358224
+A	config/install/field.field.paragraph.bp_webform.bp_image_field.yml	927e40b2bc1a633ebd4a006ebd235148
+A	config/install/field.field.paragraph.bp_webform.bp_width.yml	e8de36c8a2e1d4aae49f409ea50b21d9
+M	config/install/paragraphs.paragraphs_type.bp_accordion_section.yml	1fe268265732fce41f274fbf9ebf25da
+A	config/install/varbase_bootstrap_paragraphs.settings.yml	5e2c2477ca1b8094d56f044152db13aa
+A	css/base/vbp-default.admin.css	f73b6a6ef7e109ec7991e91935705068
+A	css/base/vbp-default.admin.css.map	e5a44a3453eb42307cbe45da141d851d
+M	css/base/vbp-default.base.css	1f50a632e101235ddf818f44fa5ad01d
+M	css/base/vbp-default.base.css.map	f55fdaf8faf15c5069095ff196debf02
+M	css/component/vbp-accordion.component.css	6714ba45a363a8c781f3507cbb19c46b
+M	css/component/vbp-accordion.component.css.map	f19836d662c14c700a81dbb8d4dff80c
+M	css/component/vbp-carousel.component.css	c1877e4b093a57485cf6040825889f9a
+M	css/component/vbp-carousel.component.css.map	d41d8cd98f00b204e9800998ecf8427e
+M	css/component/vbp-image.component.css	9b40d0154ccec89842403e043a910c88
+M	css/component/vbp-image.component.css.map	d41d8cd98f00b204e9800998ecf8427e
+M	css/component/vbp-modal.component.css	0efb3c3aa4b98be8b3d0ef46fb601b60
+M	css/component/vbp-modal.component.css.map	7a190990cb247735b6326003dfa32459
+M	css/component/vbp-tabs.component.css	a0e269d4ef82cc8fb1d519ba89551af5
+D	css/layout/vbp-columns-three-uneven.layout.css	
+D	css/layout/vbp-columns-three-uneven.layout.css.map	
+D	css/layout/vbp-columns-two-uneven.layout.css	
+D	css/layout/vbp-columns-two-uneven.layout.css.map	
+D	css/layout/vbp-widths.layout.css	
+D	css/layout/vbp-widths.layout.css.map	
+M	css/theme/vbp-colors.theme.css	59e63832da1822cfa9fa02aa796a8aec
+A	js/vbp-scripts.admin.js	73ca428847b27dd13895ec91accd7783
+A	less/base/vbp-default.admin.less	3e2a5cff0f784fe8917a6146a23a446e
+M	less/base/vbp-default.base.less	ca7797a0592596e14f5d55dcfd5a5b2a
+M	less/component/vbp-accordion.component.less	4c5e76245ac39abd4e7f1ca719215e06
+M	less/component/vbp-carousel.component.less	d2e55f46b0aac8e168e2dc363b73a50e
+M	less/component/vbp-image.component.less	a7b6c3823bcf25e4fd438947fb1ae7e1
+M	less/component/vbp-modal.component.less	4d1d23dfb9cafa644e465b9d3e382f90
+D	less/layout/vbp-columns-three-uneven.layout.less	
+D	less/layout/vbp-columns-two-uneven.layout.less	
+D	less/layout/vbp-widths.layout.less	
+M	less/theme/vbp-colors.theme.less	df862429919bd1ec94f255ad48046ead
+M	modules/vbp_text_and_image/css/default.css	1ba42c6ed5362489ea473e2c414314d8
+A	modules/vbp_text_and_image/css/default.css.map	2f943f3c9ec10b7292f3f097cde69469
+M	modules/vbp_text_and_image/less/default.less	2df37ca5a001802eda90919c1e2f76c2
+M	modules/vbp_text_and_image/templates/paragraph--text-and-image.html.twig	80081296a709a6ecbc096f2c321a48a3
+M	modules/vbp_text_and_image/vbp_text_and_image.info.yml	26c51a46ac040711191de637e5d42654
+M	modules/vbp_text_and_image/vbp_text_and_image.module	5ea785ddd4f2aacaf092aacbe7f114ce
+A	src/Form/VarbaseBootstrapParagraphsSettingsForm.php	faf2cfb01a500cdf84c7ed3a337bdbf4
+M	templates/field--paragraph--bp-column-content.html.twig	d9caa32735a0c642ab944e8fccc9d98b
+M	templates/paragraph--bp-accordion.html.twig	749025b256943c4e879462eb889942ce
+M	templates/paragraph--bp-carousel.html.twig	784830fe4140f9e123c87d08641d53b3
+M	templates/paragraph--bp-columns-three-uneven.html.twig	48c644e42eaa644ef8201ce7ef89b29a
+M	templates/paragraph--bp-columns-two-uneven.html.twig	42d81d87fa300d5f3972c7fc61082620
+M	templates/paragraph--bp-image.html.twig	5feed6ea47dfea2bfa51a021cb84fc86
+M	templates/paragraph--bp-modal.html.twig	21438aff33257fe7eee7a416c5097dd2
+M	templates/paragraph--bp-tabs.html.twig	b82c574463089b173bbd6025abf3fb71
+M	templates/paragraph--default.html.twig	0c0700cceebf8cfe3ee415098c7c0e34
+M	varbase_bootstrap_paragraphs.info.yml	e9472d31fe7e41ef491983fc9bb3f154
+M	varbase_bootstrap_paragraphs.install	683c7474f8fc293990187762d9fd8704
+M	varbase_bootstrap_paragraphs.libraries.yml	f6d1880efdc3fea3b8349d567aa9f9ca
+A	varbase_bootstrap_paragraphs.links.menu.yml	cbc8fff96493acd3e421efd4db6d7ad7
+A	varbase_bootstrap_paragraphs.links.task.yml	c5a7924ad58a5b2e792913298f8adfab
+M	varbase_bootstrap_paragraphs.module	f840be430c3d93e368d7faa503232ac0
+A	varbase_bootstrap_paragraphs.permissions.yml	a7b1b53752b6a0da9ae5490015b6e953
+A	varbase_bootstrap_paragraphs.routing.yml	3ce5d483d4b62567353f27deb988b8b1

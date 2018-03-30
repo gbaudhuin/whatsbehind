@@ -1,0 +1,12 @@
+M	wp-admin/about.php	85771dea4cddbb529def4a8875ef29ea
+D	wp-content/themes/twentysixteen/.jscsrc	
+D	wp-content/themes/twentysixteen/.jshintignore	
+D	wp-content/themes/twentysixteen/.travis.yml	
+D	wp-content/themes/twentysixteen/CONTRIBUTING.md	
+D	wp-content/themes/twentysixteen/CONTRIBUTORS.md	
+D	wp-content/themes/twentysixteen/codesniffer.ruleset.xml	
+M	wp-content/themes/twentysixteen/functions.php	0d2c52c1f43cee6ec6686bbeb6d9f5ad
+M	wp-content/themes/twentysixteen/inc/customizer.php	1fc29d258f3ab097d1885fc86e5e965c
+M	wp-content/themes/twentysixteen/readme.txt	1c2fce4644a7c8a833137ae90b8743f2
+M	wp-content/themes/twentysixteen/style.css	729aa758bb330dc50f6bea29f7979398
+M	wp-includes/version.php	1f6aa2dd26afe497b0468c2c510d544b

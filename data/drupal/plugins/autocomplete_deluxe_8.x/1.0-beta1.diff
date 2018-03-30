@@ -1,0 +1,14 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	7589d2306a96fb9eb7f9b5c8589107ef
+A	assets/css/autocomplete_deluxe.css	cfe51b723cb050bf0bb7321ad151d5d0
+A	assets/css/autocomplete_deluxe.seven.css	73d0c87b98b9a4faded77ab8f04c0910
+A	assets/images/throbber.gif	ae6ffc909fc0deb781b3775e4cf517e7
+A	assets/images/x.gif	de0fddcf95650cee49f32cfdc723147c
+A	assets/js/autocomplete_deluxe.js	25dd0d26a7b80d6439536af2441de783
+A	autocomplete_deluxe.info.yml	25510b7772c5408032fb386afe575ae2
+A	autocomplete_deluxe.libraries.yml	dbf1b71e952475e7536b3e7c42094a11
+A	autocomplete_deluxe.routing.yml	302dad6725ba15b2861d20e2f1707e25
+A	composer.json	b3988cff1bd1e0f11078ceac211bf1d4
+A	src/Controller/AutocompleteDeluxeController.php	ef154d01f144343bd631bba59b3a7b5e
+A	src/Element/AutocompleteDeluxeElement.php	b1459aa76feee57b193981b2eda2c15d
+A	src/Plugin/Field/FieldWidget/AutocompleteDeluxeWidget.php	3381fc577cb6a580d07fd061f84ac54e

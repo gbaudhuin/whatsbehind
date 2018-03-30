@@ -1,0 +1,7 @@
+M	config_provider.info.yml	32903f20934055bfcfb3931c51b06427
+M	src/Plugin/ConfigCollector.php	443aa5607f0bffdd6e9da509bd0c0041
+M	src/Plugin/ConfigCollectorInterface.php	bc9945e32a280476686c80cd7d21a789
+M	src/Plugin/ConfigProvider/ConfigProviderInstall.php	2a0e90e0cfe5fcf5d11c78d615bcb597
+M	src/Plugin/ConfigProvider/ConfigProviderOptional.php	9c938513eab5b90aea9c561ae2d7259d
+M	src/Plugin/ConfigProviderBase.php	f65ea120fb30de6de88be313bbcee6b1
+M	src/Plugin/ConfigProviderInterface.php	04384b13a8dc7eff55747a780ba152d8

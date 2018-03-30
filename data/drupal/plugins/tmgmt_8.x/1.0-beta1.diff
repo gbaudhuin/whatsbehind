@@ -1,0 +1,77 @@
+M	README.txt	70eedfa2b3b8f214ecd931684baaa1a0
+M	config/install/views.view.tmgmt_job_items.yml	15858e02254dd80f0e725817a385e611
+M	modules/demo/tmgmt_demo.info.yml	fedb08894c29f4a1c39224c0fd154e85
+M	modules/demo/tmgmt_demo.install	732c60b2b559fe4f5047dc78a9396d0f
+M	sources/content/config/install/tmgmt_content.settings.yml	f5085778e98eb8aec777f02dfc1849f9
+M	sources/content/src/ContentEntitySourcePluginUi.php	b4af1869e0ad7bdcced0a1d48e490d3e
+M	sources/content/src/Plugin/tmgmt/Source/ContentEntitySource.php	9a1bd57e6dc7c3d8d650f0d24d5570d2
+M	sources/content/src/Tests/ContentEntitySourceUiTest.php	e8cc7ac7d31ae33479737697aee4eb31
+M	sources/content/tmgmt_content.info.yml	f6c82a95dbd90f078361db95ea6886b8
+M	sources/locale/tmgmt_locale.info.yml	cdf0dde7e39ea392221ea2d701ec2afe
+M	sources/tmgmt_config/tmgmt_config.info.yml	77015f580a7c9b37b3faf3619fbb2c6d
+M	src/Entity/Translator.php	18f2e1ed8d0ce6adf0a910f6b9739bc8
+M	src/Form/JobForm.php	036017d4c47f15b6c9571b1bf3cd2479
+M	src/Form/JobItemForm.php	b753388acafef10a9907f22b6f4a9c70
+M	src/Tests/TMGMTUiTest.php	ded64daafd84263cb24411f4ae0702cd
+M	src/TranslatorPluginBase.php	6a51b9bfaaa00fb67e72060f5fc5e44e
+M	tmgmt.info.yml	4600c441fd448d6dd950f65879f5088a
+M	tmgmt_test/tmgmt_test.info.yml	68655fd7b662e355eeb16a834c14cc6c
+M	translators/tmgmt_file/src/Plugin/tmgmt_file/Format/Html.php	4bb8b2ed2b4413a6870687154cce4227
+M	translators/tmgmt_file/tmgmt_file.info.yml	30a5664f459ac7fd75e8e269f6457e58
+M	translators/tmgmt_local/config/install/field.field.user.user.tmgmt_translation_skills.yml	68bb75c21cdf4c197bc5c027fc884f7d
+M	translators/tmgmt_local/config/install/field.storage.user.tmgmt_translation_skills.yml	7f723f34710af59ee3eab6de08535cc1
+A	translators/tmgmt_local/config/install/system.action.tmgmt_local_task_assign_multiple.yml	eabe7ccac0c3c1280cba1ea71c090b48
+A	translators/tmgmt_local/config/install/system.action.tmgmt_local_task_assign_to_me.yml	d84dcd3e40b524166f4637ae33328981
+A	translators/tmgmt_local/config/install/system.action.tmgmt_local_task_unassign_multiple.yml	a6addc66257d015e7271eea610310ea1
+A	translators/tmgmt_local/config/install/views.view.tmgmt_local_manage_translate_task.yml	2f2ba193e06922c309e0cd1c96435f8f
+A	translators/tmgmt_local/config/install/views.view.tmgmt_local_task_items.yml	ba45ca3cc6df9b6044b791301fabed89
+A	translators/tmgmt_local/config/install/views.view.tmgmt_local_task_overview.yml	0944229351210e56fa7c0fd025950133
+A	translators/tmgmt_local/config/install/views.view.tmgmt_local_tasks.yml	625dd5e26d7ff92ca4d515bd3489c429
+M	translators/tmgmt_local/config/schema/tmgmt_local.schema.yml	d447fc1c274780998717ebd91a8972cd
+A	translators/tmgmt_local/config/schema/tmgmt_local.views.schema.yml	9557c1d551046590f72876422cb4991f
+M	translators/tmgmt_local/skills/src/Plugin/Field/FieldFormatter/LanguageCombinationDefaultFormatter.php	c987548f7e6e4ffb03382c8d3822f3d0
+M	translators/tmgmt_local/skills/src/Plugin/Field/FieldFormatter/LanguageCombinationTableFormatter.php	202007a1be687f62756b52b339bdb7d2
+M	translators/tmgmt_local/skills/tmgmt_language_combination.info.yml	2813999dd6dc732ea9bc5ffcb873746b
+A	translators/tmgmt_local/src/Entity/Controller/LocalTaskAccessControlHandler.php	d93101be119153b7aec48bfc2da5f425
+A	translators/tmgmt_local/src/Entity/Controller/LocalTaskItemAccessController.php	c611777bda3d69059eef8f0621477ff2
+A	translators/tmgmt_local/src/Entity/ListBuilder/LocalTaskItemListBuilder.php	c03de226f91a9e03d207ccfe3247850f
+A	translators/tmgmt_local/src/Entity/ListBuilder/LocalTaskListBuilder.php	8e1790add4d447bbdba18ad5497d21ca
+M	translators/tmgmt_local/src/Entity/LocalTask.php	b0015306c5400c3aed081ccc8c07690c
+M	translators/tmgmt_local/src/Entity/LocalTaskItem.php	63870fc0e42bba03dc682d795726d4a0
+A	translators/tmgmt_local/src/Entity/ViewsData/LocalTaskItemViewsData.php	87969d4cbc52d485dd045274c0cc01d3
+A	translators/tmgmt_local/src/Entity/ViewsData/LocalTaskViewsData.php	3bce259fa7d72d9f756e03c3c9b964fd
+A	translators/tmgmt_local/src/Form/AssignMultiple.php	56290b9cfe576e9559908bcab67494b1
+A	translators/tmgmt_local/src/Form/LocalTaskAssignForm.php	ed66b82b8b0cb89d87c75b05b7cd786a
+A	translators/tmgmt_local/src/Form/LocalTaskForm.php	bf3e2037bed04fc6c2fc0a899b16f67e
+A	translators/tmgmt_local/src/Form/LocalTaskItemForm.php	05e23e345c4795cfcd8231f660bbc025
+A	translators/tmgmt_local/src/Form/LocalTaskUnassignForm.php	7c84bac64f48c3a67eb61d5e2f5a5949
+A	translators/tmgmt_local/src/LocalTaskInterface.php	cec236926de660afc6a4b174520f3bc8
+A	translators/tmgmt_local/src/Plugin/Action/AssignTask.php	41983ca43bc09db3c05dec495f3172c3
+A	translators/tmgmt_local/src/Plugin/Action/AssignToMeTask.php	b5093483a4fef08f4443472723eaeeb4
+A	translators/tmgmt_local/src/Plugin/Action/UnassignTask.php	7408c2861472c82b44a7d846e98e09b0
+M	translators/tmgmt_local/src/Plugin/tmgmt/Translator/LocalTranslator.php	52dd8c68e6ce0f760a28887a746ce84d
+A	translators/tmgmt_local/src/Plugin/views/field/ItemCount.php	69facc0621e806ac3bf53bfab4c193d6
+A	translators/tmgmt_local/src/Plugin/views/field/LoopCount.php	40819104944df3e5601010a648f9047c
+A	translators/tmgmt_local/src/Plugin/views/field/Progress.php	43926249c3bcf37ca3ab4db03aed1383
+A	translators/tmgmt_local/src/Plugin/views/field/TaskItemOperations.php	b341dd4addac7f6a874252978f9fa68a
+A	translators/tmgmt_local/src/Plugin/views/field/TaskItemStatus.php	078f62c9ea321a3b1727099ae0283f56
+A	translators/tmgmt_local/src/Plugin/views/field/TaskOperations.php	a2a29ef987d59892ad8e60c9beefa8c4
+A	translators/tmgmt_local/src/Plugin/views/field/TaskStatus.php	483139c96aea2b8563fcd02f08b86999
+A	translators/tmgmt_local/src/Plugin/views/field/WordCount.php	549ff424b91eb59f2c27a7a1e6a75495
+A	translators/tmgmt_local/src/Plugin/views/filter/TaskEligible.php	5564fe133bdcf8e7cc2dc8600f7a9235
+A	translators/tmgmt_local/src/Tests/LocalTranslatorTest.php	9ecb730c72f689671aa2960510fda5e8
+M	translators/tmgmt_local/tmgmt_local.info.yml	4042346e3011d370078241fc5107b9bc
+M	translators/tmgmt_local/tmgmt_local.module	4b92c45c3b89375b64854d2d508fb175
+A	translators/tmgmt_local/tmgmt_local.routing.yml	38966bdeacedb458e9a75b8cfdc9cf60
+A	translators/tmgmt_local/tmgmt_local.theme.inc	41fb112af92c1c200262a70ee8c19fb3
+D	translators/tmgmt_local/views/handlers/tmgmt_local_task_handler_field_item_operations.inc	
+D	translators/tmgmt_local/views/handlers/tmgmt_local_task_handler_field_job_item_count.inc	
+D	translators/tmgmt_local/views/handlers/tmgmt_local_task_handler_field_loop_count.inc	
+D	translators/tmgmt_local/views/handlers/tmgmt_local_task_handler_field_operations.inc	
+D	translators/tmgmt_local/views/handlers/tmgmt_local_task_handler_field_progress.inc	
+D	translators/tmgmt_local/views/handlers/tmgmt_local_task_handler_field_wordcount.inc	
+D	translators/tmgmt_local/views/handlers/tmgmt_local_task_handler_filter_eligible.inc	
+D	translators/tmgmt_local/views/tmgmt_local.views.inc	
+D	translators/tmgmt_local/views/tmgmt_local_manage_translate_task.view.inc	
+D	translators/tmgmt_local/views/tmgmt_local_task_items.view.inc	
+D	translators/tmgmt_local/views/tmgmt_local_task_overview.view.inc	

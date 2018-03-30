@@ -1,0 +1,8 @@
+M	config/schema/media_entity_instagram.schema.yml	89baf657ac98216586b9b73dc15aeab3
+M	media_entity_instagram.info.yml	0dceb409f3acdb9768499a6322d376de
+A	src/Plugin/Field/FieldFormatter/InstagramEmbedFormatter.php	b0a26fd6ed31a60982a24aa221cfc0f2
+M	src/Plugin/MediaEntity/Type/Instagram.php	31fc3327425a4cdb2f0cdcb86b52eace
+M	src/Plugin/Validation/Constraint/InstagramEmbedCodeConstraint.php	9d33c5e2d309bce345e90570e731e0b1
+M	src/Plugin/Validation/Constraint/InstagramEmbedCodeConstraintValidator.php	fdd15ff213beddb92a61cb6196c665f8
+A	src/Tests/InstagramEmbedFormatterTest.php	cc1d3782ed9d2711b7a99ce06b521179
+M	tests/src/Unit/ConstraintsTest.php	adf36789df501040913305b5ac3e46bd

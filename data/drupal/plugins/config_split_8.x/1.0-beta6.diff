@@ -1,0 +1,14 @@
+M	config_split.drush.inc	8694d968a1be05ffd79ed4d6f873f7fb
+M	config_split.info.yml	c674f612610daafa00ad34b1aed8db98
+M	config_split.services.yml	200f5e0423400a8392bbf3aa2dd7363a
+A	console.services.yml	cc3f9d1eb2c0614359cbacfb5b216692
+M	src/Command/ExportCommand.php	b7965bf6c2d06bc21986883ec77ddaca
+M	src/Command/ImportCommand.php	520c229a351648563e06c6508f9c2e21
+M	src/Command/SplitCommandBase.php	37a52c17afe10cf14056a8509bd1d21d
+M	src/ConfigSplitCliService.php	07b5ef34f1022506a868f1ddf0c740cf
+M	src/Entity/ConfigSplitEntity.php	ffa1f8e6d76042b29677ab7464eb28ad
+M	src/Form/ConfigSplitEntityForm.php	899e8715c0cf639c25da04af76249199
+M	src/Plugin/ConfigFilter/SplitFilter.php	fe351677462e943f070fa4382a7e40a3
+M	src/Tests/GhostStorageTest.php	8f713d3003791494070d4c9b121fca18
+M	tests/src/Kernel/ConfigSplitCliServiceTest.php	626613ee5c55ef037d75ca7db40d4f18
+A	tests/src/Kernel/ConfigSplitKernelTest.php	7181bbf043aaf828cb09d6dbe17fe23c

@@ -1,0 +1,5 @@
+M	contact_storage.info.yml	6b3b035fc556a0671a97d6bea874af77
+M	contact_storage.install	b790d177772a92e08394180fd5b2611a
+M	contact_storage.module	1434234eead2f6be1dace7f9678759c5
+M	src/Tests/ContactStorageTest.php	778017f17a0923259b8688f6e8a2c1de
+M	tests/modules/contact_test_views/contact_test_views.info.yml	b46c975dfc618c9e0d197d5042a17113

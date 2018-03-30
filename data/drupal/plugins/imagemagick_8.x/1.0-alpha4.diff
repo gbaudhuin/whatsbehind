@@ -1,0 +1,6 @@
+M	README.txt	36c1e064ed35ee31b7987952af1d02a8
+M	config/install/imagemagick.settings.yml	ed28f422d4f8d06da05ebc16e0a9ce50
+M	config/schema/imagemagick.schema.yml	453141204f01c93ddd2b5a2f49882677
+M	imagemagick.info.yml	e2a481e5a13f840d5ae3a7af848adc55
+M	imagemagick.install	b6fe0162ce39d35abbf56dcf2263893e
+M	src/Plugin/ImageToolkit/ImagemagickToolkit.php	84b8f7d9834ecfce407582d5b279849c

@@ -1,0 +1,9 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	MAINTAINERS.txt	4ded90f248e65b27fc81f11211231a30
+A	config/schema/title.schema.yml	b80f26611b070cec799085e4a60549a4
+A	src/BundleConfigManager.php	79ac7287d6f0e7609bf9f5bb372d4e1b
+A	src/Plugin/Field/FieldFormatter/LinkedAndWrapped.php	335a977167f683f0e418766e5948d9b8
+A	src/Tests/NodeTeaserAndPage.php	4e6f5e1db07873b60b0c7b1019050384
+A	title.info.yml	d8916c1845297e5fb2f07e80e1a6dc9c
+A	title.module	75503d128debc70257c94b1562fe96d9
+A	title.services.yml	758e288621ecbdbef052ab20fcca84b9

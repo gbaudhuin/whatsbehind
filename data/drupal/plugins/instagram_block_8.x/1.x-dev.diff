@@ -1,0 +1,11 @@
+D	config/instagram_block.settings.yml	
+A	config/install/instagram_block.settings.yml	c933394641dbea71dbf9ae3aae2d58ca
+M	instagram_block.info.yml	7c4eccdada2a777905087baaf142d1f2
+A	instagram_block.libraries.yml	9e9f4f33db67c9b553610c49ce7a59c4
+A	instagram_block.links.menu.yml	f28e807d19d35f67a0f798c9a18190cc
+M	instagram_block.module	77e312cf5993f59409559f6b64e279b2
+M	instagram_block.routing.yml	a48f92292f11bc935c3d208afe028554
+D	lib/Drupal/instagram_block/Form/InstagramBlockForm.php	
+D	lib/Drupal/instagram_block/Plugin/Block/InstagramBlockBlock.php	
+A	src/Form/InstagramBlockForm.php	7c6e3d8851dcb24baeb5561b184086fe
+A	src/Plugin/Block/InstagramBlockBlock.php	f9e42256398ce50f636c77631c23767c

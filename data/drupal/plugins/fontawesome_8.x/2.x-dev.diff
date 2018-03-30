@@ -1,0 +1,12 @@
+M	README.txt	468a9f02a4bd77e51849eb3e006197c1
+M	composer.json	0e976a8d2d863bd5eb26ef867340a7af
+A	drush.services.yml	937032660e1d934cce474ee101401fca
+M	fontawesome.info.yml	c1b29e45b33110d3c014c7a312b913c9
+M	fontawesome.module	ed66a6954de9327abd216b9a998424e9
+D	js/custom.config.es6.js	
+D	js/custom.config.js	
+M	js/plugins/drupalfontawesome/plugin.es6.js	4f4ee659df0ee19908a5a2dbe2918983
+M	js/plugins/drupalfontawesome/plugin.js	cac7fccea08cca39209391e6a6334e36
+A	src/Commands/FontawesomeCommands.php	a64bca3e598d81cd96100b265c6f9f62
+M	src/Form/SettingsForm.php	f6c3e21f5b56469fe382b175509de0ba
+M	src/Plugin/Field/FieldWidget/FontAwesomeIconWidget.php	688206f57bdaf3cb8f8ea83a9f480820

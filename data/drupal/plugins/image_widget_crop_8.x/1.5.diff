@@ -1,0 +1,10 @@
+M	composer.json	beb8d21f34cd50be9a76d3cc0ca69ca3
+M	config/install/image_widget_crop.settings.yml	26c2696dc00773544a31e5f493539b15
+M	image_widget_crop.info.yml	29efd4c289c7545c4e3ab8f642c17838
+M	image_widget_crop.libraries.yml	7f817161a44ae39fa782cca4391f1009
+M	image_widget_crop.module	9dec0a30c6af281019724ba2c9ac5971
+M	js/imageWidgetCrop.js	5a7510cf40a57cff4123957b492bb22c
+M	modules/image_widget_crop_examples/image_widget_crop_examples.info.yml	4465b967089cea28e34561e05e34b601
+M	src/Form/CropWidgetForm.php	030b7ef11805298f24a3f89931e2668a
+M	src/ImageWidgetCropManager.php	939f9b30aae44a681838213e00277a8f
+M	src/Plugin/Field/FieldWidget/ImageCropWidget.php	e277c61c204454bd4075d45662ef1951

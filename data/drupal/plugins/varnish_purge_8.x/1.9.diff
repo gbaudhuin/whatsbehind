@@ -1,0 +1,7 @@
+M	modules/varnish_focal_point_purge/varnish_focal_point_purge.info.yml	fc23336ad3b2a9c1c63017cae33bd7bf
+A	modules/varnish_image_purge/config/schema/varnish_image_purge.schema.yml	8a7a8cddaacd4b41973bc8e21d6ef2e7
+M	modules/varnish_image_purge/src/Form/VarnishImagePurgeConfiguration.php	1eedd22d0e232c0ffac7cb2888717a00
+M	modules/varnish_image_purge/varnish_image_purge.info.yml	524904833b6473efa111beb6eb44533d
+A	modules/varnish_image_purge/varnish_image_purge.links.task.yml	f968acd9beb523c2e93f5b48517c7e63
+M	modules/varnish_purge_tags/varnish_purge_tags.info.yml	78f0975990b94de9024d89363c1427c6
+M	varnish_purger.info.yml	5bce51d7696b5ebf5229721d0668858e

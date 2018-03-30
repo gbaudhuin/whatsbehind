@@ -1,0 +1,5 @@
+M	CHANGELOG.txt	3dea36f6e8d7cad2ea47d5829917f62c
+M	includes/bootstrap.inc	557de907bd65f915a10d31d2bdcf37c0
+M	modules/comment/comment.module	7c7b0e7d6126f9fc04dae001b3a80072
+M	modules/file/tests/file.test	43d2f4bd573160c35d6ae1fb2d769891
+M	modules/node/tests/node_access_test.install	092a62d6ec6ecd5ebaa25e74b7771814

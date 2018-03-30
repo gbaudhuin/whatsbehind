@@ -1,0 +1,9 @@
+M	js/infinite-scroll.js	85bc05588288d4f450976362b46c52b2
+M	src/EventSubscriber/AjaxResponseSubscriber.php	40a3fd16c1d34235cc21892134bc518b
+M	src/Plugin/views/pager/InfiniteScroll.php	d513cb987e192e0fc80c7edaae5d474f
+M	src/Tests/IntegrationSmokeTest.php	24c04d5b7e8a76000e4fefec96c18133
+M	templates/views-infinite-scroll-pager.html.twig	a9dfe04d04710607c18a3ffc62a9a6be
+A	tests/src/FunctionalJavascript/InfiniteScrollTest.php	852e9a99324d1cbafef8786d1b2721f8
+M	views_infinite_scroll.info.yml	416fb4f8f4a7086184d1cac4ca718a2a
+M	views_infinite_scroll.libraries.yml	a3fd3bc74e6316bbc476cd135e97b3d3
+M	views_infinite_scroll.module	509a936aa959079b9564b36f0dbd7c21

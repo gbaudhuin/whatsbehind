@@ -1,0 +1,10 @@
+M	page_manager.info.yml	bf964f94f61cd9760a17ee159400d8d6
+M	src/Controller/PageManagerController.php	b4a29811afd9760867b3d5ca7439afc1
+M	src/Plugin/DisplayVariant/PageBlockDisplayVariant.php	05a9283dda838abc4332e15ea8a75cac
+M	src/Routing/PageManagerRoutes.php	e83fbc92c5267b689b88bd9630103e2b
+M	src/Routing/VariantRouteFilter.php	9b9fa545b57af8dddafb166d0cd228fe
+M	src/Tests/PageManagerAdminTest.php	f3f0555622befa1e2849935acf5c1375
+M	src/Tests/PageNodeSelectionTest.php	261d8968d55bc15c9b11520d38543612
+M	tests/modules/page_manager_test/page_manager_test.info.yml	2c6f3437b6cff19eea6fb6905d54c1f4
+M	tests/src/Unit/PageManagerRoutesTest.php	3d2917b9c9db894baacc0acf91e9dc02
+M	tests/src/Unit/VariantRouteFilterTest.php	841051c88faa0a7729ae310b72490e30

@@ -1,0 +1,11 @@
+M	README.md	32f08afea56557cbbcf0fc35254b79e2
+M	amp.info.yml	c8f46d84775a72ed24a67ef10cd4c424
+M	amp.install	46068e073f4644b3550eaf395e7be4a0
+M	amp.module	7256c6f4f3900e8fba305a4adf7b668f
+D	config/install/image.style.amp_metadata_content_image_696.yml	
+A	config/install/image.style.amp_metadata_content_image_min_696px_wide.yml	f3717bbcd2734be466cb3e4811bfa105
+M	config/install/image.style.amp_metadata_logo_600x60.yml	59931d6ae7a6449f095ecb133e5b5c1e
+M	modules/amp_adsense/amp_adsense.info.yml	ff97a778841cf94256b0e827ec79f8d6
+M	src/Plugin/Field/FieldFormatter/AmpTextTrimmedFormatter.php	6ce764df94b22838d9cea54de26ca3d2
+M	src/Render/AmpHtmlResponseMarkupProcessor.php	aa716e28fef632023ff6f810ac5cd2ea
+M	tests/src/Functional/AmpFormatterTest.php	abb60d49d82443da740442d2ef3485aa

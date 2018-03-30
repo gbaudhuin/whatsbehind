@@ -1,0 +1,17 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	c109c0ccab71a995ce2ae5973e0ac183
+A	config/install/menu_attributes.settings.yml	af34eecd56c3afe568268cba82ff6315
+A	config/schema/menu_attributes.schema.yml	c2d64f625817d5fe702fc500ba13a6d8
+A	js/menu_attributes.js	f4aa3bf78bfbf519e3d95371c670ceba
+A	menu_attributes.api.php	3542906e321bdddf24b11d1ce7de6bea
+A	menu_attributes.info.yml	5f1b28f0b3027f54da1db77096254e05
+A	menu_attributes.install	d19f6aa740f07795c6444760bbf3dd50
+A	menu_attributes.libraries.yml	0ae24b88eb6eafb95834afd7819ddb97
+A	menu_attributes.links.menu.yml	2ddb70a0658a67f4beddfea0374153e1
+A	menu_attributes.module	d13d2064c12d8335b79da32eec590363
+A	menu_attributes.permissions.yml	d333bc1c87d984a0a0c5472f7fc40dbb
+A	menu_attributes.routing.yml	622220af45c30340979966de2604fa91
+A	src/Form/MenuAttributesSettingsForm.php	90ea71f37f5970991274f3db484fa495
+A	src/Tests/MenuAttributesNodeTest.php	222aaa0714a0e18032290494c00c8684
+A	src/Tests/MenuAttributesTest.php	d8b58601ca43f6efdd92fb2e5f735f6e
+A	src/Tests/MenuAttributesTestBase.php	0c15e392d7a2e9309d711b9e6f4b87cd

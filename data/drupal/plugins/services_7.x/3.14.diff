@@ -1,0 +1,9 @@
+M	auth/services_oauth/services_oauth.info	defcec5b3f64a01becdec5405738f353
+M	plugins/export_ui/services_ctools_export_ui.inc	b0c09a2d146c6ec1a610fe60a0bce130
+M	resources/user_resource.inc	348a90f200ca0097136c171d56b37aa5
+M	servers/rest_server/includes/RESTServer.inc	a66b4d3784242f018ccff87fa1ad2399
+M	servers/rest_server/rest_server.info	d7924d601b8b3b8efca61f797d5e0698
+M	servers/xmlrpc_server/xmlrpc_server.info	f4d53ca350471f13547f2c567be86234
+M	services.info	a8f0b4ea76fb9d07be6995f4dd9dce72
+M	services.module	38b648092d655713de981bbb5a85e106
+M	tests/services_test_resource/services_test_resource.info	7c03cc124b8705548d491df3acbc3e88

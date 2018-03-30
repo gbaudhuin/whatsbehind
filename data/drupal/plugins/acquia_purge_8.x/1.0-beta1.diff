@@ -1,0 +1,8 @@
+M	acquia_purge.info.yml	276814f0054be4e2ab402bda59d0f4ef
+A	src/Hash.php	69cf494fc9be0d805f814bdabb070a7a
+M	src/HostingInfo.php	6aa232bad8bab06918af6bccc315f020
+A	src/Plugin/Purge/DiagnosticCheck/AcquiaPurgeCheck.php	62c40e61a0a26ca47d44706654322078
+D	src/Plugin/Purge/DiagnosticCheck/AlphaProgramCheck.php	
+A	src/Plugin/Purge/DiagnosticCheck/BetaProgramCheck.php	45603b025ff3081e874e92d1448135a7
+M	src/Plugin/Purge/Purger/AcquiaCloudPurger.php	97013b73a7ceda24bc3ab6ce2c7b5d21
+M	src/Plugin/Purge/TagsHeader/AcquiaPurgeTagsHeader.php	c508b3022cd3878508a4c1005749653c

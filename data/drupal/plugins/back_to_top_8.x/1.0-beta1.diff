@@ -1,0 +1,14 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	10f49febbe58ec4985733f35f5773637
+A	back_to_top.info.yml	8749718573982243f7706995c3eb223c
+A	back_to_top.module	6a3834eb4d255e1e23664949ebfdf01e
+A	back_to_top.routing.yml	eebfc28b0200d20d87da5b7566213345
+A	backtotop.png	5c934d07ffdc087ba093237c0ef600be
+A	backtotop2x.png	7eeda34b9560eacca05d7b111f9076ba
+A	config/install/back_to_top.settings.yml	f5ff00f1c5e21412843034a4349bd841
+A	css/back_to_top.admin.css	e80444c077033aa9ea9e7ccd4861e179
+A	css/back_to_top.css	f2b7e8c4f40d43cf6e956e66c6b49c3d
+A	css/back_to_top_text.css	761e47d74e8859ace0dc05ca740f8d7f
+A	js/back_to_top.admin.js	ac4c994c569b464310cf19316cead13c
+A	js/back_to_top.js	1c3a26a6c3679d3b30e9c8a8d898a6be
+A	lib/Drupal/back_to_top/Form/BackToTopSettingsForm.php	0b266a0170419706ddc981a71ee2372d

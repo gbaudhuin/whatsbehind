@@ -1,0 +1,17 @@
+M	ctools/plugins/export_ui/picture_mapping.inc	dbdd4e99b113c347bf64e20d9a573223
+M	flexslider_picture/flexslider_picture.info	4c7aaff17caa7740a4d30e1705ff2a12
+M	flexslider_picture/flexslider_picture.install	df703c7da87f3832cb366aa239b93e0d
+M	flexslider_picture/flexslider_picture.module	62bc94b44878c3db36545543c3c50ea3
+M	flexslider_picture/theme/flexslider_picture.theme.inc	c6dca352431a4b223c6124230cc4e4e0
+M	includes/PictureMapping.php	08c3b1edb930e203c43db6bee0bbe708
+M	picture.admin.inc	9574132bb053f5440071cd6828f461ff
+M	picture.file_entity_1.inc	5e89283fc56379f666b1de58795b2145
+M	picture.info	7c76e6e793828bc09a59e3dbf2d22726
+M	picture.install	7e0c6c94b4385ebe10084ca126a8c4cc
+M	picture.js	48eaaeba8b87c7d0c06785aaee8234a1
+M	picture.min.js	2e27e6d567413fe885415f631fb3268d
+M	picture.module	3200245f356faa6f2457baf03cc6de69
+M	picture_colorbox.js	ec56a6970f75b2249b756b7232b493f9
+M	picture_wysiwyg.css	20224df4aa9d90c768e58fa8ea523310
+M	picturefill2/picturefill.js	fbd99547a7c884f5e6ac19dd477d2b3f
+M	picturefill2/picturefill.min.js	94236ece1a06af2277f04fbb9282b45c

@@ -1,0 +1,14 @@
+A	README.txt	3ad2016b7ab543944476bf104885043c
+D	config/install/superfish.settings.yml	
+D	config/schema/superfish.settings.schema.yml	
+M	js/superfish.js	262d07348b44f145d9efcbfd046448e3
+D	src/Form/SuperfishSettingsForm.php	
+M	src/Plugin/Block/SuperfishBlock.php	1bfde7cc4902e438e0032300a9058079
+M	superfish.info.yml	30f8b22f426b6b5ca2f96680256a0648
+M	superfish.install	2126ebe401ab9be62297a634115de936
+M	superfish.libraries.yml	a169c4747423d6d0df6c7028512e5d7b
+D	superfish.links.menu.yml	
+M	superfish.module	77ff3c25eb50e76e3403e9ef2029cf01
+D	superfish.routing.yml	
+M	superfish.theme.inc	28a128ac413647dbff14dbaecbc47c3e
+M	templates/superfish-menu-items.html.twig	24c5426742503f6dfbc1a51f72b7c425

@@ -1,0 +1,12 @@
+M	CHANGELOG.txt	ea635509506e5492b8ea8db251de358c
+M	README.txt	d587e66a5c6e1f5512400894807b484b
+M	panels_everywhere.admin.inc	dcbe5a2d08b962bb107ce2cf94aff8be
+M	panels_everywhere.info	417e624fdc61d51ce754c84fb98390b0
+A	panels_everywhere.install	5a364533d8910ba2ed26ec5eae6b7ed6
+M	panels_everywhere.module	af2fc17a2a58c2a5e79eba5832405e39
+M	panels_everywhere.pages_default.inc	fb7a27170b58fc2188fad5a3a4e4adcf
+M	plugins/tasks/site_template.inc	e27646ffd1d47bb85fec3acd034e5b10
+M	theme/pane-header.tpl.php	245287cf8f2b0c1516dd324e39ede5ef
+M	theme/pane-messages.tpl.php	43b11ba74791aa1a67e60a9c97494d79
+M	theme/pane-navigation.tpl.php	c2ac451383e2c3360746de1f828a522d
+M	theme/theme.inc	807ba08af664a364c53e8aefb3d5366b

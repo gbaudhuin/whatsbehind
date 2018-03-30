@@ -1,0 +1,8 @@
+M	config/schema/search_api_page.schema.yml	c38fdee4b2a4996aa871d5d20d099878
+M	search_api_page.info.yml	b76ce8d91ab2b65b7031e86546f8401f
+M	src/Controller/SearchApiPageController.php	5cd546be9bd0e1b9f3612bb988328aba
+M	src/Entity/SearchApiPage.php	52e31ea350fe12f999600bf538f54404
+M	src/Form/SearchApiPageForm.php	d9b6bdaf8f57152b2d0de87c200acea9
+M	src/Plugin/facetapi/facet_source/SearchApiPage.php	80a1fe4d8e6b71dda6e81f7af65a48fc
+M	src/SearchApiPageInterface.php	1c9aee928fd51f359a43eb8140250f55
+M	src/SearchApiPageListBuilder.php	d6aaefd723c4a07b9bddf096563a44a7

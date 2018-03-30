@@ -1,0 +1,6 @@
+M	README.md	64f048a78e46cb153fcad51137b54571
+M	composer.json	1f02079d5926506319efff6cdd615a81
+M	modules/permissions_by_entity/permissions_by_entity.info.yml	b2cd895f18243fda9690e1917bde9382
+M	modules/permissions_by_entity/src/EventSubscriber/PermissionsByEntityKernelEventSubscriber.php	80a2fa2d8ad30c1ab282cf46c8c66b3e
+M	permissions_by_term.info.yml	f481ee7e992a0d9423d3fcecd7e8015f
+M	src/Service/AccessStorage.php	891459d0affa12ad9ba70882025d906d

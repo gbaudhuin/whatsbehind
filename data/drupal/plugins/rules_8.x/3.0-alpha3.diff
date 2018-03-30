@@ -1,0 +1,139 @@
+M	README.md	1ccd274ab8ff135b074ca9b2162c66b7
+M	rules.info.yml	42ea29785d1ea6554808327cae9bdf79
+M	src/Context/ContextHandlerTrait.php	25a7f2fb5cba47e920f49de98f5ee098
+M	src/Ui/RulesUiDefinition.php	6e8df080e5c3f7be49e083988ce197a9
+M	tests/modules/rules_test/rules_test.info.yml	9c55381dbe6cd476d277af9e8c9dc16c
+M	tests/modules/rules_test_default_component/rules_test_default_component.info.yml	f358e516e7e598de1fbe795bb9ccb0cf
+M	tests/modules/rules_test_ui_embed/rules_test_ui_embed.info.yml	85bf01938c3d018764885eab99864db8
+D	tests/src/Integration/Action/BanIPTest.php	
+D	tests/src/Integration/Action/DataCalculateValueTest.php	
+D	tests/src/Integration/Action/DataConvertTest.php	
+D	tests/src/Integration/Action/DataListItemAddTest.php	
+D	tests/src/Integration/Action/DataListItemRemoveTest.php	
+D	tests/src/Integration/Action/DataSetTest.php	
+D	tests/src/Integration/Action/EntityCreateTest.php	
+D	tests/src/Integration/Action/EntityDeleteTest.php	
+D	tests/src/Integration/Action/EntityFetchByFieldTest.php	
+D	tests/src/Integration/Action/EntityFetchByIdTest.php	
+D	tests/src/Integration/Action/EntityPathAliasCreateTest.php	
+D	tests/src/Integration/Action/EntitySaveTest.php	
+D	tests/src/Integration/Action/PathAliasCreateTest.php	
+D	tests/src/Integration/Action/PathAliasDeleteByAliasTest.php	
+D	tests/src/Integration/Action/PathAliasDeleteByPathTest.php	
+D	tests/src/Integration/Action/RulesActionAccessTest.php	
+D	tests/src/Integration/Action/RulesComponentActionTest.php	
+D	tests/src/Integration/Action/SendAccountEmailTest.php	
+D	tests/src/Integration/Action/SystemMessageTest.php	
+D	tests/src/Integration/Action/SystemPageRedirectTest.php	
+D	tests/src/Integration/Action/SystemSendEmailTest.php	
+D	tests/src/Integration/Action/UserBlockTest.php	
+D	tests/src/Integration/Action/UserRoleAddTest.php	
+D	tests/src/Integration/Action/UserRoleRemoveTest.php	
+D	tests/src/Integration/Action/UserUnblockTest.php	
+D	tests/src/Integration/Action/VariableAddTest.php	
+D	tests/src/Integration/Condition/ConditionAccessTest.php	
+D	tests/src/Integration/Condition/ConditionManagerTest.php	
+D	tests/src/Integration/Condition/DataComparisonTest.php	
+D	tests/src/Integration/Condition/DataIsEmptyTest.php	
+D	tests/src/Integration/Condition/EntityHasFieldTest.php	
+D	tests/src/Integration/Condition/EntityIsNewTest.php	
+D	tests/src/Integration/Condition/EntityIsOfBundleTest.php	
+D	tests/src/Integration/Condition/EntityIsOfTypeTest.php	
+D	tests/src/Integration/Condition/ListContainsTest.php	
+D	tests/src/Integration/Condition/ListCountIsTest.php	
+D	tests/src/Integration/Condition/NodeIsOfTypeTest.php	
+D	tests/src/Integration/Condition/NodeIsPromotedTest.php	
+D	tests/src/Integration/Condition/NodeIsPublishedTest.php	
+D	tests/src/Integration/Condition/NodeIsStickyTest.php	
+D	tests/src/Integration/Condition/PathAliasExistsTest.php	
+D	tests/src/Integration/Condition/PathHasAliasTest.php	
+D	tests/src/Integration/Condition/UserHasEntityFieldAccessTest.php	
+D	tests/src/Integration/Condition/UserHasRoleTest.php	
+D	tests/src/Integration/Condition/UserIsBlockedTest.php	
+D	tests/src/Integration/Engine/AnnotationProcessingTest.php	
+D	tests/src/Integration/Engine/AutoSaveTest.php	
+D	tests/src/Integration/Engine/ExpressionSerializationTest.php	
+D	tests/src/Integration/Engine/IntegrityCheckTest.php	
+D	tests/src/Integration/Engine/LoopTest.php	
+D	tests/src/Integration/Engine/PrepareExecutionMetadataStateTest.php	
+D	tests/src/Integration/Engine/RulesComponentTest.php	
+D	tests/src/Integration/Event/EntityDeleteTest.php	
+D	tests/src/Integration/Event/EntityInsertTest.php	
+D	tests/src/Integration/Event/EntityPresaveTest.php	
+D	tests/src/Integration/Event/EntityUpdateTest.php	
+D	tests/src/Integration/Event/EntityViewTest.php	
+D	tests/src/Integration/Event/EventTestBase.php	
+D	tests/src/Integration/Event/SystemLoggerEventTest.php	
+D	tests/src/Integration/Event/UserLoginTest.php	
+D	tests/src/Integration/Event/UserLogoutTest.php	
+D	tests/src/Integration/RulesAction/RulesActionManagerTest.php	
+D	tests/src/Integration/RulesAction/RulesAdminAccessTest.php	
+D	tests/src/Integration/RulesEntityIntegrationTestBase.php	
+D	tests/src/Integration/RulesIntegrationTestBase.php	
+M	tests/src/Kernel/Engine/AutocompleteTest.php	6f62101a0e1fffa548d9f962a75e531b
+A	tests/src/Unit/Integration/Action/BanIPTest.php	4bde97e42a6a6fc6f96ffcc8f6dc606b
+A	tests/src/Unit/Integration/Action/DataCalculateValueTest.php	a34c4c17113838fec5e8e0c0ae60dc68
+A	tests/src/Unit/Integration/Action/DataConvertTest.php	140b03d77a2235663e7d1d5e1ab7652e
+A	tests/src/Unit/Integration/Action/DataListItemAddTest.php	1f64e7c42d876c1ca6370d1174f49fa0
+A	tests/src/Unit/Integration/Action/DataListItemRemoveTest.php	e862789c63d877bee75d0936796d8b98
+A	tests/src/Unit/Integration/Action/DataSetTest.php	694d51fadd4b2d3649f8a34d57fa0782
+A	tests/src/Unit/Integration/Action/EntityCreateTest.php	2fd1ac09d2ac5f64d10df8cea00c8bea
+A	tests/src/Unit/Integration/Action/EntityDeleteTest.php	57edd232c3ba4e3d68a85453923d979c
+A	tests/src/Unit/Integration/Action/EntityFetchByFieldTest.php	8b540e5e2d437c718e7592362c2fab45
+A	tests/src/Unit/Integration/Action/EntityFetchByIdTest.php	5d5e953749191f5011a7880f814a8196
+A	tests/src/Unit/Integration/Action/EntityPathAliasCreateTest.php	5b6cd0e3e6b2db73092a1c81b184f4eb
+A	tests/src/Unit/Integration/Action/EntitySaveTest.php	57a924e1008259a48dd25f26ea0c00df
+A	tests/src/Unit/Integration/Action/PathAliasCreateTest.php	cab65423a442e903b44a4e3c381730e8
+A	tests/src/Unit/Integration/Action/PathAliasDeleteByAliasTest.php	907290c6a3160114a35f25419e7fad72
+A	tests/src/Unit/Integration/Action/PathAliasDeleteByPathTest.php	0f235f0706ca7881d870f5dcd98fbbac
+A	tests/src/Unit/Integration/Action/RulesActionAccessTest.php	3979bf539f3495ffaa148ef4995ab8f4
+A	tests/src/Unit/Integration/Action/RulesComponentActionTest.php	6ee08de51ab623c8bc67571d992aac91
+A	tests/src/Unit/Integration/Action/SendAccountEmailTest.php	5041f3773f7b3d9ed4f4950ccb9becd6
+A	tests/src/Unit/Integration/Action/SystemMessageTest.php	51bbcedfb83a36e0eb0630077955d094
+A	tests/src/Unit/Integration/Action/SystemPageRedirectTest.php	7a67843448d49360da58d730dfd6756f
+A	tests/src/Unit/Integration/Action/SystemSendEmailTest.php	60dfc3e9b8d51b27353fb1711c1a9bf7
+A	tests/src/Unit/Integration/Action/UserBlockTest.php	aaab0aca4345239e67f7f918fa480cf2
+A	tests/src/Unit/Integration/Action/UserRoleAddTest.php	fdd7ea7967ef12349210be82e35d2c65
+A	tests/src/Unit/Integration/Action/UserRoleRemoveTest.php	1b6586ca80a142e23586fbc8918e98c8
+A	tests/src/Unit/Integration/Action/UserUnblockTest.php	f5a001189fc2e93f8e8690b49a84b2e9
+A	tests/src/Unit/Integration/Action/VariableAddTest.php	88bca4606992e6f55f3c7f9eb477b36f
+A	tests/src/Unit/Integration/Condition/ConditionAccessTest.php	230ed67677f246993b4e1867cacc56b3
+A	tests/src/Unit/Integration/Condition/ConditionManagerTest.php	abca4d0228935d5d38bd7198b7521de0
+A	tests/src/Unit/Integration/Condition/DataComparisonTest.php	e25cc57d01b99a5e9c3831fa7cd70a94
+A	tests/src/Unit/Integration/Condition/DataIsEmptyTest.php	a4bf0b7dcfe77dffd9400426f3a42d4a
+A	tests/src/Unit/Integration/Condition/EntityHasFieldTest.php	72e3e5ed8bc7f6e07d49061a2d35cfad
+A	tests/src/Unit/Integration/Condition/EntityIsNewTest.php	69730f4e5744233df66cdd215c2a52ad
+A	tests/src/Unit/Integration/Condition/EntityIsOfBundleTest.php	de1ebdd78e35abaff346d4ab65fc8018
+A	tests/src/Unit/Integration/Condition/EntityIsOfTypeTest.php	f6a79dff2884072bfb4f1ccdcdc494b3
+A	tests/src/Unit/Integration/Condition/ListContainsTest.php	df927193f476b4e90dffc2616b1ab76f
+A	tests/src/Unit/Integration/Condition/ListCountIsTest.php	52ca145a513dcb87688e0937f52b8d5d
+A	tests/src/Unit/Integration/Condition/NodeIsOfTypeTest.php	4a718eb2df87be9922d5bfca1b36887d
+A	tests/src/Unit/Integration/Condition/NodeIsPromotedTest.php	b82e93a03cf9baffefdcb4b3da1567a1
+A	tests/src/Unit/Integration/Condition/NodeIsPublishedTest.php	93e6771e767b18641ad5e6a3da782d7e
+A	tests/src/Unit/Integration/Condition/NodeIsStickyTest.php	a2dc5fed6b24e86e1b831131c1534ef9
+A	tests/src/Unit/Integration/Condition/PathAliasExistsTest.php	9be572cb34ae757fe319ea5635d449d7
+A	tests/src/Unit/Integration/Condition/PathHasAliasTest.php	7be2d44ce883ecab9b8436e4f14e61b2
+A	tests/src/Unit/Integration/Condition/UserHasEntityFieldAccessTest.php	b0b4fc685077cea2835c5733a6205eb4
+A	tests/src/Unit/Integration/Condition/UserHasRoleTest.php	0b017d73ae4d6bbb67d3f0ccfabbdb71
+A	tests/src/Unit/Integration/Condition/UserIsBlockedTest.php	015273f5bfa9ed9c638c4962a1c332bc
+A	tests/src/Unit/Integration/Engine/AnnotationProcessingTest.php	98ade6b5429c421db639c1bf2f64e18c
+A	tests/src/Unit/Integration/Engine/AutoSaveTest.php	109fe7de777a20dd7bd3db319954dd49
+A	tests/src/Unit/Integration/Engine/ExpressionSerializationTest.php	7a9e672d2cc9a4e7d1b2a80f600621a9
+A	tests/src/Unit/Integration/Engine/IntegrityCheckTest.php	7b9960ca47f220e48d08cf8a547231d2
+A	tests/src/Unit/Integration/Engine/LoopTest.php	175fce59368d93cc17381e4470099254
+A	tests/src/Unit/Integration/Engine/PrepareExecutionMetadataStateTest.php	6fc4e19640ed8a85e0753f4fd0b5766d
+A	tests/src/Unit/Integration/Engine/RulesComponentTest.php	c3fff26d08d02479d82886fb885f05f2
+A	tests/src/Unit/Integration/Event/EntityDeleteTest.php	4397f5c4feb211732efedbe2fdca2bd2
+A	tests/src/Unit/Integration/Event/EntityInsertTest.php	19156752d8838ece398083157ebd6186
+A	tests/src/Unit/Integration/Event/EntityPresaveTest.php	c0d3ead2be5424a09f65fa01326d04d8
+A	tests/src/Unit/Integration/Event/EntityUpdateTest.php	06a0ca7cd8ba2b07dfe77c4746f2c737
+A	tests/src/Unit/Integration/Event/EntityViewTest.php	28a0313271e3e862c30ad1feb45fc1fe
+A	tests/src/Unit/Integration/Event/EventTestBase.php	e856cd7ddbac8d0c453e90fbf55191e4
+A	tests/src/Unit/Integration/Event/SystemLoggerEventTest.php	6661bbd715e8ac505db5933c029310e7
+A	tests/src/Unit/Integration/Event/UserLoginTest.php	7653620d8c9e618e1a4fe592560677ec
+A	tests/src/Unit/Integration/Event/UserLogoutTest.php	d063e881cbd04470d33e89eea3529837
+A	tests/src/Unit/Integration/RulesAction/RulesActionManagerTest.php	0e1a30cb480ebe5d237aba4745717f63
+A	tests/src/Unit/Integration/RulesAction/RulesAdminAccessTest.php	c2b4bdfe86dedcb9affebc8bd35dd757
+A	tests/src/Unit/Integration/RulesEntityIntegrationTestBase.php	2a6be604c5d8288aa4924acadfb079d0
+A	tests/src/Unit/Integration/RulesIntegrationTestBase.php	22f12fb7030c18736a3a3fdf99513f23
+M	tests/src/Unit/RulesConditionTest.php	2033aeb7d4ea861593d40db0eada42e7

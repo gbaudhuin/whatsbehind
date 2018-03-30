@@ -1,0 +1,4 @@
+M	entity_embed.info.yml	de7237239bc5e941786c251e48f8e3ce
+M	src/Plugin/EmbedType/Entity.php	67e3c77da7491c0c8b8d2ecebe31b41b
+M	src/Tests/EntityEmbedTestBase.php	2cb64b28df145665785110efecddb7b7
+M	tests/modules/entity_embed_test/entity_embed_test.info.yml	104aae2617a941171183f4fb70ca63d9

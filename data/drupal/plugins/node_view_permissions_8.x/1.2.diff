@@ -1,0 +1,3 @@
+M	node_view_permissions.info.yml	b44b720748ae6ef75025486017cae3e9
+A	node_view_permissions.install	781de3b6d35f40ea5534d34e2f4fd0c5
+M	src/NodeViewPermissionsPermissions.php	1625f6ba800091eb71fde72e93cd945b

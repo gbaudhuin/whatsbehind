@@ -1,0 +1,5 @@
+M	imagemagick.info.yml	56f4c3ce03436d3364e2b0dfd6d4a081
+M	imagemagick.module	a3b4726bee3495550b7bd5ec847464ae
+M	src/Plugin/ImageToolkit/ImagemagickToolkit.php	d6522c6011729949e68d5a23fd9a3f35
+M	src/Plugin/ImageToolkit/Operation/imagemagick/CreateNew.php	d22d5d3e2b7b2fb8cff6462ad7677098
+M	src/Tests/ToolkitImagemagickTest.php	051d61decd841e38f846b69e9fc2f8dd

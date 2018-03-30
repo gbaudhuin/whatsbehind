@@ -1,0 +1,13 @@
+M	README.txt	e716cb1d9447c39fc88f7d8fc51a60fd
+M	date_ical.api.php	b4b755fcc13d0354f341e2fa64fab3a7
+M	date_ical.info	9e4cfdcfd97389a73ac1c2bac8704248
+M	date_ical.install	b6d93096e9c92642a89b0a78de89a85d
+M	date_ical.make	e46c31104dfcc15f609bac3176afcee7
+M	date_ical.module	71d89f552fb0a3f89da19045ae37b423
+M	includes/DateIcalFeedsParser.inc	9884d51387bca7e876ec7fac56cca224
+D	includes/DateIcalIcalcreatorParser.inc	
+M	includes/date_ical.views.inc	acb08ecf8eabc1d0d56293ac99a1f66e
+M	includes/date_ical_plugin_row_ical_entity.inc	a12a16b668915f7d1d1e20ddfcc511f9
+M	includes/date_ical_plugin_row_ical_fields.inc	dc5381c3b5dfcf32b56101fa2e8db708
+M	includes/date_ical_plugin_style_ical_feed.inc	97f7ac3b57209e854b8f12eeb05046fb
+A	libraries/ParserVcalendar.inc	46957d3780c9a32956617e3aeea4bb65

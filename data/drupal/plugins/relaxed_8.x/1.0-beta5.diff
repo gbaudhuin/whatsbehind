@@ -1,0 +1,5 @@
+M	relaxed.info.yml	e91ee9e5e9558d9529b49925f193a883
+M	src/CouchdbReplicator.php	d1ef3ed018088b2397c8c6dd70e8c35e
+M	src/ParamConverter/DbConverter.php	2fd7339f31a2ff53eb2d584397c72a7b
+M	src/ParamConverter/DocIdConverter.php	3b5ed26ea865e2082654dcb4672fc493
+M	tests/modules/relaxed_test/relaxed_test.info.yml	70b75b2845e2f0a86282dddd4af86dd6

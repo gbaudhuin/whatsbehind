@@ -1,0 +1,6 @@
+M	menu_trail_by_path.info	552c0d1de1770204fe66c85fee498eb4
+M	menu_trail_by_path.module	1c4319a3face218f51261739155b474d
+M	src/MenutrailbypathActivetrail.inc	46a7f012b15ab77c113421dfecef1503
+M	src/MenutrailbypathBreadcrumb.inc	2b37eeeb2f2f092ddd1a52cef44ab930
+M	src/MenutrailbypathMenuHelper.inc	75c43a21b1e86cde989c0b3ed2e20b76
+A	src/MenutrailbypathUsortMenulinks.inc	3f0a39718a7f84ae2f0b66308d46fb93

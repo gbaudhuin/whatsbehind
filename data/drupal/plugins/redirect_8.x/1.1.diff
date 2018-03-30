@@ -1,0 +1,12 @@
+M	modules/redirect_404/redirect_404.info.yml	29c780cbb0c8ec9434d157b5439d90f6
+M	modules/redirect_domain/redirect_domain.info.yml	9301894d57897e8cc462587ab101c262
+M	redirect.info.yml	dafffadcc371030a1ce8ea420631f673
+M	src/Form/RedirectSettingsForm.php	86aa7e31cb586b221c21e1ed3fd7e437
+M	src/Plugin/migrate/process/d7/PathRedirect.php	6d33c0c81146ffd06690a3561aa3edaf
+M	src/Plugin/migrate/source/PathRedirect.php	1360b0301cdf1dfc517a925bfe99f9a3
+M	src/Plugin/migrate/source/d7/PathRedirect.php	eef1dadf5b9afc5882c1fdbaeb06beff
+M	src/RedirectRepository.php	96a3eddd683c9381bd00a88a84685ca7
+M	tests/fixtures/drupal6.php	a167827bd59a0a06588fd288476d8a93
+M	tests/fixtures/drupal7.php	f308f9bd2a1833f15725fca019255272
+M	tests/src/Kernel/Migrate/d7/PathRedirectTest.php	2cc962f6338130132938e7328a7fd24b
+M	tests/src/Kernel/RedirectAPITest.php	3adf1e9122bc5593d24b36edae03f2b8

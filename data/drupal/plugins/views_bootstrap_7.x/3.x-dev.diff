@@ -1,0 +1,10 @@
+M	js/views-bootstrap-carousel.js	3bdc83b59074b333254ad1ce524cd607
+M	plugins/carousel/views_bootstrap_carousel_plugin_rows.inc	a279e5e8b222b652ea1551107a3292e9
+M	plugins/carousel/views_bootstrap_carousel_plugin_style.inc	845b661f6f415789ac1ad610a4813ad5
+A	plugins/panel/views_bootstrap_panel_plugin_style.inc	67fbf35db937f13272bd6270fabd7b3c
+M	templates/carousel/theme.inc	8610684a9ee808d1852ed57e124cc69c
+M	templates/media/views-bootstrap-media-plugin-style.tpl.php	786f12bd1efd9d2690437f722200789d
+A	templates/panel/theme.inc	a6b898cdbc146f39635fcdf93bc1142c
+A	templates/panel/views-bootstrap-panel-plugin-style.tpl.php	af6f84b2b04a48e82c64f66124383df4
+M	views_bootstrap.info	611bebba0647a3746f99cb60c4ab9a5d
+M	views_bootstrap.views.inc	2ad356c71f40ea50229650b7f0aee893

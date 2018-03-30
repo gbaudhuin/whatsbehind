@@ -1,0 +1,29 @@
+M	features.admin.inc	549975ac227d4f1beb46d600ddbcc580
+M	features.api.php	c02c7b6b37172a75ca310723dbc8b333
+M	features.drush.inc	017a524511d245178c815f292841ff55
+M	features.export.inc	e55cfade877aafbcdc595bf48bd9d6dc
+M	features.info	ea7067fd129932ad2f86171e95b76427
+M	features.module	fb7494eb9074d05f30b75c8efcbe4279
+M	includes/features.ctools.inc	1f99050c8b78d0cdfe064c36adf7d9e6
+M	includes/features.field.inc	d6c24fce7ff89c50008f3c792acadf92
+M	includes/features.locale.inc	26f6f3e19e24be7e299711c420561659
+M	includes/features.menu.inc	1e5201652db604b11463cfbeb16bc451
+M	includes/features.user.inc	4c26300f9ce86aef109bfec0e8cfbc56
+M	tests/features.test	89e050f4ba45fff5ff52b1f7577401ab
+D	tests/features_test.features.field.inc	
+D	tests/features_test.features.filter.inc	
+D	tests/features_test.features.inc	
+D	tests/features_test.features.taxonomy.inc	
+D	tests/features_test.features.user_permission.inc	
+D	tests/features_test.info	
+D	tests/features_test.module	
+D	tests/features_test.views_default.inc	
+A	tests/features_test/features_test.features.field_base.inc	e9b40603bf5895fe36184553169bed96
+A	tests/features_test/features_test.features.field_instance.inc	6b4ddb65a35b42e63d543205bc23133e
+A	tests/features_test/features_test.features.filter.inc	b5579644c01c55618212c9801c300da5
+A	tests/features_test/features_test.features.inc	fd9cccc73be3507d55a66d772419768d
+A	tests/features_test/features_test.features.taxonomy.inc	03983911494420657df921c83b203240
+A	tests/features_test/features_test.features.user_permission.inc	e8e643edb38627e215da0db2864e4e6c
+A	tests/features_test/features_test.info	c4f292df78042363230677c62ee63c70
+A	tests/features_test/features_test.module	a96e0a3f415f7d653c6608c74806bc0c
+A	tests/features_test/features_test.views_default.inc	c3970601206b9dd8da220cab4276da3b

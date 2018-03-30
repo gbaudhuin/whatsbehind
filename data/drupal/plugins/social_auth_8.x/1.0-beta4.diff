@@ -1,0 +1,7 @@
+M	config/schema/social_auth.schema.yml	19e10b2d6731637ffd7be2bdf5342a7b
+M	social_auth.info.yml	5b45a2c3f7a84b6cbb0b0750bac970e6
+M	social_auth.services.yml	b8107a5762277f76ea7b9118cdabce78
+A	src/AuthManager/OAuth2Manager.php	73e358a0b66065fac7e69828c9756ac2
+A	src/AuthManager/OAuth2ManagerInterface.php	d1223faad33225750b2c84a822c52eb6
+M	src/Event/SocialAuthEvents.php	a6450734b10ab7a24788f69f28ea4e46
+M	src/SocialAuthUserManager.php	e9cbc98b050cec53ad9f8fa811840c24

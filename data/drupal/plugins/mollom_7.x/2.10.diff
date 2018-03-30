@@ -1,0 +1,13 @@
+A	images/refresh.png	0bc4c324ce409269d51648efe64b0e3d
+M	mollom.admin.inc	16651062023d8b08859485e667ee64d3
+M	mollom.captcha.audio.tpl.php	d7bd14ee8cbf7987d37f002b6971ebe0
+M	mollom.captcha.image.tpl.php	d47aae1a13fe2b04cede330b9869dc4c
+M	mollom.css	6ba7c2ccdf32a6781b547e5abedb4f56
+M	mollom.flag.inc	4fc08a96baa0792d33258cf996b0beff
+M	mollom.info	e10026a2dd329ec77215422c61c8e5ee
+M	mollom.install	ceca7092343b2dc069686e6b7c951dc7
+M	mollom.js	2384eaf8e12534bbd63af3786ccf8dbc
+M	mollom.module	88b319c72bc72e474f3c5edf5cfb75af
+M	tests/mollom.test	51a1acebd3745d68dc564a5ae0030cb8
+M	tests/mollom_test.info	adca0f85305c6ff18963529a2f21fa55
+M	tests/mollom_test_server.info	b2759e32d3a218be0b19b84373fa2580

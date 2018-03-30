@@ -1,0 +1,15 @@
+D	2152931-5-paragraphs_entity_translation.patch	
+A	ParagraphsItemEntity.inc	b680086a945e36c5eeba3a00e17c310f
+A	ParagraphsItemMetadataController.inc	e513740c5771815f89bc3f217c2e9516
+D	paragraphs-item.tpl.php	
+A	paragraphs.ajax.inc	093952802f18c2c99cff3ef83aa2659f
+A	paragraphs.features.inc	181bbb5b76c0db902ed001486306787c
+A	paragraphs.field_formatter.inc	8d4a1596ffa33fbaac5e85e4ec1cb008
+A	paragraphs.field_widget.inc	877d54851be54f1c68f31ea4a1510161
+M	paragraphs.info	3b51a445c0579f5bf6ed3259da414cb1
+M	paragraphs.js	678ec2680cc55f60eeda62dae62dad6c
+M	paragraphs.module	2956a3d7ae55c2aaef5e06a09439334c
+D	paragraphs.module.orig	
+A	theme/paragraphs-item.tpl.php	9e70d6bf9da0885d7c0c4441c483d0a5
+A	theme/paragraphs-items.tpl.php	df97cc6902951e8de5a8644a2f5db7a8
+A	theme/paragraphs.theme.inc	78b4879b7e34b51d9d68663a0dbff6a7

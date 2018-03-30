@@ -1,0 +1,16 @@
+M	gmap.info	a232101518232189ba49c80a6a591565
+M	gmap.install	0c9d870c7700ae9807c52290d5447c8a
+M	gmap.module	a216a97be6d8a9fd2de7d0decfbf209f
+M	gmap_location.info	75740c60460d2ce26c4b048df9ad8aac
+M	gmap_macro_builder.info	1119a767f391885b955d4d84b02075d9
+M	gmap_markerinfo.inc	a76280295b2ccaade8736b298bed7c55
+M	gmap_settings_ui.inc	dc8244c01ce0c8694d69673225b23be5
+M	gmap_taxonomy.info	6225ab2b81d28024fdc580cc1ceadd9e
+M	gmap_test/gmap_test.info	7d6cc7a0e464f968c91957b459795ff6
+M	gmap_test_extended/gmap_test_extended.info	720a71be80b8fa78a65f0a61dfcf1c3c
+A	js/directions.js	70293eabfab510b4b2f42a27f0e95646
+M	js/highlight.js	37db0fb2167fb5908890f0ecb18f1273
+M	js/icon.js	dff0305119204d83fa908994b9c710c3
+M	js/locpick.js	84f209e6cd79b100df5920b937c7554e
+M	js/marker.js	58e1567682cb653cd1a2eabb965fbce1
+M	location_gmap_find_address/location_gmap_find_address.info	3379dcc8766e612f6915ebc46e178da3

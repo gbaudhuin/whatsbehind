@@ -1,0 +1,16 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	61df02ab81fbb9a387c752a01ad9e9d4
+A	src/Controller/BlocksController.php	ef80d460577810919bb2e9fcc9a93969
+A	src/Controller/MenuLinksController.php	0958a606cf2e9cda0e2c552c26194dbb
+A	src/Controller/TaxonomiesController.php	10072d06d319e9796ecb72e2ae17704a
+A	src/Form/BlocksSyncForm.php	f19ca956cd23a06b0e1703bcbaeda88f
+A	src/Form/MenuSyncForm.php	7b93318dbfe2595cbedc67ed1243b09e
+A	src/Form/StructureSyncForm.php	22e27ae88fba487130da52a5a611ba25
+A	src/Form/TaxonomiesSyncForm.php	e8e2c3cbdc064868c83a41955f85535e
+A	src/StructureSyncHelper.php	33fe3ed62f4af0ee6298b9d25e34c187
+A	structure_sync.drush.inc	92e41020a1f5eb6125b6138139ce0125
+A	structure_sync.info.yml	2a81b8516f4879c637d6e229402acbd9
+A	structure_sync.install	00c6d1c349066da766d04fdc624ff166
+A	structure_sync.links.menu.yml	dcaafbcf4c85bb8591a235c34fe3796f
+A	structure_sync.links.task.yml	b9d52e5452c6910a9fee1867e3c7f6d6
+A	structure_sync.routing.yml	dfe4685fd20d2d38db1e01583e6f0439

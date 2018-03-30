@@ -1,0 +1,7 @@
+M	CHANGELOG.txt	8add6ee90df8766b6711a1306a9041df
+M	migrate.info	0ac120f71e054383c89571e64fdb4245
+M	migrate_example/migrate_example.info	0697a1e1cfe15e7156cb26ebe59958e6
+M	migrate_example/migrate_example_oracle/migrate_example_oracle.info	9955beb88ce06ef1b33c8e9e2bedc5ab
+M	migrate_example_baseball/migrate_example_baseball.info	d7cfd3e234faadbab57c9c73fc2a1973
+M	migrate_ui/migrate_ui.info	a8564f2b1ffa91a75f697b0e5c761d00
+M	plugins/sources/sql.inc	b9b59a61952d49bf078fe0ebd2627dfa

@@ -1,0 +1,6 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	composer.json	0be646c173caf73064b3c69e3644d82f
+A	src/Plugin/video_embed_field/Provider/Html5.php	a21b5ddcb6da5de3d267f7fcde38bc97
+A	templates/video-embed-html5.html.twig	e186022c8370fb6c5210a8a03318de72
+A	video_embed_html5.info.yml	0f48f897a1dfcc8d55176d634da52cf6
+A	video_embed_html5.module	b311eac41129c27de062ac1f74a38b3f

@@ -1,0 +1,13 @@
+D	1365168-4.fastcgi-fix.patch	
+D	1404030-2.patch	
+M	CHANGELOG	70ceca3fbc6a0db0dd935934df0a10e7
+M	includes/DrupalOAuthConsumer.inc	167bb6ff97fd2371b2ae3a5b67f85185
+M	includes/DrupalOAuthToken.inc	9da626db16d97c91195fc1acde85cff2
+M	lib/OAuth.php	4b7e4e33c08852d1858cd721274525ee
+D	oauth-fatal_error_class_OAuthException-1334528-11.patch	
+M	oauth_common.authorizations.inc	07abd02e32b0ce4f2d64829e8d7ecc38
+M	oauth_common.consumers.inc	4c5798840fa4393a057174053409eb55
+M	oauth_common.info	95c891db9bb3009845d8dd3b9d2d87f3
+M	oauth_common.module	f2da9f9128696c54bac91a2d27b5f42c
+M	oauth_common_providerui.info	39afe3d053bf203ed2551a5ef6c73b73
+M	oauth_common_providerui.module	3261b566b5ec1edc9840cd745e3b8d39

@@ -1,0 +1,8 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	c7652ca95735489e62c769d6dfa9b7e4
+A	multiform.example.inc	3a5205cf8ffada7a4340ae7c3b965411
+M	multiform.info	06442a5ddc7211d01338c535a261b6b4
+M	multiform.module	1973126b354dc2c7c75e680cad39142c
+A	tests/multiform.test	32b681c26d919dacf4183e7056051f66
+A	tests/multiform_test.info	c06d37a4b47b488f795eafa5df579e6b
+A	tests/multiform_test.module	f9d2472d8868672ad0bf9ab868e42455

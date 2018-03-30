@@ -1,0 +1,9 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	f5aeab37362dc0c54cdd2ca38cf12118
+A	ckeditor_templates.info.yml	67834d8905a25ba3c6a3c64694edd2c8
+A	ckeditor_templates.libraries.yml	e91f0fef50204e2d9d4071a2c50669ad
+A	css/ckeditor_templates.css	1db5951356689a7ac897fa59a6773f18
+A	js/ckeditor_templates.admin.js	6caadc20fcced4df0390199f9bd7e404
+A	js/ckeditor_templates.dialog.js	6f2c94fb86b2de617d5be0158ad9a0ec
+A	src/Plugin/CKEditorPlugin/CkeditorTemplates.php	777e091c247e1e8e677938d60fffe63a
+A	templates/ckeditor_templates.js.example	5d813ff57df4f9a3a39b3a69354dd002

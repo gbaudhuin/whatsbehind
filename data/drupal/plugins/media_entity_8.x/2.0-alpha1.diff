@@ -1,0 +1,85 @@
+D	.travis.yml	
+D	CHANGELOG.txt	
+D	DEVELOPING.md	
+M	README.md	915177ba809e5b86b9d9b2bee3a67036
+D	config/install/media_entity.settings.yml	
+D	config/install/system.action.media_delete_action.yml	
+D	config/install/system.action.media_publish_action.yml	
+D	config/install/system.action.media_save_action.yml	
+D	config/install/system.action.media_unpublish_action.yml	
+D	config/install/views.view.media.yml	
+D	config/schema/media_entity.schema.yml	
+D	config/schema/media_entity.views.schema.yml	
+A	drush.services.yml	32bda47fce1e4f5e54b9b5bc883475ef
+D	js/media_bundle_form.js	
+D	media_entity.api.php	
+A	media_entity.drush.inc	352af117762e42603c78a8ba09abd002
+M	media_entity.info.yml	1c9fad6072959173a3d3b59d2cba7f23
+M	media_entity.install	34f2417f01d07363bc6e59ca7c25aa85
+D	media_entity.libraries.yml	
+D	media_entity.links.action.yml	
+D	media_entity.links.contextual.yml	
+D	media_entity.links.menu.yml	
+D	media_entity.links.task.yml	
+M	media_entity.module	2e0587347d67d8cefb77764ed9fb227f
+D	media_entity.permissions.yml	
+D	media_entity.plugin_type.yml	
+D	media_entity.routing.yml	
+M	media_entity.services.yml	b9ca532b300965369ebced17c6a8684a
+D	media_entity.theme.inc	
+D	media_entity.tokens.inc	
+A	src/CliService.php	e689d0cdba795df067ae965b34674363
+A	src/Commands/DrushCommands.php	2e259a378b7bd1354a813871b614b5fc
+D	src/EmbedCodeValueTrait.php	
+D	src/Entity/Media.php	
+D	src/Entity/MediaBundle.php	
+D	src/Form/DeleteMultiple.php	
+D	src/Form/MediaBundleDeleteConfirm.php	
+D	src/Form/MediaDeleteForm.php	
+D	src/Form/MediaInlineForm.php	
+A	src/Media.php	e1e939da05f4f3cc4cfa5bb2e88023de
+D	src/MediaAccessController.php	
+A	src/MediaBundle.php	c46c13f0f5a6b6a2e96a33b929c0cbb4
+D	src/MediaBundleForm.php	
+D	src/MediaBundleInterface.php	
+D	src/MediaBundleListBuilder.php	
+D	src/MediaForm.php	
+D	src/MediaInterface.php	
+D	src/MediaStorage.php	
+D	src/MediaStorageInterface.php	
+D	src/MediaTypeBase.php	
+D	src/MediaTypeException.php	
+D	src/MediaTypeInterface.php	
+D	src/MediaViewsData.php	
+D	src/Plugin/Action/DeleteMedia.php	
+D	src/Plugin/Action/PublishMedia.php	
+D	src/Plugin/Action/SaveMedia.php	
+D	src/Plugin/Action/UnpublishMedia.php	
+D	src/Plugin/DevelGenerate/MediaDevelGenerate.php	
+D	src/Plugin/Field/FieldFormatter/MediaThumbnailFormatter.php	
+D	src/Plugin/MediaEntity/Type/Generic.php	
+D	src/Plugin/QueueWorker/thumbnailDownloader.php	
+D	src/Plugin/views/field/MediaBulkForm.php	
+D	src/Plugin/views/wizard/Media.php	
+D	src/Plugin/views/wizard/MediaRevision.php	
+D	templates/media.html.twig	
+A	tests/fixtures/drupal-8.4.0-media-entity.php.gz	6757fd9eec3d2c6e96fbfec20de5f6be
+D	tests/modules/media_entity_test_bundle/config/install/media_entity.bundle.test.yml	
+D	tests/modules/media_entity_test_bundle/media_entity_test_bundle.info.yml	
+D	tests/modules/media_entity_test_type/config/schema/media_entity_test_type.schema.yml	
+D	tests/modules/media_entity_test_type/media_entity_test_type.info.yml	
+D	tests/modules/media_entity_test_type/src/Plugin/MediaEntity/Type/TestType.php	
+D	tests/modules/media_entity_test_views/config/install/views.view.test_media_entity_bulk_form.yml	
+D	tests/modules/media_entity_test_views/media_entity_test_views.info.yml	
+A	tests/src/Functional/CoreMediaUpdatePathTest.php	975065c2200c85dfd809db0339239996
+D	tests/src/Functional/MediaAccessTest.php	
+D	tests/src/Functional/MediaBulkFormTest.php	
+D	tests/src/Functional/MediaEntityFunctionalTestBase.php	
+D	tests/src/Functional/MediaEntityFunctionalTestTrait.php	
+D	tests/src/Functional/MediaUiFunctionalTest.php	
+D	tests/src/FunctionalJavascript/MediaEntityJavascriptTestBase.php	
+D	tests/src/FunctionalJavascript/MediaIefIntegrationTest.php	
+D	tests/src/FunctionalJavascript/MediaUiJavascriptTest.php	
+D	tests/src/FunctionalJavascript/MediaViewsWizardTest.php	
+D	tests/src/Kernel/BasicCreationTest.php	
+D	tests/src/Kernel/TokensTest.php	

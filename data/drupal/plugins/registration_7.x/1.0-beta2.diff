@@ -1,0 +1,8 @@
+M	includes/registration.entity.inc	e70f919393f5e474cb242ec93404e960
+M	includes/registration.field.inc	79c414ca7770eaf337103302acc08440
+M	includes/registration.forms.inc	ce70c1b205e21d97bc129f503a2588d1
+M	modules/registration_entity_access/registration_entity_access.info	aff072f31c8f0f647e9879398a445af5
+M	modules/registration_views/registration_views.info	6641cd6420658168ed03127234b2c617
+M	registration.info	d2db450bd9c272fb9b048725d2320b4e
+M	registration.module	738cd9c985dfc681c642a635897a52ab
+M	tests/registration_test_api/registration_test_api.info	00f9061d9903a4a230efbe16281c9db6

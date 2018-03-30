@@ -1,0 +1,10 @@
+M	scheduler.admin.inc	646347c1bcbd6c7f997c3e029c964cc4
+M	scheduler.api.php	52b5582996a59c6fe2c72f8d2f4ebc35
+D	scheduler.css	
+M	scheduler.info	710cc50b537ec867fa2d53443b44bfe7
+M	scheduler.install	8bd083d361efb544e82a08606d28f541
+M	scheduler.module	b2fbe67a1ae648be132978fce21fc341
+M	scheduler.test	9e9bf1c169c18a527b9d58d23a54d9bf
+M	scheduler.tokens.inc	374c819be7451742a4ab68e9491c1c20
+M	scheduler_vertical_tabs.js	5f181972158d53cfc71720e677c06a4c
+M	tests/scheduler_test.info	12f972fe189c2fc1e2e324601112b110

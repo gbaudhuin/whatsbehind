@@ -1,0 +1,13 @@
+M	README.txt	f4012386c2acd59df7d175a1696d52f2
+M	site_map.admin.inc	b0fd019bf4976feb88535274cf0d77e9
+A	site_map.css	58ae6ba5c7d59e3748aa37503a4a4360
+M	site_map.info	f5c03195c29985d01c2a3af9062d12d5
+M	site_map.install	240c1713e5402de9bdbe8d86ed16a65e
+M	site_map.module	493c2c1c1aa1305eb84dd55f84c4bf2f
+M	translations/de.po	5c44acce920d54e6c85e59797f20e37a
+A	translations/es.po	e0e67c69dd2f9aedb31e79c705b90902
+M	translations/fr.po	b3824c9645b06386cee7564826c63e78
+M	translations/ru.po	8466f1720738c153fbddebdaa931f944
+D	translations/site_map-module.pot	
+A	translations/site_map.pot	5eb7dfc8aea8bf7122eac66cc6a0b85a
+A	translations/sk.po	90c2ce1e3bd935fca626f212644132a5

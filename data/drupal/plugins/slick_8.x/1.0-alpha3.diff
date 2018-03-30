@@ -1,0 +1,17 @@
+M	CHANGELOG.txt	e3de33429c7bb730746ef34cd6d750c1
+M	README.txt	d66bd885ecf86d62e55350e1c9d36133
+M	slick.api.php	65fa1013eb499344dce7e951699e3b31
+M	slick.info.yml	3fe8975e6bdaa13eed4d60ca64860e70
+M	slick.module	5fe300187738be63263c6ddd7ff234d2
+M	slick_ui/slick_ui.info.yml	d3764da0e4819d73649ad5bda97ea96e
+M	slick_ui/slick_ui.links.action.yml	822ed1cd26d02f1538de25c905dd4ccd
+M	slick_ui/slick_ui.links.task.yml	7c7bc3581ea52b7d9b408e9d29c14f3d
+M	src/Plugin/Field/README.txt	ad167dd653d06523573fb5b6d7b18863
+M	src/SlickAdmin.php	57758a2d23e9d37c46962a965e810450
+M	src/SlickDefault.php	a77e1c642646bc57ae9d5a77e9b9b634
+M	src/SlickFormatter.php	b86953b7df28fd3bc9d91061aa4c71bb
+M	src/SlickManager.php	b3058bfe84c3add428abb8b62f88c23a
+M	src/SlickSkin.php	656d07bb752655d125d8345fdb51678d
+M	src/SlickSkinInterface.php	20fb765607817d11b4955cfa4c6c9b91
+M	templates/slick.html.twig	4e48c0e7371938b1f5141d2b211f6cb5
+M	templates/slick.theme.inc	24c84fc5d74840159df3b2b998fb5866

@@ -1,0 +1,6 @@
+D	ChangeLog.txt	
+M	README.txt	cce15dbcbae30439538403ad357e8ef3
+A	publishcontent.admin.inc	49f139215351ca899c123ac9b72d9952
+M	publishcontent.info	e48f9daa0ecdcd1d54ffc38c9b8e36c6
+M	publishcontent.module	bd2a588dadab63fe78a45e308000229a
+M	publishcontent_views_handler_field_node_link.inc	d4e49bf22239574d2d2185b1bd998069

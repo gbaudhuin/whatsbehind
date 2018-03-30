@@ -1,0 +1,12 @@
+M	config/schema/state_machine.schema.yml	942e47a4d236dcc74fbb96d860c1064c
+M	src/Plugin/Workflow/Workflow.php	975a84edf64512e98e36c6620804c683
+M	src/Plugin/Workflow/WorkflowInterface.php	0b607c13b13bd63409bad6df4cdefbd4
+M	src/Plugin/WorkflowGroup/WorkflowGroup.php	658036909cec14ea47f2801dd01d3549
+M	src/Plugin/WorkflowGroup/WorkflowGroupInterface.php	65a9d0bd62bf88a2b2d8fcc89ff01085
+A	src/Plugin/views/filter/State.php	a7ff1cad52141bcdae8bba8ff2ddfcaa
+M	state_machine.info.yml	89879860cf0262b39ab5775bb73ea21b
+M	state_machine.plugin_type.yml	65b75e61e081f7060be838c394f56fb5
+A	state_machine.views.inc	d13b8aa4f3dc0709e3af616cfa1a9275
+M	tests/modules/state_machine_test/state_machine_test.info.yml	bce25326179719b0b0f999cd943ce0b5
+M	tests/src/Unit/Plugin/Workflow/WorkflowTest.php	7ac709687ecc67ac4fba0ebd99dabb9c
+M	tests/src/Unit/Plugin/WorkflowGroup/WorkflowGroupTest.php	9b9ac9546c1c165277b99bf9d00d0db3

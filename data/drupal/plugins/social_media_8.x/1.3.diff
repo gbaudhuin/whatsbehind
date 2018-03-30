@@ -1,0 +1,13 @@
+M	config/install/social_media.settings.yml	07b2302f565ea79350128796e87a44e4
+M	css/social_media.css	016fb6747370dc215b65061c59929b2b
+M	icons/email.svg	4aaad6deb9c9bfbc4a6344f1ac911a96
+M	icons/facebook_share.svg	c2d37709e03d118378970efd1ff634d6
+M	icons/linkedin.svg	fa4fa01fbb1a1f3afc2b1ec630605e09
+A	icons/pinterest.svg	40a528acdeb52466195719a59e09ea13
+M	icons/twitter.svg	0e86002856c17ae1f509098dbdac941d
+M	social_media.info.yml	a823aed408dafb2e7a5f77ccc981aa18
+M	src/Form/SocialMediaAdminForm.php	19ae3dc0e6feaab515dc2b557e00e112
+M	src/Plugin/Block/SocialSharingBlock.php	efd0a464ffe8112de07d90c33d131ebb
+M	src/Plugin/Field/FieldType/SocialMediaItem.php	a95eee4c88a77431dbc62db03247c7d5
+M	src/Plugin/Field/FieldWidget/SocialMediaWidget.php	e049e921b68df2a4b4c9a01e3007a166
+M	templates/social-media-links.html.twig	c26041349672e3984963f1391032be84

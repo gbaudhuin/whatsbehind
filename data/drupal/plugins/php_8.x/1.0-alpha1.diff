@@ -1,0 +1,13 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	config/install/filter.format.php_code.yml	1d03416d30034aed2da99ac8232651d0
+A	php.info.yml	5cd0d6697ace0d0f99779b6d289523e8
+A	php.module	b146273e245514801af97f6aa8157371
+A	src/Plugin/Condition/Php.php	619e62826cee37d48894f6ad12f46319
+A	src/Plugin/Filter/Php.php	a49ea3f510ef403218ebfaa654d064ab
+A	src/Plugin/views/argument_default/Php.php	726ca962da7b2185e04b59f9edf18901
+A	src/Plugin/views/argument_validator/Php.php	5e2402b7f459b83e0235ae72b85f5448
+A	src/Tests/Condition/PhpConditionTest.php	7b7a8b3f53c54e92d17b6922045f7742
+A	src/Tests/PhpAccessTest.php	c8671c276e4af326bf0c46e5b0f86d72
+A	src/Tests/PhpFilterTest.php	133dd5395ed018e9ed3b63ddad4c3ab4
+A	src/Tests/PhpTestBase.php	75d558bc1a74f6908e54e0458694d8f3
+A	src/Tests/Plugin/views/PhpArgumentValidatorTest.php	9f0c60501796aa0f31c467fbc5bed912

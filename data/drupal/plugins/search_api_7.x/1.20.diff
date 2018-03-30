@@ -1,0 +1,8 @@
+M	CHANGELOG.txt	317d8db74795f666cacb86755dbc3084
+M	contrib/search_api_facetapi/search_api_facetapi.info	6656cc4245a2213de126cd2ddc2f7476
+M	contrib/search_api_views/includes/display_facet_block.inc	3d5f542e5d07100d60fb0d50b5c10cfb
+M	contrib/search_api_views/includes/handler_filter_entity.inc	eeb1f247b54e5615aeb0792caef5cdbe
+M	contrib/search_api_views/search_api_views.info	398f9f745632955ffff544678c59d846
+M	includes/index_entity.inc	b34c87b7f0212818c251e7bb6a7d907a
+M	search_api.info	0d3cb82e34a5431d9a3b6781148aea86
+M	tests/search_api_test.info	65b4457416122cba6696a814155f6f27

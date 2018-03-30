@@ -1,0 +1,5 @@
+M	media_entity_slideshow.info.yml	da2d3feb3588571c7f7f6d77b98e77a2
+M	src/Plugin/MediaEntity/Type/Slideshow.php	16486df1a931b9d0a0aaf7fda79bbfc2
+A	src/Plugin/Validation/Constraint/ItemsCountConstraint.php	cec0ba771a5919366182bc7b7becdfee
+A	src/Plugin/Validation/Constraint/ItemsCountConstraintValidator.php	199636afc2b5594d37ffe9405a0ead46
+A	tests/src/Unit/ConstraintsTest.php	e5dee62984057763e5b2fbb53476c7f6

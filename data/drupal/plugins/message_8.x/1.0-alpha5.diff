@@ -1,0 +1,31 @@
+M	message.info.yml	3fdfa8bafeee6c66de361cae827ad1a2
+M	message.module	369fb76b82b1b85e61fde1591f6c7e9d
+M	message.routing.yml	123a45b4b1e657f7513a3db93a3344d0
+D	modules/message_example/config/install/field.field.message.example_create_comment.field_comment_reference.yml	
+D	modules/message_example/config/install/field.field.message.example_create_comment.field_node_reference.yml	
+D	modules/message_example/config/install/field.field.message.example_create_comment.field_published.yml	
+D	modules/message_example/config/install/field.field.message.example_create_node.field_node_reference.yml	
+D	modules/message_example/config/install/field.field.message.example_create_node.field_published.yml	
+D	modules/message_example/config/install/field.storage.message.field_comment_reference.yml	
+D	modules/message_example/config/install/field.storage.message.field_node_reference.yml	
+D	modules/message_example/config/install/field.storage.message.field_published.yml	
+D	modules/message_example/config/install/message.template.example_create_comment.yml	
+D	modules/message_example/config/install/message.template.example_create_node.yml	
+D	modules/message_example/config/install/message.template.example_user_register.yml	
+A	modules/message_example/config/optional/field.field.message.example_create_comment.field_comment_reference.yml	c59d78232092f4ede973985642d69c26
+A	modules/message_example/config/optional/field.field.message.example_create_comment.field_node_reference.yml	7d22c2385f02b34c58deeb2d5e6fb2fa
+A	modules/message_example/config/optional/field.field.message.example_create_comment.field_published.yml	e6921500137d140c22a24d79d52fda3f
+A	modules/message_example/config/optional/field.field.message.example_create_node.field_node_reference.yml	7b3805b8c4cc0990f98f1b422631f2ba
+A	modules/message_example/config/optional/field.field.message.example_create_node.field_published.yml	ba2e3dbc156d884b05288d5bb7a52ea8
+A	modules/message_example/config/optional/field.storage.message.field_comment_reference.yml	149506a57c09daaa5e68fadb27f13560
+A	modules/message_example/config/optional/field.storage.message.field_node_reference.yml	0de060b7199f9e7857b2ea75f5227403
+A	modules/message_example/config/optional/field.storage.message.field_published.yml	d9aed072ec987e1c47ae5444e244d356
+A	modules/message_example/config/optional/message.template.example_create_comment.yml	00bf1d2fec4d8f047a73db5a22e081c0
+A	modules/message_example/config/optional/message.template.example_create_node.yml	ab01f3fecac08bfb68dd5d353e547df4
+A	modules/message_example/config/optional/message.template.example_user_register.yml	9aba962180255f349a101f26ae7ba794
+M	modules/message_example/message_example.info.yml	77ab22c43c7e5d05fad232ab6c8a3a1f
+M	src/Entity/Message.php	639826e684ff874fd7e3d5f4bddf22a6
+M	src/Entity/MessageTemplate.php	cd75f2b80b2409b55af7801b89449bb0
+M	src/MessageViewBuilder.php	977e4076d42b8ebda4ee10df3ad3a069
+A	tests/src/Functional/MenuTest.php	a15518cd867e3b4335a60a9c9877af3c
+M	tests/src/Functional/MessageUiTest.php	89fec9749f66dedc2a25ac465ced6da3

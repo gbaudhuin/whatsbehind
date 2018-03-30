@@ -1,0 +1,131 @@
+A	.circleci/config.yml	f062cce5179a92215101a486e46ff739
+D	.travis.yml	
+A	LICENSE.md	60d644347832d2dd9534761f6919e2a6
+M	README.md	4682056b1d805590d4e07e8ed326580b
+M	avatars.info.yml	608fed89f0d33cf091cf9a12bedd1983
+M	avatars.install	122fcf67323d6735bc91922f56e81557
+M	avatars.libraries.yml	ed260fabb8b578a02ab62f253c1a2997
+M	avatars.links.action.yml	956f6ba4d2b3141f6864d3b48929fb66
+M	avatars.links.menu.yml	c3795d0c818c66e54a9cc96609c2d4db
+A	avatars.links.task.yml	6cc9d6bcd8f288d84dde98913f80cfa4
+M	avatars.module	6e0f6d546019eab7c4224e57c9a03b6d
+M	avatars.permissions.yml	20a97e6cc0bf88c797ea1e06ec81caca
+M	avatars.routing.yml	74b28ed1b394df5b01aac4821d70c79b
+M	avatars.services.yml	d4c6de289ac1007cb7131f494141d5d5
+D	avatars_adorable/README.md	
+D	avatars_adorable/avatars_adorable.info.yml	
+D	avatars_adorable/src/Adorable.php	
+D	avatars_adorable/src/AdorableInterface.php	
+D	avatars_adorable/src/Plugin/AvatarGenerator/Adorable.php	
+D	avatars_gravatar/README.md	
+D	avatars_gravatar/avatars_gravatar.info.yml	
+D	avatars_gravatar/avatars_gravatar.install	
+D	avatars_gravatar/avatars_gravatar.routing.yml	
+D	avatars_gravatar/composer.json	
+D	avatars_gravatar/config/schema/avatars_gravatar.schema.yml	
+D	avatars_gravatar/src/Gravatar.php	
+D	avatars_gravatar/src/GravatarInterface.php	
+D	avatars_gravatar/src/Plugin/AvatarGenerator/Gravatar.php	
+D	avatars_gravatar/src/Plugin/AvatarGenerator/GravatarGenerator.php	
+D	avatars_robohash/README.md	
+D	avatars_robohash/avatars_robohash.info.yml	
+D	avatars_robohash/avatars_robohash.install	
+D	avatars_robohash/composer.json	
+D	avatars_robohash/config/schema/avatars_robohash.schema.yml	
+D	avatars_robohash/src/Plugin/AvatarGenerator/Robohash.php	
+D	avatars_robohash/src/Robohash.php	
+D	avatars_robohash/src/RobohashInterface.php	
+M	composer.json	86b70d6d505dfb346cec605e76d11185
+A	composer.lock	68e5fe35774cb62ba1e3ca4e1eb8e1f6
+D	config/install/avatars.generator.user_preference.yml	
+D	config/install/avatars.generator.user_upload.yml	
+D	config/install/avatars.settings.yml	
+D	config/install/field.field.user.user.avatars_avatar_generator.yml	
+D	config/install/field.storage.user.avatars_avatar_generator.yml	
+A	config/optional/avatars.entity_mapping.user.user.default.yml	2be3bcb74ac35beb79d96ae150c457c6
+D	config/schema/avatars.data_types.schema.yml	
+M	config/schema/avatars.schema.yml	9cd0c46df8706821df8e2a06f543e0b1
+D	css/avatars.css	
+A	js/avatars.admin.js	4aee198900bc8ba4d70a21ec4573f49f
+D	src/Annotation/AvatarGenerator.php	
+A	src/Annotation/AvatarKitService.php	4ceda029f1ab386d16cf407ee38787e1
+D	src/AvatarBase.php	
+D	src/AvatarBaseInterface.php	
+D	src/AvatarGeneratorInterface.php	
+D	src/AvatarGeneratorPluginCollection.php	
+D	src/AvatarGeneratorPluginManager.php	
+D	src/AvatarGeneratorPluginManagerInterface.php	
+D	src/AvatarGeneratorStorage.php	
+D	src/AvatarGeneratorStorageInterface.php	
+A	src/AvatarKitAvatarServiceDiscovery.php	83f0ab2fb64d47880778e1dc0840ac63
+A	src/AvatarKitDownloadUtility.php	f642dcc94af32b5dd43b8887c302a482
+A	src/AvatarKitDownloadUtilityInterface.php	27872f0c4161f2431cd9bac52c57abcd
+A	src/AvatarKitEntityFieldHandler.php	bbe7268738744e1293c3ecb61aa75f71
+A	src/AvatarKitEntityFieldHandlerInterface.php	93176d3bb3a39e4d85627fd4d0653c8d
+A	src/AvatarKitEntityHandler.php	2124b239d623044f7effbe616565efc1
+A	src/AvatarKitEntityHandlerInterface.php	22331e49b5d83328e473c3a68c19e5f1
+A	src/AvatarKitEntityHooks.php	a8178470682ad6636d935e8e6e36d24f
+A	src/AvatarKitEntityHooksInterface.php	ee399b91b2a56a286536b8987548fc88
+A	src/AvatarKitEntityPreferenceManager.php	c18c65c5755729e924cc637dd91e0722
+A	src/AvatarKitEntityPreferenceManagerInterface.php	9f6fbe0971b1ce845d446b0f92cd436f
+A	src/AvatarKitFormAlter.php	9087fbb80e4b7ecb6aac29474c33ac26
+A	src/AvatarKitFormAlterInterface.php	543510d36b53d351d3c00f4c68d004da
+A	src/AvatarKitLocalCache.php	7eb30dd0c4f2d5a326abefc2b189278e
+A	src/AvatarKitLocalCacheInterface.php	277e5b2c2fb4894d2360c408837033e5
+A	src/AvatarKitServicePluginManager.php	592b87a1d2bd33eb327e80aad71208b0
+A	src/AvatarKitServicePluginManagerInterface.php	e92cf8da6c8f4cd15bde93de23884959
+D	src/AvatarManager.php	
+D	src/AvatarManagerInterface.php	
+D	src/AvatarPreviewInterface.php	
+D	src/Element/AvatarsImageRadios.php	
+A	src/Entity/AvatarCache.php	cc705bc58c2429a2b46865ad808f891a
+A	src/Entity/AvatarCacheInterface.php	f69a83cf8785abed75eb564b1cc362ce
+D	src/Entity/AvatarGenerator.php	
+A	src/Entity/AvatarKitEntityMap.php	81425b5de01e985694fd1517c9a8a910
+A	src/Entity/AvatarKitEntityMapInterface.php	0ba3bd36fbe2b3bdb77866900aef0d5c
+A	src/Entity/AvatarKitService.php	95ed4665f89cc23790079ec447e324a4
+A	src/Entity/AvatarKitServiceInterface.php	f5f26e8b86bc254fde893b7e31a4e4b9
+A	src/Entity/AvatarKitServiceStorage.php	7977b048cc6d4e8de96aa8ed7b0ad385
+A	src/Entity/AvatarKitServiceStorageInterface.php	c5cd364aff77de635fc2d99c0e7a14bf
+D	src/Entity/AvatarPreview.php	
+A	src/EntityAvatarIdentifier.php	16c5d183b55e6744a53f1a75835b1a24
+A	src/EntityAvatarIdentifierInterface.php	5dd8a1cf1a4daa4f316544cbd1cb1f04
+A	src/EntityAvatarIdentifierProxy.php	ad0784595319697fe22d3c9782bd01a9
+A	src/Event/AvatarKitEvents.php	ad0fefccb6d92562ba671a059bf86fca
+A	src/Event/AvatarKitServiceDefinitionAlterEvent.php	0d56d372a78b857e95b0a8a4fc9611ad
+A	src/Event/EntityServicePreferenceEvent.php	626387a1726c8d727b855a0b899ae2ab
+A	src/EventSubscriber/AvatarKitDefaultPreferenceSubscriber.php	2904c0cdce4e5178a9408b467c7c996f
+A	src/EventSubscriber/AvatarKitEntityFieldPreferenceSubscriber.php	0b52ec6a88cea51f93fa7e410366f4af
+D	src/Exception/AvatarException.php	
+A	src/Exception/AvatarKitEntityAvatarIdentifierException.php	10990e9576aa427df8fc8c1797ea6741
+D	src/Form/AvatarGeneratorDeleteForm.php	
+D	src/Form/AvatarGeneratorForm.php	
+A	src/Form/AvatarKitEntityMappingForm.php	3db73ffc94bc2777e77efc8e49eda606
+A	src/Form/AvatarKitServicesForm.php	6e109d140ee88f396254416f71db770c
+A	src/Form/AvatarKitSettingsForm.php	4f70fc950643a69619a416b8228790bc
+A	src/Form/Entity/AvatarKitServiceDeleteForm.php	39110bfa0728c52aadae4f31a2336bff
+A	src/Form/Entity/AvatarKitServiceForm.php	48d383193798607ffdf9ad7a509093f5
+D	src/Form/Settings.php	
+D	src/Permissions.php	
+D	src/Plugin/AvatarGenerator/AvatarGeneratorBase.php	
+D	src/Plugin/AvatarGenerator/AvatarGeneratorPluginInterface.php	
+D	src/Plugin/AvatarGenerator/Broken.php	
+D	src/Plugin/AvatarGenerator/User.php	
+D	src/Plugin/AvatarGenerator/UserPreference.php	
+A	src/Plugin/Avatars/Service/AvatarKitCommonService.php	b83894d1503a3526eef0a4ccf29581cd
+A	src/Plugin/Avatars/Service/AvatarKitEntityField.php	7f13a229374439584f79644e968b1cd4
+A	src/Plugin/Avatars/Service/AvatarKitServiceBase.php	63ed47cd482a44036fb5db00e0abbaaf
+A	src/Plugin/Avatars/Service/AvatarKitServiceInterface.php	feed6f4c7f724bee55bb33be69bf7e57
+A	src/Plugin/Derivative/AvatarKitCommonService.php	5fb4acb7478617b1beba0e080db54449
+D	src/Plugin/Field/FieldWidget/AvatarGeneratorPreviewWidget.php	
+D	src/Tests/AvatarKitAdminSettingsTest.php	
+D	src/Tests/AvatarKitGeneratorTest.php	
+D	src/Tests/AvatarKitWebTestBase.php	
+D	templates/avatar-preview-radio.html.twig	
+D	tests/modules/avatars_test/avatars_test.info.yml	
+D	tests/modules/avatars_test/avatars_test.routing.yml	
+D	tests/modules/avatars_test/src/Controller/AvatarKitTestController.php	
+D	tests/modules/avatars_test/src/Plugin/AvatarGenerator/DynamicTestGenerator.php	
+D	tests/modules/avatars_test/src/Plugin/AvatarGenerator/StaticTestGenerator.php	
+D	tests/src/Kernel/AvatarKitManagerTest.php	
+D	tests/src/Kernel/AvatarKitPermissionsTest.php	

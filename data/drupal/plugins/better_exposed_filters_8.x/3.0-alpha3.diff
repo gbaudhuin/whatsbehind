@@ -1,0 +1,13 @@
+M	better_exposed_filters.api.php	da71d5bf4fc2a66786c2edc6a861e352
+M	better_exposed_filters.info.yml	5f2d24c1b66c06bbfcd650af2c64bd98
+M	better_exposed_filters.libraries.yml	e8bb2fcb2f15eac4aa78627851e77691
+M	better_exposed_filters.module	07a6891811d1898788945cdf25f4dcdc
+M	config/schema/better_exposed_filters.exposed_form.schema.yml	03dd1f3c3407757c9cc7cee9f99bbf48
+M	js/auto_submit.js	126dd55d05f90ee6d94c829f032269a7
+M	js/bef_sliders.js	16498600910e83af7cb02b583536835e
+M	src/Plugin/views/exposed_form/BetterExposedFilters.php	de28f83ae42d7fca855d8adf71b65a08
+M	tests/bef_test/bef_test.info.yml	81223479f04fae8c73ce4e97ba25631c
+A	tests/bef_test/config/install/field.field.node.bef_test.field_bef_price.yml	57b7c7ac3bfc6a71f92b3efca577b745
+A	tests/bef_test/config/install/field.storage.node.field_bef_price.yml	d12f5907f65f0f9b2e26144479e8236e
+M	tests/bef_test/config/install/views.view.bef_test.yml	e8cf4a1e8dca8563fbbabf3dfe849c1b
+M	tests/src/Unit/BetterExposedFiltersTest.php	76a3848133831836a5f39c9269ba1afd

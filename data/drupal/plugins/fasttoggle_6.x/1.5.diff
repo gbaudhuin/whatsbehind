@@ -1,0 +1,7 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	fasttoggle.admin.inc	123fea45984f4ffb725733ac5215498e
+M	fasttoggle.info	f3f4da407ca33dbd6bb89f1ccf363c92
+M	fasttoggle.module	8a4c3e7e483799cda5351222e1dc8bda
+M	views/fasttoggle.views.inc	e447a0568de41af4537a44e7c5b46d8a
+A	views/fasttoggle_views_handler_field_comment_link.inc	b66da334f282b9b49a817b663af35b77
+A	views/fasttoggle_views_handler_field_user_link.inc	5d25823a2d7a0de2f21cc8518c8eeee9

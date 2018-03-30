@@ -1,0 +1,7 @@
+M	README.md	670fe085d8d159a89481680d3562be5d
+A	config/schema/svg_image_field.schema.yml	b6e856fd2bd8c1dd15daf8a291a1811e
+M	src/Plugin/Field/FieldFormatter/SvgImageFieldFormatter.php	b6a9de4fd9fe2ede831b0603628d5f32
+M	src/Plugin/Field/FieldWidget/SvgImageFieldWidget.php	8dbff5be3ebaf2398a480f45d1057b4f
+A	src/Plugin/media/Source/SVG.php	6ec9449fcd6a4b20ed5be3d8a19dae07
+M	svg_image_field.info.yml	61d3d12df3f6b1ffbb0d5181b7d9dd81
+M	tests/src/Unit/test_data/valid_svg1.svg	1bffbe5f1386d47b3bc041c65f6a0a4a

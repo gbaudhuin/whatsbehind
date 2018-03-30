@@ -1,0 +1,121 @@
+M	README.md	1e7e793655de2b95a3ca71c024acea5e
+M	config/schema/image_effects.schema.yml	2d07e596549224144c04ba4730911429
+M	css/image_effects.admin.ui.css	ef65a625add01616267a93ed1a7c2ea5
+M	css/image_effects.farbtastic_color_selector.css	d3612c88b218138fe2c525d473aad0e5
+M	css/image_effects.html_color_selector.css	e589271112ebbd67e28e5e1bbf9288ce
+M	css/image_effects.jquery_colorpicker_color_selector.css	890de2b3f047d56090e743382ae24fa9
+M	image_effects.info.yml	7b0f8a492fa8731073aaf257be19cd77
+M	image_effects.install	d8f89b197f2ff7da304d038bfe427dde
+M	image_effects.module	6d19d3523ddc524946b077c220c760ea
+M	image_effects.post_update.php	201e561ae9522187c9a7d83b1cfccc23
+M	src/Component/ColorUtility.php	399ab9ca972db60b0f9683e0a0ed70ae
+A	src/Component/GdGaussianBlur.php	13106146ea04cca466f2e5533499c854
+M	src/Element/ImageEffectsColor.php	69bf825e76665fa095302dc83d31b7ae
+M	src/Element/ImageEffectsPxPerc.php	da23e910520fcf9314e728f08e785596
+M	src/Form/SettingsForm.php	07ef83b7072bd89c9f4adce7b635982a
+A	src/Plugin/ImageEffect/AnchorTrait.php	27893ebda13195ceddbb517e648d8c44
+M	src/Plugin/ImageEffect/ConvolutionImageEffect.php	734af50f7f09258c5d59781092e47364
+M	src/Plugin/ImageEffect/ConvolutionSharpenImageEffect.php	9f60c74d3bc41415007591a81c94b081
+A	src/Plugin/ImageEffect/GaussianBlurImageEffect.php	40b3b268245ae2221acaf09f0d358ea5
+A	src/Plugin/ImageEffect/MaskImageEffect.php	25e8bd5202fa727d0085be335405e5cd
+A	src/Plugin/ImageEffect/MirrorImageEffect.php	61f4d125b8733bf03bf438ea0d094ae5
+A	src/Plugin/ImageEffect/ResizePercentageImageEffect.php	dc8e1db3e3501df1c55c5045e109f09a
+M	src/Plugin/ImageEffect/SetCanvasImageEffect.php	90ec898acdb37eb6f820e1a89b295d6a
+M	src/Plugin/ImageEffect/TextOverlayImageEffect.php	64c920f019046dff5b31a25a48dc377a
+M	src/Plugin/ImageEffect/WatermarkImageEffect.php	f95db4aad82864ac6b37c4b12f73c3d1
+M	src/Plugin/ImageEffectsPluginBase.php	493c0f598c07955290c40e2f839cc502
+M	src/Plugin/ImageEffectsPluginBaseInterface.php	f11a772913c5e0045bbc80e1f378fb96
+M	src/Plugin/ImageEffectsPluginManager.php	2d615a4f5ce4d5a2eca99a01a545d731
+M	src/Plugin/ImageToolkit/Operation/DrawEllipseTrait.php	51248b82894a56b6c96d88626d597f28
+M	src/Plugin/ImageToolkit/Operation/DrawLineTrait.php	cd68fef4123cabfb18fe9fb4391cd65e
+M	src/Plugin/ImageToolkit/Operation/DrawRectangleTrait.php	49875f901c6d47e9d722535537fa4850
+A	src/Plugin/ImageToolkit/Operation/GaussianBlurTrait.php	320eaa9abec2214e11ab75ad37444dcf
+M	src/Plugin/ImageToolkit/Operation/InterlaceTrait.php	b076e1446dedeafae4e2f59020a7bba5
+A	src/Plugin/ImageToolkit/Operation/MaskTrait.php	41d8b7f3a85f393b5fc38989512e1082
+A	src/Plugin/ImageToolkit/Operation/MirrorTrait.php	0bdd11a3249cbe52e1c41dd7d7671da3
+M	src/Plugin/ImageToolkit/Operation/ReplaceImageTrait.php	daab6b570eaa778c31467e989de15855
+M	src/Plugin/ImageToolkit/Operation/SetCanvasTrait.php	e5ee3971e5cf9a924187aaf264314302
+M	src/Plugin/ImageToolkit/Operation/SetGifTransparentColorTrait.php	e9d35b7a1a79fc06ab765120c84ee43b
+M	src/Plugin/ImageToolkit/Operation/TextOverlayTrait.php	5963ae8a963191d1672844fc29d48734
+M	src/Plugin/ImageToolkit/Operation/WatermarkTrait.php	6471134c2c49eb402c6239d2dfffe337
+M	src/Plugin/ImageToolkit/Operation/gd/AutoOrient.php	05fec6e674b5dc46f3ac5365d883f74c
+M	src/Plugin/ImageToolkit/Operation/gd/GDOperationTrait.php	0712de3e0bb07cf0c917c59fe13a0397
+A	src/Plugin/ImageToolkit/Operation/gd/GaussianBlur.php	e7a5c9d338bd3be50afad6826f7447df
+A	src/Plugin/ImageToolkit/Operation/gd/Mask.php	59c3d702b7b7f3523d5f58abcddea7a6
+A	src/Plugin/ImageToolkit/Operation/gd/Mirror.php	62698c30a649ecf95c0add4c3effc759
+M	src/Plugin/ImageToolkit/Operation/gd/SetCanvas.php	fb88ef8a9f11c051087a28d22e2beed9
+M	src/Plugin/ImageToolkit/Operation/gd/TextToWrapper.php	c970b59cd2c0ead2fbeca743b2cb649e
+M	src/Plugin/ImageToolkit/Operation/gd/Watermark.php	bccb4ee0bf39891f029420112152f368
+A	src/Plugin/ImageToolkit/Operation/imagemagick/GaussianBlur.php	769656f3198c9c475d806ba4ad277e1f
+A	src/Plugin/ImageToolkit/Operation/imagemagick/Mask.php	f4c7f92620bd475883a927596c9de43f
+A	src/Plugin/ImageToolkit/Operation/imagemagick/Mirror.php	210aa80a00fb403caa107a19d313bc07
+M	src/Plugin/ImageToolkit/Operation/imagemagick/Watermark.php	dadc3e5120bbf77133532a73e00ec4b5
+M	src/Plugin/image_effects/ColorSelector/Farbtastic.php	c6ac67219c531e857e13e3ea6041c08e
+M	src/Plugin/image_effects/ColorSelector/HtmlColor.php	bad7804e102cb4a408266f120a57e9b0
+M	src/Plugin/image_effects/FontSelector/Basic.php	58be403f79d704a26ff9d468ef20027c
+M	src/Plugin/image_effects/FontSelector/Dropdown.php	1857256245f7465c222f0a5258845123
+M	src/Plugin/image_effects/ImageSelector/Basic.php	7223443970e18acdc2dcb1e2251d8a90
+M	src/Plugin/image_effects/ImageSelector/Dropdown.php	e1c7311c8dfc8adfca0e5dc81b376587
+D	src/Tests/ImageEffectsAutoOrientTest.php	
+D	src/Tests/ImageEffectsBackgroundTest.php	
+D	src/Tests/ImageEffectsBrightnessTest.php	
+D	src/Tests/ImageEffectsColorShiftTest.php	
+D	src/Tests/ImageEffectsContrastTest.php	
+D	src/Tests/ImageEffectsConvolutionSharpenTest.php	
+D	src/Tests/ImageEffectsConvolutionTest.php	
+D	src/Tests/ImageEffectsImagemagickArgumentsTest.php	
+D	src/Tests/ImageEffectsInterlaceTest.php	
+D	src/Tests/ImageEffectsInvertTest.php	
+D	src/Tests/ImageEffectsOpacityTest.php	
+D	src/Tests/ImageEffectsSelectorPluginTest.php	
+D	src/Tests/ImageEffectsSetCanvasTest.php	
+D	src/Tests/ImageEffectsSetTransparentColorTest.php	
+D	src/Tests/ImageEffectsStripMetadataTest.php	
+D	src/Tests/ImageEffectsTestBase.php	
+D	src/Tests/ImageEffectsTextOverlayTest.php	
+D	src/Tests/ImageEffectsWatermarkTest.php	
+A	src/Tests/Update/WatermarkUpdateTest.php	9ef56eba97253cecc19531d66f61dc2b
+A	templates/image-effects-gaussian-blur-summary.html.twig	aaa64e1f8cd70bd7a463d7b0213dd5d5
+A	templates/image-effects-mask-summary.html.twig	61dfcedf34fb7c40d404a78da80c5dc1
+A	templates/image-effects-mirror-summary.html.twig	3cf286bed94ae14a466e5ce32a763394
+A	templates/image-effects-resize-percentage-summary.html.twig	c7443d5f101292ec4591c0fe6f4f7839
+M	templates/image-effects-watermark-summary.html.twig	41a3b952ced532f541e8616ede49420b
+A	tests/fixtures/update/image.style.test_watermark_no_scale.yml	c9bc91d41ffc3a4bc8092285dd70309f
+A	tests/fixtures/update/image.style.test_watermark_scale.yml	a7fe036cddc61a4c3ee2ed350f2abf1f
+A	tests/fixtures/update/test_watermark.php	aa36964494546a2804a91d6528b81f66
+A	tests/images/image-mask.png	368decd64c98360837e6386097a16447
+A	tests/images/image-test-exif-orientation-1.jpeg	d612cbeb127fc99d14e4648d99c315ee
+A	tests/images/image-test-exif-orientation-2.jpeg	37ce5cff9449b5c6894af96fda903a0c
+A	tests/images/image-test-exif-orientation-3.jpeg	6ed8f301e56dab71c8ff77c6f968b84a
+A	tests/images/image-test-exif-orientation-4.jpeg	533e1c6a34f8d1305192da0bbd87742f
+A	tests/images/image-test-exif-orientation-5.jpeg	8863ce5144490682faa578cfd4d006af
+A	tests/images/image-test-exif-orientation-6.jpeg	2907687772b94752ca11dc586dfbc7c2
+A	tests/images/image-test-exif-orientation-7.jpeg	eb7a2f29665445fbf9856f63a52a6162
+A	tests/images/image-test-exif-orientation-8.jpeg	9d39fd7a2e9c92b202986285b463b0e9
+A	tests/images/red-on-green.png	2b76c3e5944c82ab8284ca5b6a7cfef3
+A	tests/images/red-on-transparent.png	3204966e6d911643121258b72a7e0967
+M	tests/modules/image_effects_module_test/image_effects_module_test.info.yml	1e6c3ca43eef01dfa084fd52281317e6
+M	tests/modules/image_effects_module_test/src/Plugin/ImageEffect/FontSelectionImageEffect.php	1f5267367fd6bf57f930f5adc3cb3c22
+M	tests/modules/image_effects_module_test/src/Plugin/ImageEffect/ImageSelectionImageEffect.php	e8663cedcad9517f925bd15616a46051
+A	tests/src/Functional/Effect/AutoOrientTest.php	972f59fc32b861b2969619d909ab92a5
+A	tests/src/Functional/Effect/BackgroundTest.php	7c5c36cb05beb3d2bf0b2057d1db71a7
+A	tests/src/Functional/Effect/BrightnessTest.php	f022031f4b900c0c93811017e50d38f9
+A	tests/src/Functional/Effect/ColorShiftTest.php	da8320f9536672d68e26d7d8c6814079
+A	tests/src/Functional/Effect/ContrastTest.php	d095d54377537e09648965eb6a9bef48
+A	tests/src/Functional/Effect/ConvolutionSharpenTest.php	d165ae2b320fb5495e675ee8758b1b39
+A	tests/src/Functional/Effect/ConvolutionTest.php	3f9d93c931a4d9602893a66390ea3759
+A	tests/src/Functional/Effect/GaussianBlurTest.php	4c469a45c08c76b2dbc1f7c839be06e3
+A	tests/src/Functional/Effect/ImagemagickArgumentsTest.php	baeedff73b205f81f566170b88d5a96a
+A	tests/src/Functional/Effect/InterlaceTest.php	e4d42a67d868e571f6bd2676642efd10
+A	tests/src/Functional/Effect/InvertTest.php	6f8f718788e14682826f112faf07b585
+A	tests/src/Functional/Effect/MaskTest.php	e4279f930695bfc01b2cbd6ebd0d7a94
+A	tests/src/Functional/Effect/MirrorTest.php	5c094749193d1de4fe5f676e60322599
+A	tests/src/Functional/Effect/OpacityTest.php	be4099c8718e82a526d1b9bb436942be
+A	tests/src/Functional/Effect/ResizePercentageTest.php	07656a3400067394814830b960015ff2
+A	tests/src/Functional/Effect/SetCanvasTest.php	c2400a8d8581e925ffcf3a0bc6a87148
+A	tests/src/Functional/Effect/SetTransparentColorTest.php	67eca9ee1d4cc81a2f69a5afb3c6845c
+A	tests/src/Functional/Effect/StripMetadataTest.php	07e3063d5bf876535eb35ada51ed06d1
+A	tests/src/Functional/Effect/TextOverlayTest.php	2a607ba9d42595683f786caff0a77c15
+A	tests/src/Functional/Effect/WatermarkTest.php	dbace280c7dc70b15da251e0fb511fa9
+A	tests/src/Functional/ImageEffectsTestBase.php	14935d8d8681f0dae62e4a83e92c87bd
+A	tests/src/Functional/SelectorPluginTest.php	a2034458d7c3f6c3b56cd07456d27ec7

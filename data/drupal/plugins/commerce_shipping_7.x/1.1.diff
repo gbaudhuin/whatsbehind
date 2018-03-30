@@ -1,0 +1,8 @@
+D	commerce_shipping.base.css	
+M	commerce_shipping.info	0c72d3e58b1584f543e0874de6aca3b6
+M	commerce_shipping.install	67f67589202bbe084eed8ba1f092e650
+M	commerce_shipping.module	981d825a3bb5b6350dc92efca36b72a5
+M	commerce_shipping_ui.info	0f6559d13139ee088c5823a0c257e582
+M	includes/commerce_shipping.checkout_pane.inc	f7a1f1e8d73e3ac80f2a16bec74b6bb2
+M	modules/commerce_shipping_example.info	d959e3483cbb61b352f27c51f85e75f3
+D	plugins/format/copy_billing_address.inc	

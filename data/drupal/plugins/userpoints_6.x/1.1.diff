@@ -1,0 +1,18 @@
+M	README.txt	1d3e696c88c3fed9c41482444eabe7f1
+D	po/de.po	
+D	po/es.po	
+D	po/fr.po	
+D	po/general.pot	
+D	po/it.po	
+D	po/pt-pt.po	
+D	po/ru.po	
+A	translations/ja.po	ced4e9399c693e122fd6c1cbeb80039a
+M	userpoints.info	e1257ee2c8875723e0be9920ea46a4e2
+M	userpoints.install	9f57223ef10f6053780fcb959937083e
+M	userpoints.module	d4e9664e46f824138f427f5fab3114c9
+M	userpoints.views.inc	c13a2471c9e7344babeeaf6b1094afcc
+M	userpoints_rules.info	fb5cfe2533ac3486e64292f218d683e7
+M	userpoints_rules.module	c00909fa34e229194c5e241cecbf4f42
+A	userpoints_rules.rules.inc	1bf9f21c2b7dee5d6a5092b4bbe20d57
+A	userpoints_service.info	605b23e54f85ff68f5294db4011ff1af
+A	userpoints_service.module	3f4530a6a62fbd6f0dfd6f29481aee0e

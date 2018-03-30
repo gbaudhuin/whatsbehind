@@ -1,0 +1,12 @@
+A	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+A	README.txt	ec9f8afca248fd41cdcd983c3ba07cfd
+A	content.migrate.inc	89586de66abf7c9f8ffca7d3329b76d2
+A	content_profile.migrate.inc	f42ed85196c53165a3d0959e9b0eef7f
+A	email_registration.migrate.inc	cef2d0056595669fe2bcb60a51bd62e7
+A	filefield.migrate.inc	75b6b6d9292e28ef8c9ad584693e957c
+A	location.migrate.inc	520bdd7f6164eb6c5486c25249a633ad
+A	migrate_extras.info	c69c39a87ceb266760c6aee52262badb
+A	migrate_extras.install	42439ff2ecd996ff0df6e2aa1ed4f6a7
+A	migrate_extras.module	cfec9e5a0f698c17555d1e5f3cab85f5
+A	pathauto.migrate.inc	ea09b178b50962e4d9aa13d73b3e9f6e
+A	privatemsg.migrate.inc	f3e5cc5d3f2adf241c5e09daa9aa3240

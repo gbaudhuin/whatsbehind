@@ -1,0 +1,7 @@
+A	README.md	728e464ef0929e3946b869a58097e740
+A	composer.json	b2a1d6f9ab4809ae82a4d602e08e2742
+M	config/install/filter.format.basic_html.yml	5d776f0eb20d1a83993db967967bbdda
+M	config/install/filter.format.full_html.yml	88ccd66b8634b9b306d4565cff36363d
+M	varbase_editor.features.yml	b617495c8e2e4e8b2a5738b6be94b2ef
+M	varbase_editor.info.yml	95fd873fd8b7ceb937e40721c663aa59
+A	varbase_editor.make	2ca0ad58aa78c0ec46944d22ffa86e4b

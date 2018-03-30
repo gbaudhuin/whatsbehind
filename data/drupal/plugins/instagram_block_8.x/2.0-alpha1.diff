@@ -1,0 +1,6 @@
+M	instagram_block.info.yml	6bbe0580e18f4ffdb3af2743438026a2
+D	instagram_block.links.menu.yml	
+A	instagram_block.menu_links.yml	ef03a865ab2549c95e415d0cfe207d89
+M	instagram_block.module	75f43eefcc5f4f65bc20e482ac671289
+M	src/Form/InstagramBlockForm.php	54b2166476db54020f941d49353a2709
+M	src/Plugin/Block/InstagramBlockBlock.php	8288825bff538fdaeafa736b068872a6

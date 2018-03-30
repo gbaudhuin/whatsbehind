@@ -1,0 +1,4 @@
+M	menu_trail_by_path.info.yml	1dd924494cd9a5b5b82e1ad0baa88ab7
+M	menu_trail_by_path.services.yml	fc8780f8b2d01b3d1004b93506e8b228
+D	src/Path/BreadcrumbPath.php	
+A	src/Path/CurrentPath.php	06666acbc327da419f5c938f38e09570

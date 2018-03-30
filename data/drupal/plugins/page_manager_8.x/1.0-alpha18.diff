@@ -1,0 +1,70 @@
+M	config/schema/page_manager.schema.yml	0b5814f4acb49e17b9a41d2a1f719e37
+M	page_manager.info.yml	1b317b9087599f97068bbc111ee526fa
+M	page_manager.routing.yml	88f464e89621c23b8ec47f658a560368
+M	page_manager.services.yml	f1b8daba83db9507f48e96d124515e67
+M	src/Context/EntityLazyLoadContext.php	852f28ce2f64bdcd3d45d0013fb352d6
+M	src/Controller/PageManagerController.php	922029f2153455ee374b49e21d39712e
+M	src/Entity/Page.php	ae239984fa67e93adb6184bd640065e4
+A	src/Entity/PageVariant.php	016eac356662d8908956f2118f379c65
+A	src/Entity/PageVariantAccess.php	5d847888b2e6bdf2442a6051c5e8e793
+A	src/Entity/PageVariantViewBuilder.php	b8a499558c5bffa9900764d9517da9d1
+D	src/Entity/PageViewBuilder.php	
+M	src/EventSubscriber/CurrentUserContext.php	fa6217be334223de78db4efe9c678a0f
+M	src/EventSubscriber/RouteNameResponseSubscriber.php	bac5a9e7bffdc37b11753bfeb107872c
+M	src/EventSubscriber/RouteParamContext.php	118015c69489c1bdac04a21ca45790b6
+M	src/EventSubscriber/StaticContext.php	7a8fd9210019d80430c7141e0d107192
+M	src/Form/AccessConditionFormBase.php	7c7d95f26c3f2657f29cbdb156d04496
+M	src/Form/ConditionFormBase.php	6eef08ca73bfefd49b6d94f2fea3404b
+D	src/Form/DisplayVariantAddBlockForm.php	
+D	src/Form/DisplayVariantAddForm.php	
+D	src/Form/DisplayVariantConfigureBlockFormBase.php	
+D	src/Form/DisplayVariantDeleteBlockForm.php	
+D	src/Form/DisplayVariantDeleteForm.php	
+D	src/Form/DisplayVariantEditBlockForm.php	
+D	src/Form/DisplayVariantEditForm.php	
+D	src/Form/DisplayVariantFormBase.php	
+D	src/Form/DisplayVariantFormInterface.php	
+M	src/Form/PageEditForm.php	db3711880f5a20d26ed3ae3faa9e3c38
+A	src/Form/PageVariantAddForm.php	ce8fa0caf702baa27e9dab2215876f94
+A	src/Form/PageVariantDeleteForm.php	9366e90323c4790da46328154286c9d3
+A	src/Form/PageVariantEditForm.php	f72a39d54a0eb8654d30da0b3c8f9653
+A	src/Form/PageVariantFormBase.php	027a7458f686b17e94378e8d8b88c94f
+M	src/Form/SelectionConditionDeleteForm.php	14336733e705ba54569d8f13c1ad4927
+M	src/Form/SelectionConditionEditForm.php	dd01c0cf08a5d2a0b9ca4c51c14df4c2
+M	src/Form/SelectionConditionFormBase.php	39a2e8d1cc71e66ef81cff7c8ba2167d
+M	src/Form/StaticContextFormBase.php	502ea0756b634eabd97206a590239e13
+A	src/Form/VariantPluginAddBlockForm.php	4bd8e5388dfdced3d467193e319afdd6
+A	src/Form/VariantPluginConfigureBlockFormBase.php	0e9e1103438a2f683087275c38fb7f6f
+A	src/Form/VariantPluginDeleteBlockForm.php	7429b7cab5379f9fb9d22fcebb0c0ee0
+A	src/Form/VariantPluginEditBlockForm.php	c083ae4078afcf70174a3db98e355015
+M	src/PageExecutable.php	5ec66cf6a6a933da778447e8e2870fee
+M	src/PageExecutableInterface.php	fdd3fa8c2fcf1a55163f5b076b70b290
+M	src/PageInterface.php	cff7c92b284e78445edb090254928469
+A	src/PageManagerServiceProvider.php	80088e43dffafc6b224fa970af24d69f
+A	src/PageVariantInterface.php	d2dde402310b2d863c3b51e37ea88325
+M	src/Plugin/DisplayVariant/HttpStatusCodeDisplayVariant.php	c77347007eb1ebb912ab26a0f13ac573
+M	src/Plugin/DisplayVariant/PageBlockDisplayVariant.php	ee879267268a1a7b84682812471f7002
+D	src/Plugin/VariantAwareInterface.php	
+D	src/Plugin/VariantAwareTrait.php	
+D	src/Plugin/VariantCollection.php	
+M	src/Routing/PageManagerRoutes.php	a36cbc7d58e6a6d2ad3464e835b0654e
+A	src/Routing/ParamConversionEnhancer.php	dc04894c183939f2b4b260810b70b038
+A	src/Routing/RouteAttributes.php	9a85eea75e2d1a493c0cfa27fb08894d
+A	src/Routing/RouteEnhancerCollectorTrait.php	594cec6ac3329a4d4f5a96e936892450
+A	src/Routing/VariantRouteFilter.php	e89a9c0eacb4c97b8ef10c6a4b34477d
+M	src/Tests/PageConfigSchemaTest.php	e448602337d36de5b998a3fb731f931b
+M	src/Tests/PageManagerAdminTest.php	c584b96451458782653dad8da5acb6a6
+M	src/Tests/PageManagerTranslationIntegrationTest.php	240faaf4b91ec0d20835a731fd6dda35
+M	src/Tests/PageNodeSelectionTest.php	f30b708529cf49b6ff0817b7c56669e7
+M	src/Tests/PagePlaceholderTest.php	1320cf8a55556a774b846c2e56209ba0
+M	src/Tests/StaticContextTest.php	1429ab0b986a53efd832b8a06a3bfa78
+M	tests/modules/page_manager_test/page_manager_test.info.yml	98f8ba2b13e52ac5716e6a53a7237a9f
+M	tests/src/Unit/CurrentUserContextTest.php	dd062142419d3b567563ae7920cc9761
+M	tests/src/Unit/PageBlockDisplayVariantTest.php	33bdd3c3b0568c30f9701217eb56e347
+M	tests/src/Unit/PageExecutableTest.php	92f26b75a151446d23d7eb0e0c09892f
+M	tests/src/Unit/PageManagerRoutesTest.php	d9c7bfb68f22f15af4a99c5f87e21b67
+A	tests/src/Unit/RouteAttributesTest.php	fa5ae4da402be28da93f8da0feb83d56
+M	tests/src/Unit/RouteNameResponseSubscriberTest.php	d1edb33f3a792b6a1d367298e2c149f0
+M	tests/src/Unit/RouteParamContextTest.php	2ca8b3994c63325a47f4542b1d80e19f
+D	tests/src/Unit/VariantAwareTraitTest.php	
+A	tests/src/Unit/VariantRouteFilterTest.php	84339570f9f81d5e635c9a06e2bb6a92

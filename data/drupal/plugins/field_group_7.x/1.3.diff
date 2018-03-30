@@ -1,0 +1,12 @@
+M	field_group.features.inc	08b6316fc1f9715469a4b5a607d7bc81
+M	field_group.field_ui.inc	60c7503b6d4658da072a3d2fae26cdbc
+M	field_group.info	781ebfed27bdbdb665549f7ae75539cd
+M	field_group.install	cea3f05430b77c01998fcca907ccd1cc
+M	field_group.module	c1763875dfd15f351b12575bbc4ea6fb
+D	field_group.test	
+M	horizontal-tabs/horizontal-tabs.js	ef9464c87b4a34e6a20405fbf82cbaff
+M	multipage/multipage.js	d269082514c9e01d842738c42116f962
+A	tests/field_group.display.test	36e1f22077686e72ffc45cc385e3a228
+A	tests/field_group.ui.test	a9d3a742147d4558ef964c7ce263d760
+A	tests/field_group_test.info	bcef9562beb38f7a613ee23690ddcfb4
+A	tests/field_group_test.module	573f23e97cd52aad37401803ef0df2cd

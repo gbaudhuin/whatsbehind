@@ -1,0 +1,49 @@
+M	.eslintignore	136582670d196a370842c94642c02d13
+M	CHANGELOG.txt	c59e65f79a781e44409d1498868b40e2
+M	README.txt	0862ad507860c79d0e10033c7780fa13
+M	config/schema/slick.schema.yml	773fad5de14008aa567da929a5678543
+D	css/admin/slick.admin.css	
+M	css/components/slick.arrows--down.css	bb568a3a289d18f10f670c4ba6c2d608
+D	css/components/slick.colorbox.css	
+D	css/components/slick.dots--thumbnail.css	
+D	css/components/slick.lightbox.css	
+D	css/components/slick.media.css	
+A	css/components/slick.thumbnail--grid.css	a4fe70b453fdbd5c90aa56fad51b64f5
+A	css/components/slick.thumbnail--hover.css	b0bbd88bb91bcf3c11e84505d24037be
+M	css/theme/slick.theme--full.css	e64c934d37018a86f6fcea712ae57a28
+M	css/theme/slick.theme.css	3213c3bc24a0f7dec43ef31fb92efcf3
+D	js/slick.admin.js	
+D	js/slick.admin.min.js	
+M	js/slick.colorbox.js	3766101eb1bf9abb6501d95ace044946
+M	js/slick.colorbox.min.js	980a839818baf9732ed4fdd3ee5a7790
+D	js/slick.media.js	
+D	js/slick.media.min.js	
+D	js/slick.photobox.js	
+D	js/slick.photobox.min.js	
+M	slick.info.yml	4991dff2bfdb66e295094e004332a0f4
+M	slick.libraries.yml	44723ce4f1cb9ccee01d4df5602b4985
+M	slick.module	c1d96cab2ae4283382adf50e52203540
+M	slick.services.yml	495e53bf5e9f43faa41674baa03c9a64
+M	slick_ui/slick_ui.info.yml	8d396a8bd35ee15517fb874f1f9d00b4
+M	slick_ui/slick_ui.libraries.yml	4a79b073bf76540d4af92573b2b19591
+M	slick_ui/src/Form/SlickForm.php	12c2a2a3ac224ccca5769efc785bce89
+M	slick_ui/src/Form/SlickFormBase.php	8ed56649edb19e1a2023630c5a6b9c22
+M	slick_ui/src/Form/SlickSettingsForm.php	845b640927aa07d4589de1413e9b763b
+M	src/Entity/Slick.php	58814c58a4d817f7b9f5a7979c972ed3
+A	src/Form/SlickAdmin.php	e2ac12841a71b0ca40046ccbb2d903ba
+A	src/Form/SlickAdminInterface.php	b9c92f221353cedc739c48a57489ead0
+M	src/Plugin/Field/FieldFormatter/SlickConstructorTrait.php	9b565bcf89e6ce011fc7696ca12d0425
+M	src/Plugin/Field/FieldFormatter/SlickEntityReferenceFormatterBase.php	cb59def7ff31c07384e3424c61ae2baf
+M	src/Plugin/Field/FieldFormatter/SlickFormatterTrait.php	30155215d30dd360e31bc8c9293d18ff
+M	src/Plugin/Field/FieldFormatter/SlickImageFormatter.php	ef8f5041756c3dd43d57321f3f43ad99
+M	src/Plugin/Field/FieldFormatter/SlickTextFormatter.php	2ed7554d7977c71a9d612f9901386562
+D	src/SlickAdmin.php	
+D	src/SlickAdminInterface.php	
+M	src/SlickDefault.php	708caff2b4cdd00c6f2f72cbf290b895
+M	src/SlickFormatter.php	ab697094272ebed2b596324c56033be4
+D	src/SlickImageBase.php	
+M	src/SlickManager.php	7b5b58fceb0f4a85daf43394c597ffca
+M	src/SlickManagerInterface.php	ac4a7fb854df077ef3a27eeb31837141
+M	templates/slick-media.html.twig	1229745e2591fce77834cc426865555c
+M	templates/slick.html.twig	3be955abbee48f587b0951c69db5729c
+M	templates/slick.theme.inc	d8ff173f174681542c2aaaea8a615adb

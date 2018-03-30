@@ -1,0 +1,9 @@
+M	ParagraphsItemEntity.inc	cfc5082590c3cd3932d0f2b90154e390
+M	modules/paragraphs_bundle_permissions/paragraphs_bundle_permissions.info	876772c33d212c79735ef9e89685198e
+M	modules/paragraphs_i18n/paragraphs_i18n.info	3b82d33099bfedf3ea9e959650f91a3f
+M	paragraphs.field_formatter.inc	7c5aeba242917c5fdd8417752c4d5671
+M	paragraphs.field_widget.inc	7e7a6ac406d5716149b4f44800a2dab6
+M	paragraphs.info	3ce31d9539e47846d2f37a2ded3b3716
+M	paragraphs.module	4a6cce78210a986868a26c9693057551
+M	paragraphs.node_clone.inc	449610ae340fab44ae60704dc7f52d82
+M	tests/paragraphs_test/paragraphs_test.info	381562cd3f7e9dca325e9201c33a962c

@@ -1,0 +1,19 @@
+A	config/install/core.entity_view_mode.paragraph.preview.yml	aef5cedfa76cdf6f8fbdd970aadd7309
+D	config/install/core.entity_view_mode.paragraphs_item.preview.yml	
+M	modules/paragraphs_type_permissions/paragraphs_type_permissions.info.yml	692929b14e063db8cd58537f1f7e96cc
+M	modules/paragraphs_type_permissions/paragraphs_type_permissions.module	281e2a71d822ae008b0c4a90873fe428
+M	modules/paragraphs_type_permissions/src/ParagraphsTypePermissions.php	be17b97be6eaf7868e71fa4869a3fdb9
+M	paragraphs.info.yml	aece62c370a29e845201a681bb19702e
+M	paragraphs.module	635ebbeb560b611608df1aa0e14b9e82
+A	src/Entity/Paragraph.php	5a5bb02a042717817d399eba28d3cde6
+D	src/Entity/ParagraphsItem.php	
+M	src/Entity/ParagraphsType.php	80ddebb27107602073a43db0b5bb60ff
+A	src/ParagraphAccessControlHandler.php	a49837d6b906c3ff9aa01d1ee188f567
+A	src/ParagraphInterface.php	38cf7a0b3bf6ade6d7b02d62c1c71f2c
+D	src/ParagraphsItemAccessControlHandler.php	
+D	src/ParagraphsItemInterface.php	
+M	src/Plugin/Field/FieldWidget/InlineParagraphsWidget.php	3e0e3efecff1c1af2c632736be1cafb3
+A	src/Plugin/entity_reference/selection/ParagraphSelection.php	19cf83bad9eb515027abd3c9213fe307
+D	src/Plugin/entity_reference/selection/ParagraphsItemSelection.php	
+A	templates/paragraph.html.twig	e5e78779a474cef19351a5fa261a059d
+D	templates/paragraphs-item.html.twig	

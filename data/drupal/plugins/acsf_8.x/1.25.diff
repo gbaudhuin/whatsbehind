@@ -1,0 +1,9 @@
+M	acsf.info.yml	05caab1e376b803d69d4785771a152ef
+M	acsf_duplication/acsf_duplication.info.yml	ade8f53119eb8f91322ebf190e8fb8e4
+M	acsf_init/lib/cloud_hooks/common/pre-web-activate/000-acquia-deployment.php	20745f148dadecd43fa5285947423b51
+M	acsf_init/lib/sites/g/SimpleRest.php	a68526f1d60384e63f49ce9a9d945b3f
+M	acsf_init/lib/sites/g/settings.php	4acaa13459b6a010d894734c85167398
+M	acsf_init/lib/sites/g/sites.inc	01608f708cc2386a4f7e2970bcab3f24
+M	acsf_theme/acsf_theme.info.yml	6d05ed2c56028ba9b8316b033f2fcfce
+M	acsf_variables/acsf_variables.info.yml	bb3eefe09ad2758477e493986d7c8c0c
+M	build_info	f4f83f5b01f8c8cb07a986767b9edebe

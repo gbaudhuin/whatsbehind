@@ -1,0 +1,6 @@
+M	src/Controller/YoastseoController.php	fd4dd97f2215b60b5a84885df0d0eef7
+M	src/Form/YoastSeoConfigForm.php	c944988b7cb5a775f5be515d4f4f61fb
+M	src/Plugin/Field/FieldWidget/YoastSeoWidget.php	b1fb63eca1caf5f2c24d877ec700b50a
+M	yoast_seo.info.yml	4ae113158f839243c0eaa2cbfd821321
+M	yoast_seo.install	38b6957d8e336d4ab50176b3ce8b3133
+M	yoast_seo.module	cad0cf39392cb86f012c4f34176f680f

@@ -1,0 +1,17 @@
+M	.htaccess	979a60a8e7ed2fd183c134ca0126fd78
+M	CHANGELOG.txt	c64b0f6bc99410fe52772bda0eb1f2ce
+M	includes/bootstrap.inc	e868bbb1cfa4eaf219f1c48d5358bab8
+M	includes/common.inc	08bb3b25a5f8caa6490a28b0e86ca2ec
+M	includes/form.inc	11a24b16f70e4225576686e8d97c2fe2
+M	includes/theme.inc	3924b46810fef148c0293854459b78c1
+M	misc/drupal.js	fbaf1ba143640ae3744c8e49af947e1e
+M	modules/comment/comment.module	b0885eee5be7a2649e13cf6b12e40c89
+M	modules/forum/forum.module	8120a64f80a8468f97945c557eff109a
+M	modules/menu/menu.module	0248f0a572575ba949753a14b6f1fa08
+M	modules/system/system.install	cb99544e2a78141148965ee04309d16b
+M	modules/system/system.module	af91ea94a7a00b12789f8543e890c886
+M	themes/bluemarine/page.tpl.php	37d3857f86c606b1fd8d70c71977418d
+M	themes/chameleon/chameleon.theme	a9779b2a1e740560c8b319dd2f0728d7
+M	themes/engines/phptemplate/phptemplate.engine	85d955212ff4e0a65ddcbb91221f1f35
+M	themes/garland/page.tpl.php	46f490bfe0e80e2bf90018b04932ea73
+M	themes/pushbutton/page.tpl.php	3b368461cddb99ae31a82dc2ae3fb934

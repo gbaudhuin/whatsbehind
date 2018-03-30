@@ -1,0 +1,8 @@
+M	acsf.info.yml	7cacb96baaacd999d655f114f2ab69e0
+M	acsf_duplication/acsf_duplication.info.yml	d595a27fd242f1bc80d01146dbe4c020
+M	acsf_init/acsf_init.drush.inc	44d88f29200662aa0ab6b81fbddbd87e
+A	acsf_init/lib/sites/g/SimpleRest.php	b01b32348272d626b31907067896b8b7
+M	acsf_init/lib/sites/g/sites.inc	9636548e93044756d1ea9ec5f24d405f
+M	acsf_theme/acsf_theme.info.yml	e83b39c525c60ea0dde07bd74ebfe17b
+M	acsf_variables/acsf_variables.info.yml	38244ae6b40ce2ad82537f66788aa630
+M	build_info	f8ef0234fa0613a1bf94d5c01e8b53da

@@ -1,0 +1,12 @@
+M	imagemagick.info.yml	e6f69847fcfca9c75ab656163aa9ab5b
+M	src/Plugin/ImageToolkit/ImagemagickToolkit.php	04676da36b73becb9b67759398425bd5
+M	src/Plugin/ImageToolkit/Operation/imagemagick/Convert.php	b66052e9569618e6e7ea02bd102c410a
+M	src/Plugin/ImageToolkit/Operation/imagemagick/CreateNew.php	7e8c3ccb87fc5e9d80569ee76bacce7d
+M	src/Plugin/ImageToolkit/Operation/imagemagick/Crop.php	bc324a476320a917ada837402b3cccef
+M	src/Plugin/ImageToolkit/Operation/imagemagick/Desaturate.php	d228c73b1dc73accd3adb7f98bdd1434
+M	src/Plugin/ImageToolkit/Operation/imagemagick/Resize.php	d311d4b65c65f8b54462f5e23c590e3e
+M	src/Plugin/ImageToolkit/Operation/imagemagick/Rotate.php	0ff07a424dd95ae1e492e0ef4ee23920
+M	src/Plugin/ImageToolkit/Operation/imagemagick/Scale.php	9109e23307c1633099a713f332cba542
+M	src/Plugin/ImageToolkit/Operation/imagemagick/ScaleAndCrop.php	78c1a40a7159ffa02d0fa2497c2ea5ab
+D	src/Tests/ToolkitImagemagickTest.php	
+A	tests/src/Functional/ToolkitImagemagickTest.php	9c26ce1113135d4a40a6d1377dbabada

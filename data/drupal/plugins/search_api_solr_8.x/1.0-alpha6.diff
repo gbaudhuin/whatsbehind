@@ -1,0 +1,19 @@
+M	.travis.yml	354c187ce8364cec64c06f50aba2b8ce
+M	composer.json	0f7713da34328b8848a5f8b20b0e2c26
+M	search_api_solr.info.yml	8cf37bfde0e03d606ef74e462c7f72ce
+M	search_api_solr.install	1ca937ce3c3cc681ed5b3dbf6e8f9ae4
+M	search_api_solr.module	691ae3e8e322d361fb6c2afe4fbe919c
+M	search_api_solr_defaults/search_api_solr_defaults.info.yml	995b5fc34674b51fa374e56f6a4e3ec2
+M	src/Controller/DevelController.php	b22edd1371cadf74199529dc54c5f608
+M	src/Form/SolrConfigForm.php	0ceff1a869fb4eeb35f7c509d8eec55e
+M	src/Plugin/search_api/backend/SearchApiSolrBackend.php	3639496069ccf6044076ca26b50a63e4
+M	src/Solr/SolrHelper.php	7aa6ef457420d96df23e52b41883662d
+M	src/Tests/IntegrationTest.php	8fcbc4ad5fe8ba4ed7dfa906667f9174
+A	src/Tests/ViewsTest.php	d3cd6572444d793bcb2c39607e8a2425
+M	tests/modules/search_api_solr_test/config/install/search_api.index.solr_search_index.yml	b7e7e46cb8c9f166e444d46d2243677c
+D	tests/modules/search_api_solr_test/config/optional/search_api.index.multi_datasource_solr_search_index.yml	
+D	tests/modules/search_api_solr_test/config/optional/views.view.search_api_test_views_fulltext.yml	
+M	tests/modules/search_api_solr_test/search_api_solr_test.info.yml	d21c761aca9f97a03a41d09cda2184f9
+A	tests/modules/search_api_solr_test_facets/config/install/views.view.search_api_test_view.yml	9cd22f3de1d7a25915a9303230018522
+A	tests/modules/search_api_solr_test_facets/search_api_solr_test_facets.info.yml	806d1ae09c21042b0658f1bb60366a43
+M	tests/src/Kernel/SearchApiSolrTest.php	15c5783bc28844230347d0f7b35f278e

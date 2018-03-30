@@ -1,0 +1,16 @@
+A	config/install/file_mdm.file_metadata_plugin.getimagesize.yml	ae6a40576d61d99030941cce0ca4b5c1
+A	config/install/file_mdm.settings.yml	8d998b13c28c6e5d4415c0335e141cac
+A	config/schema/file_mdm.data_types.schema.yml	daa8d07e3410a79341da855098fb9651
+A	config/schema/file_mdm.schema.yml	fdddf05b4eb3e1f672bd9b88973ba385
+M	file_mdm.info.yml	90dab7375127a77fa8be916c80eba346
+M	file_mdm.services.yml	27ea295555b5e3aa2c3a1fa019c5edd2
+A	src/Element/FileMetadataCaching.php	59032d3704afefaf458e76a3bccce313
+M	src/FileMetadata.php	aff16b31efe8c8b9e5dd1a3615d56ad0
+M	src/FileMetadataInterface.php	09ea087d207f537cbaad01cbb47e060b
+M	src/FileMetadataManager.php	94b27664f4fb50296629dd06fcbce443
+M	src/Form/SettingsForm.php	652943af3de4183c53f9f786bd50037d
+M	src/Plugin/FileMetadata/FileMetadataPluginBase.php	d0373b40410c904a429f8ccd4fd2aee7
+M	src/Plugin/FileMetadata/GetImageSize.php	354d71f5168241f52f2bf2ac13cfd94f
+M	src/Plugin/FileMetadataPluginInterface.php	a4c4566774fce9bc72f4cf6bed54cf0b
+M	src/Plugin/FileMetadataPluginManager.php	c1ca61c799566a89b2267335f5127355
+M	tests/src/Kernel/FileMetadataManagerTest.php	e9ea9fe9d00b2e4d69d6e7a4e750b1c9

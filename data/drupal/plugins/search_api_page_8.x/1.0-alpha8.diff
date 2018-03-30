@@ -1,0 +1,3 @@
+M	search_api_page.info.yml	921c91750af3824191587f594679097f
+M	src/Controller/SearchApiPageController.php	52dc84256015267a196b68f551344b2e
+M	src/Routing/SearchApiPageRoutes.php	62065cb3afc7c25177b8462b98985582

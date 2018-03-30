@@ -1,0 +1,21 @@
+M	README.txt	f33ebc6f799def735123f9161b8786e6
+D	config/schema/url_redirect.schema.yml	
+D	src/Controller/UrlRedirectListBuilder.php	
+D	src/Entity/UrlRedirect.php	
+D	src/EventSubscriber/RedirectSettingsCacheTag.php	
+D	src/EventSubscriber/RedirectSubscriber.php	
+A	src/Form/AddRedirect.php	fcb65dd98b20f3d53dd00f952a895719
+A	src/Form/DeleteRedirect.php	64fc39a2ae731b75a61fd3b19d872737
+A	src/Form/EditRedirect.php	8c4012328e702382c34283a454f31917
+A	src/Form/ListRedirect.php	94e18ac272ec80235a68a92f169c4aac
+D	src/Form/UrlRedirectDeleteForm.php	
+D	src/Form/UrlRedirectForm.php	
+D	src/UrlRedirectInterface.php	
+D	tests/src/Functional/UrlRedirectNegateTest.php	
+M	url_redirect.info.yml	dc00224416f26531e806ab408b79fa9a
+M	url_redirect.install	200974a625250b4bf9f0a733234715d9
+D	url_redirect.links.action.yml	
+M	url_redirect.links.menu.yml	34d328f7cb377c5e801f6edd5a6561f2
+A	url_redirect.module	c8a4c5f9c560d0c2e3a0de7c2d97cefa
+M	url_redirect.routing.yml	c6b4a5d5217012106d7caba3254b97db
+D	url_redirect.services.yml	

@@ -1,0 +1,11 @@
+A	asset_injector.api.php	914a35df5465134e157458e2c06f8f45
+M	asset_injector.info.yml	c2565500c76ce7f1be19a0efa958cf1d
+M	asset_injector.install	a134490a7ade654658d71d151b302942
+M	asset_injector.module	9cfeda76fd06973c44aacc5beafc90f9
+M	src/Entity/AssetInjectorBase.php	e0e543780dc50687e41785ce697efc55
+M	src/Entity/CssInjector.php	a85ad0797d567e71507ea89f9828a8c6
+M	src/Entity/JsInjector.php	f3ec5ddea5590b6c25fb320ba562b24d
+M	src/Form/AssetInjectorDeleteForm.php	047241366d55504fb6cba15ccd85e09b
+M	src/Form/AssetInjectorFormBase.php	72adeb08b9695da34659e799fc834e4b
+M	src/Form/CssInjectorForm.php	d414048123f9c0ac1c21b178f60aba47
+M	src/Form/JsInjectorForm.php	2ebabca6f862f52a46567f279601ec4d

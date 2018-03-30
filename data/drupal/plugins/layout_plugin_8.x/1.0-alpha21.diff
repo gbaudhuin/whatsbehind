@@ -1,0 +1,4 @@
+A	config/schema/layout_plugin.schema.yml	5d4cd59809adb501df1eaf93a1dd4cff
+M	layout_plugin.info.yml	66ffe0932ef354a3e47618e99910cf06
+M	modules/block_page_layout/block_page_layout.info.yml	49a1b89e8e5765bbbeb2c1b18d39616b
+M	modules/layout_plugin_example/layout_plugin_example.info.yml	51d5ecb102f0ab503b0bab19910053d7

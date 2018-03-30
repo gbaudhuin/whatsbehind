@@ -1,0 +1,15 @@
+A	.gitignore	f1bbcf67e66dd4185615c51fb820104a
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	composer.json	f58d094df185eeb2a6c2298f43f1f765
+A	config/install/votingapi.vote_type.dislike.yml	e14c75ab87b20a6d5243879b7183e140
+A	config/install/votingapi.vote_type.like.yml	46dc2927e4b940a02d7da1d6f7ba1fb7
+A	like_and_dislike.info.yml	ef7f3cb03f51e1130c18dd408c469278
+A	like_and_dislike.links.menu.yml	e44238b4c6aa8ad76bd9ef6e6efe1055
+A	like_and_dislike.links.task.yml	2680dec5e48b8bc23c25f117ee0c99e0
+A	like_and_dislike.module	dc4cbdbbc95680bb76e001e848812a51
+A	like_and_dislike.permissions.yml	9689a943a249e977d582ba186dca8f48
+A	like_and_dislike.routing.yml	a19e9b1b8389cd6fd4d2aafeda81362f
+A	src/Controller/VoteController.php	c45796784c26e849dbabe48980f478d5
+A	src/Form/SettingsForm.php	c94b97eeb83ef1ae77420fdf4fdd591b
+A	src/LikeDislikeAccessController.php	8a21445bedf3c235cb46fa3e5fc2628e
+A	src/LikeDislikePermissions.php	120f077663b037dc27bf19be58959355

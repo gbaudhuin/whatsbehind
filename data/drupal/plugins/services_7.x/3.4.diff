@@ -1,0 +1,72 @@
+M	README.txt	4f4ef3dce45dd6280d919f05e7e34c92
+M	auth/services_oauth/services_oauth.inc	699a1be131a827a89b59138f3f72bfa2
+M	auth/services_oauth/services_oauth.info	34ca1f3fdd5cf86c6a4093488cbcb6c9
+A	docs/services.alter.api.php	2f6b06801db188acaed4f2fac2878dc4
+A	docs/services.authentication.api.php	926427403f01f1048f6ec35943eaf774
+A	docs/services.servers.api.php	d4e6e7642309d9a86d0d46eb6663452b
+A	docs/services.services.api.php	913c26a8891aa983c28a0db8cc13ddd7
+A	docs/services.versions.api.php	b6f698d30856e9ea51d3c9a1c70fa6b3
+A	includes/services.resource_build.inc	deb187689920dcdf9c07b3fcd8bbb8e0
+A	includes/services.resource_update.inc	6782c97681cd3b13c6e2f8877c5091ff
+A	includes/services.runtime.inc	0c70aee9b302f8ecef696b797d73ef5e
+M	js/services.admin.js	06a434c79320d834965295be50e5c1b1
+M	plugins/export_ui/services_ctools_export_ui.class.php	fe87d7e0f075533ba3482cee77850d93
+M	plugins/export_ui/services_ctools_export_ui.inc	e921547422e81f7dd81410d8478649bf
+M	resources/comment_resource.inc	f36821d11108fc6dadba25b5af67605b
+M	resources/file_resource.inc	e58f1c49d4b21f4e21f16c415ecdc57d
+M	resources/node_resource.inc	c978885d5c440f9eebe18ab1cb1ee677
+M	resources/system_resource.inc	fcccbe353dc4df7df30a357e4522153e
+M	resources/taxonomy_resource.inc	ffdef58726c99065a007ece906e2c50a
+M	resources/user_resource.inc	5bec5c7f151341042d7d436754903735
+D	servers/rest_server/formats/RssFormatView.inc	
+D	servers/rest_server/formats/XCalFormatView.inc	
+D	servers/rest_server/formats/xcal_format.info	
+D	servers/rest_server/formats/xcal_format.module	
+M	servers/rest_server/includes/RESTServer.inc	c043c256fad62154ffe0a25260a3f4f1
+A	servers/rest_server/includes/ServicesContentTypeNegotiator.inc	6a7a3a7cd0ea1be4f4a126a2b7cf7904
+A	servers/rest_server/includes/ServicesContext.inc	16f7ca4e91963a48d7fea5fa980f8306
+A	servers/rest_server/includes/ServicesFormatter.inc	7b65c421752d44f342993c85182be565
+A	servers/rest_server/includes/ServicesParser.inc	11dea089ed9b9539cb298202dc781e78
+A	servers/rest_server/includes/ServicesRESTServerFactory.inc	ca992ad1d37521de98c2f1eb0e09be0a
+D	servers/rest_server/includes/models.inc	
+D	servers/rest_server/includes/node_resource.models.inc	
+D	servers/rest_server/includes/rest_server.views.inc	
+M	servers/rest_server/rest_server.api.php	060c13fb4c2710d1046cc10862567be2
+M	servers/rest_server/rest_server.info	2fffd50b9abd99baa0c35b08379f7419
+M	servers/rest_server/rest_server.module	43b18c6d02cfc420ac8ae5b8449f08a0
+A	servers/rest_server/tests/ServicesRESTServerTests.test	6fefcd9d9038406d7ce143897bfa2721
+A	servers/rest_server/tests/rest_server_mock_classes.inc	d28ba81116e625120973dfdbd338a4f4
+M	servers/xmlrpc_server/xmlrpc_server.info	2d9d8c0ad563d8e726fd4fe9f704c1ea
+M	servers/xmlrpc_server/xmlrpc_server.module	85b24ddadb7ac04ef672464d45c8eff8
+D	services.authentication.api.php	
+D	services.css	
+M	services.info	55022f76e75837e315065d9a31d8e8c6
+M	services.make	9988a5c6fd12404286994f15bcc4025c
+M	services.module	96d59de1fe64481f80e89effe10b9a0b
+D	services.resource_build.inc	
+D	services.resource_update.inc	
+D	services.runtime.inc	
+D	services.servers.api.php	
+D	services.services.api.php	
+D	services.versions.api.php	
+M	tests/functional/NoAuthEndpointTestRunner.test	3dae56b1a630b7a460a68bae572e64f6
+M	tests/functional/ServicesAliasTests.test	e18535c9162b27bcf8f1dc3535975232
+M	tests/functional/ServicesArgumentsTests.test	b399cde23a76dedb5f454f8ffc01a613
+M	tests/functional/ServicesEndpointTests.test	0044b1fdfce26ee2266cb61c7d6ee60b
+M	tests/functional/ServicesParserTests.test	3b41d2fce947ad55aaa233f37862684a
+M	tests/functional/ServicesResourceCommentTests.test	25e2a348dba9139619ff71c98470e8b4
+M	tests/functional/ServicesResourceDisabledTests.test	67f295068e6b47d1759b743a6ad933c7
+M	tests/functional/ServicesResourceFileTests.test	0cce3410c9890a2388664e1d5772f38d
+M	tests/functional/ServicesResourceNodeTests.test	c7813ecc6c93afec769194e2de7bf2cf
+M	tests/functional/ServicesResourceSystemTests.test	4d5e53812112c686294176086f9702eb
+M	tests/functional/ServicesResourceTaxonomyTests.test	a3f25897c74c8e933390b5c3f85902b8
+M	tests/functional/ServicesResourceUserTests.test	494178466e679be80f597fcee651f6f9
+A	tests/functional/ServicesSecurityTests.test	605b1fa2aafd04c18d44a644ddc6c4ec
+M	tests/functional/ServicesVersionTests.test	301e6d1fb1b588cc4463fb0cce6ef5ea
+M	tests/functional/ServicesXMLRPCTests.test	40c95ed1386c780d4653912df1b65f06
+M	tests/services.test	29909c483d469be73d673593cd53b39f
+M	tests/services_test_resource/services_test_resource.info	2ccfbd29808ea75ae38e480bbe74fb81
+M	tests/services_test_resource/services_test_resource.module	c33c5915e94892376e0955548f47d09f
+M	tests/ui/ServicesUITests.test	e1523d555189a1d4d094ec02963cbe3e
+A	tests/unit/ServicesSpycLibraryTests.test	7ebf21078eab756a3b9e4e71daa884c3
+D	tests/unit/TestServicesModule.test	

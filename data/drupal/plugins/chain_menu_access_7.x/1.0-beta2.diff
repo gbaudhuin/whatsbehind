@@ -1,0 +1,6 @@
+M	CHANGELOG.txt	3c53bc54b7b4bf9db6d96343d6832c7a
+M	chain_menu_access.info	b4ef54c962d943c9a4284d84c9f883cb
+M	chain_menu_access.module	54b166ff82d2b626f9622058107a9d29
+A	tests/chain_menu_access.test	3e8de31bc805e0bf39ada6d32c3b048a
+A	tests/chain_menu_access_test.info	7ec71589d03a39b6c339e596cb57043c
+A	tests/chain_menu_access_test.module	f3b88731e02a0d777e51a11bd45885f6

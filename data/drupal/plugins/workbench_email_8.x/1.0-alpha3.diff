@@ -1,0 +1,3 @@
+M	src/Plugin/QueueWorker/WorkbenchEmailProcessor.php	e3d30ea30c9de836a3e551f2ca70d344
+M	tests/src/Functional/WorkbenchTransitionEmailTest.php	84c3f092824221ccbbebee37d12b5eca
+M	workbench_email.info.yml	b5c4aab1be1c5ac8cde5029a6fc8bc22

@@ -1,0 +1,16 @@
+M	composer.json	39e1e5064cad41e6f2a4d525720ba7fa
+M	includes/helpers/utilities.inc	5d74ebdbe085513c746513829e6405b0
+D	includes/pages/swiftmailer_admin_default.inc	
+D	includes/pages/swiftmailer_admin_test.inc	
+M	src/Form/MessagesForm.php	b0df7f5c0fa7ceac80bca8c7d85c6b17
+M	src/Form/SettingsForm.php	828b6bcb8d6cdf2533ba28d8e813b18f
+M	src/Plugin/Mail/SwiftMailer.php	de189da852e81411d0a5817603c06845
+M	src/Tests/SwiftMailerSettingsTest.php	84f6b8c501b83439e6a62dfed4f79422
+M	src/Utility/Conversion.php	a0a0c29166987c323932d8b60938c4fc
+M	swiftmailer.info.yml	097363a39590f6516e74f80a16266e2d
+M	swiftmailer.install	2b21020a3b0289f0c5c28b1eb4324740
+M	swiftmailer.links.menu.yml	1b9b8623b35e40821ebddc27ab3580ba
+M	swiftmailer.module	316a4227dcb63b87ece645df3ce40d77
+M	tests/src/Functional/ExampleMailTest.php	c0e731cbe3bb59d475658f9ab6098e61
+A	tests/src/Kernel/Utility/ConversionTest.php	195db82da2b27ab099c2af34b48759bf
+M	tests/src/Unit/Plugin/Mail/SwiftMailerTest.php	31b338c6e636e9cf20944f542123b50b

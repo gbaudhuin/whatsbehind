@@ -1,0 +1,56 @@
+cck	Content Construction Kit (CCK)
+views	Views
+imagefield	ImageField
+imagecache	ImageCache
+admin_menu	Administration menu
+google_analytics	Google Analytics
+nodewords	Nodewords: D6 Meta Tags
+date	Date
+link	Link
+xmlsitemap	XML sitemap
+poormanscron	Poormanscron
+lightbox2	Lightbox2
+captcha	CAPTCHA
+views_bulk_operations	Views Bulk Operations (VBO)
+site_map	Site map
+node_clone	Node clone
+ckeditor	CKEditor - WYSIWYG HTML editor
+votingapi	Voting API
+imce_wysiwyg	IMCE Wysiwyg bridge
+taxonomy_manager	Taxonomy Manager
+transliteration	Transliteration
+flag	Flag
+calendar	Calendar
+honeypot	Honeypot
+advanced_forum	Advanced Forum
+better_formats	Better Formats
+comment_upload	Comment Upload
+schema	Schema
+memcache	Memcache API and Integration
+path_redirect	Path redirect
+subscriptions	Subscriptions
+elysia_cron	Elysia Cron
+login_security	Login Security
+varnish	Varnish
+smileys	Smileys
+panels	Panels
+favicon	Favicon
+userpoints	User Points
+spambot	Spambot 
+user_delete	User Delete
+themesettingsapi	Theme Settings API
+userpoints_nc	User points Nodes and Comments
+persistent_login	Persistent Login
+quote	Quote
+fasttoggle	Fasttoggle
+mimemail	Mime Mail
+menu_breadcrumb	Menu Breadcrumb
+userpoints_contrib	User Points Contributed modules
+porterstemmer	Porter-Stemmer
+vote_up_down	Vote Up/Down
+expire	Cache Expiration
+tw	Table Wizard
+user_badges	User Badges
+gravatar	Gravatar integration
+cdn	CDN
+keyword_autocomplete	Keyword Autocomplete

@@ -1,0 +1,8 @@
+M	flag.info	6adf4190d8056b68b660a565b22b98a5
+M	flag_actions.info	79b75bf0392bdaa7d8dc6771bc12febe
+M	flag_bookmark/flag_bookmark.info	ec27befbb3bcba7841b6ba62678b3112
+M	flag_bookmark/includes/flag_bookmark.views.inc	eab7991efaf3b3a27868c28686f8c4f2
+M	tests/flag_comment_flag_test/flag_comment_flag_test.info	15df359e96dc7dc32cf001a0a91ac066
+M	tests/flag_fields_test/flag_fields_test.info	782cde41d4d11ca3ab6fbb2c4a40285e
+M	tests/flag_hook_test/flag_hook_test.info	560f4d6af52e5a9026717125f5a52b03
+M	tests/flagaccesstest/flagaccesstest.info	631b9f7b48976d3765c3e2e09903a104

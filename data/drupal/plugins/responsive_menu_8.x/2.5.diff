@@ -1,0 +1,19 @@
+M	README.md	5d6cbd013ef824a98ab91d01adf9ca57
+M	bower.json	ace9f86e584d99d82890c266f6be7494
+M	config/schema/responsive_menu.schema.yml	b39f509a4dc44e1a79c6c3778ca5b88c
+M	css/responsive_menu.css	5eddf60f76622abca5d4cdd3472a2464
+D	js/views/BodyVisualView.js	
+A	js/views/ToolbarVisualView.js	b95979758462a971deebd117c40a0c04
+M	responsive_menu.api.php	e223a4746178fb9a932255e0b06f32e3
+M	responsive_menu.info.yml	cfe902fc62ee347cdcbdf4dbe84f35db
+M	responsive_menu.install	ece17d215e39089517b86e194231a028
+M	responsive_menu.libraries.yml	f892011ed4e49152a70293d4ee92f749
+M	responsive_menu.links.menu.yml	a17fb089dd46f7a54b8f886f74161ab9
+D	responsive_menu.make	
+A	responsive_menu.make.yml	a74bb1e6f69b754843e5e8652af240fd
+M	responsive_menu.module	691da6b65b06926ad5a4926a2094d36b
+M	responsive_menu.routing.yml	206a4bc5121b3d9e94982e5318495182
+M	responsive_menu.services.yml	0bc0648aba0157ae559c78e783c28684
+M	src/Form/SettingsForm.php	5a72c279fef6f65d15b26e2ef52c107f
+M	src/Plugin/Block/HorizontalMenu.php	49b8d7fb6c4fdc881cee250c8713970f
+M	src/Plugin/Block/Toggle.php	5cd1fe444de8f515e2b5451a46a9d414

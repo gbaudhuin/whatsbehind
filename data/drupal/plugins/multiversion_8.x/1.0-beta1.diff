@@ -1,0 +1,29 @@
+M	.travis.yml	c40ec00fa136bb9e8bf3075ee78a7058
+M	README.md	d32235b2835f6e10c6c5f81c4ac748c2
+A	config/install/multiversion.settings.yml	165b82cf92128bdc602c8dd4e3856967
+A	config/schema/multiversion.schema.yml	0c45be90d5c7168bee3f2bc5e2c6f10c
+M	multiversion.drush.inc	5ffe41d2c974367fa5fe7bc21257dabf
+M	multiversion.info.yml	46caa2588de543653e76009b5053c975
+M	multiversion.install	61b9b3849bf4d3c72dcc1c7dfb912b37
+M	multiversion.module	a8b994ea282141f3dd95f385f468c3cc
+M	multiversion.services.yml	ae22cdbe2f54f8e50ec25f575dca1352
+M	src/Entity/Storage/ContentEntityStorageTrait.php	65bde4753ebd1e35ba2c9e9368d9e6b4
+A	src/Entity/Storage/Sql/BlockStorage.php	3f84aed5d072860457ad016c63fad222
+D	src/Entity/Storage/Sql/CommentStorageSchema.php	
+D	src/Entity/Storage/Sql/ContentEntityStorageSchema.php	
+D	src/Entity/Storage/Sql/FileStorageSchema.php	
+D	src/Entity/Storage/Sql/MenuLinkContentStorageSchema.php	
+D	src/Entity/Storage/Sql/NodeStorageSchema.php	
+M	src/Entity/Storage/Sql/TermStorage.php	3ac6a3ce3d1fe625f1d8a41174d82d84
+D	src/Entity/Storage/Sql/TermStorageSchema.php	
+M	src/MultiversionManager.php	e4554caec03dfb1b43a14c78a6684077
+M	src/Plugin/migrate/destination/ContentEntityBase.php	fa2cc30cb045973895adc8cf464d08df
+M	src/Plugin/migrate/source/ContentEntityBase.php	c35a700c97905f0494c337ee23641a2c
+M	src/Tests/EntityQueryTest.php	5d88ded600c4c7eedebe6503bc8c94cb
+M	src/Tests/EntityStorageTest.php	3cc8150401f2d722b5e466327be63df0
+M	src/Tests/FieldTestBase.php	1763b83850c77ec2f21a1daf115f12d9
+M	src/Tests/MultiversionWebTestBase.php	c8e24d8de158e3cf9580b69f21e1044d
+M	src/Tests/UninstallTest.php	9157485027eceec9ceb31f7c4cf4abe1
+M	src/Workspace/WorkspaceManager.php	fa6ef320213c83d9078fe1fed5e80f25
+M	tests/modules/multiversion_test_views/multiversion_test_views.info.yml	20a6600e9583f18c5d2e3d3353aacef5
+M	tests/src/Unit/WorkspaceManagerTest.php	5bc57ab9143895337cdc9c7945ea42ab

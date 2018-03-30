@@ -1,0 +1,6 @@
+M	charts.info	da1faa191b58c00a41eb56b5ccadee98
+M	includes/charts.pages.inc	5ef4f6600c29fa0001f0c6995f726f09
+M	modules/charts_google/charts_google.info	07c69a00378df2762778c77d8d359dce
+M	modules/charts_highcharts/charts_highcharts.info	5fe952c84673862c7c4551f1b5860cb2
+A	views/charts.views_default.inc	57ce41125a31ca0d144aa32a7cdd5178
+M	views/charts_plugin_style_chart.inc	1f7d13db93322ee04e3e06512fab3f17

@@ -1,0 +1,4 @@
+M	geofield_map.info.yml	ab266190098d38c0cb85f105b89025ed
+M	js/geofield_map.js	ad2c68f60b18aae9c9f0329bb59f9a7b
+M	src/Element/GeofieldMap.php	507753da61fb724a851e0d19c7cc8e7f
+M	src/Plugin/Field/FieldWidget/GeofieldMapWidget.php	83d87278f4943949da669434321eb338

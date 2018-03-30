@@ -1,0 +1,12 @@
+M	README.md	949f8e8e3fbcc21c4fcd7f80478f579c
+M	config/install/datalayer.settings.yml	fddd415ebe1a817f18a1634c5d5ebe01
+M	config/schema/datalayer.schema.yml	59cdac0376361a0a30eb8a9d1deced82
+M	datalayer.api.php	5ba55cf3f00c8dbf94ca451d9e2842f2
+M	datalayer.info.yml	570d19604dcfc03fd9eca35de7ff1384
+M	datalayer.libraries.yml	b1b0556293bd1b6ce02593528e24fffc
+M	datalayer.module	f2c5a8857b25cf7b535564c4334a6c2c
+M	src/Form/DatalayerSettingsForm.php	896cb36dfa886fc9811ee6721dfeb2d8
+D	src/Tests/DataLayerUnitTests.php	
+D	src/Tests/DataLayerWebTests.php	
+A	tests/src/Functional/DataLayerFunctionalTest.php	aa79d1d8ad8fd2151fbe4a034992245c
+A	tests/src/Kernel/DataLayerKernelTest.php	0fa2670a5e1e481f49159c21fded22b1

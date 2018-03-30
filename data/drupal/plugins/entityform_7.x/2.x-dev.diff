@@ -1,0 +1,12 @@
+M	entityform-submitted-data.tpl.php	690ac3905edc015afd610720aab1071c
+M	entityform.admin.inc	121487a08c56e2f833c9ba245d110257
+M	entityform.api.php	d8fc95830af1a6d97e885f47edd84326
+M	entityform.info	2f978bd4060040ff188e64e5d1c7081f
+M	entityform.module	4596c30ed7069198f76246b44635b617
+M	entityform_anonymous/entityform_anonymous.info	e204efce37464b82d5c1e29c4275a829
+M	entityform_i18n/entityform_i18n.info	f738ee18fa6587551b3c50983e0641dd
+M	entityform_notifications/entityform_notifications.info	d6dea4fea6f0b38ef33c4817e85f1e04
+M	entityform_test/entityform_test.features.field.inc	dd193a3298311327326f8fa24a605765
+M	entityform_test/entityform_test.features.inc	00f8694bbfb40b9c0263607e38453dee
+M	entityform_test/entityform_test.info	8f99be8aa9892e0d9b5fdecbeabbf6c0
+M	entityform_test/entityform_test.module	b92e1b98983bdc6fd790f255a8fa4232

@@ -1,0 +1,15 @@
+M	.gitignore	bbf08291e8610122bb72e2999e01c896
+D	config.rb	
+M	css/jssor-skin.css	761f7a18e5af2ec16f523324c72f62ec
+A	css/jssor-skin.css.map	2694059bc934b7f3b6007548f9284411
+A	gulpfile.js	cff9f01d184f60dfa4566f5ffb29b150
+A	javascript/jssor_view.js	b4e8afcc5063c0b8ca47764bcc2dce51
+M	js/jssor_view.js	4baf49aa37a3243061deeddff6da1375
+M	jssor.info.yml	47bfbda421f7fd66c380a962bab7348f
+M	jssor.install	66e58caf48ca0224717d6eb95c500da2
+M	jssor.theme.inc	8f3eb45b75671a022ff580d41e61004a
+M	jssor_example/jssor_example.info.yml	0bcf472fa5b644d6617a7f4f12497a58
+A	package.json	9831846cdd9a406ad69002389d240695
+M	sass/jssor-skin.scss	0d5b7af0c3973a7e5d1fb364c32385fa
+M	src/Plugin/views/style/Jssor.php	5ebc6d1df18931f5df041e34666d7c71
+M	templates/views-view-jssor.html.twig	470226b9ac7fe66eaa10cae7df12b33b

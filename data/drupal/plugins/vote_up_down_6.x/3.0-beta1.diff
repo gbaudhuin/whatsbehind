@@ -1,0 +1,45 @@
+D	.cvsignore	
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	README.txt	900c13f60c823ebbc605ee9ea87619cb
+M	WIDGETAPI.txt	6d789ad77c3866b425c65c0db60090d4
+D	hook_vud.php	
+D	translations/es.po	
+D	translations/vote_up_down.pot	
+A	vud.api.php	49549898f18cb7b0bf1c633a899bd186
+M	vud.info	67f8434c0fa04367ad1277e6a2ce5beb
+M	vud.install	2131b1730ec54f1e5af51375659f7b53
+M	vud.module	b7c3b64d78ef8968bf857654250295d8
+M	vud.test	0e391c66bf98d8728cb88a774bd55f22
+M	vud.theme.inc	cbc9738aadccd6e9216464a52ed37050
+M	vud_comment/views/vud_comment.views.inc	39b81c486ea562efd54eee24affb3c5a
+M	vud_comment/views/vud_comment_handler_field_widget.inc	61845b5fe5ec4a7d57a83fa0d91ee85e
+M	vud_comment/vud_comment.css	7830ef3a586e616b0f6421558a107d3e
+M	vud_comment/vud_comment.info	c55a51011cebfa66428fe9be81e5c73f
+M	vud_comment/vud_comment.install	ff831c58fb90b3cc574a47a9a884d244
+M	vud_comment/vud_comment.module	b2efa6d1aa6625fb93763787946c8484
+M	vud_comment/vud_comment.test	aeb213233add54467a746879eb70afbb
+M	vud_node/views/vud_node.views.inc	c1a2728d6169f450862cabe9ce28cbc9
+M	vud_node/views/vud_node_handler_field_widget.inc	ddbec74c4a93750d9a5734bdf86b85ae
+M	vud_node/vud_node.info	9ddb5d6674d6d320f9fc29c002429b44
+M	vud_node/vud_node.install	19e66367f7b9eee3ecb9d7f4bcc016cc
+M	vud_node/vud_node.module	f3a1fdccf680cbbbb0036f31acce0c55
+M	vud_node/vud_node.test	31cda8f768f7f6846295ba7cf5a87afa
+M	vud_term/views/vud_term.views.inc	68b3d737c4237eb1518e4d1a71f02ee2
+M	vud_term/views/vud_term_handler_field_widget.inc	7a6520da3ccd52c501190e73d6171aab
+M	vud_term/vud_term.info	cbee0a486bac7c37f67f5aa5f1e92ee3
+M	vud_term/vud_term.install	50733b2679d88ec3dea79a3ac4003e4e
+M	vud_term/vud_term.module	96c42a8806059a65390d189d6344e1f9
+M	vud_term/vud_term.test	3a0cff56071d9333c9277845fc78f01a
+M	widgets/alternate/alternate.css	8fa8f1da0bcc07ab836bc3ebfffd90b4
+M	widgets/alternate/alternate.inc	914a799293430c90f962cf66f368c8ae
+M	widgets/alternate/widget.tpl.php	29591d96218276d3ebc25c97a8661909
+M	widgets/plain/plain.css	5709077db2b4175850c8fae035e4a0d0
+M	widgets/plain/plain.inc	f241c9a59b5ddfd87591e36656d6d9c0
+M	widgets/plain/votes.tpl.php	ea8172c9ebe9f8e859c8c7530e9dfc24
+M	widgets/plain/widget.tpl.php	f9f7a24f305f7a46a93a296084aea20e
+M	widgets/upanddown/upanddown.css	7056020b49ac8953e6b06d3d24650df5
+M	widgets/upanddown/upanddown.inc	49ddeb026df33c5b4d0d8f4fb329ac8a
+M	widgets/upanddown/widget.tpl.php	cae18954470cf66bb8940f35d7c297c1
+M	widgets/updown/updown.css	635820471b9075845753ef72b6e566c8
+M	widgets/updown/updown.inc	603430ca5f74df0795ba6143753708c2
+M	widgets/updown/widget.tpl.php	d883b149bbb29dbc0634338fef874f32

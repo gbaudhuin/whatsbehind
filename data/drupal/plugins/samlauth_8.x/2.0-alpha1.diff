@@ -1,0 +1,15 @@
+A	README.txt	69dc676f0f0675cce548fef63f862c3c
+A	config/install/samlauth.authentication.yml	4cb93be01f598b5792713bfc0e9a2169
+M	samlauth.info.yml	1a545c5caa0e4dce36dd052a5381b35a
+M	samlauth.module	cf62af3c6e032e8001bf2ba1f8a30f28
+M	samlauth.services.yml	4f47350452966cf6a047cdc242d9fc0a
+M	src/Controller/SamlController.php	a50c3c5ecebdde7481b50889785d121d
+A	src/Event/SamlauthEvents.php	b7f308e7eaa329a5a34cbd27f38a734a
+A	src/Event/SamlauthUserLinkEvent.php	0fe3e0b37fc468db7c59a25b2704bfc9
+A	src/Event/SamlauthUserSyncEvent.php	e300a820d702d3974b9eee1c230a03cd
+D	src/EventSubscriber/SamlauthEventSubscriber.php	
+A	src/EventSubscriber/UserSyncEventSubscriber.php	44ff6985c2ffef21c8309054f08227b7
+M	src/Form/SamlauthConfigureForm.php	a05c2df6cb0c76ad6aac73ebc4166088
+M	src/SamlService.php	aabf7fbb9054d543ef54d12a5ccfa3af
+M	src/Tests/SamlTest.php	c3b7331e002605c41abef97992919766
+M	test_resources/samlauth.authentication.yml	17ba75a6106930ceb95871b4a6b6fba7

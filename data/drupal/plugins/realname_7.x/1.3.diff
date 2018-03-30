@@ -1,0 +1,8 @@
+M	README.txt	0657f6784e979b4938cefac7c116f8ca
+M	realname.admin.inc	b871cef4ce59b303c025146bbccba748
+M	realname.info	553ad4cf82adede2a305b233ba8c3766
+M	realname.install	34a4fc687b30662de3eb1b4583bc6ef2
+M	realname.module	1c408c608559ba6369076570fb86621c
+M	realname.views.inc	b393e6aec2d761eda600d60bd2529be9
+A	tests/realname.test	4f38e813c90dd62f1b2f543e7279e643
+A	tests/realname_entity.test	f17f27dfc539f25f3ab4514f0793046a

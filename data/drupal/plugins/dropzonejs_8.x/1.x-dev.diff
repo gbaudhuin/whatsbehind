@@ -1,0 +1,4 @@
+M	dropzonejs.info.yml	c769c458c78317ab8d3e6a5fb0ee477c
+M	modules/eb_widget/dropzonejs_eb_widget.info.yml	4f73d8cdb0c6ca4c61b8f2d1055ba1c9
+M	modules/eb_widget/src/Plugin/EntityBrowser/Widget/MediaEntityDropzoneJsEbWidget.php	6c033720ede68b2a3418ca79aff4cb0e
+M	tests/modules/dropzonejs_test/dropzonejs_test.info.yml	55768411964eacd46a045eb224e28fc7

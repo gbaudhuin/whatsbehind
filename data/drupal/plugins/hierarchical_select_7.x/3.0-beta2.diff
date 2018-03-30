@@ -1,0 +1,12 @@
+M	hierarchical_select.info	65a361c04201b5e859e6ea26fa23c3c7
+M	hierarchical_select.js	20fb7b77ed14223aa2730e4fda393760
+M	modules/hs_flatlist.info	6cadddf62dbddf8f580c966a062efefc
+M	modules/hs_menu.info	645694cc6703793fa42fb5e01f65a631
+M	modules/hs_menu.module	6b6c6b984786c61e5daa3aa27fa0d88f
+M	modules/hs_smallhierarchy.info	10977700da7c4f2635f795812aca0017
+M	modules/hs_taxonomy.info	93c88b45e93c3797f41ffe7be8c8b216
+M	modules/hs_taxonomy.install	067e5a0a428f65fee979fae988603908
+M	modules/hs_taxonomy.module	f8528645bc4a5a38daef746b05d372c4
+M	modules/hs_taxonomy_views.info	60677f58e9e5d7ef8966c26cef52cee8
+M	modules/hs_taxonomy_views_handler_filter_term_node_tid.inc	a81d3dd740277c9f9bca0ddfa75ba51b
+M	modules/hser/hser.info	5b4d75263ae241c8ee0e98a2fb22ee5a

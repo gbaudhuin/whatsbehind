@@ -1,0 +1,13 @@
+M	js/quicktabs.js	929e1a6adc7f01dda0e83027e97e9d9c
+M	plugins/QuickAccordion.inc	2b7be67799d8b986a9cfcb206267703b
+M	plugins/QuickBlockContent.inc	ab6edef4ead237cb58fa2f0cc2f050e5
+M	plugins/QuickQuicktabs.inc	d7d603fed4627bf17dfd697c876bf21c
+M	plugins/QuickUiTabs.inc	4d2bd841258e451e996f1d976c41f94c
+M	plugins/QuickViewContent.inc	af8640db8f56da557f2e795ce30ef26e
+M	quicktabs.admin.inc	ac9bbea87403746955c8ee3b1516f086
+M	quicktabs.classes.inc	ad773ec9a1d9105fbe62b6de8dd7b84c
+M	quicktabs.info	ce02c4f3444be7970bdf871498c5ba39
+M	quicktabs.install	525253a3e7d83f72bda6f52f2791083d
+M	quicktabs.module	bfb01047aecc8b050acd3d7d92344970
+M	quicktabs_tabstyles/quicktabs_tabstyles.info	7d8a744a4d501106c233cf396d79a508
+M	tests/quicktabs.test	95bdfc0591bbe4b1701f39481803b612

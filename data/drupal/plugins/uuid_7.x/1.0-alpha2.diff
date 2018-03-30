@@ -1,0 +1,49 @@
+M	README.txt	0733ad31f962d06e299c3d26c85c5e6b
+M	uuid.admin.inc	ef972bcf58d2eb737cdaa15da547f8a1
+A	uuid.api.php	7d8b7126c46f4cfa4b8135db44ee5960
+A	uuid.core.inc	8921b7a65eaf716c874eddd1c576fd03
+A	uuid.drush.inc	a5530e35e936d4cf040f1475c8549099
+A	uuid.entity.inc	82ef8bc92b8df7a95cc75858d45599fe
+M	uuid.inc	b962fd6bf2e452a63a4ee75b0de56c88
+M	uuid.info	c0271cfd67f481e56cdec13487160f1c
+M	uuid.install	9b9c833729f068ff5125f2375eda5d22
+M	uuid.module	fb73b97a8df3fc621d7bcc1993925f9b
+M	uuid.schema.inc	c9557c3f3539332b3ca391702ad7c4f2
+M	uuid.test	df9938fdade05e76f0edc8f7d76a3725
+D	uuid_comment/uuid_comment.info	
+D	uuid_comment/uuid_comment.install	
+D	uuid_comment/uuid_comment.module	
+D	uuid_comment/uuid_comment.tokens.inc	
+D	uuid_comment/uuid_comment.views.inc	
+D	uuid_file/uuid_file.info	
+D	uuid_file/uuid_file.install	
+D	uuid_file/uuid_file.module	
+D	uuid_file/uuid_file.tokens.inc	
+D	uuid_file/uuid_file.views.inc	
+D	uuid_node/uuid_node.info	
+D	uuid_node/uuid_node.install	
+D	uuid_node/uuid_node.module	
+D	uuid_node/uuid_node.tokens.inc	
+D	uuid_node/uuid_node.views.inc	
+D	uuid_ossp/uuid_ossp.info	
+D	uuid_ossp/uuid_ossp.module	
+D	uuid_role/uuid_role.info	
+D	uuid_role/uuid_role.install	
+D	uuid_role/uuid_role.module	
+A	uuid_services/uuid_services.info	d2e548c08e5a3d642486c7b26a505d59
+A	uuid_services/uuid_services.module	29b4d601bda79408e30e373a33ac8ee1
+A	uuid_services_example/uuid_services_example.features.inc	9f0563dea857cb57af6ebbb69e50a85b
+A	uuid_services_example/uuid_services_example.features.user_permission.inc	9e66e50668f6cc7077d604c1fbead754
+A	uuid_services_example/uuid_services_example.info	41cb01b4ca02c9cb67846e8602c3ca4c
+A	uuid_services_example/uuid_services_example.module	da7a8e1d71cc22b1f947a7c3cab8f099
+A	uuid_services_example/uuid_services_example.services.inc	0af622cde115da4530ac7c9cd9a2d8bb
+D	uuid_taxonomy/uuid_taxonomy.info	
+D	uuid_taxonomy/uuid_taxonomy.install	
+D	uuid_taxonomy/uuid_taxonomy.module	
+D	uuid_taxonomy/uuid_taxonomy.tokens.inc	
+D	uuid_taxonomy/uuid_taxonomy.views.inc	
+D	uuid_user/uuid_user.info	
+D	uuid_user/uuid_user.install	
+D	uuid_user/uuid_user.module	
+D	uuid_user/uuid_user.tokens.inc	
+D	uuid_user/uuid_user.views.inc	

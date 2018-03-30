@@ -1,0 +1,5 @@
+A	composer.json	4e6c3953c01d2df0987bb623909838d7
+M	media_entity_image.info.yml	812d028181b0d6a6fcd1e56c8c634171
+M	src/Plugin/EntityBrowser/Widget/Upload.php	0c3fd1d5aa91f25029aa0ba750e1d108
+M	src/Plugin/MediaEntity/Type/Image.php	6d473dab5e316a6beb1c762a0b31dea4
+M	tests/modules/media_entity_image_test/media_entity_image_test.info.yml	7ba74361bd9bd46895d0231c81810acf

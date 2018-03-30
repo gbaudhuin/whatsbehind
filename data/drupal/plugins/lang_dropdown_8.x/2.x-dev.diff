@@ -1,0 +1,4 @@
+M	js/lang_dropdown.js	c19d93914cde0cb3d867adeb0993c4c3
+M	lang_dropdown.info.yml	23f8b2c8b30bc5a732fcd92115f572f0
+M	src/Form/LanguageDropdownForm.php	4ef23f3577a290198a7f9bc3c41bee79
+M	src/Plugin/Block/LanguageDropdownBlock.php	c31f4c6aec7d1766f50304ef8b2dcd8e

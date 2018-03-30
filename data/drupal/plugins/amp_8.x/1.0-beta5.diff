@@ -1,0 +1,19 @@
+M	README.md	1778f8557da58c69ecfc5de76fca3e4e
+M	amp.info.yml	1de682497cc1993a6606ed48dfcd8fdd
+M	amp.install	2c124110f9818fc0dc678796e837c6e3
+M	amp.module	662c2d86fd34e84fb909827591dadec7
+M	amp.routing.yml	28ed66c3c2e6bd4971917a49f95ff0b9
+M	amp.services.yml	9b93eec01c3d64af9f34549e3a7934bc
+M	composer.json	80647f2adf5adb0797567eb3a724576e
+A	src/Cache/AmpUrlAmpCacheContext.php	91aaf268261215a93b18cff9a6a04ddf
+A	src/Cache/AmpUrlWarnfixCacheContext.php	997c31e670024a8847ae11b595b6829b
+D	src/Controller/ampNodeViewController.php	
+M	src/Element/AmpAnalytics.php	f14fa2b6d8f3dc27cf542e08b73e529a
+M	src/Element/AmpIframe.php	65894c97f74df411bb684d8c81cfcb47
+M	src/Element/AmpProcessedText.php	3c7c14987330073c5a6a2c412577ce8f
+M	src/EntityTypeInfo.php	e405b35bb5265012b259f20e35f3c1df
+M	src/Form/AmpSettingsForm.php	983168130a6f1e91a23732b689b8692f
+M	src/Plugin/Block/AmpGoogleAdsenseBlock.php	a67b69cf21785b95417763ebe8adb18b
+M	src/Plugin/Block/AmpGoogleDoubleClickBlock.php	3e8c3cdda6ad816d14b9bc5a19493c73
+M	src/Routing/AmpContext.php	5843c702cfa65f954a196befe0429edc
+M	src/Theme/AmpNegotiator.php	3d7131f44ca8b81b639d87902a106a03

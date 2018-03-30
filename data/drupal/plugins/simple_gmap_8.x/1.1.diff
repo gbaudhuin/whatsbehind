@@ -1,0 +1,5 @@
+M	README.txt	7357fd73d2b6a5bae416290689f091a2
+M	simple_gmap.info.yml	a6a885920a6fe23ed36fe32a26e96a0b
+M	simple_gmap.module	fa3702355c2d000d3410470ddb1c4e86
+M	src/Plugin/Field/FieldFormatter/SimpleGMapFormatter.php	7f0634ce7f13cdf0f09d2d3332d4bae3
+M	templates/simple-gmap-output.html.twig	594b2e4567652ca89d87f5b056718c53

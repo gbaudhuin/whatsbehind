@@ -1,0 +1,4 @@
+M	layout_plugin.info.yml	f1200c64410b1a87c00b41da6629349e
+M	modules/block_page_layout/block_page_layout.info.yml	f72c87435b6fffc66c8b2a7953ca8b15
+M	modules/layout_plugin_example/layout_plugin_example.info.yml	f09b21ee0cebbc26954ffda0cc2668a7
+M	src/Plugin/Layout/LayoutBase.php	aecfe0cc643e9337ce4cd2ffeb287f50

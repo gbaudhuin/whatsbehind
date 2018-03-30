@@ -1,0 +1,13 @@
+M	CHANGELOG.TXT	1411533758fc6c86c97fef954b3a252e
+M	bean.info	f84e4d4d8ebf5869241568703b62a2a7
+M	bean.module	351f3498207f7a9edc4eb6fdc5c16caa
+M	bean_admin_ui/bean_admin_ui.admin.inc	e3e81cb7835add797204d051d155e876
+M	bean_admin_ui/bean_admin_ui.info	9498215e7c7db0c2a843349d6a5b7fd3
+M	bean_all/bean_all.info	d0bddd84aaa7e168fcca9a060cb8d7ee
+M	bean_all/bean_all.module	7b0c485128715dff09d2d8c3c99c0620
+M	bean_usage/bean_usage.info	a38d70ae292b6a890b1c3d4246990462
+M	bean_uuid/bean_uuid.info	23db049e47899bc35263b8aa826b68ee
+M	includes/bean.core.inc	4a26c1c2dc72a6e845833d01c8cfb9e8
+M	includes/bean.info.inc	91765dfc9b39c0c7013dab7cb2ee3f51
+M	includes/bean.pages.inc	6981c1e5df36b26923cfedfe760b870d
+M	tests/bean_test.info	b01c39c2f6ef609030a8d249d34dad6e

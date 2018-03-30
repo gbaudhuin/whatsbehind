@@ -1,0 +1,7 @@
+M	core/lib/Drupal.php	ac4cda9af0fa4873e820416abc399e06
+M	core/lib/Drupal/Core/EventSubscriber/DefaultExceptionSubscriber.php	aad865d220683ea6d4691997b38bbb34
+M	core/modules/comment/src/CommentFieldItemList.php	4b817e1b2cd166f331ed7e43af650386
+M	core/modules/comment/src/Tests/CommentNonNodeTest.php	5981072652e457ed9b700d530a68ce5f
+A	core/modules/comment/tests/src/Functional/CommentStatusFieldAccessTest.php	55e1d5ae8ce94df07fd808c117482e53
+M	core/modules/config/config.module	9c5592f29ea13d6b5bdaf308b0c75dd1
+M	core/modules/config/src/Tests/ConfigExportUITest.php	7df0a7a9fa59da081ce7445a1144adaf

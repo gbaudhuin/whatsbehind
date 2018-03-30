@@ -1,0 +1,7 @@
+M	config/install/honeypot.settings.yml	45561cd128debe7955c6a361a6cd426e
+D	config/install/tour.tour.honeypot.yml	
+A	config/optional/tour.tour.honeypot.yml	9024b7d2e9432e09195e6dfc7c4aba42
+A	config/schema/honeypot.schema.yml	39ec18bbd74c520736c16ad06326eec4
+M	honeypot.info.yml	07bc120bed0783c83bc87a52ab3b5e18
+M	honeypot.install	23413df22a80c9dac381b939812d143c
+M	src/Tests/HoneypotFormTest.php	a676cd1dd5454f3e8c019f71802fbdb7

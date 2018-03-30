@@ -1,0 +1,20 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	plugins/arguments/entity_uuid.inc	7db20487956a1f5ee9533e36492b5116
+D	translations/fr.po	
+M	uuid.admin.inc	e9bb2cb6a5b71298c07aa4f7aa9126a1
+M	uuid.core.inc	9817315b8887d3ce0f64e4f9cf332920
+M	uuid.entity.inc	9510f617f02633ba38d3960588b16269
+A	uuid.features.inc	7f2c268714e36ab910c6562bb549ff98
+M	uuid.info	4025d33d5ceb60f2495968bb4c3ea782
+M	uuid.install	67d5f2b788951a5587196423a3097936
+M	uuid.module	b53d042e1015e81314828fdca9c177ff
+D	uuid.schema.inc	
+M	uuid.test	7afedd4c7eb4a2e07cb707949044a62e
+A	uuid.tokens.inc	153b71919efcbe978f681e2b2450fb65
+A	uuid.views.inc	609554e3c1c0505ee7b95f2a622f18e8
+M	uuid_services/uuid_services.info	15f1b1c5ab3865bdec761aa62ecbaf8e
+M	uuid_services/uuid_services.module	e641970b1bba5b8ce7708fba11e9d63b
+M	uuid_services_example/uuid_services_example.features.inc	18a4598d989f783ae2641bdf08c5e6ad
+D	uuid_services_example/uuid_services_example.features.user_permission.inc	
+M	uuid_services_example/uuid_services_example.info	d9b5bee6653563f924d8841854fea600
+M	uuid_services_example/uuid_services_example.services.inc	5641c23874ba309c1730bbbafe8917d9

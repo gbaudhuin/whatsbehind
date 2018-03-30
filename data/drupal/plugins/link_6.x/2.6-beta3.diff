@@ -1,0 +1,9 @@
+M	link.info	7f2f3f28722958b1c63bf9aa18f70b1c
+M	link.install	7fdf8bd2d6f123ae95c033e6bdd51521
+M	link.module	29d03a451f3aa391e8ac33a0a3142f6b
+M	tests/link.crud.test	9ec30e27e40f49497bdaf1fdcc6aec55
+D	translations/ja.po	
+A	translations/nl.po	442f63e7a96122873179c0fc6d3a00c9
+M	views/link.views.inc	9a6b18bab19849c27ccd51da7a98f091
+M	views/link_views_handler_argument_target.inc	a264d11a4d5404e853fd2f3523b92b29
+M	views/link_views_handler_filter_protocol.inc	284e5f595e61537255070a63ed571ee9

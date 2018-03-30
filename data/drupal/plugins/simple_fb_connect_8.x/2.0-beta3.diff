@@ -1,0 +1,8 @@
+M	README.txt	1caec301fd77531a577db4c4702ad470
+M	simple_fb_connect.info.yml	dc37e9e53f4eda5e5ab3a33005e19828
+A	simple_fb_connect.rules.events.yml	8201b5227a5d337d63b83f66829dc448
+M	simple_fb_connect.services.yml	684b27d9a124edf64f05fd316b0fdb03
+M	src/Controller/SimpleFBConnectController.php	9bbb535980ac819304160b81e5330a59
+M	src/Form/SimpleFbConnectSettingsForm.php	8684ea7f84a65cd664963c80d9abab8a
+M	src/SimpleFbConnectFbManager.php	5a14bce1c6794b2181aaccd3b9d7d0f8
+M	src/SimpleFbConnectUserManager.php	1fc01dd16859d743a57b67246e3eb611

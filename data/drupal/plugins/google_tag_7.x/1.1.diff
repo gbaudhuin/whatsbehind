@@ -1,0 +1,9 @@
+A	google_tag.api.php	7d52f229c879a28abe5911f9bd329b4f
+M	google_tag.info	8138b1605b1e3a1c9701192e99e998a9
+M	google_tag.install	d851ca48b90f7eb50ba38b7c6cfe212d
+M	google_tag.module	39e392d675585fb24eacb4adbf344592
+M	includes/admin.inc	647a7ecfb98beab764528e03b7b27ead
+M	includes/info.inc	ff5c56838efe3d266d0e1be853d54f0b
+M	includes/snippet.inc	bd52cbe01756ad46b3878a8eed258899
+A	includes/variable.inc	f7cc90009b6486b28dfb28c40abee996
+M	js/google_tag.admin.js	d2843d4273e83222b75ef03a6dbb10f4

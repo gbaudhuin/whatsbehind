@@ -1,0 +1,24 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	includes/simplenews.admin.inc	fdc2fd30a0875a5b82675da13b4b0cc3
+M	includes/simplenews.api.php	09d3e1a763dddb12e582e87418596f74
+M	includes/simplenews.mail.inc	1dab7d7450092b0fd08d90565d18a145
+A	includes/simplenews.source.inc	4029668366198d60c3d1cc882ebdabb6
+M	includes/simplenews.subscription.inc	8b3ea24de5971885bcad98053771890e
+M	includes/views/simplenews.views.inc	35bd8c7fbde5ccfe4b337a33b0cd36be
+M	simplenews.info	d2e836bc595e6a9381668bfc8e0a61d8
+M	simplenews.install	c1675df2137af2a04e98bc98a5c90c2c
+D	simplenews.js	
+M	simplenews.module	f0f4ea77700bb208f764caef989f1502
+D	simplenews_action/simplenews_action.info	
+D	simplenews_action/simplenews_action.module	
+A	simplenews_rules/simplenews_rules.info	8ce410259114af00b1450573cd4f65a1
+A	simplenews_rules/simplenews_rules.module	9ab65cffebe667c6ae4c1baff42299ad
+A	simplenews_rules/simplenews_rules.rules.inc	86250e846f23f6df90e89de69dca02c1
+D	simplenews_test/simplenews_test.info	
+D	simplenews_test/simplenews_test.install	
+D	simplenews_test/simplenews_test.module	
+A	tests/d6_simplenews_61.php	a8b39067f3597f0bdb4fd7bcfa912019
+A	tests/d6_simplenews_62.php	35ea8292b1a4c10e41d771b4eb698c47
+M	tests/simplenews.test	9c9e3cb8d1946d0ef7a00fa93dd8ea90
+M	theme/simplenews-block.tpl.php	43597d6ebef0583bd23a8b97de30669e
+A	theme/simplenews-multi-block.tpl.php	8b7c45f3801f2d2f24f08894133e4bbb

@@ -1,0 +1,48 @@
+M	cas.info.yml	8d5167de5da2d6ab00c0af1dcd8a193b
+M	cas.install	fabbc833ff417ccb7581c4c8e5ec6c57
+M	cas.module	4c80b8d386c4286edf3f86dc36b2ae1e
+M	cas.services.yml	4b8ac01d0f8f51696c03de7e73e720b9
+M	config/install/cas.settings.yml	81c2d0282f8c4123c8157bf214d2a331
+M	config/schema/cas.schema.yml	1c8ca84f5aee38c31a24afdadce186d7
+M	src/CasRedirectData.php	6c66ce725646650c092f44d5fd2a5621
+M	src/CasRedirectResponse.php	6e030a71d2fa456cd4715e233534bfb3
+M	src/Controller/ForceLoginController.php	65c4126ac5ecff57ae162c4e5d5a88c7
+M	src/Controller/LogoutController.php	6c347945aee5e2b5acfb3e756501e347
+M	src/Controller/ProxyCallbackController.php	5bed2688c62b29bb1310ea8e9f629296
+M	src/Controller/ServiceController.php	9086f3faacf6db1aa647458a55d572f2
+M	src/Event/CasPreRedirectEvent.php	9c72547ff3abcaae33119b291b561f85
+M	src/Form/CasSettings.php	427d2d79de5344f0dae36bd17d95b4a6
+M	src/PageCache/DenyCas.php	ffa494dffdb90e3a919b3c2745a35c5a
+M	src/Plugin/Validation/Constraint/CasProtectedUserFieldConstraintValidator.php	c13cc958d91c40cc049bf526966a5861
+M	src/Routing/CasRouteEnhancer.php	ef0da004cb7bdb768eeea6b2bda3e805
+M	src/Service/CasHelper.php	6e5ea47a5a3bc138c8d2cc9aa56d9475
+M	src/Service/CasLogout.php	5bab169149167468bfb24712f6351510
+M	src/Service/CasProxyHelper.php	28b5c036780de2b91afaefcaf9f13717
+M	src/Service/CasRedirector.php	54e7e908426853b422874fd0bdb0f3f9
+M	src/Service/CasUserManager.php	54024b3c0b515e146f947d1dc51b1578
+M	src/Service/CasValidator.php	6f7036f5451d78c167faea143b9c14f1
+M	src/Subscriber/CasAutoAssignRolesSubscriber.php	86e0d2874bfa02ba9f0371ea9bb4755f
+M	src/Subscriber/CasSubscriber.php	c69cfa68a8e2efc7a6e18e18d747fe98
+M	src/Subscriber/ExternalAuthSubscriber.php	99bb9903cad6670ee99fde8c535a04cf
+D	src/Subscriber/PreventPasswordResetSubscriber.php	
+M	tests/modules/cas_test/cas_test.info.yml	f3f4b1aa9c070141c4fab4a680fea536
+M	tests/modules/cas_test/src/CasTestSubscriber.php	42f450c2d17237bb3c01e688fe70a3d8
+M	tests/src/Functional/CasAdminSettingsTest.php	0895719c506b094cbca8189790af040a
+M	tests/src/Functional/CasAutoAssignedRolesTest.php	389a6fe179090127e2bd60a2ee643e71
+M	tests/src/Functional/CasBrowserTestBase.php	db8da7894000631a9c97faf109426b53
+M	tests/src/Functional/CasLoginFormTest.php	2df4f8bcf91d9989809a90d58767a57a
+M	tests/src/Functional/CasSubscriberTest.php	5a6b241d5a1e7a6ab18a510dcf5dfd2e
+M	tests/src/Functional/CasUserFormFieldTest.php	29dea96961b16ac93beaced48ece1c22
+D	tests/src/Unit/Controller/LogoutControllerTest.php	
+D	tests/src/Unit/Controller/ProxyCallbackControllerTest.php	
+M	tests/src/Unit/Controller/ServiceControllerTest.php	7fc1ec13ecba7488193e2913aee19989
+M	tests/src/Unit/Controller/TestServiceController.php	f2b8cb991c6ec0624cb041fbf69c1c32
+D	tests/src/Unit/Mock/MockCondition.php	
+D	tests/src/Unit/Mock/MockSession.php	
+M	tests/src/Unit/Routing/CasRouteEnhancerTest.php	65b7df9f49d4e7345fe2a9528ff13049
+M	tests/src/Unit/Service/CasHelperTest.php	4d55c4f70bb2fca8ba8b945343fb0487
+M	tests/src/Unit/Service/CasProxyHelperTest.php	d83c935373093e4bd000497bc686b6cd
+M	tests/src/Unit/Service/CasRedirectorTest.php	0781acaa3e90cd4d3e7aa2a3249e686c
+M	tests/src/Unit/Service/CasUserManagerTest.php	3c446ed4353b4b07fdeb043013cd305d
+M	tests/src/Unit/Service/CasValidatorTest.php	b891cbd6bff3d607627fb1da2596803d
+D	tests/src/Unit/Subscriber/CasSubscriberTest.php	

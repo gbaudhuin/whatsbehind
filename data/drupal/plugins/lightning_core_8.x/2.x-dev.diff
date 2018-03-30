@@ -1,0 +1,9 @@
+M	composer.json	e5bb519a16d432dcd6bd362668b3b4aa
+M	lightning_core.info.yml	5d26b9d8305d2f4ec806c748e8fed0d9
+M	lightning_core.install	cde2379cb0f64fd692c3a095aa185374
+M	modules/lightning_contact_form/lightning_contact_form.info.yml	0e08829465426312cd7d0629f01431e2
+M	modules/lightning_page/lightning_page.info.yml	3bed43eaad6fbf63565778a55d5b91ce
+M	modules/lightning_roles/lightning_roles.info.yml	76a1488879e8f985cb9d5c0b361eb5bc
+M	modules/lightning_search/lightning_search.info.yml	20be026433c8e092860260b8182c812a
+M	modules/lightning_test/lightning_test.info.yml	61eec1c39334d0d60c811ec91d90f4a0
+M	tests/src/Functional/Update/Update8006Test.php	678aefaf2b0bf4ea5934beb99bafc373

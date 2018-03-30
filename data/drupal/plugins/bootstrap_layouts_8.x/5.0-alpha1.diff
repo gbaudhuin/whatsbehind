@@ -1,0 +1,11 @@
+M	README.md	fbad4bd13fabd44a00d2af754001267c
+M	bootstrap_layouts.info.yml	14b762a71247225fa02a63b96adbcf4b
+M	bootstrap_layouts.install	882d8d9f3adae1b2ed304f1e528b7777
+M	bootstrap_layouts.layouts.yml	da86551861afe01cba1a8caa95b7aa66
+M	bootstrap_layouts.module	b9b9aa92a4a55a17c1b39a8f3a2c60be
+M	bootstrap_layouts.services.yml	cf98b15131e3e84c6de7a8c571a494e8
+M	src/BootstrapLayout.php	e5ae72ade90eafd1fd5cfd7aa0261cee
+M	src/BootstrapLayoutsManager.php	c74e4c55675d07852928fbaa5befb99c
+M	src/Plugin/Layout/BootstrapLayoutsBase.php	a7eb29862554ff68542b5d50af0ed9a1
+M	templates/3.0.0/bs-4col-bricked.html.twig	1f3d948796f4a7b24fa70043fc91e47b
+M	templates/3.0.0/bs-4col-stacked.html.twig	f047c8840bccb264541527498a1c257a

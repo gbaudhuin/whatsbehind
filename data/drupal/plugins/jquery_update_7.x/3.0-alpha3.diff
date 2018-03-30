@@ -1,0 +1,21 @@
+M	jquery_update.info	a09b7568311c1e7c34e1932adde3941a
+M	jquery_update.module	4476738edd906ecac9bc972d29589343
+A	replace/jquery.form/2/jquery.form.js	cdd03b50c207f7e61c19a91d5ef6f82f
+A	replace/jquery.form/2/jquery.form.min.js	0a905fe7d716cdc55361f9672c2bbfcb
+A	replace/jquery.form/3/jquery.form.js	08a24670beb2eae7ef79a6d5ac23874b
+A	replace/jquery.form/3/jquery.form.min.js	f448c593c242d134e9733a84c7a4d26c
+D	replace/misc/1.9/jquery.ba-bbq.js	
+D	replace/misc/1.9/jquery.ba-bbq.min.js	
+D	replace/misc/1.9/overlay-parent.diff.js	
+D	replace/misc/1.9/overlay-parent.js	
+D	replace/misc/jquery.form.js	
+D	replace/misc/jquery.form.min.js	
+D	replace/ui/external/globalize.culture.de-DE.js	
+D	replace/ui/external/globalize.culture.ja-JP.js	
+D	replace/ui/external/globalize.js	
+D	replace/ui/external/jquery.bgiframe-2.1.2.js	
+D	replace/ui/external/jquery.metadata.js	
+D	replace/ui/external/jquery.mousewheel.js	
+D	replace/ui/external/jshint.js	
+D	replace/ui/external/qunit.css	
+D	replace/ui/external/qunit.js	

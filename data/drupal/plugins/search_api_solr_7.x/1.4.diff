@@ -1,0 +1,14 @@
+M	CHANGELOG.txt	ae2c57bd61e3684057d4f9d4ccf7fcbd
+M	includes/service.inc	e4721ddb11e0e2364e4100a988afaa73
+M	includes/solr_connection.inc	a3e046056a0807baf72a3a8002aaeef8
+M	search_api_solr.api.php	3749e4abe7505c78e4940bd6ce9440e6
+M	search_api_solr.info	035f032f7e0e5954501c18171cff7507
+M	search_api_solr.install	d9da8106fcc31ed28ea94a5225ac0369
+M	search_api_solr.module	5071b727425da4af245599e40a03dfd9
+M	solr-conf/3.x/schema.xml	c4f81a897bc69e3b3cc2ecdbbb9dfe7f
+M	solr-conf/3.x/solrconfig.xml	a601cd80b69935e5c3e89b9a88f0618b
+M	solr-conf/3.x/solrcore.properties	631121ac28e68f47b66e7afc1c6ba437
+M	solr-conf/3.x/stopwords.txt	d1e4617aedb57410383d606606a436e4
+M	solr-conf/4.x/schema.xml	c1bc87e160b2cd8d2c9b4eca8fd9ac6e
+M	solr-conf/4.x/solrconfig.xml	8471b54ec6c53f4291109973fad71b03
+M	solr-conf/4.x/solrcore.properties	1d97c920447543f31ca5fa798244707b

@@ -1,0 +1,27 @@
+M	wp-admin/about.php	d77ac64d988a7d1be1aca2b4c5d55beb
+M	wp-admin/credits.php	8fec4005a2de33bdb5c39ec9b5e34a15
+M	wp-admin/css/about-rtl.css	5bb84f0b6021b2554eb2ee8d4b7e08e7
+M	wp-admin/css/about-rtl.min.css	8505f8f69da16eb7af8f432cdd1a2e01
+M	wp-admin/css/about.css	05389c3abc1b482bdce815e09531e433
+M	wp-admin/css/about.min.css	61f6006df66e81485b7c49ead05a5690
+M	wp-admin/freedoms.php	3f44d32e127a75dd7015bc23acc5da94
+M	wp-admin/includes/dashboard.php	069fcbf35bac0bbc03508fe1117185f3
+M	wp-admin/includes/upgrade.php	324f2bc3bc98e9574947440b2386e2bf
+D	wp-content/themes/twentysixteen/.gitattributes	
+D	wp-content/themes/twentysixteen/.jscsrc	
+D	wp-content/themes/twentysixteen/.jshintignore	
+D	wp-content/themes/twentysixteen/.travis.yml	
+D	wp-content/themes/twentysixteen/CONTRIBUTING.md	
+D	wp-content/themes/twentysixteen/CONTRIBUTORS.md	
+D	wp-content/themes/twentysixteen/codesniffer.ruleset.xml	
+M	wp-includes/class-wp-editor.php	9931fabbcd3d5feed666098ff6620214
+M	wp-includes/formatting.php	4961f8d703f3b0a9354f0d893e386a59
+M	wp-includes/js/tinymce/plugins/charmap/plugin.js	139897943cd17cda7942e1dc94011aca
+M	wp-includes/js/tinymce/plugins/charmap/plugin.min.js	e21c5873be5aa8407266377225b67c26
+M	wp-includes/js/tinymce/tinymce.min.js	86265897eb6b6dd76f6d2a0a90c8420e
+M	wp-includes/js/tinymce/wp-tinymce.js.gz	3bf7827cf5e51f105ac3c462be109a3d
+M	wp-includes/js/wp-emoji-loader.js	c2da74cc961f02f8a1532b9ef4c49f6f
+M	wp-includes/js/wp-emoji-loader.min.js	95ba8d3404ccae2dcb692b5153972260
+M	wp-includes/media.php	cbd02149cb8093b5b1ed91b85648ee74
+M	wp-includes/script-loader.php	fee7beddb4421de6775562f022d13f81
+M	wp-includes/version.php	62322f47033bdd90d72a2a0490dd826f

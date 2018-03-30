@@ -1,0 +1,17 @@
+M	bootstrap_paragraphs.info.yml	cb63e6002e2723e7bd2cd682eaf851cc
+A	bootstrap_paragraphs.install	7999538877c5fa8d4574220688966bc8
+M	bootstrap_paragraphs.libraries.yml	b41a7d2ad4d3fdfb787eef015c7d89e7
+M	bootstrap_paragraphs.module	7b060381e883c3238b458e8a0cf84b42
+M	config/install/core.entity_form_display.paragraph.accordion_section.default.yml	a96653e055575fe6591e41296c0717f7
+M	config/install/core.entity_form_display.paragraph.image.default.yml	1c72822a243e222548f3bf4218562ea2
+M	config/install/core.entity_view_display.paragraph.accordion_section.default.yml	d1a68ae896ce3df60b4c2a4e3795183f
+M	config/install/core.entity_view_display.paragraph.image.default.yml	6bdc8bbe5d333c655b33506a04686405
+M	config/install/field.field.paragraph.accordion_section.field_accordion_section_title.yml	277cb50ead9f4812c8ad1fd429901484
+A	config/install/field.field.paragraph.image.field_link.yml	359badb87022e3f0825016b749056eff
+M	config/install/field.storage.paragraph.field_accordion_section_title.yml	6102ada891389a3d45ab59bdb03b8750
+A	config/install/field.storage.paragraph.field_link.yml	521eda8391fa7ecb15467ee9ffd98d2a
+M	css/bootstrap-paragraphs.css	8b6b98b01039ff2855d4342d6b08f813
+M	less/bootstrap-paragraphs.less	082c3a8e14741fd2ad786dc1d2308366
+M	templates/field--entity-reference-revisions.html.twig	cf8ff1ffe09f13011d4c0032c94a2da1
+A	templates/field--paragraph--field-image--image.html.twig	cc0bef8765ed722d00da5db637906f04
+A	templates/paragraph--image.html.twig	0c48dccedf459b0962858ffb075c0b0d

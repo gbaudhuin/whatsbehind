@@ -1,0 +1,7 @@
+M	backup_migrate.info	0ea27c88127d679e09ab2c25149ecdda
+M	includes/files.inc	3c1f555d05486985ac760824126cdb9a
+D	tests/BackupMigrateBasicsTest.test	
+D	tests/BackupMigrateHelper.test	
+A	tests/BmTestBase.test	a66cdaf68a90cb2f35360d23db75a077
+A	tests/BmTestBasics.test	eacc31e8de4bfcb8d29a6566052f190c
+A	tests/BmTestProfiles.test	a0b581102672795f6fe8c1f71cd976f5

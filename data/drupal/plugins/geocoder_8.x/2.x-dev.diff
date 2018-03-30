@@ -1,0 +1,7 @@
+M	geocoder.info.yml	baf3ff526089059d7a7d583035f0ce3d
+M	modules/geocoder_address/geocoder_address.info.yml	ceed66cfdf3170a7a2494fbcd83564b8
+M	modules/geocoder_field/config/schema/geocoder_field.schema.yml	5d20a8159ab533c2174fc9c972b34b0b
+M	modules/geocoder_field/geocoder_field.info.yml	a8fc49e3ace97abe6b17e093e46f713a
+M	modules/geocoder_geofield/geocoder_geofield.info.yml	fce5b7a21356022ce9a6aef9b174ecb1
+M	modules/geocoder_geofield/tests/modules/geocoder_geofield_test/geocoder_geofield_test.info.yml	b8dcacb26c209b5803d0d3b2c62aef96
+M	src/ProviderPluginManager.php	2ec9eeab0055815d421236ee65433e99

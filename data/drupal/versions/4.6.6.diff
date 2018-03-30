@@ -1,0 +1,10 @@
+M	CHANGELOG.txt	a5cbbd153d04581cf6143a8c8d03ba97
+M	includes/common.inc	999ea1520f85f994873b12dc20ee9361
+M	includes/menu.inc	7b0eb3529ce3bce04f0546a097317168
+M	modules/book.module	6bce535e17a785e89bc0bfcee0858abf
+M	modules/drupal.module	0e992154e19d92ad28635ffc98021f1b
+M	modules/filter.module	4ed834fa5d595c01fc40ecd54be1ead2
+M	modules/search.module	dbda3318217194b5dd71eb8caab38656
+M	modules/upload.module	b1b9a4c7e05f4020dd06d62128528040
+M	modules/user.module	ebf32fde9b7f2fe11b3d8810e0b9d14a
+M	themes/engines/xtemplate/xtemplate.engine	c1bf48b6e9c335a4a3a053cd01f4f5be

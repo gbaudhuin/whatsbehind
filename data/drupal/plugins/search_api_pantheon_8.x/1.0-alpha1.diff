@@ -1,0 +1,9 @@
+A	CHANGELOG.txt	c05cccca3aeaacd798c6ba3c09fa9779
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	composer.json	9918c5528fe0fdb3dc06758714e85b1a
+A	search_api_pantheon.info.yml	547ac8920061e0a13e139080b375344e
+A	search_api_pantheon.services.yml	5bceab8666d83ba4791c87ba0b5d63cc
+A	src/Plugin/search_api/backend/SearchApiPantheonSolrBackend.php	e8958e5b4ca0216545a18e5723fdb50a
+A	src/SchemaPoster.php	0feb6bf01a5467bf181fba4b9847be90
+A	src/Solarium/PantheonCurl.php	b47902eb17f1de469c2f7f51d8bad74b
+A	src/search_api_solr/PantheonSolrHelper.php	54193e6b7dc98961476ece37c0afb8d3

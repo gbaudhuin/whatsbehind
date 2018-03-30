@@ -1,0 +1,5 @@
+A	modules/varnish_purge_tags/src/Plugin/Purge/TagsHeader/CacheTags.php	267ccda7d731216ebd3dab85b5ea10a9
+A	modules/varnish_purge_tags/src/Tests/CacheTagsTest.php	82a3ce548911d548f2b904d16e2ff6ea
+A	modules/varnish_purge_tags/varnish_purge_tags.info.yml	cce585a7f4738093e0123a896f7ac0fc
+M	src/Form/VarnishPurgerFormBase.php	25004b3fbb31fd1dbd127824e511298a
+M	varnish_purger.info.yml	53e968c7c6e9334a727c88e83592eb1e

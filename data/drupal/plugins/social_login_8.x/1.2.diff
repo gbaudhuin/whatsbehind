@@ -1,0 +1,11 @@
+M	README.txt	8c43792e802c6e04be2d87d1076c670f
+M	css/social_login.admin.css	3b1f1697803681e687e108107bcec13f
+M	social_login.info.yml	098c6c7df7e56a534d8a51264c913a5e
+M	social_login.install	afba666233c24b5be943175ada20c3e1
+M	social_login.module	1d53badd647b34012d94d2b8787a869a
+M	social_login.routing.yml	d0b49c876838d7a3129281ee8e35ad9b
+M	src/Controller/SocialLoginCore.php	c23803554518a4378c0719da308cbc89
+M	src/Form/SocialLoginAdminSettings.php	481dc9b1b8439256b87a7c708e8cbff5
+M	src/Form/SocialLoginBlockForm.php	32784c404a5f9bc46036e7b2454106b9
+M	src/Plugin/Block/SocialLoginBlock.php	fd75e5a0fcf900c102cee0a62135495e
+M	templates/provider-container.html.twig	1ebc8d72a250510d9a3d5b1684b297ae

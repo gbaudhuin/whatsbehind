@@ -1,0 +1,8 @@
+M	entity_view_mode.admin.inc	e12d19a9c9ee0714d6e85f4c04d7c840
+A	entity_view_mode.api.php	d24e04405f3499ee34e1ffbc2b2229ec
+M	entity_view_mode.info	c4ff96935d7fc390c7b7873448c714b6
+M	entity_view_mode.module	b93b876bf789c73dd6e5955d9d944990
+A	entity_view_mode.test	cef5c6b4a4560240b8e32ccd08064d85
+A	tests/entity_view_mode_test.entity.inc	25550a360722e549203cfa6d84c352c1
+A	tests/entity_view_mode_test.info	cd29579c11b1c4480c12505f6a7185c3
+A	tests/entity_view_mode_test.module	2fa6d623954ad44250e3ec38183e3736

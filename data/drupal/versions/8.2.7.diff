@@ -1,0 +1,10 @@
+M	composer.lock	bf587bbca909d6ebe84b09747b5ae3d3
+M	core/CHANGELOG.txt	0f761ad3e1e2190f77ad6e95ac7e5aa1
+M	core/composer.json	634d3b28fa5526e2ed538429ba7c266e
+M	core/lib/Drupal.php	aae12c64dc26f1ade63a81ce47d0f500
+M	core/modules/editor/editor.module	b27d5bb4bccedcb99c7eceb23e86f09d
+M	core/modules/editor/src/Tests/EditorPrivateFileReferenceFilterTest.php	709a2ef4bd19722af1488adc1b89c4d5
+M	core/modules/search/search.routing.yml	e2f29ffecce2dcc67fb3cbd9287aecd3
+M	core/modules/search/src/Form/SearchBlockForm.php	57a6d1454ab726f436122209512e707c
+M	core/modules/search/src/Tests/SearchConfigSettingsFormTest.php	161e8347317ab74f65f362e46b4441e1
+M	core/modules/simpletest/src/WebTestBase.php	048075680d57bb594ebdc205aad733ff

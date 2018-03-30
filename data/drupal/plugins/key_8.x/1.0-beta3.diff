@@ -1,0 +1,10 @@
+M	key.info.yml	66b0bcef897bc68bac01879e206f256f
+M	src/Form/KeyEditForm.php	565a488ae9a4c094e0c860bb0b94871c
+M	src/Form/KeyFormBase.php	29bdd991294ce0ce7472573daefeed93
+M	src/Plugin/KeyInput/NoneKeyInput.php	ed4d37f490678eb8d9c980643777e285
+M	src/Plugin/KeyInput/TextFieldKeyInput.php	d96aa96d46d34d3004e2638c5b9da934
+M	src/Plugin/KeyInputBase.php	91f9df40833415c889a154a724d8c012
+M	src/Plugin/KeyProvider/ConfigKeyProvider.php	f4a21d3e38ae1235db4ff09663ec3076
+M	src/Plugin/KeyProvider/FileKeyProvider.php	625edd369871494e8cf89510d5959a28
+A	src/Plugin/KeyType/AesEncryptionKeyType.php	28b1e8ddbf2951ffb3b4ce74297415da
+M	tests/src/Unit/Entity/KeyEntityTest.php	3612ceb5e10455b8bd0df2e2d6942d96

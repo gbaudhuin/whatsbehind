@@ -1,0 +1,6 @@
+A	.gitignore	7a8b085dbf273de1bb2cb0b44c858f33
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	bg_image_formatter.info.yml	4c4a96ad88936cc6348750e710039f30
+A	modules/responsive_bg_image_formatter/responsive_bg_image_formatter.info.yml	cc810cc40a5d8302361a5a7084af5e58
+A	modules/responsive_bg_image_formatter/src/Plugin/Field/FieldFormatter/ResponsiveBgImageFormatter.php	b275b2eb9d164e213a5523d5b18cf3d8
+A	src/Plugin/Field/FieldFormatter/BgImageFormatter.php	333a14bd6c122b8b05b3423874df9423

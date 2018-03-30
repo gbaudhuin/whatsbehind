@@ -1,0 +1,13 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	d6ea4e1f692cd9b14f1d5eda8e87cf1c
+A	empty_page.info.yml	d357d62a56810ea4820ce6d0c56926b6
+A	empty_page.install	0843ef11fd32176b699717336f8755b3
+A	empty_page.links.menu.yml	25ea1c54c7dc50e303abd5d5bc3ec1f2
+A	empty_page.links.task.yml	374a3be087763b8c7284b6452b3fafcc
+A	empty_page.permissions.yml	5d25606a527a92c4ea727da52c5869b0
+A	empty_page.routing.yml	59a6e001bbdf7e20aa0e5dbfac27c0e2
+A	src/Controller/EmptyPage.php	72a800d9059b933e023bea049c96d56f
+A	src/Controller/EmptyPageController.php	ed2dcabb371dc4a5951ebb48283bef9f
+A	src/Form/CallbackDeleteForm.php	3cedf56e740b762125ea47b70c76e03a
+A	src/Form/CallbackForm.php	3eb14e1afe8326755e909d09d545e095
+A	src/Routing/EmptyPages.php	5a0d07371112c350449f850a168fba7d

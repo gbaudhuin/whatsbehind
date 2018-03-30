@@ -1,0 +1,7 @@
+M	README.txt	2404653bc1ff12d194e0da83f6a884c8
+M	composer.json	8c72addcf44cd5f5a8ddd9c74041bde8
+A	config/schema/simple_fb_connect.schema.yml	394f2a6651b439aa4ee6d4ec62dbb368
+M	simple_fb_connect.info.yml	d0753482b194264c9c19314f9c96104b
+M	src/Controller/SimpleFBConnectController.php	785089f5bbec16fad334ec6f29bb824c
+M	src/SimpleFbConnectUserManager.php	27e3a6e16de78abb7b86d011be4df3d4
+M	tests/src/Unit/SimpleFbConnectUserManagerTest.php	26545124a9162df90c76e4aad727b1b0

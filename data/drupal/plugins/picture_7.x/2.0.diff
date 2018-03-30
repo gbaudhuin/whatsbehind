@@ -1,0 +1,23 @@
+A	ckeditor/plugins/plugin.js	1f062d8d130d2497d34d2dc38ec5648d
+A	ctools/plugins/export_ui/picture_mapping.inc	379b34ada7499d1473bc2031f05f562c
+M	flexslider_picture/flexslider_picture.info	7f70bfca76589b970b9374adbb9aafc6
+M	flexslider_picture/flexslider_picture.module	fea5704b18d63153229d1dcb982d77f5
+M	flexslider_picture/theme/flexslider_picture.theme.inc	a50a4ccd4b6182eb6d7d5fd13add16d0
+A	includes/PictureMapping.php	1a86af801b7202d86e82831f87d329d6
+M	picture.admin.inc	b07ee9268e3935a76a46132bce4e7a5b
+D	picture.file_entity_1.inc	
+M	picture.info	6adb981da69f86f10b0e4fddea849aa9
+M	picture.install	9e6fa18a00e17ca61911c1049f995a57
+M	picture.js	2dd75acfbeef32ca8191f07bb741b3c5
+M	picture.module	1eb42ca474561668f9b211fb92551027
+D	picture.weblinc.css	
+D	picture.weblinc.js	
+M	picture_wysiwyg.css	ff80ec37c0ed7d5bc74563f4e819e6ad
+D	picturefill/matchmedia.js	
+D	picturefill/picturefill.js	
+M	picturefill2/picturefill.js	8fe7ef3d81afd6097b6e93f166fefd23
+D	plugins/plugin.js	
+D	weblinc/media.css	
+D	weblinc/media.extension.js	
+D	weblinc/media.js	
+D	weblinc/picture.js	

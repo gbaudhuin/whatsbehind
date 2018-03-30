@@ -1,0 +1,26 @@
+M	ldap_authentication/ldap_authentication.inc	3df20814be3b42540d4a46344e032967
+M	ldap_authentication/ldap_authentication.info	819eefbc3917b4488b9f27130a14404d
+M	ldap_authorization/ldap_authorization.info	b006f7eee26a53f074c897ae1e8931de
+M	ldap_authorization/ldap_authorization_drupal_role/ldap_authorization_drupal_role.info	111fc7bffcd1d5386c9b907b7b5d6466
+M	ldap_authorization/ldap_authorization_og/ldap_authorization_og.info	a17737d48eeae63d7f7199e915a70f5a
+M	ldap_feeds/ldap_feeds.info	55a4f45e1525d3425f0882e69fd264c5
+M	ldap_help/ldap_help.info	de7ddf85153ef700ae5e0366fdad564f
+M	ldap_query/ldap_query.info	3fd7e40bfc5a7c3345f8abaf6b745d26
+M	ldap_servers/ldap_servers.info	572d1c9c041bcd8ea3394e55fdc41bd0
+M	ldap_servers/ldap_servers.install	690a2b449b5a3910e8adf416e4cac241
+M	ldap_servers/ldap_servers.module	9a634405d1bd3d462aa1c579585cb97d
+M	ldap_servers/ldap_servers.settings.inc	12cddd88596ed042a92701a4825e317b
+M	ldap_servers/ldap_servers.theme.inc	943e358e9c2d071f61b0642f6633dd8b
+D	ldap_sso/MSTMG.notes.txt	
+D	ldap_sso/README.txt	
+D	ldap_sso/ldap_sso.info	
+D	ldap_sso/ldap_sso.module	
+M	ldap_test/ldap_test.info	4ebfd751610a2cf11f299529385016f5
+M	ldap_user/LdapUserConf.class.php	32864d679c8d15a6293200b60941cfe0
+M	ldap_user/LdapUserConfAdmin.class.php	6a937b824259ad97e556e5d8829ce5c5
+M	ldap_user/ldap_user.cron.inc	f5fd898fdd4017829095a82ab01cd37c
+M	ldap_user/ldap_user.info	11316b2e3055a9bf7fdd1d661fe36404
+M	ldap_user/ldap_user.install	7a135db53f66a875003a97be7097a18c
+M	ldap_user/ldap_user.module	4c4704ce974af97a196af374bcc8c092
+M	ldap_views/ldap_views.info	853beae22bada3fd65968ad49812166e
+M	ldap_views/plugins/ldap_views_plugin_query_ldap.inc	8cac11a2fdbf64ec10b24ce190c105c1

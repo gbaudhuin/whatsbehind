@@ -1,0 +1,13 @@
+M	README.txt	3b0ca22a8bbbb1ff3d710ab923bcb963
+M	chosen.info.yml	3e31ccda822791ebd5bad98f0e6af6c2
+M	chosen.libraries.yml	17bbfc2b7ab3a10b866aa1287630fa70
+M	chosen.module	4dfe32bf04171af98eeeb2f300a658b3
+M	config/install/chosen.settings.yml	f166b40a240cb748cd038e77c2f1c1cd
+M	config/schema/chosen.schema.yml	a51c561cb9ab29687b25c8450d214fb2
+M	modules/chosen_field/chosen_field.info.yml	def9fd018da345b8df7c2146dcc3b716
+M	modules/chosen_lib/chosen_lib.info.yml	ba001c0b24f691aecd764b08f0758d46
+M	modules/chosen_lib/chosen_lib.libraries.yml	61c9bffe978109bde09b48c61f888086
+M	modules/chosen_lib/chosen_lib.module	2fc49c533bdf114ec3a26eb457849564
+M	modules/chosen_lib/drush/chosen_lib.drush.inc	d7a0f8feea2cff82f5cbff09cc0505ae
+M	src/Form/ChosenConfigForm.php	f1c6ef0a88fde739bc2be48877e29fc0
+M	tests/modules/chosen_test/chosen_test.info.yml	ab1609eb08916d262d1617ecb498d9ff

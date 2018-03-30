@@ -1,0 +1,14 @@
+M	CHANGELOG.txt	db2676f882e1e5e132c0e7b638b7cf8a
+M	includes/source.inc	dcecd9ecb31bddc780beb135789e3f96
+M	migrate.drush.inc	0fd2a47983dfd53cc9ce46a16783427a
+M	migrate.info	c171a4ee7881c35f53cf02bbcc1db825
+M	migrate_example/migrate_example.info	b3394436734a18824e530299f69741ae
+M	migrate_example/migrate_example_oracle/migrate_example_oracle.info	8b67a3c92fbbadf76ad988145ba1c842
+M	migrate_example_baseball/migrate_example_baseball.info	d31626114f8203bb16ed16c87bc64f64
+M	migrate_ui/migrate_ui.info	1d116baf6f00b61ee3ff107ac6e387fa
+M	migrate_ui/migrate_ui.pages.inc	011ed85ebe50c9eb2d8f45a66c3693d2
+M	migrate_ui/migrate_ui.wizard.inc	392c8c28da5fb4268bda50a6c15e64f7
+A	plugins/destinations/variable.inc	4bd9266545849e65679e01701144918a
+A	plugins/sources/db2.inc	714a390ef01d86f8ce2725ad569c09e0
+A	plugins/sources/spreadsheet.inc	0e1ac3a6e692be8ee3f7766bb1ba20c1
+M	plugins/sources/sql.inc	4c7aa4f73aa080417f68ad306537e746

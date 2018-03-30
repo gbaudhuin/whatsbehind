@@ -1,0 +1,15 @@
+M	asset_injector.api.php	33b35d512a1c31d4d190c8cd1fadac38
+M	asset_injector.info.yml	225cf4cbe6e6d5aa9f160ca6fd6a0832
+M	asset_injector.install	8d2542c3521b76d052a2fbb4f05278d0
+M	asset_injector.module	6a1edab949fa2316d7b9f9d986dc6cd2
+M	asset_injector.routing.yml	0050c5f1a3ee81df0690fa9abb5b2757
+M	src/AssetInjectorListBuilder.php	4467ca0ea85a5fe4f0ddc332acc21aa3
+M	src/Entity/AssetInjectorBase.php	6ccc0883566329a2870f246519b9dc99
+M	src/Entity/CssInjector.php	1c4bbd6c274aded9ee2d8b08b431c15f
+M	src/Entity/JsInjector.php	d726f8f73311b6bc491f3ca3ad4b6dda
+M	src/Form/AssetInjectorDisableForm.php	414336b1c7693bce69406e30b905d35f
+M	src/Form/AssetInjectorEnableForm.php	350f2ebef70c518ccb166689ac0a2525
+A	src/Form/CssInjectorDuplicateForm.php	145c4fda23cced01b39787d48d557c48
+M	src/Form/CssInjectorForm.php	840e719f3151a8163df62de681aed644
+A	src/Form/JsInjectorDuplicateForm.php	0acd089b71bd92f97797315565124253
+M	src/Form/JsInjectorForm.php	459aebad1aa15f8ee78e5a8a788bdffa

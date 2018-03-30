@@ -1,0 +1,10 @@
+A	DEVELOPING.md	25de5b05d79dcc21c5cd74cafaf59929
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	93db3840a702319ca9f34b846b544fdf
+A	config/schema/media_entity_image.schema.yml	b22d0fad712a25dd4208660bb139024d
+A	images/icons/image.png	161fb4d28544c764d368aaaeb8dc87a0
+A	media_entity_image.info.yml	fe94b7769e248053fbba6eeb6796fb5b
+A	media_entity_image.install	9bdf02ebabfde41ef1babcedd4dce171
+A	media_entity_image.module	ce407ff5715c837d02b1aba7975bf512
+A	src/Plugin/EntityBrowser/Widget/Upload.php	504409c221a8eefdea12402856162085
+A	src/Plugin/MediaEntity/Type/Image.php	d4dbcac6385f1d525679a8828133dee7

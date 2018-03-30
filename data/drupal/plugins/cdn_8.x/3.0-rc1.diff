@@ -1,0 +1,13 @@
+M	cdn.info.yml	e5ec719f313d9979c65f2662915f94f6
+M	cdn.module	7d1f134fc9bcedb4b5c194fde6982112
+M	cdn.services.yml	b848e8f218b22c20459d6f3fb98cbd39
+M	cdn_ui/cdn_ui.info.yml	4a7e4ba2a1a4145f25d0a0c38806591e
+M	cdn_ui/config/optional/tour.tour.cdn-ui.yml	cec002f4d68dd82577ff59c90b76ac8f
+M	cdn_ui/src/Form/CdnSettingsForm.php	8868b793c1f87b61be5cf136b2beb5cd
+A	src/Asset/CssOptimizer.php	0febc6c82b99726a9f03ac596a6812e9
+M	src/EventSubscriber/ConfigSubscriber.php	1bd67b94ffc4eeb0d4cde67e024a6c88
+M	src/File/FileUrlGenerator.php	e8d01cde06fcc3b9ccbaef16f7c20bd4
+D	src/Tests/CdnIntegrationTest.php	
+A	tests/src/Functional/CdnIntegrationTest.php	59763e0b012d40b7fdc51b43fab7acec
+M	tests/src/Kernel/EditorFileReferenceFilterTest.php	4dd9cece2947a4ee32203c4bdac4b9ca
+M	tests/src/Unit/File/FileUrlGeneratorTest.php	e8cf227fe968f199391d625975c03eea

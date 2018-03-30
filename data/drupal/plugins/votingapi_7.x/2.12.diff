@@ -1,0 +1,9 @@
+M	API.txt	4faf2b2b0c90ac954d1863a5bd6e8ccf
+M	views/votingapi.views.inc	b14c3be88410fce304b0d453347ad26c
+M	views/votingapi_views_handler_field_value.inc	ec91e68d2b8ec1925c85bef681689a43
+M	votingapi.admin.inc	2790500a86a4ae53ff12b5a58ea58207
+M	votingapi.api.php	6f5b4e11e3851304d5160c49862e7cad
+A	votingapi.devel.inc	5c566de6b80f24405c4b910286005f51
+M	votingapi.drush.inc	09fb7967cb654427de5142ab4397367e
+M	votingapi.info	11b88ceb971175b84cc827c081c4d279
+M	votingapi.module	10af52a06fd7a284538e3cea2d01b720

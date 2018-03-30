@@ -1,0 +1,9 @@
+M	css/toolbar-anti-flicker.css	d41d8cd98f00b204e9800998ecf8427e
+A	css/toolbar/toolbar.menu.css	b798d6f8c69a422f8e0ce1df2af5fbaf
+M	css/toolbar/toolbar.module.css	8d8c5843a327ed6190e874bcd5bed0f0
+A	css/toolbar/toolbar.theme.css	7e70d786d389d57759e49d1e16e97570
+M	js/toolbar/js/toolbar.js	721dcff345604622898d40368c54f3bb
+M	js/toolbar/js/views/BodyVisualView.js	64b5eb8410e343f7190ed9759a6a7802
+M	js/toolbar/js/views/ToolbarVisualView.js	c3296ff607218d062e52674ef50971b5
+M	toolbar_anti_flicker.info.yml	4b224bfa96d12f4d48b7a75ec3dff307
+M	toolbar_anti_flicker.module	4067b63cd0d5cdef6afb4c5372696f1d

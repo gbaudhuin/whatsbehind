@@ -1,0 +1,11 @@
+A	config/install/responsive_preview.device.galaxy_s7.yml	5c301524bdf8c84e128f49be5cfa8f16
+A	config/install/responsive_preview.device.galaxy_tab_2_10.yml	78fae26481c2d4562fd09b69e9bbef39
+A	config/install/responsive_preview.device.ipad_air_2.yml	921c7c34d627528993d23660a0f491f9
+D	config/install/responsive_preview.device.iphone6.yml	
+D	config/install/responsive_preview.device.iphone6plus.yml	
+A	config/install/responsive_preview.device.iphone_7.yml	85b2c3b43d59f91f2fdcf009595e70a0
+A	config/install/responsive_preview.device.iphone_7plus.yml	5c7bcf5c7146f6986d2f110ab8be37e8
+D	config/install/responsive_preview.device.nexus5.yml	
+D	config/install/responsive_preview.device.nexus6.yml	
+D	config/install/responsive_preview.device.nexus9.yml	
+M	responsive_preview.info.yml	03e0701dfc8e0f3a8f54d6f2a14d6d69

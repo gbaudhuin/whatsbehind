@@ -1,0 +1,6 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	config/schema/entityqueue_form_widget.schema.yml	8c82c5876e2157de4b41432f90f2c59c
+A	entityqueue_form_widget.info.yml	b2f9eb7792168394ffece1505941fd8d
+A	entityqueue_form_widget.module	ed33a647a2a453f6fdfa0e061cb87deb
+A	entityqueue_form_widget.routing.yml	9dd11091169e956a4ac67e95b66e79bf
+A	src/Controller/EntityQueueFormWidgetController.php	957389cb1660ab3f91b76c70e15c0264

@@ -1,0 +1,14 @@
+M	ds.info.yml	da1b03f481cfa22ac71c9b7a08d07f6a
+M	ds.module	14a9eba7ff6414c81a640ecd33fa822b
+M	ds.permissions.yml	2f984a1bc760c8720db1fc061c86c0b7
+M	modules/ds_devel/ds_devel.info.yml	5984199f611b879402e9f58332c168ac
+M	modules/ds_extras/ds_extras.info.yml	dfb6bc5064ef1d6065cb6918c03a3b25
+M	modules/ds_switch_view_mode/ds_switch_view_mode.info.yml	12e73163459244e6686bacab134f0123
+M	src/Plugin/Derivative/DynamicField.php	5db3521e8502b71f123bc054e5f412f1
+A	src/Tests/DsFieldCacheTest.php	5bc1937f7a6a0ae9901d983ccdf07ded
+M	src/Tests/DynamicFieldPluginTest.php	8d6aa289f5d45aa8f1fd24b8f66005d6
+M	tests/modules/ds_exportables_test/ds_exportables_test.info.yml	f8cfb6a1560c06fc3be6a2462cd70f23
+M	tests/modules/ds_test/ds_test.info.yml	1c2c56c5058f4569d2526fc276deb6d0
+A	tests/modules/ds_test/src/Plugin/DsField/TestCachingField.php	93773ed2fda964f7d2bdb963d9676248
+M	tests/modules/ds_test_rdf/ds_test_rdf.info.yml	76536b510765c5a107089895cd450370
+M	tests/themes/ds_test_layout_theme/ds_test_layout_theme.info.yml	1747bbdecbf5bed920004229825eba0b

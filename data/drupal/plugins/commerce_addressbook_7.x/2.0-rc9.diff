@@ -1,0 +1,7 @@
+M	README.txt	2ebb29d8057d4f73aa2f8c6d66eb702c
+M	commerce_addressbook.api.php	449291d92f5ab4649a7a832a5fdd8287
+M	commerce_addressbook.info	0105599938e40cadeff7fb725887af91
+M	commerce_addressbook.module	73da0b5cec24e91f1e1b4f4347b5d831
+A	commerce_addressbook.rules.inc	16a573c6d7e782744754855e2b4bafd9
+M	includes/commerce_addressbook.user.inc	0e01abb6b2e128e93c1cf22bee884589
+M	includes/views/commerce_addressbook.views_default.inc	c12afd630499e8b17ce44dceaf481253

@@ -1,0 +1,82 @@
+M	license.txt	3014e631e5ff5754bfee724383767e3e
+M	wp-admin/about.php	56a32990bd759eae9a9fb961f318e29d
+M	wp-admin/css/common-rtl.css	3474da40a63cf7441990d7af14e1dd96
+M	wp-admin/css/common-rtl.min.css	66c0c54fea80c201db7daabadef8cd8b
+M	wp-admin/css/common.css	5fff0139cf41e8f2bfc402c8bda13182
+M	wp-admin/css/common.min.css	f66191b422f0fb03659565a9fe2cbf31
+M	wp-admin/css/customize-nav-menus-rtl.css	1bf381b227fd0f82983f7f42bfee09e2
+M	wp-admin/css/customize-nav-menus-rtl.min.css	8f104e8e20108646cb3e9c69d819f195
+M	wp-admin/css/customize-nav-menus.css	67aad3843e4f5f4bde34a2f5c9c46aaa
+M	wp-admin/css/customize-nav-menus.min.css	c3d67006bc1b55274afa78df3b46f605
+M	wp-admin/includes/image.php	c3141ba58871edc765f033928e6a8d10
+M	wp-admin/includes/media.php	fb7b88f87cc0eafc7424dac8fd5b1229
+M	wp-admin/includes/update-core.php	fa17febed59ff44a857ced97c021a243
+M	wp-admin/js/editor.js	ed089860adc11ffbace721ab647297d1
+M	wp-admin/js/editor.min.js	afb2c16bfc582737cabffd2957caf7aa
+M	wp-admin/js/plugin-install.js	111082709bd5b31ec3f6230dcbc2c453
+M	wp-admin/js/plugin-install.min.js	c10e07ae10cf119ed6c90ab69428e48d
+M	wp-admin/js/widgets/custom-html-widgets.js	58dbb81230e96444f2de93603322dbac
+M	wp-admin/js/widgets/custom-html-widgets.min.js	91ded92347b6cc64e9724408d9defa09
+M	wp-admin/theme-install.php	ac9c42ef02c74a99e8109270107b41ad
+M	wp-content/plugins/akismet/akismet.php	c86f4922ba561e1168c663896ac4d609
+M	wp-content/plugins/akismet/class.akismet-admin.php	56da63c802c593fff60db867d1793249
+M	wp-content/plugins/akismet/class.akismet.php	440298c751d0a8ae72da14b4014f4826
+M	wp-content/plugins/akismet/readme.txt	88a6f88f2645081b88f00b876909a391
+M	wp-content/plugins/akismet/views/notice.php	09d7615c3252bb158a914b95abed289a
+M	wp-content/themes/twentyseventeen/front-page.php	352ffe735f3341c72cb62e2b88cb230e
+M	wp-includes/category-template.php	03cde3efb0474cbfb408fe043222f1e8
+M	wp-includes/customize/class-wp-customize-themes-section.php	c4e95b71f5fe5edf819ce9b09ccb5ce2
+M	wp-includes/default-filters.php	ce74f9cf33b8b07b6713957834e93abf
+M	wp-includes/functions.php	d9e7e9d5dcb9f4f0c8a87f2ad03d042b
+M	wp-includes/js/mce-view.js	f2e51a6cc3a8ea3f6d149602645bcb91
+M	wp-includes/js/mce-view.min.js	280263cbe063651d578398c8d4046cc8
+D	wp-includes/js/mediaelement/lang/ca.js	
+D	wp-includes/js/mediaelement/lang/cs.js	
+D	wp-includes/js/mediaelement/lang/de.js	
+D	wp-includes/js/mediaelement/lang/es.js	
+D	wp-includes/js/mediaelement/lang/fa.js	
+D	wp-includes/js/mediaelement/lang/fr.js	
+D	wp-includes/js/mediaelement/lang/hr.js	
+D	wp-includes/js/mediaelement/lang/hu.js	
+D	wp-includes/js/mediaelement/lang/it.js	
+D	wp-includes/js/mediaelement/lang/ja.js	
+D	wp-includes/js/mediaelement/lang/ko.js	
+D	wp-includes/js/mediaelement/lang/nl.js	
+D	wp-includes/js/mediaelement/lang/pl.js	
+D	wp-includes/js/mediaelement/lang/pt.js	
+D	wp-includes/js/mediaelement/lang/ro.js	
+D	wp-includes/js/mediaelement/lang/ru.js	
+D	wp-includes/js/mediaelement/lang/sk.js	
+D	wp-includes/js/mediaelement/lang/sv.js	
+D	wp-includes/js/mediaelement/lang/uk.js	
+D	wp-includes/js/mediaelement/lang/zh-cn.js	
+D	wp-includes/js/mediaelement/lang/zh.js	
+D	wp-includes/js/mediaelement/mediaelement-flash-audio-ogg.swf	
+D	wp-includes/js/mediaelement/mediaelement-flash-audio.swf	
+D	wp-includes/js/mediaelement/mediaelement-flash-video-hls.swf	
+D	wp-includes/js/mediaelement/mediaelement-flash-video-mdash.swf	
+D	wp-includes/js/mediaelement/mediaelement-flash-video.swf	
+D	wp-includes/js/mediaelement/renderers/dailymotion.js	
+D	wp-includes/js/mediaelement/renderers/dailymotion.min.js	
+D	wp-includes/js/mediaelement/renderers/facebook.js	
+D	wp-includes/js/mediaelement/renderers/facebook.min.js	
+D	wp-includes/js/mediaelement/renderers/soundcloud.js	
+D	wp-includes/js/mediaelement/renderers/soundcloud.min.js	
+D	wp-includes/js/mediaelement/renderers/twitch.js	
+D	wp-includes/js/mediaelement/renderers/twitch.min.js	
+M	wp-includes/js/tinymce/plugins/wplink/plugin.js	13a70cb0ee2bc1c745056c543f394b54
+M	wp-includes/js/tinymce/plugins/wplink/plugin.min.js	a2995d1a4e10bf66e1d0a36b6b449424
+M	wp-includes/js/tinymce/wp-tinymce.js.gz	3c27a95feefe245fc5c8c46427521f09
+M	wp-includes/media.php	1cafc46a1a5e7146d64b2ee53ab7c5c1
+M	wp-includes/random_compat/random_bytes_com_dotnet.php	52d3240d3549e4c0cd785a62f31c463d
+M	wp-includes/random_compat/random_bytes_dev_urandom.php	66210ed7a7e6d397af12ee87412687b0
+M	wp-includes/random_compat/random_bytes_libsodium.php	5c2fca1a67bac0e0e09ec0f2e38d240d
+M	wp-includes/random_compat/random_bytes_libsodium_legacy.php	8bf32de4bcf246d2c85d3178fd36e115
+M	wp-includes/random_compat/random_bytes_mcrypt.php	8721bb3eb0be8a239cfec679371ca6dc
+M	wp-includes/random_compat/random_bytes_openssl.php	bb38b090812ec48acdd841ee43b411c3
+M	wp-includes/random_compat/random_int.php	4fc24fc8f4dd612539e347b210ea8c70
+M	wp-includes/rest-api/class-wp-rest-server.php	b50a28c1c5e1fbc89e516555ea32fc99
+M	wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php	337ce28d3fe229e0a1b1c0ca4b1e9201
+M	wp-includes/version.php	4c94a6440e9da877c440b0a5c9602f87
+M	wp-includes/widgets.php	4d2549a007901e86e033c9aa17f308b4
+M	wp-includes/wp-db.php	48d30b93e3d91869350a01444f6057a8

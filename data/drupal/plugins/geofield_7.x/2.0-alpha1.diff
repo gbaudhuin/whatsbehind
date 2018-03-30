@@ -1,0 +1,39 @@
+A	css/proximity-element.css	10e45666f1d3ccc754ec3201cf58b15d
+A	geofield.apachesolr.inc	c6ab4a4c19097e3452db71d35def7cc4
+M	geofield.devel_generate.inc	ad3c1ef07789a6895c34c19875e4ff50
+A	geofield.elements.inc	0d243885fd17f772fc7d53bea8623f5a
+M	geofield.feeds.inc	8469cb3b6e26481e07b8ebfd9ac6fd34
+M	geofield.formatters.inc	1a75ba548c19a3c1149c81661f934960
+M	geofield.info	408f32eea09f19cb9ffcca215e862003
+M	geofield.install	5503f3ea038ad1da88a05849e62bc708
+D	geofield.make.example	
+A	geofield.microdata.inc	6120983f355ef4ceb20f4dddebf4153c
+M	geofield.module	0e79d3589c7d51acf952e842cc7afa49
+M	geofield.openlayers.inc	99b903041cfc57dbbad741bbef525c9f
+A	geofield.schemaorg.inc	d3bce81cd21270812ecb98b2cef2b034
+D	geofield.test	
+M	geofield.widgets.inc	c50b6a99c77637277554b24c43e4ce52
+A	geofield.widgets.openlayers.inc	3233b90e0c1fa8a3220d0abf9d65313e
+A	includes/GeoGenerator.php	cb643b9cd1591de2e7e0ca8d330b0ca9
+M	includes/behaviors/css/openlayers_behavior_geofield.css	5c61fe4a4ff53a28f15eb53f4b5b2a19
+M	includes/behaviors/js/openlayers_behavior_geofield.js	29108c8a4679416a9ac86c87bb58cc0e
+M	includes/behaviors/openlayers_behavior_geofield.inc	18566d5d39d8a13e09c866f10d23a625
+A	includes/geofield_backend/default.inc	cf01d5aeca9c1f82a5f09c90f29ac853
+M	js/geolocation.js	eb9f0b889e0e4a457e0dbfbbede76e66
+A	js/viewsProximityValue.js	40b4ec62490725b9b9933240ceadcab4
+D	modules/geofield_map/css/geofield_map.css	
+M	modules/geofield_map/geofield_map.info	6c5aedf82a320820ac7b41db30daf97e
+M	modules/geofield_map/geofield_map.module	4bd3cccd02c90ecd6011ae81f2539887
+M	modules/geofield_map/includes/geofield_map.views.inc	5b08bfe248452f6c2d6063767db73ef5
+M	modules/geofield_map/includes/geofield_map_plugin_style_map.inc	2d053927223e2f7a46c146d4a1003ff8
+M	modules/geofield_map/js/geofield_map.js	14f54ad677ac7174b40e5ec544691ea6
+A	tests/geofield.test	55128220a8818a91b21cf7875f4a61bd
+A	tests/geofield_openlayers.test	4ecdd9a631c2dec79fb76d23b6804e6c
+A	tests/geofield_openlayers_test.info	29a66c7edbda0908c6a62c0c02466bfe
+A	tests/geofield_openlayers_test.module	d41d8cd98f00b204e9800998ecf8427e
+A	tests/geofield_test.info	88ab3bb95afa0fb5cdfecf12ba4465fa
+A	tests/geofield_test.module	574846fe69887644c63d95674ed27248
+A	views/geofield.views.inc	0d385163c0082d1fb61c2cee03245732
+A	views/handlers/geofield_handler_field.inc	01b29c0bec9348e63ccc29813fafff3c
+A	views/handlers/geofield_handler_filter.inc	b47028c43974f5bf2f8190e593e3d4e9
+A	views/handlers/geofield_handler_sort.inc	dd60bd91f1e6c38d34b0d1a06ec13b12

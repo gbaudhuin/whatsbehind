@@ -1,0 +1,14 @@
+M	README.md	16b889c2226179fe806a49c327054a34
+M	menu_item_extras.info.yml	8bf14d8ed315dd8c8b2be4eb77be157e
+M	menu_item_extras.module	426455a9e80f432f923e170b5e5be45a
+M	modules/mie_demo_base/css/mie_demo_base.css	2926826c143d3dd5cfcdfe979b09202a
+M	modules/mie_demo_base/gulpfile.js	a1290f4b3ec60fbbdb1bc8e4cfe1f0bf
+M	modules/mie_demo_base/mie_demo_base.info.yml	0ad6fce148c4de7edf579221d8806cd7
+M	modules/mie_demo_base/mie_demo_base.libraries.yml	75a7e5da794a2f84bad8eb58d35fe724
+M	modules/mie_demo_base/package-lock.json	eb548f67a529316da2fd427e2af57187
+M	modules/mie_demo_base/package.json	573400c3da1f14414856d87248863297
+M	modules/mie_demo_base/scss/mie_demo_base.scss	09ff6aa207c8a05bf2332d9c58422a45
+M	modules/mie_demo_base/webpack.bundle.config.js	00e19228db3b087702c25e8f22087a50
+M	modules/mie_demo_base/webpack.standalone.config.js	4c37533515a6500a04743c103a96e68b
+D	tests/src/Functional/MenuLinkContentDeleteFormOriginTest.php	
+D	tests/src/Functional/MenuLinkContentTranslationUIOriginTest.php	

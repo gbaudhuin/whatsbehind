@@ -1,0 +1,7 @@
+M	README.txt	c96fd0d381e9365e2c2715f70de84f6e
+M	src/Tests/LoggerWebTest.php	5ff4285628532238999d73d09b109321
+M	src/UltimateCron.php	f158978f6b9f68f13249547de789d6d8
+M	src/UltimateCronServiceProvider.php	547c4483ace11ebc54330b14a7ab92ca
+M	tests/ultimate_cron_logger_test/ultimate_cron_logger_test.info.yml	d8e6ec8e577194d2de4950b64a157b41
+M	ultimate_cron.api.php	e47b9a3aced4afc66e2630addbc06347
+M	ultimate_cron.info.yml	e7af49f721ad6cfe916c7d544d31a72b

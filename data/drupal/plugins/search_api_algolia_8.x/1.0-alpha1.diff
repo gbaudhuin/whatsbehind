@@ -1,0 +1,10 @@
+A	.gitignore	b61eab44e119b852c25e2186ae69f0da
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	d834b97342a651e05858c0c18dd4dae6
+A	composer.json	2046901b159ebb8a3a29afec46804cfd
+A	search_api_algolia.api.php	5751e986112e3f7140ac9fd570b96079
+A	search_api_algolia.info.yml	f0deca6bfd6e40795f8988822bf64096
+A	search_api_algolia.install	e44c95247333a5ab2b34b850b9d42e32
+A	search_api_algolia.module	bbe79c273be5d273a134974170010dc9
+A	search_api_algolia.services.yml	d3a795a558ac2beaeea33bfd88c7eb37
+A	src/Plugin/search_api/backend/SearchApiAlgoliaBackend.php	c9e33f18eb79143f6a5d76bd859eecbe

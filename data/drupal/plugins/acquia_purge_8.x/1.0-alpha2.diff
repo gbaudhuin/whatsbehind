@@ -1,0 +1,14 @@
+M	FAQ.md	e5afdb401fbe6243d308b3446447954c
+M	PROJECTPAGE.md	78acd5b75b4924b83dd1a904731f780c
+M	README.md	78acd5b75b4924b83dd1a904731f780c
+M	acquia_purge.info.yml	d30f2690543fb609256c028e5a6d5a6f
+M	acquia_purge.services.yml	2a8ecdb89cb824905e0d2100b7590ec6
+M	src/HostingInfo.php	a7e4144a9fb13a5c7c8a6b3f0f02b927
+M	src/HostingInfoInterface.php	931a369439baddc94b8d6529e52b7f5f
+M	src/Plugin/Purge/DiagnosticCheck/AcquiaCloudCheck.php	07460f3ad22f09965878e17f78a768a0
+A	src/Plugin/Purge/DiagnosticCheck/AlphaProgramCheck.php	d752b99269ff56b85fc5491e93ff5321
+D	src/Plugin/Purge/DiagnosticCheck/AlphaProgrammeCheck.php	
+M	src/Plugin/Purge/DiagnosticCheck/LoadBalancersCheck.php	b2764b2d5b3fa0ff1d149a783a8e0f0f
+M	src/Plugin/Purge/Purger/AcquiaCloudPurger.php	08d479c70d79a0ac4520ed8f5aa8fd57
+M	src/Plugin/Purge/TagsHeader/AcquiaPurgeTagsHeader.php	e9778b2d8e196e8c8d7a5d3ccb706175
+M	src/Plugin/Purge/TagsHeader/AcquiaSiteHeader.php	149c4c5623746f6b121dcc6adb750f7f

@@ -1,0 +1,6 @@
+M	fieldable_panels_panes.info	2c8dea464c2fa82654e0ce47050ecd84
+M	fieldable_panels_panes.install	92061efb5acf593b5fc57df96a7a6f27
+M	fieldable_panels_panes.module	30823b519bf6235852281e8ef950ac45
+M	includes/PanelsPaneController.class.php	b1f8fc268ad2d764b3931375ca8df05e
+M	plugins/content_types/fieldable_panels_pane.inc	048981c6fd64708f1cdd1ecd39ff7298
+M	plugins/views/fieldable_panels_panes_handler_field_make_current.inc	095380e66cd3cdf478fafd62aa397306

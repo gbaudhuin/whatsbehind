@@ -1,0 +1,14 @@
+M	.travis.yml	960ad76fe7bf488b068b5da38784084f
+D	.travis/drupal-8.2.x.make.yml	
+M	.travis/drupal-8.3.x.make.yml	7e5354e9ee9d1147bf16ef0b5322d470
+A	.travis/drupal-8.4.x.make.yml	4aab3ca5bb5e04860a8fa2b13639f196
+M	config/schema/relaxed.schema.yml	9f42385b5a4962a53ec55ba07593fb35
+M	relaxed.info.yml	23d0097b01c2be16c5154850f41bf42c
+M	relaxed.services.yml	3d008feb86829f24196ab9a7ed81f04e
+M	src/CouchdbReplicator.php	3d7f6eaa67e9689d64a78c5f28c49fa2
+M	src/Entity/Remote.php	248327b48b0ca5bcb34cb74c6d3eb549
+M	src/Form/RemoteForm.php	649d3748217bc36648ef715634ce3fec
+M	src/Form/SettingsForm.php	9f83d56f1fae38182bab501e1e9843ad
+A	src/SensitiveDataTransformer.php	367fccb26390a369c9779157f096d83c
+M	tests/modules/relaxed_test/relaxed_test.info.yml	d104e4f6a527f31876021e607c2436c5
+A	tests/src/Functional/RelaxedEncryptTest.php	4db771317e946f5af8ea2c5682f33ce1

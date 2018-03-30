@@ -1,0 +1,70 @@
+M	css/token.css	17d0d018d15521b8e3cf26a8fc1443b9
+M	src/Controller/TokenAutocompleteController.php	b574dea933ce71bbc71f7dc905525503
+M	src/Controller/TokenDevelController.php	ccdc18d0db6b86ef0d81c0b48ac042b1
+M	src/Controller/TokenTreeController.php	829984850abc4eb13f64b3f45f7c5081
+A	src/Element/TokenTreeTable.php	85ecf18cc1bd942550c7bfa59d7de86f
+A	src/Plugin/Derivative/DevelLocalTask.php	592cefbc8a6f2e9a9e77297dc304af86
+A	src/Routing/RouteSubscriber.php	82499ef624b7642d2dd32407ccb1a919
+D	src/Tests/TokenArrayTest.php	
+M	src/Tests/TokenBlockTest.php	797290859f08719d706d2a4374e53a24
+D	src/Tests/TokenCommentTest.php	
+D	src/Tests/TokenDateTest.php	
+D	src/Tests/TokenEntityTest.php	
+M	src/Tests/TokenFieldUiTest.php	bde91d12f44c98921ecaf5b9a4a0414a
+D	src/Tests/TokenFileTest.php	
+D	src/Tests/TokenKernelTestBase.php	
+M	src/Tests/TokenMenuTest.php	4760ec3109091d7705f24c7e21de9c34
+D	src/Tests/TokenNodeTest.php	
+D	src/Tests/TokenRandomTest.php	
+D	src/Tests/TokenTaxonomyTest.php	
+M	src/Tests/TokenTestBase.php	9376fc65f32e5e655297348a00d31c69
+D	src/Tests/TokenUnitTest.php	
+M	src/Tests/TokenUserTest.php	c985e5c85732251a3f1373ac15a9a265
+A	src/Tests/Tree/AutocompleteTest.php	ffcef9dc5f1ce121454bd9eee655e7a5
+A	src/Tests/Tree/HelpPageTest.php	8eeb63b0611793e81c962318bf1a8f44
+A	src/Tests/Tree/TokenTreeTestTrait.php	3d5b13d3fc9a9a0fe550a52dae10ad72
+A	src/Tests/Tree/TreeTest.php	93a382e593394e9a640f28dd5c871d27
+A	src/Token.php	9dc89d33471af6fa6420ae75fcebac07
+A	src/TokenEntityMapper.php	faabdcf76deacddb612aa8b00600a14c
+A	src/TokenEntityMapperInterface.php	30d6214504666d9443594232b9df9423
+A	src/TokenInterface.php	140d85cebd785cdfb36c0ccb382a49db
+A	src/TokenServiceProvider.php	3a152aa1e2af4d42bb6683deca98a19e
+A	src/TreeBuilder.php	866db1666cebca9320dd9923de7eabff
+A	src/TreeBuilderInterface.php	da84ffe290257cc0d63d669c8e205819
+A	templates/token-tree-link.html.twig	39a09d8a89264ea1988a0b2b4b0c3550
+A	tests/modules/token_module_test/config/install/core.date_format.token_module_test.yml	7e3a5e91d7d07cb766ac71a2f6e9d8cb
+A	tests/modules/token_module_test/src/Controller/TokenTreeBrowseController.php	1cb4a81ceff647f282205b95f655d824
+A	tests/modules/token_module_test/token_module_test.info.yml	445db676a77eb17ff821e01d0b23ebdc
+A	tests/modules/token_module_test/token_module_test.module	850799d6836ab2b9c39db66c7ca34357
+A	tests/modules/token_module_test/token_module_test.routing.yml	af934890c00af938b5eb68f66e1068ca
+A	tests/modules/token_module_test/token_module_test.tokens.inc	6d8827f58e332192c3620cbf6cdb76b5
+A	tests/modules/token_user_picture/config/install/core.entity_form_display.user.user.default.yml	b3f712ad8a2bf5a8a159bdaa79d3d43a
+A	tests/modules/token_user_picture/config/install/field.field.user.user.user_picture.yml	87f1ebb2c7590fd34837a4f87c37928b
+A	tests/modules/token_user_picture/config/install/field.storage.user.user_picture.yml	50cd4388730a791fcf778eb923dc448c
+A	tests/modules/token_user_picture/token_user_picture.info.yml	6ab5494060c03620c323e7ae832155dd
+A	tests/src/Kernel/ArrayTest.php	b5573cfd2ee0eddf9edae3b054610539
+A	tests/src/Kernel/CommentTest.php	75fc7ff8bf7740a79ab7057b5af16092
+A	tests/src/Kernel/DateTest.php	90321564b429242b210a68af7ed00898
+A	tests/src/Kernel/EntityTest.php	2b71f01c68194e158b61d3b165efbcca
+A	tests/src/Kernel/FieldTest.php	d0d445bc008ef62b21e5f9a9432586ef
+A	tests/src/Kernel/FileTest.php	0f026dddb87b929518e83d85e81cb6ac
+A	tests/src/Kernel/KernelTestBase.php	54de3043e23eadeec9d865b55ea0afa8
+A	tests/src/Kernel/NodeTest.php	f216a2bb0be10ce96e9e2c456db03b4e
+A	tests/src/Kernel/RandomTest.php	47b7cb648bbf0b526a91da9040b0e483
+A	tests/src/Kernel/TaxonomyTest.php	4dd2157926e7bb0e2e0edb0c76bb16dc
+A	tests/src/Kernel/UnitTest.php	ac2645d120c4f0c9e252c85f7806760b
+D	tests/token_test/config/install/core.date_format.token_test.yml	
+D	tests/token_test/token_test.info.yml	
+D	tests/token_test/token_test.module	
+D	tests/token_test/token_test.tokens.inc	
+D	tests/token_user_picture/config/install/core.entity_form_display.user.user.default.yml	
+D	tests/token_user_picture/config/install/field.field.user.user.user_picture.yml	
+D	tests/token_user_picture/config/install/field.storage.user.user_picture.yml	
+D	tests/token_user_picture/token_user_picture.info.yml	
+M	token.info.yml	3c0b3c804d7dcecf0fda38faeb8986d7
+M	token.links.task.yml	77a95a78dae56558a30dfaabbe09b896
+M	token.module	fcdb5f1d6da111ad27ef4c1022529fc0
+M	token.pages.inc	be2af63ea4d8cf42cd8e601b1fbb565b
+M	token.routing.yml	b051b1ca713693a6b7ac3c83d689c108
+M	token.services.yml	a3344b94580d1778ae0e9a72ce15342f
+M	token.tokens.inc	2ceb92b9bad8dd6a16c8611853880ff3

@@ -1,0 +1,42 @@
+M	CHANGELOG.txt	52b251ffed31d66e5dae64be906a4053
+M	README.txt	fbaa31c8b977314d5d149e0edec7df68
+A	better-autocomplete/better-autocomplete.css	4fac37c4bfbe3f784e7c0432f4eb8ee7
+A	better-autocomplete/jquery.better-autocomplete.js	603f6617a4b081b29092cae9288a9e74
+M	css/linkit.css	3cceaceee0352c5f5e1682dc87b62e08
+M	editors/ckeditor/linkitDialog.js	d65c3678926d2b8d365e06dcdbb6bbe7
+M	editors/ckeditor/plugin.js	4fd668d1ebf705dff78a7eac6e6b073a
+D	editors/fckeditor/linkit/fckplugin.js	
+D	editors/fckeditor/linkit/linkit.png	
+D	editors/fckeditor/linkit/linkitDialog.js	
+M	editors/tinymce/editor_plugin.js	6290267922f5d49a6f9bfb18b097c3d0
+D	editors/tinymce/linkit.js	
+A	editors/tinymce/linkitDialog.js	5ce523ed1ea1c1d1b678fbf3f4871744
+A	js/linkit.dialog.js	3c651300d276d0cf7db5c94c326a6811
+A	js/linkit.js	e4d01438cfbf770b86f6873564d57f24
+M	linkit-dashboard.tpl.php	c9fe9adb84937e42ab7a1320b2354506
+D	linkit.admin.inc	
+A	linkit.api.php	6a13ca61e60984463247a4cad16a2dca
+M	linkit.info	e1a8084446384d8221e17b61bc34a77d
+M	linkit.install	8ba0fb9abf7c5b92088d25a0f4b5f6fa
+D	linkit.js	
+M	linkit.module	a3985b97928eb0fc5c60c35a0aa81387
+A	linkit.theme.inc	c1941962dbdce8bcd699b3cc99784e5d
+A	plugins/export_ui/linkit_profiles.inc	a15cb3035e68bf5aacedc432fde34a71
+A	plugins/export_ui/linkit_profiles_ui.class.php	93a2641272622455ebc882f0294739c1
+A	plugins/linkit.external.inc	80c07894e2f6d2ac3bcd472fdf513269
+A	plugins/linkit.file.inc	28cb1fdacf2e406a4932b09faaa83c66
+A	plugins/linkit.node.inc	f5d35023f63525ba0984cca3b4927344
+A	plugins/linkit.taxonomy.inc	7ab1fb12dee595d42416c85200381910
+A	plugins/linkit.user.inc	cb85d22c3c004053520c8d241525ee9e
+D	plugins/linkit_file/linkit_file.info	
+D	plugins/linkit_file/linkit_file.module	
+D	plugins/linkit_node/linkit_node.info	
+D	plugins/linkit_node/linkit_node.module	
+D	plugins/linkit_permissions/linkit_permissions.info	
+D	plugins/linkit_permissions/linkit_permissions.module	
+D	plugins/linkit_taxonomy/linkit_taxonomy.info	
+D	plugins/linkit_taxonomy/linkit_taxonomy.module	
+D	plugins/linkit_user/linkit_user.info	
+D	plugins/linkit_user/linkit_user.module	
+A	throbber-active.gif	683c980b67a568abab7612f6be99865b
+A	throbber-inactive.gif	76ebc0b7eb8c635cf85e5b75758bdf9d

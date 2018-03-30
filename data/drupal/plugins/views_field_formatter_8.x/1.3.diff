@@ -1,0 +1,3 @@
+M	src/Plugin/Field/FieldFormatter/ViewsFieldFormatter.php	2bdaa3bc470f4fca74c002327f07b5d2
+M	views_field_formatter.info.yml	1e40a663b8a648b2ddcc41b2941ea529
+D	views_field_formatter.module	

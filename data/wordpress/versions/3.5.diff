@@ -1,0 +1,78 @@
+M	wp-admin/about.php	b6ef6d42e6a058945669e40e9dd4abfb
+M	wp-admin/css/wp-admin.css	c8c02c7d0318ddeb985e324f126a19e8
+M	wp-admin/css/wp-admin.min.css	7b21a55b15494b9d4d9e80f7904e11e0
+M	wp-admin/images/screenshots/about-media.png	5b3063ef865b732f9fde36bfa7d26f3f
+M	wp-admin/options-media.php	31ef4eb1faedb983778cf4792a58db3a
+M	wp-content/themes/twentyeleven/languages/twentyeleven.pot	1d16e28ca115edc44094df48a8ca9bfb
+M	wp-content/themes/twentyeleven/style.css	56e85bfd45eef5332298a44d0cd962be
+D	wp-content/themes/twentyten/404.php	
+D	wp-content/themes/twentyten/archive.php	
+D	wp-content/themes/twentyten/attachment.php	
+D	wp-content/themes/twentyten/author.php	
+D	wp-content/themes/twentyten/category.php	
+D	wp-content/themes/twentyten/comments.php	
+D	wp-content/themes/twentyten/editor-style-rtl.css	
+D	wp-content/themes/twentyten/editor-style.css	
+D	wp-content/themes/twentyten/footer.php	
+D	wp-content/themes/twentyten/functions.php	
+D	wp-content/themes/twentyten/header.php	
+D	wp-content/themes/twentyten/images/headers/berries-thumbnail.jpg	
+D	wp-content/themes/twentyten/images/headers/berries.jpg	
+D	wp-content/themes/twentyten/images/headers/cherryblossoms-thumbnail.jpg	
+D	wp-content/themes/twentyten/images/headers/cherryblossoms.jpg	
+D	wp-content/themes/twentyten/images/headers/concave-thumbnail.jpg	
+D	wp-content/themes/twentyten/images/headers/concave.jpg	
+D	wp-content/themes/twentyten/images/headers/fern-thumbnail.jpg	
+D	wp-content/themes/twentyten/images/headers/fern.jpg	
+D	wp-content/themes/twentyten/images/headers/forestfloor-thumbnail.jpg	
+D	wp-content/themes/twentyten/images/headers/forestfloor.jpg	
+D	wp-content/themes/twentyten/images/headers/inkwell-thumbnail.jpg	
+D	wp-content/themes/twentyten/images/headers/inkwell.jpg	
+D	wp-content/themes/twentyten/images/headers/path-thumbnail.jpg	
+D	wp-content/themes/twentyten/images/headers/path.jpg	
+D	wp-content/themes/twentyten/images/headers/sunset-thumbnail.jpg	
+D	wp-content/themes/twentyten/images/headers/sunset.jpg	
+D	wp-content/themes/twentyten/images/wordpress.png	
+D	wp-content/themes/twentyten/index.php	
+D	wp-content/themes/twentyten/languages/twentyten.pot	
+D	wp-content/themes/twentyten/license.txt	
+D	wp-content/themes/twentyten/loop-attachment.php	
+D	wp-content/themes/twentyten/loop-page.php	
+D	wp-content/themes/twentyten/loop-single.php	
+D	wp-content/themes/twentyten/loop.php	
+D	wp-content/themes/twentyten/onecolumn-page.php	
+D	wp-content/themes/twentyten/page.php	
+D	wp-content/themes/twentyten/rtl.css	
+D	wp-content/themes/twentyten/screenshot.png	
+D	wp-content/themes/twentyten/search.php	
+D	wp-content/themes/twentyten/sidebar-footer.php	
+D	wp-content/themes/twentyten/sidebar.php	
+D	wp-content/themes/twentyten/single.php	
+D	wp-content/themes/twentyten/style.css	
+D	wp-content/themes/twentyten/tag.php	
+M	wp-content/themes/twentytwelve/languages/twentytwelve.pot	681296d5c986caa034ae9b88f412aaac
+M	wp-content/themes/twentytwelve/style.css	c0917dc00c650d703971a79b58debf83
+M	wp-includes/capabilities.php	f2e724fc65d772413dada2cefe1d8232
+M	wp-includes/class-oembed.php	bc6c24a52497057c059a12529fa55ea3
+M	wp-includes/class-wp-editor.php	43ca11e1771c38b016d3ebaa23806f0d
+M	wp-includes/class-wp-image-editor-gd.php	83eef8b026c1e4624831e52118aaa9f7
+M	wp-includes/class-wp-image-editor-imagick.php	6142f9fb4d9ca32a22d9e92649f20049
+M	wp-includes/class-wp-theme.php	68ab728a88a9c534fe486eb27b1c4490
+M	wp-includes/css/media-views.css	a11a31cf8171325483629eaf4cadfe2e
+M	wp-includes/css/media-views.min.css	31c7fd5c7249914b37af335db01fb3a8
+M	wp-includes/js/autosave.js	00172ff53b67ee3b773504420e7de431
+M	wp-includes/js/autosave.min.js	0a5377f0fedb60c22a9d918cfd4e91ac
+M	wp-includes/js/media-editor.js	2609026f9412e8040a9b968ac127a1aa
+M	wp-includes/js/media-editor.min.js	74d81f993bcb756db962338aa45a7f37
+M	wp-includes/js/media-views.js	03c002070b42e7b16c032fb666774c66
+M	wp-includes/js/media-views.min.js	38ff988c7537bbaaefdc12d1f55f26f7
+M	wp-includes/js/plupload/wp-plupload.js	a9c4b3dcac8cb4cd962ee0e16cdf5f8c
+M	wp-includes/js/plupload/wp-plupload.min.js	7a89e68c14d7d560251a55cdd2717047
+M	wp-includes/js/tinymce/plugins/wordpress/editor_plugin.js	463fd700afb5ed294264bc16a1063375
+M	wp-includes/js/tinymce/plugins/wordpress/editor_plugin_src.js	ccf5e6012c894a387d6e04300e6d60ed
+A	wp-includes/js/tinymce/wp-tinymce-schema.js	cb88e8f50b53365fb94422e9a269226a
+M	wp-includes/js/tinymce/wp-tinymce.js.gz	8e529a971610d7ebe7851339c5cb3d67
+M	wp-includes/js/tinymce/wp-tinymce.php	bcc3817e0e12e9517033613edc097851
+M	wp-includes/media-template.php	4ac0cee0877365fc7b213da0a27be87a
+M	wp-includes/media.php	aa7bf3086371e9f7197780472e503df9
+M	wp-includes/version.php	9e9af107c92f0f2163e568dfc0664e93

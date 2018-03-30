@@ -1,0 +1,27 @@
+M	css/admin.css	1b2046b08f6f4f64ec68fdf7b71eb315
+M	css/chosen/chosen-sprite.png	8b55a822e72b8fd5e2ee069236f2d797
+M	css/chosen/chosen-sprite@2x.png	614fad616d014daf5367e068505cad35
+D	css/chosen/chosen.css	
+D	css/chosen/chosen.jquery.js	
+D	css/chosen/chosen.jquery.min.js	
+A	css/chosen/chosen.min.css	3ec0caaf02bd5384967ca6bfadc71f5d
+D	css/chosen/chosen.proto.js	
+D	css/chosen/chosen.proto.min.js	
+D	js/chosen.jquery.js	
+A	js/chosen/chosen.jquery.min.js	8786a9ac3b0cc1f8e6621ea6c7f5eba5
+M	js/tb-megamenu-frontend.js	af6c552c94f1fb41880a9c02be48b345
+M	js/tb-megamenu-object.js	a6e592e94e88c87d2cfcb5a879894285
+A	patches/issue-2053875-33.patch	002bc33fe4624e2f7b759247d60f10ed
+A	patches/issue-2053875-rev2.patch	f25dc60b67cb6f46514ab67a65f9eef4
+A	patches/menu-translations-dont-work-2055429-11.patch	47f4f424b02ca3a98f468b727477e91f
+A	patches/menu-translations-dont-work-2055429-23.patch	969e8636eec3bd75c316ffd643a9cd60
+A	patches/tb_mega_menu-add-active-trail-class-2329323-3.patch	54862297e7cc758d70839c699561b7b1
+M	tb_megamenu.admin.inc	69c193dc5d227217e80916c520c2b0ba
+M	tb_megamenu.ajax.inc	8f01e99d151e0714bae2b89ef5049baa
+M	tb_megamenu.functions.inc	9e3943940c7d30158a07ada5b2ce63fd
+M	tb_megamenu.info	1234e0a2125a64afe8b6819a56297e2a
+M	tb_megamenu.install	a2fe5bf58690baa47807659733113277
+M	tb_megamenu.module	70477d6c5abece81ee5e25b77b763885
+M	tb_megamenu.themes.inc	98f6d0873ad58d8ce55c1a00a19f745b
+M	templates/tb-megamenu-item.tpl.php	a97ee1fd3bdf846d3deaf774af62b536
+M	templates/tb-megamenu.tpl.php	aa8eef084ca3f9e2917facb91f6de0c3

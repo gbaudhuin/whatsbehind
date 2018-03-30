@@ -1,0 +1,7 @@
+M	README.txt	6f376cad189b66a9bd093a6d7f85d2c3
+M	commerce_addressbook.api.php	d5ab41752d6f8cb00b1da1241bfeec98
+A	commerce_addressbook.checkout_pane.inc	ee43f4f657bcb5a8259728894b0b3cbc
+M	commerce_addressbook.info	67b49c6fcedfdb344c98149d27062fda
+M	commerce_addressbook.module	6cc5aec402a1d4e43ccb337152621a7b
+M	commerce_addressbook.rules.inc	74b45eb727e618ed6c7eea241e22e5bb
+M	includes/commerce_addressbook.user.inc	d97240885c10e8a270f7e6fda255b92e

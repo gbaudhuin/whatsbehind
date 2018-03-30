@@ -1,0 +1,118 @@
+M	.travis.yml	fbe145148775b30921f5b56418e931a8
+M	README.md	23a0048b33e9c4bcb0538a2e0ff4df67
+D	access_token.page.inc	
+A	composer.json	c06b281d46d8899fa650d9efee5e4dd8
+D	config/install/simple_oauth.access_token_resource.authentication.yml	
+D	config/install/simple_oauth.access_token_resource.global.yml	
+A	config/install/simple_oauth.oauth2_token.bundle.access_token.yml	2fc4793c53745a9bb9eb651127212561
+A	config/install/simple_oauth.oauth2_token.bundle.auth_code.yml	7bc1e11cbdcbbbe5e5f36bf310da1ace
+A	config/install/simple_oauth.oauth2_token.bundle.refresh_token.yml	b8e44336599ace159a24b590b06748b8
+M	config/install/simple_oauth.settings.yml	ee3dd232d3256c6de7e03e8b91a1d522
+D	config/schema/access_token_resource.schema.yml	
+A	config/schema/simple_oauth.schema.yml	3af3c0c11c640ad0439f2a9593a5fecd
+D	css/access_token.css	
+M	simple_oauth.info.yml	20bc2b4930daf85102423825220e7616
+D	simple_oauth.libraries.yml	
+M	simple_oauth.links.action.yml	095b671b3c22ee33457488388d7ab354
+D	simple_oauth.links.contextual.yml	
+M	simple_oauth.links.menu.yml	4f01490e2cec9e18d6bca291359e2cb4
+M	simple_oauth.links.task.yml	b608672250ff3209b2e2c73fe3308da8
+M	simple_oauth.module	c794d45ee2faa89519b8a19adc475cc6
+M	simple_oauth.permissions.yml	52e52361a977553e19f065ec904ee254
+M	simple_oauth.routing.yml	3f1e31a3f4f7332873eab241064a3a8c
+M	simple_oauth.services.yml	a1b4d495465d958cdabc708b4561bce9
+A	simple_oauth_3p/config/install/simple_oauth_3p.settings.yml	28769106f0fa729a5dbd5587bf57a353
+A	simple_oauth_3p/config/schema/simple_oauth_3p.schema.yml	fa6bdb89556cee805ea06ba616779af2
+A	simple_oauth_3p/simple_oauth_3p.info.yml	3c732ebfe3a2e1151fff275ec4f58c0d
+A	simple_oauth_3p/simple_oauth_3p.module	8a51d249568ee016747bc5aeed0cc4ac
+A	simple_oauth_3p/simple_oauth_3p.permissions.yml	51f1ebbc7fd705a21d94e669747eb27e
+A	simple_oauth_3p/simple_oauth_3p.routing.yml	966f9b7e75caeac0742f0beb1fd06516
+A	simple_oauth_3p/simple_oauth_3p.services.yml	585c045f7fe48dde31ce5a3eb0fdfd2a
+A	simple_oauth_3p/src/Controller/Oauth2AuthorizeForm.php	c57691c3769a1aa12bab180be28b94ed
+A	simple_oauth_3p/src/Entities/AuthCodeEntity.php	b8dee755561f4d3a2bbd1c76fdb6a54f
+A	simple_oauth_3p/src/Plugin/Oauth2Grant/AuthorizationCode.php	84ebcbef4f87fe0756aa2ef7c6f31295
+A	simple_oauth_3p/src/Plugin/Oauth2Grant/Code.php	3df8d43d1cc0057584e090cad7023cd4
+A	simple_oauth_3p/src/Plugin/Oauth2Grant/Implicit.php	affc85e4f3c8ad85e9f14565c5641750
+A	simple_oauth_3p/src/Repositories/AuthCodeRepository.php	798c7f0fb7cfc001c02c0e5980eb1c3c
+A	simple_oauth_3p/tests/simple_oauth_3p_test/simple_oauth_3p_test.info.yml	57b5178b99cde4a1a6ad2523d69afee2
+A	simple_oauth_3p/tests/simple_oauth_3p_test/simple_oauth_3p_test.routing.yml	c12df0de68bd7462c8220840785b5e72
+A	simple_oauth_3p/tests/simple_oauth_3p_test/src/Controller/RedirectDebug.php	b26bcf180436db0bde7b8c7fb6a54525
+A	simple_oauth_3p/tests/src/Functional/AuthCodeFunctionalTest.php	8f8b28070e21f26f4499856421058d8e
+A	simple_oauth_3p/tests/src/Functional/ImplicitFunctionalTest.php	b85d497e93dc0a448ab3da12c4adc008
+A	simple_oauth_3p/tests/src/phpunit.xml	3cf696a8e990f5e06ce2061c526e8b63
+M	src/AccessTokenAccessControlHandler.php	cc71a63df7ec6d59a388ff5d79d8ef4a
+D	src/AccessTokenInterface.php	
+D	src/AccessTokenListBuilder.php	
+D	src/AccessTokenResourceInterface.php	
+D	src/AccessTokenResourceListBuilder.php	
+D	src/AccessTokenValue.php	
+D	src/AccessTokenValueInterface.php	
+D	src/AccessTokenViewBuilder.php	
+A	src/Annotation/Oauth2Grant.php	410fba3e17163df70dde6c9c8a9eced7
+M	src/Authentication/Provider/SimpleOauthAuthenticationProvider.php	33b45390687df7322f4669dac495f538
+M	src/Authentication/Provider/SimpleOauthAuthenticationProviderInterface.php	c4e90fe8d9ce92444c96aca74f0b19d6
+M	src/Authentication/TokenAuthUser.php	c45083770b6030d4231521c32b7cbb52
+M	src/Authentication/TokenAuthUserInterface.php	361651d4237eba2ac99996fe659b7411
+D	src/Controller/AccessTokenIssue.php	
+D	src/Controller/AccessTokenRefresh.php	
+D	src/Controller/AccessTokenUserList.php	
+A	src/Controller/Oauth2Token.php	52817ff9a2db6176673a20327f661f9c
+A	src/Entities/AccessTokenEntity.php	1fd40eb8b35490fcff9254b19e554b81
+A	src/Entities/ClientEntity.php	beb1e426108130f0774d7188a7db8368
+A	src/Entities/ClientEntityInterface.php	796b27a5b604d4e54df789a66126d2b3
+A	src/Entities/RefreshTokenEntity.php	e0cfcc93cb73edcf4296543e4c71b50c
+A	src/Entities/ScopeEntity.php	3b3f796bc38b308beea3fe21db82c5c8
+A	src/Entities/UserEntity.php	0f8909b456429cc87f70b72de67760b1
+D	src/Entity/AccessToken.php	
+D	src/Entity/AccessTokenResource.php	
+D	src/Entity/AccessTokenViewsData.php	
+A	src/Entity/ConfigEntityLockableInterface.php	f23b6d505893de7701bcde00052e77b8
+A	src/Entity/ConfigEntityLockableTrait.php	ad5bcb0ae7d19b9ebe7eaafecc5b8b72
+D	src/Entity/Form/AccessTokenDeleteForm.php	
+D	src/Entity/Form/AccessTokenForm.php	
+D	src/Entity/Form/AccessTokenResourceDeleteForm.php	
+D	src/Entity/Form/AccessTokenResourceForm.php	
+D	src/Entity/Form/AccessTokenSettingsForm.php	
+A	src/Entity/Form/Oauth2ClientForm.php	e2fde4c4dd88e39c3dcffd3f3a2d5e29
+A	src/Entity/Form/Oauth2TokenDeleteForm.php	75b7aa45dba51714bcf7c3c319684075
+A	src/Entity/Form/Oauth2TokenSettingsForm.php	f68da5775e0bdc8314611b7e20b66766
+A	src/Entity/Oauth2Client.php	78d3ce1e033a1b4ac1b653b9ed101d0d
+A	src/Entity/Oauth2ClientInterface.php	a1ca9702d561b4f99e544d786a1fc853
+A	src/Entity/Oauth2Token.php	b53807140bfeaf6014513758eaab68b8
+A	src/Entity/Oauth2TokenInterface.php	07618114edef15fe0ef60520662012fd
+A	src/Entity/Oauth2TokenType.php	e204895263e9fbf4ddef59a9b7cfc587
+A	src/Entity/Oauth2TokenTypeInterface.php	4ec2d04c9f24212f5145412a2612187a
+A	src/Normalizer/RefreshTokenEntityNormalizer.php	9a2face4e208942c6d001d0264d8c93e
+A	src/Normalizer/TokenEntityNormalizer.php	ebbd19b66047adcbc365e7137e5d3032
+A	src/Normalizer/TokenEntityNormalizerInterface.php	6b0d9aea5e057912d0e2d09e8e2256ef
+A	src/Oauth2ClientListBuilder.php	f7b36e9d8731c1792c6a05b24d1d2665
+A	src/Oauth2TokenListBuilder.php	a798afe49789f4b1407c3e5f96f39842
+M	src/PageCache/DisallowSimpleOauthRequests.php	aa5eb92e59211ed92910477afbd83121
+A	src/Plugin/Oauth2Grant/ClientCredentials.php	1b1efbf600a085eb85b4084b88f8f1d8
+A	src/Plugin/Oauth2Grant/Password.php	1c84835e75e4036bbdc51a842ba9b00a
+A	src/Plugin/Oauth2Grant/RefreshToken.php	609d5b1eb9514a645ac5144533a5e243
+A	src/Plugin/Oauth2GrantBase.php	872ef85d7a5cdc420cd3ad8f9d407721
+A	src/Plugin/Oauth2GrantInterface.php	cd8d9018998c111b538619530375782b
+A	src/Plugin/Oauth2GrantManager.php	f5254efca699e7aa9c9ce65b8100d5f6
+A	src/Plugin/Oauth2GrantManagerInterface.php	ddc6eb7b8e32ca28a990c57c1c6e863c
+D	src/Plugin/Validation/Constraint/OwnOrAdminConstraint.php	
+D	src/Plugin/Validation/Constraint/OwnOrAdminConstraintInterface.php	
+D	src/Plugin/Validation/Constraint/OwnOrAdminConstraintValidator.php	
+A	src/Repositories/AccessTokenRepository.php	ce7389dd4aa142a430e03b3acd2de744
+A	src/Repositories/ClientRepository.php	2274b6707a896d869c8d6502a43308fe
+A	src/Repositories/RefreshTokenRepository.php	1bc336cfdb245d55835fe2ec27003dd4
+A	src/Repositories/RevocableTokenRepositoryTrait.php	de60d05709b099502615d4a40f13f9b9
+A	src/Repositories/ScopeRepository.php	abcf4f64cf67e5002e01e18681170a86
+A	src/Repositories/UserRepository.php	ea609a50fafdf7d2d114e20b2a723831
+A	src/Server/ResourceServer.php	b2267f83c904bdec3046f9b447eae860
+A	src/Server/ResourceServerInterface.php	5782e88e6809c2943ab8d9001be945d0
+D	templates/access-token.html.twig	
+A	templates/oauth2-client.html.twig	17b30a97c141d866f85472584f58214b
+A	tests/certificates/private.key	6f33b9235857b9fec558a2d1d36c220a
+A	tests/certificates/public.key	0fe48d05333e5c2d82f28ed1d63e9e12
+A	tests/src/Functional/ClientCredentialsFunctionalTest.php	eb06b49f70206b5609fa6a13f5624e0b
+A	tests/src/Functional/PasswordFunctionalTest.php	48afdb30dfb4f744edda81031b48f216
+A	tests/src/Functional/RefreshFunctionalTest.php	d5791eedd8863855f5281eacae73e07b
+A	tests/src/Functional/TokenBearerFunctionalTestBase.php	6e8ab52f7cd5ecffe0b939b73d360bd8
+M	tests/src/Unit/Authentication/Provider/SimpleOauthAuthenticationTest.php	45c93234b461443a96f364f0b51ce5d1
+D	tests/src/Unit/Plugin/Validation/Constraint/OwnOrAdminConstraintValidatorTest.php	

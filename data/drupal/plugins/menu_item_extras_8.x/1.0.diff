@@ -1,0 +1,14 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	353a1ae20222bf96dfe1b6bf1ac8a245
+A	config/install/menu_item_extras.settings.yml	3f6ea03a29b949b8de312276bebb1731
+A	config/schema/menu_item_extras.schema.yml	f2cd39c85759ca9537d071e86c033504
+A	menu_item_extras.info.yml	4c79face594a32c205a33402a3fa5361
+A	menu_item_extras.install	80baf8af6da1e3ecf72ef841e255dd16
+A	menu_item_extras.module	b7f6f454119176fb82a05d533d54c0d8
+A	menu_item_extras.services.yml	16eda00dd8cdcf7dd9da7a33f04df9ac
+A	src/MenuLinkTreeHandler.php	331ec563996b2579592323023cf864d9
+A	templates/menu--extras.html.twig	85940e859150125e444a68759dea7053
+A	tests/src/Functional/MenuItemExtrasMenuConfigTest.php	9c58f982abfd3c7a1352bbbe56e37604
+A	tests/src/Functional/MenuItemExtrasRenderTest.php	2f17841cd959cf768671e3d8330f73f1
+A	tests/src/Functional/MenuItemExtrasUiCrudTest.php	5c95f3baabfaf2ff00aaadfa06dc1f96
+A	tests/src/Functional/MenuItemExtrasUninstallTest.php	7ebdb65aa42dd08cce066829ae3437b0

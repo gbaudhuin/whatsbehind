@@ -1,0 +1,13 @@
+A	.gitignore	2497c05c5cce50a8f33d433ceb91e6b5
+M	Tests/Controller/TaxonomyMenuTest.php	1f6661b3b62c88b915517971c09a626e
+M	config/schema/taxonomy_menu.schema.yml	f3b9aa2d6bad48a565b1e0a0f7d57b58
+M	src/Controller/TaxonomyMenu.php	56ee594fad024e95aeb711f2ca7a9316
+M	src/Controller/TaxonomyMenuListBuilder.php	b744f87b4f348bed37a2cba0a33f52b8
+M	src/Entity/TaxonomyMenu.php	4fd745fdd1f8c65d78e575795d522d4f
+M	src/Form/TaxonomyMenuForm.php	865eae3eaf2972f762cd40714f8a07fa
+M	src/Plugin/Derivative/TaxonomyMenuMenuLink.php	37e45e21b1fbe54003d47cad6317c79b
+M	src/Plugin/Menu/TaxonomyMenuMenuLink.php	253acf4d102b6d60ef62bd92e15e2407
+M	src/TaxonomyMenuHelper.php	6e2f2b10938001d6818fee1da8ef2022
+M	src/TaxonomyMenuInterface.php	73c1e8b42a8cde3f7490491350857dfd
+M	src/Tests/TaxonomyMenuOperations.php	a94ff02e1ca8747887c7b38986b0534c
+M	taxonomy_menu.info.yml	54af694bffa48fa975e3ffd836acf71a

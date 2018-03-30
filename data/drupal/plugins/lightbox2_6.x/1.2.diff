@@ -1,0 +1,17 @@
+M	README.txt	34c50a45f669783a5621fc9d73979128
+M	css/lightbox.css	ca637241aa471de6bcc1a850d7e568a2
+A	css/lightbox_alt.css	7d210c9930498642f9c0885e8b605910
+M	images/close.gif	c11fd0ad93e1b7e8e86c470c181e661f
+A	images/close_hover.gif	b7016e271f5c305b622cfeaf71c4d115
+A	images/next_hover.gif	9d0e146c4ee180bca602bd263f0d58f6
+A	images/prev_hover.gif	96db85f99e758f35c6e45699f154e59a
+M	js/image_nodes.js	ad59bfb5796f065916c75e6880f6e7e2
+M	js/lightbox.js	1cf98bd399a3a2efdbbd52da6fe1dd5a
+M	js/lightbox2.js	0e101952501cabfc94dded45ca4ca48a
+M	js/lightbox_lite.js	2eead8f7520ac726ed7d6eb77e0e9db3
+D	js/lightningload.js	
+M	lightbox2.info	2ea385418a17b50005fa58dee8b295b8
+M	lightbox2.install	1244f5d75732838b2a8c2f5f28d0b8c5
+M	lightbox2.module	d56b57902401718119aa5723e0b27c95
+A	po/de.po	ddea00d64f097aa245933df6a99f1719
+A	po/lightbox2-module.pot	8f79e2c3a348d6f906d02a8c4d9719fc

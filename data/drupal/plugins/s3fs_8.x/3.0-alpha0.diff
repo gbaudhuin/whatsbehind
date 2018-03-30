@@ -1,0 +1,18 @@
+M	README.txt	15e34bec8b0ed4e08747ec603be5b9cd
+M	composer.json	ac24d3280ac8bb6f09f4febfb4ac5446
+M	s3fs.api.php	b9c18abeec6a18bd295e6ebd55b145dc
+M	s3fs.drush.inc	1da82f5ff425e7fa97c84453b9355424
+M	s3fs.info.yml	133635988df7496c72960ce527abcd3f
+M	s3fs.install	4163b3db91312d60d1d527de0d2b4700
+M	s3fs.links.task.yml	c4d874cc1b4b553015cc4e1cad16789b
+M	s3fs.module	c216055665ac29eadc5683c78c337f86
+M	s3fs.routing.yml	f3153b2c50a5d65c2745364476e54c3c
+M	s3fs.services.yml	fdc8489843681bab0d24799de67a7828
+A	src/Form/ActionsForm.php	323c491e3d78bf7751563a35dba01e8a
+M	src/Form/SettingsForm.php	c2f65abbd63a2f6458219093238403e0
+M	src/S3fsException.php	d14f73c77df0d1c917566f3570ac4a48
+A	src/S3fsService.php	5cb9a298dcf5246bfaafa69710c2bb8c
+A	src/S3fsServiceInterface.php	7caabe67eed1d2d21a74c8c32fa5d7a3
+M	src/S3fsServiceProvider.php	3223c71b8acb33002d2b244947576e98
+M	src/StreamWrapper/S3fsStream.php	e28418795f15c6bdffe364cc7383665c
+D	src/ValidateService.php	

@@ -1,0 +1,7 @@
+M	entityreference.info	18c55a5c92b354f591098146868a2c60
+M	entityreference.install	ba6ff300dc152066d4949024da7e165c
+M	entityreference.module	ec4b7a278d0d20a47b66baa494fa0201
+M	examples/entityreference_behavior_example/entityreference_behavior_example.info	c016cb31e3ac486700798bb0a2e28a12
+A	plugins/behavior/EntityReferenceBehavior_ViewsFilterSelect.class.php	fbb024dc6916ef5d3bb79925530ce05f
+A	plugins/behavior/views-select-list.inc	7b4aa6ac3257e8c1406b5bfa87d8382a
+M	views/entityreference.views.inc	c8d8fd51168b352251ec7f67efcdc4af

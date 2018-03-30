@@ -1,0 +1,11 @@
+M	captcha.admin.inc	b20ee484b609771bc24cb2a9f76d1fbf
+A	captcha.inc	6a4b78a851c0135d729d0c02408462d5
+M	captcha.info	f4997268324547db4983e29cebf71ec2
+M	captcha.module	053b62c07f94fb14260ad9cd8cf70c09
+D	captcha.pages.inc	
+A	captcha.test	09826772291397110635ada2a4b424bf
+M	image_captcha/image_captcha.admin.inc	901c4c47d05a0ea749212e4ea2e3ba1c
+M	image_captcha/image_captcha.info	3ef594b87b1fe0bb8e1db65826defb21
+M	image_captcha/image_captcha.module	ac34e5cd4eb70e7790cf02d7d43ecf8d
+M	image_captcha/image_captcha.user.inc	6d93b7261dbdbad01fed7c95bcf80c04
+D	tests/captcha.pages.test	

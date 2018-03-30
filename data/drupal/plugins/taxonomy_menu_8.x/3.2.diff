@@ -1,0 +1,7 @@
+M	src/Entity/TaxonomyMenu.php	848e3b3f43a5160bb8765d33dcc8f181
+D	src/Form/TaxonomyMenuDeleteForm.php	
+M	src/Plugin/Derivative/TaxonomyMenuMenuLink.php	68a45fc6f3f1136108635f7b469ddcd3
+M	src/Plugin/Menu/TaxonomyMenuMenuLink.php	1f91c7267a8001992db3cf8618b2a758
+M	src/TaxonomyMenuHelper.php	5b33a78c14e4c60103e9baa1ee6c7736
+M	src/TaxonomyMenuInterface.php	d518ce10ca23e2e743f4459efe2889ce
+M	taxonomy_menu.info.yml	4123f973d3194ee00273a6728a00390d

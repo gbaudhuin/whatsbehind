@@ -1,0 +1,14 @@
+M	CHANGELOG.txt	9b481f0366a0dca7436fe11e67f75040
+M	date.info	d2ea4c7ced1d444f1fab3d82fc34e01b
+M	date.theme	d1cf228b15868ddfde0b73c23c197b31
+M	date_all_day/date_all_day.info	8b91ff8f229a50efc054f2cdc80ba9a8
+M	date_api/date_api.info	f18c1a94e04d535fb38ba961e811dae0
+M	date_context/date_context.info	4a7a9f011b3a3130cba90388e7702cb7
+M	date_migrate/date_migrate.info	ef2247a62a326fe623c3889d8a14a8cf
+M	date_migrate/date_migrate_example/date_migrate_example.info	8f920fb133b5271b3bfeeca110ecbde5
+M	date_migrate/date_migrate_example/date_migrate_example.migrate.inc	09a9238532a9eb5c85c461b97c9a5a8d
+M	date_popup/date_popup.info	dbebfa7a4faa58bd81016eef12d7734f
+M	date_repeat/date_repeat.info	3b0f7e7f8634a615f58d4f04e7ca7a60
+M	date_repeat_field/date_repeat_field.info	67595141a5c54ce48d020189eaba9e76
+M	date_tools/date_tools.info	b544e11be3b858dfa5e0ad49e4906be8
+M	date_views/date_views.info	a2ee04eb383b7d952e10ac94c6d7a5a0

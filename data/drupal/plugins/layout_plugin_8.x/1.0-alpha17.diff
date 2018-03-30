@@ -1,0 +1,5 @@
+M	layout_plugin.info.yml	07ea0455268c713dcd04d0f93fc4acc8
+M	modules/block_page_layout/block_page_layout.info.yml	87256a2ce8afacba3773631eaf811086
+A	modules/block_page_layout/config/schema/block_page_layout.schema.yml	8d40ca49569e52ef600ec8225d8de968
+M	modules/block_page_layout/src/Plugin/DisplayVariant/BlockPageLayoutVariant.php	6662584f25dce49b52196ad5d3e01f64
+M	modules/layout_plugin_example/layout_plugin_example.info.yml	51a3cceac1d54865db30ab3b4abc94af

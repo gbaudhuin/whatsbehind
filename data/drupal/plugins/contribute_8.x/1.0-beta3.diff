@@ -1,0 +1,6 @@
+M	config/install/contribute.settings.yml	2bcc7693449e0df864137353f7f00a6d
+A	config/schema/contribute.settings.schema.yml	fc6294fa3bded7bdcece6b0ffeef2990
+D	config/scheme/contribute.settings.schema.yml	
+M	contribute.info.yml	4a25f6df0b169a043ddffc7152bee4b7
+M	docs/RELEASE-NOTES.md	fa5c60b5dbf99dc9e03eebcdb7c29fbc
+A	tests/src/Functional/ContributeFunctionalTest.php	385f174a15ffb24c58b4f852351d1b6a

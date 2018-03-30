@@ -1,0 +1,31 @@
+A	composer.json	a2e5a950a2109afc0a27c5dd460c8663
+A	config/install/mailsystem.settings.yml	aa129ba35c3841899f33e99166b6d1e5
+A	config/schema/mailsystem.schema.yml	46af2423ec48e95cf1fced9205d8ecc1
+M	html_to_text.inc	58420704f2de0093ee78857a022ffb14
+D	mailsystem.admin.inc	
+D	mailsystem.info	
+A	mailsystem.info.yml	d9a89c25af5d27e075b1a045939a1d1c
+A	mailsystem.links.menu.yml	5280d14c2bb03c748fee274ad2ee9507
+M	mailsystem.module	db97784a8f91cf422131a2e7761ecec0
+A	mailsystem.permissions.yml	ba31051eaa6e0740a1d7ab5cb8214495
+A	mailsystem.routing.yml	7be79706687aab57f15eaa5bb1de0b9a
+A	mailsystem.services.yml	8eb297757c79a75872ab12986149a59a
+D	mailsystem.theme.inc	
+A	src/Adapter.php	9a69009f8a7263362bbb6ecd0fca93a4
+A	src/Form/AdminForm.php	22d71a7b6258944f7481ef93865b54ce
+A	src/MailsystemManager.php	1449e4bd72135434b018f264492dfcc5
+A	src/MailsystemServiceProvider.php	9c7ea7ede134bfd721f86044c1d2515d
+A	src/Tests/AdminFormSettingsTest.php	ee5b0666754c7fd53deeac6b1afbf83a
+A	src/Tests/MailsystemTestThemeTest.php	6a2d267a455597399a05d4ac649d1253
+A	tests/modules/mailsystem_test/mailsystem_test.info.yml	b1414f4a6b69d3b29e402c55df4f3396
+A	tests/modules/mailsystem_test/mailsystem_test.module	1877249b874ae6bbb857db5be5dc91b3
+A	tests/modules/mailsystem_test/mailsystem_test.routing.yml	446a189a21457288d91e4048b6ecebc5
+A	tests/modules/mailsystem_test/src/Controller/MailsystemTestController.php	3ebdf14b74a93baedb4aa8f787bebe8d
+A	tests/modules/mailsystem_test/src/Plugin/Mail/Dummy.php	65fc017742a8974f7ba865f99f946925
+A	tests/modules/mailsystem_test/src/Plugin/Mail/DummyFormatter.php	fa5a76c5e6afb421716f8fa36d53e1bf
+A	tests/modules/mailsystem_test/src/Plugin/Mail/DummySender.php	3ec9446b44f73b0e91d205ef970cabc9
+A	tests/src/Unit/AdapterTest.php	7f230762cc1861c266a5f7ceedcfad7a
+A	tests/src/Unit/AdminFormTest.php	dae74a8879a2a58d0bd083923cd4f4a8
+A	tests/src/Unit/MailsystemManagerTest.php	63daae271d3c3e216dcffeaae99ce4c6
+A	tests/themes/mailsystem_test_theme/mailsystem_test_theme.info.yml	c3537deef2c108e1f46753e88e400dd1
+A	tests/themes/mailsystem_test_theme/templates/username.html.twig	eae182154e0d91955b991621faad34d1

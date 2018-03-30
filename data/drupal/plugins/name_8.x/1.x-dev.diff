@@ -1,0 +1,72 @@
+M	README.txt	9a56671196f46682eab3d5e85ead5a64
+D	config/install/name.examples.default.yml	
+A	config/install/name.generate.components.yml	50bf996f18d87e38175dcc172325197d
+A	config/install/name.generate.examples.yml	80edec218f6cee8a65c3e5fe5d8dd140
+A	config/install/name.generate.preferred.yml	db477aefff4a8a56f5b17e31c5fb6b15
+A	config/install/name.name_list_format.default.yml	914d4a744fca377954100380dbe37ced
+M	config/install/name.settings.yml	67b5e700726c236ab983770a8564d298
+M	config/schema/name.schema.yml	f75763e8bb9f580a4abc979a9bfd4685
+D	includes/name.parser.inc	
+D	legacy/name.devel_generate.inc	
+D	legacy/name.diff.inc	
+D	legacy/name.feeds.inc	
+D	legacy/name.migrate.inc	
+D	name.admin.inc	
+D	name.field.inc	
+M	name.info.yml	db3b375932a234707ac66f85b31cca8b
+M	name.install	7678538a93d578c79197f3c5959b7b6d
+M	name.links.action.yml	407eeb454c6665439e7b2ee53571c731
+M	name.links.task.yml	337e7dba5757db0990bfe9a2f95243c9
+M	name.module	df73b459c2d91ea5355bda6fdeae8deb
+A	name.post_update.php	6441cb24f6f0e8eac828615298387e1d
+M	name.routing.yml	f429002386f8a528f7af8213a498e819
+M	name.services.yml	272ad9e9f035525850486c2221b3b75f
+M	name.theme.inc	ea67a63450e43391badc9a46d254bbb7
+M	name.tokens.inc	0782b00f28f69e3873dd1eb9e4bf2b0f
+M	name.views.inc	87d370113d73fc36de98f138e46eaef9
+M	src/Controller/NameAutocompleteController.php	54541de3112248faf45666a590b9962b
+M	src/Element/Name.php	505e1ec62c5f5ed452d6f577953d6830
+M	src/Entity/NameFormat.php	881f8864068691d0a79d60653389b178
+A	src/Entity/NameListFormat.php	0d1ba7cb714e0b1d8079f9dc25dce154
+A	src/Feeds/Target/NameTarget.php	05771302ad8b81ff5a0be12b7ecda124
+D	src/Form/NameFormatAddForm.php	
+A	src/Form/NameFormatDeleteConfirm.php	519ded30626da0e7ac31b6971b7a50c3
+D	src/Form/NameFormatDeleteForm.php	
+D	src/Form/NameFormatEditForm.php	
+A	src/Form/NameFormatForm.php	07af806ecdda8d4dedbb21954891f3ec
+D	src/Form/NameFormatFormBase.php	
+A	src/Form/NameListFormatDeleteConfirm.php	3612d0453d40a13744b3de0cc3599fe5
+A	src/Form/NameListFormatForm.php	e3ffa1a65e8bf559fe29cf27b669b98a
+M	src/NameAutocomplete.php	337d67582dcc8cda6deaa6244af37688
+M	src/NameFormatAccessController.php	51d3044e51ea6b294830642675692059
+M	src/NameFormatInterface.php	95775a571dcf9dd797965a9ac23ad802
+M	src/NameFormatListBuilder.php	de7f1bbc26c3d7f260f4d34350744c38
+M	src/NameFormatParser.php	825b1f81822a4b8f0c90299ea5bf3af8
+A	src/NameFormatter.php	7ab75876fb96a5b837747c5f0e4e5233
+A	src/NameFormatterInterface.php	60b0fc98217b6743c9af79124c36b9ae
+A	src/NameGenerator.php	46e82f372d48247a88bc194b82722f14
+A	src/NameGeneratorInterface.php	d0d24b4f7fba038c018dd5f155517d1d
+A	src/NameListFormatInterface.php	7a1e6efacbb1a85a6cecd031e9218ef8
+A	src/NameListFormatListBuilder.php	b7e72dc916cb486c0ba89b8f0a09bc9f
+M	src/NameOptionsProvider.php	f050d511a3dc784d3f846ca606e9f06e
+M	src/NameSettingsForm.php	d4b4d54f03b2337603d6a4f00f31e471
+A	src/NameUnicodeExtras.php	4eb6cc04dae5d7c1cfec35ff4b019642
+M	src/Plugin/Field/FieldFormatter/NameFormatter.php	a962c4bfd20a257786cc96423a3b70f5
+M	src/Plugin/Field/FieldType/NameItem.php	7de5c71b5568e4075213a4f6c9faa293
+M	src/Plugin/Field/FieldWidget/NameWidget.php	969917ee3cb04b20b90deb41cd88217a
+A	src/Plugin/diff/Field/NameFieldBuilder.php	cb875020798c1f7c676ed39fa172e2d9
+M	src/Plugin/migrate/cckfield/NameItem.php	7001fc9e56e35035d77ab26377533fa3
+M	src/Plugin/views/filter/Fulltext.php	973f9d4490d0d452f2e7bcd828d613f9
+A	src/Render/NameListFormattableMarkup.php	b8bd30dd62c1bd9345d2004ffb3bceff
+M	src/Tests/NameAdminTest.php	f4ba8c0f1b8484034413bbe6b56e76d0
+M	src/Tests/NameAutocompleteTest.php	77908d4c9bd07e9d9cf8e0032ea968a7
+M	src/Tests/NameFieldTest.php	94c3044d347f568e6061f86887821a64
+M	src/Tests/NameFormatParserTest.php	d9afd6b465bf290740272dbf46d9db35
+A	src/Tests/NameNodeTokenReplaceTest.php	6fffcf458f5acccc0f4017bd02f7ee23
+M	src/Tests/NameOptionsProviderTest.php	f3ed550a481c6db2555821cfca1ab790
+M	src/Tests/NameTestBase.php	db25e726944c6ad10a1f42abbd177dbd
+M	src/Tests/NameTestTrait.php	2e9e66fbc9858493564fe922890abd7f
+A	src/Tests/NameUnicodeExtrasTest.php	cec603562d7b27f12c0c89d9999f3e0e
+M	src/Tests/NameUserTest.php	7572a8c34530c7ba79e23bdd3ff1a3ce
+A	src/Tests/NameWidgetTest.php	41b4cddc28fdb896c0a9fb44cbfd6d5a
+A	src/Traits/NameSettingsTrait.php	2e81b5cfa27ed7345547c21f0c83760e

@@ -1,0 +1,6 @@
+M	CHANGELOG.txt	d74cad7d1566cca2aa396938bdfc8ce2
+M	includes/service.inc	290e27b5f507c2a68ea3540802bbe7c1
+M	includes/solr_connection.inc	73719aedaed6253e6e3a0cdb7ffdc420
+M	search_api_solr.api.php	0b41bcc3d8586e0fdefc480b1865bd4f
+M	search_api_solr.info	667462b077399823a1f43b627ccad2a1
+M	solr-conf/5.x/solrconfig.xml	768efa590e60e257e0e773784fb54257

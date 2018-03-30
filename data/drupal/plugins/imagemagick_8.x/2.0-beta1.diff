@@ -1,0 +1,11 @@
+M	imagemagick.info.yml	78af357fba91bb12e9125587706438e1
+M	src/ImagemagickExecArguments.php	7651c08b88b5669b954703a5a0550beb
+M	src/ImagemagickExecManager.php	84a80e05682265ce44a7f79c21b4380d
+M	src/ImagemagickFormatMapper.php	1fa71745e23e5f2e2fcca50bf18405b2
+M	src/ImagemagickFormatMapperInterface.php	277871344899404ac0e18976454eb359
+M	src/ImagemagickMimeTypeMapper.php	ba1d535b9f3407c635654f7226c1dc34
+M	src/Plugin/FileMetadata/ImagemagickIdentify.php	eaa745bee403f80b1186261948ec0c1a
+M	src/Plugin/ImageToolkit/ImagemagickToolkit.php	ec6818c912aeef3281996279618eb5af
+M	src/Plugin/ImageToolkit/Operation/imagemagick/ImagemagickImageToolkitOperationBase.php	14e82ba7c4a39a862d1dd445676d8ba0
+M	src/Plugin/ImageToolkit/Operation/imagemagick/Rotate.php	3dd0d06a9854684554466aaa5f54fa20
+M	tests/src/Functional/ToolkitImagemagickTest.php	18093ed31789e037dff5dea38da324cc

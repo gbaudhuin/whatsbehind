@@ -1,0 +1,20 @@
+M	README.md	564b1b5c66f98d4a2ddfe9188f7e0483
+M	composer.json	b1f38798bc5ad53155d9661789433dd7
+M	profile.info.yml	1cc05b2025eeab9832317fe23b150d5b
+M	profile.install	bba15066988f38423ea0be52c6d4944f
+M	profile.module	f8c82bb87558ec1a6c6a0a1927e9506e
+A	profile.tokens.inc	c599b412fe36a62fec3e956e604dce65
+M	src/Controller/ProfileController.php	5397f4e5b31da73d9d7719e4b216262c
+M	src/Entity/Profile.php	01958c14b06b56fd4da82fa74544b2e8
+M	src/Entity/ProfileType.php	3fe47fe35d1e9c2bf82163c64520290b
+M	src/Form/ProfileForm.php	7b34cc069bf3b13995ca2f399a05f6f0
+M	src/Plugin/search_api/processor/ProfileUserStatus.php	3f138ec038ae69967aaa152b687740e6
+M	src/Plugin/views/relationship/ProfileViewsRelationship.php	7e5833337cfda74bfab93b164fdc8172
+M	src/ProfileAccessControlHandler.php	b4aff656eb1fe678b7daed748bd4da66
+D	src/ProfilePermissionProvider.php	
+M	src/ProfileStorageInterface.php	4ae89b65be2cce2dcc683c38b07a270c
+M	tests/profile_test/profile_test.info.yml	b1d1d9f43bceba577f080907179a9b79
+M	tests/src/Functional/ProfileRevisionTest.php	eefb660916b04aa318240eabfc0fa1ac
+M	tests/src/Functional/ProfileTabTest.php	e79e294a8f47a98c1654b1ce4232fe56
+M	tests/src/Kernel/ProfileTest.php	a7666d89c3e48c5956295d0f27b9caab
+A	tests/src/Kernel/ProfileTokenTest.php	10e9e60d247a59ad0f6bed2d8e0426e9

@@ -1,0 +1,11 @@
+M	jsonapi.info.yml	0f481fcc4f31d40b9bce90963e2cf8c0
+M	jsonapi.services.yml	2875263614c56471870ca66ddd1cc1e0
+M	src/Context/CurrentContext.php	bd342d6fa057cb046939dbec23edf872
+M	src/Controller/EntityResource.php	3a233868becbb586cc73114d10e9b786
+M	src/Controller/RequestHandler.php	0cfb765f6a23924ad0c21a7231ca70bc
+M	src/EventSubscriber/DefaultExceptionSubscriber.php	880f804a10f513a0077d481b26f441ea
+M	src/Exception/UnprocessableHttpEntityException.php	a18d0232a0a92f07832f91dc1ed811ab
+M	src/Query/QueryBuilder.php	b406cefae2fea2445d2b45cff4e8f449
+M	src/StackMiddleware/FormatSetter.php	ffc4e2259ee8ca137ff082666b67c18c
+M	tests/src/Functional/JsonApiFunctionalTest.php	f0aa0fd5b75294afa574147e6c600657
+M	tests/src/Unit/EventSubscriber/ResourceResponseSubscriberTest.php	6c76bf4043a1e401a5616ba81fb7a91a

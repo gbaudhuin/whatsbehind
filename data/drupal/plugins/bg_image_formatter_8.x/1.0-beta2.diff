@@ -1,0 +1,4 @@
+M	bg_image_formatter.info.yml	24f92fa26fde44024eee19cb1a988631
+M	modules/responsive_bg_image_formatter/responsive_bg_image_formatter.info.yml	c5ba2fa14462639d32a2ca5a1a55cee8
+M	modules/responsive_bg_image_formatter/src/Plugin/Field/FieldFormatter/ResponsiveBgImageFormatter.php	b953efba41e46e4629567fa3e67f39a1
+M	src/Plugin/Field/FieldFormatter/BgImageFormatter.php	6b2dd43eac7fd7c6b217f1e4e0669458

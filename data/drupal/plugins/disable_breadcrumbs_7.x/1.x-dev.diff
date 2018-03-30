@@ -1,0 +1,6 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	disable_breadcrumbs.admin.inc	75d20babe76659e0877cc4c8f0a9674c
+M	disable_breadcrumbs.info	98da0a466bd271ef12af4be1e3149ef7
+M	disable_breadcrumbs.module	672f69b10b7e14571830801d1a204cce
+A	disable_breadcrumbs.test	63f8af6b164f663793979874a19bd864
+A	disable_breadcrumbs.views.inc	4e240cc5b2da23ca74a78dcb8d9d0670

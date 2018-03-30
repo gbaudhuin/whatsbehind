@@ -1,0 +1,18 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+M	README.txt	2108a4eac190e5c85ba9f28b10007d69
+M	gravatar.admin.inc	6a5511b1228e5dcfe4759b6c0351ed19
+A	gravatar.author-pane.inc	ac0412e8e3648029dce20082b59651f7
+M	gravatar.css	f34701980ea805dea9c87e57eb1388ac
+M	gravatar.info	ac8ecacccfe9e75921757fd4672ee0d6
+M	gravatar.install	0b820c4f1d244b9ef1d0f98a387377f5
+M	gravatar.js	7f590f475e32e661ac4148abf705c1ab
+M	gravatar.module	ff5330f1cae5e2b93d73cfbbb4bb0253
+M	gravatar.test	f7096ae5ec94c9c8d4a4a37e21977e98
+D	translations/da.po	
+D	translations/de.po	
+D	translations/fr.po	
+D	translations/gravatar.pot	
+D	translations/he.po	
+D	translations/tr.po	
+D	translations/uk-ua.po	
+D	translations/uk.po	

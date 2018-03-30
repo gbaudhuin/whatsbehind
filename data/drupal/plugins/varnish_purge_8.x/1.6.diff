@@ -1,0 +1,7 @@
+M	composer.json	1ff9df0e396dd7457c30a3f1b962c754
+A	modules/varnish_image_purge/varnish_image_purge.info.yml	20647d84084a5fce06c0e0c33f7b5d61
+A	modules/varnish_image_purge/varnish_image_purge.module	4fb4eef15f95922db4cd12ceb06431c1
+M	modules/varnish_purge_tags/varnish_purge_tags.info.yml	1bf7164db8dbd7302a38f2962fde5d23
+M	src/Form/VarnishPurgerFormBase.php	19da72d63de754f2e98fccb2c7fa2f0b
+M	src/Plugin/Purge/Purger/VarnishPurgerBase.php	e67b1384248b01d898b5a7368bd440f8
+M	varnish_purger.info.yml	d147cfa326e358e0bf5bd53719a84e1b

@@ -1,0 +1,12 @@
+M	geofield.devel_generate.inc	c7805ec746322bf9d2a9508afb1bd353
+M	geofield.formatters.inc	546ce8665e102da4a6628d647851b5ab
+M	geofield.info	b1cc06622db0155f4c9afba14170d326
+D	geofield.make	
+A	geofield.make.example	1bad6dd966fd49d41fe65a2af325eb3b
+M	geofield.module	532ef2aa1da832375a867a216d10ec96
+M	geofield.widgets.inc	6aaa89e8590786cdfaed779d72c26221
+M	includes/behaviors/js/openlayers_behavior_geofield.js	338473a213f01ebc79af20e0537f6f05
+M	modules/geofield_map/geofield_map.info	218e31a2c51d54a215031c6a620d622a
+M	modules/geofield_map/geofield_map.module	819005312879f0f0e6996bbfeaaeca37
+M	modules/geofield_map/includes/geofield_map_plugin_style_map.inc	8e16616698f7cc44d32d5cd39c4726a9
+M	modules/geofield_map/js/geofield_map.js	14f54ad677ac7174b40e5ec544691ea6

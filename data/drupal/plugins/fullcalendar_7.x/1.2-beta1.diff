@@ -1,0 +1,14 @@
+A	CHANGELOG.txt	5c9224c2248c3e00eec37b75cc964f85
+A	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+A	README.txt	5bf7441809240c09faad5e4a90378099
+A	fullcalendar.css	56b5266b8325656fa6ac8ccf6166e605
+A	fullcalendar.info	449d96a896441e1444cabcbf044f526c
+A	fullcalendar.js	11499a2f714927aad2131abd400e3179
+A	fullcalendar.module	0c17154814d106649124f1571b33e278
+A	fullcalendar.views.inc	b451112dc0dd47aab37f3e3684573a79
+A	fullcalendar.views.js	dc6a531f7d016e71dcaa16aad65b1d83
+A	fullcalendar_plugin_display_page.inc	67f1c633f44a060516e50095ca27046d
+A	views-view-fullcalendar.tpl.php	5bb2a084d10485914638970bafaa42c9
+A	views-view-node-fullcalendar.tpl.php	299aa7b7af3cb95c08d1d4fd3e403d10
+A	views_plugin_node_fullcalendar.inc	91bdfc6413734eb8092e6d0ac2b4746d
+A	views_plugin_style_fullcalendar.inc	4c3ac0366315e7695b7fc0182b746f9a

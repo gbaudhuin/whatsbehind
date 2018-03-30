@@ -1,0 +1,6 @@
+M	group.info.yml	2dcd83f7718ff604be5a9187ebf53697
+M	modules/gnode/gnode.info.yml	d7edd99765a7dacfa1f253a7385c2e0e
+M	src/Entity/GroupContentType.php	fbd584528643a48105898392e5bb72ab
+M	src/Entity/GroupContentTypeInterface.php	f0c85b23f96d394f007bc07f7013ed29
+M	src/Entity/GroupType.php	c978fd9c3bdc5707cdea595120c9bd78
+M	src/Plugin/GroupContentEnablerBase.php	a752292c44902d22ac7d89f5e3b62b2d

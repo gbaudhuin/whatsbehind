@@ -1,0 +1,9 @@
+M	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	plugins/page_manager/tasks/nodedraft.inc	2e1082c90f98b4fe261bc6653064db7d
+A	plugins/page_manager/tasks/noderevision.inc	94a92c7c734c4baef68b7a47b52b49bb
+M	tests/workbench_moderation.test	d2c58d66cff47f0a616e3ca2316f725b
+M	workbench_moderation.admin.inc	0d2ad304cc538a4361104e713d9ffddf
+M	workbench_moderation.info	a141fd307e9adbe34aa7472cc77988af
+M	workbench_moderation.install	9854cf15e5863c514fb625aa17802f3d
+M	workbench_moderation.module	4ff63f3b2a2464ba993355f0a0fa8d10
+M	workbench_moderation.node.inc	a7e8104ed4de1eb2f59d926bb74850f6

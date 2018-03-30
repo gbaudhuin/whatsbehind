@@ -1,0 +1,9 @@
+M	acsf.info.yml	b777f46c0a01a7d34d6427452e338761
+M	acsf_duplication/acsf_duplication.info.yml	ac3f5dbcc5a839c85dcebd33f9112486
+M	acsf_init/acsf_init.drush.inc	86630f9cf71830214e37afb14c42768f
+A	acsf_init/lib/sites/default/.gitignore	983c699763f75c064cef3768c2f959c2
+M	acsf_init/lib/sites/g/.gitignore	8024f1b1b90dbbeccd0dd2e8512239aa
+M	acsf_sso/acsf_sso.info.yml	ec12e8927ae556acdbe54d0651b5588e
+M	acsf_theme/acsf_theme.info.yml	f46478882d53cf38a5148482d15d5b62
+M	acsf_variables/acsf_variables.info.yml	ac073489fcf66af402f8f4d3a24ef331
+M	build_info	7bbdd64505bae78323217b757d410f73

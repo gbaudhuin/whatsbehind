@@ -1,0 +1,6 @@
+M	simple_oauth.info.yml	e325d69b5730d7b25f37f7d7dda5ab56
+M	simple_oauth.services.yml	a52e227830282630f318792e2858811e
+M	simple_oauth_extras/simple_oauth_extras.info.yml	78203199572143869d257419874af524
+M	simple_oauth_extras/tests/simple_oauth_extras_test/simple_oauth_extras_test.info.yml	56955d2d208a5452c2eacf329c786218
+A	src/HttpMiddleware/BasicAuthSwap.php	8ff35ab8b96ad2233450b12b0b23ecbf
+M	tests/src/Functional/PasswordFunctionalTest.php	afc2144d792310cd55c123b26001f5d6

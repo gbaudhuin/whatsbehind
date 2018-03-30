@@ -1,0 +1,33 @@
+M	README.txt	bfd28074a9aefae1bcb691c682cde068
+M	captcha.admin.inc	5aa7b966d5f6a323c85e57d0c1b84614
+M	captcha.inc	dadbae358ddf549960db9a864a038309
+M	captcha.info	4510ac8c40b63352dda960f371ea12ac
+M	captcha.install	cf30e35ccefb6ed9b63a08d56ac50d85
+M	captcha.js	9a9d40e6e6f511a91c12319e5ac6960c
+M	captcha.module	43fcc5ccc2df305dad7efd15f54e77b7
+M	captcha.test	6cea3709dd7e49fbe8f98467df55917b
+M	captcha_api.txt	c78537d41d60c530a867b148b064c379
+M	image_captcha/fonts/README.txt	8fc0dcff65f0befce5cf801af9d77c2c
+M	image_captcha/fonts/Tesox/tesox_readme.txt	ad7b39c2cbf217ef4a438e5e667b2028
+M	image_captcha/fonts/Tuffy/README.txt	2c1037b05c12f954cb9b1d30f1455a52
+M	image_captcha/image_captcha.admin.inc	ee3853a7ba2f0562e773cd8a2fd3bbb8
+M	image_captcha/image_captcha.css	186bc6d7851a5b02291c3cf75335d0e0
+M	image_captcha/image_captcha.info	14a3f7a92174df5bfbbb6b37dabafce3
+M	image_captcha/image_captcha.install	41719048136711633a4c878d18c9aefd
+M	image_captcha/image_captcha.js	7d2092af1dd81f5a2ff3c4aeeaaefb40
+M	image_captcha/image_captcha.module	10c3eb605b2da91c8f63c84daaf427b4
+M	image_captcha/image_captcha.user.inc	46f18fb539a44092676a3802fdde4ced
+D	translations/captcha-module.pot	
+D	translations/da.po	
+D	translations/de.po	
+D	translations/es.po	
+D	translations/fi.po	
+D	translations/he.po	
+D	translations/hu.po	
+D	translations/it.po	
+D	translations/lt.po	
+D	translations/nl.po	
+D	translations/pl.po	
+D	translations/sv.po	
+D	translations/uk-ua.po	
+D	translations/uk.po	

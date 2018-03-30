@@ -1,0 +1,16 @@
+M	composer.json	8157c10791015633497ef47ff2e2fb3d
+M	simple_oauth.info.yml	33a5ab407d01b3f2a02488dc2f52848f
+M	simple_oauth_extras/simple_oauth_extras.info.yml	62a1511a336645960024bb97365cb407
+M	simple_oauth_extras/tests/simple_oauth_extras_test/simple_oauth_extras_test.info.yml	85d02810ef4091071b2d9dce4747f90a
+M	simple_oauth_extras/tests/src/Functional/AuthCodeFunctionalTest.php	21eaedf7c1414b062c7748ffb1122535
+M	simple_oauth_extras/tests/src/Functional/ClientCredentialsFunctionalTest.php	a5b5f8fcc9254f022637df5c4a09cf12
+M	simple_oauth_extras/tests/src/Functional/ImplicitFunctionalTest.php	f317e383eca466cb012bf572470a7ebc
+M	simple_oauth_extras/tests/src/Functional/RefreshFunctionalTest.php	1c9bf431027e4b6561747e682df793eb
+M	simple_oauth_extras/tests/src/Functional/RolesNegotiationFunctionalTest.php	d85ab818f655a8a6c33dac9ee236709b
+D	simple_oauth_extras/tests/src/phpunit.xml	
+M	src/Controller/Oauth2Token.php	cd7b3912e8392c708b3ad8d14506324f
+M	src/ExpiredCollector.php	021e1eb5786ad69ff4fb932751e16c5a
+M	src/Plugin/Oauth2GrantManager.php	03a6fe6d906bc55cb7f0c00d1082784d
+M	tests/src/Functional/PasswordFunctionalTest.php	eb7029535102df6ea3e79e70fe1bd1d0
+M	tests/src/Functional/TokenBearerFunctionalTestBase.php	134e8ab2f74123e7b07e5e4971882b4d
+D	tests/src/phpunit.xml	

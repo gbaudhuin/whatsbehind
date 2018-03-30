@@ -1,0 +1,47 @@
+M	README.md	7a3cf52277f98e8b9bd80b5110d81a6f
+M	jsonapi.info.yml	a7632df5ac2fac22315c21b452f5e61f
+M	jsonapi.services.yml	d3a6dcdd727beda062097ccd9bf1a29e
+M	src/Context/FieldResolver.php	8d99fd99f18009c45693e6df11615b13
+M	src/Controller/EntityResource.php	2c4f1937bd6f1f60d025cb3a341f98d6
+M	src/Controller/EntryPoint.php	f4c723f322c7cf4bd5327cf37364d91c
+M	src/Controller/RequestHandler.php	f9eae85cc43f9998df639393209531ad
+D	src/Error/ErrorHandler.php	
+M	src/EventSubscriber/DefaultExceptionSubscriber.php	b247a272122b6005a4acc27e025cabc9
+A	src/EventSubscriber/ResourceResponseSubscriber.php	f5219f9003913c7bd1394b471355ab9f
+M	src/Exception/EntityAccessDeniedHttpException.php	f8ee1ee8af4e063297e64a719b22447c
+D	src/Exception/SerializableHttpException.php	
+M	src/Exception/UnprocessableHttpEntityException.php	3013bd6f1fbb11fd4f15c97db8640322
+M	src/LinkManager/LinkManager.php	cfd32b923a6cc13f82cd9f96551a1fc5
+M	src/Normalizer/ConfigEntityNormalizer.php	e557ce6aacd55895e06ad37b7e0eb46f
+M	src/Normalizer/EntityNormalizer.php	68e278682390e106b47ad5495debd015
+M	src/Normalizer/EntityReferenceFieldNormalizer.php	fe0fbe5f8d08768c7330b1996c31f459
+M	src/Normalizer/FieldItemNormalizer.php	b5cf3dbfb41f339f8b1f4707e0ee4ffa
+M	src/Normalizer/FieldNormalizer.php	92b286b251ff67832d75d24b8bf7d388
+M	src/Normalizer/HttpExceptionNormalizer.php	bf2859179fe185a93544722170c626b8
+M	src/Normalizer/RelationshipItemNormalizer.php	1611f58523785e5211555dc9f5ea31e5
+M	src/Normalizer/RelationshipNormalizer.php	76f9dbda690aaef7c3bc736072a0e05f
+M	src/Normalizer/Value/FieldNormalizerValueInterface.php	6d36c1561cfeb90382d38a82b089bc12
+M	src/Query/QueryBuilder.php	1498a4e9b7ccf355e8c9e33c9eabfc78
+M	src/ResourceResponse.php	40772feecbf75792bbdeadaac3770b72
+D	src/ResourceResponseInterface.php	
+M	src/Routing/Param/Filter.php	e527e86a7e513fe28b2e60c3dbfb83a5
+M	src/Routing/Param/OffsetPage.php	1fca14f87d8da7f52ea7ff38a63e1083
+M	src/Routing/Param/Sort.php	64cd0b182efd8fa4989e5b389d1bb2cc
+M	src/Routing/RouteEnhancer.php	aeaffc399c432a93d0bd5b2c80b76fd4
+M	src/Routing/Routes.php	caab7204085444dc25916d6c9e489da5
+A	src/StackMiddleware/FormatSetter.php	a48fb7218341b0ffd9b5742b091c13e6
+M	tests/src/Functional/JsonApiFunctionalTest.php	87ce3a1c6f5e6fe0a76bfab504a1936a
+M	tests/src/Functional/JsonApiFunctionalTestBase.php	a17dffcc50c5f5953ca4b8e277f6df5c
+D	tests/src/Functional/RestJsonApiFormatUnsupported.php	
+M	tests/src/Functional/RestJsonApiUnsupported.php	75731684de8d827e9ce92a64dad6feee
+A	tests/src/Kernel/Context/FieldResolverTest.php	af2066267730a1d165661cb002868e46
+M	tests/src/Kernel/Controller/EntityResourceTest.php	92fd0d199df82787fa4a141f0ebcd94d
+D	tests/src/Kernel/Controller/RequestHandlerTest.php	
+M	tests/src/Kernel/JsonapiKernelTestBase.php	67b831898270727a6ab912dc72f9930f
+M	tests/src/Unit/Context/FieldResolverTest.php	dedb69b166e82280d2eb4f2768424c33
+A	tests/src/Unit/EventSubscriber/ResourceResponseSubscriberTest.php	6376a2ffffa4253eb69c2513d7343453
+M	tests/src/Unit/LinkManager/LinkManagerTest.php	5d59ea13cd6eeb7f1a2ba85f28bc6e5b
+M	tests/src/Unit/Normalizer/EntityReferenceFieldNormalizerTest.php	fbeab706f45713eaf5718a8271c0865b
+M	tests/src/Unit/Routing/Param/FilterTest.php	44f841128c7df057e7d170743526a035
+M	tests/src/Unit/Routing/Param/OffsetPageTest.php	0baba1f7764b69e85779157166d3407f
+M	tests/src/Unit/Routing/Param/SortTest.php	baa2ba8fe5e9a59e72c10830de3d1d22

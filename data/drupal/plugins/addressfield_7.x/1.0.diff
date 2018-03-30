@@ -1,0 +1,10 @@
+M	addressfield.address_formats.inc	814ee710c6133a5455ec959447910e88
+M	addressfield.administrative_areas.inc	18a4869d553283e6c0233612b8322726
+M	addressfield.api.php	ff1593651c06a4658893e5b08aad8c47
+M	addressfield.info	a785f9bb77759ffa13f29727d1039870
+M	addressfield.install	33d2470bc1544240a44ae13822826cd4
+M	addressfield.module	98411bc3954e2e9971e2ce398efc78b3
+M	example/addressfield_example.info	42d345efe73a2e0c445c49753c5aaf00
+A	plugins/format/address-optional.inc	bbbe1699d6e26d9b1c9b5beb84aaf4cd
+M	plugins/format/address.inc	adbbb6e70202f3eea26ffe2fc2f83e78
+M	views/addressfield.views.inc	c77500aebdf0086ddea1465374c51c18

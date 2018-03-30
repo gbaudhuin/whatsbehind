@@ -1,0 +1,8 @@
+M	.travis.yml	6e6630106126f63c6e2be5e2dc2e7bf3
+A	.travis/drupal-8.4.x.make.yml	a129e481c79b7f6680742cca1329d31c
+M	replication.info.yml	4af71f01601dd506a62780bbe66f3ac8
+M	replication.install	5fc538019782803382182885c32f396b
+M	src/Normalizer/ContentEntityNormalizer.php	b488695b19823121e5e24819a0a32411
+M	tests/modules/replication_alter_test/replication_alter_test.info.yml	24cfb8dd6e3bd069de89ac63bf8e6a9d
+M	tests/src/Unit/Normalizer/ContentEntityNormalizerTest.php	2af1610c9e0b36a9ce391039dcd11a32
+M	tests/src/Unit/Normalizer/NormalizerTestBase.php	4fb71be824b626f38ad8354f8f24d6ee

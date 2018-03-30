@@ -1,0 +1,12 @@
+M	includes/simplenews.admin.inc	e539287ac9fd7c34b4cd394cbaad20e4
+M	includes/simplenews.mail.inc	49983ea014c3134cbd5987d11895761d
+M	includes/simplenews.source.inc	fa29781d25ed01a852fb12d95c22ed8b
+M	includes/simplenews.subscription.inc	1368cb3f31a4a7183fcec7111d05b962
+M	includes/views/handlers/simplenews_handler_field_newsletter_send.inc	7dd9b97c4c987b9e6f8cebd8559f9029
+M	includes/views/simplenews.views.inc	b6a70345f74e307a6ea44f62fa63455c
+M	simplenews.drush.inc	23673359aa6d88c065c8d1af6533972a
+M	simplenews.info	9f054da335ab2ba34d8c05e4712df2d3
+M	simplenews.install	b685ecebf0b34320ef503a0a8ed2fb40
+M	simplenews.module	1b48d03f2c6a73dea413f02d27d3368f
+M	simplenews_rules/simplenews_rules.info	81b7d9c3565ead808920a739afd1b269
+M	tests/simplenews.test	d5ddf23126a9b01edfd2a6fe66926631

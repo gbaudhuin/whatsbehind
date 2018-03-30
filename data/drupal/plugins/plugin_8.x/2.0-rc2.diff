@@ -1,0 +1,11 @@
+M	config/schema/plugin.schema.yml	ceb77a7216b8b8aba5dcb2fad0d9b053
+M	modules/plugin_test_helper/plugin_test_helper.info.yml	3239d4e81ee9f05c7cbd310182b08c05
+M	plugin.info.yml	df281cb6ba21b3d734bea929deaa1b96
+A	src/Plugin/DataType/PluginCollectionItemPropertyTrait.php	798bef788e159cdfc58d807e2db861f4
+M	src/Plugin/DataType/PluginConfiguration.php	789dc0695c85d3f3839b531b90f03a2a
+M	src/Plugin/DataType/PluginId.php	4ecb2db1311a8fec9b0992423fa08fba
+M	src/Plugin/DataType/PluginInstance.php	c18edea7caab82a03de8de0d09c21ba6
+M	src/Plugin/Field/FieldType/PluginCollectionItemBase.php	0560e3a57488c111fa6fc6de5d6daedc
+M	src/Plugin/Field/FieldType/PluginCollectionItemInterface.php	239fa00637cd6417c3969ee568c889f3
+M	src/PluginType/PluginTypeManager.php	3bb2faba25dd8f767b7754d5f9b154e7
+M	tests/src/Kernel/PluginType/PluginTypeManagerTest.php	047036b73e648548b23ebfefc533c537

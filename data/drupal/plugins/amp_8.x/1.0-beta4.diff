@@ -1,0 +1,5 @@
+M	README.md	6776ea183e2de35df04723641116bd2e
+M	amp.info.yml	92ac69c4ae2253ad93a6e54d542cfedd
+M	src/Element/AmpProcessedText.php	f5fe1e186ffe9474c60030967a6519b2
+M	src/Form/AmpSettingsForm.php	06c29e5a93a0d68652339ee56a584008
+M	src/Render/AmpHtmlResponseMarkupProcessor.php	683ddb68dfb2bbf6832ad0c06da2fcda

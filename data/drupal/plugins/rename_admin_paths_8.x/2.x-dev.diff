@@ -1,0 +1,12 @@
+A	composer.json	f3293bd83387413ace2854248cf02d9b
+A	config/schema/rename_admin_paths.schema.yml	2cdaa5a80d01014e25e005143cbca459
+M	rename_admin_paths.info.yml	dc027c3aeee164183199eba2995e3b79
+M	rename_admin_paths.services.yml	c56d43751f34750aeedb1d38fe30e254
+A	src/EventSubscriber/RenameAdminPathEventSubscriber.php	0f22a7d4b1aff5ebaddc8dd825fb3f7f
+M	src/Form/RenameAdminPathsCallbacks.php	db82e09be38d5e39f85fc7340d445126
+M	src/Form/RenameAdminPathsSettingsForm.php	50eff76f45a85c5ff139f136dd158fb5
+D	src/RenameAdminPathsProcessor.php	
+A	tests/src/Browser/AccessTest.php	d6fc1fe3ab8e0930a8ed198949537675
+A	tests/src/Browser/AdminFormTest.php	05438af31edb6a41e80c69c71a1d1e8a
+A	tests/src/Unit/EventSubscriber/RenameAdminPathEventSubscriberTest.php	176b2f039e7e899dc9063ab057f53d6e
+A	tests/src/Unit/Form/RenameAdminPathsCallbacksTest.php	2f1896a1f88c125bf627df9921ee88a2

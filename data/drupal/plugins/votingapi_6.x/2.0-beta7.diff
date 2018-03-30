@@ -1,0 +1,6 @@
+A	tests/votingapi.test	336537a946d0d32ee67c8464d7293ec9
+M	votingapi.info	65118f2c7680e30f1375f05d94e31b16
+M	votingapi.module	e18a83b56656ad7b3b6b70264133c260
+M	votingapi.views.inc	55f7d883c124d555fc2572980051b852
+A	votingapi_views_handler_field_value.inc	d01274e8e58c631db9f6cab89567434d
+A	votingapi_views_handler_relationship.inc	16cb3604ffb54da5efe91d23b4698963

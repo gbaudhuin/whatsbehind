@@ -1,0 +1,23 @@
+M	css/hybridauth.css	6f9e9865fd52dac1d17903b31c7f30ec
+A	css/hybridauth.modal.css	ffa7de6500d640120b65aa25a5cece0b
+M	hybridauth.admin.inc	2f6b6bc9ba3c4df52b919d4c37efa577
+M	hybridauth.api.php	a534cecea06c4c384d10af0867ee5be7
+M	hybridauth.info	4861777957a3fc5d83aa7f32fd3354f9
+M	hybridauth.install	7839863df3f3a12e8fec5c1439f2503c
+M	hybridauth.module	b596774d86fb2b1125ae9a7f54f5b7a2
+M	hybridauth.pages.inc	b2e0d0a68da3864be4f30f3722456b9a
+M	hybridauth.rules.inc	d72f99141e57afe2d899d9280f9c2308
+M	hybridauth.theme.inc	b09bbd2d9de5131561c8c68374635857
+M	hybridauth_bonus/hybridauth_bonus.info	bd311468616a84edf84dd066de14382d
+M	hybridauth_bonus/hybridauth_bonus.module	26a5b46dd5af6e2d875f283958968e65
+M	hybridauth_ulogin/hybridauth_ulogin.info	1d68841f678867108f6ae03301641625
+M	js/hybridauth.admin.js	06924e1e3be21029fd5391f2483dd051
+A	js/hybridauth.close.js	5dc68a4712479fdd333a748442cc0bf1
+D	js/hybridauth.js	
+A	js/hybridauth.modal.js	59c3cb604f281b6d8b0ef113ec9f781f
+A	js/hybridauth.onclick.js	8581bc8c476c9e3e115c6d1d013a0d5b
+M	plugins/icon_pack/hybridauth_16/hybridauth_16.css	aa2e6e97b4f9b9dfd3dc45b2b743fb45
+M	plugins/icon_pack/hybridauth_16/icons/qq.png	7f3899cc491715b8794e318282b96a66
+M	plugins/icon_pack/hybridauth_24/hybridauth_24.css	100c1ef35b658c94abec5be41a2703e4
+M	plugins/icon_pack/hybridauth_32/hybridauth_32.css	c95bbb07105260c42cd6eb1719c79554
+M	plugins/icon_pack/hybridauth_48/hybridauth_48.css	4440af6299bf31f41faea732e38d1987

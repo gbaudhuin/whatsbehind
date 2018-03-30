@@ -1,0 +1,14 @@
+M	README.txt	9d5977ec867d24be9040dda1cf242d6d
+M	composer.json	54df68914f8ce782d467682c6312bcd1
+M	samlauth.info.yml	e260e5c33828519a2c97699f2b59b696
+M	samlauth.links.menu.yml	f44776a0c476a292f8d85ddabab3bb3b
+M	samlauth.module	a6037ab5f15637325ba34c44c7b4aa50
+M	samlauth.routing.yml	5a3f8c2e4a5f3c2f9be4832a882a3542
+M	samlauth.services.yml	3e48f85b5dd03aef6f3a79e9cc9927cc
+M	src/Controller/SamlController.php	b4f8b7b2c94b8e829744f43d87ca9608
+M	src/Event/SamlauthUserSyncEvent.php	7ad94ddb6d0b66853c168bfa4c9f0226
+A	src/EventSubscriber/AccessDeniedSubscriber.php	70ee2b893ac68e574e9eb8d35aa96fee
+M	src/Form/SamlauthConfigureForm.php	7c57cc5707ce1cc468778a3acf56a45f
+A	src/Plugin/Menu/LoginLogoutMenuLink.php	219456a925868425ef4ee9e2067b7ff0
+M	src/SamlService.php	0ccb01727dca2b73cf770ba73e0af2a9
+M	src/Tests/SamlTest.php	083615a9a5c66028c017a607b3da674b

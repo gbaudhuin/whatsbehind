@@ -1,0 +1,9 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	40700c5f48fddda1455205424be6486c
+A	lib/Drupal/restui/Controller/RestUIController.php	127b72377fcf35f148acd053272eaee6
+A	lib/Drupal/restui/Form/RestUIForm.php	8129add5069ea4669fc66ba28838ca3e
+A	lib/Drupal/restui/RestUIManager.php	9bf30303dc035cfd7668fb3a1a3b1bf3
+A	restui.info.yml	b08b319c8ec3d39f69167bdc821ad156
+A	restui.module	67bbcd70bb84c4debe761585d40124d7
+A	restui.routing.yml	20d2e46ba9da72f1f69708d02f4c161b
+A	restui.services.yml	d7d18f760f68c09cccb40aff2311fb23

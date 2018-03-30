@@ -1,0 +1,16 @@
+M	README.txt	dd8a59614d65fe828dc30ef89bdba93f
+M	js/jssor_view.js	fded61ddeb6ef01c73e87d6927418097
+M	jssor.info.yml	84fb5d84b15923c6d5b8b4a2bf1869b7
+A	jssor.install	3a4d74ceb73bd8305f46c0d474aba871
+M	jssor.libraries.yml	4dbd3fcd804d458dc2498a622353ce34
+M	jssor.module	d0a503d0230339d6918ae88f85fcaa8f
+M	jssor.theme.inc	6ca6d9ede8cd5ead0786b6e88135bc69
+A	jssor_example/config/install/field.field.node.jssor_slider.field_jssor_image.yml	669cae00829fe2fc3794fbdbbe944411
+A	jssor_example/config/install/field.storage.node.field_jssor_image.yml	557b41b8290b0890d860c7b1c9e4978b
+A	jssor_example/config/install/node.type.jssor_slider.yml	b01c39d651522809c79b547824125dbe
+A	jssor_example/config/install/views.view.jssor.yml	10aebc2701c7c05ee0650cef6367e33c
+A	jssor_example/jssor_example.info.yml	983a9389b593ea0d38b121c7d382f425
+A	src/Plugin/Field/FieldFormatter/JssorFieldFormatter.php	4567acb50e47e334132e8124a7cc4c47
+M	src/Plugin/views/style/Jssor.php	c908201963ed89e274d34c15b7dcc387
+D	templates/jssor.html.twig	
+A	templates/views-view-jssor.html.twig	25da6864eb0dbe2c1cd4a7f0b0ef4ab2

@@ -1,0 +1,16 @@
+A	README.txt	45f4bbc63db9fa91a61aa844554e284f
+A	composer.json	9730bf7d644876e8c432daf83ab84baa
+A	config/install/simple_fb_connect.settings.yml	5eec4a3f44ba540f4892cef4e68c1586
+M	simple_fb_connect.info.yml	9cfe8b1fa1a3503dc21be72828d65999
+A	simple_fb_connect.install	793601a2bc91cd867e9c919fdbf1aef2
+M	simple_fb_connect.links.menu.yml	b17f8e7b96868b3aa40bab63f0b3884e
+A	simple_fb_connect.links.task.yml	558ce8a2f6e1d4b1343ba0548d4a888a
+D	simple_fb_connect.module	
+M	simple_fb_connect.permissions.yml	49b8ba85b07bb7beb0b6c89540872acd
+M	simple_fb_connect.routing.yml	1453f018c68b348be27fac3369cdc556
+A	simple_fb_connect.services.yml	6004192873d6e1275e8ca528853d5e1b
+M	src/Controller/SimpleFBConnectController.php	222c501d80d9ea941501032e0df9b9eb
+D	src/Form/SimpleFBConnectAdmin.php	
+A	src/Form/SimpleFbConnectSettingsForm.php	c3cd9d55935a9add389a2e8d6f521bb2
+A	src/SimpleFbConnectFbManager.php	31c51c80a8ad3edc8b5108d17df48ce0
+A	src/SimpleFbConnectUserManager.php	27070bcee172da6b26d327fc314480f9

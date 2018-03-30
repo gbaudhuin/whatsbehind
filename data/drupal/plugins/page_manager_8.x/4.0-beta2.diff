@@ -1,0 +1,9 @@
+M	page_manager.info.yml	78e267efdd5c262cf64b129f00bdeded
+M	page_manager.install	b18bac9e3016039f65385ed004fb97ff
+D	page_manager.post_update.php	
+M	page_manager.services.yml	c21bca75972d3ddb06bfa5e8daffba5e
+M	page_manager_ui/page_manager_ui.info.yml	c321e1a5b4ce4811efc86c3601f77b5c
+A	src/EventSubscriber/LanguageInterfaceContext.php	a6826cdbb20c3e88d680dfbd0c36b18d
+M	tests/modules/page_manager_routing_test/page_manager_routing_test.info.yml	43607717882ea7743b80ef40fbe7c4eb
+M	tests/modules/page_manager_test/page_manager_test.info.yml	f4b2a240163a2293a2a0b9d1fd3de6dd
+A	tests/src/Unit/LanguageInterfaceContextTest.php	adf21def0dd1af27588d54ee61b7d9aa

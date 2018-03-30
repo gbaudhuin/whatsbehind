@@ -1,0 +1,16 @@
+M	config/install/redirect.settings.yml	774441636e1940edb3c5cb32391b7d4e
+M	config/schema/redirect.schema.yml	a511574eb477b8e67f42d25a923500b4
+M	modules/redirect_404/redirect_404.info.yml	13d5adbadb4adfccc4d7552138af4d98
+A	modules/redirect_404/redirect_404.links.action.yml	498ed9c81b899b7876a4b002b12db184
+M	redirect.info.yml	ae55e0626fbe9c7989a8942c3afe5045
+M	redirect.install	75b963df04080892743c1dc484914da1
+M	redirect.links.action.yml	b029311803c2f9aa95f2b8aec820b71e
+M	redirect.services.yml	222172cb8c9b4d67a498d16f809e96c3
+M	src/EventSubscriber/RedirectRequestSubscriber.php	da8a4552a8b2fbef8be0543cfb42f303
+A	src/EventSubscriber/RouteNormalizerRequestSubscriber.php	0e7e730e312e5625ff1042c9fe9c41c0
+M	src/Form/RedirectSettingsForm.php	11279a90cc47fca847c9e701a4a501c8
+M	src/RedirectChecker.php	501c5c75f7c5afc85cac4e7008b0886f
+M	src/Tests/GlobalRedirectTest.php	45916977ff728dd6078083ec1b59ea75
+M	src/Tests/RedirectUITest.php	660ac54a28a8e50ff8edbb110f1d401e
+M	tests/src/Kernel/RedirectAPITest.php	fb8f68de88a69504abe2e02bdfaff089
+M	tests/src/Unit/RedirectCheckerTest.php	f1e371902e13e0d53c32985f2c47b8ae

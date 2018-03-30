@@ -1,0 +1,10 @@
+M	components/grid.inc	3d7276fa9f18c934f85dd1aea9b020f0
+M	components/select.inc	5c367db53fe67de9cef40936a00569dd
+M	includes/webform_localization.component.sync.inc	ac20a2a99821145b9375744abaaf95f6
+M	includes/webform_localization.i18n.inc	b700710feae00e4f0f858f00289ffb25
+M	includes/webform_localization.sync.inc	39d76b7d90e8f4a1fff060c87cc28980
+M	tests/webform_localization.test	a3ddec6232c55927ce1629e12295cf7a
+M	webform_localization.api.php	67001ee28fe8b8d70dfef0937895e305
+M	webform_localization.info	63d3e66012fb832d178b6fcee76377a6
+M	webform_localization.install	7fc0dd5f05f04bcfde3d19beea640e0e
+M	webform_localization.module	ed5e8509f56151b3baed6098e463182d

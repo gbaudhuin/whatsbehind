@@ -1,0 +1,32 @@
+A	README.md	0c5c7163912d8feb5f830c34e3b4ce7d
+D	README.txt	
+M	composer.json	e4e4e409795da3e5c92fa5c8fdf49ecc
+A	config.rb	c312d325f484d60a30c4fbdbaa32000b
+A	css/leaflet_general.css	53422c5cd9c909f75945be238b1b27e2
+A	js/leaflet/dist/images/layers-2x.png	4f0283c6ce28e888000e978e537a6a56
+A	js/leaflet/dist/images/layers.png	a6137456ed160d7606981aa57c559898
+A	js/leaflet/dist/images/marker-icon-2x.png	d95d69fa8a7dfe391399e22c0c45e203
+A	js/leaflet/dist/images/marker-icon.png	2273e3d8ad9264b7daa5bdbf8e6b47f8
+A	js/leaflet/dist/images/marker-shadow.png	44a526eed258222515aa21eaffd14a96
+A	js/leaflet/dist/leaflet-src.js	dc8311432571bc5667f124bc34c029cc
+A	js/leaflet/dist/leaflet-src.map	ba8a54b96bf150d58a096da2f6e3cab6
+A	js/leaflet/dist/leaflet.css	deaae8069b8a05342ae06465f828191f
+A	js/leaflet/dist/leaflet.js	5fb2d2828b511d6c0434515465d805d3
+M	leaflet.api.php	f2d32b43cfe6379476089fa4e941e8af
+M	leaflet.info.yml	4d8bee024a87900a1383636ecceb4129
+A	leaflet.install	4bd856cc9651a04a2820a1a95f5d3d5c
+M	leaflet.libraries.yml	0d08cff48f3edfc1bfb575d944c2cc0a
+M	leaflet.module	1ef608302a2cf08a0ef23de00fd1107c
+A	leaflet.services.yml	66f36cf664519936d2ca2270a2039044
+M	leaflet_views/leaflet_views.api.php	9bdbb7f2f2dda332a19c0e01e1fece32
+M	leaflet_views/leaflet_views.info.yml	eeb12ee944521d855e5f5eaede23f594
+D	leaflet_views/leaflet_views.module	
+M	leaflet_views/src/Plugin/views/display/LeafletAttachment.php	a2238513055be94433b086e68568bd4a
+M	leaflet_views/src/Plugin/views/row/LeafletMarker.php	4fb661d598c5d413e4f6fd60a9d73041
+M	leaflet_views/src/Plugin/views/style/Leaflet.php	538709d31102652f3ba08c90f972dae9
+M	leaflet_views/src/Plugin/views/style/LeafletMap.php	faaab52280b49fa1952d673cb560262c
+M	leaflet_views/src/Plugin/views/style/MarkerDefault.php	483508a214f7330f3cd90f9c5e811fa8
+M	leaflet_views/src/Plugin/views/style/MarkerLayerGroup.php	d3a08b2a9985449cc302f102a6f53c4f
+A	sass/leaflet_general.scss	6d3897efb1c47e26502b42f61b0486de
+A	src/LeafletService.php	39060f705a01055bdb01d7980ea7cce8
+M	src/Plugin/Field/FieldFormatter/LeafletDefaultFormatter.php	d4c71f4edd0dabea80e951df2e022652

@@ -1,0 +1,8 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	e98d0c52dc5d6aa6b832c9f18a0789ca
+A	src/ContentLoader/ContentLoader.php	ea90240d140428ce57f66d4c2a1fc520
+A	src/ContentLoader/ContentLoaderInterface.php	f400dc4697539216a37a8287d94074ea
+A	yaml_content.api.php	3ff1126c0350d047d6eca35c7861430f
+A	yaml_content.drush.inc	df64738933944bc16bbcee53acc10175
+A	yaml_content.info.yml	4b634e2f01f1fb58517ab098818e298e
+A	yaml_content.services.yml	ac429ec31a525c460ddc568f57f2c933

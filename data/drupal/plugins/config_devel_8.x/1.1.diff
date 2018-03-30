@@ -1,0 +1,8 @@
+M	config_devel.info.yml	3635769db8d2c8485076bb23c1e08550
+M	drush/config_devel.drush.inc	0d871d4f1cb6ea6add4c67cb7bf16318
+M	src/Event/ConfigDevelEvents.php	9005c4b0dc702dfe581e56fdc28ad62a
+M	src/Event/ConfigDevelSaveEvent.php	2f7f28d04620da00acb8cc27143e79a2
+M	src/EventSubscriber/ConfigDevelAutoExportSubscriber.php	db759142570c8487e9229121c7e0579b
+M	src/EventSubscriber/ConfigDevelAutoImportSubscriber.php	2a57f2c2ff11b1e0d5eefc1c62eff76e
+M	src/EventSubscriber/ConfigDevelSubscriberBase.php	c6f076ba6428a99f2e56ab2ea6f85072
+M	src/Form/ConfigDevelSettingsForm.php	04e8b3186ebe76eb7afebbf3acba720a

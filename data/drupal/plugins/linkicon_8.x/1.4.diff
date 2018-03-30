@@ -1,0 +1,11 @@
+M	CHANGELOG.txt	1f40975aea1e0a6c50999b4141dbb500
+M	README.txt	6a93ed7fc41a7dbccdd88a52ea21bd2d
+A	composer.json	d7160e2b26c284d2e0f89594787dccf5
+M	config/schema/linkicon.schema.yml	364737695738992934cf7201e3d82ba9
+M	linkicon.info.yml	58a31a1c8c61c18599c3b7eefb0f0f41
+M	linkicon.module	efeee4574db20a4759029b1ac34131a6
+M	src/LinkIconItem.php	d80a3295d5afdd1a60f0d7dbb49118fb
+M	src/LinkIconManager.php	dec463052b1e89756de6acf02868fc7d
+M	src/LinkIconManagerInterface.php	83a36a650417592d4e59b4697d77fe2c
+M	src/LinkiconSettingsForm.php	44cbba9f3557e30987fd2b13ddc17e73
+M	src/Plugin/Field/FieldFormatter/LinkIconFormatter.php	4c7b59f96a85b7486da864c939ac7c7c

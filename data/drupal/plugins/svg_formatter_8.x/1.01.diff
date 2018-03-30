@@ -1,0 +1,4 @@
+M	src/Plugin/Field/FieldFormatter/SvgFormatter.php	6dbe73c59441e5c6b2ccc1fa228de70d
+M	svg_formatter.info.yml	ced3b55d083340d8175d042d6aea7f09
+M	svg_formatter.module	dbe87bdf2cc5ca1ee9b2c5ff8cbc23d3
+M	templates/svg-formatter.html.twig	5689238858a1cc4423f63da543fa2323

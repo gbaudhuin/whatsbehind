@@ -1,0 +1,9 @@
+M	CHANGELOG.txt	469e462533a84cac6061cdce68d93b76
+M	panels.info	1abaa551ab6f0d80c567bceff0907cf6
+M	panels_ipe/panels_ipe.info	807e351c8691a1ac475b7366df39ba90
+M	panels_mini/panels_mini.info	ad2d4b580d75a275c9c6bb212cd479e5
+M	panels_node/panels_node.info	5cddd2180ab508b46d9dcfdb2c0c075d
+M	plugins/cache/simple.inc	3dd6501f73a3edbc81b6df55c69c05c7
+M	plugins/display_renderers/panels_renderer_legacy.class.php	a7090e111b7f7f53471f7b9ef0a0ad78
+M	plugins/display_renderers/panels_renderer_standard.class.php	89c857243ca8d53d9c724e3f79fecf75
+M	plugins/views/panels.views.inc	fda319d7826fd306ce6a456794775745

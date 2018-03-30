@@ -1,0 +1,7 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	dfcc7108d20d31d3532370edd2e0122a
+A	email_registration.api.php	516cf8724d4816d987cbff8469437a7b
+A	email_registration.info.yml	626c481101bb3ab8f3a74008708ce367
+A	email_registration.install	a6bfc2d5e632b52313be63bd75dd4e80
+A	email_registration.module	b67a97cbf69dae74dc4dd5b67ed21832
+A	src/Tests/EmailRegistrationTestCase.php	f8486c6915860d6e0e393c423712c90d

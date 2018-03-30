@@ -1,0 +1,34 @@
+M	.gitignore	a7c5fcd49e30a103c8e3fa52a0d875c0
+M	README.txt	4531fa089c446535e32df80e718ac3c3
+M	composer.json	3249af7bed9b2d44ba5bb2a0527fa39b
+A	config/schema/yoast_seo.schema.yml	f9351244ebc61322f4ab6b7d271e46a6
+A	css/yoast_seo.config.css	86d9e64f8b74fb3d1f25e3963d693638
+M	css/yoast_seo.css	f87726efef37f9b111a02c8988288637
+D	drush/yoast_seo.drush.inc	
+D	js/js-text-analysis/yoast-seo.min.js	
+M	js/yoast_seo.js	86be93e7da8b7de40ac321f075c00671
+A	src/Controller/SettingsController.php	c604fbac822b8c105739572f0eb0d1cd
+D	src/Controller/YoastseoController.php	
+A	src/Entity/EntityPagePreview.php	7f9c60729d1e9f3b07420fb0cca968f9
+A	src/Entity/EntityPreviewInterface.php	3d8d951bc9d8d1427f65b2c80c75d71c
+A	src/EntityAnalyser.php	d445bcc36b36e744adcc37e87da855b6
+A	src/Form/AnalysisFormHandler.php	8e36b91a6d817f0df0dec36fd0a9c739
+D	src/Form/YoastSeoConfigForm.php	
+A	src/Plugin/Field/FieldFormatter/YoastSeoEmptyFormatter.php	45d451c7093ca9dc9159ec3e799aa3c8
+M	src/Plugin/Field/FieldFormatter/YoastSeoFormatter.php	7c1b8765ef7100548c789410af30f8a8
+M	src/Plugin/Field/FieldType/YoastSeoItem.php	349269b40d3b4b44fa6799b18481dbe3
+M	src/Plugin/Field/FieldWidget/YoastSeoWidget.php	6995da27e2dad098c0880a00004f7912
+A	src/SeoManager.php	2b7d48166be12fa0fa6871be1734ea5c
+D	src/Tests/YoastSeoTest.php	
+D	src/YoastSeoFieldManager.php	
+D	src/YoastSeoManager.php	
+M	templates/yoast-snippet.html.twig	98067be8dcdd8ac06a8d0430c0580012
+A	tests/src/Functional/ConfigurationPageTest.php	61f5d028249c8eb83b9ef6396e0cb653
+M	yoast_seo.info.yml	2027d4b170a67d6f93a6bbe3b58793d8
+M	yoast_seo.install	9b670e7d58f3632a55356e277c85ae22
+M	yoast_seo.libraries.yml	e824c2b4ad9f701b1d070e42cda9ff67
+M	yoast_seo.links.menu.yml	38af752559bd8523512772e596be8238
+M	yoast_seo.module	af99ef2eea5c67a91dd00668ebb3de06
+M	yoast_seo.permissions.yml	31f4ebe0094e79ecd10a51714c76ebc4
+M	yoast_seo.routing.yml	76052db2ef2e9b6e7f41856eb548959a
+M	yoast_seo.services.yml	d65ab91b983995ce2e590279d8cae13c

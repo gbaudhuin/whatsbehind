@@ -1,0 +1,14 @@
+M	double_field.info.yml	1e24c78b965eb6aa5cbfe4518180a3af
+M	src/Plugin/Field/FieldFormatter/Base.php	5c4b50c7da38b4b7468503952e016e33
+M	src/Plugin/Field/FieldFormatter/Details.php	98976e83db1db291b2ab663e70831cc0
+M	src/Plugin/Field/FieldFormatter/HtmlList.php	8aabeb467c86750f2f451f34258371b3
+M	src/Plugin/Field/FieldFormatter/Table.php	8d4afeb04c5d5d86d299b0e59c595b1f
+M	src/Plugin/Field/FieldFormatter/UnformattedList.php	2f727093c64dbc6cf1903cfc2525b647
+M	src/Plugin/Field/FieldType/DoubleField.php	73a4a3cc299571905c4b7c61dbdbb3ec
+M	src/Tests/FieldTypeTest.php	f6bd9b421cc917ad3660cb8732d18ec9
+M	src/Tests/FormatterTest.php	5039b5f2a0beb6edf2cc2a527a15a0f9
+M	src/Tests/TestBase.php	3ef8cf7ca0b13b561a7526db0d4b44fe
+M	src/Tests/WidgetTest.php	d1abc17d1fa90f633b125cb164591a9c
+M	templates/double-field-definition-list.html.twig	104d0f6d4ef9c0a49b41be17cad777bc
+M	templates/double-field-item.html.twig	d5ba124b773d1d9912a1a8022e71330f
+M	templates/double-field-subfield.html.twig	d1883490ee4cd31a20a7a44f839f3692

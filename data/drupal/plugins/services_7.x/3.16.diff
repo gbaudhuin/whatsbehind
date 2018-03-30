@@ -1,0 +1,6 @@
+M	auth/services_oauth/services_oauth.info	1745864add85bf92dca7945840a7d571
+M	servers/rest_server/includes/ServicesFormatter.inc	858bf04eec1f1298395af72e5c7202bd
+M	servers/rest_server/rest_server.info	e3ee1547affa92dc09cc9c2b29a47ef9
+M	servers/xmlrpc_server/xmlrpc_server.info	55cc1ee0f6936ea236506184c782d29c
+M	services.info	9520ca13764a33e515ac091d17fbc647
+M	tests/services_test_resource/services_test_resource.info	0785477969bf75b17d2b9b4b58fddc5d

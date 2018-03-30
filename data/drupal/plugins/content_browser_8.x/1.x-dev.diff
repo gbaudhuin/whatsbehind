@@ -1,0 +1,6 @@
+M	content_browser.info.yml	a7faf752c915a781da10bc15f2cc218b
+M	content_browser.install	da9687409d54d42cfff65ba3b287be27
+M	content_browser.module	38e51a424afbd60a294bbdb9301ce119
+M	content_browser.views.inc	3b8eeafb40dd647678506bfb0d7915a5
+M	src/Plugin/Block/ContentEmbedBlock.php	87a8274868a5f2f38b3626acc6335b9c
+M	src/Routing/ContentBrowserRouteSubscriber.php	4890d0686682cba56ff067e1f73096b9

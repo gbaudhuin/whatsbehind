@@ -1,0 +1,9 @@
+M	composer.json	e5fb9d3e4cb768473c532d94f609bc6d
+M	entity_print.info.yml	88dd439692712b21a4af8917a7a2c25b
+M	entity_print.services.yml	5790af0e6bc9829c981f215b7224351b
+M	modules/entity_print_commerce_order/entity_print_commerce_order.info	aec830930d1633b16df0aaa39fb7f624
+M	src/Controller/EntityPrintController.php	748874e871cb70091b42cb4d13705c7c
+M	src/EntityPrintPdfBuilder.php	21676a0c95c8acc2cd5d0f688bbb96aa
+M	templates/entity-print.html.twig	29c0d18d5ac878c4b35ec73bd01afb48
+M	tests/modules/entity_print_test/entity_print_test.info.yml	3da664dbb5bde0f45eb41b774408e6f2
+M	tests/themes/entity_print_test_theme/entity_print_test_theme.info.yml	a117313dbdab9dfff623ed678fd366aa

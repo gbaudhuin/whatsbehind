@@ -1,0 +1,4 @@
+M	social_auth_google.info.yml	563a3305d1d2f1598f21016429f4e606
+M	src/Controller/GoogleAuthController.php	edb21d3c5c895baa82a54faae0c6ab9d
+M	src/Form/GoogleAuthSettingsForm.php	d05b09dc2b46385de4fec0425143e369
+M	src/Plugin/Network/GoogleAuth.php	98ce9611225790a4d15b1f0c49cea634

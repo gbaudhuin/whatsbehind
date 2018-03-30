@@ -1,0 +1,14 @@
+M	config/install/youtube.settings.yml	44559b47b6ac9537c04ac037eb2dd82a
+M	config/schema/youtube.schema.yml	02cc98064d483c1ecbb452c0e43044a0
+D	css/youtube.css	
+A	css/youtube.responsive.css	fba5130a36ab75dc67eaf26fde9363b8
+M	src/Form/YoutubeSettingsForm.php	2abc274fbce75e32a5243d1f96b22bf3
+M	src/Plugin/Field/FieldFormatter/YouTubeFormatter.php	6aceca5e7a6b700f85c1ab5258a82aae
+M	src/Plugin/Field/FieldFormatter/YouTubeThumbFormatter.php	42834f1de9a95a5ac833781ae7b138dc
+A	src/Plugin/Field/FieldFormatter/YouTubeUrlFormatter.php	1b5e59788016d800af8dca122f8cec47
+M	src/Plugin/Field/FieldType/YouTubeItem.php	36ea3e8f8aafdcb24189a43b2359a785
+M	src/Plugin/Field/FieldWidget/YouTubeDefaultWidget.php	c931b58f583bc42510de36ca74cf2036
+M	src/Tests/YouTubeTest.php	f53e741210bb06a3fa936219cadf68e6
+M	youtube.info.yml	3ff268af3498a1cb06c68bce343ba2b7
+M	youtube.libraries.yml	a988233dda19901b4289e2c7d722cf5c
+M	youtube.module	32457cdc01a71d3bdae00264d801a046

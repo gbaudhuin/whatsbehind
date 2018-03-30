@@ -1,0 +1,10 @@
+M	README.md	099b47f894cc06bd3b1244a5f42a9920
+M	linked_field.info.yml	0370f39262fcb2633a5c3ccff7979c3b
+M	linked_field.install	de540d1b590315741118da204255a19d
+M	linked_field.module	547d623e7a4b4af4135374e262da2671
+A	linked_field.permissions.yml	9e617cc9ffc5da495e61134344f4c0a2
+M	linked_field.routing.yml	5b4640bce6fd7d4e8dd532bd98a7e02c
+A	linked_field.services.yml	a16815c98b9d40f780f1aee4b74d2236
+M	src/Form/ConfigForm.php	6214ee7d5f913fb83e0d0d15da896dc4
+A	src/LinkedFieldManager.php	98164e89ac761d92aecc4c203cbd71ef
+A	src/LinkedFieldManagerInterface.php	bc361424558a950c38a7e9a95c2c2c3f

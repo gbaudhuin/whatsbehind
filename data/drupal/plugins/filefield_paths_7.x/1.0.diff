@@ -1,0 +1,6 @@
+M	CHANGELOG.txt	ad7de3bfd8d395a9a1467ac6dc53716a
+M	filefield_paths.info	459305d81a6060cf1ef718229a96e7d5
+A	filefield_paths.variable.inc	49f72376d33feae3eaf06a01015f242c
+M	modules/filefield_paths.inc	fe7bda935fff23de2223fd927016ea58
+M	tests/filefield_paths.general.test	12c444f3e0628c82bd75a331d8ebf995
+M	tests/filefield_paths_test.info	4d63a03efcfb8675b8583f22090d08fa

@@ -1,0 +1,16 @@
+M	lib/mailchimp-api-php/composer.json	ecca635232ff5401dafc3c23f2e011b2
+M	lib/mailchimp-api-php/src/Mailchimp.php	299998c44e5080245dd6b55c737dea61
+M	lib/mailchimp-api-php/src/MailchimpEcommerce.php	6f4c9e765ab1ed401025fcfc7343ac22
+M	lib/mailchimp-api-php/tests/MailchimpEcommerceTest.php	4ff56a8df65dc8fc5ef4ae10a90a55e6
+M	lib/mailchimp-api-php/tests/MailchimpTest.php	f194cb4f3bfb424da17c5669a92256f7
+M	lib/mailchimp-api-php/tests/src/MailchimpEcommerce.php	f32a941b61a4a455556616aa7bcb916c
+M	mailchimp.info.yml	a31738341953d8b7ae0b8dfefec98d71
+M	modules/mailchimp_campaign/mailchimp_campaign.info.yml	ec76f75b746298032e74d84b97321bf2
+M	modules/mailchimp_campaign/tests/modules/mailchimp_campaign_test/mailchimp_campaign_test.info.yml	0277a4184341c8f0cb0eb3e6b892abe0
+M	modules/mailchimp_lists/mailchimp_lists.info.yml	2a1b15ce3a5d205256e663e20c3da4c1
+M	modules/mailchimp_lists/mailchimp_lists.module	c77b96c267f57b36573f2a1b0c740de3
+M	modules/mailchimp_lists/src/Plugin/Field/FieldType/MailchimpListsSubscription.php	516370f8cecc3f0e49ac23356d6aa3fd
+M	modules/mailchimp_lists/src/Plugin/Field/FieldWidget/MailchimpListsSelectWidget.php	b2c5e443ca2cf080f482e9f46d756f24
+M	modules/mailchimp_lists/tests/modules/mailchimp_lists_test/mailchimp_lists_test.info.yml	2f491a0d6e06151000f16338612d479a
+M	modules/mailchimp_signup/mailchimp_signup.info.yml	6733cc8ebf8952c12c6428a31a5501e7
+M	tests/modules/mailchimp_test/mailchimp_test.info.yml	bf97f73cf3e9c25ed397719c9261bcad

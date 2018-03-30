@@ -1,0 +1,43 @@
+M	wp-admin/about.php	82c7195c8c92d98e133b369adee474dc
+M	wp-content/themes/twentyfourteen/languages/twentyfourteen.pot	0500ec4ada37450a3ad97443f1d30ba2
+M	wp-content/themes/twentyfourteen/style.css	e7e2a2ba96d62d94728d386bd251e854
+M	wp-content/themes/twentythirteen/languages/twentythirteen.pot	4d42ec2d6781c14747e6b416f9e0a26d
+M	wp-content/themes/twentythirteen/style.css	392e44e0a4438b7c538cd02705c39192
+D	wp-content/themes/twentytwelve/404.php	
+D	wp-content/themes/twentytwelve/archive.php	
+D	wp-content/themes/twentytwelve/author.php	
+D	wp-content/themes/twentytwelve/category.php	
+D	wp-content/themes/twentytwelve/comments.php	
+D	wp-content/themes/twentytwelve/content-aside.php	
+D	wp-content/themes/twentytwelve/content-image.php	
+D	wp-content/themes/twentytwelve/content-link.php	
+D	wp-content/themes/twentytwelve/content-none.php	
+D	wp-content/themes/twentytwelve/content-page.php	
+D	wp-content/themes/twentytwelve/content-quote.php	
+D	wp-content/themes/twentytwelve/content-status.php	
+D	wp-content/themes/twentytwelve/content.php	
+D	wp-content/themes/twentytwelve/css/ie.css	
+D	wp-content/themes/twentytwelve/editor-style-rtl.css	
+D	wp-content/themes/twentytwelve/editor-style.css	
+D	wp-content/themes/twentytwelve/footer.php	
+D	wp-content/themes/twentytwelve/functions.php	
+D	wp-content/themes/twentytwelve/header.php	
+D	wp-content/themes/twentytwelve/image.php	
+D	wp-content/themes/twentytwelve/inc/custom-header.php	
+D	wp-content/themes/twentytwelve/index.php	
+D	wp-content/themes/twentytwelve/js/html5.js	
+D	wp-content/themes/twentytwelve/js/navigation.js	
+D	wp-content/themes/twentytwelve/js/theme-customizer.js	
+D	wp-content/themes/twentytwelve/languages/twentytwelve.pot	
+D	wp-content/themes/twentytwelve/page-templates/front-page.php	
+D	wp-content/themes/twentytwelve/page-templates/full-width.php	
+D	wp-content/themes/twentytwelve/page.php	
+D	wp-content/themes/twentytwelve/rtl.css	
+D	wp-content/themes/twentytwelve/screenshot.png	
+D	wp-content/themes/twentytwelve/search.php	
+D	wp-content/themes/twentytwelve/sidebar-front.php	
+D	wp-content/themes/twentytwelve/sidebar.php	
+D	wp-content/themes/twentytwelve/single.php	
+D	wp-content/themes/twentytwelve/style.css	
+D	wp-content/themes/twentytwelve/tag.php	
+M	wp-includes/version.php	666184998563880a67275d234d95856d

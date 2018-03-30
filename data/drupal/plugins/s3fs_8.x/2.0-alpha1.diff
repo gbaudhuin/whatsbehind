@@ -1,0 +1,20 @@
+M	README.txt	67ece7d7235ea3361065846a7a301691
+M	config/install/s3fs.settings.yml	ae589e9a1846cba01f432fa80cc8949b
+M	config/schema/s3fs.schema.yml	ac1f4bb63adb2164e9f5129f159b6e04
+M	s3fs.api.php	316b61bb16a1801b57e070cd60bc5134
+M	s3fs.drush.inc	71157205aedb3978ffd031fc85e2ae4a
+M	s3fs.info.yml	028c2559f19ad5cca85000505e8e4c36
+M	s3fs.install	70124cff926e08203033e44c5a5ee46c
+M	s3fs.links.menu.yml	537886c1ac198360c01f2cb2027c2820
+M	s3fs.module	191f4d7569e7948ccfa7a42817f1145d
+M	src/Form/SettingsForm.php	22759691cb64900f872306f30bdf9713
+A	src/S3fsCssOptimizer.php	938b5168028d3f2d60e845423f84ecb6
+M	src/S3fsException.php	62011b229d7f892ed8b4f96ed11d83b0
+M	src/S3fsServiceProvider.php	a60488f18fe2edc323de3628d98b9dfe
+D	src/S3fsStreamOverrideManager.php	
+A	src/StreamWrapper/PrivateS3fsStream.php	5b3081b61f95f49eb884d7697a7604f2
+A	src/StreamWrapper/PublicS3fsStream.php	7fe85de37e0aba4016595b516ae6b7bd
+M	src/StreamWrapper/S3fsStream.php	a888e2a8aeb658cd71706970095221e4
+M	src/Tests/ApiKeyConfigurationTest.php	e940e3526ae0cc98e0de130fe4535290
+M	src/Tests/S3fsConfigFormTest.php	91407d827a19a0e95c14e8990f59a1c2
+M	src/ValidateService.php	b0548f07d85adfc1036f6fdfdb2d5d0e

@@ -1,0 +1,5 @@
+M	README.txt	89f77098e49c3d1fa1fbbe649982f914
+M	composer.json	54b541514b25b676db9f35f8c144d6c3
+M	imagemagick.info.yml	b5f249e3d00c04c90ed0238e1065a248
+M	src/ImagemagickExecManager.php	26538a9289b4362c151642ab32a0b8e2
+M	tests/src/Functional/ToolkitImagemagickTest.php	acd8175db79044105a5909363a24adce

@@ -1,0 +1,11 @@
+M	config/schema/varbase_total_control.schema.yml	26cd2b91f121f1e1166f82202bdcb2ec
+M	js/vtc.js	8a5eb8873aa0f835fbf539bcd15f8aec
+M	src/Plugin/Block/VarbaseContentOverview.php	1282205031c8d40918c770093e17beb4
+M	src/Plugin/Block/VarbaseCreateContent.php	e3cfce5c7ebf8ddd05a20b42aef7fe08
+M	src/Plugin/Block/VarbaseDashboardUser.php	6d1c674439272bf9eb3008c3a48dc6d9
+M	src/Plugin/Block/VarbaseQuickLinks.php	fc973cf4beb9a065c69181e317e1b09a
+M	src/Plugin/Condition/ModuleEnabled.php	c3c6a2a0996a5ad97996d80ffd611933
+M	varbase_total_control.info.yml	0bce186eda0aed13942f81261fbf73d6
+M	varbase_total_control.install	7578defe717d913952c4e40fcd913ba1
+M	varbase_total_control.module	169b94d6e9c20ac3889e9f66100d8318
+M	varbase_total_control.services.yml	a59066d13ff9b433aca6023246fb2f8f

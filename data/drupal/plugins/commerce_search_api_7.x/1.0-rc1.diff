@@ -1,0 +1,9 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	aae218fe5c041885e002e8f22ead7f04
+A	commerce_search_api.facetapi_defaults.inc	f7d83938031ef048bf9a8f2dd7226ffc
+A	commerce_search_api.info	b44cf4289cb5663e7d0bfa697c3f5ca9
+A	commerce_search_api.install	64b28d1eb47cf45bbbea36e34864dfc7
+A	commerce_search_api.module	b41eadaafc70f75a9dbadd998f74b158
+A	includes/commerce_search_api_product_display_filter.inc	367fb85d56fbf868ca69631213eaadb3
+A	includes/facetapi/filter_same_search.inc	3186aad63e868f973cecb60de02c3543
+A	includes/facetapi/filter_search_start.inc	d3080431f03139f2d74d95e81f8f0783

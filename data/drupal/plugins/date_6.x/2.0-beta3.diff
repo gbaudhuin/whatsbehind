@@ -1,0 +1,17 @@
+M	CHANGELOG.txt	102af42ffa7646dadd585ac5528d12cc
+M	date.css	068bbb8f71fb4bed3640286b243bfabe
+M	date/date.info	67609416336f7b4d442919c8f23bd357
+M	date/date.install	121790d469f846b3862f0a307728e465
+M	date/date.theme	dd4f6a9f3112415d55ed5f2421bb6d7a
+M	date_api.info	7c23eb354233563719b9dabe92e184c7
+M	date_api.views.inc	17bb3d0fb522c3e59c87b661de4235bd
+A	date_api.views_default.inc	1e07b3ca98dc96ada9038c598918531d
+M	date_api_ical.inc	705ff749ae00581dc6f1df7c6187c00d
+M	date_api_sql.inc	145fe32797de0226b210222a95c92273
+M	date_copy/date_copy.info	0477e1f843a1c63d19c002cf06d05b23
+M	date_php4/date_php4.info	c73a2f77e91553f0d2c3dedae72a6f89
+M	date_popup/date_popup.info	6040a4b733f803ebae160722501bbe8e
+M	date_repeat/date_repeat.info	ff7b5b685fc7435f591ebb7e044481f1
+M	date_timezone/date_timezone.info	fd64f1289810bdd17448e7b97b2f3a31
+A	theme/date-vcalendar.tpl.php	08e881021f4586979d7b0880d58ba553
+M	theme/theme.inc	7e8b5fbde570784c1cde0c496b4ed3da

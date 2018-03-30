@@ -1,0 +1,35 @@
+M	README.txt	fffa01b60ffc51cf305629cfd99d067e
+A	css/draggableviews_list.css	7a31a0414b3821aa0225b26679748a2f
+D	draggableviews-view-draggabletable-form.tpl.php	
+D	draggableviews-view-draggabletable.tpl.php	
+A	draggableviews.api.php	5ad8be0e7b88ea045a94f15cee2e7518
+D	draggableviews.inc	
+M	draggableviews.info	444994d8008079da272317eb3e29bdde
+M	draggableviews.install	524b705a445bdf12b44d02153dd9c417
+D	draggableviews.js	
+M	draggableviews.module	6c9bd121b845a530022eb9503b2a9abc
+M	draggableviews.rules.inc	257cdf1975a8f4f30a61dcdc51d76caa
+D	draggableviews_tests/draggableviews_tests.info	
+D	draggableviews_tests/draggableviews_tests.module	
+D	draggableviews_tests/draggableviews_tests.test	
+D	draggableviews_tests/draggableviews_tests.views_default.inc	
+D	draggableviews_theme.inc	
+D	graphics/icon_collapse.gif	
+D	graphics/icon_expand.gif	
+A	handlers/draggableviews_handler.inc	373c49e2f442dd102061609e827b2748
+A	handlers/draggableviews_handler_fieldapi.inc	3090b108a5b6fc693040ee7ed27ba0ef
+A	handlers/draggableviews_handler_native.inc	f883243957f7260273004eac18ea76fd
+D	implementations/draggableviews_handler.inc	
+D	implementations/draggableviews_handler_fieldapi.inc	
+D	implementations/draggableviews_handler_native.inc	
+A	js/draggableviews_list.js	172403b414aec855c3f2f716b388e2df
+D	styles.css	
+A	test/draggableviews.test	66be926199f0f921c201079cf58d3fbb
+A	test/draggableviews_test/draggableviews_test.info	7c634c4e2eee2a7a09793f44bfea4d3b
+A	test/draggableviews_test/draggableviews_test.module	0ce7e3508639adfc7dc5438fedc9024c
+A	test/draggableviews_test/draggableviews_test.views_default.inc	7da7ddb98687a60add05359fdae4c2ba
+M	views/draggableviews.views.inc	c3c851627df16ca35ef4004f15002087
+A	views/draggableviews_handler_field_draggable.inc	ad3da5885ced281460d323148a0a933f
+A	views/draggableviews_handler_sort.inc	67efe4fd4d1372b6a55250d135d2db94
+A	views/draggableviews_join_handler.inc	1ccf805200dad31f68b13c8629eb2a65
+D	views/draggableviews_plugin_style_draggabletable.inc	

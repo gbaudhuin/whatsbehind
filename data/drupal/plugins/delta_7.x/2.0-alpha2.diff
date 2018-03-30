@@ -1,0 +1,9 @@
+A	.cvsignore	040c0aedf1edae30f7ef7357489ab23e
+A	CHANGELOG.txt	bc3eb9cb1d0900e8dbcfd6608585fdcc
+A	README.txt	b6877c2c3f41aa507a28bcecc87ed3d4
+M	delta.info	9ac47dad6a87227a4f4dc3e2b0cfd857
+M	delta.install	b346489d137b2a2ecddee1db645ba8b0
+M	delta_ui.admin.inc	69e6fd02ffc5020ca8e969336173832b
+M	delta_ui.info	db6d839f5e1fdf852240a016970861fa
+M	delta_ui.js	ad3bbc5c9f5c97227b61e26a1c70bd34
+M	delta_ui.module	f0f6c809b23e6e5bd64fc21244e223aa

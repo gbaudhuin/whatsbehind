@@ -1,0 +1,8 @@
+M	key.info.yml	b562b65124e5d8060a3b14d8b318cba2
+M	readme.md	864da83a9c608ce5c2fed0129376aaae
+M	src/Annotation/KeyProvider.php	7cc734f34cb737d4c989efd34782129e
+M	src/Form/KeyFormBase.php	a59d106b5e6b31f4fc9a88d5d310ee01
+M	src/Plugin/KeyInputBase.php	97d0184ead79d5c006978ac79c8ab42e
+M	src/Plugin/KeyProvider/FileKeyProvider.php	ce854f933a857f5b2cc39568977570b6
+M	src/Plugin/KeyProviderBase.php	89efea30bdaf0bb6103888a7700e674e
+M	src/Plugin/KeyType/AesEncryptionKeyType.php	92dd3dc27ed03600ffe3e36cfbc82a8d

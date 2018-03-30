@@ -1,0 +1,8 @@
+M	acsf.info.yml	10be82b0dc9a7d47c0fa608f7a51e9df
+M	acsf.module	34fba041da6c1ceffc214cf66b9e70bb
+M	acsf_duplication/acsf_duplication.info.yml	a75bbca1ac921b9ca9933bf24146a677
+M	acsf_theme/acsf_theme.info.yml	692969c7d41545a236cb2c75a4a6a436
+M	acsf_variables/acsf_variables.info.yml	0979a10261eb642af30cb1c1a8bcb410
+M	build_info	eff5b07e4aa66866bcd0925ea796068b
+A	scripts/acsf_cron	063acaa03292a51eafacd697f379e252
+M	scripts/acsf_ssh	3006aab29e9d46acde9625ffb463dc75

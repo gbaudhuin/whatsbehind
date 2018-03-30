@@ -1,0 +1,7 @@
+M	better_normalizers.info.yml	4cbb40931da28f780858c3e4b79182ad
+M	src/BetterNormalizersServiceProvider.php	1390d428028406adcfbb132988e12cbd
+A	src/Normalizer/EntityStub.php	546b7b43ce3e0d8d08e46c1414ee2291
+M	src/Normalizer/FileEntityNormalizer.php	fd2377bebef57a03adbf73efd0dc0115
+M	src/Normalizer/FileItemNormalizer.php	6ac4dc773db55635783ce5c8bd3e7c32
+A	src/Normalizer/MenuLinkContentNormalizer.php	a497685883c94421eeb3bd704e2dd43b
+A	tests/src/Kernel/MenuLinkContentNormalizerTest.php	437a95ff34c59dd62f14b206408ebd6f

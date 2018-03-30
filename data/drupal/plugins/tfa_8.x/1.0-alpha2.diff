@@ -1,0 +1,14 @@
+M	services_tfa/services_tfa.info.yml	200a3f1ac0bd88581a333d1cfb22b5d8
+M	src/Controller/TfaLoginController.php	40cc07fb7e400955ac850f34bdc1d7a1
+M	src/Form/BasicSetup.php	4a99d726d6578842d77296cea3409e24
+M	src/Form/TfaLoginForm.php	1f481f79606806ae216d3a984deeea18
+M	src/Plugin/Block/TfaUserLoginBlock.php	0356853f864ac28c3057933a351d6645
+M	src/Plugin/TfaLogin/TfaTrustedBrowser.php	49cd64be5ad52b6e5a4c85974a65ae1c
+M	src/Plugin/TfaSetup/TfaTrustedBrowserSetup.php	7d12553fcc91395093c270bb64b1a76b
+M	src/Plugin/TfaValidation/TfaHotp.php	9897c18ff690a8434c516f8812a49b86
+M	src/Plugin/TfaValidation/TfaRecoveryCode.php	09b09d36dd2072b7b7cbd55c4885d30f
+M	src/Plugin/TfaValidation/TfaTotp.php	1660f1f9b634ca1f861b79ba06a6e370
+M	src/Tests/TfaValidationTest.php	205787b987287854ce24df843cc4997f
+M	tfa.info.yml	49b9db1c99aac3ae6a1bce6e734f2252
+M	tfa.permissions.yml	78dd3b1580cb6fb0382243176227b850
+M	tfa.routing.yml	2457136e2fa73d564874de6acaf6cbfd

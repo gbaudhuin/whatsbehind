@@ -1,0 +1,12 @@
+A	INSTALL.txt	6bca9c04a2af7dd8dcd9c484c5a61420
+A	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+A	README.txt	507e8afc79352ed7d5f1ddc146afc558
+A	UPGRADE.txt	23bf302985b484ce466e26faf82f07a4
+A	imagecache.info	285d77b316c940f87b56856c9749c1f2
+A	imagecache.install	5bcef3d4fd2768201d0685264fac1a26
+A	imagecache.module	6a87aab69e4d3c7677e5c7e90600e2d3
+A	imagecache_actions.inc	c71a3fecd17c3dd94525e1d37950a561
+A	imagecache_ui.info	b1fe9e9ca69e99a678a20226d2151ae8
+A	imagecache_ui.install	b7c91a66275fa1bfacc187608b2a2d5f
+A	imagecache_ui.module	7e3e5e87bac00bd6f2ed071e20c861ec
+A	tests/imagecache_create_url.test	048755cb134b0956b98723ed1277e28c

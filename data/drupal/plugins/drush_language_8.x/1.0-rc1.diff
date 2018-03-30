@@ -1,0 +1,11 @@
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.md	e76ff61ba2afe504e2f04104a8080c2f
+A	composer.json	7f19942b333fe06fe408683a8a2c884d
+A	default.settings.php	d4204861c2e3752696a95fc3e5994db2
+A	drush.services.yml	07f4fce164fb473b6ba8536e3b0ea394
+A	drush_language.drush.inc	2c9a9699d4d32fab7e8b4d1078a8f7f0
+A	drush_language.info.yml	33da3edc2593598edafadd9c1dfd0306
+A	drush_language.services.yml	5604e264c2884eb3298f4bc65bad2f13
+A	src/Commands/DrushLanguageCommands.php	8e00d6d1c1cbcd43722a5583476f80f4
+A	src/Drush8Io.php	4ce71c5fdd202b4874d6964d7625e38c
+A	src/Service/DrushLanguageCliService.php	571137dd60fe290b521129b9e62f7518

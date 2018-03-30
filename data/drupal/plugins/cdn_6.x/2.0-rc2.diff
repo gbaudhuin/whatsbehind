@@ -1,0 +1,10 @@
+M	README.txt	697b80aa724dbbeded82109ae8819151
+M	UPGRADE.txt	189e171e5e33f728194fccb32955e261
+M	cdn.admin.inc	cb1bdb8e0111752c3ded9a96dd875f00
+A	cdn.fallback.inc	c42c10dea79d533a51b38a5e03242201
+M	cdn.info	dca4014a16a6847df69553c5e7f54819
+A	cdn.install	b722182202669cef43bfd43f08dc7e73
+M	cdn.module	b95b3cf16d4ae91a78341759e985cdea
+M	cdn.requirements.inc	65471d56dc9786ab8ed8ebf4c5d511b4
+A	patches/imagecache_6--2.patch	dfec8ebdae0d9cd174028e3b5e7dd113
+M	theme.inc	f15180166f8396df08046bbbdff27727

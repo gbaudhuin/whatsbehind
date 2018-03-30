@@ -1,0 +1,14 @@
+M	config_pages.info.yml	8d1e601ffd96401afcb0289ce415646f
+M	config_pages.permissions.yml	fb1fbf1bd7337b6e022fce2ba57bc5d7
+M	config_pages.services.yml	8f7f2dec78c4f584af34351b11b7b566
+M	src/ConfigPagesAccessControlHandler.php	cbdc8f8b3710b06f720abbcb2fe06f20
+M	src/ConfigPagesContextManager.php	7dd9da2b0ebf142c8623e1e48a83aeea
+A	src/ConfigPagesContextManagerInterface.php	814d50e065b432be2271a1d514531f08
+M	src/ConfigPagesForm.php	ba6a9943ca780a12e5f6d7d65233b302
+M	src/ConfigPagesListBuilder.php	a977736e084572d7814c9323146d7b25
+A	src/ConfigPagesNormalizer.php	447c0f865e8aa361888f5c26092eab14
+M	src/ConfigPagesTypeListBuilder.php	e3c847c8274392fe438cc0ea04896a8a
+A	src/ConfigPagesViewsData.php	eeb0837558e4ab03a232629254f00dea
+M	src/Entity/ConfigPages.php	c063ebe2110ac7936a800cfefba15e11
+M	src/Entity/ConfigPagesType.php	25949ff0803f6ca9499ca150ebf24f17
+M	src/Plugin/Block/ConfigPagesBlock.php	af0403ce56d213e4db866f5d0fd9c62a

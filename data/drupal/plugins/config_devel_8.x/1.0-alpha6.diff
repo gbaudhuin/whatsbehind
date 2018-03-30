@@ -1,0 +1,7 @@
+M	config_devel.info.yml	aa3fee3ee49f5acc747fab234b75a3b0
+D	lib/Drupal/config_devel/Config/ConfigDevelConfigFactoryOverride.php	
+D	lib/Drupal/config_devel/Config/FileStorageFactory.php	
+D	lib/Drupal/config_devel/EventSubscriber/ConfigDevelFileStorageSubscriber.php	
+A	src/Config/ConfigDevelConfigFactoryOverride.php	65b42b50e38c10e7f32b60681f560716
+A	src/Config/FileStorageFactory.php	587dfd688cc6e1d2fb2706651789368e
+A	src/EventSubscriber/ConfigDevelFileStorageSubscriber.php	ab9c176cd125d236e283c51157694775

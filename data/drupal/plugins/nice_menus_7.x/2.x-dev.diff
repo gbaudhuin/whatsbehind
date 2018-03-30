@@ -1,0 +1,11 @@
+M	README.txt	4f6911f710a39bf3907b3f978b269131
+M	css/nice_menus_default.css	778e8e5fea66f9f08bab132a8ade4de0
+M	js/jquery.bgiframe.js	4e4392c579981a583de3747178ceb56f
+M	js/jquery.hoverIntent.js	136a287d8b25f9158e4c2c31e6fd18ab
+A	nice_mega_dropdowns/nice_mega_dropdowns.info	7e9e1023ee7ccbfbc8f0924467a69ca5
+A	nice_mega_dropdowns/nice_mega_dropdowns.install	6911e91dd32ae1a40140f2be97d748cd
+A	nice_mega_dropdowns/nice_mega_dropdowns.module	3520a27c29243d7de6fb42f0614fb7d5
+M	nice_menus.admin.inc	026abcc1a1bbd8bab9964a23a8092da1
+M	nice_menus.info	f5e99eae98c07226048eeacc96a10e49
+M	nice_menus.module	337423ad6f64067d5dfcceba69c25af7
+A	nice_menus.variable.inc	5972e64a45202c49bbb270d8fa037548

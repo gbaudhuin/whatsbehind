@@ -1,0 +1,13 @@
+M	feeds.info	b6a2b3f118b9117ce7cf01287bcdf3ff
+M	feeds_import/feeds_import.info	ae9c58024cbdaecf6718219b3f1207f4
+M	feeds_news/feeds_news.info	d63020ae3c8a1eb5dea2a49b5dd09827
+M	feeds_ui/feeds_ui.info	cf5ab3dc33e48fd45158fb302d2c1205
+M	libraries/PuSHSubscriber.inc	ca8401de6e2e902948c988a40e0e204b
+M	libraries/http_request.inc	d0b977440a2b3b3e4acb97d9527357e3
+M	mappers/file.inc	c84425abb1896a89d352a8856cbf4902
+M	plugins/FeedsParser.inc	a20228a24a0a654e94cfaabd8f959437
+M	plugins/FeedsProcessor.inc	6d2199aefc3a1872c5c184bec21f3a12
+M	tests/feeds_mapper_file.test	7ed002f6c2966f40b5fcfb93d42f3878
+A	tests/feeds_push.test	a6b2a2fb91593607478fcda9f07718ee
+M	tests/feeds_tests.info	0d950160063bdc6e133871faeed73ac5
+M	tests/feeds_tests.module	b381daed898e86a4d65d2d8d657fcb34

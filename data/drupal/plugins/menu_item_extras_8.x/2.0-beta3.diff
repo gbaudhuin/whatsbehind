@@ -1,0 +1,6 @@
+M	.travis.yml	3d849c1f1bbcca2ab2e930205cbd2c48
+M	menu_item_extras.info.yml	978ce5ba997b60f76d4adc089311a4ea
+M	menu_item_extras.module	139145d00726555063d07b0ceb46f738
+M	modules/mie_demo_base/mie_demo_base.info.yml	b03e996699ef2609d9a4a951bb2e02e7
+M	src/Service/MenuLinkContentService.php	c31caca4608f1f7fa6ea2bd68097e501
+M	src/Service/MenuLinkContentServiceInterface.php	b8b28dd4b455f20c20ececb5a1d36ed4

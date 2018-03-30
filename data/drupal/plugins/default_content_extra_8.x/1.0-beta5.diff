@@ -1,0 +1,5 @@
+M	default_content_extra.info.yml	e58bb7057c869874469ec532fa8517d6
+M	default_content_extra.services.yml	dbfb9ea889463a9dc35e0a08456f3d1e
+M	drush/default_content_extra.drush.inc	187f149bfcbc8962bb081aef62a9c42e
+D	src/EventSubscriber/DefaultContentImportSubscriber.php	
+M	src/Normalizer/NodeEntityNormalizer.php	36f4ff914626599b2ef69c37ff27f894

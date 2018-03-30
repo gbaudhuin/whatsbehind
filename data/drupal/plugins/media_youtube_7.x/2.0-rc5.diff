@@ -1,0 +1,13 @@
+D	CHANGELOG.txt	
+M	README.txt	685cbb69478956d60005c05b84711f78
+M	includes/MediaInternetYouTubeHandler.inc	fe97d433f32f37b9d09b95f734fb8c12
+M	includes/MediaYouTubeBrowser.inc	bc2c69bd43e4c5458d692f6c04bc6d50
+M	includes/MediaYouTubeStreamWrapper.inc	555089ec45da5e57c8dac8016d92c93b
+M	includes/media_youtube.formatters.inc	dfccc56ca7bce9bef4a7dcd60d64af85
+M	js/media-youtube.browser.js	353eca4bf3c3f7128bb80274b621e067
+A	media_youtube.file_default_displays.inc	86224bcb6e581e75cc2bf0c3b0ac0325
+M	media_youtube.info	74a3d65f297efb5d06ff999c9e32d91f
+M	media_youtube.install	6b7ad256cd48edf6e46e1e976ca28c95
+M	media_youtube.module	dc3dae749d2b9c2888cbdb25de12c891
+M	themes/media-youtube-video.legacy-example.tpl.php	df03f909daa26365140e254a7c0d8d4a
+M	themes/media_youtube.theme.inc	c7bec5ce81ba3d4c896af824e30243a4

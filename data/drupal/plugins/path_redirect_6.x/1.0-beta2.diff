@@ -1,0 +1,8 @@
+A	CHANGELOG.txt	4528b01d41db26468aef71b7239bbf84
+M	path_redirect.admin.inc	6e927dc79396ea1a6eac7cf8fb7f0207
+M	path_redirect.info	bb67a41e010a2865e72d614c90a5c130
+M	path_redirect.install	7c60b3ca83561458fcf3992534b4739e
+M	path_redirect.module	9c57bcb2076f6f081f852bb9394c1074
+A	path_redirect.test	4c9cd97d5cf94584357eaedbd334acee
+A	translations/fr.po	b43363a12aa24e89d5a3b2388a4a333e
+M	translations/path_redirect.pot	60d3d9362e7cc5cacee56370483df5f8

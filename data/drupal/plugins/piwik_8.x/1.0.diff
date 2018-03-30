@@ -1,0 +1,12 @@
+M	composer.json	c1fd7711978267d26a426d3d547d88f1
+M	config/install/piwik.settings.yml	c10ed31673230eb45987020bdb1b0922
+M	config/schema/piwik.schema.yml	e8c245dda325fe0e9f6198a68d551258
+M	js/piwik.admin.js	a29d943990a017d1df4e85fdd95e46e1
+M	js/piwik.js	64bd5e7d567b0414c881ba5eb81e3dc5
+M	migration_templates/d7_piwik_settings.yml	b688ce5510297fec9b0f9ecf3633572d
+M	piwik.info.yml	ff204456eadf6c2fb80eb2f81c53c637
+M	piwik.install	cb3d618c33570ba5139b86bd16cc452e
+M	piwik.module	747aace3109be089c5ef7d498e2d2b51
+M	src/Form/PiwikAdminSettingsForm.php	103ff0bf1c8823fd7453a4f48f69b7d9
+M	src/Plugin/migrate/process/PiwikVisibilityPages.php	d6881e143db068bec0759cde1ab60aa0
+M	src/Plugin/migrate/process/PiwikVisibilityRoles.php	a4d9a124b8178d7de47ad3aa283c5767

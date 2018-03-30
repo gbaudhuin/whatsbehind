@@ -1,0 +1,5 @@
+M	src/Form/StyleguideForm.php	39cf8d49348f7665d93b65a591454b7b
+M	src/Generator.php	291af6fbf9ae18b7833ff368cf59afd9
+M	src/Plugin/Styleguide/defaultStyleguide.php	f0ce111351ff530611f319e07c6f0709
+M	styleguide.info.yml	20395e3f8bc1394717751ccfbfd45b32
+M	styleguide.routing.yml	fe37f3f5e8899b237b0bead3eb6dd15f

@@ -1,0 +1,10 @@
+M	flag.api.php	1b438c8b169fd6210c1625f69f2879d2
+M	flag.inc	2b04f69f402adbe88df26067a43a2bc8
+M	flag.info	ab6a49c924d4cf548ab746d92950be84
+M	flag.module	0944b00310275e8831e47bd9f758f169
+M	flag.rules.inc	d5aa394977228e612a70aaf75331a28b
+M	flag_actions.info	23281f05f7a13f6b55ffaa2bf1dc0f27
+M	includes/flag.admin.inc	1b997296c11d49ca7c54622fdbcc5491
+M	includes/flag.views.inc	cdeef40009cfb8462eb7d02f1b9f831e
+A	includes/flag_handler_sort_flagged.inc	fc62cf96559404d201d162826da570d7
+M	theme/flag.tpl.php	fe3882007005aacd33662417f5864041

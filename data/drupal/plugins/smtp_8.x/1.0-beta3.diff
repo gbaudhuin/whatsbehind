@@ -1,0 +1,7 @@
+M	config/install/smtp.settings.yml	a2b0ebb55d913007252f3239544dab7b
+M	config/schema/smtp.schema.yml	7bfbe3015404ca4fea2929612085fdd6
+M	smtp.info.yml	3751c4120bca64e25d53012458d6d367
+M	smtp.module	9e963e943e29ae3745adbf7494a96b2e
+A	smtp.permissions.yml	d3e402bb6efea6870de2cc9d8b069f75
+M	src/Form/SMTPConfigForm.php	c8aff6fcf5ab078d435789105cf20ec1
+M	src/Plugin/Mail/SMTPMailSystem.php	318a44541fcd7cd52a0f149c55f7b11b

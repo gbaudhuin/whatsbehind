@@ -1,0 +1,12 @@
+A	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+A	classes/commerce_coupon.inc	7c200543389ec20cbf9deaf422214d36
+A	classes/commerce_coupon_log.inc	307fef27b4b49e48f7e1f21c241cccf7
+A	classes/commerce_coupon_type.inc	645ffd6e44beb010ff5fb9e467d6db6a
+A	commerce_coupon.info	8aa65c5647f051405d2aed6e52682c32
+A	commerce_coupon.install	a22ef425e71b8e6c82d3715adcbba70d
+A	commerce_coupon.module	cb38fb972796c1edae63cf1a2cbe7d37
+A	commerce_coupon.rules.inc	ab0259f6df3d49b4ce12a7dfcf570463
+A	includes/commerce_coupon.checkout_pane.inc	6d2e4bd647930fba6ccb2001065db601
+A	modules/batch/commerce_coupon_batch.info	d1bb7792aa828ad953bdc775d261985f
+A	modules/batch/commerce_coupon_batch.module	c438b680f1085ead8e980759f44cc8e2
+A	modules/batch/includes/commerce_coupon_batch.form.inc	42c6f09279fb51031706c41af65c717f

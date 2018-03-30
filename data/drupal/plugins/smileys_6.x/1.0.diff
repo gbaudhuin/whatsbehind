@@ -1,0 +1,16 @@
+M	CHANGELOG.txt	8cfca1df962d7b817726818600702bd1
+M	README.txt	32b9b69026add071bbcf45d239de4b95
+M	plist.inc	a73eb41f83f4e56aa46872c3e84abe72
+A	scripts/admin/images/warning.png	dec4fcdfb5bd42c9639077864f7e77ee
+M	scripts/admin/smileys-admin.css	545c061b62383f3585b7c2d90f861c24
+M	scripts/admin/smileys-admin.js	c43c183ea023af50419002ec8ef18cf7
+M	scripts/smileys.css	961474286275d09637f43148cf7d7073
+A	smileys.admin.inc	95de773c9c01068792f6c9188c108815
+M	smileys.info	f04680e89eb0d85a6abeb868b69b2411
+M	smileys.module	fb2722c66ad8fa15c5aed3208dbfefa5
+M	smileys_import.info	15dacf88ad0250101f9d9c2b52c913ac
+M	smileys_import.module	f490dc49751e1ba539bfe81f8c32d937
+A	translations/smileys.de.po	32cb36fe762945f4fb1325500aa768d6
+A	translations/smileys.es.po	dd72abb2439b32683ed65977d733b7bd
+A	translations/smileys.pot	b2008e3a580322c088e59f096f803ea9
+A	translations/smileys.ru.po	c1c43c149ac412713713d68cbfce1e68

@@ -1,0 +1,273 @@
+M	backup_migrate.info.yml	8c1259f5a28d16ccbebe1ba8557f9dd3
+M	backup_migrate.links.action.yml	9433f95510f7df9046d59ed38a2fdb5f
+M	backup_migrate.links.task.yml	74b7c535283eff8b338151e9ff765903
+M	backup_migrate.module	e47afab50e7f2d101f2d0b7dd8f28c87
+M	backup_migrate.permissions.yml	68f0e3ff5b0d5ba477caec0e490e7c48
+M	composer.json	30792b8f3266d0c85d5750dca4ab071b
+A	lib/backup_migrate_core/README.md	91ed73ff22c6c0da029b9d4d964430f4
+A	lib/backup_migrate_core/src/Config/Config.php	2c1a906d8909748ded2fae6c8cef2220
+A	lib/backup_migrate_core/src/Config/ConfigInterface.php	222066392045bb79e5ed7f51c58354fe
+A	lib/backup_migrate_core/src/Config/ConfigurableInterface.php	b1cc9a2a6031381238b587e59c418c58
+A	lib/backup_migrate_core/src/Config/ConfigurableTrait.php	df63d524fc1506606e5b5ee5ffe3f795
+A	lib/backup_migrate_core/src/Config/README.md	5875871c02ddddf6a402ec86f9a62261
+A	lib/backup_migrate_core/src/Config/ValidationError.php	9f5052e75a6b89f0669fa87e4d52db07
+A	lib/backup_migrate_core/src/Config/ValidationErrorInterface.php	e87ddf7fa9a018cea91854ee06b4b1de
+A	lib/backup_migrate_core/src/Destination/BrowserDownloadDestination.php	875569c2b97fbc198181dcf515f48023
+A	lib/backup_migrate_core/src/Destination/DebugDestination.php	1b819c5391d4376444191be0c9991b4d
+A	lib/backup_migrate_core/src/Destination/DestinationBase.php	22c89f13b0a3e85f57b1f992aa43953c
+A	lib/backup_migrate_core/src/Destination/DestinationInterface.php	cb306b70920ab2f54e0744a447fa7f3f
+A	lib/backup_migrate_core/src/Destination/DirectoryDestination.php	661910a9fe20247f072f11bd81e1ab26
+A	lib/backup_migrate_core/src/Destination/ListableDestinationInterface.php	dfa36f110a9763aa987d92990f421d8d
+A	lib/backup_migrate_core/src/Destination/NodeSquirrelDestination.php	9ff3edc90bd72f9675833a4a2d634118
+A	lib/backup_migrate_core/src/Destination/README.md	222d07f2324e98182552283757f885fa
+A	lib/backup_migrate_core/src/Destination/ReadableDestinationInterface.php	abc543a1d1e6525540c1634c47066260
+A	lib/backup_migrate_core/src/Destination/RemoteDestinationInterface.php	8f9edc95736f619efac88c185604178e
+A	lib/backup_migrate_core/src/Destination/SidecarMetadataDestinationTrait.php	9626465b1982eaf5cea4c755648fe889
+A	lib/backup_migrate_core/src/Destination/StreamDestination.php	d08390f8b12573257a7ece2e8d4c36cb
+A	lib/backup_migrate_core/src/Destination/WritableDestinationInterface.php	9daa267691c40312d457e3f6c1bf67d0
+A	lib/backup_migrate_core/src/Exception/BackupMigrateException.php	326f5c802213fd9d7c3623298a1271c0
+A	lib/backup_migrate_core/src/Exception/DestinationNotWritableException.php	94c4889d427ad7efe3c66b5adbdbfe11
+A	lib/backup_migrate_core/src/Exception/HttpClientException.php	ad9fb54aa87e5f26ec4ab289e1f1186c
+A	lib/backup_migrate_core/src/Exception/IgnorableException.php	a2767a184efa7882a7013b9f6bd07fcc
+A	lib/backup_migrate_core/src/File/BackupFile.php	84866573cc5bfbd3313cffcb940345a7
+A	lib/backup_migrate_core/src/File/BackupFileInterface.php	35f6460bbe19e77825f95ac875ce495f
+A	lib/backup_migrate_core/src/File/BackupFileReadableInterface.php	230707648bbfdfe6346bae64a5a449c6
+A	lib/backup_migrate_core/src/File/BackupFileWritableInterface.php	1b4538249bc9bfc006a9aec761b1cfdd
+A	lib/backup_migrate_core/src/File/README.md	e59b9945d98ac6e764a86db292597dbf
+A	lib/backup_migrate_core/src/File/ReadableStreamBackupFile.php	3e27e1e1942611104cf8c7bd4e9e3a12
+A	lib/backup_migrate_core/src/File/TempFileAdapter.php	4016ca70e8bf05a85b241ac6629ea5d2
+A	lib/backup_migrate_core/src/File/TempFileAdapterInterface.php	c71f571728ed37a9e8829192cce3a3ec
+A	lib/backup_migrate_core/src/File/TempFileManager.php	e3ed288d89874b7ed1fb0131d77c4cab
+A	lib/backup_migrate_core/src/File/TempFileManagerInterface.php	16e1cfd220cb0d60bee980dcc3124884
+A	lib/backup_migrate_core/src/File/WritableStreamBackupFile.php	847291f5e54973c45efedc1d08cf021b
+A	lib/backup_migrate_core/src/Filter/CompressionFilter.php	9f48ffa5b1b060f4b3d824eec5aff0d4
+A	lib/backup_migrate_core/src/Filter/DBExcludeFilter.php	56d970dd8d3f2aa30d6e7caf7aa043bb
+A	lib/backup_migrate_core/src/Filter/FileExcludeFilter.php	8d1052a8bb5033858c04c4d0b281753a
+A	lib/backup_migrate_core/src/Filter/FileNamer.php	8a4a1459e09130fd12fc5fe5c796703f
+A	lib/backup_migrate_core/src/Filter/MetadataWriter.php	1192ae60b8d3ecdbc6763c31cc933ec6
+A	lib/backup_migrate_core/src/Filter/Notify.php	c9371ece71bfc3c0e2f03740e43e9107
+A	lib/backup_migrate_core/src/Main/BackupMigrate.php	822e3dfc08fde9a0e06747461e381c22
+A	lib/backup_migrate_core/src/Main/BackupMigrateInterface.php	3662191b81070aaec28cecd9e1d79f61
+A	lib/backup_migrate_core/src/Main/README.md	48ae0b515d2afe90804eb2ca4b8f7450
+A	lib/backup_migrate_core/src/Plugin/FileProcessorInterface.php	d2f91069166fd20a471aa71de08ba342
+A	lib/backup_migrate_core/src/Plugin/FileProcessorTrait.php	b04906e011eee248f3030c4c2ba60f39
+A	lib/backup_migrate_core/src/Plugin/PluginBase.php	d79d150e1d265eedf0219808ad493325
+A	lib/backup_migrate_core/src/Plugin/PluginCallerInterface.php	d5efc199f16f83ee221a0ae6465c1478
+A	lib/backup_migrate_core/src/Plugin/PluginCallerTrait.php	5f856b56565dbcb6c6b28f184826a0a3
+A	lib/backup_migrate_core/src/Plugin/PluginInterface.php	2d1b0e0f118016759429d6c66a267010
+A	lib/backup_migrate_core/src/Plugin/PluginManager.php	fb41be9aabf76ead229002a7fd1a0eda
+A	lib/backup_migrate_core/src/Plugin/PluginManagerInterface.php	ef5f47dea5f2c99ba99a0258fad14b3a
+A	lib/backup_migrate_core/src/Plugin/README.md	16376a27ff6051621bc47ee8ab4800a2
+A	lib/backup_migrate_core/src/Service/ArchiveReaderInterface.php	11a68ab5836c36ff1eda0cbe8f953590
+A	lib/backup_migrate_core/src/Service/ArchiveWriterInterface.php	9630789b3619acf9dad7200846113f15
+A	lib/backup_migrate_core/src/Service/ArchiverInterface.php	477c065b7e80b162a315543aa209efc4
+A	lib/backup_migrate_core/src/Service/HTTPClientInterface.php	9e81d978bf5789883304f3081ddb0e7e
+A	lib/backup_migrate_core/src/Service/Mailer.php	25b7c1ece7827435bca8158439fc9bd0
+A	lib/backup_migrate_core/src/Service/MailerInterface.php	aa8cf78d2f532bda7b6e90980ae45879
+A	lib/backup_migrate_core/src/Service/NodeSquirrelClient.php	f639f2cd8cabd09be0970cffe48edc35
+A	lib/backup_migrate_core/src/Service/PhpCurlHttpClient.php	4e9010686e5601d18dd04abfc9b38c15
+A	lib/backup_migrate_core/src/Service/README.md	e69f6e2cc0c3b0938bf2944afbd60f72
+A	lib/backup_migrate_core/src/Service/ServiceManager.php	c99d6576d11561475020f199cbe6751e
+A	lib/backup_migrate_core/src/Service/ServiceManagerInterface.php	f341810e7028299ffee36b8dfea2ad91
+A	lib/backup_migrate_core/src/Service/StashLogger.php	26fee5242d17bb8cb4f8a45e7377beed
+A	lib/backup_migrate_core/src/Service/TarArchiveReader.php	a0aa329262f8b47ed486f1b1ffff08c8
+A	lib/backup_migrate_core/src/Service/TarArchiveWriter.php	834248a40979605b0ad9c1b30f65a8a4
+A	lib/backup_migrate_core/src/Service/TeeLogger.php	d88b28430cf414a8ed2812bb8a2d3347
+A	lib/backup_migrate_core/src/Source/DatabaseSource.php	2e73143cb6009ef3f029cc952dc9cd9f
+A	lib/backup_migrate_core/src/Source/DatabaseSourceInterface.php	be5db57d83f347b15a2856aaae8e94d6
+A	lib/backup_migrate_core/src/Source/FileDirectorySource.php	510c2c17e2e3ecc991f19e3124573625
+A	lib/backup_migrate_core/src/Source/MySQLiSource.php	051bcd5e03048a5546764126d2d33cab
+A	lib/backup_migrate_core/src/Source/README.md	5fc3d8ed9a3271de3a0103ad4b3293ba
+A	lib/backup_migrate_core/src/Source/SourceBase.php	fbfb96ff4766d644b9d65818d8ffe8f2
+A	lib/backup_migrate_core/src/Source/SourceInterface.php	63a4e80807d8f0a93dd69d568a712395
+A	lib/backup_migrate_core/src/Translation/PassthroughTranslator.php	ec41a160fce6ad15e9b61726c6aa1f00
+A	lib/backup_migrate_core/src/Translation/TranslatableInteface.php	e8db58bde65dbff371f834536c392ca5
+A	lib/backup_migrate_core/src/Translation/TranslatableTrait.php	7d0d2d4b1b178c3ab9009f4b195d0358
+A	lib/backup_migrate_core/src/Translation/TranslatorInterface.php	fc36abb8c2e86fde188cf0afabd29748
+A	lib/backup_migrate_core/tests/Config/ConfigTest.php	e1aaba7c11109be996a11d1b4c358a59
+A	lib/backup_migrate_core/tests/Config/ConfigurableStub.php	33e47496b4787ec4d1e17d98f48575c2
+A	lib/backup_migrate_core/tests/Config/ConfigurableTraitTest.php	ceb7d47b0ba23d996eb75d74231134d8
+A	lib/backup_migrate_core/tests/Destination/DirectoryDestinationTest.php	5446c00b696f138a603e2867aa577a98
+A	lib/backup_migrate_core/tests/Destination/NodeSquirrelDestinationTest.php	8649f07e0af1b4267c44cd39ca270e47
+A	lib/backup_migrate_core/tests/Destination/StreamDestinationTest.php	6354b3ba166c72532c5d5c22039d48bf
+A	lib/backup_migrate_core/tests/File/ReadableStreamBackupFileTest.php	039dcc245889ca3a1d7d46de2a6da86b
+A	lib/backup_migrate_core/tests/File/TempFileAdapterTest.php	1616939778a95fd7f8fc1db9ed5b0220
+A	lib/backup_migrate_core/tests/File/TempFileConsumerTestTrait.php	55cd153c1ba803f8d6da66a3fc46dd2f
+A	lib/backup_migrate_core/tests/File/TempFileManagerTest.php	447b9533513a36e9e53eec7517339a29
+A	lib/backup_migrate_core/tests/File/WritableStreamBackupFileTest.php	bed1c523ac527b64df5a6436da128f85
+A	lib/backup_migrate_core/tests/Filter/CompressionFilterTest.php	65a021ce2ba07ea96f2245e91156bb82
+A	lib/backup_migrate_core/tests/Filter/FileExcludeFilterTest.php	6694cd4801615c554c6085e70faa62b0
+A	lib/backup_migrate_core/tests/Filter/FileNamerTest.php	054f00e36b8bf5531fd00994351ce2f8
+A	lib/backup_migrate_core/tests/Filter/MetadataWriterTest.php	f089002ab7e54a1973a200d19f555242
+A	lib/backup_migrate_core/tests/Fixtures/backupmigratecoretest.sql	a9024c532ca00c1fa486decf49b5a444
+A	lib/backup_migrate_core/tests/Main/BackupMigrateTest.php	27b4409ef31a1c94225c6884f3a0dad2
+A	lib/backup_migrate_core/tests/Plugin/PluginManagerTest.php	18e6296281b2d2fdc56af65ab4f4b63a
+A	lib/backup_migrate_core/tests/Service/NodeSquirrelClientTest.php	34539dc94aeeb361b29486c9a5250a1d
+A	lib/backup_migrate_core/tests/Service/StashLoggerTest.php	cf8ab1c5e7d625ec5fa038da61214ea6
+A	lib/backup_migrate_core/tests/Service/TarArchiveReaderTest.php	a9e23e413fb038123ac3f7752b4723d0
+A	lib/backup_migrate_core/tests/Service/TarArchiveWriterTest.php	c28818e6a1e3d519d981b6c7b1858f79
+A	lib/backup_migrate_core/tests/Service/TeeLoggerTest.php	c7a4f6ab2fa3d0e959262042cf9337d2
+A	lib/backup_migrate_core/tests/Source/FileDirectorySourceTest.php	cff18e4f21c67db703fb3bcd99e93d3f
+A	lib/backup_migrate_core/tests/Source/MySQLiSourceTest.php	9208aa6abf05653d55cb9ea4a7d1d739
+A	lib/backup_migrate_core/tests/bootstrap.php	ea540ce7ab7768618948af35b5f28d28
+M	src/Config/DrupalConfigHelper.php	39ffa77107010a6b7c7e14983a74ac33
+M	src/Controller/BackupController.php	124ee2c35145479d912961793e635b4b
+M	src/Controller/DestinationListBuilder.php	2536a55a6363b47b3c1720aedec94f23
+M	src/Controller/ScheduleListBuilder.php	da73855ce2505169d961187d88275c7c
+M	src/Controller/SourceListBuilder.php	e87adba416ab6642064c20c0ab8afc2d
+M	src/Destination/DrupalBrowserDownloadDestination.php	a659a473c832002ebfb1d993c07d3234
+M	src/Destination/DrupalBrowserUploadDestination.php	165b19b0c4de85af1ca7293ce13e1660
+M	src/Destination/DrupalDirectoryDestination.php	9e44f83a641acdb92efb5ca86b76f9c8
+M	src/Entity/Destination.php	077b6d7550b4479b47d3a026587d142a
+M	src/Entity/Schedule.php	41ac1b39e415d3e6205eb88c1f2f89fb
+M	src/Entity/SettingsProfile.php	453fd807fea44559b4db24d82e6a9a31
+M	src/Entity/Source.php	5b5ffe854cf128041a5eb763c0db1bd3
+M	src/Entity/WrapperEntityBase.php	fe752a140c40ccb0fe8bc3cf490273bd
+M	src/EntityPlugins/Annotation/BackupMigrateDestinationPlugin.php	3277bdc5964b62d9760939149bd52591
+M	src/EntityPlugins/Annotation/BackupMigrateSourcePlugin.php	740984810ab7b4575c58e3d63adeef3d
+M	src/EntityPlugins/DestinationPluginBase.php	2f00459d64a278fe4c28d9cb43484766
+M	src/EntityPlugins/DestinationPluginInterface.php	0eaed6652aa62f58ca48d7168999d9ad
+M	src/EntityPlugins/DestinationPluginManager.php	67d6e7d88b7e742afcb0df79022c45d2
+M	src/EntityPlugins/SourcePluginBase.php	5f420c0958e126f0278c5ce9913f3b10
+M	src/EntityPlugins/SourcePluginInterface.php	a9b9f46bb8d4953f8d639a807cd72a3a
+M	src/EntityPlugins/SourcePluginManager.php	0b40c4010e6449dc0680452249f99e84
+M	src/EntityPlugins/WrapperPluginBase.php	f9340cb4794d227581ad45deaed5801d
+M	src/EntityPlugins/WrapperPluginInterface.php	72f7cb000e75822a3ca8d7650a168b04
+M	src/Environment/DrupalEnvironment.php	e7ec933f49d1bf6b24f4b34e410f086d
+M	src/Environment/DrupalSetMessageLogger.php	57f98968988708e3c3d07b8021bbf6ac
+M	src/File/DrupalTempFileAdapter.php	30ec6abd6548e8760d2698f7b1f59ea4
+M	src/Filter/DrupalPublicFileExcludeFilter.php	f98fd0cf67d40f6fa9e3905c8078d1e8
+M	src/Filter/DrupalUtils.php	a8639b56e65cab99d85a79592a52eab1
+M	src/Form/BackupDeleteForm.php	2242718df4b5960a5aa251d617fe8cfc
+M	src/Form/BackupMigrateAdvancedBackupForm.php	c8b9785fcaf9ed33c599b9e45f2cf556
+M	src/Form/BackupMigrateQuickBackupForm.php	dc38f368fd92c0072c57b0b20b17e1ff
+M	src/Form/BackupMigrateRestoreForm.php	ea357f495babf6e06be5cd4841c940a2
+M	src/Form/BackupRestoreForm.php	252c2e1eabbc9e391f50a7191bc6e7a6
+M	src/Form/DestinationForm.php	e061d5cd47be959e14d4e1dc7edf12e1
+M	src/Form/EntityDeleteForm.php	9f3d9d7a41af0b3a277cad9e21975a8a
+M	src/Form/ScheduleDeleteForm.php	f5ede4d393d4453c513ba509f12d2f68
+M	src/Form/ScheduleForm.php	38e283cee2d1ccd949ee34a61be89f57
+M	src/Form/SettingsProfileDeleteForm.php	8982901d64aaad45fcbbc4fb1d009a42
+M	src/Form/SettingsProfileForm.php	e022d80a443d149dbfaff3f82c32455d
+M	src/Form/SourceForm.php	b8c2685014306a94b939fe59b05a78af
+M	src/Form/WrapperEntityForm.php	02e25fd3fd254f3a95138af9ed336ea2
+M	src/Plugin/BackupMigrateDestination/DirectoryDestinationPlugin.php	a95d1e587ebc6d54f8232e70194d2786
+M	src/Plugin/BackupMigrateSource/DefaultDBSourcePlugin.php	162b83f4967e466698b21f3b5e2cdda5
+M	src/Plugin/BackupMigrateSource/DrupalFilesSourcePlugin.php	083353adf741acbf2af376919e7c1ac2
+M	src/Plugin/BackupMigrateSource/EntireSiteSourcePlugin.php	ce0baad0e34ca872c801942e99a6424b
+M	src/Plugin/BackupMigrateSource/FileDirectorySourcePlugin.php	ae6cdebb51dae146ed9b58f93ad80dfb
+M	src/Plugin/BackupMigrateSource/MySQLSourcePlugin.php	2cb71167424adbb526ab28301d43e240
+M	src/SettingsProfileInterface.php	13db016ffafb88792c74b5b96a03eeaa
+M	src/Source/DrupalPublicFilesSource.php	f008772ac68161feb7cec43f81b846c8
+M	src/Source/DrupalSiteArchiveSource.php	0dcaa9a262805eeaf7194617916d62ff
+D	vendor/autoload.php	
+D	vendor/backupmigrate/core/.gitignore	
+D	vendor/backupmigrate/core/README.md	
+D	vendor/backupmigrate/core/circle.yml	
+D	vendor/backupmigrate/core/composer.json	
+D	vendor/backupmigrate/core/phpunit.xml.dist	
+D	vendor/backupmigrate/core/src/Config/Config.php	
+D	vendor/backupmigrate/core/src/Config/ConfigInterface.php	
+D	vendor/backupmigrate/core/src/Config/ConfigurableInterface.php	
+D	vendor/backupmigrate/core/src/Config/ConfigurableTrait.php	
+D	vendor/backupmigrate/core/src/Config/README.md	
+D	vendor/backupmigrate/core/src/Config/ValidationError.php	
+D	vendor/backupmigrate/core/src/Config/ValidationErrorInterface.php	
+D	vendor/backupmigrate/core/src/Destination/BrowserDownloadDestination.php	
+D	vendor/backupmigrate/core/src/Destination/DebugDestination.php	
+D	vendor/backupmigrate/core/src/Destination/DestinationBase.php	
+D	vendor/backupmigrate/core/src/Destination/DestinationInterface.php	
+D	vendor/backupmigrate/core/src/Destination/DirectoryDestination.php	
+D	vendor/backupmigrate/core/src/Destination/ListableDestinationInterface.php	
+D	vendor/backupmigrate/core/src/Destination/README.md	
+D	vendor/backupmigrate/core/src/Destination/ReadableDestinationInterface.php	
+D	vendor/backupmigrate/core/src/Destination/SidecarMetadataDestinationTrait.php	
+D	vendor/backupmigrate/core/src/Destination/StreamDestination.php	
+D	vendor/backupmigrate/core/src/Destination/WritableDestinationInterface.php	
+D	vendor/backupmigrate/core/src/Exception/BackupMigrateException.php	
+D	vendor/backupmigrate/core/src/Exception/DestinationNotWritableException.php	
+D	vendor/backupmigrate/core/src/Exception/IgnorableException.php	
+D	vendor/backupmigrate/core/src/File/BackupFile.php	
+D	vendor/backupmigrate/core/src/File/BackupFileInterface.php	
+D	vendor/backupmigrate/core/src/File/BackupFileReadableInterface.php	
+D	vendor/backupmigrate/core/src/File/BackupFileWritableInterface.php	
+D	vendor/backupmigrate/core/src/File/README.md	
+D	vendor/backupmigrate/core/src/File/ReadableStreamBackupFile.php	
+D	vendor/backupmigrate/core/src/File/TempFileAdapter.php	
+D	vendor/backupmigrate/core/src/File/TempFileAdapterInterface.php	
+D	vendor/backupmigrate/core/src/File/TempFileManager.php	
+D	vendor/backupmigrate/core/src/File/TempFileManagerInterface.php	
+D	vendor/backupmigrate/core/src/File/WritableStreamBackupFile.php	
+D	vendor/backupmigrate/core/src/Filter/CompressionFilter.php	
+D	vendor/backupmigrate/core/src/Filter/DBExcludeFilter.php	
+D	vendor/backupmigrate/core/src/Filter/FileExcludeFilter.php	
+D	vendor/backupmigrate/core/src/Filter/FileNamer.php	
+D	vendor/backupmigrate/core/src/Filter/MetadataWriter.php	
+D	vendor/backupmigrate/core/src/Filter/Notify.php	
+D	vendor/backupmigrate/core/src/Main/BackupMigrate.php	
+D	vendor/backupmigrate/core/src/Main/BackupMigrateInterface.php	
+D	vendor/backupmigrate/core/src/Main/README.md	
+D	vendor/backupmigrate/core/src/Plugin/FileProcessorInterface.php	
+D	vendor/backupmigrate/core/src/Plugin/FileProcessorTrait.php	
+D	vendor/backupmigrate/core/src/Plugin/PluginBase.php	
+D	vendor/backupmigrate/core/src/Plugin/PluginCallerInterface.php	
+D	vendor/backupmigrate/core/src/Plugin/PluginCallerTrait.php	
+D	vendor/backupmigrate/core/src/Plugin/PluginInterface.php	
+D	vendor/backupmigrate/core/src/Plugin/PluginManager.php	
+D	vendor/backupmigrate/core/src/Plugin/PluginManagerInterface.php	
+D	vendor/backupmigrate/core/src/Plugin/README.md	
+D	vendor/backupmigrate/core/src/Service/ArchiveReaderInterface.php	
+D	vendor/backupmigrate/core/src/Service/ArchiveWriterInterface.php	
+D	vendor/backupmigrate/core/src/Service/ArchiverInterface.php	
+D	vendor/backupmigrate/core/src/Service/Mailer.php	
+D	vendor/backupmigrate/core/src/Service/MailerInterface.php	
+D	vendor/backupmigrate/core/src/Service/README.md	
+D	vendor/backupmigrate/core/src/Service/ServiceManager.php	
+D	vendor/backupmigrate/core/src/Service/ServiceManagerInterface.php	
+D	vendor/backupmigrate/core/src/Service/StashLogger.php	
+D	vendor/backupmigrate/core/src/Service/TarArchiveReader.php	
+D	vendor/backupmigrate/core/src/Service/TarArchiveWriter.php	
+D	vendor/backupmigrate/core/src/Service/TeeLogger.php	
+D	vendor/backupmigrate/core/src/Source/DatabaseSource.php	
+D	vendor/backupmigrate/core/src/Source/DatabaseSourceInterface.php	
+D	vendor/backupmigrate/core/src/Source/FileDirectorySource.php	
+D	vendor/backupmigrate/core/src/Source/MySQLiSource.php	
+D	vendor/backupmigrate/core/src/Source/README.md	
+D	vendor/backupmigrate/core/src/Source/SourceBase.php	
+D	vendor/backupmigrate/core/src/Source/SourceInterface.php	
+D	vendor/backupmigrate/core/src/Translation/PassthroughTranslator.php	
+D	vendor/backupmigrate/core/src/Translation/TranslatableInteface.php	
+D	vendor/backupmigrate/core/src/Translation/TranslatableTrait.php	
+D	vendor/backupmigrate/core/src/Translation/TranslatorInterface.php	
+D	vendor/backupmigrate/core/tests/Config/ConfigTest.php	
+D	vendor/backupmigrate/core/tests/Config/ConfigurableStub.php	
+D	vendor/backupmigrate/core/tests/Config/ConfigurableTraitTest.php	
+D	vendor/backupmigrate/core/tests/Destination/DirectoryDestinationTest.php	
+D	vendor/backupmigrate/core/tests/Destination/StreamDestinationTest.php	
+D	vendor/backupmigrate/core/tests/File/ReadableStreamBackupFileTest.php	
+D	vendor/backupmigrate/core/tests/File/TempFileAdapterTest.php	
+D	vendor/backupmigrate/core/tests/File/TempFileConsumerTestTrait.php	
+D	vendor/backupmigrate/core/tests/File/TempFileManagerTest.php	
+D	vendor/backupmigrate/core/tests/File/WritableStreamBackupFileTest.php	
+D	vendor/backupmigrate/core/tests/Filter/CompressionFilterTest.php	
+D	vendor/backupmigrate/core/tests/Filter/FileExcludeFilterTest.php	
+D	vendor/backupmigrate/core/tests/Filter/FileNamerTest.php	
+D	vendor/backupmigrate/core/tests/Filter/MetadataWriterTest.php	
+D	vendor/backupmigrate/core/tests/Fixtures/backupmigratecoretest.sql	
+D	vendor/backupmigrate/core/tests/Main/BackupMigrateTest.php	
+D	vendor/backupmigrate/core/tests/Plugin/PluginManagerTest.php	
+D	vendor/backupmigrate/core/tests/Service/StashLoggerTest.php	
+D	vendor/backupmigrate/core/tests/Service/TarArchiveReaderTest.php	
+D	vendor/backupmigrate/core/tests/Service/TarArchiveWriterTest.php	
+D	vendor/backupmigrate/core/tests/Service/TeeLoggerTest.php	
+D	vendor/backupmigrate/core/tests/Source/FileDirectorySourceTest.php	
+D	vendor/backupmigrate/core/tests/Source/MySQLiSourceTest.php	
+D	vendor/backupmigrate/core/tests/bootstrap.php	
+D	vendor/composer/ClassLoader.php	
+D	vendor/composer/LICENSE	
+D	vendor/composer/autoload_classmap.php	
+D	vendor/composer/autoload_namespaces.php	
+D	vendor/composer/autoload_psr4.php	
+D	vendor/composer/autoload_real.php	
+D	vendor/composer/autoload_static.php	
+D	vendor/composer/installed.json	

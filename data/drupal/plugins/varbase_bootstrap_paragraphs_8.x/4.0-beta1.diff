@@ -1,0 +1,14 @@
+M	config/install/core.entity_form_display.paragraph.bp_accordion.default.yml	1313acb411343cd63276000d44f9bcab
+M	config/install/core.entity_form_display.paragraph.bp_accordion_section.default.yml	1032ddb7523cde45d1fdc5c244a08030
+M	config/install/core.entity_form_display.paragraph.bp_carousel.default.yml	a576e08db891240d303ea4b506b7c195
+M	config/install/core.entity_form_display.paragraph.bp_columns.default.yml	a30172807e045dc1ed9b958c8e4810fb
+M	config/install/core.entity_form_display.paragraph.bp_columns_three_uneven.default.yml	753155a8828d57247546838626f2e84d
+M	config/install/core.entity_form_display.paragraph.bp_columns_two_uneven.default.yml	a6ba59e20e12922dd800b94a13d7f319
+M	config/install/core.entity_form_display.paragraph.bp_modal.default.yml	c7d3e3bae6daa28c215138522777e0b4
+M	config/install/core.entity_form_display.paragraph.bp_tab_section.default.yml	58383752255880900ba2b6db7479b2be
+M	config/install/core.entity_form_display.paragraph.bp_tabs.default.yml	b912a1797147fa5b2cf58f1ad450b70c
+M	css/base/vbp-default.admin.css	f001306975035585491961baf7030945
+M	less/base/vbp-default.admin.less	fd05e477a84d9bdb988c0ea9a84cc1e9
+M	modules/vbp_text_and_image/vbp_text_and_image.info.yml	839ea174bd0171eb65220e53fb20977b
+M	varbase_bootstrap_paragraphs.info.yml	ac5ec548856afd0535422cad719722f4
+M	varbase_bootstrap_paragraphs.module	6733064a1ad829de0ebb287bac3e21ff

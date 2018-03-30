@@ -1,0 +1,43 @@
+M	includes/migrate/7000/og_content.inc	753b1a65b4cda0453c6016acb9a67bae
+D	includes/migrate/7200/og_group_audience.migrate.inc	
+M	includes/migrate/7200/og_og_membership.migrate.inc	d435bb19fff74db9c45a20212fc19c72
+D	includes/migrate/7200/og_ogur.migrate.inc	
+D	includes/migrate/7200/og_ogur_permissions.migrate.inc	
+M	includes/migrate/7200/og_roles.migrate.inc	0855cc95a23514491293d3fed66c147a
+M	includes/migrate/7200/og_user_roles.migrate.inc	6cf4246eecc08bdc643de980ad70bc08
+M	includes/migrate/og.migrate.inc	ff9603abd8b398216f0addafe14e42c6
+M	includes/migrate/plugins/destinations/og_membership.inc	4e3a6384337e4e2f6572391f7f3e954d
+M	includes/og.field.inc	be459317eb2317839ff1b7f5e444b5f2
+M	includes/og_features_permission.features.inc	3b6f50644be91cb650d744b1396b3b5a
+M	includes/views/handlers/og_handler_field_group_permissions.inc	1f7cf04658096aaa49e448edb436e5ed
+M	includes/views/og.views.inc	ebbd0742c97cbc1aee6af45f5a4c845f
+M	og.info	6c798a7170a64b1f5528f2473a83af8b
+M	og.install	754cba6f9591c9bcc585d2e5a3ca63b3
+M	og.module	9264be3a4416f1ccf73269ce699c2d5e
+M	og.test	c3740ab189341a83c3ebf84d04bc092b
+M	og_access/og_access.info	342a531d8eb0298817f3b69eec6e9fb8
+M	og_access/og_access.module	9284f5c85a33bea122deceb9477bd7b1
+M	og_access/og_access.test	e70cecf00d6e05199b05eb574575fcb0
+M	og_context/includes/views/handlers/og_context_plugin_argument_default_group_context.inc	92ad8cd750916ecb654a31ae6d749564
+M	og_context/og_context.info	e7ed564665cb447eb3d0e235398a068e
+M	og_context/og_context.module	0ff655b3ba9c87c41ebb407d7165fde6
+M	og_example/og_example.info	1f86f6edf8ae99f5e6e7fb644774c794
+M	og_example/og_example.install	37358e677352f59543894fd4b7ea6f91
+M	og_field_access/og_field_access.info	677c1f2f5d129c374ccd0f2acd2668ea
+M	og_register/og_register.info	13dfedd23cba319a55dad0ffdf63f996
+M	og_ui/og_ui.admin.inc	0752b47a28edefd5e60ca476116c4789
+M	og_ui/og_ui.info	0be3382da01b89e3492fa412af474bb8
+M	og_ui/og_ui.module	f30290d64cdb7ce02c5bdb1addf32921
+M	og_ui/og_ui.pages.inc	d7e105979efac172c3693cd33088601e
+M	og_ui/og_ui.test	710c946859733c35fc0725412e1a4d6a
+M	plugins/entityreference/behavior/OgBehaviorHandler.class.php	a9c9a19a57a678db92283240bd813ded
+M	plugins/entityreference/behavior/OgWidgetHandler.class.php	cbeaada84e93b251658c239afe17e5ac
+M	plugins/entityreference/selection/OgSelectionHandler.class.php	d820cd1cc2e2f5e5049e4cd899e17436
+D	plugins/og_migrate/7000/og_7000_group.inc	
+D	plugins/og_migrate/7000/og_7000_group_content.inc	
+D	plugins/og_migrate/7000/og_7000_group_description.inc	
+D	plugins/og_migrate/7000/og_7000_user.inc	
+D	plugins/og_migrate/7200/og_7200_roles.inc	
+D	plugins/og_migrate/7200/og_7200_user_roles.inc	
+A	tests/og_test.info	3c04ee93c28de8ce12fa2ded9bdfe8c1
+A	tests/og_test.module	2d5535d71b7c3b0cea9b6f97eef6ba79

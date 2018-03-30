@@ -1,0 +1,9 @@
+M	README.txt	89584b3658bfe75ebe72b3552c8bdf95
+M	src/Plugin/views/filter/NodeStatus.php	08f7c26a098ef9f354dd3b01bbb8eda4
+M	src/ViewUnpublishedPermissions.php	5d5bc87e3e118a31b97bef3097e5ef4b
+M	tests/src/Functional/ViewUnpublishedViewsTest.php	3146bb79ce4c816e99795a512148a1df
+M	view_unpublished.info.yml	712536f6805d5297309bf0669f25dad4
+M	view_unpublished.install	68a67e66711e1eb02c0cf26436167b94
+M	view_unpublished.module	a8f56dea722663ad1cdec34cecc77a5a
+M	view_unpublished.views.inc	51a6537c05ab4fc2beed357f665ef105
+M	view_unpublished.views_execution.inc	f01da7a22c05eccc360a4466bfcd452a

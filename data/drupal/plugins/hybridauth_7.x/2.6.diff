@@ -1,0 +1,34 @@
+M	css/hybridauth.css	19927407a6e1537c5c8e2fd72c00dd32
+M	hybridauth.admin.inc	1fbc2994b3427f04edf6887c9318e229
+M	hybridauth.info	e034242eb0fafd90ce5486ef103c214c
+M	hybridauth.install	176ce0432f38ac467ef31afe26eb8e5e
+M	hybridauth.module	6bbd4cf775a37d9379db1c14c6a8f545
+M	hybridauth.pages.inc	cbac86cabb49cb1e87b7360fb46d8804
+M	hybridauth.rules.inc	43198bfa4bd0ad44dc6472dcfd27dbb9
+M	hybridauth.theme.inc	d02e59efee391d26d67f99c213423168
+M	hybridauth.tokens.inc	8cf355a016b205cae8d509855d085666
+A	hybridauth_ulogin/hybridauth_ulogin.admin.inc	e4555df3c4043ee9ae2b470bd885fd58
+A	hybridauth_ulogin/hybridauth_ulogin.info	b284144a5f2d5a4a2458f1a05bdafe7a
+A	hybridauth_ulogin/hybridauth_ulogin.module	bb7f9f0c4cbf71ed6421c0ddbd01f2e7
+M	plugins/icon_pack/hybridauth_16/icons/aol.png	4e805ec613d097c690d1c41a505f1272
+M	plugins/icon_pack/hybridauth_16/icons/live.png	378b6b826aec35cea09c0121e376a0c9
+M	plugins/icon_pack/hybridauth_16/icons/odnoklassniki.png	5f5ccbd056d918473912432c7b011b06
+M	plugins/icon_pack/hybridauth_16/icons/vkontakte.png	264014bb1993333e3c0f9704bb4f7e8e
+M	plugins/icon_pack/hybridauth_16/icons/yahoo.png	47e2469927f290dab99e18837fbca80d
+A	plugins/icon_pack/hybridauth_24/icons/aol.png	9707dfd550463027139ba1ff97a1d338
+M	plugins/icon_pack/hybridauth_24/icons/live.png	de5edf02eb1593e05f9198fae2198009
+D	plugins/icon_pack/hybridauth_24/icons/mailru.png	
+M	plugins/icon_pack/hybridauth_24/icons/odnoklassniki.png	f3aa2a7b2ebf139fe615f1e6f4270ff0
+M	plugins/icon_pack/hybridauth_24/icons/vkontakte.png	7d93bf9603aad8e05e9d3356adba6328
+M	plugins/icon_pack/hybridauth_24/icons/yandex.png	c19f67f3e45d16ed49adc03ecb9e4593
+A	plugins/icon_pack/hybridauth_32/icons/aol.png	9a1d772cb03a0d9502c9b97cc7ff6601
+M	plugins/icon_pack/hybridauth_32/icons/live.png	1d703d2e8fcd434e6d47215873a15d77
+M	plugins/icon_pack/hybridauth_32/icons/odnoklassniki.png	c3bb951d69aec1598a992a2ca9135abd
+M	plugins/icon_pack/hybridauth_32/icons/vkontakte.png	948f63cdde3caff5b7ed92f30818a053
+A	plugins/icon_pack/hybridauth_48/icons/aol.png	e7b68c8f858d7290d75bfbfb2f1fb412
+A	plugins/icon_pack/hybridauth_48/icons/live.png	1153fd5f971a97491086954af032a1f7
+A	plugins/icon_pack/hybridauth_48/icons/odnoklassniki.png	aea3cc5d41222e6c188c0949c921a34b
+A	plugins/icon_pack/hybridauth_48/icons/vkontakte.png	ecae7b8916d541ae6ba918c5322cc1b4
+D	templates/hybridauth-widget.tpl.php	
+A	templates/hybridauth_provider_icon.tpl.php	233b8019faf1bee6d8ce279b421c39bd
+A	templates/hybridauth_widget.tpl.php	5a9c5a1d4c96948ba3fa6f97cb219c26

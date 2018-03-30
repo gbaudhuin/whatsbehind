@@ -1,0 +1,21 @@
+M	imageapi_optimize.info.yml	467ddb428879713392a5bf63754fabeb
+M	imageapi_optimize.services.yml	3ab4d67de15bd6dea55005668ad45fd2
+M	src/ImageAPIOptimizePipelineListBuilder.php	5b25916ce159cad42466ae5c96993550
+M	src/ImageAPIOptimizeProcessorBinaryBase.php	3f47d917ea337068a8084bb48483774f
+A	src/ImageAPIOptimizeShellOperationsInterface.php	6ea2dcf5fff3b967ec03f8ee55c4c2b4
+M	src/Plugin/ImageAPIOptimizeProcessor/TinyPng.php	7029aef6e5e426e0846bc134439d70f3
+A	src/ShellOperations.php	7a889fc03d9b8c7e699c9702f2c1c26c
+M	src/Tests/ImageFieldValidateTest.php	cf2966615ce7a16254c1a07234dd56f2
+M	src/Tests/ImageStyleDeleteTest.php	35e9a8ef4967d59bedb0cc5c355cc630
+D	tests/modules/image_module_test/config/schema/image_module_test.schema.yml	
+D	tests/modules/image_module_test/image_module_test.info.yml	
+D	tests/modules/image_module_test/image_module_test.module	
+D	tests/modules/image_module_test/src/Plugin/ImageEffect/AjaxTestImageEffect.php	
+D	tests/modules/image_module_test/src/Plugin/ImageEffect/NullTestImageEffect.php	
+D	tests/modules/image_module_test/src/Plugin/ImageEffect/UriDependentTestImageEffect.php	
+D	tests/modules/image_test_views/image_test_views.info.yml	
+D	tests/modules/image_test_views/test_views/views.view.test_image_user_image_data.yml	
+M	tests/src/Kernel/ImageItemTest.php	4d1eb55d9d4e865966ca13962ff89998
+A	tests/src/Unit/AdvDefTest.php	31a9db4e8956e922596c77d5c60f7871
+A	tests/src/Unit/AdvPngTest.php	77f59e3f14823614888969f6791b54ab
+A	tests/src/Unit/BinaryTestCase.php	a42335d2faf7e6502c6b2b8adba6cb7d

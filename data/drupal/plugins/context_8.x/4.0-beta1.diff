@@ -1,0 +1,12 @@
+M	context.info.yml	4c527b4f1db45792df73e9baf634c0fe
+M	context.install	a5f2187cbcb6d83240cb0d1e8fa335f6
+M	context.services.yml	3cfe5ce614e72ce6aee3e4fe7da9f38b
+M	modules/context_ui/context_ui.info.yml	a7dea79a3945489db52a7e48bcd1b011
+M	modules/context_ui/context_ui.links.menu.yml	ca85c56248de0df33732bc5c23f1a579
+D	modules/context_ui/context_ui.module	
+D	modules/context_ui/context_ui.services.yml	
+D	modules/context_ui/src/MenuBuilder.php	
+D	src/Plugin/Condition/ViewInclusion.php	
+M	src/Plugin/ContextReaction/Blocks.php	c8087c5ddb2bf9389c7f2a0ad1721453
+M	src/Reaction/Blocks/Form/BlockFormBase.php	94c0455a940e4fbaf60b7adf7a559cfb
+M	src/Theme/ThemeSwitcherNegotiator.php	2ea09ac8796b82d07d4db96187700313

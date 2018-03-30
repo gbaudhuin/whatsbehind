@@ -1,0 +1,49 @@
+M	CHANGELOG.txt	3fb5fb6cf665a194c2bb1df63fba3abb
+M	libraries.api.php	178f2152cb708dd08b6d483a2211766b
+M	libraries.info	9e2557cf5ce71af47911d016c165e90f
+M	libraries.module	25e730f817047d839b8d054a060821e2
+D	tests/example/README.txt	
+D	tests/example/example_1.css	
+D	tests/example/example_1.js	
+D	tests/example/example_1.php	
+D	tests/example/example_2.css	
+D	tests/example/example_2.js	
+D	tests/example/example_2.php	
+D	tests/example/example_3.css	
+D	tests/example/example_3.js	
+D	tests/example/example_3.php	
+D	tests/example/example_4.css	
+D	tests/example/example_4.js	
+D	tests/example/example_4.php	
+D	tests/example/example_info_file.libraries.info	
+M	tests/libraries.test	2748dd1f2f037a4f072eb807d2a307b1
+A	tests/libraries/example/README.txt	f237250507a581da4647f1fa1e562a50
+A	tests/libraries/example/example_1.css	206cc91c5ee177b6a0e8e6371dbd9c45
+A	tests/libraries/example/example_1.js	0fa948466efc967f1d2aeb1bcdb4ff0f
+A	tests/libraries/example/example_1.php	19f8ee9abfb67af94d3bf522f32e6b08
+A	tests/libraries/example/example_2.css	27752add146571d1b2a16c12c9e7a072
+A	tests/libraries/example/example_2.js	26aab16fca39dccb4e2b045bdb9fef19
+A	tests/libraries/example/example_2.php	a46fc99dcedd0d049ed3920c4bf38117
+A	tests/libraries/example/example_3.css	ee88744b829b5feda39da32714c16c4f
+A	tests/libraries/example/example_3.js	4608d438d987d1dd661469c4b884d4d1
+A	tests/libraries/example/example_3.php	0e6a878fd26bf1f8e8c10a2a326c889b
+A	tests/libraries/example/example_4.css	f9ab3de46eae9c31c9266213271e513d
+A	tests/libraries/example/example_4.js	5a0c19aa1a929cccc9a44c1605576f04
+A	tests/libraries/example/example_4.php	153d01b86a5d0b620f2a47f6fd6633dc
+A	tests/libraries/example_info_file.libraries.info	fbed2f2b89a992220c971eb0cc191234
+D	tests/libraries_test.css	
+D	tests/libraries_test.inc	
+D	tests/libraries_test.info	
+D	tests/libraries_test.js	
+D	tests/libraries_test.module	
+A	tests/modules/libraries_test_module/libraries_test_module.css	84c334ad55344b3344bb1ce45c2fe107
+A	tests/modules/libraries_test_module/libraries_test_module.inc	4b408ea69bc4cc1d0f1346485f10ce93
+A	tests/modules/libraries_test_module/libraries_test_module.info	dd1c947445e4056d5e4d077d4643ebbe
+A	tests/modules/libraries_test_module/libraries_test_module.js	12bdeecb12a045a3778f4233033e5e8e
+A	tests/modules/libraries_test_module/libraries_test_module.module	2700fe061e4c729ef9776d6d6ccfdd4e
+A	tests/modules/libraries_test_module/libraries_test_module_post_load.inc	f34c2833f5b54eada6ddf8f8fce279b4
+A	tests/themes/libraries_test_theme/libraries_test_theme.css	740f1933783ecb2891f6635787c3af00
+A	tests/themes/libraries_test_theme/libraries_test_theme.inc	a515617628e0b095062811642810a691
+A	tests/themes/libraries_test_theme/libraries_test_theme.info	c9d17ecbd56221981066a655d5293eb9
+A	tests/themes/libraries_test_theme/libraries_test_theme.js	904694769ada24a151a8432747ff9c40
+A	tests/themes/libraries_test_theme/template.php	24d46efc4f44281d3b8652b294b16d43

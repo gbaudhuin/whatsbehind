@@ -1,0 +1,7 @@
+M	views/weight.views.inc	92ad9095d8ad4751b19d195793a05868
+M	views/weight.views_default.inc	70539200bec842ce97751cb33ba73b6e
+M	views/weight_handler_field_weight.inc	3bd39d0b20f8f2613fc1fd76defd6e73
+M	weight.info	f23dcb5d39403288c9e4b13317f36ee4
+M	weight.install	9e02ec7bf75c3f6c1ae2f035aeba2d24
+A	weight.migrate.inc	483f0324c834a9ff1ee7dec638d5954a
+M	weight.module	7adeff0a8a2ce4ed7157d26d307bac16

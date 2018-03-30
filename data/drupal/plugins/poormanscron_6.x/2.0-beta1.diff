@@ -1,0 +1,23 @@
+M	LICENSE.txt	998ed0c116c0cebfcd9b2107b0d82973
+M	README.txt	21a925588468e5e4a1fef1b37eefad32
+D	poormanscron.admin.inc	
+M	poormanscron.info	6ecca87f98150d511bbb93984f0f59fe
+M	poormanscron.install	d37e25c87ce29acdfa55ac1e832c48fd
+A	poormanscron.js	2dbd9020b151811794256401b138bc17
+M	poormanscron.module	736f0ddea0da35e78c75ec126857f3a3
+A	poormanscron.test	da28d3c668f5147b572b38ebe6740f97
+A	translations/ca.po	3321f5ef5909b1eac09a2d01d96a36a2
+A	translations/cs.po	e34ca2fa36353ecc365e9beca9f91518
+A	translations/da.po	7a952eaf30ad5f736707494d0f2ade7d
+A	translations/de.po	fdf909c4c97a0601a1d3fd584e9c71ef
+A	translations/es.po	cb5e36d53e9606a5199d81dae2d116ad
+A	translations/fr.po	4c7886573077c2e98593d5bee39869c2
+A	translations/it.po	61283c19e32c29b20839852bc97f73f3
+A	translations/ja.po	86241c2c89de128ac0cce46c377d2156
+A	translations/nl.po	dcfc6b1791ae8c016cc531a52aa5e220
+A	translations/pl.po	e7a805d5e1ed700c547e3b0cd3440254
+A	translations/poormanscron.pot	cdf8b2503679703398f4b0c0e21f3d3f
+A	translations/pt.po	e233306a90b205b086e00216e9d02866
+A	translations/ru.po	ac5d3f253d657e1e6506b59578cb3fbf
+A	translations/uk-ua.po	6978e3e142678e83d53c15d5df008eec
+A	translations/uk.po	3b7431e65054885d493a344f0c079e38

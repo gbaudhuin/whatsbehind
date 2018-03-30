@@ -1,0 +1,7 @@
+M	layout_plugin.drush.inc	7c4e3759eadc33f1efcb50c6493e01a3
+M	layout_plugin.info.yml	5bd91809cba26b384482629fe2f1f882
+M	layout_plugin.services.yml	29366d7d162b837b08399278545c2457
+M	modules/block_page_layout/block_page_layout.info.yml	fe8313b15eafd9ee40d1389a29aecc3e
+M	modules/layout_plugin_example/layout_plugin_example.info.yml	bb9494170a2f2682a3677cb40cf0ba90
+M	src/Layout.php	f8e9fc6174b4f641664dde783a05f134
+M	src/Plugin/Layout/LayoutBase.php	66d423a75e39b2bcbd8115a8e329ddc4

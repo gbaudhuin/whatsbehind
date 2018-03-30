@@ -1,0 +1,12 @@
+M	CHANGELOG.txt	3988d74a790c83ba96e61fe8f0e8af49
+M	README.txt	743ceee5639f70cdbce7f4e589f883a3
+A	fullcalendar.admin.inc	cee09c0d7f8e3e70d79201264293493b
+D	fullcalendar.css	
+A	fullcalendar.custom.css	b6bce92c3776f989085a38585e22809f
+A	fullcalendar.drush.inc	7c464f6f20280bad10096526f6b37c4a
+M	fullcalendar.info	0a01d4c1e28dd1f2efa0c7ef19b622ea
+A	fullcalendar.install	81b49b9088a462e56cc9b970c735c727
+D	fullcalendar.js	
+M	fullcalendar.module	892f0678d638dc8ec1093743e14cf39e
+M	fullcalendar.views.js	09669fe856ac09a96c02bcb8d6ffb8bc
+A	fullcalendar.views_default.inc	f930414f4afcc7f76b67d3114f7599b9

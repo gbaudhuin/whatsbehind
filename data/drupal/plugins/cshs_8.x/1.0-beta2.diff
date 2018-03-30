@@ -1,0 +1,11 @@
+M	cshs.info.yml	a6f165c31f2e51d0787882a6692841e0
+M	cshs.module	be4631d862f60adde2a251793d6b6778
+M	src/CshsOptionsFromHelper.php	7eb2f134179c6ace0c37982cf44ffa50
+M	src/Element/CshsElement.php	6f092a8daf51c035928f1669606913a8
+M	src/Plugin/Field/FieldFormatter/CshsFormatterBase.php	c69564ef8c4bc474eb5fb003ded80f96
+M	src/Plugin/Field/FieldFormatter/CshsFullHierarchyFormatter.php	b246884720404d60867eb36ff40f7587
+M	src/Plugin/Field/FieldFormatter/CshsGroupByRootFormatter.php	cd0742746b1b80fb2d4957d7b0b05bcb
+M	src/Plugin/Field/FieldWidget/CshsWidget.php	8efc821e04b6e277c484cd53f881135d
+M	src/Plugin/views/filter/CshsTaxonomyIndexTid.php	fcabd0514f6b670d080d35a2be71b698
+M	src/TaxonomyStorages.php	50edd005696c0b387c096a62ebfe3e2c
+A	templates/cshs-help.html.twig	968fa5caec5df6dcc3894e56e2ace427

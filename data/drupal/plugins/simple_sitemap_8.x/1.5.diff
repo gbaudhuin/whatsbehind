@@ -1,0 +1,11 @@
+M	config/install/simplesitemap.settings.yml	f74656e8358d29f42121866880ab7020
+M	simplesitemap.info.yml	304082a35cec7152b11c90188b3ed8a7
+M	simplesitemap.install	fbb8d106ce1d1755a391351c6b3fe9f8
+M	simplesitemap.module	8e6ad21005aeb22a84286f6aabaf60eb
+M	src/LinkGenerators/EntityLinkGenerator.php	bfd178c1f4e81ef94590d95c39003113
+M	src/LinkGenerators/EntityTypeLinkGenerators/menu.php	c588419617dd4b42f29db000857381e6
+D	src/LinkGenerators/EntityTypeLinkGenerators/node.php	
+A	src/LinkGenerators/EntityTypeLinkGenerators/node_type.php	4cc17e51c04610061e93d025970d5e0b
+D	src/LinkGenerators/EntityTypeLinkGenerators/taxonomy_term.php	
+A	src/LinkGenerators/EntityTypeLinkGenerators/taxonomy_vocabulary.php	bbe20830121d7796897adf13f9e21143
+M	src/Simplesitemap.php	dfb227bdf4f020074428472cb26312c7

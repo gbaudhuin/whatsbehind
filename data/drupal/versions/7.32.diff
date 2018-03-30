@@ -1,0 +1,4 @@
+M	CHANGELOG.txt	f0add58c8139bdee0e70756b3e5ce3d1
+M	includes/bootstrap.inc	7ea0a2ff8be571a0f71f36096b289973
+M	includes/database/database.inc	1944958289b28ae496841f94ebaaa341
+M	modules/simpletest/tests/database_test.test	a3d9b2eba3b3d0d4140b7eab3e62e6bd

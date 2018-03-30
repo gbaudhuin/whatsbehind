@@ -1,0 +1,17 @@
+M	config/schema/juicebox.schema.yml	1b7efbbad7df50ea1f74e83f440aaf1e
+M	js/juicebox_load.js	cf9880aa598f17490ca10636a661b603
+M	juicebox.info.yml	e4ad1b52264dbbc54cd8d0cfe0af2314
+M	juicebox.routing.yml	2a1028b93320d4dc13aa3a803e06aeeb
+M	src/Controller/JuiceboxXmlControllerBase.php	6f2d6bc221013e6f7b53c72b5848225b
+M	src/Controller/JuiceboxXmlControllerField.php	0ba9d83595fd5146dee9d0f31ee1a02e
+M	src/Form/SettingsForm.php	f282a6009dce5c7f172fd9066c72eafd
+M	src/JuiceboxFormatter.php	8da93389c080a0ae3a40411d23c62de2
+M	src/Plugin/Field/FieldFormatter/JuiceboxFieldFormatter.php	a01bb94687cf68f7f20db069ea0777b3
+M	src/Tests/JuiceboxConfCase.php	6d07fab5da1182fb88a9f5173eb15d2d
+M	src/Tests/JuiceboxConfGlobalCase.php	a52afe7335a2df58aad82011b50b2d70
+M	src/Tests/JuiceboxFieldFormatterCase.php	db08d6cf23ae78e7efec93d0b5bf4ecd
+M	src/Tests/JuiceboxFileCase.php	f6fc31419f735d1766c0ea056a00b6b4
+M	src/Tests/JuiceboxSubRequestCase.php	2406ff09a802133273b26344a41c2618
+M	templates/juicebox.theme.inc	2dd36698c77024a3129f1eff194eb2a5
+M	tests/modules/juicebox_mimic_article/juicebox_mimic_article.info.yml	26f8f0c3e557c2a593d711b1b16f9dd7
+M	tests/modules/juicebox_test_views/juicebox_test_views.info.yml	a384ae354b12a4c930a2984b75ef7ff6

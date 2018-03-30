@@ -1,0 +1,11 @@
+M	tests/twitter_mock.info	516c5322b7456a5d4f7149ca60f99aac
+M	twitter.inc	14c56bbc36e140025baa5701368505e5
+M	twitter.info	f7407451ea33d17cb0ce0277e69a1dfc
+M	twitter.install	ac6c6ab95b314651d7d0fa3de70633a7
+M	twitter.pages.inc	2604f188269748aaf4425ae2085f3c6b
+M	twitter_actions/twitter_actions.info	9e27e43437caea6edf5346b459f79144
+M	twitter_post/twitter_post.info	2ecf65443b45eee2aee56a680ab6862c
+M	twitter_post/twitter_post.install	efdfd0ba6f831292aa5cba98a3415b22
+M	twitter_post/twitter_post.module	0a6d0ee4a8ea9c9583405435b3367d00
+M	twitter_post/twitter_post.pages.inc	92e5c1a407482690ed414d2caf71e0f4
+M	twitter_signin/twitter_signin.info	0ed7f0eadf9a449afaf1c0c179fd0190

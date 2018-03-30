@@ -1,0 +1,28 @@
+M	readme.html	f32252ef12c927f6285e4fb29efce04f
+M	wp-admin/edit-attachment-rows.php	78df25e168c316610d4e3471e921e7a9
+D	wp-admin/import/btt.php	
+D	wp-admin/import/jkw.php	
+M	wp-admin/import/wordpress.php	2bc1941f3b90078b0c437cd22fa75f4f
+M	wp-admin/includes/post.php	a53f8817d89b1d396e9ffb78e99b8953
+M	wp-admin/includes/update-core.php	a6b20656a4c8d0853972b9e441fce7c7
+M	wp-admin/install.php	04cf5ebf5a1bd140f024f136d75deb22
+M	wp-admin/page.php	4f2373d5bb33bf078067771a4ed6f56e
+M	wp-admin/post.php	6d188230b578fe9b8dc64402027c2436
+M	wp-app.php	707b306e8c01ced508622c95eff4d880
+M	wp-content/plugins/akismet/akismet.php	456e43efa8df773bc6ed625f28f2a303
+M	wp-content/plugins/akismet/readme.txt	58e086dea9d24ed074fe84ba87386c69
+M	wp-includes/author-template.php	eeee4fb883299d3e3e9363fc4deaa1cf
+M	wp-includes/bookmark-template.php	9ec74411868276638b4316f3698bc945
+M	wp-includes/capabilities.php	03bf9309bd82e4cbd94468fa6d4f5270
+M	wp-includes/category-template.php	d3f15173008793ddcabbb7b658203ec3
+M	wp-includes/classes.php	be842f1bf347e3ee2cea08275f96d0de
+M	wp-includes/comment-template.php	90c1e90730fd1b4e3f243e474795d12c
+M	wp-includes/formatting.php	46085722a610f52a0bec70c48bd68e10
+M	wp-includes/general-template.php	1909f4773ffbe765fd071ce3facfea0b
+M	wp-includes/media.php	d7b38dee5a651413b7f40c823aad1a86
+M	wp-includes/post-template.php	c9595436224ad85c3fe2d2caf5179306
+M	wp-includes/rewrite.php	b8dbe81f44e079a1c9efca93c88444ad
+M	wp-includes/theme.php	66e1632a0cc13076e1f52e80ea3c2d90
+M	wp-includes/version.php	a1eb0a44a2a68c8a717a0e4cc714a454
+M	wp-trackback.php	0723b47768875a2c89b5af969741b03f
+M	xmlrpc.php	90a7b9b557f12b29ab38401fa1dc94dc

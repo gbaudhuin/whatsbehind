@@ -1,0 +1,10 @@
+M	README.txt	0969e73ff616ee0cbc6273a50e91ec63
+M	includes/registration.entity.inc	52469bca738706fc295d18bce0b740f5
+A	includes/registration.field.inc	9aa35540f79a25d680d1b5bc06cb5110
+M	includes/registration.forms.inc	faffb18f18bdff09a110b0e67115f359
+A	includes/registration.views.inc	70fb8f0dcd5bf66ab0b1c2f9db7c21af
+A	includes/registration_type.admin.inc	c010824fb9e08fdbc39d979f4b4dba08
+A	includes/views/registration_handler_relationship.inc	8d83fa1f50ee2b9330d7cf1dba65c43d
+M	registration.info	6024d0c3af0e656296ddfc4b4842c4a3
+M	registration.install	f2aa25a5b0408f6085c3a5f8e3de5515
+M	registration.module	44f496c0c92834cc8418bc931b47600e

@@ -1,0 +1,7 @@
+M	.gitignore	7a8b085dbf273de1bb2cb0b44c858f33
+M	README.md	4b9e25d4e8b9dcb5f20898dc0f8c1501
+M	composer.json	f7bec1b81ec73ff3468547cdfb42447a
+A	config/schema/svg_formatter.schema.yml	cf824f90b595adc535492cadbe9bd2c2
+M	src/Plugin/Field/FieldFormatter/SvgFormatter.php	a999c26fb607729262c365d3b1389c61
+M	svg_formatter.info.yml	58b09bb0c2a0d0221f4654d304bf311a
+M	svg_formatter.module	23d4e594972199d988f6246b64d2d51d

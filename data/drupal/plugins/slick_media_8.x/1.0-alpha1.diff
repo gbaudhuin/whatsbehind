@@ -1,0 +1,9 @@
+A	CHANGELOG.txt	01188cf4d3bc595cddc644071585c940
+A	LICENSE.txt	b234ee4d69f5fce4486a80fdaf4a4263
+A	README.txt	876f8574c16e23621594521b88c3e5bc
+A	config/install/core.entity_view_mode.media.slick.yml	cc4c21a45333899ff76009b9571efb11
+A	config/install/image.style.slick_media.yml	f17e17b80fa932aac7b3d02be6e94f7f
+A	config/schema/slick_media.schema.yml	28b36ddc76691671c1a14a1a00d196ac
+A	slick_media.info.yml	a1ef7ba0e139c3f77b3da7a3ed27714d
+A	slick_media.module	bae631e95d50aa534e394039f1be0849
+A	src/Plugin/Field/FieldFormatter/SlickMediaFormatter.php	8ce1269d3d3562d3a835b6eaf0634b08

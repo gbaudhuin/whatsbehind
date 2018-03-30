@@ -1,0 +1,12 @@
+M	CHANGELOG.txt	f426bcb192b39dbd6b1db11a7ec663d9
+M	acl.admin.inc	cc095d5be148a64b56123d3dacc24b43
+M	acl.api.php	bfa0a326cea2f11533dd103d1a674deb
+M	acl.info	c903807ebd84eb845d18290060173e47
+M	acl.install	f25846050f0a1bb74625691e798b6690
+M	acl.module	185d3bbce7bc6195237fa1d2cc081667
+M	acl.test	2c61a290ee446a79c6d4f23f171cecd8
+M	tests/acl_node_test.info	55712df0147e28cab921d0c43e973dbe
+M	tests/acl_node_test.module	083a20e061b788d1fdc329cf79237964
+D	translations/acl.pot	
+D	translations/de.po	
+D	translations/sv.po	
