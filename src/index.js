@@ -12,6 +12,8 @@ const progressSteps = {
   complete: { start: 100, end: 100, defaultDescription: 'Scan complete' }
 }
 
+let progressCB = null
+
 let setDetected = (app, pattern, type, value, key) => {
   for (let v of value) {
     let uri = v.root + "/" + v.path
@@ -68,12 +70,16 @@ let report = (url, scanDate, status, in_step_progress, description_override, app
     lastUpdate: (new Date()).toISOString(),
     detected
   }
+  
+  if (progressCB) {
+    progressCB(ret)
+  }
 
-  console.log(JSON.stringify(ret, null, 2))
   return ret
 }
 
-let scan = async (url, homepageBody) => {
+let scan = async (url, _progressCB, homepageBody) => {
+  progressCB = _progressCB
   const options = {
     debug: false,
     delay: 500,
