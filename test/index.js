@@ -6,7 +6,7 @@ const scanner = require('../src/index')
 describe('scan', function () {
   this.timeout(300000)
 
-  it.only('une phrases à la con', async function () {
+  it.only('une phrase à la con', async function () {
     let url = 'http://wordpress3-8.whatsbehind.io/'
     //let url = 'https://www.isatech.fr/'
     //let url = 'http://wordpress4-9-4.whatsbehind.io/'
