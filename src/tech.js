@@ -707,9 +707,9 @@ Tech.prototype = {
         try {
             var data;
             if (this.scanPlugin === true) {
-                data = fs.readFileSync("./data/" + this.techname.toLowerCase() + "/plugins/" + this.plugin_slug + "_" + this.coreVersion + ".x/" + version.value + ".diff", 'utf8');
+                data = fs.readFileSync(__dirname + "/../data/" + this.techname.toLowerCase() + "/plugins/" + this.plugin_slug + "_" + this.coreVersion + ".x/" + version.value + ".diff", 'utf8');
             } else {
-                data = fs.readFileSync("./data/" + this.techname.toLowerCase() + "/versions/" + version.value + ".diff", 'utf8');
+                data = fs.readFileSync(__dirname + "/../data/" + this.techname.toLowerCase() + "/versions/" + version.value + ".diff", 'utf8');
             }
             
             var lines = data.split('\n');
@@ -839,7 +839,7 @@ Tech.prototype = {
                 return;
             }
             var techname = this.techname;
-            var dir = "./data/" + this.techname.toLowerCase() + "/plugins/";
+            var dir = __dirname + "/../data/" + this.techname.toLowerCase() + "/plugins/";
             var cvs_filename = "pluginslist.csv";
             if (techname == "Drupal") {
                 var coreVersion = techVersion.substring(0, 1);
