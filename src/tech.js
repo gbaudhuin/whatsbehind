@@ -671,9 +671,9 @@ Tech.prototype = {
         try {
             var files;
             if (this.scanPlugin === true) {
-                files = fs.readdirSync("./data/" + this.techname.toLowerCase() + "/plugins/" + this.plugin_slug + "_" + this.coreVersion + ".x");
+                files = fs.readdirSync(__dirname + "/../data/" + this.techname.toLowerCase() + "/plugins/" + this.plugin_slug + "_" + this.coreVersion + ".x");
             } else {
-                files = fs.readdirSync("./data/" + this.techname.toLowerCase() + "/versions");
+                files = fs.readdirSync(__dirname + "/../data/" + this.techname.toLowerCase() + "/versions");
             }
             var diffFiles = [];
             var j = 0;
