@@ -204,4 +204,4 @@ let scan = async (url, homepageBody) => {
   })
 }
 
-module.exports.scan = a
+module.exports.scan = scan

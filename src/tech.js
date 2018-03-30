@@ -7,7 +7,7 @@ var fs = require("fs"),
     Version = require("./version"),
     Helper = require("./helper");
 
-var techs_json = fs.readFileSync(path.resolve('./src', 'techs.json'), 'utf8'); // tech names in techs.json must match tech names in wappalyzer/apps.json
+var techs_json = fs.readFileSync(path.resolve(__dirname, 'techs.json'), 'utf8'); // tech names in techs.json must match tech names in wappalyzer/apps.json
 var techs = JSON.parse(techs_json);
 
 /**
