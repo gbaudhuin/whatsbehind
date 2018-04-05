@@ -18,10 +18,11 @@ describe('scan', function () {
     //let url = 'http://www.starwars.com/' // wordpress caché
     //let url = 'https://druid.fi/'
     //let url = 'https://www.auchan.fr/' 
-    // let url = 'https://www.alibaba.com'
+    //let url = 'https://www.alibaba.com'
     // url = 'https://www.nike.com'
     // url = 'https://www.sony.com'
-    
+    //url = 'https://www.nytimes.com/'
+
     let result = await scanner.scan(url, (json) => {
       console.log(JSON.stringify(json, null, 2))
     })

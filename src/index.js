@@ -87,7 +87,7 @@ let scan = async (url, _progressCB, homepageBody) => {
     maxUrls: 1,
     maxWait: 5000,
     recursive: false,
-    userAgent: 'Wappalyzer',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
   };
 
   const scanDate = (new Date()).toISOString()
@@ -114,14 +114,18 @@ let scan = async (url, _progressCB, homepageBody) => {
         techApps.push(app)
       }
 
+      let cats = []
       // est-ce qu'on a un CMS ?
-      for (let cats of app.categories) {
-        for (let cat in cats) {
+      for (let categories of app.categories) {
+        for (let cat in categories) {
+          cats.push[cat]
           if (cat == 1 || cat == 11 || cat == 6) { // CMS, blog ou ecommerce
             hasCMS = true
           }
         }
       }
+
+      app.categories = cats // change le format du tableau pour simplifier exploitation en PHP: [{"1": "CMS"}, {"11": "Blogs"}] => [1, 11]
   }
 
   if (!hasCMS) { // on n'a pas trouvé de CMS avec wappalyzer. On essaie avec Deepscan
@@ -131,7 +135,7 @@ let scan = async (url, _progressCB, homepageBody) => {
     app.confidence = 100 // si l'app est detectee, on est sûr à 100%
     app.icon = 'WordPress.svg'
     app.website = 'http://wordpress.org'
-    app.categories = [{"1": "CMS"},{"11": "Blogs"}]
+    app.categories = [1, 11] // {"1": "CMS"},{"11": "Blogs"}
     techApps.push(app)
 
     // drupal
@@ -140,7 +144,7 @@ let scan = async (url, _progressCB, homepageBody) => {
     app.confidence = 100 // si l'app est détectée, on est sûr à 100%
     app.icon = 'Drupal.png'
     app.website = 'http://drupal.org'
-    app.categories = [{"1": "CMS"}]
+    app.categories = [1] // {"1": "CMS"}
     techApps.push(app)
   }
 
