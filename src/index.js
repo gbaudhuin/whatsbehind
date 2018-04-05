@@ -118,7 +118,7 @@ let scan = async (url, _progressCB, homepageBody) => {
       // est-ce qu'on a un CMS ?
       for (let categories of app.categories) {
         for (let cat in categories) {
-          cats.push[cat]
+          cats.push(cat)
           if (cat == 1 || cat == 11 || cat == 6) { // CMS, blog ou ecommerce
             hasCMS = true
           }
