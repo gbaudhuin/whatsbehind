@@ -23,6 +23,7 @@ describe('scan', function () {
     // url = 'https://www.sony.com'
     //url = 'https://www.nytimes.com/'
     url = 'https://www.julianabicycles.com'
+    url = 'http://www.liberty-auto.fr/'
 
     let result = await scanner.scan(url, (json) => {
       console.log(JSON.stringify(json, null, 2))

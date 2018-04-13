@@ -1059,13 +1059,12 @@ Tech.prototype = {
               }
           }
           if (vulns.length > 0) {
+              // sort vulns (highest fixing version first)
+              vulns.sort((a, b) => {
+                return Version.version_compare(a.fixed_in, b.fixed_in)
+              }).reverse()
               pOut.vulnerabilities = vulns
           }
-
-          // sort vulns (highest fixing version first)
-          vulns.sort((a, b) => {
-            return versionCompare(a.fixed_in, b.fixed_in)
-          }).reverse()
       }
 
       return pOut
