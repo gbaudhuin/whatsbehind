@@ -1061,6 +1061,11 @@ Tech.prototype = {
           if (vulns.length > 0) {
               pOut.vulnerabilities = vulns
           }
+
+          // sort vulns (highest fixing version first)
+          vulns.sort((a, b) => {
+            return versionCompare(a.fixed_in, b.fixed_in)
+          }).reverse()
       }
 
       return pOut
