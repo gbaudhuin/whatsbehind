@@ -3,6 +3,7 @@ const Tech = require('./tech')
 const async = require('async')
 const request = require('request-promise')
 const Version = require('./version')
+const httpStatus = require('./httpStatus')
 
 const progressSteps = {
   init: { start: 0, end: 1, defaultDescription: 'Starting up...' },
@@ -47,7 +48,7 @@ let setDetected = (app, pattern, type, value, key) => {
   app.versions = pattern.version // unlike other types, these are _possible_ versions. only one is really there.
 }
 
-let report = (url, scanDate, status, in_step_progress, description_override, apps) => {
+let report = (url, scanDate, status, in_step_progress, httpStatus, description_override, apps) => {
   let detected = []
 
   if (apps) {
@@ -68,6 +69,7 @@ let report = (url, scanDate, status, in_step_progress, description_override, app
     progressDescription: desc,
     scanDate,
     lastUpdate: (new Date()).toISOString(),
+    httpStatus,
     detected
   }
   
@@ -94,13 +96,15 @@ let scan = async (url, _progressCB, homepageBody) => {
 
   report(url, scanDate, 'init', 0)
 
+  const httpStatusCode = await httpStatus(url);
+
   const wappalyzer = new Wappalyzer(url, options)
   wappalyzer.log = (message, source, type) => {
     if (message.indexOf(' fetch;') !== -1) {
-      report(url, scanDate, 'fetch', 0)
+      report(url, scanDate, 'fetch', 0, httpStatusCode)
     }
     if (message.indexOf('browser.visit start') !== -1) {
-      report(url, scanDate, 'analyze', 0)
+      report(url, scanDate, 'analyze', 0, httpStatusCode)
     }
   }
 
@@ -171,7 +175,7 @@ let scan = async (url, _progressCB, homepageBody) => {
 
           tech.deepScan(function (err, result) {
               deepScanProgress += deepScanRangePhase1 / techApps.length
-              report(url, scanDate, 'deepscan', deepScanProgress, progressMessage, apps)
+              report(url, scanDate, 'deepscan', deepScanProgress, httpStatusCode, progressMessage, apps)
 
               if (result.status == 'fail') {
                 reject(err) // lève une exception
@@ -184,7 +188,7 @@ let scan = async (url, _progressCB, homepageBody) => {
               }
           }, function progressCB(progress) {
               let p = deepScanProgress + (deepScanRangePhase1 / 100) * progress / techApps.length
-              report(url, scanDate, 'deepscan', p, progressMessage, apps)
+              report(url, scanDate, 'deepscan', p, httpStatusCode, progressMessage, apps)
           })
         })
       }
@@ -195,12 +199,12 @@ let scan = async (url, _progressCB, homepageBody) => {
         tech.findPlugins(app.version, function (detected_plugins, plugin_progress) {
           let p = deepScanProgress + (deepScanRangePhase2 / 100) * plugin_progress / techApps.length
           app.plugins = detected_plugins
-          report(url, scanDate, 'deepscan', p, 'Looking for ' + app.name + ' plugins.', apps)
+          report(url, scanDate, 'deepscan', p, httpStatusCode, 'Looking for ' + app.name + ' plugins.', apps)
         }, function doneCB(detected_plugins) {
             deepScanProgress += deepScanRangePhase2 / techApps.length
 
             app.plugins = detected_plugins
-            report(url, scanDate, 'deepscan', deepScanProgress, 'Looking for ' + app.name + ' plugins.', apps)
+            report(url, scanDate, 'deepscan', deepScanProgress, httpStatusCode, 'Looking for ' + app.name + ' plugins.', apps)
             resolve()
         })
       })
@@ -210,7 +214,7 @@ let scan = async (url, _progressCB, homepageBody) => {
   }
 
   return new Promise((resolve)=>{
-    resolve(report(url, scanDate, 'complete', 100, 'Scan complete', apps))
+    resolve(report(url, scanDate, 'complete', 100, httpStatusCode, 'Scan complete', apps))
   })
 }
 

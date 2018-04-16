@@ -148,11 +148,9 @@ describe('Class Tech', function () {
     it('crlf2lf', function () {
         var data_crlf = fs.readFileSync("./test/data/github_crlf.html");
         var data_lf = fs.readFileSync("./test/data/github_lf.html");
-
-
         var converted_trim = Tech.crlf2lf(data_crlf);
 
-        assert.ok(data_lf.length == converted_trim.length);
+        assert.equal(data_lf.length, converted_trim.length);
         var same = true;
         for (var i = 0; i < data_lf.length; i++) {
             if (data_lf[i] != converted_trim[i]) {
