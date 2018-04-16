@@ -48,7 +48,7 @@ let setDetected = (app, pattern, type, value, key) => {
   app.versions = pattern.version // unlike other types, these are _possible_ versions. only one is really there.
 }
 
-let report = (url, scanDate, status, in_step_progress, httpStatus, description_override, apps) => {
+let report = (url, scanDate, status, in_step_progress, networkError, httpStatus, description_override, apps) => {
   let detected = []
 
   if (apps) {
@@ -69,6 +69,7 @@ let report = (url, scanDate, status, in_step_progress, httpStatus, description_o
     progressDescription: desc,
     scanDate,
     lastUpdate: (new Date()).toISOString(),
+    networkError,
     httpStatus,
     detected
   }
@@ -96,15 +97,24 @@ let scan = async (url, _progressCB, homepageBody) => {
 
   report(url, scanDate, 'init', 0)
 
-  const httpStatusCode = await httpStatus(url);
+  let httpStatusCode, networkError;
+  try {
+    httpStatusCode = await httpStatus(url);
+  } catch(err) {
+    if(err.code === 'ENOTFOUND') {
+      networkError = 'DNS ERROR'
+    } else {
+      networkError = 'UNKNOWN ERROR';
+    }
+  }
 
   const wappalyzer = new Wappalyzer(url, options)
   wappalyzer.log = (message, source, type) => {
     if (message.indexOf(' fetch;') !== -1) {
-      report(url, scanDate, 'fetch', 0, httpStatusCode)
+      report(url, scanDate, 'fetch', 0, networkError, httpStatusCode)
     }
     if (message.indexOf('browser.visit start') !== -1) {
-      report(url, scanDate, 'analyze', 0, httpStatusCode)
+      report(url, scanDate, 'analyze', 0, networkError, httpStatusCode)
     }
   }
 
@@ -114,22 +124,22 @@ let scan = async (url, _progressCB, homepageBody) => {
   let techApps = []
   let hasCMS = false // est-ce qu'un CMS a été détecté ?
   for (let app of apps.applications) {
-      if (Tech.allTechs.indexOf(app.name) !== -1) {
-        techApps.push(app)
-      }
+    if (Tech.allTechs.indexOf(app.name) !== -1) {
+      techApps.push(app)
+    }
 
-      let cats = []
-      // est-ce qu'on a un CMS ?
-      for (let categories of app.categories) {
-        for (let cat in categories) {
-          cats.push(cat)
-          if (cat == 1 || cat == 11 || cat == 6) { // CMS, blog ou ecommerce
-            hasCMS = true
-          }
+    let cats = []
+    // est-ce qu'on a un CMS ?
+    for (let categories of app.categories) {
+      for (let cat in categories) {
+        cats.push(cat)
+        if (cat == 1 || cat == 11 || cat == 6) { // CMS, blog ou ecommerce
+          hasCMS = true
         }
       }
+    }
 
-      app.categories = cats // change le format du tableau pour simplifier exploitation en PHP: [{"1": "CMS"}, {"11": "Blogs"}] => [1, 11]
+    app.categories = cats // change le format du tableau pour simplifier exploitation en PHP: [{"1": "CMS"}, {"11": "Blogs"}] => [1, 11]
   }
 
   if (!hasCMS) { // on n'a pas trouvé de CMS avec wappalyzer. On essaie avec Deepscan
@@ -175,7 +185,7 @@ let scan = async (url, _progressCB, homepageBody) => {
 
           tech.deepScan(function (err, result) {
               deepScanProgress += deepScanRangePhase1 / techApps.length
-              report(url, scanDate, 'deepscan', deepScanProgress, httpStatusCode, progressMessage, apps)
+              report(url, scanDate, 'deepscan', deepScanProgress, networkError, httpStatusCode, progressMessage, apps)
 
               if (result.status == 'fail') {
                 reject(err) // lève une exception
@@ -188,7 +198,7 @@ let scan = async (url, _progressCB, homepageBody) => {
               }
           }, function progressCB(progress) {
               let p = deepScanProgress + (deepScanRangePhase1 / 100) * progress / techApps.length
-              report(url, scanDate, 'deepscan', p, httpStatusCode, progressMessage, apps)
+              report(url, scanDate, 'deepscan', p, networkError, httpStatusCode, progressMessage, apps)
           })
         })
       }
@@ -199,12 +209,12 @@ let scan = async (url, _progressCB, homepageBody) => {
         tech.findPlugins(app.version, function (detected_plugins, plugin_progress) {
           let p = deepScanProgress + (deepScanRangePhase2 / 100) * plugin_progress / techApps.length
           app.plugins = detected_plugins
-          report(url, scanDate, 'deepscan', p, httpStatusCode, 'Looking for ' + app.name + ' plugins.', apps)
+          report(url, scanDate, 'deepscan', p, networkError, httpStatusCode, 'Looking for ' + app.name + ' plugins.', apps)
         }, function doneCB(detected_plugins) {
             deepScanProgress += deepScanRangePhase2 / techApps.length
 
             app.plugins = detected_plugins
-            report(url, scanDate, 'deepscan', deepScanProgress, httpStatusCode, 'Looking for ' + app.name + ' plugins.', apps)
+            report(url, scanDate, 'deepscan', deepScanProgress, networkError, httpStatusCode, 'Looking for ' + app.name + ' plugins.', apps)
             resolve()
         })
       })
@@ -214,7 +224,7 @@ let scan = async (url, _progressCB, homepageBody) => {
   }
 
   return new Promise((resolve)=>{
-    resolve(report(url, scanDate, 'complete', 100, httpStatusCode, 'Scan complete', apps))
+    resolve(report(url, scanDate, 'complete', 100, networkError, httpStatusCode, 'Scan complete', apps))
   })
 }
 
