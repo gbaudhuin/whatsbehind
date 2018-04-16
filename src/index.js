@@ -2,8 +2,8 @@ const Wappalyzer = require('wappalyzer')
 const Tech = require('./tech')
 const async = require('async')
 const request = require('request-promise')
+const requestErrors = require('request-promise/errors');
 const Version = require('./version')
-const httpStatus = require('./httpStatus')
 
 const progressSteps = {
   init: { start: 0, end: 1, defaultDescription: 'Starting up...' },
@@ -97,14 +97,28 @@ let scan = async (url, _progressCB, homepageBody) => {
 
   report(url, scanDate, 'init', 0)
 
+  // request the URL
   let httpStatusCode, networkError;
-  try {
-    httpStatusCode = await httpStatus(url);
-  } catch(err) {
-    if(err.code === 'ENOTFOUND') {
-      networkError = 'DNS ERROR'
-    } else {
-      networkError = 'UNKNOWN ERROR';
+  {
+    const requestOptions = Tech.getReqOptions(url);
+    requestOptions.resolveWithFullResponse = true;
+
+    try {
+      const response = await request(requestOptions);
+      httpStatusCode = response.statusCode;
+
+      // update homepagebody if necessary
+      homepageBody = homepageBody || response.body;
+    } catch(err) {
+      if(err instanceof requestErrors.StatusCodeError) {
+        httpStatusCode = err.statusCode;
+      } else {
+        networkError = err.cause && err.cause.code === 'ENOTFOUND' ? 'DNS ERROR' : 'UNKOWN ERROR';    
+      }
+      
+      // stop on error
+      report(url, scanDate, 'init', 100, networkError, httpStatusCode);
+      return;
     }
   }
 
@@ -160,11 +174,6 @@ let scan = async (url, _progressCB, homepageBody) => {
     app.website = 'http://drupal.org'
     app.categories = [1] // {"1": "CMS"}
     techApps.push(app)
-  }
-
-  if (!homepageBody) {
-    let reqOptions = Tech.getReqOptions(url)
-    homepageBody = await request(reqOptions)
   }
 
   var progressStep = progressSteps['deepscan']

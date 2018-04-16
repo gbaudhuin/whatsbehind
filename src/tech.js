@@ -51,32 +51,33 @@ for (var t in techs) {
 }
 
 Tech.getReqOptions = function (url, options) {
-    var ret = {
-        url: url,
-        timeout: 5000,
-        rejectUnauthorized: false,
-        requestCert: true,
-        agent: false,
-        jar: true, // gère les cookies
-        gzip: true,
-        strictSSL: false,
-        headers: {
-            'Accept': 'Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-            'Connection': 'keep-alive',
-            'Cache-Control': 'max-age=0',
-            'Accept-Encoding': 'gzip, deflate, br',
-            'Accept-Language': 'en-US,en;q=0.7',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
-        }
-    };
-    if (options) {
-        for (var opt in options) {
-            if (options.hasOwnProperty(opt)) {
-                ret[opt] = options[opt];
-            }
-        }
+  var ret = {
+    url,
+    timeout: 5000,
+    rejectUnauthorized: false,
+    requestCert: true,
+    agent: false,
+    jar: true, // gère les cookies
+    gzip: true,
+    strictSSL: false,
+    headers: {
+      'Accept': 'Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+      'Connection': 'keep-alive',
+      'Cache-Control': 'max-age=0',
+      'Accept-Encoding': 'gzip, deflate, br',
+      'Accept-Language': 'en-US,en;q=0.7',
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
     }
-    return ret;
+  };
+
+  if (options) {
+    for (var opt in options) {    
+      if (options.hasOwnProperty(opt)) {
+        ret[opt] = options[opt];
+      }
+    }
+  }
+  return ret;
 };
 
 /**
