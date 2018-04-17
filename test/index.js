@@ -491,9 +491,60 @@ describe('Scanner', () => {
   })
 
   describe('reportProgress', () => {
-    it('returns progress object');
-    it('calls progress callback');
-    it('does not fail if no progress callback');
+    const STATUS = 'deepscan';
+    const IN_STEP_PROGRESS = 50;
+    const PROGRESS_DESCRIPTION = 'progress description';
+    const SCAN_DATE = 'scan date';
+    const LAST_UPDATE = 'laste update';
+    const NETWORK_ERROR = 'network error';
+    const HTTP_STATUS = 'http status';
+    const DETECTED = { applications: 'anything' };
+
+    const EXPECTED_RESULT = {
+      url: URL,
+      status: STATUS,
+      progress: 55,
+      progressDescription: PROGRESS_DESCRIPTION,
+      scanDate: SCAN_DATE,
+      lastUpdate: LAST_UPDATE,
+      networkError: NETWORK_ERROR,
+      httpStatus: HTTP_STATUS,
+      detected: DETECTED
+    };
+    
+    const getMockScanner = (progressCallback) => {      
+      const scanner = new Scanner(URL, progressCallback);
+      scanner.getCurrentDate = () => LAST_UPDATE;
+      scanner.m_scanDate = SCAN_DATE;
+      scanner.m_networkError = NETWORK_ERROR;
+      scanner.m_httpStatus = HTTP_STATUS;
+      scanner.m_apps = {
+        applications: DETECTED
+      };
+
+      return scanner;
+    }
+
+    it('does not fail if no progress callback', () => {
+      const scanner = getMockScanner();
+      scanner.reportProgress(STATUS, IN_STEP_PROGRESS, PROGRESS_DESCRIPTION);
+    });
+
+    it('returns progress object', () => {
+      const scanner = getMockScanner();
+      const result = scanner.reportProgress(STATUS, IN_STEP_PROGRESS, PROGRESS_DESCRIPTION);
+      assert.deepEqual(result, EXPECTED_RESULT);
+    });
+
+    it('calls progress callback', () => {
+      let progressCallbackCalled = false;
+      const scanner = getMockScanner((progress) => {
+        assert.deepEqual(progress, EXPECTED_RESULT);
+        progressCallbackCalled = true;
+      });
+      scanner.reportProgress(STATUS, IN_STEP_PROGRESS, PROGRESS_DESCRIPTION);
+      assert(progressCallbackCalled);
+    });
   })
 
   /*it.only('une phrase à la con', async function () {
