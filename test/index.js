@@ -482,12 +482,142 @@ describe('Scanner', () => {
   })
 
   describe('findPlugins', () => {
-    it('calls findPlugins on tech');
-    it('updates app plugins on progress');
-    it('calls reportProgress on progress');
-    it('updates app plugins on result');
-    it('calls reportProgress on result');
-    it('resolve on result');
+    it('calls findPlugins on tech', async () => {
+      let findPluginsCalled = false;
+      const app ={
+        version: 123
+      };
+      const tech = {
+        findPlugins: (version, progressCallback, resultCallback) => {
+          assert(version, app.version);
+          findPluginsCalled = true;
+          resultCallback();
+        }
+      }
+      const scanner = new Scanner(URL);
+      scanner.m_techApps = [];
+      await scanner.findPlugins(tech, app);
+      assert(findPluginsCalled);
+    });
+
+    it('updates app plugins on progress', async () => {
+      const DETECTED_PLUGINS = {
+        detected: 'plugins' 
+      };
+      const app = {
+        version: 123,
+        plugins: null
+      };
+      const tech = {
+        findPlugins: (version, progressCallback, resultCallback) => {
+          progressCallback(DETECTED_PLUGINS)
+          assert.deepEqual(app.plugins, DETECTED_PLUGINS);
+          resultCallback();
+        }
+      }
+      const scanner = new Scanner(URL);
+      scanner.m_techApps = [];
+      await scanner.findPlugins(tech, app);
+    });
+
+    it('calls reportProgress on progress', async () => {
+      const DETECTED_PLUGINS = {
+        detected: 'plugins' 
+      };
+      const app = {
+        name: 'appName',
+        version: 123
+      };
+      const tech = {
+        findPlugins: (version, progressCallback, resultCallback) => {
+          progressCallback(DETECTED_PLUGINS, 0);
+          resultCallback(DETECTED_PLUGINS);
+        }
+      }
+      const scanner = new Scanner(URL);
+      scanner.m_deepScanProgress = 0;
+      scanner.m_techApps = ['techapp01', 'techapp02'];
+      let reportProgressCalled = false;
+      scanner.reportProgress = (status, inStepProgress, descriptionOverride) => {
+        if(!reportProgressCalled) {
+          assert.equal(status, 'deepscan');
+          assert.equal(inStepProgress, 0);
+          assert.equal(descriptionOverride, 'Looking for ' + app.name + ' plugins.')
+          reportProgressCalled = true;
+        }
+      }
+      await scanner.findPlugins(tech, app);
+      assert(reportProgressCalled);
+    });
+
+    it('updates app plugins on result', async () => {      
+      const DETECTED_PLUGINS = {
+        detected: 'plugins' 
+      };
+      const app = {
+        version: 123,
+        plugins: null
+      };
+      const tech = {
+        findPlugins: (version, progressCallback, resultCallback) => {
+          progressCallback(null)
+          resultCallback(DETECTED_PLUGINS);
+        }
+      }
+      const scanner = new Scanner(URL);
+      scanner.m_techApps = [];
+      await scanner.findPlugins(tech, app);
+      assert.deepEqual(app.plugins, DETECTED_PLUGINS);
+    });
+
+    it('calls reportProgress on result', async () => {
+      const DETECTED_PLUGINS = {
+        detected: 'plugins' 
+      };
+      const app = {
+        name: 'appName',
+        version: 123
+      };
+      const tech = {
+        findPlugins: (version, progressCallback, resultCallback) => {
+          progressCallback(DETECTED_PLUGINS, 0);
+          resultCallback(DETECTED_PLUGINS);
+        }
+      }
+      const scanner = new Scanner(URL);
+      scanner.m_deepScanProgress = 0;
+      scanner.m_techApps = ['techapp01', 'techapp02'];
+      let reportProgressCalled = 0;
+      scanner.reportProgress = (status, inStepProgress, descriptionOverride) => {
+        assert.equal(status, 'deepscan');
+        assert.equal(inStepProgress, reportProgressCalled === 0 ? 0 : 33.33333333333333);
+        assert.equal(descriptionOverride, 'Looking for ' + app.name + ' plugins.')
+        reportProgressCalled++;
+      }
+      await scanner.findPlugins(tech, app);
+      assert.equal(reportProgressCalled, 2);
+    });
+
+    it('resolve on result', (done) => {      
+      const scanner = new Scanner(URL);
+      scanner.m_deepScanProgress = 0;
+      scanner.m_techApps = ['techapp01', 'techapp02'];
+      const app = {
+        name: 'appName',
+        version: 123
+      };
+      const tech = {
+        findPlugins: (version, progressCallback, resultCallback) => {
+          progressCallback();
+          resultCallback();
+        }
+      }
+      scanner.findPlugins(tech, app)
+        .then(() => {
+          done();
+        })
+        .catch(done);
+    });
   })
 
   describe('reportProgress', () => {

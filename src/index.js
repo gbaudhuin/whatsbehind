@@ -143,10 +143,6 @@ class Scanner {
   async deepScan() {
     this.initializeDeepScan();
 
-    const progressStep = PROGRESS_STEPS['deepscan']
-    let deepScanStepSize = (progressStep.end - progressStep.start) / this.m_techApps.length
-    this.m_deepScanProgress = 0;
-
     for (const app of this.m_techApps) {
       try {
         let tech = new Tech(app.name);
@@ -170,6 +166,7 @@ class Scanner {
   initializeDeepScan() {
     let hasCMS = false;
     this.m_techApps = [];
+    this.m_deepScanProgress = 0;
 
     for (const app of this.m_apps.applications) {
       if (Tech.allTechs.indexOf(app.name) !== -1) {
