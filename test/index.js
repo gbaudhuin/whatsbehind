@@ -463,16 +463,248 @@ describe('Scanner', () => {
   })
 
   describe('deepScanApp', () => {
-    it('calls deepScan on tech');
-    it('calls reportProgress on deepScan progress');
-    it('calls reportProgress on deepScan result');
-    it('add app to m_apps if not present');
-    it('does not add app to m_apps if present');
-    it('does not add app to m_apps on failure');
-    it('calls setDetected on success');
-    it('does not call setDetected on failure');
-    it('resolve on success');
-    it('reject on failure');
+    const getScanner = () => {      
+      const scanner = new Scanner(URL);
+      scanner.m_techApps = [];
+      scanner.m_apps = {
+        applications: []
+      };
+      return scanner;
+    }
+
+    it('calls deepScan on tech', () => {
+      let deepScanCalled = false;
+      const app = { };
+      const tech = {
+        deepScan: (resultCallback, progressCallback) => {
+          deepScanCalled = true;
+        }
+      }
+      const scanner = getScanner();
+      scanner.deepScanApp(tech, app);
+      assert(deepScanCalled);
+    });
+
+    it('calls reportProgress on deepScan progress', () => {    
+      const app = {
+        name: 'appName'
+      };
+      const tech = {
+        deepScan: (resultCallback, progressCallback) => {
+          progressCallback(50);
+        }
+      }
+
+      const scanner = getScanner();
+      let reportProgressCalled = false;
+      scanner.reportProgress = (status, inStepProgress, descriptionOverride) => {
+        assert.equal(descriptionOverride, 'Looking for hidden ' + app.name + '.')
+        reportProgressCalled = true;
+      }
+      scanner.deepScanApp(tech, app);
+      assert(reportProgressCalled);
+    });
+
+    it('calls reportProgress on deepScan result', () => { 
+      const app = {
+        name: 'appName'
+      };
+      const tech = {
+        deepScan: (resultCallback, progressCallback) => {
+          resultCallback(null, {
+            versions: [],
+            proofs: [],
+            status: 'ok'
+          });
+        }
+      }
+
+      const scanner = getScanner();
+      let reportProgressCalled = false;
+      scanner.reportProgress = (status, inStepProgress, descriptionOverride) => {
+        assert.equal(descriptionOverride, 'Looking for hidden ' + app.name + '.')
+        reportProgressCalled = true;
+      }
+      scanner.deepScanApp(tech, app);
+      assert(reportProgressCalled);
+    });
+
+    it('add app to m_apps if not present', () => {
+      const app = {
+        name: 'appName'
+      };
+      const tech = {
+        deepScan: (resultCallback, progressCallback) => {
+          resultCallback(null, {
+            versions: [],
+            proofs: [],
+            status: 'ok'
+          });
+        }
+      }
+
+      const scanner = getScanner();
+      scanner.deepScanApp(tech, app);
+      assert.deepEqual(scanner.m_apps.applications, [app]);
+    });
+
+    it('does not add app to m_apps if present', () => {      
+      const app = {
+        name: 'appName'
+      };
+      const tech = {
+        deepScan: (resultCallback, progressCallback) => {
+          resultCallback(null, {
+            versions: [],
+            proofs: [],
+            status: 'ok'
+          });
+        }
+      }
+
+      const scanner = getScanner();
+      scanner.m_apps.applications = [app];
+      scanner.deepScanApp(tech, app);
+      assert.deepEqual(scanner.m_apps.applications, [app]);
+    });
+
+    it('does not add app to m_apps on failure', async () => { 
+      const ERROR = new Error('WTF');    
+      const app = {
+        name: 'appName'
+      };
+      const tech = {
+        deepScan: (resultCallback, progressCallback) => {
+          resultCallback(ERROR, {
+            versions: [],
+            proofs: [],
+            status: 'fail'
+          });
+        }
+      }
+
+      let errorThrown = false;
+      const scanner = getScanner();
+      try {
+        await scanner.deepScanApp(tech, app);
+      } catch(err) {
+        assert.deepEqual(err, ERROR);
+        errorThrown = true;
+      }
+      assert.deepEqual(scanner.m_apps.applications, []);
+      assert(errorThrown);
+    });
+
+    it('calls setDetected on success', async () => {
+      const VERSIONS = [1, 2, 3];
+      const PROOFS = [4, 5, 6];
+      const app = {
+        name: 'appName'
+      };
+      const tech = {
+        deepScan: (resultCallback, progressCallback) => {
+          resultCallback(null, {
+            versions: VERSIONS,
+            proofs: PROOFS,
+            status: 'ok'
+          });
+        }
+      }
+
+      let setDetectedCalled = false;
+      const scanner = getScanner();
+      scanner.setDetected = (pApp, pattern, type, value) => {
+        assert.deepEqual(app, pApp);
+        assert.deepEqual(pattern, {
+          version: VERSIONS,
+          regex: '.*'
+        })
+        assert.equal(type, 'file');
+        assert.equal(value, PROOFS);
+        setDetectedCalled = true;
+      }
+      await scanner.deepScanApp(tech, app);
+      assert(setDetectedCalled);
+    });
+
+    it('does not call setDetected on failure', async () => {
+      const app = {
+        name: 'appName'
+      };
+      const tech = {
+        deepScan: (resultCallback, progressCallback) => {
+          resultCallback({}, {
+            versions: [],
+            proofs: [],
+            status: 'fail'
+          });
+        }
+      }
+
+      let errorThrown = false;
+      let setDetectedCalled = false;
+      const scanner = getScanner();
+      scanner.setDetected = () => {
+        setDetectedCalled = true;
+      }
+      try {
+        await scanner.deepScanApp(tech, app);
+      } catch(err) {
+        errorThrown = true;
+      }
+      assert(errorThrown);
+      assert(!setDetectedCalled);
+    });
+
+    it('resolve on success', async () => {
+      const app = {
+        name: 'appName'
+      };
+      const tech = {
+        deepScan: (resultCallback, progressCallback) => {
+          resultCallback(null, {
+            versions: [],
+            proofs: [],
+            status: 'ok'
+          });
+        }
+      }
+
+      let errorThrown = false;
+      const scanner = getScanner();
+      try {
+        await scanner.deepScanApp(tech, app);
+      } catch(err) {
+        errorThrown = true;
+      }
+      assert(!errorThrown);
+    });
+
+    it('reject on failure', async () => {
+      const ERROR = new Error('WTF');    
+      const app = {
+        name: 'appName'
+      };
+      const tech = {
+        deepScan: (resultCallback, progressCallback) => {
+          resultCallback(ERROR, {
+            versions: [],
+            proofs: [],
+            status: 'fail'
+          });
+        }
+      }
+
+      let errorThrown = false;
+      const scanner = getScanner();
+      try {
+        await scanner.deepScanApp(tech, app);
+      } catch(err) {
+        assert.deepEqual(err, ERROR);
+        errorThrown = true;
+      }
+      assert(errorThrown);
+    });
   })
 
   describe('setDetected', () => {

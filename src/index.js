@@ -224,7 +224,7 @@ class Scanner {
    */
   async deepScanApp(tech, app) {
     return new Promise((resolve, reject) => {
-      const hiddenApp = !!this.m_apps.applications.find((application) => {
+      const hiddenApp = !this.m_apps.applications.find((application) => {
         return application.name === app.name;
       })
 
@@ -267,10 +267,9 @@ class Scanner {
    * @param {*} pattern 
    * @param {*} type 
    * @param {*} value 
-   * @param {*} key 
    * @returns {undefined} void
    */
-  setDetected(app, pattern, type, value, key) {
+  setDetected(app, pattern, type, value) {
     app.confidence = {};
     for (let v of value) {
       let uri = v.root + "/" + v.path;
