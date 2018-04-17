@@ -453,9 +453,78 @@ describe('Scanner', () => {
   })
 
   describe('initializeDeepScan', () => {
-    it('updates m_techApps with known tech');
-    it('updates the categories array for each app');
-    it('add CMS if not in the initial apps')
+    it('updates m_techApps with known tech', () => {
+      const scanner = new Scanner(URL);
+      scanner.m_apps = {
+        applications: [{
+          name: 'WordPress',
+          categories: [{1: 'CMS'}]
+        }, {
+          name: 'Unknown Tech',
+          categories: []
+        }]
+      };
+      scanner.initializeDeepScan();
+      assert.deepEqual(scanner.m_techApps, scanner.m_apps.applications.slice(0, 1));
+    });
+
+    it('updates the categories array for each app', () => {      
+      const scanner = new Scanner(URL);
+      scanner.m_apps = {
+        applications: [{
+          name: 'WordPress',
+          categories: [{1: 'CMS'}]
+        }, {
+          name: 'Drupal',
+          categories: [{1: 'CMS'}]
+        }]
+      };
+      scanner.initializeDeepScan();
+      for(let i=0; i<scanner.m_techApps.length; i++) {
+        assert.deepEqual(scanner.m_techApps[i].categories, [1]);
+      }
+    });
+
+    it('calls addTechApp if CMS are not in the initial apps', () => {
+      const scanner = new Scanner(URL);
+      scanner.m_apps = {
+        applications: []
+      };
+
+      const NAMES = ['WordPress', 'Drupal'];
+      const ICONS = ['WordPress.svg', 'Drupal.png'];
+      const WEBSITES = ['http://wordpress.org', 'http://drupal.org'];
+      const CATEGORIES = [[1, 11], [1]];
+      
+      let index = 0;
+      scanner.addTechApp = (name, confidence, icon, website, categories) => {
+        assert.deepEqual(name, NAMES[index]);
+        assert.deepEqual(confidence, 100);
+        assert.deepEqual(icon, ICONS[index]);
+        assert.deepEqual(website, WEBSITES[index]);
+        assert.deepEqual(categories, CATEGORIES[index]);
+        index++;
+      }
+      scanner.initializeDeepScan();
+      assert.equal(index, 2);
+    })
+
+    it('doest not call addTechApp if CLS are in the initials apps', () => {      
+      const scanner = new Scanner(URL);
+      scanner.m_apps = {
+        applications: [{
+          name: 'WordPress',
+          categories: [{1: 'CMS'}]
+        }]
+      };
+
+      let addTechAppCalled = false;
+      scanner.addTechApp = () => {
+        addTechAppCalled = true;
+      }
+      scanner.initializeDeepScan();
+      assert(!addTechAppCalled);
+    })
   })
 
   describe('addTechApp', () => {
