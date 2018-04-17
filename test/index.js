@@ -459,7 +459,20 @@ describe('Scanner', () => {
   })
 
   describe('addTechApp', () => {
-    it('adds an app to m_techApps');
+    it('adds an app to m_techApps', () => {
+      const app = {
+        name: 'appName',
+        confidence: 56,
+        icon: 'icon',
+        website: 'website',
+        categories: []
+      };
+
+      const scanner = new Scanner(URL);
+      scanner.m_techApps = [];
+      scanner.addTechApp(app.name, app.confidence, app.icon, app.website, app.categories);
+      assert.deepEqual(scanner.m_techApps, [app]);
+    });
   })
 
   describe('deepScanApp', () => {
