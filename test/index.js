@@ -442,14 +442,157 @@ describe('Scanner', () => {
     })
   })
 
-  describe('deepScan', () => {
-    it('calls initializeDeepScan');
-    it('instantiate Tech for each techApp');
-    it('calls findRoots for each techApp');
-    it('calls deepScanApp for a techApp without version');
-    it('does not call deepScanApp for a techApp with version');
-    it('calls findPlugins for each techApp');
-    it('does not throw error');
+  describe('deepScan', () => {    
+    const TECH_APPS = [];
+    for(let i=0; i<3; i++) {
+      TECH_APPS.push({
+        name: 'appName' + i
+      })
+    }
+
+    const getMockScanner = () => {
+      const Scanner = proxyquire('../src/index', {
+        './tech': class Tech {
+          constructor() {}
+          findRoots() {}
+        }
+      });
+      
+      const scanner = new Scanner(URL);
+      scanner.m_techApps = TECH_APPS;
+      scanner.initializeDeepScan = () => {};
+      scanner.deepScanApp = () => {};
+      scanner.findPlugins = () => {};
+      return scanner;
+    }
+
+    it('calls initializeDeepScan', async () => {
+      const scanner = new Scanner(URL);
+      scanner.m_techApps = [];
+      let initializeDeepScanCalled = false;
+      scanner.initializeDeepScan = () => {
+        initializeDeepScanCalled = true;
+      }
+      await scanner.deepScan();
+      assert(initializeDeepScanCalled);
+    });
+
+    it('instantiate Tech for each techApp', async () => {
+      let techIndex = 0
+      const Scanner = proxyquire('../src/index', {
+        './tech': class Tech {
+          constructor(appName) {
+            assert.equal(appName, TECH_APPS[techIndex++]);
+          }
+          findRoots() {}
+        }
+      });
+      const scanner = new Scanner(URL);
+      scanner.initializeDeepScan = () => {};
+      scanner.m_techApps = TECH_APPS;
+      await scanner.deepScan();
+      assert.equal(techIndex, TECH_APPS.length);
+    });
+
+    it('calls findRoots for each techApp', async () => {
+      let findRootsIndex = 0
+      const Scanner = proxyquire('../src/index', {
+        './tech': class Tech {
+          constructor() { }
+          findRoots(url, homepageBody) {
+            assert.equal(url, URL);
+            assert.deepEqual(homepageBody, scanner.m_homepageBody);
+            findRootsIndex++;
+          }
+        }
+      });
+      const scanner = new Scanner(URL);
+      scanner.initializeDeepScan = () => {};
+      scanner.m_techApps = TECH_APPS;
+      await scanner.deepScan();
+      assert.equal(findRootsIndex, TECH_APPS.length);
+    });
+
+    it('calls deepScanApp for a techApp without version', async () => {
+      let deepScanAppIndex = 0;
+      const scanner = getMockScanner();
+      scanner.deepScanApp = (tech, app) => {
+        assert.deepEqual(app, TECH_APPS[deepScanAppIndex++]);
+      }
+      await scanner.deepScan();
+      assert.equal(deepScanAppIndex, TECH_APPS.length);
+    });
+
+    it('does not call deepScanApp for a techApp with version', async () => {
+      const TECH_APPS = [];
+      for(let i=0; i<3; i++) {
+        TECH_APPS.push({
+          name: 'appName' + i,
+          version: 'something'
+        })
+      }
+
+      const scanner = getMockScanner();
+      scanner.deepScanApp = (tech, app) => {
+        throw new Error('Should not be called');
+      }
+      await scanner.deepScan();
+    });
+
+    it('calls findPlugins for each techApp', async () => {
+      let findPluginsIndex = 0;
+      const scanner = getMockScanner();
+      scanner.findPlugins = (tech, app) => {
+        assert.deepEqual(app, TECH_APPS[findPluginsIndex++]);
+      }
+      await scanner.deepScan();
+      assert.equal(findPluginsIndex, TECH_APPS.length);
+    });
+
+    it('does not throw error if Tech constructor fails', async () => {  
+      const Scanner = proxyquire('../src/index', {
+        './tech': class Tech {
+          constructor() { 
+            throw new Error('WTF');
+          }
+        }
+      });
+      const scanner = new Scanner(URL);
+      scanner.initializeDeepScan = () => {};
+      scanner.m_techApps = TECH_APPS;
+      await scanner.deepScan();
+    });
+
+    it('does not throw error if findRoots fails', async () => {  
+      const Scanner = proxyquire('../src/index', {
+        './tech': class Tech {
+          constructor() { }
+          findRoots() {
+            throw new Error('WTF');
+          }
+        }
+      });
+      const scanner = new Scanner(URL);
+      scanner.initializeDeepScan = () => {};
+      scanner.m_techApps = TECH_APPS;
+      await scanner.deepScan();
+    });
+
+    it('does not throw error if deepScanApp fails', async () => {
+      const scanner = getMockScanner();
+      scanner.deepScanApp = () => {
+        throw new Error('WTF');
+      }
+      await scanner.deepScan();
+    });
+
+    it('does not throw error if findPlugins fails', async () => {
+      const scanner = getMockScanner();
+      scanner.findPlugins = () => {
+        throw new Error('WTF');
+      }
+      await scanner.deepScan();
+    });
   })
 
   describe('initializeDeepScan', () => {
