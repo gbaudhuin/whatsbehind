@@ -790,9 +790,51 @@ describe('Scanner', () => {
   })
 
   describe('setDetected', () => {
-    it('updates confidence');
-    it('updates version to max release version')
-    it('updates versions to pattern.version')
+    const PROOFS =  [{
+      root: 'http://www.whatsbehind.io',
+      path: 'path01',
+      status: '85'
+    }, {
+      root: 'http://www.whatsbehind.io',
+      path: 'path02',
+      status: '51'
+    }];
+
+    const PATTERN = {
+      version: ['1', '2', '3'],
+      regex: '.*'
+    };
+
+    it('updates confidence', () => {
+      const scanner = new Scanner(URL);
+      const app = {
+        confidence: 100
+      };
+
+      const expectedResult = {};
+      PROOFS.forEach((proof) => {
+        expectedResult['file ' + proof.root + '/' + proof.path] = proof.status;
+      })
+
+      scanner.setDetected(app, PATTERN, 'file', PROOFS);
+      assert.deepEqual(app.confidence, expectedResult);
+    });
+
+    it('updates version to max release version', () => {      
+      const scanner = new Scanner(URL);
+      const app = { };
+
+      scanner.setDetected(app, PATTERN, 'file', PROOFS);
+      assert.equal(app.version, 3);
+    });
+
+    it('updates versions to pattern.version', () => {         
+      const scanner = new Scanner(URL);
+      const app = { };
+
+      scanner.setDetected(app, PATTERN, 'file', PROOFS);
+      assert.deepEqual(app.versions, PATTERN.version);
+    })
   })
 
   describe('findPlugins', () => {

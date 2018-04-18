@@ -253,7 +253,7 @@ class Scanner {
           this.m_apps.applications.push(app);
         }
 
-        this.setDetected(app, {version: result.versions, regex: ".*"}, "file", result.proofs);
+        this.setDetected(app, {version: result.versions, regex: '.*'}, 'file', result.proofs);
         resolve();
       }
 
@@ -264,16 +264,16 @@ class Scanner {
   /**
    * @summary Set app as detected
    * @param {Object} app 
-   * @param {*} pattern 
-   * @param {*} type 
-   * @param {*} value 
+   * @param {Object} pattern 
+   * @param {String} type 
+   * @param {Array} proofs 
    * @returns {undefined} void
    */
-  setDetected(app, pattern, type, value) {
+  setDetected(app, pattern, type, proofs) {
     app.confidence = {};
-    for (let v of value) {
-      let uri = v.root + "/" + v.path;
-      app.confidence[type + ' ' + uri] = v.status;
+    for (const proof of proofs) {
+      const uri = proof.root + "/" + proof.path;
+      app.confidence[type + ' ' + uri] = proof.status;
     }
 
     // get most probable version among pattern.version. pattern.version is an array
