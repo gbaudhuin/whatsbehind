@@ -127,20 +127,16 @@ Tech.prototype = {
   deepScan: function (cb, cbProgress) {
     const highestCommits = this.getHighestCommits();
 
-    const queue = [];
-
-    const l = highestCommits.length;
-    for (let i = 0; i < l; i++) {
-      const localPath = highestCommits[i];
+    const queue = Array.from(highestCommits, (localPath) => {
       const ext = path.extname(localPath);
       const extLower = ext.toLowerCase();
 
-      queue.push({
+      return {
         path: localPath,
-        ext: ext,
-        extLower: extLower }
-      );
-    }
+        ext,
+        extLower
+      }
+    });
 
     var iter = queue[Symbol.iterator](); // ES6 iterator
 
