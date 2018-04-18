@@ -1,3 +1,5 @@
+/* eslint require-jsdoc: off */
+
 const assert = require('assert');
 const describe = require('mocha').describe; // avoid eslint warnings
 const it = require('mocha').it; // avoid eslint warnings
@@ -8,18 +10,17 @@ const proxyquire = require('proxyquire');
 const URL = 'fake url';
 
 describe('Scanner', () => {
-
   describe('constructor', ()  => {
     it('initialize variables', () => {
       const progressCallback = () => {};
       const body = { body: 'blabla' };
       const scanner = new Scanner(URL, progressCallback, body);
-      assert.equal(scanner.m_url, URL);
-      assert.deepEqual(scanner.m_progressCallback, progressCallback);
-      assert.deepEqual(scanner.m_homepageBody, body);
-      assert.equal(scanner.m_httpStatus, null);
-      assert.equal(scanner.m_networkError, null);
-      assert.equal(scanner.m_apps, null);
+      assert.equal(scanner.url, URL);
+      assert.deepEqual(scanner.progressCallback, progressCallback);
+      assert.deepEqual(scanner.homepageBody, body);
+      assert.equal(scanner.httpStatus, null);
+      assert.equal(scanner.networkError, null);
+      assert.equal(scanner.apps, null);
     })
   })
 
@@ -35,7 +36,7 @@ describe('Scanner', () => {
       return scanner;
     }
 
-    it('update m_scanDate with getCurrentDate result', () => {
+    it('update scanDate with getCurrentDate result', () => {
       const scanner = getMockScanner();
       let getCurrentDateCalled = false;
       scanner.getCurrentDate = () => {
@@ -44,7 +45,7 @@ describe('Scanner', () => {
       }
       scanner.start();
       assert(getCurrentDateCalled);
-      assert.equal(scanner.m_scanDate, CURRENT_DATE);
+      assert.equal(scanner.scanDate, CURRENT_DATE);
     })
 
     it('calls checkHttpStatus', () => {
@@ -125,7 +126,7 @@ describe('Scanner', () => {
         .catch(done);
     });
 
-    it('calls deepScan', (done) => {      
+    it('calls deepScan', (done) => {
       const scanner = getMockScanner();
 
       let checkHttpStatusCalled = false;
@@ -154,7 +155,7 @@ describe('Scanner', () => {
         .catch(done);
     });
 
-    it('calls reportProgress at end', (done) => {      
+    it('calls reportProgress at end', (done) => {
       const scanner = getMockScanner();
 
       let checkHttpStatusCalled = false;
@@ -191,7 +192,7 @@ describe('Scanner', () => {
         })
         .catch(done);
     });
-    
+
     it('resolve with last progress', (done) => {
       const progress = {
         progress: 'something'
@@ -230,10 +231,9 @@ describe('Scanner', () => {
           getReqOptions: () => REQ_OPTIONS
         },
         'request-promise': async () => {
-          if(requestError) {
+          if (requestError) {
             throw requestError;
           }
-          
           return RESPONSE;
         }
       });
@@ -272,68 +272,68 @@ describe('Scanner', () => {
       assert(requestCalled);
     });
 
-    it('updates m_httpStatus', async () => {
+    it('updates httpStatus', async () => {
       const scanner = getMockScanner();
       await scanner.checkHttpStatus();
-      assert.equal(scanner.m_httpStatus, RESPONSE.statusCode);
+      assert.equal(scanner.httpStatus, RESPONSE.statusCode);
     });
 
-    it('updates m_homepageBody if not set', async () => {
+    it('updates homepageBody if not set', async () => {
       const scanner = getMockScanner();
-      assert(!scanner.m_homepageBody);
+      assert(!scanner.homepageBody);
       await scanner.checkHttpStatus();
-      assert.equal(scanner.m_homepageBody, RESPONSE.body);
+      assert.equal(scanner.homepageBody, RESPONSE.body);
     });
 
-    it('does not update m_homepageBody if already set', async () => {
+    it('does not update homepageBody if already set', async () => {
       const body = 'already have a body';
       assert.notEqual(body, RESPONSE.body);
       const scanner = getMockScanner();
-      scanner.m_homepageBody = body;
+      scanner.homepageBody = body;
       await scanner.checkHttpStatus();
-      assert.equal(scanner.m_homepageBody, body);
+      assert.equal(scanner.homepageBody, body);
     });
 
-    it('returns true on success', async () => {      
+    it('returns true on success', async () => {
       const scanner = getMockScanner();
       assert(scanner.checkHttpStatus());
     });
 
-    it('updates m_httpStatus on StatusCodeError', async () => {
+    it('updates httpStatus on StatusCodeError', async () => {
       const error = new requestErrors.StatusCodeError();
       error.statusCode = 999;
       const scanner = getMockScanner(error);
       await scanner.checkHttpStatus();
-      assert.equal(scanner.m_httpStatus, error.statusCode);
+      assert.equal(scanner.httpStatus, error.statusCode);
     });
 
-    it('does not update m_httpStatus on other error', async () => {      
+    it('does not update httpStatus on other error', async () => {
       const error = new Error('WTF');
       const scanner = getMockScanner(error);
       await scanner.checkHttpStatus();
-      assert(!scanner.m_httpStatus);
+      assert(!scanner.httpStatus);
     });
 
-    it('set m_networkError to DNS ERROR on ENOTFOUND error', async () => {
-      const error = { 
-        cause: { 
-          code: 'ENOTFOUND' 
+    it('set networkError to DNS ERROR on ENOTFOUND error', async () => {
+      const error = {
+        cause: {
+          code: 'ENOTFOUND'
         }
       };
       const scanner = getMockScanner(error);
       await scanner.checkHttpStatus();
-      assert.equal(scanner.m_networkError, 'DNS ERROR');
+      assert.equal(scanner.networkError, 'DNS ERROR');
     });
 
-    it('set m_networkError to UNKOWN ERROR on other error', async () => {
-      const error = { 
-        cause: { 
-          code: 'WTF' 
+    it('set networkError to UNKOWN ERROR on other error', async () => {
+      const error = {
+        cause: {
+          code: 'WTF'
         }
       };
       const scanner = getMockScanner(error);
       await scanner.checkHttpStatus();
-      assert.equal(scanner.m_networkError, 'UNKOWN ERROR');
+      assert.equal(scanner.networkError, 'UNKOWN ERROR');
     });
 
     it('returns false on failure', async () => {
@@ -341,7 +341,6 @@ describe('Scanner', () => {
       assert(!await scanner.checkHttpStatus());
     });
   })
-
   describe('wappalyze', () => {
     it('instantiate Wappalyzer', async () => {
       const EXPECTED_OPTIONS = {
@@ -359,7 +358,7 @@ describe('Scanner', () => {
         wappalyzer: class Wappalyzer {
           constructor(url, options) {
             assert.equal(url, URL);
-            assert.deepEqual(options, EXPECTED_OPTIONS); 
+            assert.deepEqual(options, EXPECTED_OPTIONS);
             constructorCalled = true;
           }
           async analyze() { }
@@ -373,7 +372,7 @@ describe('Scanner', () => {
     it('calls reportProgress on log (fetch)', async () => {
       const Scanner = proxyquire('../src/index', {
         wappalyzer: class Wappalyzer {
-          constructor(url, options) { }
+          constructor() { }
           async analyze() {
             this.log(' fetch;');
           }
@@ -393,7 +392,7 @@ describe('Scanner', () => {
     it('calls reportProgress on log (analyze)', async () => {
       const Scanner = proxyquire('../src/index', {
         wappalyzer: class Wappalyzer {
-          constructor(url, options) { }
+          constructor() { }
           async analyze() {
             this.log('browser.visit start');
           }
@@ -414,7 +413,7 @@ describe('Scanner', () => {
       let analyzeCalled = false;
       const Scanner = proxyquire('../src/index', {
         wappalyzer: class Wappalyzer {
-          constructor(url, options) { }
+          constructor() { }
           async analyze() {
             analyzeCalled = true;
           }
@@ -425,12 +424,12 @@ describe('Scanner', () => {
       assert(analyzeCalled);
     })
 
-    it('updates m_apps', async () => {
+    it('updates apps', async () => {
       const APPS = { apps: 'something' };
 
       const Scanner = proxyquire('../src/index', {
         wappalyzer: class Wappalyzer {
-          constructor(url, options) { }
+          constructor() { }
           async analyze() {
             return APPS;
           }
@@ -438,13 +437,13 @@ describe('Scanner', () => {
       });
       const scanner = new Scanner(URL);
       await scanner.wappalyze();
-      assert.deepEqual(scanner.m_apps, APPS);
+      assert.deepEqual(scanner.apps, APPS);
     })
   })
 
-  describe('deepScan', () => {    
+  describe('deepScan', () => {
     const TECH_APPS = [];
-    for(let i=0; i<3; i++) {
+    for (let i = 0; i < 3; i++) {
       TECH_APPS.push({
         name: 'appName' + i
       })
@@ -457,9 +456,9 @@ describe('Scanner', () => {
           findRoots() {}
         }
       });
-      
+
       const scanner = new Scanner(URL);
-      scanner.m_techApps = TECH_APPS;
+      scanner.techApps = TECH_APPS;
       scanner.initializeDeepScan = () => {};
       scanner.deepScanApp = () => {};
       scanner.findPlugins = () => {};
@@ -468,7 +467,7 @@ describe('Scanner', () => {
 
     it('calls initializeDeepScan', async () => {
       const scanner = new Scanner(URL);
-      scanner.m_techApps = [];
+      scanner.techApps = [];
       let initializeDeepScanCalled = false;
       scanner.initializeDeepScan = () => {
         initializeDeepScanCalled = true;
@@ -489,7 +488,7 @@ describe('Scanner', () => {
       });
       const scanner = new Scanner(URL);
       scanner.initializeDeepScan = () => {};
-      scanner.m_techApps = TECH_APPS;
+      scanner.techApps = TECH_APPS;
       await scanner.deepScan();
       assert.equal(techIndex, TECH_APPS.length);
     });
@@ -501,14 +500,14 @@ describe('Scanner', () => {
           constructor() { }
           findRoots(url, homepageBody) {
             assert.equal(url, URL);
-            assert.deepEqual(homepageBody, scanner.m_homepageBody);
+            assert.deepEqual(homepageBody, scanner.homepageBody);
             findRootsIndex++;
           }
         }
       });
       const scanner = new Scanner(URL);
       scanner.initializeDeepScan = () => {};
-      scanner.m_techApps = TECH_APPS;
+      scanner.techApps = TECH_APPS;
       await scanner.deepScan();
       assert.equal(findRootsIndex, TECH_APPS.length);
     });
@@ -525,7 +524,7 @@ describe('Scanner', () => {
 
     it('does not call deepScanApp for a techApp with version', async () => {
       const TECH_APPS = [];
-      for(let i=0; i<3; i++) {
+      for (let i = 0; i < 3; i++) {
         TECH_APPS.push({
           name: 'appName' + i,
           version: 'something'
@@ -533,7 +532,7 @@ describe('Scanner', () => {
       }
 
       const scanner = getMockScanner();
-      scanner.deepScanApp = (tech, app) => {
+      scanner.deepScanApp = () => {
         throw new Error('Should not be called');
       }
       await scanner.deepScan();
@@ -549,21 +548,21 @@ describe('Scanner', () => {
       assert.equal(findPluginsIndex, TECH_APPS.length);
     });
 
-    it('does not throw error if Tech constructor fails', async () => {  
+    it('does not throw error if Tech constructor fails', async () => {
       const Scanner = proxyquire('../src/index', {
         './tech': class Tech {
-          constructor() { 
+          constructor() {
             throw new Error('WTF');
           }
         }
       });
       const scanner = new Scanner(URL);
       scanner.initializeDeepScan = () => {};
-      scanner.m_techApps = TECH_APPS;
+      scanner.techApps = TECH_APPS;
       await scanner.deepScan();
     });
 
-    it('does not throw error if findRoots fails', async () => {  
+    it('does not throw error if findRoots fails', async () => {
       const Scanner = proxyquire('../src/index', {
         './tech': class Tech {
           constructor() { }
@@ -574,7 +573,7 @@ describe('Scanner', () => {
       });
       const scanner = new Scanner(URL);
       scanner.initializeDeepScan = () => {};
-      scanner.m_techApps = TECH_APPS;
+      scanner.techApps = TECH_APPS;
       await scanner.deepScan();
     });
 
@@ -596,9 +595,9 @@ describe('Scanner', () => {
   })
 
   describe('initializeDeepScan', () => {
-    it('updates m_techApps with known tech', () => {
+    it('updates techApps with known tech', () => {
       const scanner = new Scanner(URL);
-      scanner.m_apps = {
+      scanner.apps = {
         applications: [{
           name: 'WordPress',
           categories: [{1: 'CMS'}]
@@ -608,12 +607,12 @@ describe('Scanner', () => {
         }]
       };
       scanner.initializeDeepScan();
-      assert.deepEqual(scanner.m_techApps, scanner.m_apps.applications.slice(0, 1));
+      assert.deepEqual(scanner.techApps, scanner.apps.applications.slice(0, 1));
     });
 
-    it('updates the categories array for each app', () => {      
+    it('updates the categories array for each app', () => {
       const scanner = new Scanner(URL);
-      scanner.m_apps = {
+      scanner.apps = {
         applications: [{
           name: 'WordPress',
           categories: [{1: 'CMS'}]
@@ -623,14 +622,14 @@ describe('Scanner', () => {
         }]
       };
       scanner.initializeDeepScan();
-      for(let i=0; i<scanner.m_techApps.length; i++) {
-        assert.deepEqual(scanner.m_techApps[i].categories, [1]);
+      for (let i = 0; i < scanner.techApps.length; i++) {
+        assert.deepEqual(scanner.techApps[i].categories, [1]);
       }
     });
 
     it('calls addTechApp if CMS are not in the initial apps', () => {
       const scanner = new Scanner(URL);
-      scanner.m_apps = {
+      scanner.apps = {
         applications: []
       };
 
@@ -638,7 +637,7 @@ describe('Scanner', () => {
       const ICONS = ['WordPress.svg', 'Drupal.png'];
       const WEBSITES = ['http://wordpress.org', 'http://drupal.org'];
       const CATEGORIES = [[1, 11], [1]];
-      
+
       let index = 0;
       scanner.addTechApp = (name, confidence, icon, website, categories) => {
         assert.deepEqual(name, NAMES[index]);
@@ -652,9 +651,9 @@ describe('Scanner', () => {
       assert.equal(index, 2);
     })
 
-    it('doest not call addTechApp if CLS are in the initials apps', () => {      
+    it('doest not call addTechApp if CMS are in the initials apps', () => {
       const scanner = new Scanner(URL);
-      scanner.m_apps = {
+      scanner.apps = {
         applications: [{
           name: 'WordPress',
           categories: [{1: 'CMS'}]
@@ -671,7 +670,7 @@ describe('Scanner', () => {
   })
 
   describe('addTechApp', () => {
-    it('adds an app to m_techApps', () => {
+    it('adds an app to techApps', () => {
       const app = {
         name: 'appName',
         confidence: 56,
@@ -681,17 +680,17 @@ describe('Scanner', () => {
       };
 
       const scanner = new Scanner(URL);
-      scanner.m_techApps = [];
+      scanner.techApps = [];
       scanner.addTechApp(app.name, app.confidence, app.icon, app.website, app.categories);
-      assert.deepEqual(scanner.m_techApps, [app]);
+      assert.deepEqual(scanner.techApps, [app]);
     });
   })
 
   describe('deepScanApp', () => {
-    const getScanner = () => {      
+    const getScanner = () => {
       const scanner = new Scanner(URL);
-      scanner.m_techApps = [];
-      scanner.m_apps = {
+      scanner.techApps = [];
+      scanner.apps = {
         applications: []
       };
       return scanner;
@@ -701,7 +700,7 @@ describe('Scanner', () => {
       let deepScanCalled = false;
       const app = { };
       const tech = {
-        deepScan: (resultCallback, progressCallback) => {
+        deepScan: () => {
           deepScanCalled = true;
         }
       }
@@ -710,7 +709,7 @@ describe('Scanner', () => {
       assert(deepScanCalled);
     });
 
-    it('calls reportProgress on deepScan progress', () => {    
+    it('calls reportProgress on deepScan progress', () => {
       const app = {
         name: 'appName'
       };
@@ -730,12 +729,12 @@ describe('Scanner', () => {
       assert(reportProgressCalled);
     });
 
-    it('calls reportProgress on deepScan result', () => { 
+    it('calls reportProgress on deepScan result', () => {
       const app = {
         name: 'appName'
       };
       const tech = {
-        deepScan: (resultCallback, progressCallback) => {
+        deepScan: (resultCallback) => {
           resultCallback(null, {
             versions: [],
             proofs: [],
@@ -754,12 +753,12 @@ describe('Scanner', () => {
       assert(reportProgressCalled);
     });
 
-    it('add app to m_apps if not present', () => {
+    it('add app to apps if not present', () => {
       const app = {
         name: 'appName'
       };
       const tech = {
-        deepScan: (resultCallback, progressCallback) => {
+        deepScan: (resultCallback) => {
           resultCallback(null, {
             versions: [],
             proofs: [],
@@ -770,15 +769,15 @@ describe('Scanner', () => {
 
       const scanner = getScanner();
       scanner.deepScanApp(tech, app);
-      assert.deepEqual(scanner.m_apps.applications, [app]);
+      assert.deepEqual(scanner.apps.applications, [app]);
     });
 
-    it('does not add app to m_apps if present', () => {      
+    it('does not add app to apps if present', () => {
       const app = {
         name: 'appName'
       };
       const tech = {
-        deepScan: (resultCallback, progressCallback) => {
+        deepScan: (resultCallback) => {
           resultCallback(null, {
             versions: [],
             proofs: [],
@@ -788,18 +787,18 @@ describe('Scanner', () => {
       }
 
       const scanner = getScanner();
-      scanner.m_apps.applications = [app];
+      scanner.apps.applications = [app];
       scanner.deepScanApp(tech, app);
-      assert.deepEqual(scanner.m_apps.applications, [app]);
+      assert.deepEqual(scanner.apps.applications, [app]);
     });
 
-    it('does not add app to m_apps on failure', async () => { 
-      const ERROR = new Error('WTF');    
+    it('does not add app to apps on failure', async () => {
+      const ERROR = new Error('WTF');
       const app = {
         name: 'appName'
       };
       const tech = {
-        deepScan: (resultCallback, progressCallback) => {
+        deepScan: (resultCallback) => {
           resultCallback(ERROR, {
             versions: [],
             proofs: [],
@@ -812,11 +811,11 @@ describe('Scanner', () => {
       const scanner = getScanner();
       try {
         await scanner.deepScanApp(tech, app);
-      } catch(err) {
+      } catch (err) {
         assert.deepEqual(err, ERROR);
         errorThrown = true;
       }
-      assert.deepEqual(scanner.m_apps.applications, []);
+      assert.deepEqual(scanner.apps.applications, []);
       assert(errorThrown);
     });
 
@@ -827,7 +826,7 @@ describe('Scanner', () => {
         name: 'appName'
       };
       const tech = {
-        deepScan: (resultCallback, progressCallback) => {
+        deepScan: (resultCallback) => {
           resultCallback(null, {
             versions: VERSIONS,
             proofs: PROOFS,
@@ -857,7 +856,7 @@ describe('Scanner', () => {
         name: 'appName'
       };
       const tech = {
-        deepScan: (resultCallback, progressCallback) => {
+        deepScan: (resultCallback) => {
           resultCallback({}, {
             versions: [],
             proofs: [],
@@ -874,7 +873,7 @@ describe('Scanner', () => {
       }
       try {
         await scanner.deepScanApp(tech, app);
-      } catch(err) {
+      } catch (err) {
         errorThrown = true;
       }
       assert(errorThrown);
@@ -886,7 +885,7 @@ describe('Scanner', () => {
         name: 'appName'
       };
       const tech = {
-        deepScan: (resultCallback, progressCallback) => {
+        deepScan: (resultCallback) => {
           resultCallback(null, {
             versions: [],
             proofs: [],
@@ -899,19 +898,19 @@ describe('Scanner', () => {
       const scanner = getScanner();
       try {
         await scanner.deepScanApp(tech, app);
-      } catch(err) {
+      } catch (err) {
         errorThrown = true;
       }
       assert(!errorThrown);
     });
 
     it('reject on failure', async () => {
-      const ERROR = new Error('WTF');    
+      const ERROR = new Error('WTF');
       const app = {
         name: 'appName'
       };
       const tech = {
-        deepScan: (resultCallback, progressCallback) => {
+        deepScan: (resultCallback) => {
           resultCallback(ERROR, {
             versions: [],
             proofs: [],
@@ -924,7 +923,7 @@ describe('Scanner', () => {
       const scanner = getScanner();
       try {
         await scanner.deepScanApp(tech, app);
-      } catch(err) {
+      } catch (err) {
         assert.deepEqual(err, ERROR);
         errorThrown = true;
       }
@@ -963,7 +962,7 @@ describe('Scanner', () => {
       assert.deepEqual(app.confidence, expectedResult);
     });
 
-    it('updates version to max release version', () => {      
+    it('updates version to max release version', () => {
       const scanner = new Scanner(URL);
       const app = { };
 
@@ -971,7 +970,7 @@ describe('Scanner', () => {
       assert.equal(app.version, 3);
     });
 
-    it('updates versions to pattern.version', () => {         
+    it('updates versions to pattern.version', () => {
       const scanner = new Scanner(URL);
       const app = { };
 
@@ -983,7 +982,7 @@ describe('Scanner', () => {
   describe('findPlugins', () => {
     it('calls findPlugins on tech', async () => {
       let findPluginsCalled = false;
-      const app ={
+      const app = {
         version: 123
       };
       const tech = {
@@ -994,14 +993,14 @@ describe('Scanner', () => {
         }
       }
       const scanner = new Scanner(URL);
-      scanner.m_techApps = [];
+      scanner.techApps = [];
       await scanner.findPlugins(tech, app);
       assert(findPluginsCalled);
     });
 
     it('updates app plugins on progress', async () => {
       const DETECTED_PLUGINS = {
-        detected: 'plugins' 
+        detected: 'plugins'
       };
       const app = {
         version: 123,
@@ -1015,13 +1014,13 @@ describe('Scanner', () => {
         }
       }
       const scanner = new Scanner(URL);
-      scanner.m_techApps = [];
+      scanner.techApps = [];
       await scanner.findPlugins(tech, app);
     });
 
     it('calls reportProgress on progress', async () => {
       const DETECTED_PLUGINS = {
-        detected: 'plugins' 
+        detected: 'plugins'
       };
       const app = {
         name: 'appName',
@@ -1034,11 +1033,11 @@ describe('Scanner', () => {
         }
       }
       const scanner = new Scanner(URL);
-      scanner.m_deepScanProgress = 0;
-      scanner.m_techApps = ['techapp01', 'techapp02'];
+      scanner.deepScanProgress = 0;
+      scanner.techApps = ['techapp01', 'techapp02'];
       let reportProgressCalled = false;
       scanner.reportProgress = (status, inStepProgress, descriptionOverride) => {
-        if(!reportProgressCalled) {
+        if (!reportProgressCalled) {
           assert.equal(status, 'deepscan');
           assert.equal(inStepProgress, 0);
           assert.equal(descriptionOverride, 'Looking for ' + app.name + ' plugins.')
@@ -1049,9 +1048,9 @@ describe('Scanner', () => {
       assert(reportProgressCalled);
     });
 
-    it('updates app plugins on result', async () => {      
+    it('updates app plugins on result', async () => {
       const DETECTED_PLUGINS = {
-        detected: 'plugins' 
+        detected: 'plugins'
       };
       const app = {
         version: 123,
@@ -1064,14 +1063,14 @@ describe('Scanner', () => {
         }
       }
       const scanner = new Scanner(URL);
-      scanner.m_techApps = [];
+      scanner.techApps = [];
       await scanner.findPlugins(tech, app);
       assert.deepEqual(app.plugins, DETECTED_PLUGINS);
     });
 
     it('calls reportProgress on result', async () => {
       const DETECTED_PLUGINS = {
-        detected: 'plugins' 
+        detected: 'plugins'
       };
       const app = {
         name: 'appName',
@@ -1084,8 +1083,8 @@ describe('Scanner', () => {
         }
       }
       const scanner = new Scanner(URL);
-      scanner.m_deepScanProgress = 0;
-      scanner.m_techApps = ['techapp01', 'techapp02'];
+      scanner.deepScanProgress = 0;
+      scanner.techApps = ['techapp01', 'techapp02'];
       let reportProgressCalled = 0;
       scanner.reportProgress = (status, inStepProgress, descriptionOverride) => {
         assert.equal(status, 'deepscan');
@@ -1097,10 +1096,10 @@ describe('Scanner', () => {
       assert.equal(reportProgressCalled, 2);
     });
 
-    it('resolve on result', (done) => {      
+    it('resolve on result', (done) => {
       const scanner = new Scanner(URL);
-      scanner.m_deepScanProgress = 0;
-      scanner.m_techApps = ['techapp01', 'techapp02'];
+      scanner.deepScanProgress = 0;
+      scanner.techApps = ['techapp01', 'techapp02'];
       const app = {
         name: 'appName',
         version: 123
@@ -1140,14 +1139,14 @@ describe('Scanner', () => {
       httpStatus: HTTP_STATUS,
       detected: DETECTED
     };
-    
-    const getMockScanner = (progressCallback) => {      
+
+    const getMockScanner = (progressCallback) => {
       const scanner = new Scanner(URL, progressCallback);
       scanner.getCurrentDate = () => LAST_UPDATE;
-      scanner.m_scanDate = SCAN_DATE;
-      scanner.m_networkError = NETWORK_ERROR;
-      scanner.m_httpStatus = HTTP_STATUS;
-      scanner.m_apps = {
+      scanner.scanDate = SCAN_DATE;
+      scanner.networkError = NETWORK_ERROR;
+      scanner.httpStatus = HTTP_STATUS;
+      scanner.apps = {
         applications: DETECTED
       };
 
@@ -1187,7 +1186,7 @@ describe('Scanner', () => {
     //let url = 'http://www.spindrift-racing.com/' // drupal 7
     //let url = 'http://www.starwars.com/' // wordpress caché
     //let url = 'https://druid.fi/'
-    //let url = 'https://www.auchan.fr/' 
+    //let url = 'https://www.auchan.fr/'
     //let url = 'https://www.alibaba.com'
     // url = 'https://www.nike.com'
     // url = 'https://www.sony.com'

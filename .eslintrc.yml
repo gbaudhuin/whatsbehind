@@ -8,7 +8,7 @@
     browser: true
     es6: true
 
-parserOptions:
+  parserOptions:
     ecmaVersion: 8
     
   rules:

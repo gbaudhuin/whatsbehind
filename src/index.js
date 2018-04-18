@@ -1,34 +1,33 @@
-const Wappalyzer = require('wappalyzer')
-const Tech = require('./tech')
-const async = require('async')
-const request = require('request-promise')
+const Wappalyzer = require('wappalyzer');
+const Tech = require('./tech');
+const request = require('request-promise');
 const requestErrors = require('request-promise/errors');
-const Version = require('./version')
+const Version = require('./version');
 
 const PROGRESS_STEPS = {
-  init: { 
-    start: 0, 
-    end: 1, 
-    defaultDescription: 'Starting up...' 
+  init: {
+    start: 0,
+    end: 1,
+    defaultDescription: 'Starting up...'
   },
-  fetch: { 
-    start: 1, 
-    end: 5, 
-    defaultDescription: 'Fetching page content' 
+  fetch: {
+    start: 1,
+    end: 5,
+    defaultDescription: 'Fetching page content'
   },
-  analyze: { 
-    start: 5, 
-    end: 10, 
-    defaultDescription: 'Analyzing page content' 
+  analyze: {
+    start: 5,
+    end: 10,
+    defaultDescription: 'Analyzing page content'
   },
-  deepscan: { 
-    start: 10, 
-    end: 100, 
-    defaultDescription: 'Fine grain analysis' 
+  deepscan: {
+    start: 10,
+    end: 100,
+    defaultDescription: 'Fine grain analysis'
   },
-  complete: { 
-    start: 100, 
-    end: 100, 
+  complete: {
+    start: 100,
+    end: 100,
     defaultDescription: 'Scan complete'
   }
 }
@@ -36,6 +35,9 @@ const PROGRESS_STEPS = {
 const DEEPSCAN_RANGE_PHASE_1 = 100 / 3 // phase 1 : looking for a hidden CMS or CMS version
 const DEEPSCAN_RANGE_PHASE_2 = 100 - DEEPSCAN_RANGE_PHASE_1 // phase 2 : looking for plugins
 
+/**
+ * @summary Scan a website
+ */
 class Scanner {
   /**
    * @constructor
@@ -43,14 +45,15 @@ class Scanner {
    * @param {String} url - the url
    * @param {Function} progressCallback - the progress callback
    * @param {String} [homepageBody] - the homepage body
+   * @returns {undefined} void
    */
   constructor(url, progressCallback, homepageBody) {
-    this.m_url = url;
-    this.m_progressCallback = progressCallback;
-    this.m_homepageBody = homepageBody;
-    this.m_httpStatus = null;
-    this.m_networkError = null;
-    this.m_apps = null;
+    this.url = url;
+    this.progressCallback = progressCallback;
+    this.homepageBody = homepageBody;
+    this.httpStatus = null;
+    this.networkError = null;
+    this.apps = null;
   }
 
   /**
@@ -58,9 +61,9 @@ class Scanner {
    * @returns {undefined} void
    */
   async start() {
-    this.m_scanDate = this.getCurrentDate();
+    this.scanDate = this.getCurrentDate();
 
-    if(!await this.checkHttpStatus()) {
+    if (!await this.checkHttpStatus()) {
       // stop on error
       this.reportProgress('init', 100);
       return Promise.reject(new Error('unreachable URL'));
@@ -87,23 +90,23 @@ class Scanner {
    * @returns {Boolean} True if the URL is reachable
    */
   async checkHttpStatus() {
-    const requestOptions = Tech.getReqOptions(this.m_url);
+    const requestOptions = Tech.getReqOptions(this.url);
     requestOptions.resolveWithFullResponse = true;
 
     try {
       const response = await request(requestOptions);
-      this.m_httpStatus = response.statusCode;
+      this.httpStatus = response.statusCode;
 
       // update homepagebody if necessary
-      this.m_homepageBody = this.m_homepageBody || response.body;
+      this.homepageBody = this.homepageBody || response.body;
       return true;
-    } catch(err) {
-      if(err instanceof requestErrors.StatusCodeError) {
-        this.m_httpStatus = err.statusCode;
+    } catch (err) {
+      if (err instanceof requestErrors.StatusCodeError) {
+        this.httpStatus = err.statusCode;
       } else {
-        this.m_networkError = err.cause && err.cause.code === 'ENOTFOUND' ? 'DNS ERROR' : 'UNKOWN ERROR';    
+        this.networkError = err.cause && err.cause.code === 'ENOTFOUND' ? 'DNS ERROR' : 'UNKOWN ERROR';
       }
-      
+
       return false;
     }
   }
@@ -112,7 +115,7 @@ class Scanner {
    * @summary Launch Wappalyzer
    * @returns {undefined} void
    */
-  async wappalyze() {  
+  async wappalyze() {
     const options = {
       debug: false,
       delay: 500,
@@ -123,7 +126,7 @@ class Scanner {
       userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
     };
 
-    const wappalyzer = new Wappalyzer(this.m_url, options);
+    const wappalyzer = new Wappalyzer(this.url, options);
     wappalyzer.log = (message) => {
       if (message.indexOf(' fetch;') !== -1) {
         this.reportProgress('fetch', 0);
@@ -132,8 +135,8 @@ class Scanner {
         this.reportProgress('analyze', 0);
       }
     }
-  
-    this.m_apps = await wappalyzer.analyze()
+
+    this.apps = await wappalyzer.analyze()
   }
 
   /**
@@ -143,10 +146,10 @@ class Scanner {
   async deepScan() {
     this.initializeDeepScan();
 
-    for (const app of this.m_techApps) {
+    for (const app of this.techApps) {
       try {
         let tech = new Tech(app.name);
-        tech.findRoots(this.m_url, this.m_homepageBody)
+        tech.findRoots(this.url, this.homepageBody)
 
         if (!app.version) {
           await this.deepScanApp(tech, app);
@@ -165,12 +168,12 @@ class Scanner {
    */
   initializeDeepScan() {
     let hasCMS = false;
-    this.m_techApps = [];
-    this.m_deepScanProgress = 0;
+    this.techApps = [];
+    this.deepScanProgress = 0;
 
-    for (const app of this.m_apps.applications) {
+    for (const app of this.apps.applications) {
       if (Tech.allTechs.indexOf(app.name) !== -1) {
-        this.m_techApps.push(app);
+        this.techApps.push(app);
       }
 
       const cats = [];
@@ -178,7 +181,7 @@ class Scanner {
       for (const categories of app.categories) {
         for (const cat in categories) {
           cats.push(cat);
-          if (cat == 1 || cat == 11 || cat == 6) { // CMS, blog ou ecommerce
+          if (cat === '1' || cat === '11' || cat === '6') { // CMS, blog ou ecommerce
             hasCMS = true;
           }
         }
@@ -188,7 +191,7 @@ class Scanner {
       app.categories = cats;
     }
 
-    if(!hasCMS) {
+    if (!hasCMS) {
       this.addTechApp('WordPress', 100, 'WordPress.svg', 'http://wordpress.org', [1, 11]); // {"1": "CMS"},{"11": "Blogs"}
       this.addTechApp('Drupal', 100, 'Drupal.png', 'http://drupal.org', [1]); // {"1": "CMS"}
     }
@@ -196,11 +199,11 @@ class Scanner {
 
   /**
    * @summary Add an application to techApps
-   * @param {String} name 
-   * @param {Number} confidence 
-   * @param {String} icon 
-   * @param {String} website 
-   * @param {Array<Number>} categories 
+   * @param {String} name - app name
+   * @param {Number} confidence - app confidence
+   * @param {String} icon - app icon
+   * @param {String} website - app website
+   * @param {Array<Number>} categories - app categories
    * @returns {undefined} void
    */
   addTechApp(name, confidence, icon, website, categories) {
@@ -212,7 +215,7 @@ class Scanner {
       categories
     };
 
-    this.m_techApps.push(app)
+    this.techApps.push(app)
   }
 
   /**
@@ -224,7 +227,7 @@ class Scanner {
    */
   async deepScanApp(tech, app) {
     return new Promise((resolve, reject) => {
-      const hiddenApp = !this.m_apps.applications.find((application) => {
+      const hiddenApp = !this.apps.applications.find((application) => {
         return application.name === app.name;
       })
 
@@ -234,23 +237,23 @@ class Scanner {
       } else {
         progressMessage = 'Looking for ' + app.name + ' version.';
       }
-    
+
       const progressCallback = (progress) => {
-        const p = this.m_deepScanProgress + (DEEPSCAN_RANGE_PHASE_1 / 100) * progress / this.m_techApps.length;
+        const p = this.deepScanProgress + (DEEPSCAN_RANGE_PHASE_1 / 100) * progress / this.techApps.length;
         this.reportProgress('deepscan', p, progressMessage);
       }
-  
+
       const resultCallback = (err, result) => {
-        this.m_deepScanProgress += DEEPSCAN_RANGE_PHASE_1 / this.m_techApps.length
-        this.reportProgress('deepscan', this.m_deepScanProgress, progressMessage);
-  
-        if (result.status == 'fail') {
+        this.deepScanProgress += DEEPSCAN_RANGE_PHASE_1 / this.techApps.length
+        this.reportProgress('deepscan', this.deepScanProgress, progressMessage);
+
+        if (result.status === 'fail') {
           reject(err);
           return;
-        } 
-        
+        }
+
         if (hiddenApp) {
-          this.m_apps.applications.push(app);
+          this.apps.applications.push(app);
         }
 
         this.setDetected(app, {version: result.versions, regex: '.*'}, 'file', result.proofs);
@@ -258,21 +261,21 @@ class Scanner {
       }
 
       tech.deepScan(resultCallback, progressCallback);
-    })    
+    })
   }
 
   /**
    * @summary Set app as detected
-   * @param {Object} app 
-   * @param {Object} pattern 
-   * @param {String} type 
-   * @param {Array} proofs 
+   * @param {Object} app - app
+   * @param {Object} pattern - pattern
+   * @param {String} type - type
+   * @param {Array} proofs - proofs
    * @returns {undefined} void
    */
   setDetected(app, pattern, type, proofs) {
     app.confidence = {};
     for (const proof of proofs) {
-      const uri = proof.root + "/" + proof.path;
+      const uri = proof.root + '/' + proof.path;
       app.confidence[type + ' ' + uri] = proof.status;
     }
 
@@ -311,24 +314,22 @@ class Scanner {
   /**
    * @summary Find plugins for specified app
    * @param {Tech} tech - the tech object
-   * @param {Object} app - the app 
+   * @param {Object} app - the app
    * @returns {undefined} void
    */
   async findPlugins(tech, app) {
     return new Promise((resolve) => {
-      let pluginsLookupProgress;
-
-      const progressCallback = (detected_plugins, plugin_progress) => {
-        let p = this.m_deepScanProgress + (DEEPSCAN_RANGE_PHASE_2 / 100) * plugin_progress / this.m_techApps.length;
-        app.plugins = detected_plugins;
+      const progressCallback = (detectedPlugins, pluginProgress) => {
+        let p = this.deepScanProgress + (DEEPSCAN_RANGE_PHASE_2 / 100) * pluginProgress / this.techApps.length;
+        app.plugins = detectedPlugins;
         this.reportProgress('deepscan', p, 'Looking for ' + app.name + ' plugins.');
       };
 
-      const resultCallback = (detected_plugins) => {
-        this.m_deepScanProgress += DEEPSCAN_RANGE_PHASE_2 / this.m_techApps.length;
+      const resultCallback = (detectedPlugins) => {
+        this.deepScanProgress += DEEPSCAN_RANGE_PHASE_2 / this.techApps.length;
 
-        app.plugins = detected_plugins
-        this.reportProgress('deepscan', this.m_deepScanProgress, 'Looking for ' + app.name + ' plugins.');
+        app.plugins = detectedPlugins
+        this.reportProgress('deepscan', this.deepScanProgress, 'Looking for ' + app.name + ' plugins.');
         resolve();
       };
 
@@ -338,32 +339,32 @@ class Scanner {
 
   /**
    * @summary Report progress
-   * @param {String} status 
-   * @param {Number} inStepProgress 
-   * @param {String} descriptionOverride 
+   * @param {String} status - status
+   * @param {Number} inStepProgress - in step progress
+   * @param {String} descriptionOverride - description override
    * @returns {Object} The progress object
    */
   reportProgress(status, inStepProgress, descriptionOverride) {
     const step = PROGRESS_STEPS[status];
     const progressDescription = descriptionOverride || step.defaultDescription;
     const progress = step.start + (((step.end - step.start) * inStepProgress) / 100);
-  
+
     const ret = {
-      url: this.m_url,
+      url: this.url,
       status,
       progress,
       progressDescription,
-      scanDate: this.m_scanDate,
+      scanDate: this.scanDate,
       lastUpdate: this.getCurrentDate(),
-      networkError: this.m_networkError,
-      httpStatus: this.m_httpStatus,
-      detected: this.m_apps && this.m_apps.applications
+      networkError: this.networkError,
+      httpStatus: this.httpStatus,
+      detected: this.apps && this.apps.applications
     }
-    
-    if (this.m_progressCallback) {
-      this.m_progressCallback(ret)
+
+    if (this.progressCallback) {
+      this.progressCallback(ret)
     }
-  
+
     return ret
   }
 }
