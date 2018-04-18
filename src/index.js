@@ -149,6 +149,7 @@ class Scanner {
     for (const app of this.techApps) {
       try {
         let tech = new Tech(app.name);
+        tech.loadVersions();
         tech.findRoots(this.url, this.homepageBody)
 
         if (!app.version) {

@@ -7,19 +7,130 @@ const describe = require('mocha').describe; // avoid eslint warnings
 const it = require('mocha').it; // avoid eslint warnings
 
 describe('Class Tech', function () {
-  it('getHighestCommits', function () {
-    this.timeout(5000);// change Mocha default 2000ms timeout
-    var tech = new Tech('WordPress');
-    var hc = tech.getHighestCommits();
-    assert.ok(hc.length > 1900); // at time of writing, we're at least at 1900
+  describe('getHighestCommits', () => {
+    const DIFF_FILES = [];
+    for (let i = 0; i < 100; i++) {
+      DIFF_FILES.push({
+        status: 'A',
+        path: 'http://www.whatsbehind.io/file' + i + '.html'
+      })
+    }
 
-    hc = tech.getHighestCommits(50);
-    assert.equal(hc.length, 50);
+    const getTech = () => {
+      const tech = new Tech('WordPress');
+      tech.getDiffFiles = () => {
+        return DIFF_FILES;
+      }
+      tech.versions = [1, 2, 3];
+      return tech;
+    }
+
+    it('calls getDiffFiles for each version', () => {
+      const tech = getTech();
+      let diffFileIndex = tech.versions.length - 1;
+      tech.getDiffFiles = (version) => {
+        assert.deepEqual(version, tech.versions[diffFileIndex--]);
+        return [];
+      }
+      tech.getHighestCommits();
+      assert.equal(diffFileIndex, -1);
+    });
+
+    it('ignore deleted files', () => {
+      const tech = getTech();
+      tech.getDiffFiles = () => {
+        return [{
+          status: 'D',
+          path: 'http://www.whatsbehind.io/file.html'
+        }];
+      }
+      const commits = tech.getHighestCommits();
+      assert.deepEqual(commits, []);
+    });
+
+    it('does not ignore file if not deleted', () => {
+      const PATH = 'http://www.whatsbehind.io/file.html';
+      const tech = getTech();
+      tech.getDiffFiles = () => {
+        return [{
+          status: 'A',
+          path: PATH
+        }];
+      }
+      const commits = tech.getHighestCommits();
+      assert.deepEqual(commits, [PATH]);
+    })
+
+    it('ignore file if interpretable extension', () => {
+      const tech = getTech();
+      tech.getDiffFiles = () => {
+        return [{
+          status: 'A',
+          path: 'http://www.whatsbehind.io/file.php'
+        }];
+      }
+      const commits = tech.getHighestCommits();
+      assert.deepEqual(commits, []);
+    });
+
+    it('does not ignore file if un interpretable extension', () => {
+      const PATH = 'http://www.whatsbehind.io/file.html';
+      const tech = getTech();
+      tech.getDiffFiles = () => {
+        return [{
+          status: 'A',
+          path: PATH
+        }];
+      }
+      const commits = tech.getHighestCommits();
+      assert.deepEqual(commits, [PATH]);
+    });
+
+    it('result is sorted in descending order', () => {
+      const tech = getTech();
+      tech.getDiffFiles = (version) => {
+        switch (version) {
+          case 1: {
+            return  [{
+              status: 'A',
+              path: 'http://www.whatsbehind.io/file01.html'
+            }];
+          }
+
+          case 2:
+          case 3: {
+            return  [{
+              status: 'A',
+              path: 'http://www.whatsbehind.io/file02.html'
+            }];
+          }
+        }
+      }
+      const commits = tech.getHighestCommits();
+      assert.deepEqual(commits, [
+        'http://www.whatsbehind.io/file02.html',
+        'http://www.whatsbehind.io/file01.html'
+      ]);
+    });
+
+    it('returns all files', () => {
+      const tech = getTech();
+      const hc = tech.getHighestCommits();
+      assert.equal(hc.length, DIFF_FILES.length);
+    })
+
+    it('limits the result if limit param is set', function () {
+      const tech = getTech();
+      const hc = tech.getHighestCommits(50);
+      assert.equal(hc.length, 50);
+    })
   });
+
 
   it('deepScan', function (done) {
     this.timeout(3600 * 1000);// change Mocha default 2000ms timeout
     var tech = new Tech('WordPress');
+    tech.loadVersions();
     //var data = { uri: "https://www.wordfence.com/", version: "4.6" };
     //var data = { uri: "http://www.starwars.com", version: "4.5.3" };
     var data = { uri: 'http://wordpress3-8.whatsbehind.io/', version: '3.8' };
@@ -148,6 +259,7 @@ describe('Class Tech', function () {
 
   it('isCommitedInOlderVersions', function () {
     var tech = new Tech('WordPress');
+    tech.loadVersions();
     var existedBefore2 = tech.isCommitedInOlderVersions('wp-includes/js/tinymce/themes/advanced/images/numlist.gif', new Version('2.0'));
     var existedBefore21 = tech.isCommitedInOlderVersions('wp-includes/js/tinymce/themes/advanced/images/numlist.gif', new Version('2.1'));
     var existedBefore221Withslash = tech.isCommitedInOlderVersions('/wp-includes/js/tinymce/themes/advanced/images/numlist.gif', new Version('2.1'));

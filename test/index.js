@@ -453,6 +453,7 @@ describe('Scanner', () => {
       const Scanner = proxyquire('../src/index', {
         './tech': class Tech {
           constructor() {}
+          loadVersions() {}
           findRoots() {}
         }
       });
@@ -483,6 +484,7 @@ describe('Scanner', () => {
           constructor(appName) {
             assert.equal(appName, TECH_APPS[techIndex++]);
           }
+          loadVersions() {}
           findRoots() {}
         }
       });
@@ -498,6 +500,7 @@ describe('Scanner', () => {
       const Scanner = proxyquire('../src/index', {
         './tech': class Tech {
           constructor() { }
+          loadVersions() {}
           findRoots(url, homepageBody) {
             assert.equal(url, URL);
             assert.deepEqual(homepageBody, scanner.homepageBody);
@@ -566,6 +569,7 @@ describe('Scanner', () => {
       const Scanner = proxyquire('../src/index', {
         './tech': class Tech {
           constructor() { }
+          loadVersions() {}
           findRoots() {
             throw new Error('WTF');
           }

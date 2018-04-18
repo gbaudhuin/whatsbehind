@@ -31,8 +31,6 @@ const Tech = function (techname, scanPlugin, pluginSlug, coreVersion) {
   this.pluginSlug = pluginSlug; // used when scanning plugin version
   this.coreVersion = coreVersion; // used when scanning plugin version (Drupal)
   this.diffs = []; // diff files cache
-  this.versions = this.getAllVersions();
-  this.versionsDesc = this.versions.slice().reverse();
 
   this.args = techs[techname];
   this.args.rootLookup = this.args.rootLookup.map(function (value) {
@@ -48,6 +46,7 @@ const Tech = function (techname, scanPlugin, pluginSlug, coreVersion) {
 
 Tech.nonInterpretableTextExtensions = ['.html', '.js', '.css', '.xml', '.me', '.txt']; // un-interpreted plain text file extensions. other extensions such as scripts would return uncomparable content.
 Tech.nonInterpretableOtherExtensions = ['.png', '.jpg', '.gif', '.ico']; // un-interpreted non text extensions.
+Tech.nonInterpretableExtensions = Tech.nonInterpretableTextExtensions.concat(Tech.nonInterpretableOtherExtensions);
 
 /**
  * Array of techs managed par tech. Names match the ones in appalayzer/apps.json if they exist (case sensitive).
@@ -109,6 +108,15 @@ Tech.crlf2lf = function (data) {
 };
 
 Tech.prototype = {
+  /**
+   * @summary Load tech versions.
+   * @returns {undefined} void
+   */
+  loadVersions: function () {
+    this.versions = this.getAllVersions();
+    this.versionsDesc = this.versions.slice().reverse();
+  },
+
   /**
   * Returns a list of possible detected versions. In some cases, multiple versions cannot be distinguished (most often RC versions and release version, etc.
   * E.G. because only a few files differ and these files are interpreted code files which look the same from client side), deepScan() list them all.
@@ -412,60 +420,56 @@ Tech.prototype = {
   },
 
   /**
-   * Returns a list of all files that ever existe in the history of versions of the app.
+   * Returns a list of all files that ever existed in the history of versions of the app.
    * Files are sorted in descending order according to the number of commits they had in the history of versions of the application.
    * @param {Number} limit Nth higher number of commits
-   * @returns {Array<String>} All files that ever existe in the history of versions of the app.
+   * @returns {Array<String>} All files that ever existed in the history of versions of the app.
    */
   getHighestCommits(limit) {
     limit = typeof limit !== 'undefined' ? limit : 999999999;
-    var commitsCount = {};
+    const commitsCount = {};
 
-    var v = this.versions.length;
-    var highestCount = 0;
+    let v = this.versions.length;
+    let highestCount = 0;
     while (v--) {
-      var diffs = this.getDiffFiles(this.versions[v]);
-      var i = diffs.length;
+      const diffs = this.getDiffFiles(this.versions[v]);
+      let i = diffs.length;
       while (i--) {
-        var diff = diffs[i];
+        const diff = diffs[i];
         if (diff.status === 'D') {
           continue;
         }
-        var ext = path.extname(diff.path);
-        var extLower = ext.toLowerCase();
-        if (!(Tech.nonInterpretableTextExtensions.indexOf(extLower) !== -1 || Tech.nonInterpretableOtherExtensions.indexOf(extLower) !== -1)) {
+        const ext = path.extname(diff.path);
+        const extLower = ext.toLowerCase();
+        if (Tech.nonInterpretableExtensions.indexOf(extLower) === -1) {
           continue;
         }
-        if (commitsCount.hasOwnProperty(diff.path)) {
-          commitsCount[diff.path]++;
-          if (commitsCount[diff.path] > highestCount) {
-            highestCount = commitsCount[diff.path];
-          }
-        } else {
-          commitsCount[diff.path] = 1;
-        }
+
+        let count = commitsCount[diff.path] || 0;
+        count++;
+        highestCount = Math.max(count, highestCount);
+        commitsCount[diff.path] = count;
       }
+    }
+
+    // convert to array
+    const commitsCountArray = [];
+    for (const localPath in commitsCount) {
+      commitsCountArray.push({localPath, count: commitsCount[localPath]});
     }
 
     // sort in descending order
-    var commitsCountSortedPaths = [];
-    var currentCount = highestCount + 1;
-    var n = 0;
-    while (currentCount-- && n < limit) {
-      for (var localPath in commitsCount) {
-        if (commitsCount.hasOwnProperty(localPath)) {
-          if (commitsCount[localPath] === currentCount) {
-            commitsCountSortedPaths.push(localPath);
-            n++;
-            if (n >= limit) {
-              break;
-            }
-          }
-        }
-      }
-    }
+    commitsCountArray.sort((element1, element2) => {
+      return element2.count - element1.count;
+    })
 
-    return commitsCountSortedPaths;
+    // limit results
+    commitsCountArray.splice(limit);
+
+    // create result array
+    const result = Array.from(commitsCountArray, (element) => element.localPath);
+
+    return result;
   },
 
   /**
@@ -1033,6 +1037,7 @@ Tech.prototype = {
 
                       // look for plugin version
                       var tech = new Tech(techname, true, pluginSlug, coreVersion);
+                      tech.loadVersions();
                       tech.setOneRoot(pluginsPath + '/' + pluginSlug);
                       deepScanLaunched = true;
                       tech.deepScan((err, result) => {
