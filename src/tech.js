@@ -1085,7 +1085,7 @@ Tech.prototype = {
       //Async.eachLimit(plugins, 20, function (pluginSlug, cb1) { // test all known plugins
       Async.eachSeries(plugins, (pluginSlug, cb1) => { // test all known plugins
         Async.someSeries(this.pluginPaths, (pluginsPath, cb2) => { // test each path until one works
-          fn(pluginsPath, pluginSlug, function () {
+          fn(pluginsPath, pluginSlug, () => {
             if (detectedPluginsData.length > 0) {
               if (this.pluginPaths.length > 1) {
                 l = plugins.length + this.pluginPaths.length * Math.floor(n / this.pluginPaths.length);
