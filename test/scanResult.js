@@ -60,4 +60,13 @@ describe('scanResult', () => {
       assert.deepEqual(scanResult.detected, DETECTED);
     });
   })
+
+  describe('copy', () => {
+    it('copy the data of the other scanResult', () => {
+      const scanResultSource = new ScanResult(URL, STATUS, PROGRESS, PROGRESS_DESCSRIPTION, SCAN_DATE, LAST_UPDATE, NETWORK_ERROR, HTTP_STATUS, DETECTED);
+      const scanResult = new ScanResult(null, null, null, null, 'SCAN_DATE', 'LAST_UPDATE', null, null, null);
+      scanResult.copy(scanResultSource);
+      assert.deepEqual(scanResult, scanResultSource);
+    })
+  })
 })
