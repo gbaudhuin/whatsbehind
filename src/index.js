@@ -3,6 +3,7 @@ const Tech = require('./tech');
 const request = require('request-promise');
 const requestErrors = require('request-promise/errors');
 const Version = require('./version');
+const ScanResult = require('./scanResult');
 
 const PROGRESS_STEPS = {
   init: {
@@ -78,11 +79,11 @@ class Scanner {
   }
 
   /**
-   * @summary Get the current date as ISO String
-   * @returns {String} Current date as ISO String
+   * @summary Get the current date
+   * @returns {Date} Current date
    */
   getCurrentDate() {
-    return (new Date()).toISOString();
+    return new Date();
   }
 
   /**
@@ -350,23 +351,23 @@ class Scanner {
     const progressDescription = descriptionOverride || step.defaultDescription;
     const progress = step.start + (((step.end - step.start) * inStepProgress) / 100);
 
-    const ret = {
-      url: this.url,
+    const scanResult = new ScanResult(
+      this.url,
       status,
       progress,
       progressDescription,
-      scanDate: this.scanDate,
-      lastUpdate: this.getCurrentDate(),
-      networkError: this.networkError,
-      httpStatus: this.httpStatus,
-      detected: this.apps && this.apps.applications
-    }
+      this.scanDate,
+      this.getCurrentDate(),
+      this.networkError,
+      this.httpStatus,
+      this.apps && this.apps.applications
+    );
 
     if (this.progressCallback) {
-      this.progressCallback(ret)
+      this.progressCallback(scanResult)
     }
 
-    return ret
+    return scanResult
   }
 }
 

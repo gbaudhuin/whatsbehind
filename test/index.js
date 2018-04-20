@@ -25,7 +25,7 @@ describe('Scanner', () => {
   })
 
   describe('start', () => {
-    const CURRENT_DATE = 'date';
+    const CURRENT_DATE = new Date();
     const getMockScanner = () => {
       const scanner = new Scanner(URL);
       scanner.getCurrentDate = () => CURRENT_DATE;
@@ -211,9 +211,9 @@ describe('Scanner', () => {
   })
 
   describe('getCurrentDate', () => {
-    it('returns the current date as iso string', () => {
+    it('returns the current date', () => {
       const scanner = new Scanner(URL);
-      assert.equal(scanner.getCurrentDate(), (new Date()).toISOString());
+      assert.deepEqual(scanner.getCurrentDate(), new Date());
     })
   })
 
@@ -693,6 +693,7 @@ describe('Scanner', () => {
   describe('deepScanApp', () => {
     const getScanner = () => {
       const scanner = new Scanner(URL);
+      scanner.scanDate = new Date();
       scanner.techApps = [];
       scanner.apps = {
         applications: []
@@ -997,6 +998,7 @@ describe('Scanner', () => {
         }
       }
       const scanner = new Scanner(URL);
+      scanner.scanDate = new Date();
       scanner.techApps = [];
       await scanner.findPlugins(tech, app);
       assert(findPluginsCalled);
@@ -1018,6 +1020,7 @@ describe('Scanner', () => {
         }
       }
       const scanner = new Scanner(URL);
+      scanner.scanDate = new Date();
       scanner.techApps = [];
       await scanner.findPlugins(tech, app);
     });
@@ -1067,6 +1070,7 @@ describe('Scanner', () => {
         }
       }
       const scanner = new Scanner(URL);
+      scanner.scanDate = new Date();
       scanner.techApps = [];
       await scanner.findPlugins(tech, app);
       assert.deepEqual(app.plugins, DETECTED_PLUGINS);
@@ -1102,6 +1106,7 @@ describe('Scanner', () => {
 
     it('resolve on result', (done) => {
       const scanner = new Scanner(URL);
+      scanner.scanDate = new Date();
       scanner.deepScanProgress = 0;
       scanner.techApps = ['techapp01', 'techapp02'];
       const app = {
@@ -1126,8 +1131,8 @@ describe('Scanner', () => {
     const STATUS = 'deepscan';
     const IN_STEP_PROGRESS = 50;
     const PROGRESS_DESCRIPTION = 'progress description';
-    const SCAN_DATE = 'scan date';
-    const LAST_UPDATE = 'laste update';
+    const SCAN_DATE = new Date();
+    const LAST_UPDATE = new Date();
     const NETWORK_ERROR = 'network error';
     const HTTP_STATUS = 'http status';
     const DETECTED = { applications: 'anything' };
@@ -1137,8 +1142,8 @@ describe('Scanner', () => {
       status: STATUS,
       progress: 55,
       progressDescription: PROGRESS_DESCRIPTION,
-      scanDate: SCAN_DATE,
-      lastUpdate: LAST_UPDATE,
+      scanDate: SCAN_DATE.toISOString(),
+      lastUpdate: LAST_UPDATE.toISOString(),
       networkError: NETWORK_ERROR,
       httpStatus: HTTP_STATUS,
       detected: DETECTED
