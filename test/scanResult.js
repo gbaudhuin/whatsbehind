@@ -6,64 +6,94 @@ const ScanResult = require('../src/scanResult');
 const URL = 'url';
 const STATUS = 'status';
 const PROGRESS = 23;
-const PROGRESS_DESCSRIPTION = 'progress description';
+const PROGRESS_DESCRIPTION = 'progress description';
 const SCAN_DATE = new Date();
 const LAST_UPDATE = new Date();
 const NETWORK_ERROR = 'network error';
 const HTTP_STATUS = 200;
 const DETECTED = [{}, {}];
 
+const getScanResult = () => {
+  return new ScanResult(
+    URL,
+    STATUS,
+    PROGRESS,
+    PROGRESS_DESCRIPTION,
+    SCAN_DATE,
+    LAST_UPDATE,
+    NETWORK_ERROR,
+    HTTP_STATUS,
+    DETECTED
+  );
+}
+
 describe('scanResult', () => {
   describe('constructor', () => {
     it('set url', () => {
-      const scanResult = new ScanResult(URL, STATUS, PROGRESS, PROGRESS_DESCSRIPTION, SCAN_DATE, LAST_UPDATE, NETWORK_ERROR, HTTP_STATUS, DETECTED);
+      const scanResult = getScanResult();
       assert.equal(scanResult.url, URL);
     });
 
     it('set status', () => {
-      const scanResult = new ScanResult(URL, STATUS, PROGRESS, PROGRESS_DESCSRIPTION, SCAN_DATE, LAST_UPDATE, NETWORK_ERROR, HTTP_STATUS, DETECTED);
+      const scanResult = getScanResult();
       assert.equal(scanResult.status, STATUS);
     });
 
     it('set progress', () => {
-      const scanResult = new ScanResult(URL, STATUS, PROGRESS, PROGRESS_DESCSRIPTION, SCAN_DATE, LAST_UPDATE, NETWORK_ERROR, HTTP_STATUS, DETECTED);
+      const scanResult = getScanResult();
       assert.equal(scanResult.progress, PROGRESS);
     });
 
     it('set progressDescription', () => {
-      const scanResult = new ScanResult(URL, STATUS, PROGRESS, PROGRESS_DESCSRIPTION, SCAN_DATE, LAST_UPDATE, NETWORK_ERROR, HTTP_STATUS, DETECTED);
-      assert.equal(scanResult.progressDescription, PROGRESS_DESCSRIPTION);
+      const scanResult = getScanResult();
+      assert.equal(scanResult.progressDescription, PROGRESS_DESCRIPTION);
     });
 
     it('set scanDate', () => {
-      const scanResult = new ScanResult(URL, STATUS, PROGRESS, PROGRESS_DESCSRIPTION, SCAN_DATE, LAST_UPDATE, NETWORK_ERROR, HTTP_STATUS, DETECTED);
+      const scanResult = getScanResult();
       assert.equal(scanResult.scanDate, SCAN_DATE.toISOString());
     });
 
     it('set lastUpdate', () => {
-      const scanResult = new ScanResult(URL, STATUS, PROGRESS, PROGRESS_DESCSRIPTION, SCAN_DATE, LAST_UPDATE, NETWORK_ERROR, HTTP_STATUS, DETECTED);
+      const scanResult = getScanResult();
       assert.equal(scanResult.lastUpdate, LAST_UPDATE.toISOString());
     });
 
     it('set networkError', () => {
-      const scanResult = new ScanResult(URL, STATUS, PROGRESS, PROGRESS_DESCSRIPTION, SCAN_DATE, LAST_UPDATE, NETWORK_ERROR, HTTP_STATUS, DETECTED);
+      const scanResult = getScanResult();
       assert.equal(scanResult.networkError, NETWORK_ERROR);
     });
 
     it('set httpStatus', () => {
-      const scanResult = new ScanResult(URL, STATUS, PROGRESS, PROGRESS_DESCSRIPTION, SCAN_DATE, LAST_UPDATE, NETWORK_ERROR, HTTP_STATUS, DETECTED);
+      const scanResult = getScanResult();
       assert.equal(scanResult.httpStatus, HTTP_STATUS);
     });
 
     it('set detected', () => {
-      const scanResult = new ScanResult(URL, STATUS, PROGRESS, PROGRESS_DESCSRIPTION, SCAN_DATE, LAST_UPDATE, NETWORK_ERROR, HTTP_STATUS, DETECTED);
+      const scanResult = getScanResult();
       assert.deepEqual(scanResult.detected, DETECTED);
     });
+
+    it('creates the expected vars', () => {
+      const EXPECTED_RESULT = {
+        url: URL,
+        status: STATUS,
+        progress: PROGRESS,
+        progressDescription: PROGRESS_DESCRIPTION,
+        scanDate: SCAN_DATE.toISOString(),
+        lastUpdate: LAST_UPDATE.toISOString(),
+        networkError: NETWORK_ERROR,
+        httpStatus: HTTP_STATUS,
+        detected: DETECTED
+      }
+
+      assert.deepEqual(getScanResult(), EXPECTED_RESULT);
+    })
   })
 
   describe('copy', () => {
     it('copy the data of the other scanResult', () => {
-      const scanResultSource = new ScanResult(URL, STATUS, PROGRESS, PROGRESS_DESCSRIPTION, SCAN_DATE, LAST_UPDATE, NETWORK_ERROR, HTTP_STATUS, DETECTED);
+      const scanResultSource = getScanResult();
       const scanResult = new ScanResult(null, null, null, null, 'SCAN_DATE', 'LAST_UPDATE', null, null, null);
       scanResult.copy(scanResultSource);
       assert.deepEqual(scanResult, scanResultSource);

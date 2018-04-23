@@ -28,7 +28,7 @@ class ScanResult {
 
   /**
    * @summary Copy the scanResult
-   * @param {ScanResult} scanResult - the scanResult to duplicate
+   * @param {ScanResult} scanResult - the scanResult to copy
    * @returns {undefined} void
    */
   copy(scanResult) {
