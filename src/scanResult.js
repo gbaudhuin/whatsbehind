@@ -19,11 +19,52 @@ class ScanResult {
     this.status = status;
     this.progress = progress;
     this.progressDescription = progressDescription;
-    this.scanDate = (typeof scanDate === 'string') ? scanDate : scanDate.toISOString();
-    this.lastUpdate = (typeof lastUpdate === 'string') ? lastUpdate : lastUpdate.toISOString();
+    this.scanDate = scanDate;
+    this.lastUpdate = lastUpdate;
     this.networkError = networkError;
     this.httpStatus = httpStatus;
     this.detected = detected;
+  }
+
+  /**
+   * @summary Update scanDate value
+   * @param {Date|String} value - the new value
+   */
+  set scanDate(value) {
+    this.mScanDate = this.getDateAsString(value);
+  }
+
+  /**
+   * @summary Return scanDate value
+   * @returns {String} scanDate value
+   */
+  get scanDate() {
+    return this.mScanDate;
+  }
+
+  /**
+   * @summary Update lastUpdate value
+   * @param {Date|String} value - the new value
+   */
+  set lastUpdate(value) {
+    this.mLastUpdate = this.getDateAsString(value);
+  }
+
+  /**
+   * @summary Return lastUpdate value
+   * @returns {String} LastUpdate value
+   */
+  get lastUpdate() {
+    return this.mLastUpdate;
+  }
+
+  /**
+   * @summary Convert date to string
+   * @param {Date|String} date - the date to convert
+   * @returns {String} the converted date
+   */
+  getDateAsString(date) {
+    return (typeof date === 'string') ? date : date.toISOString();
   }
 
   /**

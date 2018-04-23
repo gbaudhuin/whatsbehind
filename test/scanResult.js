@@ -80,14 +80,74 @@ describe('scanResult', () => {
         status: STATUS,
         progress: PROGRESS,
         progressDescription: PROGRESS_DESCRIPTION,
-        scanDate: SCAN_DATE.toISOString(),
-        lastUpdate: LAST_UPDATE.toISOString(),
+        mScanDate: SCAN_DATE.toISOString(),
+        mLastUpdate: LAST_UPDATE.toISOString(),
         networkError: NETWORK_ERROR,
         httpStatus: HTTP_STATUS,
         detected: DETECTED
       }
 
       assert.deepEqual(getScanResult(), EXPECTED_RESULT);
+    })
+  })
+
+  describe('getDateAsString', () => {
+    it('calls toISOString on date', () => {
+      const scanResult = getScanResult();
+      const EXPECTED_RESULT = 'anything';
+      let toISOStringCalled = false;
+      const date = {
+        toISOString: () => {
+          toISOStringCalled = true;
+          return EXPECTED_RESULT;
+        }
+      }
+      const asStr = scanResult.getDateAsString(date);
+      assert.equal(asStr, EXPECTED_RESULT);
+      assert(toISOStringCalled);
+    })
+
+    it('returns string', () => {
+      const scanResult = getScanResult();
+      const str = 'anything';
+      const asStr = scanResult.getDateAsString(str);
+      assert(str, asStr);
+    })
+  })
+
+  describe('scanDate', () => {
+    it('calls getDateAsString', () => {
+      const scanResult = getScanResult();
+      let getDateAsStringCalled = false;
+      scanResult.getDateAsString = (date) => {
+        assert.equal(date, SCAN_DATE);
+        getDateAsStringCalled = true;
+      }
+      scanResult.scanDate = SCAN_DATE;
+      assert(getDateAsStringCalled);
+    })
+
+    it('returns mScanDate value', () => {
+      const scanResult = getScanResult();
+      assert.equal(scanResult.scanDate, scanResult.mScanDate);
+    })
+  })
+
+  describe('lastUpdate', () => {
+    it('calls getDateAsString', () => {
+      const scanResult = getScanResult();
+      let getDateAsStringCalled = false;
+      scanResult.getDateAsString = (date) => {
+        assert.equal(date, LAST_UPDATE);
+        getDateAsStringCalled = true;
+      }
+      scanResult.lastUpdate = LAST_UPDATE;
+      assert(getDateAsStringCalled);
+    })
+
+    it('returns mLastUpdate value', () => {
+      const scanResult = getScanResult();
+      assert.equal(scanResult.lastUpdate, scanResult.mLastUpdate);
     })
   })
 
