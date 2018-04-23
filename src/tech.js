@@ -436,28 +436,28 @@ class Tech {
   /**
    * Returns a list of all files that ever existed in the history of versions of the app.
    * Files are sorted in descending order according to the number of commits they had in the history of versions of the application.
-   * @param {Number} limit Nth higher number of commits
+   * @param {Number} [limit] - Nth higher number of commits
    * @returns {Array<String>} All files that ever existed in the history of versions of the app.
    */
-  getHighestCommits(limit) {
-    limit = typeof limit !== 'undefined' ? limit : 999999999;
+  getHighestCommits(limit = 999999999) {
     const commitsCount = {};
 
     let v = this.versions.length;
     let highestCount = 0;
     while (v--) {
       const diffs = this.getDiffFiles(this.versions[v]);
-      let i = diffs.length;
-      while (i--) {
-        const diff = diffs[i];
-        if (diff.status === 'D') {
-          continue;
-        }
+
+      // filter the diff
+      const filteredDiffs = diffs.filter((diff) => {
         const ext = path.extname(diff.path);
         const extLower = ext.toLowerCase();
-        if (NON_INTERPRETABLE_EXTENSIONS.indexOf(extLower) === -1) {
-          continue;
-        }
+        return diff.status !== 'D' && NON_INTERPRETABLE_EXTENSIONS.indexOf(extLower) !== -1;
+      })
+
+      // loop
+      let i = filteredDiffs.length;
+      while (i--) {
+        const diff = filteredDiffs[i];
 
         let count = commitsCount[diff.path] || 0;
         count++;
