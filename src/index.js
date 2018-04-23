@@ -275,11 +275,7 @@ class Scanner {
    * @returns {undefined} void
    */
   setDetected(app, pattern, type, proofs) {
-    app.confidence = {};
-    for (const proof of proofs) {
-      const uri = proof.root + '/' + proof.path;
-      app.confidence[type + ' ' + uri] = proof.status;
-    }
+    app.proofs = proofs;
 
     // get most probable version among pattern.version. pattern.version is an array
     let maxVersion = null;
