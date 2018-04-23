@@ -7,115 +7,133 @@ const Async = require('async');
 const Version = require('./version');
 const Helper = require('./helper');
 
+// un-interpreted plain text file extensions. other extensions such as scripts would return uncomparable content.
+const NON_INTERPRETABLE_TEXT_EXTENSIONS = ['.html', '.js', '.css', '.xml', '.me', '.txt'];
+// un-interpreted non text extensions.
+const NON_INTERPRETABLE_OTHER_EXTENSIONS = ['.png', '.jpg', '.gif', '.ico'];
+const NON_INTERPRETABLE_EXTENSIONS = NON_INTERPRETABLE_TEXT_EXTENSIONS.concat(NON_INTERPRETABLE_OTHER_EXTENSIONS);
+
+let allTechs = null;
+
 const techsJson = fs.readFileSync(path.resolve(__dirname, 'techs.json'), 'utf8'); // tech names in techs.json must match tech names in wappalyzer/apps.json
 const techs = JSON.parse(techsJson);
 
-/**
- * Tech class
- * scanPlugin, pluginSlug, coreVersion should only be used when scanning a plugin
- * @constructor
- * @param {String} techname - techname
- * @param {Boolean} scanPlugin -scanPlugin
- * @param {String} pluginSlug - pluginSlug
- * @param {String} coreVersion - coreVersion
- */
-const Tech = function (techname, scanPlugin, pluginSlug, coreVersion) {
-  if (Tech.allTechs.indexOf(techname) === -1) {
-    return null;
-  }
-  this.techname = techname;
-  this.scanPlugin = false; // true when scanning plugin version
-  if (scanPlugin === true) {
-    this.scanPlugin = true;
-  }
-  this.pluginSlug = pluginSlug; // used when scanning plugin version
-  this.coreVersion = coreVersion; // used when scanning plugin version (Drupal)
-  this.diffs = []; // diff files cache
-
-  this.args = techs[techname];
-  this.args.rootLookup = this.args.rootLookup.map(function (value) {
-    return new RegExp(value, 'g');
-  });
-  this.args.pluginLookup = this.args.pluginLookup.map(function (value) {
-    return new RegExp(value, 'g');
-  });
-
-  this.appRoots = [];
-  this.pluginPaths = [];
-};
-
-Tech.nonInterpretableTextExtensions = ['.html', '.js', '.css', '.xml', '.me', '.txt']; // un-interpreted plain text file extensions. other extensions such as scripts would return uncomparable content.
-Tech.nonInterpretableOtherExtensions = ['.png', '.jpg', '.gif', '.ico']; // un-interpreted non text extensions.
-Tech.nonInterpretableExtensions = Tech.nonInterpretableTextExtensions.concat(Tech.nonInterpretableOtherExtensions);
-
-/**
- * Array of techs managed par tech. Names match the ones in appalayzer/apps.json if they exist (case sensitive).
- */
-Tech.allTechs = [];
+allTechs = [];
 for (var t in techs) {
   if (techs.hasOwnProperty(t)) {
-    Tech.allTechs.push(t);
+    allTechs.push(t);
   }
 }
 
-Tech.getReqOptions = (url, options) => {
-  var ret = {
-    url,
-    timeout: 5000,
-    rejectUnauthorized: false,
-    requestCert: true,
-    agent: false,
-    jar: true, // gère les cookies
-    gzip: true,
-    strictSSL: false,
-    headers: {
-      Accept: 'Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-      Connection: 'keep-alive',
-      'Cache-Control': 'max-age=0',
-      'Accept-Encoding': 'gzip, deflate, br',
-      'Accept-Language': 'en-US,en;q=0.7',
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
-    }
-  };
-
-  if (options) {
-    for (var opt in options) {
-      if (options.hasOwnProperty(opt)) {
-        ret[opt] = options[opt];
-      }
-    }
-  }
-  return ret;
-};
-
 /**
-* Converts all CRLF to LF
-* @param {Buffer} data - data
-* @returns {Uint8Array} Converted data
-*/
-Tech.crlf2lf = function (data) {
-  var converted = new Uint8Array(data.length);
-  var j = 0;
-  for (var i = 0; i < data.length; i++) {
-    if (data[i] === 13 && i < data.length - 1 && data[i + 1] === 10) { // 13 = ascii code of lf, 10 = ascii code of cr
-      i++;
+ * Tech class
+ */
+class Tech {
+  /**
+   * Tech class
+   * scanPlugin, pluginSlug, coreVersion should only be used when scanning a plugin
+   * @constructor
+   * @param {String} techname - techname
+   * @param {Boolean} scanPlugin -scanPlugin
+   * @param {String} pluginSlug - pluginSlug
+   * @param {String} coreVersion - coreVersion
+   */
+  constructor(techname, scanPlugin, pluginSlug, coreVersion) {
+    if (Tech.allTechs.indexOf(techname) === -1) {
+      throw new Error('Tech ' + techname + ' does not exist');
     }
+    this.techname = techname;
+    this.scanPlugin = false; // true when scanning plugin version
+    if (scanPlugin === true) {
+      this.scanPlugin = true;
+    }
+    this.pluginSlug = pluginSlug; // used when scanning plugin version
+    this.coreVersion = coreVersion; // used when scanning plugin version (Drupal)
+    this.diffs = []; // diff files cache
 
-    converted[j] = data[i];
-    j++;
+    this.args = techs[techname];
+    this.args.rootLookup = this.args.rootLookup.map(function (value) {
+      return new RegExp(value, 'g');
+    });
+    this.args.pluginLookup = this.args.pluginLookup.map(function (value) {
+      return new RegExp(value, 'g');
+    });
+
+    this.appRoots = [];
+    this.pluginPaths = [];
   }
-  return converted.slice(0, j)
-};
 
-Tech.prototype = {
+  /**
+   * @summary Return all the techs
+   * @returns {Array} all the techs
+   */
+  static get allTechs() {
+    return allTechs;
+  }
+
   /**
    * @summary Load tech versions.
    * @returns {undefined} void
    */
-  loadVersions: function () {
+  loadVersions() {
     this.versions = this.getAllVersions();
     this.versionsDesc = this.versions.slice().reverse();
-  },
+  }
+
+  /**
+   * @summary Return reqOptions
+   * @param {String} url - url
+   * @param {Object} options - options
+   * @returns {Object} options
+   */
+  static getReqOptions(url, options) {
+    var ret = {
+      url,
+      timeout: 5000,
+      rejectUnauthorized: false,
+      requestCert: true,
+      agent: false,
+      jar: true, // gère les cookies
+      gzip: true,
+      strictSSL: false,
+      headers: {
+        Accept: 'Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        Connection: 'keep-alive',
+        'Cache-Control': 'max-age=0',
+        'Accept-Encoding': 'gzip, deflate, br',
+        'Accept-Language': 'en-US,en;q=0.7',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+      }
+    };
+
+    if (options) {
+      for (var opt in options) {
+        if (options.hasOwnProperty(opt)) {
+          ret[opt] = options[opt];
+        }
+      }
+    }
+    return ret;
+  };
+
+  /**
+  * Converts all CRLF to LF
+  * @param {Buffer} data - data
+  * @returns {Uint8Array} Converted data
+  */
+  static crlf2lf(data) {
+    var converted = new Uint8Array(data.length);
+    var j = 0;
+    for (var i = 0; i < data.length; i++) {
+      if (data[i] === 13 && i < data.length - 1 && data[i + 1] === 10) { // 13 = ascii code of lf, 10 = ascii code of cr
+        i++;
+      }
+
+      converted[j] = data[i];
+      j++;
+    }
+    return converted.slice(0, j)
+  }
 
   /**
   * Returns a list of possible detected versions. In some cases, multiple versions cannot be distinguished (most often RC versions and release version, etc.
@@ -124,7 +142,7 @@ Tech.prototype = {
   * @param {Function} cbProgress - progress callback
   * @returns {undefined} void
   */
-  deepScan: function (cb, cbProgress) {
+  deepScan(cb, cbProgress) {
     const highestCommits = this.getHighestCommits();
 
     const queue = Array.from(highestCommits, (localPath) => {
@@ -201,7 +219,7 @@ Tech.prototype = {
             body.length > 0
         ) {
           nMatch++;
-          if (Tech.nonInterpretableTextExtensions.indexOf(o.extLower) !== -1) {
+          if (NON_INTERPRETABLE_TEXT_EXTENSIONS.indexOf(o.extLower) !== -1) {
             body = Tech.crlf2lf(body); // normalize text files eof
           }
 
@@ -413,7 +431,7 @@ Tech.prototype = {
       cbProgress(progress);
       pass2(_this, checkNonReleaseVersions);
     });// chain pass1 and pass2
-  },
+  }
 
   /**
    * Returns a list of all files that ever existed in the history of versions of the app.
@@ -437,7 +455,7 @@ Tech.prototype = {
         }
         const ext = path.extname(diff.path);
         const extLower = ext.toLowerCase();
-        if (Tech.nonInterpretableExtensions.indexOf(extLower) === -1) {
+        if (NON_INTERPRETABLE_EXTENSIONS.indexOf(extLower) === -1) {
           continue;
         }
 
@@ -466,7 +484,7 @@ Tech.prototype = {
     const result = Array.from(commitsCountArray, (element) => element.localPath);
 
     return result;
-  },
+  }
 
   /**
   * Check if website is in a specific version.
@@ -481,7 +499,7 @@ Tech.prototype = {
   * result is 'succss' if version was identified
   * result is 'maybe' if we can't tell because no files could be tested : "M" code files only, "D" files only, etc.
   */
-  isVersionOrNewer: function (version, cb) {
+  isVersionOrNewer(version, cb) {
     var diffs = this.getDiffFiles(version);
     var proofs = [];
     var pathSkip = []; // list of path that were already requested or should be skipped
@@ -594,7 +612,7 @@ Tech.prototype = {
           }
           f(_this);// next
         });
-      } else if (diff.status === 'M' && (Tech.nonInterpretableTextExtensions.indexOf(extLower) !== -1 || Tech.nonInterpretableOtherExtensions.indexOf(extLower) !== -1)) {
+      } else if (diff.status === 'M' && (NON_INTERPRETABLE_TEXT_EXTENSIONS.indexOf(extLower) !== -1 || NON_INTERPRETABLE_OTHER_EXTENSIONS.indexOf(extLower) !== -1)) {
         if (_this.isExactFileInOlderVersions(diff.path, version)) {// some files may change back an forth between versions
           pathSkip.push(proofString);
           f(_this);// next
@@ -612,7 +630,7 @@ Tech.prototype = {
           ) {
             // no need to test for soft 404 as we do for A files : for M files, we compare page md5 with diff.md5
 
-            if (Tech.nonInterpretableTextExtensions.indexOf(extLower) !== -1) {
+            if (NON_INTERPRETABLE_TEXT_EXTENSIONS.indexOf(extLower) !== -1) {
               body = Tech.crlf2lf(body); // normalize text files eof
             }
             var md5 = crypto.createHash('md5').update(body).digest('hex');
@@ -649,7 +667,7 @@ Tech.prototype = {
     }
 
     f(this);
-  },
+  }
 
   /**
   * Find root paths of app.
@@ -658,7 +676,7 @@ Tech.prototype = {
   * @param {String} html - html
   * @returns {undefined} void
   */
-  findRoots: function (baseUrl, html) {
+  findRoots(baseUrl, html) {
     var a = url.parse(baseUrl);
 
     // add path without query
@@ -725,19 +743,24 @@ Tech.prototype = {
     }
 
     // plugins default path is set in findPlugins (we need to know CMSyy version)
-  },
+  }
 
-  setOneRoot: function (rootUrl) {
+  /**
+   * TODO
+   * @param {*} rootUrl - rootUrl
+   * @returns {undefined} void
+   */
+  setOneRoot(rootUrl) {
     this.appRoots = [];
     rootUrl = Helper.trimChar(rootUrl, '/');
     this.appRoots.push(rootUrl);
-  },
+  }
 
   /**
   * Returns all known versions from diff files in ascending order
   * @returns {undefined} void
   */
-  getAllVersions: function () {
+  getAllVersions() {
     try {
       var files;
       if (this.scanPlugin === true) {
@@ -760,7 +783,7 @@ Tech.prototype = {
     } catch (e) {
       Helper.die('Unknown tech name \"' + this.techname + '\".');
     }
-  },
+  }
 
   /**
   * Returns an array of files that changed in a version.
@@ -771,7 +794,7 @@ Tech.prototype = {
   * @param {String} version - version
   * @returns {Array<String>} files that changed in a version.
   */
-  getDiffFiles: function (version) {
+  getDiffFiles(version) {
     if (this.diffs.hasOwnProperty(version.value)) {// is version data in cache ?
       return this.diffs[version.value];
     }
@@ -827,7 +850,7 @@ Tech.prototype = {
         Helper.die('Unknown version \'' + version.value + '\' for tech \'' + this.techname + '\' : could not find \'' + version.value + '.diff\' file.');
       }
     }
-  },
+  }
 
   /**
   * Check if the exact same file (byte to byte) had already been commited in an older version.
@@ -835,7 +858,7 @@ Tech.prototype = {
   * @param {String} version - version
   * @returns {Boolean} True if the exact same file (byte to byte) had already been commited in an older version.
   */
-  isExactFileInOlderVersions: function (localPath, version) {
+  isExactFileInOlderVersions(localPath, version) {
     var diffs = this.getDiffFiles(version);
     var md5 = null;
     var d;
@@ -869,7 +892,7 @@ Tech.prototype = {
       }
     }
     return false;
-  },
+  }
 
   /**
   * Check if same file path had already been commited in an older version.
@@ -877,7 +900,7 @@ Tech.prototype = {
   * @param {String} version - version
   * @returns {Boolean} True if same file path had already been commited in an older version
   */
-  isCommitedInOlderVersions: function (localPath, version) {
+  isCommitedInOlderVersions(localPath, version) {
     if (localPath.substr(0, 1) === '/') {
       localPath = localPath.substr(1);
     }
@@ -897,7 +920,7 @@ Tech.prototype = {
       }
     }
     return false;
-  },
+  }
 
   /**
    * Find plugins of CMS
@@ -906,7 +929,7 @@ Tech.prototype = {
    * @param {Function} doneCB - doneCB
    * @returns {undefined} void
    */
-  findPlugins: function (techVersion, progressCB, doneCB) {
+  findPlugins(techVersion, progressCB, doneCB) {
     // check default path
     if (this.pluginPaths.length === 0) {
       if (this.techname === 'Drupal' && techVersion.substring(0, 1) === '8') {
@@ -1105,13 +1128,13 @@ Tech.prototype = {
     } catch (e) {
       Helper.die('Unknown error while looking for "' + this.techname + '" plugins. Error was : ' + e.message);
     }
-  },
+  }
 
   /**
    * @param {Object} pIn - pIn
    * @returns {Object} output
    */
-  formatPluginOutput: function (pIn) {
+  formatPluginOutput(pIn) {
     let pOut = {};
 
     pOut.slug = pIn.slug;
@@ -1164,6 +1187,7 @@ Tech.prototype = {
     return pOut
   }
 };
+
 
 // export the class
 module.exports = Tech;
