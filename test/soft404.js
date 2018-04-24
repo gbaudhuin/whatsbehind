@@ -50,7 +50,8 @@ describe('soft404', () => {
   it('returns DISABLED on 404', async () => {
     const soft404 = getMockSoft404(404);
     const result = await soft404(ROOT, RELATIVE_PATH, EXTENSION);
-    assert.equal(result, soft404.STATUS.DISABLED);
+    assert.equal(result.statusCode, 404);
+    assert.equal(result.soft404Status, soft404.STATUS.DISABLED);
   });
 
   const validStatusCodes = [200, 206, 403];
@@ -58,7 +59,8 @@ describe('soft404', () => {
     it('returns ENABLED on ' + statusCode, async () => {
       const soft404 = getMockSoft404(statusCode);
       const result = await soft404(ROOT, RELATIVE_PATH, EXTENSION);
-      assert.equal(result, soft404.STATUS.ENABLED);
+      assert.equal(result.statusCode, statusCode);
+      assert.equal(result.soft404Status, soft404.STATUS.ENABLED);
     });
   });
 
@@ -67,7 +69,8 @@ describe('soft404', () => {
       it('returns UNKNOWN on ' + statusCode, async () => {
         const soft404 = getMockSoft404(statusCode);
         const result = await soft404(ROOT, RELATIVE_PATH, EXTENSION);
-        assert.equal(result, soft404.STATUS.UNKNOWN);
+        assert.equal(result.statusCode, statusCode);
+        assert.equal(result.soft404Status, soft404.STATUS.UNKNOWN);
       });
     }
   }
