@@ -17,9 +17,9 @@ const STATUS = {
  * @property {SOFT_404_STATUS} soft404Status
  *
  * @summary Request the website to check if it uses soft 404
- * @param {String} root - root of the initial request
- * @param {String} relativePath - relative path of the initial request
- * @param {String} ext - extension of the initial request
+ * @param {String} root - root of the initial request that returns a 404
+ * @param {String} relativePath - relative path of the initial request that returns a 404
+ * @param {String} ext - extension of the initial request that returns a 404
  * @returns {Promise<Result>} - the http status code and the soft 404 status
  */
 const execute = async (root, relativePath, ext) => {
