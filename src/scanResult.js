@@ -83,6 +83,24 @@ class ScanResult {
     this.httpStatus = scanResult.httpStatus;
     this.detected = scanResult.detected;
   }
+
+  /**
+   * @summary Return an object based on the scanResult
+   * @returns {Object} an object based on the scanResult
+   */
+  toData() {
+    return {
+      url: this.url,
+      status: this.status,
+      progress: this.progress,
+      progressDescription: this.progressDescription,
+      scanDate: this.scanDate,
+      lastUpdate: this.lastUpdate,
+      networkError: this.networkError,
+      httpStatus: this.httpStatus,
+      detected: this.detected
+    }
+  }
 }
 
 module.exports = ScanResult;

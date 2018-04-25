@@ -159,4 +159,24 @@ describe('scanResult', () => {
       assert.deepEqual(scanResult, scanResultSource);
     })
   })
+
+  describe('toData', () => {
+    it('returns the expected result', () => {
+      const EXPECTED_RESULT = {
+        url: URL,
+        status: STATUS,
+        progress: PROGRESS,
+        progressDescription: PROGRESS_DESCRIPTION,
+        scanDate: SCAN_DATE.toISOString(),
+        lastUpdate: LAST_UPDATE.toISOString(),
+        networkError: NETWORK_ERROR,
+        httpStatus: HTTP_STATUS,
+        detected: DETECTED
+      }
+
+      const scanResult = getScanResult();
+      const scanResultData = scanResult.toData();
+      assert.deepEqual(scanResultData, EXPECTED_RESULT);
+    })
+  })
 })

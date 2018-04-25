@@ -1134,8 +1134,8 @@ describe('Scanner', () => {
       status: STATUS,
       progress: 55,
       progressDescription: PROGRESS_DESCRIPTION,
-      mScanDate: SCAN_DATE.toISOString(),
-      mLastUpdate: LAST_UPDATE.toISOString(),
+      scanDate: SCAN_DATE.toISOString(),
+      lastUpdate: LAST_UPDATE.toISOString(),
       networkError: NETWORK_ERROR,
       httpStatus: HTTP_STATUS,
       detected: DETECTED

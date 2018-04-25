@@ -359,11 +359,13 @@ class Scanner {
       this.apps && this.apps.applications
     );
 
+    let scanResultData = scanResult.toData();
+
     if (this.progressCallback) {
-      this.progressCallback(scanResult)
+      this.progressCallback(scanResultData);
     }
 
-    return scanResult
+    return scanResultData;
   }
 }
 
