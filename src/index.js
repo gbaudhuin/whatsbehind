@@ -1,6 +1,6 @@
 const Wappalyzer = require('wappalyzer');
 const Tech = require('./tech');
-const request = require('request-promise');
+const httpRequest = require('./httpRequest');
 const requestErrors = require('request-promise/errors');
 const Version = require('./version');
 const ScanResult = require('./scanResult');
@@ -59,7 +59,7 @@ class Scanner {
 
   /**
    * @summary Start the scan
-   * @returns {undefined} void
+   * @returns {Promise} A promise that resolve when the scan is finished
    */
   async start() {
     this.scanDate = this.getCurrentDate();
@@ -91,11 +91,11 @@ class Scanner {
    * @returns {Boolean} True if the URL is reachable
    */
   async checkHttpStatus() {
-    const requestOptions = Tech.getReqOptions(this.url);
-    requestOptions.resolveWithFullResponse = true;
-
     try {
-      const response = await request(requestOptions);
+      const additionalOptions = {
+        resolveWithFullResponse: true
+      }
+      const response = await httpRequest.execute(this.url, additionalOptions);
       this.httpStatus = response.statusCode;
 
       // update homepagebody if necessary

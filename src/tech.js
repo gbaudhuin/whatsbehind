@@ -6,6 +6,7 @@ const url = require('url');
 const Async = require('async');
 const Version = require('./version');
 const Helper = require('./helper');
+const httpRequest = require('./httpRequest');
 const httpStatus = require('./httpStatus');
 const soft404 = require('./soft404');
 const stringHelper = require('./stringHelper');
@@ -87,42 +88,6 @@ class Tech {
   }
 
   /**
-   * @summary Return reqOptions
-   * @param {String} url - url
-   * @param {Object} options - options
-   * @returns {Object} options
-   */
-  static getReqOptions(url, options) {
-    var ret = {
-      url,
-      timeout: 5000,
-      rejectUnauthorized: false,
-      requestCert: true,
-      agent: false,
-      jar: true, // gère les cookies
-      gzip: true,
-      strictSSL: false,
-      headers: {
-        Accept: 'Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-        Connection: 'keep-alive',
-        'Cache-Control': 'max-age=0',
-        'Accept-Encoding': 'gzip, deflate, br',
-        'Accept-Language': 'en-US,en;q=0.7',
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
-      }
-    };
-
-    if (options) {
-      for (var opt in options) {
-        if (options.hasOwnProperty(opt)) {
-          ret[opt] = options[opt];
-        }
-      }
-    }
-    return ret;
-  };
-
-  /**
   * Returns a list of possible detected versions. In some cases, multiple versions cannot be distinguished (most often RC versions and release version, etc.
   * E.G. because only a few files differ and these files are interpreted code files which look the same from client side), deepScan() list them all.
   * @param {Function} cb - callback
@@ -199,7 +164,7 @@ class Tech {
       var _minVersion = null;
 
       var u = o.root + '/' + o.path;
-      request(Tech.getReqOptions(u, { encoding: null }), function d(err, response, body) { // encoding=null to get binary content instead of text
+      request(httpRequest.getOptions(u, { encoding: null }), function d(err, response, body) { // encoding=null to get binary content instead of text
         if (!err &&
             (response.statusCode === 200 || response.statusCode === 206) &&
             body &&
@@ -662,7 +627,7 @@ class Tech {
 
     const url = diff.root + '/' + diff.path;
     // encoding=null to get binary content instead of text
-    const reqOptions = Tech.getReqOptions(url, { encoding: null });
+    const reqOptions = httpRequest.getOptions(url, { encoding: null });
     reqOptions.resolveWithFullResponse = true;
 
     const response = await requestPromise(reqOptions);
@@ -1057,7 +1022,7 @@ class Tech {
 
           if (techname === 'WordPress') {
             urlPluginTestfile = pluginsPath + '/' + pluginSlug + '/readme.txt';
-            request(Tech.getReqOptions(urlPluginTestfile, { encoding: null }), (err, response, bodyByteArray) => {
+            request(httpRequest.getOptions(urlPluginTestfile, { encoding: null }), (err, response, bodyByteArray) => {
               n++;
               try {
                 if (!err) {
@@ -1107,7 +1072,7 @@ class Tech {
               urlPluginTestfile = pluginsPath + '/' + pluginSlug + '/' + pluginSlug + '.info.yml';
             }
 
-            request(Tech.getReqOptions(urlPluginTestfile, { encoding: null }), (err, response) => {
+            request(httpRequest.getOptions(urlPluginTestfile, { encoding: null }), (err, response) => {
               n++;
               try {
                 var deepScanLaunched = false;

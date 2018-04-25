@@ -227,49 +227,32 @@ describe('Scanner', () => {
     };
     const getMockScanner = (requestError) => {
       const Scanner = proxyquire('../src/index', {
-        './tech': {
-          getReqOptions: () => REQ_OPTIONS
-        },
-        'request-promise': async () => {
-          if (requestError) {
-            throw requestError;
+        './httpRequest': {
+          execute: () => {
+            if (requestError) {
+              throw requestError;
+            }
+            return RESPONSE;
           }
-          return RESPONSE;
         }
       });
       return new Scanner(URL);
     }
 
-    it('calls Tech.getReqOptions', async () => {
-      let getReqOptionsCalled = false;
+    it('calls httpRequest.execute', async () => {
+      let httpRequestCalled = false;
       const Scanner = proxyquire('../src/index', {
-        './tech': {
-          getReqOptions: () => {
-            getReqOptionsCalled = true;
-            return REQ_OPTIONS;
+        './httpRequest': {
+          execute: (url) => {
+            assert.equal(url, URL);
+            httpRequestCalled = true;
+            return RESPONSE;
           }
-        },
-        'request-promise': async () => RESPONSE
-      });
-      const scanner = new Scanner(URL);
-      await scanner.checkHttpStatus();
-      assert(getReqOptionsCalled);
-    });
-
-    it('calls request', async () => {
-      let requestCalled = false;
-      const Scanner = proxyquire('../src/index', {
-        './tech': {
-          getReqOptions: () => REQ_OPTIONS
-        },
-        'request-promise': async () => {
-          requestCalled = true;
-          return RESPONSE;
         }
       });
       const scanner = new Scanner(URL);
       await scanner.checkHttpStatus();
-      assert(requestCalled);
+      assert(httpRequestCalled);
     });
 
     it('updates httpStatus', async () => {

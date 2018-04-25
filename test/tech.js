@@ -1,13 +1,14 @@
-var assert = require('assert');
-var request = require('request');
-var fs = require('fs');
-const path = require('path');
-const proxyquire = require('proxyquire');
-var Tech = require('../src/tech');
-var Version = require('../src/version');
-const soft404 = require('../src/soft404');
+const assert = require('assert');
 const describe = require('mocha').describe; // avoid eslint warnings
 const it = require('mocha').it; // avoid eslint warnings
+const request = require('request');
+const fs = require('fs');
+const path = require('path');
+const proxyquire = require('proxyquire');
+const Tech = require('../src/tech');
+const Version = require('../src/version');
+const httpRequest = require('../src/httpRequest');
+const soft404 = require('../src/soft404');
 
 describe('Class Tech', function () {
   describe('getHighestCommits', () => {
@@ -140,7 +141,7 @@ describe('Class Tech', function () {
     //var data = { uri: "https://wordpress.org", version: "4.6" };
     //var data = { uri: "http://observer.com", version: "4.6" };
     //var data = { uri: "http://www.bbcamerica.com/", version: "4.5.1" };
-    request(Tech.getReqOptions(data.uri), function (err, response, body) {
+    request(httpRequest.getOptions(data.uri), function (err, response, body) {
       if (err) {
         done(err);
       } else {
@@ -328,7 +329,7 @@ describe('Class Tech', function () {
       this.timeout(10000);// change Mocha default 2000ms timeout
       var tech = new Tech('WordPress');
 
-      const requestOptions = Tech.getReqOptions('http://wordpress2-5-1.whatsbehind.io/');
+      const requestOptions = httpRequest.getOptions('http://wordpress2-5-1.whatsbehind.io/');
       request(requestOptions, async (err, response, body) => {
         if (err) {
           done(err);
@@ -350,7 +351,7 @@ describe('Class Tech', function () {
       this.timeout(10000);// change Mocha default 2000ms timeout
       var tech = new Tech('WordPress');
 
-      request(Tech.getReqOptions('http://wordpress3-8.whatsbehind.io/'), async (err, response, body) => {
+      request(httpRequest.getOptions('http://wordpress3-8.whatsbehind.io/'), async (err, response, body) => {
         if (err) {
           done(err);
         } else {
