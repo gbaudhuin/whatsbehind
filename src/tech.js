@@ -1,11 +1,14 @@
 const fs = require('fs');
 const path = require('path');
 const request = require('request');
-const crypto = require('crypto');
+const requestPromise = require('request-promise');
 const url = require('url');
 const Async = require('async');
 const Version = require('./version');
 const Helper = require('./helper');
+const httpStatus = require('./httpStatus');
+const soft404 = require('./soft404');
+const stringHelper = require('./stringHelper');
 
 // un-interpreted plain text file extensions. other extensions such as scripts would return uncomparable content.
 const NON_INTERPRETABLE_TEXT_EXTENSIONS = ['.html', '.js', '.css', '.xml', '.me', '.txt'];
@@ -42,6 +45,9 @@ class Tech {
     if (Tech.allTechs.indexOf(techname) === -1) {
       throw new Error('Tech ' + techname + ' does not exist');
     }
+
+    this.websiteSoft404Status = soft404.STATUS.UNKNOWN;
+
     this.techname = techname;
     this.scanPlugin = false; // true when scanning plugin version
     if (scanPlugin === true) {
@@ -115,25 +121,6 @@ class Tech {
     }
     return ret;
   };
-
-  /**
-  * Converts all CRLF to LF
-  * @param {Buffer} data - data
-  * @returns {Uint8Array} Converted data
-  */
-  static crlf2lf(data) {
-    var converted = new Uint8Array(data.length);
-    var j = 0;
-    for (var i = 0; i < data.length; i++) {
-      if (data[i] === 13 && i < data.length - 1 && data[i + 1] === 10) { // 13 = ascii code of lf, 10 = ascii code of cr
-        i++;
-      }
-
-      converted[j] = data[i];
-      j++;
-    }
-    return converted.slice(0, j)
-  }
 
   /**
   * Returns a list of possible detected versions. In some cases, multiple versions cannot be distinguished (most often RC versions and release version, etc.
@@ -220,10 +207,10 @@ class Tech {
         ) {
           nMatch++;
           if (NON_INTERPRETABLE_TEXT_EXTENSIONS.indexOf(o.extLower) !== -1) {
-            body = Tech.crlf2lf(body); // normalize text files eof
+            body = stringHelper.crlf2lf(body); // normalize text files eof
           }
 
-          var md5Web = crypto.createHash('md5').update(body).digest('hex');
+          var md5Web = stringHelper.md5(body);
 
           var p = _this.versions.length;
           var version, diffs, diff, d;
@@ -385,36 +372,40 @@ class Tech {
       }
 
       var version = o.value;
-      _this.isVersionOrNewer(version, function (err, result, _proofs) {
-        if (result === 'maybe') {
-          if (possibleVersions.indexOf(version.value) === -1) {
+      _this.isVersionOrNewer(version)
+        .then(({status, proofs}) => {
+          if (status === 'maybe') {
+            if (possibleVersions.indexOf(version.value) === -1) {
+              possibleVersions.push(version.value);
+            }
+          } else if (status === 'success') {
             possibleVersions.push(version.value);
-          }
-        } else if (result === 'success') {
-          possibleVersions.push(version.value);
-          var _p = _proofs.length;
-          while (_p--) {
-            var _proof = _proofs[_p];
-            var p = proofs.length;
-            var alreadythere = false;
-            while (p-- && alreadythere === false) {
-              if (_proof.path === proofs[p].path) {
-                alreadythere = true;
+            var _p = proofs.length;
+            while (_p--) {
+              var _proof = proofs[_p];
+              var p = proofs.length;
+              var alreadythere = false;
+              while (p-- && alreadythere === false) {
+                if (_proof.path === proofs[p].path) {
+                  alreadythere = true;
+                }
+              }
+              if (!alreadythere) {
+                proofs.push(_proof);
               }
             }
-            if (!alreadythere) {
-              proofs.push(_proof);
-            }
+            foundVersion = true;
+          } else {
+            // any version that was still possible is not anymore
+            possibleVersions.length = 0; // clear array
+            proofs.length = 0;
           }
-          foundVersion = true;
-        } else {
-          // any version that was still possible is not anymore
-          possibleVersions.length = 0; // clear array
-          proofs.length = 0;
-        }
 
-        pass2(_this, checkNonReleaseVersions);
-      });
+          pass2(_this, checkNonReleaseVersions);
+        })
+        .catch((err) => {
+          throw err;
+        })
     }
 
     pass1(this, function (_this, checkNonReleaseVersions) {
@@ -487,186 +478,261 @@ class Tech {
   }
 
   /**
+   * @typedef {Object} ProofResult
+   * @property {String} status - the status ('maybe' or 'success')
+   * @property {Array} proofs - the proofs
+   */
+
+  /**
   * Check if website is in a specific version.
   * Algorithm only relies on files responding HTTP 2xx. As a rule of thumb, non responding files are not reliable because they don't make it possible to
   * distinguish between a file that is really not there on the server and a file that is there but is protected by the server and responds an HTTP error status.
   * Function findRoots must be called before.
   * This function does not ensure we're in a specific version. It is optimized to be used in a descending loop.
   * @param {String} version - version
-  * @param {Function} cb - should be 'function (err, result, _proofs)'.
-  * @return {String} 'fail' / 'success' / 'maybe'
+  * @param {number} maxProofs - maximum number of proofs
+  * @return {Promise<ProofResult>} the status and the proofs
   * result is 'fail' if version was not identified
-  * result is 'succss' if version was identified
+  * result is 'success' if version was identified
   * result is 'maybe' if we can't tell because no files could be tested : "M" code files only, "D" files only, etc.
   */
-  isVersionOrNewer(version, cb) {
-    var diffs = this.getDiffFiles(version);
-    var proofs = [];
-    var pathSkip = []; // list of path that were already requested or should be skipped
-    var nbChecked = 0;
-    var cbCalled = false;
-    var maxProofs = 1;
-    var queue = [];
-    var siteUsesSoft404 = null; // true if we detected the site uses soft 404 pages
-    for (var i in diffs) {
-      if (diffs.hasOwnProperty(i)) {
-        for (var j in this.appRoots) {
-          if (this.appRoots.hasOwnProperty(j)) {
-            // clone diffs[i] in a new object
-            var o = { path: diffs[i].path, md5: diffs[i].md5, status: diffs[i].status };
-            if (this.appRoots.hasOwnProperty(j)) {
-              o.root = this.appRoots[j];
-              queue.push(o);
-            }
-          }
-        }
-      }
+  async isVersionOrNewer(version, maxProofs = 1) {
+    // clone each diff in a new object
+    const diffs = this.getDiffFiles(version);
+    const queue = this.cloneDiffs(diffs, this.appRoots);
+    const proofs = [];
+
+    const FAIL = 'fail';
+    const MAYBE = 'maybe';
+    const SUCCESS = 'success';
+
+    const getResult = (status) => {
+      return {
+        status,
+        proofs
+      };
     }
 
-    var iter = queue[Symbol.iterator](); // ES6 iterator
-
-    function f(_this) {
-      // stop condition : too many tests already done (= too much time, lots of requests)
-      if (proofs.length <= 0 && nbChecked > 50) {
-        if (!cbCalled) {
-          cbCalled = true; cb(null, 'fail', proofs);
-        }
-        return;
+    const pathSkip = []; // list of path that were already requested or should be skipped
+    let count = 0;
+    for (let i = 0; i < queue.length; i++) {
+      if (count > 50) {
+        return getResult(FAIL);
       }
 
-      // stop condition : we have enough proofs
       if (proofs.length >= maxProofs) {
-        if (!cbCalled) {
-          cbCalled = true; cb(null, 'success', proofs);
-        }
-        return;
+        return getResult(SUCCESS);
       }
 
-      var o = iter.next();
+      const diff = queue[i];
 
-      // stop condition : no more entries
-      if (!o.value || o.done === true) {
-        if (!cbCalled) {
-          cbCalled = true;
-          if (nbChecked === 0) {
-            cb(null, 'maybe', proofs);
-          } else if (proofs.length > 0) {
-            cb(null, 'success', proofs);
-          } else {
-            cb(null, 'fail', proofs);
-          }
-        }
-        return;
+      const ext = path.extname(diff.path);
+      const extLower = ext.toLowerCase();
+      const proofString = diff.status + ' ' + diff.path;
+
+      // if path was already found on a another root, don't look for it anymore
+      if (pathSkip.indexOf(proofString) !== -1) {
+        continue;
       }
 
-      var diff = o.value;
-
-      var ext = path.extname(diff.path);
-      var extLower = ext.toLowerCase();
-      var proofString = diff.status + ' ' + diff.path;
-      if (pathSkip.indexOf(proofString) !== -1) { // if path was already found on a another root, don't look for it anymore
-        f(_this);// next
-        return;
-      }
-      var u;
-      // "A" files and "M" files are checked differently.
-      // "A" files are checked for their presence. Works with all types of files, including interpreted files such as php or asp witch are never returned by web servers.
-      // "M" files are checked for their presence and checksum. Interpreted or code files can't be used here.
-      if (diff.status === 'A') {
-        if (_this.isCommitedInOlderVersions(diff.path, version)) {
-          pathSkip.push(proofString);
-          f(_this);// next
-          return;
-        }
-
-        nbChecked++;
-
-        u = diff.root + '/' + diff.path;
-        request(Tech.getReqOptions(u), function d(err, response) {
-          if (!err && (response.statusCode === 200 || response.statusCode === 206 || response.statusCode === 403)) {
-            if (siteUsesSoft404 === null || response.statusCode === 403) {
-              // test for soft 404 false positive case and 403
-              // a 403 ressource tells us it is probably there but not accessible. As for soft 404, we need to check if a random file with the same ext in the same dir gives a 404.
-              var u404 = diff.path.substr(0, diff.path.length - ext.length);
-              u404 = diff.root + '/' + u404 + 'd894tgd1' + ext; // random non existing url
-
-              request(Tech.getReqOptions(u404), function d(err2, response2) {
-                if (!err2 && response2.statusCode === 404) {
-                  proofs.push(diff);
-                  pathSkip.push(proofString);
-                  if (response.statusCode !== 403) {
-                    siteUsesSoft404 = false;
-                  }
-                } else if (!err2 && (response2.statusCode === 200 || response2.statusCode === 206 || response.statusCode === 403)) {
-                  if (response.statusCode !== 403) {
-                    siteUsesSoft404 = true;
-                  }
-                }
-                f(_this);// next
-              });
-              return;
-            } else if (siteUsesSoft404 === false) { // we're sure we're not on a soft 404. The file is there
-              proofs.push(diff);
-              pathSkip.push(proofString);
-            }
-          }
-          f(_this);// next
-        });
-      } else if (diff.status === 'M' && (NON_INTERPRETABLE_TEXT_EXTENSIONS.indexOf(extLower) !== -1 || NON_INTERPRETABLE_OTHER_EXTENSIONS.indexOf(extLower) !== -1)) {
-        if (_this.isExactFileInOlderVersions(diff.path, version)) {// some files may change back an forth between versions
-          pathSkip.push(proofString);
-          f(_this);// next
-          return;
-        }
-
-        nbChecked++;
-
-        u = diff.root + '/' + diff.path;
-        request(Tech.getReqOptions(u, { encoding: null }), function d(err, response, body) { // encoding=null to get binary content instead of text
-          if (!err &&
-            (response.statusCode === 200 || response.statusCode === 206) &&
-            body !== null && body !== undefined &&
-            body.length > 0
-          ) {
-            // no need to test for soft 404 as we do for A files : for M files, we compare page md5 with diff.md5
-
-            if (NON_INTERPRETABLE_TEXT_EXTENSIONS.indexOf(extLower) !== -1) {
-              body = Tech.crlf2lf(body); // normalize text files eof
-            }
-            var md5 = crypto.createHash('md5').update(body).digest('hex');
-            if (diff.md5 === md5) {
-              proofs.push(diff);
-              pathSkip.push(proofString);  // file found. don't look for it anymore in other roots.
-            } else {
-              if (siteUsesSoft404 === null) {
-                // test for soft 404
-                var u404 = diff.path.substr(0, diff.path.length - ext.length);
-                u404 = diff.root + '/' + u404 + 'd894tgd1' + ext; // random non existing url
-
-                request(Tech.getReqOptions(u404), function d(err2, response2) {
-                  if (!err2 && response2.statusCode === 404) {
-                    siteUsesSoft404 = false;
-                  } else {
-                    siteUsesSoft404 = true;
-                  }
-                  f(_this);// next
-                });
-                return;
-              } else if (siteUsesSoft404 === false) {
-                // we're not on an error page : the file exists on the site but is not in the version we're looking for. don't look for it anymore in other roots.
-                pathSkip.push(proofString);
-              }
-            }
-          }
-
-          f(_this);// next
-        });
-      } else {
-        f(_this);// next
+      count++;
+      const addProof = await this.checkDiff(proofString, diff, ext, extLower, version, pathSkip);
+      if (addProof) {
+        pathSkip.push(proofString);
+        proofs.push(diff);
       }
     }
 
-    f(this);
+    if (count === 0) {
+      return getResult(MAYBE);
+    }
+
+    if (proofs.length > 0) {
+      return getResult(SUCCESS);
+    }
+
+    return getResult(FAIL);
+  }
+
+  /**
+   * @summary Clone diffs
+   * @param {Array} diffs - the diffs source
+   * @param {Array} appRoots - the appRoots
+   * @returns {Array} cloned diffs
+   */
+  cloneDiffs(diffs, appRoots) {
+    const result = [];
+    Object.keys(diffs).forEach((diffKey) => {
+      Object.keys(appRoots).forEach((appRootKey) => {
+        const diff = diffs[diffKey];
+        const clonedDiff = {
+          path: diff.path,
+          md5: diff.md5,
+          status: diff.status,
+          root: appRoots[appRootKey]
+        }
+        result.push(clonedDiff);
+      })
+    })
+
+    return result;
+  }
+
+  /**
+   * @summary Check a diff
+   * @param {String} proofString - the proofString
+   * @param {Object} diff - the diff to check
+   * @param {String} ext - the ext
+   * @param {String} extLower - the ext in lower case
+   * @param {String} version - the version to check
+   * @param {String[]} pathSkip - the path skip array
+   * @returns {Promise<Boolean>} True if the diff is a valid proof
+   */
+  async checkDiff(proofString, diff, ext, extLower, version, pathSkip) {
+    // "A" files and "M" files are checked differently.
+    // "A" files are checked for their presence. Works with all types of files, including interpreted files such as php or asp witch are never returned by web servers.
+    // "M" files are checked for their presence and checksum. Interpreted or code files can't be used here.
+    if (diff.status === 'A') {
+      return await this.checkAddedDiff(proofString, diff, ext, extLower, version, pathSkip);
+    } else if (diff.status === 'M') {
+      return await this.checkModifiedDiff(proofString, diff, ext, extLower, version, pathSkip);
+    }
+
+    return false;
+  }
+
+  /**
+   * @summary Check an added diff
+   * @param {String} proofString - the proofString
+   * @param {Object} diff - the diff to check
+   * @param {String} ext - the ext
+   * @param {String} extLower - the ext in lower case
+   * @param {String} version - the version to check
+   * @param {String[]} pathSkip - the path skip array
+   * @returns {Promise<Boolean>} True if the diff is a valid proof
+   */
+  async checkAddedDiff(proofString, diff, ext, extLower, version, pathSkip) {
+    if (this.isCommitedInOlderVersions(diff.path, version)) {
+      pathSkip.push(proofString);
+      return false;
+    }
+
+    const url = diff.root + '/' + diff.path;
+    const statusCode = await httpStatus(url);
+
+    const allowedStatusCode = [200, 206, 403];
+    if (allowedStatusCode.indexOf(statusCode) === -1) {
+      return false;
+    }
+
+    if (this.mustRequestBadLink(statusCode)) {
+      let badLinkStatusCode;
+      try {
+        badLinkStatusCode = this.requestBadLink(diff, ext, statusCode);
+      } catch (err) {
+        return false;
+      }
+
+      return badLinkStatusCode === 404;
+    }
+
+    return this.websiteSoft404Status === soft404.STATUS.DISABLED;
+  }
+
+  /**
+   * @summary Check a modified diff
+   * @param {String} proofString - the proofString
+   * @param {Object} diff - the diff to check
+   * @param {String} ext - the ext
+   * @param {String} extLower - the ext in lower case
+   * @param {String} version - the version to check
+   * @param {String[]} pathSkip - the path skip array
+   * @returns {Promise<Boolean>} True if the diff is a valid proof
+   */
+  async checkModifiedDiff(proofString, diff, ext, extLower, version, pathSkip) {
+    if (NON_INTERPRETABLE_EXTENSIONS.indexOf(extLower) === -1) {
+      return false;
+    }
+
+    // some files may change back an forth between versions
+    if (this.isExactFileInOlderVersions(diff.path, version)) {
+      pathSkip.push(proofString);
+      return false;
+    }
+
+    const url = diff.root + '/' + diff.path;
+    // encoding=null to get binary content instead of text
+    const reqOptions = Tech.getReqOptions(url, { encoding: null });
+    reqOptions.resolveWithFullResponse = true;
+
+    const response = await requestPromise(reqOptions);
+    const statusCode = response.statusCode;
+    let body = response.body;
+
+    const allowedStatusCode = [200, 206];
+    if (allowedStatusCode.indexOf(statusCode) === -1) {
+      return false;
+    }
+
+    if (!body || body.length === 0) {
+      return false;
+    }
+
+    // normalize text files eof
+    if (NON_INTERPRETABLE_TEXT_EXTENSIONS.indexOf(extLower) !== -1) {
+      body = stringHelper.crlf2lf(body);
+    }
+
+    // no need to test for soft 404 as we do for A files : for M files, we compare page md5 with diff.md5
+    const md5 = stringHelper.md5(body);
+    if (diff.md5 === md5) {
+      return true;
+    }
+
+    if (this.mustRequestBadLink()) {
+      await this.requestBadLink(diff, ext, statusCode);
+    }
+
+    if (this.websiteSoft404Status === soft404.STATUS.DISABLED) {
+      // we're not on an error page : the file exists on the site but is not in the version we're looking for. don't look for it anymore in other roots.
+      pathSkip.push(proofString);
+    }
+
+    return false;
+  }
+
+  /**
+   * @summary Check if a request to a bad link must be done, either to check soft 404 or to check 403 statusCode
+   * @param {Number} [statusCode] - the status code of the previous request
+   * @returns {Promise<Boolean>} True if a request to a bad link me be done
+   */
+  mustRequestBadLink(statusCode = -1) {
+    if (this.websiteSoft404Status === soft404.STATUS.UNKNOWN) {
+      return true;
+    }
+
+    // a 403 ressource tells us it is probably there but not accessible
+    if (statusCode === 403) {
+      return true;
+    }
+
+    return false;
+  }
+
+  /**
+   * @summary Request a bad link and update the websiteSoft404Status if needed
+   * @param {Object} diff - the diff of the previous request
+   * @param {String} ext - the extension of the previous request
+   * @param {Number} statusCode - the status code of the previous request
+   * @returns {Promise<number>} The http status code of the request
+   */
+  async requestBadLink(diff, ext, statusCode) {
+    const result = await soft404(diff.root, diff.path, ext);
+    if (this.websiteSoft404Status === soft404.STATUS.UNKNOWN && statusCode !== 403) {
+      this.websiteSoft404Status = result.soft404Status;
+    }
+
+    return result.statusCode;
   }
 
   /**
@@ -681,7 +747,7 @@ class Tech {
 
     // add path without query
     var defaultRoot = a.protocol + '//' + a.host + a.pathname; // url without query string
-    defaultRoot = Helper.trimChar(defaultRoot, '/');
+    defaultRoot = stringHelper.trimChar(defaultRoot, '/');
 
     // add host
     defaultRoot = a.protocol + '//' + a.host;
@@ -701,7 +767,7 @@ class Tech {
           if (uri.substring(0, 2) === '//') {
             uri = a.protocol + uri; // some urls start with '//'. we need to add the protocol.
           }
-          uri2 = Helper.trimChar(url.resolve(baseUrl, uri), '/');
+          uri2 = stringHelper.trimChar(url.resolve(baseUrl, uri), '/');
 
           if (this.appRoots.indexOf(uri2) === -1) {
             this.appRoots.push(uri2);
@@ -727,7 +793,7 @@ class Tech {
             uri = a.protocol + uri; // some urls start with '//'. we need to add the protocol.
           }
 
-          uri2 = Helper.trimChar(url.resolve(baseUrl, uri), '/');
+          uri2 = stringHelper.trimChar(url.resolve(baseUrl, uri), '/');
 
           if (this.techname === 'WordPress' && uri2.indexOf('/themes') !== -1) { // WP specific : /wp-content/plugins is very probably a sibbling of /wp-content/themes
             uri2 = uri2.replace('/themes', '/plugins');
@@ -752,7 +818,7 @@ class Tech {
    */
   setOneRoot(rootUrl) {
     this.appRoots = [];
-    rootUrl = Helper.trimChar(rootUrl, '/');
+    rootUrl = stringHelper.trimChar(rootUrl, '/');
     this.appRoots.push(rootUrl);
   }
 
@@ -831,7 +897,7 @@ class Tech {
       var i = ret.length;
       while (i--) {
         var r = ret[i];
-        var ss = crypto.createHash('md5').update(r.path).digest('hex');
+        var ss = stringHelper.md5(r.path);
         s[ss] = r;
         s2[k++] = ss;
       }
@@ -996,7 +1062,7 @@ class Tech {
               try {
                 if (!err) {
                   if (response.statusCode === 200) {
-                    bodyByteArray = Tech.crlf2lf(bodyByteArray); // normalize text files eof
+                    bodyByteArray = stringHelper.crlf2lf(bodyByteArray); // normalize text files eof
                     var bodyBuf = Buffer.from(bodyByteArray);
                     var body = bodyBuf.toString('utf8');
                     var match = regexWPplugin.exec(body);
