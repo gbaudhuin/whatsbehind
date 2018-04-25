@@ -1,5 +1,4 @@
-const Tech = require('./tech');
-const request = require('request-promise');
+const httpRequest = require('./httpRequest');
 const requestErrors = require('request-promise/errors');
 
 /**
@@ -8,11 +7,9 @@ const requestErrors = require('request-promise/errors');
  * @returns {Promise<number>} the httpStatus of the request
  */
 const execute = async (url) => {
-  const reqOptions = Tech.getReqOptions(url);
-
   let statusCode;
   try {
-    const response = await request(reqOptions);
+    const response = await httpRequest.execute(url);
     statusCode = response.statusCode;
   } catch (err) {
     if (err instanceof requestErrors.StatusCodeError) {

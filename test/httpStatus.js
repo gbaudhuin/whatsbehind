@@ -13,38 +13,36 @@ const REQ_OPTIONS = {
 
 const getMockHttpStatus = (statusCode, requestError) => {
   const httpStatus = proxyquire('../src/httpStatus', {
-    './tech': () => {
-      getReqOptions: () => REQ_OPTIONS
-    },
-    'request-promise': async () => {
-      if (requestError) {
-        throw requestError;
+    './httpRequest': {
+      getOptions: () => REQ_OPTIONS,
+      execute: () => {
+        if (requestError) {
+          throw requestError;
+        }
+        return {
+          statusCode
+        };
       }
-      return {
-        statusCode
-      };
     }
   });
   return httpStatus;
 }
 
 describe('httpStatus', () => {
-  it('requests with Tech.getReqOptions', async () => {
-    let requestCalled = false;
+  it('calls httpRequest', async () => {
+    let httpRequestCalled = false;
     const httpStatus = proxyquire('../src/httpStatus', {
-      './tech': {
-        getReqOptions: () => REQ_OPTIONS
-      },
-      'request-promise': async (options) => {
-        requestCalled = true;
-        assert.deepEqual(options, REQ_OPTIONS);
-        return {
-          statusCode: 200
-        };
+      './httpRequest': {
+        getOptions: () => REQ_OPTIONS,
+        execute: (url) => {
+          assert.equal(url, URL);
+          httpRequestCalled = true;
+          return { }
+        }
       }
     });
     await httpStatus(URL);
-    assert(requestCalled);
+    assert(httpRequestCalled);
   });
 
   it('does not fail on StatusCodeError', async () => {
