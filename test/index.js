@@ -21,12 +21,18 @@ describe('Scanner', () => {
       assert.equal(scanner.httpStatus, null);
       assert.equal(scanner.networkError, null);
       assert.equal(scanner.apps, null);
+      assert.equal(scanner.seo, null);
     })
   })
 
   describe('start', () => {
     const CURRENT_DATE = new Date();
-    const getMockScanner = () => {
+    const getMockScanner = (seoScan = null) => {
+      const Scanner = proxyquire('../src/index.js', {
+        './seoScan': seoScan || (async () => {
+          return {};
+        })
+      })
       const scanner = new Scanner(URL);
       scanner.getCurrentDate = () => CURRENT_DATE;
       scanner.checkHttpStatus = () => true;
@@ -125,6 +131,16 @@ describe('Scanner', () => {
         })
         .catch(done);
     });
+
+    it('calls seoScan', async () => {
+      const scanner = getMockScanner();
+      let seoScanCalled = false;
+      scanner.seoScan = () => {
+        seoScanCalled = true;
+      };
+      await scanner.start();
+      assert(seoScanCalled);
+    })
 
     it('calls deepScan', (done) => {
       const scanner = getMockScanner();
@@ -321,6 +337,7 @@ describe('Scanner', () => {
       assert(!await scanner.checkHttpStatus());
     });
   })
+
   describe('wappalyze', () => {
     it('instantiate Wappalyzer', async () => {
       const EXPECTED_OPTIONS = {
@@ -418,6 +435,61 @@ describe('Scanner', () => {
       const scanner = new Scanner(URL);
       await scanner.wappalyze();
       assert.deepEqual(scanner.apps, APPS);
+    })
+  })
+
+  describe('seoScan', () => {
+    const SEO_SCAN_PROGRESS = 0.5;
+    const SEO_SCAN_RESULT = {
+      something: 'pouet'
+    };
+
+    const getMockScanner = () => {
+      const Scanner = proxyquire('../src/index', {
+        './seoScan': async (url, progressCallback) => {
+          assert.equal(url, URL);
+          progressCallback(SEO_SCAN_PROGRESS, SEO_SCAN_RESULT);
+          assert(progressCallback);
+          return SEO_SCAN_RESULT;
+        }
+      });
+      const scanner = new Scanner(URL);
+      scanner.scanDate = new Date();
+      return scanner;
+    }
+
+    it('calls seoScan', () => {
+      let seoScanCalled = false;
+      const Scanner = proxyquire('../src/index', {
+        './seoScan': async (url, progressCallback) => {
+          assert.equal(url, URL);
+          assert(progressCallback);
+          seoScanCalled = true;
+          return {};
+        }
+      });
+      const scanner = new Scanner(URL);
+      scanner.seoScan();
+      assert(seoScanCalled);
+    })
+
+    it('calls report progress', async () => {
+      const scanner = getMockScanner();
+      let reportProgressCalled = false;
+      scanner.reportProgress = (status, inStepProgress, descriptionOverride) => {
+        assert.equal(status, 'seo');
+        assert.equal(inStepProgress, SEO_SCAN_PROGRESS * 100);
+        assert(!descriptionOverride);
+        reportProgressCalled = true;
+      }
+      await scanner.seoScan();
+      assert(reportProgressCalled);
+    })
+
+    it('updates set with seoScan results', async () => {
+      const scanner = getMockScanner();
+      await scanner.seoScan();
+      assert.deepEqual(scanner.seo, SEO_SCAN_RESULT);
     })
   })
 
@@ -1107,17 +1179,19 @@ describe('Scanner', () => {
     const LAST_UPDATE = new Date();
     const NETWORK_ERROR = 'network error';
     const HTTP_STATUS = 'http status';
+    const SEO = {seo: 'true'};
     const DETECTED = { applications: 'anything' };
 
     const EXPECTED_RESULT = {
       url: URL,
       status: STATUS,
-      progress: 55,
+      progress: 57,
       progressDescription: PROGRESS_DESCRIPTION,
       scanDate: SCAN_DATE.toISOString(),
       lastUpdate: LAST_UPDATE.toISOString(),
       networkError: NETWORK_ERROR,
       httpStatus: HTTP_STATUS,
+      seo: SEO,
       detected: DETECTED
     };
 
@@ -1127,6 +1201,7 @@ describe('Scanner', () => {
       scanner.scanDate = SCAN_DATE;
       scanner.networkError = NETWORK_ERROR;
       scanner.httpStatus = HTTP_STATUS;
+      scanner.seo = SEO;
       scanner.apps = {
         applications: DETECTED
       };

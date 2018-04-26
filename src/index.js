@@ -1,6 +1,7 @@
 const Wappalyzer = require('wappalyzer');
 const Tech = require('./tech');
 const httpRequest = require('./httpRequest');
+const seoScan = require('./seoScan');
 const requestErrors = require('request-promise/errors');
 const Version = require('./version');
 const ScanResult = require('./scanResult');
@@ -21,9 +22,14 @@ const PROGRESS_STEPS = {
     end: 10,
     defaultDescription: 'Analyzing page content'
   },
-  deepscan: {
+  seo: {
     start: 10,
-    end: 100,
+    end: 15,
+    defaultDescription: 'Analyzing SEO'
+  },
+  deepscan: {
+    start: 15,
+    end: 99,
     defaultDescription: 'Fine grain analysis'
   },
   complete: {
@@ -55,6 +61,7 @@ class Scanner {
     this.httpStatus = null;
     this.networkError = null;
     this.apps = null;
+    this.seo = null;
   }
 
   /**
@@ -71,6 +78,7 @@ class Scanner {
     };
 
     await this.wappalyze();
+    await this.seoScan();
     await this.deepScan();
 
     // end
@@ -138,6 +146,17 @@ class Scanner {
     }
 
     this.apps = await wappalyzer.analyze()
+  }
+
+  /**
+   * @summary Execute the SEO scan
+   * @returns {undefined} void
+   */
+  async seoScan() {
+    this.seo = await seoScan(this.url, (progress, result) => {
+      this.seo = result;
+      this.reportProgress('seo', progress * 100);
+    });
   }
 
   /**
@@ -356,6 +375,7 @@ class Scanner {
       this.getCurrentDate(),
       this.networkError,
       this.httpStatus,
+      this.seo,
       this.apps && this.apps.applications
     );
 

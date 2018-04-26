@@ -11,6 +11,7 @@ const SCAN_DATE = new Date();
 const LAST_UPDATE = new Date();
 const NETWORK_ERROR = 'network error';
 const HTTP_STATUS = 200;
+const SEO = {seo: 'true'};
 const DETECTED = [{}, {}];
 
 const getScanResult = () => {
@@ -23,6 +24,7 @@ const getScanResult = () => {
     LAST_UPDATE,
     NETWORK_ERROR,
     HTTP_STATUS,
+    SEO,
     DETECTED
   );
 }
@@ -84,6 +86,7 @@ describe('scanResult', () => {
         mLastUpdate: LAST_UPDATE.toISOString(),
         networkError: NETWORK_ERROR,
         httpStatus: HTTP_STATUS,
+        seo: SEO,
         detected: DETECTED
       }
 
@@ -171,6 +174,7 @@ describe('scanResult', () => {
         lastUpdate: LAST_UPDATE.toISOString(),
         networkError: NETWORK_ERROR,
         httpStatus: HTTP_STATUS,
+        seo: SEO,
         detected: DETECTED
       }
 

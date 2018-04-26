@@ -12,9 +12,10 @@ class ScanResult {
    * @param {Date|String} lastUpdate - the date of the scan's last update
    * @param {String} networkError - the network error that occured while scanning
    * @param {Number} httpStatus - the http status returned by the server when the scan started
+   * @param {Object} seo - the seo data of the website
    * @param {Array<Object>} detected - the applications detected by the scan
    */
-  constructor(url, status, progress, progressDescription, scanDate, lastUpdate, networkError, httpStatus, detected) {
+  constructor(url, status, progress, progressDescription, scanDate, lastUpdate, networkError, httpStatus, seo, detected) {
     this.url = url;
     this.status = status;
     this.progress = progress;
@@ -23,6 +24,7 @@ class ScanResult {
     this.lastUpdate = lastUpdate;
     this.networkError = networkError;
     this.httpStatus = httpStatus;
+    this.seo = seo;
     this.detected = detected;
   }
 
@@ -81,6 +83,7 @@ class ScanResult {
     this.lastUpdate = scanResult.lastUpdate;
     this.networkError = scanResult.networkError;
     this.httpStatus = scanResult.httpStatus;
+    this.seo = scanResult.seo;
     this.detected = scanResult.detected;
   }
 
@@ -98,6 +101,7 @@ class ScanResult {
       lastUpdate: this.lastUpdate,
       networkError: this.networkError,
       httpStatus: this.httpStatus,
+      seo: this.seo,
       detected: this.detected
     }
   }
