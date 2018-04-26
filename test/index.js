@@ -218,9 +218,6 @@ describe('Scanner', () => {
   })
 
   describe('checkHttpStatus', () => {
-    const REQ_OPTIONS = {
-      options: 'anything'
-    };
     const RESPONSE = {
       statusCode: 200,
       body: 'body'
