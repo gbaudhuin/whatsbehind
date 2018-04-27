@@ -536,7 +536,9 @@ describe('url', () => {
       let hasRedirectCalled = false;
       const urlHelper = proxyquire('../src/urlHelper', {
         './httpRedirect': {
-          hasRedirect: () => {
+          hasRedirect: (url, expectedUrl) => {
+            assert.equal(url, urlHelper.toggleWWW(URL_TO_CHECK));
+            assert.equal(expectedUrl, URL_TO_CHECK);
             hasRedirectCalled = true;
             return true;
           }
@@ -840,73 +842,18 @@ describe('url', () => {
       assert(toggleHTTPCalled);
     })
 
-    it('calls toggleWWW if toggleWWWAllowed returns true', async () => {
-      const urlHelper = getMockUrlHelper();
-      let toggleWWWCalled = false;
-      urlHelper.toggleWWWAllowed = () => {
-        return true;
-      }
-      urlHelper.toggleWWW = (pUrl) => {
-        assert.equal(pUrl, urlHelper.toggleHTTP(URL_TO_CHECK));
-        toggleWWWCalled = true;
-        return urlHelper;
-      }
-      await urlHelper.hasHTTPRedirection(URL_TO_CHECK);
-      assert(toggleWWWCalled);
-    })
-
-    it('does not call toggleWWW if toggleWWWAllowed returns false', async () => {
-      const urlHelper = getMockUrlHelper();
-      let toggleWWWCalled = false;
-      urlHelper.toggleWWWAllowed = () => {
-        return false;
-      }
-      urlHelper.toggleWWW = (url) => {
-        toggleWWWCalled = true;
-        return url;
-      }
-      await urlHelper.hasHTTPRedirection(URL_TO_CHECK);
-      assert(!toggleWWWCalled);
-    })
-
-    it('calls httpRedirect.hasRedirect with one url if toggleWWWAllowed returns false', async () => {
+    it('calls httpRedirect.hasRedirect', async () => {
       let hasRedirectCalled = false;
       const urlHelper = proxyquire('../src/urlHelper', {
         './httpRedirect': {
-          hasRedirect: (pUrl, expectedUrl) => {
-            assert.equal(pUrl, URL_TO_CHECK);
-            assert.deepEqual(expectedUrl, [urlHelper.toggleHTTP(URL_TO_CHECK)]);
+          hasRedirect: (url, expectedUrl) => {
+            assert.equal(url, urlHelper.toggleHTTP(URL_TO_CHECK));
+            assert.deepEqual(expectedUrl, URL_TO_CHECK);
             hasRedirectCalled = true;
             return true;
           }
         }
       })
-      urlHelper.toggleWWWAllowed = () => {
-        return false;
-      }
-      await urlHelper.hasHTTPRedirection(URL_TO_CHECK);
-      assert(hasRedirectCalled);
-    })
-
-    it('calls httpRedirect.hasRedirect with two urls if toggleWWWAllowed returns true', async () => {
-      let hasRedirectCalled = false;
-      const urlHelper = proxyquire('../src/urlHelper', {
-        './httpRedirect': {
-          hasRedirect: (pUrl, expectedUrl) => {
-            assert.equal(pUrl, URL_TO_CHECK);
-            const expectedResults = [
-              urlHelper.toggleHTTP(URL_TO_CHECK),
-              urlHelper.toggleWWW(urlHelper.toggleHTTP(URL_TO_CHECK))
-            ]
-            assert.deepEqual(expectedUrl, expectedResults);
-            hasRedirectCalled = true;
-            return true;
-          }
-        }
-      })
-      urlHelper.toggleWWWAllowed = () => {
-        return true;
-      }
       await urlHelper.hasHTTPRedirection(URL_TO_CHECK);
       assert(hasRedirectCalled);
     })

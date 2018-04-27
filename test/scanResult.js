@@ -1,6 +1,6 @@
 const assert = require('assert');
-const describe = require('mocha').describe; // avoid eslint warnings
-const it = require('mocha').it; // avoid eslint warnings
+const describe = require('mocha').describe;
+const it = require('mocha').it;
 const ScanResult = require('../src/scanResult');
 
 const URL = 'url';

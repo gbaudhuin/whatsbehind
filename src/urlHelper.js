@@ -140,9 +140,9 @@ exports.existsWithoutWWW = (url) => {
 }
 
 /**
- * @summary Check if the url has a redirection between WWW and no-WWW
+ * @summary Check if there is a WWW redirection to the url (no WWW <-> WWW)
  * @param {string} url - the url to check
- * @returns {Promise<Boolean>} True if the url has a redirection between WWW and no-WWW
+ * @returns {Promise<Boolean>} True if there is a WWW redirection to the url
  */
 exports.hasWWWRedirection = async (url) => {
   const urlHasWWW = this.hasWWW(url);
@@ -150,8 +150,8 @@ exports.hasWWWRedirection = async (url) => {
     return false;
   }
 
-  const targetURL = urlHasWWW ? this.convertWithoutWWW(url) : this.convertWithWWW(url);
-  return await httpRedirect.hasRedirect(url, targetURL);
+  const sourceUrl = urlHasWWW ? this.convertWithoutWWW(url) : this.convertWithWWW(url);
+  return await httpRedirect.hasRedirect(sourceUrl, url);
 }
 
 /**
@@ -233,16 +233,11 @@ exports.existsWithHTTPS = async (url) => {
 }
 
 /**
- * @summary Check if the url has a redirection between HTTP and HTTPS
+ * @summary Check if there is an HTTP redirection to the url (HTTP <-> HTTPS)
  * @param {string} url - the url to check
- * @returns {Promise<Boolean>} True if the url has a redirection between HTTP and HTTPS
+ * @returns {Promise<Boolean>} True if there is an HTTP redirection to the url
  */
 exports.hasHTTPRedirection = async (url) => {
-  const convertedUrl = this.toggleHTTP(url);
-  const targetUrls = [convertedUrl];
-
-  if (this.toggleWWWAllowed(convertedUrl)) {
-    targetUrls.push(this.toggleWWW(convertedUrl));
-  }
-  return await httpRedirect.hasRedirect(url, targetUrls);
+  const sourceUrl = this.toggleHTTP(url);
+  return await httpRedirect.hasRedirect(sourceUrl, url);
 }

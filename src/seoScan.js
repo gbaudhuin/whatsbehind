@@ -20,7 +20,7 @@ const urlHelper = require('./urlHelper');
  * @summary Scan the url
  * @param {string} url - url to scan
  * @param {progressCallback} progressCallback - the progressCallback
- * @returns {Promise<seoScanResult>} A promise that resolve whe the scan is over
+ * @returns {Promise<seoScanResult>} A promise that resolve when the scan is over
  */
 module.exports = async (url, progressCallback) => {
   const result = {};
