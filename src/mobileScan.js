@@ -4,7 +4,6 @@ const httpRequest = require('./httpRequest');
  * @typedef {Object} mobileScanResult
  * @property {boolean} isAMP - indicate if the page uses AMP
  * @property {viewportMetaResult} viewportMeta - viewport meta data
- * @property {boolean} mediaQueries - indicate if the page uses media queries
  */
 
 /**
