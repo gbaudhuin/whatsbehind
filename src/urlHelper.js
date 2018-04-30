@@ -3,6 +3,25 @@ const httpRedirect = require('./httpRedirect');
 const stringHelper = require('./stringHelper');
 
 /**
+ * Check if the URL is absolute.
+ * An URL is considered as absoulute if it starts with a protocol followed by : or if it starts with '//'
+ * @summary Check if URL is absolute
+ * @param {string} url - the url to check
+ * @returns {boolean} True if the URL is absolute
+ */
+exports.isAbsolute = (url) => {
+  if (/^[a-z][a-z0-9+.-]*:/.test(url)) {
+    return true;
+  }
+
+  if (url.startsWith('//')) {
+    return true;
+  }
+
+  return false;
+}
+
+/**
  * @summary Check if two URL are equals
  * @param {String} url1 - the first url
  * @param {String} url2 - the second url

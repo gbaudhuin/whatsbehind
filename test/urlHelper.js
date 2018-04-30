@@ -12,6 +12,33 @@ const REQUEST_RESPONSE = {
 
 
 describe('url', () => {
+  describe('isAbsolute', () => {
+    const urls = [
+      'http://www.peoleo.com',
+      'file://pathToSomething',
+      './peoleo.com',
+      '/peoleo.com',
+      '//www.peoleo.com'
+    ];
+
+    const expectedResults = [
+      true,
+      true,
+      false,
+      false,
+      true
+    ];
+
+    for (let i = 0; i < urls.length; i++) {
+      const url = urls[i];
+      const expectedResult = expectedResults[i];
+      it('returns ' + expectedResult + ' for ' + url, () => {
+        const result = urlHelper.isAbsolute(url);
+        assert.equal(result, expectedResult);
+      })
+    }
+  })
+
   describe('equals', () => {
     describe('ignoreProtocol', () => {
       const urls = [
