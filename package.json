@@ -1,6 +1,6 @@
 {
   "name": "whatsbehind",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "license": "GPL-3.0",
   "description": "A module to check technologies used by websites",
   "author": "Guillaume Baudhuin",
