@@ -31,7 +31,13 @@ describe('Scanner', () => {
       const Scanner = proxyquire('../src/index.js', {
         './seoScan': seoScan || (async () => {
           return {};
-        })
+        }),
+        './mobileScan': {
+          scanUrl: () => {}
+        },
+        './languageScan': {
+          scanUrl: () => {}
+        }
       })
       const scanner = new Scanner(URL);
       scanner.getCurrentDate = () => CURRENT_DATE;
@@ -186,9 +192,27 @@ describe('Scanner', () => {
         wappalyzeCalled = true;
       }
 
+      let seoScanCalled = false;
+      scanner.seoScan = () => {
+        assert(wappalyzeCalled);
+        seoScanCalled = true;
+      }
+
+      let mobileScanCalled = false;
+      scanner.mobileScan = () => {
+        assert(seoScanCalled);
+        mobileScanCalled = true;
+      }
+
+      let languageScanCalled = false;
+      scanner.languageScan = () => {
+        assert(mobileScanCalled);
+        languageScanCalled = true;
+      }
+
       let deepScanCalled = false;
       scanner.deepScan = () => {
-        assert(wappalyzeCalled);
+        assert(languageScanCalled);
         deepScanCalled = true;
       }
 
@@ -469,21 +493,22 @@ describe('Scanner', () => {
         }
       });
       const scanner = new Scanner(URL);
+      scanner.scanDate = new Date();
       scanner.seoScan();
       assert(seoScanCalled);
     })
 
     it('calls report progress', async () => {
       const scanner = getMockScanner();
-      let reportProgressCalled = false;
+      let reportProgressCalled = 0;
       scanner.reportProgress = (status, inStepProgress, descriptionOverride) => {
         assert.equal(status, 'seo');
-        assert.equal(inStepProgress, SEO_SCAN_PROGRESS * 100);
+        assert.equal(inStepProgress, reportProgressCalled == 0 ? 0 : SEO_SCAN_PROGRESS * 100);
         assert(!descriptionOverride);
-        reportProgressCalled = true;
+        reportProgressCalled++;
       }
       await scanner.seoScan();
-      assert(reportProgressCalled);
+      assert(reportProgressCalled, 2);
     })
 
     it('updates set with seoScan results', async () => {
@@ -1180,18 +1205,22 @@ describe('Scanner', () => {
     const NETWORK_ERROR = 'network error';
     const HTTP_STATUS = 'http status';
     const SEO = {seo: 'true'};
+    const MOBILE = {mobile: true};
+    const LANGUAGE = {language: true};
     const DETECTED = { applications: 'anything' };
 
     const EXPECTED_RESULT = {
       url: URL,
       status: STATUS,
-      progress: 57,
+      progress: 57.5,
       progressDescription: PROGRESS_DESCRIPTION,
       scanDate: SCAN_DATE.toISOString(),
       lastUpdate: LAST_UPDATE.toISOString(),
       networkError: NETWORK_ERROR,
       httpStatus: HTTP_STATUS,
       seo: SEO,
+      mobile: MOBILE,
+      language: LANGUAGE,
       detected: DETECTED
     };
 
@@ -1202,6 +1231,8 @@ describe('Scanner', () => {
       scanner.networkError = NETWORK_ERROR;
       scanner.httpStatus = HTTP_STATUS;
       scanner.seo = SEO;
+      scanner.mobile = MOBILE;
+      scanner.language = LANGUAGE;
       scanner.apps = {
         applications: DETECTED
       };

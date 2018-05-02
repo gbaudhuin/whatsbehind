@@ -1,10 +1,13 @@
+const requestErrors = require('request-promise/errors');
 const Wappalyzer = require('wappalyzer');
+
 const Tech = require('./tech');
 const httpRequest = require('./httpRequest');
-const seoScan = require('./seoScan');
-const requestErrors = require('request-promise/errors');
-const Version = require('./version');
+const languageScan = require('./languageScan');
+const mobileScan = require('./mobileScan');
 const ScanResult = require('./scanResult');
+const seoScan = require('./seoScan');
+const Version = require('./version');
 
 const PROGRESS_STEPS = {
   init: {
@@ -24,11 +27,21 @@ const PROGRESS_STEPS = {
   },
   seo: {
     start: 10,
-    end: 15,
+    end: 12,
     defaultDescription: 'Analyzing SEO'
   },
+  mobile: {
+    start: 12,
+    end: 14,
+    defaultDescription: 'Analyzing Mobile Data'
+  },
+  language: {
+    start: 14,
+    end: 16,
+    defaultDescription: 'Analyzing Language Data'
+  },
   deepscan: {
-    start: 15,
+    start: 16,
     end: 99,
     defaultDescription: 'Fine grain analysis'
   },
@@ -62,6 +75,8 @@ class Scanner {
     this.networkError = null;
     this.apps = null;
     this.seo = null;
+    this.mobile = null;
+    this.language = null;
   }
 
   /**
@@ -79,6 +94,8 @@ class Scanner {
 
     await this.wappalyze();
     await this.seoScan();
+    await this.mobileScan();
+    await this.languageScan();
     await this.deepScan();
 
     // end
@@ -153,10 +170,29 @@ class Scanner {
    * @returns {undefined} void
    */
   async seoScan() {
+    this.reportProgress('seo', 0);
     this.seo = await seoScan(this.url, (progress, result) => {
       this.seo = result;
       this.reportProgress('seo', progress * 100);
     });
+  }
+
+  /**
+   * @summary Execute the mobile scan
+   * @returns {undefined} void
+   */
+  async mobileScan() {
+    this.reportProgress('mobile', 0);
+    this.mobile = await mobileScan.scanUrl(this.url);
+  }
+
+  /**
+   * @summary Execute the language scan
+   * @returns {undefined} void
+   */
+  async languageScan() {
+    this.reportProgress('language', 0);
+    this.language = await languageScan.scanUrl(this.url);
   }
 
   /**
@@ -376,6 +412,8 @@ class Scanner {
       this.networkError,
       this.httpStatus,
       this.seo,
+      this.mobile,
+      this.language,
       this.apps && this.apps.applications
     );
 

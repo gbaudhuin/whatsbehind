@@ -12,6 +12,8 @@ const LAST_UPDATE = new Date();
 const NETWORK_ERROR = 'network error';
 const HTTP_STATUS = 200;
 const SEO = {seo: 'true'};
+const MOBILE = {mobile: true};
+const LANGUAGE = {language: true};
 const DETECTED = [{}, {}];
 
 const getScanResult = () => {
@@ -25,6 +27,8 @@ const getScanResult = () => {
     NETWORK_ERROR,
     HTTP_STATUS,
     SEO,
+    MOBILE,
+    LANGUAGE,
     DETECTED
   );
 }
@@ -71,6 +75,21 @@ describe('scanResult', () => {
       assert.equal(scanResult.httpStatus, HTTP_STATUS);
     });
 
+    it('set seo', () => {
+      const scanResult = getScanResult();
+      assert.deepEqual(scanResult.seo, SEO);
+    });
+
+    it('set mobile', () => {
+      const scanResult = getScanResult();
+      assert.deepEqual(scanResult.mobile, MOBILE);
+    });
+
+    it('set language', () => {
+      const scanResult = getScanResult();
+      assert.deepEqual(scanResult.language, LANGUAGE);
+    });
+
     it('set detected', () => {
       const scanResult = getScanResult();
       assert.deepEqual(scanResult.detected, DETECTED);
@@ -87,6 +106,8 @@ describe('scanResult', () => {
         networkError: NETWORK_ERROR,
         httpStatus: HTTP_STATUS,
         seo: SEO,
+        mobile: MOBILE,
+        language: LANGUAGE,
         detected: DETECTED
       }
 
@@ -175,6 +196,8 @@ describe('scanResult', () => {
         networkError: NETWORK_ERROR,
         httpStatus: HTTP_STATUS,
         seo: SEO,
+        mobile: MOBILE,
+        language: LANGUAGE,
         detected: DETECTED
       }
 
