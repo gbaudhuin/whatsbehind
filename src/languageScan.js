@@ -3,9 +3,15 @@ const fs = require('fs');
 const cultureCodes = JSON.parse(fs.readFileSync('./data/language/cultureCodes.json'));
 
 /**
+ * @typedef {Object} languageScanResult
+ * @property {hrefLangResult[]} hrefLangs - the href lang result
+ * @property {string[]} internationalLinks - the international links
+ */
+
+/**
  * @summary Scan the url
  * @param {string} url - the url to scan
- * @returns {Object} the result
+ * @returns {languageScanResult} the result
  */
 exports.scanUrl = async (url) => {
   const html = await httpRequest.execute(url);
@@ -15,7 +21,7 @@ exports.scanUrl = async (url) => {
 /**
  * @summary Scan the HTML
  * @param {string} html - the html to scan
- * @returns {Object} the result
+ * @returns {languageScanResult} the result
  */
 exports.scanHTML = (html) => {
   const result = {};
@@ -58,7 +64,7 @@ exports.scanHrefLangs = (html) => {
 /**
  * @summary Scan international links in the HTML
  * @param {string} html - the html to scan
- * @returns {hrefLangResult[]} the international links presents in the HTML
+ * @returns {string[]} the international links presents in the HTML
  */
 exports.scanLinks = (html) => {
   const regexResults = html.match(/<a [^>]+>[^<]+<\/a>/gi);
