@@ -67,7 +67,7 @@ exports.scanHrefLangs = (html) => {
  * @returns {string[]} the international links presents in the HTML
  */
 exports.scanLinks = (html) => {
-  const regexResults = html.match(/<a [^>]+>[^<]+<\/a>/gi);
+  const regexResults = html.match(/<a\s+(?:[^>]*?\s+)?href=(["'])(.*?)\1/gi);
   if (!regexResults) {
     return [];
   }

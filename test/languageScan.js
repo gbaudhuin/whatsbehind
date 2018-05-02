@@ -139,8 +139,11 @@ describe('languageScan', () => {
       const EXPECTED_RESULT = [];
       cultureCodes.forEach((cultureCode) => {
         const link = 'http://www.peoleo.com/' + cultureCode.code + '/';
+        const link2 = 'http://www.peoleo.com/' + cultureCode.code + '/2';
         EXPECTED_RESULT.push(link)
+        EXPECTED_RESULT.push(link2)
         html += '<a href="' + link + '">link</a>';
+        html += '<a href="' + link2 + '"><img /></a>';
       });
 
       const result = languageScan.scanLinks(html);
