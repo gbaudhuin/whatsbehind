@@ -41,16 +41,22 @@ const getMockHttpRedirect = () => {
 describe('httpRedirect', () => {
   describe('get', () => {
     it('calls httpRequest.execute', () => {
+      const USER_AGENT = 'user agent';
+      const ADDITIONAL_OPTIONS = {
+        additionalOption: 'option'
+      };
       let httpRequestCalled = false;
       const httpRedirect = proxyquire('../src/httpRedirect', {
         './httpRequest': {
-          execute: (url, additionalOptions) => {
-            assert(url, URL);
-            assert(additionalOptions, {
+          execute: (url, additionalOptions, overrideUserAgent) => {
+            assert.equal(url, URL);
+            assert.deepEqual(additionalOptions, {
               simple: false,
               followRedirect: true,
-              resolveWithFullResponse: true
+              resolveWithFullResponse: true,
+              additionalOption: 'option'
             })
+            assert.equal(overrideUserAgent, USER_AGENT);
             httpRequestCalled = true;
             return {
               request: {
@@ -62,7 +68,7 @@ describe('httpRedirect', () => {
           }
         }
       })
-      httpRedirect.get(URL);
+      httpRedirect.get(URL, ADDITIONAL_OPTIONS, USER_AGENT);
       assert(httpRequestCalled);
     });
 

@@ -7,14 +7,21 @@ const mobileScan = require('../src/mobileScan');
 
 const URL = 'http://www.url.com';
 const HTTP_REQUEST_RESULT = 'something';
+const SCAN_BODY_RESULT = {
+  something: 'anything'
+};
+const SCAN_MOBLE_REDIRECTION_RESULT = 'mobile redirection';
 const getMockMobileScan = () => {
-  return proxyquire('../src/mobileScan', {
+  const mobileScan = proxyquire('../src/mobileScan', {
     './httpRequest': {
       execute: async () => {
         return HTTP_REQUEST_RESULT;
       }
     }
   })
+
+  mobileScan.scanRedirection = async () => SCAN_MOBLE_REDIRECTION_RESULT;
+  return mobileScan;
 }
 
 describe('mobileScan', () => {
@@ -41,23 +48,84 @@ describe('mobileScan', () => {
       mobileScan.scanBody = (html) => {
         assert.equal(html, HTTP_REQUEST_RESULT);
         scanBodyCalled = true;
+        return {};
       }
       await mobileScan.scanUrl(URL);
       assert(scanBodyCalled);
     });
 
-    it('returns scanBody result', async () => {
-      const SCAN_BODY_RESULT = {
-        scanBody: 'result'
-      };
+    it('calls scanRedirection', async () => {
       const mobileScan = getMockMobileScan();
-      mobileScan.scanBody = () => {
-        return SCAN_BODY_RESULT;
+      let scanRedirectionCalled = false;
+      mobileScan.scanRedirection = (url) => {
+        assert.equal(url, URL);
+        scanRedirectionCalled = true;
       }
+      await mobileScan.scanUrl(URL);
+      assert(scanRedirectionCalled);
+    })
+
+    it('returns expected result', async () => {
+      const EXPECTED_RESULT = {
+        redirection: SCAN_MOBLE_REDIRECTION_RESULT
+      }
+      Object.keys(SCAN_BODY_RESULT).forEach((key) => {
+        EXPECTED_RESULT[key] = SCAN_BODY_RESULT[key];
+      })
+      const mobileScan = getMockMobileScan();
+      mobileScan.scanBody = () => SCAN_BODY_RESULT;
       const result = await mobileScan.scanUrl(URL);
-      assert.deepEqual(result, SCAN_BODY_RESULT);
+      assert.deepEqual(result, EXPECTED_RESULT);
     });
   });
+
+  describe('scanRedirection', () => {
+    const REDIRECTIONS_NO_USER_AGENT = [
+      [],
+      [],
+      [{redirectUri: 'redirection' }],
+      [{redirectUri: 'redirection'}],
+      [{redirectUri: 'redirection'}]
+    ];
+    const REDIRECTIONS_MOBILE_USER_AGENT = [
+      [],
+      [{redirectUri: 'mobile redirection'}],
+      [],
+      [{redirectUri: 'redirection'}],
+      [{redirectUri: 'mobile redirection'}]
+    ];
+    const EXPECTED_RESULTS = [
+      null,
+      'mobile redirection',
+      null,
+      null,
+      'mobile redirection'
+    ]
+
+    for (let i = 0; i < REDIRECTIONS_NO_USER_AGENT.length; i++) {
+      const redirections = REDIRECTIONS_NO_USER_AGENT[i];
+      const mobileRedirections = REDIRECTIONS_MOBILE_USER_AGENT[i];
+      const expectedResult = EXPECTED_RESULTS[i];
+      it('returns ' + expectedResult + ' for [' + redirections + '] and [' + mobileRedirections + ']', async () => {
+        let redirectIndex = 0;
+        const mobileScan = proxyquire('../src/mobileScan', {
+          './httpRedirect': {
+            get: async (url, additionalOptions, userAgentOverride) => {
+              assert.equal(url, URL);
+              assert.deepEqual(additionalOptions, null);
+              assert.deepEqual(userAgentOverride, redirectIndex === 0 ? null : 'Mozilla/5.0 (Linux; U; Android 4.0.3; ko-kr; LG-L160L Build/IML74K) AppleWebkit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30');
+              const result = redirectIndex === 0 ? redirections : mobileRedirections;
+              redirectIndex++;
+              return result;
+            }
+          }
+        });
+        const result = await mobileScan.scanRedirection(URL);
+        assert.equal(redirectIndex, 2);
+        assert.deepEqual(result, expectedResult);
+      })
+    }
+  })
 
   describe('scanBody', () => {
     it('calls scanAMP', async () => {

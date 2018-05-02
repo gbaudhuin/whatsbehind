@@ -1,9 +1,9 @@
 const httpRequest = require('./httpRequest');
+const httpRedirect = require('./httpRedirect');
 
 /**
- * @typedef {Object} mobileScanResult
- * @property {boolean} isAMP - indicate if the page uses AMP
- * @property {viewportMetaResult} viewportMeta - viewport meta data
+ * @typedef {mobileBodyScanResult} mobileScanResult
+ * @property {string} redirection - indicate if the mobile redirection of the site
  */
 
 /**
@@ -13,13 +13,45 @@ const httpRequest = require('./httpRequest');
  */
 exports.scanUrl = async (url) => {
   const body = await httpRequest.execute(url);
-  return this.scanBody(body);
+  const result = await this.scanBody(body);
+  result.redirection = await this.scanRedirection(url);
+  return result;
 }
+
+/**
+ * @summary Scan the url to see if the site has a mobile redirection
+ * @param {string} url - the url to scan
+ * @returns {Promise<string>} A promise that resolve when the scan is over
+ */
+exports.scanRedirection = async (url) => {
+  try {
+    const initialRedirections = await httpRedirect.get(url);
+    const mobileUserAgent = 'Mozilla/5.0 (Linux; U; Android 4.0.3; ko-kr; LG-L160L Build/IML74K) AppleWebkit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30';
+    const mobileRedirections = await httpRedirect.get(url, null, mobileUserAgent);
+
+    const lastInitialRedirection = initialRedirections.length === 0 ? null : initialRedirections.pop().redirectUri;
+    const lastMobileRedirection = mobileRedirections.length === 0 ? null : mobileRedirections.pop().redirectUri;
+
+    if (lastInitialRedirection === lastMobileRedirection) {
+      return null;
+    }
+
+    return lastMobileRedirection;
+  } catch (err) {
+    return null;
+  }
+}
+
+/**
+ * @typedef {Object} mobileBodyScanResult
+ * @property {boolean} isAMP - indicate if the page uses AMP
+ * @property {viewportMetaResult} viewportMeta - viewport meta data
+ */
 
 /**
  * @summary Scan the HTML page
  * @param {string} html - the html to scan
- * @returns {mobileScanResult} The scan result
+ * @returns {mobileBodyScanResult} The scan result
  */
 exports.scanBody = async (html) => {
   const result = {};

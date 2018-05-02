@@ -2,18 +2,32 @@ const httpRequest = require('./httpRequest');
 const urlHelper = require('./urlHelper');
 
 /**
+ * @typedef {Object} redirectResult
+ * @property {number} statusCode - the status code
+ * @property {string} redirectUri - the redirect uri
+ */
+
+/**
  * @summary Returns the redirects of a request
  * @param {String} url - the url to request
- * @returns {Promise<Array>} the redirects of the request
+ * @param {Object} [additionalOptions] - additional options that will be added to the default request options
+ * @param {string} [userAgentOverride] - override the default user agent
+ * @returns {Promise<redirectResult[]>} the redirects of the request
  */
-const get = async (url) => {
-  const additionalOptions = {
+const get = async (url, additionalOptions = null, userAgentOverride = null) => {
+  const options = {
     simple: false,
     followRedirect: true,
     resolveWithFullResponse: true
   }
 
-  const result = await httpRequest.execute(url, additionalOptions);
+  if (additionalOptions) {
+    Object.keys(additionalOptions).forEach((additionalOptionKey) => {
+      options[additionalOptionKey] = additionalOptions[additionalOptionKey];
+    })
+  }
+
+  const result = await httpRequest.execute(url, options, userAgentOverride);
   return result.request._redirect.redirects;
 }
 

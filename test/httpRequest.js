@@ -65,6 +65,31 @@ describe('httpRequest', () => {
       const result = httpRequest.getOptions(URL, additionalOptions);
       assert.deepEqual(result, EXPECTED_RESULT);
     })
+
+    it('updates the user agent', () => {
+      const USER_AGENT = 'overrided user agent';
+      const EXPECTED_RESULT = {
+        url: URL,
+        timeout: 5000,
+        rejectUnauthorized: false,
+        requestCert: true,
+        agent: false,
+        jar: true, // cookies
+        gzip: true,
+        strictSSL: false,
+        headers: {
+          Accept: 'Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+          Connection: 'keep-alive',
+          'Cache-Control': 'max-age=0',
+          'Accept-Encoding': 'gzip, deflate, br',
+          'Accept-Language': 'en-US,en;q=0.7',
+          'User-Agent': USER_AGENT
+        },
+      };
+
+      const result = httpRequest.getOptions(URL, null, USER_AGENT);
+      assert.deepEqual(result, EXPECTED_RESULT);
+    })
   })
 
   describe('execute', () => {
@@ -82,15 +107,17 @@ describe('httpRequest', () => {
       const additionalOptions = {
         anything: 'something'
       };
+      const USER_AGENT = 'override user agent';
       const previousGetOptions = httpRequest.getOptions;
       let getOptionsCalled = false;
-      httpRequest.getOptions = (url, pAdditionalOptions) => {
+      httpRequest.getOptions = (url, pAdditionalOptions, overrideUserAgent) => {
         assert.equal(url, URL);
         assert.deepEqual(pAdditionalOptions, additionalOptions);
+        assert.equal(overrideUserAgent, USER_AGENT);
         getOptionsCalled = true;
         return true;
       }
-      await httpRequest.execute(URL, additionalOptions);
+      await httpRequest.execute(URL, additionalOptions, USER_AGENT);
       httpRequest.getOptions = previousGetOptions;
       assert(getOptionsCalled);
     });

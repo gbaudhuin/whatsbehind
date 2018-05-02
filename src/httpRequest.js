@@ -4,9 +4,10 @@ const request = require('request-promise');
  * @summary Returns the default request options
  * @param {String} url - the url to request
  * @param {Object} [additionalOptions] - the additional options that will be added to the default request options
+ * @param {string} [userAgentOverride] - override the default user agent
  * @returns {Object} the default request options
  */
-exports.getOptions = (url, additionalOptions = null) => {
+exports.getOptions = (url, additionalOptions = null, userAgentOverride = null) => {
   const ret = {
     url,
     timeout: 5000,
@@ -22,7 +23,7 @@ exports.getOptions = (url, additionalOptions = null) => {
       'Cache-Control': 'max-age=0',
       'Accept-Encoding': 'gzip, deflate, br',
       'Accept-Language': 'en-US,en;q=0.7',
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+      'User-Agent': userAgentOverride || 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
     }
   };
 
@@ -39,9 +40,10 @@ exports.getOptions = (url, additionalOptions = null) => {
  * @summary Request the URL with the default options
  * @param {String} url - the url to request
  * @param {Object} [additionalOptions] - the additional options that will be added to the default request options
- * @returns {Object} the default request options
+ * @param {string} [userAgentOverride] - override the default user agent
+ * @returns {Object} the request result
  */
-exports.execute = async (url, additionalOptions = null) => {
-  const options = this.getOptions(url, additionalOptions);
+exports.execute = async (url, additionalOptions = null, userAgentOverride = null) => {
+  const options = this.getOptions(url, additionalOptions, userAgentOverride);
   return await request(options);
 }
