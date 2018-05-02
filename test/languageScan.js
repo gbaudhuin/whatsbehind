@@ -1,11 +1,13 @@
 const assert = require('assert');
 const describe = require('mocha').describe;
 const it = require('mocha').it;
+const fs = require('fs');
+const path = require('path');
 const proxyquire = require('proxyquire');
 const languageScan = require('../src/languageScan');
 
-const fs = require('fs');
-const cultureCodes = JSON.parse(fs.readFileSync('./data/language/cultureCodes.json'));
+const cultureCodesPath = path.resolve(__dirname, '../data/language/cultureCodes.json');
+const cultureCodes = JSON.parse(fs.readFileSync(cultureCodesPath));
 
 const URL = 'http://www.peoleo.com';
 const HTML = 'html';

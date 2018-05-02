@@ -1,6 +1,9 @@
-const httpRequest = require('./httpRequest');
 const fs = require('fs');
-const cultureCodes = JSON.parse(fs.readFileSync('./data/language/cultureCodes.json'));
+const httpRequest = require('./httpRequest');
+const path = require('path');
+
+const cultureCodesPath = path.resolve(__dirname, '../data/language/cultureCodes.json');
+const cultureCodes = JSON.parse(fs.readFileSync(cultureCodesPath));
 
 /**
  * @typedef {Object} languageScanResult
