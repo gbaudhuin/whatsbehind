@@ -84,7 +84,7 @@ exports.scanAMP = (html) => {
  */
 exports.scanViewportMetas = (html) => {
   const r = {
-    hasWitdhEqualsDeviceWith: false,
+    hasWitdhEqualsDeviceWidth: false,
     hasInitialScaleEquals1: false,
     hasMinimumScaleEquals1: false,
     hasShrinkToFitEqualsNo: false
@@ -94,7 +94,7 @@ exports.scanViewportMetas = (html) => {
   for (let i = 0; i < metas.length; i++) {
     const meta = metas[i];
     if (this.isDeviceWidthViewportMeta(meta)) {
-      r.hasWitdhEqualsDeviceWith = true;
+      r.hasWitdhEqualsDeviceWidth = true;
     }
     if (this.isInitialScaleViewportMeta(meta)) {
       r.hasInitialScaleEquals1 = true;

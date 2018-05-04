@@ -216,7 +216,7 @@ describe('mobileScan', () => {
     ];
 
     const bools = [
-      'hasWitdhEqualsDeviceWith',
+      'hasWitdhEqualsDeviceWidth',
       'hasInitialScaleEquals1',
       'hasMinimumScaleEquals1',
       'hasShrinkToFitEqualsNo'
