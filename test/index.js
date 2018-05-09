@@ -503,7 +503,7 @@ describe('Scanner', () => {
       let reportProgressCalled = 0;
       scanner.reportProgress = (status, inStepProgress, descriptionOverride) => {
         assert.equal(status, 'seo');
-        assert.equal(inStepProgress, reportProgressCalled == 0 ? 0 : SEO_SCAN_PROGRESS * 100);
+        assert.equal(inStepProgress, reportProgressCalled === 0 ? 0 : SEO_SCAN_PROGRESS * 100);
         assert(!descriptionOverride);
         reportProgressCalled++;
       }
